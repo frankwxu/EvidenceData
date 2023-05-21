@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@</string>
+			<key>one</key>
+			<string>%@</string>
+			<key>many</key>
+			<string>%@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%@</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Не удается загрузить «%2$#@title@» и еще %lu других объекта. Повторите попытку позже.</string>
+			<key>one</key>
+			<string>Не удается загрузить «%2$#@title@» и еще %lu другой объект. Повторите попытку позже.</string>
+			<key>many</key>
+			<string>Не удается загрузить «%2$#@title@» и еще %lu других объектов. Повторите попытку позже.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Не удается загрузить «%2$#@title@» и еще %lu другого объекта. Повторите попытку позже.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Самые последние выпуски в медиатеке автоматически перезагружены. Еще %lu более старых выпуска ожидают загрузки.</string>
+			<key>one</key>
+			<string>Самые последние выпуски в медиатеке автоматически перезагружены. Еще %lu более старый выпуск ожидает загрузки.</string>
+			<key>many</key>
+			<string>Самые последние выпуски в медиатеке автоматически перезагружены. Еще %lu более старых выпусков ожидают загрузки.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Самые последние выпуски в медиатеке автоматически перезагружены. Еще %lu более старого выпуска ожидает загрузки.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Не удается загрузить подкасты</string>
+			<key>one</key>
+			<string>Не удается загрузить подкаст</string>
+			<key>many</key>
+			<string>Не удается загрузить подкасты</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Не удается загрузить подкасты</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Еще %u выпуска из: %@</string>
+			<key>one</key>
+			<string>Еще %u выпуск из «%@»</string>
+			<key>many</key>
+			<string>Еще %u выпусков из: %@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Еще %u выпуска из: %@</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Хотите продолжить прослушивание %lu выпусков, выбранных Вами, по окончании воспроизведения?</string>
+			<key>one</key>
+			<string>Хотите продолжить прослушивание %lu выпуска, выбранного Вами, по окончании воспроизведения?</string>
+			<key>many</key>
+			<string>Хотите продолжить прослушивание %lu выпусков, выбранных Вами, по окончании воспроизведения?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Хотите продолжить прослушивание %lu выпуска, выбранного Вами, по окончании воспроизведения?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u новых выпуска</string>
+			<key>one</key>
+			<string>%u новый выпуск</string>
+			<key>many</key>
+			<string>%u новых выпусков</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u нового выпуска</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Доступны %lu новых выпуска.</string>
+			<key>one</key>
+			<string>Доступен %lu новый выпуск.</string>
+			<key>many</key>
+			<string>Доступны %lu новых выпусков.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Доступно %lu нового выпуска.</string>
+		</dict>
+	</dict>
+	<key>Unplayed</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>27</key>
+			<string>Невоспроизведенные</string>
+			<key>1</key>
+			<string>Невоспр.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

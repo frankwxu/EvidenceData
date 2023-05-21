@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>And %d more reminders…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_reminders@</string>
+		<key>num_reminders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Ja 1 muu muistutus…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Ja %d muuta muistutusta…</string>
+		</dict>
+	</dict>
+	<key>Shared with %d people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Jaettu %d käyttäjän kanssa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Jaettu %d käyttäjän kanssa</string>
+		</dict>
+	</dict>
+	<key>Years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>vuosi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>vuosi</string>
+		</dict>
+	</dict>
+	<key>Outdent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Ulonna muistutusta</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Ulonna %d muistutusta</string>
+			<key>zero</key>
+			<string>Ulonna muistutusta</string>
+		</dict>
+	</dict>
+	<key>Days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>päivä</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>päivä</string>
+		</dict>
+	</dict>
+	<key>Weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>viikko</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>viikko</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Due</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ muistutus tehtävänä</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ muistutusta tehtävänä</string>
+		</dict>
+	</dict>
+	<key>%ld Lists</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@list_count@</string>
+		<key>list_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%ld lista</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld listaa</string>
+		</dict>
+	</dict>
+	<key>%d Images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d kuva</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kuvaa</string>
+		</dict>
+	</dict>
+	<key>Indent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Sisennä muistutusta</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Sisennä %d muistutusta</string>
+			<key>zero</key>
+			<string>Sisennä muistutusta</string>
+		</dict>
+	</dict>
+	<key>Hide %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Kätke %d kohde</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Kätke %d kohdetta</string>
+		</dict>
+	</dict>
+	<key>%@ Items Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ kohde tänään</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ kohdetta tänään</string>
+			<key>zero</key>
+			<string>Ei tehtäviä</string>
+		</dict>
+	</dict>
+	<key>Show %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Näytä %d kohde</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Näytä %d kohdetta</string>
+		</dict>
+	</dict>
+	<key>%d years (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>vuosi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d vuotta</string>
+		</dict>
+	</dict>
+	<key>%d weeks (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>viikko</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikkoa</string>
+		</dict>
+	</dict>
+	<key>%@ and %d others</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ ja %#@num_others@</string>
+		<key>num_others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 muu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d muuta</string>
+		</dict>
+	</dict>
+	<key>Months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>kuukausi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>kuukausi</string>
+		</dict>
+	</dict>
+	<key>%d hours (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>tunti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tuntia</string>
+		</dict>
+	</dict>
+	<key>%d Completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d suoritettu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d suoritettua</string>
+		</dict>
+	</dict>
+	<key>%@ Items Due Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ määräpäivä tänään</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ määräpäivää tänään</string>
+			<key>zero</key>
+			<string>Ei määräpäiviä tänään</string>
+		</dict>
+	</dict>
+	<key>Move these reminders to a new list</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Siirrä tämä muistutus toiseen listaan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Siirrä nämä muistutukset toiseen listaan</string>
+		</dict>
+	</dict>
+	<key>%@ Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ vanhentunut</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ vanhentunutta</string>
+		</dict>
+	</dict>
+	<key>%@ Today + %@ Others</key>
+	<dict>
+		<key>others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ muu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ muuta</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@today@ + %2$#@others@</string>
+		<key>today</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ tänään</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ tänään</string>
+		</dict>
+	</dict>
+	<key>%d days (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>päivä</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivää</string>
+		</dict>
+	</dict>
+	<key>%@ Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ tänään</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ tänään</string>
+			<key>zero</key>
+			<string>Ei mitään tänään</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ muistutus vanhentunut</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ muistutusta vanhentunut</string>
+		</dict>
+	</dict>
+	<key>%d months (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>kuukausi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kuukautta</string>
+		</dict>
+	</dict>
+	<key>Hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>tunti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>tunti</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

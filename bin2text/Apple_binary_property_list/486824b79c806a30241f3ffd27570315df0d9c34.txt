@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ dnů</string>
+			<key>many</key>
+			<string>%@ dnů</string>
+			<key>one</key>
+			<string>den</string>
+			<key>other</key>
+			<string>%@ dnů</string>
+			<key>two</key>
+			<string>%@ dnů</string>
+			<key>zero</key>
+			<string>%@ dnů</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ minut</string>
+			<key>many</key>
+			<string>%@ minut</string>
+			<key>one</key>
+			<string>min.</string>
+			<key>other</key>
+			<string>%@ minut</string>
+			<key>two</key>
+			<string>%@ minut</string>
+			<key>zero</key>
+			<string>%@ minut</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ měsíců</string>
+			<key>many</key>
+			<string>%@ měsíců</string>
+			<key>one</key>
+			<string>měsíc</string>
+			<key>other</key>
+			<string>%@ měsíců</string>
+			<key>two</key>
+			<string>%@ měsíců</string>
+			<key>zero</key>
+			<string>%@ měsíců</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ týdnů</string>
+			<key>many</key>
+			<string>%@ týdnů</string>
+			<key>one</key>
+			<string>týden</string>
+			<key>other</key>
+			<string>%@ týdnů</string>
+			<key>two</key>
+			<string>%@ týdnů</string>
+			<key>zero</key>
+			<string>%@ týdnů</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ roků</string>
+			<key>many</key>
+			<string>%@ roků</string>
+			<key>one</key>
+			<string>rok</string>
+			<key>other</key>
+			<string>%@ roků</string>
+			<key>two</key>
+			<string>%@ roků</string>
+			<key>zero</key>
+			<string>%@ roků</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Platí po dobu %@ týdnů</string>
+			<key>many</key>
+			<string>Platí po dobu %@ týdnů</string>
+			<key>one</key>
+			<string>Platí %@ týden</string>
+			<key>other</key>
+			<string>Platí po dobu %@ týdnů</string>
+			<key>two</key>
+			<string>Platí po dobu %@ týdnů</string>
+			<key>zero</key>
+			<string>Platí po dobu %@ týdnů</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Platí po dobu %@ dní</string>
+			<key>many</key>
+			<string>Platí po dobu %@ dní</string>
+			<key>one</key>
+			<string>Platí %@ den</string>
+			<key>other</key>
+			<string>Platí po dobu %@ dní</string>
+			<key>two</key>
+			<string>Platí po dobu %@ dní</string>
+			<key>zero</key>
+			<string>Platí po dobu %@ dní</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Platí po dobu %@ měsíců</string>
+			<key>many</key>
+			<string>Platí po dobu %@ měsíců</string>
+			<key>one</key>
+			<string>Platí %@ měsíc</string>
+			<key>other</key>
+			<string>Platí po dobu %@ měsíců</string>
+			<key>two</key>
+			<string>Platí po dobu %@ měsíců</string>
+			<key>zero</key>
+			<string>Platí po dobu %@ měsíců</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Platí po dobu %@ let</string>
+			<key>many</key>
+			<string>Platí po dobu %@ let</string>
+			<key>one</key>
+			<string>Platí %@ rok</string>
+			<key>other</key>
+			<string>Platí po dobu %@ let</string>
+			<key>two</key>
+			<string>Platí po dobu %@ let</string>
+			<key>zero</key>
+			<string>Platí po dobu %@ let</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

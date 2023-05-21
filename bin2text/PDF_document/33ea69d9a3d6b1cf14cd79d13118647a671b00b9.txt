@@ -1,0 +1,3062 @@
+Using Apple “Bug Reporting” for forensic purposes
+
+Version 1.2 – 20/5/2019
+
+
+
+Version 1.2 – Revised by Mattia Epifani, Adrian Leong and Heather Mahalik on 20/5/2019
+
+Version 1.1 – External revision and testing by Peter Maaswinkel and Pranav Anand on 19/5/2019
+
+Version 1-0 – Revised by Mattia Epifani, Adrian Leong and Heather Mahalik on 10/5/2019
+
+Version 0.9 – Revised by Mattia Epifani on 9/5/2019
+
+Version 0.7 – Revised by Adrian Leong and Heather Mahalik on 9/5/2019
+
+Version 0.6 – Revised by Adrian Leong on 8/5/2019
+
+Version 0.5 – Revised by Mattia Epifani on 7/5/2019
+
+Version 0.4 – Revised by Mattia Epifani on 7/5/2019
+
+Version 0.3 – Revised by Heather Mahalik on 7/5/2019
+
+Version 0.2 – Revised by Adrian Leong on 6/5/2019
+
+Version 0.1 – First draft by Mattia Epifani on 5/5/2019
+
+
+
+
+
+Document available at http://www.for585.com/sysdiagnose
+
+
+
+Scripts available at https://github.com/cheeky4n6monkey/iOS_sysdiagnose_forensic_scripts
+
+
+
+Mattia Epifani
+
+
+
+Adrian Leong
+
+
+
+Heather Mahalik
+
+
+
+Table of contents
+
+Preface ....................................................................................................................................................................... 2
+
+Introduction ............................................................................................................................................................... 2
+
+Crash logs ................................................................................................................................................................... 5
+
+Extracting Crash Logs from an iOS device ............................................................................................................. 5
+
+Synchronize an iOS device with a PC/Mac with iTunes .................................................................................... 6
+
+Using idevicecrashreport tool from libimobiledevice ...................................................................................... 7
+
+Using an iOS device manager tool supporting Crash Logs ............................................................................... 8
+
+Using Elcomsoft iOS Forensic Toolkit ............................................................................................................... 9
+
+Using AirDrop ................................................................................................................................................. 10
+
+Using Xcode .................................................................................................................................................... 11
+
+sysdiagnose .............................................................................................................................................................. 12
+
+Battery Life logs ....................................................................................................................................................... 15
+
+Disk Space Diagnostics (FS Metadata) ..................................................................................................................... 18
+
+Wi-Fi logs ................................................................................................................................................................. 21
+
+Installing a profile on an iOS device ......................................................................................................................... 24
+
+Uploading a profile using AirDrop ....................................................................................................................... 24
+
+Uploading a profile using Apple Configurator 2 .................................................................................................. 26
+
+Analyzing logs .......................................................................................................................................................... 29
+
+sysdiagnose ......................................................................................................................................................... 29
+
+“root” folder ................................................................................................................................................... 29
+
+“ASPSnapshots” folder ................................................................................................................................... 30
+
+“brctl” folder ................................................................................................................................................... 30
+
+“crashes and spin” folder ............................................................................................................................... 30
+
+“errors” folder ................................................................................................................................................ 31
+
+“ioreg” folder .................................................................................................................................................. 31
+
+“logs” folder .................................................................................................................................................... 32
+
+“Preferences” folder ....................................................................................................................................... 49
+
+“summaries” folder ........................................................................................................................................ 49
+
+“system_logs. logarchive” folder .................................................................................................................... 50
+
+“WiFi” folder ................................................................................................................................................... 53
+
+Battery Life .......................................................................................................................................................... 65
+
+Wi-Fi .................................................................................................................................................................... 65
+
+FSMetadata ......................................................................................................................................................... 66
+
+Conclusions and proposed methodology ................................................................................................................ 68
+
+Future works ............................................................................................................................................................ 71
+
+Appendix 1 – Extracting sysdiagnose file in Linux ................................................................................................... 72
+
+Appendix 2 – Developed scripts .............................................................................................................................. 73
+
+
+
+1
+
+
+
+
+
+Preface
+
+
+
+The work described in this paper stemmed from a question that was posted in the FOR585 Alumni group. This group was designed by the course authors for students who have taken the SANS
+
+Smartphone Forensics Analysis course to bounce ideas, questions and safely post about topics that are just puzzling or holding back their investigations. In this group, we collaborate, drive research and sometimes come up with some amazing research that is cutting edge.
+
+
+
+One question asked and a response of a case scenario of a missing person was all it took for several of us to volunteer to do some research on the sysdiagnose log created on iOS devices.
+
+Sometimes it just takes something to spark a little fire of interest and then the magic begins. We dove right into creating data samples, researching what is stored in the sysdiagnose log, determining methods to extract the data and last, but not least, developing scripts to parse it forensically. This type of collaboration is what excites us in the DFIR community. This research was worked on spanning many time zones, forgiving busy work schedules and lives all for the love of what we do – solving mysteries and determining the truth.
+
+
+
+One thing that stands out in our work here is the order of volatility. We are going to ask you to step out of your comfort zone and approach these iOS devices in a different manner than most of us have learned. We want you to interact with the device in order to extract data that can be damaged, overwritten or destroyed if not captured immediately. These steps are as important as obtaining a memory dump from a computer during an investigation. In the past, most of us started with a forensic extraction and then interacted with the device to verify we got what we needed or to simply examine secure applications that were not properly extracted. For this work, we want you to follow the provided steps prior to acquisition in order to obtain the volatile logs that can be lost or overwritten should the order be completed incorrectly. I have learned early in my career to validate and test what doesn’t make sense or worries you. If the acquisition methods recommended in this paper worry you – don’t trust us – test it! When you stumble upon a file that you haven’t seen before, create a sample data set and try to make sense of the evidence.
+
+When you are still at a loss, reach out to the community and ask for help. Simply pushing buttons on commercial and open source tools and hoping for the correct answer is not enough. We need to stand behind our work. The DFIR Review is another great way to have your work validated.
+
+Validation and peer review are so important especially when it comes to removing the burden of imposter syndrome and wondering, “what if my blog and research were incorrect or incomplete?”
+
+
+
+Research is probably the favorite part of my career in DFIR. It motivates me because I am curious and I love uncovering something that helps all of us work our investigations. I love collaborating with people who are just as passionate about mobile devices as me. We hope to stir up interest with this paper, with other blogs and with the ongoing topics that haven’t been touched in this community. Everyone who wants to should consider doing some research. We have left many open ended opportunities in this paper and hope to see you dive into it and share back. We are only as strong as the weakest link. Don’t let that link be your trust in a tool. Validate!
+
+
+
+Should you wish to contact us regarding this research, we can be reached via Email and Twitter.
+
+• Mattia:
+
+
+
+mattia.epifani@realitynet.it
+
+@mattiaep
+
+• Heather:
+
+
+
+hmahalik@gmail.com
+
+
+
+@HeatherMahalik
+
+• Adrian:
+
+
+
+cheeky4n6monkey@gmail.com
+
+@cheeky4n6monkey
+
+2
+
+
+
+Introduction
+
+
+
+Apple provides “a web-based tool that developers can use to report issues with Apple software and services, request enhancement to APIs and tools and track the status of their feedback”1. To correctly use this tool and submit Apple relevant information to identify the issue, it is mandatory to “Collect and attach any relevant logs”.
+
+
+
+The Apple web page “Profiles and Logs”2 contains instructions about how to extract logs from different Apple operating systems, including Mac OS X, iOS, tvOS and WatchOS.
+
+
+
+Only considering iOS, the page contains instructions on how to generate and extract 71 different type of logs:
+
+
+
+1. 3rd Party Apps
+
+2. Accounts/AuthKit
+
+3. Ad Platforms
+
+4. AirTraffic
+
+5. APNS (Apple Push Notification Service)
+
+6. App Store/iTunes Store
+
+7. Apple Pay
+
+8. Background Networking
+
+9. Baseband
+
+10. Battery Life
+
+11. Bluetooth
+
+12. Calendar/Reminders
+
+13. Carousel
+
+14. CarPlay
+
+15. CFNetwork
+
+16. Charles Logs
+
+17. Classroom
+
+18. CloudKit
+
+19. Console Logs
+
+20. Contacts Data Export
+
+21. Continuity (IDS)
+
+22. CoreMedia (HTTP Live Streaming)
+
+23. Crash Logs
+
+24. Device-specific Information
+
+25. Disk Space Diagnostics (FSMetadata)
+
+26. Enterprise SSO and Kerberos
+
+27. FaceTime
+
+28. Handoff
+
+29. HangTracer (Slow UI)
+
+30. Health Database Extraction
+
+31. HealthKit
+
+32. Home app/HomeKit
+
+
+
+1 https://developer.apple.com/bug-reporting/
+
+2 https://developer.apple.com/bug-reporting/profiles-and-logs/
+
+3
+
+
+
+
+
+33. HomePod
+
+34. iAP
+
+35. iCloud Backup
+
+36. iCloud Drive
+
+37. iCloud Key Value
+
+38. iCloud Photos
+
+39. iWork
+
+40. Location Services
+
+41. Mail Sync Diagnostics
+
+42. Mail
+
+43. Managed Configuration (MDM)
+
+44. Maps
+
+45. mDNSResponder
+
+46. Media Player
+
+47. Messages
+
+48. Multipeer Connectivity
+
+49. Music
+
+50. Phone (General)
+
+51. Photos Logging
+
+52. Podcasts
+
+53. Schoolwork/ClassKit
+
+54. Screenshots and Screen Recordings
+
+55. Siri
+
+56. Slow Launches (Launch Hangs)
+
+57. Software Update
+
+58. Spotlight
+
+59. Stackshots
+
+60. Sync Diagnostics (DataAccess)
+
+61. sysdiagnose
+
+62. Tailspin
+
+63. TCP Dump
+
+64. Test Cases/Sample Projects
+
+65. TestFlight
+
+66. Touch ID
+
+67. Unlock
+
+68. Updater
+
+69. VPN (Network Extension)
+
+70. Wallet
+
+71. Wi-Fi
+
+
+
+Some logs (e.g. Crash Logs and Console Logs) are generated automatically by the operating system during its execution while others can be generated with specific user actions (e.g. sysdiagnose).
+
+Moreover, some logs require the installation of a profile on the device (e.g. Disk Space Diagnostics and Battery Life).
+
+
+
+The usage and analysis of these logs for forensic purposes is an unexplored field: this research highlights the most relevant information and logs we have identified so far.
+
+
+
+
+
+4
+
+
+
+
+
+Crash logs
+
+
+
+Crash Logs have been used for a long time in iOS: they are automatically generated by the operating system when an application crashes. They can be used to understand the conditions under which the application terminated. They are stored on the device in the following paths
+
+
+
+• /private/var/mobile/Library/Logs/CrashReporter/
+
+
+
+• /private/var/root/Library/Logs/CrashReporter/
+
+
+
+A detailed presentation on Crashes and Crash Logs is available on the Apple website3. Various blog posts are available on how to use these logs for debugging4 purposes.
+
+
+
+While they do not typically contain user data, forensically they can provide a trace of “execution”
+
+of an application at a certain time. Because they are managed and generated by the operating system, they can persist after an application is uninstalled. In some instances, the crash log may be the only trace that the application ever existed on the device or was previously used.
+
+
+
+Extracting Crash Logs from an iOS device
+
+
+
+The methodology used to extract Crash Logs can be used to acquire other types of logs from an iOS device. So far, we have identified the following 6 methods for the extraction of Crash Logs.
+
+
+
+1. Synchronize the iOS device with a PC/Mac with iTunes
+
+2. Using idevicecrashreport tool from libimobiledevice
+
+3. Using an iOS device manager tool supporting Crash Logs
+
+4. Using Elcomsoft iOS Forensic Toolkit
+
+5. Using AirDrop
+
+6. Using XCode
+
+
+
+
+
+3 https://developer.apple.com/videos/play/wwdc2018/414/
+
+4 https://www.raywenderlich.com/2805-demystifying-ios-application-crash-logs
+
+5
+
+
+
+
+
+Synchronize an iOS device with a PC/Mac with iTunes
+
+
+
+Detailed instructions on how to sync an iOS device with a PC/Mac with iTunes are available at these links:
+
+
+
+1. https://support.apple.com/en-us/HT201253
+
+2. https://download.developer.apple.com/iOS/iOS_Logs/Crash_Log_Instructions__iOS.pdf5
+
+
+
+The synchronization through iTunes consists of three steps:
+
+
+
+a. Connect the iOS device to your computer
+
+b. Select your iOS device in the upper-left corner of the iTunes window
+
+c. Click Sync in the bottom right corner of the window
+
+Note: If doing this on evidence, we recommend a fresh install of iTunes to ensure data is not synced with other existing data on the forensic workstation.
+
+
+
+
+
+Depending on the host OS, you will find the logs are stored on the synced computer in different folders.
+
+
+
+macOS
+
+/Users/<username>/Library/Logs/CrashReporter/MobileDevice/[Device_Name]/
+
+C:\Users\<username>\AppData\Roaming\Apple
+
+Windows
+
+Computer\Logs\CrashReporter\MobileDevice\ [Device_Name]\
+
+
+
+On Windows 10, depending on how iTunes is installed on the host machine (direct download or Microsoft App Store download), you could also find Logs in this folder.
+
+
+
+C:\Users\<username>\AppData\Local\Packages\AppleInc.iTunes_devicename\LocalCache\Roa ming\Apple Computer\Logs\CrashReporter\MobileDevice
+
+
+
+
+
+5 To have access to resources located on the Apple Developer website a login with an iCloud account is required. An Apple Developer account is not required to read the documentation.
+
+6
+
+
+
+
+
+Using idevicecrashreport tool from libimobiledevice
+
+
+
+According to the website6, “libimobiledevice is a cross-platform software library that talks the protocols to support iPhone®, iPod Touch®, iPad® and Apple TV® devices. Unlike other projects, it does not depend on using any existing proprietary libraries and does not require jailbreaking. It allows other software to easily access the device's filesystem, retrieve information about the device and its internals, backup/restore the device, manage SpringBoard® icons, manage installed applications, retrieve addressbook/calendars/notes and bookmarks and (using libgpod) synchronize music and video to the device. The library is in development since August 2007 with the goal to bring support for these devices to the Linux Desktop. ”
+
+
+
+Among the different tools provided with the library you can use “idevicecrashreport” to retrieve crash reports from a device. A detailed description of the tool, including synopsis, description and options is available on the Ubuntu manual7. Crash reports can be extracted from the device with a
+
+“copy only” option, without removing crash reports from the device.
+
+
+
+A Windows version of libimobildevice is maintained by Quamotion and the latest version is available on the Azure DevOps web page8.
+
+
+
+In the following screenshot you can see the result of executing the command on an iPhone X
+
+device with the -e (extract) and -k (keep) options.
+
+
+
+
+
+6 https://www.libimobiledevice.org/
+
+7 http://manpages.ubuntu.com/manpages/bionic/man1/idevicecrashreport.1.html
+
+8 https://dev.azure.com/libimobiledevice-win32/imobiledevice-net/_build?definitionId=4
+
+7
+
+
+
+
+
+Using an iOS device manager tool supporting Crash Logs
+
+
+
+Some shareware tools supporting the extraction of Crash Logs are available. Among various tools we tested, we found the following:
+
+
+
+1. iBackupBot9
+
+2. iMazing10
+
+
+
+The screenshot below shows iBackupBot. To access the Crash Logs you need to connect and pair the iOS device and then browse to “Device name” → “Tools” → “Crash Report” in the Device pane. The content of the Crash Log folder is shown on the right pane.
+
+
+
+
+
+In the following screenshot iMazing is shown. To access Crash Logs you need to connect and pair the iOS device and then browse to “File System” → “Logs” in the Device pane.
+
+
+
+
+
+9 https://www.icopybot.com/itunes-backup-manager.htm
+
+10 https://imazing.com/it
+
+8
+
+
+
+
+
+Using Elcomsoft iOS Forensic Toolkit
+
+
+
+Elcomsoft iOS Forensic Toolkit is a commercial tool supporting acquisitions of iOS devices.
+
+According to their website, “Logical acquisition produces a standard iTunes-style backup of information stored in the device, pulls media and shared files and extracts system crash logs.”
+
+
+
+In the following screenshots the extraction of Crash Logs from an iPhone X is shown.
+
+
+
+
+
+9
+
+
+
+
+
+Using AirDrop
+
+
+
+AirDrop is one of the methods suggested by Apple to directly retrieve Crash Logs from an iOS
+
+device, without the need of using iTunes or other tools. Please note that with this method you can extract one file at a time and this option is not available in all iOS versions (e.g. iOS 10.3.3).
+
+
+
+To export a Crash Log directly from an iOS device go to:
+
+
+
+Settings.app > Privacy > Analytics > Analytics Data > Locate the crash log you are interested in and AirDrop to your Mac Computer.
+
+
+
+
+
+10
+
+
+
+
+
+Using Xcode
+
+
+
+Xcode can also be used to retrieve Crash Logs. We don’t suggest this method though because there is no control on how Xcode will interact with the folder: in some tests we found that logs were copied from the device but were also removed. Try this method at your own risk only if nothing else worked. Some instructions on how to get console and crash logs from iOS using Xcode11 are available online
+
+
+
+
+
+11 https://www.utest.com/articles/how-to-get-console-and-crash-logs-from-ios-on-a-mac-using-xcode
+
+11
+
+
+
+
+
+sysdiagnose
+
+
+
+sysdiagnose logs allow developers to extract information from iOS devices. It is used for understanding bug occurrences.
+
+
+
+Unlike Crash Logs, sysdiagnose logs are not executed and written automatically by the operating system - the generation must be triggered manually by the user.
+
+
+
+There are two documented procedures to generate sysdiagnose logs12:
+
+
+
+1. By simultaneously pressing and releasing both volume buttons + the Side (or Top) button for 1 to 1.5 seconds13
+
+2. By using AssitiveTouch14
+
+
+
+In the following screenshots you can see the generation of sysdiagnose logs by using the AssitiveTouch.
+
+
+
+
+
+12 iOS versions below iOS 12 could have a different extraction process
+
+13 https://download.developer.apple.com/iOS/iOS_Logs/sysdiagnose_Logging_Instructions.pdf
+
+14 https://download.developer.apple.com/iOS/iOS_Logs/AssistiveTouch_Sysdiagnose_Logging_Instructions.pdf
+
+12
+
+
+
+
+
+13
+
+
+
+With the described procedure a “basic” sysdiagnose will be generated. As described later in this paper, sysdiagnose can also be customized by loading iOS device specific profiles.
+
+
+
+Once generated (it can take up to 10 minutes), the result will be stored in a TAR.GZ file stored under the Crash Logs folder within the path “/DiagnosticLogs/sysdiagnose” . The file name will be similar to “sysdiagnose_2019.04.30_11-17-36+0200_iPhone_OS_iPhone_16D57.tar.gz”, indicating the date and time the sysdiagnose was generated, the device type (iPhone) and the iOS installed version (16D57 = iOS 12.1.4)15.
+
+
+
+The sysdiagnose logs can be extracted from an iOS device using the same methods described above for the extraction of Crash Logs. For this method to work, the device does not need to be jailbroken.
+
+
+
+
+
+15 Naming convention on iOS versions below iOS 12 could be different
+
+14
+
+
+
+
+
+Battery Life logs
+
+
+
+Battery Life logs are meant to be generated when there are issues with the iOS device battery. As mentioned in the official Apple documentation16, “logging has no impact on power usage but it does accumulate disk space if left enabled for several days without syncing. To avoid disk space accumulation, turn off logging once you have provided the requested diagnostic information.”
+
+
+
+Battery Life logs are not automatically generated by the iOS operating system. To enable logging you need to download a specific profile17 from the Apple website and install it on the iOS device.
+
+To upload a profile to the device, you can use either AirDrop or the Apple Configurator 2 tool (available on AppStore for Mac OS X). Detailed instructions on how to install a profile on an iOS
+
+device is provided in the section “Installing a profile on an iOS device” within this document Once the profile has been copied to the device, you can choose where you want to install the profile. If the device has not previously been paired with an Apple Watch, only the “iPhone”
+
+option will be available.
+
+
+
+To install the profile on the device, you need to go to Settings and then click on “Profile” then
+
+"Install", as shown in the following screenshots.
+
+
+
+
+
+16 https://download.developer.apple.com/iOS/iOS_Logs/Battery_Life_Logging_Instructions.pdf
+
+17 https://developer.apple.com/services-account/download?path=/iOS/iOS_Logs/BatteryLife.mobileconfig
+
+15
+
+
+
+
+
+To confirm the installation of the profile you also need to specify the device passcode.
+
+
+
+
+
+At the last stage before installing, the device will prompt a warning message displaying the type of information that can be included in a Battery Life log. Here is the full text of the warning for this specific profile:
+
+
+
+“The System Debug Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files will contain some of your personal information, including information about how you use your device features, including times the device is charged, asleep, or in use, what applications you launch, certain display information, Health sensor usage, WatchKit/Workout statistics for the Apple Watch, the amount of time you play music or transmit data, among other usage data, and HomeKit device information, such as product IDs, push configuration information, connection statistics, and power data. The files might contain personal information found on your device or associated with your iCloud accounts and/or Apple ID, including but not limited to your name, your user name, your email address and email settings, file paths, file names, downloads, your computer's IP addresses, and network connection information. The file may contain diagnostic messages created by 3rd-party applications. Apple does not use the diagnostic information collected by these 3rd-party applications nor does it share this information with any other 3rd party. The file will contain some personal information, such as--but not limited to--the names of WiFi access points you join and the e-mail address of each configured mail account. The profile will expire after 7 days.
+
+
+
+To remove this profile from your device, you would navigate to the "Settings" menu on your device, go to "General", tap on "Profiles &amp; Device Management" to see what profiles are currently 16
+
+
+
+installed on your device, tap on "System Debug Profile," and tap "Delete Profile". To remove this profile from your Apple Watch, open the "Apple Watch" app on your iPhone, go to "General", tap on "Profiles" to see what profiles are currently installed on your device, tap on the "System Debug"
+
+Profile and tap "Delete Profile".
+
+
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy). Apple Confidential Profile. Do not distribute. Not to be used or disclosed without permission from Apple. Copyright Â© 2018, Apple Inc. All rights reserved.”
+
+
+
+A few minutes after profile installation, the new log files will be generated within the Crash Logs folder on the device. The file name will be similar to “powerlog_2019-03-26-2019-04-30_63930B22.PLSQL” or “powerlog_2019-03-26-2019-04-30_63930B22.PLSQL.gz”, depending on various parameters: the first file is an SQLite database, while the second one is a compressed (GZipped) file containing the SQLite database itself.
+
+
+
+Battery Life logs can be extracted from an iOS device using the same methods described previously for the extraction of Crash Logs.
+
+
+
+
+
+17
+
+
+
+
+
+Disk Space Diagnostics (FS Metadata)
+
+
+
+Disk Space Diagnostics (FS Metadata) can be used to collect a snapshot of filesystem metadata which contains the full list of files and related metadata stored on the iOS device18.
+
+
+
+Disk Space Diagnostics logs are not generated automatically by the iOS operating system. To enable logging you need to download a specific profile19 from the Apple website and install it on the iOS device. To upload a profile on the device you can use either AirDrop or the Apple Configurator 2 tool (available on the AppStore for Mac OS X). Detailed instructions on how to install a profile on an iOS device is provided in the section “Installing a profile on an iOS device”
+
+within this document
+
+
+
+Once the profile has been copied to the device, you can choose where you want to install the profile. If the device has not previously been paired with an Apple Watch, only the “iPhone”
+
+option will be available.
+
+
+
+To install the profile on the device, you need to go to Settings and then click on “Profile” then
+
+"Install", as shown in the following screenshots.
+
+
+
+
+
+18 https://download.developer.apple.com/iOS/iOS_Logs/Disk_Space_Diagnostics_Logging_Instructions.pdf
+
+19 https://developer.apple.com/services-account/download?path=/iOS/iOS_Logs/FSMetadata.mobileconfig
+
+18
+
+
+
+
+
+To confirm the installation of the profile you need to specify the device passcode.
+
+
+
+
+
+At the last stage before installing, the device will prompt a warning message displaying the type of information that can be included in a Disk Space Diagnostics log. Here is the full text of the warning for this specific profile:
+
+
+
+“The Disk Space Diagnostic Logging Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve file systems and related products and services. The generated files may contain some of your personal information, including your file metadata, such as file names, sizes, and creation dates.
+
+
+
+You will be able to turn on and off logging at any time while the Profile is installed, and will be able to review the log files on your computer prior to sending them to Apple. To turn off logging, open Settings, tap "General", tap "Profiles", tap "Disk Space Diagnostic Logging Profile" and tap
+
+"Remove."
+
+
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy)”
+
+
+
+
+
+19
+
+
+
+
+
+Once the profile is installed, you need to perform an additional action to generate a Disk Space Diagnostics log. In particular:
+
+
+
+1. Put the iOS device in Airplane Mode and disconnect it from any host
+
+2. Go in “Settings → Privacy → Analytics” and tap on the new button named “Snapshot filesystem metadata”
+
+3. At the end of the process a pop-up message will appear, suggesting to sync with iTunes to retrieve the snapshot
+
+
+
+
+
+Once the snapshot is generated a new log file will appear within the Crash Logs folder on the device. The file name will be similar to “FilesystemMeta-2019-05-01-202520.tgz”.
+
+
+
+Disk Space Diagnostics logs can be extracted from an iOS device using the same methods described previously for the extraction of Crash Logs.
+
+
+
+
+
+20
+
+
+
+
+
+Wi-Fi logs
+
+
+
+Wi-Fi logs can be used to troubleshoot issues with Wi-Fi connections on an iOS device20.
+
+
+
+The Wi-Fi logs are not generated automatically by the iOS operating system. To enable logging you need to download a specific profile21 from the Apple website and install it on the iOS device. To upload a profile on the device you can use either AirDrop or the Apple Configurator 2 tool (available on the AppStore for Mac OS X). Detailed instructions on how to install a profile on an iOS device is provided in the section “Installing a profile on an iOS device” within this document.
+
+
+
+Once the profile has been copied to the device, you can choose where you want to install the profile. If the device has not previously been paired with an Apple Watch, only the “iPhone”
+
+option will be available.
+
+
+
+To install the profile on the device, you need to go to Settings and then click on “Profile” then
+
+"Install", as shown in the following screenshots.
+
+
+
+
+
+20 https://download.developer.apple.com/iOS/iOS_Logs/WiFi_Logging_Instructions.pdf
+
+21 https://developer.apple.com/services-account/download?path=/iOS/iOS_Logs/MegaWifiProfile.mobileconfig
+
+21
+
+
+
+
+
+To confirm the installation of the profile you need to specify the device passcode.
+
+
+
+
+
+At the last stage before installing, the device will prompt a warning message displaying the type of information that can be included in a Wi-Fi Diagnostics log. Here is the full text of the warning for this specific profile
+
+
+
+“The Wi-Fi Diagnostics Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including about your Wi-Fi connection, such as the hardware address of the wireless router you are connected to and content you transfer over the network while this profile is installed. The profile will expire after 31 days.
+
+
+
+You will be able to review the log files on your computer prior to sending them to Apple. To turn off logging, open Settings, tap General, tap "Profiles and Device Management," tap "WiFi Performance Diagnostics," and tap "Delete Profile."
+
+
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple€™s use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).”
+
+
+
+
+
+22
+
+
+
+
+
+Once the profile is installed, you need to perform an additional action to generate Wi-Fi logs. In particular:
+
+
+
+1. On the iOS device go to “Settings → Wi-Fi → Diagnostic Mode”
+
+2. Tap Save Log
+
+
+
+
+
+Once the process is completed, the Wi-Fi logs will be stored in two folders in the Crash Logs- Wi-Fi and CoreCapture. It is also necessary to trigger a sysdiagnose because some of the Wi-Fi information will be stored within the sysdiagnose generated file. Please refer to the sysdiagnose and Wifi Log Analysis sections in this document for further details on the saved data directory structure.
+
+
+
+Wi-Fi logs can be extracted from an iOS device using the same methods described previously for the extraction of Crash Logs.
+
+
+
+
+
+23
+
+
+
+
+
+Installing a profile on an iOS device
+
+
+
+To install a profile on an iOS device you need first to upload it on the iOS device. Uploading the profile can be done in various ways: because we want to use this method for forensics purposes, we will avoid detailing the method involving the usage of Internet sources (e.g. sending the profile by email, uploading the profile on a cloud storage, directly downloading the profile from Apple website).
+
+
+
+We found two different ways to upload a profile on an iOS device:
+
+
+
+1. Using AirDrop
+
+2. Using Apple Configurator 2
+
+
+
+Uploading a profile using AirDrop
+
+
+
+To upload a profile via AirDrop these steps are needed:
+
+
+
+1. Download the profile you need to install from the Apple website22 to a Mac computer 2. Activate AirDrop for “Everyone” on the target iOS device
+
+3. Activate AirDrop on the Mac computer
+
+4. Open AirDrop on the Mac computer
+
+5. On the Mac, drag and drop the profile on the iOS device name
+
+
+
+The following screenshots show how to activate AirDrop on an iOS device. Detailed instructions are also available on Apple website.23
+
+
+
+
+
+22 https://developer.apple.com/bug-reporting/profiles-and-logs/?platform=ios
+
+23 https://support.apple.com/en-us/HT204144
+
+24
+
+
+
+
+
+The following screenshot shows the AirDrop interface on a Mac with the device ready to receive a file.
+
+
+
+
+
+25
+
+
+
+
+
+Uploading a profile using Apple Configurator 2
+
+
+
+Apple Configurator 2 is an Apple tool available on the Mac OS X AppStore24 that is able to “update software, install apps and configuration profiles”. It can be downloaded and installed for free on any computer running Mac OS 10.14 or later.
+
+
+
+Once the app is installed, a profile can be installed on a device with the following steps: 1. Download the profile you need to install from the Apple website25
+
+2. Connect and pair the target iOS device with the Mac
+
+3. Execute Apple Configurator 2 on the Mac
+
+4. In Apple Configurator 2, choose the target iOS device and double click on it 5. Choose the “Profiles” option in the left pane
+
+6. Click on “Add profiles” in the central pane and load the required profile on the iOS device 7. Follow the instructions on the iOS device
+
+
+
+The following screenshots show the above steps:
+
+
+
+
+
+24 https://itunes.apple.com/us/app/apple-configurator-2/id1037126344
+
+25 https://developer.apple.com/bug-reporting/profiles-and-logs/?platform=ios
+
+26
+
+
+
+
+
+27
+
+
+
+
+
+28
+
+
+
+
+
+Analyzing logs
+
+
+
+sysdiagnose
+
+
+
+In this section we describe the internal structure of a sysdiagnose file. As already mentioned, it is a TAR.GZ file and once extracted, it will have the following folder structure26.
+
+
+
+
+
+The following tables describe the contents of the various folders. Where a description in missing, it means that the content of the file or folder is still unknown/untested.
+
+
+
+“root” folder
+
+
+
+Path
+
+Description
+
+Timestamped (e.g. 2019-04-26 16:00:38) text log of sysdiagnose archive sysdiagnose.log
+
+creation
+
+TaskSummary.csv
+
+
+
+Disks.txt27
+
+Partition info
+
+Mount.txt
+
+Mount info
+
+Ckksctl_status.txt28
+
+Cloud Kit Key State
+
+Apfs_stats.txt
+
+APFS filesystem statistics
+
+Error_log.txt
+
+Sysdiagnose generation log error
+
+Pcsstatus.txt
+
+
+
+smcDiagnose.txt29
+
+SMC diagnostic dump
+
+Possible list of connected peripherals (e.g. keyboard). Further investigation Hidutil.plist
+
+required.
+
+Vm_Stat.txt30
+
+Mach virtual memory statistics by executing the command
+
+
+
+26 iOS versions below iOS 12 have less data in a sysdiagnose file
+
+27 https://eclecticlight.co/2016/02/06/the-ultimate-diagnostic-tool-sysdiagnose/
+
+28 http://krypted.com/mac-os-x/the-cloud-kit-key-state-controller/
+
+29 https://eclecticlight.co/2016/02/08/more-useful-information-gleaned-from-sysdiagnose/
+
+29
+
+
+
+
+
+/usr/bin/vm_stat -c 50 0.2
+
+microstackshots
+
+
+
+Kbdebug.txt
+
+
+
+Taskinfo.txt31
+
+Result of the execution of the command “/usr/bin/taskinfo –threads”
+
+Spindump-
+
+
+
+nosymbols.txt
+
+Running processes by executing the command
+
+“/bin/ps axwww -o
+
+Ps.txt32
+
+user,uid,pid,ppid,%cpu,%mem,pri,ni,vsz,rss,wchan,tt,stat,start,time,comma
+
+nd”
+
+Running process threads by executing the command
+
+Ps_thread.txt
+
+“/bin/ps axMwww -o ppid,%mem,pri,ni,vsz,rss,wchan,start,time,command”
+
+
+
+Talispin-info.txt
+
+
+
+
+
+“ASPSnapshots” folder
+
+
+
+Asptool_snapshot.log
+
+
+
+Asptool_snapshot_timesensitive.log
+
+
+
+“brctl” folder
+
+
+
+/containers/
+
+Contains iCloud plists for user installed apps, with version number
+
+brctl-container-list.txt
+
+Application list
+
+It seems to be related with the iCloud account and the usage of iCloud Drive.
+
+It contains various information and timestamps.
+
+
+
+Brctl-dump.txt33
+
+Client_state→devices lists all devices known to be connected to the iCloud account, including computers, iPad, Apple TV and so on
+
+
+
+Server_items detailed listing of file by application/container
+
+Defaults-com.apple.bird.txt
+
+Diagnose-errors.log
+
+
+
+Launchctl-print.txt
+
+
+
+
+
+“crashes and spin” folder
+
+
+
+This folder contains various timestamped text .ips logs. A detailed article on understanding and analyzing application crash reports is available on the Apple website34
+
+
+
+
+
+30 https://eclecticlight.co/2016/02/08/more-useful-information-gleaned-from-sysdiagnose/
+
+https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+31 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+32 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+33 https://eclecticlight.co/2018/04/12/diagnosing-icloud-problems-using-brctl-sync-budgets-and-throttles/
+
+34 https://developer.apple.com/library/archive/technotes/tn2151/_index.html
+
+30
+
+
+
+
+
+“errors” folder
+
+
+
+This folder contains information about any execution errors which occurred while preparing the sysdiagnose.
+
+
+
+“ioreg” folder
+
+
+
+This folder contains a suite of text files detailing all the I/O Kit settings, including known devices, USB, etc.35
+
+
+
+IOACPIPlane.txt36
+
+Execution of command “/usr/sbin/ioreg -i -l -p IOACPIPlane -w 0”
+
+Execution of command “/usr/sbin/ioreg -i -l -p IODeviceTree -w 0”.
+
+IODeviceTree.txt37
+
+It contains Bluetooth and Wi-Fi MAC Address.
+
+IOFireWire.txt38
+
+Execution of command “/usr/sbin/ioreg -i -l -p IOFireWire -w 0”
+
+IOPower.txt39
+
+Execution of command “/usr/sbin/ioreg -i -l -p IOPower -w 0”
+
+IOService.txt40
+
+Execution of command “/usr/sbin/ioreg -i -l -p IOService -w 0”
+
+IOUSB.txt41
+
+Execution of command “/usr/sbin/ioreg -i -l -p IOUSB -w 0”
+
+
+
+
+
+35 https://eclecticlight.co/2016/02/08/more-useful-information-gleaned-from-sysdiagnose/
+
+36 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+37 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+38 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+39 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+40 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+41 https://eclecticlight.co/2016/02/08/running-tools-within-sysdiagnose-individually/
+
+31
+
+
+
+
+
+“logs” folder
+
+
+
+This folder is one of the most interesting from a forensic point of view, as it contains various logs and configuration files.
+
+
+
+
+
+“logs/AccessibilityPrefs” folder
+
+
+
+This folder contains various plist files with information about the Accessibility configuration on the device (e.g. AssistiveTouch, Zoom, VoiceOver)
+
+
+
+
+
+32
+
+
+
+
+
+“logs/AppConduit” folder
+
+
+
+This folder contains logs showing the device syncing with paired devices. In the following screenshot a sync with an AppleWatch is shown.
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-appconduit.py to extract information about operating system upgrades.
+
+
+
+Before running the script, we suggest you to run the command “cat AppConduit* > AppConduit.log” to combine all the log files.
+
+
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-appconduit.py -i AppConduit.log
+
+
+
+It currently prints OS upgrade information and activation startup information to the command line.
+
+
+
+
+
+33
+
+
+
+
+
+“log/appinstallation” folder
+
+
+
+This folder contains an SQLite database file named AppUpdates.sqlitedb which contains an
+
+" app_updates" table listing the bundle_id, install_date, purchase_id and timestamp fields.
+
+
+
+
+
+“logs/AVConference” folder
+
+
+
+This folder contains various CALLDUMP files. The filenames contain a timestamp. The meaning of the file contents is unknown and more research is needed.
+
+
+
+
+
+34
+
+
+
+
+
+“logs/AWD” folder
+
+
+
+This folder contains various CONSOLIDATED.METRICLOG files. Their meaning is currently unknown and more research is needed.
+
+
+
+
+
+“logs/itunesstored” folder
+
+
+
+This folder may contain information about iTunes purchases/downloads. Typically two files are present: download.28.sqlitedb and itunesstored.log. We have yet to find relevant information in these files other than music that was downloaded by the user.
+
+
+
+
+
+35
+
+
+
+
+
+“logs/keyboards” folder
+
+
+
+This folder contains various files without an extension and with the same hex header “43 49 49 54
+
+01”. The content is currently unknown and more research is needed.
+
+
+
+
+
+“logs/MobileActivation” folder
+
+
+
+This folder contains information about “Mobile Activation”. It contains various mobileactivationd.log files containing timestamps with the installed build version (search for
+
+“build_version”), hardware model and product type. It also details operating system upgrades (search for “perform_data_migration”).
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-mobileactivation.py to extract information about operating system upgrades.
+
+36
+
+
+
+
+
+Before running the script, we suggest you to run the command “cat mobileactivation* > mobileactivationd.log” to combine all the log files.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-mobileactivation.py -i mobileactivationd.log
+
+
+
+It currently prints OS upgrade information and activation startup information to the command line.
+
+
+
+
+
+37
+
+
+
+
+
+“logs/MobileBackup” folder
+
+
+
+This folder contains the com.apple.MobileBackup.plist file which contains information about backup restores on the device. We found different values during our testing. It may depend on how the phone was configured (with or without a restore from a backup).
+
+
+
+In some cases we found a RestoreInfo section containing:
+
+
+
+• BackupBuildVersion: the iOS version of the backup that was restored on the device
+
+• WasCloudRestore: Boolean value indicating if the backup was restored from iCloud (true) or not (false)
+
+• DeviceBuildVersion: the iOS version of the device when the backup was restored. To restore a backup the Device iOS version must be equal or newer to the backup.
+
+• RestoreDate: when the backup was restored on the device42.
+
+
+
+
+
+In some other cases we found a BackupStateInfo section containing:
+
+
+
+• Date: a time stamp. The meaning of this time stamp needs to be further investigated. It could be the last backup date.
+
+• isiCloud: Boolean value possibly indicating if the backup is on iCloud (true) or not (false)
+
+
+
+42 This timestamp was confirmed as correct in three tests we made on real phones.
+
+38
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-mobilebackup.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-mobilebackup.py -i com.apple.MobileBackup.plist
+
+
+
+It prints output to the command line, as shown in the following picture.
+
+
+
+
+
+We also found other possibly interesting values like Foreground Restore performance and Air Traffic Restore: we strongly suggest a manual review of this file.
+
+
+
+
+
+39
+
+
+
+
+
+“logs/MobileContainerManager” folder
+
+
+
+This folder contains information about Application Containers. More specifically, it contains information about application uninstalls which may be of historical interest (search for “removing”
+
+or “Last reference to”).
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-mobilecontainermanager.py to extract information about uninstalled applications.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-mobilecontainermanager.py -i containermanagerd.log.0
+
+
+
+It prints output to the command line, as shown in the following picture.
+
+
+
+
+
+40
+
+
+
+
+
+“logs/MobileInstallation” folder
+
+
+
+This folder contains Mobile Installation logs. This topic is already well covered in the DFIR Review publication “iOS Mobile Installation Logs”43 by Alexis Brignoni.
+
+
+
+
+
+Logs contained in this folder can be easily processed with iOS-Mobile-Installation-Log-Parser44 by Alexis Brignoni. Currently the script extracts the following events:
+
+
+
+• App install successful with date and time.
+
+• App container made live with date, time, and path.
+
+• App container moved with date, time, and path.
+
+• App destroying container with date, time, and path.
+
+
+
+
+
+43 https://dfir.pubpub.org/pub/e5xlbw88
+
+44 https://github.com/abrignoni/iOS-Mobile-Installation-Logs-Parser
+
+41
+
+
+
+
+
+“logs/MobileLockdown” folder
+
+
+
+This folder contains Lockdown logs. During our testing we didn’t find any forensically useful information. Possibly more research is needed.
+
+
+
+
+
+“logs/Networking” folder
+
+
+
+This folder contains various networking preference files. The preferences.plist file contains the keys “ComputerName”, “HostName” and " LocalHostName" whose values were set to the iOS
+
+device name.
+
+
+
+
+
+42
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-networkprefs.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-networkprefs.py -i preferences.plist
+
+
+
+It prints output to the command line, as shown in the following picture.
+
+
+
+
+
+The NetworkInterfaces.plist file contains information about network interfaces which includes the MAC Address.
+
+
+
+
+
+43
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-networkinterfaces.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-networkinterfaces.py -i NetworkInterfaces.plist
+
+
+
+It prints output to the command line, as shown in the following picture.
+
+
+
+
+
+The com.apple.networkextension.cache.plist file contains a list of installed applications. The meaning of this file needs to be investigated further.
+
+
+
+We developed a Python 3 script, sysdiagnose-net-ext-cache.py to print the list of applications from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-net-ext-cache.py -i com.apple.networkextension.cache.plist It prints output to the command line, as shown in the following picture. There is also an optional -v argument to also print the associated UUID / GUIDs.
+
+
+
+
+
+44
+
+
+
+
+
+“logs/olddsc” folder
+
+
+
+This folder contains plist files containing information about system libraries. During our testing we didn’t find any forensically useful information.
+
+
+
+
+
+“logs/powerlogs” folder
+
+
+
+This folder contains an SQLite database containing an extract of the CurrentPowerlog.PLSQL. The file's naming schema is powerlog_YYYY-MM-DD_XXXXXXXX.PLQSQL.
+
+
+
+
+
+The structure of this database has already been studied and described by Sarah Edwards in her presentations45 and in her open source toolkit APOLLO46. The easiest way to process a PLSQL file 45 https://files.sans.org/summit/Digital_Forensics_and_Incident_Response_Summit_2016/PDFs/iOS-of-Sauron-How-
+
+iOS-Tracks-Everything-You-Do-Sarah-Edwards.pdf
+
+46 https://github.com/mac4n6/APOLLO
+
+45
+
+
+
+
+
+with APOLLO is to rename it as “CurrentPowerlog.PLSQL”, as APOLLO searches for this specific file name. You can then execute APOLLO against the renamed sysdiagnose powerlog file. In our tests we found data up to 30 days older than the time of sysdiagnose execution.
+
+
+
+The following screenshot shows the execution of APOLLO against sysdiagnose data.
+
+
+
+
+
+“logs/suggest_tool” folder
+
+
+
+This folder contains 7 TXT files, which detail the results of 7 commands. In our testing we didn’t find any forensically relevant information here.
+
+
+
+Execution of command
+
+dbstats.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_tool dbStats”
+
+Execution of command
+
+filesystemMetadata.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_tool filesystemMetadata”
+
+Execution of command
+
+dbSchema.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_tool dbSchema”
+
+Execution of command
+
+assetVersion.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_tool assetVersion”
+
+Execution of command
+
+DictionaryExtractions.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_tool RTCGetDictionaryExtractions”
+
+Execution of command
+
+DictionaryInteractions.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_tool RTCGetDictionaryInteractions”
+
+Execution of command
+
+DictionaryInteractionsSummary.txt
+
+“/System/Library/PrivateFrameworks/CoreSuggestions.fra
+
+mework/Tools/suggest_toolRTCGetDictionaryInteractionsS
+
+46
+
+
+
+
+
+ummary”
+
+
+
+“logs/SystemVersion” folder
+
+
+
+This folder contains a plist file named SystemVersion.plist which contains Product Build Version, Product Name and Product Version information.
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-sys.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-sys.py -i SystemVersion.plist
+
+
+
+It prints output to the command line, as shown in the following picture.
+
+
+
+
+
+47
+
+
+
+
+
+“logs/talispindb” folder
+
+
+
+This folder contains an XML plist file named UUIDToBinaryLocations that maps UUIDs to binary directories.
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-uuid2path.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-uuid2path.py -i UUIDToBinaryLocations
+
+
+
+It prints output to the command line, as shown in the following picture.
+
+
+
+
+
+48
+
+
+
+
+
+“Preferences” folder
+
+
+
+This folder contains information about system preferences.
+
+
+
+Filename
+
+
+
+
+
+Content
+
+
+AppleLanguages
+
+
+System installed languages
+
+AppleLocale.txt
+
+Locale (e.g. en_US, en_IT)
+
+Keyboard_Preferences.txt
+
+Keyboard preferences
+
+UIPreferredContentSizeCategoryName.txt
+
+
+
+“summaries” folder
+
+
+
+This folder contains high level (e.g. success/fail) text logs of the logging process. Many logs have 5MB limit stated except for process_crashes_and_spins (20 MB). The diagnostic_summary.log file contains path and file sizes for each logged file.
+
+
+
+
+
+49
+
+
+
+
+
+“system_logs. logarchive” folder
+
+
+
+This folder contains a collection of logs from the iOS device. This topic and the file format has already been covered by Sarah Edwards in her presentation “Logs Unite! Forensic Analysis of Apple Unified Logs”47. An interesting presentation by Nic Scott is also available, detailing the structure of Mac OS logs48. These logs can be opened with the native Mac OS X Console application: in our tests we found a detailed timeline of events up to 72 hours back from the time of acquisition.
+
+
+
+
+
+47 https://github.com/mac4n6/Presentations/raw/master/Logs%20Unite!%20-
+
+%20Forensic%20Analysis%20of%20Apple%20Unified%20Logs/LogsUnite.pdf
+
+48 https://stream.lib.utah.edu/index.php?c=details&id=12848
+
+https://github.com/nlscott/OSX-Logs
+
+50
+
+
+
+
+
+Some useful searches you can try on these logs are:
+
+
+
+• got message “synchronize” or com.apple.mobile.recents: in our tests it provided information about recently sent emails (iCloud sync of com.apple.mail.recents)
+
+
+
+
+
+• FileProvider process events can contain references to file names (e.g. PDF documents) 51
+
+
+
+
+
+• DCIM and CloudPhotoDerivativeGenerator keyword searches can provide information about pictures/videos filename and path
+
+
+
+
+
+52
+
+
+
+
+
+“WiFi” folder
+
+
+
+This folder contains information about Wi-Fi usage on the device.
+
+
+
+
+
+The awdl_status.txt contains information about AirDrop status.
+
+
+
+
+
+53
+
+
+
+
+
+The bluetooth_status.txt contains information about Bluetooth status.
+
+
+
+
+
+The com.apple.wifi.plist contains information about Wi-Fi networks the device was previously connected to. It contains SSID, BSSID, last join time, last auto-join time and other fields useful for geolocating the Wi-Fi network (e.g. 80211D_COUNTRY_CODE).
+
+
+
+
+
+54
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-wifi-plist.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-wifi-plist.py -i com.apple.wifi.plist (Optional -t) It prints output to the command line and with the -t option it also prints output to a TSV file, as shown in the following pictures.
+
+
+
+
+
+55
+
+
+
+
+
+The ICLOUD_com.apple.wifid.plist contains information about Wi-Fi networks used by the iCloud account on the sysdiagnosed device.
+
+
+
+
+
+56
+
+
+
+
+
+We developed a Python 3 script, sysdiagnose-wifi-icloud.py to extract information from this file.
+
+
+
+The script can be run like:
+
+
+
+python3 sysdiagnose-wifi-icloud.py -i ICLOUD_com.apple.wifid.plist (Optional -t) It prints output to the command line and with the -t option it also prints output to a TSV file, as shown in the following pictures.
+
+
+
+
+
+57
+
+
+
+
+
+The ipconfig.txt contains IP configuration and the device hostname.
+
+
+
+
+
+The network_status.txt contains information about the network status (IP address, DNS server, and so on).
+
+
+
+
+
+The preferences.plist is a copy of the com.apple.wifi.plist file: throughout our testing we always obtained the same MD5 hash value for this file.
+
+
+
+
+
+58
+
+
+
+
+
+The wifi_scan.txt and wifi_scan_cache.txt contains information about recently found Wi-Fi network. In our testing, only live information was found here. If the device was turned off or rebooted, there should not be any information of forensic value here. It is currently unknown how Airplane mode affects these files.
+
+
+
+
+
+The wifi_status.txt contains the currently connected Wi-Fi network with SSID, security protocol, channel, IP address, Router address, DNS address and so on.
+
+
+
+
+
+59
+
+
+
+
+
+WiFi logs
+
+
+
+The WiFi folder contains various TGZ files containing Wi-Fi logs.
+
+
+
+
+
+Once unzipped, during our tests, we found two different variants of Wi-Fi logs:
+
+
+
+• wifi-buf-mm-dd-yyyy__hh:mm:ss.sss.log
+
+• wifi-mm-dd-yyyy__hh:mm:ss.sss.log
+
+
+
+The wifi-mm-dd-yyyy__hh:mm:ss.sss.log files appear to contain the most recent log entries but they have an extra <CLASS> field not observed in the wifi-buf-mm-dd-yyyy__hh:mm:ss.sss.log files.
+
+
+
+For example:
+
+
+
+04/27/19 16:17:41.769 <NOTICE>: Foreground Network Application exited.
+
+04/29/19 07:12:21.107 <ERROR>: __WiFiDeviceManagerLQMEventCallback: null snrNumRef In our tests this sysdiagnose WiFi folder contained the latest Wi-Fi logs. When a WiFi debug profile was installed, we were able to recover more WiFi log files, as detailed in the later Wi-Fi analysis section.
+
+
+
+We developed two different Python 3 scripts to processes these logs (both log formats are supported). Please note - there may be other artifacts yet to be documented within the Wi-Fi logs: these scripts were written/tested using a limited test data set and more testing is needed to fully understand the meaning of some values.
+
+
+
+The sysdiagnose-wifi-kml.py script will parse a given log for entries containing the following text:
+
+
+
+• didUpdateLocations: latitude
+
+• __WiFiManagerGeoTagNetwork: latitude
+
+• __WiFiManagerLocationManagerCallback: latitude
+
+• __WiFiLocaleManagerLocationManagerCallback: latitude
+
+• WiFiLocaleManagerCheckLocale: latitude
+
+• __WiFiDeviceManagerAttemptNetworkTransition: latitude
+
+• __WiFiDeviceManagerScanPreviousNetworkChannel: latitude
+
+• WiFiManagerCopyCurrentLocation: currentLocation
+
+
+
+60
+
+
+
+
+
+It then extracts the date, time, latitude, longitude, accuracy, time interval, source fields and logs it to an output KML file (called "wifi-buf-locations.kml") for plotting on Google Earth.
+
+The WiFiManagerCopyCurrentLocation: currentLocation records also contain information regarding speed, course at a given date/time/timezone (different to the log file's date and time values).
+
+
+
+Before using the script we suggest joining all of the wifi logs together using the cat command, as shown in the following picture.
+
+
+
+
+
+Then to execute the script, type:
+
+
+
+python3 sysdiagnose-wifi-kml.py -i wifi.log
+
+
+
+Besides creating the output KML file, the script prints error and warning messages listing the malformed log entries. Line information is included so the user can manually check/resolve.
+
+
+
+
+
+61
+
+
+
+
+
+The output KML file is named wifi-buf-locations.kml and it organizes each category into its own folder for easier filtering on Google Earth49.
+
+
+
+
+
+The sysdiag-wifi-net.py script will parse a given wifi log for entries containing the following text
+
+
+
+• AJScan: Filtered networks -
+
+• Scanning 2Ghz Channels found:
+
+• Preparing background scan request for
+
+• Scanning for MRU Networks:
+
+• __WiFiDeviceManagerReleasePpmResource: PPM attached - still connected to
+
+• __WiFiDeviceManagerAutoAssociate: Already connected to
+
+
+
+It then outputs a Tab Separated Value (TSV) file for each type of message.
+
+
+
+The TSV format is:
+
+
+
+DATE
+
+TIME
+
+TYPE
+
+
+
+
+
+NETWORK
+
+
+
+
+
+LINE
+
+
+
+
+
+LOGFILE
+
+
+Where:
+
+
+
+
+• DATE is as per logfile format m/dd/yyyy
+
+• TIME is in format hh:mm:ss.sss
+
+• TYPE is the entry's category identifier
+
+o "FilteredNetworks"
+
+
+
+49 Unchecking the didUpdateLocation folder checkbox will make GoogleEarth run a lot faster as it typically contains the most data.
+
+62
+
+
+
+
+
+o " FoundChannels"
+
+o "BGScans"
+
+o "MRUs"
+
+o "PPMAttached"
+
+o "AlreadyAttached"
+
+Please note: these names are not from Apple. Future analysis may require knowing the category, so these names were created for the scripts.
+
+
+
+• NETWORK is the network name logged
+
+• LINE is the line number of the source log
+
+• LOGFILE is the file name of the source log
+
+
+
+Before using the script we suggest joining all of the logs together using the cat command as shown in the following picture.
+
+
+
+
+
+Then execute the script via:
+
+
+
+python3 sysdiagnose-wifi-net.py -i wifi.log
+
+
+
+Besides generating various TSV output files, the script prints any error and warning messages listing the malformed log entries. Both error/warning messages contain line information so the user can manually check/resolve.
+
+
+
+
+
+63
+
+
+
+
+
+The generated TSV files can then be imported into a spreadsheet program for further sorting/analysis.
+
+
+
+
+
+64
+
+
+
+
+
+Battery Life
+
+
+
+When a Battery Life profile is installed, a PLSQL file is generated in the Crash Logs folder.
+
+
+
+The generated file will be named in the same way as described in the “logs/powerlogs” folder
+
+section of this document. It can also be analyzed with the same methodology and tool (APOLLO).
+
+
+
+Wi-Fi
+
+
+
+When a Wi-Fi log profile is installed, the WiFi folder and CoreCapture folder are generated in the Crash Logs folder.
+
+
+
+
+
+The WiFi folder contains log files in the wifi-mm-dd-yyyy__hh:mm:ss.sss.log format, while the WiFiManager subfolder contains log files in the wifi-buf-mm-dd-yyyy__hh:mm:ss.sss.log format.
+
+These log files can be joined together and processed with the sysdiagnose-wifi-kml.py and sysdiagnose-wifi-net.py scripts as described in the “WiFi” folder section of this document.
+
+
+
+Please note that this set of WiFi logs is different than the one available inside the sysdiagnose generated file. During our testing we were able to find older data in this folder than the data in the sysdiagnose WiFi folder. Also, the WiFiManager folder is only present here and not in the sysdiagnose file.
+
+
+
+
+
+65
+
+
+
+
+
+FSMetadata
+
+
+
+When the FilesystemMetadata log profile is installed and a snapshot of the file system metadata is created, a new file is available in the Crash Logs folder. This file is named with the following convention FilesystemMeta-YYYY-MM-DD-HHMMSS.tgz. Once the file is unzipped, you will obtain two files: data.out and log.log.
+
+
+
+
+
+The data.out is a TSV file that can be easily imported into Excel. The file contains two sections.
+
+
+
+The first section contains:
+
+
+
+• Total size of internal memory
+
+• Space used by the operating system
+
+• Space used by applications and data
+
+• Free space
+
+
+
+The second section contains, for every and each file stored on the device:
+
+
+
+• Path
+
+• Size on disk
+
+• File size
+
+• Compression50
+
+
+
+
+
+50 This field was always empty in our tests
+
+66
+
+
+
+
+
+File system metadata is useful for investigating the possible content of the device. You can try searching for phone numbers, email addresses or nicknames. In the following screenshot, a search for the nickname mattiaep highlights the usage of this nickname both on Twitter and on Skype.
+
+
+
+
+
+In the following screenshot, a search for file extension “.PDF” highlights the filenames of email PDF attachments stored on the device.
+
+
+
+
+
+67
+
+
+
+
+
+Conclusions and proposed methodology
+
+
+
+The forensic investigation of iOS devices has changed a lot over the past years, in terms of methodology and available tools and techniques. We are not taking into consideration the problem of bypassing or cracking the device passcode: the methodology described in this paper is possible only if the device passcode is known (or not set, of course).
+
+
+
+Nowadays, forensic examiners are using two approaches for the acquisition of an iOS device: 1. Obtaining a full file system with services or tools51 only available to LE
+
+2. Acquiring the phone with a commercial or a non-commercial forensic tool to obtain “the best acquisition”. This typically leads to evaluating Jailbreak options to obtain a full file system dump.
+
+
+
+Most of the commercial forensic tools rely on a few protocols to acquire data - primarily: iTunes Backup, Apple File Conduit and Application Sharing. Only a few tools support extraction of Crash Logs. We didn’t find any guidelines or tools dealing with the usage of iOS diagnostic logs for forensic purposes.
+
+
+
+Both of the above approaches can be improved upon. One of the basic principles of digital forensics, when dealing with the acquisition of data from a device, is to take into consideration the order of volatility. With an iOS device, because we need to turn it on to extract data, we should develop a methodology that tries to acquire the most volatile data first, and then any other information. In our work we demonstrated that the Powerlog, WiFi logs and sysdiagnose contain a lot of information about the system - some of which has a high degree of volatility (e.g. syslog data). Starting a device acquisition with a tool will impact our ability to extract iOS diagnostic type data. Possibly overwriting or removing some of the log entries stored on the device.
+
+
+
+For the above-mentioned reasons, we propose a general methodology to be used for acquiring data from an iOS device - starting with the most volatile data. The methodology described here is for lab work, when generally the phone is received turned off. A similar methodology for in-the-field operation can be easily adapted.
+
+
+
+1. Turn on the iOS device
+
+2. Unlock it
+
+3. Set the iOS device in Airplane Mode
+
+4. Upload, with the least invasive available technique52, the “Battery Life” profile on the device and install it
+
+5. Upload, with the least invasive available technique53, the “File system metadata” profile on the device and install it
+
+
+
+51 As far as author knowledge only Cellebrite CAS service and Grayshift GrayKey tool can provide a device full file system without the need of a jailbreak
+
+52 We strongly suggest to use Apple Configurator 2 on a Mac OS X computer, because it doesn’t require any network connections to be turned on. The other available option (AirDrop) can be used, for example, when the cable connection is not working.
+
+53 We strongly suggest to use Apple Configurator 2 on a Mac OS X computer, because it doesn’t require any network connections to be turned on. The other available option (AirDrop) can be used, for example, when the cable connection is not working.
+
+68
+
+
+
+6. Generate a File System Metadata snapshot
+
+7. Upload, with the least invasive available technique54, the “WiFi” profile on the device and install it
+
+8. Activate Wi-Fi / export WiFi Diagnostic Logs55 / deactivate Wi-Fi
+
+9. Generate a sysdiagnose
+
+10. Wait for sysdiagnose to complete
+
+11. Remove the WiFi profile
+
+12. Acquire the Crash Logs folder
+
+13. Acquire the device with your tool of choice
+
+14. Generate a File System Metadata snapshot for comparison
+
+15. Acquire again the Crash Logs folder
+
+16. Remove the “Battery Life” and the “File System Metadata” profiles
+
+
+
+This method should be used in particular when a backup password is set on the device. Starting from iOS 11, Apple allows users to reset the backup password from the Settings menu. However, this action will also delete/reset some data from the device. As previous studies have discussed56, resetting the backup password will erase the com.apple.wifi.plist file: generating a sysdiagnose before resetting the password is a solution to this problem and preserves this data.
+
+
+
+It is important to highlight that this methodology can be used also to extract data from synced devices like the Apple Watch or the Apple TV, where the extraction of data is more complex than with the iPhone and the iPad.
+
+
+
+On the analysis side, we propose running some initial scripts. An overview of the content of a sysdiagnose acquisition can be obtained by following this procedure
+
+
+
+1. Extract information about the installed operating system
+
+python3 sysdiagnose-sys.py -i SystemVersion.plist
+
+2. Extract host and device name
+
+python3 sysdiagnose-networkprefs.py -i preferences.plist
+
+3. Extract network interface information
+
+python3 sysdiagnose-networkinterfaces.py -i NetworkInterfaces.plist
+
+4. Extract backup information
+
+python3 sysdiagnose-mobilebackup.py -i com.apple.MobileBackup.plist
+
+5. Extract information about iOS updates and startup
+
+python3 sysdiagnose-mobileactivation.py -i mobileactivation.log
+
+6. Extract information about application uninstall timestamps
+
+python3 sysdiagnose-mobilecontainermanager.py -i containermanagerd.log.0
+
+7. Extract information about connected devices
+
+python3 sysdiagnose-appconduit.py -i AppConduit.log
+
+8. Extract Wi-Fi networks connection history
+
+python3 sysdiagnose-wifi-plist.py -i com.apple.wifi.plist
+
+
+
+54 We strongly suggest to use Apple Configurator 2 on a Mac OS X computer, because it doesn’t require any network connection to be turned on. The other available option (AirDrop) can be used, for example, when the cable connection is not working.
+
+55 It requires activation of WiFi connection, but it doesn’t require the device to be connected to a network 56 https://blog.elcomsoft.com/2017/11/ios-11-makes-logical-acquisition-trivial-allows-resetting-itunes-backup-
+
+password/
+
+69
+
+
+
+python3 sysdiagnose-wifi-icloud.py -i CLOUD.com.apple.wifid.plist 9. Process Wi-Fi logs for geolocation information and network names
+
+python3 sysdiagnose-wifi-net.py -i wifi-buf.log
+
+python3 sysdiagnose-wifi-kml.py -i wifi-buf.log
+
+10. Process PLSQL powerlogs with direct queries or tools (e.g. Sarah Edward's APOLLO) 11. Process MobileInstallation logs with tools (e.g. Alexis Brignoni's scripts) 12. Perform keyword searches inside the syslog archive using the native Mac OS X Console application
+
+13. Process UUIDToBinaryLocations to extract information about application paths python3 sysdiagnose-uuid2path.py -i UUIDToBinaryLocations
+
+14. Process Network Extension Cache to extract a list of installed applications python3 sysdiagnose-net-ext-cache.py -i com.apple.networkextension.cache.plist -v 15. Manually review other files for possible relevant content
+
+
+
+
+
+70
+
+
+
+
+
+Future works
+
+
+
+This field is unexplored in the Digital Forensics community, so more studies are needed.
+
+
+
+The first need is to have practitioners and researchers studying the methodology described in this work to corroborate our findings or to find inconsistencies. The developed scripts need to be tested against a more robust set of test data, to verify their correctness and possible differences among different devices, operating system versions and so on.
+
+
+
+A more in-depth study of the internal structure of a sysdiagnose extraction is needed to better understand other possible forensic content of interest.
+
+
+
+Lastly, the effect of installing other profiles on the device must be studied: there are more than 30
+
+different profiles for the iOS operating system. We tested and verified only three of them in this document. Hopefully these were the most forensically interesting, but more research is needed by installing different profiles and analyzing the differences. For example, installing the DataAccess profile generates a new folder containing information about email and calendars.
+
+
+
+
+
+71
+
+
+
+
+
+Appendix 1 – Extracting sysdiagnose file in Linux
+
+
+
+Once a sysdiagnose log has been generated and copied off the device, the analyst will be left with a tar archived file. e.g. sysdiagnose_2019.04.26_16-00-37-0400_iPhone_OS_iPhone_16A366.tar.gz The file can be untarred using the Ubuntu Archive Manager OR on the Ubuntu command line via: tar xzvf sysdiagnose_2019.04.26_16-00-37-0400_iPhone_OS_iPhone_16A366.tar.gz You might get some warnings about
+
+
+
+tar: Ignoring unknown extended header keyword 'SCHILY.dev'
+
+tar: Ignoring unknown extended header keyword 'SCHILY.ino'
+
+tar: Ignoring unknown extended header keyword 'SCHILY.nlink'
+
+
+
+According to http://lifeonubuntu.com/tar-errors-ignoring-unknown-extended-header-keyword/, this is due to the tar being created using the BSD version of tar and the errors can be safely ignored.
+
+
+
+
+
+72
+
+
+
+
+
+Appendix 2 – Developed scripts
+
+
+
+All scripts were written and tested on Ubuntu 16.04 LTS and Mac OS X Mojave using iOS 12 test data.
+
+
+
+The following table summarizes the scripts we developed to process sysdiagnose data.
+
+
+
+Name
+
+Description
+
+Output
+
+
+
+
+
+Usage Example
+
+
+Extracts OS info from
+
+
+python3 sysdiagnose-
+
+Command
+
+sysdiagnose-sys.py
+
+logs/SystemVersion/SystemVersion
+
+sys.py -i
+
+line
+
+.plist
+
+SystemVersion.plist
+
+python3 sysdiagnose-
+
+Extracts hostnames from
+
+Command
+
+sysdiagnose-networkprefs.py
+
+networkprefs.py -i
+
+logs/Networking/preferences.plist
+
+line
+
+preferences.plist
+
+Extracts network config info from
+
+python3 sysdiagnose-
+
+sysdiagnose-
+
+Command
+
+logs/Networking/NetworkInterface
+
+networkinterfaces.py -i
+
+networkinterfaces.py
+
+line
+
+s.plist
+
+NetworkInterfaces.plist
+
+python3 sysdiagnose-
+
+Extracts uninstall info from
+
+mobilecontainermanag
+
+sysdiagnose-
+
+Command
+
+logs/MobileContainerManager/con
+
+er.py -i
+
+mobilecontainermanager.py
+
+line
+
+tainermanagerd.log.0
+
+containermanagerd.log
+
+.0
+
+python3 sysdiagnose-
+
+Extracts backup info from
+
+Command
+
+mobilebackup.py -i
+
+sysdiagnose-mobilebackup.py
+
+logs/MobileBackup/com.apple.Mo
+
+line
+
+com.apple.MobileBack
+
+bileBackup.plist
+
+up.plist
+
+Mobile Activation Startup and
+
+python3 sysdiagnose-
+
+sysdiagnose-
+
+Upgrade info from
+
+Command
+
+mobileactivation.py -i
+
+mobileactivation.py
+
+logs/MobileActivation/mobileactiv
+
+line
+
+mobileactivation.log
+
+ationd.log.*
+
+Extracts Wi-Fi network values from
+
+Command
+
+python3 sysdiagnose-
+
+sysdiagnose-wifi-plist.py
+
+WiFi/com.apple.wifi.plist
+
+line and
+
+wifi-plist.py -i
+
+Use -t option for TSV output file
+
+TSV
+
+com.apple.wifi.plist -t
+
+python3 sysdiagnose-
+
+Extracts Wi-Fi network values from
+
+Command
+
+wifi-icloud.py -i
+
+sysdiagnose-wifi-icloud.py
+
+WiFi/ICLOUD.apple.wifid.plist
+
+line
+
+ICLOUD.apple.wifid.plis
+
+Use -t option for TSV output file
+
+and TSV
+
+t -t
+
+Extracts Wi-Fi network names to
+
+python3 sysdiagnose-
+
+sysdiagnose-wifi-net.py
+
+categorized TSV files from WiFi/wifi
+
+TSV files
+
+wifi-net.py -i wifi-
+
+*.log
+
+buf.log
+
+python3 sysdiagnose-
+
+Extracts Wi-Fi geolocation values
+
+sysdiagnose-wifi-kml.py
+
+KML
+
+wifi-kml.py -i wifi-
+
+and creates a KML from wifi*.log
+
+buf.log
+
+Command
+
+Extracts GUID and path info from
+
+python3 sysdiagnose-
+
+line
+
+sysdiagnose-uuid2path.py
+
+logs/tailspindb/UUIDToBinaryLocat
+
+uuid2path.py -i
+
+(comma
+
+ions
+
+UUIDToBinaryLocations
+
+separated)
+
+Extracts app name & GUID info
+
+python3 sysdiagnose-
+
+from
+
+Command
+
+net-ext-cache.py -i
+
+sysdiagnose-net-ext-cache.py
+
+logs/Networking/com.apple.netwo
+
+line
+
+com.apple.networkexte
+
+rkextension.cache.plist
+
+nsion.cache.plist -v
+
+Use -v option to print GUID info
+
+python3 sysdiagnose-
+
+Extracts connection info from
+
+Command
+
+sysdiagnose-appconduit.py
+
+appconduit.py -i
+
+logs/AppConduit/AppConduit.log.*
+
+line
+
+AppConduit.log
+
+
+
+73
+
+
+
+
+

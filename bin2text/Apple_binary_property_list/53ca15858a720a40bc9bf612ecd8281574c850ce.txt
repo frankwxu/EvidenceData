@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Manda un mensaje con LINE</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Llama con LINE</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Haz una videollamada con LINE</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+	<key>ParameterVocabularies</key>
+	<array/>
+</dict>
+</plist>

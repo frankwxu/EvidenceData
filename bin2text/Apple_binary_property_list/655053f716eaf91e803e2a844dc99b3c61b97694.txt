@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Delete %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Obriši %lu bilješke</string>
+			<key>one</key>
+			<string>Obriši bilješku</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Obriši %lu bilješki</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Column</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_columns@</string>
+		<key>num_columns</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Obriši %lu stupca</string>
+			<key>one</key>
+			<string>Obriši stupac</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Obriši %lu stupaca</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Row</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows@</string>
+		<key>num_rows</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Obriši %lu retka</string>
+			<key>one</key>
+			<string>Obriši redak</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Obriši %lu redaka</string>
+		</dict>
+	</dict>
+	<key>Move %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Premjesti %lu bilješke</string>
+			<key>one</key>
+			<string>Premjesti bilješku</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Premjesti %lu bilješki</string>
+		</dict>
+	</dict>
+	<key>Moved %lu notes to %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@moved_num_notes@ u %@</string>
+		<key>moved_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu bilješke su premještene</string>
+			<key>one</key>
+			<string>%lu bilješka je premještena</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu bilješki je premješteno</string>
+			<key>zero</key>
+			<string>Nijedna bilješka nije premještena</string>
+		</dict>
+	</dict>
+	<key>FOLDER_DEPTH_LIMIT_MESSAGE_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@folder_depth_limit_message@</string>
+		<key>folder_depth_limit_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Bilješke su ograničene na %lu razine mapa.</string>
+			<key>one</key>
+			<string>Bilješke su ograničene na %lu razinu mapa.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Bilješke su ograničene na %lu razina mapa.</string>
+		</dict>
+	</dict>
+	<key>NUM_SUBFOLDERS_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_subfolders@</string>
+		<key>num_subfolders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu podmape</string>
+			<key>one</key>
+			<string>%lu podmapa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu podmapa</string>
+			<key>zero</key>
+			<string>Bez podmapa</string>
+		</dict>
+	</dict>
+	<key>DELETE_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Obriši %lu skena</string>
+			<key>one</key>
+			<string>Obriši sken</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Obriši %lu skenova</string>
+		</dict>
+	</dict>
+	<key>%d minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d minute</string>
+			<key>one</key>
+			<string>%d minuta</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minuta</string>
+		</dict>
+	</dict>
+	<key>%d days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>%lu scans</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_scans@</string>
+		<key>num_scans</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu skena</string>
+			<key>one</key>
+			<string>%lu sken</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu skenova</string>
+		</dict>
+	</dict>
+	<key>Trash %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Baci %lu bilješke</string>
+			<key>one</key>
+			<string>Baci bilješku</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Baci %lu bilješki</string>
+		</dict>
+	</dict>
+	<key>%d seconds</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_seconds@</string>
+		<key>num_seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d sekunde</string>
+			<key>one</key>
+			<string>%d sekunda</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d sekundi</string>
+		</dict>
+	</dict>
+	<key>Copy %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Kopiraj %lu bilješke</string>
+			<key>one</key>
+			<string>Kopiraj bilješku</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Kopiraj %lu bilješki</string>
+		</dict>
+	</dict>
+	<key>At most %lu attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Može se dodati najviše %lu privitaka.</string>
+			<key>one</key>
+			<string>Može se dodati najviše %lu privitak.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Može se dodati najviše %lu privitaka.</string>
+		</dict>
+	</dict>
+	<key>%d hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_hours@</string>
+		<key>num_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d sata</string>
+			<key>one</key>
+			<string>%d sat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d sati</string>
+		</dict>
+	</dict>
+	<key>At most %lu more attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Može se dodati najviše još %lu privitaka.</string>
+			<key>one</key>
+			<string>Može se dodati najviše još %lu privitak.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Može se dodati najviše još %lu privitaka.</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders@</string>
+		<key>num_folders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Obriši mape (%lu)</string>
+			<key>one</key>
+			<string>Obriši mapu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Obriši mape (%lu)</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

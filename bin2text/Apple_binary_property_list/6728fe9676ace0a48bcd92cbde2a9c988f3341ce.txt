@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTIVITY_CONNECTING</key>
+	<string>‎Probíhá připojování...</string>
+	<key>ACTIVITY_LOADING</key>
+	<string>‎Načítání…</string>
+	<key>ACTIVITY_WAITING_FOR_NETWORK</key>
+	<string>‎Čekání na síť...</string>
+	<key>ADDRESS_TITLE</key>
+	<string>‎Adresa</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_FACE_ID</key>
+	<string>‎Pro použití aplikace %@ je požadováno Face ID.</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_TOUCH_ID</key>
+	<string>‎Pro použití aplikace %@ je požadováno Touch ID.</string>
+	<key>BIOMETRIC_PRIVACY_ENABLE_FACE_ID</key>
+	<string>‎Chcete-li pokračovat, povolte aplikaci %@ použití Face ID.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_FACE_ID_PROMPT</key>
+	<string>‎Pro použití aplikace %1$@ nastavte Face ID v Nastavení telefonu.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_TOUCH_ID_PROMPT</key>
+	<string>‎Pro použití aplikace %1$@ nastavte Touch ID v Nastavení telefonu.</string>
+	<key>BIZ_ACCOUNT</key>
+	<string>‎Účet společnosti</string>
+	<key>BIZ_CATEGORIES_TITLE</key>
+	<string>‎Kategorie</string>
+	<key>BIZ_CATEGORY_TITLE</key>
+	<string>‎Kategorie</string>
+	<key>BIZ_HOURS_AND_ADDRESS</key>
+	<string>‎%1$@ • %2$@</string>
+	<key>BIZ_HOURS_TITLE</key>
+	<string>‎Otevírací doba</string>
+	<key>BIZ_NAME_TITLE</key>
+	<string>‎Název společnosti</string>
+	<key>BIZ_REPORT</key>
+	<string>‎Nahlásit</string>
+	<key>BIZ_REPORT_ILLEGAL</key>
+	<string>‎Škodlivý, závadný či nelegální produkt.</string>
+	<key>BIZ_REPORT_KNOCKOFF</key>
+	<string>‎Zřejmě se jedná o napodobeninu či padělek.</string>
+	<key>BIZ_REPORT_NO_MATCH</key>
+	<string>‎Fotky a popis se neshodují s produktem.</string>
+	<key>BIZ_REPORT_OTHER</key>
+	<string>‎Jiné</string>
+	<key>BIZ_REPORT_PRODUCT_TITLE_FOR_HEADER</key>
+	<string>‎Důvod pro nahlášení produktu</string>
+	<key>BIZ_REPORT_SCAM</key>
+	<string>‎Jedná se o podvodný produkt.</string>
+	<key>BIZ_REPORT_SPAM</key>
+	<string>‎Jedná se o spam.</string>
+	<key>BIZ_REPORT_THIS_PRODUCT</key>
+	<string>‎Nahlásit tento produkt či službu?</string>
+	<key>BIZ_SEND_PRODUCT</key>
+	<string>‎Odeslat</string>
+	<key>BIZ_TELL_US_MORE</key>
+	<string>‎Sdělte nám více</string>
+	<key>BIZ_THIS_PRODUCT_HAS_BEEN_REPORTED</key>
+	<string>‎Děkujeme, vaše hlášení bylo odesláno.</string>
+	<key>BIZ_VERTICAL_APPAREL</key>
+	<string>‎Oděvy</string>
+	<key>BIZ_VERTICAL_AUTO</key>
+	<string>‎Automobily</string>
+	<key>BIZ_VERTICAL_BEAUTY</key>
+	<string>‎Krása, lázně a kosmetika</string>
+	<key>BIZ_VERTICAL_EDU</key>
+	<string>‎Vzdělávání</string>
+	<key>BIZ_VERTICAL_ENTERTAIN</key>
+	<string>‎Zábava</string>
+	<key>BIZ_VERTICAL_EVENT_PLAN</key>
+	<string>‎Plánování událostí a služby</string>
+	<key>BIZ_VERTICAL_FINANCE</key>
+	<string>‎Finance a bankovnictví</string>
+	<key>BIZ_VERTICAL_GROCERY</key>
+	<string>‎Jídlo a potraviny</string>
+	<key>BIZ_VERTICAL_HEALTH</key>
+	<string>‎Zdravotnictví</string>
+	<key>BIZ_VERTICAL_HOTEL</key>
+	<string>‎Hotely a ubytování</string>
+	<key>BIZ_VERTICAL_NONPROFIT</key>
+	<string>‎Neziskový sektor</string>
+	<key>BIZ_VERTICAL_NOTABIZ</key>
+	<string>‎Nejsme společnost</string>
+	<key>BIZ_VERTICAL_OTHER</key>
+	<string>‎Ostatní</string>
+	<key>BIZ_VERTICAL_POLICY</key>
+	<string>‎Veřejná správa</string>
+	<key>BIZ_VERTICAL_PROF_SERVICES</key>
+	<string>‎Profesionální služby</string>
+	<key>BIZ_VERTICAL_RESTAURANT</key>
+	<string>‎Restaurace</string>
+	<key>BIZ_VERTICAL_RETAIL</key>
+	<string>‎Prodej a maloobchod</string>
+	<key>BIZ_VERTICAL_TRAVEL</key>
+	<string>‎Cestování a doprava</string>
+	<key>BIZ_WE_WILL_REVIEW</key>
+	<string>‎Produkt či služba budou přezkoumány. Pokud neodpovídají našim všeobecným podmínkám, budou odstraněny.</string>
+	<key>BLOCKLIST_BLOCK_BUTTON_TITLE</key>
+	<string>‎Blokovat</string>
+	<key>BLOCKLIST_HELPER_TEXT</key>
+	<string>‎Blokované kontakty vám už nebudou moct volat ani odesílat zprávy.</string>
+	<key>BLOCKLIST_HELPER_TEXT_BUSINESS_WITH_REASONS</key>
+	<string>‎Blokovat společnost %@? Společnost vám už nebude moct volat ani odesílat zprávy. Důvod blokování:</string>
+	<key>BLOCKLIST_UNBLOCK_BUTTON_TITLE</key>
+	<string>‎Odblokovat</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_CALL</key>
+	<string>‎Chcete-li zahájit hovor WhatsApp, odblokujte kontakt.</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_SEND_MESSAGE</key>
+	<string>‎Chcete-li odeslat zprávu, odblokujte kontakt.</string>
+	<key>BLOCKLIST_UNBLOCK_TO_ADD</key>
+	<string>‎Pro přidání odblokujte</string>
+	<key>BLOCKLIST_UNBLOCK_TO_CALL</key>
+	<string>‎Odblokovat a volat</string>
+	<key>BLOCKLIST_UNBLOCK_TO_MESSAGE</key>
+	<string>‎Odblokujte a pošlete zprávu</string>
+	<key>BLOCKLIST_UNBLOCK_TO_REMOVE</key>
+	<string>‎Chcete-li odebrat, odblokujte</string>
+	<key>BLOCK_REASON_BAD_EXPERIENCE</key>
+	<string>‎Špatná zkušenost.</string>
+	<key>BLOCK_REASON_DIDNT_OPTIN</key>
+	<string>‎Nepřihlásil/a jsem se k odběru.</string>
+	<key>BLOCK_REASON_NEED_RESOLVED</key>
+	<string>‎Je třeba vyřešit.</string>
+	<key>BLOCK_REASON_NO_LONGER_INTERESTED</key>
+	<string>‎Už nemám zájem.</string>
+	<key>BLOCK_REASON_NO_REASON</key>
+	<string>‎Bez důvodu.</string>
+	<key>BLOCK_SHORTENED</key>
+	<string>‎Blokovat</string>
+	<key>BLOC_BIZ_HELPER_TEXT</key>
+	<string>‎Blokované společnosti vám již nebudou moci volat ani psát zprávy.</string>
+	<key>BUTTON_BACK</key>
+	<string>‎Zpět</string>
+	<key>BUTTON_CANCEL</key>
+	<string>‎Zrušit</string>
+	<key>BUTTON_CLOSE</key>
+	<string>‎Zavřít</string>
+	<key>BUTTON_CONFIRM</key>
+	<string>‎Potvrdit</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>‎Pokračovat</string>
+	<key>BUTTON_DONE</key>
+	<string>‎Dokončit</string>
+	<key>BUTTON_FORWARD</key>
+	<string>‎Přeposlat</string>
+	<key>BUTTON_LEARN_MORE</key>
+	<string>‎Další informace</string>
+	<key>BUTTON_NEXT</key>
+	<string>‎Další</string>
+	<key>BUTTON_NOT_NOW</key>
+	<string>‎Nyní ne</string>
+	<key>BUTTON_OK</key>
+	<string>‎OK</string>
+	<key>BUTTON_OPEN_SETTINGS</key>
+	<string>‎Otevřít Nastavení</string>
+	<key>BUTTON_RESET</key>
+	<string>‎Resetovat</string>
+	<key>BUTTON_SEND</key>
+	<string>‎Odeslat</string>
+	<key>BUTTON_TRY_AGAIN</key>
+	<string>‎Zkusit znovu</string>
+	<key>BUTTON_UNDO</key>
+	<string>‎Zpět</string>
+	<key>CHANGE_NUMBER_OLD_PHONE_LABEL</key>
+	<string>‎staré číslo</string>
+	<key>CHAT_INPUT_BAR_PLACEHOLDER_TEXT</key>
+	<string>‎Přidat popisek...</string>
+	<key>CHAT_MENU_MORE</key>
+	<string>‎Více</string>
+	<key>CHAT_SUBJECT_TEXT_RECIPIENTS</key>
+	<string>‎Příjemci: %@</string>
+	<key>COMMON_ERROR</key>
+	<string>‎Chyba</string>
+	<key>COMPANY_LABEL</key>
+	<string>‎společnost</string>
+	<key>CONTACTS_LIST_EMPTY_CONTACTS_DESC</key>
+	<string>‎Žádné kontakty</string>
+	<key>CONTACTS_{{0}}</key>
+	<string>‎%@ kontakt</string>
+	<key>CONTACTS_{{1}}</key>
+	<string>‎%@ kontakty</string>
+	<key>CONTACTS_{{2}}</key>
+	<string>‎%@ kontaktů</string>
+	<key>CONTACT_PLACEHOLDER_NAME</key>
+	<string>‎Kontakt</string>
+	<key>CONTACT_US_DOES_NOT_ANSWER_MY_QUESTION</key>
+	<string>‎Nejedná se o odpověď na můj dotaz.</string>
+	<key>CONTENT_STICKERS_HEADER</key>
+	<string>‎Čas a poloha</string>
+	<key>COULDNT_SEND_MESSAGES_{{0}}</key>
+	<string>‎Nelze odeslat %@ zprávu.</string>
+	<key>COULDNT_SEND_MESSAGES_{{1}}</key>
+	<string>‎Nelze odeslat %@ zprávy.</string>
+	<key>COULDNT_SEND_MESSAGES_{{2}}</key>
+	<string>‎Nelze odeslat %@ zpráv.</string>
+	<key>DEPRECATED_DEVICE_NO_SUPPORT</key>
+	<string>‎Aplikace WhatsApp už nepodporuje váš typ telefonu.</string>
+	<key>DOCUMENT_MESSAGE_DEFAULT_TITLE</key>
+	<string>‎Bez názvu</string>
+	<key>EMOJI_CATEGORY_ACTIVITY</key>
+	<string>‎Aktivity</string>
+	<key>EMOJI_CATEGORY_ANIMALS_NATURE</key>
+	<string>‎Zvířata a příroda</string>
+	<key>EMOJI_CATEGORY_FLAGS</key>
+	<string>‎Vlajky</string>
+	<key>EMOJI_CATEGORY_FOOD_DRINK</key>
+	<string>‎Jídlo a pití</string>
+	<key>EMOJI_CATEGORY_OBJECTS</key>
+	<string>‎Předměty</string>
+	<key>EMOJI_CATEGORY_SMILEYS_PEOPLE</key>
+	<string>‎Smajlíci a lidé</string>
+	<key>EMOJI_CATEGORY_SYMBOLS</key>
+	<string>‎Symboly</string>
+	<key>EMOJI_CATEGORY_TRAVEL_AND_PLACES</key>
+	<string>‎Cestování a místa</string>
+	<key>EMOJI_SEARCH_NO_RESULTS</key>
+	<string>‎Žádné výsledky pro výraz %@</string>
+	<key>EMOJI_SEARCH_RECENT_EMOJIS_HEADER</key>
+	<string>‎Nedávné</string>
+	<key>EMOJI_SEARCH_RESULTS</key>
+	<string>‎Emoji nalezené pro výraz „%@“</string>
+	<key>ERROR_COULDNT_CONNECT_TO_SERVICE</key>
+	<string>‎Připojení ke službě WhatsApp se nezdařilo.</string>
+	<key>ERROR_OCCURRED</key>
+	<string>‎Došlo k chybě.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_DEFAULT</key>
+	<string>‎Aplikace %1$@ nemá přístup k vašemu fotoaparátu. Chcete-li ho povolit, klepněte na Nastavení a zapněte Fotoaparát.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_VIDEO_CALL</key>
+	<string>‎Pro používání videohovorů vyžaduje aplikace %@ přístup k fotoaparátu iPhonu. Klepněte na Nastavení a zapněte Fotoaparát.</string>
+	<key>EXTENSION_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>FILTER_NAME_BW</key>
+	<string>‎ČB</string>
+	<key>FILTER_NAME_COOL</key>
+	<string>‎Chladný</string>
+	<key>FILTER_NAME_FILM</key>
+	<string>‎Film</string>
+	<key>FILTER_NAME_NONE</key>
+	<string>‎Žádný</string>
+	<key>FILTER_NAME_PEN</key>
+	<string>‎Chrom</string>
+	<key>FILTER_NAME_POP</key>
+	<string>‎Pop</string>
+	<key>GROUP_INVITE_NOTIFICATION_TEXT</key>
+	<string>‎Pozvánka do skupiny</string>
+	<key>GROUP_SEND_ERROR_NOT_ADMIN</key>
+	<string>‎V této skupině mohou posílat zprávy pouze správci.</string>
+	<key>GROUP_SEND_ERROR_NOT_PARTICIPANT</key>
+	<string>‎V této skupině nemůžete odesílat zprávy, protože už nejste jejím účastníkem.</string>
+	<key>HOME_SCREEN_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>INCOMPATIBLE_ADD_ONS_ON_JAILBROKEN_PHONE</key>
+	<string>‎Doplňky, které používáte na svém softwarově upraveném iPhonu, nejsou kompatibilní s touto verzí aplikace %1$@.</string>
+	<key>INPUT_LABEL_EMAIL</key>
+	<string>‎E-mail</string>
+	<key>INSTAGRAM</key>
+	<string>‎Instagram</string>
+	<key>INTERNET_REQUIRED_TO_UPDATE_SETTINGS</key>
+	<string>‎Aby bylo možné nastavení aktualizovat, aplikace %1$@ požaduje aktivní internetové připojení.</string>
+	<key>JAILBROKEN_NO_SUPPORT_AVAILABLE</key>
+	<string>‎Je nám líto, není možné zajistit podporu pro upravená zařízení
+‎
+‎Pokud máte potíže, obnovte zařízení do výchozího továrního nastavení.</string>
+	<key>JOINED_BIZ_CATEGORIES</key>
+	<string>‎%1$@, %2$@</string>
+	<key>JOINED_SENTENCES</key>
+	<string>‎%1$@ %2$@</string>
+	<key>LABEL_DATE_ANNIVERSARY</key>
+	<string>‎Výročí</string>
+	<key>LABEL_HOME</key>
+	<string>‎Domů</string>
+	<key>LABEL_OTHER</key>
+	<string>‎Další</string>
+	<key>LABEL_PHONE_NUMBER_HOME_FAX</key>
+	<string>‎Fax domů</string>
+	<key>LABEL_PHONE_NUMBER_MAIN</key>
+	<string>‎Hlavní</string>
+	<key>LABEL_PHONE_NUMBER_MOBILE</key>
+	<string>‎Mobil</string>
+	<key>LABEL_PHONE_NUMBER_OTHER_FAX</key>
+	<string>‎Další fax</string>
+	<key>LABEL_PHONE_NUMBER_PAGER</key>
+	<string>‎Pager</string>
+	<key>LABEL_PHONE_NUMBER_WORK_FAX</key>
+	<string>‎Fax do práce</string>
+	<key>LABEL_SCHOOL</key>
+	<string>‎Škola</string>
+	<key>LABEL_URL_ADDRESS_HOME</key>
+	<string>‎Osobní web</string>
+	<key>LABEL_WORK</key>
+	<string>‎Práce</string>
+	<key>LINK_ACCESSIBILITY_HINT</key>
+	<string>‎Poklepáním otevřete odkaz.</string>
+	<key>LIVE_LOCATION_ENDED</key>
+	<string>‎Aktuální poloha ukončena</string>
+	<key>LIVE_LOCATION_ENDED_VOICEOVER</key>
+	<string>‎Sdílení aktuální polohy ukončeno</string>
+	<key>LOCALIZED_APP_NAME_LONG</key>
+	<string>‎WhatsApp Messenger</string>
+	<key>LOCALIZED_APP_NAME_SHORT</key>
+	<string>‎WhatsApp</string>
+	<key>LOCALIZED_SMB_APP_NAME_LONG</key>
+	<string>‎WhatsApp Business</string>
+	<key>LOCALIZED_SMB_APP_NAME_SHORT</key>
+	<string>‎WhatsApp Business</string>
+	<key>MATCHING_VCARD_CONTACTS_TITLE</key>
+	<string>‎Shodné</string>
+	<key>MEDIA_ANIMATED_GIF</key>
+	<string>‎Animace GIF</string>
+	<key>MEDIA_AUDIO</key>
+	<string>‎Zvukový soubor</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{0}}</key>
+	<string>‎Zvolen %@ zvukový soubor</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{1}}</key>
+	<string>‎Zvoleny %@ zvukové soubory</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{2}}</key>
+	<string>‎Zvoleno %@ zvukových souborů</string>
+	<key>MEDIA_CANNOT_BESELECTED</key>
+	<string>‎Nelze vybrat tuto položku. Zvolte jinou.</string>
+	<key>MEDIA_DOCUMENT</key>
+	<string>‎Dokument</string>
+	<key>MEDIA_GIF</key>
+	<string>‎GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{0}}</key>
+	<string>‎Zvolena %@ animace GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{1}}</key>
+	<string>‎Zvoleny %@ animace GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{2}}</key>
+	<string>‎Zvoleno %@ animací GIF</string>
+	<key>MEDIA_ITEMS_SELECTED_{{0}}</key>
+	<string>‎Zvolena %@ položka</string>
+	<key>MEDIA_ITEMS_SELECTED_{{1}}</key>
+	<string>‎Zvoleny %@ položky</string>
+	<key>MEDIA_ITEMS_SELECTED_{{2}}</key>
+	<string>‎Zvoleno %@ položek</string>
+	<key>MEDIA_ITEMS_{{0}}</key>
+	<string>‎%@ položka</string>
+	<key>MEDIA_ITEMS_{{1}}</key>
+	<string>‎%@ položky</string>
+	<key>MEDIA_ITEMS_{{2}}</key>
+	<string>‎%@ položek</string>
+	<key>MEDIA_LANDSCAPE</key>
+	<string>‎Na šířku</string>
+	<key>MEDIA_LIVE_LOCATION</key>
+	<string>‎Aktuální poloha</string>
+	<key>MEDIA_LOCATION</key>
+	<string>‎Poloha</string>
+	<key>MEDIA_PAGES_{{0}}</key>
+	<string>‎%@ strana</string>
+	<key>MEDIA_PAGES_{{1}}</key>
+	<string>‎%@ strany</string>
+	<key>MEDIA_PAGES_{{2}}</key>
+	<string>‎%@ stran</string>
+	<key>MEDIA_PHOTO</key>
+	<string>‎Fotografie</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{0}}</key>
+	<string>‎Zvolena %@ fotografie</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{1}}</key>
+	<string>‎Zvoleny %@ fotografie</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{2}}</key>
+	<string>‎Zvoleno %@ fotografií</string>
+	<key>MEDIA_PHOTOS_{{0}}</key>
+	<string>‎%@ fotografie</string>
+	<key>MEDIA_PHOTOS_{{1}}</key>
+	<string>‎%@ fotografie</string>
+	<key>MEDIA_PHOTOS_{{2}}</key>
+	<string>‎%@ fotografií</string>
+	<key>MEDIA_PORTRAIT</key>
+	<string>‎Na výšku</string>
+	<key>MEDIA_PRODUCTS_{{0}}</key>
+	<string>‎%@ produkt</string>
+	<key>MEDIA_PRODUCTS_{{1}}</key>
+	<string>‎%@ produkty</string>
+	<key>MEDIA_PRODUCTS_{{2}}</key>
+	<string>‎%@ produktů</string>
+	<key>MEDIA_PTT_LOW_VOLUME_WARNING</key>
+	<string>‎Zapněte zvuk – zesilte ho tlačítkem pro ovládání hlasitosti.</string>
+	<key>MEDIA_SELECT</key>
+	<string>‎Vybrat</string>
+	<key>MEDIA_SHEETS_{{0}}</key>
+	<string>‎%@ list</string>
+	<key>MEDIA_SHEETS_{{1}}</key>
+	<string>‎%@ listy</string>
+	<key>MEDIA_SHEETS_{{2}}</key>
+	<string>‎%@ listů</string>
+	<key>MEDIA_SLIDES_{{0}}</key>
+	<string>‎%@ snímek</string>
+	<key>MEDIA_SLIDES_{{1}}</key>
+	<string>‎%@ snímky</string>
+	<key>MEDIA_SLIDES_{{2}}</key>
+	<string>‎%@ snímků</string>
+	<key>MEDIA_VIDEO</key>
+	<string>‎Video</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{0}}</key>
+	<string>‎Zvoleno %@ video</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{1}}</key>
+	<string>‎Zvolena %@ videa</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{2}}</key>
+	<string>‎Zvoleno %@ videí</string>
+	<key>MEDIA_VIDEOS_{{0}}</key>
+	<string>‎%@ video</string>
+	<key>MEDIA_VIDEOS_{{1}}</key>
+	<string>‎%@ videa</string>
+	<key>MEDIA_VIDEOS_{{2}}</key>
+	<string>‎%@ videí</string>
+	<key>MEDIA_VOICE_MESSAGE</key>
+	<string>‎Hlasová zpráva</string>
+	<key>MESSAGE_GENERIC</key>
+	<string>‎Zpráva</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{0}}</key>
+	<string>‎Na Můj stav se odešle pouze první %@ znak. Chcete pokračovat?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{1}}</key>
+	<string>‎Na Můj stav se odešlou pouze první %@ znaky. Chcete pokračovat?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{2}}</key>
+	<string>‎Na Můj stav se odešle pouze prvních %@ znaků. Chcete pokračovat?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{0}}</key>
+	<string>‎Odešle se pouze první %@ znak. Chcete pokračovat?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{1}}</key>
+	<string>‎Odešlou se pouze první %@ znaky. Chcete pokračovat?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{2}}</key>
+	<string>‎Odešle se pouze prvních %@ znaků. Chcete pokračovat?</string>
+	<key>MESSAGE_TYPE_CONTACT</key>
+	<string>‎Kontakt</string>
+	<key>MULTISEND_FIT_TO_SCREEN</key>
+	<string>‎Přizpůsobit obrazovce</string>
+	<key>MULTISEND_ORIGINAL</key>
+	<string>‎Původní</string>
+	<key>MULTISEND_PICKER_HEADER_EMOJI</key>
+	<string>‎Emoji</string>
+	<key>MULTISEND_PICKER_HEADER_FAVORITE_STICKERS</key>
+	<string>‎Oblíbené</string>
+	<key>MULTISEND_PICKER_HEADER_STICKERS</key>
+	<string>‎Nálepky</string>
+	<key>MULTISEND_SQUARE</key>
+	<string>‎Čtverec</string>
+	<key>NICKNAME_LABEL</key>
+	<string>‎přezdívka</string>
+	<key>NOTIFICATION_CONTACT_AT_GROUP_MESSAGE</key>
+	<string>‎%1$@ @ %2$@:
+‎%3$@</string>
+	<key>NOTIFICATION_CONTACT_MESSAGE</key>
+	<string>‎%1$@: %2$@</string>
+	<key>NOTIFICATION_MESSAGE</key>
+	<string>‎Zpráva</string>
+	<key>NOTIFICATION_MESSAGE_FROM</key>
+	<string>‎Zpráva od uživatele %@</string>
+	<key>NOTIFICATION_MESSAGE_FROM_CONTACT_AT_GROUP</key>
+	<string>‎Zpráva od uživatele %1$@ @ %2$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT</key>
+	<string>‎%1$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT_AT_GROUP</key>
+	<string>‎%1$@ @ %2$@</string>
+	<key>NO_RESULTS</key>
+	<string>‎Žádné výsledky</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‎To vám umožní vytvořit události ve vašem kalendáři.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‎Toto vám umožňuje zaznamenávat fotografie a videa přímo v aplikaci WhatsApp.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>‎Nahrajete-li své kontakty na servery služby WhatsApp, budete se moct rychleji spojit se svými přáteli a my vám budeme schopni zajistit lepší uživatelskou zkušenost.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>‎Použijte Face ID pro ověření totožnosti v aplikaci WhatsApp.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>‎Pokud povolíte přístup k vaší poloze vždy, budete moci sdílet vaši aktuální polohu a ta bude aktualizována, i když aplikaci nepoužíváte. Pokud povolíte přístup pouze při používání aplikace, můžete odeslat pouze jednorázovou polohu nebo blízká místa.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>‎Pokud povolíte přístup k vaší poloze vždy, budete moci sdílet vaši aktuální polohu a ta bude aktualizována, i když aplikaci nepoužíváte. To vám umožní odesílat také jednorázovou polohu nebo blízká místa.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>‎Takto budete moct v chatech odesílat svoji aktuální polohu nebo blízká místa.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>‎Takto budete moct v chatech odesílat svoji aktuální polohu nebo blízká místa.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‎Takto budete moct telefonovat, odesílat hlasové zprávy a nahrávat videa se zvukem.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‎Takto budete moct posílat fotky a videa z vaší knihovny a ukládat do ní ty, které vytvoříte.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>‎Takto si budete moct nastavit upomínky k tomu, abyste svým přátelům zavolali zpět.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‎Takto budete moct Siri použít k rychlému odesílání a čtení zpráv a k telefonování.</string>
+	<key>OPERATION_ABORTED</key>
+	<string>‎Operace byla přerušena.</string>
+	<key>OPERATION_CANCELLED</key>
+	<string>‎Operace byla zrušena.</string>
+	<key>OTHERS_VCARD_CONTACTS_TITLE</key>
+	<string>‎Další</string>
+	<key>PAYMENT_NOTIFICATION</key>
+	<string>‎platba</string>
+	<key>PAYMENT_REQUEST_NOTIFICATION</key>
+	<string>‎žádost o platbu</string>
+	<key>PERM_CALENDARS</key>
+	<string>‎Aplikace %1$@ nemá přístup ke kalendářům.
+‎Chcete-li ho povolit, klepněte na Nastavení a zapněte možnost Kalendáře.</string>
+	<key>PERM_FACEID</key>
+	<string>‎Aplikace %1$@ nemá přístup k Face ID. Chcete-li přístup povolit, přejděte do Nastavení telefonu &gt; Face ID a kódový zámek &gt; Face ID používat pro: &gt; Ostatní aplikace.</string>
+	<key>PERM_LOCATION_7</key>
+	<string>‎Aplikace %1$@ nemá přístup k vaší poloze.
+‎Chcete-li ho povolit, přejděte do Nastavení telefonu &gt; Soukromí &gt; Polohové služby &gt; %2$@</string>
+	<key>PERM_PHOTOS_7</key>
+	<string>‎Aplikace %1$@ nemá přístup k fotografiím a videím.
+‎Pokud ho chcete povolit, přejděte do Nastavení telefonu &gt; Soukromí &gt; Fotografie &gt; %2$@</string>
+	<key>PERM_REMINDERS</key>
+	<string>‎Aplikace %1$@ nemá přístup k připomínkám.
+‎Chcete-li ho povolit, klepněte na možnost Nastavení a zapněte možnost Připomínky.</string>
+	<key>PHONE_VERIFICATION_RESEND_CODE</key>
+	<string>‎Poslat znovu</string>
+	<key>PHONE_VERIFICATION_RESEND_SMS</key>
+	<string>‎Poslat znovu za %@.</string>
+	<key>PHOTO_LIBRARY_ERROR_SAVE_FAILED</key>
+	<string>‎Média nelze uložit.</string>
+	<key>PHOTO_LIBRARY_PERMISSIONS</key>
+	<string>‎Aplikace %1$@ nemá přístup k fotografiím a videím. Chcete-li ho povolit, přejděte do Nastavení a zapněte Fotografie.</string>
+	<key>PHOTO_LIBRARY_PHOTO_ASSET_NOT_READY</key>
+	<string>‎Probíhá načítání fotografie...</string>
+	<key>PHOTO_LIBRARY_PHOTO_FAILED</key>
+	<string>‎Tuto fotografii nelze použít. Zvolte jinou fotografii.</string>
+	<key>PHOTO_LIBRARY_PHOTO_NOT_READY_YET</key>
+	<string>‎Fotografie ještě není načtená, zkuste to znovu později.</string>
+	<key>PHOTO_LIBRARY_VIDEO_ASSET_NOT_READY</key>
+	<string>‎Probíhá načítání videa...</string>
+	<key>PHOTO_LIBRARY_VIDEO_FAILED</key>
+	<string>‎Toto video nelze použít. Vyberte jiné video.</string>
+	<key>PHOTO_LIBRARY_VIDEO_NOT_READY_YET</key>
+	<string>‎Video ještě není načtené, zkuste to znovu později.</string>
+	<key>PIN_ENTRY_FIELD_ACCESSIBILITY_LABEL</key>
+	<string>‎Pole pro zadání PIN kódu</string>
+	<key>PIP_VIDEO_CANNOT_BE_PLAYED</key>
+	<string>‎Toto video nelze přehrát.</string>
+	<key>PLACEHOLDER_SEARCH</key>
+	<string>‎Hledat</string>
+	<key>PRODUCT</key>
+	<string>‎Produkt</string>
+	<key>QUOTED_LIVE_LOCATION_SNIPPET</key>
+	<string>‎Aktuální poloha</string>
+	<key>RECIPIENTS_SEND_TO</key>
+	<string>‎Pro:</string>
+	<key>REG_INVALID_CODE</key>
+	<string>‎Zadaný kód je nesprávný.</string>
+	<key>REQUEST_TOOK_TOO_LONG_TRY_AGAIN_LATER</key>
+	<string>‎Došlo k chybě. Zpracování požadavku překročilo limit. Opakujte akci později.</string>
+	<key>REQUIRED_PLACEHOLDER</key>
+	<string>‎Požadované pole</string>
+	<key>REVOKE_QR_CODE_ERROR</key>
+	<string>‎Detekován neplatný kód</string>
+	<key>REVOKE_QR_CODE_ERROR_MESSAGE</key>
+	<string>‎Tento kód už není platný. Buď byl nahrazen novým, nebo daný účet už neexistuje.</string>
+	<key>ROTATION_DEGREES_{{0}}</key>
+	<string>‎%@ stupeň</string>
+	<key>ROTATION_DEGREES_{{1}}</key>
+	<string>‎%@ stupně</string>
+	<key>ROTATION_DEGREES_{{2}}</key>
+	<string>‎%@ stupňů</string>
+	<key>SENDER_ADDED_YOU_TO_GROUP</key>
+	<string>‎%1$@ vás přidal/a do skupiny %2$@.</string>
+	<key>SEND_FULL</key>
+	<string>‎Odeslat</string>
+	<key>SERVICE_EXTENSION_REVOKE_MESSAGE</key>
+	<string>‎%1$@ smazal/a zprávu.</string>
+	<key>SERVICE_PROBLEM</key>
+	<string>‎Ve službě došlo k chybě. Kód = %ld.</string>
+	<key>SETTINGS_APP</key>
+	<string>‎Nastavení</string>
+	<key>SHARE_CONTACT_SHORT</key>
+	<string>‎Sdílet kontakt</string>
+	<key>SINGLE_MESSAGE_SEND_FAILED</key>
+	<string>‎Nelze odeslat zprávu.</string>
+	<key>SMB_PRODUCT_CATALOG_MESSAGE_BUSINESS</key>
+	<string>‎Odeslat zprávu společnosti</string>
+	<key>SMB_PRODUCT_CATALOG_RETRIEVE_ERROR</key>
+	<string>‎Došlo k chybě. Zkontrolujte internetové připojení na svém zařízení a zkuste to znovu.</string>
+	<key>STANDALONE_ME</key>
+	<string>‎Já</string>
+	<key>STANDALONE_YOU</key>
+	<string>‎Vy</string>
+	<key>STATUSV3</key>
+	<string>‎Stav</string>
+	<key>STATUSV3_MY_STATUS</key>
+	<string>‎Můj stav</string>
+	<key>STATUS_COLOR_BALI_HAI</key>
+	<string>‎Bouřkově šedomodrá</string>
+	<key>STATUS_COLOR_BITTERSWEET</key>
+	<string>‎Tmavě lososová</string>
+	<key>STATUS_COLOR_BRANDY_ROSE</key>
+	<string>‎Růžovohnědá</string>
+	<key>STATUS_COLOR_BRIGHT_SUN</key>
+	<string>‎Žlutooranžová</string>
+	<key>STATUS_COLOR_CE_SOIR</key>
+	<string>‎Tmavě purpurová</string>
+	<key>STATUS_COLOR_EARLS_GREEN</key>
+	<string>‎Žlutozelená</string>
+	<key>STATUS_COLOR_ELEPHANT</key>
+	<string>‎Tmavě šedočerná</string>
+	<key>STATUS_COLOR_EMERALD</key>
+	<string>‎Smaragdově zelená</string>
+	<key>STATUS_COLOR_MAYA_BLUE</key>
+	<string>‎Tmavě nebesky modrá</string>
+	<key>STATUS_COLOR_MAYA_BLUE_2</key>
+	<string>‎Tyrkysová</string>
+	<key>STATUS_COLOR_MEDIUM_RED_VIOLET</key>
+	<string>‎Fuchsiová</string>
+	<key>STATUS_COLOR_MONA_LISA</key>
+	<string>‎Světlá růžovočervená</string>
+	<key>STATUS_COLOR_MONTE_CARLO</key>
+	<string>‎Akvamarínová</string>
+	<key>STATUS_COLOR_POLO_BLUE</key>
+	<string>‎Chrpově modrá</string>
+	<key>STATUS_COLOR_PRELUDE</key>
+	<string>‎Šeříkově fialová</string>
+	<key>STATUS_COLOR_SCARLETT</key>
+	<string>‎Bordó</string>
+	<key>STATUS_COLOR_SCORPION</key>
+	<string>‎Tmavá fialovošedá</string>
+	<key>STATUS_COLOR_SUMMER_SKY</key>
+	<string>‎Jasná tyrkysová</string>
+	<key>STATUS_COLOR_SUNDANCE</key>
+	<string>‎Hnědožlutá</string>
+	<key>STATUS_COLOR_VIVID_VIOLET</key>
+	<string>‎Sytě fialová</string>
+	<key>STATUS_COLOR_WASABI</key>
+	<string>‎Wasabi zelená</string>
+	<key>STATUS_FONT_BRYNDAN</key>
+	<string>‎Bryndan Write</string>
+	<key>STATUS_FONT_GEORGIA</key>
+	<string>‎Georgia</string>
+	<key>STATUS_FONT_HELVETICA</key>
+	<string>‎Helvetica</string>
+	<key>STATUS_FONT_NORICAN</key>
+	<string>‎Norican</string>
+	<key>STATUS_FONT_OSWALD</key>
+	<string>‎Oswald Heavy</string>
+	<key>STATUS_PREPARING</key>
+	<string>‎Probíhá příprava...</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{0}}</key>
+	<string>‎Vyloučen %@</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{1}}</key>
+	<string>‎Vyloučeny %@</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{2}}</key>
+	<string>‎Vyloučeno %@</string>
+	<key>STATUS_PRIVACY_MY_CONTACTS</key>
+	<string>‎Moje kontakty</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_BODY_TEXT</key>
+	<string>‎Povolte aplikaci %@ přístup ke kontaktům, abyste mohli odesílat a přijímat jejich aktualizace stavu. Stačí klepnout na Nastavení a zapnout možnost Kontakty.</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_TITLE</key>
+	<string>‎Aktualizace stavu nejsou k dispozici.</string>
+	<key>STICKER</key>
+	<string>‎Nálepka</string>
+	<key>STICKER_SEARCH_RESULTS</key>
+	<string>‎Nálepky nalezené pro výraz „%@“</string>
+	<key>STR_BIZ_APPT_ONLY</key>
+	<string>‎Pouze po domluvě</string>
+	<key>STR_BIZ_CLOSED</key>
+	<string>‎Zavřeno</string>
+	<key>STR_BIZ_OPEN_24H</key>
+	<string>‎Otevřeno nepřetržitě</string>
+	<key>STR_SOCIAL_FACEBOOK</key>
+	<string>‎Facebook</string>
+	<key>STR_STATUS_WHATSAPP_STATUS</key>
+	<string>‎Stav WhatsApp</string>
+	<key>SUSPICIOUS_LINK_WARNING</key>
+	<string>‎Podezřelý odkaz</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{0}}</key>
+	<string>‎%@ podezřelý odkaz</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{1}}</key>
+	<string>‎%@ podezřelé odkazy</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{2}}</key>
+	<string>‎%@ podezřelých odkazů</string>
+	<key>TAP_FOR_MORE</key>
+	<string>‎KLEPNUTÍM ZOBRAZÍTE VÍCE</string>
+	<key>TAP_TO_CANCEL</key>
+	<string>‎Klepnutím zrušte</string>
+	<key>TAP_TO_DOWNLOAD</key>
+	<string>‎Klepnutím stáhněte</string>
+	<key>TAP_TO_EDIT</key>
+	<string>‎Klepnutím upravte</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{0}}_MAXIMUM</key>
+	<string>‎Identifikátor balíčku nálepek neobsahuje dostatečný počet znaků. Minimální počet znaků je %@.</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{1}}_MAXIMUM</key>
+	<string>‎Identifikátor balíčku nálepek neobsahuje dostatečný počet znaků. Minimální počet znaků je %@.</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{2}}_MAXIMUM</key>
+	<string>‎Identifikátor balíčku nálepek neobsahuje dostatečný počet znaků. Minimální počet znaků je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORTING_ERROR</key>
+	<string>‎Vyskytl se problém s tímto balíčkem nálepek, nemůže tedy být do aplikace %1$@ přidán.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{0}}_MINIMUM</key>
+	<string>‎Počet nálepek v tomto balíčku není mezi %1$@ a %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{1}}_MINIMUM</key>
+	<string>‎Počet nálepek v tomto balíčku není mezi %1$@ a %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{2}}_MINIMUM</key>
+	<string>‎Počet nálepek v tomto balíčku není mezi %1$@ a %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_APP_STORE_LINK</key>
+	<string>‎Balíček nálepek obsahuje neplatný odkaz na App Store.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_PLAY_STORE_LINK</key>
+	<string>‎Balíček nálepek obsahuje neplatný odkaz na Play Store.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_STICKER_IMAGE</key>
+	<string>‎Jedna z nálepek v tomto balíčku obsahuje neplatné informace.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Jedna z nálepek není v rozměru %1$@x%1$@ pixel.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Jedna z nálepek není v rozměru %1$@x%1$@ pixely.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{2}}_LENGTH</key>
+	<string>‎Jedna z nálepek není v rozměru %1$@x%1$@ pixelů.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Jedna z nálepek je příliš velká. Maximální rozměr je %@ kB.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Jedna z nálepek je příliš velká. Maximální rozměr je %@ kB.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{2}}_KB</key>
+	<string>‎Jedna z nálepek je příliš velká. Maximální rozměr je %@ kB.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{0}}_MAXIMUM</key>
+	<string>‎Název, vydavatel nebo identifikátor tohoto balíčku nálepek obsahuje příliš mnoho znaků nebo je prázdný. Maximální počet znaků je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{1}}_MAXIMUM</key>
+	<string>‎Název, vydavatel nebo identifikátor tohoto balíčku nálepek obsahuje příliš mnoho znaků nebo je prázdný. Maximální počet znaků je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{2}}_MAXIMUM</key>
+	<string>‎Název, vydavatel nebo identifikátor tohoto balíčku nálepek obsahuje příliš mnoho znaků nebo je prázdný. Maximální počet znaků je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{0}}_MAXIMUM</key>
+	<string>‎Jedna z nálepek obsahuje příliš mnoho emoji. Maximální počet emoji je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{1}}_MAXIMUM</key>
+	<string>‎Jedna z nálepek obsahuje příliš mnoho emoji. Maximální počet emoji je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{2}}_MAXIMUM</key>
+	<string>‎Jedna z nálepek obsahuje příliš mnoho emoji. Maximální počet emoji je %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Panelový obrázek není v rozměru %1$@x%1$@ pixel.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Panelový obrázek není v rozměru %1$@x%1$@ pixely.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{2}}_LENGTH</key>
+	<string>‎Panelový obrázek není v rozměru %1$@x%1$@ pixelů.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Panelový obrázek je příliš velký. Maximální rozměr je %@ kB.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Panelový obrázek je příliš velký. Maximální rozměr je %@ kB.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{2}}_KB</key>
+	<string>‎Panelový obrázek je příliš velký. Maximální rozměr je %@ kB.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_WRONG_BUNDLE_ID</key>
+	<string>‎Aplikace, která nabízí tento balíček nálepek, má neplatné identifikační číslo.</string>
+	<key>TITLE_CHATS</key>
+	<string>‎Chaty</string>
+	<key>TITLE_PHOTOS</key>
+	<string>‎Fotografie</string>
+	<key>TRANSCODER_ALERT_COULD_NOT_SHARE_VIDEO</key>
+	<string>‎Video nelze sdílet.</string>
+	<key>TRANSCODER_ERROR_BLANK_VIDEO_FILE</key>
+	<string>‎Toto video je prázdné.</string>
+	<key>TRANSCODER_ERROR_UNUSABLE_VIDEO</key>
+	<string>‎Toto video nelze sdílet. Vyberte jiné video.</string>
+	<key>TRY_AGAIN_LATER</key>
+	<string>‎Zkuste to znovu později.</string>
+	<key>UNBLOCK_SHORTENED</key>
+	<string>‎Odblokovat</string>
+	<key>UNKNOWN_CALLER</key>
+	<string>‎Neznámý</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{0}}</key>
+	<string>‎%1$@ a %2$@ další kontakt</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{1}}</key>
+	<string>‎%1$@ a %2$@ další kontakty</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{2}}</key>
+	<string>‎%1$@ a %2$@ dalších kontaktů</string>
+	<key>VCARD_SHARE_CONTACTS_{{0}}</key>
+	<string>‎Sdílet %@ kontakt</string>
+	<key>VCARD_SHARE_CONTACTS_{{1}}</key>
+	<string>‎Sdílet %@ kontakty</string>
+	<key>VCARD_SHARE_CONTACTS_{{2}}</key>
+	<string>‎Sdílet %@ kontaktů</string>
+	<key>VIDEO_RECORDING_PERMISSIONS</key>
+	<string>‎Chcete-li pořizovat videa se zvukem, aplikace %1$@ vyžaduje přístup k mikrofonu. Chcete-li ho povolit, přejděte do Nastavení telefonu &gt; Soukromí &gt; Mikrofon a zapněte ho pro aplikaci %2$@.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_IOS8</key>
+	<string>‎Abyste mohl/a nahrávat videa se zvukem, potřebuje aplikace %1$@ přístup k mikrofonu. Chcete-li jej povolit, klepněte na Nastavení a zapněte možnost Mikrofon.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_TITLE</key>
+	<string>‎Chcete videa se zvukem?</string>
+	<key>VISION_BOTTOM</key>
+	<string>‎V dolní části</string>
+	<key>VISION_BOTTOM_LEFT</key>
+	<string>‎Vlevo dole</string>
+	<key>VISION_BOTTOM_RIGHT</key>
+	<string>‎Vpravo dole</string>
+	<key>VISION_CENTER</key>
+	<string>‎Uprostřed</string>
+	<key>VISION_CENTERED</key>
+	<string>‎Na středu</string>
+	<key>VISION_FACE_COUNT_{{0}}</key>
+	<string>‎V záběru je jeden obličej.</string>
+	<key>VISION_FACE_COUNT_{{1}}</key>
+	<string>‎V záběru jsou {1} obličeje.</string>
+	<key>VISION_FACE_COUNT_{{2}}</key>
+	<string>‎V záběru je {1} obličejů.</string>
+	<key>VISION_LEFT_EDGE</key>
+	<string>‎U levého okraje</string>
+	<key>VISION_NO_FACES</key>
+	<string>‎V záběru není žádný obličej.</string>
+	<key>VISION_RIGHT_EDGE</key>
+	<string>‎U pravého okraje</string>
+	<key>VISION_TOP</key>
+	<string>‎V horní části</string>
+	<key>VISION_TOP_LEFT</key>
+	<string>‎Vlevo nahoře</string>
+	<key>VISION_TOP_RIGHT</key>
+	<string>‎Vpravo nahoře</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{0}}</key>
+	<string>‎Aktivační kód. Zadána %1$@ z %2$@ hodnot.</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{1}}</key>
+	<string>‎Aktivační kód. Zadány %1$@ z %2$@ hodnot.</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{2}}</key>
+	<string>‎Aktivační kód. Zadáno %1$@ z %2$@ hodnot.</string>
+	<key>VOICEOVER_ALERT</key>
+	<string>‎Upozornění</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{0}}</key>
+	<string>‎Zbývá %@ znak</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{1}}</key>
+	<string>‎Zbývají %@ znaky</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{2}}</key>
+	<string>‎Zbývá %@ znaků</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA</key>
+	<string>‎Přidat další fotografii nebo video</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA_REPLY</key>
+	<string>‎Odpověď pomocí fotografie nebo videa</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA</key>
+	<string>‎Pořídit další fotografii nebo video</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA_REPLY</key>
+	<string>‎Odpověď pomocí nové fotografie nebo videa</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION</key>
+	<string>‎Textové pole popisku</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_ADD_HINT</key>
+	<string>‎Poklepáním přidáte popisek.</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_CHANGE_HINT</key>
+	<string>‎Poklepáním změníte popisek.</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY</key>
+	<string>‎Textové pole pro odpověď</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_ADD_HINT</key>
+	<string>‎Poklepáním přidáte odpověď</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_CHANGE_HINT</key>
+	<string>‎Poklepáním změníte odpověď</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_ACTIVATE</key>
+	<string>‎Aktivujte poklepáním.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CANCEL</key>
+	<string>‎Poklepáním zrušíte.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CLOSE</key>
+	<string>‎Poklepáním zavřete.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DESELECT</key>
+	<string>‎Poklepáním zrušíte označení.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DOWNLOAD</key>
+	<string>‎Poklepáním stáhnete.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_EDIT</key>
+	<string>‎Poklepáním upravte.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_OPEN</key>
+	<string>‎Otevřete poklepáním</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_PLAY</key>
+	<string>‎Poklepáním přehrajte.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_SELECT</key>
+	<string>‎Poklepáním vyberete.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_TOGGLE_SETTING</key>
+	<string>‎Poklepáním nastavení přepněte.</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_EDIT</key>
+	<string>‎Poměr stran</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_LIST</key>
+	<string>‎Poklepáním zobrazíte seznam poměrů zobrazení.</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ROTATE</key>
+	<string>‎Otočit položku</string>
+	<key>VOICEOVER_FILTER_MODE_ENTER</key>
+	<string>‎Použít filtr</string>
+	<key>VOICEOVER_FILTER_MODE_EXIT_HINT</key>
+	<string>‎Poklepáním zrušíte nabídku filtrů</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_GIF</key>
+	<string>‎Právě se posílá jako animace GIF</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_VIDEO</key>
+	<string>‎Právě se posílá jako video</string>
+	<key>VOICEOVER_GIF_SEND_AS_GIF</key>
+	<string>‎Odeslat jako animaci GIF</string>
+	<key>VOICEOVER_GIF_SEND_AS_VIDEO</key>
+	<string>‎Odeslat jako video</string>
+	<key>VOICEOVER_GIF_TOGGLE_HINT</key>
+	<string>‎Poklepáním ovládejte přepínač a vyberte, zda chcete odeslat jako video nebo jako animaci GIF</string>
+	<key>VOICEOVER_MEDIA_BROWSER_EDIT_DONE</key>
+	<string>‎Změnu uspořádání fotografií dokončíte klepnutím sem.</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_GIF</key>
+	<string>‎Poklepáním přejdete k animaci GIF.</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_PHOTO</key>
+	<string>‎Poklepáním zobrazíte fotografii.</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_VIDEO</key>
+	<string>‎Poklepáním přejdete k videu.</string>
+	<key>VOICEOVER_MULTISEND_ADD_EMOJI</key>
+	<string>‎Přidat emoji</string>
+	<key>VOICEOVER_MULTISEND_ADD_TEXT</key>
+	<string>‎Přidat text</string>
+	<key>VOICEOVER_MULTISEND_CROP_AND_TILT</key>
+	<string>‎Oříznout a otočit položku</string>
+	<key>VOICEOVER_MULTISEND_DELETE</key>
+	<string>‎Smazat aktuální položku</string>
+	<key>VOICEOVER_MULTISEND_PAINT</key>
+	<string>‎Malířský štětec</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_CROPPED</key>
+	<string>‎Oříznuto</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_NO_CHANGE</key>
+	<string>‎Původní</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_ROTATED</key>
+	<string>‎Otočeno</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{0}}</key>
+	<string>‎%@ mediální soubor.</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{1}}</key>
+	<string>‎%@ mediální soubory.</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{2}}</key>
+	<string>‎%@ mediálních souborů.</string>
+	<key>VOICEOVER_NOTIFICATION_DOWNLOADING_PTT_MESSAGE</key>
+	<string>‎Hlasová zpráva – stahování</string>
+	<key>VOICEOVER_NOTIFICATION_PTT_MESSAGE</key>
+	<string>‎Hlasová zpráva</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST</key>
+	<string>‎Účastníci: %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{0}}</key>
+	<string>‎Účastníci: __NAMES__ a %@ další</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{1}}</key>
+	<string>‎Účastníci: __NAMES__ a %@ další</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{2}}</key>
+	<string>‎Účastníci: __NAMES__ a %@ dalších</string>
+	<key>VOICEOVER_PHOTO_CROP_AND_TILT_LABEL</key>
+	<string>‎Oříznout a otočit</string>
+	<key>VOICEOVER_PLAY_VIDEO</key>
+	<string>‎Přehrát video</string>
+	<key>VOICEOVER_REMOVED</key>
+	<string>‎Odstraněno</string>
+	<key>VOICEOVER_REMOVE_LINK_PREVIEW</key>
+	<string>‎Vymazat náhled odkazu</string>
+	<key>VOICEOVER_SELECTED</key>
+	<string>‎Zvoleno</string>
+	<key>VOICEOVER_STICKER_PACK_HEADER</key>
+	<string>‎%@, záhlaví</string>
+	<key>VOICE_OVER_POSITION</key>
+	<string>‎Aktuální pozice. %1$@ z %2$@.</string>
+	<key>VOIP_VOICEOVER_VIDEO_CALL</key>
+	<string>‎Videohovor</string>
+	<key>VOIP_VOICEOVER_VOICE_CALL</key>
+	<string>‎Hovor</string>
+	<key>WACONTACT_BIRTHDAY_KEY</key>
+	<string>‎Narozeniny</string>
+	<key>WACONTACT_DATE_KEY</key>
+	<string>‎Datum</string>
+	<key>WACONTACT_DEPARTMENT_NAME_KEY</key>
+	<string>‎Oddělení</string>
+	<key>WACONTACT_EMAIL_ADDRESSES_KEY</key>
+	<string>‎E-mail</string>
+	<key>WACONTACT_FAMILY_NAME_KEY</key>
+	<string>‎Příjmení</string>
+	<key>WACONTACT_GIVEN_NAME_KEY</key>
+	<string>‎Jméno</string>
+	<key>WACONTACT_INSTANT_MESSAGE_KEY</key>
+	<string>‎Rychlá zpráva</string>
+	<key>WACONTACT_JOB_TITLE_KEY</key>
+	<string>‎Funkce</string>
+	<key>WACONTACT_MIDDLE_NAME_KEY</key>
+	<string>‎Druhé jméno</string>
+	<key>WACONTACT_NAME_PREFIX_KEY</key>
+	<string>‎Před jménem</string>
+	<key>WACONTACT_NAME_SUFFIX_KEY</key>
+	<string>‎Za jménem</string>
+	<key>WACONTACT_NICKNAME_KEY</key>
+	<string>‎Přezdívka</string>
+	<key>WACONTACT_ORGANIZATION_NAME_KEY</key>
+	<string>‎Firma</string>
+	<key>WACONTACT_PHONETIC_FAMILY_NAME_KEY</key>
+	<string>‎Příjmení foneticky</string>
+	<key>WACONTACT_PHONETIC_GIVEN_NAME_KEY</key>
+	<string>‎Jméno foneticky</string>
+	<key>WACONTACT_PHONETIC_MIDDLE_NAME_KEY</key>
+	<string>‎Druhé jméno foneticky</string>
+	<key>WACONTACT_PHONETIC_ORGANIZATION_NAME_KEY</key>
+	<string>‎Název firmy (foneticky)</string>
+	<key>WACONTACT_PHONE_NUMBER_KEY</key>
+	<string>‎Telefon</string>
+	<key>WACONTACT_POSTAL_ADDRESSES_KEY</key>
+	<string>‎Adresa</string>
+	<key>WACONTACT_PREVIOUS_FAMILY_NAME_KEY</key>
+	<string>‎Rodné příjmení</string>
+	<key>WACONTACT_SOCIAL_PROFILES_KEY</key>
+	<string>‎Sociální profil</string>
+	<key>WACONTACT_URL_ADDRESSES_KEY</key>
+	<string>‎Adresa URL</string>
+	<key>WEBSITE_TITLE</key>
+	<string>‎Web</string>
+	<key>YOU_WERE_ADDED_TO_GROUP</key>
+	<string>‎Nyní jste ve skupině „%@“</string>
+</dict>
+</plist>

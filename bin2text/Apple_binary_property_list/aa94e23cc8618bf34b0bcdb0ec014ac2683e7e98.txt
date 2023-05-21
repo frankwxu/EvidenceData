@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимитесь сегодня на несколько пролетов — хотя бы {{goal_value:flights}}, и завтра эта стрелка снова будет направлена вверх. Скорее на лестницу, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы можете снова поднять эту стрелку за %#@num_days@! Проходите несколько пролетов в день — хотя бы {{goal_value:flights}}, и она изменит направление.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дня</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отлично, продолжайте покорять лестницы!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Вы можете снова поднять эту стрелку за %#@num_days@! Проходите несколько пролетов в день — хотя бы {{goal_value:flights}}, и она изменит направление.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дня</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Эта стрелка может так и остаться направленной вниз. Проходите несколько пролетов — хотя бы {{goal_value:flights}} — в течение %#@num_days@, чтобы снова поднять стрелку.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора найти лестницу. В течение %#@num_days@ проходите пролеты — хотя бы по {{goal_value:flights}} в день, чтобы изменить направление этой стрелки. Вперед!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте ходить по лестницам, {{username}}. С количеством пройденных пролетов у Вас полный порядок.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы поднять эту стрелку, при любой возможности ходите по лестницам. В течение %#@num_days@ старайтесь проходить несколько пролетов — хотя бы по {{goal_value:flights}} в день. Все в Ваших руках!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора найти лестницу, {{username}}. В течение %#@num_days@ проходите пролеты — хотя бы по {{goal_value:flights}} в день, чтобы изменить направление этой стрелки. Вперед!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимитесь сегодня на несколько пролетов — хотя бы {{goal_value:flights}}, и завтра эта стрелка снова будет направлена вверх. Скорее на лестницу!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если Вы хотите, чтобы эта стрелка снова указывала в верном направлении, не пропускайте ни одной лестницы.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы стали реже пользоваться лестницами, {{username}}. Чтобы эта стрелка продолжала указывать вверх, проходите больше пролетов — хотя бы {{goal_value:flights}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отлично, продолжайте покорять лестницы, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Не позволяйте стрелке пройденных пролетов упасть, {{username}}. Чтобы все оставалось под контролем, продолжайте проходить пролеты — в среднем хотя бы по {{goal_value:flights}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы поднять эту стрелку, чаще ходите по лестницам. Это всегда полезно.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отлично, продолжайте покорять лестницы!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, эта стрелка может так и остаться направленной вниз. Проходите несколько пролетов — хотя бы {{goal_value:flights}} — в течение %#@num_days@, чтобы снова поднять стрелку.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Не позволяйте стрелке пройденных пролетов упасть. Чтобы все оставалось под контролем, продолжайте проходить пролеты — в среднем хотя бы по {{goal_value:flights}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, если Вы хотите, чтобы эта стрелка снова указывала в верном направлении, не пропускайте ни одной лестницы.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте ходить по лестницам, {{username}}. С количеством пройденных пролетов у Вас полный порядок.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отлично, продолжайте покорять лестницы, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте ходить по лестницам. С количеством пройденных пролетов у Вас полный порядок.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте ходить по лестницам. С количеством пройденных пролетов у Вас полный порядок.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы поднять эту стрелку, при любой возможности ходите по лестницам. В течение %#@num_days@ старайтесь проходить несколько пролетов — хотя бы по {{goal_value:flights}} в день. Все в Ваших руках, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы стали реже пользоваться лестницами. Чтобы эта стрелка продолжала указывать вверх, проходите больше пролетов — хотя бы {{goal_value:flights}} в день.</string>
+	</dict>
+</dict>
+</plist>

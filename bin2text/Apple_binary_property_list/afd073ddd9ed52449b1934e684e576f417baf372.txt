@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen för total distans pekar nedåt, {{username}}. Om du vill få den här pilen på rätt spår igen bör du ta en promenad varje dag.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du klarar att gå och springa längre kan du vända den här pilen uppåt igen, {{username}}. Försök att avverka minst {{goal_value:distance}} per dag den här veckan och håll utkik efter ett nytt mål nästa vecka. Om %#@num_weeks@ kan du vända den här pilen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d vecka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d veckor</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Snyggt jobbat med total distans. Se till att springa och gå så att pilen fortsätter peka uppåt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen! Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Få den här pilen att peka uppåt igen genom att gå och springa {{goal_value:distance}} per dag under de kommande %#@num_days@na. Bara du kan göra det, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, pilen för total distans pekar uppåt. Fortsätt att gå och springa varje dag så att den fortsätter göra det!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Snyggt jobbat med total distans, {{username}}. Se till att springa och gå varje dag så att pilen fortsätter peka uppåt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Få den här pilen att peka uppåt igen genom att gå och springa {{goal_value:distance}} per dag under de kommande %#@num_days@na. Bara du kan göra det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill att pilen ska fortsätta peka uppåt måste du gå och springa längre än du har gjort på senaste tiden. Se till att det sker!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Snyggt jobbat med total distans, {{username}}. Se till att springa och gå så att pilen fortsätter peka uppåt!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du kan gå eller springa minst {{goal_value:distance}} idag så vänds den här pilen uppåt igen. Det är verkligen värt det, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen för total distans pekar uppåt. Fortsätt att gå och springa varje dag så att den fortsätter göra det!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen, {{username}}! Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na så vänds pilen uppåt igen, {{username}}. Du klarar det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Få den här pilen att peka uppåt igen genom att gå och springa {{goal_value:distance}} per dag under de kommande %#@num_days@na. Bara du kan göra det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du kan gå eller springa minst {{goal_value:distance}} idag så vänds den här pilen uppåt igen. Det är verkligen värt det!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na så vänds pilen uppåt igen. Du klarar det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen för total distans pekar uppåt. Fortsätt att gå och springa varje dag så att den fortsätter göra det!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen för total distans pekar nedåt. Om du vill få den här pilen på rätt spår igen bör du ta en promenad varje dag.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Få den här pilen att peka uppåt igen genom att gå och springa {{goal_value:distance}} per dag under de kommande %#@num_days@na. Bara du kan göra det, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du klarar att gå och springa längre kan du vända den här pilen uppåt igen, {{username}}. Försök att avverka minst {{goal_value:distance}} per dag den här veckan och håll utkik efter ett nytt mål nästa vecka. Om %#@num_weeks@ kan du vända den här pilen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d vecka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d veckor</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill att pilen ska fortsätta peka uppåt måste du gå och springa längre än du har gjort på senaste tiden, {{username}}. Se till att det sker!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du kan gå eller springa minst {{goal_value:distance}} idag så vänds den här pilen uppåt igen. Det är verkligen värt det!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen genom att gå och springa minst {{goal_value:distance}} per dag under de kommande %#@num_days@na, {{username}}. Det är verkligen värt det!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na så vänds pilen uppåt igen. Du klarar det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du klarar att gå och springa längre kan du vända den här pilen uppåt igen. Försök att avverka minst {{goal_value:distance}} per dag den här veckan och håll utkik efter ett nytt mål nästa vecka. Om %#@num_weeks@ kan du vända den här pilen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d vecka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d veckor</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Snyggt jobbat med total distans. Se till att springa och gå så att pilen fortsätter peka uppåt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen genom att gå och springa minst {{goal_value:distance}} per dag under de kommande %#@num_days@na. Det är verkligen värt det!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na så vänds pilen uppåt igen, {{username}}. Du klarar det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du klarar att gå och springa längre kan du vända den här pilen uppåt igen. Försök att avverka minst {{goal_value:distance}} per dag den här veckan och håll utkik efter ett nytt mål nästa vecka. Om %#@num_weeks@ kan du vända den här pilen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d vecka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d veckor</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen för total distans pekar nedåt. Om du vill få den här pilen på rätt spår igen bör du ta en promenad varje dag.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen genom att gå och springa minst {{goal_value:distance}} per dag under de kommande %#@num_days@na. Det är verkligen värt det!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du går eller springer inte lika ofta längre, {{username}}. Se till att pilen fortsätter peka uppåt genom att röra på dig lite mer!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du går eller springer inte lika ofta längre. Se till att pilen fortsätter peka uppåt genom att röra på dig lite mer!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen, {{username}}! Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, pilen för total distans pekar uppåt. Fortsätt att gå och springa varje dag så att den fortsätter göra det!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du kan gå eller springa minst {{goal_value:distance}} idag så vänds den här pilen uppåt igen. Det är verkligen värt det, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen genom att gå och springa minst {{goal_value:distance}} per dag under de kommande %#@num_days@na, {{username}}. Det är verkligen värt det!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen för total distans pekar nedåt, {{username}}. Om du vill få den här pilen på rätt spår igen bör du ta en promenad varje dag.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vänd den här pilen! Gå och spring minst {{goal_value:distance}} per dag under de kommande %#@num_days@na.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

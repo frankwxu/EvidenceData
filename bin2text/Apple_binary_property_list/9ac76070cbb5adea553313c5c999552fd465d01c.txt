@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Permanently Delete %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>영구적으로 %#@recordings@ 삭제</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d개의 음성 메모</string>
+		</dict>
+	</dict>
+	<key>%d Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@Files@</string>
+		<key>Files</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d개의 파일</string>
+		</dict>
+	</dict>
+	<key>%lu Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows_selected@</string>
+		<key>num_rows_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu개 선택됨</string>
+		</dict>
+	</dict>
+	<key>ERASE_RECORDINGS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recordings@</string>
+		<key>Comment</key>
+		<string>Number of recordings that will be permanently deleted</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d개의 녹음 항목을 영구적으로 삭제하겠습니까?</string>
+		</dict>
+	</dict>
+	<key>Recover %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recordings@ 복구</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d개의 음성 메모</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

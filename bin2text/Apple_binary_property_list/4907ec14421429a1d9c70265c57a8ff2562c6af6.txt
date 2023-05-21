@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jumlah jarak anda menurun, {{username}}. Jika anda mahu memastikan anak panah ini kembali dalam prestasi, cuba cari masa untuk berjalan setiap hari.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda bersedia melakukannya, berjalan dan berlari lebih jauh akan memastikan anak panah ini menaik semula, {{username}}. Cuba pergi sekurang-kurangnya {{goal_value:distance}} sehari minggu ini dan lihat matlamat baru minggu depan. Dalam masa %#@num_weeks@, anda boleh membalikkan anak panah ini.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minggu</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Syabas atas Jumlah Jarak anda. Teruskan berlari dan berjalan untuk memastikan anak panah anda menghala ke atas!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Balikkan anak panah ini! Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk menjadikan anak panah menaik semula, berjalan dan berlari {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya. Semuanya atas anda, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, anak panah jumlah jarak anda menaik. Teruskan berlari dan berjalan setiap hari supaya ia kekal begitu!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Syabas atas Jumlah Jarak anda, {{username}}. Berlari dan berjalan setiap hari untuk memastikan anak panah anda menghala ke atas!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk menjadikan anak panah menaik semula, berjalan dan berlari {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya. Semuanya atas anda.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk memastikan anak panah anda ke atas, anda perlu berjalan dan berlari lebih jauh daripada yang anda lakukan kebelakangan ini. Lakukannya!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Syabas atas Jumlah Jarak anda, {{username}}. Teruskan berlari dan berjalan untuk memastikan anak panah anda menghala ke atas!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda boleh berlari atau berjalan sekurang-kurangnya {{goal_value:distance}} hari ini, anak panah ini akan menaik semula. Sangat berbaloi, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Anak panah jumlah jarak anda menaik. Teruskan berlari dan berjalan setiap hari supaya ia kekal begitu!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Balikkan anak panah ini, {{username}}! Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya dan anak panah anda akan naik ke atas semula, {{username}}. Anda pasti mencapainya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk menjadikan anak panah menaik semula, berjalan dan berlari {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya. Semuanya atas anda.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda boleh berlari atau berjalan sekurang-kurangnya {{goal_value:distance}} hari ini, anak panah ini akan menaik semula. Sangat berbaloi!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya dan anak panah anda akan naik ke atas semula. Anda pasti mencapainya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Anak panah jumlah jarak anda menaik. Teruskan berlari dan berjalan setiap hari supaya ia kekal begitu!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jumlah jarak anda menurun. Jika anda mahu memastikan anak panah ini kembali dalam prestasi, cuba cari masa untuk berjalan setiap hari.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk menjadikan anak panah menaik semula, berjalan dan berlari {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya. Semuanya atas anda, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda bersedia melakukannya, berjalan dan berlari lebih jauh akan memastikan anak panah ini menaik semula, {{username}}. Cuba pergi sekurang-kurangnya {{goal_value:distance}} sehari minggu ini dan lihat matlamat baru minggu depan. Dalam masa %#@num_weeks@, anda boleh membalikkan anak panah ini.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minggu</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk memastikan anak panah anda ke atas, anda perlu berjalan dan berlari lebih jauh daripada yang anda lakukan kebelakangan ini, {{username}}. Lakukannya!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda boleh berlari atau berjalan sekurang-kurangnya {{goal_value:distance}} hari ini, anak panah ini akan menaik semula. Sangat berbaloi!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk membalikkan anak panah ini, berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya, {{username}}. Sangat berbaloi!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya dan anak panah anda akan naik ke atas semula. Anda pasti mencapainya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda bersedia melakukannya, berjalan dan berlari lebih jauh akan memastikan anak panah ini menaik semula. Cuba pergi sekurang-kurangnya {{goal_value:distance}} sehari minggu ini dan lihat matlamat baru minggu depan. Dalam masa %#@num_weeks@, anda boleh membalikkan anak panah ini.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minggu</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Syabas atas Jumlah Jarak anda. Teruskan berlari dan berjalan untuk memastikan anak panah anda menghala ke atas!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk membalikkan anak panah ini, berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya. Sangat berbaloi!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya dan anak panah anda akan naik ke atas semula, {{username}}. Anda pasti mencapainya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda bersedia melakukannya, berjalan dan berlari lebih jauh akan memastikan anak panah ini menaik semula. Cuba pergi sekurang-kurangnya {{goal_value:distance}} sehari minggu ini dan lihat matlamat baru minggu depan. Dalam masa %#@num_weeks@, anda boleh membalikkan anak panah ini.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minggu</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jumlah jarak anda menurun. Jika anda mahu memastikan anak panah ini kembali dalam prestasi, cuba cari masa untuk berjalan setiap hari.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk membalikkan anak panah ini, berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya. Sangat berbaloi!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Anda kurang berjalan atau berlari baru-baru ini, {{username}}. Untuk memastikan anak panah anda ke atas, cuba untuk bergerak lebih sedikit!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Anda kurang berjalan atau berlari baru-baru ini. Untuk memastikan anak panah anda ke atas, cuba untuk bergerak lebih sedikit!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Balikkan anak panah ini, {{username}}! Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, anak panah jumlah jarak anda menaik. Teruskan berlari dan berjalan setiap hari supaya ia kekal begitu!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jika anda boleh berlari atau berjalan sekurang-kurangnya {{goal_value:distance}} hari ini, anak panah ini akan menaik semula. Sangat berbaloi, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Untuk membalikkan anak panah ini, berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya, {{username}}. Sangat berbaloi!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jumlah jarak anda menurun, {{username}}. Jika anda mahu memastikan anak panah ini kembali dalam prestasi, cuba cari masa untuk berjalan setiap hari.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Balikkan anak panah ini! Berjalan dan berlari sekurang-kurangnya {{goal_value:distance}} sehari untuk %#@num_days@ seterusnya.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hari</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_likes@</string>
+		<key>num_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u gillande</string>
+			<key>many</key>
+			<string>%u gillande</string>
+			<key>one</key>
+			<string>Gilla</string>
+			<key>other</key>
+			<string>%u gillade</string>
+			<key>two</key>
+			<string>%u gillande</string>
+			<key>zero</key>
+			<string>%u gillande</string>
+		</dict>
+	</dict>
+	<key>%u more likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_more_likes@</string>
+		<key>num_more_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u fler gillande</string>
+			<key>many</key>
+			<string>%u fler gillande</string>
+			<key>one</key>
+			<string>%u fler gillande</string>
+			<key>other</key>
+			<string>%u fler gillande</string>
+			<key>two</key>
+			<string>%u fler gillande</string>
+			<key>zero</key>
+			<string>%u fler gillande</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

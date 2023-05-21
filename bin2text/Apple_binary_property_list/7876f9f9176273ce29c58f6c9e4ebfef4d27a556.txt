@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>NANO_AIRPLANE_MODE_FOOTER</string>
+			<key>id</key>
+			<string>NANO_AIRPLANE_MODE_GROUP</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.nano</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>mirror-airplane</string>
+			<key>label</key>
+			<string>NANO_AIRPLANE_MODE_MIRROR</string>
+			<key>notifyNano</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>AIRPLANE_MODE_TITLE</string>
+</dict>
+</plist>

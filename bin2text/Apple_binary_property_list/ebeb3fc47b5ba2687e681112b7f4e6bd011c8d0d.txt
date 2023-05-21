@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>Kullanılamıyor</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>Taslağa Devam Et</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>Güncelleme: %@</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>%@ itibarıyla artık Mail Drop’ta bulunmuyor</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>İletileri Arşivle</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>Seçili İletileri Çöpe At</string>
+	<key>MAILBOXES</key>
+	<string>Posta Kutuları</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>Önceki Yıl</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string>, </string>
+	<key>AND_N_MORE</key>
+	<string> ve %@ tane daha…</string>
+	<key>NO_INCLUDE</key>
+	<string>Dahil Etme</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>Arşiv</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>Yeni İleti</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>Gönderen bu iletiyi şifrelemiş.</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>Taslağı Simge Durumuna Küçült</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>Önceki Taslaklar</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>Seçilen Filtreyle Eşleşen İleti Yok</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>Posta Kutusu Konumu</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>Tümünü Seç</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>Posta kutusu sunucuda yaratılamadı.</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>Bir sorun oluştuğu için bu ileti görüntülenemiyor.</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>Dün</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>İletinin tamamını indir</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>Bu ilişikler çok büyük.</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>Posta Kutusu Yaratılamıyor</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>İletiler, %@ posta kutusuna taşınamadı.</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>Dün</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>Sil</string>
+	<key>FORWARD</key>
+	<string>İlet</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>Sorun Bildir</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>İşaretle ve Yanıtla</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>Bu Kişinin Engelini Kaldır</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>, %@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>Yalnızca Önemli Kişiler’den</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>Bu ileti sunucudan indirilmedi.</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>Bu iPod’da e-posta hesabı yaratılması sınırlanmış.</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>Siri Tahmini artık geçerli değil.</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>İşaretle (%@)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>Parola</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>Herhangi bir alıcı belirtmediniz.</string>
+	<key>BLOCK_CONTACT</key>
+	<string>Bu Kişiyi Engelle</string>
+	<key>REVERTING_CHANGE</key>
+	<string>Son değişiklik geri alınıyor…</string>
+	<key>MOVE_OTHER</key>
+	<string> Diğer Posta Kutuları…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>Okunmadı</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>Tüm Gelenler</string>
+	<key>MARK_BUTTON</key>
+	<string>İşaretle</string>
+	<key>BYTES_REMAINING</key>
+	<string>Kalan %@ indirilsin</string>
+	<key>DELETE_MAILBOX</key>
+	<string>Posta Kutusunu Sil</string>
+	<key>TO_LABEL</key>
+	<string>KİME</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>Saklama Alanı Dolmak Üzere</string>
+	<key>SAVE</key>
+	<string>Kaydet</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>Bugün</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>Etkinlik yarat</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>Ara: %@</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>Gönderen içeriyor: %@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>Gönderen adresi geçersizdi.</string>
+	<key>UNREAD_FORMAT</key>
+	<string>%lu Okunmamış</string>
+	<key>UNMUTE</key>
+	<string>Bildirimi Aç</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>Sertifikayı Yükle</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>Aboneliği Bitir</string>
+	<key>ALL_DRAFTS</key>
+	<string>Tüm Taslaklar</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>%@ hesabı başka bir aygıtta kullanılıyor.</string>
+	<key>INSTALL</key>
+	<string>Yükle</string>
+	<key>DATE_HEADER</key>
+	<string>Tarih:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>%1$@ (%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>%@ / %@ sonuç</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>Güncelleme: Dün</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>Okunmamış E-posta Yok</string>
+	<key>NO_TO</key>
+	<string>Alıcı Yok</string>
+	<key>SETTINGS</key>
+	<string>Ayarlar</string>
+	<key>CC</key>
+	<string>Bilgi:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>Gri</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>Posta Kutuları</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>Hesap Sınırlaması</string>
+	<key>INBOXES</key>
+	<string>Gelen Kutuları</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>Hiçbir İleti Seçilmedi</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>İlişikler İndiriliyor</string>
+	<key>ADD_VIP</key>
+	<string>Önemli Kişiler’e Ekle</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>E-postaları Dahil Et:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>İlişiği Olan İletiler</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>Diğer</string>
+	<key>SWIPE_MORE</key>
+	<string>Diğer</string>
+	<key>BCC</key>
+	<string>Gizli:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>Bu gönderen için imzalama sertifikasını yönetin.</string>
+	<key>HIDE_DETAILS</key>
+	<string>Gizle</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>Geçen Hafta</string>
+	<key>CC/BCC/FROM</key>
+	<string>Bilgi/Gizli, Kimden:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>%@ Posta Kutusunda Bulunanlar</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>Geçen Hafta</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>Etkinlik geçişi başarısız oldu</string>
+	<key>SIGNED</key>
+	<string>İmzalanmış</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>Güncelleme: Az Önce</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>Okunmamış İletiler</string>
+	<key>TRASH_EMAIL</key>
+	<string>İletiyi Çöpe At</string>
+	<key>YES_INCLUDE</key>
+	<string>Dahil Et</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>İnternet bağlantısı yok.</string>
+	<key>VIP_ALERTS</key>
+	<string>Önemli Kişi Uyarıları</string>
+	<key>NO</key>
+	<string>Hayır</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>Tüm Gelenler</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>​</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>Bayrak Ekle</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>Bu iPhone’da e-posta hesabı yaratılması sınırlanmış.</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>Önemli Kişiler</string>
+	<key>DETAILS</key>
+	<string>Ayrıntılar</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>Yeniden Kimlik Doğrulama Gerekiyor</string>
+	<key>DONE</key>
+	<string>Bitti</string>
+	<key>DOWNLOAD</key>
+	<string>İndir</string>
+	<key>MOVE_MESSAGE</key>
+	<string>İletiyi Taşı…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>Okunmadı</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>İmzalama Sertifikasını Görüntüle</string>
+	<key>DELETE_EMAIL</key>
+	<string>İletiyi Sil</string>
+	<key>HEAL_MESSAGE</key>
+	<string>Mail bu ayarları onarmayı deneyebilir.</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>%@ / %@ sonuç</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>Şifreleme Sertifikasını Görüntüle</string>
+	<key>REMOVE_VIP</key>
+	<string>Önemli Kişiler’den Sil</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>Önceki Ay</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>İlişik İndiriliyor</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>İstenmeyene Taşı</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>İletiyi taşımak için bir posta kutusuna dokunun.</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>“%@” için Giden Posta Sunucusuna Bağlanamıyor </string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>Mail, adres geçersiz olduğu için sayfayı açamıyor</string>
+	<key>SEARCHING</key>
+	<string>Aranıyor</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>Geçen Ay</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>İletiler Taşınamadı</string>
+	<key>MUTE</key>
+	<string>Bildirimi Kapat</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>İlişik İndirilemiyor</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>Seçili İletileri Arşivle</string>
+	<key>SEARCH_RESULTS</key>
+	<string>Ara</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>İlişikler</string>
+	<key>SUBJECT</key>
+	<string>Konu:</string>
+	<key>SAVE_VIDEO</key>
+	<string>Videoyu Kaydet</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>İlişik</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>İleti, %@ posta kutusuna taşınamadı.</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>İletinin tamamı yüklenemedi</string>
+	<key>TO</key>
+	<string>Kime:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>Hesap Ekle</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>Posta Kutusu Silinemiyor</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>Posta kutusu açılıyor…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>İşaretle…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>Ayrıntılar…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Çöpe At (%@)</string>
+	<key>FROM</key>
+	<string>Kimden:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>Bu ilişik çok büyük.</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>Bayrağı Kaldır</string>
+	<key>ENABLE_FILTER</key>
+	<string>İleti Filtresini Etkinleştir</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>Bu iletinin yalnızca bir kısmı indirildi.</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>Alıcı içeriyor: %@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>Tüm Görüntüleri Yükle</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>İletileri taşımak için bir posta kutusuna dokunun.</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>“%@” için Sunucuya Bağlanamıyor </string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>Konu Grubu Bildirimi Yok</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>İlişik İndirildi</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>Yanıtla: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>İlişikli E-posta Yok</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>Kime:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>E-posta Denetleniyor…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>Mail, bu ilişiği açamıyor.</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>posta kutusu</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>İstenmeyene Taşı</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>%@ itibarıyla artık kullanılamıyor</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>%@ / %@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>Önemli Kişi Ekle</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>“%@” için zaten bir şifreleme sertifikasına sahipsiniz.  Onun yerine, bu sertifikayı kullanmak ister misiniz?</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>Bu ilişikleri indirebilmek için lütfen bir Wi-Fi ağına bağlanın.</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>%@ %@ Posta Kutusunda Bulunanlar</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>Gönderen bu iletiyi güvenilir bir sertifikayla imzalamış.</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>Önemli Kişi İletileri</string>
+	<key>OK</key>
+	<string>Tamam</string>
+	<key>SEE_MORE</key>
+	<string>Daha Fazlasını Gör</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>Bu ileti gönderilirken bir hata oluştu.</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>Takvim etkinliği artık olmadığı için Mail tarafından açılamıyor</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>Posta Kutusunun Adı Değiştirilemiyor</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>Filtrelemeyi Aç/Kapat</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>İleti Taşınamadı</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>Güvenilir Olmayan İmza</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>Okunmadı İşaretle</string>
+	<key>REMOVE</key>
+	<string>Sil</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>%@ ve %@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>Bu ilişiği indirebilmek için lütfen bir Wi-Fi ağına bağlanın.</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>Filtre İşaret Türü</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>Bayrağı Kaldır</string>
+	<key>BCC_TITLE</key>
+	<string>Gizli</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>Tümünü Sil</string>
+	<key>DELETE_BUTTON</key>
+	<string>Sil</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>Önemli Kişi Ekle…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>Mail uygulamasını kullanmak için kullanılmayan uygulamaları veya dosyaları silerek saklama alanını boşaltın ve sonra yeniden deneyin.</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>Sunucuya bağlanma başarısız oldu.</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>Güncelleme: %@</string>
+	<key>ALL_MAILBOXES</key>
+	<string>Tüm Posta Kutuları</string>
+	<key>ALL_SENT</key>
+	<string>Tüm Gönderilenler</string>
+	<key>REPLY</key>
+	<string>Yanıtla</string>
+	<key>YES</key>
+	<string>Evet</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>PK</string>
+	<key>THREAD</key>
+	<string>Konu Grubu</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>İstenmeyen Posta İşaretini Kaldır</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>Şu Anki Posta Kutusu</string>
+	<key>NOTIFY_ME</key>
+	<string>Bana Bildir</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>Bu Hafta</string>
+	<key>LOADING</key>
+	<string>Yükleniyor…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>Yeni İleti</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>Parola Yok</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>Bildirmeyi Durdur</string>
+	<key>CC_TITLE</key>
+	<string>Bilgi</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>Okunmadı</string>
+	<key>FROM_TITLE</key>
+	<string>Gönderen</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>Geçen Yıl</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Bu ilişikleri indirebilmek için lütfen bir WLAN ağına bağlanın.</string>
+	<key>QUICK_LOOK</key>
+	<string>Göz At</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>Geçen Yıl</string>
+	<key>ENCRYPTED</key>
+	<string>Şifrelenmiş</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>Kimden</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>Bu ileti bir posta listesinden.</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>YÜKLENİYOR</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>Ara: “%@”</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>Ara</string>
+	<key>DISABLE_FILTER</key>
+	<string>İleti Filtresini Etkisizleştir</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>Gönderen bu iletiyi şifrelemiş ve güvenilir bir sertifikayla imzalamış.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>Kişiler</string>
+	<key>TRASH_BUTTON</key>
+	<string>Çöpe At</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>Posta kutusu sunucuda taşınamadı.</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>Dahil Et:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>Yönlendir: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>Tercihler</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>Ara</string>
+	<key>PRINT</key>
+	<string>Yazdır</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>En İyi Eşleşenler</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>Turuncu</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>Kime veya Bilgi</string>
+	<key>VIP_MAILBOX</key>
+	<string>Önemli Kişiler</string>
+	<key>FROM_LABEL</key>
+	<string>KİMDEN</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>İletiyi Arşivle</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>Taşı</string>
+	<key>SWIPE_FLAG</key>
+	<string>Bayrak Ekle</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>Bu ileti yüklenmemiş görüntüler içeriyor.</string>
+	<key>MOVE_TO</key>
+	<string>Şuraya Taşı: “%@”</string>
+	<key>ARCHIVE</key>
+	<string>Arşiv</string>
+	<key>VIP_EDIT</key>
+	<string>Önemli Kişiler</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>Posta kutusu sunucudan silinemedi.</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>%@ – %@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>“%@” posta kutusu zaten var.</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>Şu hesaplarda hata var: %@.
+Daha fazla bilgi görmek için hesapları tek tek seçin.</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>Çöpe At</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>Bugün</string>
+	<key>SWIPE_MOVE</key>
+	<string>Taşı…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>Tüm Arşiv</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>Kime</string>
+	<key>NO_FROM</key>
+	<string>Gönderen Yok</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>Gönderilen Adres:</string>
+	<key>NEW_MAILBOX</key>
+	<string>Yeni Posta Kutusu</string>
+	<key>REPAIR</key>
+	<string>Onar</string>
+	<key>SEND_AGAIN</key>
+	<string>Yeniden Gönder</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>%lu Bayraklı</string>
+	<key>MOVE_BUTTON</key>
+	<string>Taşı</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>Konular</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>Konu Grubu Bildirimi</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>Saklama alanınızı Ayarlar’da yönetebilirsiniz.</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>Posta Kutusu</string>
+	<key>BACK</key>
+	<string>Geri</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>Taslaklar</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>Güncelleme: %@</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>Seçimi Kaldır</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>Hesap Hatası: %@.</string>
+	<key>CERTIFICATE</key>
+	<string>Sertifika</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>Yeni İçerik Sayısı</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>Kime veya Bilgi</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>Taslak: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>Önceki Hafta</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>Birden Fazla Hesap Hatası</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>Tüm Yeni Postaları Al</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>Önemli Kişiler</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ - %@ içinde ara</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>Şu anda bir arama etkin olduğu için veri bağlantısı kurulamıyor.</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>Tümünü Arşivle</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>Bayraklı</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>Bilgi: Ben</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>İlişikleri Kaydet</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>Tam Çözünürlükteki Görüntüler Fotoğraflar’a Kaydedildi</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>Şifre Çözme Hatası</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>Geçen Hafta</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>Abonelikler</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>Konu Grubu İçeriğini Gizle</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>%@ tarihine dek kullanılabilir</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>%@ Gönderilmemiş İleti</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Taşı (%@)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>Hiçbir Sonuç Bulunamadı</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>Okundu İşaretle</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>Diğer aygıtınızın bağlantısı kesintiye uğramış olabilir. Lütfen yeniden deneyin.</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>Tüm İleti Sayısı</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ - %@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>Önemli kişilerin e-postalarına Önemli Kişiler’de hızlı bir şekilde erişin.</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>Taşı</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>Arşivlenecek veya taşınacak iletileri seçin.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>İlişikler ve Tam Çözünürlükteki Görüntüler İndirildi</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>Bir sorun tekrar tekrar oluştuğu için bu ileti görüntülenemiyor.</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>Okundu</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>Seçili İletileri Sil</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>Bu iletileri yeni posta kutusuna taşı.</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>Bana Adreslenmiş E-posta Yok</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>İlişiği İndir</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>Siri Tahmini gerçekleştirilemiyor</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>Bu ileti engellenenler listenizdeki bir gönderenden.</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>Posta kutusu sunucuda yeniden adlandırılamadı.</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>Bayraklı</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>Bu kişiyi engellemek istediğinizden emin misiniz?</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>Konu Grubu Bildirimi</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>İlişikleri İndir</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>Kime: Ben</string>
+	<key>BCC_HEADER</key>
+	<string>Gizli:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>Sunucu, alıcı adreslerinden birini reddetti.  İleti, Giden Kutusuna yerleştirildi.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>Önerilen Aramalar</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>Bayraklı</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Arşivle (%@)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>Bu iletiyi yeni posta kutusuna taşı.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>İlişik ve Tam Çözünürlükteki Görüntüler İndiriliyor</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>%@ tarihine dek Mail Drop’da bulunabilir</string>
+	<key>CANCEL</key>
+	<string>Vazgeç</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>İlişikler</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>Bana</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>Kalan %@ indiriliyor</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>Yeni İleti</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>Bu Yıl</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>Arşiv</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>“%@” adlı posta kutusu silindiğinde içindeki iletiler de hesabınızdan silinecektir.</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>Mor</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>Bildirimi Kapalı Gruplar</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>İletinin tamamı indiriliyor</string>
+	<key>MESSAGE</key>
+	<string>İleti</string>
+	<key>TRUST</key>
+	<string>Güven</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>%@ Bayrak Rengi</string>
+	<key>EXPAND_THREAD</key>
+	<string>Konu Grubu İçeriğini Göster</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>İstenmeyene Taşı</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>Sarı</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>Şuna Göre Filtrelendi:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>İleti içeriği doğrulanamıyor.</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>Diğer:</string>
+	<key>CC/BCC</key>
+	<string>Bilgi/Gizli:</string>
+	<key>SAVE_IMAGE</key>
+	<string>Görüntüyü Kaydet</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>Filtreler</string>
+	<key>TO_TITLE</key>
+	<string>Alıcı</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>%@ %@ İçinde Bulunanlar</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>Sonraki İletiye Git</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>klasör</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>Bu ilişik görüntülenemeyecek kadar büyük.</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>Mail hesaplarınızdan bazılarının kimliklerinin Apple Watch için yeniden doğrulanması gerekiyor</string>
+	<key>MUTED_MAILBOX</key>
+	<string>Bildirimi Kapalı Gruplar</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>Sertifikayı Görüntüle</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>Bağlanıyor…</string>
+	<key>NO_MAIL</key>
+	<string>E-posta Yok</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>Bildirimler ayarlarında yeni önemli kişi e‑postaları için özel uyarılar ayarlayın.</string>
+	<key>EDIT</key>
+	<string>Düzenle</string>
+	<key>SAVING</key>
+	<string>Kaydediliyor</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>İstenmeyen Posta İşaretini Kaldır</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>Mavi</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>Aboneliği Bitir</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>Önceki İletiye Git</string>
+	<key>FROM_HEADER</key>
+	<string>Kimden:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>Kırmızı</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>Çöpe At</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>Geçen Gün</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>BİLGİ</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>Alıntılanmış Metni Göster</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>İlişikler</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>Tam Çözünürlükteki Görüntüler Fotoğraflar’a İndiriliyor</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>Bu iPad’de e-posta hesabı yaratılması sınırlanmış.</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>Posta Kutuları</string>
+	<key>NO_VIP_MAIL</key>
+	<string>Önemli E-posta Yok</string>
+	<key>CC_LABEL</key>
+	<string>BİLGİ</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>KİME</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>Bu Ay</string>
+	<key>N_MESSAGES</key>
+	<string>%@ ileti</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>Sunucu hatası.
+Sunucu yöneticinize danışın.</string>
+	<key>LOAD_MESSAGE</key>
+	<string>İletiyi Yükle (Önerilmez)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>Bu ileti düz metin olarak indirildi.</string>
+	<key>FAVORITES</key>
+	<string>Favoriler</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>Hesap Hataları</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>Posta Kutusunda Ara</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@, %@ - %@ içinde ara</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>Çöpe atılacak veya taşınacak iletileri seçin.</string>
+	<key>ALL_TRASH</key>
+	<string>Tüm Çöpe Atılanlar</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>Taslak Yok</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>İmza Hatası</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>İşaretle</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>İlişikler İndirildi</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>Geçersiz Mail Drop İlişiği</string>
+	<key>DATE</key>
+	<string>Tarih:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>Bu Simülatör’de e-posta hesabı yaratılması sınırlanmış.</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>İlişikler</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>Arşivle</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>Tam Çözünürlükteki Görüntüler</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>Bayraklı E-posta Yok</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>Yalnızca Bugün Gönderilenler</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>İleti içeriği doğrulanamıyor.</string>
+	<key>NO_BODY</key>
+	<string>Bu iletide hiçbir içerik yok.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>Tarihler</string>
+	<key>EDIT_MAILBOX</key>
+	<string>PK’nu Düzenle</string>
+	<key>REPLY_ALL</key>
+	<string>Tümünü Yanıtla</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>%lu Taslak</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>%2$@ içinde ara: %1$@</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>Okunmadı</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>Tüm Görüntüleri Yükle (Önerilmez)</string>
+	<key>DELETE</key>
+	<string>Sil</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Sil (%@)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>Konu</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>Bu gönderen için şifreleme sertifikasını yönetin.</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>Yeni İleti</string>
+	<key>NO_SUBJECT</key>
+	<string>Konu Yok</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>Önceki Gün</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>Bana</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>Ad</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>Tam Çözünürlükteki Görüntüleri Fotoğraflar’a Kaydet</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>Bayraklı İletiler</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>Bayrağı Kaldır</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>Posta kutunuz dolu</string>
+	<key>UNTRUST</key>
+	<string>Güvenme</string>
+	<key>TODAY_MAILBOX</key>
+	<string>Bugün</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>Tümünü Çöpe At</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>Okunmamış sayısı</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>Bayrak Ekle</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>Okunmadı</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>Posta Kutusu Taşınamıyor</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>Yalnızca İlişiği Olan İletiler</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>Geçen Gün</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ERROR</key>
+	<string>Hata</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Bu ilişiği indirebilmek için lütfen bir WLAN ağına bağlanın.</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>İndirilmemiş İçerikleri Yükle</string>
+	<key>SWIPE_JUNK</key>
+	<string>İstenmeyen</string>
+	<key>CONTINUE</key>
+	<string>Sürdür</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>Bugün İçin İleti Yok</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>Diğer</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>%@ Gönderilmemiş İleti</string>
+	<key>SENDING</key>
+	<string>Gönderiliyor…</string>
+	<key>BOX_SUFFIX</key>
+	<string>kutu</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>Bildirimi Kapalı Grup Yok</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>İletileri Sil</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>Apple Watch Uygulamasına Git</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>.eml olarak gönder</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>Özgün iletideki ilişikler dahil edilsin mi?</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>Konu içeriyor: %@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>İleti</string>
+	<key>ACCOUNTS</key>
+	<string>Hesaplar</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>Kapat</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>“%@” adlı posta kutusu silindiğinde içindeki iletiler ve alt posta kutuları da hesabınızdan silinecektir.</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>İstenmeyen Değil</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>İlişikler ve Tam Çözünürlükteki Görüntüler İndiriliyor</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>İletileri Çöpe At</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>Okundu</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>Yeşil</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>Bu ileti birden fazla kişi tarafından imzalandı.</string>
+	<key>CC_HEADER</key>
+	<string>Bilgi:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>%@ Uygulamasında Bulunanlar</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>Posta Kutusu Ekle…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>%@ içinde ara</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>Geçen Ay</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>Bana Bildir</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> ve %@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>Önce iletinin kalanı indirilsin mi?</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>İleti içeriği doğrulanamıyor.</string>
+	<key>SUBJECT_HEADER</key>
+	<string>Konu:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>Silinecek veya taşınacak iletileri seçin.</string>
+	<key>TRASH</key>
+	<string>Çöpe At</string>
+	<key>SHARE</key>
+	<string>Paylaş</string>
+</dict>
+</plist>

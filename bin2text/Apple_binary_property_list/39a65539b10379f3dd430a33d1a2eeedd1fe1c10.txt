@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Telegram</string>
+	<key>CFBundleExecutable</key>
+	<string>ShareExtension</string>
+	<key>CFBundleIdentifier</key>
+	<string>ph.telegra.Telegraph.Share</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Share</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.0</string>
+	<key>CFBundleVersion</key>
+	<string>16868</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>IntentsSupported</key>
+			<array>
+				<string>INSendMessageIntent</string>
+			</array>
+			<key>NSExtensionActivationRule</key>
+			<string>SUBQUERY (
+    extensionItems,
+    $extensionItem,
+    SUBQUERY (
+        $extensionItem.attachments,
+        $attachment,
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.file-url" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
+		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
+		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.text" ||
+		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.audio" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.vcard" ||
+        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.apple.pkpass"
+    ).@count == $extensionItem.attachments.@count
+).@count &gt; 0</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.share-services</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>ShareRootController</string>
+	</dict>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>13.4</string>
+	<key>DTSDKName</key>
+	<string>iphoneos13.4</string>
+	<key>MinimumOSVersion</key>
+	<string>9.0</string>
+	<key>DTPlatformBuild</key>
+	<string>17E255</string>
+	<key>DTSDKBuild</key>
+	<string>17E255</string>
+	<key>DTXcodeBuild</key>
+	<string>11E146</string>
+	<key>DTXcode</key>
+	<string>1140</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+</dict>
+</plist>

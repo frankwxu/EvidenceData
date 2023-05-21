@@ -1,0 +1,2574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>About_AppDescription</key>
+	<string>新開発の Philips Hue アプリをご紹介します。このアプリを使用すると、皆様のご家庭のあらゆる Philips Hue 製品を直感的に制御できます。このアプリを試して、その多彩な機能を存分にお楽しみください。制御を体感するだけではなく、ときには外から操作してみてください。照明がもたらす快適な生活をご堪能ください。</string>
+	<key>About_AppDescription_BridgeV1</key>
+	<string>このアプリは、Philips Hue Bridge v1 との組み合わせでのみ使用できます。</string>
+	<key>About_AppVersion</key>
+	<string>バージョン %@</string>
+	<key>About_BridgeUpgradeProgramLink</key>
+	<string>Philips Hue Bridge v2 の詳細</string>
+	<key>About_CopyrightAuthor</key>
+	<string>下記に記載がない限り、各画像の著作権は作成者にあります。</string>
+	<key>About_CopyrightText</key>
+	<string>© 2018-2019 保持を意味します。すべての権利予約します。</string>
+	<key>About_Id</key>
+	<string>ID:</string>
+	<key>About_LegalMentions</key>
+	<string>免責事項</string>
+	<key>About_LicenseInformation</key>
+	<string>ライセンス情報について: https://creativecommons.org/licenses:</string>
+	<key>About_OpenSourceLicensesLink</key>
+	<string>オープンソースライセンス</string>
+	<key>About_PrivacyPolicyLink</key>
+	<string>プライバシーポリシー</string>
+	<key>About_SwVersion</key>
+	<string>バージョン:</string>
+	<key>About_TermsConditionsLink</key>
+	<string>使用条件</string>
+	<key>Accessories</key>
+	<string>アクセサリー</string>
+	<key>AccessorySetup_FoH</key>
+	<string>Hue スイッチの仲間</string>
+	<key>Accessory_CleanBehavior</key>
+	<string>確認</string>
+	<key>Accessory_CleanConfirmation</key>
+	<string>このアクセサリを設定せずに続行します。</string>
+	<key>Accessory_ConfigureAnotherApp</key>
+	<string>後で別のアプリで設定する</string>
+	<key>Accessory_ConfigureExplanation</key>
+	<string>Apple ホーム アプリや Hue Labs など、[b-white]別のアプリを使用[/b-white]してこのアクセサリーを設定できます。</string>
+	<key>Accessory_ConfigureHomeApp</key>
+	<string>Apple ホーム アプリで設定する</string>
+	<key>Accessory_NotConfigured</key>
+	<string>[b-white]設定されていません[/b-white]</string>
+	<key>Actionsheet_ChangeNameHue</key>
+	<string>Hue アプリで名前を変更する</string>
+	<key>Actionsheet_DuplicateNameSiri</key>
+	<string>その名前は既にホーム アプリに存在します。</string>
+	<key>Actionsheet_OverwriteHomeApp</key>
+	<string>ホーム アプリで上書きする</string>
+	<key>Actionsheet_Replace</key>
+	<string>交換</string>
+	<key>AddAccessory_FoH</key>
+	<string>Hue スイッチの仲間</string>
+	<key>AddAccessory_OutdoorSensor</key>
+	<string>Hue outdoor sensor</string>
+	<key>AddAccessory_SyncBox</key>
+	<string>Hue Sync Box</string>
+	<key>AddControls_ChooseType</key>
+	<string>下で接続するスイッチのタイプを選択します。</string>
+	<key>AddDevice_ChooseType</key>
+	<string>追加するアクセサリーを選択します。アクセサリーを使用するルームが作成されていることを確認してください。</string>
+	<key>AddDimmerWhite_DefaultsInstalled</key>
+	<string>スイッチは、[b-white]%@[/b-white]に以下のデフォルト値でセットアップされます。ライトをオンにしたりオフにしたり、明るさを調整したりすることができます。これらの設定は、後でアクセサリー セットアップ画面で変更できます。</string>
+	<key>AddDimmer_BlinkingInstruction</key>
+	<string>バッテリー格納場所から突き出ている蓋が[b-white]取り外されている[/b-white]ことを確認します。
+
+スイッチの前面にあるオレンジ色の LED が[b-white]点滅[/b-white]しているかどうかをチェックします。</string>
+	<key>AddDimmer_BlinkingInstruction2</key>
+	<string>点滅していない場合は、背面にある [セットアップ] ボタンを 1 秒間押します。</string>
+	<key>AddDimmer_BlinkingInstructionAndroid</key>
+	<string>バッテリー格納場所から突き出ている蓋が[b-white]取り外されている[/b-white]ことを確認します。
+
+スイッチの前面にあるオレンジ色の LED が[b-white]点滅[/b-white]しているかどうかをチェックします。点滅していない場合は、背面にある [セットアップ] ボタンを 1 秒間押します。</string>
+	<key>AddDimmer_ChooseRoom</key>
+	<string>Hue Dimmer スイッチ は[b-white]正常に接続[/b-white]されました。次に、これを使用する場所を選択してください。</string>
+	<key>AddDimmer_Defaults</key>
+	<string>オンにするボタンを押すと、ライトが点灯し、[b-white]前回と同じ状態[/b-white]になります。ボタンを 1 回押すたびに、4 つの[b-white]ライトレシピ[/b-white]が順に、繰り返し表示されます。</string>
+	<key>AddDimmer_Option1</key>
+	<string>これまでにランプを制御するために[b-white]使用されたことがない[/b-white]か、リセットされた Hue Dimmer スイッチを接続したい。</string>
+	<key>AddDimmer_Option1Instruction</key>
+	<string>検索には最大で 3 分ほどかかることがあります。</string>
+	<key>AddDimmer_Option2</key>
+	<string>Hue Dimmer スイッチ がこれまでにランプを制御するために[b-white]使用されたことがある[/b-white]、またはランプとともにパッケージに含まれていた。</string>
+	<key>AddDimmer_Option2Instruction</key>
+	<string>検出には最長で 3 分ほどかかることがあります。ランプの電源がオンになっていることを確認します。ランプが点滅している場合がありますが、これは正常です。</string>
+	<key>AddDimmer_SearchingLights</key>
+	<string>ランプを検出しています
+[b-white]%ld 個のランプが検出されました[/b-white]</string>
+	<key>AddDimmer_SearchingLights0</key>
+	<string>ライトを検出しています
+%0 個のライトが検出されました</string>
+	<key>AddDimmer_SearchingSwitch</key>
+	<string>スイッチを検出しています…</string>
+	<key>AddDimmer_SituationInstruction</key>
+	<string>使用環境に適したオプションはどれですか?</string>
+	<key>AddDimmer_SwitchFound</key>
+	<string>スイッチが検出されました</string>
+	<key>AddLightsOrPlug_InstructionsText</key>
+	<string>新しいライトまたは Hue スマート プラグを検出するには、デバイスの[b-white]電源がオンになっている[/b-white] ことを確認してから、[b-white]下の [検出] をタップ[/b-white]します。</string>
+	<key>AddLightsOrPlug_ProblemsText</key>
+	<string>ライトまたは Hue スマートプラグを検出できない場合は、[検出] をタップする前に、ライトの [b-white]6 文字[/b-white] のシリアル番号を入力します。</string>
+	<key>AddLights_AddSerialButton</key>
+	<string>シリアル番号を追加</string>
+	<key>AddLights_InstructionsText</key>
+	<string>新しいランプを検出するには、ランプの[b-white]電源がオンになっている[/b-white]ことを確認してから、[b-white]下にある [検出] をタップ[/b-white]します。</string>
+	<key>AddLights_ProblemsText</key>
+	<string>ランプを検出できない場合は、[検出] をタップする前に、ランプの [b-white]6 文字[/b-white]のシリアル番号を入力します。</string>
+	<key>AddSensor_ChooseRoom</key>
+	<string>Hue モーション センサーは[b-white]正常に接続[/b-white]されました。このセンサーを使用するルームを選択してください。</string>
+	<key>AddSensor_DefaultsBright</key>
+	<string>明るい照明</string>
+	<key>AddSensor_DefaultsConcentrate</key>
+	<string>集中する</string>
+	<key>AddSensor_DefaultsDay</key>
+	<string>[b-white]%@[/b-white]から[b-white]%@[/b-white]までの日中、日光が十分に当たらない場合は、モーションにより[b-white]%@[/b-white]がトリガーされます。</string>
+	<key>AddSensor_DefaultsDimmed</key>
+	<string>暗めの照明</string>
+	<key>AddSensor_DefaultsEnergize</key>
+	<string>やる気を出す</string>
+	<key>AddSensor_DefaultsInstalled</key>
+	<string>センサーは、[b-white]%@[/b-white]に以下のデフォルト値でセットアップされます。これらの設定は、後でアクセサリー セットアップ画面で変更できます。</string>
+	<key>AddSensor_DefaultsNight</key>
+	<string>[b-white]%@[/b-white]から[b-white]%@[/b-white]までの夜間、日光が十分に当たらない場合は、モーションにより[b-white]%@[/b-white]がトリガーされます。</string>
+	<key>AddSensor_DefaultsNightlight</key>
+	<string>夜間照明</string>
+	<key>AddSensor_DefaultsNoMotion</key>
+	<string>[b-white]%@[/b-white] でモーションが検出されないと、ライトは暗くなって[b-white]オフになります[/b-white]。</string>
+	<key>AddSensor_DefaultsRelax</key>
+	<string>くつろぐ</string>
+	<key>AddSensor_Instruction</key>
+	<string>バッテリー格納場所から突き出ている[b-white]プラスチック ストリップ[/b-white]を取り外します。
+
+センサーの前面にあるオレンジ色の LED が[b-white]点滅[/b-white]しているかどうかをチェックします。</string>
+	<key>AddSensor_Instruction2</key>
+	<string>点滅していない場合は、背面にある [セットアップ] ボタンを 1 秒間押します。検索には最大で 3 分ほどかかることがあります。</string>
+	<key>AddSensor_SensorPlacement</key>
+	<string>センサーがルームの入口を[b-white]カバーする[/b-white]ようにセンサーを配置してください。</string>
+	<key>AddSwitch_DefaultsInstalled</key>
+	<string>スイッチは、[b-white]%@[/b-white]に以下のデフォルト値でセットアップされます。これらの設定は、後でアクセサリー セットアップ画面で変更できます。</string>
+	<key>AddTap_ChooseRoom</key>
+	<string>Hue Tap スイッチ は[b-white]正常に接続[/b-white]されました。次に、これを使用する場所を選択してください。</string>
+	<key>AddTap_Defaults</key>
+	<string>大きなボタンを押すと、ライトが[b-white]オフ[/b-white]になります。また、3 つの小さなボタンのいずれかをタップすると、[b-white]明るくしたり、暗くしたり[/b-white]、[b-white]夜間照明[/b-white]にしたりすることができます。</string>
+	<key>AddTap_Instruction</key>
+	<string>Hue Tap スイッチを接続するには、Hue Tap スイッチの[b-white]ボタン %@[/b-white] を 10 秒間しっかり押し続け、その後離します。</string>
+	<key>After</key>
+	<string>オフになるまでの分数</string>
+	<key>Android_BackgroundWorkDesc</key>
+	<string>これらの通知は、Philips Hue アプリがバックグラウンドでお使いのライトにアクセスしようとしているときに表示されます。</string>
+	<key>Android_BackgroundWorkTitle</key>
+	<string>バックグラウンド プロセス</string>
+	<key>Android_WidgetRecallDesc</key>
+	<string>これらの通知には、ウィジェットの呼び出しが失敗した理由が記載されます。</string>
+	<key>Android_WidgetRecallTitle</key>
+	<string>ウィジェットの呼び出し</string>
+	<key>App_Icon_Name_Bridgev1</key>
+	<string>Hue</string>
+	<key>AppleWatch_AppNotSetUp</key>
+	<string>まず、スマートフォンで Hue アプリを設定します。</string>
+	<key>AppleWatch_NoRooms</key>
+	<string>ルームがまだ作成されていません。まず、Hue アプリの [設定] でルームを作成してください。</string>
+	<key>AppleWatch_NoWidgets</key>
+	<string>ウィジェットがまだ作成されていません。まず、Hue アプリの [設定] でウィジェットを作成してください。</string>
+	<key>Archetype_Category_ceiling</key>
+	<string>天井</string>
+	<key>Archetype_Category_floor</key>
+	<string>フロア</string>
+	<key>Archetype_Category_other</key>
+	<string>その他</string>
+	<key>Archetype_Category_table</key>
+	<string>テーブル</string>
+	<key>Archetype_Category_wall</key>
+	<string>壁取付</string>
+	<key>Archetype_Selection_Title</key>
+	<string>アイコン</string>
+	<key>Archetype_bollard</key>
+	<string>ボラード</string>
+	<key>Archetype_candleBulb</key>
+	<string>キャンドル電球</string>
+	<key>Archetype_ceilingRound</key>
+	<string>シーリング丸型</string>
+	<key>Archetype_ceilingSquare</key>
+	<string>シーリング角型</string>
+	<key>Archetype_christmasTree</key>
+	<string>クリスマス ツリー</string>
+	<key>Archetype_classicBulb</key>
+	<string>クラシック電球</string>
+	<key>Archetype_doubleSpot</key>
+	<string>ダブル スポット</string>
+	<key>Archetype_flexibleLamp</key>
+	<string>フレキシブル ランプ</string>
+	<key>Archetype_floodBulb</key>
+	<string>フラッド電球</string>
+	<key>Archetype_floorLantern</key>
+	<string>フロア ランタン</string>
+	<key>Archetype_floorShade</key>
+	<string>フロア シェード</string>
+	<key>Archetype_groundSpot</key>
+	<string>グラウンド スポット</string>
+	<key>Archetype_hueBloom</key>
+	<string>Hue Bloom</string>
+	<key>Archetype_hueGo</key>
+	<string>Hue Go</string>
+	<key>Archetype_hueIris</key>
+	<string>Hue Iris</string>
+	<key>Archetype_hueLightStrip</key>
+	<string>Hue ライト ストリップ</string>
+	<key>Archetype_huePlay</key>
+	<string>Hue Play</string>
+	<key>Archetype_pendantLong</key>
+	<string>ペンダント長型</string>
+	<key>Archetype_pendantRound</key>
+	<string>ペンダント丸型</string>
+	<key>Archetype_plug</key>
+	<string>プラグ</string>
+	<key>Archetype_recessedCeiling</key>
+	<string>埋め込み型シーリング</string>
+	<key>Archetype_recessedFloor</key>
+	<string>埋め込み型フロア</string>
+	<key>Archetype_singleSpot</key>
+	<string>シングル スポット</string>
+	<key>Archetype_spotBulb</key>
+	<string>スポット電球</string>
+	<key>Archetype_sultanBulb</key>
+	<string>サルタン電球</string>
+	<key>Archetype_tableShade</key>
+	<string>テーブル シェード</string>
+	<key>Archetype_tableWash</key>
+	<string>テーブル ウォッシュ</string>
+	<key>Archetype_vintagebulb</key>
+	<string>ビンテージ電球</string>
+	<key>Archetype_wallLantern</key>
+	<string>ウォール ランタン</string>
+	<key>Archetype_wallShade</key>
+	<string>ウォール シェード</string>
+	<key>Archetype_wallSpot</key>
+	<string>ウォール スポット</string>
+	<key>Authenticate_InstructionText</key>
+	<string>接続する Hue ブリッジ のプッシュリンク ボタンを押してください。</string>
+	<key>AutomaticUpdates_Disabled</key>
+	<string>無効</string>
+	<key>AutomaticUpdates_Enbaled</key>
+	<string>有効</string>
+	<key>AutomaticUpdates_Explanation</key>
+	<string>Hue システムは、指定された時刻に、お使いのライトとアクセサリー用のアップデートを自動的にインストールします。
+
+更新プロセス中は[b-white]ライトが点滅[/b-white]することがあります。</string>
+	<key>AutomaticUpdates_Toggle</key>
+	<string>自動更新</string>
+	<key>Banner_PowerOnBehavior_FailToSet</key>
+	<string>設定を変更できませんでした。もう一度試してください。</string>
+	<key>Banner_PowerOnBehavior_NotSupportedLight</key>
+	<string>申し訳ございません。この製品は '電源投入時の動作' をサポートしていません。</string>
+	<key>Banner_PowerOnBehavior_SoftwareUpdateRequired</key>
+	<string>この動作を設定するには、このライトを更新する必要があります。</string>
+	<key>Banner_PowerOnBehavior_SoftwareUpdateRequired_Button</key>
+	<string>更新が必要です</string>
+	<key>Banner_SaveScene</key>
+	<string>シーンを保存しています…</string>
+	<key>Braze_MessagingPreferences_Button</key>
+	<string>設定</string>
+	<key>Braze_MessagingPreferences_Text</key>
+	<string>Philips Hue は、お客様のご希望に応じて、新製品や新機能をメールにてお知らいたします。</string>
+	<key>Braze_MessagingPreferences_Text2</key>
+	<string>[製品とサービス] を有効にすると、Philips Hue から、特典、機能、更新情報、新製品に関するメールを受け取ることができます。</string>
+	<key>Braze_MessagingPreferences_Title</key>
+	<string>メッセージの基本設定</string>
+	<key>Braze_MessagingPreferences_Title2</key>
+	<string>最初に覚えておいてください!</string>
+	<key>BridgeDetails_BridgeIdText</key>
+	<string>ID:</string>
+	<key>BridgeDetails_ChannelLabel</key>
+	<string>チャンネル変更</string>
+	<key>BridgeDetails_ConnectionStateText</key>
+	<string>ステータス:</string>
+	<key>BridgeDetails_DeleteBridgeMessage</key>
+	<string>この Hue Bridge を削除すると、このアプリを使用してライトを制御したりアクセサリーをセットアップしたりできなくなります。</string>
+	<key>BridgeDetails_IpAddress</key>
+	<string>IP アドレス:</string>
+	<key>BridgeDetails_MacAddressText</key>
+	<string>MAC アドレス:</string>
+	<key>BridgeDetails_NetworkSettingsExplanation</key>
+	<string>[b-white]警告:[/b-white] 必ず正しい値を入力してください。値が正しくなければ、Hue ブリッジ との接続が切断される可能性があります。これにより、問題の解決が不可能になります。これが発生した場合は、Hue ブリッジ の裏面にあるリセットボタン（穴）を細い棒などで押して、Hue ブリッジ を出荷時設定にリセットしてください。</string>
+	<key>BridgeDetails_NetworkSettingsLabel</key>
+	<string>ネットワーク設定</string>
+	<key>BridgeDetails_ResetHomeKit</key>
+	<string>HomeKit &amp; Siri のリセット</string>
+	<key>BridgeDetails_ResetHomeKitConfirmation</key>
+	<string>HomeKit &amp; Siri がリセットされます。</string>
+	<key>BridgeDetails_ResetHomeKitMessage</key>
+	<string>HomeKit &amp; Siri をリセットすると、Hue ブリッジ と HomeKit のペアリングが解除されます。すべての Hue アクセサリが HomeKit &amp; Siri で操作できなくなります。Hue ブリッジの電源がオンになっており、現在の Wi-Fi ネットワークのルーターに接続されていることを確認してください。
+
+[b-white] 警告:[/b-white] HomeKit &amp; Siri のリセットは、問題が発生した場合にのみ行ってください。
+
+再び操作できるようにするには、[設定] で HomeKit &amp; Siri のセットアップを行ってください。</string>
+	<key>BridgeDetails_Security</key>
+	<string>セキュリティ:</string>
+	<key>BridgeDetails_Security_Https</key>
+	<string>HTTPS 経由で安全</string>
+	<key>BridgeDetails_Security_Https_Not_Available</key>
+	<string>HTTPS を使用できません</string>
+	<key>BridgeDetails_SoftwareVersionText</key>
+	<string>SW:</string>
+	<key>BridgeDetails_TimeZoneLabel</key>
+	<string>タイム ゾーン</string>
+	<key>BridgeDetails_ZigbeeChannelLabel</key>
+	<string>Zigbee チャンネル変更</string>
+	<key>BridgeV1NotSupported</key>
+	<string>Bridge v1 が検出されました</string>
+	<key>BridgeV1NotSupported_Explanation</key>
+	<string>残念ながら、Philips Hue の最新アプリはもう Bridge v1 をサポートしていません。</string>
+	<key>BridgeV1NotSupported_ExplanationNote</key>
+	<string>Bridge v1 で機能する Hue アプリをダウンロードする</string>
+	<key>BridgeV1_AppDescription</key>
+	<string>このアプリは、Philips Hue Bridge v1 との組み合わせでのみ使用できます。
+
+PHILIPS HUE とは
+Philips Hue は、アプリ、センサー、スイッチ、音声アシスタントおよびその他の統合機能で制御できる、スマートな照明製品 (電球からランプおよび付属品まで) のコレクションです。Philips Hue の詳細については、www.meethue.com をご覧ください。</string>
+	<key>BridgeV2NotSupported</key>
+	<string>Bridge v2 が検出されました</string>
+	<key>BridgeV2NotSupported_Explanation</key>
+	<string>Bridge v2 は、Philips Hue アプリの最新のバージョンでのみ使用できます。</string>
+	<key>BridgeV2NotSupported_TransferExplanation</key>
+	<string>Bridge v1 の設定を Bridge v2 に転送する場合は、Bridge v2 が以前に使用されていないこと、または接続前に工場出荷時の設定に復元されていることを確認してください。</string>
+	<key>Bridge_Unknown_Name</key>
+	<string>不明な Hue Bridge</string>
+	<key>Brightness</key>
+	<string>輝度</string>
+	<key>Buton_CreateNewRoom</key>
+	<string>新規ルームを作成</string>
+	<key>Button_Abort</key>
+	<string>終了</string>
+	<key>Button_Accept</key>
+	<string>同意する</string>
+	<key>Button_Add</key>
+	<string>追加</string>
+	<key>Button_AddAccessories</key>
+	<string>アクセサリーを追加</string>
+	<key>Button_AddBridge</key>
+	<string>Hue ブリッジの追加</string>
+	<key>Button_AddEntertainmentSetup</key>
+	<string>エンターテインメント エリアの作成</string>
+	<key>Button_AddFirstAccessories</key>
+	<string>アクセサリーを追加</string>
+	<key>Button_AddFirstEntertainmentSetup</key>
+	<string>エリアの作成</string>
+	<key>Button_AddFirstGoToSleep</key>
+	<string>ルーチンの作成</string>
+	<key>Button_AddFirstLight</key>
+	<string>ライトを追加</string>
+	<key>Button_AddFirstOtherRoutine</key>
+	<string>ルーチンの作成</string>
+	<key>Button_AddFirstRoom</key>
+	<string>ルームの作成</string>
+	<key>Button_AddFirstScene</key>
+	<string>シーンの作成</string>
+	<key>Button_AddFirstTimer</key>
+	<string>タイマーの作成</string>
+	<key>Button_AddFirstWakeUp</key>
+	<string>ルーチンの作成</string>
+	<key>Button_AddFirstWidget</key>
+	<string>ウィジェットの作成</string>
+	<key>Button_AddGoToSleep</key>
+	<string>就寝の作成</string>
+	<key>Button_AddLight</key>
+	<string>ライトを追加</string>
+	<key>Button_AddOtherRoutine</key>
+	<string>カスタム ルーチンの作成</string>
+	<key>Button_AddRoom</key>
+	<string>ルームの作成</string>
+	<key>Button_AddRoomZone</key>
+	<string>新規作成</string>
+	<key>Button_AddScene</key>
+	<string>シーンの作成</string>
+	<key>Button_AddTimer</key>
+	<string>タイマーの作成</string>
+	<key>Button_AddWakeUp</key>
+	<string>目覚めの作成</string>
+	<key>Button_AddWidget</key>
+	<string>ウィジェットの作成</string>
+	<key>Button_AllGood</key>
+	<string>問題ありません!</string>
+	<key>Button_AllLightsFound</key>
+	<string>すべてのランプが検出されました</string>
+	<key>Button_Authenticate</key>
+	<string>認証</string>
+	<key>Button_BlinkLights</key>
+	<string>ランプの点滅</string>
+	<key>Button_Cancel</key>
+	<string>キャンセル</string>
+	<key>Button_ChangeChannel</key>
+	<string>チャンネルを変更</string>
+	<key>Button_CleanUp</key>
+	<string>リセット</string>
+	<key>Button_Close</key>
+	<string>閉じる</string>
+	<key>Button_ConfigureHomeApp</key>
+	<string>[u]Apple ホーム アプリで設定する[/u]</string>
+	<key>Button_ConfigureOtherApp</key>
+	<string>[u]後で別のアプリで設定[/u]</string>
+	<key>Button_Connect</key>
+	<string>接続</string>
+	<key>Button_ConnectToBridgeV2</key>
+	<string>Bridge v2 に接続する</string>
+	<key>Button_Continue</key>
+	<string>続行</string>
+	<key>Button_Create</key>
+	<string>作成</string>
+	<key>Button_CreateHome</key>
+	<string>新たにホームを作成</string>
+	<key>Button_CreateNewHome</key>
+	<string>新たにホームを作成</string>
+	<key>Button_CreateNewScene</key>
+	<string>新規シーン</string>
+	<key>Button_CreateNewZone</key>
+	<string>新規ゾーンを作成</string>
+	<key>Button_Delete</key>
+	<string>削除</string>
+	<key>Button_Discard</key>
+	<string>変更を破棄</string>
+	<key>Button_DoesntWork</key>
+	<string>調整が必要です</string>
+	<key>Button_Done</key>
+	<string>完了</string>
+	<key>Button_Download</key>
+	<string>ダウンロード</string>
+	<key>Button_DownloadBridgeV1App</key>
+	<string>Bridge v1 アプリをダウンロードする</string>
+	<key>Button_DownloadBridgeV2App</key>
+	<string>Bridge v2 アプリをダウンロードする</string>
+	<key>Button_Enable</key>
+	<string>有効にする</string>
+	<key>Button_Exclude</key>
+	<string>除外</string>
+	<key>Button_GoToHueApp</key>
+	<string>Connor</string>
+	<key>Button_GoToUpdate</key>
+	<string>更新に進む</string>
+	<key>Button_GotIt</key>
+	<string>了解</string>
+	<key>Button_Help</key>
+	<string>ヘルプ</string>
+	<key>Button_ItWorks</key>
+	<string>完璧に同じです!</string>
+	<key>Button_Iunderstand</key>
+	<string>了解</string>
+	<key>Button_Later</key>
+	<string>後で</string>
+	<key>Button_LearnAboutBridgeV2</key>
+	<string>[u]Bridge v2 の詳細[/u]</string>
+	<key>Button_LedBlinks</key>
+	<string>LED の点滅</string>
+	<key>Button_LightsAreOn</key>
+	<string>ライトの準備ができました</string>
+	<key>Button_LinkBridge</key>
+	<string>Hue ブリッジ をリンク</string>
+	<key>Button_LogIn</key>
+	<string>有効にする</string>
+	<key>Button_Logout</key>
+	<string>無効化</string>
+	<key>Button_MakePrimary</key>
+	<string>メインのホームを設定</string>
+	<key>Button_Manage</key>
+	<string>管理</string>
+	<key>Button_MoreInformation</key>
+	<string>詳細</string>
+	<key>Button_Next</key>
+	<string>次へ</string>
+	<key>Button_NotAllLightsFound</key>
+	<string>一部検出されませんでした</string>
+	<key>Button_NotNow</key>
+	<string>あとで</string>
+	<key>Button_Ok</key>
+	<string>OK</string>
+	<key>Button_OpenSettings</key>
+	<string>設定を開く</string>
+	<key>Button_Option1</key>
+	<string>オプション 1</string>
+	<key>Button_Option2</key>
+	<string>オプション 2</string>
+	<key>Button_Pair</key>
+	<string>Hue ブリッジ のペアリング</string>
+	<key>Button_PostponeMandatoryUpdate</key>
+	<string>[u]更新を延期[/u]</string>
+	<key>Button_RemindMeWeek</key>
+	<string>[u]週に 1 度通知する[/u]</string>
+	<key>Button_Reset</key>
+	<string>リセット</string>
+	<key>Button_Restart</key>
+	<string>再起動</string>
+	<key>Button_Restore</key>
+	<string>リセット</string>
+	<key>Button_RestoreToDefaults</key>
+	<string>デフォルト値にリセット</string>
+	<key>Button_Retry</key>
+	<string>再試行</string>
+	<key>Button_Save</key>
+	<string>保存</string>
+	<key>Button_Search</key>
+	<string>検索</string>
+	<key>Button_SetTimeZone</key>
+	<string>タイムゾーンを設定</string>
+	<key>Button_SetUp</key>
+	<string>セットアップ</string>
+	<key>Button_ShareHome</key>
+	<string>ホームを共有</string>
+	<key>Button_Shuffle</key>
+	<string>シャッフル</string>
+	<key>Button_Skip</key>
+	<string>スキップ</string>
+	<key>Button_Start</key>
+	<string>スタート</string>
+	<key>Button_StopSync</key>
+	<string>ライトの同期を停止</string>
+	<key>Button_SyncHueRooms</key>
+	<string>ルームを更新</string>
+	<key>Button_TestSetup</key>
+	<string>テスト エリア</string>
+	<key>Button_Transfer</key>
+	<string>転送</string>
+	<key>Button_TryAgain</key>
+	<string>もう一度試す</string>
+	<key>Button_TryTheApp</key>
+	<string>アプリを試す</string>
+	<key>Button_Understand</key>
+	<string>了解</string>
+	<key>Button_Update</key>
+	<string>今すぐ更新</string>
+	<key>Button_UseZones</key>
+	<string>ゾーンを作成</string>
+	<key>CleanUpLabel_Header</key>
+	<string>リセット</string>
+	<key>CleanUp_Cleaning1</key>
+	<string>データを[b-white]消去しています[/b-white]…</string>
+	<key>CleanUp_Cleaning2</key>
+	<string>アクセサリーを[b-white]復元しています[/b-white]…</string>
+	<key>CleanUp_DeleteConfirmation</key>
+	<string>データが Hue ブリッジ から消去されます。</string>
+	<key>CleanUp_Explanation</key>
+	<string>[b-white]警告:[/b-white] すべてのデータが Hue Bridge から消去されます。これには、すべての自分用のシーン、ルーチン、エンターテインメント エリア、および他の Hue アプリからのデータが含まれます。ルーム、ゾーン、および照明ーは復元されるので、照明の制御は可能です。</string>
+	<key>CleanUp_Explanation_NoSiri</key>
+	<string>[b-white]警告:[/b-white] すべてのデータが Hue Bridge から消去されます。これには、すべての自分用のシーン、ルーチン、エンターテインメント エリア、および他の Hue アプリからのデータが含まれます。ルーム、ゾーン、および照明ーは復元されるので、照明の制御は可能です。</string>
+	<key>Color_Blue</key>
+	<string>青</string>
+	<key>Color_Green</key>
+	<string>緑</string>
+	<key>Color_Orange</key>
+	<string>オレンジ</string>
+	<key>Color_Pink</key>
+	<string>ピンク</string>
+	<key>Color_Purple</key>
+	<string>紫</string>
+	<key>Color_Red</key>
+	<string>赤</string>
+	<key>Color_White</key>
+	<string>ホワイト</string>
+	<key>Color_Yellow</key>
+	<string>黄</string>
+	<key>Colorpicker_Group</key>
+	<string>ライトのグループ</string>
+	<key>ComingHome_AfterSunset</key>
+	<string>日没後のみ</string>
+	<key>ComingHome_MinAfterArrival</key>
+	<string>到着から %ld 分</string>
+	<key>ComingHome_SelectScene</key>
+	<string>[b-white]帰宅[/b-white]時にオンにするシーンを選択します。</string>
+	<key>ComingHome_WhenArrive</key>
+	<string>帰宅時</string>
+	<key>ConnectionState_Connected</key>
+	<string>接続済み</string>
+	<key>ConnectionState_Connecting</key>
+	<string>接続中…</string>
+	<key>ConnectionState_NotAuthenticated</key>
+	<string>認証されていません</string>
+	<key>ConnectionState_NotConnected</key>
+	<string>接続できません</string>
+	<key>ConnectionState_RemoteConnected</key>
+	<string>クラウド経由で接続済み</string>
+	<key>ConnorSetup_Brightness</key>
+	<string>輝度</string>
+	<key>ConnorSetup_Broadcaster</key>
+	<string>パフォーマンス</string>
+	<key>ConnorSetup_BroadcasterAutomatic</key>
+	<string>自動検出</string>
+	<key>ConnorSetup_CreateRoom</key>
+	<string>場所</string>
+	<key>ConnorSetup_CurrentlyInSync</key>
+	<string>現在、エンターテインメントと同期しているライトは、同期を停止するまで、制御できません。</string>
+	<key>ConnorSetup_DefaultSetupName</key>
+	<string>エンターテインメント</string>
+	<key>ConnorSetup_DeleteConfirmation</key>
+	<string>これによってエンターテインメント エリアが削除されます。</string>
+	<key>ConnorSetup_DoneWithSetup</key>
+	<string>これで、エンターテインメント用のライトが設定されました。</string>
+	<key>ConnorSetup_DragLights</key>
+	<string>Connor</string>
+	<key>ConnorSetup_DragLightsExisting</key>
+	<string>自分のエリアの対応する実際の位置に[b-white]すべてのライトをドラッグ[/b-white]します。[b-white]テスト エリア[/b-white]をタップしてお試しください。</string>
+	<key>ConnorSetup_EditTestSetup</key>
+	<string>テスト エリア</string>
+	<key>ConnorSetup_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、最初のエンターテインメント エリアを作成します。</string>
+	<key>ConnorSetup_InferiorLightsSelected</key>
+	<string>色彩が鮮やかでないライトが選択されているようです。最適な体験が得られるよう、お勧めのライトをお使いいただくよう強く推奨いたします。</string>
+	<key>ConnorSetup_Instruction</key>
+	<string>エンターテインメント エリアを作成して、[b-white]ライトとエンターテインメントを同期[/b-white]します。検索タブを使用して、互換性のあるパートナーのリストを確認してください。</string>
+	<key>ConnorSetup_LightBlinking</key>
+	<string>ライトの点滅を見る</string>
+	<key>ConnorSetup_Lights</key>
+	<string>ランプ</string>
+	<key>ConnorSetup_MoreInformation</key>
+	<string>詳しくは、[b-white]meethue.com/supportentertainment[/b-white] をご覧ください。</string>
+	<key>ConnorSetup_NoColorLights</key>
+	<string>[b-white]エンターテインメントの同期をサポートする[/b-white]カラー対応ライトがありません。</string>
+	<key>ConnorSetup_PlacementInstruction</key>
+	<string>続行する前に、すべての[b-white]ライトの電源がオンになっており[/b-white]、エンターテインメント エリアに配置されていることを確認してください。</string>
+	<key>ConnorSetup_Recommended</key>
+	<string>推奨</string>
+	<key>ConnorSetup_RecommendedLights</key>
+	<string>以下には、[b-white]カラー対応 Hue ライト[/b-white]だけがリストされています。その鮮やかな色彩から、いくつかのライトを[b-green]推奨しています[/b-green]。詳しくは、[b-white]meethue.com/supportentertainment[/b-white] をご覧ください。</string>
+	<key>ConnorSetup_RoomSetupName</key>
+	<string>#@ エリア</string>
+	<key>ConnorSetup_SelectBroadcaster</key>
+	<string>エリアの最も中央に配置されているライトを選択すると、最高のパフォーマンスを得ることができます。[自動検出] をオフにして、ライトまたは Hue ブリッジを手動で選択してください。</string>
+	<key>ConnorSetup_SelectLights</key>
+	<string>ライトを選択</string>
+	<key>ConnorSetup_SelectRoom</key>
+	<string>ルームを選択</string>
+	<key>ConnorSetup_SoftwareUpdateExplanation</key>
+	<string>これらのライトをエンターテインメント エリアで正しく動作させるには、更新が必要です。これらのライトを更新した後、再確認してください。</string>
+	<key>ConnorSetup_SoftwareUpdateRequired</key>
+	<string>ソフトウェアの更新が必要です</string>
+	<key>ConnorSetup_Streaming</key>
+	<string>ライトの同期がアクティブです</string>
+	<key>ConnorSetup_TestSetup</key>
+	<string>ライトの色が画面のアニメーションと同じであることを確認します。</string>
+	<key>ConnorSetup_TestSetup2</key>
+	<string>ライトの位置が画面のアニメーションと同じであることを確認します。</string>
+	<key>ConnorSetup_TestSetup2Title</key>
+	<string>テストの場所</string>
+	<key>ConnorSetup_TestSetupTitle</key>
+	<string>テストの同期</string>
+	<key>ConnorSetup_Where</key>
+	<string>[b-white]ライトをエンターテインメントと同期させる[/b-white]ルームを選択してください。</string>
+	<key>ConnorSetup_WhereExisting</key>
+	<string>[b-white]ライトをエンターテインメントと同期させる[/b-white]ルームを選択してください。選択できるのは、カラー対応ライトが設置されているルームだけです。</string>
+	<key>Connor_DragDrop</key>
+	<string>ライトを配置する</string>
+	<key>Connor_OptimisingSetup</key>
+	<string>[b-white]最適化しています[/b-white]…</string>
+	<key>Connor_Placement</key>
+	<string>ライトの電源をオンにする</string>
+	<key>Controls_ButtonPressed</key>
+	<string>%@ が押されています</string>
+	<key>Controls_DimmerButton_DimDown</key>
+	<string>暗くするボタン</string>
+	<key>Controls_DimmerButton_DimUp</key>
+	<string>明るくするボタン</string>
+	<key>Controls_DimmerButton_FifthPress</key>
+	<string>5 回目に押したとき</string>
+	<key>Controls_DimmerButton_FirstPress</key>
+	<string>最初に押したとき</string>
+	<key>Controls_DimmerButton_FourthPress</key>
+	<string>4 回目に押したとき</string>
+	<key>Controls_DimmerButton_Off</key>
+	<string>オフにするボタン</string>
+	<key>Controls_DimmerButton_On</key>
+	<string>オンにするボタン</string>
+	<key>Controls_DimmerButton_SecondPress</key>
+	<string>2 回目に押したとき</string>
+	<key>Controls_DimmerButton_ThirdPress</key>
+	<string>3 回目に押したとき</string>
+	<key>Controls_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、アクセサリーを追加します。</string>
+	<key>Controls_SelectScene</key>
+	<string>[b-white]このボタンを押す[/b-white]とオンになるシーンを選択します。</string>
+	<key>Controls_SettingsDefaults</key>
+	<string>デフォルト値を設定しております。これには 1 分ほどかかる場合があります…</string>
+	<key>Controls_TapButton1</key>
+	<string>ボタン 1</string>
+	<key>Controls_TapButton2</key>
+	<string>ボタン 2</string>
+	<key>Controls_TapButton3</key>
+	<string>ボタン 3</string>
+	<key>Controls_TapButton4</key>
+	<string>ボタン 4</string>
+	<key>Controls_UnknownRule</key>
+	<string>このボタンの現在の動作は表示できません。ボタンを設定すると、現在の動作が削除されます。</string>
+	<key>Controls_UnknownRuleDimmer</key>
+	<string>このボタンの現在の動作は表示できません。オンにするボタンを設定すると、現在の動作が削除されます。</string>
+	<key>Controls_UnknownRuleSensor</key>
+	<string>センサーにて現在の動作は表示できません。センサーを設定すると現在の動作は削除されます。</string>
+	<key>CreateScene</key>
+	<string>新規シーン</string>
+	<key>CreateScene_CameraRoll</key>
+	<string>カメラ ロール</string>
+	<key>CreateScene_DefaultName</key>
+	<string>シーン</string>
+	<key>CreateScene_NoPhotos</key>
+	<string>カメラ ロールは空です。</string>
+	<key>CreateScene_Philips</key>
+	<string>Philips</string>
+	<key>CreateScene_SelectImage</key>
+	<string>画像を選択</string>
+	<key>CreateScene_SelectPhilipsImage</key>
+	<string>お客様のニーズにお応えできるように優れた照明効果を厳選しました。</string>
+	<key>CreateScene_Where</key>
+	<string>[b-white]新しいシーンを作成する[/b-white]ルームまたはゾーンを選択します。</string>
+	<key>Default_LastState</key>
+	<string>最後のオン状態</string>
+	<key>Default_Off</key>
+	<string>オフ</string>
+	<key>Default_Toggle</key>
+	<string>オン／オフ</string>
+	<key>DeleteRoom_Explanation</key>
+	<string>このルームを削除すると、次のアイテムが影響を受けます。</string>
+	<key>DeleteScene_Explanation</key>
+	<string>このシーンを削除すると、次のアイテムが影響を受けます。</string>
+	<key>DeviceDetails_DeleteWarning</key>
+	<string>このアクセサリーを削除すると、ライトが制御されなくなります。</string>
+	<key>Dimmer_ButtonNotConfigured</key>
+	<string>%@のボタンは[b-red]設定されていません[/b-red]。</string>
+	<key>Dimmer_DimDownButtonExplain</key>
+	<string>このボタンは、このスイッチの ON ボタンにリンクされているルームのランプを暗くします。</string>
+	<key>Dimmer_DimUpButtonExplain</key>
+	<string>このボタンは、このスイッチの ON ボタンにリンクされているルームのランプを明るくします。</string>
+	<key>Dimmer_OffButtonExplain</key>
+	<string>このボタンは、このスイッチの ON ボタンにリンクされているルームのすべてのランプをオフにします。</string>
+	<key>Dimmer_OtherButtonNotConfigured</key>
+	<string>このボタンは設定されていません。オンにするボタンを設定すると、デフォルトの動作に戻ります。</string>
+	<key>DiscardChanges_Warning</key>
+	<string>変更を破棄しようとしています。</string>
+	<key>DoNothing</key>
+	<string>何もしない</string>
+	<key>EditRoom_NoLightsWarning</key>
+	<string>ライトが選択されていません。%@ からすべてのシーンとアクセサリーの設定が失われます。</string>
+	<key>EditRoom_NoLightsWarning_MultipleRooms</key>
+	<string>%@ および %@ にライトがありません。すべてのシーンが削除されます。</string>
+	<key>EditScene</key>
+	<string>編集</string>
+	<key>EmptyScreen_AccessoriesHeading</key>
+	<string>Hue アクセサリーの設定</string>
+	<key>EmptyScreen_AccessoriesSubtext</key>
+	<string>センサーとスイッチで Hue の体験を豊かにできます</string>
+	<key>EmptyScreen_EntertainmentSetupHeading</key>
+	<string>エンターテインメント エリア</string>
+	<key>EmptyScreen_EntertainmentSetupSubtext</key>
+	<string>エンターテインメントと同期するようにライトを配置する</string>
+	<key>EmptyScreen_GoToSleepHeading</key>
+	<string>Hue でベッドに入る</string>
+	<key>EmptyScreen_GoToSleepSubtext</key>
+	<string>ぐっすり眠れるようにライトをゆっくり消灯する</string>
+	<key>EmptyScreen_LightHeading</key>
+	<string>ライトが接続されていません</string>
+	<key>EmptyScreen_LightSubtext</key>
+	<string>ライトを追加し、ライトにわかりやすい名前を付ける</string>
+	<key>EmptyScreen_OtherRoutineHeading</key>
+	<string>カスタム ルーチン</string>
+	<key>EmptyScreen_OtherRoutineSubtext</key>
+	<string>時刻や日の出と日没に基づいてライトを制御する</string>
+	<key>EmptyScreen_RoomsHeading</key>
+	<string>ルームが作成されていません</string>
+	<key>EmptyScreen_RoomsSubtext</key>
+	<string>ルームの作成とライトの割り当て</string>
+	<key>EmptyScreen_RoomsZonesHeading</key>
+	<string>ルームまたはゾーンは作成されていません</string>
+	<key>EmptyScreen_RoomsZonesSubtext</key>
+	<string>ゾーンまたはルームの作成とライトの割り当て</string>
+	<key>EmptyScreen_ScenesHeading</key>
+	<string>このルームにはシーンがありません</string>
+	<key>EmptyScreen_ScenesSubtext</key>
+	<string>1 回のタップで部屋の雰囲気を変えるシーンを作成する</string>
+	<key>EmptyScreen_ScenesZonesHeading</key>
+	<string>このゾーンにはシーンがありません</string>
+	<key>EmptyScreen_ScenesZonesSubtext</key>
+	<string>1 回のタップでゾーンの雰囲気を変えるシーンを作成します。</string>
+	<key>EmptyScreen_TimersHeading</key>
+	<string>ライトでカウントダウンする</string>
+	<key>EmptyScreen_TimersSubtext</key>
+	<string>一定時間が経過したらライトを切り替える</string>
+	<key>EmptyScreen_WakeUpHeading</key>
+	<string>Hue で目覚める</string>
+	<key>EmptyScreen_WakeUpSubtext</key>
+	<string>朝はライトをゆっくり点灯する</string>
+	<key>EmptyScreen_WidgetsHeading</key>
+	<string>シーン用のショートカットを作成する</string>
+	<key>EmptyScreen_WidgetsSubtext</key>
+	<string>ホーム画面からシーンを有効にする</string>
+	<key>Entertainment_ChangeLevel</key>
+	<string>高さを変える</string>
+	<key>Entertainment_ChangeLevelExplanation</key>
+	<string>ライトをタップして高さレベルを変更できます。</string>
+	<key>Entertainment_Level1</key>
+	<string>床からの高さ</string>
+	<key>Entertainment_Level2</key>
+	<string>TV の高さ</string>
+	<key>Entertainment_Level3</key>
+	<string>天井の高さ</string>
+	<key>Entertainment_PositionLights</key>
+	<string>ライトを配置する</string>
+	<key>Entertainment_PositionLightsExplanation</key>
+	<string>自分のエリアの対応する実際の位置にすべてのライトをドラッグします。</string>
+	<key>Entertainment_StateAfterStreaming</key>
+	<string>同期が停止したときの動作</string>
+	<key>Entertainment_StateAfterStreaming_Desc</key>
+	<string>エンターテインメントとの同期を停止したときのライトの動作を定義します。これらの設定はエンターテインメント エリアのすべてのライトに適用されます。</string>
+	<key>Entertainment_StateAfterStreaming_Scene</key>
+	<string>シーン</string>
+	<key>ErrorBanner_AlreadyPaired</key>
+	<string>既に HomeKit がペアリングされているため、この Hue ブリッジは追加できません。別のデバイスでペアリングしている場合は、ホームを新しいデバイスと共有してください。このデバイスだけを使って操作する場合は、HomeKit &amp; Siri をリセットしてください。</string>
+	<key>ErrorBanner_AutoUpdateFalse</key>
+	<string>アプリの使用を継続するには、使用条件に同意する必要があります。</string>
+	<key>ErrorBanner_CantCreateDefaultScenes</key>
+	<string>Hue ブリッジ に空きスペースがないため、デフォルトのシーンを作成できません。まずいくつかのルーチンまたはシーンを削除してください。</string>
+	<key>ErrorBanner_CantDeleteHomeKitDefault</key>
+	<string>デフォルトのホーム アプリ シーンは削除できません。</string>
+	<key>ErrorBanner_CantTestSetup</key>
+	<string>ライトの同期がアクティブである場合、エンターテインメント エリアをテストできません。</string>
+	<key>ErrorBanner_CleanUpFailed</key>
+	<string>メモリリセットに失敗しました。もう一度お試しください。</string>
+	<key>ErrorBanner_CleanUpOutOfHome</key>
+	<string>自宅の Wi-Fi ネットワークに接続して Hue ブリッジ のメモリをリセットしてください。</string>
+	<key>ErrorBanner_Controls_NoRoomsSelected</key>
+	<string>1 つ以上のボタンが設定されていません。保存を実行する前に設定してください。</string>
+	<key>ErrorBanner_CreateRoomFirst</key>
+	<string>ルームが作成されていません。エンターテインメント エリアに追加する前に、ライトをルームに追加する必要があります。[ルームのセットアップ] でルームを作成できます。</string>
+	<key>ErrorBanner_CreateScene_NoPermission</key>
+	<string>ユーザーの写真ライブラリにアクセスするための許可が Hue アプリに付与されていません。お使いのデバイスの設定メニューをご確認ください。</string>
+	<key>ErrorBanner_Devices_IncompleteMSLFound</key>
+	<string>%ld 台のデバイスが検出されましたが、検出されたのは一部の複数光源照明のみです。再び検索を開始してください。</string>
+	<key>ErrorBanner_Dimmer_EmptyPresses</key>
+	<string>1 つ以上の押しボタンが設定されていません。保存する前に設定してください。</string>
+	<key>ErrorBanner_EntertainmentCreation_NoLocalConnection</key>
+	<string>自宅の Wi-Fi ネットワークに接続してエンターテインメント エリアを作成します。</string>
+	<key>ErrorBanner_EntertainmentTest_NoLocalConnection</key>
+	<string>自宅の Wi-Fi ネットワークに接続してエンターテインメント エリアをテストします。</string>
+	<key>ErrorBanner_FatalDataMigration</key>
+	<string>アプリで深刻な更新エラーが発生しました。最新バージョンの iOS が実行されていることを確認し、アプリを再インストールしてください。</string>
+	<key>ErrorBanner_Generic_DeleteFailed</key>
+	<string>削除に失敗しました。もう一度お試しください。</string>
+	<key>ErrorBanner_Generic_SaveFailed</key>
+	<string>保存に失敗しました。もう一度お試しください。</string>
+	<key>ErrorBanner_HomeAwayUnavailable</key>
+	<string>Google Play サービスが利用できないため、現在位置認識位置情報を使用できません。</string>
+	<key>ErrorBanner_HomeKit_CantFindBridge</key>
+	<string>Hue ブリッジ が検出されませんでした。Hue ブリッジ の電源をオフにしてからオンにして再起動し、Hue ブリッジ がルーターに接続されていることを確認してください。</string>
+	<key>ErrorBanner_HomeKit_CheckBridge</key>
+	<string>Hue ブリッジ に到達できませんでした。Hue ブリッジ の電源がオンになっており、ルーターに正しく接続されていることを確認してください。</string>
+	<key>ErrorBanner_HomeKit_CloudDataSyncInProgress</key>
+	<string>iCloud データの同期が進行中です。数分後にもう一度試してください。</string>
+	<key>ErrorBanner_HomeKit_CommunicationError</key>
+	<string>HomeKit と Hue ブリッジ 間の通信に失敗しました。もう一度試してください。</string>
+	<key>ErrorBanner_HomeKit_ExportFailed</key>
+	<string>出力に失敗しました。再度お試しください。</string>
+	<key>ErrorBanner_HomeKit_Generic</key>
+	<string>HomeKit アクションを完了できませんでした。%@</string>
+	<key>ErrorBanner_HomeKit_KeychainSyncNotEnabled</key>
+	<string>iCloud キーチェーンが有効になっていません。iCloud の設定画面で iCloud キーチェーンを有効にしてから、もう一度試してください。</string>
+	<key>ErrorBanner_HomeKit_MaxHomesCreated</key>
+	<string>作成したホームの数が上限に達しました。</string>
+	<key>ErrorBanner_HomeKit_NoLocalConnection</key>
+	<string>自宅の Wi-Fi ネットワークに接続して HomeKit &amp; Siri を変更します。</string>
+	<key>ErrorBanner_HomeKit_NoPermission</key>
+	<string>HomeKit アクセサリー データベースにアクセスするための許可が Hue アプリに付与されていません。許可は [設定] で付与できます。</string>
+	<key>ErrorBanner_HomeKit_NotAdminOfHome</key>
+	<string>あなたは %@ の管理者ではありません。別のホームを選択するか、新しいホームを作成してください。</string>
+	<key>ErrorBanner_HomeKit_NotSignedInToIcloud</key>
+	<string>ホーム共有のために iCloud にログインしていることを確認してください。</string>
+	<key>ErrorBanner_HomeKit_OutOfCompliance</key>
+	<string>Hue ブリッジ とのペアリングに失敗しました。問題が解決されない場合は、Hue ブリッジ のソフトウェア更新をチェックしてください。</string>
+	<key>ErrorBanner_HomeKit_PairingFailed</key>
+	<string>ペアリングに失敗しました。Hue ブリッジ の電源がオンになっており、ルーターに正しく接続されていることと、正しいペアリング コードが入力されていることを確認してください。</string>
+	<key>ErrorBanner_HomeKit_SceneNameAlreadyExists</key>
+	<string>シーン名前は既にホーム アプリに存在します。</string>
+	<key>ErrorBanner_HomeKit_SceneToLarge</key>
+	<string>エクスポートに失敗しました。Siri でシーンをアクティブにするには、ルームにあるライトが多すぎます。</string>
+	<key>ErrorBanner_HomeKit_SyncAllFailed</key>
+	<string>%ld 個の項目の同期に失敗しました。無効な名前が原因である可能性があります。まずこれらのアイテムを個別にタップして、その名前を変更してください。</string>
+	<key>ErrorBanner_HomeKit_UnpairingFailed</key>
+	<string>HomeKit &amp; Siri のリセットに失敗しました。Hue ブリッジの電源がオンになっており、ルーターに正しく接続されていることを確認してください。</string>
+	<key>ErrorBanner_HomeKit_UserManagementFailed</key>
+	<string>共有を行うことができません。ホームを共有するには、iCloud にログインしている必要があります。</string>
+	<key>ErrorBanner_IncompleteMSL</key>
+	<string>一部の複数光源照明のみが検出されました。ランプの新しい検索を開始してください。</string>
+	<key>ErrorBanner_IncompleteMSLLightsFound</key>
+	<string>%ld 個のランプが検出されましたが、見つかったのは一部の複数光源照明のみです。ランプの新しい検索を開始してください。</string>
+	<key>ErrorBanner_LightNameNotExported</key>
+	<string>そのライト名は既に HomeKit に存在します。Siri を使ってライトを制御できるよう名前を変更し、ホーム アプリでも名前を変更してください。</string>
+	<key>ErrorBanner_LocationAwareness</key>
+	<string>この機能を正しく動作させるためには、自宅の場所を特定する必要があります。デバイスの設定メニューで常に位置情報へのアクセスを許可してください。</string>
+	<key>ErrorBanner_LocationDisabled</key>
+	<string>この機能を正しく動作させるためには、位置情報の設定を有効にする必要があります。デバイスの設定メニューで位置情報の設定を有効にしてください。</string>
+	<key>ErrorBanner_LocationRefresh_NoLocalConnection</key>
+	<string>現在、自宅の Wi-Fi に接続できていないようです。自宅の Wi-Fi ネットワークに接続して、自宅の場所を設定してください。</string>
+	<key>ErrorBanner_LoginRequired</key>
+	<string>この機能を使用するには、[外出先からコントロール] を有効にしてください。</string>
+	<key>ErrorBanner_MaxNumberOfGroups</key>
+	<string>Hue Bridge には空きスペースがありません。まずルーム、ゾーン、またはエンターテインメント設定を削除してください。</string>
+	<key>ErrorBanner_MaxNumberOfRules</key>
+	<string>Hue ブリッジ に空きスペースがありません。まずいくつかのルーチンを削除してください。</string>
+	<key>ErrorBanner_MaxNumberOfScenes</key>
+	<string>Hue ブリッジ に空きスペースがありません。まずいくつかのルーチンまたはシーンを削除してください。</string>
+	<key>ErrorBanner_MaxNumberOfSchedules</key>
+	<string>Hue ブリッジ に空きスペースがありません。まずいくつかのルーチンを削除してください。</string>
+	<key>ErrorBanner_MaxNumberOfSensors</key>
+	<string>Hue ブリッジ に空きスペースがありません。まずいくつかのルーチンを削除してください。</string>
+	<key>ErrorBanner_MaxNumberOfSensors_Switches</key>
+	<string>Hue ブリッジに空きスペースがありません。まずアクセサリーを削除してください。</string>
+	<key>ErrorBanner_MaxResourcesReached_HueLabs</key>
+	<string>Hue ブリッジで利用できるスペースがありません。アプリ内の一部のルーチンを削除するか、リソース マネージャをお使いください。</string>
+	<key>ErrorBanner_MyHue_AccountHasNoBridge</key>
+	<string>現在、アカウントに Hue ブリッジがリンクされていないため、ログインできません。</string>
+	<key>ErrorBanner_MyHue_BridgeOffline</key>
+	<string>Hue ブリッジがオフラインであるため、ログインできません。Hue ブリッジがインターネットに接続されていることを確認してください。</string>
+	<key>ErrorBanner_MyHue_LoginFailed</key>
+	<string>ログインできませんでした。あとでもう一度試してください。</string>
+	<key>ErrorBanner_MyHue_NotLocalBridge</key>
+	<string>ログインしようとしているアカウントは、現在接続されている Hue ブリッジ とは異なる Hue ブリッジ にリンクされています。</string>
+	<key>ErrorBanner_NetworkSettingsSaveFailed</key>
+	<string>ネットワーク設定を保存できませんでした。もう一度試してください。</string>
+	<key>ErrorBanner_NoHueConnection</key>
+	<string>Hue ブリッジ に接続していません。</string>
+	<key>ErrorBanner_NoLightsSelected</key>
+	<string>ライトが選択されていません。ライトを選択し、[保存] をタップしてください。</string>
+	<key>ErrorBanner_NoLightsSelected2</key>
+	<string>ライトが選択されていません。ルームかゾーンを選んでからライトを選択してください。それから[保存] をタップしてください。</string>
+	<key>ErrorBanner_NoRoomsSelected</key>
+	<string>ルームが選択されていません。ルームを選択し、保存してください。</string>
+	<key>ErrorBanner_NotAuthenticated</key>
+	<string>ご使用のデバイスを認証して Hue Bridge を制御できるようにしてください。</string>
+	<key>ErrorBanner_NothingToControlSelected</key>
+	<string>コントロール対象が選択されていません。コントロール対象を選択して保存してください。</string>
+	<key>ErrorBanner_OnlyAfterSunset</key>
+	<string>居住地の[b-white]日出時刻と日没時刻[/b-white]を取得するには、ユーザーの現在位置情報へのアクセスを付与する必要があります。</string>
+	<key>ErrorBanner_RestartOnboarding</key>
+	<string>Hue ブリッジ との接続に失敗しました。Hue ブリッジ の電源がオンになっており、現在の Wi-Fi ネットワークのルーターに接続されていることを確認してからシステムの設定を続行してください。または、最初からやり直すこともできます。</string>
+	<key>ErrorBanner_Rooms_MaxNumberCreated</key>
+	<string>作成したルームの数が上限に達しました。新しいルームを作成するには、既存のルームを削除する必要があります。</string>
+	<key>ErrorBanner_SceneEdit_NoHueConnection</key>
+	<string>Hue ブリッジ に接続していません。</string>
+	<key>ErrorBanner_Scenes_MaxNumberOfScenes</key>
+	<string>作成したシーンの数が上限に達しました。まずいくつかのシーンを削除してください。</string>
+	<key>ErrorBanner_Sensor_Empty</key>
+	<string>センサーが設定されていません。保存する前に設定してください。</string>
+	<key>ErrorBanner_SoftwareOutOfDate</key>
+	<string>Hue システムの更新をご利用いただけます。アプリの使用を継続するには、更新をインストールする必要があります。</string>
+	<key>ErrorBanner_SoftwareUpdateCheckFailed</key>
+	<string>更新をダウンロードできませんでした。自宅の Wi-Fi ネットワークに接続していることを確認してください。</string>
+	<key>ErrorBanner_SoftwareUpdateFailedLocal</key>
+	<string>更新をインストールできませんでした。もう一度試してください。</string>
+	<key>ErrorBanner_SoftwareUpdateFailedRemote</key>
+	<string>リモート接続を使用して更新をインストールするのに失敗しました。自宅の Wi-Fi ネットワークに接続して更新をインストールするか、後でもう一度試してください。 </string>
+	<key>ErrorBanner_SoftwareUpdateRemote</key>
+	<string>自宅の Wi-Fi ネットワークに接続して Hue Bridge を更新してください。</string>
+	<key>ErrorBanner_StreamingNoScenes</key>
+	<string>シーンを作成する前に、ライトの同期を無効にする必要があります。</string>
+	<key>ErrorBanner_SyncToHomeKitFailed</key>
+	<string>Siri とホーム アプリを更新できませんでした。[設定] の [HomeKit &amp; Siri] に移動してもう一度お試しください。</string>
+	<key>ErrorBanner_TimeZoneGenericLoadFailed</key>
+	<string>タイムゾーンを読み込むことができませんでした。</string>
+	<key>ErrorBanner_TimeZoneSaveFailed</key>
+	<string>タイム ゾーンを保存できませんでした。もう一度試してください。</string>
+	<key>ErrorBanner_UpdateFailed</key>
+	<string>更新に失敗しました。もう一度お試しください。</string>
+	<key>ErrorBanner_WidgetEmpty</key>
+	<string>ウィジェットにルームがありません。Hue アプリを開いてウィジェットを編集してください。</string>
+	<key>ErrorBanner_WidgetGenericFail</key>
+	<string>ウィジェットをアクティブにすることができませんでした。</string>
+	<key>ErrorBanner_ZigBeeChannelChangeFailed</key>
+	<string>Zigbee チャンネルを変更できませんでした。もう一度試してください。</string>
+	<key>ErrorMessage_CantOpenWebPage</key>
+	<string>このページを開くことができません。ご使用のデバイスがインターネットに[b-white]接続されている[/b-white]ことを確認してから、もう一度試してください。</string>
+	<key>Existing_Connor_Done</key>
+	<string>[b-white]エンターテインメント エリアが正常に作成されました。[/b-white]</string>
+	<key>Existing_Connor_DoneBullet1</key>
+	<string>検索タブを使用して、Hue エンターテインメント エリアで機能するコンテンツを確認してください。</string>
+	<key>Existing_Connor_ReadyTo</key>
+	<string>エンターテインメント エリアの準備ができました!</string>
+	<key>Explore_UpgradeHue</key>
+	<string>Hue の体験をアップグレードしてください</string>
+	<key>FaultyBridge_Banner_Button</key>
+	<string>ブリッジの交換</string>
+	<key>FaultyBridge_Banner_Text</key>
+	<string>現在の Hue ブリッジは更新された新しいバージョンに交換する必要があるため、アプリの機能は制限されます。</string>
+	<key>FaultyBridge_Button_Help</key>
+	<string>ブリッジの交換</string>
+	<key>FaultyBridge_Button_NotNow</key>
+	<string>[u]あとで[/u]</string>
+	<key>FaultyBridge_Text</key>
+	<string>Philips Hue ブリッジに必要な更新についてお知らせします。これはあいにく、リモート ファームウェア更新を通じて完了できませんでした。Hue ブリッジを確実に正しく機能させるには、現在の Hue ブリッジを新しいバージョンに交換する必要があります。
+
+交換を円滑に進めるために、下のボタンをクリックし、手順を行ってください。新しい Hue ブリッジを受信したら、アプリを再インストールして Hue システムをセットアップしてください。
+
+ご迷惑をおかけして申し訳ありませんが、なにとぞよろしくお願いいたします。</string>
+	<key>FaultyBridge_Title</key>
+	<string>Hue ブリッジの交換</string>
+	<key>FindBridges_InstructionText</key>
+	<string>Hue ブリッジ の電源がONの状態で、現在の Wi-Fi ネットワークのルーターにイーサネット ケーブルで接続されていることを確認します。デバイスは同じ Wi-Fi ネットワークに接続されている必要があります。次に、[b-white]下にある [検出] をタップ[/b-white]します。</string>
+	<key>FindBridges_ProblemsText</key>
+	<string>検出を開始する前に、下部にある IP アドレスを手動で入力することもできます。</string>
+	<key>FormFieldBridge_InvalidName</key>
+	<string>名前が短すぎます。</string>
+	<key>FormFieldIP_InvalidIp</key>
+	<string>無効な IP アドレスです。</string>
+	<key>FormFieldIP_Placeholder</key>
+	<string>手動 IP</string>
+	<key>FormFieldLight_InvalidName</key>
+	<string>名前が長すぎます。</string>
+	<key>FormFieldRoom_DuplicateName</key>
+	<string>名前は既に存在します。</string>
+	<key>FromOtherApps_DeleteConfirmation</key>
+	<string>これによってスケジューラー/タイマーが削除されます。</string>
+	<key>FromOtherApps_Description</key>
+	<string>これらのスケジュールとタイマーは[b-white]他のアプリ[/b-white]で作成されています。 ここで有効にしたり、無効にしたり、削除したりすることができます。</string>
+	<key>FromOtherApps_EmptyDescription</key>
+	<string>Hue ブリッジにある他のアプリからのスケジュールやタイマーはありません。</string>
+	<key>General_App_Name</key>
+	<string>Hue</string>
+	<key>General_App_Name_Bridgev1</key>
+	<string>Hue Bridge v1
+</string>
+	<key>GoToSleep_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、最初の就寝ルーチンを作成します。</string>
+	<key>GoToSleep_Explanation</key>
+	<string>このルーチンでは[b-white]既にオン[/b-white]の照明が暖色設定になり、[b-white]徐々にフェードアウト[/b-white]して、心地良い眠りにつくことができるようにします。</string>
+	<key>GoToSleep_FadeExplain</key>
+	<string>就寝ルーチンを[b-white]開始してから[/b-white]どのくらい経ったらライトをフェード アウトするか選択します。</string>
+	<key>GoToSleep_NightLightExplain</key>
+	<string>就寝ルーチンの終了時にフェード インして[b-white]夜間照明[/b-white]にするライトを選択します。</string>
+	<key>GoToSleep_NightLight_WhichLights</key>
+	<string>照明の選択</string>
+	<key>GoToSleep_SetNightLight</key>
+	<string>夜間照明を点けたまま終了</string>
+	<key>GoToSleep_SetNightLightExplain</key>
+	<string>夜間照明を点けておきたい、または点けておく必要がある場合があります。</string>
+	<key>GoToSleep_TurnOnLights</key>
+	<string>開始時に照明をオン</string>
+	<key>GoToSleep_TurnOnLightsExplain</key>
+	<string>このオプションを有効にすると、このルーチンの[b-white]開始[/b-white]時に、選択した部屋の[b-white]すべての照明がオン[/b-white]になります。</string>
+	<key>GoToSleep_When</key>
+	<string>開始時間</string>
+	<key>GoToSleep_Where</key>
+	<string>ルーチンを設定する部屋</string>
+	<key>Header_AboutTitle</key>
+	<string>概要</string>
+	<key>Header_AddControlsTitle</key>
+	<string>スイッチを追加</string>
+	<key>Header_AddDeviceTitle</key>
+	<string>アクセサリーを追加</string>
+	<key>Header_AddDimmer</key>
+	<string>スイッチを追加</string>
+	<key>Header_AddLightsTitle</key>
+	<string>追加</string>
+	<key>Header_AddSensorTitle</key>
+	<string>センサーを追加</string>
+	<key>Header_AddSmartButton</key>
+	<string>[追加] ボタン</string>
+	<key>Header_AddTap</key>
+	<string>スイッチを追加</string>
+	<key>Header_AuthenticateTitle</key>
+	<string>プッシュリンク</string>
+	<key>Header_Away</key>
+	<string>外出中</string>
+	<key>Header_BridgesTitle</key>
+	<string>Hue ブリッジ</string>
+	<key>Header_ComingHome</key>
+	<string>帰宅</string>
+	<key>Header_ConnorWeLike</key>
+	<string>Hue エンターテイメント</string>
+	<key>Header_ControlsTitle</key>
+	<string>スイッチのセットアップ</string>
+	<key>Header_DeleteRoom</key>
+	<string>ルームを削除</string>
+	<key>Header_DeleteScene</key>
+	<string>シーンを削除</string>
+	<key>Header_DevicesTitle</key>
+	<string>アクセサリーのセットアップ</string>
+	<key>Header_Feedback</key>
+	<string>ご感想・ご要望</string>
+	<key>Header_FindBridgeTitle</key>
+	<string>Hue ブリッジの検出</string>
+	<key>Header_FriendsOfHue</key>
+	<string>Friends of Hue</string>
+	<key>Header_FromOtherApps</key>
+	<string>他のアプリから</string>
+	<key>Header_GoToSleep</key>
+	<string>就寝</string>
+	<key>Header_HomeAway</key>
+	<string>帰宅 &amp; 外出</string>
+	<key>Header_HomeDashboard</key>
+	<string>在宅</string>
+	<key>Header_HowTo</key>
+	<string>ハウツー ビデオ</string>
+	<key>Header_HueLabs</key>
+	<string>Hue Labs</string>
+	<key>Header_Icon</key>
+	<string>アイコン</string>
+	<key>Header_Image</key>
+	<string>写真</string>
+	<key>Header_LeavingHome</key>
+	<string>外出</string>
+	<key>Header_LightsTitle</key>
+	<string>ライトのセットアップ</string>
+	<key>Header_LogIn</key>
+	<string>My Hueにログイン</string>
+	<key>Header_MyHue</key>
+	<string>自宅外リモート接続</string>
+	<key>Header_NewGoToSleep</key>
+	<string>新規</string>
+	<key>Header_NewPersonalRoutine</key>
+	<string>新規</string>
+	<key>Header_NewTimer</key>
+	<string>新規</string>
+	<key>Header_NewWakeUp</key>
+	<string>新規</string>
+	<key>Header_OtherApps</key>
+	<string>お勧めのアプリ</string>
+	<key>Header_PersonalRoutine</key>
+	<string>その他のルーチン</string>
+	<key>Header_RoomCreateTitle</key>
+	<string>新規</string>
+	<key>Header_RoomsTitle</key>
+	<string>ルームのセットアップ</string>
+	<key>Header_SettingsTitle</key>
+	<string>設定</string>
+	<key>Header_SoftwareUpdate</key>
+	<string>ソフトウェア更新</string>
+	<key>Header_TermsConditions</key>
+	<string>使用条件</string>
+	<key>Header_Timers</key>
+	<string>タイマー</string>
+	<key>Header_TransferSettings</key>
+	<string>設定の転送</string>
+	<key>Header_UpdateAvailable</key>
+	<string>更新可能</string>
+	<key>Header_WakeUp</key>
+	<string>起床</string>
+	<key>Header_WhatsNew</key>
+	<string>最新情報</string>
+	<key>Header_WidgetCreateTitle</key>
+	<string>新規</string>
+	<key>Header_WidgetTitle</key>
+	<string>ウィジェットのセットアップ</string>
+	<key>Header_WidgetWatchTitle</key>
+	<string>ウィジェット &amp; Apple Watch</string>
+	<key>HomeAway_LocationAware</key>
+	<string>現在位置認識</string>
+	<key>HomeAway_LocationAwareExplain</key>
+	<string>ユーザーの現在位置情報に基づいて帰宅ルーチンと外出ルーチンを[b-white]自動的に[/b-white]トリガーします。</string>
+	<key>HomeAway_MimicingPresence</key>
+	<string>在宅シミュレーション</string>
+	<key>HomeAway_Notification_ComingHome</key>
+	<string>帰宅ルーチンがアクティブになっています。</string>
+	<key>HomeAway_Notification_ComingHomeFailed</key>
+	<string>問題が発生しました。帰宅ルーチンはアクティブになっていません。</string>
+	<key>HomeAway_Notification_LeavingHome</key>
+	<string>外出ルーチンがアクティブになっています。</string>
+	<key>HomeAway_Notification_LeavingHomeFailed</key>
+	<string>問題が発生しました。外出ルーチンはアクティブになっていません。</string>
+	<key>HomeAway_OverlayHomeAway</key>
+	<string>[b-white]帰宅[/b-white]と[b-white]外出[/b-white]を手動で切り替えることができるようになりました。これを行うと、そのルーチンで実行されるように設定した操作がトリガーされます。</string>
+	<key>HomeKitScenes_EmptyInstruction</key>
+	<string>下にある [b-white]+ ボタン[/b-white]をタップして、Siri を使って制御する最初のシーンを作成します。</string>
+	<key>HomeKitScenes_TurnOn</key>
+	<string>[b-white]Activate [scene name][/b-white]と指示してお気に入りのシーンをオンにする。</string>
+	<key>HomeKit_Accessories</key>
+	<string>%ld 個の他の HomeKit アクセサリ</string>
+	<key>HomeKit_AccessoriesEmpty</key>
+	<string>アクセサリーがまだ追加されていません。まず、[設定] でアクセサリーを追加してください。</string>
+	<key>HomeKit_AccessoriesItem</key>
+	<string>アクセサリー</string>
+	<key>HomeKit_AccessoriesItem_Explanation</key>
+	<string>アクセサリは、[b-white]ホーム アプリ[/b-white]を使用して設定できます。 [img]Generic_Attention[/img] の付いた項目は HomeKit と同期していません。項目をタップすると再び同期されます。</string>
+	<key>HomeKit_AccessoriesItem_ExplanationIOS9</key>
+	<string>[img]Generic_Attention[/img] の付いた項目は HomeKit と同期していません。項目をタップすると再び同期されます。</string>
+	<key>HomeKit_Accessories_Banner</key>
+	<string>現在、Philips Hue アクセサリーは、Apple ホーム アプリで利用できます。</string>
+	<key>HomeKit_Accessories_NonAdmin</key>
+	<string>アクセサリーは[b-white]ホーム アプリ[/b-white]を使用して設定できます。</string>
+	<key>HomeKit_Accessory</key>
+	<string>1 個の他の HomeKit アクセサリ</string>
+	<key>HomeKit_Advanced</key>
+	<string>詳細</string>
+	<key>HomeKit_AlreadyPaired</key>
+	<string>現在お使いの Hue ブリッジは既に HomeKit とペアリングされています。
+
+ペアリングに別のデバイスが使用された場合は、このデバイスの所有者に、Philips Hue アプリから [HomeKit &amp; Siri] の [詳細設定] を使用して、ホームを iCloud アカウントと共有することを依頼してください。[iOS 設定] から、iPad または Apple TV をホーム ハブとして設定することをお勧めします。
+
+ホームが既に共有されている場合は、iCloud 同期に時間がかかっていることが考えられます。あとでもう一度お試しください。
+
+前のペアリングを削除する場合は、HomeKit &amp; Siri をリセットしてください。</string>
+	<key>HomeKit_AutoExportFailed</key>
+	<string>Hue アプリとホーム アプリのルームの不一致が見つかりました。ホーム アプリのルームを、Hueと一致するように更新しますか。
+
+[b-white]注意:[/b-white] これにより、ホームアプリにあるルームが変更されます。
+
+この問題を手動で解決する場合は、[Not now (あとで)] を選択して、Hue アプリまたはホーム アプリのいずれかでルームの名前を変更してください。</string>
+	<key>HomeKit_BridgeNoSupport1</key>
+	<string>現在お使いの Hue ブリッジは HomeKit をサポートしていません。HomeKit &amp; Siri を使用するには、HomeKit 対応の Hue ブリッジが必要です。</string>
+	<key>HomeKit_BridgeNoSupport2</key>
+	<string>HomeKit 対応の Hue ブリッジ がある場合は、[設定] から接続してください。</string>
+	<key>HomeKit_ControlLights</key>
+	<string>[b-white]ライトをオフにする[/b-white]や[b-white]シーリングをオンにする[/b-white]のように指示してライトを制御する。</string>
+	<key>HomeKit_ControlLightsExample</key>
+	<string>[b-white]「すべての照明オフ」[/b-white]または[b-white]「%@ をオンにする」[/b-white]と指示してライトをコントロールします。[img]Generic_Attention[/img] 感嘆符が付いているアイテムは同期化されていません。これらをタップして同期化させ、Siri で使用します。</string>
+	<key>HomeKit_ControlLightsExample_NonAdmin</key>
+	<string>[b-white]ライトをオフにする[/b-white]や [b-white]%@をオンにする[/b-white]のように指示してライトを制御します。</string>
+	<key>HomeKit_ControlRooms</key>
+	<string>[b-white]リビングルームをオフにする[/b-white]や[b-white]寝室をオンにする[/b-white]のように指示してルームを制御する。</string>
+	<key>HomeKit_ControlRoomsExample</key>
+	<string>[b-white]%@をオフにする[/b-white]や[b-white]%@をオンにする[/b-white]のように指示してルームを制御する。</string>
+	<key>HomeKit_ControlScenes</key>
+	<string>[b-white]起床時の設定[/b-white]と指示してお気に入りのシーンをオンにする。</string>
+	<key>HomeKit_ControlScenesExample</key>
+	<string>[b-white]%@を設定する[/b-white]と指示してお気に入りのシーンをオンにする。</string>
+	<key>HomeKit_DefaultHomeName</key>
+	<string>自宅</string>
+	<key>HomeKit_ExclamationExplain</key>
+	<string>[img]Generic_Attention[/img] 感嘆符が付いているアイテムは同期化されていません。これらをタップして同期化させ、Siri で使用します。Siri の詳細については、meethue.com/siri を参照してください。</string>
+	<key>HomeKit_ExportRooms</key>
+	<string>Hue アプリで一部のルームを変更しました。選択したルームはホーム アプリで更新されます。</string>
+	<key>HomeKit_ExportText</key>
+	<string>HomeKit 設定を他のユーザーと共有すると、そのユーザーも HomeKit &amp;amp; Siri を使用して照明を制御できるようになります。</string>
+	<key>HomeKit_HomeKitSiri</key>
+	<string>HomeKit &amp; Siri</string>
+	<key>HomeKit_Home_NotTheAdmin</key>
+	<string>これは共有ホームです。あなたはこのホームの管理者ではないため、一切変更できません。</string>
+	<key>HomeKit_Home_ShareNobody</key>
+	<string>まだ共有されていません。</string>
+	<key>HomeKit_Home_YouAreAdmin</key>
+	<string>あなたはこのホームの[b-white]管理者[/b-white]です。</string>
+	<key>HomeKit_Homes</key>
+	<string>ホーム</string>
+	<key>HomeKit_HueLight</key>
+	<string>1 個の Hue ランプ</string>
+	<key>HomeKit_HueLights</key>
+	<string>%ld 個の Hue ランプ</string>
+	<key>HomeKit_Import</key>
+	<string>インポート</string>
+	<key>HomeKit_ImportDeletesRoom</key>
+	<string>ホーム アプリから %@ をインポートしたときは、一部のライトを移動する必要があります。これにより、%@ が空になります。%@ にあるすべての Hue シーンは削除されます。</string>
+	<key>HomeKit_ImportRooms</key>
+	<string>ホーム アプリからインポートするルームを選択してください。</string>
+	<key>HomeKit_Ios9Support</key>
+	<string>HomeKit &amp; Siri を使用してライトを制御するには iOS 9 以上が必要です。</string>
+	<key>HomeKit_Lights</key>
+	<string>ライト</string>
+	<key>HomeKit_LightsEmpty</key>
+	<string>ライトがまだ追加されていません。まず、[設定] でライトを追加してください。</string>
+	<key>HomeKit_MultipleHomes</key>
+	<string>ホームを選択して Siri を有効にするか、新しいホームを作成してください。</string>
+	<key>HomeKit_NewRooms</key>
+	<string>見つかった新しいルーム</string>
+	<key>HomeKit_NoHomes</key>
+	<string>新しいホームを作成して Siri を有効にしてください。</string>
+	<key>HomeKit_NotTheAdminText</key>
+	<string>HomeKit 対応の Hue ブリッジ とペアになっている %@ の管理者ではないため、いかなる変更も行うことができません。</string>
+	<key>HomeKit_NumberOfAccessories</key>
+	<string>他の HomeKit アクセサリ: [b-white]%ld[/b-white]</string>
+	<key>HomeKit_NumberOfHue</key>
+	<string>Hue ライト: [b-white]%ld[/b-white]</string>
+	<key>HomeKit_PairBridgeText</key>
+	<string>デバイスを Hue ブリッジにペアリングして HomeKit &amp; Siri を有効にします。</string>
+	<key>HomeKit_PrimaryHome</key>
+	<string>メインのホーム</string>
+	<key>HomeKit_PrimaryHome_Explanation</key>
+	<string>Siri 音声コマンドでホーム名を指定しないと、[b-white]メインのホーム[/b-white]が使用されます。</string>
+	<key>HomeKit_Rooms</key>
+	<string>ルーム</string>
+	<key>HomeKit_RoomsEmpty</key>
+	<string>ルームがまだ作成されていません。まず、[設定] でルームを作成してください。</string>
+	<key>HomeKit_SceneCreatedOtherApp</key>
+	<string>このシーンは別のアプリで作成されました。それをここで変更すると、現在の動作が上書きされます。</string>
+	<key>HomeKit_SceneOutOfSync</key>
+	<string>1 つ以上のシーンが Hue アプリ外で編集されました。それをここで変更すると、現在の動作が上書きされます。</string>
+	<key>HomeKit_Scenes</key>
+	<string>シーン</string>
+	<key>HomeKit_ShareControl</key>
+	<string>iPad または Apple TV を[b-white]ホーム ハブ[/b-white]として設定してコントロールを共有し、管理デバイスで[b-white]ホームを共有[/b-white]ボタンをクリックします。</string>
+	<key>HomeKit_ShareHome</key>
+	<string>ホームを共有</string>
+	<key>HomeKit_SiriName</key>
+	<string>Siri をアクティブにするには、%@ と言います。</string>
+	<key>HomeKit_SuccessfullyPaired</key>
+	<string>これで、HomeKit と正常にペアリングされました。</string>
+	<key>HomeKit_SuccessfullyPairedSubtitle</key>
+	<string>[iOS 設定] で Siri と iCloud キーチェーンを有効にしてください。詳細については、meethue.com/support を参照してください。</string>
+	<key>HomeKit_SyncHome</key>
+	<string>ホームを再同期化</string>
+	<key>HomeKit_TestText</key>
+	<string>動作するかどうかをテストするには、ホームボタンを長押しして Siri を起動し、[b-white]照明をつけて[/b-white]と言います。</string>
+	<key>HomeKit_UpdateHomeKit</key>
+	<string>今すぐ更新</string>
+	<key>HomeLocation_Configured</key>
+	<string>構成済み</string>
+	<key>HomeLocation_Explanation</key>
+	<string>位置情報は、帰宅 &amp; 外出ルーチン同様、日の出 &amp; 日没ルーチンに使用されます。</string>
+	<key>HomeLocation_NotConfigured</key>
+	<string>未構成</string>
+	<key>How</key>
+	<string>方法</string>
+	<key>How_Bold</key>
+	<string>[b-white]方法[/b-white]</string>
+	<key>Info_New</key>
+	<string>新規</string>
+	<key>Info_Unreachable</key>
+	<string>到達不可</string>
+	<key>Info_Unreachable_Orange</key>
+	<string>[b-white]到達不可[/b-white]</string>
+	<key>IntentInvocation_SetSceneInRoom</key>
+	<string>%@</string>
+	<key>IntentInvocation_TurnHomeOff</key>
+	<string>ホーム オフ</string>
+	<key>IntentInvocation_TurnHomeOn</key>
+	<string>ホーム オン</string>
+	<key>IntentInvocation_TurnRoomOff</key>
+	<string>%@ オフ</string>
+	<key>IntentInvocation_TurnRoomOn</key>
+	<string>%@ オン</string>
+	<key>LastTriggered</key>
+	<string>%@ がアクティブになりました</string>
+	<key>LeavingHome_MimicPresence</key>
+	<string>在宅シミュレーション</string>
+	<key>LeavingHome_MimicPresenceExplain</key>
+	<string>Hue ランプが一日中、在宅を装うためにオンになったりオフになったりします。</string>
+	<key>LeavingHome_OnlyDark</key>
+	<string>暗いときのみ</string>
+	<key>LeavingHome_SelectWhat</key>
+	<string>[b-white]外出[/b-white]時に実行する操作を選択します。</string>
+	<key>LeavingHome_TurnOffExplain</key>
+	<string>これは徐々にランプをオフにします。</string>
+	<key>LeavingHome_WhenLeave</key>
+	<string>外出時</string>
+	<key>LeavingHome_WhenLeave2</key>
+	<string>外出時にオフ</string>
+	<key>LightPicking_Color</key>
+	<string>色</string>
+	<key>LightPicking_Recipes</key>
+	<string>レシピ</string>
+	<key>LightPicking_Scene</key>
+	<string>シーン</string>
+	<key>LightPicking_Whites</key>
+	<string>ホワイト各種</string>
+	<key>Light_Unknown_Name</key>
+	<string>不明なライト</string>
+	<key>LightsDetails_DeleteWarning</key>
+	<string>このランプを削除すると、制御できなくなります。</string>
+	<key>LightsDetails_Manufacturer</key>
+	<string>メーカー: </string>
+	<key>LightsDetails_Model</key>
+	<string>モデル:</string>
+	<key>LightsDetails_Room</key>
+	<string>ルーム:</string>
+	<key>LightsDetails_SoftwareVersion</key>
+	<string>SW:</string>
+	<key>Lights_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、ライトを追加します。</string>
+	<key>Lights_LightsFound</key>
+	<string>%ld 個のランプが見つかりました。ランプの名前を変更するには、アプリの設定の [ランプのセットアップ] に移動します。</string>
+	<key>Loading</key>
+	<string>読み込んでいます…</string>
+	<key>LocationSelector_AllLights</key>
+	<string>すべてのランプ</string>
+	<key>LocationSelector_ComingHome</key>
+	<string>到着時にオン</string>
+	<key>LocationSelector_Lights</key>
+	<string>ライト</string>
+	<key>LocationSelector_Lights_SelectLights</key>
+	<string>またはライトを選択</string>
+	<key>LocationSelector_Rooms</key>
+	<string>ルーム</string>
+	<key>LocationSelector_Selected</key>
+	<string>%ld 選択済み</string>
+	<key>LocationSelector_Selected2</key>
+	<string>選択済み</string>
+	<key>LocationSelector_Selected_Light</key>
+	<string>1 個のランプ</string>
+	<key>LocationSelector_Selected_Lights</key>
+	<string>%ld 個のランプ</string>
+	<key>LocationSelector_Selected_Room</key>
+	<string>1 ルーム</string>
+	<key>LocationSelector_Selected_Rooms</key>
+	<string>%ld ルーム</string>
+	<key>LocationSelector_Selected_Zone</key>
+	<string>このゾーンにはシーンがありません</string>
+	<key>LocationSelector_WhatToControl</key>
+	<string>制御対象</string>
+	<key>LocationSelector_Zones</key>
+	<string>ゾーン</string>
+	<key>LogIn_Benefit1</key>
+	<string>[b-white]外出[/b-white]中にライトを制御します。</string>
+	<key>LogIn_Benefit2</key>
+	<string>帰宅時に常にライトが点灯しているように[b-white]帰宅[/b-white]ルーチンをセットアップします。</string>
+	<key>LogIn_Benefit3</key>
+	<string>[b-white]外出[/b-white]時に自動的にライトをオフにします。</string>
+	<key>LogIn_Explain</key>
+	<string>[外出先からコントロール] により、優れた機能にアクセスできます。</string>
+	<key>LogIn_Explain2</key>
+	<string>アカウント 1 つにつき 1 つの Hue ブリッジを使用できます。</string>
+	<key>LogIn_LoggedIn</key>
+	<string>[b-green]有効[/b-green]</string>
+	<key>LogIn_LoggingIn</key>
+	<string>[b-orange]有効にしています...[/b-orange]</string>
+	<key>LogIn_NotLoggedIn</key>
+	<string>無効</string>
+	<key>LogIn_Offline</key>
+	<string>[b-red]オフライン[/b-red]</string>
+	<key>MessagingPreferences_Explanation</key>
+	<string>製品、サービス、または Hue システムを最大限に活用するためのヒントに関するメッセージをアプリで受信したくない場合は、これらを無効にしてください。</string>
+	<key>MessagingPreferences_ProductsServices</key>
+	<string>製品とサービス</string>
+	<key>MessagingPreferences_TipsRecommendations</key>
+	<string>ヒントと推奨事項</string>
+	<key>MessagingPreferences_Title</key>
+	<string>メッセージ</string>
+	<key>MyHue_DoLater</key>
+	<string>後で行う</string>
+	<key>MyRoutine_DoNothing</key>
+	<string>何もしない</string>
+	<key>MyRoutine_Sunrise</key>
+	<string>日の出</string>
+	<key>MyRoutine_Sunset</key>
+	<string>日没</string>
+	<key>MyRoutine_Time</key>
+	<string>特定の時刻</string>
+	<key>MyRoutine_TimeInactive</key>
+	<string>[b-white](非アクティブ)[/b-white]</string>
+	<key>MyRoutine_WhenStart</key>
+	<string>ルーチンの開始時間</string>
+	<key>My_Home</key>
+	<string>在宅</string>
+	<key>NSCameraUsageDescription</key>
+	<string>所有している写真からシーンを作成するには、カメラへのアクセス許可が必要になります。</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>Siri を使用して照明を制御するには、ホーム データのアクセス許可が必要になります。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Hue ルーチンを使用するには、[常時] を選択してください。</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Hue ルーチンを使用するには、[常時] を選択してください。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ルーチンを使用するには、ユーザーの現在位置情報にアクセスするための許可を付与する必要があります。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>所有している写真からシーンを作成するには、写真ライブラリへのアクセス許可が必要になります。</string>
+	<key>NSSiriUsageDescription</key>
+	<string>音声を使用して照明を制御するには、Siri へのアクセス許可が必要です。</string>
+	<key>NameChange_Body</key>
+	<string>フィリップスライティングは、Signify へと社名を変更しました。これに伴い、利用条件とプライバシー ポリシーを更新しました。</string>
+	<key>NameChange_Button</key>
+	<string>了解しました</string>
+	<key>NameChange_Privacy</key>
+	<string>プライバシー ポリシーを読む</string>
+	<key>NameChange_Terms</key>
+	<string>利用条件を読む</string>
+	<key>NameChange_Title</key>
+	<string>利用条件とプライバシー通知の更新</string>
+	<key>NetworkSettings_DHCP</key>
+	<string>DHCP</string>
+	<key>NetworkSettings_Gateway</key>
+	<string>ゲートウェイ</string>
+	<key>NetworkSettings_HTTP</key>
+	<string>HTTPプロキシ</string>
+	<key>NetworkSettings_InvalidGateway</key>
+	<string>無効なゲートウェイです。</string>
+	<key>NetworkSettings_InvalidNetmask</key>
+	<string>無効なネットマスクです。</string>
+	<key>NetworkSettings_IpAddress</key>
+	<string>IP アドレス</string>
+	<key>NetworkSettings_Netmask</key>
+	<string>ネットマスク</string>
+	<key>NetworkSettings_Port</key>
+	<string>ポート</string>
+	<key>NetworkSettings_PortRequired</key>
+	<string>ポートが必要です。</string>
+	<key>NetworkSettings_Port_Placeholder</key>
+	<string>ポートを入力してください</string>
+	<key>NetworkSettings_Server</key>
+	<string>サーバー</string>
+	<key>NetworkSettings_ServerRequired</key>
+	<string>サーバーが必要です。</string>
+	<key>NetworkSettings_Server_Placeholder</key>
+	<string>サーバーを入力してください</string>
+	<key>NoPermission</key>
+	<string>許可がありません</string>
+	<key>NoRoomsNoLights_Instruction</key>
+	<string>ルームの操作を開始するには、まず [b-white]+ ボタン[/b-white] をタップしてランプを追加します。</string>
+	<key>NoRoomsWithLights_Instruction</key>
+	<string>[b-white]+ ボタン[/b-white] をタップして、ランプをルームに追加します。</string>
+	<key>Notification_4x1WidgetEmpty</key>
+	<string>Hue アプリを開いてウィジェットを編集してください。</string>
+	<key>Notification_4x1WidgetEmpty_Title</key>
+	<string>ウィジェットにルームがありません</string>
+	<key>Notification_AppLimited</key>
+	<string>アプリの機能は、Hue システムが更新されるまで制限されます。</string>
+	<key>Notification_BridgeUpdateProgress</key>
+	<string>Hue Bridge の更新が進行中です</string>
+	<key>Notification_CleanUpTime</key>
+	<string>メモリリセットには時間がかかる場合があります。メモリリセットが完了するまでアプリは閉じないでください。</string>
+	<key>Notification_ConfigureSwitch</key>
+	<string>設定には時間がかかる場合があります。設定が完了するまでアプリは開いたままにしてください。</string>
+	<key>Notification_EmptySmartButton</key>
+	<string>まだスマート ボタンが設定されていません。</string>
+	<key>Notification_EmptySmartButton_Button</key>
+	<string>設定</string>
+	<key>Notification_EmptyTimezoneDetected</key>
+	<string>Hue ブリッジ のタイムゾーンを自動的に設定することができませんでした。ルーチンの作成とアクティブ化を続行するには、正しいタイムゾーンを手動で設定してください。</string>
+	<key>Notification_GoToSleepRecommend</key>
+	<string>快適な眠りにつくために、[b-white]Hue White Ambiance[/b-white] ランプまたは [b-white]Hue White and Color Ambiance[/b-white] ランプを使用することをお勧めします。</string>
+	<key>Notification_MaxWidgetsDisplayed</key>
+	<string>表示できるウィジェットの数が上限に達しました。ダッシュボード上のウィジェットのサイズを変更し、さらに多くのウィジェットが表示されるようにしてください。</string>
+	<key>Notification_MismatchHueHomeKit</key>
+	<string>Hue アプリとホーム アプリのルームが一致していません。更新しますか。</string>
+	<key>Notification_NewBridgeDetected</key>
+	<string>新しい Hue ブリッジ が検出されました。設定を新しい Hue ブリッジ に転送してください。</string>
+	<key>Notification_NewBridgeDetected2</key>
+	<string>新しい Hue Bridge が検出されました。Hue Bridge v1 アプリをインストールして、設定を新しい Hue Bridge に転送してください。</string>
+	<key>Notification_OneLightOn</key>
+	<string>シーンを保存するには、少なくとも 1 つの照明が必要です。</string>
+	<key>Notification_SaveRoomTime</key>
+	<string>保存には時間がかかる場合があります。保存が完了するまでアプリは開いたままにしてください。</string>
+	<key>Notification_SceneSharingDisabledTitle</key>
+	<string>シーンを共有</string>
+	<key>Notification_SystemOutOfDate</key>
+	<string>Hue システムが改善されました。今すぐ更新して Hue を最大限に活用してください。</string>
+	<key>Notification_UpdateHomeKitScenes</key>
+	<string>Hue とホーム アプリが一致していません。更新しますか。</string>
+	<key>Notification_UserLoggedOut</key>
+	<string>お客様のセキュリティが私たちの最優先事項です。お客様のセキュリティ向上のため、My Hue からログアウトしました。外出先からのコントロールを続ける場合はログインし直してください。</string>
+	<key>Notification_UserLoggedOut_Button</key>
+	<string>ログイン</string>
+	<key>Onboarding_AgreePrivacy</key>
+	<string>[u]個人情報[/u]に関する条件を承諾します。</string>
+	<key>Onboarding_AgreeTerms</key>
+	<string>[u]使用条件[/u]に同意します</string>
+	<key>Onboarding_Congratulations</key>
+	<string>おめでとうございます!</string>
+	<key>Onboarding_Connor_Discover</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DiscoverBullet1</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DiscoverBullet2</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DiscoverBullet3</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_Done</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DoneBullet1</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DoneBullet2</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_ReadyTo</key>
+	<string>Connor</string>
+	<key>Onboarding_DeclinePortalFlag</key>
+	<string>[u]改良に協力しない[/u]</string>
+	<key>Onboarding_OverlayLightsNext</key>
+	<string>続行するには、ここをタップします。</string>
+	<key>Onboarding_OverlayLightsNextAndroid</key>
+	<string>続行するには、[次へ] をタップします。</string>
+	<key>Onboarding_OverlayLightsRename</key>
+	<string>名前を変更するライトをタップします。</string>
+	<key>Onboarding_OverlayLigtsPlus</key>
+	<string>さらにランプを追加するには、[b-white]ボタン[/b-white]をタップします。</string>
+	<key>Onboarding_OverlayRoomsLights</key>
+	<string>このルームにあるランプを選択します。</string>
+	<key>Onboarding_OverlayRoomsName</key>
+	<string>最初のルームに名前を付けます。</string>
+	<key>Onboarding_OverlayRoomsPlus</key>
+	<string>別のルームを作成し、さらにランプを割り当てるには、このボタンを押します。</string>
+	<key>Onboarding_OverlayRoomsType</key>
+	<string>作成するルームのタイプを選択します。</string>
+	<key>Onboarding_PortalFlagMessage</key>
+	<string>診断と使用状況データを開発者およびパートナーと共有していただき、Philips Hue の製品とサービスの改良にご協力ください。</string>
+	<key>Onboarding_PortalFlagTitle</key>
+	<string>改良にご協力ください</string>
+	<key>Onboarding_UpAndRunning</key>
+	<string>Hue アプリは正常に\2動作を開始しました。</string>
+	<key>OrSelectRooms</key>
+	<string>またはルームを選択</string>
+	<key>PersonalRoutine_EmptyInstruction</key>
+	<string>下にある [b-white]+ ボタン[/b-white]をタップして、最初のルーチンを作成します。</string>
+	<key>PersonalRoutine_FadeExplain</key>
+	<string>ライトがルーチンの開始[b-white]後の[/b-white]フェード インまたはフェード アウトする時間を選択します。</string>
+	<key>PersonalRoutine_MyRoutine</key>
+	<string>ルーチン</string>
+	<key>PersonalRoutine_Random</key>
+	<string>ランダムな時刻</string>
+	<key>PersonalRoutine_RandomExplanation</key>
+	<string>選択した長さだけランダムに開始時間と停止時間を調整します。</string>
+	<key>PersonalRoutine_RandomOffset</key>
+	<string>調整量</string>
+	<key>PersonalRoutine_RoomsOff</key>
+	<string>ルームをオフにする時刻</string>
+	<key>PersonalRoutine_SelectScene</key>
+	<string>[b-white]このルーチンをアクティブにする[/b-white]とオンになるシーンを選択します。</string>
+	<key>PersonalRoutine_What</key>
+	<string>操作</string>
+	<key>PersonalRoutine_When</key>
+	<string>開始時間</string>
+	<key>PhotoGallery_Category1</key>
+	<string>季節</string>
+	<key>PhotoGallery_Category2</key>
+	<string>太陽の光</string>
+	<key>PhotoGallery_Category3</key>
+	<string>ゴールデン アワー</string>
+	<key>PhotoGallery_Category4</key>
+	<string>街の明かり</string>
+	<key>PhotoGallery_Category5</key>
+	<string>黄昏</string>
+	<key>Plus_CurrentLightSettings</key>
+	<string>現在のライト設定</string>
+	<key>Plus_DefaultScenes</key>
+	<string>デフォルトのシーン</string>
+	<key>Plus_PictureScene</key>
+	<string>ピクチャー シーン</string>
+	<key>PopUp_BackWhileSearching</key>
+	<string>まだランプを検出しています。お待ちください。</string>
+	<key>PopUp_EnterSerial</key>
+	<string>6 文字を入力</string>
+	<key>PopUp_SceneName</key>
+	<string>新しいシーン名</string>
+	<key>PopUp_SceneNameDesc</key>
+	<string>シーンの名前を入力する</string>
+	<key>PopUp_SiriPermissionText</key>
+	<string>[設定] &gt; [Siriと検索] に移動し、Siri の許可を Hue アプリに付与します。</string>
+	<key>PopUp_SiriPermissionTitle</key>
+	<string>Siri の許可が必要です</string>
+	<key>Popup_AbortOnboarding</key>
+	<string>Hue システムのセットアップを停止しようとしています。</string>
+	<key>Popup_DeleteHome</key>
+	<string>この操作を行うと、HomeKit 設定からホームが削除されます。</string>
+	<key>Popup_InvalidNameText</key>
+	<string>別の名前を指定してください。</string>
+	<key>Popup_InvalidNameTitle</key>
+	<string>無効な名前です</string>
+	<key>Popup_NameTitle</key>
+	<string>ブリッジ名</string>
+	<key>Popup_RenameTitle</key>
+	<string>名前を変更</string>
+	<key>PowerOnBehavior_BackToDefaultExplanation</key>
+	<string>ヒント: デフォルトの白色の状態に戻すには、スイッチを 2 回押して電源のオフとオンを切り替えることで、すぐに白色で点灯するようになります。電源を切ってから入れ直してライトが点灯するまで、しばらくお待ちください。</string>
+	<key>PowerOnBehavior_Custom</key>
+	<string>カスタム</string>
+	<key>PowerOnBehavior_Custom_HueWhite</key>
+	<string>Hue の白色光は [b-white]カスタム カラーに設定できません[/b-white]。上記の [b-white]輝度設定を選択[/b-white]してください。</string>
+	<key>PowerOnBehavior_Custom_Subtext</key>
+	<string>色と明るさを選ぶ</string>
+	<key>PowerOnBehavior_Explanation</key>
+	<string>これらの設定を使用して、ライトの[b-white]電源を切っている状態から電源を投入[/b-white]したときの動作を指定します。壁スイッチを使用して電源を投入する場合でも、停電後に電源を投入する場合でも同様です</string>
+	<key>PowerOnBehavior_HueDefault</key>
+	<string>フィリップス Hue のデフォルト</string>
+	<key>PowerOnBehavior_HueDefault_Subtext</key>
+	<string>温白色、最高の明るさ</string>
+	<key>PowerOnBehavior_NotSupported</key>
+	<string>非対応</string>
+	<key>PowerOnBehavior_PowerFail</key>
+	<string>停電からの復旧</string>
+	<key>PowerOnBehavior_PowerFail_Subtext</key>
+	<string>直前に使用した色と明るさ</string>
+	<key>PowerOnBehavior_SelectForLight</key>
+	<string>このライトの[b-white]電源投入時の動作[/b-white]を選択してください。</string>
+	<key>PowerOnBehavior_SelectForSmartPlug</key>
+	<string>この Hue スマート プラグの[b-white]電源投入時の動作[/b-white] を選択してください。</string>
+	<key>PowerOnBehavior_SmartPlug_HueDefault</key>
+	<string>フィリップス Hue のデフォルト</string>
+	<key>PowerOnBehavior_SmartPlug_HueDefault_Subtext</key>
+	<string>オンにする</string>
+	<key>PowerOnBehavior_SmartPlug_PowerFail</key>
+	<string>停電からの復旧</string>
+	<key>PowerOnBehavior_SmartPlug_PowerFail_Subtext</key>
+	<string>前回使用した際のオンまたはオフの状態</string>
+	<key>ProductName_BeyondDown</key>
+	<string>Hue beyond down</string>
+	<key>ProductName_BeyondUp</key>
+	<string>Hue beyond up</string>
+	<key>ProductName_Bridge</key>
+	<string>Hue ブリッジ</string>
+	<key>ProductName_Dimmer</key>
+	<string>Hue Dimmer スイッチ</string>
+	<key>ProductName_EntityDown</key>
+	<string>Hue entity down</string>
+	<key>ProductName_EntityUp</key>
+	<string>Hue entity up</string>
+	<key>ProductName_ImpulseDown</key>
+	<string>Hue impulse down</string>
+	<key>ProductName_ImpulseUp</key>
+	<string>Hue impulse up</string>
+	<key>ProductName_MotionSensor</key>
+	<string>Hue Motion sensor</string>
+	<key>ProductName_Phoenix</key>
+	<string>Hue phoenix</string>
+	<key>ProductName_PhoenixDown</key>
+	<string>Hue phoenix down</string>
+	<key>ProductName_PhoenixUp</key>
+	<string>Hue phoenix up</string>
+	<key>ProductName_SmartButton</key>
+	<string>Hue スマート ボタン</string>
+	<key>ProductName_SmartPlug</key>
+	<string>Hue スマート プラグ</string>
+	<key>ProductName_Tap</key>
+	<string>Hue Tap スイッチ</string>
+	<key>ReconnectTap_Instruction</key>
+	<string>Hue Tap スイッチを再接続するには、Hue Tap スイッチの[b-white]ボタン %@[/b-white]を 10 秒間しっかりと押したままにします。 その後、ボタンを 1 回押して、スイッチが作動することを確認してください。</string>
+	<key>Restore_Where</key>
+	<string>コントロールするルームを選択</string>
+	<key>RoomSetup_NewRoom</key>
+	<string>新規ルーム</string>
+	<key>RoomType_Bathroom</key>
+	<string>浴室</string>
+	<key>RoomType_Bedroom</key>
+	<string>寝室</string>
+	<key>RoomType_Carport</key>
+	<string>カーポート</string>
+	<key>RoomType_Dining</key>
+	<string>ダイニング</string>
+	<key>RoomType_Driveway</key>
+	<string>車道</string>
+	<key>RoomType_FrontDoor</key>
+	<string>玄関ドア</string>
+	<key>RoomType_Garage</key>
+	<string>ガレージ</string>
+	<key>RoomType_Garden</key>
+	<string>庭</string>
+	<key>RoomType_Gym</key>
+	<string>ジム</string>
+	<key>RoomType_Hallway</key>
+	<string>廊下</string>
+	<key>RoomType_KidsBedroom</key>
+	<string>子供部屋</string>
+	<key>RoomType_Kitchen</key>
+	<string>キッチン</string>
+	<key>RoomType_LivingRoom</key>
+	<string>リビングルーム</string>
+	<key>RoomType_Nursery</key>
+	<string>乳幼児部屋</string>
+	<key>RoomType_Office</key>
+	<string>書斎</string>
+	<key>RoomType_Other</key>
+	<string>その他</string>
+	<key>RoomType_Recreation</key>
+	<string>ゲーミング ルーム</string>
+	<key>RoomType_Terrace</key>
+	<string>テラス</string>
+	<key>RoomType_Toilet</key>
+	<string>トイレ</string>
+	<key>RoomZoneSetup_Icon</key>
+	<string>アイコン</string>
+	<key>Room_Unknown_Name</key>
+	<string>不明なルーム</string>
+	<key>RoomsDetails_AddDefaultScenes</key>
+	<string>デフォルトのシーンを追加</string>
+	<key>RoomsDetails_DeleteWarning</key>
+	<string>このルームを削除すると、制御できなくなります。</string>
+	<key>RoomsDetails_LightSelection</key>
+	<string>ランプの選択</string>
+	<key>RoomsDetails_MultipleLights</key>
+	<string>%ld 個の Hue ランプ</string>
+	<key>RoomsDetails_NoLights</key>
+	<string>ルームにランプがありません</string>
+	<key>RoomsDetails_NumberOfLights</key>
+	<string>ランプの数:</string>
+	<key>RoomsDetails_OneLight</key>
+	<string>1 個の Hue ランプ</string>
+	<key>RoomsDetails_RoomType</key>
+	<string>アイコン</string>
+	<key>RoomsDetails_RoomType_Colon</key>
+	<string>ルームのタイプ:</string>
+	<key>RoomsSelection_NoRooms</key>
+	<string>ルームはまだ作成されていません。</string>
+	<key>Rooms_AS_NewRoom</key>
+	<string>新規ルームを作成</string>
+	<key>Rooms_AllOff</key>
+	<string>すべてのライトがオフです</string>
+	<key>Rooms_AllOn</key>
+	<string>すべてのライトがオンです</string>
+	<key>Rooms_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、最初のルームを作成します。</string>
+	<key>Rooms_OneOn</key>
+	<string>1 個のライトがオンです</string>
+	<key>Rooms_PartlyOn</key>
+	<string>%@ 個のライトがオンです</string>
+	<key>Rooms_UnassignedLights</key>
+	<string>割り当てられていない 
+ランプ</string>
+	<key>Routines_DeleteConfirmation</key>
+	<string>このルーチンは削除されます。</string>
+	<key>Routines_EveryDay</key>
+	<string>毎日</string>
+	<key>Routines_Fade</key>
+	<string>フェード</string>
+	<key>Routines_FadeIn</key>
+	<string>フェード イン</string>
+	<key>Routines_FadeOut</key>
+	<string>フェード アウト</string>
+	<key>Routines_Instant</key>
+	<string>瞬時</string>
+	<key>Routines_Lights</key>
+	<string>ランプ</string>
+	<key>Routines_LocationAccess</key>
+	<string>自宅の場所</string>
+	<key>Routines_Weekdays</key>
+	<string>平日</string>
+	<key>Routines_Weekends</key>
+	<string>週末</string>
+	<key>SartScreen_PhilipsHue</key>
+	<string>Philips Hue</string>
+	<key>SceneCard_EnterName</key>
+	<string>タップして名前を入力</string>
+	<key>SceneEdit_ChangeImage</key>
+	<string>変更</string>
+	<key>SceneEdit_RemoveImage</key>
+	<string>削除</string>
+	<key>Scene_Aurora</key>
+	<string>北極のオーロラ</string>
+	<key>Scene_Autumn</key>
+	<string>オータム ゴールド</string>
+	<key>Scene_Blood</key>
+	<string>ブラッド ムーン</string>
+	<key>Scene_Blossom</key>
+	<string>春の開花</string>
+	<key>Scene_Blue</key>
+	<string>青い珊瑚礁</string>
+	<key>Scene_Bright</key>
+	<string>明るめ</string>
+	<key>Scene_Chinatown</key>
+	<string>中華街</string>
+	<key>Scene_Concentrate</key>
+	<string>集中する</string>
+	<key>Scene_DeleteConfirmation</key>
+	<string>これによってシーンが削除されます。</string>
+	<key>Scene_Dimmed</key>
+	<string>暗め</string>
+	<key>Scene_Emerald</key>
+	<string>エメラルド島</string>
+	<key>Scene_Energize</key>
+	<string>やる気を出す</string>
+	<key>Scene_Fairfax</key>
+	<string>フェアファックス</string>
+	<key>Scene_Galaxy</key>
+	<string>銀河</string>
+	<key>Scene_Golden</key>
+	<string>黄昏</string>
+	<key>Scene_Green</key>
+	<string>緑茶</string>
+	<key>Scene_Honolulu</key>
+	<string>ホノルル</string>
+	<key>Scene_Ibiza</key>
+	<string>イビサ島</string>
+	<key>Scene_Lake</key>
+	<string>霧のかかった湖</string>
+	<key>Scene_LakePlacid</key>
+	<string>プラシド湖</string>
+	<key>Scene_Midwinter</key>
+	<string>真冬</string>
+	<key>Scene_Misty</key>
+	<string>日曜の朝</string>
+	<key>Scene_Moonlight</key>
+	<string>月の光</string>
+	<key>Scene_Motown</key>
+	<string>モータウン</string>
+	<key>Scene_Mountain</key>
+	<string>山を吹き渡る風</string>
+	<key>Scene_Nebula</key>
+	<string>星雲</string>
+	<key>Scene_Nightlight</key>
+	<string>夜間照明</string>
+	<key>Scene_Ocean</key>
+	<string>洋上の夜明け</string>
+	<key>Scene_Osaka</key>
+	<string>大阪</string>
+	<key>Scene_Palm</key>
+	<string>パーム ビーチ</string>
+	<key>Scene_Reading</key>
+	<string>読書をする</string>
+	<key>Scene_Relax</key>
+	<string>くつろぐ</string>
+	<key>Scene_Ruby</key>
+	<string>ルビーの輝き</string>
+	<key>Scene_Soho</key>
+	<string>ソーホー</string>
+	<key>Scene_Spring</key>
+	<string>春の湖</string>
+	<key>Scene_Starlight</key>
+	<string>星の光</string>
+	<key>Scene_Summer</key>
+	<string>霜の降りた夜明け</string>
+	<key>Scene_SummerDawn</key>
+	<string>真夏の太陽</string>
+	<key>Scene_Sundowner</key>
+	<string>夕暮れ時のお酒</string>
+	<key>Scene_Sunset</key>
+	<string>サバンナの夕日</string>
+	<key>Scene_Tokyo</key>
+	<string>東京</string>
+	<key>Scene_Turquoise</key>
+	<string>ターコイズの湾</string>
+	<key>Scene_Twilight</key>
+	<string>熱帯の黄昏</string>
+	<key>Scene_Winter</key>
+	<string>冬山</string>
+	<key>Scenes_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、シーンを作成します。</string>
+	<key>SearchBridges_MultipleNewBridgesFound</key>
+	<string>%@ 個の新しい Hue ブリッジ が検出されました</string>
+	<key>SearchBridges_NoBridgeFound</key>
+	<string>新しい Hue ブリッジ は検出されませんでした</string>
+	<key>SearchBridges_OneBridgeFound</key>
+	<string>1 個の新しい Hue ブリッジ が検出されました</string>
+	<key>SearchBridges_SearchingOneBridgeText</key>
+	<string>Hue ブリッジ を検出しています…</string>
+	<key>SearchBridges_SearchingText</key>
+	<string>Hue ブリッジ を検出しています…</string>
+	<key>SearchControls_MultipleAdditionalLightsFound</key>
+	<string>+ %ld 個のランプ</string>
+	<key>SearchControls_MultipleControlsFound</key>
+	<string>%ld 個の新しいアクセサリーが検出されました</string>
+	<key>SearchControls_NoControlsFound</key>
+	<string>新しいアクセサリーは検出されませんでした</string>
+	<key>SearchControls_OneAdditionalLightFound</key>
+	<string>+ 1 個のランプ</string>
+	<key>SearchControls_OneControlFound</key>
+	<string>1 つの新しいアクセサリーが検出されました</string>
+	<key>SearchControls_SearchingForControls</key>
+	<string>アクセサリーを検索しています...</string>
+	<key>SearchDevices_LightsAndSmartPlugsFound</key>
+	<string>%ld 台のデバイスが見つかりました。ランプ用 Hue スマート プラグ以外は使用しないでください。</string>
+	<key>SearchDevices_MultipleSmartPlugsFound</key>
+	<string>%ld 個の新しいスマート プラグが見つかりました。ランプ用 Hue スマート プラグ以外は使用しないでください。</string>
+	<key>SearchDevices_NoDevicesFound</key>
+	<string>新しいデバイスは検出されませんでした</string>
+	<key>SearchDevices_OneSmartPlugFound</key>
+	<string>1 個の新しいスマート プラグが見つかりました。ランプ用 Hue スマート プラグ以外は使用しないでください。</string>
+	<key>SearchDevices_Searching</key>
+	<string>デバイスを検出しています…</string>
+	<key>SearchLights_MultipleAdditionalSwitchesFound</key>
+	<string>+ %ld アクセサリー</string>
+	<key>SearchLights_MultipleLightsFound</key>
+	<string>%ld 個の新しいランプが検出されました</string>
+	<key>SearchLights_NoLightsFound</key>
+	<string>新しいランプは検出されませんでした</string>
+	<key>SearchLights_OneAdditionalSwitchFound</key>
+	<string>+ 1 アクセサリー</string>
+	<key>SearchLights_OneLightFound</key>
+	<string>1 個の新しいランプが検出されました</string>
+	<key>SearchLights_SearchingForLights</key>
+	<string>ランプを検出しています…</string>
+	<key>SearchSensor_SearchingForSensor</key>
+	<string>センサーを検索しています…</string>
+	<key>SelectIcon_NoIcon</key>
+	<string>なし</string>
+	<key>SelectRooms</key>
+	<string>ルームを選択</string>
+	<key>SelectScene</key>
+	<string>シーンを選択</string>
+	<key>SelectScene_Defaults</key>
+	<string>デフォルト</string>
+	<key>SelectScene_LightRecipes</key>
+	<string>ライト レシピ</string>
+	<key>Select_AllLights</key>
+	<string>すべてのランプ</string>
+	<key>Select_MultipleRooms</key>
+	<string>%ld ルーム</string>
+	<key>Select_MultpleLights</key>
+	<string>%ld 個のランプ</string>
+	<key>Select_OneLight</key>
+	<string>1 個のランプ</string>
+	<key>Select_OneRoom</key>
+	<string>1 ルーム</string>
+	<key>Sensor_DaylightSensitivity</key>
+	<string>日光感度</string>
+	<key>Sensor_Daytime</key>
+	<string>昼間</string>
+	<key>Sensor_DoesNotTrigger</key>
+	<string>室内の現在の日光の測定レベルに基づき、モーションによってライトは[b-red]トリガーされません[/b-red]。</string>
+	<key>Sensor_DoesTrigger</key>
+	<string>室内の現在の日光の測定レベルに基づき、モーションによってライトは[b-green]トリガーされます[/b-green]。</string>
+	<key>Sensor_Inactive</key>
+	<string>非アクティブ</string>
+	<key>Sensor_LightLevel</key>
+	<string>光のレベル</string>
+	<key>Sensor_Motion</key>
+	<string>モーション</string>
+	<key>Sensor_MotionSensitivity</key>
+	<string>モーション感度</string>
+	<key>Sensor_MotionSensitivity_ChangeSettings</key>
+	<string>設定を[b-white]変更しています[/b-white]</string>
+	<key>Sensor_MotionSensitivity_EnterTestMode</key>
+	<string>開始しています…</string>
+	<key>Sensor_MotionSensitivity_Explanation</key>
+	<string>画面が開くまでの間に、センサーの LED を見ながら検知範囲をテストできます。</string>
+	<key>Sensor_MotionSensitivity_High</key>
+	<string>高</string>
+	<key>Sensor_MotionSensitivity_Low</key>
+	<string>低</string>
+	<key>Sensor_MotionSensitivity_Medium</key>
+	<string>中</string>
+	<key>Sensor_MotionSensitivity_MotionDetected</key>
+	<string>モーションを[b-green]検出しました![/b-green]</string>
+	<key>Sensor_MotionSensitivity_NoMotionDetected</key>
+	<string>モーションは検出されませんでした</string>
+	<key>Sensor_Nighttime</key>
+	<string>夜間</string>
+	<key>Sensor_NotConfigured</key>
+	<string>[b-red]設定されていません[/b-red]</string>
+	<key>Sensor_PresenceDeteced</key>
+	<string>モーションを検出しました</string>
+	<key>Sensor_RenameBlinking</key>
+	<string>センサーの LED が点滅します。</string>
+	<key>Sensor_SelectSceneDay</key>
+	<string>[b-white]日中[/b-white]、モーションを検出したときにアクティブにするシーンを選択します。</string>
+	<key>Sensor_SelectSceneNight</key>
+	<string>[b-white]夜間[/b-white]、モーションを検出したときにアクティブにするシーンを選択します。</string>
+	<key>Sensor_SensorName</key>
+	<string>%@センサー</string>
+	<key>Sensor_SufficientDaylight</key>
+	<string>十分な日光</string>
+	<key>Sensor_Temperature</key>
+	<string>温度</string>
+	<key>Sensor_TurnOff_Explanation</key>
+	<string>モーションが検出されないときの操作を選択します。ライトはオフになる前に[b-white]まず暗く[/b-white]なります。</string>
+	<key>Sensor_WebHelp</key>
+	<string>センサーの配置や使用方法についてのヒントは、[b-white]meethue.com/motionsensor[/b-white] をご覧ください。</string>
+	<key>Sensor_WhenMotion</key>
+	<string>モーション検出時</string>
+	<key>Sensor_WhenNoMotion</key>
+	<string>モーション未検出時</string>
+	<key>Service_Running</key>
+	<string>シーンをアクティブにしています…</string>
+	<key>Settings_AccessorySetup_Subtext</key>
+	<string>センサーとスイッチの設定</string>
+	<key>Settings_Advanced</key>
+	<string>詳細</string>
+	<key>Settings_Advanced_HomeLocation</key>
+	<string>自宅の場所</string>
+	<key>Settings_Advanced_MessagingPreferences</key>
+	<string>メッセージの基本設定</string>
+	<key>Settings_Advanced_Subtext</key>
+	<string>位置、日光のタイミングとメッセージ</string>
+	<key>Settings_Advanced_SunriseSunsetOffset</key>
+	<string>日没 &amp; 日の出</string>
+	<key>Settings_App</key>
+	<string>アプリ</string>
+	<key>Settings_Automation</key>
+	<string>iOS オートメーション</string>
+	<key>Settings_ConnorSetup</key>
+	<string>エンターテインメント エリア</string>
+	<key>Settings_EntertainmentSetup_Subtext</key>
+	<string>エンターテインメント用にライトを配置する</string>
+	<key>Settings_LightSetup_Subtext</key>
+	<string>新しいライトの追加または名前の変更</string>
+	<key>Settings_PowerOnBehavior</key>
+	<string>電源投入時の動作</string>
+	<key>Settings_PowerOnBehavior_Subtext</key>
+	<string>電源投入時のライトの動作</string>
+	<key>Settings_RoomSetup_Subtext</key>
+	<string>ルームの管理とライトの割り当て</string>
+	<key>Settings_RoomZoneSetup</key>
+	<string>ルームとゾーン</string>
+	<key>Settings_RoomZoneSetupSubtext</key>
+	<string>部屋の設定と照明の割り当て</string>
+	<key>Settings_SoftwareUpdate</key>
+	<string>ソフトウェア更新</string>
+	<key>Settings_YourHome</key>
+	<string>自宅</string>
+	<key>Sheet_ConfigurePowerOnBehavior</key>
+	<string>電源投入時の動作の設定</string>
+	<key>Sheet_EditLights</key>
+	<string>ライトの追加または名前の編集</string>
+	<key>Sheet_EditRoom</key>
+	<string>ルームの編集または照明の移動</string>
+	<key>Sheet_EditZone</key>
+	<string>ゾーンの編集または照明の移動</string>
+	<key>Sheet_Swap</key>
+	<string>ルームとゾーンの切り替え</string>
+	<key>SiriShortcuts_Add</key>
+	<string>Siri に追加</string>
+	<key>SmartButton_ButtonPressed</key>
+	<string>ボタンが押されました</string>
+	<key>SmartPlugDetails_DeleteWarning</key>
+	<string>この Hue スマート プラグを削除すると、コントロールできなくなります。</string>
+	<key>SmartPlug_Warning</key>
+	<string>警告: Hue スマート プラグは、ランプとの使用のみを想定しています。
+
+高電圧器具に接続しないでください。プラグが損傷する可能性があります。</string>
+	<key>SoftareUpdate_NotificationAnyReady</key>
+	<string>お使いの Hue システムに利用できる更新があります。
+
+しかし、一部のライトにアクセスできなかったため、更新をダウンロードできませんでした。すべてのライトがオンになっていることと、Hue Bridge が自宅の Wi-Fi ネットワークに接続されていることを確認してください。</string>
+	<key>SoftareUpdate_NotificationTransferring</key>
+	<string>Hue システムの更新をダウンロード中にエラーが発生しました。
+
+すべてのライトがオンになっていることと、Hue Bridge がインターネットに接続されていることを確認してください。確認後、もう一度お試しください。</string>
+	<key>SoftwareUpdate_AgreePrivacy</key>
+	<string>[u]個人情報[/u]に関する条件を承諾します。</string>
+	<key>SoftwareUpdate_AgreeTerms</key>
+	<string>[u]使用条件[/u]に同意します</string>
+	<key>SoftwareUpdate_AutomaticUpdates</key>
+	<string>自動更新</string>
+	<key>SoftwareUpdate_BatteryLow</key>
+	<string>バッテリー残量低下</string>
+	<key>SoftwareUpdate_CheckForUpdate</key>
+	<string>更新の確認</string>
+	<key>SoftwareUpdate_Checking</key>
+	<string>更新を[b-white]確認しています[/b-white]…</string>
+	<key>SoftwareUpdate_CheckingFailed</key>
+	<string>更新が[b-white]失敗[/b-white]していないか確認します</string>
+	<key>SoftwareUpdate_CheckingForUpdate</key>
+	<string>更新を確認</string>
+	<key>SoftwareUpdate_DevicesInstruction</key>
+	<string>ライトを最新の状態にするために、すべてのライトの[b-white]電源がオン[/b-white]になっていることを確認してください。ライトまたはアクセサリーではダウンロードに最大 1 時間かかることがあり、更新中はライトが一時的にオフになることがあります。</string>
+	<key>SoftwareUpdate_Downloading</key>
+	<string>ダウンロード中…</string>
+	<key>SoftwareUpdate_DownloadingUpdate</key>
+	<string>アップデートをダウンロード</string>
+	<key>SoftwareUpdate_FlagFalse</key>
+	<string>使用感を向上するために、Hue ブリッジ、ライト、アクセサリは定期的に更新されます。
+
+ライトとアクセサリを最新に保つには、使用条件に同意する必要があります。</string>
+	<key>SoftwareUpdate_InstallUpdate</key>
+	<string>アップデートをインストール</string>
+	<key>SoftwareUpdate_InstallingUpdate</key>
+	<string>Installing update %ld/%ld
+</string>
+	<key>SoftwareUpdate_InstallingUpdateSubtext</key>
+	<string>更新プログラムのインストール</string>
+	<key>SoftwareUpdate_LastUpdated</key>
+	<string>最終更新日: %@</string>
+	<key>SoftwareUpdate_LocalText</key>
+	<string>Hue Bridge の更新をご利用いただけます。インストール中、しばらくの間システムが反応しなくなる場合があります。
+
+ライトと Hue Bridge の電源はオンのままにしておいてください。</string>
+	<key>SoftwareUpdate_MandatoryUpdate</key>
+	<string>Hue Bridge の更新をご利用いただけます。この更新はアプリを正しく機能させるために必要です。インストール中、しばらくの間システムが反応しなくなる場合があります。
+
+ライトと Hue Bridge の電源はオンのままにしておいてください。
+
+[b-white]注意:[/b-white] この更新を延期すると、アプリの機能が制限されます。</string>
+	<key>SoftwareUpdate_NoInternetConnection</key>
+	<string>Hue ブリッジが[b-white]インターネットに接続[/b-white]されていません。もう一度お試しください。</string>
+	<key>SoftwareUpdate_NoUpdatesAvailable</key>
+	<string>利用できる[b-white]更新はありません[/b-white]。</string>
+	<key>SoftwareUpdate_NonMandatoryUpdate</key>
+	<string>お使いの Hue システムに使用できる更新があります。Hue システムの円滑な操作を確実にするため、できるだけ早く更新することをお勧めします。</string>
+	<key>SoftwareUpdate_NotUpdatable</key>
+	<string>更新不可</string>
+	<key>SoftwareUpdate_NotUpdatedYet</key>
+	<string>まだ更新されていません</string>
+	<key>SoftwareUpdate_OnlyBridgeUpdated</key>
+	<string>[u]Hue ブリッジのみを更新[/u]</string>
+	<key>SoftwareUpdate_PowerAllLights</key>
+	<string>ライトを正常に更新するために、必ず、すべてのライトの[b-white]電源をオン[/b-white]にしてください。</string>
+	<key>SoftwareUpdate_ReadyToInstall</key>
+	<string>インストールの準備</string>
+	<key>SoftwareUpdate_ReadyToUpdate</key>
+	<string>更新の準備</string>
+	<key>SoftwareUpdate_ReleaseNotes</key>
+	<string>リリースノート</string>
+	<key>SoftwareUpdate_RemoteText</key>
+	<string>Hue Bridge の更新をご利用いただけます。インストール中、しばらくの間システムが反応しなくなる場合があります。
+
+ライトと Hue Bridge の電源はオンのままにしておいてください。</string>
+	<key>SoftwareUpdate_ReplaceBattery</key>
+	<string>バッテリーの交換</string>
+	<key>SoftwareUpdate_SoftWareUpdateTitle</key>
+	<string>ソフトウェア更新</string>
+	<key>SoftwareUpdate_SoftwareOutOfDate</key>
+	<string>お使いのソフトウェアは[b-white]古いバージョンです[/b-white]。</string>
+	<key>SoftwareUpdate_SoftwareUpToDate</key>
+	<string>お使いのソフトウェアは[b-white]最新[/b-white]です。</string>
+	<key>SoftwareUpdate_TryAgain</key>
+	<string>更新に失敗しました</string>
+	<key>SoftwareUpdate_UpToDate</key>
+	<string>最新</string>
+	<key>SoftwareUpdate_UpdateAvailableFlagFalse</key>
+	<string>Hue Bridge の更新をご利用いただけます。インストール中、しばらくの間システムが反応しなくなる場合があります。
+
+ライトと Hue Bridge の電源はオンのままにしておいてください。
+
+ライトとアクセサリーを最新に保つには、使用条件に同意する必要があります。</string>
+	<key>SoftwareUpdate_UpdateAvailableFlagTrue</key>
+	<string>Hue Bridge の更新をご利用いただけます。インストール中、しばらくの間システムが反応しなくなる場合があります。
+
+ライトと Hue Bridge の電源はオンのままにしておいてください。</string>
+	<key>SoftwareUpdate_UpdateDone</key>
+	<string>更新完了</string>
+	<key>SoftwareUpdate_UpdateInformation</key>
+	<string>更新情報</string>
+	<key>SoftwareUpdate_UpdatesAvailable</key>
+	<string>%ld 更新可能</string>
+	<key>SoftwareUpdate_UpdatesDownloading</key>
+	<string>[b-white]ダウンロードしています[/b-white] updates…</string>
+	<key>SoftwareUpdate_UpdatesDownloadingLong</key>
+	<string>更新を[b-white]ダウンロードしています[/b-white]。 これには時間がかかる場合があります。 あとで Hue システムが更新されたことを確認してください。</string>
+	<key>SoftwareUpdate_Updating</key>
+	<string>更新中…</string>
+	<key>StartScreen_InstructionBridgeV1</key>
+	<string>Hue Bridge の電源をオンにし、同梱のケーブルで WiFi ルーターに接続して使用を開始してください。この機器が同じ WiFi ネットワーク上にあれば、ご使用の Hue Bridge は自動的に検出されます。</string>
+	<key>StartScreen_InstructionBridgeV2</key>
+	<string>Hue Bridge の電源をオンにし、同梱のケーブルで WiFi ルーターに接続して使用を開始してください。この機器が同じ WiFi ネットワーク上にあれば、ご使用の Hue Bridge は自動的に検出されます。</string>
+	<key>StartScreen_WelcomeTo</key>
+	<string>へようこそ</string>
+	<key>Subheader_AdvancedSettings</key>
+	<string>詳細設定</string>
+	<key>Subheader_HomeCurrentBridge</key>
+	<string>現在の Hue ブリッジのホーム</string>
+	<key>Subheader_LightSettings</key>
+	<string>Hue ライトの設定</string>
+	<key>Subheader_OtherHome</key>
+	<string>その他のホーム</string>
+	<key>Subheader_WithLightSettings</key>
+	<string>Hue ライトを使用する</string>
+	<key>Subheader_WithoutLightSettings</key>
+	<string>Hue ライトを使用しない</string>
+	<key>Subheader_YourRoom</key>
+	<string>自分のルーム</string>
+	<key>Subheader_YourZones</key>
+	<string>ゾーン</string>
+	<key>Sunrise</key>
+	<string>日の出</string>
+	<key>SunriseSunsetOffset_Explanation</key>
+	<string>日の出 &amp; 日没ルーチンの[b-white]開始が早すぎたり遅すぎたりする[/b-white]場合は、開始時間オフセットを微調整できます。</string>
+	<key>Sunrise_StartAfter</key>
+	<string>日の出後</string>
+	<key>Sunrise_StartAfter_Explanation</key>
+	<string>日の出ルーチンの開始を日の出のどのくらい[b-white]後[/b-white]に設定しますか?</string>
+	<key>Sunset</key>
+	<string>夕焼け</string>
+	<key>SunsetSunrise_LocationExplanation</key>
+	<string>自宅の[b-white]場所[/b-white]は、日の出と日没の時刻を正しく設定し、[b-white]あなたが自宅にいる時間[/b-white]を判断するために必要です。</string>
+	<key>Sunset_StartBefore</key>
+	<string>日没前</string>
+	<key>Sunset_StartBefore_Explanation</key>
+	<string>日没ルーチンの開始を日没のどのくらい[b-white]前[/b-white]に設定しますか?</string>
+	<key>Switch_SwitchName</key>
+	<string>%@ スイッチ</string>
+	<key>Switches</key>
+	<string>スイッチ</string>
+	<key>Switches_ButtonsNotConfigured</key>
+	<string>%ldのボタンは[b-red]設定されていません[/b-red]。</string>
+	<key>TabBar_Hue</key>
+	<string>さまざまな機能に触れる</string>
+	<key>TabBar_Lights</key>
+	<string>ライト</string>
+	<key>TabBar_Rooms</key>
+	<string>在宅</string>
+	<key>TabBar_Routines</key>
+	<string>ルーチン</string>
+	<key>TabBar_Scenes</key>
+	<string>シーン</string>
+	<key>TabBar_Settings</key>
+	<string>設定</string>
+	<key>Tap_ButtonNotConfigured</key>
+	<string>%@のボタンは[b-red]設定されていません[/b-red]。</string>
+	<key>TimeStamp_Ago</key>
+	<string>%ld %@ 前</string>
+	<key>TimeStamp_Ago_Only</key>
+	<string>前</string>
+	<key>TimeStamp_Day</key>
+	<string>日</string>
+	<key>TimeStamp_Days</key>
+	<string>日</string>
+	<key>TimeStamp_Hour</key>
+	<string>時</string>
+	<key>TimeStamp_Hours</key>
+	<string>時</string>
+	<key>TimeStamp_JustNow</key>
+	<string>たった今</string>
+	<key>TimeStamp_Minute</key>
+	<string>分</string>
+	<key>TimeStamp_Minutes</key>
+	<string>分</string>
+	<key>TimeStamp_Month</key>
+	<string>月</string>
+	<key>TimeStamp_Months</key>
+	<string>月</string>
+	<key>TimeStamp_Now</key>
+	<string>今</string>
+	<key>TimeStamp_Second</key>
+	<string>秒</string>
+	<key>TimeStamp_Seconds</key>
+	<string>秒</string>
+	<key>TimeStamp_Week</key>
+	<string>週</string>
+	<key>TimeStamp_Weeks</key>
+	<string>週</string>
+	<key>TimeStamp_Year</key>
+	<string>年</string>
+	<key>TimeStamp_Years</key>
+	<string>年</string>
+	<key>TimeStamp_Yesterday</key>
+	<string>昨日</string>
+	<key>Timer_1Hour1Minute</key>
+	<string>1 時間 1 分</string>
+	<key>Timer_1HourMinutes</key>
+	<string>1 時間 %@ 分</string>
+	<key>Timer_1Minute</key>
+	<string>1 分</string>
+	<key>Timer_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、最初のタイマーを作成します。</string>
+	<key>Timer_Hours1Minute</key>
+	<string>%@ 時間 1 分</string>
+	<key>Timer_HoursMinutes</key>
+	<string>%@ 時間 %@ 分</string>
+	<key>Timer_LessMinute</key>
+	<string>1 分未満</string>
+	<key>Timer_Minutes</key>
+	<string>%@ 分</string>
+	<key>Timers_BlinkLights</key>
+	<string>ランプの点滅</string>
+	<key>Timers_Effects</key>
+	<string>影響</string>
+	<key>Timers_SelectWhat</key>
+	<string>[b-white]タイマー終了時[/b-white]にオンにする効果またはシーンを選択します。</string>
+	<key>Timers_Start</key>
+	<string>開始</string>
+	<key>Timers_Stop</key>
+	<string>終了</string>
+	<key>Timers_Timer</key>
+	<string>タイマー</string>
+	<key>Timers_What</key>
+	<string>操作</string>
+	<key>Timers_When</key>
+	<string>タイマーの寿命はどのくらいですか?</string>
+	<key>Toast_1x1WidgetEmpty</key>
+	<string>ウィジェットにルームがありません。ウィジェットを削除してください。</string>
+	<key>Toast_NotCurrentBridge</key>
+	<string>このウィジェットが作成された Hue ブリッジ とは異なる Hue ブリッジ に現在接続されています。</string>
+	<key>Tooltip_SceneEditShuffle</key>
+	<string>写真を[b-white]タップしてピンチズーム[/b-white]します。
+これで照明を調整します。
+お試しください。</string>
+	<key>Tooltip_TryColorPicking</key>
+	<string>[Lights (照明)] タブで[b-white]個々の照明を調整[/b-white]することもできます。</string>
+	<key>Tooltip_UseColorPicker_Android</key>
+	<string>[b-white]タップ[/b-white]して、[b-white]個々の照明[/b-white]を調整します。</string>
+	<key>Tooltip_UseColorPicker_IOS</key>
+	<string>[b-white]タップするかドラッグ[/b-white]して、[b-white]個々の照明[/b-white]を調整します。</string>
+	<key>Tooltip_WellDone</key>
+	<string>[b-white]よくできました![/b-white]</string>
+	<key>TurnOff</key>
+	<string>消灯</string>
+	<key>TurnOn</key>
+	<string>オンにする</string>
+	<key>TurnOn_Bold</key>
+	<string>[b-white]オンにする[/b-white]</string>
+	<key>Unknown</key>
+	<string>不明</string>
+	<key>UpdateAvailable_Success</key>
+	<string>更新は[b-green]正常に[/b-green]インストールされました。</string>
+	<key>UpdateAvailable_Updating</key>
+	<string>Hue ブリッジ を更新しています…</string>
+	<key>Visit_Meethue</key>
+	<string>[u]訪問 Meethue.com[/u]</string>
+	<key>WakeUp_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、最初の起床ルーチンを作成します。</string>
+	<key>WakeUp_FadeExplain</key>
+	<string>起床する[b-white]までに[/b-white]ライトがフェード インする時間を選択します。</string>
+	<key>WakeUp_Fresh</key>
+	<string>フレッシュ</string>
+	<key>WakeUp_FreshDescription</key>
+	<string>一気に目覚めて快活に一日をスタートします。</string>
+	<key>WakeUp_How</key>
+	<string>どのように起床しますか？</string>
+	<key>WakeUp_LightsOff</key>
+	<string>照明をオフにする時刻</string>
+	<key>WakeUp_NoRecommendedExplain</key>
+	<string>この起床方法に[b-white]最適な[/b-white]ライトはありません。</string>
+	<key>WakeUp_NotRecommended</key>
+	<string>非推奨</string>
+	<key>WakeUp_NotRecommendedExplain</key>
+	<string>下記のライトは、この起床方法に[b-white]適していません[/b-white]。</string>
+	<key>WakeUp_Recommended</key>
+	<string>推奨</string>
+	<key>WakeUp_RecommendedExplain</key>
+	<string>下記のライトは、この起床方法に[b-white]最適です[/b-white]。</string>
+	<key>WakeUp_Relax</key>
+	<string>リラックス</string>
+	<key>WakeUp_RelaxDescription</key>
+	<string>ゆっくり目覚めて穏やかに一日をスタートします。</string>
+	<key>WakeUp_SelectHow</key>
+	<string>[b-white]起床[/b-white]方法を選択します。</string>
+	<key>WakeUp_SelectLights</key>
+	<string>起床時に[b-white]オンにする[/b-white]ランプを選択します。</string>
+	<key>WakeUp_When</key>
+	<string>何時に起床しますか？</string>
+	<key>WakeUp_Where</key>
+	<string>どこで起床しますか？</string>
+	<key>WarningBanner_BatteryOptimisationGeofencing</key>
+	<string>帰宅 &amp; 外出は、デバイスがバッテリー節約モードになっていると通常どおりに動作しません。快適に使用するには、ボタンをタップして Hue アプリをバッテリー最適化から除外してください。</string>
+	<key>WarningBanner_BatteryOptimisationWidgets</key>
+	<string>ウィジェットは、デバイスがバッテリー節約モードになっていると通常どおりに動作しません。快適に使用するには、ボタンをタップして Hue アプリをバッテリー最適化から除外してください。</string>
+	<key>What</key>
+	<string>操作</string>
+	<key>When</key>
+	<string>設定</string>
+	<key>Where</key>
+	<string>場所</string>
+	<key>Where_Bold</key>
+	<string>場所</string>
+	<key>Where_LimitExplanation</key>
+	<string>照明システムが確実に素早く反応するように、最大で [b-white]%ld 個のルーム[/b-white]を選択できます。</string>
+	<key>Widget_Large</key>
+	<string>Hue ラージ</string>
+	<key>Widget_Small</key>
+	<string>Hue スモール</string>
+	<key>Widgets</key>
+	<string>ウィジェット</string>
+	<key>Widgets_DeleteWarning</key>
+	<string>これによってウィジェットが削除されます。</string>
+	<key>Widgets_EmptyInstruction</key>
+	<string>[b-white]+ ボタン[/b-white]をタップして、ウィジェットを作成します。</string>
+	<key>Widgets_Empty_Android</key>
+	<string>鉛筆のアイコンをタップしてこのウィジェットを設定してください。</string>
+	<key>Widgets_Empty_Ios</key>
+	<string>Philips Hue アプリの設定でこのウィジェットを設定します。</string>
+	<key>Widgets_Explanation_Android</key>
+	<string>ウィジェットを使用すると、お気に入りの照明シーンを Android ホーム画面から[b-white]簡単に[/b-white]呼び出すことができます。</string>
+	<key>Widgets_Explanation_Ios</key>
+	<string>ウィジェットを使用すると、お気に入りの照明シーンを iOS 通知センターまたは Apple Watch から[b-white]簡単に呼び出す[/b-white]ことができます。</string>
+	<key>Widgets_Explanation_IosIpad</key>
+	<string>ウィジェットを使用すると、お気に入りの照明シーンを iOS 通知センターから[b-white]簡単に呼び出すことができます[/b-white]。</string>
+	<key>Widgets_NotDisplayed</key>
+	<string>表示されていません</string>
+	<key>Widgets_NotificationCenterInstruction</key>
+	<string>ウィジェットは Apple Watch または iPhone の通知センターからアクティブにすることができます。通知センターを左からスライドし、[b-white][編集][/b-white] をタップして Hue ウィジェットを追加してください。</string>
+	<key>Widgets_NotificationCenterInstructionIpad</key>
+	<string>ウィジェットは iPad の通知センターからアクティブにすることができます。通知センターを左からスライドし、[b-white][編集][/b-white] をタップして Hue ウィジェットを追加してください。</string>
+	<key>Widgets_Off</key>
+	<string>オフ</string>
+	<key>Widgets_SelectScene</key>
+	<string>[b-white]このウィジェットをアクティブにする[/b-white]とオンになるシーンを選択します。</string>
+	<key>Widgets_When</key>
+	<string>このウィジェットをアクティブにするとき</string>
+	<key>Widgets_Widget</key>
+	<string>ウィジェット</string>
+	<key>ZigbeeChannel_Channel</key>
+	<string>チャンネル: %ld</string>
+	<key>ZigbeeChannel_CurrentChannel</key>
+	<string>現在のチャンネル:</string>
+	<key>ZigbeeChannel_Explain</key>
+	<string>Hue では、Hue Bridge、ライト、およびアクセサリー間の通信に Zigbee が使用されています。正常にライトを制御できない場合やアクセサリーを使用できない場合には、Zigbee チャンネルを変更してください。
+
+[b-white]警告:[/b-white] Zigbee チャンネルの変更は、問題が発生した場合にのみ行ってください。
+
+Zigbee チャンネルを変更するには、[b-white]すべてのライトをオン[/b-white]にし、下にある [チャンネルの変更] をタップします。これには 30 秒ほどかかります。</string>
+	<key>ZigbeeChannel_ReconnectTap</key>
+	<string>[b-white][次へ][/b-white] をタップしてスイッチの再接続を開始します。現在の設定は維持されます。</string>
+	<key>ZigbeeChannel_ReconnectTapAndroid</key>
+	<string>引き続き、Hue Tap スイッチ を再接続してください。現在の設定は維持されます。</string>
+	<key>ZigbeeChannel_Reconnected</key>
+	<string>[b-white]%ld/%ld[/b-white] が再接続されました</string>
+	<key>ZigbeeChannel_Succes</key>
+	<string>Zigbeeチャンネルの変更が完了しました。[ライトの点滅] をタップしても点滅しない場合は、そのランプの電源をオフにしてからオンにしてください。それでも問題が解決しない場合は、もう一度[チャンネルの変更] をタップしてください。</string>
+	<key>ZoneRoomType_Attic</key>
+	<string>屋根裏</string>
+	<key>ZoneRoomType_Balcony</key>
+	<string>バルコニー/ベランダ</string>
+	<key>ZoneRoomType_Barbecue</key>
+	<string>バーベキュー</string>
+	<key>ZoneRoomType_Bathroom</key>
+	<string>浴室</string>
+	<key>ZoneRoomType_Bedroom</key>
+	<string>寝室</string>
+	<key>ZoneRoomType_Carport</key>
+	<string>カーポート</string>
+	<key>ZoneRoomType_Closet</key>
+	<string>クローゼット</string>
+	<key>ZoneRoomType_Computer</key>
+	<string>コンピューター</string>
+	<key>ZoneRoomType_Dining</key>
+	<string>ダイニング</string>
+	<key>ZoneRoomType_Downstairs</key>
+	<string>1 階</string>
+	<key>ZoneRoomType_Driveway</key>
+	<string>車道</string>
+	<key>ZoneRoomType_FrontDoor</key>
+	<string>玄関ドア</string>
+	<key>ZoneRoomType_Garage</key>
+	<string>ガレージ</string>
+	<key>ZoneRoomType_Garden</key>
+	<string>庭</string>
+	<key>ZoneRoomType_Guestroom</key>
+	<string>ゲスト ルーム</string>
+	<key>ZoneRoomType_Gym</key>
+	<string>ジム</string>
+	<key>ZoneRoomType_Hallway</key>
+	<string>廊下</string>
+	<key>ZoneRoomType_Home</key>
+	<string>在宅</string>
+	<key>ZoneRoomType_KidsBedroom</key>
+	<string>子供部屋</string>
+	<key>ZoneRoomType_Kitchen</key>
+	<string>キッチン</string>
+	<key>ZoneRoomType_LaundryRoom</key>
+	<string>ランドリー ルーム</string>
+	<key>ZoneRoomType_Levels</key>
+	<string>レベル</string>
+	<key>ZoneRoomType_LivingRoom</key>
+	<string>リビングルーム</string>
+	<key>ZoneRoomType_Lounge</key>
+	<string>リビング</string>
+	<key>ZoneRoomType_ManCave</key>
+	<string>Game Den</string>
+	<key>ZoneRoomType_Music</key>
+	<string>音楽</string>
+	<key>ZoneRoomType_Nursery</key>
+	<string>乳幼児部屋</string>
+	<key>ZoneRoomType_Office</key>
+	<string>書斎</string>
+	<key>ZoneRoomType_Other</key>
+	<string>その他</string>
+	<key>ZoneRoomType_Outdoor</key>
+	<string>屋外</string>
+	<key>ZoneRoomType_Pool</key>
+	<string>プール</string>
+	<key>ZoneRoomType_Porch</key>
+	<string>ポーチ</string>
+	<key>ZoneRoomType_Practical</key>
+	<string>実用的</string>
+	<key>ZoneRoomType_Reading</key>
+	<string>本を読む</string>
+	<key>ZoneRoomType_Recreation</key>
+	<string>ゲーミング ルーム</string>
+	<key>ZoneRoomType_Recreational</key>
+	<string>娯楽用</string>
+	<key>ZoneRoomType_Staircase</key>
+	<string>階段</string>
+	<key>ZoneRoomType_Storage</key>
+	<string>収納スペース</string>
+	<key>ZoneRoomType_Studio</key>
+	<string>スタジオ/アトリエ</string>
+	<key>ZoneRoomType_TV</key>
+	<string> TV</string>
+	<key>ZoneRoomType_Terrace</key>
+	<string>テラス</string>
+	<key>ZoneRoomType_Toilet</key>
+	<string>トイレ</string>
+	<key>ZoneRoomType_TopFloor</key>
+	<string>最上階</string>
+	<key>ZoneRoomType_Traditional</key>
+	<string>従来型</string>
+	<key>ZoneRoomType_Upstairs</key>
+	<string>2 階</string>
+	<key>ZoneRoom_AddDefaultScenes</key>
+	<string>デフォルトのシーンを追加</string>
+	<key>ZoneRoom_CreateNew</key>
+	<string>新規作成</string>
+	<key>ZoneRoom_LightSelection</key>
+	<string>ランプの選択</string>
+	<key>ZoneRoom_Room</key>
+	<string>ルーム</string>
+	<key>ZoneRoom_RoomDesc</key>
+	<string>リビング ルームなど、[b-white]特定の一部屋[/b-white]の照明を制御できます。 </string>
+	<key>ZoneRoom_Zone</key>
+	<string>ゾーン</string>
+	<key>ZoneRoom_ZoneBetaDesc</key>
+	<string>ゾーンは現在ベータ版のため、アクセサリー、音声アシスタントなどの他の機能と併用することはできません。</string>
+	<key>ZoneRoom_ZoneDesc</key>
+	<string>階段やテレビ視聴エリアなど、複数の部屋または部屋の中の特定のエリアの[b-white]複数の照明[/b-white]をグループ化[b-white]すると、それらの照明を同時に[/b-white]制御できるようになります。 </string>
+	<key>ZoneSetup_DeleteAffected</key>
+	<string>このゾーンを削除すると、次のアイテムが影響を受けます。</string>
+	<key>ZoneSetup_DeleteConfirmation</key>
+	<string>このゾーンを削除すると、制御できなくなります。</string>
+	<key>ZoneSetup_DeleteZone</key>
+	<string>ゾーンを削除</string>
+	<key>ZoneSetup_NewZone</key>
+	<string>新しいゾーン</string>
+	<key>ZoneSetup_PlaceholderName</key>
+	<string>1 階</string>
+</dict>
+</plist>

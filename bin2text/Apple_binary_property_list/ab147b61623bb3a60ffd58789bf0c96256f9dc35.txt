@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ أيام</string>
+			<key>many</key>
+			<string>%@ أيام</string>
+			<key>one</key>
+			<string>يوم</string>
+			<key>other</key>
+			<string>%@ أيام</string>
+			<key>two</key>
+			<string>%@ أيام</string>
+			<key>zero</key>
+			<string>%@ أيام</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ دقائق</string>
+			<key>many</key>
+			<string>%@ دقائق</string>
+			<key>one</key>
+			<string>دقيقة</string>
+			<key>other</key>
+			<string>%@ دقائق</string>
+			<key>two</key>
+			<string>%@ دقائق</string>
+			<key>zero</key>
+			<string>%@ دقائق</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ أشهر</string>
+			<key>many</key>
+			<string>%@ أشهر</string>
+			<key>one</key>
+			<string>شهر</string>
+			<key>other</key>
+			<string>%@ أشهر</string>
+			<key>two</key>
+			<string>%@ أشهر</string>
+			<key>zero</key>
+			<string>%@ أشهر</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ أسابيع</string>
+			<key>many</key>
+			<string>%@ أسابيع</string>
+			<key>one</key>
+			<string>أسبوع</string>
+			<key>other</key>
+			<string>%@ أسابيع</string>
+			<key>two</key>
+			<string>%@ أسابيع</string>
+			<key>zero</key>
+			<string>%@ أسابيع</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ سنوات</string>
+			<key>many</key>
+			<string>%@ سنوات</string>
+			<key>one</key>
+			<string>سنة</string>
+			<key>other</key>
+			<string>%@ سنوات</string>
+			<key>two</key>
+			<string>%@ سنوات</string>
+			<key>zero</key>
+			<string>%@ سنوات</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>صالح لمدة %@ أسابيع</string>
+			<key>many</key>
+			<string>صالح لمدة %@ أسابيع</string>
+			<key>one</key>
+			<string>صالح لمدة %@ أسبوع</string>
+			<key>other</key>
+			<string>صالح لمدة %@ أسابيع</string>
+			<key>two</key>
+			<string>صالح لمدة %@ أسابيع</string>
+			<key>zero</key>
+			<string>صالح لمدة %@ أسابيع</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>صالح لمدة %@ أيام</string>
+			<key>many</key>
+			<string>صالح لمدة %@ أيام</string>
+			<key>one</key>
+			<string>صالح لمدة %@ يوم</string>
+			<key>other</key>
+			<string>صالح لمدة %@ أيام</string>
+			<key>two</key>
+			<string>صالح لمدة %@ أيام</string>
+			<key>zero</key>
+			<string>صالح لمدة %@ أيام</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>صالح لمدة %@ شهور</string>
+			<key>many</key>
+			<string>صالح لمدة %@ شهور</string>
+			<key>one</key>
+			<string>صالح لمدة %@ شهر</string>
+			<key>other</key>
+			<string>صالح لمدة %@ شهور</string>
+			<key>two</key>
+			<string>صالح لمدة %@ شهور</string>
+			<key>zero</key>
+			<string>صالح لمدة %@ شهور</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>صالح لمدة %@ سنوات</string>
+			<key>many</key>
+			<string>صالح لمدة %@ سنوات</string>
+			<key>one</key>
+			<string>صالح لمدة %@ سنة</string>
+			<key>other</key>
+			<string>صالح لمدة %@ سنوات</string>
+			<key>two</key>
+			<string>صالح لمدة %@ سنوات</string>
+			<key>zero</key>
+			<string>صالح لمدة %@ سنوات</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

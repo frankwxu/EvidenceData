@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Ler minhas mensagens da Alice no WhatsApp</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSearchForMessagesIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Enviar uma mensagem no WhatsApp para a Alice dizendo que eu chegarei lá em 15 minutos</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Ler mensagens do WhatsApp</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSetMessageAttributeIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Ligar para Alice via WhatsApp</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Ligação de vídeo com Alice no WhatsApp</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+	<key>ParameterVocabularies</key>
+	<array/>
+</dict>
+</plist>

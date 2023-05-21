@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Delete %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Supprimer la note</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Supprimer %lu notes</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Column</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_columns@</string>
+		<key>num_columns</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Supprimer la colonne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Supprimer %lu colonnes</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Row</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows@</string>
+		<key>num_rows</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Supprimer la rangée</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Supprimer %lu rangées</string>
+		</dict>
+	</dict>
+	<key>Move %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Déplacer la note</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Déplacer %lu notes</string>
+		</dict>
+	</dict>
+	<key>Moved %lu notes to %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@moved_num_notes@ vers %@</string>
+		<key>moved_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu note déplacée</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu notes déplacées</string>
+			<key>zero</key>
+			<string>Aucune note déplacée</string>
+		</dict>
+	</dict>
+	<key>FOLDER_DEPTH_LIMIT_MESSAGE_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@folder_depth_limit_message@</string>
+		<key>folder_depth_limit_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Les notes sont limitées à %lu niveau de dossier.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Les notes sont limitées à %lu niveaux de dossier.</string>
+		</dict>
+	</dict>
+	<key>NUM_SUBFOLDERS_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_subfolders@</string>
+		<key>num_subfolders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu sous dossier</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu sous dossiers</string>
+			<key>zero</key>
+			<string>Aucun sous dossier</string>
+		</dict>
+	</dict>
+	<key>DELETE_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Supprimer la numérisation</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Supprimer %lu numérisations</string>
+		</dict>
+	</dict>
+	<key>%d minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d minute</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minutes</string>
+		</dict>
+	</dict>
+	<key>%d days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>%lu scans</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_scans@</string>
+		<key>num_scans</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu numérisation</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu numérisations</string>
+		</dict>
+	</dict>
+	<key>Trash %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Supprimer la note</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Supprimer %lu notes</string>
+		</dict>
+	</dict>
+	<key>%d seconds</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_seconds@</string>
+		<key>num_seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d seconde</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d secondes</string>
+		</dict>
+	</dict>
+	<key>Copy %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Copier la note</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Copier %lu notes</string>
+		</dict>
+	</dict>
+	<key>At most %lu attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Vous pouvez joindre %lu pièce jointe au maximum.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vous pouvez joindre %lu pièces jointes au maximum.</string>
+		</dict>
+	</dict>
+	<key>%d hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_hours@</string>
+		<key>num_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d heure</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d heures</string>
+		</dict>
+	</dict>
+	<key>At most %lu more attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Vous pouvez joindre %lu pièce jointe de plus.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vous pouvez joindre %lu pièces jointes de plus.</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders@</string>
+		<key>num_folders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Supprimer le dossier</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Supprimer %lu dossiers</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

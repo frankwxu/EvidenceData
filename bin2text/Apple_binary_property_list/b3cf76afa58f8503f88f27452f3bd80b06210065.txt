@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Olvasd fel a WhatsApp üzeneteimet Alíztól</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSearchForMessagesIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Küldj egy WhatsApp üzenetet Aliznak, hogy 15 perc múlva ott vagyok.</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Olvasd a WhatsApp üzeneteimet</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSetMessageAttributeIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Hívd fel Alizt a WhatsApp-on</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>‎Erika videohívása a WhatsAppon</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+	<key>ParameterVocabularies</key>
+	<array/>
+</dict>
+</plist>

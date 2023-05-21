@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bds_providers_config</key>
+	<dict>
+		<key>placement_type_map_config</key>
+		<array>
+			<dict>
+				<key>contain_placement_types</key>
+				<array>
+					<string>10011301</string>
+				</array>
+				<key>config_type</key>
+				<string>tiktok_cold_start_app_open</string>
+			</dict>
+		</array>
+		<key>symphony_sdk_config</key>
+		<dict>
+			<key>enable_upload_material</key>
+			<true/>
+			<key>bid_log_switch</key>
+			<true/>
+			<key>send_bid_loss_ahead</key>
+			<false/>
+			<key>bid_ad_request_expire_time</key>
+			<integer>300000</integer>
+		</dict>
+		<key>default_fill_strategy_config</key>
+		<array>
+			<dict>
+				<key>placement_type</key>
+				<string>100113</string>
+				<key>fill_strategy</key>
+				<dict>
+					<key>display_sort</key>
+					<array>
+						<integer>1000</integer>
+						<integer>1100</integer>
+						<integer>1200</integer>
+					</array>
+					<key>preload_sort</key>
+					<array>
+						<array>
+							<integer>1000</integer>
+						</array>
+						<array>
+							<integer>1100</integer>
+						</array>
+						<array>
+							<integer>1200</integer>
+						</array>
+					</array>
+				</dict>
+			</dict>
+		</array>
+		<key>_AME_Header_RequestID</key>
+		<string>20200416121019010189072072003A627D</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COMMENTS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$@ %2$#@commentscount@</string>
+		<key>commentscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>टिप्पणी</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>टिप्पणियाँ</string>
+		</dict>
+	</dict>
+	<key>ADDED_SONGS_TO_PLAYLIST_CONFIRMATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>“%2$@” में %1$#@songcount@ जोड़े गए।</string>
+		<key>songcount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d गीत</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d गीत</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप अब %@ को फ़ॉलो कर रहे हैं।</string>
+	</dict>
+	<key>SEARCH_RADIO_PROVIDER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ द्वारा</string>
+	</dict>
+	<key>SEARCH_MOVIES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>फ़िल्म में %@</string>
+	</dict>
+	<key>SEARCH_SHARED_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>शेयर गीतमाला में %@</string>
+	</dict>
+	<key>SONGS_COUNT_AND_DURATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@, %@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu गीत</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu गीत</string>
+		</dict>
+	</dict>
+	<key>ACCOUNT_EDIT_HANDLE_TAKEN_WITH_SUGGESTIONS_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इसके बदले क्या आप %@ का उपयोग करना चाहते हैं? आप इसे बाद में बदल सकते हैं।</string>
+	</dict>
+	<key>SEASON_AND_EPISODE_NUMBERS_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>सीज़न %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>सीज़न %lu</string>
+			<key>zero</key>
+			<string>अज्ञात सीज़न</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@, %#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>एपिसोड %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>एपिसोड %lu</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_UNLINK_ACCOUNT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप %@ से डिस्कनेक्ट करते हैं, तो आप अन्य Apple Music यूज़र को ढूँढ नहीं पाएँगे जिससे आप %@ के उपयोग से कनेक्टेड हैं।</string>
+	</dict>
+	<key>SEARCH_SONG_ARTIST_ALBUM_YEAR_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ — %@</string>
+	</dict>
+	<key>LIKES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$@ %2$#@likescount@</string>
+		<key>likescount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>पसंद</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>पसंद</string>
+		</dict>
+	</dict>
+	<key>SEARCH_ARTISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>कलाकार में %@</string>
+	</dict>
+	<key>SEARCH_PEOPLE_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>लोग में %@</string>
+	</dict>
+	<key>SEARCH_LYRICS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>गीत के बोल में “%@“</string>
+	</dict>
+	<key>EPISODES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episodes@</string>
+		<key>episodes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu एपिसोड</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu एपिसोड</string>
+			<key>zero</key>
+			<string>कोई एपिसोड नहीं</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>नई गीतमाला में गीत जोड़ें।</string>
+	</dict>
+	<key>SOCIAL_BLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप अब %@ को ब्लॉक कर रहे हैं।</string>
+	</dict>
+	<key>SEARCH_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>गीतमाला में %@</string>
+	</dict>
+	<key>ALBUMS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu ऐल्बम</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu ऐल्बम</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@</string>
+	</dict>
+	<key>CONNECT_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ के पोस्ट “आपके लिए” में दिखेंगे।</string>
+	</dict>
+	<key>NOW_PLAYING_PLAY_SOURCE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ द्वारा</string>
+	</dict>
+	<key>ALBUMS_AND_SONGS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu ऐल्बम</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu ऐल्बम</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@, %#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu गीत</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu गीत</string>
+		</dict>
+	</dict>
+	<key>SEASON_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>सीज़न %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>सीज़न %lu</string>
+			<key>zero</key>
+			<string>अज्ञात सीज़न</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@</string>
+	</dict>
+	<key>LIKES_COUNT_LONG</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$@ %2$#@likescountlong@</string>
+		<key>likescountlong</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>व्यक्ति को यह पसंद है।</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>लोगों को यह पसंद है।</string>
+		</dict>
+	</dict>
+	<key>SEARCH_TV_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>टीवी में %@</string>
+	</dict>
+	<key>SOCIAL_UNFOLLOWED_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप अब %@ को फ़ॉलो नहीं कर रहे हैं।</string>
+	</dict>
+	<key>SONGS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu गीत</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu गीत</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>कल अपडेट किया गया</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu दिन पूर्व अपडेट हुआ</string>
+			<key>zero</key>
+			<string>आज अपडेट किया गया</string>
+		</dict>
+	</dict>
+	<key>EPISODE_NUMBER_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>एपिसोड %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>एपिसोड %lu</string>
+			<key>zero</key>
+			<string>अज्ञात एपिसोड</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS_DAY_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ को अपडेट किया गया</string>
+	</dict>
+	<key>SEARCH_GENRES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>शैली में %@</string>
+	</dict>
+	<key>UPDATED_TIME_YEARS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@years@</string>
+		<key>years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>पिछले वर्ष अपडेट किया गया</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu वर्ष पूर्व अपडेट किया गया</string>
+		</dict>
+	</dict>
+	<key>SEARCH_LYRICS_DISPLAY_TERM</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ “%@”</string>
+	</dict>
+	<key>SOCIAL_REQUESTED_FOLLOW_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ आपको फ़ॉलो करने के लिए इच्छुक है।</string>
+	</dict>
+	<key>UPDATED_TIME_MONTHS</key>
+	<dict>
+		<key>months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>पिछले महीने अपडेट किया गया</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu माह पूर्व अपडेट किया गया</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@months@</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>नई गीतमाला में %#@songscount@ को जोड़ा गया।</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu गीत</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu गीत</string>
+		</dict>
+	</dict>
+	<key>SEARCH_MUSIC_VIDEOS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>संगीत वीडियो में %@</string>
+	</dict>
+	<key>CLEAR_UP_NEXT_QUESTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>इसे चलाने के बाद क्या आप चलाना जारी रखना चाहते हैं या पहले से क़तार में रखा गया गीत साफ़ करना चाहते हैं? </string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>इसे चलाने के बाद क्या आप चलाना जारी रखना चाहते हैं या पहले से क़तार में रखे गए %lu गीत साफ़ करना चाहते हैं?</string>
+			<key>zero</key>
+			<string>इसे चलाने के बाद क्या आप चलाना जारी रखना चाहते हैं या पहले से क़तार में रखा गया संगीत साफ़ करना चाहते हैं? </string>
+		</dict>
+	</dict>
+	<key>SOCIAL_UNBLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप अब %@ को ब्लॉक नहीं कर रहे हैं।</string>
+	</dict>
+	<key>SEARCH_SONGS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>गीत में %@</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>“%2$@” में %1$#@songscount@ को जोड़ा गया।</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu गीत जोड़ा गया</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu गीत को जोड़ा गया</string>
+		</dict>
+	</dict>
+	<key>COMPOSED_BY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ द्वारा</string>
+	</dict>
+	<key>UPDATED_TIME_WEEKS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@weeks@</string>
+		<key>weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>पिछले सप्ताह अपडेट किया गया</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu सप्ताह पूर्व अपडेट हुआ</string>
+		</dict>
+	</dict>
+	<key>CANCEL_DOWNLOADS_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@downloadsCount@ रद्द करें</string>
+		<key>downloadsCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu डाउनलोड</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu डाउनलोड</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>“%@” में गीत जोड़ें।</string>
+	</dict>
+	<key>SEARCH_ALBUMS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ऐल्बम में %@</string>
+	</dict>
+	<key>SEARCH_STATIONS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>रेडियो में %@</string>
+	</dict>
+	<key>MUSIC_VIDEOS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@musicvideoscount@</string>
+		<key>musicvideoscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu संगीत वीडियो</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu संगीत वीडियो</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_CONNECT_WITH_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ कनेक्ट करें</string>
+	</dict>
+	<key>SEARCH_SONG_ALBUM_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ · %@</string>
+	</dict>
+</dict>
+</plist>

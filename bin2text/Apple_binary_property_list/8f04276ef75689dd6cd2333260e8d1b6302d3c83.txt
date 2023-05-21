@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ 日</string>
+			<key>many</key>
+			<string>%@ 日</string>
+			<key>one</key>
+			<string>日</string>
+			<key>other</key>
+			<string>%@ 日</string>
+			<key>two</key>
+			<string>%@ 日</string>
+			<key>zero</key>
+			<string>%@ 日</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ 分钟</string>
+			<key>many</key>
+			<string>%@ 分钟</string>
+			<key>one</key>
+			<string>分钟</string>
+			<key>other</key>
+			<string>%@ 分钟</string>
+			<key>two</key>
+			<string>%@ 分钟</string>
+			<key>zero</key>
+			<string>%@ 分钟</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ 个月</string>
+			<key>many</key>
+			<string>%@ 个月</string>
+			<key>one</key>
+			<string>月</string>
+			<key>other</key>
+			<string>%@ 个月</string>
+			<key>two</key>
+			<string>%@ 个月</string>
+			<key>zero</key>
+			<string>%@ 个月</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ 周</string>
+			<key>many</key>
+			<string>%@ 周</string>
+			<key>one</key>
+			<string>星期</string>
+			<key>other</key>
+			<string>%@ 周</string>
+			<key>two</key>
+			<string>%@ 周</string>
+			<key>zero</key>
+			<string>%@ 周</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ 年</string>
+			<key>many</key>
+			<string>%@ 年</string>
+			<key>one</key>
+			<string>年</string>
+			<key>other</key>
+			<string>%@ 年</string>
+			<key>two</key>
+			<string>%@ 年</string>
+			<key>zero</key>
+			<string>%@ 年</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>有效期 %@ 周</string>
+			<key>many</key>
+			<string>有效期 %@ 周</string>
+			<key>one</key>
+			<string>有效期 %@ 周</string>
+			<key>other</key>
+			<string>有效期 %@ 周</string>
+			<key>two</key>
+			<string>有效期 %@ 周</string>
+			<key>zero</key>
+			<string>有效期 %@ 周</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>有效期 %@ 天</string>
+			<key>many</key>
+			<string>有效期 %@ 天</string>
+			<key>one</key>
+			<string>有效期 %@ 天</string>
+			<key>other</key>
+			<string>有效期 %@ 天</string>
+			<key>two</key>
+			<string>有效期 %@ 天</string>
+			<key>zero</key>
+			<string>有效期 %@ 天</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>有效期 %@ 个月</string>
+			<key>many</key>
+			<string>有效期 %@ 个月</string>
+			<key>one</key>
+			<string>有效期 %@ 个月</string>
+			<key>other</key>
+			<string>有效期 %@ 个月</string>
+			<key>two</key>
+			<string>有效期 %@ 个月</string>
+			<key>zero</key>
+			<string>有效期 %@ 个月</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>有效期 %@ 年</string>
+			<key>many</key>
+			<string>有效期 %@ 年</string>
+			<key>one</key>
+			<string>有效期 %@ 年</string>
+			<key>other</key>
+			<string>有效期 %@ 年</string>
+			<key>two</key>
+			<string>有效期 %@ 年</string>
+			<key>zero</key>
+			<string>有效期 %@ 年</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

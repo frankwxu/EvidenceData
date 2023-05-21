@@ -1,0 +1,2487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about.copyright.title</key>
+	<string>© Wire Swiss GmbH</string>
+	<key>about.license.license_header</key>
+	<string>Подяки</string>
+	<key>about.license.open_project_button</key>
+	<string>Переглянути сторінку проекту</string>
+	<key>about.license.project_header</key>
+	<string>Подробиці</string>
+	<key>about.license.title</key>
+	<string>Відомості про ліцензію</string>
+	<key>about.privacy.title</key>
+	<string>Політика конфіденційності</string>
+	<key>about.tos.title</key>
+	<string>Умови використання</string>
+	<key>about.website.title</key>
+	<string>Веб-сайт Wire</string>
+	<key>account_deleted_session_expired_alert.message</key>
+	<string>Додаток не зв'язувався із сервером впродовж тривалого періоду часу, або ваша сесія була анульована.</string>
+	<key>account_deleted_session_expired_alert.title</key>
+	<string>Термін дії вашої сесії завершився</string>
+	<key>add_participants.alert.message.existing_conversation</key>
+	<string>До розмови може приєднатися до %1$d учаснків. В даний час є місце тільки для %2$d учасників.</string>
+	<key>add_participants.alert.message.new_conversation</key>
+	<string>До розмови може приєднатися до %d учасників.</string>
+	<key>add_participants.alert.title</key>
+	<string>Розмова переповнена</string>
+	<key>add_participants.all_contacts_added</key>
+	<string>Всі вже тут.</string>
+	<key>archived_list.title</key>
+	<string>архів</string>
+	<key>availability.accessibility_label.change_status</key>
+	<string>Змінити статус</string>
+	<key>availability.accessibility_label.status</key>
+	<string>Статус</string>
+	<key>availability.available</key>
+	<string>Онлайн</string>
+	<key>availability.away</key>
+	<string>Не на місці</string>
+	<key>availability.busy</key>
+	<string>Не турбувати</string>
+	<key>availability.message.cancel</key>
+	<string>Скасувати</string>
+	<key>availability.message.set_status</key>
+	<string>Встановити статус</string>
+	<key>availability.none</key>
+	<string>Недоступний(-а)</string>
+	<key>availability.reminder.action.dont_remind_me</key>
+	<string>Більше не відображати цю інформацію</string>
+	<key>availability.reminder.action.ok</key>
+	<string>OK</string>
+	<key>availability.reminder.available.message</key>
+	<string>Ваш статус для інших людей буде встановлено як "Присутній(-я)". Ви будете отримувати сповіщення про вхідні дзвінки та повідомлення згідно налаштувань для кожної розмови.</string>
+	<key>availability.reminder.available.title</key>
+	<string>Зараз ви присутні</string>
+	<key>availability.reminder.away.message</key>
+	<string>Ваш статус для інших людей буде встановлено як "Відсутній(-я)". Ви не будете отримувати сповіщень про вхідні дзвінки або повідомлення.</string>
+	<key>availability.reminder.away.title</key>
+	<string>Зараз ви відсутні</string>
+	<key>availability.reminder.busy.message</key>
+	<string>Ваш статус для інших людей буде встановлено як "Зайнятий(-а)". Ви будете отримувати сповіщення тільки про згадки, відповіді та дзвінки в розмовах, для яких не увімкнений режим тиші.</string>
+	<key>availability.reminder.busy.title</key>
+	<string>Зараз ви зайняті</string>
+	<key>availability.reminder.none.message</key>
+	<string>Ви будете отримувати сповіщення про вхідні дзвінки та повідомлення згідно налаштувань для кожної розмови.</string>
+	<key>availability.reminder.none.title</key>
+	<string>Статус поки що не встановлено</string>
+	<key>call.actions.label.accept_call</key>
+	<string>Прийняти дзвінок</string>
+	<key>call.actions.label.flip_camera</key>
+	<string>Переключити камеру</string>
+	<key>call.actions.label.join_call</key>
+	<string>Приєднатися до дзвінка</string>
+	<key>call.actions.label.make_audio_call</key>
+	<string>Розпочати аудіодзвінок</string>
+	<key>call.actions.label.make_video_call</key>
+	<string>Розпочати відеодзвінок</string>
+	<key>call.actions.label.minimize_call</key>
+	<string>Згорнути дзвінок</string>
+	<key>call.actions.label.reject_call</key>
+	<string>Відхилити дзвінок</string>
+	<key>call.actions.label.switch_to_back_camera</key>
+	<string>Преключитись на основну камеру</string>
+	<key>call.actions.label.switch_to_front_camera</key>
+	<string>Преключитись на фронтальну камеру</string>
+	<key>call.actions.label.terminate_call</key>
+	<string>Завершити дзвінок</string>
+	<key>call.actions.label.toggle_mute_off</key>
+	<string>Увімкнути звук</string>
+	<key>call.actions.label.toggle_mute_on</key>
+	<string>Вимкнути звук</string>
+	<key>call.actions.label.toggle_speaker_off</key>
+	<string>Вимкнути гучномовець</string>
+	<key>call.actions.label.toggle_speaker_on</key>
+	<string>Увімкнути гучномовець</string>
+	<key>call.actions.label.toggle_video_off</key>
+	<string>Вимкнути камеру</string>
+	<key>call.actions.label.toggle_video_on</key>
+	<string>Увімкнути камеру</string>
+	<key>call.alert.ongoing.alert_title</key>
+	<string>Це завершить інший активний дзвінок.</string>
+	<key>call.alert.ongoing.join.button</key>
+	<string>Приєднатися все-одно</string>
+	<key>call.alert.ongoing.join.message</key>
+	<string>Інша розмова має активний дзвінок.
+Приєднання до дзвінка у цій розмові припинить його.</string>
+	<key>call.alert.ongoing.start.button</key>
+	<string>Подзвонити все одно</string>
+	<key>call.alert.ongoing.start.message</key>
+	<string>Інша розмова має активний дзвінок.
+Дзвінок у цій розмові припинить його.</string>
+	<key>call.announcement.incoming</key>
+	<string>Вхідний дзвінок від %@</string>
+	<key>call.degraded.alert.action.continue</key>
+	<string>Подзвонити все-одно</string>
+	<key>call.degraded.alert.message.self</key>
+	<string>Ви почали використовувати новий пристрій.</string>
+	<key>call.degraded.alert.message.unknown</key>
+	<string>Хтось почав використовувати новий пристрій.</string>
+	<key>call.degraded.alert.message.user</key>
+	<string>%@ почав(-ла) використовувати новий пристрій.</string>
+	<key>call.degraded.alert.title</key>
+	<string>Новий пристрій</string>
+	<key>call.participants.list.title</key>
+	<string>Учасники</string>
+	<key>call.participants.show_all</key>
+	<string>Показати всіх (%@)</string>
+	<key>call.status.connecting</key>
+	<string>З'єднання…</string>
+	<key>call.status.constant_bitrate</key>
+	<string>Стала швидкість передачі даних</string>
+	<key>call.status.incoming</key>
+	<string>Дзвінок…</string>
+	<key>call.status.incoming.user</key>
+	<string>%@ дзвонить…</string>
+	<key>call.status.outgoing</key>
+	<string>Дзвінок…</string>
+	<key>call.status.outgoing.user</key>
+	<string>%@ дзвонить…</string>
+	<key>call.status.reconnecting</key>
+	<string>Повторне під'єднання…</string>
+	<key>call.status.terminating</key>
+	<string>Роз'єднання…</string>
+	<key>call.video.paused</key>
+	<string>Відео призупинено</string>
+	<key>call.video.too_many.alert.message</key>
+	<string>Відеодзвінки працюють тільки в групах з 4-ма або менше учасниками.</string>
+	<key>call.video.too_many.alert.title</key>
+	<string>Занадто багато людей для відеодзвінка</string>
+	<key>calling.quality_survey.answer.1</key>
+	<string>Погано</string>
+	<key>calling.quality_survey.answer.2</key>
+	<string>Так собі</string>
+	<key>calling.quality_survey.answer.3</key>
+	<string>Непогано</string>
+	<key>calling.quality_survey.answer.4</key>
+	<string>Добре</string>
+	<key>calling.quality_survey.answer.5</key>
+	<string>Чудово</string>
+	<key>calling.quality_survey.question</key>
+	<string>Як ви оцінюєте загальну якість дзвінка?</string>
+	<key>calling.quality_survey.skip_button_title</key>
+	<string>Пропустити</string>
+	<key>calling.quality_survey.title</key>
+	<string>Відгук про якість дзвінків</string>
+	<key>camera_access.denied</key>
+	<string>Wire потребує доступу до камери.</string>
+	<key>camera_access.denied.instruction</key>
+	<string></string>
+	<key>camera_access.denied.open_settings</key>
+	<string>Дозвольте доступ до камери в налаштуваннях Wire</string>
+	<key>camera_controls.aeaf_lock</key>
+	<string>Фіксація експозиції/фокусу</string>
+	<key>collections.image_viewer.copied.title</key>
+	<string>Зображення скопійоване</string>
+	<key>collections.search.field.placeholder</key>
+	<string>Шукайте текстові повідомлення</string>
+	<key>collections.search.no_items</key>
+	<string>Нічого не знайдено</string>
+	<key>collections.section.all.button</key>
+	<string>Показати всі %d →</string>
+	<key>collections.section.files.title</key>
+	<string>Файли</string>
+	<key>collections.section.images.title</key>
+	<string>Картинки</string>
+	<key>collections.section.links.title</key>
+	<string>Посилання</string>
+	<key>collections.section.no_items</key>
+	<string>Колекція порожня</string>
+	<key>collections.section.videos.title</key>
+	<string>Відео</string>
+	<key>compose.contact.title</key>
+	<string>Розмова</string>
+	<key>compose.drafts.compose.delete.confirm.action.title</key>
+	<string>Видалити</string>
+	<key>compose.drafts.compose.delete.confirm.message</key>
+	<string>Ця дія назавжди видалить дану чернетку без можливості відновлення.</string>
+	<key>compose.drafts.compose.delete.confirm.title</key>
+	<string>Підтвердити видалення</string>
+	<key>compose.drafts.compose.dismiss.confirm.action.title</key>
+	<string>Зберегти</string>
+	<key>compose.drafts.compose.dismiss.confirm.title</key>
+	<string>Зберегти як чернетку</string>
+	<key>compose.drafts.compose.dismiss.delete.action.title</key>
+	<string>Видалити</string>
+	<key>compose.drafts.compose.subject.placeholder</key>
+	<string>Торкніться, щоб написати тему</string>
+	<key>compose.drafts.compose.title</key>
+	<string>Напишіть повідомлення</string>
+	<key>compose.drafts.empty.subtitle</key>
+	<string>Доторкніться до +, щоб створити нове</string>
+	<key>compose.drafts.empty.title</key>
+	<string>Повідомлень немає</string>
+	<key>compose.drafts.title</key>
+	<string>Повідомлення</string>
+	<key>compose.message.title</key>
+	<string>Повідомлення</string>
+	<key>connection_request.send_button_title</key>
+	<string>Додати</string>
+	<key>connection_request.title</key>
+	<string>Додати %@ до контактів</string>
+	<key>connection_request_pending_title</key>
+	<string>Запит на додавання до контактів</string>
+	<key>contacts_ui.action_button.invite</key>
+	<string>Запросити</string>
+	<key>contacts_ui.action_button.open</key>
+	<string>Вiдкрити</string>
+	<key>contacts_ui.connection_request</key>
+	<string>Надіслав(-ла) запит на додавання до контактів</string>
+	<key>contacts_ui.invite_others</key>
+	<string>Запросити інших користувачів</string>
+	<key>contacts_ui.invite_sheet.cancel_button_title</key>
+	<string>Скасувати</string>
+	<key>contacts_ui.name_in_contacts</key>
+	<string>%@ в Контактах</string>
+	<key>contacts_ui.notification.invitation_failed</key>
+	<string>Не вдалося надіслати запрошення</string>
+	<key>contacts_ui.notification.invitation_sent</key>
+	<string>Запрошення надіслано</string>
+	<key>contacts_ui.search_placeholder</key>
+	<string>Пошук за іменем</string>
+	<key>contacts_ui.title</key>
+	<string>Запросити людей</string>
+	<key>content.file.browse</key>
+	<string>Огляд</string>
+	<key>content.file.downloading</key>
+	<string>Скачування…</string>
+	<key>content.file.save_audio</key>
+	<string>Зберегти</string>
+	<key>content.file.save_video</key>
+	<string>Зберегти</string>
+	<key>content.file.take_video</key>
+	<string>Записати відео</string>
+	<key>content.file.too_big</key>
+	<string>Ви можете надсилати файли до %@</string>
+	<key>content.file.upload_cancelled</key>
+	<string>Завантаження скасовано</string>
+	<key>content.file.upload_failed</key>
+	<string>Не вдалося завантажити</string>
+	<key>content.file.upload_video</key>
+	<string>Відео</string>
+	<key>content.file.uploading</key>
+	<string>Завантаження…</string>
+	<key>content.image.save_image</key>
+	<string>Зберегти</string>
+	<key>content.message.audio_message.accessibility</key>
+	<string>Відтворити аудіоповідомлення</string>
+	<key>content.message.copy</key>
+	<string>Скопіювати</string>
+	<key>content.message.delete</key>
+	<string>Видалити</string>
+	<key>content.message.delete_ellipsis</key>
+	<string>Видалити…</string>
+	<key>content.message.details</key>
+	<string>Подробиці</string>
+	<key>content.message.download</key>
+	<string>Завантажити</string>
+	<key>content.message.forward</key>
+	<string>Поділитись</string>
+	<key>content.message.forward.to</key>
+	<string>Пошук…</string>
+	<key>content.message.go_to_conversation</key>
+	<string>Показати в розмові</string>
+	<key>content.message.like</key>
+	<string>Подобається</string>
+	<key>content.message.link_attachment.accessibility_label.soundcloud_set</key>
+	<string>Попередній перегляд плейліста SoundCloud</string>
+	<key>content.message.link_attachment.accessibility_label.soundcloud_song</key>
+	<string>Попередній перегляд пісні в SoundCloud</string>
+	<key>content.message.link_attachment.accessibility_label.youtube</key>
+	<string>Попередній перегляд відео з YouTube</string>
+	<key>content.message.open</key>
+	<string>Вiдкрити</string>
+	<key>content.message.open_link_alert.message</key>
+	<string>Це перенаправить вас на
+%@</string>
+	<key>content.message.open_link_alert.open</key>
+	<string>Вiдкрити</string>
+	<key>content.message.open_link_alert.title</key>
+	<string>Перейдіть за лінком</string>
+	<key>content.message.original_label</key>
+	<string>Оригінальне повідомлення</string>
+	<key>content.message.reply</key>
+	<string>Відповісти</string>
+	<key>content.message.reply.broken_message</key>
+	<string>Ви не можете бачити це повідомлення.</string>
+	<key>content.message.reply.edited_message</key>
+	<string>Відредаговано</string>
+	<key>content.message.reply.original_timestamp.date</key>
+	<string>Оригінальне повідомлення від %@</string>
+	<key>content.message.reply.original_timestamp.time</key>
+	<string>Оригінальне повідомлення від %@</string>
+	<key>content.message.resend</key>
+	<string>Надіслати ще раз</string>
+	<key>content.message.save</key>
+	<string>Зберегти</string>
+	<key>content.message.unlike</key>
+	<string>Не подобається</string>
+	<key>content.ping.text</key>
+	<string>%@ надіслав(-ла) пінг</string>
+	<key>content.ping.text-you</key>
+	<string>%@ надіслав(-ла) пінг</string>
+	<key>content.ping.text.you</key>
+	<string>Ви</string>
+	<key>content.player.unable_to_play</key>
+	<string>НЕМОЖЛИВО ВІДТВОРИТИ ТРЕК</string>
+	<key>content.reactions_list.likers</key>
+	<string>Сподобалося</string>
+	<key>content.system.and_you_dative</key>
+	<string>та ви</string>
+	<key>content.system.call.called</key>
+	<string>%@ дзвонив(-ла)</string>
+	<key>content.system.call.called-you</key>
+	<string>%@ дзвонив(-ла)</string>
+	<key>content.system.call.called.you</key>
+	<string>Ви</string>
+	<key>content.system.call.missed-call</key>
+	<string>Пропущений дзвінок</string>
+	<key>content.system.call.missed-call-you</key>
+	<string>Пропущений дзвінок</string>
+	<key>content.system.call.missed-call.groups</key>
+	<string>Пропущений дзвінок від %@</string>
+	<key>content.system.call.missed-call.groups-you</key>
+	<string>Пропущений дзвінок від %2$@</string>
+	<key>content.system.call.missed-call.groups.you</key>
+	<string>Ви</string>
+	<key>content.system.cannot_decrypt</key>
+	<string>Повідомлення від %@ не було отримане.</string>
+	<key>content.system.cannot_decrypt.identity</key>
+	<string>%@ ідентифікатор пристрою змінився. Повідомлення не доставлено.</string>
+	<key>content.system.cannot_decrypt.identity.otherUser_part</key>
+	<string>%@</string>
+	<key>content.system.cannot_decrypt.identity.why_part</key>
+	<string>Дізнатися більше</string>
+	<key>content.system.cannot_decrypt.identity.you_part</key>
+	<string>Ваш</string>
+	<key>content.system.cannot_decrypt.otherDevice_part</key>
+	<string>(пристрій %@)</string>
+	<key>content.system.cannot_decrypt.why_part</key>
+	<string>Чому?</string>
+	<key>content.system.cannot_decrypt.you_part</key>
+	<string>ви</string>
+	<key>content.system.connected_to</key>
+	<string>%@ доданий(-на) до контактів
+Можете починати розмову</string>
+	<key>content.system.connecting_to</key>
+	<string>%@ доданий(-на) до контактів.
+Можете починати розмову</string>
+	<key>content.system.continued_conversation</key>
+	<string>Почати розмову з %@</string>
+	<key>content.system.conversation.guest.joined</key>
+	<string>%@ приєднався(-лася)</string>
+	<key>content.system.conversation.invite.button</key>
+	<string>Запросити людей</string>
+	<key>content.system.conversation.invite.title</key>
+	<string>Сервіси та люди поза межами вашої команди можуть приєднатися до цієї розмови.</string>
+	<key>content.system.conversation.other.added</key>
+	<string>%@ додав(-ла) %@</string>
+	<key>content.system.conversation.other.left</key>
+	<string>%@ вийшов(-ла)</string>
+	<key>content.system.conversation.other.removed</key>
+	<string>%@ видалив(-ла) %@</string>
+	<key>content.system.conversation.other.started</key>
+	<string>%@ почав(-ла) розмову з %@</string>
+	<key>content.system.conversation.team.member-leave</key>
+	<string>%@ був(-ла) видалений(-а) з команди.</string>
+	<key>content.system.conversation.with_name.participants</key>
+	<string>з</string>
+	<key>content.system.conversation.with_name.title</key>
+	<string>%@ розпочав(-ла) розмову</string>
+	<key>content.system.conversation.with_name.title-you</key>
+	<string>%@ розпочав(-ла) розмову</string>
+	<key>content.system.conversation.you.added</key>
+	<string>%@ додав(-ла) %@</string>
+	<key>content.system.conversation.you.left</key>
+	<string>%@ вийшов(-ла)</string>
+	<key>content.system.conversation.you.removed</key>
+	<string>%@ видалив(-ла) %@</string>
+	<key>content.system.conversation.you.started</key>
+	<string>%@ почав(-ла) розмову з %@</string>
+	<key>content.system.deleted_message_prefix_timestamp</key>
+	<string>Видалено: %@</string>
+	<key>content.system.edited_message_prefix_timestamp</key>
+	<string>Відредаговано: %@</string>
+	<key>content.system.ephemeral_time_remaining</key>
+	<string>%@ вийшов(-ла)</string>
+	<key>content.system.failedtosend_message_timestamp</key>
+	<string>Помилка надсилання.</string>
+	<key>content.system.failedtosend_message_timestamp_delete</key>
+	<string>Видалити</string>
+	<key>content.system.failedtosend_message_timestamp_resend</key>
+	<string>Надіслати ще раз</string>
+	<key>content.system.is_verified</key>
+	<string>Всі ідентифікатори були верифіковані</string>
+	<key>content.system.like_tooltip</key>
+	<string>Торкніться, якщо сподобалося</string>
+	<key>content.system.message_delivered_timestamp</key>
+	<string>Доставлене</string>
+	<key>content.system.message_legal_hold.disabled</key>
+	<string>Для даної розмови правовий захист деактивовано</string>
+	<key>content.system.message_legal_hold.enabled</key>
+	<string>Дана розмова знаходиться під правовим захистом</string>
+	<key>content.system.message_legal_hold.learn_more</key>
+	<string>Дізнатися більше</string>
+	<key>content.system.message_read_receipt_off</key>
+	<string>%@ вимкнув(-ла) звіти про перегляд для всіх</string>
+	<key>content.system.message_read_receipt_off-you</key>
+	<string>%@ вимкнув(-ла) звіти про перегляд для всіх</string>
+	<key>content.system.message_read_receipt_on</key>
+	<string>%@ увімкнув(-ла) звіти про перегляд для всіх</string>
+	<key>content.system.message_read_receipt_on-you</key>
+	<string>%@ увімкнув(-ла) звіти про перегляд для всіх</string>
+	<key>content.system.message_read_receipt_on_add_to_group</key>
+	<string>Звіти про перегляд увімкнені</string>
+	<key>content.system.message_read_timestamp</key>
+	<string>Переглянуто</string>
+	<key>content.system.message_sent_timestamp</key>
+	<string>Надіслано</string>
+	<key>content.system.message_timer_changes</key>
+	<string>%@ встановив(-ла) таймер повідомлень на %@</string>
+	<key>content.system.message_timer_changes-you</key>
+	<string>%@ встановив(-ла) таймер повідомлень на %@</string>
+	<key>content.system.message_timer_off</key>
+	<string>%@ вимкнув(-ла) таймер повідомлень</string>
+	<key>content.system.message_timer_off-you</key>
+	<string>%@ вимкнув(-ла) таймер повідомлень</string>
+	<key>content.system.missing_messages.subtitle_start</key>
+	<string>Тим часом</string>
+	<key>content.system.missing_messages.title</key>
+	<string>Ви не користувались цим простроєм протягом певного часу. Деякі повідомлення можуть не відображатися тут.</string>
+	<key>content.system.new_device</key>
+	<string>новий пристрій</string>
+	<key>content.system.new_users</key>
+	<string>Приєднався новий учасник.</string>
+	<key>content.system.other_added_participant</key>
+	<string>%@ додав(-ла) %@</string>
+	<key>content.system.other_added_you</key>
+	<string>%@ додав(-ла) вас</string>
+	<key>content.system.other_devices</key>
+	<string>Пристрої, що належать %@</string>
+	<key>content.system.other_left</key>
+	<string>%@ вийшов(-ла)</string>
+	<key>content.system.other_removed_other</key>
+	<string>%@ видалив(-ла) %@</string>
+	<key>content.system.other_removed_you</key>
+	<string>%@ видалив(-ла) вас</string>
+	<key>content.system.other_renamed_conv_to_nothing</key>
+	<string>%@ видалив(-ла) ім'я розмови</string>
+	<key>content.system.other_started_conversation</key>
+	<string>%@ почав(-ла) розмову з %@</string>
+	<key>content.system.other_wanted_to_talk</key>
+	<string>%@ дзвонив(-ла)</string>
+	<key>content.system.participants_1_other</key>
+	<string>%@ та %@</string>
+	<key>content.system.participants_you</key>
+	<string>Ви</string>
+	<key>content.system.pending_message_timestamp</key>
+	<string>Надсилання…</string>
+	<key>content.system.reactivated_device</key>
+	<string>Ви почали використовувати %@ знову. Повідомлення, надіслані поки ви не користувалися ним, не з'являться тут.</string>
+	<key>content.system.renamed_conv.title</key>
+	<string>%@ перейменував(-ла) розмову</string>
+	<key>content.system.renamed_conv.title-you</key>
+	<string>%@ перейменував(-ла) розмову</string>
+	<key>content.system.renamed_conv.title.you</key>
+	<string>Ви</string>
+	<key>content.system.services.warning</key>
+	<string>Сервіси мають доступ до вмісту цієї розмови</string>
+	<key>content.system.started_conversation.complete_team</key>
+	<string>всі учасники команди</string>
+	<key>content.system.started_conversation.complete_team.guests</key>
+	<string>всі учасники команди та %@ гостей</string>
+	<key>content.system.started_conversation.truncated_people</key>
+	<string>та %@</string>
+	<key>content.system.started_conversation.truncated_people.others</key>
+	<string>%@ інших</string>
+	<key>content.system.started_using</key>
+	<string>почали використовувати</string>
+	<key>content.system.this_device</key>
+	<string>цей пристрій</string>
+	<key>content.system.unknown_message.body</key>
+	<string>Це повідомлення не може бути показане. Можливо, ваша версія Wire вийшла із вжитку.</string>
+	<key>content.system.unverified</key>
+	<string>%@ скасував(-ла) верифікацію одного з %@</string>
+	<key>content.system.verify_devices</key>
+	<string>Верифікувати пристрої</string>
+	<key>content.system.you_accusative</key>
+	<string>вас</string>
+	<key>content.system.you_added_participant</key>
+	<string>Ви додали %@</string>
+	<key>content.system.you_dative</key>
+	<string>вам</string>
+	<key>content.system.you_left</key>
+	<string>Ви вийшли</string>
+	<key>content.system.you_nominative</key>
+	<string>ви</string>
+	<key>content.system.you_removed_other</key>
+	<string>Ви видалили %@</string>
+	<key>content.system.you_renamed_conv_to_nothing</key>
+	<string>Ви видалили ім'я розмови</string>
+	<key>content.system.you_started</key>
+	<string>Ви</string>
+	<key>content.system.you_started_conversation</key>
+	<string>Ви почали розмову з %@</string>
+	<key>content.system.you_wanted_to_talk</key>
+	<string>Ви дзвонили</string>
+	<key>content.system.your_devices</key>
+	<string>ваші пристрої</string>
+	<key>conversation.action.search</key>
+	<string>Пошук</string>
+	<key>conversation.alert.message_deleted</key>
+	<string>Повідомлення було видалене.</string>
+	<key>conversation.call.many_participants_confirmation.call</key>
+	<string>Подзвонити</string>
+	<key>conversation.call.many_participants_confirmation.message</key>
+	<string>Ви подзвоните %d людям</string>
+	<key>conversation.call.many_participants_confirmation.title</key>
+	<string>Розпочати дзвінок</string>
+	<key>conversation.connection_view.in_address_book</key>
+	<string>в Контактах</string>
+	<key>conversation.create.group_name.placeholder</key>
+	<string>Ім'я групи</string>
+	<key>conversation.create.group_name.title</key>
+	<string>Створити групу</string>
+	<key>conversation.create.guests.subtitle</key>
+	<string>Зробити цю розмову доступною для серівсів та людей поза межами вашої команди.</string>
+	<key>conversation.create.guests.title</key>
+	<string>Дозволити гостей та сервіси</string>
+	<key>conversation.create.guidance.empty</key>
+	<string>Не менше 1 символу</string>
+	<key>conversation.create.guidance.toolong</key>
+	<string>Занадто багато символів</string>
+	<key>conversation.create.options.subtitle</key>
+	<string>Гості та сервіси: %@, Звіти про перегляд: %@</string>
+	<key>conversation.create.options.title</key>
+	<string>Налаштування розмови</string>
+	<key>conversation.create.receipts.subtitle</key>
+	<string>Якщо ця опція увімкнена, учасники розмови можуть бачити, коли їхні повідомлення в цій розмові були переглянуті.</string>
+	<key>conversation.create.receipts.title</key>
+	<string>Звіти про перегляд</string>
+	<key>conversation.delete_request_dialog.message</key>
+	<string>Це видалить групу та весь її вміст для всіх учасників на всіх пристроях. Можливостей для відновлення вмісту розмови не існує. Всі учасники будуть повідмлені про це.</string>
+	<key>conversation.delete_request_dialog.title</key>
+	<string>Видалити цю розмову?</string>
+	<key>conversation.delete_request_error_dialog.button_delete_group</key>
+	<string>Видалити групу</string>
+	<key>conversation.delete_request_error_dialog.title</key>
+	<string>При вилученні групи "%@" сталася помилка. Будь ласка, пробуйте ще раз.</string>
+	<key>conversation.displayname.emptygroup</key>
+	<string>Групова розмова без учасників</string>
+	<key>conversation.guests_present</key>
+	<string>Присутні гості</string>
+	<key>conversation.guests_services_present</key>
+	<string>Присутні гості та сервіси</string>
+	<key>conversation.input_bar.audio_message.keyboard.filter_tip</key>
+	<string>Змінити фільтр вище</string>
+	<key>conversation.input_bar.audio_message.keyboard.record_tip</key>
+	<string>Торкніться, щоб почати запис
+Ви можете %@ після цього</string>
+	<key>conversation.input_bar.audio_message.send</key>
+	<string>Надіслати</string>
+	<key>conversation.input_bar.audio_message.too_long.message</key>
+	<string>Довжина аудіоповідомлень обмежена до %@.</string>
+	<key>conversation.input_bar.audio_message.too_long.title</key>
+	<string>Запис зупинено</string>
+	<key>conversation.input_bar.audio_message.too_long_size.message</key>
+	<string>Розмір файлу для звукових повідомлень обмежений %@.</string>
+	<key>conversation.input_bar.audio_message.tooltip.pull_send</key>
+	<string>Проведіть вгору для надсилання</string>
+	<key>conversation.input_bar.audio_message.tooltip.tap_send</key>
+	<string>Торкніться для надсилання</string>
+	<key>conversation.input_bar.close_reply</key>
+	<string>Скасувати відповідь</string>
+	<key>conversation.input_bar.message_preview.accessibility.audio_message</key>
+	<string>Аудіоповідомлення</string>
+	<key>conversation.input_bar.message_preview.accessibility.file_message</key>
+	<string>Файл (%@)</string>
+	<key>conversation.input_bar.message_preview.accessibility.image_message</key>
+	<string>Картинка</string>
+	<key>conversation.input_bar.message_preview.accessibility.location_message</key>
+	<string>Розташування</string>
+	<key>conversation.input_bar.message_preview.accessibility.message_from</key>
+	<string>%@ із %@</string>
+	<key>conversation.input_bar.message_preview.accessibility.unknown_message</key>
+	<string>Невизначене повідомлення</string>
+	<key>conversation.input_bar.message_preview.accessibility.video_message</key>
+	<string>Відеоповідомлення</string>
+	<key>conversation.input_bar.message_preview.accessibility_description</key>
+	<string>Відповідь на повідомлення: %@</string>
+	<key>conversation.input_bar.message_preview.audio</key>
+	<string>Аудіоповідомлення</string>
+	<key>conversation.input_bar.message_preview.file</key>
+	<string>Файл</string>
+	<key>conversation.input_bar.message_preview.image</key>
+	<string>Картинка</string>
+	<key>conversation.input_bar.message_preview.location</key>
+	<string>Розташування</string>
+	<key>conversation.input_bar.message_preview.video</key>
+	<string>Відео</string>
+	<key>conversation.input_bar.message_too_long.message</key>
+	<string>Можна надсилати повідомлення довжиною до %d символів.</string>
+	<key>conversation.input_bar.message_too_long.title</key>
+	<string>Повідомлення занадто довге</string>
+	<key>conversation.input_bar.ongoing_call_alert.audio.message</key>
+	<string>Ви не можете записувати аудіо під час дзвінка.</string>
+	<key>conversation.input_bar.ongoing_call_alert.photo.message</key>
+	<string>Ви не можете фотографувати під час дзвінка.</string>
+	<key>conversation.input_bar.ongoing_call_alert.title</key>
+	<string>Активний дзвінок</string>
+	<key>conversation.input_bar.ongoing_call_alert.video.message</key>
+	<string>Ви не можете записувати відео під час дзвінка.</string>
+	<key>conversation.input_bar.placeholder</key>
+	<string>Напишіть повідомлення</string>
+	<key>conversation.input_bar.placeholder_ephemeral</key>
+	<string>Тимчасове повідомлення</string>
+	<key>conversation.input_bar.shortcut.cancel_editing_message</key>
+	<string>Скасувати</string>
+	<key>conversation.input_bar.shortcut.edit_last_message</key>
+	<string>Редагувати останнє повідомлення</string>
+	<key>conversation.input_bar.shortcut.newline</key>
+	<string>Вставити розрив рядка</string>
+	<key>conversation.input_bar.shortcut.send</key>
+	<string>Надіслати повідомлення</string>
+	<key>conversation.input_bar.verified</key>
+	<string>Верифікований</string>
+	<key>conversation.invite_more_people.button_title</key>
+	<string>Додати учасників</string>
+	<key>conversation.invite_more_people.description</key>
+	<string>Додати учасників до цієї розмови</string>
+	<key>conversation.invite_more_people.explanation_url</key>
+	<string>https://support.wire.com</string>
+	<key>conversation.invite_more_people.title</key>
+	<string>Поділіться з друзями!</string>
+	<key>conversation.services_present</key>
+	<string>Сервіси активовані</string>
+	<key>conversation.status.blocked</key>
+	<string>Заблокований(-на)</string>
+	<key>conversation.status.incoming_call</key>
+	<string>%@ дзвонить…</string>
+	<key>conversation.status.incoming_call.unknown</key>
+	<string>Хтось дзвонить…</string>
+	<key>conversation.status.message.audio</key>
+	<string>Поділився(-лась) аудіоповідомленням</string>
+	<key>conversation.status.message.ephemeral</key>
+	<string>Надіслав повідомлення</string>
+	<key>conversation.status.message.ephemeral.group</key>
+	<string>Хтось надіслав повідомлення</string>
+	<key>conversation.status.message.ephemeral.knock</key>
+	<string>Відправлено пінг</string>
+	<key>conversation.status.message.ephemeral.knock.group</key>
+	<string>Хтось надіслав пінг</string>
+	<key>conversation.status.message.ephemeral.mention</key>
+	<string>Згадав вас</string>
+	<key>conversation.status.message.ephemeral.mention.group</key>
+	<string>Хтось згадав вас</string>
+	<key>conversation.status.message.ephemeral.reply</key>
+	<string>Відповів(-ла) на ваше повідомлення</string>
+	<key>conversation.status.message.ephemeral.reply.group</key>
+	<string>Хтось відповів на ваше повідомлення</string>
+	<key>conversation.status.message.file</key>
+	<string>Поділився(-лась) файлом</string>
+	<key>conversation.status.message.image</key>
+	<string>Поділився(-лась) картинкою</string>
+	<key>conversation.status.message.knock</key>
+	<string>Надіслав(-ла) пінг</string>
+	<key>conversation.status.message.link</key>
+	<string>Поділився(-лась) посиланням</string>
+	<key>conversation.status.message.location</key>
+	<string>Поділився(-лась) розташуванням</string>
+	<key>conversation.status.message.mention</key>
+	<string>%@</string>
+	<key>conversation.status.message.missedcall</key>
+	<string>Пропущений дзвінок</string>
+	<key>conversation.status.message.missedcall.groups</key>
+	<string>Пропущений дзвінок від %@</string>
+	<key>conversation.status.message.reply</key>
+	<string>%@</string>
+	<key>conversation.status.message.text</key>
+	<string>%@</string>
+	<key>conversation.status.message.video</key>
+	<string>Поділився(-лась) відео</string>
+	<key>conversation.status.poor_connection</key>
+	<string>Повільне з'єднання</string>
+	<key>conversation.status.silenced</key>
+	<string>Режим тиші увімк.</string>
+	<key>conversation.status.someone</key>
+	<string>Хтось</string>
+	<key>conversation.status.started_conversation</key>
+	<string>%@ почав(-ла) розмову</string>
+	<key>conversation.status.typing</key>
+	<string>Набирається повідомлення…</string>
+	<key>conversation.status.typing.group</key>
+	<string>%@: набирає повідомлення…</string>
+	<key>conversation.status.unsent</key>
+	<string>⚠️ Ненадіслане повідомлення</string>
+	<key>conversation.status.you</key>
+	<string>Ви</string>
+	<key>conversation.status.you_left</key>
+	<string>Ви вийшли</string>
+	<key>conversation.status.you_was_added</key>
+	<string>%@ додав(-ла) вас</string>
+	<key>conversation.status.you_were_removed</key>
+	<string>Вас видалили</string>
+	<key>conversation.voiceover.legalhold</key>
+	<string>правовий захист</string>
+	<key>conversation.voiceover.value.active</key>
+	<string>активне</string>
+	<key>conversation.voiceover.value.disabled</key>
+	<string>вимкнене</string>
+	<key>conversation.voiceover.verified</key>
+	<string>верифіковано</string>
+	<key>conversation_details.open_button.accessibility_hint</key>
+	<string>Торкніться двічі, щоб переглянути детальну інформацію про розмову.</string>
+	<key>conversation_list.data_usage_permission_alert.agree</key>
+	<string>Я згоден(-а)</string>
+	<key>conversation_list.data_usage_permission_alert.disagree</key>
+	<string>Ні</string>
+	<key>conversation_list.data_usage_permission_alert.message</key>
+	<string>Я згоден з тим, що Wire може створювати та використовувати анонімні звіти про використання програми та збої в роботі для покращення якості додатку. Я можу відкликати мою згоду в будь-який час.</string>
+	<key>conversation_list.data_usage_permission_alert.title</key>
+	<string>Допоможіть нам зробити Wire кращим</string>
+	<key>conversation_list.empty.all_archived.message</key>
+	<string>Усі розмови заархівовано</string>
+	<key>conversation_list.empty.no_contacts.message</key>
+	<string>Розпочніть розмову
+або створіть групу.</string>
+	<key>conversation_list.header.self_team.accessibility_value</key>
+	<string>Акаунт %@.</string>
+	<key>conversation_list.header.self_team.accessibility_value.active</key>
+	<string>Наразі активна.</string>
+	<key>conversation_list.header.self_team.accessibility_value.has_new_messages</key>
+	<string>Є нові повідомлення.</string>
+	<key>conversation_list.header.self_team.accessibility_value.inactive</key>
+	<string>Торкніться, щоб активувати.</string>
+	<key>conversation_list.right_accessory.join_button.title</key>
+	<string>Приєднатись</string>
+	<key>conversation_list.voiceover.bottom_bar.archived_button.hint</key>
+	<string>перелік заархівованих розмов</string>
+	<key>conversation_list.voiceover.bottom_bar.archived_button.label</key>
+	<string>заархівовано</string>
+	<key>conversation_list.voiceover.bottom_bar.camera_button.hint</key>
+	<string>зробити фотографію та швидко надіслати</string>
+	<key>conversation_list.voiceover.bottom_bar.camera_button.label</key>
+	<string>камера</string>
+	<key>conversation_list.voiceover.bottom_bar.compose_button.hint</key>
+	<string>створити повідомлення та зберегти для подальшого використання</string>
+	<key>conversation_list.voiceover.bottom_bar.compose_button.label</key>
+	<string>створити</string>
+	<key>conversation_list.voiceover.bottom_bar.contacts_button.hint</key>
+	<string>шукати людей в Wire</string>
+	<key>conversation_list.voiceover.bottom_bar.contacts_button.label</key>
+	<string>контакти</string>
+	<key>conversation_list.voiceover.bottom_bar.folder_button.hint</key>
+	<string>список розмов, організованих в теки</string>
+	<key>conversation_list.voiceover.bottom_bar.folder_button.label</key>
+	<string>теки</string>
+	<key>conversation_list.voiceover.bottom_bar.recent_button.hint</key>
+	<string>список нещодавніх розмов</string>
+	<key>conversation_list.voiceover.bottom_bar.recent_button.label</key>
+	<string>нещодавні</string>
+	<key>conversation_list.voiceover.open_conversation.hint</key>
+	<string>Відкрити розмову</string>
+	<key>conversation_list.voiceover.status.active_call</key>
+	<string>активний дзвінок</string>
+	<key>conversation_list.voiceover.status.mention</key>
+	<string>вас хтось згадав</string>
+	<key>conversation_list.voiceover.status.missed_call</key>
+	<string>пропущений дзвінок</string>
+	<key>conversation_list.voiceover.status.pause_media</key>
+	<string>призупити відтворення медіа</string>
+	<key>conversation_list.voiceover.status.pending_connection</key>
+	<string>очікує</string>
+	<key>conversation_list.voiceover.status.ping</key>
+	<string>пінг</string>
+	<key>conversation_list.voiceover.status.play_media</key>
+	<string>відтворити медіа</string>
+	<key>conversation_list.voiceover.status.reply</key>
+	<string>відповідь</string>
+	<key>conversation_list.voiceover.status.silenced</key>
+	<string>сповіщення вимкнено</string>
+	<key>conversation_list.voiceover.status.typing</key>
+	<string>вводить текст</string>
+	<key>conversation_list.voiceover.unread_messages.hint</key>
+	<string>У вас є непрочитані повідомлення.</string>
+	<key>device.class.desktop</key>
+	<string>Настільний ПК</string>
+	<key>device.class.legalhold</key>
+	<string>Правовий захист</string>
+	<key>device.class.phone</key>
+	<string>Телефон</string>
+	<key>device.class.tablet</key>
+	<string>Планшет</string>
+	<key>device.class.unknown</key>
+	<string>Невідомо</string>
+	<key>device.not_verified</key>
+	<string>Не верифікований</string>
+	<key>device.type.legalhold</key>
+	<string>Правовий захист</string>
+	<key>device.type.permanent</key>
+	<string>Постійний</string>
+	<key>device.type.temporary</key>
+	<string>Тимчасовий</string>
+	<key>device.type.unknown</key>
+	<string>Невідомо</string>
+	<key>device.verified</key>
+	<string>Верифікований</string>
+	<key>email.guidance.invalid</key>
+	<string>Невірна адреса електронної пошти</string>
+	<key>email.guidance.toolong</key>
+	<string>Занадто багато символів</string>
+	<key>email.guidance.tooshort</key>
+	<string>Email-адреса закоротка</string>
+	<key>email.placeholder</key>
+	<string>Email</string>
+	<key>error.call.general</key>
+	<string>Будь ласка, спробуйте подзвонити знову через кілька хвилин.</string>
+	<key>error.call.general.title</key>
+	<string>Помилка дзвінка</string>
+	<key>error.call.gsm_ongoing</key>
+	<string>Будь ласка, завершіть стільниковий дзвінок перед тим, як дзвонити з Wire.</string>
+	<key>error.call.gsm_ongoing.title</key>
+	<string>Стільниковий дзвінок</string>
+	<key>error.call.slow_connection</key>
+	<string>Можуть виникнути проблеми під час дзвінка</string>
+	<key>error.call.slow_connection.call_anyway</key>
+	<string>Подзвонити все одно</string>
+	<key>error.call.slow_connection.title</key>
+	<string>Повільне з'єднання</string>
+	<key>error.conversation.cannot_add</key>
+	<string>Не вдалося додати учасника(-цю)</string>
+	<key>error.conversation.cannot_remove</key>
+	<string>Не вдалося видалити учасника(-цю)</string>
+	<key>error.conversation.offline</key>
+	<string>Схоже, що є проблема із інтернет-з'єднанням. Будь ласка, переконайтесь, що з ним все в порядку.</string>
+	<key>error.conversation.title</key>
+	<string>Помилка</string>
+	<key>error.conversation.too_many_members</key>
+	<string>Розмова переповнена</string>
+	<key>error.email</key>
+	<string>Будь ласка, введіть актуальну адресу електронної пошти</string>
+	<key>error.email.invalid</key>
+	<string>Будь ласка, введіть актуальну адресу електронної пошти</string>
+	<key>error.full_name</key>
+	<string>Будь ласка, введіть своє ім’я</string>
+	<key>error.group_call.too_many_members_in_conversation</key>
+	<string>Дзвінки можливі в розмовах до %d людей.</string>
+	<key>error.group_call.too_many_members_in_conversation.title</key>
+	<string>Забагато учасників для здійснення дзвінка</string>
+	<key>error.group_call.too_many_participants_in_the_call</key>
+	<string>Тут залишилось місце тільки для %d учасників(-а).</string>
+	<key>error.group_call.too_many_participants_in_the_call.title</key>
+	<string>Забагато людей в дзвінку</string>
+	<key>error.input.too_long</key>
+	<string>Введений текст задовгий</string>
+	<key>error.input.too_short</key>
+	<string>Введений текст закороткий</string>
+	<key>error.invite.no_email_provider</key>
+	<string>Будь ласка, налаштуйте ваш поштовий клієнт, щоб надсилати запрошення через email</string>
+	<key>error.invite.no_messaging_provider</key>
+	<string>Будь ласка, налаштуйте службу надсилання SMS, щоб запрошувати людей через SMS</string>
+	<key>error.name_and_email</key>
+	<string>Будь ласка, введіть своє ім'я та email</string>
+	<key>error.phone.invalid</key>
+	<string>Будь ласка, введіть правильний номер телефону</string>
+	<key>error.updating_password</key>
+	<string>Не вдалося оновити ваш пароль.</string>
+	<key>error.user.account_limit_reached</key>
+	<string>Ви не можете додати більше трьох акаунтів.</string>
+	<key>error.user.account_pending_activation</key>
+	<string>Акаунт, який ви намагаєтесь використовувати, очікує активації. Будь ласка, перевірте ваші дані.</string>
+	<key>error.user.account_suspended</key>
+	<string>Даний акаунт був заблокований.</string>
+	<key>error.user.device_deleted_remotely</key>
+	<string>Ви вийшли на іншому пристрої.</string>
+	<key>error.user.email_is_taken</key>
+	<string>Такий email вже зареєстрований. Будь ласка, спробуйте інший.</string>
+	<key>error.user.invalid_credentials</key>
+	<string>Будь ласка, перевірте ваші дані та повторіть спробу.</string>
+	<key>error.user.last_identity_cant_be_deleted</key>
+	<string>Необхідна або email-адреса або номер телефону.</string>
+	<key>error.user.needs_credentials</key>
+	<string>Будь ласка, перевірте ваші дані та повторіть спробу.</string>
+	<key>error.user.network_error</key>
+	<string>Спостерігаються тимчасові проблеми з вашою мережею. Будь ласка, спробуйте знову пізніше.</string>
+	<key>error.user.phone_code_invalid</key>
+	<string>Будь ласка, введіть правильний код</string>
+	<key>error.user.phone_code_too_many</key>
+	<string>Ми вже надіслали SMS з кодом. Щоб отримати новий код, натисніть "Надіслати ще раз" через 10 хвилин.</string>
+	<key>error.user.phone_is_taken</key>
+	<string>Такий номер телефону вже зареєстрований. Будь ласка, спробуйте інший.</string>
+	<key>error.user.registration_unknown_error</key>
+	<string>Щось пішло не так. Будь ласка спробуйте ще раз.</string>
+	<key>error.user.unkown_error</key>
+	<string>Щось пішло не так. Будь ласка, спробуй ще раз</string>
+	<key>folder.creation.name.button.create</key>
+	<string>Створити</string>
+	<key>folder.creation.name.footer</key>
+	<string>Максимум 64 символи</string>
+	<key>folder.creation.name.header</key>
+	<string>Перенести розмову "%@" до нової теки.</string>
+	<key>folder.creation.name.placeholder</key>
+	<string>Назва теки</string>
+	<key>folder.creation.name.title</key>
+	<string>Створити нову теку</string>
+	<key>folder.picker.empty.hint</key>
+	<string>Створити нову папку за допомогою кнопки +</string>
+	<key>folder.picker.title</key>
+	<string>Перемістити до</string>
+	<key>force.update.message</key>
+	<string>Не пропустіть нові функції.
+Отримайте найновішу версію Wire з App Store.</string>
+	<key>force.update.ok_button</key>
+	<string>Перейти в App Store</string>
+	<key>force.update.title</key>
+	<string>Необхідне оновлення</string>
+	<key>general.accept</key>
+	<string>Прийняти</string>
+	<key>general.back</key>
+	<string>Повернутись</string>
+	<key>general.cancel</key>
+	<string>Скасувати</string>
+	<key>general.close</key>
+	<string>Закрити</string>
+	<key>general.confirm</key>
+	<string>OK</string>
+	<key>general.decline</key>
+	<string>Ні, дякую</string>
+	<key>general.done</key>
+	<string>Готово</string>
+	<key>general.edit</key>
+	<string>Редагувати</string>
+	<key>general.failure</key>
+	<string>Щось пішло не так</string>
+	<key>general.failure.try_again</key>
+	<string>Будь ласка, спробуйте ще раз.</string>
+	<key>general.guest-room-name</key>
+	<string>Гостьова кімната</string>
+	<key>general.loading</key>
+	<string>Завантаження…</string>
+	<key>general.next</key>
+	<string>Далі</string>
+	<key>general.off</key>
+	<string>Вимк.</string>
+	<key>general.ok</key>
+	<string>OK</string>
+	<key>general.on</key>
+	<string>Увімк.</string>
+	<key>general.open_settings</key>
+	<string>Відкрити налаштування Wire</string>
+	<key>general.paste</key>
+	<string>Вставити</string>
+	<key>general.service</key>
+	<string>Сервіс</string>
+	<key>general.skip</key>
+	<string>Не зараз</string>
+	<key>general.space_between_words</key>
+	<string> </string>
+	<key>giphy.cancel</key>
+	<string>скасувати</string>
+	<key>giphy.confirm</key>
+	<string>надіслати</string>
+	<key>giphy.conversation.message</key>
+	<string>%@ · через giphy.com</string>
+	<key>giphy.conversation.random_message</key>
+	<string>через giphy.com</string>
+	<key>giphy.error.no_more_results</key>
+	<string>більше немає анімацій</string>
+	<key>giphy.error.no_result</key>
+	<string>анімацій не знайдено</string>
+	<key>giphy.search_placeholder</key>
+	<string>Пошук Giphy</string>
+	<key>group_details.conversation_admins_header.title</key>
+	<string>Адміністратори групи</string>
+	<key>group_details.conversation_members_header.title</key>
+	<string>Учасники групи</string>
+	<key>group_details.guest_options_cell.disabled</key>
+	<string>Вимкнений</string>
+	<key>group_details.guest_options_cell.enabled</key>
+	<string>Увімк.</string>
+	<key>group_details.guest_options_cell.title</key>
+	<string>Гості та сервіси</string>
+	<key>group_details.notification_options_cell.description</key>
+	<string>Ви можете отримувати нотифікації про всі події (включаючи аудіо- і відеодзвінки), або тільки тоді, коли хтось згадує вас або відповідає на одне з ваших повідомлень.</string>
+	<key>group_details.notification_options_cell.title</key>
+	<string>Сповіщення</string>
+	<key>group_details.receipt_options_cell.description</key>
+	<string>Якщо ця опція увімкнена, учасники розмови можуть бачити, коли їхні повідомлення в цій розмові були переглянуті.</string>
+	<key>group_details.receipt_options_cell.title</key>
+	<string>Звіти про перегляд</string>
+	<key>group_details.timeout_options_cell.title</key>
+	<string>Тимчасові повідомлення</string>
+	<key>guest_room.actions.copied_link</key>
+	<string>Лінк скопійовано!</string>
+	<key>guest_room.actions.copy_link</key>
+	<string>Скопіювати лінк</string>
+	<key>guest_room.actions.revoke_link</key>
+	<string>Відкликати лінк…</string>
+	<key>guest_room.actions.share_link</key>
+	<string>Поділитись лінком</string>
+	<key>guest_room.allow_guests.subtitle</key>
+	<string>Зробити цю розмову лоступною для серівсів та людей поза межами вашої команди.</string>
+	<key>guest_room.allow_guests.title</key>
+	<string>Дозволити гостей та сервіси</string>
+	<key>guest_room.error.generic.message</key>
+	<string>Перевірте з'єднання і спробуйте ще раз</string>
+	<key>guest_room.error.generic.title</key>
+	<string>Щось пішло не так</string>
+	<key>guest_room.expiration.hours_left</key>
+	<string>Залишилось %@ год.</string>
+	<key>guest_room.expiration.less_than_minutes_left</key>
+	<string>Залишилось менше %@ хв.</string>
+	<key>guest_room.link.button.title</key>
+	<string>Створити лінк</string>
+	<key>guest_room.link.header.subtitle</key>
+	<string>З цим лінком кожен може приєднатися до розмови, навіть якщо він або вона не зареєстровані в Wire.</string>
+	<key>guest_room.link.header.title</key>
+	<string>Запросити інших користувачів за допомогою лінка</string>
+	<key>guest_room.remove_guests.action</key>
+	<string>Видалити</string>
+	<key>guest_room.remove_guests.message</key>
+	<string>Поточні гості та сервіси будуть вилучені з розмови. Нові гості та сервіси будуть не змозі приєднатися до неї.</string>
+	<key>guest_room.revoke_link.action</key>
+	<string>Відкликати лінк</string>
+	<key>guest_room.revoke_link.message</key>
+	<string>Нові гості не зможуть приєднатися з цим лінком. Поточні гості все ще матимуть доступ.</string>
+	<key>guest_room.share.message</key>
+	<string>Приєднуйтесь до мене в розмові через Wire:
+%@</string>
+	<key>image.add_sketch</key>
+	<string>Додати зарисовку</string>
+	<key>image.edit_image</key>
+	<string>Редагувати картинку</string>
+	<key>image_confirmer.cancel</key>
+	<string>Скасувати</string>
+	<key>image_confirmer.confirm</key>
+	<string>OK</string>
+	<key>inbox.connection_request.connect_button_title</key>
+	<string>Додати до контактів</string>
+	<key>inbox.connection_request.ignore_button_title</key>
+	<string>Ігнорувати</string>
+	<key>input.ephemeral.timeout.none</key>
+	<string>Вимкнений</string>
+	<key>input.ephemeral.title</key>
+	<string>Встановіть період, після якого повідомлення зникне</string>
+	<key>invite_banner.invite_button_title</key>
+	<string>Запросити більше людей</string>
+	<key>invite_banner.message</key>
+	<string>Насолоджуйтесь дзвінками, повідомленнями, зарисовками, GIF-анімаціями приватно або в групах.</string>
+	<key>invite_banner.title</key>
+	<string>Запросіть ваших друзів до Wire!</string>
+	<key>jailbrokendevice.alert.message</key>
+	<string>З причин безпеки, Wire не може використовуватися на даному пристрої. Всі наявні дані Wire було видалено.</string>
+	<key>jailbrokendevice.alert.title</key>
+	<string>Виявлено jailbreak</string>
+	<key>keyboard_photos_access.denied.keyboard.camera</key>
+	<string>Wire потребує доступу до вашої камери.</string>
+	<key>keyboard_photos_access.denied.keyboard.camera_and_photos</key>
+	<string>Wire потребує доступу до 
+вашої камери та фотографій.</string>
+	<key>keyboard_photos_access.denied.keyboard.ongoing_call</key>
+	<string>Доступ до камери відсутній під час відеодзвінка.</string>
+	<key>keyboard_photos_access.denied.keyboard.photos</key>
+	<string>Wire потребує доступу до ваших фотографій.</string>
+	<key>keyboard_photos_access.denied.keyboard.settings</key>
+	<string>Налаштування</string>
+	<key>landing.create_account.subtitle</key>
+	<string>Розмовляйте приватно з групою друзів та сім'єю</string>
+	<key>landing.create_account.title</key>
+	<string>Створити акаунт</string>
+	<key>landing.create_team.subtitle</key>
+	<string>Безпечна співпраця для бізнесу, органів влади та профільних організацій</string>
+	<key>landing.create_team.title</key>
+	<string>Pro акаунт</string>
+	<key>landing.custom_backend.more_info.alert.title</key>
+	<string> Ви з'єднані з сервером третьої сторони: %@</string>
+	<key>landing.custom_backend.more_info.button.title</key>
+	<string>Показати більше</string>
+	<key>landing.custom_backend.title</key>
+	<string>З'єднано з "%@"</string>
+	<key>landing.header</key>
+	<string>Wire. Додати акаунт.</string>
+	<key>landing.login.button.title</key>
+	<string>Увійти</string>
+	<key>landing.login.email.button.title</key>
+	<string>Увійти за допомогою емейлу</string>
+	<key>landing.login.enterprise.button.title</key>
+	<string>Корпоративна аутентифікація</string>
+	<key>landing.login.hints</key>
+	<string>Вже зареєстровані?</string>
+	<key>landing.login.sso.button.title</key>
+	<string>Увійти через SSO</string>
+	<key>landing.welcome_message</key>
+	<string>Ласкаво просимо до %@</string>
+	<key>legal_hold.deactivated.message</key>
+	<string>Майбутні повідомлення будуть записані.</string>
+	<key>legal_hold.deactivated.title</key>
+	<string>Правовий захист деактивовано</string>
+	<key>legalhold.accessibility</key>
+	<string>Подробиці правового захисту</string>
+	<key>legalhold.header.other_description</key>
+	<string>В даній розмові правовий захист активовано, як мінімум, для одного учасника.
+Всі повідомлення будуть збережені для доступу в майбутньому, включно з видаленими та тимчасованими повідомленнями.</string>
+	<key>legalhold.header.self_description</key>
+	<string>Правовий захист було активовано для вашого акаунту.
+Всі повідомлення будуть збережені для доступу в майбутньому, включно з видаленими та тимчасованими повідомленнями.
+Ваші співрозмовники будуть повідомлені про це.</string>
+	<key>legalhold.header.title</key>
+	<string>Правовий захист</string>
+	<key>legalhold.participants.section.title</key>
+	<string>Суб'єкти правового захисту</string>
+	<key>legalhold_active.alert.learn_more</key>
+	<string>Дізнатися більше</string>
+	<key>legalhold_active.alert.message</key>
+	<string>Правовий захист було активовано для вашого акаунту.
+Всі повідомлення будуть збережені для доступу в майбутньому, включно з видаленими та тимчасованими повідомленнями.
+
+Ваші співрозмовники будуть повідомлені про це.</string>
+	<key>legalhold_active.alert.title</key>
+	<string>Правовий захист активний</string>
+	<key>legalhold_request.alert.detail</key>
+	<string>Усі майбутні повідомлення будуть записані пристроєм з ідентифікатором:
+
+%@
+
+В тому числі видалені, відредаговані та тимчасові повідомлення в усіх розмовах.</string>
+	<key>legalhold_request.alert.detail.enter_password</key>
+	<string>Введіть ваш пароль для підтвердження.</string>
+	<key>legalhold_request.alert.error_wrong_password</key>
+	<string>Невірний пароль</string>
+	<key>legalhold_request.alert.title</key>
+	<string>Отримано запит на правовий захист</string>
+	<key>legalhold_request.button.accessibility</key>
+	<string>Очікує підтвердження.</string>
+	<key>library.alert.permission_warning.not_allowed.explaination</key>
+	<string>Відкрийте налаштування та дозвольте Wire доступ до ваших фотографій.</string>
+	<key>library.alert.permission_warning.restrictions.explaination</key>
+	<string>Wire не може отримати доступ до медіатеки, тому що ви заборонили доступ до неї.</string>
+	<key>library.alert.permission_warning.title</key>
+	<string>Wire потребує доступу до ваших фотографій</string>
+	<key>list.archived_conversations</key>
+	<string>АРХІВ</string>
+	<key>list.archived_conversations_close</key>
+	<string>Закрити архів</string>
+	<key>list.section.contacts</key>
+	<string>Люди</string>
+	<key>list.section.favorites</key>
+	<string>Вподобання</string>
+	<key>list.section.groups</key>
+	<string>Групи</string>
+	<key>list.section.requests</key>
+	<string>Запити</string>
+	<key>list.title</key>
+	<string>Розмови</string>
+	<key>location.send_button.title</key>
+	<string>Надіслати</string>
+	<key>location.unauthorized_alert.cancel</key>
+	<string>Скасувати</string>
+	<key>location.unauthorized_alert.message</key>
+	<string>Щоб поділитись вашим розташуванням, увімкніть Службу Розташування та надайте для Wire доступ до визначення розташування.</string>
+	<key>location.unauthorized_alert.settings</key>
+	<string>Налаштування</string>
+	<key>location.unauthorized_alert.title</key>
+	<string>Увімкніть службу розташування</string>
+	<key>login.sso.alert.action</key>
+	<string>Увійти</string>
+	<key>login.sso.alert.message.sso_and_email</key>
+	<string>Будь ласка, введіть ваш емейл або код SSO:</string>
+	<key>login.sso.alert.message.sso_only</key>
+	<string>Будь ласка, введіть ваш код SSO:</string>
+	<key>login.sso.alert.text_field.placeholder.sso_and_email</key>
+	<string>емейл або код доступу SSO</string>
+	<key>login.sso.alert.text_field.placeholder.sso_only</key>
+	<string>Код доступу SSO</string>
+	<key>login.sso.alert.title</key>
+	<string>Корпоративна аутентифікація</string>
+	<key>login.sso.error.alert.domain_associated_with_wrong_server.message</key>
+	<string>Цей емейл пов'язаний з іншим сервером, проте додаток може підключитися лише до одного серверу. Будь ласка, вийдіть з усіх акаунтів Wire на цьому пристрої та спробуйте ще раз.</string>
+	<key>login.sso.error.alert.domain_not_registered.message</key>
+	<string>Цей емейл не може використовуватися для корпоративної аутентифікації. Будь ласка, введіть SSO код, щоб продовжити.</string>
+	<key>login.sso.error.alert.invalid_code.message</key>
+	<string>Будь ласка, упевніться, що це вірний код SSO вашої команди, та повторіть спробу.</string>
+	<key>login.sso.error.alert.invalid_format.message.sso_and_email</key>
+	<string>Будь ласка, введіть правильний емейл або код SSO доступу</string>
+	<key>login.sso.error.alert.invalid_format.message.sso_only</key>
+	<string>Будь ласка, введіть правильний код SSO доступу</string>
+	<key>login.sso.error.alert.invalid_status.message</key>
+	<string>Будь ласка, спробуйте ще раз пізніше (помилка %@).</string>
+	<key>login.sso.error.alert.message</key>
+	<string>Будь ласка, зверніться до адміністратора команди, щоб отримати детальну інформацію, (помилка %@).</string>
+	<key>login.sso.error.alert.unknown.message</key>
+	<string>Будь ласка, спробуйте ще раз пізніше.</string>
+	<key>login.sso.error.offline.alert.message</key>
+	<string>Перевірте з'єднання з інтернетом та спробуйте ще раз.</string>
+	<key>login.sso.link_error_message</key>
+	<string>This link is not valid. Please contact your administrator to resolve the issue.</string>
+	<key>login.sso.start_error_title</key>
+	<string>Cannot Start Enterprise Login</string>
+	<key>message.delete_dialog.action.cancel</key>
+	<string>Скасувати</string>
+	<key>message.delete_dialog.action.delete</key>
+	<string>Видалити для всіх</string>
+	<key>message.delete_dialog.action.hide</key>
+	<string>Видалити для мене</string>
+	<key>message.delete_dialog.message</key>
+	<string>Цю дію неможливо скасувати.</string>
+	<key>message.menu.edit.title</key>
+	<string>Редагувати</string>
+	<key>message_details.combined_title</key>
+	<string>Деталі повідомлення</string>
+	<key>message_details.empty_likes</key>
+	<string>Це повідомлення поки що ніхто не лайкнув.</string>
+	<key>message_details.empty_read_receipts</key>
+	<string>Це повідомлення поки що ніхто не переглянув.</string>
+	<key>message_details.likes_title</key>
+	<string>Сподобалось</string>
+	<key>message_details.read_receipts_disabled</key>
+	<string>Звіти про перегляд були вимкнені, коли це повідомлення було надіслано.</string>
+	<key>message_details.receipts_title</key>
+	<string>Перегляди</string>
+	<key>message_details.subtitle_edit_date</key>
+	<string>Відредаговано: %@</string>
+	<key>message_details.subtitle_label_voiceOver</key>
+	<string>Деталі повідомлення</string>
+	<key>message_details.subtitle_send_date</key>
+	<string>Відправлене: %@</string>
+	<key>message_details.tabs.likes</key>
+	<string>Сподобалось (%d)</string>
+	<key>message_details.tabs.seen</key>
+	<string>Переглядів (%d)</string>
+	<key>message_details.user_handle_subtitle_label</key>
+	<string>Нік</string>
+	<key>message_details.user_read_timestamp_subtitle_label</key>
+	<string>Переглянуте о</string>
+	<key>meta.degraded.cancel_sending_button</key>
+	<string>Скасувати</string>
+	<key>meta.degraded.degradation_reason_message.plural</key>
+	<string>%@ почав(-ла) використовувати нові пристрої.</string>
+	<key>meta.degraded.degradation_reason_message.singular</key>
+	<string>%@ почав(-ла) використовувати новий пристрій.</string>
+	<key>meta.degraded.degradation_reason_message.someone</key>
+	<string>Хтось почав використовувати новий пристрій.</string>
+	<key>meta.degraded.dialog_message</key>
+	<string>Усе одно надіслати ваше повідомлення?</string>
+	<key>meta.degraded.send_anyway_button</key>
+	<string>Все одно надіслати</string>
+	<key>meta.degraded.verify_devices_button</key>
+	<string>Верифікуйте пристрої…</string>
+	<key>meta.leave_conversation.delete_content_as_well_message</key>
+	<string>Також очистити вміст</string>
+	<key>meta.leave_conversation_button_cancel</key>
+	<string>Скасувати</string>
+	<key>meta.leave_conversation_button_leave</key>
+	<string>Вийти</string>
+	<key>meta.leave_conversation_button_leave_and_delete</key>
+	<string>Вийти та очистити вміст</string>
+	<key>meta.leave_conversation_dialog_message</key>
+	<string>Учасники будуть повідомлені, і розмову буде видалено з вашого списку.</string>
+	<key>meta.leave_conversation_dialog_title</key>
+	<string>Вийти з розмови?</string>
+	<key>meta.legalhold.info_button</key>
+	<string>Що таке правовий захист?</string>
+	<key>meta.legalhold.send_alert_title</key>
+	<string>Дана розмова тепер знаходиться під правовим захистом.</string>
+	<key>meta.menu.accessibility_more_options_button</key>
+	<string>Додаткові дії</string>
+	<key>meta.menu.archive</key>
+	<string>Архівувати</string>
+	<key>meta.menu.cancel</key>
+	<string>Скасувати</string>
+	<key>meta.menu.cancel_connection_request</key>
+	<string>Скасувати запит</string>
+	<key>meta.menu.clear_content</key>
+	<string>Очистити вміст…</string>
+	<key>meta.menu.configure_notification.button_cancel</key>
+	<string>Скасувати</string>
+	<key>meta.menu.configure_notification.button_everything</key>
+	<string>Все</string>
+	<key>meta.menu.configure_notification.button_mentions_and_replies</key>
+	<string>Згадки та відповіді</string>
+	<key>meta.menu.configure_notification.button_nothing</key>
+	<string>Нічого</string>
+	<key>meta.menu.configure_notification.dialog_message</key>
+	<string>Повідомляти мене про:</string>
+	<key>meta.menu.configure_notifications</key>
+	<string>Нотифікації…</string>
+	<key>meta.menu.delete</key>
+	<string>Видалити групу…</string>
+	<key>meta.menu.delete_content.button_cancel</key>
+	<string>Скасувати</string>
+	<key>meta.menu.delete_content.button_delete</key>
+	<string>Очистити</string>
+	<key>meta.menu.delete_content.button_delete_and_leave</key>
+	<string>Очистити та вийти</string>
+	<key>meta.menu.delete_content.dialog_message</key>
+	<string>Це очистить історію розмови на всіх ваших пристроях.</string>
+	<key>meta.menu.delete_content.dialog_title</key>
+	<string>Очистити вміст?</string>
+	<key>meta.menu.delete_content.leave_as_well_message</key>
+	<string>Також вийти з розмови</string>
+	<key>meta.menu.leave</key>
+	<string>Вийти з групи…</string>
+	<key>meta.menu.mark_read</key>
+	<string>Позначити як прочитане</string>
+	<key>meta.menu.mark_unread</key>
+	<string>Позначити як непрочитане</string>
+	<key>meta.menu.move_to_folder</key>
+	<string>Перемістити до…</string>
+	<key>meta.menu.open_self_profile</key>
+	<string>Відкрити профіль</string>
+	<key>meta.menu.remove_from_folder</key>
+	<string>Видалити з "%@"</string>
+	<key>meta.menu.rename</key>
+	<string>Перейменувати</string>
+	<key>meta.menu.silence.mute</key>
+	<string>Вимкнути звук</string>
+	<key>meta.menu.silence.unmute</key>
+	<string>Увімкнути звук</string>
+	<key>meta.menu.unarchive</key>
+	<string>Розархівувати</string>
+	<key>migration.please_wait_message</key>
+	<string>Будь ласка, зачекайте</string>
+	<key>missive.connection_request.default_message</key>
+	<string>Привіт %@,
+давай спілкуватися в Wire.
+%@</string>
+	<key>name.guidance.toolong</key>
+	<string>Занадто багато символів</string>
+	<key>name.guidance.tooshort</key>
+	<string>Не менше 2 символів</string>
+	<key>name.placeholder</key>
+	<string>Ваше повне ім'я</string>
+	<key>news_offers.consent.button.privacy_policy.title</key>
+	<string>Політика конфіденційності</string>
+	<key>news_offers.consent.message</key>
+	<string>Ви можете будь-коли відмовитись від отримання новин.</string>
+	<key>news_offers.consent.title</key>
+	<string>Ви хочете отримувати новини про Wire по електронній пошті?</string>
+	<key>notifications.in_conversation</key>
+	<string>%@ - %@</string>
+	<key>notifications.pinged</key>
+	<string>відправив(-ла) пінг</string>
+	<key>notifications.sent_audio</key>
+	<string>поділився(-лась) аудіо</string>
+	<key>notifications.sent_file</key>
+	<string>поділився(-лась) файлом</string>
+	<key>notifications.sent_location</key>
+	<string>поділився(-лась) розташуванням</string>
+	<key>notifications.sent_video</key>
+	<string>поділився(-лась) відео</string>
+	<key>notifications.shared_a_photo</key>
+	<string>поділився(-лась) картинкою</string>
+	<key>notifications.this_conversation</key>
+	<string>%@ в цій розмові</string>
+	<key>open_link.browser.option.brave</key>
+	<string>Brave</string>
+	<key>open_link.browser.option.chrome</key>
+	<string>Chrome</string>
+	<key>open_link.browser.option.firefox</key>
+	<string>Firefox</string>
+	<key>open_link.browser.option.safari</key>
+	<string>Safari</string>
+	<key>open_link.browser.option.snowhaze</key>
+	<string>SnowHaze</string>
+	<key>open_link.maps.footer</key>
+	<string>Деякі лінки на місця розташування будуть завжди відкриватись в додатку Apple Карти.</string>
+	<key>open_link.maps.option.apple</key>
+	<string>Карти</string>
+	<key>open_link.maps.option.google</key>
+	<string>Карти Google</string>
+	<key>open_link.twitter.option.default</key>
+	<string>Браузер / Твітер</string>
+	<key>open_link.twitter.option.tweetbot</key>
+	<string>Tweetbot</string>
+	<key>open_link.twitter.option.twitterrific</key>
+	<string>Twitterrific</string>
+	<key>participants.add_people_button_title</key>
+	<string>Додати</string>
+	<key>participants.all.title</key>
+	<string>Люди</string>
+	<key>participants.avatar.guest.title</key>
+	<string>Гість</string>
+	<key>participants.footer.add_title</key>
+	<string>Додати учасників</string>
+	<key>participants.section.admins.footer</key>
+	<string>Немає адміністраторів.</string>
+	<key>participants.section.members.footer</key>
+	<string>Користувачі відсутні.</string>
+	<key>participants.section.name.footer</key>
+	<string>До цієї розмови може прєднатись не більше %1$d учасників. Відеодзвінки будуть працювати тільки в розмовах, що містять до %2$d учасників, окрім вас.</string>
+	<key>participants.section.participants</key>
+	<string>Учасники (%d)</string>
+	<key>participants.section.services</key>
+	<string>Сервіси (%d)</string>
+	<key>participants.section.settings</key>
+	<string>Налаштування</string>
+	<key>participants.services.remove_integration.button</key>
+	<string>видалити інтеграцію</string>
+	<key>participants.title</key>
+	<string>Подробиці</string>
+	<key>password.guidance.toolong</key>
+	<string>Занадто багато символів</string>
+	<key>password.placeholder</key>
+	<string>Пароль</string>
+	<key>peoplepicker.button.add_to_conversation</key>
+	<string>Додати учасників до розмови</string>
+	<key>peoplepicker.button.create_conversation</key>
+	<string>Створити групу</string>
+	<key>peoplepicker.group.create</key>
+	<string>Створити</string>
+	<key>peoplepicker.group.done</key>
+	<string>Готово</string>
+	<key>peoplepicker.group.skip</key>
+	<string>Пропустити</string>
+	<key>peoplepicker.group.title.plural</key>
+	<string>Додати учасників (%d)</string>
+	<key>peoplepicker.group.title.singular</key>
+	<string>Додати учасників</string>
+	<key>peoplepicker.header.contacts</key>
+	<string>Контакти</string>
+	<key>peoplepicker.header.contacts_personal</key>
+	<string>Персональні контакти</string>
+	<key>peoplepicker.header.conversations</key>
+	<string>Групи</string>
+	<key>peoplepicker.header.directory</key>
+	<string>Додати до контактів</string>
+	<key>peoplepicker.header.people</key>
+	<string>Люди</string>
+	<key>peoplepicker.header.send_invitation</key>
+	<string>Запросити</string>
+	<key>peoplepicker.header.services</key>
+	<string>Сервіси</string>
+	<key>peoplepicker.header.team_conversations</key>
+	<string>Групи %@</string>
+	<key>peoplepicker.header.top_people</key>
+	<string>Топ-контакти</string>
+	<key>peoplepicker.hide_search_result</key>
+	<string>Сховати</string>
+	<key>peoplepicker.hide_search_result_progress</key>
+	<string>Приховування…</string>
+	<key>peoplepicker.invite_more_people</key>
+	<string>Запросити більше людей</string>
+	<key>peoplepicker.invite_team_members</key>
+	<string>Запросіть колег приєднатися до команди</string>
+	<key>peoplepicker.no_contacts_title</key>
+	<string>Контактів немає.</string>
+	<key>peoplepicker.no_matching_results.action.send_invite</key>
+	<string>Надіслати запрошення</string>
+	<key>peoplepicker.no_matching_results.action.share_contacts</key>
+	<string>Поділитись контактами</string>
+	<key>peoplepicker.no_matching_results_after_address_book_upload_button</key>
+	<string>поділіться контактами</string>
+	<key>peoplepicker.no_matching_results_after_address_book_upload_message</key>
+	<string>Введіть адресу електронної пошти або</string>
+	<key>peoplepicker.no_matching_results_after_address_book_upload_title</key>
+	<string>Нікого не знайдено.</string>
+	<key>peoplepicker.no_matching_results_message</key>
+	<string>Введіть адресу електронної пошти.</string>
+	<key>peoplepicker.no_matching_results_provide_valid_email</key>
+	<string>Будь ласка, введіть актуальну адресу електронної пошти</string>
+	<key>peoplepicker.no_matching_results_services_admin_title</key>
+	<string>Сервіси та помічники, які можуть поліпшити ваш робочий процес.</string>
+	<key>peoplepicker.no_matching_results_services_manage_services_title</key>
+	<string>Керування сервісами</string>
+	<key>peoplepicker.no_matching_results_services_title</key>
+	<string>Сервіси та помічники, які можуть поліпшити ваш робочий процес. Щоб увімкнути їх, зверніться до адміністратора вашої команди.</string>
+	<key>peoplepicker.no_matching_results_title</key>
+	<string>Нікого не знайдено.</string>
+	<key>peoplepicker.no_search_results</key>
+	<string>Немає відповідних результатів. Спробуйте ввести інше ім'я.</string>
+	<key>peoplepicker.quick-action.admin-services</key>
+	<string>Керування сервісами</string>
+	<key>peoplepicker.quick-action.create-conversation</key>
+	<string>Створити групу</string>
+	<key>peoplepicker.quick-action.create-guest-room</key>
+	<string>Створити гостьову кімнату</string>
+	<key>peoplepicker.quick-action.open-conversation</key>
+	<string>Вiдкрити</string>
+	<key>peoplepicker.search_placeholder</key>
+	<string>Пошук за іменем або ніком</string>
+	<key>peoplepicker.send_invitation.dialog.message</key>
+	<string>Воно дійсне протягом 2 тижнів. Надішліть нове запрошення, якщо термін дії цього закінчиться.</string>
+	<key>peoplepicker.send_invitation.dialog.ok</key>
+	<string>OK</string>
+	<key>peoplepicker.send_invitation.dialog.title</key>
+	<string>Запрошення надіслано</string>
+	<key>peoplepicker.services.add_service.button</key>
+	<string>Додати сервіс</string>
+	<key>peoplepicker.services.add_service.error.default</key>
+	<string>Даний сервіс наразі недоступний</string>
+	<key>peoplepicker.services.add_service.error.full</key>
+	<string>Розмова переповнена</string>
+	<key>peoplepicker.services.add_service.error.title</key>
+	<string>Неможливо додати сервіс</string>
+	<key>peoplepicker.services.open_conversation.item</key>
+	<string>Відкрити розмову</string>
+	<key>peoplepicker.share_contacts.no_results.title</key>
+	<string>Знайти людей за іменем або email</string>
+	<key>peoplepicker.suggested.knows_one</key>
+	<string>Знайомий(-а) з %@</string>
+	<key>peoplepicker.suggested.knows_two</key>
+	<string>Знайомий(-а) з %@ та %@</string>
+	<key>peoplepicker.title.add_to_conversation</key>
+	<string>Додати учасників</string>
+	<key>peoplepicker.title.create_conversation</key>
+	<string>Створити групу</string>
+	<key>phone.guidance.invalid</key>
+	<string>Невірний номер телефону</string>
+	<key>phone.guidance.toolong</key>
+	<string>Занадто багато символів</string>
+	<key>phone.guidance.tooshort</key>
+	<string>Номер телефону занадто короткий</string>
+	<key>profile.block_button_title</key>
+	<string>Заблокувати…</string>
+	<key>profile.block_button_title_action</key>
+	<string>Заблокувати</string>
+	<key>profile.block_dialog.button_block</key>
+	<string>Заблокувати</string>
+	<key>profile.block_dialog.button_cancel</key>
+	<string>Скасувати</string>
+	<key>profile.block_dialog.message</key>
+	<string>%@ не буде мати можливості зв'язатися з вами або додати вас до групових розмов.</string>
+	<key>profile.block_dialog.title</key>
+	<string>Заблокувати?</string>
+	<key>profile.cancel_connection_button_title</key>
+	<string>СКАСУВАТИ ЗАПИТ</string>
+	<key>profile.cancel_connection_request_dialog.button_no</key>
+	<string>Ні</string>
+	<key>profile.cancel_connection_request_dialog.button_yes</key>
+	<string>Так</string>
+	<key>profile.cancel_connection_request_dialog.message</key>
+	<string>Скасувати ваш запит на додавання до контактів %@?</string>
+	<key>profile.cancel_connection_request_dialog.title</key>
+	<string>Скасувати запит?</string>
+	<key>profile.connection_request_dialog.button_cancel</key>
+	<string>Ігнорувати</string>
+	<key>profile.connection_request_dialog.button_connect</key>
+	<string>Додати</string>
+	<key>profile.connection_request_dialog.message</key>
+	<string>Це додасть %@ до ваших контактів та відкриє розмову.</string>
+	<key>profile.connection_request_dialog.title</key>
+	<string>Прийняти?</string>
+	<key>profile.connection_request_state.blocked</key>
+	<string>ЗАБЛОКОВАНИЙ(-А)</string>
+	<key>profile.create_conversation_button_title</key>
+	<string>Створити групу</string>
+	<key>profile.details.group_admin</key>
+	<string>Адміністратор групи</string>
+	<key>profile.details.guest</key>
+	<string>Гість</string>
+	<key>profile.details.partner</key>
+	<string>зовнішній</string>
+	<key>profile.details.title</key>
+	<string>Подробиці</string>
+	<key>profile.devices.detail.reset_session.title</key>
+	<string>Скидання сесії</string>
+	<key>profile.devices.detail.show_my_device.title</key>
+	<string>Показати ідентиф. мого пристрою</string>
+	<key>profile.devices.detail.verify_message</key>
+	<string>Переконайтеся, що цей ідентифікатор співпадає з ідентифікатором на пристрої користувача %@.</string>
+	<key>profile.devices.detail.verify_message.link</key>
+	<string>Як це зробити?</string>
+	<key>profile.devices.fingerprint_message.link</key>
+	<string>Навіщо верифікувати розмови?</string>
+	<key>profile.devices.fingerprint_message.title</key>
+	<string>Wire присвоює кожному пристроєві унікальний ідентифікатор. Порівняйте його з %@ та верифікуйте вашу розмову.</string>
+	<key>profile.devices.fingerprint_message_unencrypted</key>
+	<string>%@ використовує стару версію Wire, тому не показується жоден пристрій.</string>
+	<key>profile.devices.title</key>
+	<string>Пристрої</string>
+	<key>profile.extended_metadata.header</key>
+	<string>Інформація</string>
+	<key>profile.favorite_button_title</key>
+	<string>Додати до вподобань</string>
+	<key>profile.group_admin_status_memo.body</key>
+	<string>Коли це увімкнено, адміністратор може додавати або видаляти людей і послуги, оновлювати налаштування групи та змінювати роль учасника.</string>
+	<key>profile.open_conversation_button_title</key>
+	<string>Відкрити розмову</string>
+	<key>profile.profile.group_admin_options.title</key>
+	<string>Адміністратор групи</string>
+	<key>profile.read_receipts_disabled_memo.header</key>
+	<string>ВИ ВИМКНУЛИ ЗВІТИ ПРО ПЕРЕГЛЯД</string>
+	<key>profile.read_receipts_enabled_memo.header</key>
+	<string>ВИ УВІМКНУЛИ ЗВІТИ ПРО ПЕРЕГЛЯД</string>
+	<key>profile.read_receipts_memo.body</key>
+	<string>Якщо обидві сторони увімкнуть звіти про перегляд, ви зможете бачити, коли повідомлення були переглянуті.
+
+Дану опцію можна змінити в налаштуваннях акаунта.</string>
+	<key>profile.remove_dialog_button_cancel</key>
+	<string>Скасувати</string>
+	<key>profile.remove_dialog_button_remove</key>
+	<string>Видалити з групи…</string>
+	<key>profile.remove_dialog_button_remove_confirm</key>
+	<string>Видалити з групи</string>
+	<key>profile.remove_dialog_message</key>
+	<string>%@ більше не зможе надсилати або отримувати повідомлення в цій розмові.</string>
+	<key>profile.remove_dialog_title</key>
+	<string>Видалити?</string>
+	<key>profile.unblock_button_title</key>
+	<string>Розблокувати…</string>
+	<key>profile.unblock_button_title_action</key>
+	<string>Розблокувати</string>
+	<key>profile.unfavorite_button_title</key>
+	<string>Видалити з уподобань</string>
+	<key>profile_view.accessibility.handle</key>
+	<string>Нік</string>
+	<key>profile_view.accessibility.name</key>
+	<string>Власне ім'я</string>
+	<key>profile_view.accessibility.team_name</key>
+	<string>Назва команди</string>
+	<key>push.notification.new_message</key>
+	<string>Нове повідомлення</string>
+	<key>push.notification.new_user</key>
+	<string>%@ приєднався до Wire</string>
+	<key>registration.add_email_password.hero.paragraph</key>
+	<string>Це дасть вам можливість використовувати Wire на різних пристроях.</string>
+	<key>registration.add_email_password.hero.title</key>
+	<string>Додайте ваш email та пароль</string>
+	<key>registration.add_phone_number.hero.paragraph</key>
+	<string>Це допомагає нам знайти людей, яких ви знаєте. Ми ніколи не ділимося цими даними.</string>
+	<key>registration.add_phone_number.hero.title</key>
+	<string>Додати номер телефону</string>
+	<key>registration.add_phone_number.skip_button.title</key>
+	<string>Не зараз</string>
+	<key>registration.address_book_access_denied.hero.paragraph1</key>
+	<string>Wire допоможе вам знайти ваших друзів, якщо ви поділитесь контактами.</string>
+	<key>registration.address_book_access_denied.hero.paragraph2</key>
+	<string>Щоб дозволити доступ перейдіть в Налаштування та торкніться до переключателя біля пункту Контакти.</string>
+	<key>registration.address_book_access_denied.hero.title</key>
+	<string>Wire не має доступу до ваших контактів.</string>
+	<key>registration.address_book_access_denied.maybe_later_button.title</key>
+	<string>Можливо, пізніше</string>
+	<key>registration.address_book_access_denied.settings_button.title</key>
+	<string>Параметри</string>
+	<key>registration.alert.account_exists.message_email</key>
+	<string>Адреса електронної пошти, яка використовується для реєстрації, вже зв'язана з іншим акаунтом.
+
+ Спробуйте використати іншу адресу або залогіньтесь, якщо ви є власником цього акаунту.</string>
+	<key>registration.alert.account_exists.message_phone</key>
+	<string>Номер телефону, який використовується для реєстрації, вже зв'язано з іншим акаунтом.
+
+Спробуйте використати інший номер телефону або залогіньтесь, якщо ви є власником цього акаунту.</string>
+	<key>registration.alert.account_exists.title</key>
+	<string>Акаунт уже існує</string>
+	<key>registration.alert.change_email_action</key>
+	<string>Зареєструватися з іншою адресою ел. пошти</string>
+	<key>registration.alert.change_phone_action</key>
+	<string>Зареєструватися з іншим номером</string>
+	<key>registration.alert.change_signin_action</key>
+	<string>Увійти</string>
+	<key>registration.close_email_invitation_button.email_title</key>
+	<string>Використати інший email</string>
+	<key>registration.close_email_invitation_button.phone_title</key>
+	<string>Зареєструватися за номером телефону</string>
+	<key>registration.close_phone_invitation_button.email_title</key>
+	<string>Реєстрація з Email</string>
+	<key>registration.close_phone_invitation_button.phone_title</key>
+	<string>За допомогою іншого телефону</string>
+	<key>registration.confirm</key>
+	<string>Зареєструватися</string>
+	<key>registration.country_select.title</key>
+	<string>Країна</string>
+	<key>registration.devices.activated</key>
+	<string>Активований %@</string>
+	<key>registration.devices.active_list_header</key>
+	<string>Активні</string>
+	<key>registration.devices.active_list_subtitle</key>
+	<string>Якщо ви не впізнаєте пристрою вище, видаліть його і виконайте скидання паролю.</string>
+	<key>registration.devices.current_list_header</key>
+	<string>Поточний</string>
+	<key>registration.devices.id</key>
+	<string>ID:</string>
+	<key>registration.devices.title</key>
+	<string>Пристрої</string>
+	<key>registration.email_flow.email_step.title</key>
+	<string>Редагувати деталі</string>
+	<key>registration.email_flow.title</key>
+	<string>Реєстрація з Email</string>
+	<key>registration.email_invitation.hero.paragraph</key>
+	<string>Виберіть пароль для створення акаунту.</string>
+	<key>registration.email_invitation.hero.title</key>
+	<string>Привіт, %@</string>
+	<key>registration.email_invitation.title</key>
+	<string>Запрошення</string>
+	<key>registration.enter_name.hero</key>
+	<string>Як ми можемо до Вас звертатися?</string>
+	<key>registration.enter_name.placeholder</key>
+	<string>Ваше повне ім'я</string>
+	<key>registration.enter_name.title</key>
+	<string>Редагувати ім'я</string>
+	<key>registration.enter_phone_number.placeholder</key>
+	<string>Номер телефону</string>
+	<key>registration.enter_phone_number.title</key>
+	<string>Редагувати номер телефону</string>
+	<key>registration.launch_back_button.label</key>
+	<string>Назад</string>
+	<key>registration.no_history.got_it</key>
+	<string>OK</string>
+	<key>registration.no_history.hero</key>
+	<string>Це перший раз, коли ви використовуєте Wire на цьому пристрої.</string>
+	<key>registration.no_history.logged_out.got_it</key>
+	<string>OK</string>
+	<key>registration.no_history.logged_out.hero</key>
+	<string>Ви уже використовували Wire на цьому пристрої раніше.</string>
+	<key>registration.no_history.logged_out.subtitle</key>
+	<string>Повідомлення, надіслані в той час, коли ви вийшли з Wire, не відображатимуться.</string>
+	<key>registration.no_history.restore_backup</key>
+	<string>Відновити з резервної копії</string>
+	<key>registration.no_history.restore_backup.completed</key>
+	<string>Завершено</string>
+	<key>registration.no_history.restore_backup.password.message</key>
+	<string>Щоб відновити дану резервну копію, необхідно ввести пароль.</string>
+	<key>registration.no_history.restore_backup.password.placeholder</key>
+	<string>Пароль</string>
+	<key>registration.no_history.restore_backup.password.title</key>
+	<string>Ця резервна копія захищена паролем.</string>
+	<key>registration.no_history.restore_backup.password_error.title</key>
+	<string>Невірний пароль</string>
+	<key>registration.no_history.restore_backup.restoring</key>
+	<string>Відновлення…</string>
+	<key>registration.no_history.restore_backup_failed.message</key>
+	<string>Ваша історія не може бути відновлена.</string>
+	<key>registration.no_history.restore_backup_failed.title</key>
+	<string>Щось пішло не так</string>
+	<key>registration.no_history.restore_backup_failed.try_again</key>
+	<string>Спробувати ще раз</string>
+	<key>registration.no_history.restore_backup_failed.wrong_account.message</key>
+	<string>Ви не можете відновити історію з іншого акаунту.</string>
+	<key>registration.no_history.restore_backup_failed.wrong_account.title</key>
+	<string>Несумісний файл резервної копії</string>
+	<key>registration.no_history.restore_backup_failed.wrong_version.message</key>
+	<string>Цю резервну копію було створено новішою або застарілою версією Wire, тому її неможливо відновити.</string>
+	<key>registration.no_history.restore_backup_failed.wrong_version.title</key>
+	<string>Несумісний файл резервної копії</string>
+	<key>registration.no_history.restore_backup_warning.message</key>
+	<string>Відновлення резервної копії замінить істоію розмов на цьому пристрої. Історію можна відновити тільки з резервної копії, зробленої на тій же платформі.</string>
+	<key>registration.no_history.restore_backup_warning.proceed</key>
+	<string>Виберіть файл резервної копії</string>
+	<key>registration.no_history.restore_backup_warning.title</key>
+	<string>Відновлення історії</string>
+	<key>registration.no_history.subtitle</key>
+	<string>З міркувань конфіденційності, історія ваших розмов тут не показується.</string>
+	<key>registration.password.rules.no_requirements</key>
+	<string>Використовувати %@.</string>
+	<key>registration.password.rules.with_requirements</key>
+	<string>Використовувати %@, включно з %@.</string>
+	<key>registration.personal.title</key>
+	<string>Створити акаунт</string>
+	<key>registration.phone.country_code.hint</key>
+	<string>Торкніться двічі, щоб використати номер телефону з цієї країни.</string>
+	<key>registration.phone.verify.label</key>
+	<string>Верифікувати номер телефону</string>
+	<key>registration.phone.verify_field.label</key>
+	<string>Код верифікації</string>
+	<key>registration.phone_code</key>
+	<string>Код країни</string>
+	<key>registration.phone_code.hint</key>
+	<string>Торкніться двічі, щоб вибрати інший код країни.</string>
+	<key>registration.phone_country</key>
+	<string>Країна</string>
+	<key>registration.phone_country.hint</key>
+	<string>Торкніться двічі, щоб вибрати іншу країну.</string>
+	<key>registration.phone_invitation.hero.paragraph</key>
+	<string>Ви за один крок від створення свого акаунту.</string>
+	<key>registration.phone_invitation.hero.title</key>
+	<string>Привіт, %@</string>
+	<key>registration.phone_invitation.title</key>
+	<string>Запрошення</string>
+	<key>registration.push_access_denied.hero.paragraph1</key>
+	<string>Увімкніть сповіщення в налаштуваннях.</string>
+	<key>registration.push_access_denied.hero.title</key>
+	<string>Не пропустіть жодного дзвінка або повідомлення.</string>
+	<key>registration.push_access_denied.maybe_later_button.title</key>
+	<string>Можливо, пізніше</string>
+	<key>registration.push_access_denied.settings_button.title</key>
+	<string>Перейти до налаштувань</string>
+	<key>registration.register_by_email</key>
+	<string>Email</string>
+	<key>registration.register_by_phone</key>
+	<string>Номер телефону</string>
+	<key>registration.select_handle.takeover.choose_own</key>
+	<string>Оберіть власний варіант</string>
+	<key>registration.select_handle.takeover.keep_suggested</key>
+	<string>Залишити це</string>
+	<key>registration.select_handle.takeover.subtitle</key>
+	<string>Зарезервуйте свій унікальний нік в Wire.</string>
+	<key>registration.select_handle.takeover.subtitle_link</key>
+	<string>Дізнатися більше</string>
+	<key>registration.share_contacts.find_friends_button.title</key>
+	<string>Поділитись контактами</string>
+	<key>registration.share_contacts.hero.paragraph</key>
+	<string>Поділіться своїми контактами, щоб ми могли знайти людей, яких ви знаєте. Ми анонімізуємо всю інформацію та не передаємо її третім особам.</string>
+	<key>registration.share_contacts.hero.title</key>
+	<string>Пошук людей в Wire</string>
+	<key>registration.share_contacts.skip_button.title</key>
+	<string>Не зараз</string>
+	<key>registration.signin.alert.password_needed.message</key>
+	<string>Будь ласка, введіть ваш пароль для того, щоб увійти.</string>
+	<key>registration.signin.alert.password_needed.title</key>
+	<string>Необхідно ввести пароль</string>
+	<key>registration.signin.title</key>
+	<string>Увійти</string>
+	<key>registration.signin.too_many_devices.manage_button.title</key>
+	<string>Керування пристроями</string>
+	<key>registration.signin.too_many_devices.manage_screen.title</key>
+	<string>Видалити пристрій</string>
+	<key>registration.signin.too_many_devices.sign_out_button.title</key>
+	<string>Вийти</string>
+	<key>registration.signin.too_many_devices.subtitle</key>
+	<string>Видаліть один з ваших пристроїв, щоб почати використовувати Wire на цьому.</string>
+	<key>registration.signin.too_many_devices.title</key>
+	<string>Забагато пристроїв</string>
+	<key>registration.terms_of_use.accept</key>
+	<string>Прийняти</string>
+	<key>registration.terms_of_use.agree</key>
+	<string>Я згоден</string>
+	<key>registration.terms_of_use.terms</key>
+	<string>Продовжуючи, ви погоджуєтесь з Умовами користування Wire.</string>
+	<key>registration.terms_of_use.terms.link</key>
+	<string>Умови використання</string>
+	<key>registration.terms_of_use.terms.message</key>
+	<string>Будь ласка, прийміть Умови користування додатком для продовження.</string>
+	<key>registration.terms_of_use.terms.title</key>
+	<string>Умови використання</string>
+	<key>registration.terms_of_use.terms.view</key>
+	<string>Вигляд</string>
+	<key>registration.terms_of_use.title</key>
+	<string>Ласкаво просимо до Wire.</string>
+	<key>registration.title</key>
+	<string>Реєстрація</string>
+	<key>registration.verify_email.instructions</key>
+	<string>Ми відправили email на %@.
+ Перейдіть за посиланням для підтвердження адреси.</string>
+	<key>registration.verify_email.resend.button_title</key>
+	<string>Надіслати ще раз</string>
+	<key>registration.verify_email.resend.instructions</key>
+	<string>Не прийшло повідомлення?</string>
+	<key>registration.verify_phone_number.instructions</key>
+	<string>Введіть код, який ми вислали на %@</string>
+	<key>registration.verify_phone_number.resend</key>
+	<string>Надіслати ще раз</string>
+	<key>registration.verify_phone_number.resend_placeholder</key>
+	<string>Код не показується?
+Ви можете надіслати запит на новий через %.0f секунд</string>
+	<key>self.about</key>
+	<string>Про програму</string>
+	<key>self.accessibility.profile_photo_edit_button</key>
+	<string>Змінити картинку для профілю</string>
+	<key>self.accessibility.profile_photo_image</key>
+	<string>Картинка для профілю</string>
+	<key>self.account</key>
+	<string>Акаунт</string>
+	<key>self.add_email_password</key>
+	<string>Додайте email та пароль</string>
+	<key>self.add_phone_number</key>
+	<string>Додати номер телефону</string>
+	<key>self.help_center</key>
+	<string>Служба підтримки</string>
+	<key>self.help_center.contact_support</key>
+	<string>Зверніться до служби підтримки</string>
+	<key>self.help_center.support_website</key>
+	<string>Сайт підтримки Wire</string>
+	<key>self.new-device.voiceover.label</key>
+	<string>Профіль, нещодавно додані пристрої</string>
+	<key>self.new_device_alert.manage_devices</key>
+	<string>Керування пристроями</string>
+	<key>self.new_device_alert.message</key>
+	<string>
+%@
+
+Якщо ви не впізнаєте пристрій вище, видаліть його і виконайте скидання паролю.</string>
+	<key>self.new_device_alert.message_plural</key>
+	<string>
+%@
+
+Якщо ви не впізнаєте пристрій вище, видаліть його і виконайте скидання паролю.</string>
+	<key>self.new_device_alert.title</key>
+	<string>Ваш акаунт використовується на:</string>
+	<key>self.new_device_alert.trust_devices</key>
+	<string>OK</string>
+	<key>self.profile</key>
+	<string>Профіль</string>
+	<key>self.read_receipts_description.title</key>
+	<string>Дану опцію можна змінити в налаштуваннях акаунту.</string>
+	<key>self.read_receipts_disabled.title</key>
+	<string>Ви вимкнули звіти про перегляд</string>
+	<key>self.read_receipts_enabled.title</key>
+	<string>Ви увімкнули звіти про перегляд</string>
+	<key>self.report_abuse</key>
+	<string>Надіслати звіт про зловживання</string>
+	<key>self.settings</key>
+	<string>Налаштування</string>
+	<key>self.settings.account.data_usage_permissions.title</key>
+	<string>Дозвіл на використання даних</string>
+	<key>self.settings.account_appearance_group.title</key>
+	<string>Оформлення</string>
+	<key>self.settings.account_details.actions.title</key>
+	<string>Дії</string>
+	<key>self.settings.account_details.delete_account.alert.message</key>
+	<string>Ми надішлемо вам повідомлення електронною поштою або через SMS. Перейдіть за посиланням, щоб остаточно видалити свій акаунт.</string>
+	<key>self.settings.account_details.delete_account.alert.title</key>
+	<string>Видалити акаунт</string>
+	<key>self.settings.account_details.delete_account.title</key>
+	<string>Видалити акаунт</string>
+	<key>self.settings.account_details.key_fingerprint.title</key>
+	<string>Ідентифікатор</string>
+	<key>self.settings.account_details.log_out.alert.message</key>
+	<string>Ваше повідомлення буде стерто з цього пристрою.</string>
+	<key>self.settings.account_details.log_out.alert.password</key>
+	<string>Пароль</string>
+	<key>self.settings.account_details.log_out.alert.title</key>
+	<string>Вийти</string>
+	<key>self.settings.account_details.remove_device.message</key>
+	<string>Для видалення пристрою необхідно ввести ваш пароль</string>
+	<key>self.settings.account_details.remove_device.password</key>
+	<string>Пароль</string>
+	<key>self.settings.account_details.remove_device.password.error</key>
+	<string>Невірний пароль</string>
+	<key>self.settings.account_details.remove_device.title</key>
+	<string>Видалити пристрій</string>
+	<key>self.settings.account_details_group.info.footer</key>
+	<string>Ці деталі допоможуть іншим людям знайти вас.</string>
+	<key>self.settings.account_details_group.info.title</key>
+	<string>Інформація</string>
+	<key>self.settings.account_details_group.personal.footer</key>
+	<string>Ця інформація невидима для інших користувачів.</string>
+	<key>self.settings.account_details_group.personal.title</key>
+	<string>Персональні дані</string>
+	<key>self.settings.account_personal_information_group.title</key>
+	<string>Особисті дані</string>
+	<key>self.settings.account_picture_group.color</key>
+	<string>Колір</string>
+	<key>self.settings.account_picture_group.picture</key>
+	<string>Картинка</string>
+	<key>self.settings.account_picture_group.theme</key>
+	<string>Темна тема</string>
+	<key>self.settings.account_section</key>
+	<string>Акаунт</string>
+	<key>self.settings.account_section.add_handle.title</key>
+	<string>Додати нік</string>
+	<key>self.settings.account_section.email.change.resend.message</key>
+	<string>Email з кододом верифікації було повторно надіслано на %@. Перевірте вашу поштову скриньку та дотримуйтесь надісланих інструкцій.</string>
+	<key>self.settings.account_section.email.change.resend.title</key>
+	<string>Email було надіслано повторно</string>
+	<key>self.settings.account_section.email.change.save</key>
+	<string>Зберегти</string>
+	<key>self.settings.account_section.email.change.title</key>
+	<string>Email</string>
+	<key>self.settings.account_section.email.change.verify.description</key>
+	<string>Перевірте вашу поштову скриньку і дотримуйтесь надісланих інструкцій.</string>
+	<key>self.settings.account_section.email.change.verify.resend</key>
+	<string>Повторно надіслати на %@</string>
+	<key>self.settings.account_section.email.change.verify.title</key>
+	<string>Підтвердити email</string>
+	<key>self.settings.account_section.email.title</key>
+	<string>Email</string>
+	<key>self.settings.account_section.handle.change.failure_alert.message</key>
+	<string>Сталася помилка під час резервації вашого ніка. Будь ласка, спробуйте ще раз.</string>
+	<key>self.settings.account_section.handle.change.failure_alert.title</key>
+	<string>Не вдалося зарезервувати нік</string>
+	<key>self.settings.account_section.handle.change.footer</key>
+	<string>Мінімум 2 символи з множини a—z, 0—9, та _.</string>
+	<key>self.settings.account_section.handle.change.footer.unavailable</key>
+	<string>Уже зарезервоване</string>
+	<key>self.settings.account_section.handle.change.save</key>
+	<string>Зберегти</string>
+	<key>self.settings.account_section.handle.change.title</key>
+	<string>Нік</string>
+	<key>self.settings.account_section.handle.title</key>
+	<string>Нік</string>
+	<key>self.settings.account_section.name.title</key>
+	<string>Ім’я</string>
+	<key>self.settings.account_section.phone.title</key>
+	<string>Номер телефону</string>
+	<key>self.settings.account_section.phone_number.change.remove</key>
+	<string>Видалити номер телефону</string>
+	<key>self.settings.account_section.phone_number.change.remove.action</key>
+	<string>Видалити номер телефону</string>
+	<key>self.settings.account_section.phone_number.change.resend.message</key>
+	<string>Код верифікації було надіслано на %@.</string>
+	<key>self.settings.account_section.phone_number.change.resend.title</key>
+	<string>Код верифікації було надіслано повторно</string>
+	<key>self.settings.account_section.phone_number.change.save</key>
+	<string>Зберегти</string>
+	<key>self.settings.account_section.phone_number.change.title</key>
+	<string>Номер телефону</string>
+	<key>self.settings.account_section.phone_number.change.verify.code_placeholder</key>
+	<string>Введіть код</string>
+	<key>self.settings.account_section.phone_number.change.verify.description</key>
+	<string>Введіть код, який ми вислали на %@.</string>
+	<key>self.settings.account_section.phone_number.change.verify.resend</key>
+	<string>Надіслати код повторно</string>
+	<key>self.settings.account_section.phone_number.change.verify.resend_description</key>
+	<string>Код не показується?
+Ви можете надіслати запит на новий кожні 30 секунд.</string>
+	<key>self.settings.account_section.phone_number.change.verify.save</key>
+	<string>Зберегти</string>
+	<key>self.settings.account_section.phone_number.change.verify.title</key>
+	<string>Верифікувати</string>
+	<key>self.settings.add_account.error.message</key>
+	<string>Тільки три акаунти можуть одночасно бути активними. Вийдіть з одного активного акаунта, щоб додати наступний.</string>
+	<key>self.settings.add_account.error.title</key>
+	<string>Три акаунти вже активні</string>
+	<key>self.settings.add_account.title</key>
+	<string>Додати акаунт</string>
+	<key>self.settings.add_team_or_account.title</key>
+	<string>Додати акаунт</string>
+	<key>self.settings.advanced.debugging_tools.first_unread_conversation.title</key>
+	<string>Знайти першу непрочитану розмову</string>
+	<key>self.settings.advanced.debugging_tools.title</key>
+	<string>Інструменти налагоджування</string>
+	<key>self.settings.advanced.reset_push_token.subtitle</key>
+	<string>Якщо у вас виникли проблеми з push-сповіщеннями, команда підтримки Wire може попросити вас виконати скидання цього токену.</string>
+	<key>self.settings.advanced.reset_push_token.title</key>
+	<string>Оновити Push-токен для сповіщень</string>
+	<key>self.settings.advanced.reset_push_token_alert.message</key>
+	<string>Сповіщення будуть відновлені за декілька секунд.</string>
+	<key>self.settings.advanced.reset_push_token_alert.title</key>
+	<string>Push-токен був оновлений</string>
+	<key>self.settings.advanced.title</key>
+	<string>Розширені налаштування</string>
+	<key>self.settings.advanced.troubleshooting.submit_debug.subtitle</key>
+	<string>Дана інформація допоможе службі технічної підтримки Wire діагностувати проблеми із дзвінками та покращити загальний досвід користування додатком.</string>
+	<key>self.settings.advanced.troubleshooting.submit_debug.title</key>
+	<string>Відлагоджувальний звіт</string>
+	<key>self.settings.advanced.troubleshooting.title</key>
+	<string>Усунення неполадок</string>
+	<key>self.settings.advanced.version_technical_details.title</key>
+	<string>Технічні деталі збірки</string>
+	<key>self.settings.apns_logging.title</key>
+	<string>Ведення журналу APNS</string>
+	<key>self.settings.callkit.caption</key>
+	<string>Ділитися інформацією з iOS</string>
+	<key>self.settings.callkit.description</key>
+	<string>Показувати дзвінки Wire на екрані блокування та в історії дзвінків iOS. Історія дзвінків буде доступна для Apple, якщо служба iCloud активована.</string>
+	<key>self.settings.callkit.title</key>
+	<string>Дзвінки</string>
+	<key>self.settings.conversations.title</key>
+	<string>Історія</string>
+	<key>self.settings.create_team.title</key>
+	<string>Створити команду</string>
+	<key>self.settings.developer_options.title</key>
+	<string>Налаштування розробника</string>
+	<key>self.settings.device_details.fingerprint.subtitle</key>
+	<string>Wire присвоює кожному пристроєві унікальний ідентифікатор. Порівняйте їх, щоб зверифікувати ваші пристрої та розмови.</string>
+	<key>self.settings.device_details.remove_device.subtitle</key>
+	<string>Видаліть цей пристрій, якщо ви припинили його використовувати. Ви вийдете відразу, як тільки пристрій буде видалено.</string>
+	<key>self.settings.device_details.reset_session.subtitle</key>
+	<string>Якщо ідентифікатори не збігаються, виконайте скидання сесії, щоб згенерувати нові ключі шифрування з обидвох сторін.</string>
+	<key>self.settings.device_details.reset_session.success</key>
+	<string>Сессія була скинута</string>
+	<key>self.settings.enable_read_receipts.title</key>
+	<string>Надсилати звіти про перегляд</string>
+	<key>self.settings.external_apps.header</key>
+	<string>Відкрити за допомогою</string>
+	<key>self.settings.history_backup.action</key>
+	<string>Створити резервну копію</string>
+	<key>self.settings.history_backup.description</key>
+	<string>Створіть резервну копію для збереження історії розмов. Ви можете використовувати цю функціональність, щоб відновити історію, якщо ви втратите ваш пристрій або перейдете на новий.
+
+Оберіть надійний пароль для захисту файлу резервної копії.</string>
+	<key>self.settings.history_backup.error.title</key>
+	<string>Помилка</string>
+	<key>self.settings.history_backup.password.cancel</key>
+	<string>Скасувати</string>
+	<key>self.settings.history_backup.password.description</key>
+	<string>Резервна копія буде заархівована й закриптована за допомогою паролю, який ви встановите тут.</string>
+	<key>self.settings.history_backup.password.next</key>
+	<string>Далі</string>
+	<key>self.settings.history_backup.password.placeholder</key>
+	<string>Пароль</string>
+	<key>self.settings.history_backup.password.title</key>
+	<string>Встановити пароль</string>
+	<key>self.settings.history_backup.set_email.message</key>
+	<string>Ви повинні мати адресу електронної пошти та пароль для того, щоб створити резервну копію історії розмов. Ви можете додати їх на сторінці Акаунт в налаштуваннях.</string>
+	<key>self.settings.history_backup.set_email.title</key>
+	<string>Встановіть адресу електронної пошти та пароль.</string>
+	<key>self.settings.history_backup.title</key>
+	<string>Зробити резервну копію розмов</string>
+	<key>self.settings.invite_friends.title</key>
+	<string>Запросити людей</string>
+	<key>self.settings.link_options.browser.title</key>
+	<string>Браузер</string>
+	<key>self.settings.link_options.maps.title</key>
+	<string>Місця</string>
+	<key>self.settings.link_options.twitter.title</key>
+	<string>Твіти</string>
+	<key>self.settings.manage_team.title</key>
+	<string>Керування командою</string>
+	<key>self.settings.notifications.chat_alerts.footer</key>
+	<string>Нові повідомлення в інших розмовах.</string>
+	<key>self.settings.notifications.chat_alerts.toggle</key>
+	<string>Заголовки повідомлень</string>
+	<key>self.settings.notifications.push_notification.footer</key>
+	<string>Ім'я відправника та повідомлення на екрані блокування та в Центрі сповіщень.</string>
+	<key>self.settings.notifications.push_notification.title</key>
+	<string>Сповіщення</string>
+	<key>self.settings.notifications.push_notification.toogle</key>
+	<string>Попередній перегляд сповіщень</string>
+	<key>self.settings.options_menu.title</key>
+	<string>Налаштування</string>
+	<key>self.settings.password_reset_menu.title</key>
+	<string>Скинути пароль</string>
+	<key>self.settings.popular_demand.dark_mode.footer</key>
+	<string>Переключитися між темною та світлою темами.</string>
+	<key>self.settings.popular_demand.send_button.footer</key>
+	<string>Вимкнути надсилання через клавішу "Ввід".</string>
+	<key>self.settings.popular_demand.send_button.title</key>
+	<string>Кнопка "Надіслати"</string>
+	<key>self.settings.popular_demand.title</key>
+	<string>У відповідь на численні прохання</string>
+	<key>self.settings.privacy.clear_history.subtitle</key>
+	<string>Це назавжди зітре історію всіх ваших розмов.</string>
+	<key>self.settings.privacy.clear_history.title</key>
+	<string>Очистити Історію</string>
+	<key>self.settings.privacy_analytics.title</key>
+	<string>Надсилати анонімну статистику</string>
+	<key>self.settings.privacy_analytics_menu.description.title</key>
+	<string>Допоможіть зробити Wire кращим, відправляючи анонімні звіти про використання та збої в роботі.</string>
+	<key>self.settings.privacy_analytics_menu.devices.title</key>
+	<string>Пристрої</string>
+	<key>self.settings.privacy_analytics_section.title</key>
+	<string>Статистика використання та збоїв</string>
+	<key>self.settings.privacy_contacts_menu.description_disabled.title</key>
+	<string>Це допоможе вам встановити зв'язки з іншими людьми. Ми анонімізуємо всю інформацію та не поширюємо її. Дозвольте доступ через Налаштування &gt; Приватність &gt; Контакти.</string>
+	<key>self.settings.privacy_contacts_menu.settings_button.title</key>
+	<string>Відкрити налаштування контактів</string>
+	<key>self.settings.privacy_contacts_section.title</key>
+	<string>Контакти</string>
+	<key>self.settings.privacy_section_group.subtitle</key>
+	<string>Ви не зможете отримувати звіти про перегляд від інших учасників розмови, якщо дана опція вимкнена.
+
+Це налаштування не застосовується до групових розмов.</string>
+	<key>self.settings.privacy_section_group.title</key>
+	<string>Політики конфіденційності</string>
+	<key>self.settings.privacy_security.disable_link_previews.footer</key>
+	<string>Дана опція не впливає на попередній перегляд лінків від інших людей.</string>
+	<key>self.settings.privacy_security.disable_link_previews.title</key>
+	<string>Генерувати попередній перегляд для посилань</string>
+	<key>self.settings.privacy_security.lock_app</key>
+	<string>Заблокувати кодом допуску</string>
+	<key>self.settings.privacy_security.lock_app.description</key>
+	<string>Розблокувати Wire</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.face_id</key>
+	<string>Розблокуйте з Face ID або введіть ваш код.</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.lock_description</key>
+	<string>Блокувати Wire після %@ перебування в фоновому режимі.</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.none</key>
+	<string>Розблокуйте, ввівши свій код.</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.touch_id</key>
+	<string>Розблокуйте з Touch ID або введіть ваш код.</string>
+	<key>self.settings.privacy_security.lock_cancelled.action</key>
+	<string>Розблокувати</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_face_id</key>
+	<string>Розблокувати Wire за допомогою Face ID або коду допуску</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_passcode</key>
+	<string>Розблокувати Wire за допомогою коду допуску</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_passcode_unavailable</key>
+	<string>Увімкніть Код допуску в налаштуваннях пристрою, щоб роблокувати Wire</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_touch_id</key>
+	<string>Розблокувати Wire за допомогою Touch ID або коду допуску</string>
+	<key>self.settings.privacy_security.lock_password.description.unlock</key>
+	<string>Розблокування паролем.</string>
+	<key>self.settings.privacy_security.lock_password.description.wrong_offline_password</key>
+	<string>Невірний пароль. Якщо ви нещодавно змінили ваш пароль, підключіться до Інтернету та спробуйте ще раз.</string>
+	<key>self.settings.privacy_security.lock_password.description.wrong_password</key>
+	<string>Невірний пароль. Будь ласка, спробуйте ще раз.</string>
+	<key>self.settings.receiveNews_and_offers.description.title</key>
+	<string>Отримувати новини та інформацію про оновлення Wire по електронній пошті.</string>
+	<key>self.settings.receiveNews_and_offers.title</key>
+	<string>Отримувати новини</string>
+	<key>self.settings.sound_menu.all_sounds.title</key>
+	<string>Всі</string>
+	<key>self.settings.sound_menu.message.title</key>
+	<string>Звук текстових повідомлень</string>
+	<key>self.settings.sound_menu.mute_while_talking.title</key>
+	<string>Найперше повідомлення та пінги</string>
+	<key>self.settings.sound_menu.no_sounds.title</key>
+	<string>Все вимкнено</string>
+	<key>self.settings.sound_menu.ping.title</key>
+	<string>Пінг</string>
+	<key>self.settings.sound_menu.ringtone.title</key>
+	<string>Рингтон</string>
+	<key>self.settings.sound_menu.ringtones.title</key>
+	<string>Рингтони</string>
+	<key>self.settings.sound_menu.sounds.none</key>
+	<string>Вимкнено</string>
+	<key>self.settings.sound_menu.sounds.title</key>
+	<string>Звуки</string>
+	<key>self.settings.sound_menu.sounds.wire_call</key>
+	<string>Дзвінок у Wire</string>
+	<key>self.settings.sound_menu.sounds.wire_message</key>
+	<string>Повідомлення у Wire</string>
+	<key>self.settings.sound_menu.sounds.wire_ping</key>
+	<string>Пінг у Wire</string>
+	<key>self.settings.sound_menu.sounds.wire_sound</key>
+	<string>Wire</string>
+	<key>self.settings.sound_menu.title</key>
+	<string>Звукові сповіщення</string>
+	<key>self.settings.switch_account.action</key>
+	<string>Все-одно переключити</string>
+	<key>self.settings.switch_account.message</key>
+	<string>Цей акаунт має активний дзвінок.
+Переключення акаунтів завершить його.</string>
+	<key>self.settings.technical_report.include_log</key>
+	<string>Включити детальний журнал логів</string>
+	<key>self.settings.technical_report.mail.subject</key>
+	<string>Відлагоджувальний звіт Wire</string>
+	<key>self.settings.technical_report.no_mail_alert</key>
+	<string>Не виявлено жодного поштового клієнту. Натисніть "ОК" та надішліть логи вручну на: </string>
+	<key>self.settings.technical_report.privacy_warning</key>
+	<string>Детальні логи можуть містити персональні дані</string>
+	<key>self.settings.technical_report.send_report</key>
+	<string>Надіслати звіт до Wire</string>
+	<key>self.settings.technical_report_section.title</key>
+	<string>Технічний звіт</string>
+	<key>self.settings.vbr.description</key>
+	<string>Дана опція дозволяє аудіодзвінкам економити трафік та покращує їх якість а мережах з низькою швидкістю передачі даних. Ви можете деактивувати її, увімкнувши сталий бітрейт.</string>
+	<key>self.settings.vbr.title</key>
+	<string>Змінний бітрейт</string>
+	<key>self.sign_out</key>
+	<string>Вихід</string>
+	<key>self.voiceover.hint</key>
+	<string>Відкрити профіль та налаштування</string>
+	<key>self.voiceover.label</key>
+	<string>Профіль</string>
+	<key>send_invitation.subject</key>
+	<string>Додай мене в Wire</string>
+	<key>send_invitation.text</key>
+	<string>Я в Wire. Шукайте мене як %@ або відвідайте get.wire.com</string>
+	<key>send_invitation_no_email.text</key>
+	<string>Я уже в Wire. Відвідайте get.wire.com, щоб додати мене.</string>
+	<key>share_extension.voiceover.conversation_secure</key>
+	<string>Всі учасники верифіковані.</string>
+	<key>share_extension.voiceover.conversation_secure_with_ignored</key>
+	<string>Не всі учасники були верифіковані.</string>
+	<key>share_extension.voiceover.conversation_under_legal_hold</key>
+	<string>Під правовим захистом.</string>
+	<key>shortcut.mark_all_as_read.title</key>
+	<string>Позначити все як прочитане</string>
+	<key>signin.company_idp.button.title</key>
+	<string>Для компаній</string>
+	<key>signin.confirm</key>
+	<string>Увійти</string>
+	<key>signin.email.missing_password.subtitle</key>
+	<string>Введіть ваш email та пароль для продовження.</string>
+	<key>signin.forgot_password</key>
+	<string>Забули пароль?</string>
+	<key>signin.phone.missing_password.subtitle</key>
+	<string>Введіть ваш номер телефону для продовження.</string>
+	<key>signin.use_email.label</key>
+	<string>Увійти через Email</string>
+	<key>signin.use_one_password.hint</key>
+	<string>Торкніться двічі, щоб заповнити поле паролю значенням з 1Password</string>
+	<key>signin.use_one_password.label</key>
+	<string>Увійти через 1Password</string>
+	<key>signin.use_phone.label</key>
+	<string>Увійти через Номер ьелефону</string>
+	<key>signin_logout.email.subheadline</key>
+	<string>Термін дійсності вашого сеансу завершився. Введіть ваш email та пароль, щоб продовжити.</string>
+	<key>signin_logout.phone.subheadline</key>
+	<string>Термін дійсності вашого сеансу завершився. Введіть ваш номер телефону, щоб продовжити.</string>
+	<key>signin_logout.sso.buton</key>
+	<string>Корпоративна аутентифікація</string>
+	<key>signin_logout.sso.subheadline</key>
+	<string>Your session expired. Log in with your enterprise account to continue.</string>
+	<key>signin_logout.subheadline</key>
+	<string>Термін дійсності вашого сеансу завершився. Залогіньтеся ще раз, щоб продовжити.</string>
+	<key>sketchpad.initial_hint</key>
+	<string>Торкніться кольору, щоб змінити розмір пензля</string>
+	<key>system_status_bar.no_internet.explanation</key>
+	<string>Схоже, що є проблема із інтернет-з'єднанням. Будь ласка, переконайтесь, що з ним все в порядку.</string>
+	<key>system_status_bar.no_internet.title</key>
+	<string>Немає Інтернету</string>
+	<key>system_status_bar.poor_connectivity.explanation</key>
+	<string>Ми не в змозі гарантувати якість передачі голосу. Спробуйте під'єднатись до мережі Wi-Fi або змінити ваше місце розташування.</string>
+	<key>system_status_bar.poor_connectivity.title</key>
+	<string>Повільний інтернет, не вдається додзвонитись</string>
+	<key>team.activation_code.button.change_email</key>
+	<string>Змінити електронну пошту</string>
+	<key>team.activation_code.button.change_phone</key>
+	<string>Змінити номер телефону</string>
+	<key>team.activation_code.button.resend</key>
+	<string>Надіслати код повторно</string>
+	<key>team.activation_code.headline</key>
+	<string>Ви отримали нового листа</string>
+	<key>team.activation_code.subheadline</key>
+	<string>Введіть код, який ми вислали на %@.</string>
+	<key>team.email.button.learn_more</key>
+	<string>Дізнатися більше</string>
+	<key>team.email.headline</key>
+	<string>Ваш акаунт</string>
+	<key>team.email.subheadline</key>
+	<string>Введіть робочу адресу електронної пошти.</string>
+	<key>team.email.textfield.placeholder</key>
+	<string>Електронна пошта вашої компанії</string>
+	<key>team.full_name.headline</key>
+	<string>Ваше ім’я</string>
+	<key>team.full_name.textfield.accessibility</key>
+	<string>Задати ім'я</string>
+	<key>team.full_name.textfield.placeholder</key>
+	<string>Повне ім'я</string>
+	<key>team.invite.error.already_invited</key>
+	<string>Ця адреса вже зареєстрована</string>
+	<key>team.invite.error.already_registered</key>
+	<string>Ця адреса електронної пошти вже використовується</string>
+	<key>team.invite.error.generic</key>
+	<string>Щось пішло не так. Будь ласка, спробуйте ще раз</string>
+	<key>team.invite.error.no_internet</key>
+	<string>Немає з'єднання з Інтернетом</string>
+	<key>team.invite.error.too_many_invitations</key>
+	<string>Вже було надіслано максимальну кількість запрошень</string>
+	<key>team.invite.header.subtitle</key>
+	<string>Ваша команда в Wire готова до використання. Запросіть ваших колег стати її учасниками.</string>
+	<key>team.invite.header.title</key>
+	<string>Створіть свою власну команду</string>
+	<key>team.invite.learn_more.title</key>
+	<string>Дізнатися більше</string>
+	<key>team.invite.textfield.accesibility</key>
+	<string>Введіть адресу електронної пошти колеги, щоб надіслати запрошення.</string>
+	<key>team.invite.textfield.placeholder</key>
+	<string>Email колеги</string>
+	<key>team.invite.top_bar.done</key>
+	<string>Готово</string>
+	<key>team.invite.top_bar.skip</key>
+	<string>Пропустити</string>
+	<key>team.name.headline</key>
+	<string>Назвіть свою команду</string>
+	<key>team.name.subheadline</key>
+	<string>Команду завжди можна перейменувати пізніше.</string>
+	<key>team.name.textfield.accessibility</key>
+	<string>Задайте ім'я команди</string>
+	<key>team.name.textfield.placeholder</key>
+	<string>назва команди</string>
+	<key>team.name.whatiswireforteams</key>
+	<string>Що таке Wire Pro?</string>
+	<key>team.password.headline</key>
+	<string>Задати пароль</string>
+	<key>team.phone_activation_code.headline</key>
+	<string>Верифікація</string>
+	<key>tool_tip.contacts.message</key>
+	<string>Розпочніть розмову. Дзвінки, повідомлення та обмін даними приватно або в групах.</string>
+	<key>tool_tip.contacts.title</key>
+	<string>Розмови починаються тут</string>
+	<key>twitter_status.on_twitter</key>
+	<string>%@ в Twitter</string>
+	<key>url_action.authorization_required.message</key>
+	<string>Ви повинні увійти, щоб переглянути цей вміст.</string>
+	<key>url_action.authorization_required.title</key>
+	<string>Необхідна авторизація.</string>
+	<key>url_action.confirm</key>
+	<string>Підтвердити</string>
+	<key>url_action.connect_to_bot.message</key>
+	<string>Чи Ви хотіли б ви додати бота до контактів?</string>
+	<key>url_action.invalid_conversation.message</key>
+	<string>У вас відсутні необхідні права доступу для цього акаунту або особа не зареєстрована в Wire.</string>
+	<key>url_action.invalid_conversation.title</key>
+	<string>Wire не може відкрити дану розмову.</string>
+	<key>url_action.invalid_link.message</key>
+	<string>Ви відкрили невалідний лінк.</string>
+	<key>url_action.invalid_link.title</key>
+	<string>Невалідний лінк.</string>
+	<key>url_action.invalid_user.message</key>
+	<string>У вас відсутні необхідні права доступу для цього акаунту або його було видалено.</string>
+	<key>url_action.invalid_user.title</key>
+	<string>Wire не вдалося знайти такого користувача.</string>
+	<key>url_action.switch_backend.error.invalid_backend</key>
+	<string>Будь ласка, перевірте ваше інтернет-з'єднання та спробуйте ще раз.</string>
+	<key>url_action.switch_backend.error.invalid_backend.title</key>
+	<string>Сервер не відповідає</string>
+	<key>url_action.switch_backend.error.logged_in</key>
+	<string>Ви вже увійшли. Вийдіть з усіх акаунтів та повторіть спробу, щоб переключитися на інший сервер.</string>
+	<key>url_action.switch_backend.error.logged_in.title</key>
+	<string>Не вдалося переключити сервер</string>
+	<key>url_action.switch_backend.message</key>
+	<string>З цією конфігурацією ви під'єднаєте додаток до серверу третьої сторони:
+%@</string>
+	<key>url_action.switch_backend.title</key>
+	<string>Під'єднатися до сервера</string>
+	<key>url_action.title</key>
+	<string>Підтвердження дії з URL</string>
+	<key>user_cell.title.you_suffix</key>
+	<string> (Ви)</string>
+	<key>verification.code_hint</key>
+	<string>Торкніться двічі, щоб ввести код.</string>
+	<key>verification.code_label</key>
+	<string>Шестизначний код. Текстове поле.</string>
+	<key>video_call.camera_access.denied</key>
+	<string>Доступ до камери відсутній</string>
+	<key>voice.accept_button.title</key>
+	<string>Прийняти</string>
+	<key>voice.alert.call_in_progress.confirm</key>
+	<string>OK</string>
+	<key>voice.alert.call_in_progress.message</key>
+	<string>Ви можете одночасно мати тільки один активний дзвінок</string>
+	<key>voice.alert.call_in_progress.title</key>
+	<string>Активний дзвінок</string>
+	<key>voice.alert.camera_warning.title</key>
+	<string>Wire потребує доступу до камери.</string>
+	<key>voice.alert.microphone_warning.title</key>
+	<string>Wire необхідний доступ до мікрофона.</string>
+	<key>voice.call_button.title</key>
+	<string>Аудіодзвінок</string>
+	<key>voice.call_error.unsupported_version.dismiss</key>
+	<string>Пізніше</string>
+	<key>voice.call_error.unsupported_version.message</key>
+	<string>Ви отримали дзвінок, який не підтримується цією версією Wire.
+Оновіть вашу версію Wire з App Store.</string>
+	<key>voice.call_error.unsupported_version.title</key>
+	<string>Будь ласка, оновіть Wire</string>
+	<key>voice.cancel_button.title</key>
+	<string>Скасувати</string>
+	<key>voice.decline_button.title</key>
+	<string>Скасувати</string>
+	<key>voice.degradation.new_self_device</key>
+	<string>Ви почали використовувати новий пристрій.</string>
+	<key>voice.degradation.new_user_device</key>
+	<string>%@ почав(-ла) використовувати новий пристрій.</string>
+	<key>voice.degradation_incoming.prompt</key>
+	<string>Ви все ще хочете прийняти дзвінок?</string>
+	<key>voice.degradation_outgoing.prompt</key>
+	<string>Ви все ще хочете здійснити дзвінок?</string>
+	<key>voice.end_call_button.title</key>
+	<string>Завершити дзвінок</string>
+	<key>voice.flip_video_button.title</key>
+	<string>Переключити</string>
+	<key>voice.hang_up_button.title</key>
+	<string>Завершити</string>
+	<key>voice.mute_button.title</key>
+	<string>Вимкнути звук</string>
+	<key>voice.network_error.body</key>
+	<string>Ви повинні бути онлайн, щоб подзвонити. Перевірте з'єднання та спробуйте ще раз.</string>
+	<key>voice.network_error.title</key>
+	<string>Немає з'єднання з Інтернетом</string>
+	<key>voice.speaker_button.title</key>
+	<string>Гучномовець</string>
+	<key>voice.status.cbr</key>
+	<string>Стала швидкість передачі даних</string>
+	<key>voice.status.group_call.incoming</key>
+	<string>%@
+дзвонить</string>
+	<key>voice.status.joining</key>
+	<string>%@
+Під'єднується</string>
+	<key>voice.status.leaving</key>
+	<string>%@
+Дзвінок завершено</string>
+	<key>voice.status.low_connection</key>
+	<string>Поганий зв'язок</string>
+	<key>voice.status.one_to_one.incoming</key>
+	<string>%@
+дзвонить</string>
+	<key>voice.status.one_to_one.outgoing</key>
+	<string>%@
+дзвонить</string>
+	<key>voice.status.video_not_available</key>
+	<string>Відео вимкнено</string>
+	<key>voice.top_overlay.accessibility_title</key>
+	<string>Активний дзвінок</string>
+	<key>voice.top_overlay.tap_to_return</key>
+	<string>Торкніться, щоб повернутися до дзвінка</string>
+	<key>voice.video_button.title</key>
+	<string>Відео</string>
+</dict>
+</plist>

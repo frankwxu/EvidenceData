@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your total distance is down, {{username}}. If you want to get this arrow back on track, try to find time for a walk each day.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you’re up for it, walking and running further will get this arrow headed back up, {{username}}. Try to go at least {{goal_value:distance}} a day this week and look for a new goal next week. In %#@num_weeks@, you can flip this arrow.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nice work on your Total Distance. Keep getting in your runs and walks to keep your arrow pointed up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow! Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To get this arrow back up, walk and run {{goal_value:distance}} a day for the next %#@num_days@. This is all you, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, your total distance arrow is up. Keep running and walking each day so it stays that way!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nice work on your Total Distance, {{username}}. Get in your runs and walks each day to keep your arrow pointed up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To get this arrow back up, walk and run {{goal_value:distance}} a day for the next %#@num_days@. This is all you.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To keep your arrow up, you need to walk and run further than you have been lately. Make it happen!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nice work on your Total Distance, {{username}}. Keep getting in your runs and walks to keep your arrow pointed up!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you can run or walk at least {{goal_value:distance}} today, this arrow will point back up. So worth it, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your total distance arrow is up. Keep running and walking each day so it stays that way!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow, {{username}}! Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@ and your arrow will flip back up, {{username}}. You’ve got this.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To get this arrow back up, walk and run {{goal_value:distance}} a day for the next %#@num_days@. This is all you.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you can run or walk at least {{goal_value:distance}} today, this arrow will point back up. So worth it!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@ and your arrow will flip back up. You’ve got this.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your total distance arrow is up. Keep running and walking each day so it stays that way!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your total distance is down. If you want to get this arrow back on track, try to find time for a walk each day.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To get this arrow back up, walk and run {{goal_value:distance}} a day for the next %#@num_days@. This is all you, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you’re up for it, walking and running further will get this arrow headed back up, {{username}}. Try to go at least {{goal_value:distance}} a day this week and look for a new goal next week. In %#@num_weeks@, you can flip this arrow.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To keep your arrow up, you need to walk and run further than you have been lately, {{username}}. Make it happen!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you can run or walk at least {{goal_value:distance}} today, this arrow will point back up. So worth it!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To flip this arrow, walk and run at least {{goal_value:distance}} a day for the next %#@num_days@, {{username}}. So worth it!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@ and your arrow will flip back up. You’ve got this.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you’re up for it, walking and running further will get this arrow headed back up. Try to go at least {{goal_value:distance}} a day this week and look for a new goal next week. In %#@num_weeks@, you can flip this arrow.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nice work on your Total Distance. Keep getting in your runs and walks to keep your arrow pointed up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To flip this arrow, walk and run at least {{goal_value:distance}} a day for the next %#@num_days@. So worth it!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@ and your arrow will flip back up, {{username}}. You’ve got this.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you’re up for it, walking and running further will get this arrow headed back up. Try to go at least {{goal_value:distance}} a day this week and look for a new goal next week. In %#@num_weeks@, you can flip this arrow.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your total distance is down. If you want to get this arrow back on track, try to find time for a walk each day.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To flip this arrow, walk and run at least {{goal_value:distance}} a day for the next %#@num_days@. So worth it!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re walking or running less recently, {{username}}. To keep your arrow up, try to get moving a bit more!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re walking or running less recently. To keep your arrow up, try to get moving a bit more!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow, {{username}}! Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, your total distance arrow is up. Keep running and walking each day so it stays that way!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>If you can run or walk at least {{goal_value:distance}} today, this arrow will point back up. So worth it, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To flip this arrow, walk and run at least {{goal_value:distance}} a day for the next %#@num_days@, {{username}}. So worth it!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your total distance is down, {{username}}. If you want to get this arrow back on track, try to find time for a walk each day.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow! Walk and run at least {{goal_value:distance}} a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

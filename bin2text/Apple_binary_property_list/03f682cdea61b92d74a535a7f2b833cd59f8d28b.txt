@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>”%@”</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>”%@”</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%2$#@title@ ja yksi muu kohde eivät ole ladattavissa. Yritä myöhemmin uudelleen.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%2$#@title@ ja %lu muuta kohdetta ei ole ladattavissa. Yritä myöhemmin uudelleen.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Kirjastosi uusimmat jaksot ladataan automaattisesti uudelleen. %lu vanhempi jakso odottaa lataamista.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Kirjastosi uusimmat jaksot ladataan automaattisesti uudelleen. %lu vanhempaa jaksoa odottaa lataamista.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Podcastia ei voida ladata</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Podcasteja ei voida ladata</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%u jakso lisää podcastista ”%@”</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u jaksoa lisää podcasteista ”%@”</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Kun tämä on toistettu, kuunnellaanko se jakso, jonka olet valinnut toistettavaksi seuraavaksi?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Kun tämä on toistettu, kuunnellaanko ne %lu jaksoa, jotka olet valinnut toistettaviksi seuraavaksi?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%u uusi jakso</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u uutta jaksoa</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu uusi jakso on saatavilla.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%lu uutta jaksoa saatavilla.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@일</string>
+			<key>many</key>
+			<string>%@일</string>
+			<key>one</key>
+			<string>일</string>
+			<key>other</key>
+			<string>%@일</string>
+			<key>two</key>
+			<string>%@일</string>
+			<key>zero</key>
+			<string>%@일</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@분</string>
+			<key>many</key>
+			<string>%@분</string>
+			<key>one</key>
+			<string>분</string>
+			<key>other</key>
+			<string>%@분</string>
+			<key>two</key>
+			<string>%@분</string>
+			<key>zero</key>
+			<string>%@분</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@월</string>
+			<key>many</key>
+			<string>%@월</string>
+			<key>one</key>
+			<string>개월</string>
+			<key>other</key>
+			<string>%@월</string>
+			<key>two</key>
+			<string>%@월</string>
+			<key>zero</key>
+			<string>%@월</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@주</string>
+			<key>many</key>
+			<string>%@주</string>
+			<key>one</key>
+			<string>주</string>
+			<key>other</key>
+			<string>%@주</string>
+			<key>two</key>
+			<string>%@주</string>
+			<key>zero</key>
+			<string>%@주</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@년</string>
+			<key>many</key>
+			<string>%@년</string>
+			<key>one</key>
+			<string>년</string>
+			<key>other</key>
+			<string>%@년</string>
+			<key>two</key>
+			<string>%@년</string>
+			<key>zero</key>
+			<string>%@년</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@주 동안 유효</string>
+			<key>many</key>
+			<string>%@주 동안 유효</string>
+			<key>one</key>
+			<string>%@주 동안 유효</string>
+			<key>other</key>
+			<string>%@주 동안 유효</string>
+			<key>two</key>
+			<string>%@주 동안 유효</string>
+			<key>zero</key>
+			<string>%@주 동안 유효</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@일 동안 유효</string>
+			<key>many</key>
+			<string>%@일 동안 유효</string>
+			<key>one</key>
+			<string>%@일 동안 유효</string>
+			<key>other</key>
+			<string>%@일 동안 유효</string>
+			<key>two</key>
+			<string>%@일 동안 유효</string>
+			<key>zero</key>
+			<string>%@일 동안 유효</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@분 동안 유효</string>
+			<key>many</key>
+			<string>%@분 동안 유효</string>
+			<key>one</key>
+			<string>%@분 동안 유효</string>
+			<key>other</key>
+			<string>%@분 동안 유효</string>
+			<key>two</key>
+			<string>%@분 동안 유효</string>
+			<key>zero</key>
+			<string>%@분 동안 유효</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@년 동안 유효</string>
+			<key>many</key>
+			<string>%@년 동안 유효</string>
+			<key>one</key>
+			<string>%@년 동안 유효</string>
+			<key>other</key>
+			<string>%@년 동안 유효</string>
+			<key>two</key>
+			<string>%@년 동안 유효</string>
+			<key>zero</key>
+			<string>%@년 동안 유효</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

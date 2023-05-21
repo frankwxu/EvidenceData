@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ and a half inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d inchi și jumătate</string>
+			<key>one</key>
+			<string>%d inch și jumătate</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de inchi și jumătate</string>
+			<key>zero</key>
+			<string>jumătate de inch</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d centimetri</string>
+			<key>one</key>
+			<string>%d centimetru</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de centimetri</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d inchi</string>
+			<key>one</key>
+			<string>%d inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de inchi</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d picioare</string>
+			<key>one</key>
+			<string>%d picior</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de picioare</string>
+		</dict>
+	</dict>
+	<key>%@ square centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d centimetri pătrați</string>
+			<key>one</key>
+			<string>%d centimetru pătrat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de centimetri pătrați</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d inchi</string>
+			<key>one</key>
+			<string>%d inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de inchi</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f metri</string>
+			<key>one</key>
+			<string>un metru</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f de metri</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square feet (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f picioare pătrate</string>
+			<key>one</key>
+			<string>un picior pătrat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f de picioare pătrate</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f centimetri</string>
+			<key>one</key>
+			<string>un centimetru</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f de centimetri</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d picioare</string>
+			<key>one</key>
+			<string>%d picior</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de picioare</string>
+		</dict>
+	</dict>
+	<key>%@ inches (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f inchi</string>
+			<key>one</key>
+			<string>un inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f de inchi</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches (precise)</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f inchi</string>
+			<key>one</key>
+			<string>un inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f de inchi</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d picioare</string>
+			<key>one</key>
+			<string>%d picior</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de picioare</string>
+		</dict>
+	</dict>
+	<key>%@ square inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d inchi pătrați</string>
+			<key>one</key>
+			<string>%d inch pătrat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de inchi pătrați</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f metri pătrați</string>
+			<key>one</key>
+			<string>un metru pătrat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f de metri pătrați</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+</dict>
+</plist>

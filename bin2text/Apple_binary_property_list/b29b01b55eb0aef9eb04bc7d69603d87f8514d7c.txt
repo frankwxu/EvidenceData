@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ päivää</string>
+			<key>many</key>
+			<string>%@ päivää</string>
+			<key>one</key>
+			<string>päivä</string>
+			<key>other</key>
+			<string>%@ päivää</string>
+			<key>two</key>
+			<string>%@ päivää</string>
+			<key>zero</key>
+			<string>%@ päivää</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ minuuttia</string>
+			<key>many</key>
+			<string>%@ minuuttia</string>
+			<key>one</key>
+			<string>minuutti</string>
+			<key>other</key>
+			<string>%@ minuuttia</string>
+			<key>two</key>
+			<string>%@ minuuttia</string>
+			<key>zero</key>
+			<string>%@ minuuttia</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ kuukautta</string>
+			<key>many</key>
+			<string>%@ kuukautta</string>
+			<key>one</key>
+			<string>kuukausi</string>
+			<key>other</key>
+			<string>%@ kuukautta</string>
+			<key>two</key>
+			<string>%@ kuukautta</string>
+			<key>zero</key>
+			<string>%@ kuukautta</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ viikkoa</string>
+			<key>many</key>
+			<string>%@ viikkoa</string>
+			<key>one</key>
+			<string>viikko</string>
+			<key>other</key>
+			<string>%@ viikkoa</string>
+			<key>two</key>
+			<string>%@ viikkoa</string>
+			<key>zero</key>
+			<string>%@ viikkoa</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ vuotta</string>
+			<key>many</key>
+			<string>%@ vuotta</string>
+			<key>one</key>
+			<string>vuosi</string>
+			<key>other</key>
+			<string>%@ vuotta</string>
+			<key>two</key>
+			<string>%@ vuotta</string>
+			<key>zero</key>
+			<string>%@ vuotta</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Kelpoisuusaika %@ viikkoa</string>
+			<key>many</key>
+			<string>Kelpoisuusaika %@ viikkoa</string>
+			<key>one</key>
+			<string>Kelpoisuusaika %@ viikko</string>
+			<key>other</key>
+			<string>Kelpoisuusaika %@ viikkoa</string>
+			<key>two</key>
+			<string>Kelpoisuusaika %@ viikkoa</string>
+			<key>zero</key>
+			<string>Kelpoisuusaika %@ viikkoa</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Kelpoisuusaika %@ päivää</string>
+			<key>many</key>
+			<string>Kelpoisuusaika %@ päivää</string>
+			<key>one</key>
+			<string>Kelpoisuusaika %@ päivä</string>
+			<key>other</key>
+			<string>Kelpoisuusaika %@ päivää</string>
+			<key>two</key>
+			<string>Kelpoisuusaika %@ päivää</string>
+			<key>zero</key>
+			<string>Kelpoisuusaika %@ päivää</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Kelpoisuusaika %@ kuukautta</string>
+			<key>many</key>
+			<string>Kelpoisuusaika %@ kuukautta</string>
+			<key>one</key>
+			<string>Kelpoisuusaika %@ kuukausi</string>
+			<key>other</key>
+			<string>Kelpoisuusaika %@ kuukautta</string>
+			<key>two</key>
+			<string>Kelpoisuusaika %@ kuukautta</string>
+			<key>zero</key>
+			<string>Kelpoisuusaika %@ kuukautta</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Kelpoisuusaika %@ vuotta</string>
+			<key>many</key>
+			<string>Kelpoisuusaika %@ vuotta</string>
+			<key>one</key>
+			<string>Kelpoisuusaika %@ vuosi</string>
+			<key>other</key>
+			<string>Kelpoisuusaika %@ vuotta</string>
+			<key>two</key>
+			<string>Kelpoisuusaika %@ vuotta</string>
+			<key>zero</key>
+			<string>Kelpoisuusaika %@ vuotta</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

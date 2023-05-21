@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:join.skype.com</string>
+		<string>applinks:join-latest.skype.com</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>$(SKP_APPLICATION_GROUP)</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.microsoft.skype.s4l</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.workplacejoin</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.sso</string>
+		<string>$(AppIdentifierPrefix)com.microsoft.adalcache</string>
+	</array>
+</dict>
+</plist>

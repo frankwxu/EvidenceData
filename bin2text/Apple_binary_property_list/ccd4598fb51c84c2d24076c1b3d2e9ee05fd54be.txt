@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>“%@”</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>“%@”</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>De momento, não é possível descarregar %2$#@title@ e mais um elemento. Volte a tentar mais tarde.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>De momento, não é possível descarregar %2$#@title@ e mais %lu elementos. Volte a tentar mais tarde.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Os episódios mais recentes na biblioteca voltam a ser descarregados automaticamente. Há %lu episódio mais antigo para descarregar.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Os episódios mais recentes na biblioteca voltam a ser descarregados automaticamente. Há %lu episódios mais antigos para descarregar.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Impossível descarregar podcast</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Impossível descarregar podcasts</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Mais %u episódio de %@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Mais %u episódios de %@</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Após a reprodução atual, gostaria de continuar a ouvir o episódio que selecionou para reproduzir a seguir?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Após a reprodução atual, gostaria de continuar a ouvir os %lu episódios que selecionou para reproduzir a seguir?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%u novo episódio</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u novos episódios</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Está disponível %lu novo episódio.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Estão disponíveis %lu novos episódios.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

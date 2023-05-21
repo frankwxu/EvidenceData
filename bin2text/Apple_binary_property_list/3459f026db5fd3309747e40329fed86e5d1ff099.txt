@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>„%@”</string>
+			<key>one</key>
+			<string>„%@”</string>
+			<key>many</key>
+			<string>„%@”</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>„%@”</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Nie można pobrać „%2$#@title@” i %lu innych rzeczy. Spróbuj ponownie później.</string>
+			<key>one</key>
+			<string>Nie można pobrać „%2$#@title@” i 1 innej rzeczy. Spróbuj ponownie później.</string>
+			<key>many</key>
+			<string>Nie można pobrać „%2$#@title@” i %lu innych rzeczy. Spróbuj ponownie później.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Nie można pobrać „%2$#@title@” i %lu innej rzeczy. Spróbuj ponownie później.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Najnowsze odcinki są automatycznie pobierane z Biblioteki. %lu starsze odcinki oczekują na pobranie.</string>
+			<key>one</key>
+			<string>Najnowsze odcinki są automatycznie pobierane z Biblioteki. %lu starszy odcinek oczekuje na pobranie.</string>
+			<key>many</key>
+			<string>Najnowsze odcinki są automatycznie pobierane z Biblioteki. %lu starszych odcinków oczekuje na pobranie.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Najnowsze odcinki są automatycznie pobierane z Biblioteki. %lu starszego odcinka oczekuje na pobranie.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Nie można pobrać podcastów</string>
+			<key>one</key>
+			<string>Nie można pobrać podcastu</string>
+			<key>many</key>
+			<string>Nie można pobrać podcastów</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Nie można pobrać podcastów</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Jeszcze %u odcinki z %@</string>
+			<key>one</key>
+			<string>Jeszcze %u odcinek z %@</string>
+			<key>many</key>
+			<string>Jeszcze %u odcinków z %@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Jeszcze %u odcinka z %@</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Czy po tym odcinku chcesz nadal słuchać %lu odcinków wybranych do odtwarzania jako następne?</string>
+			<key>one</key>
+			<string>Czy po tym odcinku chcesz nadal słuchać odcinka wybranego do odtwarzania jako następny?</string>
+			<key>many</key>
+			<string>Czy po tym odcinku chcesz nadal słuchać %lu odcinków wybranych do odtwarzania jako następne?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Czy po tym odcinku chcesz nadal słuchać %lu odcinka wybranego do odtwarzania jako następny?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u nowe odcinki</string>
+			<key>one</key>
+			<string>%u nowy odcinek</string>
+			<key>many</key>
+			<string>%u nowych odcinków</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u nowego odcinka</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Dostępne są %lu nowe odcinki.</string>
+			<key>one</key>
+			<string>Dostępny jest %lu nowy odcinek.</string>
+			<key>many</key>
+			<string>Dostępnych jest %lu nowych odcinków.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Dostępnych jest %lu nowego odcinka.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

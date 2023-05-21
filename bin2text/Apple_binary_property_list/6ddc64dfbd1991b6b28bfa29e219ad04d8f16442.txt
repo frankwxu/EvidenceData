@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ARCHIVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu İletiyi Arşivle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İletiyi Arşivle</string>
+		</dict>
+	</dict>
+	<key>DRAFTS_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Taslak</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Taslak</string>
+		</dict>
+	</dict>
+	<key>MESSAGES_SELECTED_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu Seçili</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu Seçili</string>
+		</dict>
+		<key>Comment</key>
+		<string>Number of selected messages, for the nav bar in a mailbox.</string>
+	</dict>
+	<key>MARK_EMAIL_UNFLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Bayrağı Kaldır</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İletinin Bayrağını Kaldır</string>
+		</dict>
+	</dict>
+	<key>UNREAD_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu Okunmamış İleti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu Okunmamış İleti</string>
+			<key>zero</key>
+			<string>Okunmamış İleti Yok</string>
+		</dict>
+	</dict>
+	<key>MOVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>İletiyi Taşı...</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İletiyi Taşı...</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_UNREAD%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Okunmadı İşaretle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Okunmadı İşaretle (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_READ%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Okundu İşaretle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Okundu İşaretle (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>NEW_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Yeni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Yeni</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_IMAGES%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%2$@ Görüntüyü Kaydet</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ Görüntüyü Kaydet</string>
+		</dict>
+	</dict>
+	<key>ITEMS_SELECTED%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 Öğe</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ Öğe</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_FLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Bayrak Ekle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İletiye Bayrak Ekle</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT_FOUND%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argumemt is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Siri 1 Etkinlik buldu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Siri %2$@ Etkinlik buldu</string>
+		</dict>
+	</dict>
+	<key>MARK_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>İstenmeyen’e Taşı (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>İstenmeyen’e Taşı (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>UPDATED_N_MINUTES_AGO_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@</string>
+		<key>Comment</key>
+		<string>Displayed in the toolbar below the message list. The parameter is the number of minutes since the last update.</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu dakika önce güncellendi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu dakika önce güncellendi</string>
+		</dict>
+	</dict>
+	<key>FLAGGED_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Bayraklı</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Bayraklı</string>
+		</dict>
+	</dict>
+	<key>TRASH_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu İletiyi Çöpe At</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İletiyi Çöpe At</string>
+		</dict>
+	</dict>
+	<key>UNREAD_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Okunmamış</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Okunmamış</string>
+		</dict>
+	</dict>
+	<key>MESSAGE_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu İleti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İleti</string>
+			<key>zero</key>
+			<string>İleti Yok</string>
+		</dict>
+	</dict>
+	<key>DELETE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu İletiyi Sil</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu İletiyi Sil</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_VIDEOS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%2$@ Videoyu Kaydet</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ Videoyu Kaydet</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_ATTACHMENTS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%2$@ İlişiği Kaydet</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ İlişiği Kaydet</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_CONTACT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 Kişi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ Kişi</string>
+		</dict>
+	</dict>
+	<key>MARK_NOT_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>İstenmeyen Posta İşaretini Kaldır (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>İstenmeyen Posta İşaretini Kaldır (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 Etkinlik</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ Etkinlik</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Hour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Hours</string>
+		</dict>
+	</dict>
+	<key>And %d more reminders…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_reminders@</string>
+		<key>num_reminders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>And 1 more reminder…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>And %d more reminders…</string>
+		</dict>
+	</dict>
+	<key>Shared with %d people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Shared with %d person</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Shared with %d people</string>
+		</dict>
+	</dict>
+	<key>Outdent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Outdent Reminder</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Outdent %d Reminders</string>
+			<key>zero</key>
+			<string>Outdent Reminder</string>
+		</dict>
+	</dict>
+	<key>Days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Days</string>
+		</dict>
+	</dict>
+	<key>Weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Weeks</string>
+		</dict>
+	</dict>
+	<key>%d Images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Image</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Images</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Due</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ Reminder Due</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Reminders Due</string>
+		</dict>
+	</dict>
+	<key>%ld Lists</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@list_count@</string>
+		<key>list_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%ld List</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld Lists</string>
+		</dict>
+	</dict>
+	<key>Indent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Indent Reminder</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Indent %d Reminders</string>
+			<key>zero</key>
+			<string>Indent Reminder</string>
+		</dict>
+	</dict>
+	<key>Hide %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Hide %d Item</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Hide %d Items</string>
+		</dict>
+	</dict>
+	<key>%@ Items Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ Item Today</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Items Today</string>
+			<key>zero</key>
+			<string>Nothing Today</string>
+		</dict>
+	</dict>
+	<key>Show %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Show %d Item</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Show %d Items</string>
+		</dict>
+	</dict>
+	<key>%d years (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Year</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d years</string>
+		</dict>
+	</dict>
+	<key>%d weeks (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>%@ and %d others</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ and %#@num_others@</string>
+		<key>num_others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 other</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d others</string>
+		</dict>
+	</dict>
+	<key>Months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Month</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Months</string>
+		</dict>
+	</dict>
+	<key>%d hours (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Hour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hours</string>
+		</dict>
+	</dict>
+	<key>%@ Items Due Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ Item Due Today</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Items Due Today</string>
+			<key>zero</key>
+			<string>No Items Due Today</string>
+		</dict>
+	</dict>
+	<key>%d Completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Completed</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Completed</string>
+		</dict>
+	</dict>
+	<key>Move these reminders to a new list</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Move this reminder to a new list</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Move these reminders to a new list</string>
+		</dict>
+	</dict>
+	<key>%@ Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Overdue</string>
+		</dict>
+	</dict>
+	<key>%@ Today + %@ Others</key>
+	<dict>
+		<key>others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ Other</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Others</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@today@ + %2$#@others@</string>
+		<key>today</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Today</string>
+		</dict>
+	</dict>
+	<key>%d days (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>%@ Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ Today</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Today</string>
+			<key>zero</key>
+			<string>None Today</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%@ Reminder Overdue</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ Reminders Overdue</string>
+		</dict>
+	</dict>
+	<key>%d months (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Month</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d months</string>
+		</dict>
+	</dict>
+	<key>Years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Year</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Years</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

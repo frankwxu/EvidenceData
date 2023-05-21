@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>number_of_disambiguation_lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Linie</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Linien</string>
+			<key>zero</key>
+			<string>%d Linien</string>
+		</dict>
+	</dict>
+	<key>[Collections] subtitle</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Ort</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Orte</string>
+			<key>zero</key>
+			<string>%lu Orte</string>
+		</dict>
+	</dict>
+	<key>[RAP] Cell_subtitle_for_a_previous_search_with_results</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$d Ergebnis · %2$@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%1$d Ergebnisse · %2$@</string>
+			<key>zero</key>
+			<string>%1$d Ergebnisse · %2$@</string>
+		</dict>
+	</dict>
+	<key>%d stop [BUS]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Haltestelle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Haltestellen</string>
+			<key>zero</key>
+			<string>%d Haltestelle</string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Bus) Show next bus stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Nächste %u Haltestelle anzeigen</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Nächste %u Haltestellen anzeigen</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>reservations_number_of_offers_key</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Angebot</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Angebote</string>
+			<key>zero</key>
+			<string>%d Angebote</string>
+		</dict>
+	</dict>
+	<key>[Collections] subtitle for Lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Linie</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Linien</string>
+			<key>zero</key>
+			<string>%lu Linie</string>
+		</dict>
+	</dict>
+	<key>NAV_SAR_RESULT_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Ergebnis</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Ergebnisse</string>
+			<key>zero</key>
+			<string>%d Ergebnisse</string>
+		</dict>
+	</dict>
+	<key>[ridesharing] max party size</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Max. %llu Person</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>llu</string>
+			<key>other</key>
+			<string>Max. %llu Personen</string>
+			<key>zero</key>
+			<string>Max. %llu Personen</string>
+		</dict>
+	</dict>
+	<key>Shared Trips Cell Subtitle Format String</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%2$@ und %1$lu andere Person</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%2$@ und %1$lu andere Personen</string>
+			<key>zero</key>
+			<string>%2$@ hat eine Fahrt mit dir geteilt</string>
+		</dict>
+	</dict>
+	<key>Places [Cluster Card]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu Ort</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu Orte</string>
+			<key>zero</key>
+			<string>%lu Orte</string>
+		</dict>
+	</dict>
+	<key>TransitWidget_GoodService_SecondaryText</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Für deine bevorzugte ÖPNV-Linie gibt es keine Hinweise.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Für %d deiner bevorzugten ÖPNV-Linien gibt es keine Hinweise.</string>
+			<key>zero</key>
+			<string>Für deine bevorzugte ÖPNV-Linie gibt es keine Hinweise.</string>
+		</dict>
+	</dict>
+	<key>count_of_places</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Ort</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Orte</string>
+			<key>zero</key>
+			<string>%d Orte</string>
+		</dict>
+	</dict>
+	<key>number_of_people_reservation_request</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%ld Person</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld Personen</string>
+			<key>zero</key>
+			<string>%ld Personen</string>
+		</dict>
+	</dict>
+	<key>Shared Trip Format [Cell, Title]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%u geteilte Fahrt</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u geteilte Routen</string>
+			<key>zero</key>
+			<string>%u geteilte Fahrten</string>
+		</dict>
+	</dict>
+	<key>Title_for_search_in_maps_history</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$d Ergebnis in %2$@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%1$d Ergebnisse in %2$@</string>
+			<key>zero</key>
+			<string>%1$d Ergebnisse in %2$@</string>
+		</dict>
+	</dict>
+	<key>Add_Associate_Line_Item_To_Favorites_Message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Soll die ÖPNV-Linie, die an dieser Station hält, ebenfalls hinzugefügt werden? Im Karten-Widget „ÖPNV“ kannst du Servicehinweise für deine bevorzugten Linien anzeigen.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Sollen die %d ÖPNV-Linien, die an dieser Station halten, ebenfalls hinzugefügt werden? Im Karten-Widget „ÖPNV“ kannst du Servicehinweise für deine bevorzugten Linien anzeigen.</string>
+			<key>zero</key>
+			<string>Sollen die %d ÖPNV-Linien, die an dieser Station halten, ebenfalls hinzugefügt werden? Im Karten-Widget „ÖPNV“ kannst du Servicehinweise für deine bevorzugten Linien anzeigen.</string>
+		</dict>
+	</dict>
+	<key>[Results] subtitle</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu gefunden</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu gefunden</string>
+			<key>zero</key>
+			<string>%lu gefunden</string>
+		</dict>
+	</dict>
+	<key>TransitWidget_GoodService_Overflow_SecondaryText</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Deine bevorzugte ÖPNV-Linie fährt planmäßig.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld deiner bevorzugten ÖPNV-Linien fahren planmäßig.</string>
+			<key>zero</key>
+			<string>%ld deiner bevorzugten ÖPNV-Linien fahren planmäßig.</string>
+		</dict>
+	</dict>
+	<key>Search result cluster subtitle</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>+ 1 mehr</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>+%d weitere</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>[RAP] Cell_subtitle_for_a_previous_search_with_results_and_no_location</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$d Ergebnis</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%1$d Ergebnisse</string>
+			<key>zero</key>
+			<string>Keine Ergebnisse</string>
+		</dict>
+	</dict>
+	<key>Transit_Incident_Not_Displayed_Incidents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string> und %u weiterer</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string> und %u weitere</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>%d stop [OTHER]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Haltestelle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Haltestellen</string>
+			<key>zero</key>
+			<string>%d Haltestelle</string>
+		</dict>
+	</dict>
+	<key>%d stop [RAIL]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Haltestelle</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Haltestellen</string>
+			<key>zero</key>
+			<string>%d Haltestelle</string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Non-bus) Show next non-bus stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Nächste %u Haltestelle anzeigen</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Nächste %u Haltestellen anzeigen</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>Transit_Routing_Incident_Message_Multiple_Incidents_Synthesized_Title</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Störung</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Störungen</string>
+			<key>zero</key>
+			<string>%d Störungen</string>
+		</dict>
+	</dict>
+	<key>[Share ETA] nav banner button</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Mit %lu Person teilen …</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Mit %lu Personen teilen …</string>
+			<key>zero</key>
+			<string>Ankunftszeit teilen</string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Bus) Show previous stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Vorherige %u Haltestelle anzeigen</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Vorherige %u Haltestellen anzeigen</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Non-bus) Show previous stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Vorherige %u Haltestelle anzeigen</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Vorherige %u Haltestellen anzeigen</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>count_of_transit_lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ÖPNV-Linie</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ÖPNV-Linien</string>
+			<key>zero</key>
+			<string>%d ÖPNV-Linien</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

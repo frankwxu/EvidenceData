@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المسافة الإجمالية متجهة لأسفل يا {{username}}. إذا كنت تريد إعادة هذا السهم إلى مساره الجيد، حاول أن تجد وقتًا للمشي لتمرين مشي كل يوم.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا كان لديك استعداد، فإن المشي والركض لمسافات أطول سيعيد اتجاه هذا السهم لأعلى من جديد يا {{username}}. حاول أن تقطع مسافة {{goal_value:distance}} على الأقل يوميًا على مدار هذا الأسبوع وابحث عن هدف جديد الأسبوع القادم. خلال %#@num_weeks@، ستتمكن من قلب اتجاه هذا السهم.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أداء جيد للمسافة الإجمالية. استمر في أداء تمارين الركض والمشي للحفاظ على اتجاه سهمك لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم! امشِ واركض مسافة {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لإعادة اتجاه هذا السهم لأعلى من جديد، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@. الأمر متوقف عليك يا {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، سهم المسافة الإجمالية متجه لأعلى. استمر في الركض والمشي كل يوم حتى يظل كذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أداء جيد للمسافة الإجمالية يا {{username}}. قم بأداء تمارين الركض والمشي كل يوم للحفاظ على اتجاه سهمك لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لإعادة اتجاه هذا السهم لأعلى من جديد، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@. الأمر متوقف عليك.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>للحفاظ على اتجاه سهمك لأعلى، ينبغي أن تمشي وتركض لمسافات أطول من التي حققتها مؤخرًا. هيا افعلها!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أداء جيد للمسافة الإجمالية يا {{username}}. استمر في أداء تمارين الركض والمشي للحفاظ على اتجاه سهمك لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا استطعت أن تركض أو تمشي {{goal_value:distance}} على الأقل اليوم، فسيتجه هذا السهم لأعلى من جديد. الأمر يستحق الاجتهاد يا {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهم المسافة الإجمالية متجه لأعلى. استمر في الركض والمشي كل يوم حتى يظل كذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم يا {{username}}! امشِ واركض مسافة {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@ وسينقلب اتجاه سهمك لأعلى من جديد يا {{username}}. أنت لها.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لإعادة اتجاه هذا السهم لأعلى من جديد، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@. الأمر متوقف عليك.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا استطعت أن تركض أو تمشي {{goal_value:distance}} على الأقل اليوم، فسيتجه هذا السهم لأعلى من جديد. الأمر يستحق الاجتهاد!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@ وسينقلب اتجاه سهمك لأعلى من جديد. أنت لها.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهم المسافة الإجمالية متجه لأعلى. استمر في الركض والمشي كل يوم حتى يظل كذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المسافة الإجمالية متجهة لأسفل. إذا كنت تريد إعادة هذا السهم إلى مساره الجيد، حاول أن تجد وقتًا للمشي لتمرين مشي كل يوم.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لإعادة اتجاه هذا السهم لأعلى من جديد، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@. الأمر متوقف عليك يا {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا كان لديك استعداد، فإن المشي والركض لمسافات أطول سيعيد اتجاه هذا السهم لأعلى من جديد يا {{username}}. حاول أن تقطع مسافة {{goal_value:distance}} على الأقل يوميًا على مدار هذا الأسبوع وابحث عن هدف جديد الأسبوع القادم. خلال %#@num_weeks@، ستتمكن من قلب اتجاه هذا السهم.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>للحفاظ على اتجاه سهمك لأعلى، ينبغي أن تمشي وتركض لمسافات أطول من التي حققتها مؤخرًا يا {{username}}. هيا افعلها!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا استطعت أن تركض أو تمشي {{goal_value:distance}} على الأقل اليوم، فسيتجه هذا السهم لأعلى من جديد. الأمر يستحق الاجتهاد!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقلب اتجاه هذا السهم، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@ يا {{username}}. الأمر يستحق الاجتهاد!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@ وسينقلب اتجاه سهمك لأعلى من جديد. أنت لها.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا كان لديك استعداد، فإن المشي والركض لمسافات أطول سيعيد اتجاه هذا السهم لأعلى من جديد. حاول أن تقطع مسافة {{goal_value:distance}} على الأقل يوميًا على مدار هذا الأسبوع وابحث عن هدف جديد الأسبوع القادم. خلال %#@num_weeks@، ستتمكن من قلب اتجاه هذا السهم.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أداء جيد للمسافة الإجمالية. استمر في أداء تمارين الركض والمشي للحفاظ على اتجاه سهمك لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقلب اتجاه هذا السهم، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@. الأمر يستحق الاجتهاد!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@ وسينقلب اتجاه سهمك لأعلى من جديد يا {{username}}. أنت لها.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا كان لديك استعداد، فإن المشي والركض لمسافات أطول سيعيد اتجاه هذا السهم لأعلى من جديد. حاول أن تقطع مسافة {{goal_value:distance}} على الأقل يوميًا على مدار هذا الأسبوع وابحث عن هدف جديد الأسبوع القادم. خلال %#@num_weeks@، ستتمكن من قلب اتجاه هذا السهم.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المسافة الإجمالية متجهة لأسفل. إذا كنت تريد إعادة هذا السهم إلى مساره الجيد، حاول أن تجد وقتًا للمشي لتمرين مشي كل يوم.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقلب اتجاه هذا السهم، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@. الأمر يستحق الاجتهاد!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المسافة التي تمشيها أو تركضها قلّت مؤخرًا يا {{username}}. للحفاظ على اتجاه سهمك لأعلى، حاول زيادة معدل حركتك قليلاً.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المسافة التي تمشيها أو تركضها قلّت مؤخرًا. للحفاظ على اتجاه سهمك لأعلى، حاول زيادة معدل حركتك قليلاً.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم يا {{username}}! امشِ واركض مسافة {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، سهم المسافة الإجمالية متجه لأعلى. استمر في الركض والمشي كل يوم حتى يظل كذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا استطعت أن تركض أو تمشي {{goal_value:distance}} على الأقل اليوم، فسيتجه هذا السهم لأعلى من جديد. الأمر يستحق الاجتهاد يا {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقلب اتجاه هذا السهم، امشِ واركض {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@ يا {{username}}. الأمر يستحق الاجتهاد!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المسافة الإجمالية متجهة لأسفل يا {{username}}. إذا كنت تريد إعادة هذا السهم إلى مساره الجيد، حاول أن تجد وقتًا للمشي لتمرين مشي كل يوم.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم! امشِ واركض مسافة {{goal_value:distance}} على الأقل يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

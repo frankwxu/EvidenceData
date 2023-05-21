@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Ligue para John usando Zoom</string>
+				<string>Usando Zoom call John</string>
+				<string>Zoom chamar John</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Video usando John usando Zoom</string>
+				<string>Usando chamada de vídeo Zoom John</string>
+				<string>Chamada de vídeo Zoom John</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Pesquisar histórico de chamadas do John usando o Zoom</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSearchCallHistoryIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

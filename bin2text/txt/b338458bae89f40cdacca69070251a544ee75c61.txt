@@ -1,0 +1,20 @@
+# Siri rule overrides to correct nuance base rules
+
+[header]
+language = ENU
+charset = utf-8
+
+[data]
+# Changing this phrase so that a broken rule in siri_aaron_rules is skipped
+/Directions to where\?/   -->   "Directions  to where?"
+# Changing this phrase so that a broken vendor rule is skipped
+/\bCinco de Mayo\b/   -->   "\e/+'sinK.ko&U_d$_'ma&I.o&U\e/+"
+/(^|[^\d\.])1 cal\b/   -->   "$1 1 calorie"
+/(\d)\scal\b/   -->   "$1 calories"
+
+# Override vendor rule for "lunatic"
+/\b(?i)lunatic\b/   -->   "\x1b/+'lu.n$.'tIk\x1b/+"
+
+# ***This test entry must be the VERY LAST line in the rule set.***
+# rdar://problem/48523405 TTSVerifier: Check that user rules and dictionary file get correctly loaded on the device
+/\b4E7207D0-D982-4C60-9DF0-1F262D233966\b/   -->   "OK"

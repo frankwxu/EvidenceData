@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chat.disappearing_message.hours_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tunti katsomisaikaa jäljellä</string>
+			<key>other</key>
+			<string>%d tuntia katsomisaikaa jäljellä</string>
+		</dict>
+	</dict>
+	<key>chat.disappearing_message.minutes_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minuutti katsomisaikaa jäljellä</string>
+			<key>other</key>
+			<string>%d minuuttia katsomisaikaa jäljellä</string>
+		</dict>
+	</dict>
+	<key>chat.request_options.common_groups_explanation2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Tämä henkilö ei ole kaverisi, mutta hän on %d samassa ryhmässä kanssasi. Olethan erityisen varovainen lähettäessäsi viestejä muille kuin yhteystiedoillesi.</string>
+			<key>other</key>
+			<string>Nämä henkilöt eivät ole kavereitasi, mutta he ovat %d samassa ryhmässä kanssasi. Olethan erityisen varovainen lähettäessäsi viestejä muille kuin yhteystiedoillesi.</string>
+		</dict>
+	</dict>
+	<key>chat.requests.text.limit_reached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Roskapostien välttämiseksi voit lähettää vain 50 keskustelupyyntöä 24 tunnin aikana.  Olet saavuttanut rajan ja joudut ottamaan %d tunnin ennen kuin voit lähettää enempää pyyntöjä. Vastaanotetuille keskustelupyynnöille ei ole rajaa.</string>
+			<key>other</key>
+			<string>Roskapostien välttämiseksi voit lähettää vain 50 keskustelupyyntöä 24 tunnin aikana.  Olet saavuttanut rajan ja joudut ottamaan %d tuntia ennen kuin voit lähettää enempää pyyntöjä. Vastaanotetuille keskustelupyynnöille ei ole rajaa.</string>
+		</dict>
+	</dict>
+	<key>chat.text.new_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d uusi viesti</string>
+			<key>other</key>
+			<string>%d uutta viestiä</string>
+		</dict>
+	</dict>
+	<key>chat.text.people_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d henkilö</string>
+			<key>other</key>
+			<string>%d henkilöä</string>
+		</dict>
+	</dict>
+	<key>common.period.days_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d päivä</string>
+			<key>other</key>
+			<string>%d päivää</string>
+		</dict>
+	</dict>
+	<key>common.period.hours_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tunti</string>
+			<key>other</key>
+			<string>%d tuntia</string>
+		</dict>
+	</dict>
+	<key>common.period.minutes_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minuutti</string>
+			<key>other</key>
+			<string>%d minuuttia</string>
+		</dict>
+	</dict>
+	<key>contacts.text.add_contact_to_group_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Lisäät tämän yhteystiedon ryhmään: %2$@</string>
+			<key>other</key>
+			<string>Lisäät nämä yhteystiedot ryhmään: %2$@</string>
+		</dict>
+	</dict>
+	<key>contacts.text.contacts_selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d yhteystieto valittu</string>
+			<key>other</key>
+			<string>%d yhteystietoa valittu</string>
+		</dict>
+	</dict>
+	<key>contacts.text.invitation_limit_reached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Roskapostien estämiseksi voit lähettää vain 50 yhteydenottopyyntöä 24 tunnin aikana. Olet saavuttanut rajan ja joudut odottamaan %d tunnin ennen kuin voit lähettää enempää pyyntöjä. Vastaanotetuille yhteydenottopyynnöille ei ole rajaa.</string>
+			<key>other</key>
+			<string>Roskapostien estämiseksi voit lähettää vain 50 yhteydenottopyyntöä 24 tunnin aikana. Olet saavuttanut rajan ja joudut odottamaan %d tuntia ennen kuin voit lähettää enempää pyyntöjä. Vastaanotetuille yhteydenottopyynnöille ei ole rajaa.</string>
+		</dict>
+	</dict>
+	<key>contacts_suggestions.alert.success</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d yhteydenottopyyntö lähetettiin onnistuneesti</string>
+			<key>other</key>
+			<string>%d yhteydenottopyyntöä lähetettiin onnistuneesti</string>
+		</dict>
+	</dict>
+	<key>events.text.group_event_add_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Haluaisitko lisätä tämän jäsenen tapahtumaan %2$@?</string>
+			<key>other</key>
+			<string>Haluaisitko lisätä %1$d jäsentä tapahtumaan %2$@?</string>
+		</dict>
+	</dict>
+	<key>events.text.group_event_invite_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Haluaisitko kutsua tämän jäsenen tapahtumaan %2$@?</string>
+			<key>other</key>
+			<string>Haluaisitko kutsua %1$d jäsentä tapahtumaan %2$@?</string>
+		</dict>
+	</dict>
+	<key>events.text.user_event_invite_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Haluaisitko kutsua tämän yhteystiedon tapahtumaan %2$@?</string>
+			<key>other</key>
+			<string>Haluaisitko kutsua %1$d yhteystietoa tapahtumaan %2$@?</string>
+		</dict>
+	</dict>
+	<key>feed.text.comment_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d kommentti</string>
+			<key>other</key>
+			<string>%d kommenttia</string>
+		</dict>
+	</dict>
+	<key>feed.text.contacts_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d yhteystieto</string>
+			<key>other</key>
+			<string>%d yhteystietoa</string>
+		</dict>
+	</dict>
+	<key>feed.text.like_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tykkäys</string>
+			<key>other</key>
+			<string>%d tykkäystä</string>
+		</dict>
+	</dict>
+	<key>feed.text.love_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d rakkaus</string>
+			<key>other</key>
+			<string>%d rakkautta</string>
+		</dict>
+	</dict>
+	<key>feed.text.more_documents_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>+ %d asiakirja lisää</string>
+			<key>other</key>
+			<string>+ %d asiakirjaa lisää</string>
+		</dict>
+	</dict>
+	<key>files.label.files_count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tiedosto</string>
+			<key>other</key>
+			<string>%d tiedostoa</string>
+		</dict>
+	</dict>
+	<key>forwarding.confirmation.delete_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Oletko varma, että haluat poistaa tämän viestin?</string>
+			<key>other</key>
+			<string>Oletko varma, että haluat poistaa %d viestiä?</string>
+		</dict>
+	</dict>
+	<key>ftue.text.nice_you_have_n_friends_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Siistiä! Sinulla on jo yksi ystävä MeWessä!</string>
+			<key>other</key>
+			<string>Siistiä! Sinulla on jo %d ystävää MeWessä!</string>
+		</dict>
+	</dict>
+	<key>group.label.members_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d jäsen</string>
+			<key>other</key>
+			<string>%d jäsentä</string>
+		</dict>
+	</dict>
+	<key>group_picker.decline_all_invitations_alert.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Oletko varma, että haluat hylätä henkilön %d kutsun?</string>
+			<key>other</key>
+			<string>Oletko varma, että haluat hylätä henkilöiden %d kutsun?</string>
+		</dict>
+	</dict>
+	<key>group_picker.decline_invitations_alert.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Oletko varma, että haluat hylätä henkilön %d ryhmäkutsun?</string>
+			<key>other</key>
+			<string>Oletko varma, että haluat hylätä henkilöiden %d ryhmäkutsun?</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.media_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tuote</string>
+			<key>other</key>
+			<string>%d tuotetta</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.photos_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d kuva</string>
+			<key>other</key>
+			<string>%d kuvaa</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.selected_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tuote valittu</string>
+			<key>other</key>
+			<string>%d tuotetta valittu</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt;. Oletko varma?</string>
+			<key>other</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt;. Oletko varma?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_chat</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä keskustelussa. Oletko varma?</string>
+			<key>other</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä keskustelussa. Oletko varma?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä tapahtumassa. Oletko varma?</string>
+			<key>other</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä tapahtumassa. Oletko varma?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_group</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä ryhmässä. Oletko varma?</string>
+			<key>other</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä ryhmässä. Oletko varma?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_team</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä tiimissä. Oletko varma?</string>
+			<key>other</key>
+			<string>Aiot lähettää ilmoituksen &lt;b&gt;%d henkilölle&lt;/b&gt; tässä tiimissä. Oletko varma?</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.event_attendance</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu ovat tulossa tapahtumaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta ovat tulossa tapahtumaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.n_others_followed_your_page</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu seurasivat sivuasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta seurasivat sivuasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.new_page_notifications</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Sinulla on %1$d uusi ilmoitus sivulla %2$@</string>
+			<key>other</key>
+			<string>Sinulla on %1$d uutta ilmoitusta sivulla %2$@</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat asiakirjaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat asiakirjaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat asiakirjojasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat asiakirjojasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat tapahtumaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat tapahtumaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat kuvaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat kuvaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat kuviasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat kuviasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat julkaisuasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat julkaisuasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ asiakirjaa</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ asiakirjaa</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ asiakirjoja</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ asiakirjoja</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ tapahtumaa</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ tapahtumaa</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ kuvaa</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ kuvaa</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ kuvia</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ kuvia</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ julkaisua</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ julkaisua</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat myös henkilön %3$@ videota</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat myös henkilön %3$@ videota</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu kommentoivat videotasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta kommentoivat videotasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat kommenttiisi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat kommenttiisi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat asiakirjaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat asiakirjaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat asiakirjoihisi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat asiakirjoihisi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat tapahtumaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat tapahtumaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat kuvaasi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat kuvaasi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat kuviisi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat kuviisi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat julkaisuusi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat julkaisuusi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_reply</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat vastaukseesi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat vastaukseesi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu reagoivat videoosi</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta reagoivat videoosi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_responded_to_your_poll</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%2$@ ja %1$d muu vastasivat kyselyysi: %3$@</string>
+			<key>other</key>
+			<string>%2$@ ja %1$d muuta vastasivat kyselyysi: %3$@</string>
+		</dict>
+	</dict>
+	<key>pages.label.followers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d seuraaja</string>
+			<key>other</key>
+			<string>%d seuraajaa</string>
+		</dict>
+	</dict>
+	<key>pn.text.event_reminder_minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Tapahtuma "%@" alkaa minuutin kuluttua</string>
+			<key>other</key>
+			<string>Tapahtuma "%1$@" alkaa %2$d minuutin kuluttua</string>
+		</dict>
+	</dict>
+	<key>polls.label.n_people_voted</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d äänesti</string>
+			<key>other</key>
+			<string>%d äänestivät</string>
+		</dict>
+	</dict>
+	<key>polls.label.view_n_more_options</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Näytä %d lisää</string>
+			<key>other</key>
+			<string>Näytä %d lisää</string>
+		</dict>
+	</dict>
+	<key>pro.guests.group_add_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Haluaisitko lisätä tämän vieraan ryhmään %2$@?</string>
+			<key>other</key>
+			<string>Haluaisitko lisätä %1$d vierasta ryhmään %2$@?</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.day_before</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d päivä aiemmin</string>
+			<key>other</key>
+			<string>%d päivää aiemmin</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Päivittäin</string>
+			<key>other</key>
+			<string>Joka %d päivä</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_month</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Kuukausittain</string>
+			<key>other</key>
+			<string>Joka %d kuukausi</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Viikottain</string>
+			<key>other</key>
+			<string>Joka %d viikko</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_year</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Vuosittain</string>
+			<key>other</key>
+			<string>Joka %d vuosi</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.hour_before</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d tunti aiemmin</string>
+			<key>other</key>
+			<string>%d tuntia aiemmin</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.minutes_before_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minuutti aiemmin</string>
+			<key>other</key>
+			<string>%d minuuttia aiemmin</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.times</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d kerran</string>
+			<key>other</key>
+			<string>%d kertaa</string>
+		</dict>
+	</dict>
+	<key>recurring_events.repeating.label.after_times</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>yhden kerran</string>
+			<key>other</key>
+			<string>%d kertaa</string>
+		</dict>
+	</dict>
+	<key>secret_chat.store.trial_days_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Sinulla on %d päivä kokeilujaksoa jäljellä</string>
+			<key>other</key>
+			<string>Sinulla on %d päivää kokeilujaksoa jäljellä</string>
+		</dict>
+	</dict>
+	<key>wrapper.text.new_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d uusi julkaisu</string>
+			<key>other</key>
+			<string>%d uutta julkaisua</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

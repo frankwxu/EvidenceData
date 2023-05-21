@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chat.disappearing_message.hours_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Zbývají %d hodiny zobrazení</string>
+			<key>one</key>
+			<string>Zbývá %d hodina zobrazení</string>
+			<key>other</key>
+			<string>Zbývá %d hodin zobrazení</string>
+		</dict>
+	</dict>
+	<key>chat.disappearing_message.minutes_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Zbývají %d minuty zobrazení</string>
+			<key>one</key>
+			<string>Zbývá %d minuta zobrazení</string>
+			<key>other</key>
+			<string>Zbývá %d minut zobrazení</string>
+		</dict>
+	</dict>
+	<key>chat.request_options.common_groups_explanation2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Tyto osoby není mezi vašimi kontakty. Prosím buďte extrémně opatrní při posílání zpráv osobám, které nepatří do vašich kontaktů.</string>
+			<key>one</key>
+			<string>Tato osoba není mezi vašimi kontakty. Prosím buďte extrémně opatrní při posílání zpráv osobám, které nepatří do vašich kontaktů.</string>
+			<key>other</key>
+			<string>Těchto osob není mezi vašimi kontakty. Prosím buďte extrémně opatrní při posílání zpráv osobám, které nepatří do vašich kontaktů.</string>
+		</dict>
+	</dict>
+	<key>chat.requests.text.limit_reached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Pro omezení spamování, můžete odesílat pouze 50 požadavků na chat každých 24 hodin. Dosáhli jste tohoto limitu a budete muset počkat %d hodiny, než budete moci odeslat další. Neexistuje žádný limit pro počet požadavků na chat, které můžete obdržet.</string>
+			<key>one</key>
+			<string>Pro omezení spamování, můžete odesílat pouze 50 požadavků na chat každých 24 hodin. Dosáhli jste tohoto limitu a budete muset počkat %d hodinu, než budete moci odeslat další. Neexistuje žádný limit pro počet požadavků na chat, které můžete obdržet.</string>
+			<key>other</key>
+			<string>Pro omezení spamování, můžete odesílat pouze 50 požadavků na chat každých 24 hodin. Dosáhli jste tohoto limitu a budete muset počkat %d hodin, než budete moci odeslat další. Neexistuje žádný limit pro počet požadavků na chat, které můžete obdržet.</string>
+		</dict>
+	</dict>
+	<key>chat.text.new_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d nové zprávy</string>
+			<key>one</key>
+			<string>%d nová zpráva</string>
+			<key>other</key>
+			<string>%d nových zpráv</string>
+		</dict>
+	</dict>
+	<key>chat.text.people_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d osoby</string>
+			<key>one</key>
+			<string>%d osoba</string>
+			<key>other</key>
+			<string>%d osob</string>
+		</dict>
+	</dict>
+	<key>common.period.days_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>common.period.hours_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d hodiny</string>
+			<key>one</key>
+			<string>%d hodina</string>
+			<key>other</key>
+			<string>%d hodin</string>
+		</dict>
+	</dict>
+	<key>common.period.minutes_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d minuty</string>
+			<key>one</key>
+			<string>%d minuta</string>
+			<key>other</key>
+			<string>%d minut</string>
+		</dict>
+	</dict>
+	<key>contacts.text.add_contact_to_group_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Přidáte si %1$d kontakty do %2$@</string>
+			<key>one</key>
+			<string>Přidáte si tento kontakt do %2$@</string>
+			<key>other</key>
+			<string>Přidáte si %1$d kontaktů do %2$@</string>
+		</dict>
+	</dict>
+	<key>contacts.text.contacts_selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d kontakty vybrány</string>
+			<key>one</key>
+			<string>%d kontakt vybrán</string>
+			<key>other</key>
+			<string>%d kontaktů vybráno</string>
+		</dict>
+	</dict>
+	<key>contacts.text.invitation_limit_reached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Pro omezení spamování máte povoleno odeslat 50 žádostí o kontakt každých 24 hodin. Tento limit byl dosažen, a je nutné počkat %d hodiny předtím, než budete mít možnost odeslat další. Neexistuje žádný limit pro to, kolik žádostí můžete obrdžet.</string>
+			<key>one</key>
+			<string>Pro omezení spamování máte povoleno odeslat 50 žádostí o kontakt každých 24 hodin. Tento limit byl dosažen, a je nutné počkat %d hodinu předtím, než budete mít možnost odeslat další. Neexistuje žádný limit pro to, kolik žádostí můžete obrdžet.</string>
+			<key>other</key>
+			<string>Pro omezení spamování máte povoleno odeslat 50 žádostí o kontakt každých 24 hodin. Tento limit byl dosažen, a je nutné počkat %d hodin předtím, než budete mít možnost odeslat další. Neexistuje žádný limit pro to, kolik žádostí můžete obrdžet.</string>
+		</dict>
+	</dict>
+	<key>contacts_suggestions.alert.success</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Úspěšně odeslány %d návrhy na kontakt</string>
+			<key>one</key>
+			<string>Úspěšně odeslán %d návrh na kontakt</string>
+			<key>other</key>
+			<string>Úspěšně odesláno %d návrhů na kontakt</string>
+		</dict>
+	</dict>
+	<key>events.text.group_event_add_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chcete přidat %1$d členy do %2$@?</string>
+			<key>one</key>
+			<string>Chcete přidat tohoto člena do %2$@?</string>
+			<key>other</key>
+			<string>Chcete přidat %1$d členů do %2$@?</string>
+		</dict>
+	</dict>
+	<key>events.text.group_event_invite_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chcete pozvat %1$d členy na %2$@?</string>
+			<key>one</key>
+			<string>Chcete pozvat tohoto člena na %2$@?</string>
+			<key>other</key>
+			<string>Chcete pozvat %1$d členů na %2$@?</string>
+		</dict>
+	</dict>
+	<key>events.text.user_event_invite_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chcete pozvat %1$d kontakty na %2$@?</string>
+			<key>one</key>
+			<string>Chcete pozvat tento kontakt na %2$@?</string>
+			<key>other</key>
+			<string>Chcete pozvat %1$d kontaktů na %2$@?</string>
+		</dict>
+	</dict>
+	<key>feed.text.comment_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d komentáře</string>
+			<key>one</key>
+			<string>%d komentář</string>
+			<key>other</key>
+			<string>%d komentářů</string>
+		</dict>
+	</dict>
+	<key>feed.text.contacts_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d kontakty</string>
+			<key>one</key>
+			<string>%d kontakt</string>
+			<key>other</key>
+			<string>%d kontaktů</string>
+		</dict>
+	</dict>
+	<key>feed.text.like_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d líbí se mi</string>
+			<key>one</key>
+			<string>%d líbí se mi</string>
+			<key>other</key>
+			<string>%d líbí se mi</string>
+		</dict>
+	</dict>
+	<key>feed.text.love_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d srdce</string>
+			<key>one</key>
+			<string>%d srdce</string>
+			<key>other</key>
+			<string>%d srdce</string>
+		</dict>
+	</dict>
+	<key>feed.text.more_documents_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>+ %d další dokumenty</string>
+			<key>one</key>
+			<string>+ %d další dokument</string>
+			<key>other</key>
+			<string>+ %d dalších dokumentů</string>
+		</dict>
+	</dict>
+	<key>files.label.files_count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d soubory</string>
+			<key>one</key>
+			<string>%d soubor</string>
+			<key>other</key>
+			<string>%d souborů</string>
+		</dict>
+	</dict>
+	<key>forwarding.confirmation.delete_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Jste si jisti, že chcete odstranit %d zprávy?</string>
+			<key>one</key>
+			<string>Jste si jisti, že chcete odstranit tuto zprávu?</string>
+			<key>other</key>
+			<string>Jste si jisti, že chcete odstranit %d zpráv?</string>
+		</dict>
+	</dict>
+	<key>ftue.text.nice_you_have_n_friends_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Skvělé! Na MeWe máte již %d přátele!</string>
+			<key>one</key>
+			<string>Skvělé! Zatím máte na MeWe jednoho přítele!</string>
+			<key>other</key>
+			<string>Skvělé! Na MeWe máte již %d přátel!</string>
+		</dict>
+	</dict>
+	<key>group.label.members_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d členové</string>
+			<key>one</key>
+			<string>%d člen</string>
+			<key>other</key>
+			<string>%d členů</string>
+		</dict>
+	</dict>
+	<key>group_picker.decline_all_invitations_alert.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Jste si jisti, že chcete zamítnout %d pozvánky?</string>
+			<key>one</key>
+			<string>Jste si jisti, že chcete zamítnout %d pozvánku?</string>
+			<key>other</key>
+			<string>Jste si jisti, že chcete zamítnout všech %d pozvánek?</string>
+		</dict>
+	</dict>
+	<key>group_picker.decline_invitations_alert.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Jste si jisti, že chcete zamítnout %d skupinové pozvánky?</string>
+			<key>one</key>
+			<string>Jste si jisti, že chcete zamítnout %d skupinovou pozvánku?</string>
+			<key>other</key>
+			<string>Jste si jisti, že chcete zamítnout %d skupinových pozvánek?</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.media_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d položky</string>
+			<key>one</key>
+			<string>%d položka</string>
+			<key>other</key>
+			<string>%d položek</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.photos_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d fotky</string>
+			<key>one</key>
+			<string>%d fotka</string>
+			<key>other</key>
+			<string>%d fotek</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.selected_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d položky vybrány</string>
+			<key>one</key>
+			<string>%d položka vybrána</string>
+			<key>other</key>
+			<string>%d položek vybráno</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osoby&lt;/b&gt;. Jste si jisti?</string>
+			<key>one</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osobu&lt;/b&gt;. Jste si jisti?</string>
+			<key>other</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osob&lt;/b&gt;. Jste si jisti?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_chat</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osoby&lt;/b&gt; v tomto chatu. Jste si jisti?</string>
+			<key>one</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osobu&lt;/b&gt; v tomto chatu. Jste si jisti?</string>
+			<key>other</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osob&lt;/b&gt; v tomto chatu. Jste si jisti?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osoby&lt;/b&gt; na této události. Jste si jisti?</string>
+			<key>one</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osobu&lt;/b&gt; na této události. Jste si jisti?</string>
+			<key>other</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osob&lt;/b&gt; na této události. Jste si jisti?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_group</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osoby&lt;/b&gt; v této skupině. Jste si jisti?</string>
+			<key>one</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osobu&lt;/b&gt; v této skupině. Jste si jisti?</string>
+			<key>other</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osob&lt;/b&gt; v této skupině. Jste si jisti?</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_team</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osoby&lt;/b&gt; v týmu. Jste si jisti?</string>
+			<key>one</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osobu&lt;/b&gt; v týmu. Jste si jisti?</string>
+			<key>other</key>
+			<string>Chystáte se upozornit &lt;b&gt;%d osob&lt;/b&gt; v týmu. Jste si jisti?</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.event_attendance</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další se zúčastní vaší události</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další se zúčastní vaší události</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších se zúčastní vaší události</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.n_others_followed_your_page</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další sledují vaší stránku</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další sleduje vaší stránku</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších sleduje vaší stránku</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.new_page_notifications</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Máte %1$d nové upozornění v %2$@</string>
+			<key>one</key>
+			<string>Máte %1$d nové upozornění v %2$@</string>
+			<key>other</key>
+			<string>Máte %1$d nových upozornění v %2$@</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další okomentovali váš dokument</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další okomentoval váš dokument</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších okomentovalo váš dokument</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další okomentovali vaše dokumenty</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další okomentoval vaše dokumenty</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších okomentovalo vaše dokumenty</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další okomentovali vaši událost</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další okomentoval vaši událost</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších okomentovalo vaši událost</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další okomentovali vaší fotku</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další okomentoval vaší fotku</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších okomentovalo vaší fotku</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další okomentovali vaše fotky</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další okomentoval vaše fotky</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších okomentovalo vaše fotky</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další okomentovali váš příspěvek</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další okomentoval váš příspěvek</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších okomentovalo váš příspěvek</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ dokument</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ dokument</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ dokument</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ dokumenty</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ dokumenty</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ dokumenty</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ událost</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ událost</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ událost</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ fotku</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ fotku</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ fotku</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ fotky</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ fotky</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ fotky</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ příspěvek</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ příspěvek</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ příspěvek</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ video</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali %3$@ video</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo %3$@ video</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další také okomentovali vaše video</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další také okomentovali vaše video</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších také okomentovalo vaše video</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu komentáři</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu komentáři</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vašemu komentáři</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu dokumentu</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu dokumentu</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vašemu dokumentu</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší sadě dokumentů</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší sadě dokumentů</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vaší sadě dokumentů</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší události</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší události</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vaší události</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší fotce</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší fotce</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vaší fotce</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vašim fotkám</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vašim fotkám</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vašim fotkám</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu příspěvku</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu příspěvku</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vašemu příspěvku</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_reply</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší odpovědi</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vaší odpovědi</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vaší odpovědi</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu videu</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další přidali emoji k vašemu videu</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších přidalo emoji k vašemu videu</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_responded_to_your_poll</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%2$@ a %1$d další odpověděli na vaší anketu: %3$@</string>
+			<key>one</key>
+			<string>%2$@ a %1$d další odpověděli na vaší anketu: %3$@</string>
+			<key>other</key>
+			<string>%2$@ a %1$d dalších odpovědělo na vaší anketu: %3$@</string>
+		</dict>
+	</dict>
+	<key>pages.label.followers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d sledující</string>
+			<key>one</key>
+			<string>%d sledující</string>
+			<key>other</key>
+			<string>%d sledujících</string>
+		</dict>
+	</dict>
+	<key>pn.text.event_reminder_minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Událost “%@” začíná za minuty</string>
+			<key>one</key>
+			<string>Událost "%@" začíná za minutu</string>
+			<key>other</key>
+			<string>Událost “%@” začíná za minut</string>
+		</dict>
+	</dict>
+	<key>polls.label.n_people_voted</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d hlasovali</string>
+			<key>one</key>
+			<string>%d hlasoval/a</string>
+			<key>other</key>
+			<string>%d hlasovalo</string>
+		</dict>
+	</dict>
+	<key>polls.label.view_n_more_options</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Zobrazit %d další</string>
+			<key>one</key>
+			<string>Zobrazit %d další</string>
+			<key>other</key>
+			<string>Zobrazit %d dalších</string>
+		</dict>
+	</dict>
+	<key>pro.guests.group_add_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Chcete přidat %1$d hosty do %2$@?</string>
+			<key>one</key>
+			<string>Chcete přidat tohoto hosta do %2$@?</string>
+			<key>other</key>
+			<string>Chcete přidat %1$d hostů do %2$@?</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.day_before</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d dny předem</string>
+			<key>one</key>
+			<string>%d den předem</string>
+			<key>other</key>
+			<string>%d dní předem</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Každé %d dny</string>
+			<key>one</key>
+			<string>Denně</string>
+			<key>other</key>
+			<string>Každých %d dnů</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_month</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Každý %d měsíc</string>
+			<key>one</key>
+			<string>Měsíčně</string>
+			<key>other</key>
+			<string>Každých %d měsíců</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Každý %d týden</string>
+			<key>one</key>
+			<string>Týdně</string>
+			<key>other</key>
+			<string>Každých %d týdnů</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_year</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Každý %d rok</string>
+			<key>one</key>
+			<string>Ročně</string>
+			<key>other</key>
+			<string>Každých %d let</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.hour_before</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d hodiny předem</string>
+			<key>one</key>
+			<string>%d hodinu předem</string>
+			<key>other</key>
+			<string>%d hodin předem</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.minutes_before_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d minuty předem</string>
+			<key>one</key>
+			<string>%d minutu předem</string>
+			<key>other</key>
+			<string>%d minut předem</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.times</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>dkr</string>
+			<key>few</key>
+			<string>%dkrát</string>
+			<key>one</key>
+			<string>%dkrát</string>
+			<key>other</key>
+			<string>%dkrát</string>
+		</dict>
+	</dict>
+	<key>recurring_events.repeating.label.after_times</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Po %d</string>
+			<key>one</key>
+			<string>Po %d</string>
+			<key>other</key>
+			<string>Po %d</string>
+		</dict>
+	</dict>
+	<key>secret_chat.store.trial_days_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Máte %d dny do konce vaší bezplatné zkušební verze</string>
+			<key>one</key>
+			<string>Máte %d den do konce vaší bezplatné zkušební verze</string>
+			<key>other</key>
+			<string>Máte %d dní do konce vaší bezplatné zkušební verze</string>
+		</dict>
+	</dict>
+	<key>wrapper.text.new_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d nové příspěvky</string>
+			<key>one</key>
+			<string>%d nový příspěvek</string>
+			<key>other</key>
+			<string>%d nových příspěvků</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

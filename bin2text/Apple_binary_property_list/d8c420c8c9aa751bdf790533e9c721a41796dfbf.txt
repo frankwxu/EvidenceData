@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ScriptingLocalStorage</key>
+	<dict>
+		<key>orderedKeys</key>
+		<array>
+			<string>lastMajorVersionNoThanksReverted</string>
+			<string>localizedStrings</string>
+			<string>lastWelcomePresentation</string>
+			<string>lastMajorVersionTriggered</string>
+			<string>lastTimeSocialOnboardingPresented</string>
+			<string>carPlayBatchTimePlayed</string>
+			<string>carPlayBatchTracksPlayed</string>
+			<string>didRetriggerWelcomePresentation</string>
+			<string>carPlayFirstEventInBatchTimeStamp</string>
+		</array>
+		<key>values</key>
+		<dict>
+			<key>lastMajorVersionTriggered</key>
+			<string>13.3.1</string>
+			<key>lastWelcomePresentation</key>
+			<real>1585162713337</real>
+			<key>lastMajorVersionNoThanksReverted</key>
+			<string>13.3.1</string>
+			<key>localizedStrings</key>
+			<dict>
+				<key>resources/localization/db99251572415e628a008180270798c7/en-us.json</key>
+				<dict>
+					<key>FUSE.Music.Show.Performer</key>
+					<string>Performer</string>
+					<key>FUSE.Error.PoorNetworkConnection</key>
+					<string>Poor Network Connection</string>
+					<key>FUSE.Artist.Bio.Duration.Hour</key>
+					<string>@@hours@@:@@minutes@@:@@seconds@@</string>
+					<key>Finance.Duration.Years.Cap.One</key>
+					<string>@@num@@ Year</string>
+					<key>FUSE.SignIn</key>
+					<string>Sign In</string>
+					<key>FUSE.Notifications.NextAppLaunch.Description2</key>
+					<string>Get notified when your favorite artists are interviewed or host a radio show.</string>
+					<key>FUSE.Social.Onboarding.SharePlaylists.NoPlaylists</key>
+					<string>No playlists found</string>
+					<key>FUSE.Social.Profile.TurnOffSharing</key>
+					<string>Delete Profile</string>
+					<key>Finance.Duration.Weeks.Cap</key>
+					<string>@@num@@ Weeks</string>
+					<key>FUSE.Album.Headline.VideoExtras</key>
+					<string>Video Extras</string>
+					<key>FUSE.CarrierBilling.LinkToAppleID.Title</key>
+					<string>Link Your Apple ID</string>
+					<key>FUSE.Search.BubbleHeader.song.CapitalCase</key>
+					<string>Songs</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXY</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.Notifications.NextAppLaunch.Description1</key>
+					<string>Get notified when your favorite artists release new music and videos.</string>
+					<key>FUSE.Notifications.NextAppLaunch.SubHeader1</key>
+					<string>New Releases</string>
+					<key>FUSE.Social.AwaitingApproval.Description</key>
+					<string>This is a private profile. Before you can see its contents, the owner has to approve your request to follow them.</string>
+					<key>FUSE.Settings.Upsell.Label.PXY</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.Album.Headline.OtherVersions</key>
+					<string>Other Versions</string>
+					<key>FUSE.Settings.Notifications</key>
+					<string>Notifications</string>
+					<key>FUSE.Search.BubbleHeader.user.CapitalCase</key>
+					<string>People</string>
+					<key>FUSE.Bio.ArtistContemporaries</key>
+					<string>Similar Artists</string>
+					<key>FUSE.Social.Playlist</key>
+					<string>Playlists</string>
+					<key>FUSE.OC.Show.PlayNewestEpisode</key>
+					<string>Play Latest Episode</string>
+					<key>FUSE.Social.ViewArtistsMusic</key>
+					<string>Music by This Artist</string>
+					<key>FUSE.Album.Headline.AudioExtras</key>
+					<string>Audio Extras</string>
+					<key>FUSE.Settings.ManageFamily.Label</key>
+					<string>Manage Family</string>
+					<key>FUSE.Social.Onboarding.Share.Description2</key>
+					<string>Follow people you know to see albums, playlists, and artists they're listening to.</string>
+					<key>FUSE.LibraryBanner.OptInSheet.Footer</key>
+					<string>Recommendations are generated on your device based on your use of Apple Music. Your Library is not shared with Apple.</string>
+					<key>FUSE.Artist.Bio.TrackCount.Plural</key>
+					<string>@@trackCount@@ songs</string>
+					<key>FUSE.ForYou.NotSubscribed.FreeTrial.Header</key>
+					<string>Let us find your next favorite.</string>
+					<key>FUSE.Music.Show.Information.Rating</key>
+					<string>Rating</string>
+					<key>FUSE.Error.TryAgain</key>
+					<string>Try Again</string>
+					<key>FUSE.Social.Profile.SharePlaylist.Header</key>
+					<string>SHARED PLAYLISTS</string>
+					<key>FUSE.OC.Languages.hasSDH</key>
+					<string>SDH</string>
+					<key>FUSE.SignIn.AppleId.Label</key>
+					<string>Apple ID</string>
+					<key>FUSE.Connect.ColdStart.Recommend.CTA</key>
+					<string>Find Artists and Curators </string>
+					<key>Finance.Duration.Days.Cap</key>
+					<string>@@num@@ Days</string>
+					<key>FUSE.Search.BubbleHeader.musicVideoEpisode.CapitalCase</key>
+					<string>TV Episodes</string>
+					<key>FUSE.Settings.Notifications.Types</key>
+					<string> </string>
+					<key>FUSE.Social.Onboarding.GetNotifications.Disclaimer</key>
+					<string>Apple associates your notifications viewing and interaction data with your Apple ID. You can change your preferences anytime in your account.</string>
+					<key>FUSE.Search.BubbleHeader.artist.CapitalCase</key>
+					<string>Artists</string>
+					<key>FUSE.Bio.Biography</key>
+					<string>About</string>
+					<key>FUSE.Error.GenericDataError</key>
+					<string>We’ve run into a problem.</string>
+					<key>FUSE.SignIn.Password.Label</key>
+					<string>Password</string>
+					<key>FUSE.Social.Onboarding.CTA.ContinueToFindContacts</key>
+					<string>Continue to Find Contacts</string>
+					<key>FUSE.Settings.Upsell.Label.PXMY</key>
+					<string>Get @@introPricingDuration@@ for @@introPricing@@</string>
+					<key>FUSE.Social.ListeningTo</key>
+					<string>Listening To</string>
+					<key>FUSE.Social.Onboarding.HowYouShare.SubHeader2</key>
+					<string>People You Approve</string>
+					<key>FUSE.Music.Show.Guest</key>
+					<string>Guest</string>
+					<key>FUSE.Artist.Bio.PreRelease.Date</key>
+					<string>COMING @@date@@</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXMY.WithoutDuration</key>
+					<string>Get 60 million songs for @@introPrice@@.</string>
+					<key>FUSE.Social.ContactsConsent.Onboarding.Subtitle</key>
+					<string>Apple Music will periodically check the contacts on your devices to recommend new friends.</string>
+					<key>FUSE.Settings.Upsell.Subscribed.UpgradeFamily.Label</key>
+					<string>Upgrade to Family Plan</string>
+					<key>FUSE.Social.Onboarding.HowYouShare.SubHeader1</key>
+					<string>Everyone</string>
+					<key>FUSE.Music.Show.Producer</key>
+					<string>Producer</string>
+					<key>FUSE.Search.BubbleHeader.movie.CapitalCase</key>
+					<string>TV &amp; Movies</string>
+					<key>FUSE.Social.Onboarding.CTA.Continue</key>
+					<string>Next</string>
+					<key>FUSE.Artist.Bio.Upload.Date</key>
+					<string>ADDED @@uploadDate@@</string>
+					<key>FUSE.Music.Show.SongsInTitle</key>
+					<string>Songs in This Movie</string>
+					<key>FUSE.Music.Show.Information</key>
+					<string>Information</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXM</key>
+					<string>Try it now and get @@intropricingduration@@ free.</string>
+					<key>FUSE.Music.Show.Languages.hasSubtitles</key>
+					<string>Subtitles</string>
+					<key>FUSE.Settings.Notifications.FriendsTitle</key>
+					<string>Friend Activity</string>
+					<key>FUSE.Social.Following</key>
+					<string>Following</string>
+					<key>FUSE.Music.Account.Notification.Footer</key>
+					<string>Apple associates your notifications viewing and interaction data with your Apple ID.</string>
+					<key>FUSE.CarrierBundling.UnlinkedForYou.Header</key>
+					<string>Make It Personal</string>
+					<key>FUSE.Profile.Playlists</key>
+					<string>Playlists</string>
+					<key>FUSE.Settings.Connect.Header</key>
+					<string>CONNECT</string>
+					<key>FUSE.Settings.Upsell.Label.PXM</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.Settings.FriendsAreListeningTo.Label</key>
+					<string>See What Friends Are Listening To</string>
+					<key>FUSE.Music.Show.Languages.hasStereo</key>
+					<string>Stereo</string>
+					<key>FUSE.Settings.FriendsAreListeningTo.Explanation</key>
+					<string>Set up your profile to share your music and see what your friends are playing.</string>
+					<key>FUSE.Browse.AllGenres</key>
+					<string>All Genres </string>
+					<key>FUSE.Settings.Upsell.Label.PXDY</key>
+					<string>Get @@introPricingDuration@@ for @@introPricing@@</string>
+					<key>FUSE.Social.Detail.AddedThisPlaylist.Header</key>
+					<string>Added Playlist</string>
+					<key>FUSE.SeeAll</key>
+					<string>See All</string>
+					<key>FUSE.Product.YouMayAlsoLike</key>
+					<string>You Might Also Like</string>
+					<key>FUSE.OC.Episode.ArtistsOnThisEpisode</key>
+					<string>Artists in This Episode</string>
+					<key>FUSE.Radio.Episode</key>
+					<string>EPISODE @@num@@</string>
+					<key>FUSE.Social.Profile.Playlist.Updated.LastWeek</key>
+					<string>Updated Last Week</string>
+					<key>Finance.Duration.Months.One</key>
+					<string>@@num@@ month</string>
+					<key>FUSE.Music.Show.Information.Genre</key>
+					<string>Genre</string>
+					<key>FUSE.Social.Onboarding.Share.Description1</key>
+					<string>Show playlists on your profile where friends can easily find them. </string>
+					<key>FUSE.Music.Show.Information.HDVersions</key>
+					<string>Includes 720p and 1080p.</string>
+					<key>FUSE.Music.Show.Actors</key>
+					<string>Actors</string>
+					<key>FUSE.Notifications.NextAppLaunch.Disclaimer</key>
+					<string>Apple associates your notifications viewing and interaction data with your Apple ID. You can change your preferences anytime in your account.</string>
+					<key>FUSE.Music.Show.Directors</key>
+					<string>Directors</string>
+					<key>FUSE.Social.ContactsConsent.HelpOthers.Text</key>
+					<string>People who have your &lt;a target="_blank" href="@@link@@"&gt;Apple ID contact information&lt;/a&gt; may see you as a recommended friend.</string>
+					<key>FUSE.Settings.Notifications.HintTitle.iPod</key>
+					<string>Allow Notifications on This iPod</string>
+					<key>FUSE.Music.Show.Information.HD</key>
+					<string>HD</string>
+					<key>FUSE.Music.Show.Languages.hasDolby71</key>
+					<string>Dolby 7.1</string>
+					<key>FUSE.Notifications.NextAppLaunch.SubHeader2</key>
+					<string>Appearing on Beats 1</string>
+					<key>FUSE.Radio.ListenNowButton</key>
+					<string>Play Now</string>
+					<key>FUSE.Social.ContactsConsent.FriendRecommendations.Title</key>
+					<string>Get Friend Recommendations</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXMY</key>
+					<string>Try it now and get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.Social.Detail.Header</key>
+					<string>Friends Who Listened</string>
+					<key>FUSE.Social.Profile.FollowRequests</key>
+					<string>Follow Requests</string>
+					<key>Finance.Duration.Months.Cap.One</key>
+					<string>@@num@@ Month</string>
+					<key>FUSE.Social.Onboarding.Share.Header</key>
+					<string>Discover music with friends</string>
+					<key>FUSE.Social.ContactsConsent.Onboarding.HowYouShare.Subtitle.NoLink</key>
+					<string>People who have email addresses or phone numbers you use with your Apple ID in their contacts may see you as a recommended friend.</string>
+					<key>FUSE.Music.Show.Screenwriter</key>
+					<string>Screenwriter</string>
+					<key>FUSE.Music.Show.Extra</key>
+					<string>Extras</string>
+					<key>FUSE.Album.Headline.RelatedVideos</key>
+					<string>Music Videos</string>
+					<key>FUSE.UserSharing.SocialInvitation</key>
+					<string>https://applemusic.com/sharing</string>
+					<key>FUSE.Search.BubbleHeader.album.CapitalCase</key>
+					<string>Albums</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXDY</key>
+					<string>Try it now and get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.Social.ContactsConsent.Button.PinnedText</key>
+					<string>You can change this anytime in Account Settings.</string>
+					<key>FUSE.Settings.FindFriends.Header</key>
+					<string>FIND FRIENDS</string>
+					<key>FUSE.ForYou.NotSubscribed.NonTrial.Description</key>
+					<string>Discover handpicked playlists &amp; albums based on the music you love. Download and play millions of songs, even offline. </string>
+					<key>FUSE.Music.Show.Hosts</key>
+					<string>Host</string>
+					<key>FUSE.Social.MyProfile.Following</key>
+					<string>Following</string>
+					<key>FUSE.Social.MyProfile.Followers</key>
+					<string>Followers</string>
+					<key>FUSE.Settings.Upsell.Label.PXYY</key>
+					<string>Get @@introPricingDuration@@ for @@introPricing@@</string>
+					<key>FUSE.Social.HideFromProfile.Context.Title</key>
+					<string>Hide from Profile...</string>
+					<key>AddFunds.Main.TitleAppStore</key>
+					<string>Add Funds to Apple ID</string>
+					<key>FUSE.Music.Show.Information.Studio</key>
+					<string>Studio</string>
+					<key>FUSE.Music.Shows.TrailersShelf</key>
+					<string>Trailers and Bonus Content</string>
+					<key>FUSE.Notifications.NextAppLaunch.CTA</key>
+					<string>Allow Notifications</string>
+					<key>FUSE.Settings.Notifications.HintDescription.iPod</key>
+					<string>Notifications from Apple Music are turned off on this iPod. Change your notifications settings to get updates.</string>
+					<key>FUSE.Music.Show.Trailer</key>
+					<string>Trailer</string>
+					<key>FUSE.Social.Detail.Playlist.Header</key>
+					<string>Listened to Playlist</string>
+					<key>FUSE.Music.Show.Languages.hasDolby</key>
+					<string>Dolby 5.1</string>
+					<key>FUSE.Music.Show.CastCrew</key>
+					<string>Cast &amp; Crew</string>
+					<key>FUSE.Social.Onboarding.GetNotifications.Header</key>
+					<string>Get updates you care about</string>
+					<key>Finance.Duration.Years</key>
+					<string>@@num@@ years</string>
+					<key>FUSE.Upsell.Onboard.Header</key>
+					<string>Tell us what you like</string>
+					<key>FUSE.Social.Onboarding.Share.Subheader1</key>
+					<string>Share Your Music</string>
+					<key>FUSE.NotNow</key>
+					<string>Not Now</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long</key>
+					<string>Try it now and get 3 months free.</string>
+					<key>FUSE.Music.Shows.Accessibility.Show.AD</key>
+					<string>Audio descriptions (AD) refer to a narration track describing what is happening on screen, to provide context for those who are blind or have low vision.</string>
+					<key>FUSE.Social.Profile.Edit.ListeningTo.Description</key>
+					<string>The albums and playlists you listen to will appear on your profile and people who follow you will see your profile image on the music you’ve been playing.</string>
+					<key>FUSE.Social.Profile.Playlist.Updated.Day</key>
+					<string>Updated @@day@@</string>
+					<key>FUSE.Settings.FindFriends.NotConnected</key>
+					<string>Not Connected</string>
+					<key>FUSE.Search.BubbleHeader.radioEpisode.CapitalCase</key>
+					<string>Radio Episodes</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXM</key>
+					<string>Get @@intropricingduration@@ Free</string>
+					<key>FUSE.RadioStation.Attribution</key>
+					<string>From @@stationProviderName@@</string>
+					<key>FUSE.Social.Profile.Cancel</key>
+					<string>Cancel</string>
+					<key>FUSE.Music.Show.Languages.hasClosedCaptioning</key>
+					<string>CC</string>
+					<key>FUSE.Settings.Notifications.FriendsFooter</key>
+					<string>When friends start following you and add your playlists</string>
+					<key>FUSE.SignIn.ForgotAppleId</key>
+					<string>Forgot your Apple ID or password?</string>
+					<key>FUSE.Social.Onboarding.GetNotifications.CTA</key>
+					<string>Done</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXW</key>
+					<string>Try it now and get @@introPricingDuration@@ free.</string>
+					<key>FUSE.ForYou.NotSubscribed.FreeTrial.Description</key>
+					<string>Discover handpicked playlists &amp; albums based on the music you love. Download and play millions of songs, even offline. </string>
+					<key>FUSE.Music.Show.Languages.Primary</key>
+					<string>Primary</string>
+					<key>FUSE.ComingSoon</key>
+					<string>Coming Soon</string>
+					<key>FUSE.Product.YouMayAlsoLike.CapitolCase</key>
+					<string>You Might Also Like</string>
+					<key>FUSE.Error.AnErrorOccurred</key>
+					<string>An Error Occurred</string>
+					<key>FUSE.Upsell.Onboard.CTA</key>
+					<string>Get Started</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXMY.WithoutDuration</key>
+					<string>Try now and get 60 million songs for @@introPrice@@.</string>
+					<key>FUSE.Search.BubbleHeader.tvEpisode.CapitalCase</key>
+					<string>Episodes</string>
+					<key>FUSE.Social.FollowMoreFriends.Button</key>
+					<string>Follow More Friends</string>
+					<key>FUSE.Social.ViewArtistsMusic.Title</key>
+					<string>Music by This Artist</string>
+					<key>FUSE.Settings.Upsell.Label.PXWY</key>
+					<string>Get @@introPricingDuration@@ for @@introPricing@@</string>
+					<key>FUSE.Social.ContactsConsent.Onboarding.FriendRecommendation.Header</key>
+					<string>FRIEND RECOMMENDATIONS</string>
+					<key>FUSE.ForYou.NotSubscribed.NonTrial.Header</key>
+					<string>Let us find your next favorite.</string>
+					<key>FUSE.Settings.Notifications.ArtistsTitle</key>
+					<string>Artists and Shows</string>
+					<key>FUSE.Social.Profile.FollowRequests.ApproveAll</key>
+					<string>Approve All</string>
+					<key>FUSE.Social.ContactsConsent.Onboarding.HowYouShare.Title</key>
+					<string>Allow Finding by Apple ID</string>
+					<key>FUSE.Social.HeavyRotation</key>
+					<string>Heavy Rotation</string>
+					<key>FUSE.Social.Onboarding.HowYouShare.Header</key>
+					<string>Choose who can follow you</string>
+					<key>FUSE.Social.Profile.FriendRecommendation</key>
+					<string>Recommended Friends</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXY</key>
+					<string>Try it now and get @@introPricingDuration@@ free.</string>
+					<key>FUSE.Music.Show.FeaturedAlbums</key>
+					<string>Featured Albums</string>
+					<key>Done</key>
+					<string>Done</string>
+					<key>FUSE.Artist.Bio.Genre</key>
+					<string>GENRE</string>
+					<key>FUSE.Artist.Bio.Hometown</key>
+					<string>HOMETOWN</string>
+					<key>FUSE.Artist.Bio.Born</key>
+					<string>BORN</string>
+					<key>FUSE.Music.Show.Producers</key>
+					<string>Producers</string>
+					<key>FUSE.Music.Show.ShelfLinearTitle</key>
+					<string>Episodes</string>
+					<key>FUSE.Social.Upsell.ForYou.Body</key>
+					<string>Follow people you know to browse the music they're playing.</string>
+					<key>FUSE.Search.BubbleHeader.auc.CapitalCase</key>
+					<string>More</string>
+					<key>FUSE.Settings.ManagedAccounts.Header</key>
+					<string>Managing</string>
+					<key>Finance.Duration.Days.Cap.One</key>
+					<string>@@num@@ Day</string>
+					<key>FUSE.Social.Profile.Edit.AdditionalPrivacySettings.Title</key>
+					<string>Privacy Settings</string>
+					<key>FUSE.Notifications.NextAppLaunch.DeclineCTA</key>
+					<string>Not Now</string>
+					<key>FUSE.Radio.BroadcastFrom.newyork</key>
+					<string>New York</string>
+					<key>FUSE.Social.Followers</key>
+					<string>Followers</string>
+					<key>FUSE.Radio.UpcomingShows</key>
+					<string>Schedule</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXYY</key>
+					<string>Get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.ForYou.Module.Friends.Recommended</key>
+					<string>Recommended Friends</string>
+					<key>FUSE.Product.MoreByArtist</key>
+					<string>More by @@artistName@@</string>
+					<key>FUSE.Search.BubbleHeader.musicPlaylist.CapitalCase</key>
+					<string>Playlists</string>
+					<key>FUSE.ForYou.NotSubscribed.FreeTrial.CTA</key>
+					<string>Try It Now</string>
+					<key>FUSE.Settings.Upsell.Label.PXD</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXYY</key>
+					<string>Try it now and get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.Music.Show.Director</key>
+					<string>Director</string>
+					<key>FUSE.OC.Show.ArtistsOnThisMovie</key>
+					<string>Artists in This Movie</string>
+					<key>FUSE.Social.Profile.Playlist.Updated.Yesterday</key>
+					<string>Updated Yesterday</string>
+					<key>FUSE.Social.Onboarding.Share.Subheader2</key>
+					<string>See Your Friends' Music</string>
+					<key>FUSE.Date.today</key>
+					<string>TODAY</string>
+					<key>FUSE.Social.ContactsConsent.Title</key>
+					<string>Connect with more friends.</string>
+					<key>FUSE.Music.Show.Information.CC</key>
+					<string>CC</string>
+					<key>FUSE.Settings.Notifications.ArtistsSubtitle</key>
+					<string>Get notified when favorite artists have new music or appear on a show.</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXWY</key>
+					<string>Get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.Social.Profile.NameField.Disclaimer</key>
+					<string>Your photo, name, and username will be visible in Apple Music and web search results.</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXDY</key>
+					<string>Get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>Finance.Duration.Days</key>
+					<string>@@num@@ days</string>
+					<key>FUSE.Settings.Notifications.FriendsSubtitle</key>
+					<string>Get notified when friends follow you and add your playlists.</string>
+					<key>FUSE.Music.Show.EpisodeHeadline</key>
+					<string>Season @@seasonNum@@ • Episode @@trackNum@@</string>
+					<key>FUSE.Search.BubbleHeader.brand.CapitalCase</key>
+					<string>Curators</string>
+					<key>FUSE.Music.Show.SeasonCount</key>
+					<string>Season @@seasonNum@@</string>
+					<key>FUSE.UserSharing.SocialInvitation.Subject</key>
+					<string>Follow Me on Apple Music</string>
+					<key>FUSE.Social.Upsell.ForYou.Title</key>
+					<string>See What Friends Are Listening To</string>
+					<key>FUSE.Social.Profile.EditProfile.Header</key>
+					<string>Edit Profile</string>
+					<key>FUSE.Music.Show.PlaybarTitle</key>
+					<string>Season @@seasonNum@@, Episode @@trackNum@@</string>
+					<key>FUSE.Social.Profile.TurnOffSharing.Confirm</key>
+					<string>Your profile and playlists will not appear in searches and others will no longer see your music. Your information and followers will be retained for 90 days if you want to start sharing again.</string>
+					<key>FUSE.Search.BubbleHeader.topResults.CapitalCase</key>
+					<string>Top Results</string>
+					<key>Finance.Duration.Months</key>
+					<string>@@num@@ months</string>
+					<key>Finance.Duration.Weeks</key>
+					<string>@@num@@ weeks</string>
+					<key>FUSE.Artist.Bio.TrackCount.Singular</key>
+					<string>@@trackCount@@ song</string>
+					<key>FUSE.Product.MoreByProvider.CapitolCase</key>
+					<string>More by @@curatorName@@</string>
+					<key>FUSE.Connect.ColdStart.Recommend.Description</key>
+					<string>Follow your favorite artists and curators to get videos, audio, photos, and more straight from the source.</string>
+					<key>FUSE.Album.Headline.AppearsOn</key>
+					<string>Featured On</string>
+					<key>FUSE.Music.Show.Accessibility</key>
+					<string>Accessibility</string>
+					<key>FUSE.Social.Profile.Editbutton</key>
+					<string>EDIT</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXWY</key>
+					<string>Try it now and get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.Bio.About</key>
+					<string>About</string>
+					<key>FUSE.Settings.Connect.Username.Label</key>
+					<string>Username</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short</key>
+					<string>Get 3 months free</string>
+					<key>FUSE.Settings.Notifications.Disclaimer</key>
+					<string>Apple associates your notifications viewing and interaction data with your Apple ID.</string>
+					<key>FUSE.Settings.Notifications.HintDescription.Phone</key>
+					<string>Notifications from Apple Music are turned off on this iPhone. Change your notifications settings to get updates.</string>
+					<key>FUSE.Connect.ColdStart.Recommend.Header</key>
+					<string>Connect with Artists</string>
+					<key>ATV.Music.Show.SongsInThisEpisode</key>
+					<string>Songs in This Episode</string>
+					<key>FUSE.ViewAppleId</key>
+					<string>View Apple ID</string>
+					<key>FUSE.Radio.Button.FullSchedule</key>
+					<string>Schedule</string>
+					<key>FUSE.Social.Profile.ShareWith.Header</key>
+					<string>WHO CAN FOLLOW YOUR ACTIVITY</string>
+					<key>FUSE.Social.HideFromProfile.Context.Confirm.CTA</key>
+					<string>Hide from Profile</string>
+					<key>FUSE.Social.Upsell.ForYou.CTA</key>
+					<string>Get Started</string>
+					<key>Finance.Duration.Days.One</key>
+					<string>@@num@@ day</string>
+					<key>FUSE.Radio.Live</key>
+					<string>LIVE</string>
+					<key>Finance.Duration.Years.One</key>
+					<string>@@num@@ year</string>
+					<key>FUSE.Social.Upsell.RecommendedFriends.Title</key>
+					<string>Find &amp; follow friends</string>
+					<key>FUSE.Social.Profile.SharePlaylist.Subheader</key>
+					<string>These playlists appear on your profile and in search results.</string>
+					<key>FUSE.Social.HideFromProfile.Context.Confirm.Message</key>
+					<string>Your listening history for this will never appear on your profile or to people who follow you.</string>
+					<key>FUSE.Search.BubbleHeader.userPlaylist.CapitalCase</key>
+					<string>Shared Playlists</string>
+					<key>FUSE.Search.BubbleHeader.musicVideoShow.CapitalCase</key>
+					<string>TV &amp; Movies</string>
+					<key>FUSE.Social.HideFromProfile.Context.Confirm.Cancel</key>
+					<string>Cancel</string>
+					<key>FUSE.Music.Shows.Accessibility.Show.hasAD</key>
+					<string>AD</string>
+					<key>FUSE.ForYou.NotSubscribed.NonTrial.CTA</key>
+					<string>Choose Your Plan</string>
+					<key>FUSE.Social.Onboarding.FindYou.Header</key>
+					<string>Help others find you</string>
+					<key>FUSE.Settings.Redeem.Label</key>
+					<string>Redeem Gift Card or Code</string>
+					<key>FUSE.Allow</key>
+					<string>Allow</string>
+					<key>FUSE.Account</key>
+					<string>Account</string>
+					<key>FUSE.Settings.Upsell.NonTrial.Label</key>
+					<string>Join Apple Music</string>
+					<key>FUSE.Product.MoreByArtist.CapitolCase</key>
+					<string>More by @@artistName@@</string>
+					<key>FUSE.Social.Upsell.RecommendedFriends.Body</key>
+					<string>Look in your contacts or connect Facebook and see what your friends listen to.</string>
+					<key>FUSE.Upsell.Onboard.Description.Alternate</key>
+					<string>Discover handpicked playlists &amp; albums based on the music you love. Select some genres and artists and we'll do the rest.</string>
+					<key>FUSE.Search.BubbleHeader.musicVideo.CapitalCase</key>
+					<string>Music Videos</string>
+					<key>FUSE.Artist.Bio.Origin</key>
+					<string>ORIGIN</string>
+					<key>FUSE.Settings.AddFamily.Label</key>
+					<string>Add Family Members</string>
+					<key>FUSE.Settings.FindFriends.Connected</key>
+					<string>Connected</string>
+					<key>FUSE.Artist.Bio.Formed</key>
+					<string>FORMED</string>
+					<key>FUSE.Social.Onboarding.Share.Subheader3</key>
+					<string>Find New Music Together</string>
+					<key>FUSE.Radio.BroadcastFrom.london</key>
+					<string>London</string>
+					<key>FUSE.Radio.BroadcastFrom.losangeles</key>
+					<string>Los Angeles</string>
+					<key>FUSE.Social.ContactsConsent.HelpOthers.Title</key>
+					<string>Help Others Find You</string>
+					<key>FUSE.Settings.Notifications.HintTitle.Phone</key>
+					<string>Allow Notifications on This iPhone</string>
+					<key>FUSE.Music.Show.Languages</key>
+					<string>Languages</string>
+					<key>Finance.Duration.Months.Cap</key>
+					<string>@@num@@ Months</string>
+					<key>FUSE.Music.Show.ArtistsOnShow</key>
+					<string>Artists in This Show</string>
+					<key>FUSE.Radio.Beats1Live</key>
+					<string>BEATS 1 ON AIR</string>
+					<key>FUSE.Settings.Connect.Following.Label</key>
+					<string>Following</string>
+					<key>FUSE.Settings.AMF.FollowRequest.Label</key>
+					<string>Follow Requests</string>
+					<key>FUSE.Music.Show.Languages.Additional</key>
+					<string>Additional</string>
+					<key>FUSE.Music.Show.Languages.hasSDH</key>
+					<string>SDH</string>
+					<key>FUSE.Search.RecentSearches</key>
+					<string>Recent</string>
+					<key>Finance.Duration.Years.Cap</key>
+					<string>@@num@@ Years</string>
+					<key>FUSE.Settings.Notifications.HintDescription.Pad</key>
+					<string>Notifications from Apple Music are turned off on this iPad. Change your notifications settings to get updates.</string>
+					<key>FUSE.Social.Profile.Edit.ListeningTo.Title</key>
+					<string>Listening To</string>
+					<key>FUSE.Social.Profile.Edit.ShowOnProfile</key>
+					<string>SHOW ON PROFILE</string>
+					<key>Finance.Duration.Weeks.Cap.One</key>
+					<string>@@num@@ Week</string>
+					<key>FUSE.Music.Show.Episode</key>
+					<string>Episode @@count@@</string>
+					<key>FUSE.SeeAll.Short</key>
+					<string>See All</string>
+					<key>FUSE.UserSharing.Content.SocialProfile.Mail</key>
+					<string>@@name@@ on Apple Music</string>
+					<key>FUSE.CarrierBundling.UnlinkedForYou.Subheader</key>
+					<string>Tell us what you love, and get albums and playlists hand selected for you by experts</string>
+					<key>FUSE.Notifications.NextAppLaunch.Header</key>
+					<string>Keep up with the latest music.</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXMY</key>
+					<string>Get @@intropricingduration@@ for @@introPrice@@</string>
+					<key>FUSE.OC.Minutes</key>
+					<string>@@minutes@@ min</string>
+					<key>FUSE.Social.ContactsConsent.FriendRecommendations.Text</key>
+					<string>Apple Music will periodically check the contacts on your devices to recommend new friends.</string>
+					<key>FUSE.Product.FeaturedArtists.CapitolCase</key>
+					<string>Featured Artists</string>
+					<key>FUSE.OC.Trailer.Subheader</key>
+					<string>Trailer</string>
+					<key>FUSE.Settings.ManageSubscription.Label</key>
+					<string>Manage Subscription</string>
+					<key>FUSE.Social.Onboarding.SharePlaylists.Header</key>
+					<string>Show off your playlists</string>
+					<key>FUSE.Social.Onboarding.Share.Description3</key>
+					<string>Let friends explore your favorites and find new music to love.</string>
+					<key>FUSE.About.Creator</key>
+					<string>About @@name@@</string>
+					<key>FUSE.Music.Show.Movie</key>
+					<string>Movie</string>
+					<key>FUSE.Settings.Upsell.Label.PXW</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.Search.BubbleHeader.station.CapitalCase</key>
+					<string>Radio Stations</string>
+					<key>FUSE.Radio.Beats1.Anchors</key>
+					<string>Anchors</string>
+					<key>FUSE.Social.Profile.Playlist.Updated.Today</key>
+					<string>Updated Today</string>
+					<key>FUSE.Social.Upsell.RecommendedFriends.CTA</key>
+					<string>Find More Friends</string>
+					<key>FUSE.Radio.Beats1.AllShows</key>
+					<string>On Demand</string>
+					<key>Finance.Duration.Weeks.One</key>
+					<string>@@num@@ week</string>
+					<key>FUSE.UpsellBanner.Subscribe.Long.PXD</key>
+					<string>Try it now and get @@introPricingDuration@@ free.</string>
+					<key>FUSE.Social.ContactsConsent.Onboarding.Title</key>
+					<string>Contacts on Apple Music</string>
+					<key>FUSE.Search.BubbleHeader.activity.CapitalCase</key>
+					<string>Moods</string>
+					<key>FUSE.Artist.Bio.Duration</key>
+					<string>@@minutes@@:@@seconds@@</string>
+					<key>FUSE.Settings.ManagedAccounts.PageTitle</key>
+					<string>Managed Accounts</string>
+					<key>FUSE.Social.FollowMoreFriends.Header</key>
+					<string>Follow friends</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXW</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.Search.BubbleHeader.musicUser.CapitalCase</key>
+					<string>People</string>
+					<key>FUSE.UpsellBanner.Subscribe.Short.PXD</key>
+					<string>Get @@introPricingDuration@@ Free</string>
+					<key>FUSE.Music.Show.Interview</key>
+					<string>Interview</string>
+					<key>FUSE.Upsell.Onboard.Description</key>
+					<string>Get handpicked playlists &amp; albums based on the music you love. Select some genres and artists and we'll do the rest. </string>
+					<key>FUSE.Music.Show.Information.Released</key>
+					<string>Released</string>
+					<key>FUSE.Social.Detail.FriendsWhoContributed.Header</key>
+					<string>Contributors</string>
+					<key>FUSE.Music.Show.Screenwriters</key>
+					<string>Screenwriters</string>
+					<key>FUSE.Music.Show.Video</key>
+					<string>Video</string>
+					<key>FUSE.Social.Profile.Playlist.Updated.Weeks</key>
+					<string>Updated @@weeks@@ Weeks Ago</string>
+					<key>FUSE.Search.BubbleHeader.musicGenre.CapitalCase</key>
+					<string>Genres</string>
+					<key>FUSE.Upsell.Onboard.Header.Alternate</key>
+					<string>Let us find your next favorite.</string>
+					<key>FUSE.Social.PersonalMixes</key>
+					<string>Mixes</string>
+					<key>FUSE.Settings.SDK.AppsAccess.Header</key>
+					<string>APPS WITH ACCESS</string>
+					<key>FUSE.Social.Onboarding.Share.CTA1</key>
+					<string>Get Started</string>
+					<key>FUSE.Social.Onboarding.Share.CTA2</key>
+					<string>Not Now</string>
+					<key>FUSE.Search.BubbleHeader.radioShow.CapitalCase</key>
+					<string>Radio Shows</string>
+					<key>FUSE.Music.Shows.Accessibility.Show.SDH</key>
+					<string>Subtitles for the deaf and hard of hearing (SDH) refer to subtitles in the original language with the addition of relevant non-dialogue information.</string>
+					<key>FUSE.Settings.Upsell.Subscribed.UpgradeFamily.explanation</key>
+					<string>Just @@priceDiff@@ more per month for up to 6 people.</string>
+					<key>FUSE.Settings.Notifications.HintTitle.Pad</key>
+					<string>Allow Notifications on This iPad</string>
+				</dict>
+			</dict>
+			<key>carPlayFirstEventInBatchTimeStamp</key>
+			<real>1586967614969</real>
+			<key>carPlayBatchTimePlayed</key>
+			<real>255.10850654699999</real>
+			<key>carPlayBatchTracksPlayed</key>
+			<real>2</real>
+			<key>lastTimeSocialOnboardingPresented</key>
+			<string>Fri Mar 27 2020 14:44:06 GMT-0400 (EDT)</string>
+			<key>didRetriggerWelcomePresentation</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

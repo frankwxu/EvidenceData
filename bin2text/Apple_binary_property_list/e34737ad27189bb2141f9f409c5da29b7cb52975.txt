@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>用Zoom給約翰打電話</string>
+				<string>用Zoom打電話給約翰</string>
+				<string>用Zoom和約翰進行語音通話</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>用Zoom給約翰打視頻電話</string>
+				<string>用Zoom打視頻電話給約翰</string>
+				<string>用Zoom和約翰進行視頻通話</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>用Zoom搜索約翰的通話紀錄</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSearchCallHistoryIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

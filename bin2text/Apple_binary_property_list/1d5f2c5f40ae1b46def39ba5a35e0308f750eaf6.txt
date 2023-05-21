@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Αν καταγράψετε {{goal_value:minutes}} λεπτά άσκησης σήμερα, αυτό το βέλος θα έχει πάλι ανοδική τάση αύριο. Θα τα καταφέρετε!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης είναι σε καλό επίπεδο. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης δείχνει προς τη σωστή κατεύθυνση. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης έχει καθοδική τάση αλλά μπορείτε να το αναστρέψετε εύκολα. Για να το καταφέρετε, καταγράψτε {{goal_value:minutes}} λεπτά άσκησης την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει καθοδική τάση αλλά τα λεπτά άσκησης έχουν αυξηθεί πρόσφατα. Για να αναστρέψετε το βέλος, προσπαθήστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} την ημέρα για τις επόμενες 30 ημέρες. Πάμε δυνατά, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αναστρέψετε αυτό το βέλος, καταγράψτε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για τις επόμενες 30 ημέρες. Κάνετε περισσότερα λεπτά άσκησης τελευταίως οπότε θα τα καταφέρετε εύκολα, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει καθοδική τάση αλλά μπορείτε να το αναστρέψετε εύκολα. Για να το καταφέρετε, φροντίστε να καταγράφετε πάνω {{goal_value:minutes}} την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να διατηρήσετε την ανοδική τάση αυτού του βέλους, συνεχίστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα. Τα πηγαίνετε υπέροχα, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης είναι σε καλό επίπεδο, {{username}}. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει καθοδική τάση αλλά τα λεπτά άσκησης έχουν αυξηθεί πρόσφατα. Για να αναστρέψετε το βέλος, προσπαθήστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} την ημέρα για τις επόμενες 14 ημέρες. Πάμε δυνατά!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Μπορείτε να αναστρέψετε το βέλος άσκησης σε %#@num_days@. Για να το καταφέρετε, πρέπει να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης έχει ανοδική τάση. Φροντίστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για να διατηρήσετε το βέλος στη σωστή κατεύθυνση.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αναστρέψετε αυτό το βέλος, καταγράψτε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για %#@num_days@ από σήμερα. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης είναι σε καλό επίπεδο, {{username}}. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει καθοδική τάση αλλά τα λεπτά άσκησης έχουν αυξηθεί πρόσφατα. Για να αναστρέψετε το βέλος, προσπαθήστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} την ημέρα για τις επόμενες 14 ημέρες. Πάμε δυνατά, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να διατηρήσετε την ανοδική τάση αυτού του βέλους, συνεχίστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα. Τα πηγαίνετε υπέροχα!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αναστρέψετε αυτό το βέλος, καταγράψτε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για τις επόμενες 14 ημέρες. Κάνετε περισσότερα λεπτά άσκησης τελευταίως οπότε θα τα καταφέρετε εύκολα, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει καθοδική τάση αλλά μπορείτε να το αναστρέψετε εύκολα, {{username}}. Για να το καταφέρετε, φροντίστε να καταγράφετε πάνω {{goal_value:minutes}} την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης δείχνει προς τη σωστή κατεύθυνση, {{username}}. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Μπορείτε να αναστρέψετε το βέλος άσκησης σε %#@num_days@, {{username}}. Για να το καταφέρετε, πρέπει να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης έχει καθοδική τάση αλλά μπορείτε να το αναστρέψετε εύκολα, {{username}}. Για να το καταφέρετε, καταγράψτε {{goal_value:minutes}} λεπτά άσκησης την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αναστρέψετε αυτό το βέλος, καταγράψτε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για %#@num_days@ από σήμερα. Θα τα καταφέρετε, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Προσπαθήστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα. Ελέγξτε για νέο στόχο κάθε εβδομάδα και βάλτε τα δυνατά σας για επίτευξη των στόχων, ώστε να αποκτήσει πάλι ανοδική τάση το βέλος σε περίπου %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d εβδομάδα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει καθοδική τάση αλλά τα λεπτά άσκησης έχουν αυξηθεί πρόσφατα. Για να αναστρέψετε το βέλος, προσπαθήστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} την ημέρα για τις επόμενες 30 ημέρες. Πάμε δυνατά!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να διατηρήσετε την ανοδική τάση αυτού του βέλους, συνεχίστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα. Τα πηγαίνετε υπέροχα!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης δείχνει προς τη σωστή κατεύθυνση, {{username}}. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης έχει ανοδική τάση. Φροντίστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για να διατηρήσετε το βέλος στη σωστή κατεύθυνση, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Κάντε μια προπόνηση γρήγορου βαδίσματος κάθε ημέρα για να αποκτήσει πάλι ανοδική τάση το βέλος λεπτών κίνησης. Θα τα καταφέρετε, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης είναι σε καλό επίπεδο. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος άσκησης δείχνει προς τη σωστή κατεύθυνση. Μπράβο!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αναστρέψετε αυτό το βέλος, καταγράψτε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για τις επόμενες 14 ημέρες. Κάνετε περισσότερα λεπτά άσκησης τελευταίως οπότε θα τα καταφέρετε εύκολα!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το ανοδικό βέλος άσκησης είναι πολύ καλός στόχος. Προσπαθήστε να καταγράφετε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης αυτήν την εβδομάδα. Με σταθερή πρόοδο, το βέλος θα αναστραφεί σε περίπου %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d εβδομάδα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Κάντε μια προπόνηση γρήγορου βαδίσματος κάθε ημέρα για να αποκτήσει πάλι ανοδική τάση το βέλος λεπτών κίνησης. Θα τα καταφέρετε!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει ανοδική τάση αλλά τα λεπτά άσκησης έχουν μειωθεί τελευταίως. Προσπαθήστε να κάνετε μια προπόνηση γρήγορου βαδίσματος κάθε ημέρα ώστε να διατηρήσετε την ανοδική πορεία του βέλους, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, αν καταγράψετε {{goal_value:minutes}} λεπτά άσκησης σήμερα, αυτό το βέλος θα έχει πάλι ανοδική τάση αύριο. Θα τα καταφέρετε!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος έχει ανοδική τάση αλλά τα λεπτά άσκησης έχουν μειωθεί τελευταίως. Προσπαθήστε να κάνετε μια προπόνηση γρήγορου βαδίσματος κάθε ημέρα ώστε να διατηρήσετε την ανοδική πορεία του βέλους.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να διατηρήσετε την ανοδική τάση αυτού του βέλους, συνεχίστε να καταγράφετε τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα. Τα πηγαίνετε υπέροχα, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αναστρέψετε αυτό το βέλος, καταγράψτε κατά μέσο όρο τουλάχιστον {{goal_value:minutes}} λεπτά άσκησης την ημέρα για τις επόμενες 30 ημέρες. Κάνετε περισσότερα λεπτά άσκησης τελευταίως οπότε θα τα καταφέρετε εύκολα!</string>
+	</dict>
+</dict>
+</plist>

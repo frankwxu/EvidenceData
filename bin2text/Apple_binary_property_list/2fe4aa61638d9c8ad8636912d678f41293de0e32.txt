@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ countries</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_countries@</string>
+		<key>num_countries</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ paesi</string>
+			<key>many</key>
+			<string>%@ paesi</string>
+			<key>one</key>
+			<string>%@ paese</string>
+			<key>other</key>
+			<string>%@ paesi</string>
+			<key>two</key>
+			<string>%@ paesi</string>
+			<key>zero</key>
+			<string>%@ paesi</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

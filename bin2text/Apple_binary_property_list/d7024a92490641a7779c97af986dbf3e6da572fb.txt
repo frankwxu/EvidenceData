@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_likes@</string>
+		<key>num_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u пометки "Нравится"</string>
+			<key>many</key>
+			<string>%u пометок "Нравится"</string>
+			<key>one</key>
+			<string>Пометка "Нравится"</string>
+			<key>other</key>
+			<string>%u пометок "Нравится"</string>
+			<key>two</key>
+			<string>%u пометки "Нравится"</string>
+			<key>zero</key>
+			<string>%u пометок "Нравится"</string>
+		</dict>
+	</dict>
+	<key>%u more likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_more_likes@</string>
+		<key>num_more_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u пометки "Нравится"</string>
+			<key>many</key>
+			<string>%u пометок "Нравится"</string>
+			<key>one</key>
+			<string>%u пометка "Нравится"</string>
+			<key>other</key>
+			<string>%u пометок "Нравится"</string>
+			<key>two</key>
+			<string>%u пометки "Нравится"</string>
+			<key>zero</key>
+			<string>%u пометок "Нравится"</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

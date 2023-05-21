@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twój łączny dystans spada. Aby ponownie skierować strzałkę w górę, spróbuj znaleźć czas na chodzenie każdego dnia.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, jeśli czujesz się na siłach, dłuższe marsze i biegi pomogą skierować strzałkę w górę. Spróbuj pokonywać co najmniej {{goal_value:distance}} dziennie w tym tygodniu. W przyszłym tygodniu dostaniesz nowy cel. Możesz zmienić kierunek strzałki w ciągu %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tygodni</string>
+			<key>one</key>
+			<string>%d tydzień</string>
+			<key>many</key>
+			<string>%d tygodni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tygodnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twój łączny dystans wygląda dobrze. Dodawaj kolejne marsze i biegi, aby utrzymać kierunek strzałki!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Zmień kierunek tej strzałki! Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby ponownie skierować strzałkę w górę, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. {{username}}, wszystko zależy od Ciebie.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twoja strzałka łącznego dystansu jest skierowana w górę. Nie zapominaj o chodzeniu i bieganiu każdego dnia, aby nie zmieniła kierunku!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twój łączny dystans wygląda dobrze. Dodawaj kolejne marsze i biegi, aby utrzymać kierunek strzałki!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby ponownie skierować strzałkę w górę, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. Wszystko zależy od Ciebie.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby utrzymać kierunek strzałki, musisz przejść lub przebiec więcej, niż ostatnio. Dajesz!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twój łączny dystans wygląda dobrze. Dodawaj kolejne marsze i biegi, aby utrzymać kierunek strzałki!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, jeśli przejdziesz lub przebiegniesz dziś co najmniej {{goal_value:distance}}, strzałka skieruje się w górę. Warto!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka łącznego dystansu jest skierowana w górę. Nie zapominaj o chodzeniu i bieganiu każdego dnia, aby nie zmieniła kierunku!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Zmień kierunek tej strzałki, {{username}}! Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@, aby ponownie skierować strzałkę w górę. Dasz radę, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby ponownie skierować strzałkę w górę, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. Wszystko zależy od Ciebie.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jeśli przejdziesz lub przebiegniesz dziś co najmniej {{goal_value:distance}}, strzałka skieruje się w górę. Warto!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@, aby ponownie skierować strzałkę w górę. Dasz radę.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka łącznego dystansu jest skierowana w górę. Nie zapominaj o chodzeniu i bieganiu każdego dnia, aby nie zmieniła kierunku!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twój łączny dystans spada. Aby ponownie skierować strzałkę w górę, spróbuj znaleźć czas na chodzenie każdego dnia.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby ponownie skierować strzałkę w górę, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. {{username}}, wszystko zależy od Ciebie.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, jeśli czujesz się na siłach, dłuższe marsze i biegi pomogą skierować strzałkę w górę. Spróbuj pokonywać co najmniej {{goal_value:distance}} dziennie w tym tygodniu. W przyszłym tygodniu dostaniesz nowy cel. Możesz zmienić kierunek strzałki w ciągu %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tygodni</string>
+			<key>one</key>
+			<string>%d tydzień</string>
+			<key>many</key>
+			<string>%d tygodni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tygodnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby utrzymać kierunek strzałki, musisz przejść lub przebiec więcej, niż ostatnio. {{username}}, dajesz!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jeśli przejdziesz lub przebiegniesz dziś co najmniej {{goal_value:distance}}, strzałka skieruje się w górę. Warto!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, aby zmienić kierunek strzałki, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. Warto!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@, aby ponownie skierować strzałkę w górę. Dasz radę.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jeśli czujesz się na siłach, dłuższe marsze i biegi pomogą skierować strzałkę w górę. Spróbuj pokonywać co najmniej {{goal_value:distance}} dziennie w tym tygodniu. W przyszłym tygodniu dostaniesz nowy cel. Możesz zmienić kierunek strzałki w ciągu %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tygodni</string>
+			<key>one</key>
+			<string>%d tydzień</string>
+			<key>many</key>
+			<string>%d tygodni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tygodnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twój łączny dystans wygląda dobrze. Dodawaj kolejne marsze i biegi, aby utrzymać kierunek strzałki!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby zmienić kierunek strzałki, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. Warto!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@, aby ponownie skierować strzałkę w górę. Dasz radę, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jeśli czujesz się na siłach, dłuższe marsze i biegi pomogą skierować strzałkę w górę. Spróbuj pokonywać co najmniej {{goal_value:distance}} dziennie w tym tygodniu. W przyszłym tygodniu dostaniesz nowy cel. Możesz zmienić kierunek strzałki w ciągu %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tygodni</string>
+			<key>one</key>
+			<string>%d tygodnia</string>
+			<key>many</key>
+			<string>%d tygodni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tygodnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twój łączny dystans spada. Aby ponownie skierować strzałkę w górę, spróbuj znaleźć czas na chodzenie każdego dnia.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby zmienić kierunek strzałki, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. Warto!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ostatnio mniej chodzisz i biegasz. Aby utrzymać kierunek strzałki, ruszaj się więcej!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ostatnio mniej chodzisz i biegasz. Aby utrzymać kierunek strzałki, ruszaj się więcej!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Zmień kierunek tej strzałki, {{username}}! Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twoja strzałka łącznego dystansu jest skierowana w górę. Nie zapominaj o chodzeniu i bieganiu każdego dnia, aby nie zmieniła kierunku!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, jeśli przejdziesz lub przebiegniesz dziś co najmniej {{goal_value:distance}}, strzałka skieruje się w górę. Warto!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, aby zmienić kierunek strzałki, przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@. Warto!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twój łączny dystans spada. Aby ponownie skierować strzałkę w górę, spróbuj znaleźć czas na chodzenie każdego dnia.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Zmień kierunek tej strzałki! Przejdź lub przebiegnij co najmniej {{goal_value:distance}} dziennie przez %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

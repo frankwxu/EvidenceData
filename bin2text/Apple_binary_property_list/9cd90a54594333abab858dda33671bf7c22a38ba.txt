@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>And %d more reminders…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_reminders@</string>
+		<key>num_reminders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>A %d ďalšie pripomienky…</string>
+			<key>one</key>
+			<string>A 1 ďalšia pripomienka…</string>
+			<key>many</key>
+			<string>A %d ďalšej pripomienky…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>A %d ďalších pripomienok…</string>
+		</dict>
+	</dict>
+	<key>Shared with %d people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Zdieľané s %d osobami</string>
+			<key>one</key>
+			<string>Zdieľané s %d osobou</string>
+			<key>many</key>
+			<string>Zdieľané s %d osobou</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Zdieľané s %d osobami</string>
+		</dict>
+	</dict>
+	<key>Years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Roky</string>
+			<key>one</key>
+			<string>Rok</string>
+			<key>many</key>
+			<string>Roka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Rokov</string>
+		</dict>
+	</dict>
+	<key>Outdent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Zrušiť odsadenie %d pripomienok</string>
+			<key>one</key>
+			<string>Zrušiť odsadenie pripomienky</string>
+			<key>many</key>
+			<string>Zrušiť odsadenie %d pripomienky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Zrušiť odsadenie %d pripomienok</string>
+			<key>zero</key>
+			<string>Zrušiť odsadenie pripomienky</string>
+		</dict>
+	</dict>
+	<key>Days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Dni</string>
+			<key>one</key>
+			<string>Deň</string>
+			<key>many</key>
+			<string>Dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Dní</string>
+		</dict>
+	</dict>
+	<key>Weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Týždne</string>
+			<key>one</key>
+			<string>Týždeň</string>
+			<key>many</key>
+			<string>Týždňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Týždňov</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Due</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ pripomienky s dnešným termínom</string>
+			<key>one</key>
+			<string>%@ pripomienka s dnešným termínom</string>
+			<key>many</key>
+			<string>%@ pripomienky s dnešným termínom</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ pripomienok s dnešným termínom</string>
+		</dict>
+	</dict>
+	<key>%ld Lists</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@list_count@</string>
+		<key>list_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%ld zoznamy</string>
+			<key>one</key>
+			<string>%ld zoznam</string>
+			<key>many</key>
+			<string>%ld zoznamu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld zoznamov</string>
+		</dict>
+	</dict>
+	<key>%d Images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d obrázky</string>
+			<key>one</key>
+			<string>%d obrázok</string>
+			<key>many</key>
+			<string>%d obrázka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d obrázkov</string>
+		</dict>
+	</dict>
+	<key>Indent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Odsadiť %d pripomienky</string>
+			<key>one</key>
+			<string>Odsadiť pripomienku</string>
+			<key>many</key>
+			<string>Odsadiť %d pripomienky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Odsadiť %d pripomienok</string>
+			<key>zero</key>
+			<string>Odsadiť pripomienku</string>
+		</dict>
+	</dict>
+	<key>Hide %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Skryť %d položky</string>
+			<key>one</key>
+			<string>Skryť %d položku</string>
+			<key>many</key>
+			<string>Skryť %d položky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Skryť %d položiek</string>
+		</dict>
+	</dict>
+	<key>%@ Items Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ položky na dnes</string>
+			<key>one</key>
+			<string>%@ položka na dnes</string>
+			<key>many</key>
+			<string>%@ položky na dnes</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ položiek na dnes</string>
+			<key>zero</key>
+			<string>Žiadne položky na dnes</string>
+		</dict>
+	</dict>
+	<key>Show %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Zobraziť %d položky</string>
+			<key>one</key>
+			<string>Zobraziť %d položku</string>
+			<key>many</key>
+			<string>Zobraziť %d položky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Zobraziť %d položiek</string>
+		</dict>
+	</dict>
+	<key>%d years (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d roky</string>
+			<key>one</key>
+			<string>Rok</string>
+			<key>many</key>
+			<string>%d roka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d rokov</string>
+		</dict>
+	</dict>
+	<key>%d weeks (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týždne</string>
+			<key>one</key>
+			<string>1 týždeň</string>
+			<key>many</key>
+			<string>%d týždňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týždňov</string>
+		</dict>
+	</dict>
+	<key>%@ and %d others</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ a %#@num_others@</string>
+		<key>num_others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d ďalšie</string>
+			<key>one</key>
+			<string>1 ďalšia</string>
+			<key>many</key>
+			<string>%d ďalšej</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ďalších</string>
+		</dict>
+	</dict>
+	<key>Months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Mesiace</string>
+			<key>one</key>
+			<string>Mesiac</string>
+			<key>many</key>
+			<string>Mesiaca</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Mesiacov</string>
+		</dict>
+	</dict>
+	<key>%d hours (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d hodiny</string>
+			<key>one</key>
+			<string>Hodina</string>
+			<key>many</key>
+			<string>%d hodiny</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hodín</string>
+		</dict>
+	</dict>
+	<key>%d Completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dokončené</string>
+			<key>one</key>
+			<string>%d dokončená</string>
+			<key>many</key>
+			<string>%d dokončenej</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dokončených</string>
+		</dict>
+	</dict>
+	<key>%@ Items Due Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ položky s dnešným termínom</string>
+			<key>one</key>
+			<string>%@ položka s dnešným termínom</string>
+			<key>many</key>
+			<string>%@ položky s dnešným termínom</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ položiek s dnešným termínom</string>
+			<key>zero</key>
+			<string>Žiadne položky s dnešným termínom</string>
+		</dict>
+	</dict>
+	<key>Move these reminders to a new list</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Presunúť pripomienky do nového zoznamu</string>
+			<key>one</key>
+			<string>Presunúť pripomienku do nového zoznamu</string>
+			<key>many</key>
+			<string>Presunúť pripomienky do nového zoznamu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Presunúť pripomienky do nového zoznamu</string>
+		</dict>
+	</dict>
+	<key>%@ Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ po termíne</string>
+			<key>one</key>
+			<string>%@ po termíne</string>
+			<key>many</key>
+			<string>%@ po termíne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ po termíne</string>
+		</dict>
+	</dict>
+	<key>%@ Today + %@ Others</key>
+	<dict>
+		<key>others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ ďalšie</string>
+			<key>one</key>
+			<string>%@ ďalšia</string>
+			<key>many</key>
+			<string>%@ ďalšej</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ ďalších</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@today@ + %2$#@others@</string>
+		<key>today</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ na dnes</string>
+			<key>one</key>
+			<string>%@ na dnes</string>
+			<key>many</key>
+			<string>%@ na dnes</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ na dnes</string>
+		</dict>
+	</dict>
+	<key>%d days (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dni</string>
+			<key>one</key>
+			<string>Deň</string>
+			<key>many</key>
+			<string>%d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>%@ Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ na dnes</string>
+			<key>one</key>
+			<string>%@ na dnes</string>
+			<key>many</key>
+			<string>%@ na dnes</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ na dnes</string>
+			<key>zero</key>
+			<string>Žiadna položka na dnes</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ pripomienky po termíne</string>
+			<key>one</key>
+			<string>%@ pripomienka po termíne</string>
+			<key>many</key>
+			<string>%@ pripomienky po termíne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ pripomienok po termíne</string>
+		</dict>
+	</dict>
+	<key>%d months (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d mesiace</string>
+			<key>one</key>
+			<string>Mesiac</string>
+			<key>many</key>
+			<string>%d mesiaca</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d mesiacov</string>
+		</dict>
+	</dict>
+	<key>Hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Hodiny</string>
+			<key>one</key>
+			<string>Hodina</string>
+			<key>many</key>
+			<string>Hodiny</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Hodín</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

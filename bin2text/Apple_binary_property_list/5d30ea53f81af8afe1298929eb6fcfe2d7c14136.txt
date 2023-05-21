@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Permanently Delete %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>永久刪除%#@recordings@</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d個錄音</string>
+		</dict>
+	</dict>
+	<key>%d Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@Files@</string>
+		<key>Files</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d個檔案</string>
+		</dict>
+	</dict>
+	<key>%lu Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows_selected@</string>
+		<key>num_rows_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>已選擇%lu個</string>
+		</dict>
+	</dict>
+	<key>ERASE_RECORDINGS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recordings@</string>
+		<key>Comment</key>
+		<string>Number of recordings that will be permanently deleted</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>確定要永久刪除%d個錄音嗎？</string>
+		</dict>
+	</dict>
+	<key>Recover %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>還原%#@recordings@</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d個錄音</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

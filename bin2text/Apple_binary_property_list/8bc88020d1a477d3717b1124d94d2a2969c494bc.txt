@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>visibilityStart</key>
+	<string>2018-08-30</string>
+	<key>availabilityEnd</key>
+	<string>2018-09-01</string>
+	<key>availableCountryCodes</key>
+	<array/>
+	<key>triggers</key>
+	<integer>2</integer>
+	<key>earnableOnlyOnce</key>
+	<true/>
+	<key>predicate</key>
+	<string>(workout.type == 37 OR workout.type == 52 OR workout.type == 70 OR workout.type == 71 OR workout.type == 24) AND workout.duration &gt;= 3000</string>
+	<key>identifier</key>
+	<string>NATIONAL_PARKS_2018</string>
+	<key>displayOrder</key>
+	<integer>13</integer>
+	<key>visibilityEnd</key>
+	<string>2018-09-01</string>
+	<key>availabilityStart</key>
+	<string>2018-09-01</string>
+	<key>alertDates</key>
+	<array>
+		<string>2018-08-31</string>
+	</array>
+	<key>badgeShapeName</key>
+	<string>hexagon</string>
+</dict>
+</plist>

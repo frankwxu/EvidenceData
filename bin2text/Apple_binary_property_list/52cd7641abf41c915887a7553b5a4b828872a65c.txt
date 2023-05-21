@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDLE_HOURS_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@idle_hours@</string>
+		<key>idle_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%ld ч без разминки</string>
+			<key>one</key>
+			<string>%ld ч без разминки</string>
+			<key>many</key>
+			<string>%ld ч без разминки</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld ч без разминки</string>
+			<key>zero</key>
+			<string>%ld ч без разминки</string>
+		</dict>
+	</dict>
+	<key>MINUTES_SHORT_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%lu %#@minutes@</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>МИН</string>
+			<key>one</key>
+			<string>МИН</string>
+			<key>many</key>
+			<string>МИН</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>МИН</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

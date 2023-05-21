@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ סה״כ המרחק שעברת מצביע למטה, {{username}}. כדי להרים את החץ הזה, עליך לנסות לפנות זמן להליכה כל יום.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להחזיר את החץ הזה כלפי מעלה, {{username}}, כל מה שצריך זה ללכת ולרוץ רחוק יותר. נסה/י ללכת או לרוץ {{goal_value:distance}} ביום השבוע וחכה/י ליעד הבא בשבוע הבא. תוך %#@num_weeks@ שבועות החץ הזה יכול להתהפך כלפי מעלה.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>שבוע</string>
+			<key>many</key>
+			<string>‏%d שבועות</string>
+			<key>two</key>
+			<string>שבועיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d שבועות</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עבודה טובה על ״סה״כ מרחק״. המשך/י לתעד את הריצות וההליכות שלך מדי יום כדי שהחץ ימשיך להצביע כלפי מעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ הזה חייב להתהפך! עליך ללכת ולרוץ {{goal_value:distance}} ביום לפחות למשך %#@num_days@ הבאים.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ {{goal_value:distance}} ביום למשך %#@num_days@. זה בידיים שלך, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, חץ המרחק שעברת מצביע למעלה. עליך להמשיך בריצה ובהליכה מדי יום כדי שהוא יישאר למעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עבודה טובה על ״סה״כ מרחק״, {{username}}. תעד/י את הריצות וההליכות שלך מדי יום כדי שהחץ ימשיך להצביע כלפי מעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ {{goal_value:distance}} ביום למשך %#@num_days@. זה בידיים שלך!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי שהחץ הזה ימשיך להצביע כלפי מעלה, עליך ללכת ולרוץ רחוק יותר מהמרחק שעשית לאחרונה. קדימה!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עבודה טובה על ״סה״כ מרחק״, {{username}}. המשך/י לתעד את הריצות וההליכות שלך מדי יום כדי שהחץ ימשיך להצביע כלפי מעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>אם תצליח/י לרוץ או ללכת לפחות {{goal_value:distance}} היום, החץ הזה יחזור להצביע כלפי מעלה. שווה את המאמץ {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ סה״כ המרחק שעברת מצביע למעלה. עליך להמשיך לרוץ וללכת מדי יום כדי שהוא יישאר כך!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ הזה חייב להתהפך, {{username}}! עליך ללכת ולרוץ {{goal_value:distance}} ביום לפחות למשך %#@num_days@ הבאים.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@ כדי להפוך חזרה את החץ למעלה, {{username}}. קטן עליך.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ {{goal_value:distance}} ביום למשך %#@num_days@. זה בידיים שלך!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>אם תצליח/י לרוץ או ללכת לפחות {{goal_value:distance}} היום, החץ הזה יחזור להצביע כלפי מעלה. שווה את המאמץ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@ כדי להפוך חזרה את החץ למעלה. קטן עליך!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ סה״כ המרחק שעברת מצביע למעלה. עליך להמשיך לרוץ וללכת מדי יום כדי שהוא יישאר כך!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ סה״כ המרחק שעברת מצביע למטה. כדי להרים את החץ הזה, עליך לנסות לפנות זמן להליכה כל יום.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ {{goal_value:distance}} ביום למשך %#@num_days@. זה בידיים שלך, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להחזיר את החץ הזה כלפי מעלה, {{username}}, כל מה שצריך זה ללכת ולרוץ רחוק יותר. נסה/י ללכת או לרוץ {{goal_value:distance}} ביום השבוע וחכה/י ליעד הבא בשבוע הבא. תוך %#@num_weeks@ שבועות החץ הזה יכול להתהפך כלפי מעלה.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>שבוע</string>
+			<key>many</key>
+			<string>‏%d שבועות</string>
+			<key>two</key>
+			<string>שבועיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d שבועות</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי שהחץ הזה ימשיך להצביע כלפי מעלה, עליך ללכת ולרוץ רחוק יותר מהמרחק שעשית לאחרונה, {{username}}. קדימה!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>אם תצליח/י לרוץ או ללכת לפחות {{goal_value:distance}} היום, החץ הזה יחזור להצביע כלפי מעלה. שווה את המאמץ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@, ‏{{username}}. שווה!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@ כדי להפוך חזרה את החץ למעלה. קטן עליך!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להחזיר את החץ הזה כלפי מעלה, כל מה שצריך זה ללכת ולרוץ רחוק יותר. נסה/י ללכת או לרוץ {{goal_value:distance}} ביום השבוע וחכה/י ליעד הבא בשבוע הבא. תוך %#@num_weeks@ שבועות החץ הזה יכול להתהפך כלפי מעלה.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>שבוע</string>
+			<key>many</key>
+			<string>‏%d שבועות</string>
+			<key>two</key>
+			<string>שבועיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d שבועות</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עבודה טובה על ״סה״כ מרחק״. המשך/י לתעד את הריצות וההליכות שלך מדי יום כדי שהחץ ימשיך להצביע כלפי מעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@. שווה!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@ כדי להפוך חזרה את החץ למעלה, {{username}}. קטן עליך.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להחזיר את החץ הזה כלפי מעלה, כל מה שצריך זה ללכת ולרוץ רחוק יותר. נסה/י ללכת או לרוץ {{goal_value:distance}} ביום השבוע וחכה/י ליעד הבא בשבוע הבא. תוך %#@num_weeks@ שבועות החץ הזה יכול להתהפך כלפי מעלה.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>שבוע</string>
+			<key>many</key>
+			<string>‏%d שבועות</string>
+			<key>two</key>
+			<string>שבועיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d שבועות</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ סה״כ המרחק שעברת מצביע למטה. כדי להרים את החץ הזה, עליך לנסות לפנות זמן להליכה כל יום.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@. שווה!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>אימוני ההליכה או הריצה שלך התמעטו לאחרונה, {{username}}. עליך לנסות להיות קצת יותר בתנועה כדי לשמור על החץ שלך למעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>אימוני ההליכה או הריצה שלך התמעטו לאחרונה. עליך לנסות להיות קצת יותר בתנועה כדי לשמור על החץ שלך למעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ הזה חייב להתהפך, {{username}}! עליך ללכת ולרוץ {{goal_value:distance}} ביום לפחות למשך %#@num_days@ הבאים.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, חץ המרחק שעברת מצביע למעלה. עליך להמשיך בריצה ובהליכה מדי יום כדי שהוא יישאר למעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>אם תצליח/י לרוץ או ללכת לפחות {{goal_value:distance}} היום, החץ הזה יחזור להצביע כלפי מעלה. שווה את המאמץ {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך ללכת ולרוץ לפחות {{goal_value:distance}} ביום למשך %#@num_days@, ‏{{username}}. שווה!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ סה״כ המרחק שעברת מצביע למטה, {{username}}. כדי להרים את החץ הזה, עליך לנסות לפנות זמן להליכה כל יום.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ הזה חייב להתהפך! עליך ללכת ולרוץ {{goal_value:distance}} ביום לפחות למשך %#@num_days@ הבאים.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

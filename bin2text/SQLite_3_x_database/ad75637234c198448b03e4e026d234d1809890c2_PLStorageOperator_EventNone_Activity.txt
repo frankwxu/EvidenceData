@@ -1,0 +1,6 @@
+ID,timestamp,Criteria,Identifier,MustRunCriterion
+1,1584826746.0564632,"((interval=86400.000000), PLAudioAgent_EventForward_Routing, PLDisplayAgent_EventPoint_Display, PLBatteryAgent_EventBackward_Battery)",com.apple.powerlogd.archiver,(interval=259200.000000)
+2,1584826747.0857153,"((interval=21600.000000), PLBatteryAgent_EventBackward_Battery, PLDisplayAgent_EventPoint_Display)",PLDuetService_duetEnergyAccumulator,
+3,1584826747.085843,((interval=300.000000)),com.apple.powerlogd.accounting.chunking,
+4,1584826747.085949,"((interval=604800.000000), PLDisplayAgent_EventPoint_Display, PLBatteryAgent_EventBackward_Battery)",com.apple.powerlogd.integrity_check,(interval=2592000.000000)
+5,1584831773.144699,"((interval=86400.000000), PLBatteryAgent_EventBackward_Battery, PLDisplayAgent_EventPoint_Display)",com.apple.powerlogd.PLAggregateDictionaryService.dailyTasks,

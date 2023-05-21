@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Nazovi Ivana na Viber</string>
+				<string>Nazovi Ivana s Viberom</string>
+				<string>Uspostavi Viber poziv s Ivanom</string>
+				<string>Uspostavi poziv s Ivanom na Viberu</string>
+				<string>Otvori Viber poziv s Ivanom</string>
+				<string>Pozovi Ivana na Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Pošalji Viber poruku Ivanu</string>
+				<string>Pošalji tekstualnu poruku Ivanu na Viber</string>
+				<string>Ivanu pošalji Viber poruku</string>
+				<string>Poruka Ivanu preko Vibera</string>
+				<string>Piši Ivanu na Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Pokreni video poziv s Ivanom na Viberu</string>
+				<string>Pokreni video razgovor s Ivanom na Viberu</string>
+				<string>Uspostavi video poziv s Ivanom na Viber</string>
+				<string>Otvori Viber video poziv s Ivanom</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

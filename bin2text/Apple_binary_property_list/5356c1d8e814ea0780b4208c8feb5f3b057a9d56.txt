@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Titles</key>
+			<array>
+				<string>ERASE_RECENTLY_DELETED_IMMEDIATELY</string>
+				<string>ERASE_RECENTLY_DELETED_ONE_DAY</string>
+				<string>ERASE_RECENTLY_DELETED_SEVEN_DAYS</string>
+				<string>ERASE_RECENTLY_DELETED_THIRTY_DAYS</string>
+				<string>ERASE_RECENTLY_DELETED_NEVER</string>
+			</array>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>7</integer>
+				<integer>30</integer>
+				<integer>-1</integer>
+			</array>
+			<key>Key</key>
+			<string>RCVoiceMemosRecentlyDeletedWindowKey</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>SETTINGS_PERMANENTLY_DELETE</string>
+		</dict>
+		<dict>
+			<key>Titles</key>
+			<array>
+				<string>QUALITY_AAC_AUDIO</string>
+				<string>QUALITY_UNCOMPRESSED</string>
+			</array>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+			<key>Key</key>
+			<string>RCVoiceMemosAudioQualityKey</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>SETTINGS_AUDIO_COMPRESSION_QUALITY</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>RCVoiceMemosUseLocationBasedNaming</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>SETTINGS_USE_LOCATION_BASED_NAMING</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

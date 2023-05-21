@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ขึ้น {{goal_value:flights}} ชั้นในวันนี้แล้วลูกศรนี้จะกลับมาชี้ขึ้นในวันพรุ่งนี้ ขึ้นบันไดเลย {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณสามารถทำให้ลูกศรนี้กลับมาชี้ขึ้นได้ใน %#@num_days@! เริ่มขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันแล้วลูกศรจะพลิก</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ต้องขึ้นบันไดอย่างนี้สิ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}} คุณสามารถทำให้ลูกศรนี้กลับมาชี้ขึ้นได้ใน %#@num_days@! เริ่มขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันแล้วลูกศรจะพลิก</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณเข้าใกล้เป้าหมายมากเกินที่จะปล่อยให้ลูกศรชี้ลง ขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันสำหรับ %#@num_days@ถัดไปเพื่อเปลี่ยนลูกศรให้กลับมาชี้ขึ้น</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ได้เวลามองหาบันไดแล้ว ขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันสำหรับ %#@num_days@ถัดไปเพื่อพลิกลูกศรของคุณ พยายามอีกนะ!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ขึ้นบันไดต่อไปอีกนะ {{username}} คุณทำได้ดีมากในเรื่องจำนวนชั้นที่ขึ้นของคุณ</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรนี้ชี้ขึ้น ให้ขึ้นบันไดเมื่อใดก็ตามที่คุณมีโอกาส พยายามขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันสำหรับ %#@num_days@ถัดไป ขึ้นอยู่กับคุณแล้ว!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ได้เวลามองหาบันไดแล้ว {{username}} ขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันสำหรับ %#@num_days@ถัดไปเพื่อพลิกลูกศรของคุณ พยายามอีกนะ!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ขึ้น {{goal_value:flights}} ชั้นในวันนี้แล้วลูกศรนี้จะกลับมาชี้ขึ้นในวันพรุ่งนี้ ขึ้นบันไดเลย!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณต้องการให้ลูกศรนี้หันหัวกลับไปในทิศทางที่ถูกต้อง ให้ขึ้นบันไดเมื่อคุณเห็นบันได</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณขึ้นบันไดได้น้อยกว่าที่เคย {{username}} พยายามขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ต้องขึ้นบันไดอย่างนี้สิ {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทำให้ลูกศรจำนวนชั้นที่ขึ้นของคุณชี้ขึ้นต่อไปอีกนะ {{username}} คุณต้องขึ้นให้ได้โดยเฉลี่ยอย่างน้อย {{goal_value:flights}} ชั้นต่อวันเพื่อให้ทุกอย่างเป็นไปตามแผน</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>การขึ้นบันไดให้บ่อยขึ้นอีกเล็กน้อยสามารถช่วยลูกศรนี้ได้นะ รับรองว่าดีแน่นอน</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ต้องขึ้นบันไดอย่างนี้สิ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}} คุณเข้าใกล้เป้าหมายมากเกินที่จะปล่อยให้ลูกศรชี้ลง ขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันสำหรับ %#@num_days@ถัดไปเพื่อเปลี่ยนให้ลูกศรกลับมาชี้ขึ้น</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทำให้ลูกศรจำนวนชั้นที่ขึ้นของคุณชี้ขึ้นต่อไปอีกนะ คุณต้องขึ้นให้ได้โดยเฉลี่ยอย่างน้อย {{goal_value:flights}} ชั้นต่อวันเพื่อให้ทุกอย่างเป็นไปตามแผน</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}} ถ้าคุณต้องการให้ลูกศรนี้หันหัวกลับไปในทิศทางที่ถูกต้อง ให้ขึ้นบันไดเมื่อคุณเห็นบันได</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ขึ้นบันไดต่อไปอีกนะ {{username}} คุณทำได้ดีมากในเรื่องจำนวนชั้นที่ขึ้นของคุณ</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ต้องขึ้นบันไดอย่างนี้สิ {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ขึ้นบันไดต่อไปอีกนะ คุณทำได้ดีมากในเรื่องจำนวนชั้นที่ขึ้นของคุณ</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ขึ้นบันไดต่อไปอีกนะ คุณทำได้ดีมากในเรื่องจำนวนชั้นที่ขึ้นของคุณ</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรนี้ชี้ขึ้น ให้ขึ้นบันไดเมื่อใดก็ตามที่คุณมีโอกาส พยายามขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันสำหรับ %#@num_days@ถัดไป ขึ้นอยู่กับคุณแล้ว {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณขึ้นบันไดได้น้อยกว่าที่เคย พยายามขึ้นอย่างน้อย {{goal_value:flights}} ชั้นต่อวันเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ</string>
+	</dict>
+</dict>
+</plist>

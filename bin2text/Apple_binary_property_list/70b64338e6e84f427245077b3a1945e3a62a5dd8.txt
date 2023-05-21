@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ д.</string>
+			<key>many</key>
+			<string>%@ д.</string>
+			<key>one</key>
+			<string>д.</string>
+			<key>other</key>
+			<string>%@ д.</string>
+			<key>two</key>
+			<string>%@ д.</string>
+			<key>zero</key>
+			<string>%@ д.</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ мин</string>
+			<key>many</key>
+			<string>%@ мин</string>
+			<key>one</key>
+			<string>мин</string>
+			<key>other</key>
+			<string>%@ мин</string>
+			<key>two</key>
+			<string>%@ мин</string>
+			<key>zero</key>
+			<string>%@ мин</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ мес.</string>
+			<key>many</key>
+			<string>%@ мес.</string>
+			<key>one</key>
+			<string>мес.</string>
+			<key>other</key>
+			<string>%@ мес.</string>
+			<key>two</key>
+			<string>%@ мес.</string>
+			<key>zero</key>
+			<string>%@ мес.</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ нед.</string>
+			<key>many</key>
+			<string>%@ нед.</string>
+			<key>one</key>
+			<string>нед.</string>
+			<key>other</key>
+			<string>%@ нед.</string>
+			<key>two</key>
+			<string>%@ нед.</string>
+			<key>zero</key>
+			<string>%@ нед.</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ лет</string>
+			<key>many</key>
+			<string>%@ лет</string>
+			<key>one</key>
+			<string>год</string>
+			<key>other</key>
+			<string>%@ лет</string>
+			<key>two</key>
+			<string>%@ года</string>
+			<key>zero</key>
+			<string>%@ лет</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Действует %@ нед.</string>
+			<key>many</key>
+			<string>Действует %@ нед.</string>
+			<key>one</key>
+			<string>Действует %@ нед.</string>
+			<key>other</key>
+			<string>Действует %@ нед.</string>
+			<key>two</key>
+			<string>Действует %@ нед.</string>
+			<key>zero</key>
+			<string>Действует %@ нед.</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Действует %@ д.</string>
+			<key>many</key>
+			<string>Действует %@ д.</string>
+			<key>one</key>
+			<string>Действует %@ день</string>
+			<key>other</key>
+			<string>Действует %@ д.</string>
+			<key>two</key>
+			<string>Действует %@ д.</string>
+			<key>zero</key>
+			<string>Действует %@ д.</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Действует %@ мес.</string>
+			<key>many</key>
+			<string>Действует %@ мес.</string>
+			<key>one</key>
+			<string>Действует %@ мес.</string>
+			<key>other</key>
+			<string>Действует %@ мес.</string>
+			<key>two</key>
+			<string>Действует %@ мес.</string>
+			<key>zero</key>
+			<string>Действует %@ мес.</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Действует %@ лет</string>
+			<key>many</key>
+			<string>Действует %@ лет</string>
+			<key>one</key>
+			<string>Действует %@ год</string>
+			<key>other</key>
+			<string>Действует %@ лет</string>
+			<key>two</key>
+			<string>Действует %@ года</string>
+			<key>zero</key>
+			<string>Действует %@ года</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

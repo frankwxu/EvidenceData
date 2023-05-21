@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MORE_SHOWS_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@shows_count@</string>
+		<key>shows_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ще %d шоу</string>
+			<key>one</key>
+			<string>Ще %d шоу</string>
+			<key>many</key>
+			<string>Ще %d шоу</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Ще %d шоу</string>
+		</dict>
+	</dict>
+	<key>RATING_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@rating_count@</string>
+		<key>rating_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d оцінки</string>
+			<key>one</key>
+			<string>%d оцінка</string>
+			<key>many</key>
+			<string>%d оцінок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d оцінки</string>
+		</dict>
+	</dict>
+	<key>REMOVE_COUNT_ITEM_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Залежно від наявності у видавця, ви можете не мати повторного доступу до %#@item@ після видалення.</string>
+		<key>item</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>цього елемента</string>
+			<key>one</key>
+			<string>цього елемента</string>
+			<key>many</key>
+			<string>цих елементів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>цих елементів</string>
+		</dict>
+	</dict>
+	<key>ACCESSIBILITY_STAR_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@star_count@</string>
+		<key>star_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d зірки</string>
+			<key>one</key>
+			<string>%d зірка</string>
+			<key>many</key>
+			<string>%d зірок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d зірки</string>
+		</dict>
+	</dict>
+	<key>PODCAST_EPISODES_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episodes_count@</string>
+		<key>episodes_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d епізоди</string>
+			<key>one</key>
+			<string>%d епізод</string>
+			<key>many</key>
+			<string>%d епізодів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d епізоду</string>
+		</dict>
+	</dict>
+	<key>PODCAST_SEASONS_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@seasons_count@</string>
+		<key>seasons_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d сезони</string>
+			<key>one</key>
+			<string>%d сезон</string>
+			<key>many</key>
+			<string>%d сезонів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d сезону</string>
+		</dict>
+	</dict>
+	<key>REMOVE_COUNT_EPISODES_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@remove_episodes_count@</string>
+		<key>remove_episodes_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Вилучити %d епізоди…</string>
+			<key>one</key>
+			<string>Вилучити %d епізод…</string>
+			<key>many</key>
+			<string>Вилучити %d епізодів…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Вилучити %d епізоду…</string>
+		</dict>
+	</dict>
+	<key>EPISODES_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d епізоди</string>
+			<key>one</key>
+			<string>%d епізод</string>
+			<key>many</key>
+			<string>%d епізодів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d епізоду</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Ring Ola på Viber</string>
+				<string>Ring Ola med Viber</string>
+				<string>Start en Viber-samtale med Ola</string>
+				<string>Ta prat med Ola på Viber</string>
+				<string>Ta en Viber-prat med Ola</string>
+				<string>Slå av en prat med Ola på Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Send Ola en Viber-melding</string>
+				<string>Send en tekstmelding til Ola på Viber</string>
+				<string>Send en Viber-melding til Ola</string>
+				<string>Tekst Ola med Viber</string>
+				<string>Send en melding til Ola på Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Start en videosamtale med Ola på Viber</string>
+				<string>Start en videochat med Ola på Viber</string>
+				<string>Ta en videosamtale med Ola på Viber</string>
+				<string>Gjør et videoanrop til Ola på Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

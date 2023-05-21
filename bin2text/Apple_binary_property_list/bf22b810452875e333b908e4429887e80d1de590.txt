@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.hueSyncBox</string>
+		<key>section</key>
+		<string>Entertainment</string>
+		<key>summary</key>
+		<string>Adds support for the Hue Sync Box</string>
+		<key>title</key>
+		<string>Hue Sync Box</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.entertainmentAfterStreaming</string>
+		<key>section</key>
+		<string>Entertainment</string>
+		<key>summary</key>
+		<string>Configure what should happen when streaming ends for entertainment setups.</string>
+		<key>title</key>
+		<string>Entertainment State After Streaming</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.filamentBulb</string>
+		<key>section</key>
+		<string>Devices</string>
+		<key>summary</key>
+		<string>Show filament bulb in icon selection</string>
+		<key>title</key>
+		<string>Filament Bulb</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.remoteFeatureToggleDeveloperMode</string>
+		<key>section</key>
+		<string>- Remote feature toggling</string>
+		<key>summary</key>
+		<string>Enables developer mode for Remote feature toggling (Firebase). This will make sure that the remote feature toggles update almost instantly to aid in development and testing.</string>
+		<key>title</key>
+		<string>Remote feature toggling developer mode</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.discoveryrewrite</string>
+		<key>section</key>
+		<string>Bridge Connectivity</string>
+		<key>summary</key>
+		<string>Use the new AppCore Bridge Disovery and the rewritten version of the bridge list view.</string>
+		<key>title</key>
+		<string>Bridge Discovery Rewrite</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.discoveryrewrite.dropAppCoreUsage</string>
+		<key>section</key>
+		<string>Bridge Connectivity</string>
+		<key>summary</key>
+		<string>Bridge discovery and connectivity without AppCore</string>
+		<key>title</key>
+		<string>Stop using AppCore in bridge Discovery Rewrite</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.remoteFeatureToggling.override</string>
+		<key>section</key>
+		<string>- Remote feature toggling</string>
+		<key>summary</key>
+		<string>The app will use the fallback feature toggle sources even if remote feature toggling is enabled.</string>
+		<key>title</key>
+		<string>Bypass Remote feature toggling</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.connectivity.httpsConnection</string>
+		<key>section</key>
+		<string>Bridge Connectivity</string>
+		<key>summary</key>
+		<string>Enables HTTPS for local connection.
+💥Please Kill and reopen the app💥 for the change to be effective.</string>
+		<key>title</key>
+		<string>Use HTTPS for local connection</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.entertainment.onBoarding</string>
+		<key>section</key>
+		<string>Entertainment</string>
+		<key>summary</key>
+		<string>Enables the entertainment onboarding.</string>
+		<key>title</key>
+		<string>Entertainment Onboarding</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.overlappingScenes</string>
+		<key>section</key>
+		<string>OverlappingScenes</string>
+		<key>summary</key>
+		<string>Enables 'Your Home' section.
+(Coming soon...)</string>
+		<key>title</key>
+		<string>Overlapping scenes</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.bridgeV1Deprecation</string>
+		<key>section</key>
+		<string>Bridge V1 deprecation</string>
+		<key>summary</key>
+		<string>Enabling this will make the Bridge V1 unsupported in this app.</string>
+		<key>title</key>
+		<string>Deprecate Bridge V1</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.messagingPreferences</string>
+		<key>section</key>
+		<string>Messaging preferences</string>
+		<key>summary</key>
+		<string>Enabling this will give you access to the Messaging preferences screen in the Advanced Settings</string>
+		<key>title</key>
+		<string>Messaging preferences</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.fohCommissioning</string>
+		<key>section</key>
+		<string>FoH</string>
+		<key>summary</key>
+		<string>Enabling this will show the FoH commissioning flow.</string>
+		<key>title</key>
+		<string>FoH Commissioning</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.braze</string>
+		<key>section</key>
+		<string>Braze</string>
+		<key>summary</key>
+		<string>When this is enabled, the user is able to receive braze messages.</string>
+		<key>title</key>
+		<string>Braze messages</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.outdoorSensorCommissioning</string>
+		<key>section</key>
+		<string>Devices</string>
+		<key>summary</key>
+		<string>When this is enabled, show the Outdoor Sensor commissioning flow.</string>
+		<key>title</key>
+		<string>Outdoor Sensor Commissioning</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.acceptOnlyWhiteListedUrlsInAppWeb</string>
+		<key>section</key>
+		<string>Web</string>
+		<key>summary</key>
+		<string>Enabling this will only allow a trusted list of domains for in-app webview navigation. This is a security measurement that when turned on might disable some websites from loading.</string>
+		<key>title</key>
+		<string>Accept only whitelisted urls for in-app webviews</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.remoteFeatureToggling</string>
+		<key>section</key>
+		<string>- Remote feature toggling</string>
+		<key>summary</key>
+		<string>Use remote feature toggling for feature toggles.</string>
+		<key>title</key>
+		<string>Enable Remote feature toggling</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.newLightsViewController</string>
+		<key>section</key>
+		<string>Light Control</string>
+		<key>summary</key>
+		<string>Use the new rewritten version of the light control list view.</string>
+		<key>title</key>
+		<string>Light Control List</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.powerOnBehavior</string>
+		<key>section</key>
+		<string>Power-On Behavior</string>
+		<key>summary</key>
+		<string>Enables the Power-On Behavior configuration menu in the settings screen</string>
+		<key>title</key>
+		<string>Enable Power-On Behavior</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.powerOnBehaviorCustom</string>
+		<key>section</key>
+		<string>Power-On Behavior</string>
+		<key>summary</key>
+		<string>Enables the custom mode option in Power-On Behavior mode selection screen</string>
+		<key>title</key>
+		<string>Enable custom mode option in Power-On Behavior</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.cloudSideload</string>
+		<key>section</key>
+		<string>Software update</string>
+		<key>summary</key>
+		<string>Enables the app to load software updates from the cloud</string>
+		<key>title</key>
+		<string>Enable cloud sideload instead of app sideload</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.zones</string>
+		<key>section</key>
+		<string>Zones</string>
+		<key>summary</key>
+		<string>Enable the usage of zones throughout the app</string>
+		<key>title</key>
+		<string>Enable zones</string>
+	</dict>
+	<dict>
+		<key>feature</key>
+		<string>app.feature.mdns</string>
+		<key>section</key>
+		<string>Bridge Connectivity</string>
+		<key>summary</key>
+		<string>Enable MDNS to discover bridges</string>
+		<key>title</key>
+		<string>Enable MDNS</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.smartButton</string>
+		<key>section</key>
+		<string>Devices</string>
+		<key>summary</key>
+		<string>enable accessory support for smart button</string>
+		<key>title</key>
+		<string>Enable Smart Button</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.smartPlug</string>
+		<key>section</key>
+		<string>Devices</string>
+		<key>summary</key>
+		<string>enable accessory support for smart plug</string>
+		<key>title</key>
+		<string>Enable Smart Plug</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.imsWeb</string>
+		<key>section</key>
+		<string>Devices</string>
+		<key>summary</key>
+		<string>Configure the indoor motion sensor in web</string>
+		<key>title</key>
+		<string>Indoor Motion Sensor web</string>
+	</dict>
+	<dict>
+		<key>dependencies</key>
+		<array>
+			<string>app.feature.remoteFeatureToggling.override</string>
+		</array>
+		<key>feature</key>
+		<string>app.feature.entertainmentExtension</string>
+		<key>section</key>
+		<string>Entertainment</string>
+		<key>summary</key>
+		<string>Support for custom light state when streaming ends and height placement in entertainment setup</string>
+		<key>title</key>
+		<string>Entertainment Extensions</string>
+	</dict>
+</array>
+</plist>

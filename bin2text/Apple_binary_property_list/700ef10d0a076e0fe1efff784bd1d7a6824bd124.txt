@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.WatchListKit.isTVAllowed</key>
+	<dict>
+		<key>compliant</key>
+		<true/>
+		<key>clientRestrictions</key>
+		<dict>
+			<key>restrictedBool</key>
+			<dict>
+				<key>allowTV</key>
+				<dict>
+					<key>value</key>
+					<true/>
+					<key>preference</key>
+					<false/>
+				</dict>
+			</dict>
+		</dict>
+		<key>clientType</key>
+		<string>com.apple.WatchListKit.isTVAllowed</string>
+	</dict>
+	<key>com.apple.lsd.appremoval</key>
+	<dict>
+		<key>localizedClientDescription</key>
+		<string></string>
+		<key>clientType</key>
+		<string>com.apple.lsd.appremoval</string>
+		<key>compliant</key>
+		<true/>
+		<key>clientRestrictions</key>
+		<dict>
+			<key>union</key>
+			<dict>
+				<key>removedSystemAppBundleIDs</key>
+				<dict>
+					<key>values</key>
+					<array>
+						<string>com.apple.shortcuts</string>
+						<string>com.apple.iBooks</string>
+						<string>com.apple.tv</string>
+						<string>com.apple.tips</string>
+						<string>com.apple.iCloudDriveApp</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

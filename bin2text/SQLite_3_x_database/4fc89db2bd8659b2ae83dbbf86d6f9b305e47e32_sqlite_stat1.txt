@@ -1,0 +1,36 @@
+tbl,idx,stat
+attachment,attachment_idx_purged_attachments,1 1 1 1
+attachment,sqlite_autoindex_attachment_2,6 1
+attachment,sqlite_autoindex_attachment_1,6 1
+chat,chat_idx_chat_identifier_service_name,17 1 1
+chat,chat_idx_is_archived,17 17
+chat,chat_idx_chat_room_name_service_name,17 17 9
+chat,chat_idx_chat_identifier,17 1
+chat,sqlite_autoindex_chat_1,17 1
+message,message_idx_failed,44 44 22 22
+message,message_idx_isRead_isFromMe_itemType,44 22 15 15
+message,message_idx_is_read,44 22 15 15
+message,message_idx_was_downgraded,44 44
+message,message_idx_other_handle,44 44
+message,message_idx_cache_has_attachments,44 22
+message,message_idx_associated_message,44 44
+message,message_idx_is_sent_is_from_me_error,44 22 22 22
+message,message_idx_handle_id,44 3
+message,message_idx_handle,44 3 1
+message,message_idx_date,44 1
+message,message_idx_expire_state,44 44
+message,sqlite_autoindex_message_1,44 1
+kvtable,sqlite_autoindex_kvtable_2,4 1
+kvtable,sqlite_autoindex_kvtable_1,4 1
+chat_message_join,chat_message_join_idx_message_date_id_chat_id,44 3 1 1
+chat_message_join,chat_message_join_idx_chat_id,44 3
+chat_message_join,chat_message_join_idx_message_id_only,44 1
+chat_message_join,sqlite_autoindex_chat_message_join_1,44 3 1
+_SqliteDatabaseProperties,sqlite_autoindex__SqliteDatabaseProperties_1,7 1
+chat_handle_join,chat_handle_join_idx_handle_id,17 1
+chat_handle_join,sqlite_autoindex_chat_handle_join_1,17 1 1
+message_attachment_join,message_attachment_join_idx_attachment_id,5 1
+message_attachment_join,message_attachment_join_idx_message_id,5 1
+message_attachment_join,sqlite_autoindex_message_attachment_join_1,5 1 1
+handle,sqlite_autoindex_handle_2,17 1 1
+handle,sqlite_autoindex_handle_1,17 1

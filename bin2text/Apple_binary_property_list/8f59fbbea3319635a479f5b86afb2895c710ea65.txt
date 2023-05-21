@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ARCHIVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Arhivați %1$lu mesaje</string>
+			<key>one</key>
+			<string>Arhivați %1$lu mesaj</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Arhivați %1$lu de mesaje</string>
+		</dict>
+	</dict>
+	<key>DRAFTS_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu ciorne</string>
+			<key>one</key>
+			<string>%lu ciornă</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu de ciorne</string>
+		</dict>
+	</dict>
+	<key>MESSAGES_SELECTED_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%1$lu selectate</string>
+			<key>one</key>
+			<string>%1$lu selectat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu selectate</string>
+		</dict>
+		<key>Comment</key>
+		<string>Number of selected messages, for the nav bar in a mailbox.</string>
+	</dict>
+	<key>MARK_EMAIL_UNFLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Eliminați fanionul de la %1$lu mesaje</string>
+			<key>one</key>
+			<string>Eliminați fanionul</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Eliminați fanionul de la %1$lu de mesaje</string>
+		</dict>
+	</dict>
+	<key>UNREAD_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%1$lu mesaje necitite</string>
+			<key>one</key>
+			<string>%1$lu mesaj necitit</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu de mesaje necitite</string>
+			<key>zero</key>
+			<string>Niciun mesaj necitit</string>
+		</dict>
+	</dict>
+	<key>MOVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Mutați %1$lu mesaje...</string>
+			<key>one</key>
+			<string>Mutați mesajul...</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Mutați %1$lu de mesaje...</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_UNREAD%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Marcați drept necitite (%1$lu)</string>
+			<key>one</key>
+			<string>Marcați drept necitit</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Marcați drept necitite (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_READ%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Marcați drept citite (%1$lu)</string>
+			<key>one</key>
+			<string>Marcați drept citit</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Marcați drept citite (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>NEW_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu noi</string>
+			<key>one</key>
+			<string>%lu nou</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu noi</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_IMAGES%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Salvați %2$@ imagini</string>
+			<key>one</key>
+			<string>Salvați %2$@ imagine</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Salvați %2$@ de imagini</string>
+		</dict>
+	</dict>
+	<key>ITEMS_SELECTED%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%2$@ articole</string>
+			<key>one</key>
+			<string>1 articol</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ de articole</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_FLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Puneți fanion la %1$lu mesaje</string>
+			<key>one</key>
+			<string>Puneți fanion</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Puneți fanion la %1$lu de mesaje</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT_FOUND%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argumemt is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Siri a găsit %2$@ evenimente</string>
+			<key>one</key>
+			<string>Siri a găsit 1 eveniment</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Siri a găsit %2$@ de evenimente</string>
+		</dict>
+	</dict>
+	<key>MARK_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Mutați în Spam (%1$ld)</string>
+			<key>one</key>
+			<string>Mutați în Spam (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>Mutați în Spam (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>UPDATED_N_MINUTES_AGO_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@</string>
+		<key>Comment</key>
+		<string>Displayed in the toolbar below the message list. The parameter is the number of minutes since the last update.</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Actualizare: acum %1$lu minute</string>
+			<key>one</key>
+			<string>Actualizare: acum %1$lu minut</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Actualizare: acum %1$lu de minute</string>
+		</dict>
+	</dict>
+	<key>FLAGGED_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu semnalizate</string>
+			<key>one</key>
+			<string>%lu semnalizat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu semnalizate</string>
+		</dict>
+	</dict>
+	<key>TRASH_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Mutați %1$lu mesaje în Coș</string>
+			<key>one</key>
+			<string>Mutați %1$lu mesaj în Coș</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Mutați %1$lu de mesaje în Coș</string>
+		</dict>
+	</dict>
+	<key>UNREAD_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu necitite</string>
+			<key>one</key>
+			<string>%lu necitit</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu necitite</string>
+		</dict>
+	</dict>
+	<key>MESSAGE_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%1$lu mesaje</string>
+			<key>one</key>
+			<string>%1$lu mesaj</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu de mesaje</string>
+			<key>zero</key>
+			<string>Niciun mesaj</string>
+		</dict>
+	</dict>
+	<key>DELETE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ștergeți %1$lu mesaje</string>
+			<key>one</key>
+			<string>Ștergeți %1$lu mesaj</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Ștergeți %1$lu de mesaje</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_VIDEOS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Salvați %2$@ clipuri video</string>
+			<key>one</key>
+			<string>Salvați %2$@ clip video</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Salvați %2$@ de clipuri video</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_ATTACHMENTS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Salvați %2$@ fișiere atașate</string>
+			<key>one</key>
+			<string>Salvați %2$@ fișier atașat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Salvați %2$@ de fișiere atașate</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_CONTACT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%2$@ contacte</string>
+			<key>one</key>
+			<string>1 contact</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ de contacte</string>
+		</dict>
+	</dict>
+	<key>MARK_NOT_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Marcați drept non‑spam (%1$ld)</string>
+			<key>one</key>
+			<string>Marcați drept non‑spam (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>Marcați drept non‑spam (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%2$@ evenimente</string>
+			<key>one</key>
+			<string>1 eveniment</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ de evenimente</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

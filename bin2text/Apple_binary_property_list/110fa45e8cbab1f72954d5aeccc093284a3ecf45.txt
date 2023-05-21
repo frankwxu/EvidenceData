@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ and a half inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d és fél hüvelyk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d és fél hüvelyk</string>
+			<key>zero</key>
+			<string>fél hüvelyk</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d centiméter</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d centiméter</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hüvelyk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hüvelyk</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d láb</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d láb</string>
+		</dict>
+	</dict>
+	<key>%@ square centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d négyzetcentiméter</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d négyzetcentiméter</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hüvelyk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hüvelyk</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>egy méter</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f méter</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square feet (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>egy négyzetláb</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f négyzetláb</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>egy centiméter</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f centiméter</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d láb</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d láb</string>
+		</dict>
+	</dict>
+	<key>%@ inches (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>egy hüvelyk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f hüvelyk</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches (precise)</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>egy hüvelyk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f hüvelyk</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d láb</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d láb</string>
+		</dict>
+	</dict>
+	<key>%@ square inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d négyzethüvelyk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d négyzethüvelyk</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>egy négyzetméter</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f négyzetméter</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+</dict>
+</plist>

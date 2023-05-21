@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u more messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u개 이상의 메시지</string>
+			<key>many</key>
+			<string>%u개 이상의 메시지</string>
+			<key>one</key>
+			<string>%u개 이상의 메시지</string>
+			<key>other</key>
+			<string>%u개 이상의 메시지</string>
+			<key>two</key>
+			<string>%u개 이상의 메시지</string>
+			<key>zero</key>
+			<string>%u개 이상의 메시지</string>
+		</dict>
+	</dict>
+	<key>%u more missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_missed_calls@</string>
+		<key>num_missed_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u개 이상의 부재중 전화</string>
+			<key>many</key>
+			<string>%u개 이상의 부재중 전화</string>
+			<key>one</key>
+			<string>%u개 이상의 부재중 전화</string>
+			<key>other</key>
+			<string>%u개 이상의 부재중 전화</string>
+			<key>two</key>
+			<string>%u개 이상의 부재중 전화</string>
+			<key>zero</key>
+			<string>%u개 이상의 부재중 전화</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_likes@</string>
+		<key>num_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u حالات إعجاب</string>
+			<key>many</key>
+			<string>%u حالات إعجاب</string>
+			<key>one</key>
+			<string>أحب</string>
+			<key>other</key>
+			<string>%u حالات إعجاب</string>
+			<key>two</key>
+			<string>%u حالات إعجاب</string>
+			<key>zero</key>
+			<string>%u حالات إعجاب</string>
+		</dict>
+	</dict>
+	<key>%u more likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_more_likes@</string>
+		<key>num_more_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u حالات إعجاب إضافية</string>
+			<key>many</key>
+			<string>%u حالات إعجاب إضافية</string>
+			<key>one</key>
+			<string>%u حالة إعجاب إضافية</string>
+			<key>other</key>
+			<string>%u حالات إعجاب إضافية</string>
+			<key>two</key>
+			<string>%u حالات إعجاب إضافية</string>
+			<key>zero</key>
+			<string>%u حالات إعجاب إضافية</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

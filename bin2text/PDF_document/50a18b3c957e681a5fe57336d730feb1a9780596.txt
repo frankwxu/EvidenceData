@@ -1,0 +1,216 @@
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+Alexis Brignoni
+
+Published on: Mar 31, 2019
+
+Updated on: Apr 03, 2019
+
+DOI: 10.21428/9106d7d3
+
+
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+Synopsis
+
+Forensic question: What
+
+applications were instal ed
+
+on an iOS device?
+
+OS Version: iOS 11, iOS 12
+
+File:
+
+/private/var/instal d/Libra
+
+ry/Logs/MobileInstal ation
+
+/*.log
+
+Tools: Python
+
+Introduction
+
+In the last two blog posts I wrote about ways of obtaining a list of currently installed apps and their corresponding app directories from an iOS file system extraction. My usual method is to query the contents of the applicationState.db file to find the app bundle id and what directory GUID like name corresponds to it. By finding the proper directory one can focus on the data stores it contains for parsing of user generated data when our forensic tools are not aware of them.
+
+On my second post I received great feedback from Sarah Edwards. She pointed me to the contents of the mobile installation logs in iOS.
+
+2
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+I immediately wondered if there was a script that could parse those logs for the data I was looking for.
+
+After asking Sarah Edwards and looking online I didn't find any.
+
+I'll do it.
+
+Method
+
+The link below is for a python script I made that parses the mobile installation logs. It has been tested on iOS 11 and iOS 12.
+
+https://github.com/abrignoni/iOS-Mobile-Installation-Logs-Parser
+
+iOS Mobile Installation Logs Parser
+
+These logs contain a lot of information. Currently the script only extracts the following events: App install successful with date and time.
+
+App container made live with date, time, and path.
+
+App container moved with date, time, and path.
+
+App destroying container with date, time, and path.
+
+Here is a sample screen of how the logs look as taken from the device. The image has been zoomed out which could make it harder to read unless the preview image is clicked.
+
+3
+
+
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+Lots of data.
+
+The script is really simple to use.
+
+1. Have Python 3.6.4 or newer installed.
+
+2. Extract the logs from the /private/var/installd/Library/Logs/MobileInstallation/ directory.
+
+3. Place the script in the same directory as the extracted logs.
+
+4. Execute the script via CMD.
+
+The screen, after done, should look something like this: Run complete. Some stats.
+
+4
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+Script with generated items.
+
+The SQLite database holds the extracted information from the lines of log data. The script queries the database to produce the contents within the two directories.
+
+The Apps_State directory can have two files within it. These are named InstalledApps.txt and UninstalledApps.txt. The contents reflect the name of the text files. Here is a sample image of InstalledApps.txt content:
+
+5
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+List of installed apps.
+
+Having this list handy is really useful since it can be used to compare the currently installed apps within the file system image that might have been missed by our third-party forensic tool of choice.
+
+If one would like more context in regards to when the app was installed and where the app directory is located the Apps_Historical directory has all that information per app.
+
+6
+
+
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+A txt file for every app.
+
+Here is a sample of the historical information regarding an installed app.
+
+Historical events for com.blizzard.social Notice the report has a timestamp for every event. The script puts the most recent events at the top so the current path for the application directory can be at or near the top.
+
+Here is a sample of historical information regarding an uninstalled app.
+
+Historical event for org.videolan.vlc-ios Like the previous report there is a timestamp for every entry and events start with the most recent at the top. These reports are useful if one wants to determine when an app was uninstalled or if a current app was uninstalled and then reinstalled multiple times.
+
+7
+
+
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+Historical events for org.coolstar.electra1131
+
+Notice the multiple 'Destroying', 'Made', and 'Install Successful' entries in the report. Again, the most recent ones are at the top. It also presents when an app was updated. It shows the previous app version number and the most recent version number after update.
+
+As seen above the script's output is responsive to the original requests of installed apps with corresponding app directory paths. It goes further by identifying uninstalled apps and by providing timestamps and historical app event aggregation. Lastly it also keeps track of reboot events with corresponding timestamps.
+
+By looking at the logs there seems to be further areas where the script can be improved. This is my soon to-do list:
+
+Add 'updated bundle entries' for 'container made live' context in the historical reports.
+
+Add 'uninstall requested' and 'uninstalling identifier' in the historical reports.
+
+Link to original blog posts:
+
+https://abrignoni.blogspot.com/2019/01/ios-mobile-installation-logs-parser.html
+
+https://abrignoni.blogspot.com/2018/12/update-on-identifying-installed-and.html
+
+Acknowledgements
+
+I can't thank enough my colleague @i_am_the_gia for testing out the script on her data sets and Sarah
+
+Edwards for making me aware of the logs.
+
+8
+
+DFIR Review
+
+iOS Mobile Instal ation Logs
+
+DFIR Review
+
+This work details how to extract and interpret app installation logs from an iOS file system to determine which applications are currently installed and that were deleted. A comprehensive list of app installation activities, including timestamps, can be very useful in an investigation of a mobile device.
+
+This work provides a Python script and a dataset for testing the script.
+
+Using the test dataset provided by the author, in mobile_instalation.log.0 there were no results for System_State - Validated manually the log and the sql database created and this is correct. The mobile_installation.log.0 file from my personal test data did have entries. Both are correct parsing of the log. Manually reviewed data from provided mobile_instalation.log.1 to results in Apps_Historical, Apps_State, System_State, and the created mib.db for both test data from author and own test data.
+
+Both are correct. This script worked as expected on both the provided test data and data that I created.
+
+Future Work
+
+Installations with errors are not displayed in the database or in any of the text documents, there may be value in including those times in the Apps_Historical txt documents for the bundleID.
+
+Reviewers
+
+Addisu Afework Birhanu (Verified using Author Provided Dataset) Ali Hadi (Methodology Review)
+
+Jessica Hyde (Verified using Author Provided Dataset & Verified using Reviewer Generated Dataset) Anthony Knutson (Methodology Review)
+
+Sungmi Park (Methodology Review)
+
+9
+
+
+
+
+

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ and a half inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d and a half inches</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d and a half inches</string>
+			<key>zero</key>
+			<string>half an inch</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d centimetre</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d centimetres</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d inches</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d foot</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d feet</string>
+		</dict>
+	</dict>
+	<key>%@ square centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d square centimetre</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d square centimetres</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d inches</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>one metre</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f metres</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square feet (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>one square foot</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f square feet</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>one centimetre</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f centimetres</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d foot</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d feet</string>
+		</dict>
+	</dict>
+	<key>%@ inches (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>one inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f inches</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches (precise)</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>one inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f inches</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d foot</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d feet</string>
+		</dict>
+	</dict>
+	<key>%@ square inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d square inch</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d square inches</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>one square metre</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f square metres</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+</dict>
+</plist>

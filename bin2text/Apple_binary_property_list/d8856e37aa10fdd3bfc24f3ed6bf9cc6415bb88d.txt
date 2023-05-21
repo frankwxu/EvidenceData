@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Time to get this arrow pointed in the right direction. Burn at least {{goal_value:energy}} calories a day for %#@num_days@, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re so close to flipping this arrow! Burn {{goal_value:energy}} calories a day for the next %#@num_days@ and you’re there.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Way to be active, {{username}}. Keep moving and burning calories so your arrow stays up!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, you’re doing a great job moving each day. Keep it up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your arrow up! Burn at least {{goal_value:energy}} calories a day for the next %#@num_days@ and you’ll be back on track.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your arrow up, {{username}}! Burn at least {{goal_value:energy}} calories a day for the next %#@num_days@ and you’ll be back on track.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Way to be active! Keep moving so your arrow stays up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>This arrow needs some love. Try to burn at least {{goal_value:energy}} calories a day to turn things around.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To work on this arrow, get started by burning at least {{goal_value:energy}} calories a day. And check back next week for a new goal. If you can stay on track it should take about %#@num_weeks@ to flip your arrow up, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow up! You only have to burn {{goal_value:energy}} calories a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Way to be active, {{username}}. Keep moving and burning calories so your arrow stays up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Get started on this arrow by burning at least {{goal_value:energy}} calories a day this week. You’ll get a new goal each week until you flip your arrow up. It should take about %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Get started on this arrow by burning at least {{goal_value:energy}} KJ a day this week. You’ll get a new goal each week until you flip your arrow up. It should take about %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, you’re doing a great job moving each day. Keep it up!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re doing a great job moving each day. Keep it up!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Way to be active! Keep moving so your arrow stays up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>This arrow needs some love, {{username}}. Try to burn at least {{goal_value:energy}} KJ a day to turn things around.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re doing a great job moving each day. Keep it up!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re so close to flipping this arrow! Burn {{goal_value:energy}} KJ a day for the next %#@num_days@ and you’re there.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, your arrow is up for now but you’re moving less lately. Move more each day to keep your arrow pointed in the right direction.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, your arrow’s up, but your energy burned is down recently. Move a bit more each day. You’ve got this.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Burn at least {{goal_value:energy}} KJ today and you’ll flip this arrow back up! Go for it, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your arrow is down but not for long! Flip it by burning {{goal_value:energy}} calories a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow up! You only have to burn {{goal_value:energy}} KJ a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your Move arrow is down but your calories burned are trending up. Flip your arrow by burning at least {{goal_value:energy}} calories a day for the next 30 days.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Burn at least {{goal_value:energy}} KJ today and you’ll flip this arrow back up! Go for it!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your move arrow! Burn at least {{goal_value:energy}} calories a day for the next 30 days and you’re back on track.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your arrow is down but not for long! Flip it by burning {{goal_value:energy}} KJ a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re so close to flipping this arrow, {{username}}! Burn {{goal_value:energy}} KJ a day for the next %#@num_days@ and you’re there.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your Move arrow is down but your KJ burned are trending up. Flip your arrow by burning at least {{goal_value:energy}} KJ a day for the next 30 days.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To work on this arrow, get started by burning at least {{goal_value:energy}} calories a day. And check back next week for a new goal. If you can stay on track it should take about %#@num_weeks@ to flip your arrow up.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow up, {{username}}! You only have to burn {{goal_value:energy}} KJ a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your move arrow! Burn at least {{goal_value:energy}} KJ a day for the next 30 days and you’re back on track.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Get started on this arrow by burning at least {{goal_value:energy}} calories a day this week. You’ll get a new goal each week until you flip your arrow up. It should take about %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>You’re so close to flipping this arrow, {{username}}! Burn {{goal_value:energy}} calories a day for the next %#@num_days@ and you’re there.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Burn at least {{goal_value:energy}} calories today and you’ll flip this arrow back up! Go for it, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Time to get this arrow pointed in the right direction. Burn at least {{goal_value:energy}} calories a day for %#@num_days@!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your arrow is up for now but you’re moving less lately. Move more each day to keep your arrow pointed in the right direction.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Time to get this arrow pointed in the right direction. Burn at least {{goal_value:energy}} KJ a day for %#@num_days@!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your arrow is down but not for long, {{username}}! Flip it by burning {{goal_value:energy}} KJ a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Burn at least {{goal_value:energy}} calories today and you’ll flip this arrow back up! Go for it!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Time to get this arrow pointed in the right direction. Burn at least {{goal_value:energy}} KJ a day for %#@num_days@, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, your Move arrow is down but your calories burned are trending up. Flip your arrow by burning at least {{goal_value:energy}} calories a day for the next 30 days.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Flip this arrow up, {{username}}! You only have to burn {{goal_value:energy}} calories a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To work on this arrow, get started by burning at least {{goal_value:energy}} KJ a day. And check back next week for a new goal. If you can stay on track it should take about %#@num_weeks@ to flip your arrow up.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To work on this arrow, get started by burning at least {{goal_value:energy}} KJ a day. And check back next week for a new goal. If you can stay on track it should take about %#@num_weeks@ to flip your arrow up, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your arrow up, {{username}}! Burn at least {{goal_value:energy}} KJ a day for the next %#@num_days@ and you’ll be back on track.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, your Move arrow is down but your KJ burned are trending up. Flip your arrow by burning at least {{goal_value:energy}} KJ a day for the next 30 days.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Get started on this arrow by burning at least {{goal_value:energy}} KJ a day this week. You’ll get a new goal each week until you flip your arrow up. It should take about %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your arrow is down but not for long, {{username}}! Flip it by burning {{goal_value:energy}} calories a day for the next %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>This arrow needs some love. Try to burn at least {{goal_value:energy}} KJ a day to turn things around.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>This arrow needs some love, {{username}}. Try to burn at least {{goal_value:energy}} calories a day to turn things around.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your arrow up! Burn at least {{goal_value:energy}} KJ a day for the next %#@num_days@ and you’ll be back on track.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your move arrow, {{username}}! Burn at least {{goal_value:energy}} KJ a day for the next 30 days and you’re back on track.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Your arrow’s up, but your energy burned is down recently. Move a bit more each day. You’ve got this.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Let’s flip your move arrow, {{username}}! Burn at least {{goal_value:energy}} calories a day for the next 30 days and you’re back on track.</string>
+	</dict>
+</dict>
+</plist>

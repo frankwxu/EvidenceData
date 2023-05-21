@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ARCHIVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Αρχειοθέτηση %1$lu μηνύματος</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Αρχειοθέτηση %1$lu μηνυμάτων</string>
+		</dict>
+	</dict>
+	<key>DRAFTS_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu πρόχειρο</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu πρόχειρα</string>
+		</dict>
+	</dict>
+	<key>MESSAGES_SELECTED_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu επιλεγμένο</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu επιλεγμένα</string>
+		</dict>
+		<key>Comment</key>
+		<string>Number of selected messages, for the nav bar in a mailbox.</string>
+	</dict>
+	<key>MARK_EMAIL_UNFLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Αφαίρεση σημαίας</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Αφαίρεση σημαίας από %1$lu μηνύματα</string>
+		</dict>
+	</dict>
+	<key>UNREAD_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu μη αναγνωσμένο μήνυμα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu αδιάβαστα μηνύματα</string>
+			<key>zero</key>
+			<string>0 αδιάβαστα μηνύματα</string>
+		</dict>
+	</dict>
+	<key>MOVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Μετακίνηση μηνύματος…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Μετακίνηση %1$lu μηνυμάτων…</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_UNREAD%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Σήμανση ως μη αναγνωσμένου</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Σήμανση ως μη αναγνωσμένων (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_READ%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Σήμανση ως αναγνωσμένου</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Σήμανση ως αναγνωσμένων (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>NEW_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu νέο</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu νέα</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_IMAGES%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Αποθήκευση %2$@ εικόνας</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Αποθήκευση %2$@ εικόνων</string>
+		</dict>
+	</dict>
+	<key>ITEMS_SELECTED%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 στοιχείο</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ στοιχεία</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_FLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Προσθήκη σημαίας</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Προσθήκη σημαίας σε %1$lu μηνύματα</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT_FOUND%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argumemt is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Το Siri βρήκε 1 γεγονός</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Το Siri βρήκε %2$@ γεγονότα</string>
+		</dict>
+	</dict>
+	<key>MARK_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Μεταφορά στα Ανεπιθύμητα (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>Μεταφορά στα Ανεπιθύμητα (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>UPDATED_N_MINUTES_AGO_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@</string>
+		<key>Comment</key>
+		<string>Displayed in the toolbar below the message list. The parameter is the number of minutes since the last update.</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Ενημερώθηκε %1$lu λ. πριν</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Ενημερώθηκε %1$lu λ. πριν</string>
+		</dict>
+	</dict>
+	<key>FLAGGED_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu με σημαία</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu με σημαία</string>
+		</dict>
+	</dict>
+	<key>TRASH_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Κάδος, %1$lu μήνυμα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Κάδος, %1$lu μηνύματα</string>
+		</dict>
+	</dict>
+	<key>UNREAD_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu αδιάβαστο</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu αδιάβαστα</string>
+		</dict>
+	</dict>
+	<key>MESSAGE_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%1$lu μήνυμα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%1$lu μηνύματα</string>
+			<key>zero</key>
+			<string>Κανένα μήνυμα</string>
+		</dict>
+	</dict>
+	<key>DELETE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Διαγραφή %1$lu μηνύματος</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Διαγραφή %1$lu μηνυμάτων</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_VIDEOS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Αποθήκευση %2$@ βίντεο</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Αποθήκευση %2$@ βίντεο</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_ATTACHMENTS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Αποθήκευση %2$@ συνημμένου</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Αποθήκευση %2$@ συνημμένων</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_CONTACT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 επαφή</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ επαφές</string>
+		</dict>
+	</dict>
+	<key>MARK_NOT_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Σήμανση ως επιθυμητού (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>Σήμανση ως επιθυμητών (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 γεγονός</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%2$@ γεγονότα</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Venmo Mark $30 for baseball tickets</string>
+				<string>Pay dad on Venmo…</string>
+				<string>Send Amanda Hill $1,000 on Venmo for rent</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendPaymentIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Request $20 from Emily using Venmo for dinner</string>
+				<string>Request $5 from Eli for a beer on Venmo</string>
+				<string>Request $300 from Bryan Crampton for Tahoe trip with Venmo</string>
+			</array>
+			<key>IntentName</key>
+			<string>INRequestPaymentIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>What is my Venmo balance?</string>
+				<string>What is my balance in Venmo?</string>
+				<string>How much money do I have in Venmo?</string>
+				<string>How much is in my Venmo account?</string>
+				<string>Do I have money in Venmo?</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSearchForAccountsIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hvis du registrerer {{goal_value:minutes}} treningsminutter i dag, vil denne pilen peke oppover i morgen. Du fikser dette!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen ser bra ut. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker i riktig retning. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker nedover, men det er rett før den snur oppover igjen. Registrer {{goal_value:minutes}} treningsminutter hver dag i de neste %#@num_days@ for å fikse dette.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagene</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen peker nedover, men du registrerer flere treningsminutter i det siste. Registrer minst {{goal_value:minutes}} hver dag i de neste 30 dagene for å snu pilen. Fortsett slik, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>For å snu denne pilen må du ha i snitt minst {{goal_value:minutes}} treningsminutter hver dag i de neste 30 dagene. Du registrerer flere treningsminutter i det siste, så dette klarer du, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Denne pilen peker nedover, men ikke mye. Hvis du registrerer mer enn {{goal_value:minutes}} treningsminutter hver dag i de neste %#@num_days@, vil pilen peke oppover igjen.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagene</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsett å registrere minst{{goal_value:minutes}} treningsminutter hver dag så denne pilen fortsetter å peke oppover. Du er kjempeflink, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen ser bra ut, {{username}}. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen peker nedover, men du registrerer flere treningsminutter i det siste. Registrer minst {{goal_value:minutes}} hver dag i de neste 14 dagene for å snu pilen. Fortsett slik!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kan snu treningspilen på %#@num_days@! Registrer minst {{goal_value:minutes}} treningsminutter hver dag for å få det til.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dager</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker oppover. Sørg for å registrere minst {{goal_value:minutes}} treningsminutter hver dag for å holde den der!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>For å snu denne pilen oppover igjen må du ha i snitt minst {{goal_value:minutes}} treningsminutter hver dag i de neste %#@num_days@. Dette klarer du!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagene</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen ser bra ut, {{username}}. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen peker nedover, men du registrerer flere treningsminutter i det siste. Registrer minst {{goal_value:minutes}} hver dag i de neste 14 dagene for å snu pilen. Fortsett slik, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsett å registrere minst {{goal_value:minutes}} treningsminutter hver dag så denne pilen fortsetter å peke oppover. Du er kjempeflink!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>For å snu denne pilen må du ha i snitt minst {{goal_value:minutes}} treningsminutter hver dag i de neste 14 dagene. Du registrerer flere treningsminutter i det siste, så dette klarer du, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Denne pilen peker nedover, men ikke mye {{username}}. Hvis du registrerer mer enn {{goal_value:minutes}} treningsminutter hver dag i de neste %#@num_days@, vil pilen peke oppover igjen.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagene</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker i riktig retning, {{username}}. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kan snu treningspilen på %#@num_days@, {{username}}! Registrer minst {{goal_value:minutes}} treningsminutter hver dag for å få det til.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dager</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker nedover, men det er rett før den snur oppover igjen, {{username}}! Registrer {{goal_value:minutes}} treningsminutter hver dag i de neste %#@num_days@ for å fikse dette.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagene</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>For å snu denne pilen oppover igjen må du ha i snitt minst {{goal_value:minutes}} treningsminutter hver dag i de neste %#@num_days@. Dette klarer du, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagene</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Prøv å registrere minst {{goal_value:minutes}} treningsminutter hver dag for å komme i gang. Deretter følger du med hver uke for å få et nytt mål. Hvis du når målene dine, snur pilen oppover om omtrent %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d uke</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d uker</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen peker nedover, men du registrerer flere treningsminutter i det siste. Registrer minst {{goal_value:minutes}} hver dag i de neste 30 dagene for å snu pilen. Fortsett slik!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsett å registrere minst {{goal_value:minutes}} treningsminutter hver dag så denne pilen fortsetter å peke oppover. Du er kjempeflink!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker i riktig retning, {{username}}. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker oppover. Sørg for å registrere minst {{goal_value:minutes}} treningsminutter hver dag for å holde den der, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hvis du legger inn en rask gåtur hver dag, går treningsminuttene oppover igjen. Dette klarer du, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen ser bra ut. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Treningspilen peker i riktig retning. Bra jobba.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>For å snu denne pilen må du ha i snitt minst {{goal_value:minutes}} treningsminutter hver dag i de neste 14 dagene. Du registrerer flere treningsminutter i det siste, så dette klarer du!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det er bra når denne pilen peker oppover. Begynn med å ha minst {{goal_value:minutes}} treningsminutter i snitt denne uken. Med jevn fremgang bør det ta omtrent %#@num_weeks@ å snu pilen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d uke</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d uker</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hvis du legger inn en rask gåtur hver dag, går treningsminuttene oppover igjen. Dette klarer du.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen peker oppover, men treningsminuttene er på vei nedover i det siste. Prøv å legge inn en rask gåtur hver dag så pilen fortsetter å peke oppover, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, hvis du registrerer {{goal_value:minutes}} treningsminutter i dag, vil denne pilen peke oppover i morgen. Du fikser dette!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pilen peker oppover, men treningsminuttene er på vei nedover i det siste. Prøv å legge inn en rask gåtur hver dag så pilen fortsetter å peke oppover!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsett å registrere minst {{goal_value:minutes}} treningsminutter hver dag så denne pilen fortsetter å peke oppover. Du er kjempeflink, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>For å snu denne pilen må du ha i snitt minst {{goal_value:minutes}} treningsminutter hver dag i de neste 30 dagene. Du registrerer flere treningsminutter i det siste, så dette klarer du!</string>
+	</dict>
+</dict>
+</plist>

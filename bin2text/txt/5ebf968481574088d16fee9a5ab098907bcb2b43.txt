@@ -1,0 +1,18 @@
+# Ruleset for Yosemite (Vocalizer Expressive)
+# 
+#RLSTAG: RLS_FE.ENU_8.0.7
+
+[header]
+language = enu
+type = phone
+charset = utf-8
+
+[data]
+/\beom\b/ --> "end of message"
+
+# tn=phone type ruleset removes tn=phone markup at the end
+# this rule enables that tn=phone markup can be (re)inserted
+# in the main ruleset
+/^/   -->   "\e<reinsert_tn_phone_tag>"
+
+/(\d{4})\s(\d{4})/   -->   "$1$2"

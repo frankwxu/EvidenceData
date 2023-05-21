@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Zavolejte Jiřímu na Viber</string>
+				<string>Zavolejte Jiřímu přes Viber</string>
+				<string>Použijte Viber a zavolejte Jiřímu</string>
+				<string>Zavolejte na Viberu Jiřímu</string>
+				<string>Zavolejte Jiřímu pomocí hovoru Viber</string>
+				<string>Zavolejte Jiřímu s Viberem</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Pošlete Jiřímu zprávu Viber</string>
+				<string>Pošlete Jiřímu textovou zprávu přes Viber</string>
+				<string>Pošlete zprávu Viber Jiřímu</string>
+				<string>Pošlete Jiřímu zprávu s Viberem</string>
+				<string>Napište Jiřímu na Viberu</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Spusťte videohovor s Jiřím na Viberu</string>
+				<string>Zahajte videohovor s Jiřím přes Viber</string>
+				<string>Zavolejte Jiřímu videohovorem Viber</string>
+				<string>Využijte videohovor Viber a zavolejte Jiřímu</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

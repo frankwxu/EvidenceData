@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COMMENTS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@commentscount@</string>
+		<key>commentscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>kommentar</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>kommentarer</string>
+		</dict>
+	</dict>
+	<key>ADDED_SONGS_TO_PLAYLIST_CONFIRMATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songcount@ lagt til i «%@».</string>
+		<key>songcount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d sang</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d sanger</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du følger nå %@.</string>
+	</dict>
+	<key>SEARCH_RADIO_PROVIDER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fra %@</string>
+	</dict>
+	<key>SEARCH_MOVIES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Filmer</string>
+	</dict>
+	<key>SEARCH_SHARED_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Delte spillelister</string>
+	</dict>
+	<key>SONGS_COUNT_AND_DURATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@, %@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu sang</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu sanger</string>
+		</dict>
+	</dict>
+	<key>ACCOUNT_EDIT_HANDLE_TAKEN_WITH_SUGGESTIONS_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vil du bruke %@ i stedet? Du kan endre dette senere.</string>
+	</dict>
+	<key>SEASON_AND_EPISODE_NUMBERS_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu. sesong</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu. sesong</string>
+			<key>zero</key>
+			<string>Ukjent sesong</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@, %#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu. episode</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu. episode</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_UNLINK_ACCOUNT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hvis du kobler fra %@, vil du ikke lenger kunne finne andre Apple Music-brukere du er forbundet med via %@.</string>
+	</dict>
+	<key>SEARCH_SONG_ARTIST_ALBUM_YEAR_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ – %@</string>
+	</dict>
+	<key>LIKES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@likescount@</string>
+		<key>likescount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>liker</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>liker</string>
+		</dict>
+	</dict>
+	<key>SEARCH_ARTISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Artister</string>
+	</dict>
+	<key>SEARCH_PEOPLE_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Personer</string>
+	</dict>
+	<key>SEARCH_LYRICS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Sangtekster</string>
+	</dict>
+	<key>EPISODES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episodes@</string>
+		<key>episodes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>1 episode</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu episoder</string>
+			<key>zero</key>
+			<string>Ingen episoder</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Legg til sanger i ny spilleliste.</string>
+	</dict>
+	<key>SOCIAL_BLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du har blokkert %@.</string>
+	</dict>
+	<key>SEARCH_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Spillelister</string>
+	</dict>
+	<key>ALBUMS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu album</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu albumer</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@</string>
+	</dict>
+	<key>CONNECT_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Innlegg fra %@ vil bli vist i For deg.</string>
+	</dict>
+	<key>NOW_PLAYING_PLAY_SOURCE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fra %@</string>
+	</dict>
+	<key>ALBUMS_AND_SONGS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu album</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu albumer</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@, %#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu sang</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu sanger</string>
+		</dict>
+	</dict>
+	<key>SEASON_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu. sesong</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu. sesong</string>
+			<key>zero</key>
+			<string>Ukjent sesong</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@</string>
+	</dict>
+	<key>LIKES_COUNT_LONG</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@likescountlong@</string>
+		<key>likescountlong</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>person liker dette.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>personer liker dette.</string>
+		</dict>
+	</dict>
+	<key>SEARCH_TV_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i TV</string>
+	</dict>
+	<key>SOCIAL_UNFOLLOWED_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du følger ikke lenger %@.</string>
+	</dict>
+	<key>SONGS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu sang</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu sanger</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Endret i går</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Endret for %lu d. siden</string>
+			<key>zero</key>
+			<string>Endret i dag</string>
+		</dict>
+	</dict>
+	<key>EPISODE_NUMBER_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu. episode</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu. episode</string>
+			<key>zero</key>
+			<string>Ukjent episode</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS_DAY_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Endret %@</string>
+	</dict>
+	<key>SEARCH_GENRES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Sjangre</string>
+	</dict>
+	<key>UPDATED_TIME_YEARS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@years@</string>
+		<key>years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Endret i fjor</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Endret for %lu år siden</string>
+		</dict>
+	</dict>
+	<key>SEARCH_LYRICS_DISPLAY_TERM</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ «%@»</string>
+	</dict>
+	<key>SOCIAL_REQUESTED_FOLLOW_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ vil følge deg.</string>
+	</dict>
+	<key>UPDATED_TIME_MONTHS</key>
+	<dict>
+		<key>months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Endret forrige måned</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Endret for %lu md. siden</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@months@</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@ lagt til i ny spilleliste.</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu sang</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu sanger</string>
+		</dict>
+	</dict>
+	<key>SEARCH_MUSIC_VIDEOS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Musikkvideoer</string>
+	</dict>
+	<key>CLEAR_UP_NEXT_QUESTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Vil du fortsette avspillingen etter denne sangen, eller vil du fjerne sangen som ligger i køen din? </string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vil du fortsette avspillingen etter denne sangen, eller vil du fjerne de %lu sangene som ligger i køen din?</string>
+			<key>zero</key>
+			<string>Vil du fortsette avspillingen etter denne sangen, eller vil du fjerne de andre sangene som ligger i køen din? </string>
+		</dict>
+	</dict>
+	<key>SOCIAL_UNBLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du blokkerer ikke lenger %@.</string>
+	</dict>
+	<key>SEARCH_SONGS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Sanger</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@ lagt til i «%@».</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu sang</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu sanger</string>
+		</dict>
+	</dict>
+	<key>COMPOSED_BY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Av %@</string>
+	</dict>
+	<key>UPDATED_TIME_WEEKS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@weeks@</string>
+		<key>weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Endret forrige uke</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Endret for %lu u. siden</string>
+		</dict>
+	</dict>
+	<key>CANCEL_DOWNLOADS_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Avbryt %#@downloadsCount@</string>
+		<key>downloadsCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu nedlasting</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu nedlastinger</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Legg til sanger i «%@».</string>
+	</dict>
+	<key>SEARCH_ALBUMS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Albumer</string>
+	</dict>
+	<key>SEARCH_STATIONS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ i Radio</string>
+	</dict>
+	<key>MUSIC_VIDEOS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@musicvideoscount@</string>
+		<key>musicvideoscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu musikkvideo</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu musikkvideoer</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_CONNECT_WITH_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Koble til %@</string>
+	</dict>
+	<key>SEARCH_SONG_ALBUM_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %@</string>
+	</dict>
+</dict>
+</plist>

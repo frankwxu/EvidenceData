@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u mensajes</string>
+			<key>many</key>
+			<string>%u mensajes</string>
+			<key>one</key>
+			<string>Mensaje</string>
+			<key>other</key>
+			<string>%u mensaje/s</string>
+			<key>two</key>
+			<string>%u mensajes</string>
+			<key>zero</key>
+			<string>%u mensajes</string>
+		</dict>
+	</dict>
+	<key>%u missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_calls@</string>
+		<key>num_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u llamadas perdidas</string>
+			<key>many</key>
+			<string>%u llamadas perdidas</string>
+			<key>one</key>
+			<string>Llamada perdida</string>
+			<key>other</key>
+			<string>%u llamada/s perdida/s</string>
+			<key>two</key>
+			<string>%u llamadas perdidas</string>
+			<key>zero</key>
+			<string>%u llamadas perdidas</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

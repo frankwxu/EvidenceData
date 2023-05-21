@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SR</key>
+	<string>"%@" square'inde relay duyuru olarak ayarlandı.</string>
+	<key>chat.reply.no.original.message</key>
+	<string>Mesaj kullanılamıyor.</string>
+	<key>iaa.squareannouncement</key>
+	<string>%@ adlı square'de yeni önemli gönderi ayarlandı.</string>
+	<key>iaa.squareannouncementrelay</key>
+	<string>"%@" square'inde relay duyuru olarak ayarlandı.</string>
+	<key>squar.group.settings.managemembers.request.delete.alert.notall.done</key>
+	<string>İstek(ler) silindi.
+
+(Bazı istekler daha önce başka bir yönetici tarafından ele alındı.)</string>
+	<key>square.access.changephoto</key>
+	<string>Bu OpenChat için profil fotoğrafınızı değiştirin</string>
+	<key>square.access.chat</key>
+	<string>Yeni sohbet oluştur</string>
+	<key>square.access.chat.image</key>
+	<string>Bu sohbetin profil fotoğrafını değiştirin</string>
+	<key>square.access.chatroomtohome</key>
+	<string>SQUARE Ana Sayfasına git</string>
+	<key>square.access.chatroomtonote</key>
+	<string>Notlara bak</string>
+	<key>square.access.cover.image</key>
+	<string>Bu OpenChat'in kapak fotoğrafını değiştirin</string>
+	<key>square.access.create</key>
+	<string>Bir OpenChat oluşturun</string>
+	<key>square.access.hide</key>
+	<string>OpenChat'in açıklamasını gizle</string>
+	<key>square.access.invite</key>
+	<string>Arkadaşları davet et</string>
+	<key>square.access.join</key>
+	<string>OpenChat'e katıl</string>
+	<key>square.access.joinrequest</key>
+	<string>OpenChat'e katılma isteğinde bulun</string>
+	<key>square.access.postoption</key>
+	<string>Diğer not seçeneklerini göster</string>
+	<key>square.access.profile.image</key>
+	<string>Bu OpenChat için profil fotoğrafınızı değiştirin</string>
+	<key>square.access.profile.nickname</key>
+	<string>Bu OpenChat için takma adınızı değiştirin</string>
+	<key>square.access.qrcode</key>
+	<string>OpenChat'in QR kodu</string>
+	<key>square.access.search</key>
+	<string>OpenChat'leri ara</string>
+	<key>square.access.show</key>
+	<string>OpenChat'in açıklamasını göster</string>
+	<key>square.access.square</key>
+	<string>OpenChat</string>
+	<key>square.access.squareoption</key>
+	<string>Diğer OpenChat seçeneklerini göster</string>
+	<key>square.access.timelinetosquare</key>
+	<string>OpenChat'e git</string>
+	<key>square.access.write</key>
+	<string>Not yaz</string>
+	<key>square.answer.guide</key>
+	<string>Bu sohbete katılma talebi göndermek için yukarıdaki soruyu yanıtlamalısınız.</string>
+	<key>square.answer.send.done</key>
+	<string>İstek gönderildi.</string>
+	<key>square.answer.title</key>
+	<string>Soruyu yanıtlayın</string>
+	<key>square.chat.more.leaveroom</key>
+	<string>OpenChat'ten ayrıl</string>
+	<key>square.chat.settings.bg.apply.square.image</key>
+	<string>OpenChat'in fotoğrafını arka plana ekle</string>
+	<key>square.chat.settings.export.title</key>
+	<string>%1 grubunda sohbet et</string>
+	<key>square.chat.system.msg.invite.a.b</key>
+	<string>%1$@, %2$@ kullanıcısını sohbete davet etti.</string>
+	<key>square.chat.system.msg.join.chat</key>
+	<string>%@ sohbete katıldı.</string>
+	<key>square.chat.system.msg.leave.chat</key>
+	<string>%@ sohbetten çıktı.</string>
+	<key>square.chat.text.input.nickname</key>
+	<string>%@</string>
+	<key>square.chathistory.message.unreadmark</key>
+	<string>Okunmayan Mesaj(%@)</string>
+	<key>square.chatlist.alert.deletedchat</key>
+	<string>Bu sohbet mevcut değil. Başka bir sohbete katılmayı deneyin.</string>
+	<key>square.chatlist.alert.max</key>
+	<string>Maksimum üye sayısına ulaşıldığı için bu sohbete katılamazsınız.</string>
+	<key>square.chatlist.delete.desc</key>
+	<string>Bu sohbeti silmek istediğinize emin misiniz?</string>
+	<key>square.chatlist.join.guide</key>
+	<string>Katılmak için bir sohbet seçin. Bu OpenChat'teki tüm alt sohbetlerin listesini görmek için herhangi bir sohbete girin ve sohbet menüsünden Sohbetler'e dokunun.</string>
+	<key>square.chatlist.joined.title</key>
+	<string>Güncel sohbetler %d</string>
+	<key>square.chatlist.joined.zero</key>
+	<string>Henüz hiçbir square sohbetine katılmadınız.</string>
+	<key>square.chatlist.max.member.desc</key>
+	<string>Bu sohbet zaten dolu.</string>
+	<key>square.chatlist.public.join.alert</key>
+	<string>Bu sohbet, ana sohbet listenizde de görünecek.</string>
+	<key>square.chatlist.public.join.btn</key>
+	<string>Katıl</string>
+	<key>square.chatlist.public.max.btn</key>
+	<string>Dolu</string>
+	<key>square.chatlist.public.no.msg</key>
+	<string>Mesaj yok.</string>
+	<key>square.chatlist.public.title</key>
+	<string>Kullanılabilir sohbetler %d</string>
+	<key>square.chatlist.public.zero</key>
+	<string>Mevcut sohbet yok.</string>
+	<key>square.chatlist.square.button</key>
+	<string>OpenChat</string>
+	<key>square.chatlist.square.button.description</key>
+	<string>Topluluklara katılın ve ilgi alanlarınızı paylaşan kişilerle tanışın.</string>
+	<key>square.chatlist.title</key>
+	<string>Sohbetler</string>
+	<key>square.chatroom.alert.open.url</key>
+	<string>Bu bağlantı güvenli olmayabilir.
+Açmak istediğinizden emin misiniz?</string>
+	<key>square.chatroom.block.inputarea.deletedchat</key>
+	<string>Sohbet silindi</string>
+	<key>square.chatroom.block.inputarea.deletedgroup</key>
+	<string>OpenChat silindi</string>
+	<key>square.chatroom.block.inputarea.kickoutgroup</key>
+	<string>OpenChat'ten çıkarıldı</string>
+	<key>square.chatroom.button.bots</key>
+	<string>Botlar</string>
+	<key>square.chatroom.chatlilst.guide.des</key>
+	<string>Bu OpenChat'i ve varsa alt sohbetlerini görebilir ve bunlara katılabilirsiniz.</string>
+	<key>square.chatroom.chatlist.title</key>
+	<string>Sohbetler</string>
+	<key>square.chatroom.confirm.desc.kickout</key>
+	<string>Bu üye OpenChat'ten engellenecek. Devam edilsin mi?</string>
+	<key>square.chatroom.create.image</key>
+	<string>Fotoğraf seç</string>
+	<key>square.chatroom.default.announce.content</key>
+	<string>"%@" sohbetine hoş geldiniz!</string>
+	<key>square.chatroom.deletefromall.alert</key>
+	<string>Seçilen mesajlar tüm üyelerden silinecek. Devam edilsin mi?</string>
+	<key>square.chatroom.desc.botadded</key>
+	<string>%@, %@ adlı botu ekledi.</string>
+	<key>square.chatroom.desc.botremoved</key>
+	<string>%@, %@ adlı botu kaldırdı.</string>
+	<key>square.chatroom.error.alert.deletedchatroom</key>
+	<string>Bu sohbet mevcut değil. Başka bir sohbete katılmayı deneyin.</string>
+	<key>square.chatroom.input.deletedgroup</key>
+	<string>Silinmiş OpenChat</string>
+	<key>square.chatroom.input.join.btn</key>
+	<string>"%@" OpenChat'ine katıl</string>
+	<key>square.chatroom.invite.layer.des</key>
+	<string>Bu OpenChat'i paylaşmak istediğiniz arkadaşları davet edin.</string>
+	<key>square.chatroom.layer.upperloading</key>
+	<string>Mesajlar yükleniyor...</string>
+	<key>square.chatroom.longpress.deleteformall</key>
+	<string>Sil</string>
+	<key>square.chatroom.longpress.deletefromall.title</key>
+	<string>Sohbetten sil</string>
+	<key>square.chatroom.longpress.deletefromall.toast</key>
+	<string>En fazla 50 mesaj seçebilirsiniz.</string>
+	<key>square.chatroom.longpress.kickout</key>
+	<string>Kaldır</string>
+	<key>square.chatroom.longpress.squarepost</key>
+	<string>Gönderi</string>
+	<key>square.chatroom.memberlist.guest</key>
+	<string>Konuklar</string>
+	<key>square.chatroom.setting.deletechat</key>
+	<string>Alt sohbeti sil</string>
+	<key>square.chatroom.setting.deletechat.description</key>
+	<string>Alt sohbet silindiğinde hiçbir üye tarafından kullanılamaz. Yine de devam edilsin mi?</string>
+	<key>square.chatroom.settings.change.title</key>
+	<string>Sohbet adı</string>
+	<key>square.chatroom.settings.leave.no.message</key>
+	<string>Sessiz çıkış</string>
+	<key>square.chatroom.system.alert.notfriend</key>
+	<string>"%1$@" square’inden %2$@ adlı kişiyi arkadaş olarak eklemediniz.
+Lütfen bu kişiyle mesajlaşırken dikkatli olun.</string>
+	<key>square.chatroom.system.message.change.bg</key>
+	<string>Bir yönetici OpenChat'in fotoğrafını değiştirdi.</string>
+	<key>square.chatroom.system.message.change.maxparticipants</key>
+	<string>%1$@, sohbet için maksimum katılımcı sayısını %2$@ olarak ayarladı.</string>
+	<key>square.chatroom.system.message.change.name</key>
+	<string>%1$@, sohbetin adını “%2$@” olarak değiştirdi.</string>
+	<key>square.chatroom.system.message.change.picture</key>
+	<string>%@ sohbetin profil fotoğrafını değiştirdi.</string>
+	<key>square.chatroom.system.message.kickout</key>
+	<string>%@, OpenChat'ten engelllendi.</string>
+	<key>square.chatroom.system.msg.alert.private</key>
+	<string>Dikkat! "%@" square’i için özel bir sohbete giriyorsunuz.</string>
+	<key>square.chatroom.system.msg.alert.public</key>
+	<string>Dikkat! "%@" OpenChat'indesiniz.</string>
+	<key>square.chatroom.system.msg.guide.loading</key>
+	<string>Her kaydırdığınızda önceki mesajlar yüklenir.</string>
+	<key>square.chatroom.system.msg.guide.report</key>
+	<string>Şikayet etmek için mesajlara dokunun ve basılı tutun (fotoğraflar, videolar ve bağlantılar dahil).</string>
+	<key>square.chatroom.system.msg.tooltip.private</key>
+	<string>Dikkat! "%@" square’i için özel bir sohbete giriyorsunuz.</string>
+	<key>square.chatroom.system.msg.tooltip.public</key>
+	<string>Dikkat! "%@" OpenChat'indesiniz.</string>
+	<key>square.chatroom.systemmsg.deletedchat</key>
+	<string>Bu sohbet silindi.</string>
+	<key>square.chatroom.systemmsg.deletedgroup</key>
+	<string>OpenChat silindi.</string>
+	<key>square.chatroom.systemmsg.emptycommunity</key>
+	<string>Kullanılamayan OpenChat</string>
+	<key>square.chatroom.systemmsg.emptyroom</key>
+	<string>Kullanılamayan sohbet</string>
+	<key>square.chatroom.systemmsg.kickout</key>
+	<string>Bir yönetici tarafından bu sohbetten çıkarıldınız.</string>
+	<key>square.chatroom.vmenu.chatlist</key>
+	<string>Sohbetler</string>
+	<key>square.chatroom.vmenu.leave.alert.outmsg.option</key>
+	<string>Ayrıldığınızı sohbete bildirin.</string>
+	<key>square.clear</key>
+	<string>Temizle</string>
+	<key>square.coadmin.alert</key>
+	<string>Yardımcı yönetici olarak ayarlansın mı?</string>
+	<key>square.common.send</key>
+	<string>Gönder</string>
+	<key>square.common.share</key>
+	<string>Paylaş</string>
+	<key>square.community.home.alert.invited.chat</key>
+	<string>Sohbet davetini kabul etmek ve hemen katılmak istiyor musunuz?</string>
+	<key>square.community.home.chat.button.start</key>
+	<string>Başlat</string>
+	<key>square.community.home.invite.button</key>
+	<string>Davet et</string>
+	<key>square.community.home.msg.chat.onlymember</key>
+	<string>Square’e katıldıktan sonra sohbetlerde yer alabilirsiniz. Şimdi katılmak ister misiniz?</string>
+	<key>square.community.home.msg.onlymember</key>
+	<string>Katılma isteğiniz onaylandığında square’e katılabilirsiniz.</string>
+	<key>square.cover.chat.btn</key>
+	<string>Sohbet</string>
+	<key>square.cover.post.btn</key>
+	<string>Notlar</string>
+	<key>square.create.category</key>
+	<string>Kategori</string>
+	<key>square.create.category.guide</key>
+	<string>OpenChat'iniz seçilen kategoride gösterilecek.</string>
+	<key>square.create.chat.button</key>
+	<string>Sohbet</string>
+	<key>square.create.chat.header</key>
+	<string>Oluştur</string>
+	<key>square.create.default.category</key>
+	<string>Seçilmedi (hiçbir kategoride gösterilmiyor)</string>
+	<key>square.create.description</key>
+	<string>Açıklama</string>
+	<key>square.create.description.desc</key>
+	<string>OpenChat'i açıklayın</string>
+	<key>square.create.description.input</key>
+	<string>Açıklama</string>
+	<key>square.create.description2</key>
+	<string>#hashtag kullanarak anahtar kelimeler girin</string>
+	<key>square.create.error.no.name</key>
+	<string>Lütfen OpenChat'in adını girin.</string>
+	<key>square.create.error.popup.input.description.info</key>
+	<string>Lütfen bir OpenChat açıklaması girin.</string>
+	<key>square.create.error.popup.input.info</key>
+	<string>Lütfen gerekli tüm bilgileri girin.</string>
+	<key>square.create.group.button</key>
+	<string>Grup</string>
+	<key>square.create.groupname</key>
+	<string>OpenChat adı</string>
+	<key>square.create.groupname.desc</key>
+	<string>Profil fotoğrafı aynı zamanda duvar kağıdı olarak ayarlanacak.</string>
+	<key>square.create.image</key>
+	<string>Fotoğraf seç</string>
+	<key>square.create.openchat.button</key>
+	<string>OpenChat</string>
+	<key>square.create.over.text.num.alert</key>
+	<string>Uzunluk sınırına ulaşıldı.</string>
+	<key>square.create.search</key>
+	<string>Aramaya izin ver</string>
+	<key>square.create.search.desc</key>
+	<string>Diğer kişiler, adına veya açıklamasına göre bu OpenChat için arama yapabilirler.</string>
+	<key>square.create.setting.desc</key>
+	<string>Diğer kişiler OpenChat'iniz için arama yapabilecek.</string>
+	<key>square.create.sgroup.approval.desc</key>
+	<string>Square’e katılmak için yönetici onayı gereklidir.</string>
+	<key>square.create.sgroup.closedtype</key>
+	<string>Katılma onayı gerekli</string>
+	<key>square.create.sgroup.opentype</key>
+	<string>Hemen katıl</string>
+	<key>square.create.subchat.guide.des</key>
+	<string>OpenChat'in gizlilik ayarları ve yönetici izinleri tüm alt sohbetlere uygulanır.</string>
+	<key>square.create.subchat.title</key>
+	<string>Alt sohbet oluştur</string>
+	<key>square.create.title</key>
+	<string>OpenChat oluştur</string>
+	<key>square.create.welcome</key>
+	<string>Hoş geldiniz mesajı</string>
+	<key>square.createchat.error.no.auth.public</key>
+	<string>Yönetici, alt sohbet oluşturma seçeneğini devre dışı bıraktı.</string>
+	<key>square.createchat.inputtitle</key>
+	<string>Alt sohbet adını girin</string>
+	<key>square.createchat.title</key>
+	<string>Sohbet oluştur</string>
+	<key>square.createchat.type.maximum.option</key>
+	<string>Maks. katılımcı</string>
+	<key>square.createchat.type.maximum.option.desc</key>
+	<string>Sohbete katılabilecek maksimum üye sayısını ayarlayın.</string>
+	<key>square.createchat.type.private</key>
+	<string>Özel</string>
+	<key>square.createchat.type.private.desc</key>
+	<string>Bu sohbete yalnızca davet edilen üyeler katılabilir.</string>
+	<key>square.createchat.type.public</key>
+	<string>Genel</string>
+	<key>square.createchat.type.public.desc</key>
+	<string>Bu sohbete herkes katılabilir.</string>
+	<key>square.createchat.type.public.option</key>
+	<string>Tüm üyelere açık</string>
+	<key>square.default.cover.title</key>
+	<string>Kapak fotoğrafı</string>
+	<key>square.default.name.title</key>
+	<string>OpenChat adı</string>
+	<key>square.error.cannot.forward.contact</key>
+	<string>Square sohbetlerine kişi bilgisi gönderemezsiniz.</string>
+	<key>square.error.deletedcontents</key>
+	<string>Bu içerik zaten silindi.</string>
+	<key>square.error.fail.upload.profile.image</key>
+	<string>Profiliniz düzenlenemedi.</string>
+	<key>square.error.loadfail</key>
+	<string>Bir geçici hata nedeniyle isteğiniz işleme koyulamadı. Lütfen tekrar deneyin.</string>
+	<key>square.error.noti.kickout</key>
+	<string>OpenChat'ten engelllendiniz.</string>
+	<key>square.error.popup.cannot.invite</key>
+	<string>Square yöneticisi bu özelliği devre dışı bıraktı.</string>
+	<key>square.error.popup.cannot.join</key>
+	<string>Şu anda bu square’e katılınamıyor. Daha sonra tekrar deneyin.</string>
+	<key>square.error.popup.deletedgroup</key>
+	<string>Bu OpenChat yönetici tarafından silindi.</string>
+	<key>square.error.popup.network</key>
+	<string>Bağlanılamıyor. 
+Lütfen bağlantınızı kontrol edin ve tekrar deneyin.</string>
+	<key>square.error.popup.noauth</key>
+	<string>Bu bölüme erişim izniniz yok. 
+"Square ayarları"na yönlendirileceksiniz.</string>
+	<key>square.error.popup.noauth.alert</key>
+	<string>Bu bölüme erişim izniniz yok.</string>
+	<key>square.error.popup.usingbyotheruser</key>
+	<string>Bu ayar şu anda başka bir kullanıcı tarafından düzenleniyor.
+Lütfen daha sonra tekrar deneyin.</string>
+	<key>square.filtering.keyword.error.alert</key>
+	<string></string>
+	<key>square.friendslist.join.requests</key>
+	<string>Katılma isteklerini yönet</string>
+	<key>square.friendstab.newrequest</key>
+	<string>Yeni katılma istekleri</string>
+	<key>square.friendstab.request.count</key>
+	<string>Katılma istekleri</string>
+	<key>square.group.create.change.image</key>
+	<string>Fotoğrafı değiştir</string>
+	<key>square.group.name</key>
+	<string>OpenChat</string>
+	<key>square.group.settings.change.groupname</key>
+	<string>OpenChat adı</string>
+	<key>square.group.settings.change.myname</key>
+	<string>Görünen ad</string>
+	<key>square.group.settings.delete.alert</key>
+	<string>Bir OpenChat silindiğinde sohbet geçmişi dahil tüm OpenChat verileri silinir. Bu OpenChat'i silmek istediğinizden emin misiniz?</string>
+	<key>square.group.settings.editmember.kickout</key>
+	<string>Üye kaldır</string>
+	<key>square.group.settings.editmember.kickout.alert.done</key>
+	<string>Üye kaldırıldı</string>
+	<key>square.group.settings.group.profile</key>
+	<string>OpenChat profilini düzenle</string>
+	<key>square.group.settings.groupset</key>
+	<string>OpenChat ayarları</string>
+	<key>square.group.settings.leave</key>
+	<string>OpenChat'ten ayrıl</string>
+	<key>square.group.settings.leave.alert</key>
+	<string>Bir OpenChat'ten çıktığınızda, sohbet geçmişiniz dahil OpenChat ile ilgili tüm veriler silinir. Bu OpenChat'ten çıkmak istiyor musunuz?</string>
+	<key>square.group.settings.leave.error.alert.admin</key>
+	<string>Lütfen OpenChat'ten ayrılmadan önce yönetici izinlerinizi başka bir üyeye devredin.</string>
+	<key>square.group.settings.managegroup</key>
+	<string>OpenChat'i yönet</string>
+	<key>square.group.settings.managegroup.allowtojoin</key>
+	<string>Onay gerekli</string>
+	<key>square.group.settings.managegroup.allowtojoin.desc</key>
+	<string>Square’e katılmak için yönetici onayı gereklidir.</string>
+	<key>square.group.settings.managegroup.allowtosearch</key>
+	<string>Aramada OpenChat'i göster</string>
+	<key>square.group.settings.managegroup.allowtosearch.desc</key>
+	<string>Diğer kişiler, anahtar kelimeye göre bu OpenChat için arama yapabilir.</string>
+	<key>square.group.settings.managegroup.autotag</key>
+	<string>Etiketleri otomatik öner</string>
+	<key>square.group.settings.managegroup.autotag.decs</key>
+	<string>Gönderi yazarken etiketler otomatik olarak önerilir.</string>
+	<key>square.group.settings.managegroup.deletegroup</key>
+	<string>OpenChat'i sil</string>
+	<key>square.group.settings.managegroup.invite</key>
+	<string>Yeni üye davet et</string>
+	<key>square.group.settings.managegroup.invite.desc</key>
+	<string>Devre dışı bırakıldığında, başka üyeler davet edilemez ve daha önce paylaşılan bağlantılar ve QR kodları çalışmaz.</string>
+	<key>square.group.settings.managegroup.updateurl</key>
+	<string>Davet bağlantısını güncelle</string>
+	<key>square.group.settings.managegroup.updateurl.desc</key>
+	<string>Güncelledikten sonra mevcut davet bağlantısını kullanamazsınız. 
+Devam edilsin mi?</string>
+	<key>square.group.settings.managemember</key>
+	<string>Üyeleri yönet</string>
+	<key>square.group.settings.managemembers.alert.cannot.select</key>
+	<string>En fazla %d kişi seçebilirsiniz.</string>
+	<key>square.group.settings.managemembers.allowrejoin</key>
+	<string>Engeli kaldır</string>
+	<key>square.group.settings.managemembers.blocktojoin</key>
+	<string>Yasaklanan üyeler</string>
+	<key>square.group.settings.managemembers.blocktojoin.alert</key>
+	<string>Bu kullanıcının engelini kaldırırsanız OpenChat'e tekrar katılabilir. Devam edilsin mi?</string>
+	<key>square.group.settings.managemembers.manageadmin</key>
+	<string>Yöneticileri yönet</string>
+	<key>square.group.settings.managemembers.manageadmin.added</key>
+	<string>Eklendi.</string>
+	<key>square.group.settings.managemembers.manageadmin.alert.deletecoadmin</key>
+	<string>Bu üye için yönetici yardımcısı izinleri iptal edilsin mi?</string>
+	<key>square.group.settings.managemembers.manageadmin.coadmin</key>
+	<string>Yönetici yardımcıları</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin</key>
+	<string>Yönetici izinlerini devret</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin.alert</key>
+	<string>Yönetici izinleri bu üyeye devredilsin mi? 
+Bu durumda otomatik olarak yönetici yardımcısı olursunuz.</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin.desc</key>
+	<string>Square’i birlikte yönetmek istediğiniz üyelere yönetici yardımcısı izinleri verin. 
+Yönetici yardımcısı rollerini “İzinleri yönet" bölümünden ayarlayabilirsiniz.</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin.description</key>
+	<string>Yönetici izinlerinizi bir yönetici yardımcısına aktarırsanız otomatik olarak yönetici yardımcısı olursunuz.</string>
+	<key>square.group.settings.managemembers.manageadmin.makecoadmin</key>
+	<string>Yönetici yardımcısı i̇zinleri ver</string>
+	<key>square.group.settings.managemembers.manageadmin.makecoadmin.desc</key>
+	<string>OpenChat'i birlikte yönetmek istediğiniz üyelere yardımcı yönetici izinleri verin. 
+Yardımcı yönetici rollerini "İzinleri yönet" bölümünden ayarlayabilirsiniz.</string>
+	<key>square.group.settings.managemembers.manageadmin.makecoadmin.no.member</key>
+	<string>Mevcut üye yok.</string>
+	<key>square.group.settings.managemembers.manageadmin.no.coadmin</key>
+	<string>Henüz hiç yönetici yardımcısı eklemediniz.</string>
+	<key>square.group.settings.managemembers.manageadmin.select</key>
+	<string>Seç</string>
+	<key>square.group.settings.managemembers.manageauth</key>
+	<string>İzinleri yönet</string>
+	<key>square.group.settings.managemembers.manageauth.acceptrequest</key>
+	<string>Katılma isteklerini onayla</string>
+	<key>square.group.settings.managemembers.manageauth.admincoadmin</key>
+	<string>Yönetici ve yönetici yardımcıları</string>
+	<key>square.group.settings.managemembers.manageauth.adminonly</key>
+	<string>Yönetici</string>
+	<key>square.group.settings.managemembers.manageauth.all</key>
+	<string>Tüm üyeler</string>
+	<key>square.group.settings.managemembers.manageauth.createpost</key>
+	<string>Gönderi yaz</string>
+	<key>square.group.settings.managemembers.manageauth.createpublicchat</key>
+	<string>Alt sohbet oluştur</string>
+	<key>square.group.settings.managemembers.manageauth.deletecontents</key>
+	<string>Sohbet ve Gönderileri Sil</string>
+	<key>square.group.settings.managemembers.manageauth.invitemembers</key>
+	<string>Üye davet et</string>
+	<key>square.group.settings.managemembers.manageauth.kickout</key>
+	<string>Üye kaldır</string>
+	<key>square.group.settings.managemembers.manageauth.maxparticipants</key>
+	<string>Maks. üyeyi değiştir</string>
+	<key>square.group.settings.managemembers.managepost</key>
+	<string>Not yazma</string>
+	<key>square.group.settings.managemembers.request</key>
+	<string>Katılma istekleri</string>
+	<key>square.group.settings.managemembers.request.accept</key>
+	<string>Onayla</string>
+	<key>square.group.settings.managemembers.request.accept.alert.done</key>
+	<string>İstek onaylandı.</string>
+	<key>square.group.settings.managemembers.request.accept.alert.notall.done</key>
+	<string>İstek(ler) onaylandı. Lütfen bazı isteklerin yönetici veya yardımcı yönetici tarafından zaten işleme alınmış ya da sohbetin kapasitesi doluysa reddedilmiş olabileceğini unutmayın.</string>
+	<key>square.group.settings.managemembers.request.acceptall</key>
+	<string>Tümünü onayla</string>
+	<key>square.group.settings.managemembers.request.acceptall.alert</key>
+	<string>Tüm katılma istekleri onaylansın mı?</string>
+	<key>square.group.settings.managemembers.request.delete.alert</key>
+	<string>Bu katılma isteği silinsin mi?</string>
+	<key>square.group.settings.managemembers.request.delete.alert.done</key>
+	<string>İstek silindi.</string>
+	<key>square.group.settings.managemembers.request.delete.alert.notall.done</key>
+	<string>İstek(ler) silindi.
+(Bazı istekler daha önce başka bir yönetici tarafından ele alındı.)</string>
+	<key>square.group.settings.managemembers.request.noti.tooltip</key>
+	<string>Birisi katılma isteği gönderdiğinde bildirim alıp almayacağınızı seçin.</string>
+	<key>square.group.settings.managemembers.request.select100</key>
+	<string>En son %d seç</string>
+	<key>square.group.settings.managemembers.request.selectall</key>
+	<string>Tümünü seç</string>
+	<key>square.group.settings.managemembers.request.zero</key>
+	<string>Katılma isteği yok.</string>
+	<key>square.group.settings.memberlist</key>
+	<string>Üyeleri görüntüle veya davet et</string>
+	<key>square.group.settings.myprofile.title</key>
+	<string>Profilim</string>
+	<key>square.group.settings.noti.post</key>
+	<string>Gönderi bildirimleri</string>
+	<key>square.group.settings.noti.post.dec</key>
+	<string>Gönderi bildirimleri alabilirsiniz.</string>
+	<key>square.group.settings.policy</key>
+	<string>OpenChat Kullanım Koşulları ve Şartları</string>
+	<key>square.group.settings.recieve.chat</key>
+	<string>Sohbet davetleri al</string>
+	<key>square.group.settings.recieve.friendsrequest</key>
+	<string>Arkadaşlık istekleri al</string>
+	<key>square.group.settings.report</key>
+	<string>OpenChat'i şikayet et</string>
+	<key>square.group.settings.reportpage.desc</key>
+	<string>Bu içeriği neden şikayet ettiğinizi seçin.</string>
+	<key>square.group.settings.reportpage.reason1</key>
+	<string>Reklam</string>
+	<key>square.group.settings.reportpage.reason2</key>
+	<string>Cinsel taciz</string>
+	<key>square.group.settings.reportpage.reason3</key>
+	<string>Taciz</string>
+	<key>square.group.settings.reportpage.reason4</key>
+	<string>Diğer</string>
+	<key>square.group.settings.reportpage.reason5</key>
+	<string>Konu dışı içerik</string>
+	<key>square.group.settings.reportpage.report.btn</key>
+	<string>Şikayet et</string>
+	<key>square.group.settings.subscription.mytimeline</key>
+	<string>Square gönderilerini Timeline’da göster</string>
+	<key>square.group.settings.subscription.mytimeline.desc</key>
+	<string>Timeline’da square gönderilerini görebilirsiniz.</string>
+	<key>square.grouppopup.alert.alreadyjoin</key>
+	<string>Bu OpenChat'e zaten üyesiniz. Ekranı kapatıp tekrar girmeyi deneyin.</string>
+	<key>square.grouppopup.alert.blocked</key>
+	<string>Bu OpenChat'e katılamazsınız. Lütfen daha sonra tekrar deneyin.</string>
+	<key>square.grouppopup.alert.join.ing</key>
+	<string>Yönetici onayı bekleniyor.
+Yönetici isteğinizi onayladığında square’e ekleneceksiniz.</string>
+	<key>square.grouppopup.alert.requestdone</key>
+	<string>Katılma isteği gönderdiniz. Yönetici isteğinizi onayladığında square’e ekleneceksiniz.</string>
+	<key>square.grouppopup.button.join.ing</key>
+	<string>Onay bekleniyor...</string>
+	<key>square.grouppopup.invite.tooltip</key>
+	<string>LINE üzerinden ya da davet bağlantısı veya QR kodu paylaşarak arkadaşlarınızı davet edin.</string>
+	<key>square.grouppopup.invitefriend</key>
+	<string>Arkadaşları davet et</string>
+	<key>square.grouppopup.qrcode</key>
+	<string>QR kodu gönder</string>
+	<key>square.grouppopup.qrcode.desc</key>
+	<string>Birisine QR kodunu gösterin veya gönderiyle paylaşın.</string>
+	<key>square.grouppopup.qrcode.save</key>
+	<string>QR kod kaydt</string>
+	<key>square.grouppopup.qrcode.saved</key>
+	<string>QR kodu kaydedildi.</string>
+	<key>square.grouppopup.sendrequest</key>
+	<string>Katılma i̇steği</string>
+	<key>square.grouppopup.url</key>
+	<string>URL gönder</string>
+	<key>square.grouppopup.url.app</key>
+	<string>Başka uygulamayla paylaş</string>
+	<key>square.grouppopup.url.desc</key>
+	<string>Birisine davet bağlantısı gönderin veya gönderiyle paylaşın.</string>
+	<key>square.grouppopup.url.line</key>
+	<string>LINE’da Paylaş</string>
+	<key>square.home.addfavorite</key>
+	<string>Favorilere Ekle</string>
+	<key>square.home.cancelfavorite</key>
+	<string>Favorilerden Kaldır</string>
+	<key>square.home.chat.section.invited</key>
+	<string>Davet edilen sohbetler</string>
+	<key>square.home.favorite.tooltip</key>
+	<string>Bu düğmeye dokunursanız OpenChat favoriler listenize eklenir.</string>
+	<key>square.home.invite.copy.link</key>
+	<string>Bğln kopyala</string>
+	<key>square.home.invite.save.qr</key>
+	<string>QR kod kaydt</string>
+	<key>square.home.invite.share.link</key>
+	<string>Bğlnt paylaş</string>
+	<key>square.home.invite.share.qr</key>
+	<string>QR kod paylş</string>
+	<key>square.home.menu.photo</key>
+	<string>Fotoğraf</string>
+	<key>square.home.menu.relay</key>
+	<string>Relay</string>
+	<key>square.home.menu.write</key>
+	<string>Yaz</string>
+	<key>square.home.nickname</key>
+	<string>%@</string>
+	<key>square.home.post.write.permission</key>
+	<string>Kimler gönderi yazabilir</string>
+	<key>square.home.setting</key>
+	<string>Ayarlar</string>
+	<key>square.home.tab.chat</key>
+	<string>Sohbetler</string>
+	<key>square.home.tab.post</key>
+	<string>Gönderiler</string>
+	<key>square.home.toast.addfavorite</key>
+	<string>Favorilere eklendi.</string>
+	<key>square.home.toast.cancelfavorite</key>
+	<string>Favorilerden kaldırıldı.</string>
+	<key>square.hometab.desc.createopenchat</key>
+	<string>OpenChat açıp yeni arkadaşlarla tanışın.</string>
+	<key>square.invite.friend</key>
+	<string>Arkadaşları davet et</string>
+	<key>square.invite.urlscheme.chatroom.chatname</key>
+	<string>"%@" sohbetine davet et</string>
+	<key>square.invitemember.confirm.donotshowagain</key>
+	<string>Bir daha gösterme</string>
+	<key>square.invitemember.confirm.invite</key>
+	<string>Davet edilen kullanıcılar önceki mesajları görebilirler.</string>
+	<key>square.invitemember.desc</key>
+	<string>Yalnızca square üyelerini sohbete davet edebilirsiniz. Sohbet etmek için öncelikle arkadaşlarınızı square’e davet edin.</string>
+	<key>square.invitemember.desc.urlscheme.chatroom</key>
+	<string>Henüz square’e katılmamış kullanıcıları davet etmek için aşağıdaki "Sohbete davet et" düğmesine dokunun.</string>
+	<key>square.invitemember.invitetogroup</key>
+	<string>OpenChat'e davet et</string>
+	<key>square.invitemember.invitetogroup.urlscheme.chatroom</key>
+	<string>Sohbete davet et</string>
+	<key>square.invitemember.memberlist.title</key>
+	<string>"%@" üyeleri %d</string>
+	<key>square.invitemember.title</key>
+	<string>Davet edilecekleri seç</string>
+	<key>square.join.precaution</key>
+	<string>"%@" adlı OpenChat'e hoş geldiniz! Lütfen OpenChat'in hizmet politikasını ihlal eden mesajlar göndermekten kaçının, aksi halde kullanımınız sınırlanabilir.</string>
+	<key>square.join.question.guide</key>
+	<string>5-50 karakter girin</string>
+	<key>square.joincode.error</key>
+	<string>Yanlış kod. Lütfen tekrar deneyin.</string>
+	<key>square.joincode.guide</key>
+	<string>Yönetici tarafından belirlenen kodu girerek sohbete katılın.</string>
+	<key>square.joincode.guide.description</key>
+	<string>OpenChat'e katılmak için gereken kodu girin.</string>
+	<key>square.joincode.input.guide</key>
+	<string>Kodu girin</string>
+	<key>square.joincode.title</key>
+	<string>Sohbet kodunu girin</string>
+	<key>square.joinscreen.placeholder.enteranswerhere</key>
+	<string></string>
+	<key>square.kickout.alert.done</key>
+	<string>Bu üye OpenChat'ten engellendi. OpenChat ayarlarında "Üyeleri yönet" &gt; "Engellenen üyeler" bölümüne giderek tekrar ekleyebilirsiniz.</string>
+	<key>square.kickout.blockoption</key>
+	<string>OpenChat'te yasakla</string>
+	<key>square.kickout.error.alert.admin</key>
+	<string>Yöneticiyi veya yönetici yardımcısını engelleyemezsiniz.</string>
+	<key>square.kickout.reason1</key>
+	<string>Reklam veya spam</string>
+	<key>square.kickout.reason2</key>
+	<string>Zararlı veya müstehcen ifade</string>
+	<key>square.kickout.reason3</key>
+	<string>Diğer kural i̇hlali</string>
+	<key>square.main.create</key>
+	<string>OpenChat oluştur</string>
+	<key>square.main.create.block.alert</key>
+	<string>Beta testi süresince bir square oluşturamazsınız.</string>
+	<key>square.main.mylist</key>
+	<string>Benim listem</string>
+	<key>square.main.mylist.sortbyname</key>
+	<string>Ada göre</string>
+	<key>square.main.mylist.sortbyupdate</key>
+	<string>Son güncelleme</string>
+	<key>square.main.mylist.sortbyvisit</key>
+	<string>Son ziyaret edilme</string>
+	<key>square.main.mylist.viewall</key>
+	<string>Tümüne bak</string>
+	<key>square.main.mylist.zero</key>
+	<string>İlgi alanlarınızı paylaşan yeni kişilerle sohbet etmek için bir square’e katılın veya kendi square’inizi oluşturun!</string>
+	<key>square.main.number</key>
+	<string>K</string>
+	<key>square.main.number2</key>
+	<string>M</string>
+	<key>square.main.search.block.alert</key>
+	<string>Beta testi süresince arama özellikleri kullanılamaz.</string>
+	<key>square.main.search.default.msg</key>
+	<string>OpenChat adı, Açıklama</string>
+	<key>square.members</key>
+	<string>Üyeler</string>
+	<key>square.noti.post.desc</key>
+	<string>Yeni OpenChat notları eklendiğinde bildirim alın.</string>
+	<key>square.noti.post.desc2</key>
+	<string>Yeni notlar eklendiğinde ayrıca bildirim almak isteyip istemediğinizi seçin.</string>
+	<key>square.noti.post.desc3</key>
+	<string>OpenChat'e yeni notlar eklendiğinde bildirim alın.</string>
+	<key>square.noti.post.title</key>
+	<string>Yeni gönderi bildirimleri</string>
+	<key>square.noti.reaction.desc</key>
+	<string>İnsanlar OpenChat notlarınıza veya yorumlarınıza tepki verdiğinde bildirim alın.</string>
+	<key>square.noti.settings.commentlikes</key>
+	<string>Yorum beğenileri</string>
+	<key>square.noti.settings.newposts</key>
+	<string>Yeni gönderi bildirimleri</string>
+	<key>square.noti.settings.postcomments</key>
+	<string>Not yorumları</string>
+	<key>square.noti.settings.postlikes</key>
+	<string>Not beğenileri</string>
+	<key>square.noti.settings.postmentions</key>
+	<string>Not ve yorumlardaki bahsetmeler</string>
+	<key>square.noti.title</key>
+	<string>OpenChat bildirimleri</string>
+	<key>square.openchat.desc.messageremovedforsharinginappropriatecontent</key>
+	<string>%@ adlı kişinin mesajı, OpenChat'in hizmet politikasını ihlal ettiğinden şüphelenildiği için kaldırıldı.</string>
+	<key>square.openchat.popupbutton.close</key>
+	<string>Kapat</string>
+	<key>square.openchat.popupbutton.deleteforall</key>
+	<string>Sohbetteki herkesten</string>
+	<key>square.openchat.popupbutton.deleteforyou</key>
+	<string>Sadece benden</string>
+	<key>square.openchat.popupbutton.seemore</key>
+	<string>Daha fazla bilgi</string>
+	<key>square.openchat.popupdesc.deletemessagesfor</key>
+	<string>Seçilen mesajları şu kişilerden sil:</string>
+	<key>square.openchatannouncements.title.announcements</key>
+	<string>Duyuru</string>
+	<key>square.openchatentry.button.confirm</key>
+	<string>TAMAM</string>
+	<key>square.openchatentry.desc.dontsendrudemessages</key>
+	<string>&lt;font color='#07B53B'&gt;Kaba mesajlar&lt;/font&gt; göndermeyin ve &lt;font color='#07B53B'&gt;incitici&lt;/font&gt; davranışlarda bulunmayın.</string>
+	<key>square.openchatentry.desc.followopenchatrules</key>
+	<string>OpenChat'i keyifle kullanmaya devam etmek için bu &lt;font color='#07B53B'&gt;basit kurallara&lt;/font&gt; uyun.</string>
+	<key>square.openchatentry.desc.treatmemberswithrespect</key>
+	<string>OpenChat, herkesin buluştuğu bir alandır. Lütfen tüm üyelere &lt;font color='#07B53B'&gt;saygılı davranın&lt;/font&gt;.</string>
+	<key>square.openchatentry.header.dontsendrudemessages</key>
+	<string>2. Nazik davranın</string>
+	<key>square.openchatentry.header.followopenchatrules</key>
+	<string>3. Eğlenin</string>
+	<key>square.openchatentry.header.treatmemberswithrespect</key>
+	<string>1. S-A-Y-G-I!</string>
+	<key>square.openchatentry.title.openchatuserules</key>
+	<string>OpenChat kullanımıyla ilgili önemli konular</string>
+	<key>square.openchatmenu.button.seemembers</key>
+	<string>Üyelere bak</string>
+	<key>square.openchatmenu.button.seeopenchat</key>
+	<string>OpenChat'e bak</string>
+	<key>square.openchatnotes.desc.subchatmemberscanseenotes</key>
+	<string>Tüm alt sohbetlerin üyeleri de OpenChat'te paylaşılan notları görebilir.</string>
+	<key>square.openchatsettings.placeholder.enterhashtags</key>
+	<string>Açıklama girin</string>
+	<key>square.personaloption.alert.error.name</key>
+	<string>Bu ad zaten kullanılıyor. Lütfen farklı bir ad girin.</string>
+	<key>square.personaloption.chat</key>
+	<string>Sohbet davetleri al</string>
+	<key>square.personaloption.chat.desc</key>
+	<string>Square üyelerinden davet mesajları alın.</string>
+	<key>square.personaloption.copy</key>
+	<string>Bağlantı kopyalandı.</string>
+	<key>square.personaloption.friendrequest</key>
+	<string>Arkadaşlık istekleri al</string>
+	<key>square.personaloption.friendrequest.desc</key>
+	<string>Üyeler size arkadaşlık istekleri gönderebilir.</string>
+	<key>square.personaloption.greetingmessage</key>
+	<string>Yönetici için mesaj</string>
+	<key>square.personaloption.greetingmessage.default</key>
+	<string>Lütfen yönetici için bir mesaj girin.</string>
+	<key>square.personaloption.guide</key>
+	<string>Takma adı girin</string>
+	<key>square.personaloption.join.btn</key>
+	<string>Katıl</string>
+	<key>square.personaloption.joincode.btn</key>
+	<string>Kod kullanarak katıl</string>
+	<key>square.personaloption.profile.title</key>
+	<string>Profilim</string>
+	<key>square.personaloption.profile.title.tooltip</key>
+	<string>"%@" içinde kullanılacak takma adınızı belirleyin.</string>
+	<key>square.personaloption.profile.title.tooltip.desc</key>
+	<string>OpenChat profilinizi ayarlayın.</string>
+	<key>square.personaloption.sendrequest.btn</key>
+	<string>Katılma i̇steği</string>
+	<key>square.personaloption.welcomemsg</key>
+	<string>Hoş geldiniz mesajı</string>
+	<key>square.policy.agree.btn</key>
+	<string>Kabul ediyorum</string>
+	<key>square.policy.title</key>
+	<string>Kullanım Koşulları ve politikalar</string>
+	<key>square.policy.viewall</key>
+	<string>OpenChat Kullanım Koşulları'nın tamamını okuyun</string>
+	<key>square.popup.button.grantpermission</key>
+	<string>Ayarla</string>
+	<key>square.popup.button.setaspublic</key>
+	<string>Devam</string>
+	<key>square.post.announcement.announce</key>
+	<string>Ayarla</string>
+	<key>square.post.announcement.delete</key>
+	<string>Notu sil</string>
+	<key>square.post.announcement.delete.desc</key>
+	<string>Not önemli notlardan da kaldırılacak. Not silinsin mi?</string>
+	<key>square.post.announcement.guide</key>
+	<string>Hiç kimsenin kaçırmaması için notları önemli olarak ayarlayın.</string>
+	<key>square.post.announcement.list.title</key>
+	<string>Önemli notlar</string>
+	<key>square.post.announcement.list.zero</key>
+	<string>Henüz not yok.</string>
+	<key>square.post.announcement.mark</key>
+	<string>Önemli not olarak ayarla</string>
+	<key>square.post.announcement.mark.desc</key>
+	<string>Bildirimler, OpenChat üyelerine yalnızca her gün ayarlanan ilk önemli notla ilgili olarak gönderilir.</string>
+	<key>square.post.announcement.postui</key>
+	<string>Önemli</string>
+	<key>square.post.announcement.postui2</key>
+	<string>&lt;b&gt;Önemli not&lt;/b&gt;</string>
+	<key>square.post.announcement.push</key>
+	<string>%@ OpenChat'inde yeni önemli not ayarlandı.</string>
+	<key>square.post.announcement.push.relay</key>
+	<string>"%@" square'inde relay duyuru olarak ayarlandı.</string>
+	<key>square.post.announcement.remove</key>
+	<string>Önemli ayarını kaldır</string>
+	<key>square.post.announcement.seeall</key>
+	<string>%@ önemli not</string>
+	<key>square.post.announcement.seeall.title</key>
+	<string>Duyurular</string>
+	<key>square.post.error.deletedannouncement</key>
+	<string>Bu önemli not silindi.</string>
+	<key>square.post.error.deletedcomment</key>
+	<string>Bu yorum silinmiştir.</string>
+	<key>square.post.error.deletedcontents</key>
+	<string></string>
+	<key>square.post.error.deletedjoined</key>
+	<string>Gönderi zaten silindi.</string>
+	<key>square.post.error.deletedpost</key>
+	<string>Bu not silindi.</string>
+	<key>square.post.error.write</key>
+	<string>Bu bölüme erişim izniniz yok.</string>
+	<key>square.post.hashtag.popular</key>
+	<string>Bu OpenChat'teki en iyi etiketler</string>
+	<key>square.post.join</key>
+	<string>Katıl</string>
+	<key>square.post.joinguide</key>
+	<string>Kaçırmayın! Diğer üyelerle sohbetler ve gönderiler paylaşmak için hemen "%@" square’ine katılın.</string>
+	<key>square.post.linktype.chatlist</key>
+	<string>bir OpenChat notu paylaştı.</string>
+	<key>square.post.linktype.scroll</key>
+	<string>bir OpenChat notu paylaştı.</string>
+	<key>square.post.linktype.title</key>
+	<string>OpenChat</string>
+	<key>square.post.relay.zero</key>
+	<string>Square üyeleriyle bir relay başlatın!</string>
+	<key>square.post.share.chatlist</key>
+	<string>Şununla paylaş:</string>
+	<key>square.post.share.popup</key>
+	<string>Square gönderilerini paylaşma</string>
+	<key>square.post.title</key>
+	<string>Notlar</string>
+	<key>square.post.userslist.zero</key>
+	<string>Burada not yok.</string>
+	<key>square.post.write.authority</key>
+	<string>Not yazma izinleri</string>
+	<key>square.post.write.guide</key>
+	<string>Square'deki diğer kişilerle paylaşın.</string>
+	<key>square.post.write.guidecountryspecific</key>
+	<string>Bu OpenChat'teki diğer kişilerle paylaş.</string>
+	<key>square.post.write.hashtag</key>
+	<string>Square gönderilerinize etiket eklemeyi deneyin. Etiketler,
+diğer Square üyelerinin gönderileri bulmasını ve belirli konularda sohbet etmesini kolaylaştırır.</string>
+	<key>square.post.zeropage.newpost</key>
+	<string>Yaz</string>
+	<key>square.post.zeropage.welcome</key>
+	<string>Bu OpenChat'te bir not yazan ilk siz olun!</string>
+	<key>square.postpopup.join</key>
+	<string>Bu özelliği yalnızca square üyeleri kullanabilir. Square’e katılmak istiyor musunuz?</string>
+	<key>square.privacy.setting.approval</key>
+	<string>Yönetici onayı iste</string>
+	<key>square.privacy.setting.change.approval</key>
+	<string>OpenChat gizlilik ayarları "Yönetici onayı iste" olarak değiştirildi.</string>
+	<key>square.privacy.setting.change.joincode</key>
+	<string>OpenChat gizlilik ayarları "Katılmak için kod iste" olarak değiştirildi.</string>
+	<key>square.privacy.setting.change.open</key>
+	<string>OpenChat gizlilik ayarları Herkese Açık olarak değiştirildi.</string>
+	<key>square.privacy.setting.desc</key>
+	<string>OpenChat'in gizlilik ayarlarını değiştirin.</string>
+	<key>square.privacy.setting.guide</key>
+	<string>OpenChat'e ve varsa alt sohbetlerine yalnızca yönetici tarafından onaylananlar veya doğru kodu girenler katılabilir.</string>
+	<key>square.privacy.setting.joincode</key>
+	<string>Katılmak için kod iste</string>
+	<key>square.privacy.setting.off</key>
+	<string>Herkese açık</string>
+	<key>square.privacy.setting.off.guide</key>
+	<string>Varsa alt sohbetler dahil olmak üzere, OpenChat'e herkes katılabilir.</string>
+	<key>square.privacy.setting.title</key>
+	<string>Gizlilik ayarları</string>
+	<key>square.privacy.turnoff.alert</key>
+	<string>Bu sohbete herkes katılabilecek. Devam edilsin mi?</string>
+	<key>square.qrcode.save.failed</key>
+	<string>QR kodu kaydedilemedi.</string>
+	<key>square.report.page.reason01</key>
+	<string>Cinsel taciz ve istismar</string>
+	<key>square.report.page.reason02</key>
+	<string>Şiddet içeren veya zararlı içerik</string>
+	<key>square.report.page.reason03</key>
+	<string>Spam, reklam veya dolandırıcılık</string>
+	<key>square.report.page.reason04</key>
+	<string>İntihara, teröre veya diğer tehlikeli faaliyetlere teşvik eden içerik</string>
+	<key>square.report.policy.desc</key>
+	<string>Bir sohbet veya not için şikayette bulunulduğunda ilgili kullanıcının bilgileri, kullanıcıyla olan son 20 sohbet mesajınız veya söz konusu notla birlikte gönderilir.</string>
+	<key>square.report.policy.desc.10</key>
+	<string>Bir sohbet veya not için şikayette bulunulduğunda ilgili kullanıcının bilgileri, kullanıcıyla olan son 20 sohbet mesajınız veya söz konusu notla birlikte gönderilir.</string>
+	<key>square.report.policy.desc01</key>
+	<string>OpenChat, şikayet edilen tüm hizmet politikası ihlallerini 24 saat boyunca inceler.</string>
+	<key>square.report.policy.desc02</key>
+	<string></string>
+	<key>square.report.policy.desc1</key>
+	<string>Şikayetler, OpenChat politikasına göre incelenir ve uygun şekilde işlenir.</string>
+	<key>square.requesttojoin.button.submit</key>
+	<string>Gönder</string>
+	<key>square.set.joincode.input.guide</key>
+	<string>4-8 alfasayısal karakter girin</string>
+	<key>square.set.question.input.guide</key>
+	<string>Sohbete katılmak için yanıtlanması gereken soruyu girin. Yönetici veya yardımcı yönetici başvuru sahiplerini inceleyip üyeleri onaylayabilir.</string>
+	<key>square.set.question.title</key>
+	<string>Soruyu ayarla</string>
+	<key>square.setting.auth.announcement</key>
+	<string>Önemli yap/duyur</string>
+	<key>square.setting.auth.message.post</key>
+	<string>Mesajları ve notları sil</string>
+	<key>square.setting.childprotection.message</key>
+	<string></string>
+	<key>square.settings.delete.chathistory</key>
+	<string>Sohbet Geçmişini Sil</string>
+	<key>square.settings.delete.chathistory.desc</key>
+	<string>Sohbet geçmişini yukarı kaydırırsanız temizlenen mesajlar sohbette tekrar görünür. Sohbet temizlensin mi?</string>
+	<key>square.settings.deleteaccount.desc</key>
+	<string>OpenChat yöneticisinin izinleri otomatik olarak başka bir üyeye devredilecek.</string>
+	<key>square.settings.manage.permissions.chatapp.permission</key>
+	<string>Ek sohbet özellikleri</string>
+	<key>square.settings.managesquare.defaultchatroom.desc</key>
+	<string>Varsayılan sohbet square ile birlikte oluşturulur ve silinemez.</string>
+	<key>square.settings.managesquare.defaultchatroom.title</key>
+	<string>"%@" adlı square için varsayılan sohbet</string>
+	<key>square.settings.managesquare.privatechat</key>
+	<string>Özel sohbetlere izin ver</string>
+	<key>square.settings.managesquare.privatechat.desc</key>
+	<string>Üyeler özel sohbetler oluşturabilir veya birbirlerine doğrudan mesaj gönderebilirler.</string>
+	<key>square.settings.memberlist.members.subtitle</key>
+	<string>Üyeler %d</string>
+	<key>square.settings.members</key>
+	<string>Üyeler (%d)</string>
+	<key>square.sub.cover.title</key>
+	<string>Alt sohbet profili</string>
+	<key>square.sub.name.title</key>
+	<string>Alt sohbet adı</string>
+	<key>square.timeline.button.tooltip</key>
+	<string>Yeni kişilerle eğlenceli konular hakkında sohbet edin!</string>
+	<key>square.timeline.button.tooltip2</key>
+	<string>OpenChat'te yeni arkadaşlarla tanışalım.</string>
+	<key>square.unsupported.version.message</key>
+	<string>Bu özelliği kullanabilmek için lütfen LINE uygulamanızı güncelleyin.</string>
+	<key>square.urlscheme.alert.linkjoin.function.off</key>
+	<string>Davet bağlantısıyla katılım sağlanamadı.
+Bir OpenChat üyesinden sizi davet etmesini isteyin.</string>
+	<key>square.urlscheme.desc2</key>
+	<string>Bu OpenChat'e yalnızca iOS veya Android cihazlarından katılabilirsiniz.</string>
+	<key>square.urlscheme.error.notexist</key>
+	<string>Bu OpenChat mevcut değil.</string>
+	<key>square.urlscheme.invite.msg</key>
+	<string>Bir OpenChat'e katılmak için davet edildiniz.</string>
+	<key>square.urlscheme.package</key>
+	<string>[%1$@] Bir OpenChat'e katılmak için davet edildiniz.
+%3$@
+%2$@</string>
+	<key>square.urlscheme.package.chatroom</key>
+	<string>"%1$@" OpenChat'ine katılmak için davet edildiniz. OpenChat'e katılmak için aşağıdaki bağlantıyı ziyaret edin.
+%2$@</string>
+	<key>square.user.admin</key>
+	<string>Yönetici</string>
+	<key>square.user.coadmin</key>
+	<string>Yard. yön.</string>
+	<key>square.userpopup.blockinvite</key>
+	<string>Davetleri engelle</string>
+	<key>square.userpopup.error.alert.notmember</key>
+	<string>Artık bu OpenChat'in üyesi değil.</string>
+	<key>square.userpopup.friendsinfo.btn</key>
+	<string>Bilgi</string>
+	<key>square.userpopup.friendsrequest.btn</key>
+	<string>Arkadaşlık isteği</string>
+	<key>square.userpopup.kickout.ban.btn</key>
+	<string>Engelle</string>
+	<key>square.userpopup.kickout.btn</key>
+	<string>Engelle</string>
+	<key>square.userpopup.kickout.cancel.btn</key>
+	<string>İptal</string>
+	<key>square.userpopup.post.count.btn</key>
+	<string>Gönderi</string>
+</dict>
+</plist>

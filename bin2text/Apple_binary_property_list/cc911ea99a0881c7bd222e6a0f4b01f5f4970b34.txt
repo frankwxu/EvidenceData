@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>太郎に Viber で電話をかける</string>
+				<string>太郎に Viber で電話をかける</string>
+				<string>太郎に Viber 通話をする</string>
+				<string>太郎に Viber で電話をかける</string>
+				<string>太郎に Viber 通話をする</string>
+				<string>太郎に Viber で電話をかける</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>太郎に Viber メッセージを送信</string>
+				<string>太郎に Viber でテキスト メッセージを送信</string>
+				<string>Viber メッセージを太郎に送信</string>
+				<string>太郎に Viber でテキストを送信</string>
+				<string>太郎に Viber でメッセージを送信</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Viber で太郎とビデオ通話を開始</string>
+				<string>Viber で太郎とビデオ チャットを開始</string>
+				<string>Viber で太郎にビデオ通話をする</string>
+				<string>太郎に Viber の動画通話をする</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

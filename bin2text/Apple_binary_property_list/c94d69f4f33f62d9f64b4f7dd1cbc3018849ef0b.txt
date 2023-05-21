@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>CountdownEndTime</string>
+		</array>
+		<key>Device Code</key>
+		<string>0</string>
+		<key>Device Icon File Name</key>
+		<string>ic_switch.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:controllee:1</string>
+		<key>Device UDN</key>
+		<string>Socket</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>InsightParams</string>
+			<string>PowerThreshold</string>
+			<string>EnergyPerUnitCost</string>
+			<string>InstantPower</string>
+			<string>CountdownEndTime</string>
+		</array>
+		<key>Device Code</key>
+		<string>1</string>
+		<key>Device Icon File Name</key>
+		<string>ic_insight.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:insight:1</string>
+		<key>Device UDN</key>
+		<string>Insight</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:insight:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>CountdownEndTime</string>
+		</array>
+		<key>Device Code</key>
+		<string>2</string>
+		<key>Device Icon File Name</key>
+		<string>ic_wallswitch.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:lightswitch:1</string>
+		<key>Device UDN</key>
+		<string>Lightswitch</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>time</string>
+			<string>mode</string>
+		</array>
+		<key>Device Code</key>
+		<string>3</string>
+		<key>Device Icon File Name</key>
+		<string>ic_crockpot.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:crockpot:1</string>
+		<key>Device UDN</key>
+		<string>Crockpot</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array/>
+		<key>Device Code</key>
+		<string>4</string>
+		<key>Device Icon File Name</key>
+		<string>ic_petfeeder.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:smart:1</string>
+		<key>Device UDN</key>
+		<string>Smart</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array/>
+		<key>Device Code</key>
+		<string>5</string>
+		<key>Device Icon File Name</key>
+		<string>ic_sensor.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:sensor:1</string>
+		<key>Device UDN</key>
+		<string>Sensor</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array/>
+		<key>Device Code</key>
+		<string>6</string>
+		<key>Device Icon File Name</key>
+		<string>ic_netcam_nobg.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:NetCamSensor:1</string>
+		<key>Device UDN</key>
+		<string>NetCam</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>time</string>
+			<string>mode</string>
+		</array>
+		<key>Device Code</key>
+		<string>3</string>
+		<key>Device Icon File Name</key>
+		<string>ic_crockpot.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:crockpot:1</string>
+		<key>Device UDN</key>
+		<string>crockpot</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+		</array>
+		<key>Device Code</key>
+		<string>7</string>
+		<key>Device Icon File Name</key>
+		<string>ic_coffeemaker.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:CoffeeMaker:1</string>
+		<key>Device UDN</key>
+		<string>CoffeeMaker</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+		</array>
+		<key>Device Code</key>
+		<string>8</string>
+		<key>Device Icon File Name</key>
+		<string>ic_heater.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:HeaterA:1</string>
+		<key>Device UDN</key>
+		<string>HeaterA</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+		</array>
+		<key>Device Code</key>
+		<string>9</string>
+		<key>Device Icon File Name</key>
+		<string>ic_humidifier.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:Humidifier:1</string>
+		<key>Device UDN</key>
+		<string>Humidifier</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+		</array>
+		<key>Device Code</key>
+		<string>10</string>
+		<key>Device Icon File Name</key>
+		<string>ic_airPurifier.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:AirPurifier:1</string>
+		<key>Device UDN</key>
+		<string>AirPurifier</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>StatusChange</string>
+			<string>SubDeviceFWUpdate</string>
+		</array>
+		<key>Device Code</key>
+		<string>11</string>
+		<key>Device Icon File Name</key>
+		<string>ic_switch.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:bridge:1</string>
+		<key>Device UDN</key>
+		<string>Bridge</string>
+		<key>IsBridge</key>
+		<string>1</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:bridge:1</string>
+			<string>urn:Belkin:service:deviceinfo:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+			<string>ParamString</string>
+		</array>
+		<key>Device Code</key>
+		<string>12</string>
+		<key>Device Icon File Name</key>
+		<string>ic_wemomaker.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:Maker:1</string>
+		<key>Device UDN</key>
+		<string>Maker</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+		</array>
+		<key>Device Code</key>
+		<string>15</string>
+		<key>Device Icon File Name</key>
+		<string>ic_heater.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:HeaterB:1</string>
+		<key>Device UDN</key>
+		<string>HeaterB</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array/>
+		<key>Device Code</key>
+		<string>16</string>
+		<key>Device Icon File Name</key>
+		<string>ic_netcam.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:LinksysWNCSensor:1</string>
+		<key>Device UDN</key>
+		<string>NetCam</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>attributeList</string>
+		</array>
+		<key>Device Code</key>
+		<string>17</string>
+		<key>Device Icon File Name</key>
+		<string>ic_humidifierB.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:HumidifierB:1</string>
+		<key>Device UDN</key>
+		<string>HumidifierB</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+			<string>urn:Belkin:service:deviceevent:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array/>
+		<key>Device Code</key>
+		<string>18</string>
+		<key>Device Icon File Name</key>
+		<string>WeMo_BabyApp_Icon.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:bt-baby:1</string>
+		<key>Device UDN</key>
+		<string>bt-baby</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Additional Push Notifications</key>
+		<array>
+			<string>CountdownEndTime</string>
+		</array>
+		<key>Device Code</key>
+		<string>19</string>
+		<key>Device Icon File Name</key>
+		<string>ic_dimmerswitch.png</string>
+		<key>Device Type</key>
+		<string>urn:Belkin:device:dimmer:1</string>
+		<key>Device UDN</key>
+		<string>Dimmer</string>
+		<key>Services Required Subscription</key>
+		<array>
+			<string>urn:Belkin:service:basicevent:1</string>
+			<string>urn:Belkin:service:firmwareupdate:1</string>
+		</array>
+	</dict>
+</array>
+</plist>

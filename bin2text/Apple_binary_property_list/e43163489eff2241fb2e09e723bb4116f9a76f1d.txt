@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_NON_COACHING_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>แม้ว่าคุณจะไม่ได้ลุกขึ้นมาเคลื่อนไหวมากนักเมื่อเร็วๆ นี้ คุณก็ยังทำได้โดยเฉลี่ยมากกว่า 45 นาทีต่อชั่วโมง นั่นดีมากเลย</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณสามารถทำจำนวนนาทีในการยืนโดยเฉลี่ยได้อย่างน้อย {{goal_value:hours}} นาทีต่อชั่วโมงในวันนี้ ลูกศรนี้ก็จะพลิก คุณทำได้แน่ {{username}}</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>แม้ว่าคุณจะไม่ได้ลุกขึ้นมาเคลื่อนไหวมากนักเมื่อเร็วๆ นี้ คุณก็ยังทำได้โดยเฉลี่ยมากกว่า 45 นาทีต่อชั่วโมง นั่นดีมากเลย {{username}}</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรนาทีในการยืนของคุณชี้ลง แต่ก็ใกล้จะพลิกได้แล้ว ยืนและเคลื่อนไหวให้ได้อย่างน้อย {{goal_value:minutes}} นาทีต่อชั่วโมงสำหรับ %#@num_days@ถัดไปเพื่อให้ลูกศรกลับมาชี้ขึ้น</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทุกนาทีที่คุณลุกขึ้นมาเคลื่อนไหวเป็นสิ่งที่ดี ทำต่อไปอีกนะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรนาทีในการยืนของคุณชี้ลง แต่ก็ใกล้จะพลิกได้แล้ว {{username}} ยืนและเคลื่อนไหวให้ได้อย่างน้อย {{goal_value:minutes}} นาทีต่อชั่วโมงสำหรับ %#@num_days@ถัดไปเพื่อให้ลูกศรกลับมาชี้ขึ้น</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณสามารถพลิกลูกศรนาทีในการยืนของคุณได้ใน %#@num_days@ แค่ยืนขึ้นและเคลื่อนไหวให้ได้อย่างน้อย {{goal_value:minutes}} นาทีในแต่ละชั่วโมง แล้วก็จะดีเอง</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>มาทำให้ลูกศรนี้กลับมาชี้ขึ้นกันเถอะ! ทำจำนวนนาทีในการยืนโดยเฉลี่ยให้ได้อย่างน้อย {{goal_value:hours}} ต่อชั่วโมงสำหรับ %#@num_days@ถัดไปแล้วคุณจะพลิกลูกศรได้</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พยายามทำจำนวนนาทีโดยเฉลี่ยให้ได้อย่างน้อย {{goal_value:minutes}} นาทีต่อชั่วโมงในสัปดาห์นี้ กลับมาตรวจสอบหาเป้าหมายใหม่ๆ ทำตามเป้าหมายอย่างต่อเนื่อง แล้วคุณจะพลิกลูกศรนี้ให้กลับมาชี้ขึ้นได้</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรนี้เป็นลูกศรที่ดีที่ชี้ขึ้นแล้ว {{username}} ทำได้ดีมาก</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้จำนวนนาทีในการยืนของคุณกลับมาเป็นอย่างที่ควร สิ่งที่คุณต้องทำคือทำจำนวนในการยืนให้ได้เฉลี่ย {{goal_value:hours}} นาทีต่อชั่วโมงสำหรับ %#@num_days@ถัดไป</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>มาทำให้ลูกศรนี้กลับมาชี้ขึ้นกันเถอะ {{username}}! ทำจำนวนนาทีในการยืนโดยเฉลี่ยให้ได้อย่างน้อย {{goal_value:hours}} ต่อชั่วโมงสำหรับ %#@num_days@ถัดไปแล้วคุณจะพลิกลูกศรได้</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณสามารถทำจำนวนนาทีในการยืนโดยเฉลี่ยได้อย่างน้อย {{goal_value:hours}} นาทีต่อชั่วโมงในวันนี้ ลูกศรนี้ก็จะพลิก คุณทำได้แน่</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พยายามลุกขึ้นและเคลื่อนไหวเป็นเวลาอย่างน้อย {{goal_value:minutes}} นาทีต่อชั่วโมงเพื่อทำงานกับลูกศรนี้ คุณจะมีเป้าหมายใหม่ในแต่ละสัปดาห์จนกระทั่งลูกศรของคุณพลิก</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรของคุณชี้ขึ้นแล้ว แต่จำนวนนาทีในการยืนของคุณต่ำลงเมื่อเร็วๆ นี้ ตั้งใจยืนและเคลื่อนไหวเล็กน้อยในทุกชั่วโมงนะ {{username}}</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทุกนาทีที่คุณลุกขึ้นมาเคลื่อนไหวเป็นสิ่งที่ดี ทำต่อไปอีกนะ {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>นาทีในการยืนเป็นสิ่งสำคัญนะ {{username}} พยายามยืนขึ้นและเคลื่อนไหวให้มากขึ้นอีกเล็กน้อยในแต่ละชั่วโมงเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณต้องการเลื่อนให้แนวโน้มนี้อยู่ในทิศทางที่ถูกต้อง ให้ลุกออกจากที่นั่งมากขึ้นอีกเล็กน้อยและเคลื่อนที่ไปรอบๆ ในแต่ละวัน</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทุกนาทีที่คุณลุกขึ้นมาเคลื่อนไหวเป็นสิ่งที่ดี ทำต่อไปอีกนะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณสามารถพลิกลูกศรนาทีในการยืนของคุณได้ใน %#@num_days@ {{username}} แค่ยืนขึ้นและเคลื่อนไหวให้ได้อย่างน้อย {{goal_value:minutes}} นาทีในแต่ละชั่วโมง แล้วก็จะดีเอง</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>นาทีในการยืนเป็นสิ่งสำคัญนะ พยายามยืนขึ้นและเคลื่อนไหวให้มากขึ้นอีกเล็กน้อยในแต่ละชั่วโมงเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พยายามลุกขึ้นและเคลื่อนไหวเป็นเวลาอย่างน้อย {{goal_value:minutes}} นาทีต่อชั่วโมงเพื่อทำงานกับลูกศรนี้ {{username}} คุณจะมีเป้าหมายใหม่ในแต่ละสัปดาห์จนกระทั่งลูกศรของคุณพลิก</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรนี้เป็นลูกศรที่ดีที่ชี้ขึ้นแล้ว {{username}} ทำได้ดีมาก</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทุกนาทีที่คุณลุกขึ้นมาเคลื่อนไหวเป็นสิ่งที่ดี ทำต่อไปอีกนะ {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรนี้เป็นลูกศรที่ดีที่ชี้ขึ้นแล้ว ทำได้ดีมาก</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}} ถ้าคุณต้องการเลื่อนให้แนวโน้มนี้อยู่ในทิศทางที่ถูกต้อง ให้ลุกออกจากที่นั่งมากขึ้นอีกเล็กน้อยและเคลื่อนที่ไปรอบๆ ในแต่ละวัน</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรนี้เป็นลูกศรที่ดีที่ชี้ขึ้นแล้ว ทำได้ดีมาก</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรของคุณชี้ขึ้นแล้ว แต่จำนวนนาทีในการยืนของคุณต่ำลงเมื่อเร็วๆ นี้ ตั้งใจยืนและเคลื่อนไหวเล็กน้อยในทุกชั่วโมงนะ</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้จำนวนนาทีในการยืนของคุณกลับมาเป็นอย่างที่ควร สิ่งที่คุณต้องทำคือทำจำนวนนาทีในการยืนให้ได้เฉลี่ย {{goal_value:hours}} นาทีต่อชั่วโมงสำหรับ %#@num_days@ถัดไป {{username}}</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พยายามทำจำนวนนาทีโดยเฉลี่ยให้ได้อย่างน้อย {{goal_value:minutes}} นาทีต่อชั่วโมงในสัปดาห์นี้ กลับมาตรวจสอบหาเป้าหมายใหม่ๆ ทำตามเป้าหมายอย่างต่อเนื่อง แล้วคุณจะพลิกลูกศรนี้ให้กลับมาชี้ขึ้นได้ {{username}}</string>
+	</dict>
+</dict>
+</plist>

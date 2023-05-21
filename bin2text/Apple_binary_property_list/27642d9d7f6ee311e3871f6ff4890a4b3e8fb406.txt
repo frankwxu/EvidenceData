@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>And %d more reminders…</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_reminders@</string>
+		<key>num_reminders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>و %d تذكيرات إضافية…</string>
+			<key>one</key>
+			<string>وتذكير واحد إضافي…</string>
+			<key>many</key>
+			<string>و %d تذكيرًا إضافيًا…</string>
+			<key>two</key>
+			<string>وتذكيرين إضافيين…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>و %d تذكير إضافي…</string>
+			<key>zero</key>
+			<string>و %d تذكير إضافي…</string>
+		</dict>
+	</dict>
+	<key>Shared with %d people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>مشترك مع %d أشخاص</string>
+			<key>one</key>
+			<string>مشترك مع شخص واحد</string>
+			<key>many</key>
+			<string>مشترك مع %d شخصًا</string>
+			<key>two</key>
+			<string>مشترك مع شخصين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>مشترك مع %d من الأشخاص</string>
+			<key>zero</key>
+			<string>مشترك مع %d شخص</string>
+		</dict>
+	</dict>
+	<key>Years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>سنوات</string>
+			<key>one</key>
+			<string>سنة</string>
+			<key>many</key>
+			<string>سنة</string>
+			<key>two</key>
+			<string>سنتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>سنة</string>
+			<key>zero</key>
+			<string>سنوات</string>
+		</dict>
+	</dict>
+	<key>Outdent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>إلغاء المسافة البادئة قبل %d تذكيرات</string>
+			<key>one</key>
+			<string>إلغاء المسافة البادئة قبل التذكير</string>
+			<key>many</key>
+			<string>إلغاء المسافة البادئة قبل %d تذكيرًا</string>
+			<key>two</key>
+			<string>إلغاء المسافة البادئة قبل تذكيرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>إلغاء المسافة البادئة قبل %d تذكير</string>
+			<key>zero</key>
+			<string>إلغاء المسافة البادئة قبل التذكير</string>
+		</dict>
+	</dict>
+	<key>Days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>أيام</string>
+			<key>one</key>
+			<string>يوم</string>
+			<key>many</key>
+			<string>يومًا</string>
+			<key>two</key>
+			<string>يومان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>يوم</string>
+			<key>zero</key>
+			<string>يوم</string>
+		</dict>
+	</dict>
+	<key>Weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>أسابيع</string>
+			<key>one</key>
+			<string>أسبوع</string>
+			<key>many</key>
+			<string>أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>أسبوع</string>
+			<key>zero</key>
+			<string>أسابيع</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Due</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حان موعد %@ تذكيرات</string>
+			<key>one</key>
+			<string>حان موعد تذكير واحد</string>
+			<key>many</key>
+			<string>حان موعد %@ تذكيرًا</string>
+			<key>two</key>
+			<string>حان موعد تذكيرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>حان موعد %@ تذكير</string>
+			<key>zero</key>
+			<string>لا توجد تذكيرات مطلوبة</string>
+		</dict>
+	</dict>
+	<key>%ld Lists</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@list_count@</string>
+		<key>list_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%ld قوائم</string>
+			<key>one</key>
+			<string>قائمة واحدة</string>
+			<key>many</key>
+			<string>‏%ld قائمة</string>
+			<key>two</key>
+			<string>قائمتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>‏%ld قائمة</string>
+			<key>zero</key>
+			<string>‏%ld قائمة</string>
+		</dict>
+	</dict>
+	<key>%d Images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d صور</string>
+			<key>one</key>
+			<string>صورة واحدة</string>
+			<key>many</key>
+			<string>‏%d صورة</string>
+			<key>two</key>
+			<string>صورتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d صورة</string>
+			<key>zero</key>
+			<string>‏%d صورة</string>
+		</dict>
+	</dict>
+	<key>Indent %d Reminders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>مسافة بادئة قبل %d تذكيرات</string>
+			<key>one</key>
+			<string>مسافة بادئة قبل التذكير</string>
+			<key>many</key>
+			<string>مسافة بادئة قبل %d تذكيرًا</string>
+			<key>two</key>
+			<string>مسافة بادئة قبل تذكيرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>مسافة بادئة قبل %d تذكير</string>
+			<key>zero</key>
+			<string>مسافة بادئة قبل التذكير</string>
+		</dict>
+	</dict>
+	<key>Hide %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>إخفاء %d عناصر</string>
+			<key>one</key>
+			<string>إخفاء عنصر واحد</string>
+			<key>many</key>
+			<string>إخفاء %d عنصرًا</string>
+			<key>two</key>
+			<string>إخفاء عنصرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>إخفاء %d عنصر</string>
+			<key>zero</key>
+			<string>إخفاء %d عنصر</string>
+		</dict>
+	</dict>
+	<key>%@ Items Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ عناصر اليوم</string>
+			<key>one</key>
+			<string>عنصر واحد اليوم</string>
+			<key>many</key>
+			<string>%@ عنصرًا اليوم</string>
+			<key>two</key>
+			<string>عنصران اليوم</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ عنصر اليوم</string>
+			<key>zero</key>
+			<string>لا شيء اليوم</string>
+		</dict>
+	</dict>
+	<key>Show %d Items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_items@</string>
+		<key>num_items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>إظهار %d عناصر</string>
+			<key>one</key>
+			<string>إظهار عنصر واحد</string>
+			<key>many</key>
+			<string>إظهار %d عنصرًا</string>
+			<key>two</key>
+			<string>إظهار العنصرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>إظهار %d عنصر</string>
+			<key>zero</key>
+			<string>إظهار %d عنصر</string>
+		</dict>
+	</dict>
+	<key>%d years (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d سنوات</string>
+			<key>one</key>
+			<string>سنة واحدة</string>
+			<key>many</key>
+			<string>%d سنة</string>
+			<key>two</key>
+			<string>سنتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d سنة</string>
+			<key>zero</key>
+			<string>%d سنة</string>
+		</dict>
+	</dict>
+	<key>%d weeks (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>%@ and %d others</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ و %#@num_others@</string>
+		<key>num_others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d آخرين</string>
+			<key>one</key>
+			<string>تذكير واحد آخر</string>
+			<key>many</key>
+			<string>%d آخرًا</string>
+			<key>two</key>
+			<string>%d آخران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d آخر</string>
+			<key>zero</key>
+			<string>%d آخر</string>
+		</dict>
+	</dict>
+	<key>Months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>أشهر</string>
+			<key>one</key>
+			<string>شهر</string>
+			<key>many</key>
+			<string>شهرًا</string>
+			<key>two</key>
+			<string>شهران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>شهر</string>
+			<key>zero</key>
+			<string>أشهر</string>
+		</dict>
+	</dict>
+	<key>%d hours (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d ساعات</string>
+			<key>one</key>
+			<string>ساعة واحدة</string>
+			<key>many</key>
+			<string>%d ساعة</string>
+			<key>two</key>
+			<string>ساعتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ساعة</string>
+			<key>zero</key>
+			<string>%d ساعة</string>
+		</dict>
+	</dict>
+	<key>%d Completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d مكتملة</string>
+			<key>one</key>
+			<string>اكتمل %d</string>
+			<key>many</key>
+			<string>%d مكتملاً</string>
+			<key>two</key>
+			<string>اكتمل %d</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d مكتمل</string>
+			<key>zero</key>
+			<string>اكتمل %d</string>
+		</dict>
+	</dict>
+	<key>%@ Items Due Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%@ تذكيرات موعدها اليوم</string>
+			<key>one</key>
+			<string>تذكير واحد موعده اليوم</string>
+			<key>many</key>
+			<string>‏%@ تذكيرًا موعدها اليوم</string>
+			<key>two</key>
+			<string>تذكيران مطلوبان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>‏%@ تذكير موعده اليوم</string>
+			<key>zero</key>
+			<string>لا توجد تذكيرات موعدها اليوم</string>
+		</dict>
+	</dict>
+	<key>Move these reminders to a new list</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نقل هذه التذكيرات إلى قائمة جديدة</string>
+			<key>one</key>
+			<string>نقل هذا التذكير إلى قائمة جديدة</string>
+			<key>many</key>
+			<string>نقل هذه التذكيرات إلى قائمة جديدة</string>
+			<key>two</key>
+			<string>نقل هذين التذكيرين إلى قائمة جديدة</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>نقل هذه التذكيرات إلى قائمة جديدة</string>
+			<key>zero</key>
+			<string>نقل هذه التذكيرات إلى قائمة جديدة</string>
+		</dict>
+	</dict>
+	<key>%@ Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%@ متأخرة</string>
+			<key>one</key>
+			<string>‏%@ متأخر</string>
+			<key>many</key>
+			<string>‏%@ متأخرًا</string>
+			<key>two</key>
+			<string>‏%@ متأخران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>‏%@ متأخر</string>
+			<key>zero</key>
+			<string>‏%@ متأخر</string>
+		</dict>
+	</dict>
+	<key>%@ Today + %@ Others</key>
+	<dict>
+		<key>others</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ أخرى</string>
+			<key>one</key>
+			<string>%@ آخر</string>
+			<key>many</key>
+			<string>‏%@ أخرى</string>
+			<key>two</key>
+			<string>%@ آخران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ آخر</string>
+			<key>zero</key>
+			<string>%@ آخر</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@today@ + %2$#@others@</string>
+		<key>today</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%@ اليوم</string>
+			<key>one</key>
+			<string>%@ اليوم</string>
+			<key>many</key>
+			<string>‏%@ اليوم</string>
+			<key>two</key>
+			<string>يومان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>‏%@ اليوم</string>
+			<key>zero</key>
+			<string>‏%@ اليوم</string>
+		</dict>
+	</dict>
+	<key>%d days (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>‏%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d يوم</string>
+			<key>zero</key>
+			<string>‏%d يوم</string>
+		</dict>
+	</dict>
+	<key>%@ Today</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_due@</string>
+		<key>num_due</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%@ اليوم</string>
+			<key>one</key>
+			<string>%@ اليوم</string>
+			<key>many</key>
+			<string>‏%@ اليوم</string>
+			<key>two</key>
+			<string>‏%@ اليوم</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>‏%@ اليوم</string>
+			<key>zero</key>
+			<string>لا شيء اليوم</string>
+		</dict>
+	</dict>
+	<key>%@ Reminders Overdue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@num_overdue@</string>
+		<key>num_overdue</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ تذكيرات متأخرة</string>
+			<key>one</key>
+			<string>تذكير واحد متأخر</string>
+			<key>many</key>
+			<string>%@ تذكيرًا متأخرًا</string>
+			<key>two</key>
+			<string>تذكيران متأخران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ تذكير متأخر</string>
+			<key>zero</key>
+			<string>لا توجد تذكيرات متأخرة</string>
+		</dict>
+	</dict>
+	<key>%d months (every)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d شهور</string>
+			<key>one</key>
+			<string>شهر واحد</string>
+			<key>many</key>
+			<string>%d شهرًا</string>
+			<key>two</key>
+			<string>شهرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d شهر</string>
+			<key>zero</key>
+			<string>%d شهر</string>
+		</dict>
+	</dict>
+	<key>Hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@interval@</string>
+		<key>interval</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ساعات</string>
+			<key>one</key>
+			<string>ساعة</string>
+			<key>many</key>
+			<string>ساعة</string>
+			<key>two</key>
+			<string>ساعتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>ساعة</string>
+			<key>zero</key>
+			<string>ساعة</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

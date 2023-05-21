@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>„%@“</string>
+			<key>one</key>
+			<string>„%@“</string>
+			<key>many</key>
+			<string>„%@“</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>„%@“</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%2$#@title@ a %lu ďalšie položky nie je možné stiahnuť. Skúste to znovu neskôr.</string>
+			<key>one</key>
+			<string>%2$#@title@ a jednu ďalšiu položiek nie je možné stiahnuť. Skúste to znovu neskôr.</string>
+			<key>many</key>
+			<string>%2$#@title@ a %lu ďalšej položky nie je možné stiahnuť. Skúste to znovu neskôr.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%2$#@title@ a %lu ďalších položiek nie je možné stiahnuť. Skúste to znovu neskôr.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Najnovšie epizódy vo vašej knižnici budú znovu stiahnuté automaticky. Na stiahnutie čakajú %lu staršie epizódy.</string>
+			<key>one</key>
+			<string>Najnovšie epizódy vo vašej knižnici budú znovu stiahnuté automaticky. Na stiahnutie čaká %lu staršia epizóda.</string>
+			<key>many</key>
+			<string>Najnovšie epizódy vo vašej knižnici budú znovu stiahnuté automaticky. Na stiahnutie čaká %lu staršej epizódy.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Najnovšie epizódy vo vašej knižnici budú znovu stiahnuté automaticky. Na stiahnutie čaká %lu starších epizód.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Nie je možné stiahnuť podcasty</string>
+			<key>one</key>
+			<string>Nie je možné stiahnuť podcast</string>
+			<key>many</key>
+			<string>Nie je možné stiahnuť podcasty</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Nie je možné stiahnuť podcasty</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u ďalšie epizódy z „%@“</string>
+			<key>one</key>
+			<string>%u ďalšia epizóda z „%@“</string>
+			<key>many</key>
+			<string>%u ďalšej epizódy z „%@“</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u ďalších epizód z „%@“</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Chcete si po dokončení tejto epizódy vypočuť ďalšie %lu epizódy, ktoré ste vybrali ako nasledujúce?</string>
+			<key>one</key>
+			<string>Chcete si po dokončení tejto epizódy vypočuť ďalšiu epizódu, ktorú ste vybrali ako nasledujúcu?</string>
+			<key>many</key>
+			<string>Chcete si po dokončení tejto epizódy vypočuť ďalšej %lu epizódy, ktorú ste vybrali ako nasledujúcu?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Chcete si po dokončení tejto epizódy vypočuť ďalších %lu epizód, ktoré ste vybrali ako nasledujúce?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u nové epizódy</string>
+			<key>one</key>
+			<string>%u nová epizóda</string>
+			<key>many</key>
+			<string>%u novej epizódy</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u nových epizód</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Sú dostupné %lu nové epizódy.</string>
+			<key>one</key>
+			<string>Je dostupná %lu nová epizóda.</string>
+			<key>many</key>
+			<string>Je dostupnej %lu novej epizódy.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Je dostupných %lu nových epizód.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ gün</string>
+			<key>many</key>
+			<string>%@ gün</string>
+			<key>one</key>
+			<string>gün</string>
+			<key>other</key>
+			<string>%@ gün</string>
+			<key>two</key>
+			<string>%@ gün</string>
+			<key>zero</key>
+			<string>%@ gün</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ dakika</string>
+			<key>many</key>
+			<string>%@ dakika</string>
+			<key>one</key>
+			<string>dakika</string>
+			<key>other</key>
+			<string>%@ dakika</string>
+			<key>two</key>
+			<string>%@ dakika</string>
+			<key>zero</key>
+			<string>%@ dakika</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ ay</string>
+			<key>many</key>
+			<string>%@ ay</string>
+			<key>one</key>
+			<string>ay</string>
+			<key>other</key>
+			<string>%@ ay</string>
+			<key>two</key>
+			<string>%@ ay</string>
+			<key>zero</key>
+			<string>%@ ay</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ hafta</string>
+			<key>many</key>
+			<string>%@ hafta</string>
+			<key>one</key>
+			<string>hafta</string>
+			<key>other</key>
+			<string>%@ hafta</string>
+			<key>two</key>
+			<string>%@ hafta</string>
+			<key>zero</key>
+			<string>%@ hafta</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ yıl</string>
+			<key>many</key>
+			<string>%@ yıl</string>
+			<key>one</key>
+			<string>yıl</string>
+			<key>other</key>
+			<string>%@ yıl</string>
+			<key>two</key>
+			<string>%@ yıl</string>
+			<key>zero</key>
+			<string>%@ yıl</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ hafta için geçerli</string>
+			<key>many</key>
+			<string>%@ hafta için geçerli</string>
+			<key>one</key>
+			<string>%@ hafta için geçerli</string>
+			<key>other</key>
+			<string>%@ hafta için geçerli</string>
+			<key>two</key>
+			<string>%@ hafta için geçerli</string>
+			<key>zero</key>
+			<string>%@ hafta için geçerli</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ gün için geçerli</string>
+			<key>many</key>
+			<string>%@ gün için geçerli</string>
+			<key>one</key>
+			<string>%@ gün için geçerli</string>
+			<key>other</key>
+			<string>%@ gün için geçerli</string>
+			<key>two</key>
+			<string>%@ gün için geçerli</string>
+			<key>zero</key>
+			<string>%@ gün için geçerli</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ ay için geçerli</string>
+			<key>many</key>
+			<string>%@ ay için geçerli</string>
+			<key>one</key>
+			<string>%@ ay için geçerli</string>
+			<key>other</key>
+			<string>%@ ay için geçerli</string>
+			<key>two</key>
+			<string>%@ ay için geçerli</string>
+			<key>zero</key>
+			<string>%@ ay için geçerli</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ yıl için geçerli</string>
+			<key>many</key>
+			<string>%@ yıl için geçerli</string>
+			<key>one</key>
+			<string>%@ yıl için geçerli</string>
+			<key>other</key>
+			<string>%@ yıl için geçerli</string>
+			<key>two</key>
+			<string>%@ yıl için geçerli</string>
+			<key>zero</key>
+			<string>%@ yıl için geçerli</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

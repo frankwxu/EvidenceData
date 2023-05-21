@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTIVITY_CONNECTING</key>
+	<string>‏منسلک ﮨﻮ رہا ہے...</string>
+	<key>ACTIVITY_LOADING</key>
+	<string>‏لوڈنگ جاری ہے…</string>
+	<key>ACTIVITY_WAITING_FOR_NETWORK</key>
+	<string>‏نیٹ ورک کا انتظار ہو رہا ہے</string>
+	<key>ADDRESS_TITLE</key>
+	<string>‏پتہ</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_FACE_ID</key>
+	<string>‏%@ استعمال کرنے کیلئے چہرے کی شناخت درکار ہے۔</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_TOUCH_ID</key>
+	<string>‏%@ استعمال کرنے کیلئے لمس کی شناخت درکار ہے۔</string>
+	<key>BIOMETRIC_PRIVACY_ENABLE_FACE_ID</key>
+	<string>‏جاری رکھنے کیلئے %@ کو چہرے کی شناخت کی اجازت درکار ہے۔</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_FACE_ID_PROMPT</key>
+	<string>‏%1$@ استعمال کرنے کیلئے iPhone ترتیبات میں Face ID سیٹ اپ کریں۔</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_TOUCH_ID_PROMPT</key>
+	<string>‏%1$@ استعمال کرنے کیلئے iPhone ترتیبات میں Touch ID سیٹ اپ کریں۔</string>
+	<key>BIZ_ACCOUNT</key>
+	<string>‏کاروباری اکاؤنٹ</string>
+	<key>BIZ_CATEGORIES_TITLE</key>
+	<string>‏زمرے</string>
+	<key>BIZ_CATEGORY_TITLE</key>
+	<string>‏زمرہ</string>
+	<key>BIZ_HOURS_AND_ADDRESS</key>
+	<string>‏%1$@ • %2$@</string>
+	<key>BIZ_HOURS_TITLE</key>
+	<string>‏کاروباری اوقات</string>
+	<key>BIZ_NAME_TITLE</key>
+	<string>‏کاروباری نام</string>
+	<key>BIZ_REPORT</key>
+	<string>‏رپورٹ کریں</string>
+	<key>BIZ_REPORT_ILLEGAL</key>
+	<string>‏یہ بد زبانی، نقصان دہ یا غیر قانونی ہے</string>
+	<key>BIZ_REPORT_KNOCKOFF</key>
+	<string>‏یہ جعلی یا نقلی آئثم لگتا ہے</string>
+	<key>BIZ_REPORT_NO_MATCH</key>
+	<string>‏تصاویر یا تفصیل آئٹم سے مماثل نہیں</string>
+	<key>BIZ_REPORT_OTHER</key>
+	<string>‏دیگر</string>
+	<key>BIZ_REPORT_PRODUCT_TITLE_FOR_HEADER</key>
+	<string>‏ہمیں بتائیں کہ کیا مسئلہ ہے</string>
+	<key>BIZ_REPORT_SCAM</key>
+	<string>‏یہ فراڈ یا جھانسہ ہے</string>
+	<key>BIZ_REPORT_SPAM</key>
+	<string>‏یہ اسپیم ہے</string>
+	<key>BIZ_REPORT_THIS_PRODUCT</key>
+	<string>‏اس پروڈکٹ یا سروس کو رپورٹ کریں؟</string>
+	<key>BIZ_SEND_PRODUCT</key>
+	<string>‏بھیجیں</string>
+	<key>BIZ_TELL_US_MORE</key>
+	<string>‏ہمیں مزید بتائیں</string>
+	<key>BIZ_THIS_PRODUCT_HAS_BEEN_REPORTED</key>
+	<string>‏شکریہ۔ آپ کی رپورٹ جمع ہو گئی ہے۔</string>
+	<key>BIZ_VERTICAL_APPAREL</key>
+	<string>‏لباس اور پوشاک</string>
+	<key>BIZ_VERTICAL_AUTO</key>
+	<string>‏آٹوموٹو</string>
+	<key>BIZ_VERTICAL_BEAUTY</key>
+	<string>‏حسن، سپا اور سلون</string>
+	<key>BIZ_VERTICAL_EDU</key>
+	<string>‏تعلیم</string>
+	<key>BIZ_VERTICAL_ENTERTAIN</key>
+	<string>‏تفریح</string>
+	<key>BIZ_VERTICAL_EVENT_PLAN</key>
+	<string>‏تقاریب کی منصوبہ بندی اور سہولت</string>
+	<key>BIZ_VERTICAL_FINANCE</key>
+	<string>‏مالی انصرام اوربینکنگ</string>
+	<key>BIZ_VERTICAL_GROCERY</key>
+	<string>‏کھانا اور سودا</string>
+	<key>BIZ_VERTICAL_HEALTH</key>
+	<string>‏طبّ و صحت</string>
+	<key>BIZ_VERTICAL_HOTEL</key>
+	<string>‏ہوٹل اور قیام</string>
+	<key>BIZ_VERTICAL_NONPROFIT</key>
+	<string>‏غیر منافع بخش</string>
+	<key>BIZ_VERTICAL_NOTABIZ</key>
+	<string>‏کاروبار نہیں ہے</string>
+	<key>BIZ_VERTICAL_OTHER</key>
+	<string>‏دیگر</string>
+	<key>BIZ_VERTICAL_POLICY</key>
+	<string>‏عوامی خدمت</string>
+	<key>BIZ_VERTICAL_PROF_SERVICES</key>
+	<string>‏پیشہ ورانہ خدمات</string>
+	<key>BIZ_VERTICAL_RESTAURANT</key>
+	<string>‏ریسٹورنٹ</string>
+	<key>BIZ_VERTICAL_RETAIL</key>
+	<string>‏خرید و فروخت</string>
+	<key>BIZ_VERTICAL_TRAVEL</key>
+	<string>‏سیّاحی اور مال برداری</string>
+	<key>BIZ_WE_WILL_REVIEW</key>
+	<string>‏ہم پروڈکٹ یا سروس کا جائزہ لیں گے اور اگر یہ گائیڈ لائنز کے مطابق نہ ہوئی تو اسے ہٹا دیا جائے گا۔</string>
+	<key>BLOCKLIST_BLOCK_BUTTON_TITLE</key>
+	<string>‏بلاک کریں</string>
+	<key>BLOCKLIST_HELPER_TEXT</key>
+	<string>‏بلاک شدہ روابط آپ کو مزید کال یا پیغامات نہیں بھیج پائیں گے۔</string>
+	<key>BLOCKLIST_HELPER_TEXT_BUSINESS_WITH_REASONS</key>
+	<string>‏%@ کو بلاک کر دیں؟ یہ کاروبار آپ کو مزید کالز کرنے یا پیغامات بھیجنے سے قاصر ہوگا۔ بلاک کرنے کی وجہ:</string>
+	<key>BLOCKLIST_UNBLOCK_BUTTON_TITLE</key>
+	<string>‏ان بلاک کریں</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_CALL</key>
+	<string>‏WhatsApp کال کرنے کیلئے رابطے کو ان بلاک کریں</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_SEND_MESSAGE</key>
+	<string>‏پیغام بھیجنے کے لیے رابطے کو ان بلاک کریں۔</string>
+	<key>BLOCKLIST_UNBLOCK_TO_ADD</key>
+	<string>‏شامل کرنے کیلئے ان بلاک کریں</string>
+	<key>BLOCKLIST_UNBLOCK_TO_CALL</key>
+	<string>‏کال کرنے کیلئے ان بلاک کریں</string>
+	<key>BLOCKLIST_UNBLOCK_TO_MESSAGE</key>
+	<string>‏پیغام بھیجنے کیلئے ان بلاک کریں</string>
+	<key>BLOCKLIST_UNBLOCK_TO_REMOVE</key>
+	<string>‏ہٹانے کے لیے ان بلاک کریں</string>
+	<key>BLOCK_REASON_BAD_EXPERIENCE</key>
+	<string>‏برا تجربہ</string>
+	<key>BLOCK_REASON_DIDNT_OPTIN</key>
+	<string>‏آپٹ ان نہیں کیا</string>
+	<key>BLOCK_REASON_NEED_RESOLVED</key>
+	<string>‏مسئلہ حل ہو گیا</string>
+	<key>BLOCK_REASON_NO_LONGER_INTERESTED</key>
+	<string>‏مزید دلچسپی نہیں ہے</string>
+	<key>BLOCK_REASON_NO_REASON</key>
+	<string>‏کوئی وجہ نہیں ہے</string>
+	<key>BLOCK_SHORTENED</key>
+	<string>‏بلاک کریں</string>
+	<key>BLOC_BIZ_HELPER_TEXT</key>
+	<string>‏بلاک شدہ کاروبار آپ کو مزید کال یا پیغامات نہیں بھیج پائیں گے۔</string>
+	<key>BUTTON_BACK</key>
+	<string>‏واپس</string>
+	<key>BUTTON_CANCEL</key>
+	<string>‏منسوخ کریں</string>
+	<key>BUTTON_CLOSE</key>
+	<string>‏بند کریں</string>
+	<key>BUTTON_CONFIRM</key>
+	<string>‏توثیق کریں</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>‏جاری رکھیں</string>
+	<key>BUTTON_DONE</key>
+	<string>‏ہو گیا</string>
+	<key>BUTTON_FORWARD</key>
+	<string>‏فارورڈ کریں</string>
+	<key>BUTTON_LEARN_MORE</key>
+	<string>‏مزید جانیں</string>
+	<key>BUTTON_NEXT</key>
+	<string>‏آگے</string>
+	<key>BUTTON_NOT_NOW</key>
+	<string>‏ابھی نہیں</string>
+	<key>BUTTON_OK</key>
+	<string>‏ٹھیک ہے</string>
+	<key>BUTTON_OPEN_SETTINGS</key>
+	<string>‏ترتیبات کھولیں</string>
+	<key>BUTTON_RESET</key>
+	<string>‏ری سیٹ کریں</string>
+	<key>BUTTON_SEND</key>
+	<string>‏بھیجیں</string>
+	<key>BUTTON_TRY_AGAIN</key>
+	<string>‏پھر کوشش کریں</string>
+	<key>BUTTON_UNDO</key>
+	<string>‏کالعدم کریں</string>
+	<key>CHANGE_NUMBER_OLD_PHONE_LABEL</key>
+	<string>‏پرانا نمبر</string>
+	<key>CHAT_INPUT_BAR_PLACEHOLDER_TEXT</key>
+	<string>‏کیپشن شامل کریں۔۔۔</string>
+	<key>CHAT_MENU_MORE</key>
+	<string>‏مزید</string>
+	<key>CHAT_SUBJECT_TEXT_RECIPIENTS</key>
+	<string>‏وصول کنندگان: %@</string>
+	<key>COMMON_ERROR</key>
+	<string>‏خرابی</string>
+	<key>COMPANY_LABEL</key>
+	<string>‏کمپنی</string>
+	<key>CONTACTS_LIST_EMPTY_CONTACTS_DESC</key>
+	<string>‏کوئی روابط نہیں</string>
+	<key>CONTACTS_{{0}}</key>
+	<string>‏%@ رابطہ</string>
+	<key>CONTACTS_{{1}}</key>
+	<string>‏%@ روابط</string>
+	<key>CONTACT_PLACEHOLDER_NAME</key>
+	<string>‏رابطہ</string>
+	<key>CONTACT_US_DOES_NOT_ANSWER_MY_QUESTION</key>
+	<string>‏یہ میرے سوال کا جواب نہیں ہے</string>
+	<key>CONTENT_STICKERS_HEADER</key>
+	<string>‏مواد کے اسٹیکرز</string>
+	<key>COULDNT_SEND_MESSAGES_{{0}}</key>
+	<string>‏%@ پیغام بھیجا نہ جا سکا۔</string>
+	<key>COULDNT_SEND_MESSAGES_{{1}}</key>
+	<string>‏%@ پیغامات بھیجے نہ جا سکے۔</string>
+	<key>DEPRECATED_DEVICE_NO_SUPPORT</key>
+	<string>‏WhatsApp اب آپ کے فون کو سپورٹ نہیں کرتا۔</string>
+	<key>DOCUMENT_MESSAGE_DEFAULT_TITLE</key>
+	<string>‏بلا عنوان</string>
+	<key>EMOJI_CATEGORY_ACTIVITY</key>
+	<string>‏سرگرمی</string>
+	<key>EMOJI_CATEGORY_ANIMALS_NATURE</key>
+	<string>‏حیوانات اور قدرت</string>
+	<key>EMOJI_CATEGORY_FLAGS</key>
+	<string>‏پرچم</string>
+	<key>EMOJI_CATEGORY_FOOD_DRINK</key>
+	<string>‏کھانا اور پینا</string>
+	<key>EMOJI_CATEGORY_OBJECTS</key>
+	<string>‏چیزیں</string>
+	<key>EMOJI_CATEGORY_SMILEYS_PEOPLE</key>
+	<string>‏مسکال اور لوگ</string>
+	<key>EMOJI_CATEGORY_SYMBOLS</key>
+	<string>‏علامات</string>
+	<key>EMOJI_CATEGORY_TRAVEL_AND_PLACES</key>
+	<string>‏سفر اور جگہیں</string>
+	<key>EMOJI_SEARCH_NO_RESULTS</key>
+	<string>‏"%@" کے کوئی نتائج نہیں</string>
+	<key>EMOJI_SEARCH_RECENT_EMOJIS_HEADER</key>
+	<string>‏تازہ ترین</string>
+	<key>EMOJI_SEARCH_RESULTS</key>
+	<string>‏ایجوجی نتائج برائے "%@"</string>
+	<key>ERROR_COULDNT_CONNECT_TO_SERVICE</key>
+	<string>‏WhatsApp سروس سے منسلک نہیں ہوا جا سکا۔</string>
+	<key>ERROR_OCCURRED</key>
+	<string>‏ایک خرابی ہوئی۔</string>
+	<key>ERR_NO_CAMERA_PERMISSION_DEFAULT</key>
+	<string>‏%1$@ کو آپ کے کیمرے تک رسائی نہیں ہے۔ رسائی اہل کرنے کیلئے ترتیبات پر ٹیپ کریں اور کیمرا آن کریں۔</string>
+	<key>ERR_NO_CAMERA_PERMISSION_VIDEO_CALL</key>
+	<string>‏ویڈیو کال کرنے کیلئے %@ کو آپ کے iPhone کے کیمرے تک رسائی درکار ہے۔ ترتیبات کو ٹیپ کریں اور کیمرا آن کریں۔</string>
+	<key>EXTENSION_APP_NAME</key>
+	<string>‏WhatsApp</string>
+	<key>FILTER_NAME_BW</key>
+	<string>‏سیاہ و سفید</string>
+	<key>FILTER_NAME_COOL</key>
+	<string>‏خنک</string>
+	<key>FILTER_NAME_FILM</key>
+	<string>‏فلم</string>
+	<key>FILTER_NAME_NONE</key>
+	<string>‏کوئی نہیں</string>
+	<key>FILTER_NAME_PEN</key>
+	<string>‏کروم</string>
+	<key>FILTER_NAME_POP</key>
+	<string>‏پاپ</string>
+	<key>GROUP_INVITE_NOTIFICATION_TEXT</key>
+	<string>‏گروپ کی دعوت</string>
+	<key>GROUP_SEND_ERROR_NOT_ADMIN</key>
+	<string>‏صرف ایڈمنز ہی اس گروپ میں پیغام بھیج سکتے ہیں۔</string>
+	<key>GROUP_SEND_ERROR_NOT_PARTICIPANT</key>
+	<string>‏آپ اس گروپ میں پیغامات نہیں بھیج سکتے کیونکہ اب آپ ممبر نہیں رہے۔</string>
+	<key>HOME_SCREEN_APP_NAME</key>
+	<string>‏WhatsApp</string>
+	<key>INCOMPATIBLE_ADD_ONS_ON_JAILBROKEN_PHONE</key>
+	<string>‏آپ اپنے جیل بروکن iPhone پر جو اشتہارات استعمال کر رہے ہیں وہ %1$@ کے اس ورژن سے مطابقت نہیں رکھتے۔</string>
+	<key>INPUT_LABEL_EMAIL</key>
+	<string>‏ای میل</string>
+	<key>INSTAGRAM</key>
+	<string>‏Instagram</string>
+	<key>INTERNET_REQUIRED_TO_UPDATE_SETTINGS</key>
+	<string>‏آپ کی ترتیبات کو اپ ڈیٹ کرنے کیلئے %1$@ کو ایک فعال انٹرنیٹ کنکشن درکار ہوتا ہے</string>
+	<key>JAILBROKEN_NO_SUPPORT_AVAILABLE</key>
+	<string>‏افسوس، اس وقت ہم قفل شکنی والے آلات کی معاونت نہیں کر سکتے۔
+‏
+‏اگر آپ کو مشکلات پیش آ رہی ہیں، تو براہ کرم اپنے آلے کو خلقی صنعتی ترتیبات پر بحال کریں۔</string>
+	<key>JOINED_BIZ_CATEGORIES</key>
+	<string>‏%1$@، %2$@</string>
+	<key>JOINED_SENTENCES</key>
+	<string>‏%1$@ %2$@</string>
+	<key>LABEL_DATE_ANNIVERSARY</key>
+	<string>‏سالگرہ</string>
+	<key>LABEL_HOME</key>
+	<string>‏گھر</string>
+	<key>LABEL_OTHER</key>
+	<string>‏دیگر</string>
+	<key>LABEL_PHONE_NUMBER_HOME_FAX</key>
+	<string>‏گھر کا فیکس</string>
+	<key>LABEL_PHONE_NUMBER_MAIN</key>
+	<string>‏بنیادی</string>
+	<key>LABEL_PHONE_NUMBER_MOBILE</key>
+	<string>‏موبائل</string>
+	<key>LABEL_PHONE_NUMBER_OTHER_FAX</key>
+	<string>‏دیگر فیکس</string>
+	<key>LABEL_PHONE_NUMBER_PAGER</key>
+	<string>‏پیجر</string>
+	<key>LABEL_PHONE_NUMBER_WORK_FAX</key>
+	<string>‏دفتر کا فیکس</string>
+	<key>LABEL_SCHOOL</key>
+	<string>‏سکول</string>
+	<key>LABEL_URL_ADDRESS_HOME</key>
+	<string>‏ہوم صفحہ</string>
+	<key>LABEL_WORK</key>
+	<string>‏دفتر</string>
+	<key>LINK_ACCESSIBILITY_HINT</key>
+	<string>‏لنک کھولنے کے لیے دہرا ٹیپ کریں</string>
+	<key>LIVE_LOCATION_ENDED</key>
+	<string>‏لائیو مقام ختم ہوگیا</string>
+	<key>LIVE_LOCATION_ENDED_VOICEOVER</key>
+	<string>‏لائیو مقام ختم ہو گیا</string>
+	<key>LOCALIZED_APP_NAME_LONG</key>
+	<string>‏WhatsApp Messenger</string>
+	<key>LOCALIZED_APP_NAME_SHORT</key>
+	<string>‏WhatsApp</string>
+	<key>LOCALIZED_SMB_APP_NAME_LONG</key>
+	<string>‏WhatsApp Business</string>
+	<key>LOCALIZED_SMB_APP_NAME_SHORT</key>
+	<string>‏WhatsApp Business</string>
+	<key>MATCHING_VCARD_CONTACTS_TITLE</key>
+	<string>‏میل کھا رہے ہیں</string>
+	<key>MEDIA_ANIMATED_GIF</key>
+	<string>‏متحرک GIF</string>
+	<key>MEDIA_AUDIO</key>
+	<string>‏آڈیو</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{0}}</key>
+	<string>‏%@ آڈیو منتخب</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{1}}</key>
+	<string>‏%@ آڈیوز منتخب</string>
+	<key>MEDIA_CANNOT_BESELECTED</key>
+	<string>‏یہ چیز منتخب نہیں ہو سکی۔ براہ کرم کسی اور چیز کا انتخاب کریں۔</string>
+	<key>MEDIA_DOCUMENT</key>
+	<string>‏دستاویز</string>
+	<key>MEDIA_GIF</key>
+	<string>‏GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{0}}</key>
+	<string>‏%@ GIF منتخب</string>
+	<key>MEDIA_GIFS_SELECTED_{{1}}</key>
+	<string>‏%@ GIFs منتخب</string>
+	<key>MEDIA_ITEMS_SELECTED_{{0}}</key>
+	<string>‏%@ چیز منتخب</string>
+	<key>MEDIA_ITEMS_SELECTED_{{1}}</key>
+	<string>‏%@ چیزیں منتخب</string>
+	<key>MEDIA_ITEMS_{{0}}</key>
+	<string>‏%@ چیز</string>
+	<key>MEDIA_ITEMS_{{1}}</key>
+	<string>‏%@ چیزیں</string>
+	<key>MEDIA_LANDSCAPE</key>
+	<string>‏قدرتی منظر</string>
+	<key>MEDIA_LIVE_LOCATION</key>
+	<string>‏لائیو مقام</string>
+	<key>MEDIA_LOCATION</key>
+	<string>‏مقام</string>
+	<key>MEDIA_PAGES_{{0}}</key>
+	<string>‏%@ صفحہ</string>
+	<key>MEDIA_PAGES_{{1}}</key>
+	<string>‏%@ صفحے</string>
+	<key>MEDIA_PHOTO</key>
+	<string>‏تصویر</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{0}}</key>
+	<string>‏%@ تصویر منتخب ہوگئی</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{1}}</key>
+	<string>‏%@ تصاویر منتخب ہوگئیں</string>
+	<key>MEDIA_PHOTOS_{{0}}</key>
+	<string>‏%@ تصویر</string>
+	<key>MEDIA_PHOTOS_{{1}}</key>
+	<string>‏%@ تصاویر</string>
+	<key>MEDIA_PORTRAIT</key>
+	<string>‏کھڑی تصویرنما</string>
+	<key>MEDIA_PRODUCTS_{{0}}</key>
+	<string>‏%@ پروڈکٹ</string>
+	<key>MEDIA_PRODUCTS_{{1}}</key>
+	<string>‏%@ پروڈکٹس</string>
+	<key>MEDIA_PTT_LOW_VOLUME_WARNING</key>
+	<string>‏خاموشی ختم کرنے کیلئے والیوم تیز کرنے کے بٹن کو دبائیں</string>
+	<key>MEDIA_SELECT</key>
+	<string>‏منتخب کریں</string>
+	<key>MEDIA_SHEETS_{{0}}</key>
+	<string>‏%@ ورق</string>
+	<key>MEDIA_SHEETS_{{1}}</key>
+	<string>‏%@ اوراق</string>
+	<key>MEDIA_SLIDES_{{0}}</key>
+	<string>‏%@ اسلائڈ</string>
+	<key>MEDIA_SLIDES_{{1}}</key>
+	<string>‏%@ اسلائڈس</string>
+	<key>MEDIA_VIDEO</key>
+	<string>‏ویڈیو</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{0}}</key>
+	<string>‏%@ ویڈیو منتخب</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{1}}</key>
+	<string>‏%@ ویڈیوز منتخب</string>
+	<key>MEDIA_VIDEOS_{{0}}</key>
+	<string>‏%@ ویڈیو</string>
+	<key>MEDIA_VIDEOS_{{1}}</key>
+	<string>‏%@ ویڈیوز</string>
+	<key>MEDIA_VOICE_MESSAGE</key>
+	<string>‏صوتی پیغام</string>
+	<key>MESSAGE_GENERIC</key>
+	<string>‏پیغام</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{0}}</key>
+	<string>‏میرا اسٹیٹس پر صرف پہلا %@ کریکٹر بھیجا جائے گا۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{1}}</key>
+	<string>‏میرا اسٹیٹس پر صرف پہلے %@ کریکٹرز بھیجے جائیں گے۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{0}}</key>
+	<string>‏صرف پہلا %@ حرف ہی بھیجا جائیگا۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{1}}</key>
+	<string>‏صرف پہلے %@ حروف ہی بھیجے جائینگے۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+	<key>MESSAGE_TYPE_CONTACT</key>
+	<string>‏رابطہ</string>
+	<key>MULTISEND_FIT_TO_SCREEN</key>
+	<string>‏اسکرین کے مطابق</string>
+	<key>MULTISEND_ORIGINAL</key>
+	<string>‏اصل</string>
+	<key>MULTISEND_PICKER_HEADER_EMOJI</key>
+	<string>‏ایموجی</string>
+	<key>MULTISEND_PICKER_HEADER_FAVORITE_STICKERS</key>
+	<string>‏پسندیدہ</string>
+	<key>MULTISEND_PICKER_HEADER_STICKERS</key>
+	<string>‏اسٹیکرز</string>
+	<key>MULTISEND_SQUARE</key>
+	<string>‏چوکور</string>
+	<key>NICKNAME_LABEL</key>
+	<string>‏عرف</string>
+	<key>NOTIFICATION_CONTACT_AT_GROUP_MESSAGE</key>
+	<string>‏%1$@ @ "%2$@":
+‏%3$@</string>
+	<key>NOTIFICATION_CONTACT_MESSAGE</key>
+	<string>‏%1$@: %2$@</string>
+	<key>NOTIFICATION_MESSAGE</key>
+	<string>‏پیغام</string>
+	<key>NOTIFICATION_MESSAGE_FROM</key>
+	<string>‏%@ کی جانب سے پیغام</string>
+	<key>NOTIFICATION_MESSAGE_FROM_CONTACT_AT_GROUP</key>
+	<string>‏%1$@ کی جانب سے پیغام @ "%2$@"</string>
+	<key>NOTIFICATION_TITLE_CONTACT</key>
+	<string>‏%1$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT_AT_GROUP</key>
+	<string>‏%1$@ @ %2$@</string>
+	<key>NO_RESULTS</key>
+	<string>‏کوئی نتائج نہیں</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‏اس طرح آپ اپنے کیلینڈر میں وقوعات درج کر سکتے ہیں۔</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‏یہ آپ کو براہ راست WhatsApp ہی سے تصاویر اور ویڈیوز لینے دیگا۔</string>
+	<key>NSContactsUsageDescription</key>
+	<string>‏اپنے روابط کو WhatsApp کے سرورز پر اپ لوڈ کریں تاکہ آپ اپنے دوستوں سے بہتر انداز میں رابطے میں رہ سکیں اور ہمیں آپ کو بہتر تجربہ فراہم کرنے میں مدد کریں۔</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>‏WhatsApp پر اجازت دہندگی کیلئے Face ID استعمال کریں۔</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>‏اگر آپ ہمیشہ اپنے مقام تک رسائی کی اجازت دیتے ہیں تو اپنا لائیو مقام شیئر کرنے کا انتخاب کر سکتے ہیں اور یہ تب بھی اپ ڈیٹ ہوگا جب آپ ایپ استعمال نہ کر رہے ہوں۔ اگر آپ صرف ایپ استعمال کرتے ہوئے رسائی کی اجازت دیتے ہیں تو بس اپنا موجودہ مقام یا قریبی جگہ بھیج سکتے ہیں۔</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>‏اگر آپ ہمیشہ اپنے مقام تک رسائی کی اجازت دیتے ہیں تو اپنا لائیو مقام شیئر کرنے کا انتخاب کر سکتے ہیں اور یہ تب بھی اپ ڈیٹ ہوتا رہے گا جب آپ ایپ استعمال نہ کر رہے ہوں۔ اس طرح آپ اپنا موجودہ مقام یا قریبی جگہ بھی بھیج پائیں گے۔</string>
+	<key>NSLocationUsageDescription</key>
+	<string>‏یہ آپ کو چیٹس میں اپنا موجودہ مقام اور قریبی جگہیں بھیجنے کی سہولت دیتا ہے۔</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>‏یہ آپ کو چیٹس میں آپ کا موجودہ مقام یا قریبی جگہیں بھیجنے کی سہولت دیتا ہے۔</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‏اس طرح آپ کالز کر سکتے ہیں، صوتی پیغامات بھیج سکتے ہیں، اور آواز کے ساتھ ویڈیوز ریکارڈ کر سکتے ہیں۔</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‏اس طرح آپ اپنی لائبریری سے تصاویر اور ویڈیوز بھیج سکتے ہیں اور جنہیں خود کھینچا ہو انہیں محفوظ کر سکتے ہیں۔</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>‏اس طرح آپ اپنے دوستوں کو جوابی کال کرنے کی یاد دہانی طے کر سکتے ہیں۔</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‏یہ آپ کو تیزی سے پیغامات بھیجنے اور پڑھنے اور کالز کرنے کے لیے Siri کا استعمال کرنے دیگا۔</string>
+	<key>OPERATION_ABORTED</key>
+	<string>‏یہ کارروائی روک دی گئی۔</string>
+	<key>OPERATION_CANCELLED</key>
+	<string>‏یہ کارروائی منسوخ کی گئی۔</string>
+	<key>OTHERS_VCARD_CONTACTS_TITLE</key>
+	<string>‏دیگر</string>
+	<key>PAYMENT_NOTIFICATION</key>
+	<string>‏ادائیگی</string>
+	<key>PAYMENT_REQUEST_NOTIFICATION</key>
+	<string>‏ادائیگی کی درخواست</string>
+	<key>PERM_CALENDARS</key>
+	<string>‏%1$@ کو آپ کے کیلنڈرز تک رسائی نہیں ہے۔
+‏رسائی دینے کیلئے ترتیبات پر ٹیپ کریں اور کیلنڈرز آن کریں</string>
+	<key>PERM_FACEID</key>
+	<string>‏%1$@ کے پاس Face ID تک رسائی نہیں ہے۔ رسائی فعال کرنے کیلئے: ترتیبات &gt; ٖFace ID اور پاس کوڈ &gt; اس کیلئے Face ID استعمال کریں: &gt; دیگر ایپس پر جائیں۔</string>
+	<key>PERM_LOCATION_7</key>
+	<string>‏%1$@ کو آپ کے مقام پر رسائی نہیں ہے۔
+‏رسائی فعال کرنے کیلئے iPhone ترتیبات &gt; رازداری &gt; مقام کی سروسز &gt; %2$@ پر جائیں۔</string>
+	<key>PERM_PHOTOS_7</key>
+	<string>‏%1$@ کو آپ کی تصاویر یا ویڈیوز تک رسائی نہیں ہے۔
+‏رسائی فعال کرنے کیلئے iPhone ترتیبات &gt; رازداری &gt; تصاویر &gt; %2$@ پر جائیں۔</string>
+	<key>PERM_REMINDERS</key>
+	<string>‏%1$@ کو آپ کی یاددہانیوں تک رسائی نہیں ہے۔
+‏رسائی دینے کیلئے ترتیبات پر ٹیپ کریں اور یاددہانیاں آن کریں</string>
+	<key>PHONE_VERIFICATION_RESEND_CODE</key>
+	<string>‏کوڈ واپس بھیجیں</string>
+	<key>PHONE_VERIFICATION_RESEND_SMS</key>
+	<string>‏%@ میں کوڈ واپس بھیجیں</string>
+	<key>PHOTO_LIBRARY_ERROR_SAVE_FAILED</key>
+	<string>‏اس میڈیا کو محفوظ نہیں کیا جا سکتا۔</string>
+	<key>PHOTO_LIBRARY_PERMISSIONS</key>
+	<string>‏%1$@ کو آپ کی تصاویر یا ویڈیوز تک رسائی نہیں ہے۔ رسائی فعال کرنے کیلئے ترتیبات پر ٹیپ کریں اور تصاویر آن کریں۔</string>
+	<key>PHOTO_LIBRARY_PHOTO_ASSET_NOT_READY</key>
+	<string>‏تصویر لوڈ ہو رہی ہے</string>
+	<key>PHOTO_LIBRARY_PHOTO_FAILED</key>
+	<string>‏یہ تصویر استعمال نہیں ہو سکتی۔ براہ کرم کوئی اور تصویر منتخب کریں۔</string>
+	<key>PHOTO_LIBRARY_PHOTO_NOT_READY_YET</key>
+	<string>‏یہ تصویر ابھی لوڈ ہو رہی ہے، لہذا براہ مہربانی بعد میں پھر کوشش کریں۔</string>
+	<key>PHOTO_LIBRARY_VIDEO_ASSET_NOT_READY</key>
+	<string>‏ویڈیو لوڈ ہو رہی ہے</string>
+	<key>PHOTO_LIBRARY_VIDEO_FAILED</key>
+	<string>‏اس ویڈیو کا استعمال نہیں کیا جا سکتا۔ براہ کرم دوسری ویڈیو چنیں۔</string>
+	<key>PHOTO_LIBRARY_VIDEO_NOT_READY_YET</key>
+	<string>‏یہ ویڈیو ابھی لوڈ ہو رہی ہے، لہذا براہ مہربانی بعد میں پھر کوشش کریں۔</string>
+	<key>PIN_ENTRY_FIELD_ACCESSIBILITY_LABEL</key>
+	<string>‏پن کے داخلے کی جگہ</string>
+	<key>PIP_VIDEO_CANNOT_BE_PLAYED</key>
+	<string>‏یہ ویڈیو پلے نہیں ہو سکتی۔</string>
+	<key>PLACEHOLDER_SEARCH</key>
+	<string>‏تلاش کریں</string>
+	<key>PRODUCT</key>
+	<string>‏پروڈکٹ</string>
+	<key>QUOTED_LIVE_LOCATION_SNIPPET</key>
+	<string>‏لائیو مقام</string>
+	<key>RECIPIENTS_SEND_TO</key>
+	<string>‏بنام:</string>
+	<key>REG_INVALID_CODE</key>
+	<string>‏آپ کا درج کردہ کوڈ غلط ہے۔</string>
+	<key>REQUEST_TOOK_TOO_LONG_TRY_AGAIN_LATER</key>
+	<string>‏کچھ خرابی ہوئی۔ آپ کی درخواست میں بڑی تاخیر ہوئی۔ براہ کرم بعد میں پھر کوشش کریں۔</string>
+	<key>REQUIRED_PLACEHOLDER</key>
+	<string>‏درکار ہے</string>
+	<key>REVOKE_QR_CODE_ERROR</key>
+	<string>‏غلط کوڈ کا تعین ہوا ہے</string>
+	<key>REVOKE_QR_CODE_ERROR_MESSAGE</key>
+	<string>‏یہ کوڈ اب درست نہیں ہے۔ ممکن ہے کہ اسے ری سیٹ کر دیا گیا ہو یا اکاؤنٹ اب موجود نہ ہو۔</string>
+	<key>ROTATION_DEGREES_{{0}}</key>
+	<string>‏%@ درجہ</string>
+	<key>ROTATION_DEGREES_{{1}}</key>
+	<string>‏%@ درجے</string>
+	<key>SENDER_ADDED_YOU_TO_GROUP</key>
+	<string>‏%1$@ نے آپ کو گروپ "%2$@" میں شامل کیا ہے</string>
+	<key>SEND_FULL</key>
+	<string>‏بھیجیں</string>
+	<key>SERVICE_EXTENSION_REVOKE_MESSAGE</key>
+	<string>‏%1$@ نے پیغام حذف کر دیا۔</string>
+	<key>SERVICE_PROBLEM</key>
+	<string>‏سروس کے ساتھ مسئلہ درپیش تھا۔ کوڈ = %ld۔</string>
+	<key>SETTINGS_APP</key>
+	<string>‏ترتیبات</string>
+	<key>SHARE_CONTACT_SHORT</key>
+	<string>‏رابطہ شیئر کریں</string>
+	<key>SINGLE_MESSAGE_SEND_FAILED</key>
+	<string>‏پیغام بھیجا نہ جا سکا۔</string>
+	<key>SMB_PRODUCT_CATALOG_MESSAGE_BUSINESS</key>
+	<string>‏کاروبار کو پیغام بھیجیں</string>
+	<key>SMB_PRODUCT_CATALOG_RETRIEVE_ERROR</key>
+	<string>‏کچھ غلط ہو گیا۔ اپنے آلے کا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں۔</string>
+	<key>STANDALONE_ME</key>
+	<string>‏میں</string>
+	<key>STANDALONE_YOU</key>
+	<string>‏آپ</string>
+	<key>STATUSV3</key>
+	<string>‏اسٹیٹس</string>
+	<key>STATUSV3_MY_STATUS</key>
+	<string>‏میرا اسٹیٹس</string>
+	<key>STATUS_COLOR_BALI_HAI</key>
+	<string>‏سرمئی</string>
+	<key>STATUS_COLOR_BITTERSWEET</key>
+	<string>‏سرخابی</string>
+	<key>STATUS_COLOR_BRANDY_ROSE</key>
+	<string>‏میلا گلابی</string>
+	<key>STATUS_COLOR_BRIGHT_SUN</key>
+	<string>‏زعفرانی</string>
+	<key>STATUS_COLOR_CE_SOIR</key>
+	<string>‏Ce Soir</string>
+	<key>STATUS_COLOR_EARLS_GREEN</key>
+	<string>‏روشن زیتونی</string>
+	<key>STATUS_COLOR_ELEPHANT</key>
+	<string>‏گہرا خاکستری</string>
+	<key>STATUS_COLOR_EMERALD</key>
+	<string>‏سبز</string>
+	<key>STATUS_COLOR_MAYA_BLUE</key>
+	<string>‏روشن نیلا</string>
+	<key>STATUS_COLOR_MAYA_BLUE_2</key>
+	<string>‏روشن نیلا</string>
+	<key>STATUS_COLOR_MEDIUM_RED_VIOLET</key>
+	<string>‏یاقوتی</string>
+	<key>STATUS_COLOR_MONA_LISA</key>
+	<string>‏بھڑکیلا گلابی</string>
+	<key>STATUS_COLOR_MONTE_CARLO</key>
+	<string>‏دریائی سبز</string>
+	<key>STATUS_COLOR_POLO_BLUE</key>
+	<string>‏ہلکا فالسائی</string>
+	<key>STATUS_COLOR_PRELUDE</key>
+	<string>‏سفیدی مائل نیلا</string>
+	<key>STATUS_COLOR_SCARLETT</key>
+	<string>‏ارغوانی</string>
+	<key>STATUS_COLOR_SCORPION</key>
+	<string>‏خاکستر شرابی</string>
+	<key>STATUS_COLOR_SUMMER_SKY</key>
+	<string>‏فیروزی</string>
+	<key>STATUS_COLOR_SUNDANCE</key>
+	<string>‏ماشی ناچ</string>
+	<key>STATUS_COLOR_VIVID_VIOLET</key>
+	<string>‏چمکیلا بنفشی</string>
+	<key>STATUS_COLOR_WASABI</key>
+	<string>‏واسابی</string>
+	<key>STATUS_FONT_BRYNDAN</key>
+	<string>‏برنڈن رائٹ</string>
+	<key>STATUS_FONT_GEORGIA</key>
+	<string>‏جارجیا</string>
+	<key>STATUS_FONT_HELVETICA</key>
+	<string>‏ہیلویٹیکا</string>
+	<key>STATUS_FONT_NORICAN</key>
+	<string>‏نوریکان</string>
+	<key>STATUS_FONT_OSWALD</key>
+	<string>‏اوسوالڈ ہیوی</string>
+	<key>STATUS_PREPARING</key>
+	<string>‏تیاری جاری---</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{0}}</key>
+	<string>‏%@ خارج ہے</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{1}}</key>
+	<string>‏%@ خارج ہیں</string>
+	<key>STATUS_PRIVACY_MY_CONTACTS</key>
+	<string>‏میرے روابط</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_BODY_TEXT</key>
+	<string>‏%@ کو اپنے روابط تک رسائی کی اجازت دیں تاکہ آپ ان سے اسٹیٹس اپ ڈیٹس کا تبادلہ کر سکیں۔ ایسا کرنے کیلئے، ترتیبات پر ٹیپ کریں اور روابط کو آن کریں۔</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_TITLE</key>
+	<string>‏اسٹیٹس اپ ڈیٹس دستیاب نہیں ہیں</string>
+	<key>STICKER</key>
+	<string>‏اسٹیکر</string>
+	<key>STICKER_SEARCH_RESULTS</key>
+	<string>‏اسٹیکر نتائج برائے "%@"</string>
+	<key>STR_BIZ_APPT_ONLY</key>
+	<string>‏صرف اپوائنٹمنٹ سے</string>
+	<key>STR_BIZ_CLOSED</key>
+	<string>‏بند</string>
+	<key>STR_BIZ_OPEN_24H</key>
+	<string>‏۲۴ گھنٹے کھلا</string>
+	<key>STR_SOCIAL_FACEBOOK</key>
+	<string>‏Facebook</string>
+	<key>STR_STATUS_WHATSAPP_STATUS</key>
+	<string>‏WhatsApp اسٹیٹس</string>
+	<key>SUSPICIOUS_LINK_WARNING</key>
+	<string>‏مشکوک لنک</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{0}}</key>
+	<string>‏%@ مشکوک لنک</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{1}}</key>
+	<string>‏%@ مشکوک لنکس</string>
+	<key>TAP_FOR_MORE</key>
+	<string>‏زیادہ کے لیے ٹیپ کریں</string>
+	<key>TAP_TO_CANCEL</key>
+	<string>‏منسوخ کرنے کے لیے ٹیپ کریں</string>
+	<key>TAP_TO_DOWNLOAD</key>
+	<string>‏ڈاؤن لوڈ کرنے کیلئے ٹیپ کریں</string>
+	<key>TAP_TO_EDIT</key>
+	<string>‏ترمیم کے لیے ٹیپ کریں</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{0}}_MAXIMUM</key>
+	<string>‏اسٹیکر پیک کے شناخت کار کے کریکٹرز کافی کم ہیں۔ کم از کم حد %@ کریکٹر کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{1}}_MAXIMUM</key>
+	<string>‏اسٹیکر پیک کے شناخت کار کے کریکٹرز کافی کم ہیں۔ کم از کم حد %@ کریکٹرز کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORTING_ERROR</key>
+	<string>‏اس اسٹیکر پیک کے ساتھ کوئی مسئلہ ہے نیز %1$@ میں شامل نہیں کیا جا سکتا۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{0}}_MINIMUM</key>
+	<string>‏اس پیک میں اسٹیکرز کی تعداد %1$@ اور %2$@ کے بیچ نہیں ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{1}}_MINIMUM</key>
+	<string>‏اس پیک میں اسٹیکرز کی تعداد %1$@ اور %2$@ کے بیچ نہیں ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_APP_STORE_LINK</key>
+	<string>‏اسٹیکر پیک کا App Store لنک غلط ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_PLAY_STORE_LINK</key>
+	<string>‏اسٹیکر پیک کا Play Store لنک غلط ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_STICKER_IMAGE</key>
+	<string>‏اس اسٹیکر پیک میں موجود ایک اسٹیکر پیک کا اثاثہ غلط ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‏کسی ایک اسٹیکر کی ابعاد %1$@X%1$@ پکسل نہیں ہیں۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‏کسی ایک اسٹیکر کی ابعاد %1$@X%1$@ پکسلز نہیں ہیں۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‏کسی ایک اسٹیکر کا سائز کافی زیادہ بڑا ہے۔ زیادہ سے زیادہ حد %@KB کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‏کسی ایک اسٹیکر کا سائز کافی زیادہ بڑا ہے۔ زیادہ سے زیادہ حد %@KB کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{0}}_MAXIMUM</key>
+	<string>‏اس اسٹیکر پیک کے نام، پبلیشر یا شناخت کار کے کافی زیادہ کریکٹرز ہیں یا پھر خالی ہے۔ زیادہ سے زیادہ حد %@ کریکٹر کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{1}}_MAXIMUM</key>
+	<string>‏اس اسٹیکر پیک کے نام، پبلیشر یا شناخت کار کے کافی زیادہ کریکٹرز ہیں یا پھر خالی ہے۔ زیادہ سے زیادہ حد %@ کریکٹرز کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{0}}_MAXIMUM</key>
+	<string>‏کسی ایک اسٹیکر میں کافی زیادہ ایموجیز ہیں۔ زیادہ سے زیادہ حد %@ ایموجی کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{1}}_MAXIMUM</key>
+	<string>‏کسی ایک اسٹیکر میں کافی زیادہ ایموجیز ہیں۔ زیادہ سے زیادہ حد %@ ایموجی کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‏ٹرے تصویر کی ابعاد %1$@X%1$@ پکسل نہیں ہیں۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‏ٹرے تصویر کی ابعاد %1$@X%1$@ پکسلز نہیں ہیں۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‏ٹرے تصویر کا سائز کافی بڑا ہے۔ زیادہ سے زیادہ حد %@KB کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‏ٹرے تصویر کا سائز کافی بڑا ہے۔ زیادہ سے زیادہ حد %@KB کی ہے۔</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_WRONG_BUNDLE_ID</key>
+	<string>‏جو ایپ اس اسٹیکر پیک کو ہوسٹ کرتی ہے اس کا بنڈل کا شناخت کار غلط ہے۔</string>
+	<key>TITLE_CHATS</key>
+	<string>‏چیٹس</string>
+	<key>TITLE_PHOTOS</key>
+	<string>‏فوٹوز</string>
+	<key>TRANSCODER_ALERT_COULD_NOT_SHARE_VIDEO</key>
+	<string>‏ویڈیو شیئر نہیں ہو سکی</string>
+	<key>TRANSCODER_ERROR_BLANK_VIDEO_FILE</key>
+	<string>‏یہ ویڈیو خالی ہے۔</string>
+	<key>TRANSCODER_ERROR_UNUSABLE_VIDEO</key>
+	<string>‏یہ ویڈیو شیئر نہیں ہو سکتی۔ براہ کرم کوئی دوسری ویڈیو شیئر کریں۔</string>
+	<key>TRY_AGAIN_LATER</key>
+	<string>‏براہ کرم بعد میں پھرکوشش کریں۔</string>
+	<key>UNBLOCK_SHORTENED</key>
+	<string>‏ان بلاک کریں</string>
+	<key>UNKNOWN_CALLER</key>
+	<string>‏نامعلوم</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{0}}</key>
+	<string>‏%1$@ اور %2$@ دوسرا رابطہ</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{1}}</key>
+	<string>‏%1$@ اور %2$@ دوسرے روابط</string>
+	<key>VCARD_SHARE_CONTACTS_{{0}}</key>
+	<string>‏%@ رابطہ شیئر کریں</string>
+	<key>VCARD_SHARE_CONTACTS_{{1}}</key>
+	<string>‏%@ روابط شیئر کریں</string>
+	<key>VIDEO_RECORDING_PERMISSIONS</key>
+	<string>‏آواز کے ساتھ ویڈیوز ریکارڈ کرنے کیلئے، %1$@ کو مائیکرو فون تک رسائی درکار ہے۔ رسائی فعال کرنے کیلئے iPhone کی ترتیبات &gt; رازداری &gt; مائیکرو فون پر جائیں اور %2$@ کیلئے آن کریں۔</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_IOS8</key>
+	<string>‏آواز کے ساتھ ویڈیوز ریکارڈ کرنے کیلئے، %1$@ کو مائیکرو فون تک رسائی درکار ہے۔ رسائی فعال کرنے کیلئے ترتیبات پر ٹیپ کریں اور مائیکرو فون آن کریں۔</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_TITLE</key>
+	<string>‏آواز کے ساتھ ویڈیوز چاہیئے؟</string>
+	<key>VISION_BOTTOM</key>
+	<string>‏نچلے حصے کے قریب</string>
+	<key>VISION_BOTTOM_LEFT</key>
+	<string>‏نیچے بائیں طرف کے قریب</string>
+	<key>VISION_BOTTOM_RIGHT</key>
+	<string>‏نیچے دائیں طرف کے قریب</string>
+	<key>VISION_CENTER</key>
+	<string>‏مرکز</string>
+	<key>VISION_CENTERED</key>
+	<string>‏مرکز میں</string>
+	<key>VISION_FACE_COUNT_{{0}}</key>
+	<string>‏فریم میں ایک چہرہ ہے</string>
+	<key>VISION_FACE_COUNT_{{1}}</key>
+	<string>‏فریم میں {1} چہرے ہیں</string>
+	<key>VISION_LEFT_EDGE</key>
+	<string>‏بایاں کنارہ</string>
+	<key>VISION_NO_FACES</key>
+	<string>‏فریم میں کوئی چہرہ نہیں ہے</string>
+	<key>VISION_RIGHT_EDGE</key>
+	<string>‏دایاں کنارہ</string>
+	<key>VISION_TOP</key>
+	<string>‏بالائی حصے کے قریب</string>
+	<key>VISION_TOP_LEFT</key>
+	<string>‏اوپر بائیں طرف کے قریب</string>
+	<key>VISION_TOP_RIGHT</key>
+	<string>‏اوپر دائیں طرف کے قریب</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{0}}</key>
+	<string>‏فعالیت کا کوڈ۔ %2$@ میں سے %1$@ قدر درج ہو گئی۔</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{1}}</key>
+	<string>‏فعالیت کا کوڈ۔ %2$@ میں سے %1$@ اقدار درج ہو گئیں۔</string>
+	<key>VOICEOVER_ALERT</key>
+	<string>‏تنبیہ</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{0}}</key>
+	<string>‏%@ کریکٹر باقی</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{1}}</key>
+	<string>‏%@ کریکٹرز باقی</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA</key>
+	<string>‏کوئی اور تصویر یا ویڈیو شامل کریں</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA_REPLY</key>
+	<string>‏موجودہ تصویر یا ویڈیو کے ساتھ جواب دیں</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA</key>
+	<string>‏ایک اور تصویر یا  ویڈیو لیں</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA_REPLY</key>
+	<string>‏نئی تصویر یا ویڈیو کے ساتھ جواب دیں</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION</key>
+	<string>‏کیپشن کی ٹیکسٹ فیلڈ</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_ADD_HINT</key>
+	<string>‏کیپشن شامل کرنے کیلئے دو بار ٹیپ کریں</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_CHANGE_HINT</key>
+	<string>‏کیپشن تبدیل کرنے کیلئے دو بار ٹیپ کریں</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY</key>
+	<string>‏جواب کی ٹیکسٹ فیلڈ</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_ADD_HINT</key>
+	<string>‏جواب شامل کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_CHANGE_HINT</key>
+	<string>‏جواب تبدیل کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_ACTIVATE</key>
+	<string>‏فعال کرنے کیلئے دو بار ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CANCEL</key>
+	<string>‏منسوخ کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CLOSE</key>
+	<string>‏بند کرنے کے لیے دوہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DESELECT</key>
+	<string>‏غیر منتخب کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DOWNLOAD</key>
+	<string>‏ڈاؤن لوڈ کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_EDIT</key>
+	<string>‏ترمیم کرنے کیلئے دو بار ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_OPEN</key>
+	<string>‏کھولنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_PLAY</key>
+	<string>‏پلے کرنے کیلئے دو بار ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_SELECT</key>
+	<string>‏منتخب کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_TOGGLE_SETTING</key>
+	<string>‏ترتیب کو بند یا چالو کرنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_EDIT</key>
+	<string>‏پہلو تناسب</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_LIST</key>
+	<string>‏پہلو تناسبات کی فہرست دیکھنے کے لیے  دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ROTATE</key>
+	<string>‏چیز کو گھمائیں</string>
+	<key>VOICEOVER_FILTER_MODE_ENTER</key>
+	<string>‏فلٹر لگائیں</string>
+	<key>VOICEOVER_FILTER_MODE_EXIT_HINT</key>
+	<string>‏فلٹر انتخاب وضع سے باہر نکلنے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_GIF</key>
+	<string>‏اس وقت  GIF کے طور پر بھیجا جا رہا ہے</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_VIDEO</key>
+	<string>‏فی الحال ویڈیو کے طور پر بھیجا جا رہا ہے</string>
+	<key>VOICEOVER_GIF_SEND_AS_GIF</key>
+	<string>‏GIF کے طور پر بھیجیں</string>
+	<key>VOICEOVER_GIF_SEND_AS_VIDEO</key>
+	<string>‏ویڈیو کے طور پر بھیجیں</string>
+	<key>VOICEOVER_GIF_TOGGLE_HINT</key>
+	<string>‏ویڈیو کے اور GIF کے طور پر بھیجنے کے بیچ ٹاگل کرنے کے لیے ایک ساتھ دوچند ٹیپ کریں</string>
+	<key>VOICEOVER_MEDIA_BROWSER_EDIT_DONE</key>
+	<string>‏اپنی تصاویر کو ترتیب دے لینے کے بعد یہاں ٹیپ کریں</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_GIF</key>
+	<string>‏GIF تک جانے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_PHOTO</key>
+	<string>‏تصویر تک نیویگیٹ کرنے کیلئے دو بار ٹیپ کریں</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_VIDEO</key>
+	<string>‏ویڈیو تک جانے کے لیے دہرا ٹیپ کریں</string>
+	<key>VOICEOVER_MULTISEND_ADD_EMOJI</key>
+	<string>‏ایموجی شامل کریں</string>
+	<key>VOICEOVER_MULTISEND_ADD_TEXT</key>
+	<string>‏ٹیکسٹ شامل کریں</string>
+	<key>VOICEOVER_MULTISEND_CROP_AND_TILT</key>
+	<string>‏آئٹم کو کراپ کریں اور ٹیڑھا کریں</string>
+	<key>VOICEOVER_MULTISEND_DELETE</key>
+	<string>‏موجودہ آئٹم حذف کریں</string>
+	<key>VOICEOVER_MULTISEND_PAINT</key>
+	<string>‏رنگ کی کونچی</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_CROPPED</key>
+	<string>‏کراپ شدہ</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_NO_CHANGE</key>
+	<string>‏اصل</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_ROTATED</key>
+	<string>‏گھمایا ہوا</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{0}}</key>
+	<string>‏%@ میڈیا آئٹم</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{1}}</key>
+	<string>‏%@ میڈیا آئٹمز</string>
+	<key>VOICEOVER_NOTIFICATION_DOWNLOADING_PTT_MESSAGE</key>
+	<string>‏صوتی پيغام - ڈاؤن لوڈ ہو رہا ہے</string>
+	<key>VOICEOVER_NOTIFICATION_PTT_MESSAGE</key>
+	<string>‏صوتی پیغام۔</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST</key>
+	<string>‏ممبرز: %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{0}}</key>
+	<string>‏ممبرز: __نام __اور%@ديگر</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{1}}</key>
+	<string>‏ممبرز: __نام __اور%@ديگر</string>
+	<key>VOICEOVER_PHOTO_CROP_AND_TILT_LABEL</key>
+	<string>‏کراپ کریں اور ٹیڑھا کریں</string>
+	<key>VOICEOVER_PLAY_VIDEO</key>
+	<string>‏ویڈیو پلے کریں</string>
+	<key>VOICEOVER_REMOVED</key>
+	<string>‏ہٹایا گیا</string>
+	<key>VOICEOVER_REMOVE_LINK_PREVIEW</key>
+	<string>‏لنک کا پیش منظر ہٹائیں</string>
+	<key>VOICEOVER_SELECTED</key>
+	<string>‏منتخب</string>
+	<key>VOICEOVER_STICKER_PACK_HEADER</key>
+	<string>‏%@، ہیڈر</string>
+	<key>VOICE_OVER_POSITION</key>
+	<string>‏موجودہ جگہ۔ %2$@۔ میں سے %1$@۔</string>
+	<key>VOIP_VOICEOVER_VIDEO_CALL</key>
+	<string>‏ویڈیو کال</string>
+	<key>VOIP_VOICEOVER_VOICE_CALL</key>
+	<string>‏صوتی کال</string>
+	<key>WACONTACT_BIRTHDAY_KEY</key>
+	<string>‏تاریخِ پیدائش</string>
+	<key>WACONTACT_DATE_KEY</key>
+	<string>‏تاریخ</string>
+	<key>WACONTACT_DEPARTMENT_NAME_KEY</key>
+	<string>‏شعبہ</string>
+	<key>WACONTACT_EMAIL_ADDRESSES_KEY</key>
+	<string>‏ای میل</string>
+	<key>WACONTACT_FAMILY_NAME_KEY</key>
+	<string>‏خاندانی نام</string>
+	<key>WACONTACT_GIVEN_NAME_KEY</key>
+	<string>‏پہلا نام</string>
+	<key>WACONTACT_INSTANT_MESSAGE_KEY</key>
+	<string>‏فوری پیغام</string>
+	<key>WACONTACT_JOB_TITLE_KEY</key>
+	<string>‏ملازمت کا عنوان</string>
+	<key>WACONTACT_MIDDLE_NAME_KEY</key>
+	<string>‏دوسرا نام</string>
+	<key>WACONTACT_NAME_PREFIX_KEY</key>
+	<string>‏سابقہ</string>
+	<key>WACONTACT_NAME_SUFFIX_KEY</key>
+	<string>‏لاحقہ</string>
+	<key>WACONTACT_NICKNAME_KEY</key>
+	<string>‏عرف</string>
+	<key>WACONTACT_ORGANIZATION_NAME_KEY</key>
+	<string>‏کمپنی</string>
+	<key>WACONTACT_PHONETIC_FAMILY_NAME_KEY</key>
+	<string>‏فونیٹک خاندانی نام</string>
+	<key>WACONTACT_PHONETIC_GIVEN_NAME_KEY</key>
+	<string>‏فونیٹک پہلا نام</string>
+	<key>WACONTACT_PHONETIC_MIDDLE_NAME_KEY</key>
+	<string>‏فونیٹک دوسرا نام</string>
+	<key>WACONTACT_PHONETIC_ORGANIZATION_NAME_KEY</key>
+	<string>‏فونیٹک کمپنی کا نام</string>
+	<key>WACONTACT_PHONE_NUMBER_KEY</key>
+	<string>‏فون</string>
+	<key>WACONTACT_POSTAL_ADDRESSES_KEY</key>
+	<string>‏پتہ</string>
+	<key>WACONTACT_PREVIOUS_FAMILY_NAME_KEY</key>
+	<string>‏عورت کا شادی سے پہلے کا خاندانی نام</string>
+	<key>WACONTACT_SOCIAL_PROFILES_KEY</key>
+	<string>‏سماجی پروفائل</string>
+	<key>WACONTACT_URL_ADDRESSES_KEY</key>
+	<string>‏URL</string>
+	<key>WEBSITE_TITLE</key>
+	<string>‏ویب سائٹ</string>
+	<key>YOU_WERE_ADDED_TO_GROUP</key>
+	<string>‏آپ کو "%@" گروپ میں شامل کیا گیا ہے</string>
+</dict>
+</plist>

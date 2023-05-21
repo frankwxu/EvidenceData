@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Permanently Delete %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Eliminar %#@recordings@ definitivamente</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>grabación</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d grabaciones</string>
+		</dict>
+	</dict>
+	<key>%d Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@Files@</string>
+		<key>Files</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d archivo</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d archivos</string>
+		</dict>
+	</dict>
+	<key>%lu Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows_selected@</string>
+		<key>num_rows_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu seleccionada</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu seleccionadas</string>
+		</dict>
+	</dict>
+	<key>ERASE_RECORDINGS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recordings@</string>
+		<key>Comment</key>
+		<string>Number of recordings that will be permanently deleted</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>¿Seguro que quieres eliminar definitivamente esta grabación?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>¿Seguro que quieres eliminar definitivamente %d grabaciones?</string>
+		</dict>
+	</dict>
+	<key>Recover %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Recuperar %#@recordings@</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>una grabación</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d grabaciones</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

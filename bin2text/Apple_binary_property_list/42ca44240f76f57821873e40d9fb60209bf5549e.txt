@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Delete %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Удалить %lu заметки</string>
+			<key>one</key>
+			<string>Удалить заметку</string>
+			<key>many</key>
+			<string>Удалить %lu заметок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Удалить %lu заметки</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Column</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_columns@</string>
+		<key>num_columns</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Удалить %lu столбца</string>
+			<key>one</key>
+			<string>Удалить %lu столбец</string>
+			<key>many</key>
+			<string>Удалить %lu столбцов</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Удалить %lu столбца</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Row</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows@</string>
+		<key>num_rows</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Удалить %lu строки</string>
+			<key>one</key>
+			<string>Удалить %lu строку</string>
+			<key>many</key>
+			<string>Удалить %lu строк</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Удалить %lu строки</string>
+		</dict>
+	</dict>
+	<key>Move %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Переместить %lu заметки</string>
+			<key>one</key>
+			<string>Переместить заметку</string>
+			<key>many</key>
+			<string>Переместить %lu заметок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Переместить %lu заметки</string>
+		</dict>
+	</dict>
+	<key>Moved %lu notes to %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@moved_num_notes@ в «%@»</string>
+		<key>moved_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Перемещено %lu заметки</string>
+			<key>one</key>
+			<string>Перемещена %lu заметка</string>
+			<key>many</key>
+			<string>Перемещено %lu заметок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Перемещена %lu заметки</string>
+			<key>zero</key>
+			<string>Заметки не перемещены</string>
+		</dict>
+	</dict>
+	<key>FOLDER_DEPTH_LIMIT_MESSAGE_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@folder_depth_limit_message@</string>
+		<key>folder_depth_limit_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>В «Заметках» не может быть более %lu уровней папок.</string>
+			<key>one</key>
+			<string>В «Заметках» не может быть более %lu уровня папок.</string>
+			<key>many</key>
+			<string>В «Заметках» не может быть более %lu уровней папок.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>В «Заметках» не может быть более %lu уровня папок.</string>
+		</dict>
+	</dict>
+	<key>NUM_SUBFOLDERS_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_subfolders@</string>
+		<key>num_subfolders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu подпапки</string>
+			<key>one</key>
+			<string>%lu подпапка</string>
+			<key>many</key>
+			<string>%lu подпапок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu подпапки</string>
+			<key>zero</key>
+			<string>Нет подпапок</string>
+		</dict>
+	</dict>
+	<key>DELETE_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Удалить %lu отсканированных изображения</string>
+			<key>one</key>
+			<string>Удалить %lu отсканированное изображение</string>
+			<key>many</key>
+			<string>Удалить %lu отсканированных изображений</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Удалить %lu отсканированного изображения</string>
+		</dict>
+	</dict>
+	<key>%d minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d минуты</string>
+			<key>one</key>
+			<string>%d минута</string>
+			<key>many</key>
+			<string>%d минут</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d минуты</string>
+		</dict>
+	</dict>
+	<key>%d days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дня</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>%lu scans</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_scans@</string>
+		<key>num_scans</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu отсканированные копии</string>
+			<key>one</key>
+			<string>%lu отсканированная копия</string>
+			<key>many</key>
+			<string>%lu отсканированных копий</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu отсканированной копии</string>
+		</dict>
+	</dict>
+	<key>Trash %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Переместить %lu заметки в Корзину</string>
+			<key>one</key>
+			<string>Переместить %lu заметку в Корзину</string>
+			<key>many</key>
+			<string>Переместить %lu заметок в Корзину</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Переместить %lu заметки в Корзину</string>
+		</dict>
+	</dict>
+	<key>%d seconds</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_seconds@</string>
+		<key>num_seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d секунды</string>
+			<key>one</key>
+			<string>%d секунда</string>
+			<key>many</key>
+			<string>%d секунд</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d секунды</string>
+		</dict>
+	</dict>
+	<key>Copy %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Скопировать %lu заметки</string>
+			<key>one</key>
+			<string>Скопировать %lu заметку</string>
+			<key>many</key>
+			<string>Скопировать %lu заметок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Скопировать %lu заметки</string>
+		</dict>
+	</dict>
+	<key>At most %lu attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Можно добавить не более %lu вложений.</string>
+			<key>one</key>
+			<string>Можно добавить не более %lu вложения.</string>
+			<key>many</key>
+			<string>Можно добавить не более %lu вложений.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Можно добавить не более %lu вложения.</string>
+		</dict>
+	</dict>
+	<key>%d hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_hours@</string>
+		<key>num_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d часа</string>
+			<key>one</key>
+			<string>%d час</string>
+			<key>many</key>
+			<string>%d часов</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d часа</string>
+		</dict>
+	</dict>
+	<key>At most %lu more attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Можно добавить еще не более %lu вложений.</string>
+			<key>one</key>
+			<string>Можно добавить еще не более %lu вложения.</string>
+			<key>many</key>
+			<string>Можно добавить еще не более %lu вложений.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Можно добавить еще не более %lu вложения.</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders@</string>
+		<key>num_folders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Удалить папки: %lu</string>
+			<key>one</key>
+			<string>Удалить папку</string>
+			<key>many</key>
+			<string>Удалить %lu папок</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Удалить %lu папки</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_NON_COACHING_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>हालाँकि आप फ़िलहाल इतना ऊपर जाना और मूव नहीं कर रहे हैं, फिर भी आप एक घंटे में 45 मिनट से अधिक की औसत निकाल रहे हैं। बहुत बढ़िया।</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप आज एक घंटे में कम-से-कम {{goal_value:hours}} स्टैंड मिनट का औसत कर सकते हैं, तो यह तीर फ़्लिप होगा। आप इसे अवश्य कर पाएँगे, {{username}}।</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>हालाँकि आप फ़िलहाल इतना ऊपर जाना और मूव नहीं कर रहे हैं, फिर भी आप एक घंटे में 45 मिनट से अधिक की औसत निकाल रहे हैं। बहुत बढ़िया, {{username}}।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका स्टैंड मिनट तीर नीचे की ओर है लेकिन फ़्लिप करने के नज़दीक है। इसे वापस ऊपर की ओर ले जाने के लिए अगले %#@num_days@ तक एक घंटे में कम-से-कम {{goal_value:minutes}} रोल मिनट के लिए स्टैंड और मूव करें।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>हर मिनट आपका ऊपर की ओर जाना और मूव करना अच्छा है। इसे क़ायम रखें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका स्टैंड मिनट तीर नीचे की ओर है लेकिन फ़्लिप करने के नज़दीक है, {{username}}। इसे वापस ऊपर की ओर ले जाने के लिए अगले %#@num_days@ तक एक घंटे में कम-से-कम {{goal_value:minutes}} रोल मिनट के लिए स्टैंड और मूव करें।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप अपना स्टैंड मिनट तीर %#@num_days@ में फ़्लिप कर सकते हैं। बस हर घंटे में कम-से-कम {{goal_value:minutes}} मिनट के लिए स्टैंड और मूव करें और आप यह कर सकते हैं।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>चलिए यह तीर वापस ऊपर की ओर करें! अगले %#@num_days@ तक एक घंटे में कम-से-कम {{goal_value:hours}} स्टैंड मिनट का औसत लें और आप इसे फ़्लिप कर देंगे।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस सप्ताह एक घंटे में कम-से-कम {{goal_value:minutes}} मिनट के औसत की कोशिश करें। नए लक्ष्यों के लिए वापस जाँचें, ट्रैक पर रहें और आप यह तीर वापस ऊपर की ओर फ़्लिप कर देंगे।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ऊपर की ओर रखने के लिए यह अच्छा तीर है, {{username}}। बहुत बढ़िया।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अपने स्टैंड मिनट वापस ट्रैक पर लाने के लिए आपको अगले %#@num_days@ तक एक घंटे में {{goal_value:hours}} स्टैंड मिनट की औसत अर्जित करने की आवश्यकता है।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>चलिए यह तीर वापस ऊपर की ओर करें, {{username}}! अगले %#@num_days@ तक एक घंटे में कम-से-कम {{goal_value:hours}} स्टैंड मिनट का औसत लें और आप इसे फ़्लिप कर देंगे।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप आज एक घंटे में कम-से-कम {{goal_value:hours}} स्टैंड मिनट का औसत कर सकते हैं, तो यह तीर फ़्लिप होगा। आप इसे अवश्य कर पाएँगे।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर पर काम करने के लिए एक घंटे में कम-से-कम {{goal_value:minutes}} मिनट के लिए ऊपर जाने और मूव करने की कोशिश करें। अपना तीर फ़्लिप होने तक आपके पास हर सप्ताह नया लक्ष्य होगा।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका तीर ऊपर की ओर है लेकिन आपके स्टैंड मिनट फ़िलहाल नीचे की ओर जा रहे हैं। यहाँ हर घंटे थोड़ा स्टैंड और मूव करने का लक्ष्य बनाएँ, {{username}}।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>हर मिनट आपका ऊपर की ओर जाना और मूव करना अच्छा है। इसे क़ायम रखें, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>स्टैंड मिनट महत्वपूर्ण हैं, {{username}}। अपना तीर ऊपर की ओर रखने के लिए हर घंटे थोड़ा और स्टैंड अप और मूव करने की कोशिश करें।</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप यह ट्रेंड सही दिशा में मूव करना चाहते हैं, तो थोड़ी और मेहनत करें और हर दिन मूव करें।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>हर मिनट आपका ऊपर की ओर जाना और मूव करना अच्छा है। इसे क़ायम रखें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप अपना स्टैंड मिनट तीर %#@num_days@ में फ़्लिप कर सकते हैं, {{username}}। बस हर घंटे में कम-से-कम {{goal_value:minutes}} मिनट के लिए स्टैंड और मूव करें और आप यह कर सकते हैं।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>स्टैंड मिनट महत्वपूर्ण हैं। अपना तीर ऊपर की ओर रखने के लिए हर घंटे थोड़ा और स्टैंड अप और मूव करने की कोशिश करें।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर पर काम करने के लिए एक घंटे में कम-से-कम {{goal_value:minutes}} मिनट के लिए ऊपर जाने और मूव करने की कोशिश करें, {{username}}। अपना तीर फ़्लिप होने तक आपके पास हर सप्ताह नया लक्ष्य होगा।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ऊपर की ओर रखने के लिए यह अच्छा तीर है, {{username}}। बहुत बढ़िया।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>हर मिनट आपका ऊपर की ओर जाना और मूव करना अच्छा है। इसे क़ायम रखें, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ऊपर की ओर रखने के लिए यह अच्छा तीर है। बहुत बढ़िया।</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, यदि आप यह ट्रेंड सही दिशा में मूव करना चाहते हैं, तो थोड़ी और मेहनत करें और हर दिन मूव करें।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ऊपर की ओर रखने के लिए यह अच्छा तीर है। बहुत बढ़िया।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका तीर ऊपर की ओर है लेकिन आपके स्टैंड मिनट फ़िलहाल नीचे की ओर जा रहे हैं। यहाँ हर घंटे थोड़ा स्टैंड और मूव करने का लक्ष्य बनाएँ।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अपने स्टैंड मिनट वापस ट्रैक पर लाने के लिए आपको अगले %#@num_days@ तक एक घंटे में {{goal_value:hours}} स्टैंड मिनट की औसत अर्जित करने की आवश्यकता है, {{username}}।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस सप्ताह एक घंटे में कम-से-कम {{goal_value:minutes}} मिनट के औसत की कोशिश करें। नए लक्ष्यों के लिए वापस जाँचें, ट्रैक पर रहें और आप यह तीर वापस ऊपर की ओर फ़्लिप कर देंगे, {{username}}।</string>
+	</dict>
+</dict>
+</plist>

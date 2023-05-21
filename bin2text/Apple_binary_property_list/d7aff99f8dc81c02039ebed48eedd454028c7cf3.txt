@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AB_PERMISSION_MISSING_ACTION_NOT_NOW</key>
+	<string>Ei nyt</string>
+	<key>ACCEPT_NEW_IDENTITY_ACTION</key>
+	<string>Hyväksy uusi turvanumero</string>
+	<key>ACCESSIBILITY_LABEL_ATTACHMENT</key>
+	<string>Liitetiedosto</string>
+	<key>ACCESSIBILITY_LABEL_AUDIO</key>
+	<string>Äänitiedosto</string>
+	<key>ACCESSIBILITY_LABEL_CONTACT</key>
+	<string>Yhteystieto</string>
+	<key>ACCESSIBILITY_LABEL_MEDIA</key>
+	<string>Media</string>
+	<key>ACCESSIBILITY_LABEL_MESSAGE</key>
+	<string>Viesti</string>
+	<key>ACCESSIBILITY_LABEL_SENDER_SELF</key>
+	<string>Sinä</string>
+	<key>ACCESSIBILITY_LABEL_STICKER</key>
+	<string>Tarra</string>
+	<key>ACTION_AUDIO_CALL</key>
+	<string>Signal-puhelu</string>
+	<key>ACTION_INVITE</key>
+	<string>Kutsu Signaliin</string>
+	<key>ACTION_SEND_MESSAGE</key>
+	<string>Lähetä viesti</string>
+	<key>ACTION_SHARE_CONTACT</key>
+	<string>Jaa yhteystieto</string>
+	<key>ACTION_VIDEO_CALL</key>
+	<string>Videopuhelu</string>
+	<key>ADD_GROUP_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>Haluatko jakaa profiilisi tämän ryhmän kanssa?</string>
+	<key>ADD_TO_CONTACTS_OFFER</key>
+	<string>Haluatko lisätä tämän käyttäjän yhteystietoihisi?</string>
+	<key>ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>Haluatko jakaa profiilisi tämän käyttäjän kanssa?</string>
+	<key>ALERT_ACTION_ACKNOWLEDGE</key>
+	<string>Selvä</string>
+	<key>ALERT_DISCARD_BUTTON</key>
+	<string>Hylkää</string>
+	<key>ALERT_DONT_SAVE</key>
+	<string>Älä tallenna</string>
+	<key>ALERT_ERROR_TITLE</key>
+	<string>Virhe</string>
+	<key>ALERT_SAVE</key>
+	<string>Tallenna</string>
+	<key>ANSWER_CALL_BUTTON_TITLE</key>
+	<string>Vastaa</string>
+	<key>APN_Message</key>
+	<string>Uusi viesti!</string>
+	<key>APPEARANCE_SETTINGS_DARK_THEME_NAME</key>
+	<string>Tumma</string>
+	<key>APPEARANCE_SETTINGS_LIGHT_THEME_NAME</key>
+	<string>Vaalea</string>
+	<key>APPEARANCE_SETTINGS_SYSTEM_THEME_NAME</key>
+	<string>Järjestelmä</string>
+	<key>APPLICATION_NAME</key>
+	<string>Signal</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_MESSAGE</key>
+	<string>Signal ei avaudu. Lähetä virheenkorjausloki osoitteeseen support@signal.org, jotta voimme selvittää tämä ongelma.</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_TITLE</key>
+	<string>Virhe</string>
+	<key>APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE</key>
+	<string>Tietokannan lataaminen ei onnistunut</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE</key>
+	<string>Päivitä Signalin uusimpaan versioon.</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE</key>
+	<string>Tuntematon tietokantaversio.</string>
+	<key>APP_SETTINGS_EDIT_PROFILE_NAME_PROMPT</key>
+	<string>Syötä nimesi</string>
+	<key>APP_UPDATE_NAG_ALERT_DISMISS_BUTTON</key>
+	<string>Ei nyt</string>
+	<key>APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT</key>
+	<string>Versio %@ on nyt saatavilla App Storesta.</string>
+	<key>APP_UPDATE_NAG_ALERT_TITLE</key>
+	<string>Uusi versio Signalista on saatavilla</string>
+	<key>APP_UPDATE_NAG_ALERT_UPDATE_BUTTON</key>
+	<string>Päivitä</string>
+	<key>ARCHIVE_ACTION</key>
+	<string>Arkistoi</string>
+	<key>ATTACHMENT</key>
+	<string>Liite</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_LENGTH_LIMIT_REACHED</key>
+	<string>Kuvatekstin raja saavutettu.</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_PLACEHOLDER</key>
+	<string>Lisää kuvateksti...</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_TITLE</key>
+	<string>Kuvaus</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_EXPORT</key>
+	<string>Liitteen vieminen epäonnistui.</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_SAVE</key>
+	<string>Tallennus epäonnistui</string>
+	<key>ATTACHMENT_APPROVAL_FILE_EXTENSION_FORMAT</key>
+	<string>Tiedoston tyyppi: %@</string>
+	<key>ATTACHMENT_APPROVAL_FILE_SIZE_FORMAT</key>
+	<string>Koko: %@</string>
+	<key>ATTACHMENT_APPROVAL_MEDIA_DID_SAVE</key>
+	<string>Tallennettu</string>
+	<key>ATTACHMENT_APPROVAL_MESSAGE_TO_FORMAT</key>
+	<string>Vastaanottaja: %@</string>
+	<key>ATTACHMENT_APPROVAL_SEND_BUTTON</key>
+	<string>Lähetä</string>
+	<key>ATTACHMENT_DEFAULT_FILENAME</key>
+	<string>Liitetiedosto</string>
+	<key>ATTACHMENT_DOWNLOADING_STATUS_FAILED</key>
+	<string>Lataaminen epäonnistui. Yritä uudelleen napauttamalla.</string>
+	<key>ATTACHMENT_ERROR_ALERT_TITLE</key>
+	<string>Virhe liitteen lähettämisessä</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_JPEG</key>
+	<string>Kuvaa ei voitu muuntaa.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_MP4</key>
+	<string>Videon prosessointi ei onnistu.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_PARSE_IMAGE</key>
+	<string>Kuvaa ei voitu jäsentää.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA</key>
+	<string>Metatietojen poistaminen kuvasta ei onnistunut.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_RESIZE_IMAGE</key>
+	<string>Kuvan kokoa ei voitu muuttaa.</string>
+	<key>ATTACHMENT_ERROR_FILE_SIZE_TOO_LARGE</key>
+	<string>Liitetiedosto on liian suuri.</string>
+	<key>ATTACHMENT_ERROR_INVALID_DATA</key>
+	<string>Liitetiedoston sisältö on virheellinen.</string>
+	<key>ATTACHMENT_ERROR_INVALID_FILE_FORMAT</key>
+	<string>Liitetiedoston muoto on virheellinen.</string>
+	<key>ATTACHMENT_ERROR_MISSING_DATA</key>
+	<string>Liitetiedosto on tyhjä.</string>
+	<key>ATTACHMENT_HINT</key>
+	<string>Valitse lähetettävä media</string>
+	<key>ATTACHMENT_KEYBOARD_CAMERA</key>
+	<string>Kamera</string>
+	<key>ATTACHMENT_KEYBOARD_CONTACT</key>
+	<string>Yhteystieto</string>
+	<key>ATTACHMENT_KEYBOARD_FILE</key>
+	<string>Tiedosto</string>
+	<key>ATTACHMENT_KEYBOARD_GIF</key>
+	<string>GIF</string>
+	<key>ATTACHMENT_KEYBOARD_LOCATION</key>
+	<string>Sijainti</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTOS</key>
+	<string>Kun olet ottanut kuvia, voit lähettää viimeaikaiset tänne.</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS</key>
+	<string>Myönnä pääsy valokuvillesi asetuksista, jotta voit lähettää ne tänne.</string>
+	<key>ATTACHMENT_LABEL</key>
+	<string>Liitetiedosto</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE</key>
+	<string>Tiedoston valinta epäonnistui.</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY</key>
+	<string>Pakkaa tämä tiedosto tai hakemisto ja yritä lähettää se tämän sijasta.</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE</key>
+	<string>Tiedostotyyppiä ei tueta</string>
+	<key>ATTACHMENT_TYPE_VOICE_MESSAGE</key>
+	<string>Ääniviesti</string>
+	<key>AUDIO_ACTIVITY_PLAYBACK_NAME_AUDIO_MESSAGE</key>
+	<string>Ääniviesti</string>
+	<key>AUDIO_ROUTE_BUILT_IN_SPEAKER</key>
+	<string>Kaiutin</string>
+	<key>BACKUP_EXPORT_ERROR_COULD_NOT_EXPORT</key>
+	<string>Varmuuskopiota ei voitu viedä.</string>
+	<key>BACKUP_EXPORT_ERROR_INVALID_CLOUDKIT_RESPONSE</key>
+	<string>Virheellinen vastaus palvelusta</string>
+	<key>BACKUP_EXPORT_PHASE_CLEAN_UP</key>
+	<string>Siistitään varmuuskopiota</string>
+	<key>BACKUP_EXPORT_PHASE_CONFIGURATION</key>
+	<string>Alustetaan varmuuskopiota</string>
+	<key>BACKUP_EXPORT_PHASE_DATABASE_EXPORT</key>
+	<string>Varmuuskopiota viedään</string>
+	<key>BACKUP_EXPORT_PHASE_EXPORT</key>
+	<string>Varmuuskopiota viedään</string>
+	<key>BACKUP_EXPORT_PHASE_UPLOAD</key>
+	<string>Lähetetään varmuuskopiota</string>
+	<key>BACKUP_IMPORT_ERROR_COULD_NOT_IMPORT</key>
+	<string>Varmuuskopiota ei voitu tuoda.</string>
+	<key>BACKUP_IMPORT_PHASE_CONFIGURATION</key>
+	<string>Asetellaan varmuuskopiota</string>
+	<key>BACKUP_IMPORT_PHASE_DOWNLOAD</key>
+	<string>Ladataan varmuuskopion tietoja</string>
+	<key>BACKUP_IMPORT_PHASE_FINALIZING</key>
+	<string>Viimeistellään varmuuskopiota</string>
+	<key>BACKUP_IMPORT_PHASE_IMPORT</key>
+	<string>Tuodaan varmuuskopiota</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_DATABASE</key>
+	<string>Palautetaan tietokantaa</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_FILES</key>
+	<string>Palautetaan tiedostoja</string>
+	<key>BACKUP_RESTORE_DECISION_TITLE</key>
+	<string>Varmuuskopio saatavilla</string>
+	<key>BACKUP_RESTORE_DESCRIPTION</key>
+	<string>Palautetaan varmuuskopio</string>
+	<key>BACKUP_RESTORE_PROGRESS</key>
+	<string>Eteneminen</string>
+	<key>BACKUP_RESTORE_STATUS</key>
+	<string>Tila</string>
+	<key>BACKUP_UNEXPECTED_ERROR</key>
+	<string>Odottamaton varmuuskopiointivirhe</string>
+	<key>BACK_BUTTON</key>
+	<string>Takaisin</string>
+	<key>BLOCK_GROUP_BEHAVIOR_EXPLANATION</key>
+	<string>Et voi enää vastaanottaa viestejä tai päivityksiä tältä ryhmältä.</string>
+	<key>BLOCK_LIST_BLOCKED_GROUPS_SECTION</key>
+	<string>Estetyt ryhmät</string>
+	<key>BLOCK_LIST_BLOCKED_USERS_SECTION</key>
+	<string>Estetyt käyttäjät</string>
+	<key>BLOCK_LIST_BLOCK_BUTTON</key>
+	<string>Estä</string>
+	<key>BLOCK_LIST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>Estä ja lähde "%@" ryhmästä?</string>
+	<key>BLOCK_LIST_BLOCK_USER_TITLE_FORMAT</key>
+	<string>Estä %@?</string>
+	<key>BLOCK_LIST_UNBLOCK_BUTTON</key>
+	<string>Poista esto</string>
+	<key>BLOCK_LIST_UNBLOCK_CONTACT_MESSAGE</key>
+	<string>Voitte jatkossa lähettää viestejä ja soittaa toisillenne.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_BODY</key>
+	<string>Ryhmän jäsenet voivat tämän jälkeen lisätä sinut takaisin ryhmään.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_MESSAGE</key>
+	<string>Ryhmän jäsenet voivat lisätä sinut takaisin tähän ryhmään.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_TITLE</key>
+	<string>Poista tämän ryhmän esto?</string>
+	<key>BLOCK_LIST_UNBLOCK_TITLE_FORMAT</key>
+	<string>Poista esto yhteystiedolta %@?</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_MESSAGE_FORMAT</key>
+	<string>%@ on nyt estetty.</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_TITLE</key>
+	<string>Käyttäjä estetty</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_GROUP_ALERT_TITLE</key>
+	<string>Ryhmä estetty</string>
+	<key>BLOCK_LIST_VIEW_BLOCK_BUTTON</key>
+	<string>Estä</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_MESSAGE</key>
+	<string>Et voi estää itseäsi.</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_TITLE</key>
+	<string>Virhe</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_ALERT_TITLE_FORMAT</key>
+	<string>%@ esto on poistettu.</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_GROUP_ALERT_BODY</key>
+	<string>Ryhmän jäsenet voivat nyt lisätä sinut takaisin ryhmään.</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_BLOCK_ACTION</key>
+	<string>Estä</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_TITLE_FORMAT</key>
+	<string>Estä %@?</string>
+	<key>BLOCK_USER_BEHAVIOR_EXPLANATION</key>
+	<string>Estetyt käyttäjät eivät pysty soittamaan sinulle tai lähettämään sinulle viestejä.</string>
+	<key>BROWSE_FILES_BUTTON</key>
+	<string>Selaa</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>Jatka</string>
+	<key>BUTTON_DONE</key>
+	<string>Valmis</string>
+	<key>BUTTON_NEXT</key>
+	<string>Seuraava</string>
+	<key>BUTTON_OKAY</key>
+	<string>Selvä</string>
+	<key>BUTTON_SELECT</key>
+	<string>Valitse</string>
+	<key>BUTTON_SUBMIT</key>
+	<string>Lähetä</string>
+	<key>CALLBACK_BUTTON_TITLE</key>
+	<string>Soita takaisin</string>
+	<key>CALLKIT_ANONYMOUS_CONTACT_NAME</key>
+	<string>Signal-käyttäjä</string>
+	<key>CALL_AGAIN_BUTTON_TITLE</key>
+	<string>Soita uudelleen</string>
+	<key>CALL_AUDIO_PERMISSION_MESSAGE</key>
+	<string>Voit sallia mikrofonin käytön Asetukset-ohjelmasta tehdäksesi puheluita ja lähettääksesi ääniviestejä Signalilla.</string>
+	<key>CALL_AUDIO_PERMISSION_TITLE</key>
+	<string>Mikrofonin käyttöoikeutta tarvitaan</string>
+	<key>CALL_INCOMING_NOTIFICATION_BODY</key>
+	<string>☎️ Saapuva puhelu</string>
+	<key>CALL_LABEL</key>
+	<string>Soita</string>
+	<key>CALL_MISSED_BECAUSE_OF_IDENTITY_CHANGE_NOTIFICATION_BODY</key>
+	<string>☎️ Vastaamatta jäänyt puhelu, koska soittajan turvanumero on vaihtunut.</string>
+	<key>CALL_MISSED_NOTIFICATION_BODY</key>
+	<string>☎️ Vastaamatta jäänyt puhelu </string>
+	<key>CALL_SCREEN_STATUS_NO_ANSWER</key>
+	<string>Ei vastausta</string>
+	<key>CALL_STATUS_FORMAT</key>
+	<string>Signal %@</string>
+	<key>CALL_USER_ALERT_CALL_BUTTON</key>
+	<string>Soita</string>
+	<key>CALL_USER_ALERT_MESSAGE_FORMAT</key>
+	<string>Haluatko soittaa yhteystiedolle %@?</string>
+	<key>CALL_USER_ALERT_TITLE</key>
+	<string>Soita?</string>
+	<key>CALL_VIEW_ACCEPT_INCOMING_CALL_LABEL</key>
+	<string>Hyväksy saapuva puhelu</string>
+	<key>CALL_VIEW_AUDIO_SOURCE_LABEL</key>
+	<string>Äänilähde</string>
+	<key>CALL_VIEW_DECLINE_INCOMING_CALL_LABEL</key>
+	<string>Hyväksy saapuva puhelu</string>
+	<key>CALL_VIEW_ENABLE_VIDEO_HINT</key>
+	<string>Ota video käyttöön napauttamalla tästä</string>
+	<key>CALL_VIEW_HANGUP_LABEL</key>
+	<string>Lopeta puhelu</string>
+	<key>CALL_VIEW_MUTE_LABEL</key>
+	<string>Mykistä</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL</key>
+	<string>Voit sallia Signalin yksityisyysasetuksista iOS puheluiden integroinnin vastataksesi puheluihin lukitusnäytöstä.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_PRIVACY</key>
+	<string>Voit sallia Signalin yksityisyysasetuksista iOS puheluiden integroinnin nähdäksesi saapuvien puheluiden nimet ja numerot.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_NOT_NOW_BUTTON</key>
+	<string>Ei nyt</string>
+	<key>CALL_VIEW_SETTINGS_NAG_SHOW_CALL_SETTINGS</key>
+	<string>Näytä yksityisyysasetukset</string>
+	<key>CALL_VIEW_SWITCH_CAMERA_DIRECTION</key>
+	<string>Vaihda etu- tai takakameraan</string>
+	<key>CALL_VIEW_SWITCH_TO_AUDIO_LABEL</key>
+	<string>Vaihda äänipuheluun</string>
+	<key>CALL_VIEW_SWITCH_TO_VIDEO_LABEL</key>
+	<string>Vaihda videopuheluun</string>
+	<key>CALL_WINDOW_RETURN_TO_CALL</key>
+	<string>Palaa puheluun koskettamalla tästä</string>
+	<key>CAMERA_BUTTON_HINT</key>
+	<string>Ota kuva ja lähetä se</string>
+	<key>CAMERA_BUTTON_LABEL</key>
+	<string>Kamera</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_MESSAGE</key>
+	<string>Tätä käyttäjää ei voida varmentaa ennen kuin olet lähettänyt tai vastaanottanut viestejä hänen kanssaan.</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_TITLE</key>
+	<string>Virhe</string>
+	<key>CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE</key>
+	<string>Valitse maa</string>
+	<key>CHECK_FOR_BACKUP_DO_NOT_RESTORE</key>
+	<string>Älä palauta</string>
+	<key>CHECK_FOR_BACKUP_FAILED_MESSAGE</key>
+	<string>Ei voitu määrittää, onko varmuuskopio, joka voidaan palauttaa.</string>
+	<key>CHECK_FOR_BACKUP_FAILED_TITLE</key>
+	<string>Virhe</string>
+	<key>CHECK_FOR_BACKUP_RESTORE</key>
+	<string>Palauta</string>
+	<key>CLOUDKIT_STATUS_COULD_NOT_DETERMINE</key>
+	<string>Signal ei voinut määrittää iCloud-tilisi tilaa. Kirjaudu iCloud-tiliisi iOS:n asetussovelluksessa, jotta voit varmuuskopioida Signal-tietosi.</string>
+	<key>CLOUDKIT_STATUS_NO_ACCOUNT</key>
+	<string>Ei iCloud-tiliä. Kirjaudu iCloud-tiliisi iOS-asetussovelluksessa, jotta voit varmuuskopioida Signal-tietosi.</string>
+	<key>CLOUDKIT_STATUS_RESTRICTED</key>
+	<string>Signalille ei sallittu pääsyä iCloud-tiliisi varmuuskopiointia varten. Anna Signalille pääsy iCloud-tilillesi iOS-asetussovelluksessa, jotta voit varmuuskopioida Signal-tietosi.</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_1</key>
+	<string>Valitse tämän keskustelun lähtevien viestien väri.</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_2</key>
+	<string>Vain sinä näet valitun värin.</string>
+	<key>COLOR_PICKER_SHEET_TITLE</key>
+	<string>Keskustelun väri</string>
+	<key>COMPARE_SAFETY_NUMBER_ACTION</key>
+	<string>Vertaa leikepöytään</string>
+	<key>COMPOSE_BUTTON_HINT</key>
+	<string>Valitse tai etsi Signal-käyttäjä aloittaaksesi keskustelun.</string>
+	<key>COMPOSE_BUTTON_LABEL</key>
+	<string>Syötä</string>
+	<key>COMPOSE_MESSAGE_CONTACT_SECTION_TITLE</key>
+	<string>Yhteystiedot</string>
+	<key>COMPOSE_MESSAGE_GROUP_SECTION_TITLE</key>
+	<string>Ryhmät</string>
+	<key>COMPOSE_MESSAGE_PHONE_NUMBER_SEARCH_SECTION_TITLE</key>
+	<string>Puhelinnumerohaku</string>
+	<key>COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE</key>
+	<string>Käyttäjätunnushaku</string>
+	<key>COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION</key>
+	<string>Voit sallia yhteystietojen käytön Asetukset-ohjelmasta nähdäksesi mitkä yhteystiedoistasi ovat Signalin käyttäjiä.</string>
+	<key>CONFIRMATION_TITLE</key>
+	<string>Vahvista</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TEXT</key>
+	<string>Tämä palauttaa sovelluksen poistamalla viestisi ja purkamalla rekisteröintisi palvelimelta. Sovellus sulkeutuu, kun tämä prosessi on valmis.</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TITLE</key>
+	<string>Haluatko varmasti poistaa tilisi?</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TEXT</key>
+	<string>Tämä palauttaa sovelluksen poistamalla kaikki viestisi tältä laitteelta. Voit aina yhdistää puhelimeesi uudelleen, mutta se ei palauta poistettuja viestejä. Sovellus sulkeutuu, kun tämä prosessi on valmis.</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TITLE</key>
+	<string>Oletko varma, että haluat poistaa kaikki tiedot?</string>
+	<key>CONFIRM_LEAVE_GROUP_DESCRIPTION</key>
+	<string>Et voi enää lähettää tai vastaanottaa viestejä tässä ryhmässä.</string>
+	<key>CONFIRM_LEAVE_GROUP_TITLE</key>
+	<string>Haluatko varmasti poistua?</string>
+	<key>CONFIRM_LINK_NEW_DEVICE_ACTION</key>
+	<string>Yhdistä uusi laite</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT</key>
+	<string>%@ on saattanut uudelleenasentaa tai vaihtanut laitteensa. Varmenna turvanumerosi hänen kanssaan yksityisyyden takaamiseksi.</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_TITLE_FORMAT</key>
+	<string>Turvanumerosi yhteystiedon %@ kanssa on vaihtunut.</string>
+	<key>CONTACT_ADDRESS</key>
+	<string>Osoite</string>
+	<key>CONTACT_CELL_IS_BLOCKED</key>
+	<string>Estetty</string>
+	<key>CONTACT_CELL_IS_NO_LONGER_VERIFIED</key>
+	<string>Ei varmennettu</string>
+	<key>CONTACT_DETAIL_COMM_TYPE_INSECURE</key>
+	<string>Rekisteröimätön numero</string>
+	<key>CONTACT_EDIT_NAME_BUTTON</key>
+	<string>Muokkaa</string>
+	<key>CONTACT_EMAIL</key>
+	<string>Sähköposti</string>
+	<key>CONTACT_FIELD_ADDRESS_CITY</key>
+	<string>Kaupunki</string>
+	<key>CONTACT_FIELD_ADDRESS_COUNTRY</key>
+	<string>Maa</string>
+	<key>CONTACT_FIELD_ADDRESS_NEIGHBORHOOD</key>
+	<string>Alue</string>
+	<key>CONTACT_FIELD_ADDRESS_POBOX</key>
+	<string>Postilokero</string>
+	<key>CONTACT_FIELD_ADDRESS_POSTCODE</key>
+	<string>Postinumero</string>
+	<key>CONTACT_FIELD_ADDRESS_REGION</key>
+	<string>Maakunta</string>
+	<key>CONTACT_FIELD_ADDRESS_STREET</key>
+	<string>Katu</string>
+	<key>CONTACT_FIELD_FAMILY_NAME</key>
+	<string>Sukunimi</string>
+	<key>CONTACT_FIELD_GIVEN_NAME</key>
+	<string>Etunimi</string>
+	<key>CONTACT_FIELD_MIDDLE_NAME</key>
+	<string>Muut nimet</string>
+	<key>CONTACT_FIELD_NAME_PREFIX</key>
+	<string>Etuliite</string>
+	<key>CONTACT_FIELD_NAME_SUFFIX</key>
+	<string>Jälkiliite</string>
+	<key>CONTACT_FIELD_ORGANIZATION</key>
+	<string>Organisaatio</string>
+	<key>CONTACT_PHONE</key>
+	<string>Puhelin</string>
+	<key>CONTACT_PICKER_NO_EMAILS_AVAILABLE</key>
+	<string>Ei sähköpostia</string>
+	<key>CONTACT_PICKER_NO_PHONE_NUMBERS_AVAILABLE</key>
+	<string>Ei puhelinnumeroa</string>
+	<key>CONTACT_PICKER_TITLE</key>
+	<string>Valitse yhteystieto</string>
+	<key>CONTACT_SHARE_APPROVAL_VIEW_TITLE</key>
+	<string>Jaa yhteystieto</string>
+	<key>CONTACT_SHARE_EDIT_NAME_VIEW_TITLE</key>
+	<string>Muokkaa nimeä</string>
+	<key>CONTACT_SHARE_INVALID_CONTACT</key>
+	<string>Virheellinen yhteystieto</string>
+	<key>CONTACT_SHARE_NO_FIELDS_SELECTED</key>
+	<string>Yhtäkään yhteystietokenttää ei valittuna</string>
+	<key>CONTACT_SUPPORT</key>
+	<string>Ota yhteyttä tukeen</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY</key>
+	<string>Signal ei kyennyt täyttämään tukipyyntöäsi.</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN</key>
+	<string>Yritä uudelleen</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_MESSAGE</key>
+	<string>Voimme selvittää vian nopeammin virheenkorjauslokisi avulla. Lokien lähettäminen on valinnaista.</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_TITLE</key>
+	<string>Lähetä virheenkorjausloki?</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITHOUT_LOG</key>
+	<string>Lähetä ilman virheenkorjauslokia</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITH_LOG</key>
+	<string>Lähetä virheenkorjauslokilla</string>
+	<key>CONTACT_VIEW_OPEN_ADDRESS_IN_MAPS_APP</key>
+	<string>Avaa Kartta-ohjelmassa</string>
+	<key>CONTACT_VIEW_OPEN_EMAIL_IN_EMAIL_APP</key>
+	<string>Lähetä sähköpostilla</string>
+	<key>CONTACT_WITHOUT_NAME</key>
+	<string>Nimeämätön yhteystieto</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_MESSAGE</key>
+	<string>Tätä ei voi peruuttaa.</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_TITLE</key>
+	<string>Poistetaanko keskustelu?</string>
+	<key>CONVERSATION_MEDIA_VIEW_DOWNLOAD_IMAGE</key>
+	<string>Lataa</string>
+	<key>CONVERSATION_PICKER_CAN_SELECT_NO_MORE_CONVERSATIONS</key>
+	<string>Et voi valita enempää kuin %@ keskustelua.</string>
+	<key>CONVERSATION_PICKER_SECTION_GROUPS</key>
+	<string>Ryhmät</string>
+	<key>CONVERSATION_PICKER_SECTION_RECENTS</key>
+	<string>Äskeiset keskustelut</string>
+	<key>CONVERSATION_PICKER_SECTION_SIGNAL_CONTACTS</key>
+	<string>Henkilöt</string>
+	<key>CONVERSATION_PICKER_TITLE</key>
+	<string>Valitse vastaanottajat</string>
+	<key>CONVERSATION_SEARCH_NO_RESULTS</key>
+	<string>Ei tuloksia</string>
+	<key>CONVERSATION_SEARCH_ONE_RESULT</key>
+	<string>1 tulos</string>
+	<key>CONVERSATION_SEARCH_RESULTS_FORMAT</key>
+	<string>%d / %d tuloksesta</string>
+	<key>CONVERSATION_SETTINGS</key>
+	<string>Keskustelun asetukset</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_EXISTING_CONTACT</key>
+	<string>Lisää olemassaolevaan yhteystietoon</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_SYSTEM_CONTACTS</key>
+	<string>Lisää yhteystietoihin</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_GROUP</key>
+	<string>Estä tämä ryhmä</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_USER</key>
+	<string>Estä tämä käyttäjä</string>
+	<key>CONVERSATION_SETTINGS_CONTACT_INFO_TITLE</key>
+	<string>Yhteystiedot</string>
+	<key>CONVERSATION_SETTINGS_CONVERSATION_COLOR</key>
+	<string>Keskustelun väri</string>
+	<key>CONVERSATION_SETTINGS_GROUP_INFO_TITLE</key>
+	<string>Ryhmän tiedot</string>
+	<key>CONVERSATION_SETTINGS_MUTED_UNTIL_FORMAT</key>
+	<string>%@ asti</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ACTION_SHEET_TITLE</key>
+	<string>Mykistä</string>
+	<key>CONVERSATION_SETTINGS_MUTE_LABEL</key>
+	<string>Mykistä</string>
+	<key>CONVERSATION_SETTINGS_MUTE_NOT_MUTED</key>
+	<string>Ei mykistetty</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_DAY_ACTION</key>
+	<string>Mykistä yhdeksi päiväksi</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_HOUR_ACTION</key>
+	<string>Mykistä yhdeksi tunniksi</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_MINUTE_ACTION</key>
+	<string>Mykistä yhdeksi minuutiksi</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_WEEK_ACTION</key>
+	<string>Mykistä yhdeksi viikoksi</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_YEAR_ACTION</key>
+	<string>Mykistä yhdeksi vuodeksi</string>
+	<key>CONVERSATION_SETTINGS_NEW_CONTACT</key>
+	<string>Luo uusi yhteystieto</string>
+	<key>CONVERSATION_SETTINGS_SEARCH</key>
+	<string>Hae keskustelusta</string>
+	<key>CONVERSATION_SETTINGS_TAP_TO_CHANGE</key>
+	<string>Napauta muokataksesi</string>
+	<key>CONVERSATION_SETTINGS_UNMUTE_ACTION</key>
+	<string>Poista mykistys</string>
+	<key>CONVERSATION_SETTINGS_VIEW_IS_SYSTEM_CONTACT</key>
+	<string>Tämä käyttäjä on yhteystiedoissasi</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_GROUP</key>
+	<string>Tämä ryhmä näkee profiilisi.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_USER</key>
+	<string>Tämä käyttäjä näkee profiilisi.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE</key>
+	<string>Jaa profiili</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_GROUP</key>
+	<string>Jaa profiilisi</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_USER</key>
+	<string>Jaa profiilisi</string>
+	<key>CONVERSATION_VIEW_ADD_TO_CONTACTS_OFFER</key>
+	<string>Lisää yhteystietoihin</string>
+	<key>CONVERSATION_VIEW_ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>Jaa profiilisi tämän käyttäjän kanssa</string>
+	<key>CONVERSATION_VIEW_CONTACTS_OFFER_TITLE</key>
+	<string>Tämä käyttäjä ei ole yhteystiedoissasi</string>
+	<key>CONVERSATION_VIEW_LOADING_MORE_MESSAGES</key>
+	<string>Ladataan lisää viestejä...</string>
+	<key>CONVERSATION_VIEW_OVERSIZE_TEXT_TAP_FOR_MORE</key>
+	<string>Näytä lisää napauttamalla</string>
+	<key>CONVERSATION_VIEW_UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>Estä tämä käyttäjä</string>
+	<key>CORRUPTED_SESSION_DESCRIPTION</key>
+	<string>Istunnon alustaminen mahdollistaa uusien viestien vastaanottamisen yhteystiedolta %@. Vanhoja, jo korruptoituneita viestejä ei kuitenkaan ole mahdollista enää palauttaa.</string>
+	<key>COUNTRYCODE_SELECT_TITLE</key>
+	<string>Valitse maatunnus</string>
+	<key>CROP_SCALE_IMAGE_VIEW_TITLE</key>
+	<string>Liikuta ja skaalaa</string>
+	<key>DATABASE_VIEW_OVERLAY_SUBTITLE</key>
+	<string>Tämä saattaa viedä muutaman minuutin.</string>
+	<key>DATABASE_VIEW_OVERLAY_TITLE</key>
+	<string>Päivitetään tietokantaa</string>
+	<key>DATE_HOURS_AGO_FORMAT</key>
+	<string>%@ t sitten</string>
+	<key>DATE_MINUTES_AGO_FORMAT</key>
+	<string>%@ min sitten</string>
+	<key>DATE_NOW</key>
+	<string>Nyt</string>
+	<key>DATE_TODAY</key>
+	<string>Tänään</string>
+	<key>DATE_YESTERDAY</key>
+	<string>Eilen</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_COPY_LOGS</key>
+	<string>Lokien kopiointi ei onnistunut.</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_PACKAGE_LOGS</key>
+	<string>Lokien pakkaus ei onnistunut.</string>
+	<key>DEBUG_LOG_ALERT_ERROR_UPLOADING_LOG</key>
+	<string>Lokien lähettäminen ei onnistunut.</string>
+	<key>DEBUG_LOG_ALERT_MESSAGE</key>
+	<string>Mitä haluat tehdä virheenkorjauslokisi linkillä?</string>
+	<key>DEBUG_LOG_ALERT_NO_LOGS</key>
+	<string>Lokeja ei löytynyt.</string>
+	<key>DEBUG_LOG_ALERT_OPTION_BUG_REPORT</key>
+	<string>Avaa virheraportti</string>
+	<key>DEBUG_LOG_ALERT_OPTION_COPY_LINK</key>
+	<string>Kopioi linkki</string>
+	<key>DEBUG_LOG_ALERT_OPTION_EMAIL</key>
+	<string>Lähetä sähköposti tukitiimille</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SEND_TO_SELF</key>
+	<string>Lähetä itselle</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SHARE</key>
+	<string>Jaa</string>
+	<key>DEBUG_LOG_ALERT_TITLE</key>
+	<string>Yksi askel lisää</string>
+	<key>DEBUG_LOG_COULD_NOT_EMAIL</key>
+	<string>Sähköpostiohjelmaa ei voitu avata.</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_MESSAGE</key>
+	<string>Gist -linkki on nyt kopioitu leikepöydällesi. Sinut ohjataan nyt GitHubissa olevaan virheluetteloon.</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE</key>
+	<string>Ohjaus GitHubiin</string>
+	<key>DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER</key>
+	<string>Rekisteröi tämä puhelinnumero uudelleen</string>
+	<key>DEREGISTRATION_WARNING</key>
+	<string>Tämä laite ei ole enää rekisteröity. Puhelinnumerosi saataa olla rekisteröity Signaliin jollain toisella laitteella. Napauta rekisteröityäksesi uudelleen.</string>
+	<key>DEVICE_LAST_ACTIVE_AT_LABEL</key>
+	<string>Viimeksi käytetty: %@</string>
+	<key>DEVICE_LINKED_AT_LABEL</key>
+	<string>Yhdistetty: %@</string>
+	<key>DEVICE_LIST_UPDATE_FAILED_TITLE</key>
+	<string>Yhdistettyjen laitteiden listaa ei saatu päivitettyä</string>
+	<key>DISAPPEARING_MESSAGES</key>
+	<string>Katoavat viestit</string>
+	<key>DISAPPEARING_MESSAGES_CONFIGURATION_GROUP_EXISTING_FORMAT</key>
+	<string>Viestit katoavat tästä keskustelusta kun %@ on kulunut.</string>
+	<key>DISAPPEARING_MESSAGES_DESCRIPTION</key>
+	<string>Kun tämä on päällä, lähetetyt ja vastaanotetut viestit katoavat tästä keskustelusta sen jälkeen, kun ne on nähty.</string>
+	<key>DISAPPEARING_MESSAGES_HINT</key>
+	<string>Viestien katoamisaika on tällä hetkellä %@</string>
+	<key>DISAPPEARING_MESSAGES_LABEL</key>
+	<string>Katoavien viestien asetukset</string>
+	<key>DISMISS_BUTTON_TEXT</key>
+	<string>Selvä</string>
+	<key>DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER</key>
+	<string>Sensuurin kiertämisen sijainti</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY</key>
+	<string>Voit sallia yhteystietojen käytön Asetukset-ohjelmasta.</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE</key>
+	<string>Signal tarvitsee oikeutta käyttää yhteystietojasi niiden muokkaamiseen</string>
+	<key>EDIT_GROUP_ACTION</key>
+	<string>Muokkaa ryhmää</string>
+	<key>EDIT_GROUP_CONTACTS_SECTION_TITLE</key>
+	<string>Yhteystiedot</string>
+	<key>EDIT_GROUP_DEFAULT_TITLE</key>
+	<string>Muokkaa ryhmää</string>
+	<key>EDIT_GROUP_NEW_MEMBER_LABEL</key>
+	<string>Lisätty</string>
+	<key>EDIT_GROUP_UPDATE_BUTTON</key>
+	<string>Päivitä</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>Haluatko tallentaa tähän ryhmään tekemäsi muutokset?</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>Tallentamattomia muutoksia</string>
+	<key>EDIT_ITEM_COPY_ACTION</key>
+	<string>Kopioi</string>
+	<key>EMAIL_INVITE_BODY</key>
+	<string>Hei,
+
+Viimeaikoina olen käyttänyt Signalia pitämään keskusteluni iPhonella yksityisinä. Haluaisin, että asentaisit sen myös, jotta voimme olla varmoja, ettei kukaan muu lue viestejämme tai kuuntele puheluitamme.
+
+Signal on saatavilla sekä iPhonelle että Androidille. Hae se täältä: %@
+
+Signal toimii niinkuin nykyinen viestiohjelmasi. Sillä voi lähettää kuvia ja videoita, soittaa puheluita ja käydä ryhmäkeskusteluja. Ja parasta on, ettei kukaan ulkopuolinen näe mitään, eivät edes Signalin tekijät!
+
+Voit lukea lisää Open Whisper Systemsistä, eli Signalin kehittäjistä, täältä: %@</string>
+	<key>EMAIL_INVITE_SUBJECT</key>
+	<string>Vaihdetaan Signaliin</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE1</key>
+	<string>Kellään yhteystiedollasi ei ole Signalia.</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE2</key>
+	<string>Kutsupa joku?</string>
+	<key>ENABLE_2FA_VIEW_CONFIRM_PIN_INSTRUCTIONS</key>
+	<string>Vahvista PIN-koodisi.</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_DISABLE_2FA</key>
+	<string>Rekisteröinnin lukitusta ei voitu ottaa pois käytöstä.</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_ENABLE_2FA</key>
+	<string>Rekisteröinnin lukitusta ei voitu ottaa käyttöön.</string>
+	<key>ENABLE_2FA_VIEW_DISABLE_2FA</key>
+	<string>Ota pois käytöstä</string>
+	<key>ENABLE_2FA_VIEW_ENABLE_2FA</key>
+	<string>Ota käyttöön</string>
+	<key>ENABLE_2FA_VIEW_NEXT_BUTTON</key>
+	<string>Seuraava</string>
+	<key>ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH</key>
+	<string>PIN-koodi ei ole oikein.</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_LONG</key>
+	<string>PIN-koodi voi olla enintään 20 numeroa.</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_SHORT</key>
+	<string>PIN-koodin on oltava vähintään 4 numeroa.</string>
+	<key>ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS</key>
+	<string>Syötä rekisteröinnin lukituksen PIN-koodi. Seuraavan kerran kun rekisteröit Signaliin tällä puhelinnumerolla, sinun tulee syöttää tämä PIN-koodi.</string>
+	<key>ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS</key>
+	<string>Turvallisuuden parantamiseksi, ota käyttöön rekisteröinnin lukituksen PIN-koodi, jota vaaditaan, jotta voit rekisteröityä tällä puhelinnumerolla uudelleen Signaliin.</string>
+	<key>ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS</key>
+	<string>Rekisteröinnin lukitus on otettu käyttöön. Sinun tulee syöttää PIN-koodisi, jos rekisteröidyt uudelleen Signaliin tällä puhelinnumerolla.</string>
+	<key>ENABLE_2FA_VIEW_TITLE</key>
+	<string>Rekisteröinnin lukitus</string>
+	<key>END_CALL_RESPONDER_IS_BUSY</key>
+	<string>Varattu</string>
+	<key>END_CALL_UNCATEGORIZED_FAILURE</key>
+	<string>Puhelu epäonnistui.</string>
+	<key>END_OF_LIFE_OS_WARNING</key>
+	<string>Uusimmat Signal-ominaisuudet eivät tule toimimaan tällä iOS-versiolla. Päivitä tämä laite, jotta voit saada tulevia Signal-päivityksiä.</string>
+	<key>ERROR_COULD_NOT_FETCH_CONTACTS</key>
+	<string>Yhteystietojen lukeminen ei onnistunut.</string>
+	<key>ERROR_COULD_NOT_SAVE_VIDEO</key>
+	<string>Videon tallennus ei onnistunut.</string>
+	<key>ERROR_DESCRIPTION_CLIENT_SENDING_FAILURE</key>
+	<string>Viestin lähetys epäonnistui.</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_DISABLED_PREKEY_UPDATE_FAILURES</key>
+	<string>Lähettäminen ei onnistu, koska salaustiedot ovat vanhetuneet.</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST</key>
+	<string>Viestin lähettäminen ei onnistunut, koska olet estänyt kyseisen yhteystiedon.</string>
+	<key>ERROR_DESCRIPTION_NO_INTERNET</key>
+	<string>Signal ei saanut yhteyttä internetiin. Yritä uudelleen.</string>
+	<key>ERROR_DESCRIPTION_NO_VALID_RECIPIENTS</key>
+	<string>Viestin lähettäminen ei onnistunut, koska vastaanottajatiedoissa on virhe.</string>
+	<key>ERROR_DESCRIPTION_REQUEST_FAILED</key>
+	<string>Verkkopyyntö epäonnistui.</string>
+	<key>ERROR_DESCRIPTION_REQUEST_TIMED_OUT</key>
+	<string>Verkkopyyntö vanhentui.</string>
+	<key>ERROR_DESCRIPTION_RESPONSE_FAILED</key>
+	<string>Virheelinen vastaus palvelimelta.</string>
+	<key>ERROR_DESCRIPTION_SENDING_UNAUTHORIZED</key>
+	<string>Tämä laite ei ole enää rekisteröity puhelinnumerollesi. Asenna Signal uudelleen.</string>
+	<key>ERROR_DESCRIPTION_SERVER_FAILURE</key>
+	<string>Palvelinvirhe. Ytitä myöhemmin uudelleen.</string>
+	<key>ERROR_DESCRIPTION_UNKNOWN_ERROR</key>
+	<string>Tuntematon virhe.</string>
+	<key>ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT</key>
+	<string>Yhteystieto ei käytä Signalia.</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED</key>
+	<string>Liitteen lataaminen epäonnistui.</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT</key>
+	<string>Virhe liitteessä: pyydä lähettäjää päivittämään Signal ja sitten lähettämään viesti uudellleen. </string>
+	<key>ERROR_MESSAGE_DUPLICATE_MESSAGE</key>
+	<string>Vastaanotettiin viestin kaksoiskappale.</string>
+	<key>ERROR_MESSAGE_INVALID_KEY_EXCEPTION</key>
+	<string>Vastaanottajan avain ei ole kelvollinen.</string>
+	<key>ERROR_MESSAGE_INVALID_MESSAGE</key>
+	<string>Vastaanotettu viesti ei ollut synkronissa.</string>
+	<key>ERROR_MESSAGE_INVALID_VERSION</key>
+	<string>Vastanotettiin viesti, joka ei ole yhteensopiva tämän ohjelmistoversion kanssa.</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE</key>
+	<string>Turvanumero on vaihtunut.</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT</key>
+	<string>Turvanumerosi yhteystiedon %@ kanssa on vaihtunut.</string>
+	<key>ERROR_MESSAGE_NO_SESSION</key>
+	<string>Tälle yhteystiedolle ei ole istuntoa.</string>
+	<key>ERROR_MESSAGE_UNKNOWN_ERROR</key>
+	<string>Tuntematon virhe.</string>
+	<key>ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY</key>
+	<string>Turvanumero on vaihtunut.</string>
+	<key>ERROR_SENDING_DELINKED</key>
+	<string>Laitteesi ei ole enää yhdistetty. Yhdistä uudelleen jatkaaksesi viestintää.</string>
+	<key>ERROR_SENDING_DEREGISTERED</key>
+	<string>Laitteesi ei ole enää rekisteröity. Rekisteröidy uudelleen jatkaaksesi viestintää.</string>
+	<key>ERROR_SENDING_EXPIRED</key>
+	<string>Käyttämäsi Signalin versio on vahentunut. Napsauta päivittääksesi uudempaan versioon, jotta voit jatkaa viestien lähettelyä.</string>
+	<key>ERROR_UNREGISTERED_USER_FORMAT</key>
+	<string>Rekisteröimätön käyttäjä: %@</string>
+	<key>EXPIRATION_ERROR</key>
+	<string>Käyttämäsi Signalin versio on vanhentunut! Viestien lähetys ei enää onnistu. Napsauta päivittääksesi uusimpaan versioon.</string>
+	<key>EXPIRATION_WARNING_SOON</key>
+	<string>Käyttämäsi Signalin versio vanhenee %d päivässä. Napauta päivittääksesi viimeisimpään versioon.</string>
+	<key>EXPIRATION_WARNING_TODAY</key>
+	<string>Käyttämäsi Signalin versio vanhenee tänään. Napauta päivittääksesi viimeisimpään versioon.</string>
+	<key>FAILED_SENDING_BECAUSE_RATE_LIMIT</key>
+	<string>Lähetys tälle yhteystiedolle on epäonnistunut liian monta kertaa. Yritä myöhemmin uudelleen.</string>
+	<key>FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_KEY</key>
+	<string>Sinun ja yhteystiedon %@ turvanumero on vaihtunut hiljattain. Saatat halua varmentaa sen ennen uudelleenlähettämistä.</string>
+	<key>FAILED_VERIFICATION_TITLE</key>
+	<string>Turvanumeron varmennus epäonnistui!</string>
+	<key>FINGERPRINT_SCAN_VERIFY_BUTTON</key>
+	<string>Merkitse varmennetuksi</string>
+	<key>FINGERPRINT_SHRED_KEYMATERIAL_BUTTON</key>
+	<string>Alusta istunto</string>
+	<key>FINISH_GROUP_CREATION_LABEL</key>
+	<string>Päätä ryhmän luonti</string>
+	<key>FORWARD_CONTACT</key>
+	<string>Välitä yhteystieto</string>
+	<key>FORWARD_MESSAGE</key>
+	<string>Välitä viesti</string>
+	<key>GALLERY_TILES_EMPTY_GALLERY</key>
+	<string>Tässä keskustelussa ei ole vielä yhtään mediatiedostoa.</string>
+	<key>GALLERY_TILES_LOADING_MORE_RECENT_LABEL</key>
+	<string>Ladataan uudempaa sisältöä...</string>
+	<key>GALLERY_TILES_LOADING_OLDER_LABEL</key>
+	<string>Ladataan vanhempaa sisältöä...</string>
+	<key>GENERIC_ATTACHMENT_LABEL</key>
+	<string>Liitetiedosto</string>
+	<key>GIF_PICKER_ERROR_FETCH_FAILURE</key>
+	<string>GIFin lataaminen epäonnistui. Varmista, että olet verkossa.</string>
+	<key>GIF_PICKER_ERROR_GENERIC</key>
+	<string>Tuntematon virhe.</string>
+	<key>GIF_PICKER_FAILURE_ALERT_TITLE</key>
+	<string>GIFin valinta epäonnistui</string>
+	<key>GIF_PICKER_VIEW_MISSING_QUERY</key>
+	<string>Ole hyvä ja syötä hakusana.</string>
+	<key>GIF_PICKER_VIEW_TITLE</key>
+	<string>GIF-haku</string>
+	<key>GIF_VIEW_SEARCH_ERROR</key>
+	<string>Virhe. Yritä uudelleen napauttamalla.</string>
+	<key>GIF_VIEW_SEARCH_NO_RESULTS</key>
+	<string>Ei hakutuloksia</string>
+	<key>GIF_VIEW_SEARCH_PLACEHOLDER_TEXT</key>
+	<string>Syötä hakusana</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_BODY</key>
+	<string>Tämä Signal-päivitys sisältää tietokannan optimointeja ja suorituskyvyn parannuksia. Saatat joutua avaamaan sovelluksen prosessin loppuun saattamiseksi.</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_TITLE</key>
+	<string>Päivitetään tietokantaa</string>
+	<key>GROUP_CREATED</key>
+	<string>Ryhmä luotu.</string>
+	<key>GROUP_CREATED_BY_LOCAL_USER</key>
+	<string>Sinä loit ryhmän.</string>
+	<key>GROUP_CREATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@ lisäsi sinut ryhmään.</string>
+	<key>GROUP_CREATION_FAILED</key>
+	<string>Kaikkia ryhmän jäseniä ei voitu lisätä ryhmään. Napauta yrittääksesi uudelleen.</string>
+	<key>GROUP_MANAGEMENT_SECTION</key>
+	<string>Ryhmien hallinta</string>
+	<key>GROUP_MEMBERS_CALL</key>
+	<string>Soita</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED</key>
+	<string>Sivuuta kaikki varmennukset</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED_ALERT_MESSAGE</key>
+	<string>Tämä sivuttaa kaikkien ryhmän jäsenten varmennukset, joiden turvanumerot ovat vaihtuneet sen jälkeen, kun ne viimeksi varmennettiin.</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_MEMBERS</key>
+	<string>Jäsenet</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_NO_LONGER_VERIFIED</key>
+	<string>Ei enää merkitty varmennetuksi</string>
+	<key>GROUP_MEMBERS_SEND_MESSAGE</key>
+	<string>Viesti</string>
+	<key>GROUP_MEMBER_LEFT</key>
+	<string>%@ lähti ryhmästä.</string>
+	<key>GROUP_UPDATED</key>
+	<string>Ryhmä päivitetty.</string>
+	<key>GROUP_UPDATED_ADDED_MULTIPLE_MEMBERS_FORMAT</key>
+	<string>%@ ja %@ liittyivät ryhmään.</string>
+	<key>GROUP_UPDATED_ADDED_ONE_MEMBER_FORMAT</key>
+	<string>%@ liittyi ryhmään.</string>
+	<key>GROUP_UPDATED_AVATAR_REMOVED</key>
+	<string>Poisti ryhmän kuvakkeen.</string>
+	<key>GROUP_UPDATED_AVATAR_UPDATED</key>
+	<string>Päivitti ryhmän kuvakkeen.</string>
+	<key>GROUP_UPDATED_BY_LOCAL_USER</key>
+	<string>Sinä päivitit ryhmää.</string>
+	<key>GROUP_UPDATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@ päivitti ryhmää.</string>
+	<key>GROUP_UPDATED_NAME_REMOVED</key>
+	<string>Poisti nimen.</string>
+	<key>GROUP_UPDATED_NAME_UPDATED_FORMAT</key>
+	<string>Ryhmän nimi on nyt "%@".</string>
+	<key>GROUP_UPDATED_READDED_YOU</key>
+	<string>Lisäsi sinut takaisin ryhmään.</string>
+	<key>GROUP_YOU_LEFT</key>
+	<string>Olet poistunut ryhmästä.</string>
+	<key>HOME_VIEW_ARCHIVED_CONVERSATIONS</key>
+	<string>Arkistoidut keskustelut</string>
+	<key>HOME_VIEW_BLOCKED_CONVERSATION</key>
+	<string>Estetty</string>
+	<key>HOME_VIEW_CONVERSATION_SEARCHBAR_PLACEHOLDER</key>
+	<string>Hae</string>
+	<key>HOME_VIEW_DRAFT_PREFIX</key>
+	<string>Luonnos:</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT</key>
+	<string>Jotkin yhteystietosi ovat jo Signalissa, mukaan lukien %@.</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT</key>
+	<string>Jotkin yhteystietosi ovat jo Signalissa, mukaan lukien %@ ja %@</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT</key>
+	<string>Jotkin yhteystietosi ovat jo Signalissa, mukaan lukien %@, %@ ja %@</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS</key>
+	<string>Aloita ensimmäinen keskustelu.</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_ADDED_TO_GROUP_FORMAT</key>
+	<string>%@ lisäsi sinut ryhmään</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_CONVERSATION</key>
+	<string>Viestipyyntö</string>
+	<key>HOME_VIEW_SEARCH_NO_RESULTS_FORMAT</key>
+	<string>Ei hakutuloksia haulle "%@"</string>
+	<key>HOME_VIEW_TITLE_ARCHIVE</key>
+	<string>Arkisto</string>
+	<key>HOME_VIEW_TITLE_INBOX</key>
+	<string>Signal</string>
+	<key>IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT</key>
+	<string>Et voi jakaa useampaa kuin %@ kappaletta.</string>
+	<key>IMAGE_PICKER_FAILED_TO_PROCESS_ATTACHMENTS</key>
+	<string>Liitteen valitseminen epäonnistui. </string>
+	<key>INBOX_VIEW_ARCHIVE_MODE_REMINDER</key>
+	<string>Nämä keskustelut ovat arkistoituja. Ne siirtyvät takaisin postilaatikkoon, jos niihin tulee uusia viestejä</string>
+	<key>INBOX_VIEW_EMPTY_INBOX</key>
+	<string>Anna postilaatikollesi jotain, mistä se voisi olla ylpeä. Aloita lähettämällä viesti ystävälle.</string>
+	<key>INBOX_VIEW_MISSING_CONTACTS_PERMISSION</key>
+	<string>Voit sallia yhteystietojen käytön Asetukset-ohjelmasta nähdäksesi yhteystietojesi nimet Signalin keskustelunäkymässä. </string>
+	<key>INCOMING_CALL</key>
+	<string>Saapuva puhelu</string>
+	<key>INCOMING_DECLINED_CALL</key>
+	<string>Hylkäsit puhelun</string>
+	<key>INCOMING_INCOMPLETE_CALL</key>
+	<string>Saapuva puhelu</string>
+	<key>INFO_MESSAGE_MISSED_CALL_DUE_TO_CHANGED_IDENITY</key>
+	<string>Vastaamatta jäänyt puhelu koska hänen turvanumeronsa on vaihtunut.</string>
+	<key>INFO_MESSAGE_SYNCED_THREAD</key>
+	<string>Voit lähettää tai vastaanottaa synkronoituja viestejä puhelimesta tai iPadista.
+Turvallisuutesi vuoksi keskusteluhistoriaa ei siirretä uusiin yhdistettyihin laitteisiin.</string>
+	<key>INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT</key>
+	<string>%@ käyttää Signalia!</string>
+	<key>INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>Tarrat</string>
+	<key>INPUT_TOOLBAR_VOICE_MEMO_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>Ääniviesti</string>
+	<key>INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE</key>
+	<string>Virheellinen äänitiedosto.</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY</key>
+	<string>Voit sallia yhteystietojen käytön Asetukset-ohjelmasta kutsuaksesi ystäviäsi käyttämään Signalia.</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE</key>
+	<string>Salli yhteystietojen käyttö</string>
+	<key>INVITE_FRIENDS_CONTACT_TABLE_BUTTON</key>
+	<string>Kutsu ystäviä Signaliin</string>
+	<key>INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER</key>
+	<string>Hae</string>
+	<key>INVITE_FRIENDS_PICKER_TITLE</key>
+	<string>Kutsu ystäviä</string>
+	<key>INVITE_WARNING_MULTIPLE_INVITES_BY_TEXT</key>
+	<string>Useamman yhteystiedon kutsuminen samaan aikaan lähettää ryhmäviestin, jonka vastaanottajat voivat nähdä toisensa.</string>
+	<key>IN_CALL_CONNECTING</key>
+	<string>Yhdistetään...</string>
+	<key>IN_CALL_RECONNECTING</key>
+	<string>Yhdistetään uudelleen...</string>
+	<key>IN_CALL_RINGING</key>
+	<string>Soi...</string>
+	<key>IN_CALL_SECURING</key>
+	<string>Vastattu. Suojataan...</string>
+	<key>IN_CALL_TERMINATED</key>
+	<string>Puhelu loppui.</string>
+	<key>KEEP_MESSAGES_DURATION</key>
+	<string>Viestit katoavat %@ näkemisestä.</string>
+	<key>KEEP_MESSAGES_FOREVER</key>
+	<string>Viestit eivät katoa.</string>
+	<key>KEY_COMMAND_ALL_MEDIA</key>
+	<string>Siirry medianäkymään</string>
+	<key>KEY_COMMAND_ARCHIVE</key>
+	<string>Arkistoi keskustelu</string>
+	<key>KEY_COMMAND_ATTACHMENTS</key>
+	<string>Näytä liitetiedostot</string>
+	<key>KEY_COMMAND_CONVERSATION_INFO</key>
+	<string>Siirry keskustelutietoihin</string>
+	<key>KEY_COMMAND_FOCUS_COMPOSER</key>
+	<string>Tarkenna syöttökenttä</string>
+	<key>KEY_COMMAND_GIF_SEARCH</key>
+	<string>Siirry GIF-hakuun</string>
+	<key>KEY_COMMAND_NEW_GROUP</key>
+	<string>Uusi ryhmä</string>
+	<key>KEY_COMMAND_NEW_MESSAGE</key>
+	<string>Uusi viesti</string>
+	<key>KEY_COMMAND_NEXT_CONVERSATION</key>
+	<string>Siirry seuraavaan keskusteluun</string>
+	<key>KEY_COMMAND_PREVIOUS_CONVERSATION</key>
+	<string>Siirry edelliseen keskusteluun</string>
+	<key>KEY_COMMAND_SEARCH</key>
+	<string>Hae</string>
+	<key>KEY_COMMAND_SETTINGS</key>
+	<string>Asetukset</string>
+	<key>KEY_COMMAND_STICKERS</key>
+	<string>Näytä tarrat</string>
+	<key>KEY_COMMAND_UNARCHIVE</key>
+	<string>Palauta keskustelu</string>
+	<key>LEAVE_BUTTON_TITLE</key>
+	<string>Poistu</string>
+	<key>LEAVE_GROUP_ACTION</key>
+	<string>Poistu ryhmästä</string>
+	<key>LEAVE_GROUP_FAILED</key>
+	<string>Ryhmästä poistuessa tapahtui virhe.</string>
+	<key>LINKED_DEVICES_TITLE</key>
+	<string>Yhdistetyt laitteet</string>
+	<key>LINKING_DEVICE_FAILED_TITLE</key>
+	<string>Laitteen yhdistäminen epäonnistui</string>
+	<key>LINK_DEVICE_INVALID_CODE_BODY</key>
+	<string>Tämä ei ole oikeanlainen QR-koodi. Tarkista, että olet skannaamassa sen laitteen ruudulla näkyvää QR-koodia, jonka haluat yhdistää.</string>
+	<key>LINK_DEVICE_INVALID_CODE_TITLE</key>
+	<string>Laitteen yhdistäminen epäonnistui</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_BODY</key>
+	<string>Tämä laite voi jatkossa nähdä ryhmäsi ja yhteystietosi, lukea kaikki viestisi ja lähettää viestejä sinun nimelläsi.</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_TITLE</key>
+	<string>Yhdistetäänkö tämä laite?</string>
+	<key>LINK_DEVICE_RESTART</key>
+	<string>Yritä uudelleen</string>
+	<key>LINK_DEVICE_SCANNING_INSTRUCTIONS</key>
+	<string>Skannaa yhdistettävän laitteen ruudulla näkyvä QR-koodi.</string>
+	<key>LINK_NEW_DEVICE_SUBTITLE</key>
+	<string>Skannaa QR-koodi</string>
+	<key>LINK_NEW_DEVICE_TITLE</key>
+	<string>Yhdistä uusi laite</string>
+	<key>LINK_PREVIEW_UNKNOWN_DOMAIN</key>
+	<string>Linkin esikatselukuva</string>
+	<key>LIST_GROUP_MEMBERS_ACTION</key>
+	<string>Ryhmän jäsenet</string>
+	<key>LOCATION_PICKER_SEARCH_PLACEHOLDER</key>
+	<string>Etsi nimen tai osoitteen perusteella</string>
+	<key>LOCATION_PICKER_TITLE</key>
+	<string>Valitse sijainti</string>
+	<key>LOGGING_SECTION</key>
+	<string>Lokit</string>
+	<key>LONG_TEXT_VIEW_TITLE</key>
+	<string>Viesti</string>
+	<key>MEDIA_DETAIL_VIEW_ALL_MEDIA_BUTTON</key>
+	<string>Kaikki media</string>
+	<key>MEDIA_FROM_CAMERA_BUTTON</key>
+	<string>Kamera</string>
+	<key>MEDIA_FROM_LIBRARY_BUTTON</key>
+	<string>Kameran rulla</string>
+	<key>MEDIA_GALLERY_DELETE_MULTIPLE_MESSAGES_FORMAT</key>
+	<string>Poista %d viestiä</string>
+	<key>MEDIA_GALLERY_DELETE_SINGLE_MESSAGE</key>
+	<string>Poista viesti</string>
+	<key>MEDIA_GALLERY_MORE_ITEMS_FORMAT</key>
+	<string>+%@</string>
+	<key>MEDIA_GALLERY_SENDER_NAME_YOU</key>
+	<string>Sinä</string>
+	<key>MEDIA_GALLERY_THIS_MONTH_HEADER</key>
+	<string>Tämä kuukausi</string>
+	<key>MEGAPHONE_REMIND_LATER</key>
+	<string>Muistuta minua myöhemmin</string>
+	<key>MEGAPHONE_WILL_REMIND_LATER</key>
+	<string>Muistutamme sinua myöhemmin.</string>
+	<key>MESSAGES_VIEW_1_MEMBER_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>%@ ei ole enää merkitty varmennetuksi. Lisätietoja napauttamalla.</string>
+	<key>MESSAGES_VIEW_CONTACT_BLOCKED</key>
+	<string>Olet estänyt tämän käyttäjän</string>
+	<key>MESSAGES_VIEW_CONTACT_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>%@ ei ole enää merkitty varmennetuksi. Lisätietoja napauttamalla.</string>
+	<key>MESSAGES_VIEW_GROUP_1_MEMBER_BLOCKED</key>
+	<string>Estit 1 käyttäjän tästä ryhmästä</string>
+	<key>MESSAGES_VIEW_GROUP_BLOCKED</key>
+	<string>Olet estänyt tämän ryhmän</string>
+	<key>MESSAGES_VIEW_GROUP_N_MEMBERS_BLOCKED_FORMAT</key>
+	<string>Estit %@ jäsentä tästä ryhmästä</string>
+	<key>MESSAGES_VIEW_N_MEMBERS_NO_LONGER_VERIFIED</key>
+	<string>Useampi kuin yksi tämän ryhmän jäsenistä ei ole enää merkitty varmennetuksi. Lisätietoja napauttamalla.</string>
+	<key>MESSAGES_VIEW_TITLE_SUBTITLE</key>
+	<string>Napauta tästä asetuksiin</string>
+	<key>MESSAGES_VIEW_UNREAD_INDICATOR</key>
+	<string>Uusia viestejä</string>
+	<key>MESSAGE_ACTION_COPY_TEXT</key>
+	<string>Kopioi viestin teksti</string>
+	<key>MESSAGE_ACTION_DELETE_MESSAGE</key>
+	<string>Poista tämä viesti</string>
+	<key>MESSAGE_ACTION_DETAILS</key>
+	<string>Lisätietoja</string>
+	<key>MESSAGE_ACTION_FORWARD_MESSAGE</key>
+	<string>Välitä tämä viesti</string>
+	<key>MESSAGE_ACTION_REPLY</key>
+	<string>Vastaa tähän viestiin</string>
+	<key>MESSAGE_ACTION_SHARE_MEDIA</key>
+	<string>Jaa liitetiedosto</string>
+	<key>MESSAGE_APPROVAL_DIALOG_TITLE</key>
+	<string>Viesti</string>
+	<key>MESSAGE_COMPOSEVIEW_TITLE</key>
+	<string>Uusi viesti</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_FILE_SIZE</key>
+	<string>Tiedoston koko</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_MIME_TYPE</key>
+	<string>MIME-tyyppi</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_DELIVERED</key>
+	<string>Toimitettu</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_FAILED</key>
+	<string>Epäonnistui</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_READ</key>
+	<string>Luettu</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENDING</key>
+	<string>Lähetetään</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENT</key>
+	<string>Lähetetty</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SKIPPED</key>
+	<string>Sivuutettu</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_UPLOADING</key>
+	<string>Lähetetään</string>
+	<key>MESSAGE_METADATA_VIEW_NO_ATTACHMENT_OR_BODY</key>
+	<string>Viestissä ei ole sisältöä tai liitettä.</string>
+	<key>MESSAGE_METADATA_VIEW_RECEIVED_DATE_TIME</key>
+	<string>Vastaanotettu</string>
+	<key>MESSAGE_METADATA_VIEW_SENDER</key>
+	<string>Lähettäjä</string>
+	<key>MESSAGE_METADATA_VIEW_SENT_DATE_TIME</key>
+	<string>Lähetetty</string>
+	<key>MESSAGE_METADATA_VIEW_SOURCE_FILENAME</key>
+	<string>Tiedostonimi</string>
+	<key>MESSAGE_METADATA_VIEW_TITLE</key>
+	<string>Viesti</string>
+	<key>MESSAGE_REQUESTS_NAMES_SPLASH_TITLE</key>
+	<string>Esittelemme viestipyynnöt</string>
+	<key>MESSAGE_REQUESTS_SPLASH_ADD_PROFILE_NAME_BUTTON</key>
+	<string>Lisää profiilinimi</string>
+	<key>MESSAGE_REQUESTS_SPLASH_BODY</key>
+	<string>Voit nyt valita "hyväksyä" tai "poistaa" uuden keskustelun. Nimet kertovat ihmisille, kuka viestii heille.</string>
+	<key>MESSAGE_REQUESTS_SPLASH_MEGAPHONE_TOAST</key>
+	<string>Profiilinimesi on tallennettu.</string>
+	<key>MESSAGE_REQUEST_BLOCK_ACTION</key>
+	<string>Estä</string>
+	<key>MESSAGE_REQUEST_BLOCK_AND_DELETE_ACTION</key>
+	<string>Estä ja poista</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_MESSAGE</key>
+	<string>Estetyt henkilöt eivät pysty soittamaan sinulle tai lähettämään sinulle viestejä.</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_TITLE_FORMAT</key>
+	<string>Estä %@?</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_MESSAGE</key>
+	<string>Lähdet tästä ryhmästä etkä enää vastaanota viestejä tai päivityksiä.</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>Estä ja lähde ryhmästä %@?</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION</key>
+	<string>Poista</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_MESSAGE</key>
+	<string>Tämä keskustelu poistetaan kaikilta laitteiltasi.</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_TITLE</key>
+	<string>Poistetaanko keskustelu?</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION</key>
+	<string>Poista ja lähde</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE</key>
+	<string>Lähdet tästä ryhmästä ja se poistetaan kaikilta laitteiltasi.</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE</key>
+	<string>Poista ja lähde ryhmästä?</string>
+	<key>MESSAGE_REQUEST_VIEW_ACCEPT_BUTTON</key>
+	<string>Hyväksy</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_CONTACT_PROMPT_FORMAT</key>
+	<string>Haluatko antaa henkilön %@ viestiä sinulle? Et saa viestejä ennen kuin poistat niiden eston.</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_GROUP_PROMPT_FORMAT</key>
+	<string>Haluatko antaa ryhmän %@ viestiä sinulle? Et saa viestejä ennen kuin poistat niiden eston.</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCK_BUTTON</key>
+	<string>Estä</string>
+	<key>MESSAGE_REQUEST_VIEW_DELETE_BUTTON</key>
+	<string>Poista</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_CONTACT_PROMPT_FORMAT</key>
+	<string>Sinun on jaettava profiilisi jatkaaksesi keskustelua henkilön %@ kanssa.</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_GROUP_PROMPT_FORMAT</key>
+	<string>Sinun on jaettava profiilisi jatkaaksesi keskusteluasi ryhmässä %@.</string>
+	<key>MESSAGE_REQUEST_VIEW_LEARN_MORE_BUTTON</key>
+	<string>Lue lisää</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_CONTACT_PROMPT_FORMAT</key>
+	<string>Haluatko antaa henkilön %@ viestiä sinulle? Hän ei tiedä, että olet nähnyt hänen viestinsä, ennen kuin hyväksyt.</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_GROUP_PROMPT_FORMAT</key>
+	<string>Haluatko liittyä ryhmään %@? He eivät tiedä, että olet nähnyt heidän viestinsä, ennen kuin hyväksyt.</string>
+	<key>MESSAGE_REQUEST_VIEW_SHARE_PROFILE_BUTTON</key>
+	<string>Jaa profiili</string>
+	<key>MESSAGE_REQUEST_VIEW_UNBLOCK_BUTTON</key>
+	<string>Poista esto</string>
+	<key>MESSAGE_STATUS_DELIVERED</key>
+	<string>Toimitettu</string>
+	<key>MESSAGE_STATUS_DOWNLOADING</key>
+	<string>Ladataan</string>
+	<key>MESSAGE_STATUS_FAILED</key>
+	<string>Lähettäminen epäonnistui.</string>
+	<key>MESSAGE_STATUS_FAILED_SHORT</key>
+	<string>Epäonnistui</string>
+	<key>MESSAGE_STATUS_READ</key>
+	<string>Luettu</string>
+	<key>MESSAGE_STATUS_RECIPIENT_SKIPPED</key>
+	<string>Sivuutettu</string>
+	<key>MESSAGE_STATUS_SENDING</key>
+	<string>Lähetetään...</string>
+	<key>MESSAGE_STATUS_SEND_FAILED</key>
+	<string>Lähettäminen epäonnistui.</string>
+	<key>MESSAGE_STATUS_SENT</key>
+	<string>Lähetetty</string>
+	<key>MESSAGE_STATUS_UPLOADING</key>
+	<string>Lähetetään...</string>
+	<key>MESSAGE_TEXT_FIELD_PLACEHOLDER</key>
+	<string>Uusi viesti</string>
+	<key>MISSED_CALL</key>
+	<string>Vastaamatta jäänyt puhelu</string>
+	<key>MISSING_CAMERA_PERMISSION_MESSAGE</key>
+	<string>Voit sallia kameran käytön Asetukset-ohjelmasta soittaaksesi videopuheluita Signalilla.</string>
+	<key>MISSING_CAMERA_PERMISSION_TITLE</key>
+	<string>Signal tarvitsee oikeutta käyttää kameraa.</string>
+	<key>MISSING_LOCATION_PERMISSION_MESSAGE</key>
+	<string>Voit antaa tämän käyttöoikeuden laitteesi Asetuksista.</string>
+	<key>MISSING_LOCATION_PERMISSION_TITLE</key>
+	<string>Tämän toiminnon käyttämiseksi Signal tarvitsee lupaa saada laitteesi sijainti.</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE</key>
+	<string>Voit antaa tämän käyttöoikeuden laitteesi Asetuksista.</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_TITLE</key>
+	<string>Tämän toiminnon käyttämiseksi Signal tarvitsee lupaa päästä laitteesi mediakirjastoon.</string>
+	<key>MULTIDEVICE_PAIRING_MAX_DESC</key>
+	<string>Et voi yhdistää enempää laitteita.</string>
+	<key>MULTIDEVICE_PAIRING_MAX_RECOVERY</key>
+	<string>Sinulla on nyt käytössä enimmäismäärä yhdistettyjä laitteita. Poista laite ja yritä uudelleen.</string>
+	<key>MUTE_BEHAVIOR_EXPLANATION</key>
+	<string>Et saa ilmoituksia mykistetyistä keskusteluista.</string>
+	<key>NAVIGATION_ITEM_SKIP_BUTTON</key>
+	<string>Ohita</string>
+	<key>NETWORK_ERROR_RECOVERY</key>
+	<string>Tarkista että verkkoyhteytesi on päällä ja yritä uudelleen.</string>
+	<key>NEW_CONVERSATION_FIND_BY_PHONE_NUMBER</key>
+	<string>Etsi puhelinnumerolla</string>
+	<key>NEW_GROUP_ADD_PHOTO_ACTION</key>
+	<string>Aseta ryhmän kuva</string>
+	<key>NEW_GROUP_BUTTON_LABEL</key>
+	<string>Luo uusi ryhmä</string>
+	<key>NEW_GROUP_CREATE_BUTTON</key>
+	<string>Luo</string>
+	<key>NEW_GROUP_CREATION_FAILED</key>
+	<string>Uuden ryhmän luominen epäonnistui.</string>
+	<key>NEW_GROUP_DEFAULT_TITLE</key>
+	<string>Uusi ryhmä</string>
+	<key>NEW_GROUP_MEMBER_LABEL</key>
+	<string>Jäsen</string>
+	<key>NEW_GROUP_MESSAGE_NOTIFICATION_TITLE</key>
+	<string>%@ ryhmälle %@</string>
+	<key>NEW_GROUP_NAMEGROUP_REQUEST_DEFAULT</key>
+	<string>Nimeä tämä ryhmä</string>
+	<key>NEW_GROUP_NON_CONTACTS_SECTION_TITLE</key>
+	<string>Muuta käyttäjät</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>Haluatko hylätä nämä muutokset?</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>Tallentamattomia muutoksia</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_BUTTON</key>
+	<string>Hae</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_TITLE</key>
+	<string>Etsi käyttäjää</string>
+	<key>NON_CONTACT_TABLE_CELL_NEW_MESSAGE</key>
+	<string>Uusi viesti henkilölle:</string>
+	<key>NON_CONTACT_TABLE_CELL_SEND_SMS</key>
+	<string>Käyttäjää ei löytynyt. Kutsu tekstiviestillä?</string>
+	<key>NOTE_TO_SELF</key>
+	<string>Viestit itselleni</string>
+	<key>NOTIFICATIONS_FOOTER_WARNING</key>
+	<string>Toimintoihin kuuluu "Merkitse luetuksi", "Vastaa" ja "Soita takaisin".</string>
+	<key>NOTIFICATIONS_NONE</key>
+	<string>Ei nimeä eikä sisältöä</string>
+	<key>NOTIFICATIONS_SECTION_INAPP</key>
+	<string>Toista kun ohjelma on auki</string>
+	<key>NOTIFICATIONS_SECTION_SOUNDS</key>
+	<string>Äänet</string>
+	<key>NOTIFICATIONS_SENDER_AND_MESSAGE</key>
+	<string>Nimi, sisältö ja toiminto</string>
+	<key>NOTIFICATIONS_SENDER_ONLY</key>
+	<string>Vain nimi</string>
+	<key>NOTIFICATIONS_SHOW</key>
+	<string>Näytä</string>
+	<key>NOTIFICATION_BODY_PHONE_LOCKED_FORMAT</key>
+	<string>Olet saattanut saada uusia viestejä sillä aikaa, kun %@:si uudelleenkäynnistyi.</string>
+	<key>NO_CONTACTS_SEARCH_BY_PHONE_NUMBER</key>
+	<string>Etsi yhteystietoja puhelinnumerolla</string>
+	<key>NO_SELECTED_CONVERSATION_DESCRIPTION</key>
+	<string>Aloita keskustelu valitsemalla jokin yhteystieto tai ryhmä</string>
+	<key>NO_SELECTED_CONVERSATION_TITLE</key>
+	<string>Tervetuloa Signaliin</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>ONBOARDING_2FA_ATTEMPTS_EXHAUSTED</key>
+	<string>Väärä PIN-koodi. Yritykset käytetty loppuun.</string>
+	<key>ONBOARDING_2FA_ENTER_ALPHANUMERIC</key>
+	<string>Syötä aakkosnumeerinen PIN</string>
+	<key>ONBOARDING_2FA_ENTER_NUMERIC</key>
+	<string>Syötä numeerinen PIN</string>
+	<key>ONBOARDING_2FA_FORGOT_PIN_LINK</key>
+	<string>Tarvitsetko apua?</string>
+	<key>ONBOARDING_2FA_INVALID_PIN</key>
+	<string>Väärä PIN</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_PLURAL_FORMAT</key>
+	<string>Väärä PIN-koodi. %lu yritystä jäljellä.</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_SINGLE</key>
+	<string>Väärä PIN-koodi. 1 yritys jäljellä.</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_EXPLANATION</key>
+	<string>Yksityisyytesi ja tilisi turvallisuuden suojaamiseksi, olemme lukinneet sen 7 päiväksi.
+
+Kun 7 päivää on kulunut ilman toimintaa, voit rekisteröidä tämän puhelinnumeron uudelleen ilman, että tarvitset PIN-koodiasi. Kaikki sisältö pyyhitään.</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_LEARN_MORE</key>
+	<string>Lisätietoja lukituista tileistä</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_TITLE</key>
+	<string>Tili lukittu</string>
+	<key>ONBOARDING_CAPTCHA_TITLE</key>
+	<string>Lisää ripaus ihmisyyttä viesteihisi</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING</key>
+	<string>Rekisteröi iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING</key>
+	<string>Yhdistä iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING</key>
+	<string>Napauttamalla ”Rekisteröi iPad” voit luoda aivan uuden Signal-tilin tai siirtää olemassa olevan tilin tähän iPadiin. Tämä poistaa Signalin käytöstä toiselta laitteelta, jos se on tällä hetkellä rekisteröity samalla puhelinnumerolla.</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING</key>
+	<string>Napauttamalla “Yhdistä iPhone” voit yhdistää puhelimesi olemassa olevaan tiliin. Puhelimen yhdistämistä ei yleensä suositella, ja se rajoittaa joitain toimintoja, kuten soittamista.</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_PROVISIONING</key>
+	<string>Rekisteröi tämä iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_REGISTERING</key>
+	<string>Yhdistä tämä iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING</key>
+	<string>Tämän iPadin rekisteröiminen poistaa Signalin käytöstä toiselta laitteelta, jos se on tällä hetkellä rekisteröity samalla puhelinnumerolla.</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_REGISTERING</key>
+	<string>iPhonen yhdistämistä ei suositella. Se rajoittaa myös ydintoimintoja.</string>
+	<key>ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON</key>
+	<string>Myönnä käyttöoikeudet</string>
+	<key>ONBOARDING_PERMISSIONS_EXPLANATION</key>
+	<string>Ilmoitusten avulla voit nähdä milloin viestit saapuvat ja vastaanottaa päivityksiä uudesta keskustelutoiminnasta.</string>
+	<key>ONBOARDING_PERMISSIONS_TITLE</key>
+	<string>Hae viestisi</string>
+	<key>ONBOARDING_PHONE_NUMBER_TITLE</key>
+	<string>Syötä puhelinnumerosi, jotta pääset alkuun</string>
+	<key>ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING</key>
+	<string>Virheellinen numero</string>
+	<key>ONBOARDING_PIN_EXPLANATION</key>
+	<string>Syötä PIN-koodi jonka loit tilillesi. Tämä on eri kuin SMS-vahvistuskoodisi.</string>
+	<key>ONBOARDING_PIN_TITLE</key>
+	<string>Syötä PIN-koodisi</string>
+	<key>ONBOARDING_SPLASH_TERM_AND_PRIVACY_POLICY</key>
+	<string>Käyttöehdot ja tietosuoja</string>
+	<key>ONBOARDING_SPLASH_TITLE</key>
+	<string>Ota yksityisyys mukaasi.
+Ole itsesi jokaisessa viestissä.</string>
+	<key>ONBOARDING_VERIFICATION_BACK_LINK</key>
+	<string>Väärä numero?</string>
+	<key>ONBOARDING_VERIFICATION_CODE_COUNTDOWN_FORMAT</key>
+	<string>En saanut koodia (saatavilla ajassa %@)</string>
+	<key>ONBOARDING_VERIFICATION_EMAIL_SIGNAL_SUPPORT</key>
+	<string>Ota yhteyttä Signalin tukeen</string>
+	<key>ONBOARDING_VERIFICATION_INVALID_CODE</key>
+	<string>Tämä koodi on virheellinen</string>
+	<key>ONBOARDING_VERIFICATION_ORIGINAL_CODE_MISSING_LINK</key>
+	<string>En saanut koodia</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_MESSAGE</key>
+	<string>Varmista, että sinulla on yhteys matkapuhelinverkkoon ja voit vastaanottaa tekstiviestejä.</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_TITLE</key>
+	<string>Ei koodia?</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_SMS_BUTTON</key>
+	<string>Lähetä koodi uudelleen</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_VOICE_BUTTON</key>
+	<string>Soita minulle mieluummin</string>
+	<key>ONBOARDING_VERIFICATION_RESENT_CODE_MISSING_LINK</key>
+	<string>Ei vieläkään koodia?</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_DEFAULT_FORMAT</key>
+	<string>Syötä koodi, jonka lähetimme numeroon %@</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_RESENT_FORMAT</key>
+	<string>Lähetimme koodin uudelleen numeroon %@</string>
+	<key>OPEN_SETTINGS_BUTTON</key>
+	<string>Asetukset</string>
+	<key>OTHER_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>%@ asetti katoavat viestit pois päältä.</string>
+	<key>OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>%@ asetti viestien katoamisajan: %@</string>
+	<key>OUTAGE_WARNING</key>
+	<string>Signalissa ilmenee tällä hetkellä teknisiä ongelmia. Työskentelemme parhaillaan palvelun palauttamiseksi.</string>
+	<key>OUTGOING_CALL</key>
+	<string>Lähtevä puhelu</string>
+	<key>OUTGOING_INCOMPLETE_CALL</key>
+	<string>Lähtevä puhelu</string>
+	<key>OUTGOING_MISSED_CALL</key>
+	<string>Vastaamaton lähtevä puhelu</string>
+	<key>OVERSIZE_TEXT_DISPLAY_FORMAT</key>
+	<string>%@...</string>
+	<key>PDF_VIEW_COULD_NOT_RENDER</key>
+	<string>PDF-tiedostoa ei voitu näyttää</string>
+	<key>PDF_VIEW_TITLE</key>
+	<string>PDF</string>
+	<key>PER_MESSAGE_EXPIRATION_INVALID_CONTENT</key>
+	<string>Virhe saapuvan viestin käsittelyssä</string>
+	<key>PER_MESSAGE_EXPIRATION_NOT_VIEWABLE</key>
+	<string>Kerran katsottava media</string>
+	<key>PER_MESSAGE_EXPIRATION_OUTGOING_MESSAGE</key>
+	<string>Media</string>
+	<key>PER_MESSAGE_EXPIRATION_PHOTO_PREVIEW</key>
+	<string>Kerran katsottava kuva</string>
+	<key>PER_MESSAGE_EXPIRATION_VIDEO_PREVIEW</key>
+	<string>Kerran katsottava video</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEWED</key>
+	<string>Katsottu</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_PHOTO</key>
+	<string>Katso kuvaa</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_VIDEO</key>
+	<string>Katso video</string>
+	<key>PHONE_NUMBER_EXAMPLE_FORMAT</key>
+	<string>Esimerkki: %@</string>
+	<key>PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT</key>
+	<string>%@ %@</string>
+	<key>PHONE_NUMBER_TYPE_HOME</key>
+	<string>Koti</string>
+	<key>PHONE_NUMBER_TYPE_HOME_FAX</key>
+	<string>Kotifaksi</string>
+	<key>PHONE_NUMBER_TYPE_IPHONE</key>
+	<string>iPhone</string>
+	<key>PHONE_NUMBER_TYPE_MAIN</key>
+	<string>Ensisijainen</string>
+	<key>PHONE_NUMBER_TYPE_MOBILE</key>
+	<string>Matkapuhelin</string>
+	<key>PHONE_NUMBER_TYPE_OTHER</key>
+	<string>Muu</string>
+	<key>PHONE_NUMBER_TYPE_OTHER_FAX</key>
+	<string>Muu faksi</string>
+	<key>PHONE_NUMBER_TYPE_PAGER</key>
+	<string>Hakulaite</string>
+	<key>PHONE_NUMBER_TYPE_UNKNOWN</key>
+	<string>Tuntematon</string>
+	<key>PHONE_NUMBER_TYPE_WORK</key>
+	<string>Työ</string>
+	<key>PHONE_NUMBER_TYPE_WORK_FAX</key>
+	<string>Työfaksi</string>
+	<key>PHOTO_CAPTURE_GENERIC_ERROR</key>
+	<string>Kuvan ottaminen ei onnistu.</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_CAPTURE_IMAGE</key>
+	<string>Kuvan ottaminen ei onnistu.</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_INITIALIZE_CAMERA</key>
+	<string>Kameran määrittäminen epäonnistui.</string>
+	<key>PHOTO_PICKER_UNNAMED_COLLECTION</key>
+	<string> Nimeämätön albumi</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_ACTION</key>
+	<string>Päivitä PIN</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_BODY</key>
+	<string>Rekisteröinnin lukitusta kutsutaan nyt PIN-koodiksi. Päivittäminen kestää sekunteja.</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>Muistutamme sinua myöhemmin. PIN-koodin päivittämisestä tulee pakollinen %ld päivän kuluttua.</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_TITLE</key>
+	<string>Esittelemme PIN-koodit</string>
+	<key>PINS_MEGAPHONE_NO_PIN_ACTION</key>
+	<string>Luo PIN-koodi</string>
+	<key>PINS_MEGAPHONE_NO_PIN_BODY</key>
+	<string>PIN-koodit lisäävät Signal-tilillesi toisen suojaustason.</string>
+	<key>PINS_MEGAPHONE_NO_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>Muistutamme sinua myöhemmin. PIN-koodin luomisesta tulee pakollinen %ld päivän kuluttua.</string>
+	<key>PINS_MEGAPHONE_NO_PIN_TITLE</key>
+	<string>Luo PIN-koodi</string>
+	<key>PINS_MEGAPHONE_TOAST</key>
+	<string>PIN-koodi luotu. Voit muuttaa sitä asetuksissa.</string>
+	<key>PIN_CREATION_ALPHANUMERIC_HINT</key>
+	<string>PIN-koodin on oltava vähintään 6 merkkiä</string>
+	<key>PIN_CREATION_CHANGING_TITLE</key>
+	<string>Vaihda PIN-koodi</string>
+	<key>PIN_CREATION_CONFIRMATION_EXPLANATION</key>
+	<string>Vahvista uusi PIN-koodi.</string>
+	<key>PIN_CREATION_CREATE_ALPHANUMERIC</key>
+	<string>Luo aakkosnumeerinen PIN-koodi</string>
+	<key>PIN_CREATION_CREATE_NUMERIC</key>
+	<string>Luo numeerinen PIN-koodi</string>
+	<key>PIN_CREATION_ERROR_MESSAGE</key>
+	<string>PIN-koodiasi ei tallennettu. Pyydämme sinua luomaan PIN-koodin myöhemmin.</string>
+	<key>PIN_CREATION_ERROR_TITLE</key>
+	<string>PIN-koodin luominen epäonnistui</string>
+	<key>PIN_CREATION_EXPLANATION</key>
+	<string>PIN-koodit lisäävät tilisi turvallisuutta, eikä niitä voi palauttaa. Tarvitset PIN-koodisi rekisteröityäksesi Signaliin uudestaan.</string>
+	<key>PIN_CREATION_MISMATCH_ERROR</key>
+	<string>PIN-koodit eivät täsmää. Yritä uudelleen.</string>
+	<key>PIN_CREATION_NUMERIC_HINT</key>
+	<string>PIN-koodin on oltava vähintään 6 numeroa</string>
+	<key>PIN_CREATION_PIN_CONFIRMATION_HINT</key>
+	<string>Syötä PIN-koodi uudelleen</string>
+	<key>PIN_CREATION_PIN_PROGRESS</key>
+	<string>Luodaan PIN-koodia…</string>
+	<key>PIN_CREATION_RECREATION_EXPLANATION</key>
+	<string>Voit valita uuden PIN-koodin, koska tämä laite on rekisteröity. Jos unohdat PIN-koodisi, voit joutua odottamaan 7 päivää rekisteröityäksesi uudelleen.</string>
+	<key>PIN_CREATION_RECREATION_TITLE</key>
+	<string>Luo uusi PIN-koodi</string>
+	<key>PIN_CREATION_TITLE</key>
+	<string>Luo PIN-koodisi</string>
+	<key>PIN_CREATION_TOO_SHORT_ERROR</key>
+	<string>PIN-koodin on oltava vähintään 6 numeroa.</string>
+	<key>PIN_REMINDER_EXPLANATION</key>
+	<string>Pyydämme sinun PIN-koodia ajoittain sen muistamisen helpottamiseksi. Pyynnöt harvenevat ajan myötä.</string>
+	<key>PIN_REMINDER_FORGOT_PIN</key>
+	<string>Unohditko PIN-koodisi?</string>
+	<key>PIN_REMINDER_MEGAPHONE_ACTION</key>
+	<string>Varmenna PIN</string>
+	<key>PIN_REMINDER_MEGAPHONE_BODY</key>
+	<string>Tulemme toisinaan pyytämään sinua varmentamaan PIN-koodisi, jotta muistat sen.</string>
+	<key>PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST</key>
+	<string>Muistutamme sinua jälleen muutaman päivän päästä.</string>
+	<key>PIN_REMINDER_MEGAPHONE_TITLE</key>
+	<string>Varmenna Signal PIN-koodisi</string>
+	<key>PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST</key>
+	<string>Muistutamme sinua jälleen huomenna.</string>
+	<key>PIN_REMINDER_MEGAPHONE_TWO_WEEK_TOAST</key>
+	<string>Muistutamme sinua jälleen parin viikon kuluttua.</string>
+	<key>PIN_REMINDER_MEGAPHONE_WEEK_TOAST</key>
+	<string>Muistutamme sinua uudelleen viikon kuluttua.</string>
+	<key>PIN_REMINDER_MISMATCH_ERROR</key>
+	<string>Virheellinen PIN-koodi, yritä uudelleen.</string>
+	<key>PIN_REMINDER_TITLE</key>
+	<string>Syötä Signal PIN-koodisi</string>
+	<key>PIN_REMINDER_TOO_SHORT_ERROR</key>
+	<string>PIN-koodin on oltava vähintään 6 numeroa.</string>
+	<key>PLAY_BUTTON_ACCESSABILITY_LABEL</key>
+	<string>Toista media</string>
+	<key>PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT</key>
+	<string>Et ole merkinnyt yhteystietoa %@ varmennetuksi.</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_BADGE</key>
+	<string>Varmennettu</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_FORMAT</key>
+	<string>%@ on varmennettu.</string>
+	<key>PRIVACY_SAFETY_NUMBERS_LEARN_MORE</key>
+	<string>Lue lisää</string>
+	<key>PRIVACY_TAP_TO_SCAN</key>
+	<string>Napauta skannataksesi</string>
+	<key>PRIVACY_UNVERIFY_BUTTON</key>
+	<string>Poista varmennus</string>
+	<key>PRIVACY_VERIFICATION_FAILED_I_HAVE_WRONG_KEY_FOR_THEM</key>
+	<string>Tämä ei näytä olevan sinun ja yhteystiedon %@ turvanumero. Tarkista että olet varmentamassa oikeaa yhteystietoa.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>Leikepöydällä oleva numero ei näytä olevan oikea turvanumero tälle keskustelulle.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>Signal ei löytänyt turvanumeroa leikepöydältä. Oletko varmasti kopioinut sen oikein?</string>
+	<key>PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME</key>
+	<string>Turvanumero on yksilöllinen aina kahden Signal-käyttäjän välillä. Tarkista vielä uudelleen, että yhteystiedon %@ laiteessa näkyy juuri teidän turvanumero.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION</key>
+	<string>Sinulla on käytössä vanha versio Signalista. Sinun tulee ensin päivittää, jotta voit varmentaa.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION</key>
+	<string>Vastapuolella on käytössä vanha versio Signalista. Hänen tulee ensin päivittää, jotta voit varmentaa.</string>
+	<key>PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE</key>
+	<string>Skannattu koodi ei näytä olevan turvanumero. Onko teillä kummallakin viimeisin versio Signalista käytössä?</string>
+	<key>PRIVACY_VERIFICATION_INSTRUCTIONS</key>
+	<string>Jos haluat varmentaa sinun ja yhteystiedon %@ välisen salauksen tietoturvan, vertaa ylläolevia numeroita hänen laitteessaan näkyviin vastaaviin numeroihin.
+
+Vaihtoehtoisesti voit skannata koodin hänen puhelimestaan, tai pyytää häntä skannaamaan sinun koodisi.</string>
+	<key>PRIVACY_VERIFICATION_TITLE</key>
+	<string>Varmenna turvanumero</string>
+	<key>PRIVACY_VERIFY_BUTTON</key>
+	<string>Merkitse varmennetuksi</string>
+	<key>PROCEED_BUTTON</key>
+	<string>Jatka</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_ACTION</key>
+	<string>Aloita</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_BODY</key>
+	<string>Profiilisi voi nyt sisältää valinnaisen sukunimen.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_TITLE</key>
+	<string>Vahvista profiilinimesi</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_BODY</key>
+	<string>Tämä tulee näkymään, kun aloitat uuden keskustelun tai jaat sen.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_TITLE</key>
+	<string>Lisää profiilinimi</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_TOAST</key>
+	<string>Profiilinimesi on tallennettu.</string>
+	<key>PROFILE_VIEW_AVATAR_ACTIONSHEET_TITLE</key>
+	<string>Aseta profiilin kuva</string>
+	<key>PROFILE_VIEW_CLEAR_AVATAR</key>
+	<string>Poista kuva</string>
+	<key>PROFILE_VIEW_CREATE_USERNAME</key>
+	<string>Luo käyttäjätunnus</string>
+	<key>PROFILE_VIEW_ERROR_FAMILY_NAME_TOO_LONG</key>
+	<string>Sukunimesi on liian pitkä.</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_REQUIRED</key>
+	<string>Etunimesi vaaditaan.</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_TOO_LONG</key>
+	<string>Etunimesi on liian pitkä.</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_DEFAULT_TEXT</key>
+	<string>(Valinnainen)</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_FIELD</key>
+	<string>Sukunimi</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_DEFAULT_TEXT</key>
+	<string>(Vaaditaan)</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_FIELD</key>
+	<string>Etunimi</string>
+	<key>PROFILE_VIEW_NO_CONNECTION</key>
+	<string>Profiili voidaan päivittää vain, kun on Internet-yhteys.</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION</key>
+	<string>Signal-profiilisi näkyy kaikille yhteystiedoillesi, kun aloitat uusia keskusteluja ja kun jaat sen muiden käyttäjien ja ryhmien kanssa.</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION_LINK</key>
+	<string>Lisätietoja napauttamalla tästä</string>
+	<key>PROFILE_VIEW_SAVE_BUTTON</key>
+	<string>Tallenna</string>
+	<key>PROFILE_VIEW_TITLE</key>
+	<string>Profiili</string>
+	<key>PROFILE_VIEW_USERNAME_FIELD</key>
+	<string>Käyttäjätunnus</string>
+	<key>PUSH_MANAGER_MARKREAD</key>
+	<string>Merkitse luetuksi</string>
+	<key>PUSH_MANAGER_REPLY</key>
+	<string>Vastaa</string>
+	<key>PUSH_REGISTER_SUCCESS</key>
+	<string>Push-ilmoitusten uudellenrekisteröinti onnistui.</string>
+	<key>PUSH_REGISTER_TITLE</key>
+	<string>Push-ilmoitukset</string>
+	<key>QUESTIONMARK_PUNCTUATION</key>
+	<string>?</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_FORMAT</key>
+	<string>Vastaus: %@</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_YOU</key>
+	<string>Vastaus sinulle</string>
+	<key>QUOTED_REPLY_CONTENT_FROM_REMOTE_SOURCE</key>
+	<string>Alkuperäistä viestiä ei löytynyt.</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_DELETED</key>
+	<string>Alkuperäinen viesti ei ole enää saatavilla.</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_REMOTELY_SOURCED</key>
+	<string>Alkuperäistä viestiä ei löytynyt.</string>
+	<key>QUOTED_REPLY_TYPE_ATTACHMENT</key>
+	<string>Liitetiedosto</string>
+	<key>QUOTED_REPLY_TYPE_AUDIO</key>
+	<string>Äänitiedosto</string>
+	<key>QUOTED_REPLY_TYPE_GIF</key>
+	<string>GIF</string>
+	<key>QUOTED_REPLY_TYPE_IMAGE</key>
+	<string>Kuva</string>
+	<key>QUOTED_REPLY_TYPE_VIDEO</key>
+	<string>Video</string>
+	<key>REACTIONS_DETAIL_YOU</key>
+	<string>Sinä</string>
+	<key>REACTION_DETAIL_ALL_FORMAT</key>
+	<string>Kaikki %@</string>
+	<key>REACTION_INCOMING_NOTIFICATION_BODY_FORMAT</key>
+	<string>Reagoi %@ viestiisi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_ALBUM_BODY_FORMAT</key>
+	<string>Reagoi %@ albumillesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_AUDIO_BODY_FORMAT</key>
+	<string>Reagoi %@ ääniviestillesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_CONTACT_SHARE_BODY_FORMAT</key>
+	<string>Reagoi %@ jakamallesi yhteystiedolle</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_FILE_BODY_FORMAT</key>
+	<string>Reagoi %@ tiedostollesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_GIF_BODY_FORMAT</key>
+	<string>Reagoi %@ GIF:illesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_PHOTO_BODY_FORMAT</key>
+	<string>Reagoi %@ kuvallesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_STICKER_MESSAGE_BODY_FORMAT</key>
+	<string>Reagoi %@ tarrallesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_TEXT_MESSAGE_BODY_FORMAT</key>
+	<string>Reagoi %@ viestiin: "%@"</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIDEO_BODY_FORMAT</key>
+	<string>Reagoi %@ videollesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIEW_ONCE_MESSAGE_BODY_FORMAT</key>
+	<string>Reagoi %@ kerran katsottavalle mediallesi</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VOICE_MESSAGE_BODY_FORMAT</key>
+	<string>Reagoi %@ ääniviestillesi</string>
+	<key>REACTION_MEGAPHONE_BODY</key>
+	<string>Napauta ja paina mitä tahansa viestiä jakaaksesi nopeasti tunteesi.</string>
+	<key>REACTION_MEGAPHONE_TITLE</key>
+	<string>Esittelemme reaktiot</string>
+	<key>REGISTER_2FA_FORGOT_PIN</key>
+	<string>Unohdin PIN-koodini.</string>
+	<key>REGISTER_2FA_FORGOT_PIN_ALERT_TITLE</key>
+	<string>Tarvitsetko apua?</string>
+	<key>REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE</key>
+	<string>Luomasi PIN on yli 6-numeroinen koodi, joka voi olla numeerinen tai aakkosnumeerinen. Jos et muista PIN-koodiasi, joudut odottamaan 7 päivää ennen kuin voit rekisteröityä uudelleen.</string>
+	<key>REGISTER_2FA_FORGOT_V1_PIN_ALERT_MESSAGE</key>
+	<string>Luomasi PIN on yli 4-numeroinen koodi. Jos et muista PIN-koodiasi, joudut odottamaan 7 päivää ennen kuin voit rekisteröityä uudelleen.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_PLURAL_FORMAT</key>
+	<string>Sinulla on %lu yritystä jäljellä. Jos yrityksesi loppuvat, tilisi lukitaan. 7 päivän toimettomuuden jälkeen voit rekisteröityä uudelleen ilman PIN-koodia. Tilisi pyyhitään ja kaikki sisältö poistetaan.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE</key>
+	<string>Sinulla on 1 yritys jäljellä. Jos yrityksesi loppuvat, tilisi lukitaan. 7 päivän toimettomuuden jälkeen voit rekisteröityä uudelleen ilman PIN-koodia. Tilisi pyyhitään ja kaikki sisältö poistetaan.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_TITLE</key>
+	<string>Väärä PIN</string>
+	<key>REGISTER_2FA_SUBMIT_BUTTON</key>
+	<string>Lähetä</string>
+	<key>REGISTER_CONTACTS_WELCOME</key>
+	<string>Tervetuloa!</string>
+	<key>REGISTER_FAILED_TRY_AGAIN</key>
+	<string>Yritä uudelleen</string>
+	<key>REGISTER_RATE_LIMITING_BODY</key>
+	<string>Olet yrittänyt liian monta kertaa. Yritä uudelleen jonkin minuutin päästä.</string>
+	<key>REGISTER_RATE_LIMITING_ERROR</key>
+	<string>Olet yrittänyt liian monta kertaa. Yritä uudelleen jonkin minuutin päästä.</string>
+	<key>REGISTRATION_BODY</key>
+	<string>Push-ilmoitusten uudellenrekisteröinti epäonnistui.</string>
+	<key>REGISTRATION_DEFAULT_COUNTRY_NAME</key>
+	<string>Maatunnus</string>
+	<key>REGISTRATION_ENTERNUMBER_DEFAULT_TEXT</key>
+	<string>Syötä numero</string>
+	<key>REGISTRATION_ERROR</key>
+	<string>Virhe rekisteröitymisessä</string>
+	<key>REGISTRATION_ERROR_BLANK_VERIFICATION_CODE</key>
+	<string>Emme pysty aktivoimaan laitettasi ennen kuin olet vahvistanut lähettämämme koodin.</string>
+	<key>REGISTRATION_NON_VALID_NUMBER</key>
+	<string>Tätä puhelinnumeron esitystapaa ei tueta, ota yhteys tukeen.</string>
+	<key>REGISTRATION_PHONENUMBER_BUTTON</key>
+	<string>Puhelinnumero</string>
+	<key>REGISTRATION_RESTRICTED_MESSAGE</key>
+	<string>Sinun täytyy rekisteröityä, ennen kuin voit lähettää viestin.</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_TITLE</key>
+	<string>Vahvistus epäonnistui</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_CODE_DESCRIPTION</key>
+	<string>Syöttämäsi numerot eivät vastaa lähettämäämme koodia. Haluatko tarkistaa vielä uudelleen?</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_PIN</key>
+	<string>Virheellinen rekisteröinnin lukituksen PIN-koodi.</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>Syötä kelvollinen puhelinnumero, jotta voit rekisteröityä.</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>Epäkelpo puhelinnumero</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>Syötä puhelinnumero, jotta voit rekisteröityä.</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>Ei puhelinnumeroa​</string>
+	<key>REJECT_CALL_BUTTON_TITLE</key>
+	<string>Hylkää</string>
+	<key>RELAY_REGISTERED_ERROR_RECOVERY</key>
+	<string>Puhelinnumero, jota yrität rekisteröidä, on jo rekisteröity toisella palvelimella. Pura ensin rekisteröintisi sieltä ja yritä sitten uudelleen.</string>
+	<key>REMINDER_2FA_BODY</key>
+	<string>Rekisteröinnin lukitus on käytössä puhelinnumerollasi. Signal auttaa sinua muistamaan rekisteröinnin lukituksen PIN-koodisi pyytämällä sinua silloin tällöin vahvistamaan sen.</string>
+	<key>REMINDER_2FA_BODY_HEADER</key>
+	<string>Muistutus:</string>
+	<key>REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE</key>
+	<string>Rekisteröinnin lukitus auttaa suojaamaan puhelinnumeroasi luvattomilta rekisteröintiyrityksiltä. Voit ottaa tämän ominaisuuden pois käytöstä milloin tahansa Signalin yksityisyysasetuksista.</string>
+	<key>REMINDER_2FA_NAV_TITLE</key>
+	<string>Syötä rekisteröinnin lukituksen PIN-koodisi</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_BODY</key>
+	<string>Voit asettaa uuden PIN-koodin yksityisyysasetuksista.</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_TITLE</key>
+	<string>Tämä ei ole oikea PIN-koodi.</string>
+	<key>REREGISTER_FOR_PUSH</key>
+	<string>Rekisteröidy uudelleen push-ilmoituksia varten</string>
+	<key>RETRY_BUTTON_TEXT</key>
+	<string>Yritä uudelleen</string>
+	<key>SAFETY_NUMBERS_ACTIONSHEET_TITLE</key>
+	<string>Sinun ja yhteystiedon %@ turvanumero on vaihtunut. Saatat halua varmentaa sen.</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_ADD_TO_GROUP_ACTION</key>
+	<string>Lisää ryhmään joka tapauksessa</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_CALL_ACTION</key>
+	<string>Soita joka tapauksessa</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION</key>
+	<string>Lähetä joka tapauksessa</string>
+	<key>SAFETY_NUMBER_SHARE_FORMAT</key>
+	<string>Meidän Signal-turvanumeromme:
+%@</string>
+	<key>SCAN_CODE_INSTRUCTIONS</key>
+	<string>Skannaa yhteystietosi laitteessa näkyvä QR-koodi.</string>
+	<key>SCAN_QR_CODE_VIEW_TITLE</key>
+	<string>Skannaa QR-koodi</string>
+	<key>SCREEN_LOCK_ACTIVITY_TIMEOUT_NONE</key>
+	<string>Välittömästi</string>
+	<key>SCREEN_LOCK_ENABLE_UNKNOWN_ERROR</key>
+	<string>Autentikointi ei saatavilla</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_FAILED</key>
+	<string>Autentikointi epäonnistui</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_LOCKOUT</key>
+	<string>Liian monta epäonnistunutta tunnistautumista. Yritä myöhemmin uudelleen.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_AVAILABLE</key>
+	<string>Sinun täytyy asettaa pääsykoodi puhelimesi asetuksista, jotta voit käyttää ruudun lukitusta.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_ENROLLED</key>
+	<string>Sinun täytyy asettaa pääsykoodi puhelimesi asetuksista, jotta voit käyttää ruudun lukitusta.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET</key>
+	<string>Sinun täytyy asettaa pääsykoodi puhelimesi asetuksista, jotta voit käyttää ruudun lukitusta.</string>
+	<key>SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK</key>
+	<string>Tunnistautumiseen, jotta voit avata Signalin</string>
+	<key>SCREEN_LOCK_UNLOCK_FAILED</key>
+	<string>Autentikointi epäonnistui</string>
+	<key>SCREEN_LOCK_UNLOCK_SIGNAL</key>
+	<string>Avaa lukitus</string>
+	<key>SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT</key>
+	<string>Etsi nimellä tai numerolla</string>
+	<key>SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT</key>
+	<string>Nimi, käyttäjätunnus tai numero</string>
+	<key>SEARCH_FIELD_PLACE_HOLDER_TEXT</key>
+	<string>Hae</string>
+	<key>SEARCH_SECTION_CONTACTS</key>
+	<string>Muut yhteystiedot</string>
+	<key>SEARCH_SECTION_CONVERSATIONS</key>
+	<string>Keskustelut</string>
+	<key>SEARCH_SECTION_MESSAGES</key>
+	<string>Viestit</string>
+	<key>SECONDARY_DEVICE_ERROR_FETCHING_LINKING_CODE</key>
+	<string>Yhdistyskoodia ei voitu noutaa</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE</key>
+	<string>Toisella laitteellasi on vanha Signalin versio, joka ei tue iPadin QR-koodien skannausta. Asenna Signalin uusin versio ja yritä uudelleen.</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE</key>
+	<string>Päivitä skannaava laite</string>
+	<key>SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN</key>
+	<string>Laitteen yhdistäminen epäonnistui</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME</key>
+	<string>Valitse nimi tälle laitteelle</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_EXPLANATION</key>
+	<string>Tämä nimi tulee olemaan "Yhdistetyt laitteet" -näkymässä.</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_PLACEHOLDER</key>
+	<string>Valitse nimi</string>
+	<key>SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS</key>
+	<string>Viimeistele yhdistys</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY</key>
+	<string>Käynnistä Signal puhelimellasi yhdistääksesi tämä iPad tiliisi</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY</key>
+	<string>Minulla ei ole Signalia puhelimessa…</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY</key>
+	<string>Siirry puhelimesi App Store -sovellukseen, asenna Signal, suorita rekisteröintiprosessi ja yhdistä sitten iPad samaan tiliin.</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE</key>
+	<string>Asenna Signal puhelimeesi</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_BODY</key>
+	<string>Napauta profiilikuvaasi avataksesi Signalin asetukset puhelimellasi. Sitten "Yhdistetyt laitteet" ja "Yhdistä uusi laite" skannataksesi tämä koodi puhelimellasi:</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT</key>
+	<string>Saa apua iPadin yhdistämiseen täältä</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_TITLE</key>
+	<string>Skannaa QR-koodi puhelimellasi</string>
+	<key>SECURE_SESSION_RESET</key>
+	<string>Suojattu istunto alustettu.</string>
+	<key>SELECT_THREAD_TABLE_OTHER_CHATS_TITLE</key>
+	<string>Muut yhteystiedot</string>
+	<key>SELECT_THREAD_TABLE_RECENT_CHATS_TITLE</key>
+	<string>Äskeiset keskustelut</string>
+	<key>SEND_AGAIN_BUTTON</key>
+	<string>Lähetä uudelleen</string>
+	<key>SEND_BUTTON_TITLE</key>
+	<string>Lähetä</string>
+	<key>SEND_FAILED_NOTIFICATION_BODY</key>
+	<string>Viestin lähettäminen epäonnistui.</string>
+	<key>SEND_INVITE_FAILURE</key>
+	<string>Kutsun lähettäminen epäonnistui. Yritä myöhemmin uudelleen.</string>
+	<key>SEND_INVITE_SUCCESS</key>
+	<string>Olet kutsunut ystäväsi käyttämään Signalia!</string>
+	<key>SEND_MEDIA_CONFIRM_ABANDON_ALBUM</key>
+	<string>Hylkää media</string>
+	<key>SEND_MEDIA_RETURN_TO_CAMERA</key>
+	<string>Palaa kameraan</string>
+	<key>SEND_MEDIA_RETURN_TO_MEDIA_LIBRARY</key>
+	<string>Palaa mediakirjastoon</string>
+	<key>SEND_SMS_CONFIRM_TITLE</key>
+	<string>Kutsu ystävä suojaamattomalla tekstiviestillä?</string>
+	<key>SEND_SMS_INVITE_TITLE</key>
+	<string>Haluatko kutsua seuraavan numeron käyttämään Signalia:</string>
+	<key>SETTINGS_ABOUT</key>
+	<string>Tietoja ohjelmasta</string>
+	<key>SETTINGS_ADD_TO_BLOCK_LIST_TITLE</key>
+	<string>Estä</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION</key>
+	<string>Sensuurin kiertäminen</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT</key>
+	<string>Sijainti: %@</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER</key>
+	<string>Jos tämä on käytössä, niin Signal yrittää kiertää sensuuria. Älä ota tätä ominaisuutta käyttöön ellet ole paikassa, missä Signal on sensuroitu.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED</key>
+	<string>Puhelinnumerosi sijaintiin perustuva sensuurin kiertäminen otettu käyttöön.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_MANUALLY_DISABLED</key>
+	<string>Olet manuaalisesti poistanut käytöstä sensuurin kiertämisen.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION</key>
+	<string>Sensuurin kiertäminen toimii ainoastaan silloin, kun olet yhteydessä internetiin.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED</key>
+	<string>Sensuurin kiertäminen ei ole tarpeen. Olet jo yhdistetty Signal-palvelimeen.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER</key>
+	<string>Sensuurin kiertäminen</string>
+	<key>SETTINGS_ADVANCED_DEBUGLOG</key>
+	<string>Virheenkorjausloki</string>
+	<key>SETTINGS_ADVANCED_SUBMIT_DEBUGLOG</key>
+	<string>Lähetä virheenkorjausloki</string>
+	<key>SETTINGS_ADVANCED_TITLE</key>
+	<string>Lisäasetukset</string>
+	<key>SETTINGS_ADVANCED_VIEW_ERROR_LOG</key>
+	<string>Virhelokit</string>
+	<key>SETTINGS_APPEARANCE_THEME_TITLE</key>
+	<string>Teema</string>
+	<key>SETTINGS_APPEARANCE_TITLE</key>
+	<string>Ulkonäkö</string>
+	<key>SETTINGS_AUDIO_DEFAULT_TONE_LABEL_FORMAT</key>
+	<string>%@ (oletus)</string>
+	<key>SETTINGS_BACKUP</key>
+	<string>Varmuuskopio</string>
+	<key>SETTINGS_BACKUP_BACKUP_NOW</key>
+	<string>Varmuuskopioi nyt</string>
+	<key>SETTINGS_BACKUP_CANCEL_BACKUP</key>
+	<string>Peru varmuuskopio</string>
+	<key>SETTINGS_BACKUP_ENABLING_SWITCH</key>
+	<string>Varmuuskopiot päällä</string>
+	<key>SETTINGS_BACKUP_ICLOUD_STATUS</key>
+	<string>iCloud-tila</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_FAILED</key>
+	<string>Varmuuskopion palautus epäonnistui</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IDLE</key>
+	<string>Varmuuskopion palautus tyhjäkäynnillä</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IN_PROGRESS</key>
+	<string>Varmuuskopion palautus käynnissä</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_SUCCEEDED</key>
+	<string>Varmuuskopion palautus onnistui</string>
+	<key>SETTINGS_BACKUP_PHASE</key>
+	<string>Vaihe</string>
+	<key>SETTINGS_BACKUP_PROGRESS</key>
+	<string>Eteneminen</string>
+	<key>SETTINGS_BACKUP_STATUS</key>
+	<string>Tila</string>
+	<key>SETTINGS_BACKUP_STATUS_FAILED</key>
+	<string>Varmuuskopio epäonnistui</string>
+	<key>SETTINGS_BACKUP_STATUS_IDLE</key>
+	<string>Odotetaan</string>
+	<key>SETTINGS_BACKUP_STATUS_IN_PROGRESS</key>
+	<string>Varmuuskopioidaan</string>
+	<key>SETTINGS_BACKUP_STATUS_SUCCEEDED</key>
+	<string>Varmuuskopio onnistui</string>
+	<key>SETTINGS_BLOCK_LIST_ADD_BUTTON</key>
+	<string>Lisää estetty käyttäjä</string>
+	<key>SETTINGS_BLOCK_LIST_NO_CONTACTS</key>
+	<string>Sinulla ei ole yhteystietoja Signalissa.</string>
+	<key>SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS</key>
+	<string>Ei hakutuloksia</string>
+	<key>SETTINGS_BLOCK_LIST_TITLE</key>
+	<string>Estetyt</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE</key>
+	<string>Välitä aina puhelut</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL</key>
+	<string>Välitä kaikki puhelut Signal-palvelimen kautta välttääksesi IP-osoitteesi paljastumista yhteystiedollesi. Tämä toiminto heikentää puhelun laatua.</string>
+	<key>SETTINGS_CLEAR_HISTORY</key>
+	<string>Tyhjennä keskusteluhistoria</string>
+	<key>SETTINGS_COPYRIGHT</key>
+	<string>Tekijänoikeus Signal Messenger
+Lisensoitu GPLv3 -lisenssillä</string>
+	<key>SETTINGS_DELETE_ACCOUNT_BUTTON</key>
+	<string>Poista tili</string>
+	<key>SETTINGS_DELETE_DATA_BUTTON</key>
+	<string>Tuhoa kaikki tiedot</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION</key>
+	<string>Haluatko varmasti tuhota koko historiasi (viestit, liitteet, puhelut, jne.)? Tätä toimintoa ei voi jälkikäteen kumota.</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION_BUTTON</key>
+	<string>Poista kaikki</string>
+	<key>SETTINGS_HELP_HEADER</key>
+	<string>Apua</string>
+	<key>SETTINGS_HISTORYLOG_TITLE</key>
+	<string>Tyhjennä keskusteluhistoria</string>
+	<key>SETTINGS_INFORMATION_HEADER</key>
+	<string>Tietoja</string>
+	<key>SETTINGS_INVITE_TITLE</key>
+	<string>Kutsu kavereitasi</string>
+	<key>SETTINGS_INVITE_TWITTER_TEXT</key>
+	<string>Voit ottaa minuun yhteyttä @signalapp​illa. Lataa se nyt: https://signal.org/download/</string>
+	<key>SETTINGS_ITEM_NOTIFICATION_SOUND</key>
+	<string>Viestin ääni</string>
+	<key>SETTINGS_LEGAL_TERMS_CELL</key>
+	<string>Käyttöehdot ja yksityisyydensuoja</string>
+	<key>SETTINGS_LINK_PREVIEWS</key>
+	<string>Lähetä esikatselukuva linkeistä</string>
+	<key>SETTINGS_LINK_PREVIEWS_FOOTER</key>
+	<string>Esikatselu tukee sivustoja Imgur, Instagram, Pinterest, Reddit ja YouTube.</string>
+	<key>SETTINGS_LINK_PREVIEWS_HEADER</key>
+	<string>Linkkien esikatselukuvat</string>
+	<key>SETTINGS_NAV_BAR_TITLE</key>
+	<string>Asetukset</string>
+	<key>SETTINGS_NOTIFICATIONS</key>
+	<string>Ilmoitukset</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_DESCRIPTION</key>
+	<string>Puhelu- ja viesti-ilmoitukset voivat näkyä, kun puhelimesi on lukittu. Saatat haluta rajoittaa sitä, mitä näissä ilmoituksissa näytetään.</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_TITLE</key>
+	<string>Ilmoitusten sisältö</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL</key>
+	<string>Yhteystietosi liittyi Signaliin</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_SECTION_TITLE</key>
+	<string>Huomautukset</string>
+	<key>SETTINGS_PINS_FOOTER</key>
+	<string>PIN-koodisi lisää ylimääräisen suojaustason tilillesi. Sitä kysytään sinulta, kun rekisteröit puhelinnumerosi Signalin kanssa. Jos unohdat PIN-koodisi, sinut lukitaan tililtäsi 7 päiväksi.</string>
+	<key>SETTINGS_PINS_ITEM</key>
+	<string>Vaihda PIN-koodi</string>
+	<key>SETTINGS_PINS_ITEM_CREATE</key>
+	<string>Luo PIN-koodi</string>
+	<key>SETTINGS_PINS_TITLE</key>
+	<string>PIN</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_PRIVACY_TITLE</key>
+	<string>Näytä soittajan nimi ja numero</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_DESCRIPTION</key>
+	<string>Näytä puhelut iOS:n Puhelin-ohjelman "äskeiset"-listalla.</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_TITLE</key>
+	<string>Näytä puhelut äskeisissä</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_TITLE</key>
+	<string>iOS-puheluiden integrointi</string>
+	<key>SETTINGS_PRIVACY_TITLE</key>
+	<string>Yksityisyys</string>
+	<key>SETTINGS_READ_RECEIPT</key>
+	<string>Lukukuittaukset</string>
+	<key>SETTINGS_READ_RECEIPTS_SECTION_FOOTER</key>
+	<string>Näe ja jaa milloin viestit on luettu. Tämä asetus on valinnainen ja koskee kaikkia keskusteluja.</string>
+	<key>SETTINGS_RELINK_BUTTON</key>
+	<string>Yhdistä uudelleen</string>
+	<key>SETTINGS_REREGISTER_BUTTON</key>
+	<string>Rekisteröidy uudelleen</string>
+	<key>SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT</key>
+	<string>Automaattisen ruudun lukituksen odotusaika</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_FOOTER</key>
+	<string>Avaa Signalin ruudun lukitus Touch ID:llä, Face ID:llä tai iOS-laitteesi pääsykoodilla. Voit silti vastata saapuviin puheluihin ja saada ilmoituksia soitoista ja viesteistä vaikka ruudun lukitus on päällä. Signalin ilmoitusasetuksista voit säätää mitä tietoja ilmoituksissa näytetään.</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_TITLE</key>
+	<string>Ruudun lukitus</string>
+	<key>SETTINGS_SCREEN_LOCK_SWITCH_LABEL</key>
+	<string>Ruudun lukitus</string>
+	<key>SETTINGS_SCREEN_SECURITY</key>
+	<string>Estä kuvakaappaukset</string>
+	<key>SETTINGS_SCREEN_SECURITY_DETAIL</key>
+	<string>Estä Signalin esikatselukuvien näkyminen ohjelmanvaihtajanäytöltä.</string>
+	<key>SETTINGS_SECTION_CALL_KIT_DESCRIPTION</key>
+	<string>iOS puheluiden integraatio näyttää Signal-puhelut lukitusruudullasi ja järjestelmän puheluhistoriassa. Voi halutessasi näyttää myös yhteystietosi nimen ja numeron. Jos iCloud on käytössä, puheluhistoria jaetaan myös Applelle.</string>
+	<key>SETTINGS_SECTION_NOTIFICATIONS</key>
+	<string>Ilmoitukset</string>
+	<key>SETTINGS_SECTION_SOUNDS</key>
+	<string>Äänet</string>
+	<key>SETTINGS_SECTION_TITLE_CALLING</key>
+	<string>Puhelut</string>
+	<key>SETTINGS_SECURITY_TITLE</key>
+	<string>Näytön suojaus</string>
+	<key>SETTINGS_SUPPORT</key>
+	<string>Tuki</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_DISABLED</key>
+	<string>Pois päältä</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ENABLED</key>
+	<string>Päällä</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ITEM</key>
+	<string>Rekisteröinnin lukitus</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_TITLE</key>
+	<string>Rekisteröinnin lukitus</string>
+	<key>SETTINGS_TYPING_INDICATORS</key>
+	<string>Kirjoitustilaindikaattori</string>
+	<key>SETTINGS_TYPING_INDICATORS_FOOTER</key>
+	<string>Näe ja jaa milloin viestejä kirjoitetaan. Tämä asetus on vaihtoehtoinen ja koskee kaikkia keskusteluja.</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_LEARN_MORE</key>
+	<string>Lue lisää</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SECTION_TITLE</key>
+	<string>Sinetöity lähettäjä</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS</key>
+	<string>Näytä tilaindikaattori</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS_FOOTER</key>
+	<string>Näytä viestien "Lisätietoja"-kohdassa tilakuvake niille viesteille, jotka toimitettiin sinetöidyllä lähettäjällä, </string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS</key>
+	<string>Hyväksy kaikilta</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS_FOOTER</key>
+	<string>Ota käyttöön sinetöity lähettäjä saapuville viesteille henkilöiltä, jotka eivät ole yhteystitojasi ja joiden kanssa et ole jakanut profiiliasi.</string>
+	<key>SETTINGS_VERSION</key>
+	<string>Versio</string>
+	<key>SHARE_ACTION_MAIL</key>
+	<string>Sähköposti</string>
+	<key>SHARE_ACTION_MESSAGE</key>
+	<string>Viesti</string>
+	<key>SHARE_ACTION_TWEET</key>
+	<string>Twitter</string>
+	<key>SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT</key>
+	<string>Turvanumerosi yhteystiedon %@ kanssa on vaihtunut hiljattain. Saatat halua varmentaa sen ohjelmassa ennen uudelleenlähettämistä.</string>
+	<key>SHARE_EXTENSION_LOADING</key>
+	<string>Ladataan...</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_MESSAGE</key>
+	<string>Avaa Signal-ohjelma rekisteröityäksesi.</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_TITLE</key>
+	<string>Ei rekisteröity</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE</key>
+	<string>Avaa Signal-ohjelma päivittääkesi tai rekisteröidäksesi.</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE</key>
+	<string>Ei valmis</string>
+	<key>SHARE_EXTENSION_SENDING_FAILURE_TITLE</key>
+	<string>Liitteen lähetys epäonnistui</string>
+	<key>SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE</key>
+	<string>Lähetetään...</string>
+	<key>SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE</key>
+	<string>Liitteen valmistelu epäonnistui</string>
+	<key>SHARE_EXTENSION_VIEW_TITLE</key>
+	<string>Jaa Signaliin</string>
+	<key>SHOW_SAFETY_NUMBER_ACTION</key>
+	<string>Näytä turvanumero</string>
+	<key>SHOW_THREAD_BUTTON_TITLE</key>
+	<string>Näytä keskustelu</string>
+	<key>SMS_INVITE_BODY</key>
+	<string>Kutsun sinut käyttämään Signalia! Tässä linkki:</string>
+	<key>SOUNDS_NONE</key>
+	<string>Ei mitään</string>
+	<key>STICKERS_FAILED_DOWNLOAD</key>
+	<string>Tarra</string>
+	<key>STICKERS_INSTALL_BUTTON</key>
+	<string>Asenna</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE</key>
+	<string>Signal Artist -sarja</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE</key>
+	<string>Vastaanotetut tarrat</string>
+	<key>STICKERS_MANAGE_VIEW_FAILED_KNOWN_PACKS</key>
+	<string>Joidenkin tarrapakettien lataaminen epäonnistui</string>
+	<key>STICKERS_MANAGE_VIEW_INSTALLED_PACKS_SECTION_TITLE</key>
+	<string>Asennetut tarrat</string>
+	<key>STICKERS_MANAGE_VIEW_LOADING_KNOWN_PACKS</key>
+	<string>Ladataan...</string>
+	<key>STICKERS_MANAGE_VIEW_NO_INSTALLED_PACKS</key>
+	<string>Tarroja ei ole asennettu</string>
+	<key>STICKERS_MANAGE_VIEW_NO_KNOWN_PACKS</key>
+	<string>Saapuvien viestien tarrat tulevat näkymään tässä</string>
+	<key>STICKERS_MANAGE_VIEW_TITLE</key>
+	<string>Tarrat</string>
+	<key>STICKERS_PACK_DEFAULT_TITLE</key>
+	<string>Tarrapaketti</string>
+	<key>STICKERS_PACK_SHARE_VIEW_TITLE</key>
+	<string>Jaa tarrapaketti</string>
+	<key>STICKERS_PACK_VIEW_DEFAULT_TITLE</key>
+	<string>Tarrapaketti</string>
+	<key>STICKERS_PACK_VIEW_FAILED_TO_LOAD</key>
+	<string>Tarrapaketin lataaminen epäonnistui</string>
+	<key>STICKERS_UNINSTALL_BUTTON</key>
+	<string>Poista</string>
+	<key>STICKER_MESSAGE_PREVIEW</key>
+	<string>Tarraviesti</string>
+	<key>STICKER_PACK_INSTALLED_TOOLTIP</key>
+	<string>Tarrapaketti asennettu</string>
+	<key>SUCCESSFUL_VERIFICATION_DESCRIPTION</key>
+	<string>Turvanumerosi yhteystiedon %@ kanssa täsmää. Voit nyt merkitä tämän yhteystiedon varmennetuksi.</string>
+	<key>SUCCESSFUL_VERIFICATION_TITLE</key>
+	<string>Turvanumero täsmää!</string>
+	<key>SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER</key>
+	<string>Varmenna turvanumero</string>
+	<key>THREAD_DETAILS_GROUP_MEMBER_COUNT_FORMAT</key>
+	<string>%lu jäsentä</string>
+	<key>THREAD_DETAILS_MORE_MUTUAL_GROUP</key>
+	<string>%@, %@ ja %lu muun yhteisen ryhmän jäsen</string>
+	<key>THREAD_DETAILS_NOTE_TO_SELF_EXPLANATION</key>
+	<string>Voit lisätä itsellesi muistiinpanoja tähän keskusteluun. Jos tililläsi on linkitettyjä laitteita, uudet muistiinpanot synkronoidaan.</string>
+	<key>THREAD_DETAILS_ONE_MUTUAL_GROUP</key>
+	<string>Jäsen ryhmässä %@</string>
+	<key>THREAD_DETAILS_THREE_MUTUAL_GROUP</key>
+	<string>Jäsen ryhmissä %@, %@ ja %@</string>
+	<key>THREAD_DETAILS_TWO_MUTUAL_GROUP</key>
+	<string>Jäsen ryhmissä %@ ja %@</string>
+	<key>TIME_AMOUNT_DAYS</key>
+	<string>%@ päivää</string>
+	<key>TIME_AMOUNT_DAYS_SHORT_FORMAT</key>
+	<string>%@pv</string>
+	<key>TIME_AMOUNT_HOURS</key>
+	<string>%@ tuntia</string>
+	<key>TIME_AMOUNT_HOURS_SHORT_FORMAT</key>
+	<string>%@t</string>
+	<key>TIME_AMOUNT_MINUTES</key>
+	<string>%@ minuuttia</string>
+	<key>TIME_AMOUNT_MINUTES_SHORT_FORMAT</key>
+	<string>%@min</string>
+	<key>TIME_AMOUNT_SECONDS</key>
+	<string>%@ sekuntia</string>
+	<key>TIME_AMOUNT_SECONDS_SHORT_FORMAT</key>
+	<string>%@s</string>
+	<key>TIME_AMOUNT_SINGLE_DAY</key>
+	<string>%@ päivä</string>
+	<key>TIME_AMOUNT_SINGLE_HOUR</key>
+	<string>%@ tunti</string>
+	<key>TIME_AMOUNT_SINGLE_MINUTE</key>
+	<string>%@ minuutti</string>
+	<key>TIME_AMOUNT_SINGLE_WEEK</key>
+	<string>%@ viikko</string>
+	<key>TIME_AMOUNT_WEEKS</key>
+	<string>%@ viikkoa</string>
+	<key>TIME_AMOUNT_WEEKS_SHORT_FORMAT</key>
+	<string>%@vk</string>
+	<key>TXT_CANCEL_TITLE</key>
+	<string>Peruuta</string>
+	<key>TXT_DELETE_TITLE</key>
+	<string>Poista</string>
+	<key>UNARCHIVE_ACTION</key>
+	<string>Palauta arkistosta</string>
+	<key>UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>Käyttäjä ei ole yhteystiedoissasi. Haluatko estää tämän käyttäjän?</string>
+	<key>UNKNOWN_CONTACT_NAME</key>
+	<string>Tuntematon yhteystieto</string>
+	<key>UNKNOWN_COUNTRY_NAME</key>
+	<string>Tuntematon maa</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE</key>
+	<string>Yksi laitteistasi lähetti viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Signal-ominaisuutta.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME</key>
+	<string>Sait viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Signal-ominaisuutta.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT</key>
+	<string>%@ lähetti sinulle viestin, jota ei voida käsitellä tai näyttää, koska se käyttää uutta Signal-ominaisuutta.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON</key>
+	<string>Päivitä Signal nyt</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE</key>
+	<string>Signal on nyt päivitetty uusimpaan versioon. Voit nyt vastaanottaa tämän viestityypin laitteellasi.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME</key>
+	<string>Voit pyytää lähettäjää lähettämään tämän viestin uudelleen, nyt kun käytät ajan tasalla olevaa Signal-versiota.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT</key>
+	<string>Voit pyytää yhteyshenkilöä %@ lähettämään tämän viestin uudelleen, nyt kun käytät ajantasaista Signal-versiota.</string>
+	<key>UNKNOWN_VALUE</key>
+	<string>Tuntematon</string>
+	<key>UNLINKED_WARNING</key>
+	<string>Laite ei ole enää yhdistetty. Yhdistä Signal uudelleen puhelimeesi jatkaaksesi viestintää.</string>
+	<key>UNLINKING_FAILED_ALERT_TITLE</key>
+	<string>Signal ei onnistunut poistamaan laitettasi.</string>
+	<key>UNLINK_ACTION</key>
+	<string>Poista</string>
+	<key>UNLINK_CONFIRMATION_ALERT_BODY</key>
+	<string>Tämä laite ei voi enää lähettää eikä vastaanottaa viestejä jos poistat sen.</string>
+	<key>UNLINK_CONFIRMATION_ALERT_TITLE</key>
+	<string>Poista "%@"?</string>
+	<key>UNNAMED_DEVICE</key>
+	<string>Nimeämätön laite</string>
+	<key>UNREGISTER_SIGNAL_FAIL</key>
+	<string>Rekisteröimisen purku Signalista epäonnistui.</string>
+	<key>UNSUPPORTED_ATTACHMENT</key>
+	<string>Vastaanotettiin liite, jota ei tueta.</string>
+	<key>UNSUPPORTED_FEATURE_ERROR</key>
+	<string>Laitteesi ei tue tätä ominaisuutta.</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_MESSAGE</key>
+	<string>Et voi poistaa ryhmän jäseniä. Heidän tulee joko poistua tai sitten voit luoda uuden ryhmän ilman näitä henkilöitä.</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_TITLE</key>
+	<string>Ei tuettu</string>
+	<key>UPDATE_GROUP_FAILED</key>
+	<string>Ryhmän päivittäminen epäonnistui.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_CREATE_BUTTON</key>
+	<string>Luo PIN-koodisi</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE_BUTTON</key>
+	<string>Lisätietoja PIN-koodeista</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_DESCRIPTION</key>
+	<string>Rekisteröinnin lukitusta kutsutaan nyt PIN-koodiksi, ja se tekee enemmän. Päivitä se nyt.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_TITLE</key>
+	<string>Rekisteröinnin lukitus = PIN-koodi</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION</key>
+	<string>PIN-koodit lisäävät tilillesi toisen suojaustason. Luo oma PIN nyt.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE</key>
+	<string>Esittelemme PIN-koodit</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_WHY_BUTTON</key>
+	<string>Täytyykö minun luoda PIN-koodi?</string>
+	<key>UPGRADE_IOS_ALERT_MESSAGE</key>
+	<string>Lähitulevaisuudessa Signal tulee vaatimaan iOS 10:ä tai uudempaa. Voit päivittää käyttöjärjestelmäsi Asetukset ohjelmasta &gt;&gt; Yleiset &gt;&gt; Ohjelmistopäivitys</string>
+	<key>UPGRADE_IOS_ALERT_TITLE</key>
+	<string>Päivitä iOS</string>
+	<key>USERNAME_DESCRIPTION</key>
+	<string>Signalin käyttäjätunnukset ovat valinnaisia. Jos päätät luoda käyttäjätunnuksen, muut Signalin käyttäjät voivat löytää sinut tällä käyttäjätunnuksella ja ottaa sinuun yhteyttä tietämättään puhelinnumeroasi.</string>
+	<key>USERNAME_FIELD</key>
+	<string>Käyttäjätunnus</string>
+	<key>USERNAME_INVALID_CHARACTERS_ERROR</key>
+	<string>Käyttäjätunnukset voivat sisältää vain a-z, 0-9 ja _</string>
+	<key>USERNAME_LOOKUP_ERROR</key>
+	<string>Käyttäjätunnusta etsiessä tapahtui virhe. Yritä uudelleen myöhemmin.</string>
+	<key>USERNAME_NOT_FOUND_FORMAT</key>
+	<string>%@ ei ole Signalin käyttäjä. Varmista, että olet syöttänyt koko käyttäjätunnuksen.</string>
+	<key>USERNAME_NOT_FOUND_TITLE</key>
+	<string>Käyttäjää ei löydy</string>
+	<key>USERNAME_PLACEHOLDER</key>
+	<string>Syötä käyttäjätunnus</string>
+	<key>USERNAME_PREFIX</key>
+	<string>@</string>
+	<key>USERNAME_STARTS_WITH_NUMBER_ERROR</key>
+	<string>Käyttäjätunnukset eivät saa alkaa numerolla.</string>
+	<key>USERNAME_TITLE</key>
+	<string>Käyttäjätunnus</string>
+	<key>USERNAME_TOO_SHORT_ERROR</key>
+	<string>Käyttäjätunnuksissa on oltava vähintään 4 merkkiä.</string>
+	<key>USERNAME_UNAVAIALBE_ERROR_FORMAT</key>
+	<string>%@ on otettu.</string>
+	<key>USERNAME_VIEW_ERROR_UPDATE_FAILED</key>
+	<string>Käyttäjätunnuksen päivitys epäonnistui.</string>
+	<key>VALIDATION_ERROR_CANNOT_BE_BLANK</key>
+	<string>Laitteen nimi ei voi olla tyhjä</string>
+	<key>VALIDATION_ERROR_TOO_LONG</key>
+	<string>Laitteen nimi on liian pitkä</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_LOCAL</key>
+	<string>Merkitsit yhteystiedon %@ varmentamattomaksi.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE</key>
+	<string>Merkitsit yhteystiedon %@ varmentamattomaksi toisessa laitteessa.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL</key>
+	<string>Merkitsit yhteystiedon %@ varmennetuksi.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE</key>
+	<string>Merkitsit yhteystiedon %@ varmennetuksi toisessa laitteessa.</string>
+	<key>VERIFICATION_STATE_CHANGE_GENERIC</key>
+	<string>Varmennuksen tila vaihtui.</string>
+	<key>VERIFY_PRIVACY</key>
+	<string>Näytä turvanumerot</string>
+	<key>VERIFY_PRIVACY_MULTIPLE</key>
+	<string>Näytä turvanumerot</string>
+	<key>VIEW_ONCE_ALREADY_VIEWED_TOAST</key>
+	<string>Olet jo katsonut tämän viestin.</string>
+	<key>VIEW_ONCE_MESSAGES_TOOLTIP</key>
+	<string>Napauttamalla tätä viesti katoaa sen jälkeen, kun se on katsottu.</string>
+	<key>VIEW_ONCE_OUTGOING_TOAST</key>
+	<string>Lähtevät kerran katsottavat mediatiedostot poistetaan automaattisesti lähettämisen jälkeen.</string>
+	<key>VOICE_MESSAGE_CANCEL_INSTRUCTIONS</key>
+	<string>Pyyhkäise hylkääksesi</string>
+	<key>VOICE_MESSAGE_FILE_NAME</key>
+	<string>Ääniviesti</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_MESSAGE</key>
+	<string>Napauta ja pidä pohjassa nauhoittaaksesi ääniviestin.</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE</key>
+	<string>Ääniviesti</string>
+	<key>WAITING_TO_COMPLETE_DEVICE_LINK_TEXT</key>
+	<string>Saata yhdistäminen loppuun Signal Desktopissa.</string>
+	<key>YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>Sinä asetit katoavat viestit pois päältä.</string>
+	<key>YOU_MUST_COMPLETE_ONBOARDING_BEFORE_PROCEEDING</key>
+	<string>Asennus on suoritettava loppuun, ennen kuin voit jatkaa.</string>
+	<key>YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>Sinä asetit viestien katoamisajan: %@</string>
+	<key>new_message</key>
+	<string>Uusi viesti</string>
+</dict>
+</plist>

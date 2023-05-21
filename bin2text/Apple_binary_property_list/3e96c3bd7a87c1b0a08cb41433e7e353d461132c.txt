@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Viber에서 John과 통화하기</string>
+				<string>Viber로 John과 통화하기</string>
+				<string>John에게 Viber 전화 걸기</string>
+				<string>Viber에서 John에게 전화 걸기</string>
+				<string>John에게 Viber 전화 걸기</string>
+				<string>Viber에서 John에게 전화 걸기</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>John에게 Viber 메시지 보내기</string>
+				<string>Viber에서 John에게 문자 메시지 보내기</string>
+				<string>John에게 Viber 메시지 보내기</string>
+				<string>Viber로 John에게 문자 보내기</string>
+				<string>Viber에서 John에게 메시지 보내기</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Viber에서 John과 영상 통화 시작하기</string>
+				<string>Viber에서 John과 영상 채팅 시작하기</string>
+				<string>Viber에서 John에게 영상 전화 걸기</string>
+				<string>John에게 Viber 영상 전화 걸기</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Copy %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Kopioi muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Kopioi %lu muistiinpanoa</string>
+		</dict>
+	</dict>
+	<key>%lu scans</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_scans@</string>
+		<key>num_scans</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu skannaus</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu skannausta</string>
+		</dict>
+	</dict>
+	<key>At most %lu more attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Enintään %lu liite enemmän voidaan lisätä.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Enintään %lu liitettä enemmän voidaan lisätä.</string>
+		</dict>
+	</dict>
+	<key>Trash %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Siirrä muistiinpano roskakoriin</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Siirrä %lu muistiinpanoa roskakoriin</string>
+		</dict>
+	</dict>
+	<key>ICAX_NUM_NOTES_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu muistiinpanoa</string>
+			<key>zero</key>
+			<string>Ei muistiinpanoja</string>
+		</dict>
+	</dict>
+	<key>Deleted %lu notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@deleted_num_notes@</string>
+		<key>deleted_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Poistettu %lu muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poistettu %lu muistiinpanoa</string>
+			<key>zero</key>
+			<string>Yhtään muistiinpanoa ei poistettu</string>
+		</dict>
+	</dict>
+	<key>%d days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivä</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivää</string>
+		</dict>
+	</dict>
+	<key>ADD_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Lisää skannaus</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Lisää %lu skannausta</string>
+		</dict>
+	</dict>
+	<key>%lu (notes) Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes_selected@</string>
+		<key>num_notes_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu valittu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu valittu</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Column</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_columns@</string>
+		<key>num_columns</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Poista sarake</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poista %lu saraketta</string>
+		</dict>
+	</dict>
+	<key>%lu notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu muistiinpanoa</string>
+			<key>zero</key>
+			<string>Ei muistiinpanoja</string>
+		</dict>
+	</dict>
+	<key>At most %lu attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Enintään %lu liite voidaan lisätä.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Enintään %lu liitettä voidaan lisätä.</string>
+		</dict>
+	</dict>
+	<key>Move %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Siirrä muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Siirrä %lu muistiinpanoa</string>
+		</dict>
+	</dict>
+	<key>NUM_SUBFOLDERS_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_subfolders@</string>
+		<key>num_subfolders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu alikansio</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu alikansiota</string>
+			<key>zero</key>
+			<string>Ei alikansioita</string>
+		</dict>
+	</dict>
+	<key>DELETE_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Poista skannaus</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poista %lu skannausta</string>
+		</dict>
+	</dict>
+	<key>%lu_SCANNED_IMAGE_THUMBNAILS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu skannattu miniatyyri</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu skannattua miniatyyria</string>
+		</dict>
+	</dict>
+	<key>%lu (folders) Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders_selected@</string>
+		<key>num_folders_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu valittu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu valittu</string>
+		</dict>
+	</dict>
+	<key>%lu (Notes) Found</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes_found@</string>
+		<key>num_notes_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu löytyi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu löytyi</string>
+			<key>zero</key>
+			<string>Ei löytynyt</string>
+		</dict>
+	</dict>
+	<key>%d hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_hours@</string>
+		<key>num_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d tunti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tuntia</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders@</string>
+		<key>num_folders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Poista kansio</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poista %lu kansiota</string>
+		</dict>
+	</dict>
+	<key>FOLDER_DEPTH_LIMIT_MESSAGE_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@folder_depth_limit_message@</string>
+		<key>folder_depth_limit_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Muistiinpanot on rajoitettu %lu kansiotasoon.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Muistiinpanot on rajoitettu %lu kansiotasoon.</string>
+		</dict>
+	</dict>
+	<key>%lu (Attachments) Found</key>
+	<dict>
+		<key>num_attachments_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu löytyi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu löytyi</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_attachments_found@</string>
+	</dict>
+	<key>Delete %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Poista muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poista %lu muistiinpanoa</string>
+		</dict>
+	</dict>
+	<key>%lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%lu muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu muistiinpanoa</string>
+			<key>zero</key>
+			<string>Ei muistiinpanoja</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Row</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows@</string>
+		<key>num_rows</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Poista rivi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poista %lu riviä</string>
+		</dict>
+	</dict>
+	<key>Double-tap to preview %lu scanned images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Esikatsele skannattu kuva kaksoisnapauttamalla</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Esikatsele %lu skannattua kuvaa kaksoisnapauttamalla</string>
+		</dict>
+	</dict>
+	<key>SAVE_%lu_SCANNED_IMAGES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string></string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>(%lu)</string>
+		</dict>
+	</dict>
+	<key>DISCARD_%lu_SCANNED_IMAGES_ALERT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Hylätäänkö tämä skannaus?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Hylätäänkö %lu skannausta?</string>
+		</dict>
+	</dict>
+	<key>%d minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d minuutti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d minuuttia</string>
+		</dict>
+	</dict>
+	<key>%d seconds</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_seconds@</string>
+		<key>num_seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d sekunti</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d sekuntia</string>
+		</dict>
+	</dict>
+	<key>Moved %lu notes to %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@moved_num_notes@ kansioon %@</string>
+		<key>moved_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>Siirretty %lu muistiinpano</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Siirretty %lu muistiinpanoa</string>
+			<key>zero</key>
+			<string>Yhtään muistiinpanoa ei siirretty</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

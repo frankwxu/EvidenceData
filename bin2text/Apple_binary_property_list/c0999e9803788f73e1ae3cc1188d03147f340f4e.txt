@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COMMENTS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@commentscount@</string>
+		<key>commentscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>komentara</string>
+			<key>one</key>
+			<string>komentar</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>komentara</string>
+		</dict>
+	</dict>
+	<key>ADDED_SONGS_TO_PLAYLIST_CONFIRMATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dodano u "%2$@": %1$#@songcount@</string>
+		<key>songcount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d pjesme</string>
+			<key>one</key>
+			<string>%d pjesma</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d pjesama</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Sada pratite: %@.</string>
+	</dict>
+	<key>SEARCH_RADIO_PROVIDER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Od: %@</string>
+	</dict>
+	<key>SEARCH_MOVIES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Filmovima</string>
+	</dict>
+	<key>SEARCH_SHARED_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Dijeljenim listama</string>
+	</dict>
+	<key>SONGS_COUNT_AND_DURATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@, %@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu pjesme</string>
+			<key>one</key>
+			<string>%lu pjesma</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu pjesama</string>
+		</dict>
+	</dict>
+	<key>ACCOUNT_EDIT_HANDLE_TAKEN_WITH_SUGGESTIONS_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Želite li umjesto toga koristiti %@? Možete kasnije to promijeniti.</string>
+	</dict>
+	<key>SEASON_AND_EPISODE_NUMBERS_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Sezona %lu</string>
+			<key>one</key>
+			<string>Sezona %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Sezona %lu</string>
+			<key>zero</key>
+			<string>Nepoznata sezona</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@, %#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Epizoda %lu</string>
+			<key>one</key>
+			<string>Epizoda %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Epizoda %lu</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_UNLINK_ACCOUNT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako se odspojite s %@, više nećete moći pronaći druge korisnike Apple Musica s kojima ste povezani koristeći %@.</string>
+	</dict>
+	<key>SEARCH_SONG_ARTIST_ALBUM_YEAR_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ — %@</string>
+	</dict>
+	<key>LIKES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@likescount@</string>
+		<key>likescount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>lajka</string>
+			<key>one</key>
+			<string>lajk</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>lajkova</string>
+		</dict>
+	</dict>
+	<key>SEARCH_ARTISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Izvođačima</string>
+	</dict>
+	<key>SEARCH_PEOPLE_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Osobama</string>
+	</dict>
+	<key>SEARCH_LYRICS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>"%@" u Stihovima</string>
+	</dict>
+	<key>EPISODES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episodes@</string>
+		<key>episodes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu epizode</string>
+			<key>one</key>
+			<string>%lu epizoda</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu epizoda</string>
+			<key>zero</key>
+			<string>Nema epizoda</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dodajte pjesme u novu reprodukcijsku listu.</string>
+	</dict>
+	<key>SOCIAL_BLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Blokirali ste osobu %@.</string>
+	</dict>
+	<key>SEARCH_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Listama</string>
+	</dict>
+	<key>ALBUMS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu albuma</string>
+			<key>one</key>
+			<string>%lu album</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu albuma</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@</string>
+	</dict>
+	<key>CONNECT_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Objave izvođača %@ prikazat će se u "Za vas".</string>
+	</dict>
+	<key>NOW_PLAYING_PLAY_SOURCE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Od: %@</string>
+	</dict>
+	<key>ALBUMS_AND_SONGS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu albuma</string>
+			<key>one</key>
+			<string>%lu album</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu albuma</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@, %#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu pjesme</string>
+			<key>one</key>
+			<string>%lu pjesma</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu pjesama</string>
+		</dict>
+	</dict>
+	<key>SEASON_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Sezona %lu</string>
+			<key>one</key>
+			<string>Sezona %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Sezona %lu</string>
+			<key>zero</key>
+			<string>Nepoznata sezona</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@</string>
+	</dict>
+	<key>LIKES_COUNT_LONG</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@likescountlong@</string>
+		<key>likescountlong</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>osobe se ovo sviđa.</string>
+			<key>one</key>
+			<string>osobi se ovo sviđa.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>osoba se ovo sviđa.</string>
+		</dict>
+	</dict>
+	<key>SEARCH_TV_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u TV-u</string>
+	</dict>
+	<key>SOCIAL_UNFOLLOWED_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Više ne pratite: %@.</string>
+	</dict>
+	<key>SONGS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu pjesme</string>
+			<key>one</key>
+			<string>%lu pjesma</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu pjesama</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ažurirano prije %lu dana</string>
+			<key>one</key>
+			<string>Ažurirano jučer</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Ažurirano prije %lu dana</string>
+			<key>zero</key>
+			<string>Ažurirano danas</string>
+		</dict>
+	</dict>
+	<key>EPISODE_NUMBER_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Epizoda %lu</string>
+			<key>one</key>
+			<string>Epizoda %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Epizoda %lu</string>
+			<key>zero</key>
+			<string>Nepoznata epizoda</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS_DAY_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ažurirano: %@</string>
+	</dict>
+	<key>SEARCH_GENRES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Žanrovima</string>
+	</dict>
+	<key>UPDATED_TIME_YEARS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@years@</string>
+		<key>years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ažurirano prije %lu godine</string>
+			<key>one</key>
+			<string>Ažurirano prošle godine</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Ažurirano prije %lu godina</string>
+		</dict>
+	</dict>
+	<key>SEARCH_LYRICS_DISPLAY_TERM</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ “%@”</string>
+	</dict>
+	<key>SOCIAL_REQUESTED_FOLLOW_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ vas želi pratiti.</string>
+	</dict>
+	<key>UPDATED_TIME_MONTHS</key>
+	<dict>
+		<key>months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ažurirano prije %lu mjeseca</string>
+			<key>one</key>
+			<string>Ažurirano prošlog mjeseca</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Ažurirano prije %lu mjeseci</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@months@</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@: dodano u novu reprodukcijsku listu.</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu pjesme</string>
+			<key>one</key>
+			<string>%lu pjesma</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu pjesama</string>
+		</dict>
+	</dict>
+	<key>SEARCH_MUSIC_VIDEOS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Glazbenim spotovima</string>
+	</dict>
+	<key>CLEAR_UP_NEXT_QUESTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Nakon što se ovo reproducira, želite li nastaviti reprodukciju ili očistiti %lu pjesme koje ste ranije dodali u redoslijed?</string>
+			<key>one</key>
+			<string>Nakon što se ovo reproducira, želite li nastaviti reprodukciju ili očistiti %lu pjesmu koje ste ranije dodali u redoslijed? </string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Nakon što se ovo reproducira, želite li nastaviti reprodukciju ili očistiti %lu pjesama koje ste ranije dodali u redoslijed?</string>
+			<key>zero</key>
+			<string>Nakon što se ovo reproducira, želite li nastaviti reprodukciju ili očistiti glazbu koju ste ranije dodali u redoslijed? </string>
+		</dict>
+	</dict>
+	<key>SOCIAL_UNBLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Više ne blokirate osobu %@.</string>
+	</dict>
+	<key>SEARCH_SONGS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Pjesmama</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@: dodano u "%@".</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu pjesme</string>
+			<key>one</key>
+			<string>%lu pjesma</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu pjesama</string>
+		</dict>
+	</dict>
+	<key>COMPOSED_BY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Autor: %@</string>
+	</dict>
+	<key>UPDATED_TIME_WEEKS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@weeks@</string>
+		<key>weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ažurirano prije %lu tjedna</string>
+			<key>one</key>
+			<string>Ažurirano prošlog tjedna</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Ažurirano prije %lu tjedana</string>
+		</dict>
+	</dict>
+	<key>CANCEL_DOWNLOADS_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poništi %#@downloadsCount@</string>
+		<key>downloadsCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu preuzimanja</string>
+			<key>one</key>
+			<string>%lu preuzimanje</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu preuzimanja</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dodajte pjesme u "%@".</string>
+	</dict>
+	<key>SEARCH_ALBUMS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Albumima</string>
+	</dict>
+	<key>SEARCH_STATIONS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ u Radiju</string>
+	</dict>
+	<key>MUSIC_VIDEOS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@musicvideoscount@</string>
+		<key>musicvideoscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu glazbena spota</string>
+			<key>one</key>
+			<string>%lu glazbeni spot</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu glazbenih spotova</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_CONNECT_WITH_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Spoji %@</string>
+	</dict>
+	<key>SEARCH_SONG_ALBUM_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ · %@</string>
+	</dict>
+</dict>
+</plist>

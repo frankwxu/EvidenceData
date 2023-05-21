@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIStoryboardVersion</key>
+	<integer>1</integer>
+	<key>UIViewControllerIdentifiersToExternalStoryboardReferences</key>
+	<dict>
+		<key>EditProfilePersonalStatsViewController</key>
+		<dict>
+			<key>UIReferencedStoryboardName</key>
+			<string>EditProfilePersonalStats</string>
+			<key>UIReferencedControllerIdentifier</key>
+			<string>EditProfilePersonalStatsViewController</string>
+		</dict>
+		<key>UserProfileGroupsViewController</key>
+		<dict>
+			<key>UIReferencedStoryboardName</key>
+			<string>SocialFeed</string>
+			<key>UIReferencedControllerIdentifier</key>
+			<string>FeedGroupsTableViewController</string>
+		</dict>
+		<key>UserProfileFeedTableViewController</key>
+		<dict>
+			<key>UIReferencedStoryboardName</key>
+			<string>SocialFeed</string>
+			<key>UIReferencedControllerIdentifier</key>
+			<string>FeedTableViewController</string>
+		</dict>
+	</dict>
+	<key>UIViewControllerIdentifiersToNibNames</key>
+	<dict>
+		<key>UserProfileViewController</key>
+		<string>UserProfileViewController</string>
+		<key>UserProfileMenuViewController</key>
+		<string>UserProfileMenuViewController</string>
+		<key>UserProfileFeedTableViewController</key>
+		<string>UserProfileFeedTableViewController</string>
+		<key>ChildAvatarCollectionViewController</key>
+		<string>ChildAvatarCollectionViewController</string>
+		<key>UserProfileAchievementsViewController</key>
+		<string>UserProfileAchievementsViewController</string>
+		<key>UserProfileActionViewController</key>
+		<string>UserProfileActionViewController</string>
+		<key>UserProfileFriendsListViewController</key>
+		<string>UserProfileFriendsListViewController</string>
+		<key>EditProfilePersonalStatsViewController</key>
+		<string>EditProfilePersonalStatsViewController</string>
+		<key>UserProfileGroupsViewController</key>
+		<string>UserProfileGroupsViewController</string>
+	</dict>
+	<key>UIStoryboardDesignatedEntryPointIdentifier</key>
+	<string>UserProfileViewController</string>
+</dict>
+</plist>

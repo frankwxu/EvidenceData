@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>access.hometab.services.twspot.meter</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ м</string>
+			<key>one</key>
+			<string>%@ м</string>
+			<key>many</key>
+			<string>%@ м</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ м</string>
+		</dict>
+	</dict>
+	<key>access.hometab.services.twspot.kilometer</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%@ км</string>
+			<key>one</key>
+			<string>%@ км</string>
+			<key>many</key>
+			<string>%@ км</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>other</key>
+			<string>%@ км</string>
+		</dict>
+	</dict>
+	<key>hometab.sticker.categoryquantity</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%u набор%1$#@p@ стикеров</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>а</string>
+			<key>one</key>
+			<string></string>
+			<key>many</key>
+			<string>ов</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

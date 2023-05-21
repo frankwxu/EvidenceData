@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ARCHIVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>أرشفة %1$lu رسائل</string>
+			<key>one</key>
+			<string>أرشفة رسالة واحدة</string>
+			<key>many</key>
+			<string>أرشفة %1$lu رسالة</string>
+			<key>two</key>
+			<string>أرشفة رسالتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>أرشفة %1$lu رسالة</string>
+			<key>zero</key>
+			<string>أرشفة %1$lu رسالة</string>
+		</dict>
+	</dict>
+	<key>DRAFTS_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu مسودات</string>
+			<key>one</key>
+			<string>مسودة واحدة</string>
+			<key>many</key>
+			<string>%lu مسودة</string>
+			<key>two</key>
+			<string>مسودتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu مسودة</string>
+			<key>zero</key>
+			<string>لا توجد مسودات</string>
+		</dict>
+	</dict>
+	<key>MESSAGES_SELECTED_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم تحديد %1$lu</string>
+			<key>one</key>
+			<string>تم تحديد %1$lu</string>
+			<key>many</key>
+			<string>تم تحديد %1$lu</string>
+			<key>two</key>
+			<string>تم تحديد %1$lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم تحديد %1$lu</string>
+			<key>zero</key>
+			<string>تم تحديد %1$lu</string>
+		</dict>
+		<key>Comment</key>
+		<string>Number of selected messages, for the nav bar in a mailbox.</string>
+	</dict>
+	<key>MARK_EMAIL_UNFLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>إزالة العلم عن %1$lu رسائل</string>
+			<key>one</key>
+			<string>إزالة العلم</string>
+			<key>many</key>
+			<string>إزالة العلم عن %1$lu رسالة</string>
+			<key>two</key>
+			<string>إزالة العلم عن رسالتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>إزالة العلم عن %1$lu رسالة</string>
+			<key>zero</key>
+			<string>إزالة العلم عن %1$lu رسالة</string>
+		</dict>
+	</dict>
+	<key>UNREAD_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%1$lu رسائل غير مقروءة</string>
+			<key>one</key>
+			<string>رسالة واحدة غير مقروءة</string>
+			<key>many</key>
+			<string>‏%1$lu رسالة غير مقروءة</string>
+			<key>two</key>
+			<string>رسالتان غير مقروءتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%1$lu رسالة غير مقروءة</string>
+			<key>zero</key>
+			<string>لا توجد رسائل غير مقروءة</string>
+		</dict>
+	</dict>
+	<key>MOVE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نقل %1$lu رسائل...</string>
+			<key>one</key>
+			<string>نقل الرسالة...</string>
+			<key>many</key>
+			<string>نقل %1$lu رسالة…</string>
+			<key>two</key>
+			<string>نقل رسالتين…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>نقل %1$lu رسالة…</string>
+			<key>zero</key>
+			<string>نقل %1$lu رسالة…</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_UNREAD%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تمييز كغير مقروءة (%1$lu)</string>
+			<key>one</key>
+			<string>تمييز كغير مقروءة</string>
+			<key>many</key>
+			<string>تمييز كغير مقروءة (%1$lu)</string>
+			<key>two</key>
+			<string>تمييز كغير مقروءة (%1$lu)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تمييز كغير مقروءة (%1$lu)</string>
+			<key>zero</key>
+			<string>تمييز كغير مقروءة (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_READ%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تمييز كمقروءة (%1$lu)</string>
+			<key>one</key>
+			<string>تمييز كمقروءة</string>
+			<key>many</key>
+			<string>تمييز كمقروءة (%1$lu)</string>
+			<key>two</key>
+			<string>تمييز كمقروءة (%1$lu)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تمييز كمقروءة (%1$lu)</string>
+			<key>zero</key>
+			<string>تمييز كمقروءة (%1$lu)</string>
+		</dict>
+	</dict>
+	<key>NEW_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu جديدة</string>
+			<key>one</key>
+			<string>‏%lu جديدة</string>
+			<key>many</key>
+			<string>‏%lu جديدة</string>
+			<key>two</key>
+			<string>‏%lu جديدتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu جديدة</string>
+			<key>zero</key>
+			<string>‏%lu جديدة</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_IMAGES%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حفظ %2$@ صور</string>
+			<key>one</key>
+			<string>حفظ صورة واحدة</string>
+			<key>many</key>
+			<string>حفظ %2$@ صورة</string>
+			<key>two</key>
+			<string>حفظ صورتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حفظ %2$@ صورة</string>
+			<key>zero</key>
+			<string>حفظ %2$@ صورة</string>
+		</dict>
+	</dict>
+	<key>ITEMS_SELECTED%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%2$@ عناصر</string>
+			<key>one</key>
+			<string>عنصر واحد</string>
+			<key>many</key>
+			<string>%2$@ عنصرًا</string>
+			<key>two</key>
+			<string>عنصران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%2$@ عنصر</string>
+			<key>zero</key>
+			<string>لا توجد عناصر</string>
+		</dict>
+	</dict>
+	<key>MARK_EMAIL_FLAGGED%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>وضع علم على %lu رسائل</string>
+			<key>one</key>
+			<string>علم واحد</string>
+			<key>many</key>
+			<string>وضع علم على %lu رسالة</string>
+			<key>two</key>
+			<string>وضع علم على رسالتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>وضع علم على %lu رسالة</string>
+			<key>zero</key>
+			<string>وضع علم على %lu رسالة</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT_FOUND%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argumemt is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم العثور على %2$@ أحداث بواسطة Siri</string>
+			<key>one</key>
+			<string>تم العثور على حدث واحد بواسطة Siri</string>
+			<key>many</key>
+			<string>تم العثور على %2$@ حدثًا بواسطة Siri</string>
+			<key>two</key>
+			<string>تم العثور على حدثين بواسطة Siri</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم العثور على %2$@ حدث بواسطة Siri</string>
+			<key>zero</key>
+			<string>لم يتم العثور على أحداث بواسطة Siri</string>
+		</dict>
+	</dict>
+	<key>MARK_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نقل إلى البريد المزعج (%1$ld)</string>
+			<key>one</key>
+			<string>نقل إلى البريد المزعج (%1$ld)</string>
+			<key>many</key>
+			<string>نقل إلى البريد المزعج (%1$ld)</string>
+			<key>two</key>
+			<string>نقل إلى البريد المزعج (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>نقل إلى البريد المزعج (%1$ld)</string>
+			<key>zero</key>
+			<string>نقل إلى البريد المزعج (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>UPDATED_N_MINUTES_AGO_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@</string>
+		<key>Comment</key>
+		<string>Displayed in the toolbar below the message list. The parameter is the number of minutes since the last update.</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم التحديث منذ %1$lu دقائق</string>
+			<key>one</key>
+			<string>تم التحديث منذ دقيقة واحدة</string>
+			<key>many</key>
+			<string>تم التحديث منذ %1$lu دقيقة</string>
+			<key>two</key>
+			<string>تم التحديث منذ دقيقتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم التحديث منذ %1$lu دقيقة</string>
+			<key>zero</key>
+			<string>تم التحديث منذ %1$lu دقيقة</string>
+		</dict>
+	</dict>
+	<key>FLAGGED_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu موضوع لها علم</string>
+			<key>one</key>
+			<string>%lu موضوع لها علم</string>
+			<key>many</key>
+			<string>%lu موضوع لها علم</string>
+			<key>two</key>
+			<string>%lu موضوع لهما علم</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu موضوع لها علم</string>
+			<key>zero</key>
+			<string>%lu موضوع لها علم</string>
+		</dict>
+	</dict>
+	<key>TRASH_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نقل %lu رسائل إلى سلة المهملات</string>
+			<key>one</key>
+			<string>نقل رسالة واحدة إلى سلة المهملات</string>
+			<key>many</key>
+			<string>نقل %lu رسالة إلى سلة المهملات</string>
+			<key>two</key>
+			<string>نقل رسالتين إلى سلة المهملات</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>نقل %1$lu رسالة إلى سلة المهملات</string>
+			<key>zero</key>
+			<string>نقل %1$lu رسالة إلى سلة المهملات</string>
+		</dict>
+	</dict>
+	<key>UNREAD_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu غير مقروءة</string>
+			<key>one</key>
+			<string>‏%lu غير مقروءة</string>
+			<key>many</key>
+			<string>‏%lu غير مقروءة</string>
+			<key>two</key>
+			<string>‏%lu غير مقروءتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu غير مقروءة</string>
+			<key>zero</key>
+			<string>لا توجد رسائل غير مقروءة</string>
+		</dict>
+	</dict>
+	<key>MESSAGE_COUNT_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%1$lu رسائل</string>
+			<key>one</key>
+			<string>رسالة واحدة</string>
+			<key>many</key>
+			<string>‏%1$lu رسالة</string>
+			<key>two</key>
+			<string>رسالتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%1$lu رسالة</string>
+			<key>zero</key>
+			<string>لا توجد رسائل</string>
+		</dict>
+	</dict>
+	<key>DELETE_FORMAT%1$lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حذف %1$lu رسائل</string>
+			<key>one</key>
+			<string>حذف رسالة واحدة</string>
+			<key>many</key>
+			<string>حذف %1$lu رسالة</string>
+			<key>two</key>
+			<string>حذف رسالتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حذف %1$lu رسالة</string>
+			<key>zero</key>
+			<string>حذف %1$lu رسالة</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_VIDEOS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حفظ %2$@ فيديوهات</string>
+			<key>one</key>
+			<string>حفظ فيديو واحد</string>
+			<key>many</key>
+			<string>حفظ %2$@ فيديو</string>
+			<key>two</key>
+			<string>حفظ فيديوهين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حفظ %2$@ فيديو</string>
+			<key>zero</key>
+			<string>حفظ %2$@ فيديو</string>
+		</dict>
+	</dict>
+	<key>SAVE_N_ATTACHMENTS%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حفظ %2$@ مرفقات</string>
+			<key>one</key>
+			<string>حفظ مرفق واحد</string>
+			<key>many</key>
+			<string>حفظ %2$@ مرفقًا</string>
+			<key>two</key>
+			<string>حفظ مرفقين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حفظ %2$@ مرفق</string>
+			<key>zero</key>
+			<string>حفظ %2$@ مرفق</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_CONTACT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%2$@ جهات اتصال</string>
+			<key>one</key>
+			<string>جهة اتصال واحدة</string>
+			<key>many</key>
+			<string>‏%2$@ جهة اتصال</string>
+			<key>two</key>
+			<string>جهتا اتصال</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%2$@ جهة اتصال</string>
+			<key>zero</key>
+			<string>‏%2$@ جهة اتصال</string>
+		</dict>
+	</dict>
+	<key>MARK_NOT_JUNK_FORMAT%1$ld</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تمييز كبريد غير مزعج (%1$ld)</string>
+			<key>one</key>
+			<string>تمييز كبريد غير مزعج (%1$ld)</string>
+			<key>many</key>
+			<string>تمييز كبريد غير مزعج (%1$ld)</string>
+			<key>two</key>
+			<string>تمييز كبريد غير مزعج (%1$ld)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>تمييز كبريد غير مزعج (%1$ld)</string>
+			<key>zero</key>
+			<string>تمييز كبريد غير مزعج (%1$ld)</string>
+		</dict>
+	</dict>
+	<key>CALL_TO_ACTION_EVENT%1$lu%2$@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>Comment</key>
+		<string>First argument is the integer number of items, second argument is a formatted number as a string(such as 1,000)</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%2$@ أحداث</string>
+			<key>one</key>
+			<string>حدث واحد</string>
+			<key>many</key>
+			<string>‏%2$@ حدثًا</string>
+			<key>two</key>
+			<string>حدثان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%2$@ حدث</string>
+			<key>zero</key>
+			<string>لا توجد أحداث</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

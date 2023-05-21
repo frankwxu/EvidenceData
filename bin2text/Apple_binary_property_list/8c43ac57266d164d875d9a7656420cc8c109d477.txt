@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTIVITY_CONNECTING</key>
+	<string>‎Подключение…</string>
+	<key>ACTIVITY_LOADING</key>
+	<string>‎Загрузка…</string>
+	<key>ACTIVITY_WAITING_FOR_NETWORK</key>
+	<string>‎Ожидание сети</string>
+	<key>ADDRESS_TITLE</key>
+	<string>‎Адрес</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_FACE_ID</key>
+	<string>‎Для использования %@ требуется Face ID.</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_TOUCH_ID</key>
+	<string>‎Чтобы использовать %@, требуется Touch ID.</string>
+	<key>BIOMETRIC_PRIVACY_ENABLE_FACE_ID</key>
+	<string>‎Чтобы продолжить, %@ необходимо получить разрешение на использование Face ID.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_FACE_ID_PROMPT</key>
+	<string>‎Чтобы использовать %1$@, настройте Face ID в Настройках iPhone.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_TOUCH_ID_PROMPT</key>
+	<string>‎Чтобы использовать %1$@, настройте Touch ID в Настройках iPhone.</string>
+	<key>BIZ_ACCOUNT</key>
+	<string>‎Бизнес-аккаунт</string>
+	<key>BIZ_CATEGORIES_TITLE</key>
+	<string>‎Вид деятельности</string>
+	<key>BIZ_CATEGORY_TITLE</key>
+	<string>‎Вид деятельности</string>
+	<key>BIZ_HOURS_AND_ADDRESS</key>
+	<string>‎%1$@ • %2$@</string>
+	<key>BIZ_HOURS_TITLE</key>
+	<string>‎Часы работы</string>
+	<key>BIZ_NAME_TITLE</key>
+	<string>‎Название компании</string>
+	<key>BIZ_REPORT</key>
+	<string>‎Пожаловаться</string>
+	<key>BIZ_REPORT_ILLEGAL</key>
+	<string>‎Этот товар относится к категории оскорбительных, причиняющих вред или незаконных</string>
+	<key>BIZ_REPORT_KNOCKOFF</key>
+	<string>‎По-видимому, это поддельный или контрафактный товар</string>
+	<key>BIZ_REPORT_NO_MATCH</key>
+	<string>‎Фотографии или описания не соответствуют товару</string>
+	<key>BIZ_REPORT_OTHER</key>
+	<string>‎Другое</string>
+	<key>BIZ_REPORT_PRODUCT_TITLE_FOR_HEADER</key>
+	<string>‎Помогите нам понять, в чём проблема</string>
+	<key>BIZ_REPORT_SCAM</key>
+	<string>‎Это обман или мошенничество</string>
+	<key>BIZ_REPORT_SPAM</key>
+	<string>‎Это спам</string>
+	<key>BIZ_REPORT_THIS_PRODUCT</key>
+	<string>‎Пожаловаться на этот товар или услугу?</string>
+	<key>BIZ_SEND_PRODUCT</key>
+	<string>‎Отправить</string>
+	<key>BIZ_TELL_US_MORE</key>
+	<string>‎Подробнее</string>
+	<key>BIZ_THIS_PRODUCT_HAS_BEEN_REPORTED</key>
+	<string>‎Спасибо. Ваша жалоба отправлена.</string>
+	<key>BIZ_VERTICAL_APPAREL</key>
+	<string>‎Одежда</string>
+	<key>BIZ_VERTICAL_AUTO</key>
+	<string>‎Автомобили</string>
+	<key>BIZ_VERTICAL_BEAUTY</key>
+	<string>‎Салоны красоты и cпа</string>
+	<key>BIZ_VERTICAL_EDU</key>
+	<string>‎Образование</string>
+	<key>BIZ_VERTICAL_ENTERTAIN</key>
+	<string>‎Развлечения</string>
+	<key>BIZ_VERTICAL_EVENT_PLAN</key>
+	<string>‎Организация мероприятий</string>
+	<key>BIZ_VERTICAL_FINANCE</key>
+	<string>‎Финансовые услуги и банки</string>
+	<key>BIZ_VERTICAL_GROCERY</key>
+	<string>‎Еда и продукты</string>
+	<key>BIZ_VERTICAL_HEALTH</key>
+	<string>‎Медицина и здоровье</string>
+	<key>BIZ_VERTICAL_HOTEL</key>
+	<string>‎Отели и аренда жилья</string>
+	<key>BIZ_VERTICAL_NONPROFIT</key>
+	<string>‎Некоммерческая организация</string>
+	<key>BIZ_VERTICAL_NOTABIZ</key>
+	<string>‎Не компания</string>
+	<key>BIZ_VERTICAL_OTHER</key>
+	<string>‎Другое</string>
+	<key>BIZ_VERTICAL_POLICY</key>
+	<string>‎Общественные услуги</string>
+	<key>BIZ_VERTICAL_PROF_SERVICES</key>
+	<string>‎Профессиональные услуги</string>
+	<key>BIZ_VERTICAL_RESTAURANT</key>
+	<string>‎Рестораны</string>
+	<key>BIZ_VERTICAL_RETAIL</key>
+	<string>‎Покупки и розничная торговля</string>
+	<key>BIZ_VERTICAL_TRAVEL</key>
+	<string>‎Путешествия и перевозки</string>
+	<key>BIZ_WE_WILL_REVIEW</key>
+	<string>‎Мы рассмотрим этот товар или услугу, и если они не соответствуют нашим правилам, они будут удалены.</string>
+	<key>BLOCKLIST_BLOCK_BUTTON_TITLE</key>
+	<string>‎Заблокировать</string>
+	<key>BLOCKLIST_HELPER_TEXT</key>
+	<string>‎Заблокированные контакты больше не смогут звонить и отправлять вам сообщения.</string>
+	<key>BLOCKLIST_HELPER_TEXT_BUSINESS_WITH_REASONS</key>
+	<string>‎Заблокировать %@? Эта компания больше не сможет вам звонить или отправлять сообщения. Причина блокировки:</string>
+	<key>BLOCKLIST_UNBLOCK_BUTTON_TITLE</key>
+	<string>‎Разблокировать</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_CALL</key>
+	<string>‎Разблокируйте контакт, чтобы позвонить ему в WhatsApp</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_SEND_MESSAGE</key>
+	<string>‎Разблокируйте контакт, чтобы отправить ему сообщение.</string>
+	<key>BLOCKLIST_UNBLOCK_TO_ADD</key>
+	<string>‎Разблокируйте, чтобы добавить</string>
+	<key>BLOCKLIST_UNBLOCK_TO_CALL</key>
+	<string>‎Разблокируйте, чтобы позвонить</string>
+	<key>BLOCKLIST_UNBLOCK_TO_MESSAGE</key>
+	<string>‎Разблокируйте, чтобы отправить сообщение</string>
+	<key>BLOCKLIST_UNBLOCK_TO_REMOVE</key>
+	<string>‎Разблокируйте, чтобы удалить</string>
+	<key>BLOCK_REASON_BAD_EXPERIENCE</key>
+	<string>‎Отрицательный опыт</string>
+	<key>BLOCK_REASON_DIDNT_OPTIN</key>
+	<string>‎Не давал(-а) согласия</string>
+	<key>BLOCK_REASON_NEED_RESOLVED</key>
+	<string>‎Проблема решена</string>
+	<key>BLOCK_REASON_NO_LONGER_INTERESTED</key>
+	<string>‎Больше не интересует</string>
+	<key>BLOCK_REASON_NO_REASON</key>
+	<string>‎Нет причин</string>
+	<key>BLOCK_SHORTENED</key>
+	<string>‎Заблокировать</string>
+	<key>BLOC_BIZ_HELPER_TEXT</key>
+	<string>‎Заблокированные бизнес-аккаунты больше не смогут звонить и отправлять вам сообщения.</string>
+	<key>BUTTON_BACK</key>
+	<string>‎Назад</string>
+	<key>BUTTON_CANCEL</key>
+	<string>‎Отменить</string>
+	<key>BUTTON_CLOSE</key>
+	<string>‎Закрыть</string>
+	<key>BUTTON_CONFIRM</key>
+	<string>‎Подтвердить</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>‎Продолжить</string>
+	<key>BUTTON_DONE</key>
+	<string>‎Готово</string>
+	<key>BUTTON_FORWARD</key>
+	<string>‎Переслать</string>
+	<key>BUTTON_LEARN_MORE</key>
+	<string>‎Подробнее</string>
+	<key>BUTTON_NEXT</key>
+	<string>‎Далее</string>
+	<key>BUTTON_NOT_NOW</key>
+	<string>‎Не сейчас</string>
+	<key>BUTTON_OK</key>
+	<string>‎OK</string>
+	<key>BUTTON_OPEN_SETTINGS</key>
+	<string>‎Откройте Настройки</string>
+	<key>BUTTON_RESET</key>
+	<string>‎Сбросить</string>
+	<key>BUTTON_SEND</key>
+	<string>‎Отпр.</string>
+	<key>BUTTON_TRY_AGAIN</key>
+	<string>‎Повторить</string>
+	<key>BUTTON_UNDO</key>
+	<string>‎Не применять</string>
+	<key>CHANGE_NUMBER_OLD_PHONE_LABEL</key>
+	<string>‎старый номер</string>
+	<key>CHAT_INPUT_BAR_PLACEHOLDER_TEXT</key>
+	<string>‎Добавить подпись...</string>
+	<key>CHAT_MENU_MORE</key>
+	<string>‎Ещё</string>
+	<key>CHAT_SUBJECT_TEXT_RECIPIENTS</key>
+	<string>‎Получателей: %@</string>
+	<key>COMMON_ERROR</key>
+	<string>‎Ошибка</string>
+	<key>COMPANY_LABEL</key>
+	<string>‎компания</string>
+	<key>CONTACTS_LIST_EMPTY_CONTACTS_DESC</key>
+	<string>‎Нет контактов</string>
+	<key>CONTACTS_{{0}}</key>
+	<string>‎%@ контакт</string>
+	<key>CONTACTS_{{1}}</key>
+	<string>‎%@ контакта</string>
+	<key>CONTACTS_{{2}}</key>
+	<string>‎%@ контактов</string>
+	<key>CONTACT_PLACEHOLDER_NAME</key>
+	<string>‎Контакт</string>
+	<key>CONTACT_US_DOES_NOT_ANSWER_MY_QUESTION</key>
+	<string>‎Здесь нет ответа на мой вопрос</string>
+	<key>CONTENT_STICKERS_HEADER</key>
+	<string>‎Информационные стикеры</string>
+	<key>COULDNT_SEND_MESSAGES_{{0}}</key>
+	<string>‎Не удалось отправить %@ сообщение.</string>
+	<key>COULDNT_SEND_MESSAGES_{{1}}</key>
+	<string>‎Не удалось отправить %@ сообщения.</string>
+	<key>COULDNT_SEND_MESSAGES_{{2}}</key>
+	<string>‎Не удалось отправить %@ сообщений.</string>
+	<key>DEPRECATED_DEVICE_NO_SUPPORT</key>
+	<string>‎WhatsApp больше не поддерживает ваш телефон.</string>
+	<key>DOCUMENT_MESSAGE_DEFAULT_TITLE</key>
+	<string>‎Без имени</string>
+	<key>EMOJI_CATEGORY_ACTIVITY</key>
+	<string>‎Активность</string>
+	<key>EMOJI_CATEGORY_ANIMALS_NATURE</key>
+	<string>‎Животные и природа</string>
+	<key>EMOJI_CATEGORY_FLAGS</key>
+	<string>‎Флаги</string>
+	<key>EMOJI_CATEGORY_FOOD_DRINK</key>
+	<string>‎Еда и напитки</string>
+	<key>EMOJI_CATEGORY_OBJECTS</key>
+	<string>‎Предметы</string>
+	<key>EMOJI_CATEGORY_SMILEYS_PEOPLE</key>
+	<string>‎Смайлы и люди</string>
+	<key>EMOJI_CATEGORY_SYMBOLS</key>
+	<string>‎Символы</string>
+	<key>EMOJI_CATEGORY_TRAVEL_AND_PLACES</key>
+	<string>‎Путешествия и места</string>
+	<key>EMOJI_SEARCH_NO_RESULTS</key>
+	<string>‎“%@” не найдено</string>
+	<key>EMOJI_SEARCH_RECENT_EMOJIS_HEADER</key>
+	<string>‎Недавние</string>
+	<key>EMOJI_SEARCH_RESULTS</key>
+	<string>‎Результаты поиска эмодзи для “%@”</string>
+	<key>ERROR_COULDNT_CONNECT_TO_SERVICE</key>
+	<string>‎Не удалось подключиться к WhatsApp.</string>
+	<key>ERROR_OCCURRED</key>
+	<string>‎Произошла ошибка.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_DEFAULT</key>
+	<string>‎У %1$@ нет доступа к камере. Чтобы предоставить доступ, перейдите в Настройки и включите Камеру.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_VIDEO_CALL</key>
+	<string>‎Чтобы осуществлять видеозвонки, предоставьте приложению %@ доступ к камере на своём iPhone. Нажмите "Настройки" и включите камеру.</string>
+	<key>EXTENSION_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>FILTER_NAME_BW</key>
+	<string>‎Ч/Б</string>
+	<key>FILTER_NAME_COOL</key>
+	<string>‎Холод</string>
+	<key>FILTER_NAME_FILM</key>
+	<string>‎Плёнка</string>
+	<key>FILTER_NAME_NONE</key>
+	<string>‎Нет</string>
+	<key>FILTER_NAME_PEN</key>
+	<string>‎Хром</string>
+	<key>FILTER_NAME_POP</key>
+	<string>‎Ярко</string>
+	<key>GROUP_INVITE_NOTIFICATION_TEXT</key>
+	<string>‎Приглашение в группу</string>
+	<key>GROUP_SEND_ERROR_NOT_ADMIN</key>
+	<string>‎Только админы могут отправлять сообщения в данную группу.</string>
+	<key>GROUP_SEND_ERROR_NOT_PARTICIPANT</key>
+	<string>‎Вы не можете отправлять сообщения в эту группу, так как больше не являетесь её участником.</string>
+	<key>HOME_SCREEN_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>INCOMPATIBLE_ADD_ONS_ON_JAILBROKEN_PHONE</key>
+	<string>‎Дополнения, установленные на ваш iPhone с джейлбрейком, несовместимы с текущей версией %1$@.</string>
+	<key>INPUT_LABEL_EMAIL</key>
+	<string>‎Эл. почта</string>
+	<key>INSTAGRAM</key>
+	<string>‎Instagram</string>
+	<key>INTERNET_REQUIRED_TO_UPDATE_SETTINGS</key>
+	<string>‎%1$@ требуется активное подключение к Интернету, чтобы обновить ваши настройки.</string>
+	<key>JAILBROKEN_NO_SUPPORT_AVAILABLE</key>
+	<string>‎На данный момент мы не осуществляем поддержку устройств с джейлбрейком.
+‎
+‎Если у вас возникают проблемы, пожалуйста, восстановите заводские настройки на своём телефоне.</string>
+	<key>JOINED_BIZ_CATEGORIES</key>
+	<string>‎%1$@, %2$@</string>
+	<key>JOINED_SENTENCES</key>
+	<string>‎%1$@ %2$@</string>
+	<key>LABEL_DATE_ANNIVERSARY</key>
+	<string>‎годовщина</string>
+	<key>LABEL_HOME</key>
+	<string>‎домашний</string>
+	<key>LABEL_OTHER</key>
+	<string>‎другой</string>
+	<key>LABEL_PHONE_NUMBER_HOME_FAX</key>
+	<string>‎домашний факс</string>
+	<key>LABEL_PHONE_NUMBER_MAIN</key>
+	<string>‎основной</string>
+	<key>LABEL_PHONE_NUMBER_MOBILE</key>
+	<string>‎мобильный</string>
+	<key>LABEL_PHONE_NUMBER_OTHER_FAX</key>
+	<string>‎доп. факс</string>
+	<key>LABEL_PHONE_NUMBER_PAGER</key>
+	<string>‎пейджер</string>
+	<key>LABEL_PHONE_NUMBER_WORK_FAX</key>
+	<string>‎рабочий факс</string>
+	<key>LABEL_SCHOOL</key>
+	<string>‎учёба</string>
+	<key>LABEL_URL_ADDRESS_HOME</key>
+	<string>‎домашняя страница</string>
+	<key>LABEL_WORK</key>
+	<string>‎работа</string>
+	<key>LINK_ACCESSIBILITY_HINT</key>
+	<string>‎Коснитесь дважды, чтобы открыть ссылку</string>
+	<key>LIVE_LOCATION_ENDED</key>
+	<string>‎Геоданные неактивны</string>
+	<key>LIVE_LOCATION_ENDED_VOICEOVER</key>
+	<string>‎Геоданные неактивны</string>
+	<key>LOCALIZED_APP_NAME_LONG</key>
+	<string>‎WhatsApp Messenger</string>
+	<key>LOCALIZED_APP_NAME_SHORT</key>
+	<string>‎WhatsApp</string>
+	<key>LOCALIZED_SMB_APP_NAME_LONG</key>
+	<string>‎WhatsApp Business</string>
+	<key>LOCALIZED_SMB_APP_NAME_SHORT</key>
+	<string>‎WhatsApp Business</string>
+	<key>MATCHING_VCARD_CONTACTS_TITLE</key>
+	<string>‎Совпадает</string>
+	<key>MEDIA_ANIMATED_GIF</key>
+	<string>‎GIF</string>
+	<key>MEDIA_AUDIO</key>
+	<string>‎аудио</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{0}}</key>
+	<string>‎выбрано %@ аудио</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{1}}</key>
+	<string>‎выбрано %@ аудио</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{2}}</key>
+	<string>‎выбрано %@ аудио</string>
+	<key>MEDIA_CANNOT_BESELECTED</key>
+	<string>‎Невозможно выбрать данный файл. Пожалуйста, выберите другой файл.</string>
+	<key>MEDIA_DOCUMENT</key>
+	<string>‎Документ</string>
+	<key>MEDIA_GIF</key>
+	<string>‎GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{0}}</key>
+	<string>‎выбран %@ GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{1}}</key>
+	<string>‎выбрано %@ GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{2}}</key>
+	<string>‎выбрано %@ GIF</string>
+	<key>MEDIA_ITEMS_SELECTED_{{0}}</key>
+	<string>‎%@ файл</string>
+	<key>MEDIA_ITEMS_SELECTED_{{1}}</key>
+	<string>‎Выбрано %@ файла</string>
+	<key>MEDIA_ITEMS_SELECTED_{{2}}</key>
+	<string>‎Выбрано %@ файлов</string>
+	<key>MEDIA_ITEMS_{{0}}</key>
+	<string>‎%@ объект</string>
+	<key>MEDIA_ITEMS_{{1}}</key>
+	<string>‎%@ объекта</string>
+	<key>MEDIA_ITEMS_{{2}}</key>
+	<string>‎%@ объектов</string>
+	<key>MEDIA_LANDSCAPE</key>
+	<string>‎Альбомная ориентация</string>
+	<key>MEDIA_LIVE_LOCATION</key>
+	<string>‎Геоданные</string>
+	<key>MEDIA_LOCATION</key>
+	<string>‎Местоположение</string>
+	<key>MEDIA_PAGES_{{0}}</key>
+	<string>‎%@ страница</string>
+	<key>MEDIA_PAGES_{{1}}</key>
+	<string>‎%@ страницы</string>
+	<key>MEDIA_PAGES_{{2}}</key>
+	<string>‎%@ страниц</string>
+	<key>MEDIA_PHOTO</key>
+	<string>‎Фото</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{0}}</key>
+	<string>‎%@ фото</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{1}}</key>
+	<string>‎Выбрано %@ фото</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{2}}</key>
+	<string>‎Выбрано %@ фото</string>
+	<key>MEDIA_PHOTOS_{{0}}</key>
+	<string>‎Фотографий: %@</string>
+	<key>MEDIA_PHOTOS_{{1}}</key>
+	<string>‎Фотографий: %@</string>
+	<key>MEDIA_PHOTOS_{{2}}</key>
+	<string>‎Фотографий: %@</string>
+	<key>MEDIA_PORTRAIT</key>
+	<string>‎Портретная ориентация</string>
+	<key>MEDIA_PRODUCTS_{{0}}</key>
+	<string>‎%@ товар</string>
+	<key>MEDIA_PRODUCTS_{{1}}</key>
+	<string>‎%@ товара</string>
+	<key>MEDIA_PRODUCTS_{{2}}</key>
+	<string>‎%@ товаров</string>
+	<key>MEDIA_PTT_LOW_VOLUME_WARNING</key>
+	<string>‎Нажмите кнопку увеличения громкости, чтобы включить звук</string>
+	<key>MEDIA_SELECT</key>
+	<string>‎Выбрать</string>
+	<key>MEDIA_SHEETS_{{0}}</key>
+	<string>‎%@ лист</string>
+	<key>MEDIA_SHEETS_{{1}}</key>
+	<string>‎%@ листа</string>
+	<key>MEDIA_SHEETS_{{2}}</key>
+	<string>‎%@ листов</string>
+	<key>MEDIA_SLIDES_{{0}}</key>
+	<string>‎%@ слайд</string>
+	<key>MEDIA_SLIDES_{{1}}</key>
+	<string>‎%@ слайда</string>
+	<key>MEDIA_SLIDES_{{2}}</key>
+	<string>‎%@ слайдов</string>
+	<key>MEDIA_VIDEO</key>
+	<string>‎Видео</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{0}}</key>
+	<string>‎%@ видео</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{1}}</key>
+	<string>‎Выбрано %@ видео</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{2}}</key>
+	<string>‎Выбрано %@ видео</string>
+	<key>MEDIA_VIDEOS_{{0}}</key>
+	<string>‎Видео: %@</string>
+	<key>MEDIA_VIDEOS_{{1}}</key>
+	<string>‎Видео: %@</string>
+	<key>MEDIA_VIDEOS_{{2}}</key>
+	<string>‎Видео: %@</string>
+	<key>MEDIA_VOICE_MESSAGE</key>
+	<string>‎Голосовое сообщение</string>
+	<key>MESSAGE_GENERIC</key>
+	<string>‎Сообщение</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{0}}</key>
+	<string>‎Только %@ символ будет отправлен в Мой статус. Продолжить?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{1}}</key>
+	<string>‎Только первые %@ символа будут отправлены в Мой статус. Продолжить?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{2}}</key>
+	<string>‎Только первые %@ символов будут отправлены в Мой статус. Продолжить?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{0}}</key>
+	<string>‎Только %@ символ будет отправлен. Хотите продолжить?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{1}}</key>
+	<string>‎Только первые %@ символа будут отправлены. Хотите продолжить?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{2}}</key>
+	<string>‎Только первые %@ символов будут отправлены. Хотите продолжить?</string>
+	<key>MESSAGE_TYPE_CONTACT</key>
+	<string>‎Контакт</string>
+	<key>MULTISEND_FIT_TO_SCREEN</key>
+	<string>‎На весь экран</string>
+	<key>MULTISEND_ORIGINAL</key>
+	<string>‎Оригинал</string>
+	<key>MULTISEND_PICKER_HEADER_EMOJI</key>
+	<string>‎Эмодзи</string>
+	<key>MULTISEND_PICKER_HEADER_FAVORITE_STICKERS</key>
+	<string>‎Избранное</string>
+	<key>MULTISEND_PICKER_HEADER_STICKERS</key>
+	<string>‎Стикеры</string>
+	<key>MULTISEND_SQUARE</key>
+	<string>‎Квадрат</string>
+	<key>NICKNAME_LABEL</key>
+	<string>‎псевдоним</string>
+	<key>NOTIFICATION_CONTACT_AT_GROUP_MESSAGE</key>
+	<string>‎%1$@ @ “%2$@”:
+‎%3$@</string>
+	<key>NOTIFICATION_CONTACT_MESSAGE</key>
+	<string>‎%1$@: %2$@</string>
+	<key>NOTIFICATION_MESSAGE</key>
+	<string>‎Сообщение</string>
+	<key>NOTIFICATION_MESSAGE_FROM</key>
+	<string>‎Сообщение от %@</string>
+	<key>NOTIFICATION_MESSAGE_FROM_CONTACT_AT_GROUP</key>
+	<string>‎Сообщение от %1$@ @ “%2$@”</string>
+	<key>NOTIFICATION_TITLE_CONTACT</key>
+	<string>‎%1$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT_AT_GROUP</key>
+	<string>‎%1$@ @ %2$@</string>
+	<key>NO_RESULTS</key>
+	<string>‎Не найдено</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‎Это позволит вам создавать события в календаре.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‎Это позволит вам делать фото и видео прямо в WhatsApp.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>‎Загрузите ваши контакты на серверы WhatsApp для более быстрого и удобного общения с вашими друзьями.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>‎Используйте Face ID для аутентификации в WhatsApp.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>‎Если вы выберете давать разрешение к местоположению постоянно, вы сможете поделиться своими геоданными, и ваше местоположение будет обновляться, даже если вы не используете приложение. Если вы выберете давать разрешение только при использовании приложения, вы сможете только отправлять своё текущее местоположение или ближайшие места.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>‎Если вы выберете давать разрешение к местоположению постоянно, вы сможете поделиться своими геоданными, и ваше местоположение будет обновляться, даже если вы не используете приложение. Это также позволит отправлять ваше текущее местоположение или ближайшие места.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>‎Это позволит отправлять ваше текущее местоположение или ближайшие места в чатах.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>‎Это позволит отправлять ваше текущее местоположение или ближайшие места в чатах.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‎Это позволит вам совершать звонки, отправлять голосовые сообщения и записывать видео со звуком.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‎Это позволит вам отправлять фото и видео из вашей библиотеки, а также сохранять те, которые вы снимаете.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>‎Это позволит вам устанавливать напоминания, чтобы перезвонить друзьям.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‎Это позволит вам использовать Siri для быстрой отправки и чтения сообщений, а также совершения звонков.</string>
+	<key>OPERATION_ABORTED</key>
+	<string>‎Действие было отменено.</string>
+	<key>OPERATION_CANCELLED</key>
+	<string>‎Операция отменена.</string>
+	<key>OTHERS_VCARD_CONTACTS_TITLE</key>
+	<string>‎Другие</string>
+	<key>PAYMENT_NOTIFICATION</key>
+	<string>‎платёж</string>
+	<key>PAYMENT_REQUEST_NOTIFICATION</key>
+	<string>‎запрос платежа</string>
+	<key>PERM_CALENDARS</key>
+	<string>‎У %1$@ нет доступа к календарям.
+‎Чтобы предоставить доступ, перейдите в Настройки и включите Календари.</string>
+	<key>PERM_FACEID</key>
+	<string>‎У %1$@ нет доступа к Face ID. Чтобы предоставить доступ, перейдите в: Настройки &gt; Face ID и код-пароль &gt; Использовать Face ID &gt; Другие приложения.</string>
+	<key>PERM_LOCATION_7</key>
+	<string>‎У %1$@ нет доступа к вашей геопозиции.
+‎Чтобы разрешить доступ, зайдите в Настройки iPhone &gt; Конфиденциальность &gt; Службы геолокации &gt; %2$@</string>
+	<key>PERM_PHOTOS_7</key>
+	<string>‎У %1$@ нет доступа к вашим фото и видео.
+‎Чтобы разрешить доступ, перейдите в Настройки iPhone &gt; Конфиденциальность &gt; Фото &gt; %2$@</string>
+	<key>PERM_REMINDERS</key>
+	<string>‎У %1$@ нет доступа к вашим Напоминаниям. 
+‎ Чтобы предоставить доступ, выберите Настройки и включите Напоминания.</string>
+	<key>PHONE_VERIFICATION_RESEND_CODE</key>
+	<string>‎Отправить код</string>
+	<key>PHONE_VERIFICATION_RESEND_SMS</key>
+	<string>‎Отправить через %@</string>
+	<key>PHOTO_LIBRARY_ERROR_SAVE_FAILED</key>
+	<string>‎Данный медиафайл не может быть сохранен.</string>
+	<key>PHOTO_LIBRARY_PERMISSIONS</key>
+	<string>‎У %1$@ нет доступа к вашим фото или видео. Чтобы предоставить доступ, перейдите в Настройки и включите Фото.</string>
+	<key>PHOTO_LIBRARY_PHOTO_ASSET_NOT_READY</key>
+	<string>‎Загрузка фото</string>
+	<key>PHOTO_LIBRARY_PHOTO_FAILED</key>
+	<string>‎Данное фото не может быть использовано. Выберите другое фото.</string>
+	<key>PHOTO_LIBRARY_PHOTO_NOT_READY_YET</key>
+	<string>‎Фото всё ещё загружается, повторите попытку позже.</string>
+	<key>PHOTO_LIBRARY_VIDEO_ASSET_NOT_READY</key>
+	<string>‎Загрузка видео</string>
+	<key>PHOTO_LIBRARY_VIDEO_FAILED</key>
+	<string>‎Данное видео невозможно использовать. Пожалуйста, выберите другое видео.</string>
+	<key>PHOTO_LIBRARY_VIDEO_NOT_READY_YET</key>
+	<string>‎Видео всё ещё загружается, повторите попытку позже.</string>
+	<key>PIN_ENTRY_FIELD_ACCESSIBILITY_LABEL</key>
+	<string>‎Поле для ввода PIN</string>
+	<key>PIP_VIDEO_CANNOT_BE_PLAYED</key>
+	<string>‎Не удалось воспроизвести видео.</string>
+	<key>PLACEHOLDER_SEARCH</key>
+	<string>‎Поиск</string>
+	<key>PRODUCT</key>
+	<string>‎Товар</string>
+	<key>QUOTED_LIVE_LOCATION_SNIPPET</key>
+	<string>‎Геоданные</string>
+	<key>RECIPIENTS_SEND_TO</key>
+	<string>‎Кому:</string>
+	<key>REG_INVALID_CODE</key>
+	<string>‎Введён неверный код.</string>
+	<key>REQUEST_TOOK_TOO_LONG_TRY_AGAIN_LATER</key>
+	<string>‎Произошла ошибка. Операция выполняется слишком долго. Пожалуйста, повторите попытку позже.</string>
+	<key>REQUIRED_PLACEHOLDER</key>
+	<string>‎Обязательное поле</string>
+	<key>REVOKE_QR_CODE_ERROR</key>
+	<string>‎Найден неверный код</string>
+	<key>REVOKE_QR_CODE_ERROR_MESSAGE</key>
+	<string>‎Данный код больше не действителен. Возможно, он был сброшен, или учётная запись больше не существует.</string>
+	<key>ROTATION_DEGREES_{{0}}</key>
+	<string>‎%@ градус</string>
+	<key>ROTATION_DEGREES_{{1}}</key>
+	<string>‎%@ градуса</string>
+	<key>ROTATION_DEGREES_{{2}}</key>
+	<string>‎%@ градусов</string>
+	<key>SENDER_ADDED_YOU_TO_GROUP</key>
+	<string>‎%1$@ добавил(-а) вас в группу “%2$@”</string>
+	<key>SEND_FULL</key>
+	<string>‎Отправить</string>
+	<key>SERVICE_EXTENSION_REVOKE_MESSAGE</key>
+	<string>‎%1$@ удалил(-а) сообщение.</string>
+	<key>SERVICE_PROBLEM</key>
+	<string>‎У нас были проблемы с приложением. Код = %ld.</string>
+	<key>SETTINGS_APP</key>
+	<string>‎Настройки</string>
+	<key>SHARE_CONTACT_SHORT</key>
+	<string>‎Контакт</string>
+	<key>SINGLE_MESSAGE_SEND_FAILED</key>
+	<string>‎Не удалось отправить сообщение.</string>
+	<key>SMB_PRODUCT_CATALOG_MESSAGE_BUSINESS</key>
+	<string>‎Отправить сообщение компании</string>
+	<key>SMB_PRODUCT_CATALOG_RETRIEVE_ERROR</key>
+	<string>‎Произошла ошибка. Проверьте подключение к Интернету на своём устройстве и повторите попытку.</string>
+	<key>STANDALONE_ME</key>
+	<string>‎Я</string>
+	<key>STANDALONE_YOU</key>
+	<string>‎Вы</string>
+	<key>STATUSV3</key>
+	<string>‎Статус</string>
+	<key>STATUSV3_MY_STATUS</key>
+	<string>‎Мой статус</string>
+	<key>STATUS_COLOR_BALI_HAI</key>
+	<string>‎Сине-серый</string>
+	<key>STATUS_COLOR_BITTERSWEET</key>
+	<string>‎Крабовый</string>
+	<key>STATUS_COLOR_BRANDY_ROSE</key>
+	<string>‎Чайная роза</string>
+	<key>STATUS_COLOR_BRIGHT_SUN</key>
+	<string>‎Солнце</string>
+	<key>STATUS_COLOR_CE_SOIR</key>
+	<string>‎Сирень</string>
+	<key>STATUS_COLOR_EARLS_GREEN</key>
+	<string>‎Тростник</string>
+	<key>STATUS_COLOR_ELEPHANT</key>
+	<string>‎Тёмно-васильковый</string>
+	<key>STATUS_COLOR_EMERALD</key>
+	<string>‎Изумруд</string>
+	<key>STATUS_COLOR_MAYA_BLUE</key>
+	<string>‎Ярко-голубой</string>
+	<key>STATUS_COLOR_MAYA_BLUE_2</key>
+	<string>‎Ярко-голубой</string>
+	<key>STATUS_COLOR_MEDIUM_RED_VIOLET</key>
+	<string>‎Багровый</string>
+	<key>STATUS_COLOR_MONA_LISA</key>
+	<string>‎Розовый персик</string>
+	<key>STATUS_COLOR_MONTE_CARLO</key>
+	<string>‎Мята</string>
+	<key>STATUS_COLOR_POLO_BLUE</key>
+	<string>‎Сине-сиреневый</string>
+	<key>STATUS_COLOR_PRELUDE</key>
+	<string>‎Серовато-лиловый</string>
+	<key>STATUS_COLOR_SCARLETT</key>
+	<string>‎Марсала</string>
+	<key>STATUS_COLOR_SCORPION</key>
+	<string>‎Тёмный серо-красный</string>
+	<key>STATUS_COLOR_SUMMER_SKY</key>
+	<string>‎Синее небо</string>
+	<key>STATUS_COLOR_SUNDANCE</key>
+	<string>‎Горчица</string>
+	<key>STATUS_COLOR_VIVID_VIOLET</key>
+	<string>‎Ярко-фиолетовый</string>
+	<key>STATUS_COLOR_WASABI</key>
+	<string>‎Васаби</string>
+	<key>STATUS_FONT_BRYNDAN</key>
+	<string>‎Bryndan Write</string>
+	<key>STATUS_FONT_GEORGIA</key>
+	<string>‎Georgia</string>
+	<key>STATUS_FONT_HELVETICA</key>
+	<string>‎Helvetica</string>
+	<key>STATUS_FONT_NORICAN</key>
+	<string>‎Прописной</string>
+	<key>STATUS_FONT_OSWALD</key>
+	<string>‎Oswald Heavy</string>
+	<key>STATUS_PREPARING</key>
+	<string>‎Подготовка...</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{0}}</key>
+	<string>‎Исключено %@</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{1}}</key>
+	<string>‎Исключено %@</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{2}}</key>
+	<string>‎Исключено %@</string>
+	<key>STATUS_PRIVACY_MY_CONTACTS</key>
+	<string>‎Мои контакты</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_BODY_TEXT</key>
+	<string>‎Разрешите %@ доступ к своим контактам, чтобы отправлять и получать их обновления статуса. Для этого перейдите в Настройки и включите Контакты.</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_TITLE</key>
+	<string>‎Обновления статуса недоступны</string>
+	<key>STICKER</key>
+	<string>‎Стикер</string>
+	<key>STICKER_SEARCH_RESULTS</key>
+	<string>‎Результаты поиска стикеров для “%@”</string>
+	<key>STR_BIZ_APPT_ONLY</key>
+	<string>‎Только по записи</string>
+	<key>STR_BIZ_CLOSED</key>
+	<string>‎Закрыто</string>
+	<key>STR_BIZ_OPEN_24H</key>
+	<string>‎Открыто круглосуточно</string>
+	<key>STR_SOCIAL_FACEBOOK</key>
+	<string>‎Facebook</string>
+	<key>STR_STATUS_WHATSAPP_STATUS</key>
+	<string>‎Статус WhatsApp</string>
+	<key>SUSPICIOUS_LINK_WARNING</key>
+	<string>‎Подозрительная ссылка</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{0}}</key>
+	<string>‎%@ подозрительная ссылка</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{1}}</key>
+	<string>‎%@ подозрительные ссылки</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{2}}</key>
+	<string>‎%@ подозрительных ссылок</string>
+	<key>TAP_FOR_MORE</key>
+	<string>‎ПОДРОБНЕЕ</string>
+	<key>TAP_TO_CANCEL</key>
+	<string>‎Нажмите для отмены</string>
+	<key>TAP_TO_DOWNLOAD</key>
+	<string>‎Нажмите, чтобы загрузить</string>
+	<key>TAP_TO_EDIT</key>
+	<string>‎Изменить</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{0}}_MAXIMUM</key>
+	<string>‎Идентификатор набора стикеров содержит слишком мало символов. Минимальное допустимое количество символов – %@.</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{1}}_MAXIMUM</key>
+	<string>‎Идентификатор набора стикеров содержит слишком мало символов. Минимальное допустимое количество символов – %@.</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{2}}_MAXIMUM</key>
+	<string>‎Идентификатор набора стикеров содержит слишком мало символов. Минимальное допустимое количество символов – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORTING_ERROR</key>
+	<string>‎Проблема с набором стикеров. Не удается добавить этот набор в %1$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{0}}_MINIMUM</key>
+	<string>‎Количество стикеров в наборе должно быть от %1$@ до %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{1}}_MINIMUM</key>
+	<string>‎Количество стикеров в наборе должно быть от %1$@ до %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{2}}_MINIMUM</key>
+	<string>‎Количество стикеров в наборе должно быть от %1$@ до %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_APP_STORE_LINK</key>
+	<string>‎Набор стикеров содержит недействительную ссылку на App Store.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_PLAY_STORE_LINK</key>
+	<string>‎Набор стикеров содержит недействительную ссылку на Play Маркет.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_STICKER_IMAGE</key>
+	<string>‎У одного из стикеров в наборе недопустимый ресурс.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Размер одного из стикеров – не %1$@х%1$@ пиксель.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Размер одного из стикеров – не %1$@х%1$@ пикселя.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{2}}_LENGTH</key>
+	<string>‎Размер одного из стикеров – не %1$@х%1$@ пикселей.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Размер одного из стикеров слишком большой. Он не должен превышать %@ КБ.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Размер одного из стикеров слишком большой. Он не должен превышать %@ КБ.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{2}}_KB</key>
+	<string>‎Размер одного из стикеров слишком большой. Он не должен превышать %@ КБ.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{0}}_MAXIMUM</key>
+	<string>‎Название, издатель или идентификатор набора стикеров содержит слишком много символов или оставлено пустым. Максимальное допустимое количество символов – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{1}}_MAXIMUM</key>
+	<string>‎Название, издатель или идентификатор набора стикеров содержит слишком много символов или оставлено пустым. Максимальное допустимое количество символов – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{2}}_MAXIMUM</key>
+	<string>‎Название, издатель или идентификатор набора стикеров содержит слишком много символов или оставлено пустым. Максимальное допустимое количество символов – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{0}}_MAXIMUM</key>
+	<string>‎Один из стикеров содержит слишком много эмодзи. Максимальное допустимое количестов эмодзи – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{1}}_MAXIMUM</key>
+	<string>‎Один из стикеров содержит слишком много эмодзи. Максимальное допустимое количестов эмодзи – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{2}}_MAXIMUM</key>
+	<string>‎Один из стикеров содержит слишком много эмодзи. Максимальное допустимое количестов эмодзи – %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Размер мини-иконки – не %1$@х%1$@ пиксель.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Размер мини-иконки – не %1$@х%1$@ пикселя.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{2}}_LENGTH</key>
+	<string>‎Размер мини-иконки – не %1$@х%1$@ пикселей.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Ошибка: размер мини-иконки слишком большой. Он не должен превышать %@ КБ.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Ошибка: размер мини-иконки слишком большой. Он не должен превышать %@ КБ.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{2}}_KB</key>
+	<string>‎Ошибка: размер мини-иконки слишком большой. Он не должен превышать %@ КБ.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_WRONG_BUNDLE_ID</key>
+	<string>‎У приложения, которое предоставляет доступ к этому набору стикеров, недопустимый идентификатор пакета.</string>
+	<key>TITLE_CHATS</key>
+	<string>‎Чаты</string>
+	<key>TITLE_PHOTOS</key>
+	<string>‎Фото</string>
+	<key>TRANSCODER_ALERT_COULD_NOT_SHARE_VIDEO</key>
+	<string>‎Не удалось поделиться видео</string>
+	<key>TRANSCODER_ERROR_BLANK_VIDEO_FILE</key>
+	<string>‎Данное видео пустое.</string>
+	<key>TRANSCODER_ERROR_UNUSABLE_VIDEO</key>
+	<string>‎Данное видео отправить невозможно. Попробуйте отправить другое видео.</string>
+	<key>TRY_AGAIN_LATER</key>
+	<string>‎Повторите попытку позже.</string>
+	<key>UNBLOCK_SHORTENED</key>
+	<string>‎Разблок.</string>
+	<key>UNKNOWN_CALLER</key>
+	<string>‎Неизвестный</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{0}}</key>
+	<string>‎%1$@ и ещё %2$@ контакт</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{1}}</key>
+	<string>‎%1$@ и ещё %2$@ контакта</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{2}}</key>
+	<string>‎%1$@ и ещё %2$@ контактов</string>
+	<key>VCARD_SHARE_CONTACTS_{{0}}</key>
+	<string>‎%@ контакт</string>
+	<key>VCARD_SHARE_CONTACTS_{{1}}</key>
+	<string>‎%@ контакта</string>
+	<key>VCARD_SHARE_CONTACTS_{{2}}</key>
+	<string>‎%@ контактов</string>
+	<key>VIDEO_RECORDING_PERMISSIONS</key>
+	<string>‎Для записи видео со звуком %1$@ необходим доступ к микрофону. Чтобы предоставить доступ, перейдите в Настройки iPhone &gt; Конфиденциальность &gt; Микрофон и включите его для %2$@.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_IOS8</key>
+	<string>‎Для записи видео со звуком %1$@ необходим доступ к микрофону. Чтобы предоставить доступ, перейдите в Настройки и включите Микрофон.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_TITLE</key>
+	<string>‎Переключиться на видео со звуком?</string>
+	<key>VISION_BOTTOM</key>
+	<string>‎В нижней части</string>
+	<key>VISION_BOTTOM_LEFT</key>
+	<string>‎В левой нижней части</string>
+	<key>VISION_BOTTOM_RIGHT</key>
+	<string>‎В правой нижней части</string>
+	<key>VISION_CENTER</key>
+	<string>‎Центр</string>
+	<key>VISION_CENTERED</key>
+	<string>‎По центру</string>
+	<key>VISION_FACE_COUNT_{{0}}</key>
+	<string>‎Одно лицо в рамке</string>
+	<key>VISION_FACE_COUNT_{{1}}</key>
+	<string>‎{1} лица в рамке</string>
+	<key>VISION_FACE_COUNT_{{2}}</key>
+	<string>‎{1} лиц в рамке</string>
+	<key>VISION_LEFT_EDGE</key>
+	<string>‎Левый край</string>
+	<key>VISION_NO_FACES</key>
+	<string>‎Нет лиц в кадре</string>
+	<key>VISION_RIGHT_EDGE</key>
+	<string>‎Правый край</string>
+	<key>VISION_TOP</key>
+	<string>‎В верхней части</string>
+	<key>VISION_TOP_LEFT</key>
+	<string>‎В левой верхней части</string>
+	<key>VISION_TOP_RIGHT</key>
+	<string>‎В правой верхней части</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{0}}</key>
+	<string>‎Код активации. Введён %1$@ из %2$@ символов.</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{1}}</key>
+	<string>‎Код активации. Введены %1$@ из %2$@ символов.</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{2}}</key>
+	<string>‎Код активации. Введены %1$@ из %2$@ символов.</string>
+	<key>VOICEOVER_ALERT</key>
+	<string>‎Предупреждение</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{0}}</key>
+	<string>‎Остаётся %@ символ</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{1}}</key>
+	<string>‎Остаётся %@ символа</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{2}}</key>
+	<string>‎Остаётся %@ символов</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA</key>
+	<string>‎Добавьте другое фото или видео</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA_REPLY</key>
+	<string>‎Ответить с фото или видео из Фотоплёнки</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA</key>
+	<string>‎Сделайте другое фото или видео</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA_REPLY</key>
+	<string>‎Ответить с фото или видео</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION</key>
+	<string>‎Текстовое поле подписи</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_ADD_HINT</key>
+	<string>‎Коснитесь дважды, чтобы добавить подпись</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_CHANGE_HINT</key>
+	<string>‎Коснитесь дважды, чтобы изменить подпись</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY</key>
+	<string>‎Ответить текстом в поле ввода</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_ADD_HINT</key>
+	<string>‎Коснитесь дважды, чтобы ответить</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_CHANGE_HINT</key>
+	<string>‎Коснитесь дважды, чтобы изменить ответ</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_ACTIVATE</key>
+	<string>‎Коснитесь дважды, чтобы активировать</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CANCEL</key>
+	<string>‎Коснитесь дважды, чтобы отменить</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CLOSE</key>
+	<string>‎Коснитесь дважды, чтобы закрыть</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DESELECT</key>
+	<string>‎Коснитесь дважды, чтобы отменить выбор</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DOWNLOAD</key>
+	<string>‎Коснитесь дважды, чтобы загрузить</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_EDIT</key>
+	<string>‎Коснитесь дважды, чтобы внести изменения</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_OPEN</key>
+	<string>‎Коснитесь дважды, чтобы открыть</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_PLAY</key>
+	<string>‎Коснитесь дважды для воспроизведения видео</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_SELECT</key>
+	<string>‎Коснитесь дважды, чтобы выбрать</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_TOGGLE_SETTING</key>
+	<string>‎Нажмите дважды, чтобы переключить настройку.</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_EDIT</key>
+	<string>‎Формат кадра</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_LIST</key>
+	<string>‎Коснитесь дважды, чтобы показать список форматов кадров</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ROTATE</key>
+	<string>‎Повернуть</string>
+	<key>VOICEOVER_FILTER_MODE_ENTER</key>
+	<string>‎Применить фильтр</string>
+	<key>VOICEOVER_FILTER_MODE_EXIT_HINT</key>
+	<string>‎Коснитесь дважды, чтобы выйти из меню фильтров</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_GIF</key>
+	<string>‎Отправляется как GIF</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_VIDEO</key>
+	<string>‎Отправляется как видео</string>
+	<key>VOICEOVER_GIF_SEND_AS_GIF</key>
+	<string>‎Отправить как GIF</string>
+	<key>VOICEOVER_GIF_SEND_AS_VIDEO</key>
+	<string>‎Отправить как видео</string>
+	<key>VOICEOVER_GIF_TOGGLE_HINT</key>
+	<string>‎Коснитесь дважды, чтобы переключить между отправлением в виде видео или в виде GIF.</string>
+	<key>VOICEOVER_MEDIA_BROWSER_EDIT_DONE</key>
+	<string>‎Нажмите здесь, после того как закончите сортировать свои фотографии</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_GIF</key>
+	<string>‎Коснитесь дважды, чтобы перейти к GIF</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_PHOTO</key>
+	<string>‎Коснитесь дважды, чтобы перейти в фото</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_VIDEO</key>
+	<string>‎Коснитесь дважды, чтобы перейти в видео</string>
+	<key>VOICEOVER_MULTISEND_ADD_EMOJI</key>
+	<string>‎Добавить эмодзи</string>
+	<key>VOICEOVER_MULTISEND_ADD_TEXT</key>
+	<string>‎Добавить текст</string>
+	<key>VOICEOVER_MULTISEND_CROP_AND_TILT</key>
+	<string>‎Обрезать и повернуть</string>
+	<key>VOICEOVER_MULTISEND_DELETE</key>
+	<string>‎Удалить текущий файл</string>
+	<key>VOICEOVER_MULTISEND_PAINT</key>
+	<string>‎Кисть</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_CROPPED</key>
+	<string>‎Обрезано</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_NO_CHANGE</key>
+	<string>‎Оригинал</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_ROTATED</key>
+	<string>‎Повернуто</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{0}}</key>
+	<string>‎%@ медиафайл</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{1}}</key>
+	<string>‎%@ медиафайла</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{2}}</key>
+	<string>‎%@ медиафайлов</string>
+	<key>VOICEOVER_NOTIFICATION_DOWNLOADING_PTT_MESSAGE</key>
+	<string>‎Голосовое сообщение - Загрузка</string>
+	<key>VOICEOVER_NOTIFICATION_PTT_MESSAGE</key>
+	<string>‎Голосовое сообщение.</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST</key>
+	<string>‎Участники: %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{0}}</key>
+	<string>‎Участники: __NAMES__ и ещё %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{1}}</key>
+	<string>‎Участники: __NAMES__ и ещё %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{2}}</key>
+	<string>‎Участники: __NAMES__ и ещё %@</string>
+	<key>VOICEOVER_PHOTO_CROP_AND_TILT_LABEL</key>
+	<string>‎Обрезать и повернуть</string>
+	<key>VOICEOVER_PLAY_VIDEO</key>
+	<string>‎Воспроизведение видео</string>
+	<key>VOICEOVER_REMOVED</key>
+	<string>‎Удалено</string>
+	<key>VOICEOVER_REMOVE_LINK_PREVIEW</key>
+	<string>‎Удалить просмотр ссылки</string>
+	<key>VOICEOVER_SELECTED</key>
+	<string>‎Выбрано</string>
+	<key>VOICEOVER_STICKER_PACK_HEADER</key>
+	<string>‎%@, Заголовок</string>
+	<key>VOICE_OVER_POSITION</key>
+	<string>‎Текущее положение. %1$@ из %2$@.</string>
+	<key>VOIP_VOICEOVER_VIDEO_CALL</key>
+	<string>‎Видеозвонок</string>
+	<key>VOIP_VOICEOVER_VOICE_CALL</key>
+	<string>‎Аудиозвонок</string>
+	<key>WACONTACT_BIRTHDAY_KEY</key>
+	<string>‎День рождения</string>
+	<key>WACONTACT_DATE_KEY</key>
+	<string>‎Дата</string>
+	<key>WACONTACT_DEPARTMENT_NAME_KEY</key>
+	<string>‎Департамент</string>
+	<key>WACONTACT_EMAIL_ADDRESSES_KEY</key>
+	<string>‎Эл. почта</string>
+	<key>WACONTACT_FAMILY_NAME_KEY</key>
+	<string>‎Фамилия</string>
+	<key>WACONTACT_GIVEN_NAME_KEY</key>
+	<string>‎Имя</string>
+	<key>WACONTACT_INSTANT_MESSAGE_KEY</key>
+	<string>‎IMS</string>
+	<key>WACONTACT_JOB_TITLE_KEY</key>
+	<string>‎Должность</string>
+	<key>WACONTACT_MIDDLE_NAME_KEY</key>
+	<string>‎Отчество</string>
+	<key>WACONTACT_NAME_PREFIX_KEY</key>
+	<string>‎Обращение</string>
+	<key>WACONTACT_NAME_SUFFIX_KEY</key>
+	<string>‎Суффикс</string>
+	<key>WACONTACT_NICKNAME_KEY</key>
+	<string>‎Псевдоним</string>
+	<key>WACONTACT_ORGANIZATION_NAME_KEY</key>
+	<string>‎Компания</string>
+	<key>WACONTACT_PHONETIC_FAMILY_NAME_KEY</key>
+	<string>‎Транскрипция фамилии</string>
+	<key>WACONTACT_PHONETIC_GIVEN_NAME_KEY</key>
+	<string>‎Транскрипция имени</string>
+	<key>WACONTACT_PHONETIC_MIDDLE_NAME_KEY</key>
+	<string>‎Транскрипция отчества</string>
+	<key>WACONTACT_PHONETIC_ORGANIZATION_NAME_KEY</key>
+	<string>‎Транскрипция названия компании</string>
+	<key>WACONTACT_PHONE_NUMBER_KEY</key>
+	<string>‎Телефон</string>
+	<key>WACONTACT_POSTAL_ADDRESSES_KEY</key>
+	<string>‎Адрес</string>
+	<key>WACONTACT_PREVIOUS_FAMILY_NAME_KEY</key>
+	<string>‎Девичья фамилия</string>
+	<key>WACONTACT_SOCIAL_PROFILES_KEY</key>
+	<string>‎Социальный профиль</string>
+	<key>WACONTACT_URL_ADDRESSES_KEY</key>
+	<string>‎URL</string>
+	<key>WEBSITE_TITLE</key>
+	<string>‎Веб-сайт</string>
+	<key>YOU_WERE_ADDED_TO_GROUP</key>
+	<string>‎Вы были добавлены в группу “%@”</string>
+</dict>
+</plist>

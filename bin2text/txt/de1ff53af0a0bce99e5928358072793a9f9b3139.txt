@@ -1,0 +1,139 @@
+# Ruleset for Yosemite (Vocalizer Expressive)
+# 
+#RLSTAG: RLS_FE.ENU_8.0.7
+
+[header]
+language = enu
+type = sms
+charset = utf-8
+
+[data]
+/\beom\b/ --> "end of message"
+
+# tn=sms type ruleset removes tn=sms markup at the end
+# this rule enables that tn=sms markup can be (re)inserted
+# in the main ruleset
+/^/   -->   "\e<reinsert_tn_sms_tag>"
+
+# Emoticons
+# Match emoticons with adjacent spaces or line-beginnings/endings, as well as adjacent tags: rdar://problem/40384629
+/(?<=\e<reinsert_tn_sms_tag>|\s)¯\\_\(ツ\)_\/¯(?=\s|$)/   -->        " \e\\pause=350\\ shrug \e\\pause=150\\ "                    # ¯\_(ツ)_/¯
+/(?<=\e<reinsert_tn_sms_tag>|\s)<3(?=\s|$)/   -->                  " \e\\pause=350\\ heart \e\\pause=150\\ "                    # <3
+/(?<=\e<reinsert_tn_sms_tag>|\s)([:=][-‑]?\)|\([-‑]?[:=])(?=\s|$)/   -->   " \e\\pause=350\\ smiley face \e\\pause=150\\ "              # :)  :-)  =)  (:  (-:  (=
+/(?<=\e<reinsert_tn_sms_tag>|\s):\s\)(?=\s|$)/   -->                 " \e\\pause=350\\ smiley face \e\\pause=150\\ "              # : )
+/(?<=\e<reinsert_tn_sms_tag>|\s)[=:][-‑]?D\b(?=\s|$)/   -->               " \e\\pause=350\\ grinning face \e\\pause=150\\ "            # :D  :-D  =D
+/(?<=\e<reinsert_tn_sms_tag>|\s)(:[‑-]?[\(\[]|[\]\)][‑-]?:)(?=\s|$)/   --> " \e\\pause=350\\ sad face \e\\pause=150\\ "                 # :(  :-(  ):  )-:  :[  :-[  ]:  ]-:
+/(?<=\e<reinsert_tn_sms_tag>|\s)(:'[‑-]?\(|\)[‑-]?':)(?=\s|$)/   -->       " \e\\pause=350\\ crying face \e\\pause=150\\ "              # :'(  :'-(  )':  )-':
+/(?<=\e<reinsert_tn_sms_tag>|\s)(:[-‑]?\*|\*[-‑]?:)(?=\s|$)/   -->         " \e\\pause=350\\ kissy face \e\\pause=150\\ "               # :*  :-*  *:  *-:
+/(?<=\e<reinsert_tn_sms_tag>|\s)(;[-‑\^]?[\]\)]|[\(\[][\^-‑]?;)(?=\s|$)/   -->   " \e\\pause=350\\ winky face \e\\pause=150\\ "    # ;)  ;-)  ;-]  ;]  (;  (-;  ;-]  ;]  ;^)  (^;
+/(?<=\e<reinsert_tn_sms_tag>|\s):[-‑]?p(?=\s|$)/i   -->                 " \e\\pause=350\\ tongue sticking out face \e\\pause=150\\ " # :p  :P  :-p  :-P
+/(?<=\e<reinsert_tn_sms_tag>|\s)(:[-‑]?\/|\/[-‑]?:)(?=\s|$)/   -->         " \e\\pause=350\\ sad face \e\\pause=150\\ "        # :/  :-/  /:  /-:
+
+# Abbreviation Expansions
+/\bEST\b/   -->   "eastern standard time"
+/\bOOTO\b/i   -->   "O O T O"
+# /\bNRN\b/i   -->   "no reply necessary" # NOT IMPLEMENTED, May also stand for "no reply necessary"
+/\bEOM\b/i   -->   "end of message"
+/\bHTH\b/i   -->   "hope that helps"
+/\bIIRC\b/i   -->   "if I recall correctly"
+/\bOTOH\b/i   -->   "on the other hand"
+/\bWRT\b/i   -->   "with regards to"
+/\bLGTM\b/i   -->   "looks good to me"
+/\bNBD\b/i   -->   "no big deal"
+/\bL8R\b/i   -->   "later"
+/\bG[T2]G\b/i   -->   "gotta go"
+/\bGR8\b/i   -->   "great"
+/\bAFAIK\b/i   -->   "as far as I know"
+/\bFWIW\b/i   -->   "for what it's worth"
+/\bLMK\b/i   -->   "let me know"
+# Proposed from CI: rdar://problem/36382733
+/(?<!\d)\s?b\/?c\b/i   -->   "because"
+/\bbby\b/i   -->   "baby"
+/\bbday\b/i   -->   "b-day"
+/\bbyob\b/i   -->   "B Y O B"
+/\bcu\b/i   -->   "C U"
+/\bcya\b/   -->   "see \e/+j$\e/+" # needs a canned prompt
+/\bdiy\b/i   -->   "D I Y"
+/\bfb\b/i   -->   "Facebook"
+/\bfomo\b/i   -->   "\e/+'fo&U.mo&U\e/+"
+/\bftw\b/i   -->   "for the win"
+/\bguyz\b/i   -->   "guys"
+/\bgnite\b/i   -->   "goodnight"
+/\bg\'?night\b/i  -->   "goodnight"
+/\bhehe\b/i   -->   "he-he"
+/\bhey{1,}\b/i   -->   "hey"
+/\bhi{1,}\b/i   -->   "hi"
+/\b[Hh]w\b/   -->   "homework"
+/\bikr\b/i   -->   "I know \e\\pause=150\\ right?"
+/\bil[uy]\b/i   -->   "I love you"
+/\blol(ol){1,}\b/i   -->   "L O L"
+/\blol{1,}\b/i   -->   "L O L"
+/\blmfao\b/i   -->   "L M F A O"
+/\blmao{1,}\b/i   -->   "L M A O"
+/\b[Mm]tg\b/   -->   "meeting" # conflict with "Magic the Gathering"
+/\b[Nn]vm\b/   -->   "nevermind"
+/\b[Nn]vr\b/   -->   "never"
+/\b[Nn]p\b/   -->   "no problem" # "NP" may also stand for "Nondeterministic-Polynominal" in computer science.
+/\b[Oo]bv\b/   -->   "obviously"
+/\b[Oo]fc\b/   -->   "of course"
+/\bomg{1,}\b/i   -->   "O M G"
+/\bomfg\b/i   -->   "O M F G"
+/\bpov\b/i   -->   "P O V"
+/\b[Pp]l[sz]\b/   -->   "please"
+/\b[Rr]cvd\b/   -->   "received"
+/\brofl\b/i   -->   "\e/+'R+A.f$l\e/+"
+/\brotfl\b/i   -->   "R O T F L"
+/\bru\b/i   -->   "R U"
+/\bsmh\b/i   -->   "shaking my head"
+/\bstfu\b/i   -->   "S T F U"
+/\b[Ss]rsly\b/   -->   "seriously"
+/\b[Tt]hn?x\b/   -->   "thanks"
+/\btks\b/i   -->   "T K S"
+/\bw\/o\b/i   -->   "without"
+/\bw\//i   -->   "with"
+/\bwym\b/i   -->   "W Y M"
+/\bXX\b/i   -->   "X X"
+#/\b(XO[XO]{0,10})\b/i   -->   "\e\\tn=spell\\\e\\tn=number\\$1\e\\tn=normal\\" # hack to normalize to lowercase before spelling
+/\b(?<=last |Last |next |Next |this |This |a |A |the |The |1 )[Yy]r\b/   -->   "year"
+/\byr\b/i   -->   "Y R"  # could also be "your": rdar://problem/55272862
+
+# Map "hahahaha" to "haha"
+/\bha(ha)+\b/i   -->   "haha"
+
+# more normalizations for rdar://problem/51538542
+/\b[Ii]mo\b/   -->   "in my opinion"
+/\b[Oo]oo\b/   -->   "O O O"
+/\b[Ss]rr?y\b/   -->   "sorry"
+/\b[Uu]r\b/   -->   "your"
+
+/\bXOX\b/i   -->   "X O X"
+/\bXOX[OX]+\b/i   -->   "X O X O"
+/\bgtfo\b/i   -->   "G T F O"
+/\bmsg\b/i   -->   "message"
+/\boh{1,}\b/i   -->   "oh" # map everything to "oh" -- this eventually needs a prompt for ohh+
+/\btmr\b/i   -->   "T M R"
+/\bttfn\b/i  -->   "T T F N"
+/\bwdym\b/i   -->   "what do you mean"
+/\bwya\b/i   -->   "W Y A"
+/\bzz\b/i   -->   "Z Z"
+/\bzzz\b/i   -->   "Z Z Z"
+/\bzzzz{1,}\b/i   -->   "Z Z Z Z"
+/\bBF\b/i   -->   "B F"
+/\bGF\b/i   -->   "G F"
+/\bBRB\b/i   -->   "B R B"
+/\bsrr+y\b/i   -->   "sorry"
+/\bIMO\b/i   -->  "in my opinion"
+/\bhbd\b/i   -->   "happy birthday"
+
+/\bApple\b/i   -->   "\e/+'@.pl%)\e/+" # rdar://problem/55823349 -- "APple" was read incorrectly in a text message
+
+# Normalize "?" to "question mark" when it's the only thing in an sms
+/(?<=\e<reinsert_tn_sms_tag>)\s?\?{2,}\s?(?=$)/   -->   "question marks"
+/(?<=\e<reinsert_tn_sms_tag>)\s?\?\s?(?=$)/   -->   "question mark"
+
+# fixes for "minute" being said strangely in certain contexts, rdar://problem/47582942
+/(?<=\d )min\.?(?= wait| drive| talk| break| chat| sync| recipe| phone| call| stop| pause| take| act| address| answer| challenge| cycle| dance| design| echo)/i   -->   "\e/+'mI.nIt\e/+"
+
+# ***This test entry must be the VERY LAST line in the rule set.***
+# rdar://problem/48523405 TTSVerifier: Check that user rules and dictionary file get correctly loaded on the device
+/\b8FF147B8-F2B5-49C0-9C7F-38B49C45B892\b/   -->   "OK"

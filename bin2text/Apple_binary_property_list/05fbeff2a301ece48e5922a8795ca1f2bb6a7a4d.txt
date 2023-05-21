@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Permanently Delete %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ștergeți definitiv %#@recordings@</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d înregistrări</string>
+			<key>one</key>
+			<string>înregistrarea</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de înregistrări</string>
+		</dict>
+	</dict>
+	<key>%d Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@Files@</string>
+		<key>Files</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d fișiere</string>
+			<key>one</key>
+			<string>%d fișier</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de fișiere</string>
+		</dict>
+	</dict>
+	<key>%lu Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows_selected@</string>
+		<key>num_rows_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu selectate</string>
+			<key>one</key>
+			<string>%lu selectat</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu selectate</string>
+		</dict>
+	</dict>
+	<key>ERASE_RECORDINGS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recordings@</string>
+		<key>Comment</key>
+		<string>Number of recordings that will be permanently deleted</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Sigur doriți să ștergeți definitiv %d înregistrări?</string>
+			<key>one</key>
+			<string>Sigur doriți să ștergeți definitiv această înregistrare?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>Sigur doriți să ștergeți definitiv %d de înregistrări?</string>
+		</dict>
+	</dict>
+	<key>Recover %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Recuperați %#@recordings@</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d înregistrări</string>
+			<key>one</key>
+			<string>înregistrarea</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de înregistrări</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

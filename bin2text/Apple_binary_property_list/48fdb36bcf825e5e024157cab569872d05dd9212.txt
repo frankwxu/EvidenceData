@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTIVITY_CONNECTING</key>
+	<string>‎กำลังเชื่อมต่อ...</string>
+	<key>ACTIVITY_LOADING</key>
+	<string>‎กำลังโหลด...</string>
+	<key>ACTIVITY_WAITING_FOR_NETWORK</key>
+	<string>‎กำลังรอเครือข่าย</string>
+	<key>ADDRESS_TITLE</key>
+	<string>‎ที่อยู่</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_FACE_ID</key>
+	<string>‎ต้องมี Face ID เพื่อใช้ %@</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_TOUCH_ID</key>
+	<string>‎ต้องมี Touch ID เพื่อใช้ %@</string>
+	<key>BIOMETRIC_PRIVACY_ENABLE_FACE_ID</key>
+	<string>‎%@ ต้องได้รับสิทธิ์ในการใช้ Face ID เพื่อดำเนินการต่อ</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_FACE_ID_PROMPT</key>
+	<string>‎ตั้งค่า Face ID ในการตั้งค่า iPhone เพื่อใช้ %1$@</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_TOUCH_ID_PROMPT</key>
+	<string>‎ตั้งค่า Touch ID ในการตั้งค่า iPhone เพื่อใช้ %1$@</string>
+	<key>BIZ_ACCOUNT</key>
+	<string>‎บัญชีธุรกิจ</string>
+	<key>BIZ_CATEGORIES_TITLE</key>
+	<string>‎หมวดหมู่</string>
+	<key>BIZ_CATEGORY_TITLE</key>
+	<string>‎หมวดหมู่</string>
+	<key>BIZ_HOURS_AND_ADDRESS</key>
+	<string>‎%1$@ • %2$@</string>
+	<key>BIZ_HOURS_TITLE</key>
+	<string>‎เวลาทำการ</string>
+	<key>BIZ_NAME_TITLE</key>
+	<string>‎ชื่อธุรกิจ</string>
+	<key>BIZ_REPORT</key>
+	<string>‎รายงาน</string>
+	<key>BIZ_REPORT_ILLEGAL</key>
+	<string>‎ไม่เหมาะสม อันตราย หรือผิดกฎหมาย</string>
+	<key>BIZ_REPORT_KNOCKOFF</key>
+	<string>‎ดูเหมือนว่าจะเป็นสินค้าปลอมหรือลอกเลียนแบบ</string>
+	<key>BIZ_REPORT_NO_MATCH</key>
+	<string>‎รูปภาพหรือคำอธิบายไม่ตรงกับผลิตภัณฑ์</string>
+	<key>BIZ_REPORT_OTHER</key>
+	<string>‎อื่นๆ</string>
+	<key>BIZ_REPORT_PRODUCT_TITLE_FOR_HEADER</key>
+	<string>‎ช่วยให้เราเข้าใจสิ่งที่เกิดขึ้น</string>
+	<key>BIZ_REPORT_SCAM</key>
+	<string>‎เป็นผลิตภัณฑ์หลอกลวงหรือกลโกง</string>
+	<key>BIZ_REPORT_SPAM</key>
+	<string>‎เป็นสแปม</string>
+	<key>BIZ_REPORT_THIS_PRODUCT</key>
+	<string>‎รายงานผลิตภัณฑ์หรือบริการนี้ใช่หรือไม่</string>
+	<key>BIZ_SEND_PRODUCT</key>
+	<string>‎ส่ง</string>
+	<key>BIZ_TELL_US_MORE</key>
+	<string>‎ให้ข้อมูลเพิ่มเติม</string>
+	<key>BIZ_THIS_PRODUCT_HAS_BEEN_REPORTED</key>
+	<string>‎ขอขอบคุณ ส่งรายงานของคุณแล้ว</string>
+	<key>BIZ_VERTICAL_APPAREL</key>
+	<string>‎เสื้อผ้าและเครื่องแต่งกาย</string>
+	<key>BIZ_VERTICAL_AUTO</key>
+	<string>‎ยานยนต์</string>
+	<key>BIZ_VERTICAL_BEAUTY</key>
+	<string>‎ความงาม สปา และร้านเสริมสวย</string>
+	<key>BIZ_VERTICAL_EDU</key>
+	<string>‎การศึกษา</string>
+	<key>BIZ_VERTICAL_ENTERTAIN</key>
+	<string>‎บันเทิง</string>
+	<key>BIZ_VERTICAL_EVENT_PLAN</key>
+	<string>‎การวางแผนจัดงานและบริการ</string>
+	<key>BIZ_VERTICAL_FINANCE</key>
+	<string>‎การเงินและการธนาคาร</string>
+	<key>BIZ_VERTICAL_GROCERY</key>
+	<string>‎อาหารและร้านขายของชำ</string>
+	<key>BIZ_VERTICAL_HEALTH</key>
+	<string>‎การแพทย์และสุขภาพ</string>
+	<key>BIZ_VERTICAL_HOTEL</key>
+	<string>‎โรงแรมและที่พัก</string>
+	<key>BIZ_VERTICAL_NONPROFIT</key>
+	<string>‎ไม่แสวงหาผลกำไร</string>
+	<key>BIZ_VERTICAL_NOTABIZ</key>
+	<string>‎ไม่ใช่ธุรกิจ</string>
+	<key>BIZ_VERTICAL_OTHER</key>
+	<string>‎อื่นๆ</string>
+	<key>BIZ_VERTICAL_POLICY</key>
+	<string>‎บริการสาธารณะ</string>
+	<key>BIZ_VERTICAL_PROF_SERVICES</key>
+	<string>‎การบริการมืออาชีพ</string>
+	<key>BIZ_VERTICAL_RESTAURANT</key>
+	<string>‎ร้านอาหาร</string>
+	<key>BIZ_VERTICAL_RETAIL</key>
+	<string>‎ช้อปปิ้งและร้านค้า</string>
+	<key>BIZ_VERTICAL_TRAVEL</key>
+	<string>‎การเดินทางและขนส่ง</string>
+	<key>BIZ_WE_WILL_REVIEW</key>
+	<string>‎เราจะตรวจสอบผลิตภัณฑ์หรือบริการและหากไม่ตรงตามหลักเกณฑ์ของเรา ผลิตภัณฑ์หรือบริการดังกล่าวจะถูกลบ</string>
+	<key>BLOCKLIST_BLOCK_BUTTON_TITLE</key>
+	<string>‎บล็อค</string>
+	<key>BLOCKLIST_HELPER_TEXT</key>
+	<string>‎รายชื่อที่ถูกปิดกั้นจะไม่สามารถโทรหาคุณ หรือส่งข้อความถึงคุณได้อีกต่อไป</string>
+	<key>BLOCKLIST_HELPER_TEXT_BUSINESS_WITH_REASONS</key>
+	<string>‎บล็อค %@ หรือไม่ ธุรกิจนี้จะไม่สามารถโทรหาหรือส่งข้อความถึงคุณได้อีกต่อไป เหตุผลสำหรับการบล็อค:</string>
+	<key>BLOCKLIST_UNBLOCK_BUTTON_TITLE</key>
+	<string>‎เลิกบล็อค</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_CALL</key>
+	<string>‎เลิกปิดกั้นรายชื่อเพื่อโทร WhatsApp</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_SEND_MESSAGE</key>
+	<string>‎เลิกบล็อคผู้ติดต่อเพื่อส่งข้อความ</string>
+	<key>BLOCKLIST_UNBLOCK_TO_ADD</key>
+	<string>‎เลิกบล็อคเพื่อเพิ่ม</string>
+	<key>BLOCKLIST_UNBLOCK_TO_CALL</key>
+	<string>‎เลิกบล็อคเพื่อโทร</string>
+	<key>BLOCKLIST_UNBLOCK_TO_MESSAGE</key>
+	<string>‎เลิกบล็อคเพื่อส่งข้อความ</string>
+	<key>BLOCKLIST_UNBLOCK_TO_REMOVE</key>
+	<string>‎เลิกบล็อคเพื่อลบ</string>
+	<key>BLOCK_REASON_BAD_EXPERIENCE</key>
+	<string>‎ได้รับประสบการณ์ที่ไม่ดี</string>
+	<key>BLOCK_REASON_DIDNT_OPTIN</key>
+	<string>‎ไม่ได้อนุญาตให้ธุรกิจติดต่อมา</string>
+	<key>BLOCK_REASON_NEED_RESOLVED</key>
+	<string>‎ได้รับสิ่งที่ต้องการแล้ว</string>
+	<key>BLOCK_REASON_NO_LONGER_INTERESTED</key>
+	<string>‎ไม่สนใจแล้ว</string>
+	<key>BLOCK_REASON_NO_REASON</key>
+	<string>‎ไม่มีเหตุผล</string>
+	<key>BLOCK_SHORTENED</key>
+	<string>‎บล็อค</string>
+	<key>BLOC_BIZ_HELPER_TEXT</key>
+	<string>‎ธุรกิจที่ถูกบล็อคจะไม่สามารถโทรหรือส่งข้อความถึงคุณได้อีกต่อไป</string>
+	<key>BUTTON_BACK</key>
+	<string>‎ย้อนกลับ</string>
+	<key>BUTTON_CANCEL</key>
+	<string>‎ยกเลิก</string>
+	<key>BUTTON_CLOSE</key>
+	<string>‎ปิด</string>
+	<key>BUTTON_CONFIRM</key>
+	<string>‎ยืนยัน</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>‎ดำเนินการต่อ</string>
+	<key>BUTTON_DONE</key>
+	<string>‎เสร็จ</string>
+	<key>BUTTON_FORWARD</key>
+	<string>‎ส่งต่อ</string>
+	<key>BUTTON_LEARN_MORE</key>
+	<string>‎เรียนรู้เพิ่มเติม</string>
+	<key>BUTTON_NEXT</key>
+	<string>‎ถัดไป</string>
+	<key>BUTTON_NOT_NOW</key>
+	<string>‎ไม่ใช่ตอนนี้</string>
+	<key>BUTTON_OK</key>
+	<string>‎ตกลง</string>
+	<key>BUTTON_OPEN_SETTINGS</key>
+	<string>‎เปิดการตั้งค่า</string>
+	<key>BUTTON_RESET</key>
+	<string>‎รีเซ็ต</string>
+	<key>BUTTON_SEND</key>
+	<string>‎ส่ง</string>
+	<key>BUTTON_TRY_AGAIN</key>
+	<string>‎ลองอีกครั้ง</string>
+	<key>BUTTON_UNDO</key>
+	<string>‎ยกเลิก</string>
+	<key>CHANGE_NUMBER_OLD_PHONE_LABEL</key>
+	<string>‎หมายเลขเก่า</string>
+	<key>CHAT_INPUT_BAR_PLACEHOLDER_TEXT</key>
+	<string>‎เพิ่มคำอธิบาย...</string>
+	<key>CHAT_MENU_MORE</key>
+	<string>‎เพิ่มเติม</string>
+	<key>CHAT_SUBJECT_TEXT_RECIPIENTS</key>
+	<string>‎ผู้รับ: %@</string>
+	<key>COMMON_ERROR</key>
+	<string>‎ข้อผิดพลาด</string>
+	<key>COMPANY_LABEL</key>
+	<string>‎บริษัท</string>
+	<key>CONTACTS_LIST_EMPTY_CONTACTS_DESC</key>
+	<string>‎ไม่มีรายชื่อ</string>
+	<key>CONTACTS_{{0}}</key>
+	<string>‎%@ รายชื่อ</string>
+	<key>CONTACT_PLACEHOLDER_NAME</key>
+	<string>‎รายชื่อ</string>
+	<key>CONTACT_US_DOES_NOT_ANSWER_MY_QUESTION</key>
+	<string>‎นี่ไม่ตอบคำถามของฉัน</string>
+	<key>CONTENT_STICKERS_HEADER</key>
+	<string>‎สติกเกอร์เนื้อหา</string>
+	<key>COULDNT_SEND_MESSAGES_{{0}}</key>
+	<string>‎ไม่สามารถส่ง %@ ข้อความได้</string>
+	<key>DEPRECATED_DEVICE_NO_SUPPORT</key>
+	<string>‎WhatsApp ไม่สนับสนุนโทรศัพท์ของคุณอีกต่อไป</string>
+	<key>DOCUMENT_MESSAGE_DEFAULT_TITLE</key>
+	<string>‎ไม่ได้ตั้งชื่อ</string>
+	<key>EMOJI_CATEGORY_ACTIVITY</key>
+	<string>‎กิจกรรม</string>
+	<key>EMOJI_CATEGORY_ANIMALS_NATURE</key>
+	<string>‎สัตว์และธรรมชาติ</string>
+	<key>EMOJI_CATEGORY_FLAGS</key>
+	<string>‎ธงชาติ</string>
+	<key>EMOJI_CATEGORY_FOOD_DRINK</key>
+	<string>‎อาหารและเครื่องดื่ม</string>
+	<key>EMOJI_CATEGORY_OBJECTS</key>
+	<string>‎วัตถุ</string>
+	<key>EMOJI_CATEGORY_SMILEYS_PEOPLE</key>
+	<string>‎ใบหน้ายิ้มและผู้คน</string>
+	<key>EMOJI_CATEGORY_SYMBOLS</key>
+	<string>‎สัญลักษณ์</string>
+	<key>EMOJI_CATEGORY_TRAVEL_AND_PLACES</key>
+	<string>‎การท่องเที่ยวและสถานที่</string>
+	<key>EMOJI_SEARCH_NO_RESULTS</key>
+	<string>‎ไม่มีผลลัพธ์สำหรับ “%@”</string>
+	<key>EMOJI_SEARCH_RECENT_EMOJIS_HEADER</key>
+	<string>‎ล่าสุด</string>
+	<key>EMOJI_SEARCH_RESULTS</key>
+	<string>‎ผลการค้นหาอิโมจิสำหรับ “%@”</string>
+	<key>ERROR_COULDNT_CONNECT_TO_SERVICE</key>
+	<string>‎ไม่สามารถเชื่อมต่อกับบริการ WhatsApp ได้</string>
+	<key>ERROR_OCCURRED</key>
+	<string>‎ข้อผิดพลาดเกิดขึ้น</string>
+	<key>ERR_NO_CAMERA_PERMISSION_DEFAULT</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึงกล้องของคุณ หากต้องการให้สิทธิ์เข้าถึง ให้แตะ "การตั้งค่า" แล้วเปิดใช้ "กล้อง"</string>
+	<key>ERR_NO_CAMERA_PERMISSION_VIDEO_CALL</key>
+	<string>‎หากต้องการใช้วิดีโอคอล %@ ต้องได้รับสิทธิ์เข้าถึงกล้องของ iPhone แตะ "การตั้งค่า" แล้วเปิดใช้ "กล้อง"</string>
+	<key>EXTENSION_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>FILTER_NAME_BW</key>
+	<string>‎B&amp;W</string>
+	<key>FILTER_NAME_COOL</key>
+	<string>‎Cool</string>
+	<key>FILTER_NAME_FILM</key>
+	<string>‎Film</string>
+	<key>FILTER_NAME_NONE</key>
+	<string>‎ไม่มี</string>
+	<key>FILTER_NAME_PEN</key>
+	<string>‎Chrome</string>
+	<key>FILTER_NAME_POP</key>
+	<string>‎Pop</string>
+	<key>GROUP_INVITE_NOTIFICATION_TEXT</key>
+	<string>‎คำเชิญเข้ากลุ่ม</string>
+	<key>GROUP_SEND_ERROR_NOT_ADMIN</key>
+	<string>‎ผู้ดูแลเท่านั้นสามารถส่งข้อความถึงกลุ่มนี้</string>
+	<key>GROUP_SEND_ERROR_NOT_PARTICIPANT</key>
+	<string>‎คุณไม่สามารถส่งข้อความไปยังกลุ่มนี้ได้เนื่องจากคุณไม่ได้เป็นสมาชิกอีกต่อไปแล้ว</string>
+	<key>HOME_SCREEN_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>INCOMPATIBLE_ADD_ONS_ON_JAILBROKEN_PHONE</key>
+	<string>‎ส่วนเสริมที่คุณใช้ใน iPhone ที่ผ่านการเจลเบรกไม่สามารถใช้งานร่วมกับ %1$@ เวอร์ชั่นนี้ได้</string>
+	<key>INPUT_LABEL_EMAIL</key>
+	<string>‎อีเมล</string>
+	<key>INSTAGRAM</key>
+	<string>‎Instagram</string>
+	<key>INTERNET_REQUIRED_TO_UPDATE_SETTINGS</key>
+	<string>‎%1$@ กำหนดให้มีการเชื่อมต่ออินเทอร์เน็ตที่ใช้งานได้เพื่ออัพเดทการตั้งค่า</string>
+	<key>JAILBROKEN_NO_SUPPORT_AVAILABLE</key>
+	<string>‎ขออภัย ในขณะนี้เรายังไม่สามารถรองรับอุปกรณ์ที่ถูกเจลเบรคได้
+‎
+‎หากคุณพบปัญหา กรุณากู้คืนอุปกรณ์ของคุณให้กลับสู่สภาวะการตั้งค่าดั้งเดิม ซึ่งเป็นค่าเริ่มต้นจากโรงงาน</string>
+	<key>JOINED_BIZ_CATEGORIES</key>
+	<string>‎%1$@, %2$@</string>
+	<key>JOINED_SENTENCES</key>
+	<string>‎%1$@ %2$@</string>
+	<key>LABEL_DATE_ANNIVERSARY</key>
+	<string>‎วันครบรอบ</string>
+	<key>LABEL_HOME</key>
+	<string>‎บ้าน</string>
+	<key>LABEL_OTHER</key>
+	<string>‎อื่นๆ</string>
+	<key>LABEL_PHONE_NUMBER_HOME_FAX</key>
+	<string>‎แฟ็กซ์บ้าน</string>
+	<key>LABEL_PHONE_NUMBER_MAIN</key>
+	<string>‎เบอร์หลัก</string>
+	<key>LABEL_PHONE_NUMBER_MOBILE</key>
+	<string>‎มือถือ</string>
+	<key>LABEL_PHONE_NUMBER_OTHER_FAX</key>
+	<string>‎แฟกซ์อื่นๆ</string>
+	<key>LABEL_PHONE_NUMBER_PAGER</key>
+	<string>‎เพจเจอร์</string>
+	<key>LABEL_PHONE_NUMBER_WORK_FAX</key>
+	<string>‎แฟ็กซ์ที่ทำงาน</string>
+	<key>LABEL_SCHOOL</key>
+	<string>‎สถานศึกษา</string>
+	<key>LABEL_URL_ADDRESS_HOME</key>
+	<string>‎หน้าแรก</string>
+	<key>LABEL_WORK</key>
+	<string>‎ที่ทำงาน</string>
+	<key>LINK_ACCESSIBILITY_HINT</key>
+	<string>‎แตะสองครั้งเพื่อเปิดลิงก์</string>
+	<key>LIVE_LOCATION_ENDED</key>
+	<string>‎สิ้นสุดการแชร์ตำแหน่งปัจจุบัน</string>
+	<key>LIVE_LOCATION_ENDED_VOICEOVER</key>
+	<string>‎สิ้นสุดการแชร์ตำแหน่งปัจจุบันแล้ว</string>
+	<key>LOCALIZED_APP_NAME_LONG</key>
+	<string>‎WhatsApp Messenger</string>
+	<key>LOCALIZED_APP_NAME_SHORT</key>
+	<string>‎WhatsApp</string>
+	<key>LOCALIZED_SMB_APP_NAME_LONG</key>
+	<string>‎WhatsApp Business</string>
+	<key>LOCALIZED_SMB_APP_NAME_SHORT</key>
+	<string>‎WhatsApp Business</string>
+	<key>MATCHING_VCARD_CONTACTS_TITLE</key>
+	<string>‎กำลังจับคู่</string>
+	<key>MEDIA_ANIMATED_GIF</key>
+	<string>‎ภาพเคลื่อนไหว GIF</string>
+	<key>MEDIA_AUDIO</key>
+	<string>‎ไฟล์เสียง</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{0}}</key>
+	<string>‎เลือก %@ ไฟล์บันทึกเสียง</string>
+	<key>MEDIA_CANNOT_BESELECTED</key>
+	<string>‎ไม่สามารถเลือกรายการนี้ กรุณาเลือกรายการอื่น</string>
+	<key>MEDIA_DOCUMENT</key>
+	<string>‎เอกสาร</string>
+	<key>MEDIA_GIF</key>
+	<string>‎GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{0}}</key>
+	<string>‎เลือก %@ GIF</string>
+	<key>MEDIA_ITEMS_SELECTED_{{0}}</key>
+	<string>‎เลือก %@ ไฟล์</string>
+	<key>MEDIA_ITEMS_{{0}}</key>
+	<string>‎%@ รายการ</string>
+	<key>MEDIA_LANDSCAPE</key>
+	<string>‎แนวนอน</string>
+	<key>MEDIA_LIVE_LOCATION</key>
+	<string>‎ตำแหน่งปัจจุบัน</string>
+	<key>MEDIA_LOCATION</key>
+	<string>‎ตำแหน่งที่ตั้ง</string>
+	<key>MEDIA_PAGES_{{0}}</key>
+	<string>‎%@ หน้า</string>
+	<key>MEDIA_PHOTO</key>
+	<string>‎รูปภาพ</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{0}}</key>
+	<string>‎เลือก %@ รูป</string>
+	<key>MEDIA_PHOTOS_{{0}}</key>
+	<string>‎%@ รูปภาพ</string>
+	<key>MEDIA_PORTRAIT</key>
+	<string>‎แนวตั้ง</string>
+	<key>MEDIA_PRODUCTS_{{0}}</key>
+	<string>‎ผลิตภัณฑ์ %@ รายการ</string>
+	<key>MEDIA_PTT_LOW_VOLUME_WARNING</key>
+	<string>‎กดปุ่มระดับเสียงเพื่อยกเลิกการปิดเสียง</string>
+	<key>MEDIA_SELECT</key>
+	<string>‎เลือก</string>
+	<key>MEDIA_SHEETS_{{0}}</key>
+	<string>‎%@ แผ่น</string>
+	<key>MEDIA_SLIDES_{{0}}</key>
+	<string>‎%@ สไลด์</string>
+	<key>MEDIA_VIDEO</key>
+	<string>‎วิดีโอ</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{0}}</key>
+	<string>‎เลือก %@ วิดีโอ</string>
+	<key>MEDIA_VIDEOS_{{0}}</key>
+	<string>‎%@ วีดีโอ</string>
+	<key>MEDIA_VOICE_MESSAGE</key>
+	<string>‎ข้อความเสียง</string>
+	<key>MESSAGE_GENERIC</key>
+	<string>‎ข้อความ</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{0}}</key>
+	<string>‎%@ ตัวอักษรแรกเท่านั้นที่จะถูกส่งถึงสถานะของฉัน คุณต้องการดำเนินการต่อหรือไม่?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{0}}</key>
+	<string>‎%@ ตัวอักษรแรกเท่านั้นที่จะถูกส่ง คุณต้องการดำเนินการต่อหรือไม่?</string>
+	<key>MESSAGE_TYPE_CONTACT</key>
+	<string>‎รายชื่อ</string>
+	<key>MULTISEND_FIT_TO_SCREEN</key>
+	<string>‎ปรับให้พอดีกับหน้าจอ</string>
+	<key>MULTISEND_ORIGINAL</key>
+	<string>‎ต้นฉบับ</string>
+	<key>MULTISEND_PICKER_HEADER_EMOJI</key>
+	<string>‎อิโมจิ</string>
+	<key>MULTISEND_PICKER_HEADER_FAVORITE_STICKERS</key>
+	<string>‎สติกเกอร์โปรด</string>
+	<key>MULTISEND_PICKER_HEADER_STICKERS</key>
+	<string>‎สติกเกอร์</string>
+	<key>MULTISEND_SQUARE</key>
+	<string>‎จัตุรัส</string>
+	<key>NICKNAME_LABEL</key>
+	<string>‎ชื่อเล่น</string>
+	<key>NOTIFICATION_CONTACT_AT_GROUP_MESSAGE</key>
+	<string>‎%1$@ @ “%2$@”:
+‎%3$@</string>
+	<key>NOTIFICATION_CONTACT_MESSAGE</key>
+	<string>‎%1$@: %2$@</string>
+	<key>NOTIFICATION_MESSAGE</key>
+	<string>‎ข้อความ</string>
+	<key>NOTIFICATION_MESSAGE_FROM</key>
+	<string>‎ข้อความจาก %@</string>
+	<key>NOTIFICATION_MESSAGE_FROM_CONTACT_AT_GROUP</key>
+	<string>‎ข้อความจาก %1$@ @ “%2$@”</string>
+	<key>NOTIFICATION_TITLE_CONTACT</key>
+	<string>‎%1$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT_AT_GROUP</key>
+	<string>‎%1$@ @ %2$@</string>
+	<key>NO_RESULTS</key>
+	<string>‎ไม่มีผลลัพธ์</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‎นี่ช่วยให้คุณสร้างกิจกรรมบนปฏิทินของคุณ</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‎นี่ช่วยให้คุณถ่ายภาพและวิดีโอจากภายใน WhatsApp</string>
+	<key>NSContactsUsageDescription</key>
+	<string>‎อัพโหลดรายชื่อของคุณไปยังเซิร์ฟเวอร์ของ WhatsApp เพื่อช่วยให้คุณสามารถติดต่อกับเพื่อนของคุณได้อย่างรวดเร็วและช่วยเราให้การบริการที่ดีขึ้นกับคุณ</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>‎ใช้ Face ID เพื่อยืนยันความถูกต้องบน WhatsApp</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>‎หากคุณอนุญาตให้เข้าถึงที่ตั้งทุกครั้ง คุณสามารถเลือกที่จะแชร์ตำแหน่งปัจจุบัน และอัพเดทแม้ว่าไม่ได้ใช้แอพอยู่ก็ตาม หากคุณอนุญาตให้เข้าถึงขณะใช้แอพอยู่เท่านั้น คุณสามารถส่งที่ตั้งปัจจุบันของคุณหรือสถานที่ใกล้เคียงได้เท่านั้น</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>‎หากคุณอนุญาตให้เข้าถึงที่ตั้งทุกครั้ง คุณสามารถเลือกที่จะแชร์ตำแหน่งปัจจุบัน และจะอัพเดทแม้ว่าไม่ได้ใช้แอพอยู่ก็ตาม การดำเนินการนี้ยังช่วยให้คุณสามารถส่งที่ตั้งปัจจุบันของคุณหรือสถานที่ใกล้เคียงได้อีกด้วย</string>
+	<key>NSLocationUsageDescription</key>
+	<string>‎นี้ช่วยให้คุณส่งที่ตั้งในปัจจุบันหรือสถานที่ใกล้เคียงของคุณในการแชท</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>‎นี้ช่วยให้คุณส่งที่ตั้งในปัจจุบันหรือสถานที่ใกล้เคียงของคุณในการแชท</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‎นี่ช่วยให้คุณทำการโทร, ส่งข้อความเสียง, และบันทึกวิดีโอพร้อมด้วยเสียง</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‎นี้ช่วยให้คุณส่งรูปภาพและวิดีโอจากคลังของคุณและบันทึกสิ่งที่คุณจับภาพ</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>‎นี่ช่วยให้คุณตั้งเตือนความจำให้โทรกลับหาเพื่อนของคุณ</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‎นี่ช่วยให้คุณใช้ Siri เพื่อส่งและอ่านข้อความและทำการโทรอย่างรวดเร็ว</string>
+	<key>OPERATION_ABORTED</key>
+	<string>‎การดำเนินการถูกยกเลิก</string>
+	<key>OPERATION_CANCELLED</key>
+	<string>‎การทำงานยกเลิก</string>
+	<key>OTHERS_VCARD_CONTACTS_TITLE</key>
+	<string>‎อื่นๆ</string>
+	<key>PAYMENT_NOTIFICATION</key>
+	<string>‎การชำระเงิน</string>
+	<key>PAYMENT_REQUEST_NOTIFICATION</key>
+	<string>‎ร้องขอการชำระเงิน</string>
+	<key>PERM_CALENDARS</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึงปฏิทินของคุณ 
+‎หากต้องการให้สิทธิ์เข้าถึง ให้แตะ "การตั้งค่า" แล้วเปิดใช้ "ปฏิทิน"</string>
+	<key>PERM_FACEID</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึง Face ID หากต้องการให้สิทธิ์เข้าถึงให้ไปที่: การตั้งค่า &gt; Face ID และรหัสผ่าน &gt; ใช้ Face ID สำหรับ: &gt; แอพอื่นๆ</string>
+	<key>PERM_LOCATION_7</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึงที่ตั้งของคุณ 
+‎หากต้องการให้สิทธิ์เข้าถึง ให้ไปที่การตั้งค่า iPhone &gt; ความเป็นส่วนตัว &gt; บริการที่ตั้ง &gt; %2$@</string>
+	<key>PERM_PHOTOS_7</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึงรูปภาพหรือวิดีโอของคุณ 
+‎หากต้องการให้สิทธิ์เข้าถึง ให้ไปที่การตั้งค่า iPhone &gt; ความเป็นส่วนตัว &gt; รูปภาพ &gt; %2$@</string>
+	<key>PERM_REMINDERS</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึงการเตือนความจำของคุณ 
+‎หากต้องการให้สิทธิ์เข้าถึง ให้แตะ "การตั้งค่า" แล้วเปิดใช้ "การเตือนความจำ"</string>
+	<key>PHONE_VERIFICATION_RESEND_CODE</key>
+	<string>‎ส่งรหัสอีกครั้ง</string>
+	<key>PHONE_VERIFICATION_RESEND_SMS</key>
+	<string>‎ส่งรหัสอีกครั้งภายใน %@</string>
+	<key>PHOTO_LIBRARY_ERROR_SAVE_FAILED</key>
+	<string>‎ไฟล์สื่อนี้ไม่สามารถบันทึกได้</string>
+	<key>PHOTO_LIBRARY_PERMISSIONS</key>
+	<string>‎%1$@ ไม่มีสิทธิ์เข้าถึงรูปภาพหรือวิดีโอของคุณ หากต้องการให้สิทธิ์เข้าถึง ให้แตะ "การตั้งค่า" แล้วเปิด "รูปภาพ"</string>
+	<key>PHOTO_LIBRARY_PHOTO_ASSET_NOT_READY</key>
+	<string>‎กำลังโหลดรูปภาพ</string>
+	<key>PHOTO_LIBRARY_PHOTO_FAILED</key>
+	<string>‎รูปภาพนี้ไม่สามารถใช้งานได้ กรุณาเลือกรูปภาพอื่น</string>
+	<key>PHOTO_LIBRARY_PHOTO_NOT_READY_YET</key>
+	<string>‎รูปภาพนี้ยังคงโหลดอยู่ โปรดลองอีกครั้งภายหลัง</string>
+	<key>PHOTO_LIBRARY_VIDEO_ASSET_NOT_READY</key>
+	<string>‎กำลังโหลดวิดีโอ</string>
+	<key>PHOTO_LIBRARY_VIDEO_FAILED</key>
+	<string>‎วิดีโอนี้ไม่สามารถใช้งานได้ กรุณาเลือกวิดีโออื่น</string>
+	<key>PHOTO_LIBRARY_VIDEO_NOT_READY_YET</key>
+	<string>‎วิดีโอนี้ยังคงโหลดอยู่ โปรดลองอีกครั้งภายหลัง</string>
+	<key>PIN_ENTRY_FIELD_ACCESSIBILITY_LABEL</key>
+	<string>‎ช่องกรอก PIN</string>
+	<key>PIP_VIDEO_CANNOT_BE_PLAYED</key>
+	<string>‎วิดีโอนี้ไม่สามารถเล่นได้</string>
+	<key>PLACEHOLDER_SEARCH</key>
+	<string>‎ค้นหา</string>
+	<key>PRODUCT</key>
+	<string>‎ผลิตภัณฑ์</string>
+	<key>QUOTED_LIVE_LOCATION_SNIPPET</key>
+	<string>‎ตำแหน่งปัจจุบัน</string>
+	<key>RECIPIENTS_SEND_TO</key>
+	<string>‎ถึง:</string>
+	<key>REG_INVALID_CODE</key>
+	<string>‎รหัสที่คุณกรอกไม่ถูกต้อง</string>
+	<key>REQUEST_TOOK_TOO_LONG_TRY_AGAIN_LATER</key>
+	<string>‎มีบางอย่างผิดพลาด การร้องขอของคุณใช้เวลานานเกินไป กรุณาลองอีกครั้งภายหลัง</string>
+	<key>REQUIRED_PLACEHOLDER</key>
+	<string>‎ต้องระบุ</string>
+	<key>REVOKE_QR_CODE_ERROR</key>
+	<string>‎ตรวจพบโค้ดที่ไม่ถูกต้อง</string>
+	<key>REVOKE_QR_CODE_ERROR_MESSAGE</key>
+	<string>‎โค้ดนี้ใช้ไม่ได้อีกต่อไป แสดงว่าอาจถูกรีเซ็ตหรืออาจไม่มีบัญชีดังกล่าวแล้ว</string>
+	<key>ROTATION_DEGREES_{{0}}</key>
+	<string>‎%@ องศา</string>
+	<key>SENDER_ADDED_YOU_TO_GROUP</key>
+	<string>‎%1$@ ได้เพิ่มคุณไปยังกลุ่ม “%2$@” แล้ว</string>
+	<key>SEND_FULL</key>
+	<string>‎ส่ง</string>
+	<key>SERVICE_EXTENSION_REVOKE_MESSAGE</key>
+	<string>‎%1$@ ได้ลบข้อความ</string>
+	<key>SERVICE_PROBLEM</key>
+	<string>‎พบปัญหากับบริการ ข้อผิดพลาดรหัส = %ld</string>
+	<key>SETTINGS_APP</key>
+	<string>‎การตั้งค่า</string>
+	<key>SHARE_CONTACT_SHORT</key>
+	<string>‎แชร์รายชื่อ</string>
+	<key>SINGLE_MESSAGE_SEND_FAILED</key>
+	<string>‎ไม่สามารถส่งข้อความได้</string>
+	<key>SMB_PRODUCT_CATALOG_MESSAGE_BUSINESS</key>
+	<string>‎ส่งข้อความหาธุรกิจ</string>
+	<key>SMB_PRODUCT_CATALOG_RETRIEVE_ERROR</key>
+	<string>‎มีข้อผิดพลาดเกิดขึ้น โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของอุปกรณ์แล้วลองอีกครั้ง</string>
+	<key>STANDALONE_ME</key>
+	<string>‎ฉัน</string>
+	<key>STANDALONE_YOU</key>
+	<string>‎คุณ</string>
+	<key>STATUSV3</key>
+	<string>‎สถานะ</string>
+	<key>STATUSV3_MY_STATUS</key>
+	<string>‎สถานะของฉัน</string>
+	<key>STATUS_COLOR_BALI_HAI</key>
+	<string>‎สีน้ำเงินหิน</string>
+	<key>STATUS_COLOR_BITTERSWEET</key>
+	<string>‎สีชมพูปะการัง</string>
+	<key>STATUS_COLOR_BRANDY_ROSE</key>
+	<string>‎สีเหลืองน้ำส้มสายชูหมัก</string>
+	<key>STATUS_COLOR_BRIGHT_SUN</key>
+	<string>‎สีเหลืองสว่าง</string>
+	<key>STATUS_COLOR_CE_SOIR</key>
+	<string>‎สีม่วงอ่อน</string>
+	<key>STATUS_COLOR_EARLS_GREEN</key>
+	<string>‎สีม่วงอ่อน</string>
+	<key>STATUS_COLOR_ELEPHANT</key>
+	<string>‎สีเขียวคราม</string>
+	<key>STATUS_COLOR_EMERALD</key>
+	<string>‎สีเขียวมรกต</string>
+	<key>STATUS_COLOR_MAYA_BLUE</key>
+	<string>‎สีฟ้าไพลิน</string>
+	<key>STATUS_COLOR_MAYA_BLUE_2</key>
+	<string>‎สีฟ้าอ่อน</string>
+	<key>STATUS_COLOR_MEDIUM_RED_VIOLET</key>
+	<string>‎สีม่วงอมแดง</string>
+	<key>STATUS_COLOR_MONA_LISA</key>
+	<string>‎สีชมพูพาสเทล</string>
+	<key>STATUS_COLOR_MONTE_CARLO</key>
+	<string>‎สีเขียวมินต์</string>
+	<key>STATUS_COLOR_POLO_BLUE</key>
+	<string>‎สีน้ำเงินอมฟ้า</string>
+	<key>STATUS_COLOR_PRELUDE</key>
+	<string>‎สีม่วงอ่อน</string>
+	<key>STATUS_COLOR_SCARLETT</key>
+	<string>‎สีแดงเลือดนก</string>
+	<key>STATUS_COLOR_SCORPION</key>
+	<string>‎สีเทาควัน</string>
+	<key>STATUS_COLOR_SUMMER_SKY</key>
+	<string>‎สีฟ้าจุนสี</string>
+	<key>STATUS_COLOR_SUNDANCE</key>
+	<string>‎สีน้ำตาลทอง</string>
+	<key>STATUS_COLOR_VIVID_VIOLET</key>
+	<string>‎สีม่วงสด</string>
+	<key>STATUS_COLOR_WASABI</key>
+	<string>‎สีเขียววาซาบิ</string>
+	<key>STATUS_FONT_BRYNDAN</key>
+	<string>‎Bryndan Write</string>
+	<key>STATUS_FONT_GEORGIA</key>
+	<string>‎Georgia</string>
+	<key>STATUS_FONT_HELVETICA</key>
+	<string>‎Helvetica</string>
+	<key>STATUS_FONT_NORICAN</key>
+	<string>‎Norican</string>
+	<key>STATUS_FONT_OSWALD</key>
+	<string>‎Oswald Heavy</string>
+	<key>STATUS_PREPARING</key>
+	<string>‎กำลังเตรียม...</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{0}}</key>
+	<string>‎ยกเว้น %@ รายชื่อ</string>
+	<key>STATUS_PRIVACY_MY_CONTACTS</key>
+	<string>‎รายชื่อของฉัน</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_BODY_TEXT</key>
+	<string>‎อนุญาตให้ %@ เข้าถึงรายชื่อของคุณเพื่อให้สามารถส่งและรับการอัพเดทสถานะได้ หากต้องการดำเนินการ ให้แตะ "การตั้งค่า" และเปิดใช้งาน "รายชื่อ"</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_TITLE</key>
+	<string>‎ไม่สามารถอัพเดทสถานะได้</string>
+	<key>STICKER</key>
+	<string>‎สติกเกอร์</string>
+	<key>STICKER_SEARCH_RESULTS</key>
+	<string>‎ผลการค้นหาสติกเกอร์สำหรับ “%@”</string>
+	<key>STR_BIZ_APPT_ONLY</key>
+	<string>‎โดยการนัดหมายเท่านั้น</string>
+	<key>STR_BIZ_CLOSED</key>
+	<string>‎ปิด</string>
+	<key>STR_BIZ_OPEN_24H</key>
+	<string>‎เปิด 24 ชั่วโมง</string>
+	<key>STR_SOCIAL_FACEBOOK</key>
+	<string>‎Facebook</string>
+	<key>STR_STATUS_WHATSAPP_STATUS</key>
+	<string>‎สถานะ WhatsApp</string>
+	<key>SUSPICIOUS_LINK_WARNING</key>
+	<string>‎ลิงก์ที่น่าสงสัย</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{0}}</key>
+	<string>‎%@ ลิงก์ที่น่าสงสัย</string>
+	<key>TAP_FOR_MORE</key>
+	<string>‎แตะสำหรับข้อมูลเพิ่มเติม</string>
+	<key>TAP_TO_CANCEL</key>
+	<string>‎แตะเพื่อยกเลิก</string>
+	<key>TAP_TO_DOWNLOAD</key>
+	<string>‎แตะเพื่อดาวน์โหลด</string>
+	<key>TAP_TO_EDIT</key>
+	<string>‎แตะเพื่อแก้ไข</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{0}}_MAXIMUM</key>
+	<string>‎ตัวระบุของชุดสติกเกอร์มีจำนวนอักขระน้อยเกินไป จำนวนอักขระต่ำสุดคือ %@ ตัว</string>
+	<key>THIRD_PARTY_STICKER_IMPORTING_ERROR</key>
+	<string>‎เกิดปัญหาขึ้นกับชุดสติกเกอร์นี้และไม่สามารถเพิ่มลงใน %1$@ ได้</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{0}}_MINIMUM</key>
+	<string>‎จำนวนสติกเกอร์ของแพ็คนี้ไม่ได้อยู่ระหว่าง %1$@ ถึง %2$@</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_APP_STORE_LINK</key>
+	<string>‎ชุดสติกเกอร์นี้มีลิงก์ App Store ที่ไม่ถูกต้อง</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_PLAY_STORE_LINK</key>
+	<string>‎ชุดสติกเกอร์นี้มีลิงก์ Play Store ที่ไม่ถูกต้อง</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_STICKER_IMAGE</key>
+	<string>‎หนึ่งในสติกเกอร์ของชุดสติกเกอร์นี้มีองค์ประกอบที่ไม่ถูกต้อง</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎หนึ่งในสติกเกอร์ไม่ได้มีขนาด %1$@x%1$@ พิกเซล</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎รูปของสติกเกอร์มีขนาดใหญ่เกินไป %@ กิโลไบต์คือขนาดสูงสุด</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{0}}_MAXIMUM</key>
+	<string>‎ชื่อ ผู้เผยแพร่ หรือตัวระบุชุดสติกเกอร์มีจำนวนอักขระมากเกินไปหรือยังว่างอยู่ จำนวนอักขระสูงสุดคือ %@ ตัว</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{0}}_MAXIMUM</key>
+	<string>‎หนึ่งในสติกเกอร์มีจำนวนอิโมจิมากเกินไป อิโมจิ %@ ตัวคือจำนวนสูงสุด</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎รูปถาดไม่ได้มีขนาด %1$@x%1$@ พิกเซล</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎รูปถาดมีขนาดใหญ่เกินไป %@ กิโลไบต์คือขนาดสูงสุด</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_WRONG_BUNDLE_ID</key>
+	<string>‎แอพที่โฮสต์ชุดสติกเกอร์นี้มีตัวระบุชุดที่ไม่ถูกต้อง</string>
+	<key>TITLE_CHATS</key>
+	<string>‎แชท</string>
+	<key>TITLE_PHOTOS</key>
+	<string>‎รูปภาพ</string>
+	<key>TRANSCODER_ALERT_COULD_NOT_SHARE_VIDEO</key>
+	<string>‎ไม่สามารถแชร์วิดีโอ</string>
+	<key>TRANSCODER_ERROR_BLANK_VIDEO_FILE</key>
+	<string>‎วิดีโอนี้ว่างเปล่า</string>
+	<key>TRANSCODER_ERROR_UNUSABLE_VIDEO</key>
+	<string>‎วิดีโอนี้แชร์ไม่ได้ กรุณาลองวิดีโออื่น</string>
+	<key>TRY_AGAIN_LATER</key>
+	<string>‎โปรดลองอีกครั้งภายหลัง</string>
+	<key>UNBLOCK_SHORTENED</key>
+	<string>‎เลิกบล็อค</string>
+	<key>UNKNOWN_CALLER</key>
+	<string>‎ไม่ทราบ</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{0}}</key>
+	<string>‎%1$@ และรายชื่อติดต่ออื่นอีก %2$@ คน</string>
+	<key>VCARD_SHARE_CONTACTS_{{0}}</key>
+	<string>‎แชร์ %@ รายชื่อ</string>
+	<key>VIDEO_RECORDING_PERMISSIONS</key>
+	<string>‎ในการบันทึกวิดีโอพร้อมเสียง %1$@ ต้องได้รับสิทธิ์เข้าถึงไมโครโฟน หากต้องการให้สิทธิ์เข้าถึง ให้ไปที่การตั้งค่า iPhone &gt; ความเป็นส่วนตัว &gt; ไมโครโฟน แล้วเปิดใช้สำหรับ %2$@</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_IOS8</key>
+	<string>‎ในการบันทึกวิดีโอพร้อมเสียง %1$@ ต้องได้รับสิทธิ์เข้าถึงไมโครโฟน หากต้องการให้สิทธิ์เข้าถึง ให้แตะ "การตั้งค่า" แล้วเปิดใช้ "ไมโครโฟน"</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_TITLE</key>
+	<string>‎คุณต้องการวิดีโอพร้อมเสียงหรือไม่?</string>
+	<key>VISION_BOTTOM</key>
+	<string>‎ใกล้ด้านล่าง</string>
+	<key>VISION_BOTTOM_LEFT</key>
+	<string>‎ใกล้ด้านล่างซ้าย</string>
+	<key>VISION_BOTTOM_RIGHT</key>
+	<string>‎ใกล้ด้านขวาล่าง</string>
+	<key>VISION_CENTER</key>
+	<string>‎ตรงกลาง</string>
+	<key>VISION_CENTERED</key>
+	<string>‎ตรงกลาง</string>
+	<key>VISION_FACE_COUNT_{{0}}</key>
+	<string>‎มี {1} ใบหน้าในเฟรม</string>
+	<key>VISION_LEFT_EDGE</key>
+	<string>‎ขอบด้านซ้าย</string>
+	<key>VISION_NO_FACES</key>
+	<string>‎ไม่พบใบหน้าในเฟรม</string>
+	<key>VISION_RIGHT_EDGE</key>
+	<string>‎ขอบด้านขวา</string>
+	<key>VISION_TOP</key>
+	<string>‎ใกล้ด้านบน</string>
+	<key>VISION_TOP_LEFT</key>
+	<string>‎ใกล้ด้านซ้ายบน</string>
+	<key>VISION_TOP_RIGHT</key>
+	<string>‎ใกล้ด้านขวาบน</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{0}}</key>
+	<string>‎รหัสเปิดใช้งาน %1$@ จาก %2$@ ค่าที่ป้อน</string>
+	<key>VOICEOVER_ALERT</key>
+	<string>‎การเตือน</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{0}}</key>
+	<string>‎%@ ตัวอักษรเหลืออยู่</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA</key>
+	<string>‎เพิ่มรูปภาพหรือวิดีโออื่น</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA_REPLY</key>
+	<string>‎ตอบกลับด้วยรูปภาพหรือวิดีโอที่มีอยู่</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA</key>
+	<string>‎ถ่ายรูปหรือวิดีโออื่น</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA_REPLY</key>
+	<string>‎ตอบกลับด้วยรูปภาพหรือวิดีโอใหม่</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION</key>
+	<string>‎ช่องข้อความสำหรับคำอธิบาย</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_ADD_HINT</key>
+	<string>‎แตะสองครั้งเพื่อเพิ่มคำอธิบาย</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_CHANGE_HINT</key>
+	<string>‎แตะสองครั้งเพื่อเปลี่ยนคำอธิบาย</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY</key>
+	<string>‎ช่องตอบกลับข้อความ</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_ADD_HINT</key>
+	<string>‎แตะสองครั้งเพื่อเพิ่มการตอบกลับ</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_CHANGE_HINT</key>
+	<string>‎แตะสองครั้งเพื่อเปลี่ยนการตอบกลับ</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_ACTIVATE</key>
+	<string>‎แตะสองครั้งเพื่อเปิดใช้งาน</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CANCEL</key>
+	<string>‎แตะสองครั้งเพื่อยกเลิก</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CLOSE</key>
+	<string>‎แตะสองครั้งเพื่อปิด</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DESELECT</key>
+	<string>‎แตะสองครั้งเพื่อยกเลิกการเลือก</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DOWNLOAD</key>
+	<string>‎แตะสองครั้งเพื่อเริ่มการดาวน์โหลด</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_EDIT</key>
+	<string>‎แตะสองครั้งเพื่อแก้ไข</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_OPEN</key>
+	<string>‎แตะสองครั้งเพื่อเปิด</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_PLAY</key>
+	<string>‎แตะสองครั้งเพื่อเล่น</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_SELECT</key>
+	<string>‎แตะสองครั้งเพื่อเลือก</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_TOGGLE_SETTING</key>
+	<string>‎แตะสองครั้งเพื่อสลับค่า</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_EDIT</key>
+	<string>‎อัตราสัดส่วน</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_LIST</key>
+	<string>‎แตะสองครั้งเพื่อแสดงรายการอัตราสัดส่วน</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ROTATE</key>
+	<string>‎หมุนรายการ</string>
+	<key>VOICEOVER_FILTER_MODE_ENTER</key>
+	<string>‎ใช้ฟิลเตอร์</string>
+	<key>VOICEOVER_FILTER_MODE_EXIT_HINT</key>
+	<string>‎แตะสองครั้งเพื่อออกจากโหมดการเลือกฟิลเตอร์</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_GIF</key>
+	<string>‎ขณะนี้ส่งเป็น GIF</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_VIDEO</key>
+	<string>‎ขณะนี้ส่งเป็นวิดีโอ</string>
+	<key>VOICEOVER_GIF_SEND_AS_GIF</key>
+	<string>‎ส่งเป็น GIF</string>
+	<key>VOICEOVER_GIF_SEND_AS_VIDEO</key>
+	<string>‎ส่งเป็นวิดีโอ</string>
+	<key>VOICEOVER_GIF_TOGGLE_HINT</key>
+	<string>‎แตะสองครั้งเพื่อสลับค่าระหว่างส่งเป็นวิดีโอและส่งเป็น GIF</string>
+	<key>VOICEOVER_MEDIA_BROWSER_EDIT_DONE</key>
+	<string>‎แตะที่นี่เมื่อคุณได้จัดเรียงรูปของคุณเสร็จแล้ว</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_GIF</key>
+	<string>‎แตะสองครั้งเพื่อไปยัง GIF</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_PHOTO</key>
+	<string>‎แตะสองครั้งเพื่อไปที่รูปภาพ</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_VIDEO</key>
+	<string>‎แตะสองครั้งเพื่อไปที่วิดีโอ</string>
+	<key>VOICEOVER_MULTISEND_ADD_EMOJI</key>
+	<string>‎เพิ่มอิโมจิ</string>
+	<key>VOICEOVER_MULTISEND_ADD_TEXT</key>
+	<string>‎เพิ่มข้อความ</string>
+	<key>VOICEOVER_MULTISEND_CROP_AND_TILT</key>
+	<string>‎ครอบตัดและเอียงรายการ</string>
+	<key>VOICEOVER_MULTISEND_DELETE</key>
+	<string>‎ลบรายการปัจจุบัน</string>
+	<key>VOICEOVER_MULTISEND_PAINT</key>
+	<string>‎แปรงสี</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_CROPPED</key>
+	<string>‎ครอบตัด</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_NO_CHANGE</key>
+	<string>‎ต้นฉบับ</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_ROTATED</key>
+	<string>‎หมุน</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{0}}</key>
+	<string>‎%@ รายการสื่อ</string>
+	<key>VOICEOVER_NOTIFICATION_DOWNLOADING_PTT_MESSAGE</key>
+	<string>‎ข้อความเสียง - กำลังดาวน์โหลด</string>
+	<key>VOICEOVER_NOTIFICATION_PTT_MESSAGE</key>
+	<string>‎ข้อความเสียง</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST</key>
+	<string>‎สมาชิก: %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{0}}</key>
+	<string>‎ผู้เข้าร่วม: __NAMES__ และอีก %@ คน</string>
+	<key>VOICEOVER_PHOTO_CROP_AND_TILT_LABEL</key>
+	<string>‎ครอบตัดและเอียง</string>
+	<key>VOICEOVER_PLAY_VIDEO</key>
+	<string>‎เล่นวิดีโอ</string>
+	<key>VOICEOVER_REMOVED</key>
+	<string>‎ลบแล้ว</string>
+	<key>VOICEOVER_REMOVE_LINK_PREVIEW</key>
+	<string>‎ลบลิงก์ตัวอย่าง</string>
+	<key>VOICEOVER_SELECTED</key>
+	<string>‎เลือกแล้ว</string>
+	<key>VOICEOVER_STICKER_PACK_HEADER</key>
+	<string>‎%@, ส่วนหัว</string>
+	<key>VOICE_OVER_POSITION</key>
+	<string>‎ตำแหน่งปัจจุบัน %1$@ จาก %2$@</string>
+	<key>VOIP_VOICEOVER_VIDEO_CALL</key>
+	<string>‎วิดีโอคอล</string>
+	<key>VOIP_VOICEOVER_VOICE_CALL</key>
+	<string>‎การโทรเสียง</string>
+	<key>WACONTACT_BIRTHDAY_KEY</key>
+	<string>‎วันเกิด</string>
+	<key>WACONTACT_DATE_KEY</key>
+	<string>‎วันที่</string>
+	<key>WACONTACT_DEPARTMENT_NAME_KEY</key>
+	<string>‎แผนก</string>
+	<key>WACONTACT_EMAIL_ADDRESSES_KEY</key>
+	<string>‎อีเมล</string>
+	<key>WACONTACT_FAMILY_NAME_KEY</key>
+	<string>‎นามสกุล</string>
+	<key>WACONTACT_GIVEN_NAME_KEY</key>
+	<string>‎ชื่อ</string>
+	<key>WACONTACT_INSTANT_MESSAGE_KEY</key>
+	<string>‎ข้อความโต้ตอบแบบทันที</string>
+	<key>WACONTACT_JOB_TITLE_KEY</key>
+	<string>‎ตำแหน่งงาน</string>
+	<key>WACONTACT_MIDDLE_NAME_KEY</key>
+	<string>‎ชื่อกลาง</string>
+	<key>WACONTACT_NAME_PREFIX_KEY</key>
+	<string>‎คำนำหน้า</string>
+	<key>WACONTACT_NAME_SUFFIX_KEY</key>
+	<string>‎คำต่อท้าย</string>
+	<key>WACONTACT_NICKNAME_KEY</key>
+	<string>‎ชื่อเล่น</string>
+	<key>WACONTACT_ORGANIZATION_NAME_KEY</key>
+	<string>‎บริษัท</string>
+	<key>WACONTACT_PHONETIC_FAMILY_NAME_KEY</key>
+	<string>‎การออกเสียงนามสกุล</string>
+	<key>WACONTACT_PHONETIC_GIVEN_NAME_KEY</key>
+	<string>‎การออกเสียงชื่อ</string>
+	<key>WACONTACT_PHONETIC_MIDDLE_NAME_KEY</key>
+	<string>‎การออกเสียงชื่อกลาง</string>
+	<key>WACONTACT_PHONETIC_ORGANIZATION_NAME_KEY</key>
+	<string>‎การออกเสียงชื่อบริษัท</string>
+	<key>WACONTACT_PHONE_NUMBER_KEY</key>
+	<string>‎โทรศัพท์</string>
+	<key>WACONTACT_POSTAL_ADDRESSES_KEY</key>
+	<string>‎ที่อยู่</string>
+	<key>WACONTACT_PREVIOUS_FAMILY_NAME_KEY</key>
+	<string>‎ชื่อกลาง</string>
+	<key>WACONTACT_SOCIAL_PROFILES_KEY</key>
+	<string>‎โปรไฟล์ทางโซเชียล</string>
+	<key>WACONTACT_URL_ADDRESSES_KEY</key>
+	<string>‎URL</string>
+	<key>WEBSITE_TITLE</key>
+	<string>‎เว็บไซต์</string>
+	<key>YOU_WERE_ADDED_TO_GROUP</key>
+	<string>‎คุณได้ถูกเพิ่มไปยังกลุ่ม “%@” แล้ว</string>
+</dict>
+</plist>

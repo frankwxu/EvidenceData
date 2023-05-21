@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MORE_SHOWS_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@shows_count@</string>
+		<key>shows_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d برامج أخرى</string>
+			<key>one</key>
+			<string>برنامج واحد آخر</string>
+			<key>many</key>
+			<string>‏%d برنامجًا آخر</string>
+			<key>two</key>
+			<string>برنامجان آخران</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d برنامج آخر</string>
+			<key>zero</key>
+			<string>‏%d برنامج آخر</string>
+		</dict>
+	</dict>
+	<key>RATING_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@rating_count@</string>
+		<key>rating_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d تقييمات</string>
+			<key>one</key>
+			<string>تقييم واحد</string>
+			<key>many</key>
+			<string>‏%d تقييمًا</string>
+			<key>two</key>
+			<string>تقييمان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d تقييم</string>
+			<key>zero</key>
+			<string>‏%d تقييم</string>
+		</dict>
+	</dict>
+	<key>REMOVE_COUNT_ITEM_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>وفقًا لما يقرره الناشر بخصوص توفر الحلقات، قد لا تتمكن من الوصول إلى %#@item@ مرة أخرى بعد الحذف.</string>
+		<key>item</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>هذه العناصر</string>
+			<key>one</key>
+			<string>هذا العنصر</string>
+			<key>many</key>
+			<string>هذه العناصر</string>
+			<key>two</key>
+			<string>هذين العنصرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>هذه العناصر</string>
+			<key>zero</key>
+			<string>هذه العناصر</string>
+		</dict>
+	</dict>
+	<key>ACCESSIBILITY_STAR_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@star_count@</string>
+		<key>star_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d نجوم</string>
+			<key>one</key>
+			<string>نجمة واحدة</string>
+			<key>many</key>
+			<string>‏%d نجمة</string>
+			<key>two</key>
+			<string>نجمتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d نجمة</string>
+			<key>zero</key>
+			<string>‏%d نجمة</string>
+		</dict>
+	</dict>
+	<key>PODCAST_EPISODES_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episodes_count@</string>
+		<key>episodes_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d حلقات</string>
+			<key>one</key>
+			<string>حلقة واحدة</string>
+			<key>many</key>
+			<string>‏%d حلقة</string>
+			<key>two</key>
+			<string>حلقتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d حلقة</string>
+			<key>zero</key>
+			<string>‏%d حلقة</string>
+		</dict>
+	</dict>
+	<key>PODCAST_SEASONS_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@seasons_count@</string>
+		<key>seasons_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d مواسم</string>
+			<key>one</key>
+			<string>موسم واحد</string>
+			<key>many</key>
+			<string>‏%d موسمًا</string>
+			<key>two</key>
+			<string>موسمان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d موسم</string>
+			<key>zero</key>
+			<string>‏%d موسم</string>
+		</dict>
+	</dict>
+	<key>REMOVE_COUNT_EPISODES_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@remove_episodes_count@</string>
+		<key>remove_episodes_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>إزالة %d حلقات…</string>
+			<key>one</key>
+			<string>إزالة حلقة واحدة…</string>
+			<key>many</key>
+			<string>إزالة %d حلقة…</string>
+			<key>two</key>
+			<string>إزالة حلقتين…</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>إزالة %d حلقة…</string>
+			<key>zero</key>
+			<string>عدم إزالة أية حلقة…</string>
+		</dict>
+	</dict>
+	<key>EPISODES_COUNT_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d حلقات</string>
+			<key>one</key>
+			<string>حلقة واحدة</string>
+			<key>many</key>
+			<string>‏%d حلقة</string>
+			<key>two</key>
+			<string>حلقتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d حلقة</string>
+			<key>zero</key>
+			<string>لا توجد حلقات</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

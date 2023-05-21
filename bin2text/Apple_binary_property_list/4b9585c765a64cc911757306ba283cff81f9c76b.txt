@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gk-launch-gamecenter-host-patterns</key>
+	<array>
+		<string>^(sandbox\.gc|static\.gc|link\.gc)\.apple\.com$</string>
+	</array>
+	<key>gk-launch-gamecenter-path-patterns</key>
+	<array>
+		<string>^/htmlResources/(friendRequest)</string>
+		<string>^/(me|players|friends|games|requests|challenges|htmlResources)($|/.*)</string>
+	</array>
+</dict>
+</plist>

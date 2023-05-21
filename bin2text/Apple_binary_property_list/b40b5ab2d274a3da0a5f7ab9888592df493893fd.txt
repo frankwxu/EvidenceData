@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si ganas {{goal_value:minutes}} minutos de Ejercicio hoy, esta flecha apuntará hacia arriba mañana. ¡Vuélvelo realidad!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio va bien. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta en la dirección correcta. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta hacia abajo, pero está por voltearse. Logra {{goal_value:minutes}} minutos de Ejercicio al día por %#@num_days@ para voltearla.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>los siguientes %d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha apunta hacia abajo, pero estos días sigues ganando más minutos de Ejercicio. Haz al menos {{goal_value:minutes}} al día por los siguientes 30 días para voltear la flecha. ¡No pierdas ese ritmo, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para voltear esta flecha, logra un promedio de al menos {{goal_value:minutes}} minutos de Ejercicio por día durante los siguientes 30 días. Últimamente has estado ganando más minutos de Ejercicio, {{username}}, así que vas muy bien.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La flecha apunta hacia abajo, pero no por mucho. Haz más de {{goal_value:minutes}} minutos de Ejercicio por día durante %#@num_days@ para voltearla.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>los siguientes %d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Sigue ganando al menos {{goal_value:minutes}} minutos de Ejercicio al día para mantener esta flecha hacia arriba. ¡Vas muy bien, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio va bien, {{username}}. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha apunta hacia abajo, pero estos días sigues ganando más minutos de Ejercicio. Haz al menos {{goal_value:minutes}} al día por los siguientes 14 días para voltear la flecha. ¡No pierdas ese ritmo!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>¡Puedes voltear tu flecha de Ejercicio en %#@num_days@! Gana al menos {{goal_value:minutes}} minutos de Ejercicio al día para lograrlo.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta hacia arriba. Asegúrate de hacer al menos {{goal_value:minutes}} minutos de Ejercicio al día para mantenerla así.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para voltear esta flecha hacia arriba, haz un promedio de {{goal_value:minutes}} minutos de Ejercicio al día durante %#@num_days@. ¡Tú puedes!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>los siguientes %d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio va bien, {{username}}. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha apunta hacia abajo, pero estos días sigues ganando más minutos de Ejercicio. Haz al menos {{goal_value:minutes}} al día por los siguientes 14 días para voltear la flecha. ¡No pierdas ese ritmo, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Sigue ganando al menos {{goal_value:minutes}} minutos de Ejercicio al día para mantener esta flecha hacia arriba. ¡Vas muy bien!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para voltear esta flecha, logra un promedio de al menos {{goal_value:minutes}} minutos de Ejercicio por día durante los siguientes 14 días. Últimamente has estado ganando más minutos de Ejercicio, {{username}}, así que vas muy bien.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La flecha apunta hacia abajo, pero no por mucho, {{username}}. Haz más de {{goal_value:minutes}} minutos de Ejercicio por día durante %#@num_days@ para voltearla.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>los siguientes %d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta en la dirección correcta, {{username}}. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>¡{{username}}, puedes voltear tu flecha de Ejercicio en %#@num_days@! Gana al menos {{goal_value:minutes}} minutos de Ejercicio al día para lograrlo.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, tu flecha de Ejercicio apunta hacia abajo, pero está por voltearse. Logra {{goal_value:minutes}} minutos de Ejercicio al día por %#@num_days@ para voltearla.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>los siguientes %d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para voltear esta flecha hacia arriba, haz un promedio de {{goal_value:minutes}} minutos de Ejercicio al día durante %#@num_days@. ¡Tú puedes, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d día</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>los siguientes %d días</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para empezar, intenta ganar al menos {{goal_value:minutes}} minutos de Ejercicio al día. Luego regresa cada semana para ver un objetivo nuevo. Cumple tus objetivos para voltear la flecha en como %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d semana</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d semanas</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha apunta hacia abajo, pero estos días sigues ganando más minutos de Ejercicio. Haz al menos {{goal_value:minutes}} al día por los siguientes 30 días para voltear la flecha. ¡No pierdas ese ritmo!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Sigue ganando al menos {{goal_value:minutes}} minutos de Ejercicio al día para mantener esta flecha hacia arriba. ¡Vas muy bien!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta en la dirección correcta, {{username}}. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta hacia arriba. Asegúrate de hacer al menos {{goal_value:minutes}} minutos de Ejercicio al día para mantenerla así, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hacer una caminata rápida cada día pondrá tu flecha de minutos de Ejercicio en la dirección correcta. ¡Tú puedes, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio va bien. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha de Ejercicio apunta en la dirección correcta. Buen trabajo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para voltear esta flecha, logra un promedio de al menos {{goal_value:minutes}} minutos de Ejercicio por día durante los siguientes 14 días. Últimamente has estado ganando más minutos de Ejercicio, así que vas muy bien.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Esta es una flecha importante. Comienza con un promedio de al menos {{goal_value:minutes}} minutos de Ejercicio esta semana. Con un progreso constante, tu flecha debería voltearse en %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d semana</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d semanas</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hacer una caminata rápida cada día pondrá tu flecha de minutos de Ejercicio en la dirección correcta. ¡Tú puedes!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha apunta hacia arriba, pero tus minutos de Ejercicio van a la baja. ¡Intenta hacer una caminata rápida cada día para mantener tu flecha, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, si haces {{goal_value:minutes}} minutos de Ejercicio hoy, mañana esta flecha apuntará hacia arriba. ¡Échale ganas!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tu flecha apunta hacia arriba, pero tus minutos de Ejercicio van a la baja. ¡Intenta hacer una caminata rápida cada día para mantener tu flecha!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Sigue ganando al menos {{goal_value:minutes}} minutos de Ejercicio al día para mantener esta flecha hacia arriba. ¡Vas muy bien, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Para voltear esta flecha, logra un promedio de al menos {{goal_value:minutes}} minutos de Ejercicio por día durante los siguientes 30 días. Últimamente has estado ganando más minutos de Ejercicio, así que vas muy bien.</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ and a half inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d i pół cala</string>
+			<key>one</key>
+			<string>%d i pół cala</string>
+			<key>many</key>
+			<string>%d i pół cala</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d i pół cala</string>
+			<key>zero</key>
+			<string>pół cala</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d centymetry</string>
+			<key>one</key>
+			<string>%d centymetr</string>
+			<key>many</key>
+			<string>%d centymetrów</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d centymetra</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d cale</string>
+			<key>one</key>
+			<string>%d cal</string>
+			<key>many</key>
+			<string>%d cali</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d cala</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d stopy</string>
+			<key>one</key>
+			<string>%d stopa</string>
+			<key>many</key>
+			<string>%d stóp</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d stopy</string>
+		</dict>
+	</dict>
+	<key>%@ square centimeters</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d centymetry kwadratowe</string>
+			<key>one</key>
+			<string>%d centymetr kwadratowy</string>
+			<key>many</key>
+			<string>%d centymetrów kwadratowych</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d centymetra kwadratowego</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d cale</string>
+			<key>one</key>
+			<string>%d cal</string>
+			<key>many</key>
+			<string>%d cali</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d cala</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f metry</string>
+			<key>one</key>
+			<string>jeden metr</string>
+			<key>many</key>
+			<string>%.2f metrów</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f metra</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square feet (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f stopy kwadratowe</string>
+			<key>one</key>
+			<string>jedna stopa kwadratowa</string>
+			<key>many</key>
+			<string>%.2f stóp kwadratowych</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f stopy kwadratowej</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ centimeters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f centymetry</string>
+			<key>one</key>
+			<string>jeden centymetr</string>
+			<key>many</key>
+			<string>%.2f centymetrów</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f centymetra</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d stopy</string>
+			<key>one</key>
+			<string>%d stopa</string>
+			<key>many</key>
+			<string>%d stóp</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d stopy</string>
+		</dict>
+	</dict>
+	<key>%@ inches (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f cale</string>
+			<key>one</key>
+			<string>jeden cal</string>
+			<key>many</key>
+			<string>%.2f cali</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f cala</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ feet %@ inches (precise)</key>
+	<dict>
+		<key>inches</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f cale</string>
+			<key>one</key>
+			<string>jeden cal</string>
+			<key>many</key>
+			<string>%.2f cali</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f cala</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@feet@ %#@inches@</string>
+		<key>feet</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d stopy</string>
+			<key>one</key>
+			<string>%d stopa</string>
+			<key>many</key>
+			<string>%d stóp</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d stopy</string>
+		</dict>
+	</dict>
+	<key>%@ square inches</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d cale kwadratowe</string>
+			<key>one</key>
+			<string>%d cal kwadratowy</string>
+			<key>many</key>
+			<string>%d cali kwadratowych</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d cala kwadratowego</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+	<key>%@ square meters (precise)</key>
+	<dict>
+		<key>length</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%.2f metry kwadratowe</string>
+			<key>one</key>
+			<string>jeden metr kwadratowy</string>
+			<key>many</key>
+			<string>%.2f metrów kwadratowych</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>f</string>
+			<key>other</key>
+			<string>%.2f metra kwadratowego</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@length@</string>
+	</dict>
+</dict>
+</plist>

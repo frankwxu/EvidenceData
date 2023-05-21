@@ -1,0 +1,2480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about.copyright.title</key>
+	<string>© Wire Swiss GmbH</string>
+	<key>about.license.license_header</key>
+	<string>Crédits</string>
+	<key>about.license.open_project_button</key>
+	<string>Ouvrir la Page du Projet</string>
+	<key>about.license.project_header</key>
+	<string>Informations</string>
+	<key>about.license.title</key>
+	<string>Informations sur la licence</string>
+	<key>about.privacy.title</key>
+	<string>Politique de confidentialité</string>
+	<key>about.tos.title</key>
+	<string>Conditions d'utilisation</string>
+	<key>about.website.title</key>
+	<string>Site de Wire</string>
+	<key>account_deleted_session_expired_alert.message</key>
+	<string>L'application n'a pas communiqué avec le serveur depuis une longue période, ou votre session a été invalidée à distance.</string>
+	<key>account_deleted_session_expired_alert.title</key>
+	<string>Votre session a expiré</string>
+	<key>add_participants.alert.message.existing_conversation</key>
+	<string>Jusqu'à %1$d contacts peuvent participer à une conversation. Actuellement, %2$d contacts peuvent encore rejoindre cette conversation.</string>
+	<key>add_participants.alert.message.new_conversation</key>
+	<string>Jusqu'à %d contacts peuvent participer à une conversation.</string>
+	<key>add_participants.alert.title</key>
+	<string>Le groupe est complet</string>
+	<key>add_participants.all_contacts_added</key>
+	<string>Tout le monde est là.</string>
+	<key>archived_list.title</key>
+	<string>archives</string>
+	<key>availability.accessibility_label.change_status</key>
+	<string>Changer votre statut</string>
+	<key>availability.accessibility_label.status</key>
+	<string>Statut</string>
+	<key>availability.available</key>
+	<string>Disponible</string>
+	<key>availability.away</key>
+	<string>Absent(e)</string>
+	<key>availability.busy</key>
+	<string>Occupé(e)</string>
+	<key>availability.message.cancel</key>
+	<string>Annuler</string>
+	<key>availability.message.set_status</key>
+	<string>Définir un statut</string>
+	<key>availability.none</key>
+	<string>Aucun</string>
+	<key>availability.reminder.action.dont_remind_me</key>
+	<string>Ne Plus Afficher ce Message</string>
+	<key>availability.reminder.action.ok</key>
+	<string>OK</string>
+	<key>availability.reminder.available.message</key>
+	<string>Vos contacts vous verront comme Disponible. Vous recevrez des notifications pour les appels entrants et pour les messages selon les paramètres de notifications de chaque conversation.</string>
+	<key>availability.reminder.available.title</key>
+	<string>Vous êtes Disponible</string>
+	<key>availability.reminder.away.message</key>
+	<string>Vos contacts vous verront comme Absent. Vous ne recevrez de notification pour aucun appel ou message entrants.</string>
+	<key>availability.reminder.away.title</key>
+	<string>Vous êtes Absent</string>
+	<key>availability.reminder.busy.message</key>
+	<string>Vos contacts vous verront comme Occupé. Vous recevrez uniquement des notifications pour les mentions, les réponses et les appels dans les conversations qui ne sont pas mises en sourdine.</string>
+	<key>availability.reminder.busy.title</key>
+	<string>Vous êtes Occupé</string>
+	<key>availability.reminder.none.message</key>
+	<string>Vous recevrez des notifications pour les appels entrants et pour les messages selon les paramètres de notification dans chaque conversation.</string>
+	<key>availability.reminder.none.title</key>
+	<string>Aucun statut</string>
+	<key>call.actions.label.accept_call</key>
+	<string>Décrocher</string>
+	<key>call.actions.label.flip_camera</key>
+	<string>Inverser</string>
+	<key>call.actions.label.join_call</key>
+	<string>Rejoindre l'appel</string>
+	<key>call.actions.label.make_audio_call</key>
+	<string>Passer un appel audio</string>
+	<key>call.actions.label.make_video_call</key>
+	<string>Passer un appel vidéo</string>
+	<key>call.actions.label.minimize_call</key>
+	<string>Réduire l'appel</string>
+	<key>call.actions.label.reject_call</key>
+	<string>Refuser l'appel</string>
+	<key>call.actions.label.switch_to_back_camera</key>
+	<string>Utiliser la caméra arrière</string>
+	<key>call.actions.label.switch_to_front_camera</key>
+	<string>Utiliser la caméra avant</string>
+	<key>call.actions.label.terminate_call</key>
+	<string>Raccrocher</string>
+	<key>call.actions.label.toggle_mute_off</key>
+	<string>Micro</string>
+	<key>call.actions.label.toggle_mute_on</key>
+	<string>Sourdine</string>
+	<key>call.actions.label.toggle_speaker_off</key>
+	<string>Haut-Parleur</string>
+	<key>call.actions.label.toggle_speaker_on</key>
+	<string>Activer le haut-parleur</string>
+	<key>call.actions.label.toggle_video_off</key>
+	<string>Désactiver le mode vidéo</string>
+	<key>call.actions.label.toggle_video_on</key>
+	<string>Activer le mode vidéo</string>
+	<key>call.alert.ongoing.alert_title</key>
+	<string>Cela mettra fin à votre autre appel.</string>
+	<key>call.alert.ongoing.join.button</key>
+	<string>Répondre quand même</string>
+	<key>call.alert.ongoing.join.message</key>
+	<string>Un appel est en cours dans une autre conversation.
+Joindre cet appel raccrochera l'autre appel.</string>
+	<key>call.alert.ongoing.start.button</key>
+	<string>Appeler quand même</string>
+	<key>call.alert.ongoing.start.message</key>
+	<string>Un appel est en cours dans une autre conversation.
+Appeler ici raccrochera l'autre appel.</string>
+	<key>call.announcement.incoming</key>
+	<string>Appel entrant de %@</string>
+	<key>call.degraded.alert.action.continue</key>
+	<string>Appeler quand même</string>
+	<key>call.degraded.alert.message.self</key>
+	<string>Vous utilisez un nouvel appareil.</string>
+	<key>call.degraded.alert.message.unknown</key>
+	<string>Quelqu'un utilise un nouvel appareil.</string>
+	<key>call.degraded.alert.message.user</key>
+	<string>%@ utilise un nouvel appareil.</string>
+	<key>call.degraded.alert.title</key>
+	<string>Nouvel Appareil</string>
+	<key>call.participants.list.title</key>
+	<string>Participants</string>
+	<key>call.participants.show_all</key>
+	<string>Afficher tout le monde (%@)</string>
+	<key>call.status.connecting</key>
+	<string>Connexion…</string>
+	<key>call.status.constant_bitrate</key>
+	<string>Échantillonnage constant (CBR)</string>
+	<key>call.status.incoming</key>
+	<string>Appel…</string>
+	<key>call.status.incoming.user</key>
+	<string>%@ appelle…</string>
+	<key>call.status.outgoing</key>
+	<string>Sonnerie…</string>
+	<key>call.status.outgoing.user</key>
+	<string>Appel à %@…</string>
+	<key>call.status.reconnecting</key>
+	<string>Reconnexion …</string>
+	<key>call.status.terminating</key>
+	<string>Fin de l'appel…</string>
+	<key>call.video.paused</key>
+	<string>Vidéo en pause</string>
+	<key>call.video.too_many.alert.message</key>
+	<string>Les appels vidéo fonctionnent dans les groupes de 4 personnes maximum.</string>
+	<key>call.video.too_many.alert.title</key>
+	<string>Trop de participants pour un appel vidéo</string>
+	<key>calling.quality_survey.answer.1</key>
+	<string>Mauvaise</string>
+	<key>calling.quality_survey.answer.2</key>
+	<string>Médiocre</string>
+	<key>calling.quality_survey.answer.3</key>
+	<string>Correcte</string>
+	<key>calling.quality_survey.answer.4</key>
+	<string>Bonne</string>
+	<key>calling.quality_survey.answer.5</key>
+	<string>Excellente</string>
+	<key>calling.quality_survey.question</key>
+	<string>Comment qualifieriez-vous la qualité de votre appel ?</string>
+	<key>calling.quality_survey.skip_button_title</key>
+	<string>Décliner</string>
+	<key>calling.quality_survey.title</key>
+	<string>Enquête sur la qualité d'appel</string>
+	<key>camera_access.denied</key>
+	<string>Wire a besoin d’accéder à l'appareil photo.</string>
+	<key>camera_access.denied.instruction</key>
+	<string></string>
+	<key>camera_access.denied.open_settings</key>
+	<string>Autoriser l'accès dans les paramètres de Wire</string>
+	<key>camera_controls.aeaf_lock</key>
+	<string>Verrouillage AE/AF</string>
+	<key>collections.image_viewer.copied.title</key>
+	<string>Image copiée</string>
+	<key>collections.search.field.placeholder</key>
+	<string>Chercher dans les messages</string>
+	<key>collections.search.no_items</key>
+	<string>Aucun résultat</string>
+	<key>collections.section.all.button</key>
+	<string>Tout afficher %d →</string>
+	<key>collections.section.files.title</key>
+	<string>Fichiers</string>
+	<key>collections.section.images.title</key>
+	<string>Images</string>
+	<key>collections.section.links.title</key>
+	<string>Liens</string>
+	<key>collections.section.no_items</key>
+	<string>Aucun élément dans la collection</string>
+	<key>collections.section.videos.title</key>
+	<string>Vidéos</string>
+	<key>compose.contact.title</key>
+	<string>Conversation</string>
+	<key>compose.drafts.compose.delete.confirm.action.title</key>
+	<string>Supprimer</string>
+	<key>compose.drafts.compose.delete.confirm.message</key>
+	<string>Cette action supprimera définitivement ce brouillon et ne pourra pas être annulée.</string>
+	<key>compose.drafts.compose.delete.confirm.title</key>
+	<string>Confirmer la suppression</string>
+	<key>compose.drafts.compose.dismiss.confirm.action.title</key>
+	<string>Enregistrer</string>
+	<key>compose.drafts.compose.dismiss.confirm.title</key>
+	<string>Enregistrer le brouillon</string>
+	<key>compose.drafts.compose.dismiss.delete.action.title</key>
+	<string>Supprimer</string>
+	<key>compose.drafts.compose.subject.placeholder</key>
+	<string>Appuyez pour définir le sujet</string>
+	<key>compose.drafts.compose.title</key>
+	<string>Écrivez un message</string>
+	<key>compose.drafts.empty.subtitle</key>
+	<string>Appuyez sur + pour en rédiger un</string>
+	<key>compose.drafts.empty.title</key>
+	<string>Aucun message</string>
+	<key>compose.drafts.title</key>
+	<string>Messages</string>
+	<key>compose.message.title</key>
+	<string>Message</string>
+	<key>connection_request.send_button_title</key>
+	<string>Se connecter</string>
+	<key>connection_request.title</key>
+	<string>Se connecter à %@</string>
+	<key>connection_request_pending_title</key>
+	<string>Demande de Connexion</string>
+	<key>contacts_ui.action_button.invite</key>
+	<string>Inviter</string>
+	<key>contacts_ui.action_button.open</key>
+	<string>Ouvrir</string>
+	<key>contacts_ui.connection_request</key>
+	<string>A demandé à se connecter</string>
+	<key>contacts_ui.invite_others</key>
+	<string>Invitez d’autres personnes</string>
+	<key>contacts_ui.invite_sheet.cancel_button_title</key>
+	<string>Annuler</string>
+	<key>contacts_ui.name_in_contacts</key>
+	<string>%@ dans les contacts</string>
+	<key>contacts_ui.notification.invitation_failed</key>
+	<string>Échec de l'envoi de l'invitation</string>
+	<key>contacts_ui.notification.invitation_sent</key>
+	<string>Invitation envoyée</string>
+	<key>contacts_ui.search_placeholder</key>
+	<string>Cherchez par nom</string>
+	<key>contacts_ui.title</key>
+	<string>Inviter des contacts</string>
+	<key>content.file.browse</key>
+	<string>Parcourir</string>
+	<key>content.file.downloading</key>
+	<string>Téléchargement en cours…</string>
+	<key>content.file.save_audio</key>
+	<string>Enregistrer</string>
+	<key>content.file.save_video</key>
+	<string>Enregistrer</string>
+	<key>content.file.take_video</key>
+	<string>Enregistrer une vidéo</string>
+	<key>content.file.too_big</key>
+	<string>Vous pouvez envoyer des fichiers jusqu'à %@</string>
+	<key>content.file.upload_cancelled</key>
+	<string>Envoi annulé</string>
+	<key>content.file.upload_failed</key>
+	<string>Échec de l'envoi</string>
+	<key>content.file.upload_video</key>
+	<string>Vidéos</string>
+	<key>content.file.uploading</key>
+	<string>Envoi en cours…</string>
+	<key>content.image.save_image</key>
+	<string>Enregistrer</string>
+	<key>content.message.audio_message.accessibility</key>
+	<string>Écouter le message audio</string>
+	<key>content.message.copy</key>
+	<string>Copier</string>
+	<key>content.message.delete</key>
+	<string>Supprimer</string>
+	<key>content.message.delete_ellipsis</key>
+	<string>Supprimer…</string>
+	<key>content.message.details</key>
+	<string>Informations</string>
+	<key>content.message.download</key>
+	<string>Télécharger</string>
+	<key>content.message.forward</key>
+	<string>Partager</string>
+	<key>content.message.forward.to</key>
+	<string>Rechercher…</string>
+	<key>content.message.go_to_conversation</key>
+	<string>Montrer</string>
+	<key>content.message.like</key>
+	<string>J'aime</string>
+	<key>content.message.link_attachment.accessibility_label.soundcloud_set</key>
+	<string>Aperçu d'une playlist SoundCloud</string>
+	<key>content.message.link_attachment.accessibility_label.soundcloud_song</key>
+	<string>Aperçu d'une chanson SoundCloud</string>
+	<key>content.message.link_attachment.accessibility_label.youtube</key>
+	<string>Aperçu d'une vidéo YouTube</string>
+	<key>content.message.open</key>
+	<string>Ouvrir</string>
+	<key>content.message.open_link_alert.message</key>
+	<string>Vous allez être redirigé vers
+%@</string>
+	<key>content.message.open_link_alert.open</key>
+	<string>Ouvrir</string>
+	<key>content.message.open_link_alert.title</key>
+	<string>Ouvrir le lien</string>
+	<key>content.message.original_label</key>
+	<string>Message initial</string>
+	<key>content.message.reply</key>
+	<string>Répondre</string>
+	<key>content.message.reply.broken_message</key>
+	<string>Vous ne pouvez pas voir ce message.</string>
+	<key>content.message.reply.edited_message</key>
+	<string>Modifié</string>
+	<key>content.message.reply.original_timestamp.date</key>
+	<string>Message initial envoyé le %@</string>
+	<key>content.message.reply.original_timestamp.time</key>
+	<string>Message initial envoyé à %@</string>
+	<key>content.message.resend</key>
+	<string>Renvoyer</string>
+	<key>content.message.save</key>
+	<string>Enregistrer</string>
+	<key>content.message.unlike</key>
+	<string>Je n'aime plus</string>
+	<key>content.ping.text</key>
+	<string>%@ a fait un signe</string>
+	<key>content.ping.text-you</key>
+	<string>%@ a fait un signe</string>
+	<key>content.ping.text.you</key>
+	<string>Vous</string>
+	<key>content.player.unable_to_play</key>
+	<string>IMPOSSIBLE DE JOUER LA PLAGE AUDIO</string>
+	<key>content.reactions_list.likers</key>
+	<string>Aimé par</string>
+	<key>content.system.and_you_dative</key>
+	<string>et vous</string>
+	<key>content.system.call.called</key>
+	<string>%@ a appelé</string>
+	<key>content.system.call.called-you</key>
+	<string>%@ avez appelé</string>
+	<key>content.system.call.called.you</key>
+	<string>Vous</string>
+	<key>content.system.call.missed-call</key>
+	<string>Appel manqué</string>
+	<key>content.system.call.missed-call-you</key>
+	<string>Appel manqué</string>
+	<key>content.system.call.missed-call.groups</key>
+	<string>Appel manqué de %@</string>
+	<key>content.system.call.missed-call.groups-you</key>
+	<string>Appel manqué de %2$@</string>
+	<key>content.system.call.missed-call.groups.you</key>
+	<string>Vous</string>
+	<key>content.system.cannot_decrypt</key>
+	<string>Un message de %@ n’a pas été reçu.</string>
+	<key>content.system.cannot_decrypt.identity</key>
+	<string>L'identité de l'appareil %@ a changé. Message non distribué.</string>
+	<key>content.system.cannot_decrypt.identity.otherUser_part</key>
+	<string>de %@</string>
+	<key>content.system.cannot_decrypt.identity.why_part</key>
+	<string>En savoir plus</string>
+	<key>content.system.cannot_decrypt.identity.you_part</key>
+	<string>Votre</string>
+	<key>content.system.cannot_decrypt.otherDevice_part</key>
+	<string>(appareil %@)</string>
+	<key>content.system.cannot_decrypt.why_part</key>
+	<string>Pourquoi ?</string>
+	<key>content.system.cannot_decrypt.you_part</key>
+	<string>vous</string>
+	<key>content.system.connected_to</key>
+	<string>Connecté à %@. 
+Commencer une conversation</string>
+	<key>content.system.connecting_to</key>
+	<string>Connexion à %@. 
+Commencer une conversation</string>
+	<key>content.system.continued_conversation</key>
+	<string>Commencer une conversation avec %@</string>
+	<key>content.system.conversation.guest.joined</key>
+	<string>%@ a rejoint la conversation</string>
+	<key>content.system.conversation.invite.button</key>
+	<string>Inviter des contacts</string>
+	<key>content.system.conversation.invite.title</key>
+	<string>Des services et contacts externes à votre équipe peuvent rejoindre la conversation.</string>
+	<key>content.system.conversation.other.added</key>
+	<string>%@ a ajouté %@</string>
+	<key>content.system.conversation.other.left</key>
+	<string>%@ est parti</string>
+	<key>content.system.conversation.other.removed</key>
+	<string>%@ a exclu %@</string>
+	<key>content.system.conversation.other.started</key>
+	<string>%@ a commencé une conversation avec %@</string>
+	<key>content.system.conversation.team.member-leave</key>
+	<string>%@ a été exclu de l'équipe.</string>
+	<key>content.system.conversation.with_name.participants</key>
+	<string>avec</string>
+	<key>content.system.conversation.with_name.title</key>
+	<string>%@ a débuté une conversation</string>
+	<key>content.system.conversation.with_name.title-you</key>
+	<string>%@ a débuté une conversation</string>
+	<key>content.system.conversation.you.added</key>
+	<string>%@ avez ajouté %@</string>
+	<key>content.system.conversation.you.left</key>
+	<string>%@ êtes parti</string>
+	<key>content.system.conversation.you.removed</key>
+	<string>%@ avez exclu %@</string>
+	<key>content.system.conversation.you.started</key>
+	<string>%@ avez commencé une conversation avec %@</string>
+	<key>content.system.deleted_message_prefix_timestamp</key>
+	<string>Supprimé : %@</string>
+	<key>content.system.edited_message_prefix_timestamp</key>
+	<string>Modifié : %@</string>
+	<key>content.system.ephemeral_time_remaining</key>
+	<string>%@ restantes</string>
+	<key>content.system.failedtosend_message_timestamp</key>
+	<string>L'envoi a échoué.</string>
+	<key>content.system.failedtosend_message_timestamp_delete</key>
+	<string>Supprimer</string>
+	<key>content.system.failedtosend_message_timestamp_resend</key>
+	<string>Renvoyer</string>
+	<key>content.system.is_verified</key>
+	<string>Toutes les empreintes numériques sont vérifiées</string>
+	<key>content.system.like_tooltip</key>
+	<string>Appuyez pour aimer</string>
+	<key>content.system.message_delivered_timestamp</key>
+	<string>Distribué</string>
+	<key>content.system.message_legal_hold.disabled</key>
+	<string>Conservation à des fins juridiques désactivée</string>
+	<key>content.system.message_legal_hold.enabled</key>
+	<string>La conservation à des fins juridiques est active</string>
+	<key>content.system.message_legal_hold.learn_more</key>
+	<string>En savoir plus</string>
+	<key>content.system.message_read_receipt_off</key>
+	<string>%@ a désactivé les accusés de lecture pour tout le monde</string>
+	<key>content.system.message_read_receipt_off-you</key>
+	<string>%@ a désactivé les accusés de lecture pour tout le monde</string>
+	<key>content.system.message_read_receipt_on</key>
+	<string>%@ a activé les accusés de lecture pour tout le monde</string>
+	<key>content.system.message_read_receipt_on-you</key>
+	<string>%@ a activé les accusés de lecture pour tout le monde</string>
+	<key>content.system.message_read_receipt_on_add_to_group</key>
+	<string>Les accusés de lecture son activés</string>
+	<key>content.system.message_read_timestamp</key>
+	<string>Vu</string>
+	<key>content.system.message_sent_timestamp</key>
+	<string>Envoyé</string>
+	<key>content.system.message_timer_changes</key>
+	<string>%@ a réglé la minuterie sur %@</string>
+	<key>content.system.message_timer_changes-you</key>
+	<string>%@ a réglé la minuterie sur %@</string>
+	<key>content.system.message_timer_off</key>
+	<string>%@ a désactivé les messages éphémères</string>
+	<key>content.system.message_timer_off-you</key>
+	<string>%@ a désactivé les messages éphémères</string>
+	<key>content.system.missing_messages.subtitle_start</key>
+	<string>Pendant ce temps,</string>
+	<key>content.system.missing_messages.title</key>
+	<string>Vous n’avez pas utilisé cet appareil depuis un moment. Il est possible que certains messages n’apparaissent pas ici.</string>
+	<key>content.system.new_device</key>
+	<string>un nouvel appareil</string>
+	<key>content.system.new_users</key>
+	<string>Un nouvel utilisateur est arrivé.</string>
+	<key>content.system.other_added_participant</key>
+	<string>%@ a ajouté %@</string>
+	<key>content.system.other_added_you</key>
+	<string>%@ vous a ajouté</string>
+	<key>content.system.other_devices</key>
+	<string>des appareils de %@</string>
+	<key>content.system.other_left</key>
+	<string>%@ est parti</string>
+	<key>content.system.other_removed_other</key>
+	<string>%@ a exclu %@</string>
+	<key>content.system.other_removed_you</key>
+	<string>%@ vous a exclu</string>
+	<key>content.system.other_renamed_conv_to_nothing</key>
+	<string>%@ a supprimé le nom de la conversation</string>
+	<key>content.system.other_started_conversation</key>
+	<string>%@ a commencé une conversation avec %@</string>
+	<key>content.system.other_wanted_to_talk</key>
+	<string>%@ a appelé</string>
+	<key>content.system.participants_1_other</key>
+	<string>%@ et %@</string>
+	<key>content.system.participants_you</key>
+	<string>Vous</string>
+	<key>content.system.pending_message_timestamp</key>
+	<string>Envoi…</string>
+	<key>content.system.reactivated_device</key>
+	<string>Vous avez recommencé à utiliser %@. Les messages envoyés entre-temps n’apparaîtront pas ici.</string>
+	<key>content.system.renamed_conv.title</key>
+	<string>%@ a renommé la conversation</string>
+	<key>content.system.renamed_conv.title-you</key>
+	<string>%@ avez renommé la conversation</string>
+	<key>content.system.renamed_conv.title.you</key>
+	<string>Vous</string>
+	<key>content.system.services.warning</key>
+	<string>Les services ont accès au contenu de la conversation</string>
+	<key>content.system.started_conversation.complete_team</key>
+	<string>tous les membres de l'équipe</string>
+	<key>content.system.started_conversation.complete_team.guests</key>
+	<string>tous les membres de l'équipe et %@ contacts externes</string>
+	<key>content.system.started_conversation.truncated_people</key>
+	<string>et %@</string>
+	<key>content.system.started_conversation.truncated_people.others</key>
+	<string>%@ autres</string>
+	<key>content.system.started_using</key>
+	<string>utilise</string>
+	<key>content.system.this_device</key>
+	<string>cet appareil</string>
+	<key>content.system.unknown_message.body</key>
+	<string>Impossible d’afficher ce message. Vous utilisez peut-être une version trop ancienne de Wire.</string>
+	<key>content.system.unverified</key>
+	<string>%@ a annulé la vérification d'un %@</string>
+	<key>content.system.verify_devices</key>
+	<string>Vérifier les appareils</string>
+	<key>content.system.you_accusative</key>
+	<string>vous</string>
+	<key>content.system.you_added_participant</key>
+	<string>Vous avez ajouté %@</string>
+	<key>content.system.you_dative</key>
+	<string>vous</string>
+	<key>content.system.you_left</key>
+	<string>Vous êtes parti</string>
+	<key>content.system.you_nominative</key>
+	<string>vous</string>
+	<key>content.system.you_removed_other</key>
+	<string>Vous avez exclu %@</string>
+	<key>content.system.you_renamed_conv_to_nothing</key>
+	<string>Vous avez supprimé le nom de la conversation</string>
+	<key>content.system.you_started</key>
+	<string>Vous</string>
+	<key>content.system.you_started_conversation</key>
+	<string>Vous avez commencé une conversation avec %@</string>
+	<key>content.system.you_wanted_to_talk</key>
+	<string>Vous avez appelé</string>
+	<key>content.system.your_devices</key>
+	<string>de vos appareils</string>
+	<key>conversation.action.search</key>
+	<string>Chercher</string>
+	<key>conversation.alert.message_deleted</key>
+	<string>Le message est supprimé.</string>
+	<key>conversation.call.many_participants_confirmation.call</key>
+	<string>Appel</string>
+	<key>conversation.call.many_participants_confirmation.message</key>
+	<string>Cela appellera %d contacts</string>
+	<key>conversation.call.many_participants_confirmation.title</key>
+	<string>Démarrer un appel</string>
+	<key>conversation.connection_view.in_address_book</key>
+	<string>dans les contacts</string>
+	<key>conversation.create.group_name.placeholder</key>
+	<string>Nom du groupe</string>
+	<key>conversation.create.group_name.title</key>
+	<string>Créer un groupe</string>
+	<key>conversation.create.guests.subtitle</key>
+	<string>Rendre cette conversation accessible à des services et contacts externes à votre équipe.</string>
+	<key>conversation.create.guests.title</key>
+	<string>Autoriser les contacts externes et les services</string>
+	<key>conversation.create.guidance.empty</key>
+	<string>Au moins un caractère</string>
+	<key>conversation.create.guidance.toolong</key>
+	<string>Trop de caractères</string>
+	<key>conversation.create.options.subtitle</key>
+	<string>Contacts externes et services : %@, Accusés de lecture : %@</string>
+	<key>conversation.create.options.title</key>
+	<string>Options</string>
+	<key>conversation.create.receipts.subtitle</key>
+	<string>Quand cette option est activée, les participants peuvent voir quand leurs messages ont été lus dans cette conversation.</string>
+	<key>conversation.create.receipts.title</key>
+	<string>Accusés de lecture</string>
+	<key>conversation.delete_request_dialog.message</key>
+	<string>Ceci supprimera le groupe et tout son contenu pour tous les participants sur tous les appareils. Il n'y a aucune option pour restaurer le contenu. Tous les participants seront notifiés.</string>
+	<key>conversation.delete_request_dialog.title</key>
+	<string>Supprimer la conversation de groupe?</string>
+	<key>conversation.delete_request_error_dialog.button_delete_group</key>
+	<string>Supprimer le groupe</string>
+	<key>conversation.delete_request_error_dialog.title</key>
+	<string>Une erreur s'est produite lors de la suppression du groupe %@. Veuillez réessayer.</string>
+	<key>conversation.displayname.emptygroup</key>
+	<string>Conversation de groupe vide</string>
+	<key>conversation.guests_present</key>
+	<string>Des contacts externes sont présents</string>
+	<key>conversation.guests_services_present</key>
+	<string>Des contacts externes et des services sont présents</string>
+	<key>conversation.input_bar.audio_message.keyboard.filter_tip</key>
+	<string>Choisissez un filtre ci-dessus</string>
+	<key>conversation.input_bar.audio_message.keyboard.record_tip</key>
+	<string>Appuyez pour enregistrer
+Vous pouvez l'%@ après cela</string>
+	<key>conversation.input_bar.audio_message.send</key>
+	<string>Envoyer</string>
+	<key>conversation.input_bar.audio_message.too_long.message</key>
+	<string>Les messages audio sont limités à %@.</string>
+	<key>conversation.input_bar.audio_message.too_long.title</key>
+	<string>Enregistrement arrêté</string>
+	<key>conversation.input_bar.audio_message.too_long_size.message</key>
+	<string>La taille des messages audio est limitée à %@.</string>
+	<key>conversation.input_bar.audio_message.tooltip.pull_send</key>
+	<string>Balayez vers le haut pour envoyer</string>
+	<key>conversation.input_bar.audio_message.tooltip.tap_send</key>
+	<string>Appuyez pour envoyer</string>
+	<key>conversation.input_bar.close_reply</key>
+	<string>Annuler la réponse</string>
+	<key>conversation.input_bar.message_preview.accessibility.audio_message</key>
+	<string>Message vocal</string>
+	<key>conversation.input_bar.message_preview.accessibility.file_message</key>
+	<string>Message avec fichier (%@)</string>
+	<key>conversation.input_bar.message_preview.accessibility.image_message</key>
+	<string>Image</string>
+	<key>conversation.input_bar.message_preview.accessibility.location_message</key>
+	<string>Position</string>
+	<key>conversation.input_bar.message_preview.accessibility.message_from</key>
+	<string>%@ de %@</string>
+	<key>conversation.input_bar.message_preview.accessibility.unknown_message</key>
+	<string>Message inconnu</string>
+	<key>conversation.input_bar.message_preview.accessibility.video_message</key>
+	<string>Message vidéo</string>
+	<key>conversation.input_bar.message_preview.accessibility_description</key>
+	<string>Répond au message : %@</string>
+	<key>conversation.input_bar.message_preview.audio</key>
+	<string>Message vocal</string>
+	<key>conversation.input_bar.message_preview.file</key>
+	<string>Fichier</string>
+	<key>conversation.input_bar.message_preview.image</key>
+	<string>Image</string>
+	<key>conversation.input_bar.message_preview.location</key>
+	<string>Position</string>
+	<key>conversation.input_bar.message_preview.video</key>
+	<string>Vidéo</string>
+	<key>conversation.input_bar.message_too_long.message</key>
+	<string>Vous pouvez envoyer des messages de %d caractères maximum.</string>
+	<key>conversation.input_bar.message_too_long.title</key>
+	<string>Message trop long</string>
+	<key>conversation.input_bar.ongoing_call_alert.audio.message</key>
+	<string>Vous ne pouvez pas enregistrer de message audio pendant un appel.</string>
+	<key>conversation.input_bar.ongoing_call_alert.photo.message</key>
+	<string>Vous ne pouvez pas prendre de photos pendant un appel.</string>
+	<key>conversation.input_bar.ongoing_call_alert.title</key>
+	<string>Appel en cours</string>
+	<key>conversation.input_bar.ongoing_call_alert.video.message</key>
+	<string>Vous ne pouvez pas enregistrer de vidéo pendant un appel.</string>
+	<key>conversation.input_bar.placeholder</key>
+	<string>Écrivez un message</string>
+	<key>conversation.input_bar.placeholder_ephemeral</key>
+	<string>Message éphémère</string>
+	<key>conversation.input_bar.shortcut.cancel_editing_message</key>
+	<string>Annuler</string>
+	<key>conversation.input_bar.shortcut.edit_last_message</key>
+	<string>Modifier le dernier message</string>
+	<key>conversation.input_bar.shortcut.newline</key>
+	<string>Nouvelle ligne</string>
+	<key>conversation.input_bar.shortcut.send</key>
+	<string>Envoyer un message</string>
+	<key>conversation.input_bar.verified</key>
+	<string>Vérifié</string>
+	<key>conversation.invite_more_people.button_title</key>
+	<string>Ajouter des contacts</string>
+	<key>conversation.invite_more_people.description</key>
+	<string>Ajoutez quelqu'un à la conversation</string>
+	<key>conversation.invite_more_people.explanation_url</key>
+	<string>https://support.wire.com</string>
+	<key>conversation.invite_more_people.title</key>
+	<string>Faîtes passer le mot !</string>
+	<key>conversation.services_present</key>
+	<string>Les services sont actifs</string>
+	<key>conversation.status.blocked</key>
+	<string>Bloqué</string>
+	<key>conversation.status.incoming_call</key>
+	<string>%@ appelle…</string>
+	<key>conversation.status.incoming_call.unknown</key>
+	<string>Quelqu'un appelle…</string>
+	<key>conversation.status.message.audio</key>
+	<string>A partagé un message vocal</string>
+	<key>conversation.status.message.ephemeral</key>
+	<string>A envoyé un message</string>
+	<key>conversation.status.message.ephemeral.group</key>
+	<string>Quelqu'un a envoyé un message</string>
+	<key>conversation.status.message.ephemeral.knock</key>
+	<string>A fait un signe</string>
+	<key>conversation.status.message.ephemeral.knock.group</key>
+	<string>Quelqu'un a envoyé un ping</string>
+	<key>conversation.status.message.ephemeral.mention</key>
+	<string>Vous a mentionné</string>
+	<key>conversation.status.message.ephemeral.mention.group</key>
+	<string>Quelqu'un vous a mentionné</string>
+	<key>conversation.status.message.ephemeral.reply</key>
+	<string>A répondu à votre message</string>
+	<key>conversation.status.message.ephemeral.reply.group</key>
+	<string>Quelqu'un a répondu à votre message</string>
+	<key>conversation.status.message.file</key>
+	<string>A partagé un fichier</string>
+	<key>conversation.status.message.image</key>
+	<string>A partagé une image</string>
+	<key>conversation.status.message.knock</key>
+	<string>A fait un signe</string>
+	<key>conversation.status.message.link</key>
+	<string>A partagé un lien</string>
+	<key>conversation.status.message.location</key>
+	<string>A partagé une position</string>
+	<key>conversation.status.message.mention</key>
+	<string>%@</string>
+	<key>conversation.status.message.missedcall</key>
+	<string>Appel manqué</string>
+	<key>conversation.status.message.missedcall.groups</key>
+	<string>Appel manqué de %@</string>
+	<key>conversation.status.message.reply</key>
+	<string>%@</string>
+	<key>conversation.status.message.text</key>
+	<string>%@</string>
+	<key>conversation.status.message.video</key>
+	<string>A partagé une vidéo</string>
+	<key>conversation.status.poor_connection</key>
+	<string>Mauvaise connexion</string>
+	<key>conversation.status.silenced</key>
+	<string>En sourdine</string>
+	<key>conversation.status.someone</key>
+	<string>Quelqu’un</string>
+	<key>conversation.status.started_conversation</key>
+	<string>%@ a commencé une conversation</string>
+	<key>conversation.status.typing</key>
+	<string>Écrit un message…</string>
+	<key>conversation.status.typing.group</key>
+	<string>%@ : tape un message…</string>
+	<key>conversation.status.unsent</key>
+	<string>⚠️ Message non envoyé</string>
+	<key>conversation.status.you</key>
+	<string>Vous</string>
+	<key>conversation.status.you_left</key>
+	<string>Vous êtes parti</string>
+	<key>conversation.status.you_was_added</key>
+	<string>%@ vous a ajouté</string>
+	<key>conversation.status.you_were_removed</key>
+	<string>Vous avez été exclu</string>
+	<key>conversation.voiceover.legalhold</key>
+	<string>conservation à des fins juridique</string>
+	<key>conversation.voiceover.value.active</key>
+	<string>active</string>
+	<key>conversation.voiceover.value.disabled</key>
+	<string>désactivée</string>
+	<key>conversation.voiceover.verified</key>
+	<string>vérifié</string>
+	<key>conversation_details.open_button.accessibility_hint</key>
+	<string>Toucher 2 fois pour afficher les détails de la conversation.</string>
+	<key>conversation_list.data_usage_permission_alert.agree</key>
+	<string>J'accepte</string>
+	<key>conversation_list.data_usage_permission_alert.disagree</key>
+	<string>Non</string>
+	<key>conversation_list.data_usage_permission_alert.message</key>
+	<string>Wire peut créer et utiliser des rapports d'utilisation et d'erreurs anonymes afin d'améliorer l'application. Vous pouvez révoquer votre autorisation à tout moment.</string>
+	<key>conversation_list.data_usage_permission_alert.title</key>
+	<string>Aidez-nous à améliorer Wire</string>
+	<key>conversation_list.empty.all_archived.message</key>
+	<string>Tout a été archivé</string>
+	<key>conversation_list.empty.no_contacts.message</key>
+	<string>Commencez une conversation ou créez un groupe.</string>
+	<key>conversation_list.header.self_team.accessibility_value</key>
+	<string>Compte de %@.</string>
+	<key>conversation_list.header.self_team.accessibility_value.active</key>
+	<string>Actif.</string>
+	<key>conversation_list.header.self_team.accessibility_value.has_new_messages</key>
+	<string>Nouveaux messages.</string>
+	<key>conversation_list.header.self_team.accessibility_value.inactive</key>
+	<string>Appuyez pour activer.</string>
+	<key>conversation_list.right_accessory.join_button.title</key>
+	<string>Rejoindre</string>
+	<key>conversation_list.voiceover.bottom_bar.archived_button.hint</key>
+	<string>liste des conversations archivées</string>
+	<key>conversation_list.voiceover.bottom_bar.archived_button.label</key>
+	<string>archivé</string>
+	<key>conversation_list.voiceover.bottom_bar.camera_button.hint</key>
+	<string>prendre une photo et l'envoyer rapidement</string>
+	<key>conversation_list.voiceover.bottom_bar.camera_button.label</key>
+	<string>appareil photo</string>
+	<key>conversation_list.voiceover.bottom_bar.compose_button.hint</key>
+	<string>composer des messages et les enregistrer pour plus tard</string>
+	<key>conversation_list.voiceover.bottom_bar.compose_button.label</key>
+	<string>composer</string>
+	<key>conversation_list.voiceover.bottom_bar.contacts_button.hint</key>
+	<string>rechercher des contacts sur Wire</string>
+	<key>conversation_list.voiceover.bottom_bar.contacts_button.label</key>
+	<string>contacts</string>
+	<key>conversation_list.voiceover.bottom_bar.folder_button.hint</key>
+	<string>liste des conversations organisées en dossiers</string>
+	<key>conversation_list.voiceover.bottom_bar.folder_button.label</key>
+	<string>dossier</string>
+	<key>conversation_list.voiceover.bottom_bar.recent_button.hint</key>
+	<string>liste des conversations récentes</string>
+	<key>conversation_list.voiceover.bottom_bar.recent_button.label</key>
+	<string>récent</string>
+	<key>conversation_list.voiceover.open_conversation.hint</key>
+	<string>Ouvrir la conversation</string>
+	<key>conversation_list.voiceover.status.active_call</key>
+	<string>appel en cours</string>
+	<key>conversation_list.voiceover.status.mention</key>
+	<string>vous avez été mentionné</string>
+	<key>conversation_list.voiceover.status.missed_call</key>
+	<string>appel manqué</string>
+	<key>conversation_list.voiceover.status.pause_media</key>
+	<string>mettre le média en pause</string>
+	<key>conversation_list.voiceover.status.pending_connection</key>
+	<string>en attente</string>
+	<key>conversation_list.voiceover.status.ping</key>
+	<string>fait un signe</string>
+	<key>conversation_list.voiceover.status.play_media</key>
+	<string>lire le média</string>
+	<key>conversation_list.voiceover.status.reply</key>
+	<string>réponse</string>
+	<key>conversation_list.voiceover.status.silenced</key>
+	<string>silencieux</string>
+	<key>conversation_list.voiceover.status.typing</key>
+	<string>écrit</string>
+	<key>conversation_list.voiceover.unread_messages.hint</key>
+	<string>Vous avez des messages non lus.</string>
+	<key>device.class.desktop</key>
+	<string>Ordinateur</string>
+	<key>device.class.legalhold</key>
+	<string>Conservation à des fins juridiques</string>
+	<key>device.class.phone</key>
+	<string>Téléphone</string>
+	<key>device.class.tablet</key>
+	<string>Tablette</string>
+	<key>device.class.unknown</key>
+	<string>Inconnu</string>
+	<key>device.not_verified</key>
+	<string>Non vérifié</string>
+	<key>device.type.legalhold</key>
+	<string>Conservation à des fins juridiques</string>
+	<key>device.type.permanent</key>
+	<string>Permanent</string>
+	<key>device.type.temporary</key>
+	<string>Temporaire</string>
+	<key>device.type.unknown</key>
+	<string>Inconnu</string>
+	<key>device.verified</key>
+	<string>Vérifié</string>
+	<key>email.guidance.invalid</key>
+	<string>Adresse e-mail invalide</string>
+	<key>email.guidance.toolong</key>
+	<string>Trop de caractères</string>
+	<key>email.guidance.tooshort</key>
+	<string>L'adresse e-mail est trop courte</string>
+	<key>email.placeholder</key>
+	<string>E-mail</string>
+	<key>error.call.general</key>
+	<string>Veuillez renouveler votre appel dans quelques minutes.</string>
+	<key>error.call.general.title</key>
+	<string>Erreur d’appel</string>
+	<key>error.call.gsm_ongoing</key>
+	<string>Veuillez annuler l’appel mobile avant d’appeler sur Wire.</string>
+	<key>error.call.gsm_ongoing.title</key>
+	<string>Appel mobile</string>
+	<key>error.call.slow_connection</key>
+	<string>Vous pourriez avoir des problèmes pendant l'appel</string>
+	<key>error.call.slow_connection.call_anyway</key>
+	<string>Appeler quand même</string>
+	<key>error.call.slow_connection.title</key>
+	<string>Connexion lente</string>
+	<key>error.conversation.cannot_add</key>
+	<string>Le participant n'a pas pu être ajouté</string>
+	<key>error.conversation.cannot_remove</key>
+	<string>Le participant n'a pas pu être retiré</string>
+	<key>error.conversation.offline</key>
+	<string>Il semble y avoir un problème avec votre connexion Internet. Merci de vous assurer de son bon fonctionnement.</string>
+	<key>error.conversation.title</key>
+	<string>Erreur</string>
+	<key>error.conversation.too_many_members</key>
+	<string>Cette conversation est saturée</string>
+	<key>error.email</key>
+	<string>Veuillez saisir une adresse e-mail valide</string>
+	<key>error.email.invalid</key>
+	<string>Veuillez saisir une adresse e-mail valide</string>
+	<key>error.full_name</key>
+	<string>Veuillez saisir votre nom complet</string>
+	<key>error.group_call.too_many_members_in_conversation</key>
+	<string>Les appels fonctionnent dans des conversations avec %d participants ou moins.</string>
+	<key>error.group_call.too_many_members_in_conversation.title</key>
+	<string>Trop de participants pour un appel</string>
+	<key>error.group_call.too_many_participants_in_the_call</key>
+	<string>Il n'y a de la place que pour %d participants ici.</string>
+	<key>error.group_call.too_many_participants_in_the_call.title</key>
+	<string>L'appel est complet</string>
+	<key>error.input.too_long</key>
+	<string>Saisie trop longue</string>
+	<key>error.input.too_short</key>
+	<string>Saisie trop courte</string>
+	<key>error.invite.no_email_provider</key>
+	<string>Veuillez configurer votre client de messagerie pour pouvoir envoyer les invitations par e-mail</string>
+	<key>error.invite.no_messaging_provider</key>
+	<string>Veuillez configurer vos SMS pour pouvoir envoyer les invitations par SMS</string>
+	<key>error.name_and_email</key>
+	<string>Veuillez saisir votre nom complet ainsi qu'une adresse e-mail valide</string>
+	<key>error.phone.invalid</key>
+	<string>Veuillez saisir un numéro de téléphone valide</string>
+	<key>error.updating_password</key>
+	<string>Nous n’avons pas pu mettre à jour votre mot de passe.</string>
+	<key>error.user.account_limit_reached</key>
+	<string>Vous ne pouvez pas ajouter plus de 3 comptes.</string>
+	<key>error.user.account_pending_activation</key>
+	<string>Le compte auquel vous tentez d’accéder est en attente d’activation. Merci de vérifier vos informations.</string>
+	<key>error.user.account_suspended</key>
+	<string>Ce compte n'est plus autorisé à se connecter.</string>
+	<key>error.user.device_deleted_remotely</key>
+	<string>Vous avez été déconnecté depuis un autre appareil.</string>
+	<key>error.user.email_is_taken</key>
+	<string>L'adresse e-mail fournie a déjà été enregistrée. Veuillez réessayer.</string>
+	<key>error.user.invalid_credentials</key>
+	<string>Veuillez vérifier vos informations et réessayez.</string>
+	<key>error.user.last_identity_cant_be_deleted</key>
+	<string>Une adresse e-mail ou un numéro de téléphone est nécessaire.</string>
+	<key>error.user.needs_credentials</key>
+	<string>Veuillez vérifier vos informations et réessayez.</string>
+	<key>error.user.network_error</key>
+	<string>Il semble y avoir un problème avec votre réseau. Veuillez réessayer ultérieurement.</string>
+	<key>error.user.phone_code_invalid</key>
+	<string>Veuillez fournir un code valide</string>
+	<key>error.user.phone_code_too_many</key>
+	<string>Nous vous avons déjà envoyé un code par SMS. Appuyez sur renvoyer après 10 minutes pour en obtenir un autre.</string>
+	<key>error.user.phone_is_taken</key>
+	<string>Le numéro de téléphone que vous avez fourni est déjà enregistré. Veuillez réessayer.</string>
+	<key>error.user.registration_unknown_error</key>
+	<string>Une erreur s'est produite. Veuillez réessayer.</string>
+	<key>error.user.unkown_error</key>
+	<string>Une erreur s'est produite, veuillez réessayer</string>
+	<key>folder.creation.name.button.create</key>
+	<string>Créer</string>
+	<key>folder.creation.name.footer</key>
+	<string>64 caractères maximum</string>
+	<key>folder.creation.name.header</key>
+	<string>Déplacer la conversation "%@" vers un nouveau dossier.</string>
+	<key>folder.creation.name.placeholder</key>
+	<string>Nom du dossier</string>
+	<key>folder.creation.name.title</key>
+	<string>Créer un nouveau dossier</string>
+	<key>folder.picker.empty.hint</key>
+	<string>Créer un nouveau dossier en cliquant sur the bouton +</string>
+	<key>folder.picker.title</key>
+	<string>Déplacer vers</string>
+	<key>force.update.message</key>
+	<string>Il vous manque de nouvelles fonctionnalités. Téléchargez la dernière version de Wire dans l’App Store.</string>
+	<key>force.update.ok_button</key>
+	<string>Aller sur l'App Store</string>
+	<key>force.update.title</key>
+	<string>Mise à jour nécessaire</string>
+	<key>general.accept</key>
+	<string>Accepter</string>
+	<key>general.back</key>
+	<string>Précédent</string>
+	<key>general.cancel</key>
+	<string>Annuler</string>
+	<key>general.close</key>
+	<string>Fermer</string>
+	<key>general.confirm</key>
+	<string>OK</string>
+	<key>general.decline</key>
+	<string>Non merci</string>
+	<key>general.done</key>
+	<string>Terminé</string>
+	<key>general.edit</key>
+	<string>Modifier</string>
+	<key>general.failure</key>
+	<string>Une erreur est survenue</string>
+	<key>general.failure.try_again</key>
+	<string>Veuillez réessayer.</string>
+	<key>general.guest-room-name</key>
+	<string>Guest Room</string>
+	<key>general.loading</key>
+	<string>Chargement…</string>
+	<key>general.next</key>
+	<string>Suivant</string>
+	<key>general.off</key>
+	<string>Désactivé</string>
+	<key>general.ok</key>
+	<string>OK</string>
+	<key>general.on</key>
+	<string>Activé</string>
+	<key>general.open_settings</key>
+	<string>Ouvrir les paramètres de Wire</string>
+	<key>general.paste</key>
+	<string>Coller</string>
+	<key>general.service</key>
+	<string>Service</string>
+	<key>general.skip</key>
+	<string>Pas Maintenant</string>
+	<key>general.space_between_words</key>
+	<string> </string>
+	<key>giphy.cancel</key>
+	<string>annuler</string>
+	<key>giphy.confirm</key>
+	<string>envoyer</string>
+	<key>giphy.conversation.message</key>
+	<string>%@ · via giphy.com</string>
+	<key>giphy.conversation.random_message</key>
+	<string>via giphy.com</string>
+	<key>giphy.error.no_more_results</key>
+	<string>plus aucun gif</string>
+	<key>giphy.error.no_result</key>
+	<string>aucun gif trouvé</string>
+	<key>giphy.search_placeholder</key>
+	<string>Chercher sur Giphy</string>
+	<key>group_details.conversation_admins_header.title</key>
+	<string>Admins du groupe</string>
+	<key>group_details.conversation_members_header.title</key>
+	<string>Participants à la conversation</string>
+	<key>group_details.guest_options_cell.disabled</key>
+	<string>Désactivé</string>
+	<key>group_details.guest_options_cell.enabled</key>
+	<string>Activé</string>
+	<key>group_details.guest_options_cell.title</key>
+	<string>Contacts externes et services</string>
+	<key>group_details.notification_options_cell.description</key>
+	<string>Vous pouvez être notifié pour tout (y compris les appels audio et vidéo) ou seulement quand quelqu'un vous mentionne ou répond à un de vos messages.</string>
+	<key>group_details.notification_options_cell.title</key>
+	<string>Notifications</string>
+	<key>group_details.receipt_options_cell.description</key>
+	<string>Quand cette option est activée, les participants peuvent voir quand leurs messages ont été lus dans cette conversation.</string>
+	<key>group_details.receipt_options_cell.title</key>
+	<string>Accusés de lecture</string>
+	<key>group_details.timeout_options_cell.title</key>
+	<string>Messages éphémères</string>
+	<key>guest_room.actions.copied_link</key>
+	<string>Lien copié !</string>
+	<key>guest_room.actions.copy_link</key>
+	<string>Copier le lien</string>
+	<key>guest_room.actions.revoke_link</key>
+	<string>Révoquer le lien…</string>
+	<key>guest_room.actions.share_link</key>
+	<string>Partager le lien</string>
+	<key>guest_room.allow_guests.subtitle</key>
+	<string>Rendre cette conversation accessible à des services et contacts externes à votre équipe.</string>
+	<key>guest_room.allow_guests.title</key>
+	<string>Autoriser les contacts externes et les services</string>
+	<key>guest_room.error.generic.message</key>
+	<string>Vérifiez votre connexion et réessayez</string>
+	<key>guest_room.error.generic.title</key>
+	<string>Une erreur est survenue</string>
+	<key>guest_room.expiration.hours_left</key>
+	<string>Plus que %@h</string>
+	<key>guest_room.expiration.less_than_minutes_left</key>
+	<string>Plus que %@ minutes</string>
+	<key>guest_room.link.button.title</key>
+	<string>Créer le lien</string>
+	<key>guest_room.link.header.subtitle</key>
+	<string>Tout le monde disposant du lien peut rejoindre la conversation, même s’ils n’utilisent pas Wire.</string>
+	<key>guest_room.link.header.title</key>
+	<string>Inviter des contacts avec un lien</string>
+	<key>guest_room.remove_guests.action</key>
+	<string>Supprimer</string>
+	<key>guest_room.remove_guests.message</key>
+	<string>Tous les contacts externes et services seront retirés de la conversation. Il ne sera plus possible d'ajouter de nouveaux contacts externes ou services.</string>
+	<key>guest_room.revoke_link.action</key>
+	<string>Révoquer le lien</string>
+	<key>guest_room.revoke_link.message</key>
+	<string>De nouveaux contacts externes ne pourront plus rejoindre la conversation avec ce lien. Les contacts externes ayant déjà rejoint la conversation conserveront leurs accès.</string>
+	<key>guest_room.share.message</key>
+	<string>Rejoignez-moi sur Wire pour discuter :
+%@</string>
+	<key>image.add_sketch</key>
+	<string>Ajouter un croquis</string>
+	<key>image.edit_image</key>
+	<string>Modifier l’image</string>
+	<key>image_confirmer.cancel</key>
+	<string>Annuler</string>
+	<key>image_confirmer.confirm</key>
+	<string>OK</string>
+	<key>inbox.connection_request.connect_button_title</key>
+	<string>Se connecter</string>
+	<key>inbox.connection_request.ignore_button_title</key>
+	<string>Ignorer</string>
+	<key>input.ephemeral.timeout.none</key>
+	<string>Désactivé</string>
+	<key>input.ephemeral.title</key>
+	<string>Définir une durée avant la disparition du message</string>
+	<key>invite_banner.invite_button_title</key>
+	<string>Invitez plus de contacts</string>
+	<key>invite_banner.message</key>
+	<string>Profitez des appels, des messages, des croquis, des GIFs et bien plus en privé ou en groupe.</string>
+	<key>invite_banner.title</key>
+	<string>Invitez vos amis sur Wire !</string>
+	<key>jailbrokendevice.alert.message</key>
+	<string>Pour des raisons de sécurité Wire ne peut pas être utilisé sur cet appareil. Toutes données Wire existantes ont été effacées.</string>
+	<key>jailbrokendevice.alert.title</key>
+	<string>Jailbreak détecté</string>
+	<key>keyboard_photos_access.denied.keyboard.camera</key>
+	<string>Wire a besoin d’accéder à l'appareil photo.</string>
+	<key>keyboard_photos_access.denied.keyboard.camera_and_photos</key>
+	<string>Wire a besoin d'accéder à votre
+appareil photo et à vos photos.</string>
+	<key>keyboard_photos_access.denied.keyboard.ongoing_call</key>
+	<string>Vous ne pouvez pas utiliser l'appareil photo pendant un appel vidéo.</string>
+	<key>keyboard_photos_access.denied.keyboard.photos</key>
+	<string>Wire a besoin d'accéder à vos photos.</string>
+	<key>keyboard_photos_access.denied.keyboard.settings</key>
+	<string>Paramètres</string>
+	<key>landing.create_account.subtitle</key>
+	<string>Discussions privées avec vos groupes d’amis et votre famille</string>
+	<key>landing.create_account.title</key>
+	<string>Créer un compte</string>
+	<key>landing.create_team.subtitle</key>
+	<string>Collaboration sécurisée pour les entreprises, institutions et organisations professionnelles</string>
+	<key>landing.create_team.title</key>
+	<string>Pro</string>
+	<key>landing.custom_backend.more_info.alert.title</key>
+	<string> Vous êtes connecté au serveur tiers : %@</string>
+	<key>landing.custom_backend.more_info.button.title</key>
+	<string>Montrer plus</string>
+	<key>landing.custom_backend.title</key>
+	<string>Connecté à %@</string>
+	<key>landing.header</key>
+	<string>Wire. Ajoutez votre compte.</string>
+	<key>landing.login.button.title</key>
+	<string>Se connecter</string>
+	<key>landing.login.email.button.title</key>
+	<string>Se connecter via e-mail</string>
+	<key>landing.login.enterprise.button.title</key>
+	<string>Connection Entreprise</string>
+	<key>landing.login.hints</key>
+	<string>Vous avez déjà un compte ?</string>
+	<key>landing.login.sso.button.title</key>
+	<string>Se connecter via SSO</string>
+	<key>landing.welcome_message</key>
+	<string>Bienvenue sur %@</string>
+	<key>legal_hold.deactivated.message</key>
+	<string>Les futurs messages ne seront pas enregistrés.</string>
+	<key>legal_hold.deactivated.title</key>
+	<string>Conservation à des fins juridiques désactivée</string>
+	<key>legalhold.accessibility</key>
+	<string>Information sur la conservation à des fins juridiques</string>
+	<key>legalhold.header.other_description</key>
+	<string>La conservation à des fins juridiques été activée pour au moins un contact dans cette conversation.
+Tous les messages seront préservés en prévision de futurs accès, y compris les messages supprimés, modifiés et éphémères.</string>
+	<key>legalhold.header.self_description</key>
+	<string>La conservation à des fins juridiques a été activée pour votre compte.
+Tous les messages seront préservés en prévision de futurs accès, y compris les messages supprimés, modifiés ou éphémères.
+Les autres participants seront informés de l'enregistrement.</string>
+	<key>legalhold.header.title</key>
+	<string>Conservation à des fins juridiques</string>
+	<key>legalhold.participants.section.title</key>
+	<string>Participants soumis à la conservation à des fins juridiques</string>
+	<key>legalhold_active.alert.learn_more</key>
+	<string>En savoir plus</string>
+	<key>legalhold_active.alert.message</key>
+	<string>La conservation à des fins juridiques a été activée sur votre compte. Tous les messages seront préservés en prévision de futurs accès, y compris les messages supprimés, modifiés et éphémères.
+
+Les autres participants sont informés que la conservation à des fins juridiques est active.</string>
+	<key>legalhold_active.alert.title</key>
+	<string>La conservation à des fins juridiques est active</string>
+	<key>legalhold_request.alert.detail</key>
+	<string>Tous les futurs messages seront enregistrés sur votre appareil avec l'empreinte numérique suivante: 
+
+%@
+
+Cela inclut les messages supprimés, modifiés et éphémères dans toutes les conversations.</string>
+	<key>legalhold_request.alert.detail.enter_password</key>
+	<string>Saisissez votre mot de passe pour confirmer.</string>
+	<key>legalhold_request.alert.error_wrong_password</key>
+	<string>Mot de passe incorrect</string>
+	<key>legalhold_request.alert.title</key>
+	<string>Conservation à des fins juridiques demandée</string>
+	<key>legalhold_request.button.accessibility</key>
+	<string>Validation en attente.</string>
+	<key>library.alert.permission_warning.not_allowed.explaination</key>
+	<string>Allez dans vos paramètres et autorisez Wire à accéder à vos photos.</string>
+	<key>library.alert.permission_warning.restrictions.explaination</key>
+	<string>Wire ne peux pas accéder à vos photos du fait de vos paramètres de confidentialité.</string>
+	<key>library.alert.permission_warning.title</key>
+	<string>Wire a besoin d'accéder à vos photos</string>
+	<key>list.archived_conversations</key>
+	<string>ARCHIVES</string>
+	<key>list.archived_conversations_close</key>
+	<string>Fermer les archives</string>
+	<key>list.section.contacts</key>
+	<string>Contacts</string>
+	<key>list.section.favorites</key>
+	<string>Favoris</string>
+	<key>list.section.groups</key>
+	<string>Groupes</string>
+	<key>list.section.requests</key>
+	<string>Demandes</string>
+	<key>list.title</key>
+	<string>Conversations</string>
+	<key>location.send_button.title</key>
+	<string>Envoyer</string>
+	<key>location.unauthorized_alert.cancel</key>
+	<string>Annuler</string>
+	<key>location.unauthorized_alert.message</key>
+	<string>Afin d'envoyer votre position, activez le service de localisation et autorisez Wire à accéder à votre position.</string>
+	<key>location.unauthorized_alert.settings</key>
+	<string>Paramètres</string>
+	<key>location.unauthorized_alert.title</key>
+	<string>Activez le service de localisation</string>
+	<key>login.sso.alert.action</key>
+	<string>Se connecter</string>
+	<key>login.sso.alert.message.sso_and_email</key>
+	<string>Veuillez saisir votre adresse e-mail ou code SSO:</string>
+	<key>login.sso.alert.message.sso_only</key>
+	<string>Veuillez saisir votre code SSO:</string>
+	<key>login.sso.alert.text_field.placeholder.sso_and_email</key>
+	<string>e-mail ou code d'accès SSO</string>
+	<key>login.sso.alert.text_field.placeholder.sso_only</key>
+	<string>Code d’accès SSO</string>
+	<key>login.sso.alert.title</key>
+	<string>Connection Entreprise</string>
+	<key>login.sso.error.alert.domain_associated_with_wrong_server.message</key>
+	<string>Cet e-mail est déjà lié à un autre serveur et l'application ne peut être connectée qu'à un seul serveur à la fois. Veuillez vous déconnecter de tous les comptes Wire sur cet appareil et ré-essayez de vous reconnecter.</string>
+	<key>login.sso.error.alert.domain_not_registered.message</key>
+	<string>Cet e-mail ne peut pas être utilisé pour vous connecter. Veuillez saisir le code SSO pour continuer.</string>
+	<key>login.sso.error.alert.invalid_code.message</key>
+	<string>Vérifiez le code d'accès SSO de votre entreprise et réessayez.</string>
+	<key>login.sso.error.alert.invalid_format.message.sso_and_email</key>
+	<string>Veuillez saisir une adresse e-mail ou un code SSO valide</string>
+	<key>login.sso.error.alert.invalid_format.message.sso_only</key>
+	<string>Veuillez saisir un code SSO valide</string>
+	<key>login.sso.error.alert.invalid_status.message</key>
+	<string>Veuillez réessayer plus tard (erreur %@).</string>
+	<key>login.sso.error.alert.message</key>
+	<string>Contactez votre administrateur informatique pour plus de détails (erreur %@).</string>
+	<key>login.sso.error.alert.unknown.message</key>
+	<string>Veuillez réessayer plus tard.</string>
+	<key>login.sso.error.offline.alert.message</key>
+	<string>Vérifiez votre connexion Internet et réessayez.</string>
+	<key>login.sso.link_error_message</key>
+	<string>Ce lien n'est pas valide. Veuillez contacter votre administrateur pour résoudre ce problème.</string>
+	<key>login.sso.start_error_title</key>
+	<string>Impossible de démarrer la connexion entreprise</string>
+	<key>message.delete_dialog.action.cancel</key>
+	<string>Annuler</string>
+	<key>message.delete_dialog.action.delete</key>
+	<string>Supprimer pour tout le monde</string>
+	<key>message.delete_dialog.action.hide</key>
+	<string>Supprimer pour moi</string>
+	<key>message.delete_dialog.message</key>
+	<string>Cela est irréversible.</string>
+	<key>message.menu.edit.title</key>
+	<string>Modifier</string>
+	<key>message_details.combined_title</key>
+	<string>Détails du Message</string>
+	<key>message_details.empty_likes</key>
+	<string>Personne n’a encore aimé ce message.</string>
+	<key>message_details.empty_read_receipts</key>
+	<string>Personne n’a encore lu ce message.</string>
+	<key>message_details.likes_title</key>
+	<string>J'aime</string>
+	<key>message_details.read_receipts_disabled</key>
+	<string>Les accusés de lecture n’étaient pas activés quand ce message a été envoyé.</string>
+	<key>message_details.receipts_title</key>
+	<string>Lu</string>
+	<key>message_details.subtitle_edit_date</key>
+	<string>Modifié : %@</string>
+	<key>message_details.subtitle_label_voiceOver</key>
+	<string>Détails du Message</string>
+	<key>message_details.subtitle_send_date</key>
+	<string>Envoyé le : %@</string>
+	<key>message_details.tabs.likes</key>
+	<string>J'aime (%d)</string>
+	<key>message_details.tabs.seen</key>
+	<string>Lu (%d)</string>
+	<key>message_details.user_handle_subtitle_label</key>
+	<string>Nom d'utilisateur</string>
+	<key>message_details.user_read_timestamp_subtitle_label</key>
+	<string>Lu à</string>
+	<key>meta.degraded.cancel_sending_button</key>
+	<string>Annuler</string>
+	<key>meta.degraded.degradation_reason_message.plural</key>
+	<string>%@ utilisent de nouveaux appareils.</string>
+	<key>meta.degraded.degradation_reason_message.singular</key>
+	<string>%@ utilise un nouvel appareil.</string>
+	<key>meta.degraded.degradation_reason_message.someone</key>
+	<string>Un participant utilise un nouvel appareil.</string>
+	<key>meta.degraded.dialog_message</key>
+	<string>Voulez-vous quand même envoyer votre message ?</string>
+	<key>meta.degraded.send_anyway_button</key>
+	<string>Envoyer quand même</string>
+	<key>meta.degraded.verify_devices_button</key>
+	<string>Vérifier les appareils…</string>
+	<key>meta.leave_conversation.delete_content_as_well_message</key>
+	<string>Effacer aussi le contenu</string>
+	<key>meta.leave_conversation_button_cancel</key>
+	<string>Annuler</string>
+	<key>meta.leave_conversation_button_leave</key>
+	<string>Partir</string>
+	<key>meta.leave_conversation_button_leave_and_delete</key>
+	<string>Quitter et effacer le contenu</string>
+	<key>meta.leave_conversation_dialog_message</key>
+	<string>Les participants en seront notifiés et la conversation sera supprimée de votre liste.</string>
+	<key>meta.leave_conversation_dialog_title</key>
+	<string>Quitter la conversation ?</string>
+	<key>meta.legalhold.info_button</key>
+	<string>Qu’est-ce que la conservation à des fins juridiques ?</string>
+	<key>meta.legalhold.send_alert_title</key>
+	<string>La conversation est maintenant soumise à la conservation à des fins juridiques.</string>
+	<key>meta.menu.accessibility_more_options_button</key>
+	<string>Plus d’actions</string>
+	<key>meta.menu.archive</key>
+	<string>Archiver</string>
+	<key>meta.menu.cancel</key>
+	<string>Annuler</string>
+	<key>meta.menu.cancel_connection_request</key>
+	<string>Annuler la Demande</string>
+	<key>meta.menu.clear_content</key>
+	<string>Effacer le contenu…</string>
+	<key>meta.menu.configure_notification.button_cancel</key>
+	<string>Annuler</string>
+	<key>meta.menu.configure_notification.button_everything</key>
+	<string>Toujours</string>
+	<key>meta.menu.configure_notification.button_mentions_and_replies</key>
+	<string>Mentions et Réponses</string>
+	<key>meta.menu.configure_notification.button_nothing</key>
+	<string>Jamais</string>
+	<key>meta.menu.configure_notification.dialog_message</key>
+	<string>Recevoir une notification :</string>
+	<key>meta.menu.configure_notifications</key>
+	<string>Notifications…</string>
+	<key>meta.menu.delete</key>
+	<string>Supprimer le groupe…</string>
+	<key>meta.menu.delete_content.button_cancel</key>
+	<string>Annuler</string>
+	<key>meta.menu.delete_content.button_delete</key>
+	<string>Effacer</string>
+	<key>meta.menu.delete_content.button_delete_and_leave</key>
+	<string>Effacer et quitter</string>
+	<key>meta.menu.delete_content.dialog_message</key>
+	<string>Ceci effacera la conversation sur tous vos appareils.</string>
+	<key>meta.menu.delete_content.dialog_title</key>
+	<string>Effacer le contenu?</string>
+	<key>meta.menu.delete_content.leave_as_well_message</key>
+	<string>Quitter aussi la conversation</string>
+	<key>meta.menu.leave</key>
+	<string>Quitter le groupe…</string>
+	<key>meta.menu.mark_read</key>
+	<string>Marquer comme lu</string>
+	<key>meta.menu.mark_unread</key>
+	<string>Marquer comme non lu</string>
+	<key>meta.menu.move_to_folder</key>
+	<string>Déplacer vers…</string>
+	<key>meta.menu.open_self_profile</key>
+	<string>Ouvrir le Profil</string>
+	<key>meta.menu.remove_from_folder</key>
+	<string>Supprimer de "%@"</string>
+	<key>meta.menu.rename</key>
+	<string>Renommer</string>
+	<key>meta.menu.silence.mute</key>
+	<string>Mettre en sourdine</string>
+	<key>meta.menu.silence.unmute</key>
+	<string>Désactiver la sourdine</string>
+	<key>meta.menu.unarchive</key>
+	<string>Restaurer</string>
+	<key>migration.please_wait_message</key>
+	<string>Veuillez patienter</string>
+	<key>missive.connection_request.default_message</key>
+	<string>Bonjour %@
+Connectons-nous sur Wire. 
+%@</string>
+	<key>name.guidance.toolong</key>
+	<string>Trop de caractères</string>
+	<key>name.guidance.tooshort</key>
+	<string>Au moins 2 caractères</string>
+	<key>name.placeholder</key>
+	<string>Votre nom complet</string>
+	<key>news_offers.consent.button.privacy_policy.title</key>
+	<string>Politique de confidentialité</string>
+	<key>news_offers.consent.message</key>
+	<string>Vous pouvez vous désinscrire à tout moment.</string>
+	<key>news_offers.consent.title</key>
+	<string>Souhaitez-vous recevoir des e-mails pour rester au courant des nouveautés de Wire ?</string>
+	<key>notifications.in_conversation</key>
+	<string>%@ - %@</string>
+	<key>notifications.pinged</key>
+	<string>a fait un signe</string>
+	<key>notifications.sent_audio</key>
+	<string>a partagé un fichier audio</string>
+	<key>notifications.sent_file</key>
+	<string>a partagé un fichier</string>
+	<key>notifications.sent_location</key>
+	<string>a partagé une position</string>
+	<key>notifications.sent_video</key>
+	<string>a partagé une vidéo</string>
+	<key>notifications.shared_a_photo</key>
+	<string>a partagé une image</string>
+	<key>notifications.this_conversation</key>
+	<string>%@ dans cette conversation</string>
+	<key>open_link.browser.option.brave</key>
+	<string>Brave</string>
+	<key>open_link.browser.option.chrome</key>
+	<string>Chrome</string>
+	<key>open_link.browser.option.firefox</key>
+	<string>Firefox</string>
+	<key>open_link.browser.option.safari</key>
+	<string>Safari</string>
+	<key>open_link.browser.option.snowhaze</key>
+	<string>SnowHaze</string>
+	<key>open_link.maps.footer</key>
+	<string>Certains liens s'ouvriront toujours dans Apple Plans.</string>
+	<key>open_link.maps.option.apple</key>
+	<string>Plans</string>
+	<key>open_link.maps.option.google</key>
+	<string>Google Maps</string>
+	<key>open_link.twitter.option.default</key>
+	<string>Navigateur / Twitter</string>
+	<key>open_link.twitter.option.tweetbot</key>
+	<string>Tweetbot</string>
+	<key>open_link.twitter.option.twitterrific</key>
+	<string>Twitterrific</string>
+	<key>participants.add_people_button_title</key>
+	<string>Ajouter</string>
+	<key>participants.all.title</key>
+	<string>Contacts</string>
+	<key>participants.avatar.guest.title</key>
+	<string>Contact externe</string>
+	<key>participants.footer.add_title</key>
+	<string>Ajouter des contacts</string>
+	<key>participants.section.admins.footer</key>
+	<string>Il n'y a aucun administrateur.</string>
+	<key>participants.section.members.footer</key>
+	<string>Il n'y a aucun participant.</string>
+	<key>participants.section.name.footer</key>
+	<string>Les conversations de groupe peuvent contenir jusqu'à %1$d participants. Les appels vidéo fonctionnent avec jusqu'à %2$d destinataires.</string>
+	<key>participants.section.participants</key>
+	<string>Contacts (%d)</string>
+	<key>participants.section.services</key>
+	<string>Services (%d)</string>
+	<key>participants.section.settings</key>
+	<string>Options</string>
+	<key>participants.services.remove_integration.button</key>
+	<string>supprimer le service</string>
+	<key>participants.title</key>
+	<string>Informations</string>
+	<key>password.guidance.toolong</key>
+	<string>Trop de caractères</string>
+	<key>password.placeholder</key>
+	<string>Mot de passe</string>
+	<key>peoplepicker.button.add_to_conversation</key>
+	<string>Ajouter des Participants au Groupe</string>
+	<key>peoplepicker.button.create_conversation</key>
+	<string>Créer un groupe</string>
+	<key>peoplepicker.group.create</key>
+	<string>Créer</string>
+	<key>peoplepicker.group.done</key>
+	<string>Terminer</string>
+	<key>peoplepicker.group.skip</key>
+	<string>Passer</string>
+	<key>peoplepicker.group.title.plural</key>
+	<string>Ajouter des Participants (%d)</string>
+	<key>peoplepicker.group.title.singular</key>
+	<string>Ajouter des Participants</string>
+	<key>peoplepicker.header.contacts</key>
+	<string>Contacts</string>
+	<key>peoplepicker.header.contacts_personal</key>
+	<string>Contacts personnels</string>
+	<key>peoplepicker.header.conversations</key>
+	<string>Groupes</string>
+	<key>peoplepicker.header.directory</key>
+	<string>Se connecter</string>
+	<key>peoplepicker.header.people</key>
+	<string>Contacts</string>
+	<key>peoplepicker.header.send_invitation</key>
+	<string>Inviter</string>
+	<key>peoplepicker.header.services</key>
+	<string>Services</string>
+	<key>peoplepicker.header.team_conversations</key>
+	<string>%@ Groupes</string>
+	<key>peoplepicker.header.top_people</key>
+	<string>Contacts favoris</string>
+	<key>peoplepicker.hide_search_result</key>
+	<string>Masquer</string>
+	<key>peoplepicker.hide_search_result_progress</key>
+	<string>Masquage…</string>
+	<key>peoplepicker.invite_more_people</key>
+	<string>Invitez d'autres contacts</string>
+	<key>peoplepicker.invite_team_members</key>
+	<string>Invitez des contacts à rejoindre votre équipe</string>
+	<key>peoplepicker.no_contacts_title</key>
+	<string>Aucun contact.</string>
+	<key>peoplepicker.no_matching_results.action.send_invite</key>
+	<string>Envoyer une invitation</string>
+	<key>peoplepicker.no_matching_results.action.share_contacts</key>
+	<string>Partager vos contacts</string>
+	<key>peoplepicker.no_matching_results_after_address_book_upload_button</key>
+	<string>partagez vos contacts</string>
+	<key>peoplepicker.no_matching_results_after_address_book_upload_message</key>
+	<string>Veuillez saisir une adresse e-mail complète ou</string>
+	<key>peoplepicker.no_matching_results_after_address_book_upload_title</key>
+	<string>Aucun résultat.</string>
+	<key>peoplepicker.no_matching_results_message</key>
+	<string>Veuillez saisir une adresse e-mail complète.</string>
+	<key>peoplepicker.no_matching_results_provide_valid_email</key>
+	<string>Veuillez saisir une adresse e-mail valide</string>
+	<key>peoplepicker.no_matching_results_services_admin_title</key>
+	<string>Les services sont des programmes qui peuvent améliorer votre flux de travail.</string>
+	<key>peoplepicker.no_matching_results_services_manage_services_title</key>
+	<string>Gérer les Services</string>
+	<key>peoplepicker.no_matching_results_services_title</key>
+	<string>Les services sont des programmes qui peuvent améliorer votre flux de travail. Pour les activer, contactez votre administrateur.</string>
+	<key>peoplepicker.no_matching_results_title</key>
+	<string>Aucun résultat.</string>
+	<key>peoplepicker.no_search_results</key>
+	<string>Aucun résultat. Essayez avec un nom différent.</string>
+	<key>peoplepicker.quick-action.admin-services</key>
+	<string>Gérer les Services</string>
+	<key>peoplepicker.quick-action.create-conversation</key>
+	<string>Créer un groupe</string>
+	<key>peoplepicker.quick-action.create-guest-room</key>
+	<string>Créer une Guest Room</string>
+	<key>peoplepicker.quick-action.open-conversation</key>
+	<string>Ouvrir</string>
+	<key>peoplepicker.search_placeholder</key>
+	<string>Rechercher par nom ou par identifiant</string>
+	<key>peoplepicker.send_invitation.dialog.message</key>
+	<string>Elle peut être utilisée pendant 2 semaines. Envoyez-en une nouvelle si elle expire.</string>
+	<key>peoplepicker.send_invitation.dialog.ok</key>
+	<string>OK</string>
+	<key>peoplepicker.send_invitation.dialog.title</key>
+	<string>Invitation envoyée</string>
+	<key>peoplepicker.services.add_service.button</key>
+	<string>Ajouter un service</string>
+	<key>peoplepicker.services.add_service.error.default</key>
+	<string>Le service est temporairement indisponible</string>
+	<key>peoplepicker.services.add_service.error.full</key>
+	<string>Cette conversation est saturée</string>
+	<key>peoplepicker.services.add_service.error.title</key>
+	<string>Le service n'a pas pu être ajouté</string>
+	<key>peoplepicker.services.open_conversation.item</key>
+	<string>Ouvrir la conversation</string>
+	<key>peoplepicker.share_contacts.no_results.title</key>
+	<string>Trouvez des contacts grâce à leur nom ou à leur adresse e-mail</string>
+	<key>peoplepicker.suggested.knows_one</key>
+	<string>Connaît %@</string>
+	<key>peoplepicker.suggested.knows_two</key>
+	<string>Connaît %@ et %@</string>
+	<key>peoplepicker.title.add_to_conversation</key>
+	<string>Ajouter des participants</string>
+	<key>peoplepicker.title.create_conversation</key>
+	<string>Créer un groupe</string>
+	<key>phone.guidance.invalid</key>
+	<string>Numéro de téléphone incorrect</string>
+	<key>phone.guidance.toolong</key>
+	<string>Trop de caractères</string>
+	<key>phone.guidance.tooshort</key>
+	<string>Le numéro est trop court</string>
+	<key>profile.block_button_title</key>
+	<string>Bloquer…</string>
+	<key>profile.block_button_title_action</key>
+	<string>Bloquer</string>
+	<key>profile.block_dialog.button_block</key>
+	<string>Bloquer</string>
+	<key>profile.block_dialog.button_cancel</key>
+	<string>Annuler</string>
+	<key>profile.block_dialog.message</key>
+	<string>%@ ne pourra plus vous parler ou vous ajouter à des conversations de groupe.</string>
+	<key>profile.block_dialog.title</key>
+	<string>Bloquer ?</string>
+	<key>profile.cancel_connection_button_title</key>
+	<string>ANNULER LA DEMANDE</string>
+	<key>profile.cancel_connection_request_dialog.button_no</key>
+	<string>Non</string>
+	<key>profile.cancel_connection_request_dialog.button_yes</key>
+	<string>Oui</string>
+	<key>profile.cancel_connection_request_dialog.message</key>
+	<string>Supprimer votre demande de connexion à %@ ?</string>
+	<key>profile.cancel_connection_request_dialog.title</key>
+	<string>Annuler votre demande ?</string>
+	<key>profile.connection_request_dialog.button_cancel</key>
+	<string>Ignorer</string>
+	<key>profile.connection_request_dialog.button_connect</key>
+	<string>Se connecter</string>
+	<key>profile.connection_request_dialog.message</key>
+	<string>Cela vous connectera et ouvrira la conversation avec %@.</string>
+	<key>profile.connection_request_dialog.title</key>
+	<string>Accepter ?</string>
+	<key>profile.connection_request_state.blocked</key>
+	<string>BLOQUÉ</string>
+	<key>profile.create_conversation_button_title</key>
+	<string>Créer un groupe</string>
+	<key>profile.details.group_admin</key>
+	<string>Admin du groupe</string>
+	<key>profile.details.guest</key>
+	<string>Contact externe</string>
+	<key>profile.details.partner</key>
+	<string>externe</string>
+	<key>profile.details.title</key>
+	<string>Détails</string>
+	<key>profile.devices.detail.reset_session.title</key>
+	<string>Réinitialiser la session</string>
+	<key>profile.devices.detail.show_my_device.title</key>
+	<string>Afficher l'empreinte numérique de mon appareil</string>
+	<key>profile.devices.detail.verify_message</key>
+	<string>Vérifiez que cela correspond à l'empreinte numérique affichée sur l'appareil de %@.</string>
+	<key>profile.devices.detail.verify_message.link</key>
+	<string>Comment faire ?</string>
+	<key>profile.devices.fingerprint_message.link</key>
+	<string>Pourquoi vérifier les conversations ?</string>
+	<key>profile.devices.fingerprint_message.title</key>
+	<string>Wire attribue à chaque appareil une empreinte numérique unique. Comparez-la avec %@ et vérifiez votre conversation.</string>
+	<key>profile.devices.fingerprint_message_unencrypted</key>
+	<string>%@ utilise une ancienne version de Wire. Aucun appareil n’est affiché ici.</string>
+	<key>profile.devices.title</key>
+	<string>Appareils</string>
+	<key>profile.extended_metadata.header</key>
+	<string>Informations</string>
+	<key>profile.favorite_button_title</key>
+	<string>Ajouter aux favoris</string>
+	<key>profile.group_admin_status_memo.body</key>
+	<string>Lorsque cette option est activée, l'administrateur peut ajouter ou supprimer des contacts et des services, mettre à jour les paramètres du groupe et modifier le rôle des participants.</string>
+	<key>profile.open_conversation_button_title</key>
+	<string>Ouvrir la conversation</string>
+	<key>profile.profile.group_admin_options.title</key>
+	<string>Admin du groupe</string>
+	<key>profile.read_receipts_disabled_memo.header</key>
+	<string>VOUS AVEZ DÉSACTIVÉ LES ACCUSÉS DE LECTURE</string>
+	<key>profile.read_receipts_enabled_memo.header</key>
+	<string>VOUS AVEZ ACTIVÉ LES ACCUSÉS DE LECTURE</string>
+	<key>profile.read_receipts_memo.body</key>
+	<string>Si les deux participants activent les accusés de lecture, vous pourrez voir quand les messages sont lus.
+
+Vous pouvez changer cette option dans les paramètres de votre compte.</string>
+	<key>profile.remove_dialog_button_cancel</key>
+	<string>Annuler</string>
+	<key>profile.remove_dialog_button_remove</key>
+	<string>Retirer Du Groupe…</string>
+	<key>profile.remove_dialog_button_remove_confirm</key>
+	<string>Retirer Du Groupe</string>
+	<key>profile.remove_dialog_message</key>
+	<string>%@ ne pourra ni envoyer ni recevoir de messages dans cette conversation.</string>
+	<key>profile.remove_dialog_title</key>
+	<string>Supprimer ?</string>
+	<key>profile.unblock_button_title</key>
+	<string>Débloquer…</string>
+	<key>profile.unblock_button_title_action</key>
+	<string>Débloquer</string>
+	<key>profile.unfavorite_button_title</key>
+	<string>Retirer des favoris</string>
+	<key>profile_view.accessibility.handle</key>
+	<string>Nom d'utilisateur</string>
+	<key>profile_view.accessibility.name</key>
+	<string>Nom affiché</string>
+	<key>profile_view.accessibility.team_name</key>
+	<string>Nom d'équipe</string>
+	<key>push.notification.new_message</key>
+	<string>Nouveau message</string>
+	<key>push.notification.new_user</key>
+	<string>%@ a rejoint Wire</string>
+	<key>registration.add_email_password.hero.paragraph</key>
+	<string>Cela vous permet d'utiliser Wire sur plusieurs appareils.</string>
+	<key>registration.add_email_password.hero.title</key>
+	<string>Ajouter votre e-mail et votre mot de passe</string>
+	<key>registration.add_phone_number.hero.paragraph</key>
+	<string>Cela nous aide à trouver des personnes que vous pouvez connaître. Ces informations ne seront jamais partagées.</string>
+	<key>registration.add_phone_number.hero.title</key>
+	<string>Ajouter un numéro de téléphone</string>
+	<key>registration.add_phone_number.skip_button.title</key>
+	<string>Pas maintenant</string>
+	<key>registration.address_book_access_denied.hero.paragraph1</key>
+	<string>Wire vous aide à trouver vos amis si vous partagez vos contacts.</string>
+	<key>registration.address_book_access_denied.hero.paragraph2</key>
+	<string>Pour autoriser l'accès, cliquez sur Paramètres et activez les contacts.</string>
+	<key>registration.address_book_access_denied.hero.title</key>
+	<string>Wire n'a pas accès a vos contacts.</string>
+	<key>registration.address_book_access_denied.maybe_later_button.title</key>
+	<string>Peut-être plus tard</string>
+	<key>registration.address_book_access_denied.settings_button.title</key>
+	<string>Paramètres</string>
+	<key>registration.alert.account_exists.message_email</key>
+	<string>L'adresse email que vous avez utilisé pour vous inscrire est lié à un compte déjà existant.
+
+ Utilisez une autre adresse, ou essayez de vous connecter si ce compte vous appartient.</string>
+	<key>registration.alert.account_exists.message_phone</key>
+	<string>Le numéro de téléphone que vous avez utilisé pour vous inscrire est lié à un compte déjà existant.
+
+Utilisez un autre numéro, ou essayez de vous connecter si ce compte vous appartient.</string>
+	<key>registration.alert.account_exists.title</key>
+	<string>Le compte existe déjà</string>
+	<key>registration.alert.change_email_action</key>
+	<string>Utiliser un autre email</string>
+	<key>registration.alert.change_phone_action</key>
+	<string>Utiliser un autre numéro</string>
+	<key>registration.alert.change_signin_action</key>
+	<string>Se connecter</string>
+	<key>registration.close_email_invitation_button.email_title</key>
+	<string>Utiliser une autre adresse e-mail</string>
+	<key>registration.close_email_invitation_button.phone_title</key>
+	<string>S’inscrire avec le téléphone</string>
+	<key>registration.close_phone_invitation_button.email_title</key>
+	<string>S’inscrire avec l'e-mail</string>
+	<key>registration.close_phone_invitation_button.phone_title</key>
+	<string>Utiliser un autre téléphone</string>
+	<key>registration.confirm</key>
+	<string>S’inscrire</string>
+	<key>registration.country_select.title</key>
+	<string>Pays</string>
+	<key>registration.devices.activated</key>
+	<string>Activé %@</string>
+	<key>registration.devices.active_list_header</key>
+	<string>Actif</string>
+	<key>registration.devices.active_list_subtitle</key>
+	<string>Si vous ne reconnaissez pas l’un des appareils ci-dessus, supprimez-le et changez votre mot de passe.</string>
+	<key>registration.devices.current_list_header</key>
+	<string>Actuel</string>
+	<key>registration.devices.id</key>
+	<string>ID :</string>
+	<key>registration.devices.title</key>
+	<string>Appareils</string>
+	<key>registration.email_flow.email_step.title</key>
+	<string>Modifier les informations</string>
+	<key>registration.email_flow.title</key>
+	<string>S’inscrire avec l'e-mail</string>
+	<key>registration.email_invitation.hero.paragraph</key>
+	<string>Choisissez un mot de passe pour créer votre compte.</string>
+	<key>registration.email_invitation.hero.title</key>
+	<string>Bonjour, %@</string>
+	<key>registration.email_invitation.title</key>
+	<string>Invitation</string>
+	<key>registration.enter_name.hero</key>
+	<string>Comment vous appelez-vous ?</string>
+	<key>registration.enter_name.placeholder</key>
+	<string>Votre nom complet</string>
+	<key>registration.enter_name.title</key>
+	<string>Modifier le nom</string>
+	<key>registration.enter_phone_number.placeholder</key>
+	<string>Numéro de téléphone</string>
+	<key>registration.enter_phone_number.title</key>
+	<string>Modifier le numéro de téléphone</string>
+	<key>registration.launch_back_button.label</key>
+	<string>Précédent</string>
+	<key>registration.no_history.got_it</key>
+	<string>OK</string>
+	<key>registration.no_history.hero</key>
+	<string>C'est la première fois que vous utilisez Wire sur cet appareil.</string>
+	<key>registration.no_history.logged_out.got_it</key>
+	<string>OK</string>
+	<key>registration.no_history.logged_out.hero</key>
+	<string>Vous avez déjà utilisé Wire sur cet appareil.</string>
+	<key>registration.no_history.logged_out.subtitle</key>
+	<string>Les messages envoyés entre-temps n’apparaîtront pas.</string>
+	<key>registration.no_history.restore_backup</key>
+	<string>Restaurer depuis une sauvegarde</string>
+	<key>registration.no_history.restore_backup.completed</key>
+	<string>Terminé</string>
+	<key>registration.no_history.restore_backup.password.message</key>
+	<string>Le mot de passe est nécessaire pour restaurer la sauvegarde.</string>
+	<key>registration.no_history.restore_backup.password.placeholder</key>
+	<string>Mot de passe</string>
+	<key>registration.no_history.restore_backup.password.title</key>
+	<string>Cette sauvegarde est protégée par mot de passe.</string>
+	<key>registration.no_history.restore_backup.password_error.title</key>
+	<string>Mot de passe incorrect</string>
+	<key>registration.no_history.restore_backup.restoring</key>
+	<string>Restauration…</string>
+	<key>registration.no_history.restore_backup_failed.message</key>
+	<string>Votre historique n’a pas pu être restauré.</string>
+	<key>registration.no_history.restore_backup_failed.title</key>
+	<string>Une erreur est survenue</string>
+	<key>registration.no_history.restore_backup_failed.try_again</key>
+	<string>Réessayer</string>
+	<key>registration.no_history.restore_backup_failed.wrong_account.message</key>
+	<string>Vous ne pouvez pas restaurer l’histoire d’un autre compte.</string>
+	<key>registration.no_history.restore_backup_failed.wrong_account.title</key>
+	<string>Sauvegarde incompatible</string>
+	<key>registration.no_history.restore_backup_failed.wrong_version.message</key>
+	<string>Cette sauvegarde a été créée par une version plus récente ou expirée de Wire et ne peut pas être restaurée ici.</string>
+	<key>registration.no_history.restore_backup_failed.wrong_version.title</key>
+	<string>Sauvegarde incompatible</string>
+	<key>registration.no_history.restore_backup_warning.message</key>
+	<string>Le contenu de la sauvegarde remplacera l'historique des conversations sur cet appareil. Vous pouvez uniquement restaurer des sauvegardes provenant du même système d'exploitation.</string>
+	<key>registration.no_history.restore_backup_warning.proceed</key>
+	<string>Choisir un fichier de sauvegarde</string>
+	<key>registration.no_history.restore_backup_warning.title</key>
+	<string>Restaurer l'historique</string>
+	<key>registration.no_history.subtitle</key>
+	<string>Pour des raisons de confidentialité, votre historique de conversation n'apparaîtra pas ici.</string>
+	<key>registration.password.rules.no_requirements</key>
+	<string>Utilisez %@.</string>
+	<key>registration.password.rules.with_requirements</key>
+	<string>Utilisez %@, avec %@.</string>
+	<key>registration.personal.title</key>
+	<string>Créer un compte</string>
+	<key>registration.phone.country_code.hint</key>
+	<string>Tapez deux fois pour utiliser un téléphone de ce pays.</string>
+	<key>registration.phone.verify.label</key>
+	<string>Vérifier votre numéro de téléphone</string>
+	<key>registration.phone.verify_field.label</key>
+	<string>Code de vérification</string>
+	<key>registration.phone_code</key>
+	<string>Indicatif du pays</string>
+	<key>registration.phone_code.hint</key>
+	<string>Tapez deux fois pour sélectionner un autre indicatif pays.</string>
+	<key>registration.phone_country</key>
+	<string>Pays</string>
+	<key>registration.phone_country.hint</key>
+	<string>Tapez deux fois pour sélectionner un autre pays.</string>
+	<key>registration.phone_invitation.hero.paragraph</key>
+	<string>Vous avez presque terminé de créer votre compte.</string>
+	<key>registration.phone_invitation.hero.title</key>
+	<string>Bonjour, %@</string>
+	<key>registration.phone_invitation.title</key>
+	<string>Invitation</string>
+	<key>registration.push_access_denied.hero.paragraph1</key>
+	<string>Activez les notifications dans les paramètres.</string>
+	<key>registration.push_access_denied.hero.title</key>
+	<string>Ne manquez jamais un appel ou un message.</string>
+	<key>registration.push_access_denied.maybe_later_button.title</key>
+	<string>Peut-être plus tard</string>
+	<key>registration.push_access_denied.settings_button.title</key>
+	<string>Allez dans les paramètres</string>
+	<key>registration.register_by_email</key>
+	<string>Email</string>
+	<key>registration.register_by_phone</key>
+	<string>Téléphone</string>
+	<key>registration.select_handle.takeover.choose_own</key>
+	<string>Choisissez le vôtre</string>
+	<key>registration.select_handle.takeover.keep_suggested</key>
+	<string>Garder celui-ci</string>
+	<key>registration.select_handle.takeover.subtitle</key>
+	<string>Choisissez votre nom d’utilisateur unique sur Wire.</string>
+	<key>registration.select_handle.takeover.subtitle_link</key>
+	<string>En savoir plus</string>
+	<key>registration.share_contacts.find_friends_button.title</key>
+	<string>Partagez vos contacts</string>
+	<key>registration.share_contacts.hero.paragraph</key>
+	<string>Partager vos contacts nous permet de vous connecter à d'autres personnes. Nous anonymisons toutes les informations et ne les partageons avec personne d'autre.</string>
+	<key>registration.share_contacts.hero.title</key>
+	<string>Trouver des contacts sur Wire</string>
+	<key>registration.share_contacts.skip_button.title</key>
+	<string>Pas maintenant</string>
+	<key>registration.signin.alert.password_needed.message</key>
+	<string>Veuillez saisir votre mot de passe pour vous connecter.</string>
+	<key>registration.signin.alert.password_needed.title</key>
+	<string>Mot de passe requis</string>
+	<key>registration.signin.title</key>
+	<string>Se connecter</string>
+	<key>registration.signin.too_many_devices.manage_button.title</key>
+	<string>Gérer les appareils</string>
+	<key>registration.signin.too_many_devices.manage_screen.title</key>
+	<string>Supprimer un appareil</string>
+	<key>registration.signin.too_many_devices.sign_out_button.title</key>
+	<string>Se déconnecter</string>
+	<key>registration.signin.too_many_devices.subtitle</key>
+	<string>Supprimez un de vos autres appareils pour commencer à utiliser Wire sur celui-ci.</string>
+	<key>registration.signin.too_many_devices.title</key>
+	<string>Trop d’Appareils</string>
+	<key>registration.terms_of_use.accept</key>
+	<string>Accepter</string>
+	<key>registration.terms_of_use.agree</key>
+	<string>J'accepte</string>
+	<key>registration.terms_of_use.terms</key>
+	<string>En continuant, vous acceptez les conditions d’utilisation de Wire.</string>
+	<key>registration.terms_of_use.terms.link</key>
+	<string>Conditions d'utilisation</string>
+	<key>registration.terms_of_use.terms.message</key>
+	<string>Veuillez accepter les conditions d’utilisation pour continuer.</string>
+	<key>registration.terms_of_use.terms.title</key>
+	<string>Conditions d'utilisation</string>
+	<key>registration.terms_of_use.terms.view</key>
+	<string>Voir</string>
+	<key>registration.terms_of_use.title</key>
+	<string>Bienvenue sur Wire.</string>
+	<key>registration.title</key>
+	<string>Inscription</string>
+	<key>registration.verify_email.instructions</key>
+	<string>Nous avons envoyé un e-mail à %@.
+Cliquez sur le lien afin de vérifier votre adresse.</string>
+	<key>registration.verify_email.resend.button_title</key>
+	<string>Renvoyer</string>
+	<key>registration.verify_email.resend.instructions</key>
+	<string>Message non reçu ?</string>
+	<key>registration.verify_phone_number.instructions</key>
+	<string>Saisissez le code de vérification que nous avons envoyé au %@</string>
+	<key>registration.verify_phone_number.resend</key>
+	<string>Renvoyer</string>
+	<key>registration.verify_phone_number.resend_placeholder</key>
+	<string>Aucun code à l'horizon ?
+Vous pourrez en demander un nouveau dans %.0f secondes</string>
+	<key>self.about</key>
+	<string>À propos</string>
+	<key>self.accessibility.profile_photo_edit_button</key>
+	<string>Changez votre photo de profil</string>
+	<key>self.accessibility.profile_photo_image</key>
+	<string>Photo de profil</string>
+	<key>self.account</key>
+	<string>Compte</string>
+	<key>self.add_email_password</key>
+	<string>Ajouter une adresse e-mail et un mot de passe</string>
+	<key>self.add_phone_number</key>
+	<string>Ajouter un numéro de téléphone</string>
+	<key>self.help_center</key>
+	<string>Assistance</string>
+	<key>self.help_center.contact_support</key>
+	<string>Contacter l'assistance technique</string>
+	<key>self.help_center.support_website</key>
+	<string>Site d'assistance de Wire</string>
+	<key>self.new-device.voiceover.label</key>
+	<string>Profil, de nouveaux appareils ont été ajoutés</string>
+	<key>self.new_device_alert.manage_devices</key>
+	<string>Gérer les appareils</string>
+	<key>self.new_device_alert.message</key>
+	<string>
+%@
+
+Si vous ne reconnaissez pas l'appareil ci-dessus, supprimez-le et changez votre mot de passe.</string>
+	<key>self.new_device_alert.message_plural</key>
+	<string>
+%@
+
+Si vous ne reconnaissez pas les appareils ci-dessus, supprimez-les et changez votre mot de passe.</string>
+	<key>self.new_device_alert.title</key>
+	<string>Votre compte a été utilisé sur :</string>
+	<key>self.new_device_alert.trust_devices</key>
+	<string>OK</string>
+	<key>self.profile</key>
+	<string>Profil</string>
+	<key>self.read_receipts_description.title</key>
+	<string>Vous pouvez changer cette option dans les paramètres de votre compte.</string>
+	<key>self.read_receipts_disabled.title</key>
+	<string>Vous avez désactivé les accusés de lecture</string>
+	<key>self.read_receipts_enabled.title</key>
+	<string>Vous avez activé les accusés de lecture</string>
+	<key>self.report_abuse</key>
+	<string>Signaler un abus</string>
+	<key>self.settings</key>
+	<string>Paramètres</string>
+	<key>self.settings.account.data_usage_permissions.title</key>
+	<string>Utilisation des Données Personnelles</string>
+	<key>self.settings.account_appearance_group.title</key>
+	<string>Apparence</string>
+	<key>self.settings.account_details.actions.title</key>
+	<string>Actions</string>
+	<key>self.settings.account_details.delete_account.alert.message</key>
+	<string>Nous allons vous envoyer un e-mail ou un SMS. Cliquez sur le lien pour supprimer définitivement votre compte.</string>
+	<key>self.settings.account_details.delete_account.alert.title</key>
+	<string>Supprimer le compte</string>
+	<key>self.settings.account_details.delete_account.title</key>
+	<string>Supprimer le compte</string>
+	<key>self.settings.account_details.key_fingerprint.title</key>
+	<string>Empreinte numérique</string>
+	<key>self.settings.account_details.log_out.alert.message</key>
+	<string>L'historique de vos messages sera effacé de cet appareil.</string>
+	<key>self.settings.account_details.log_out.alert.password</key>
+	<string>Mot de passe</string>
+	<key>self.settings.account_details.log_out.alert.title</key>
+	<string>Se déconnecter</string>
+	<key>self.settings.account_details.remove_device.message</key>
+	<string>Votre mot de passe est nécessaire pour supprimer l’appareil</string>
+	<key>self.settings.account_details.remove_device.password</key>
+	<string>Mot de passe</string>
+	<key>self.settings.account_details.remove_device.password.error</key>
+	<string>Mot de passe incorrect</string>
+	<key>self.settings.account_details.remove_device.title</key>
+	<string>Supprimer l'appareil</string>
+	<key>self.settings.account_details_group.info.footer</key>
+	<string>Vos contacts peuvent vous retrouver grâce à ces informations.</string>
+	<key>self.settings.account_details_group.info.title</key>
+	<string>Informations</string>
+	<key>self.settings.account_details_group.personal.footer</key>
+	<string>Cette information n’est pas visible.</string>
+	<key>self.settings.account_details_group.personal.title</key>
+	<string>Personnel</string>
+	<key>self.settings.account_personal_information_group.title</key>
+	<string>Données Personnelles</string>
+	<key>self.settings.account_picture_group.color</key>
+	<string>Couleur</string>
+	<key>self.settings.account_picture_group.picture</key>
+	<string>Image</string>
+	<key>self.settings.account_picture_group.theme</key>
+	<string>Thème sombre</string>
+	<key>self.settings.account_section</key>
+	<string>Compte</string>
+	<key>self.settings.account_section.add_handle.title</key>
+	<string>Choisir un identifiant</string>
+	<key>self.settings.account_section.email.change.resend.message</key>
+	<string>L'e-mail de confirmation a été renvoyé à %@. Vérifiez votre boîte de réception et suivez les instructions.</string>
+	<key>self.settings.account_section.email.change.resend.title</key>
+	<string>E-mail renvoyé</string>
+	<key>self.settings.account_section.email.change.save</key>
+	<string>Enregistrer</string>
+	<key>self.settings.account_section.email.change.title</key>
+	<string>E-mail</string>
+	<key>self.settings.account_section.email.change.verify.description</key>
+	<string>Vérifiez votre boîte de réception et suivez les instructions.</string>
+	<key>self.settings.account_section.email.change.verify.resend</key>
+	<string>Renvoyer à %@</string>
+	<key>self.settings.account_section.email.change.verify.title</key>
+	<string>Vérifier l'adresse e-mail</string>
+	<key>self.settings.account_section.email.title</key>
+	<string>E-mail</string>
+	<key>self.settings.account_section.handle.change.failure_alert.message</key>
+	<string>Une erreur s'est produite lors de l'enregistrement de votre nom d'utilisateur. Veuillez réessayer.</string>
+	<key>self.settings.account_section.handle.change.failure_alert.title</key>
+	<string>Impossible d'enregistrer le nom d'utilisateur</string>
+	<key>self.settings.account_section.handle.change.footer</key>
+	<string>Au moins 2 caractères. Uniquement a–z, 0–9 et _.</string>
+	<key>self.settings.account_section.handle.change.footer.unavailable</key>
+	<string>Déjà pris</string>
+	<key>self.settings.account_section.handle.change.save</key>
+	<string>Enregistrer</string>
+	<key>self.settings.account_section.handle.change.title</key>
+	<string>Nom d'utilisateur</string>
+	<key>self.settings.account_section.handle.title</key>
+	<string>Nom d'utilisateur</string>
+	<key>self.settings.account_section.name.title</key>
+	<string>Nom</string>
+	<key>self.settings.account_section.phone.title</key>
+	<string>Téléphone</string>
+	<key>self.settings.account_section.phone_number.change.remove</key>
+	<string>Supprimer le numéro de téléphone</string>
+	<key>self.settings.account_section.phone_number.change.remove.action</key>
+	<string>Supprimer le numéro de téléphone</string>
+	<key>self.settings.account_section.phone_number.change.resend.message</key>
+	<string>Le code de vérification a été renvoyé à %@.</string>
+	<key>self.settings.account_section.phone_number.change.resend.title</key>
+	<string>Code renvoyé</string>
+	<key>self.settings.account_section.phone_number.change.save</key>
+	<string>Enregistrer</string>
+	<key>self.settings.account_section.phone_number.change.title</key>
+	<string>Téléphone</string>
+	<key>self.settings.account_section.phone_number.change.verify.code_placeholder</key>
+	<string>Saisissez le code</string>
+	<key>self.settings.account_section.phone_number.change.verify.description</key>
+	<string>Saisissez le code de vérification que nous avons envoyé au : %@.</string>
+	<key>self.settings.account_section.phone_number.change.verify.resend</key>
+	<string>Renvoyer le code</string>
+	<key>self.settings.account_section.phone_number.change.verify.resend_description</key>
+	<string>Aucun code à l'horizon ?
+Vous pouvez en demander un nouveau toutes les 30 secondes.</string>
+	<key>self.settings.account_section.phone_number.change.verify.save</key>
+	<string>Enregistrer</string>
+	<key>self.settings.account_section.phone_number.change.verify.title</key>
+	<string>Vérifier</string>
+	<key>self.settings.add_account.error.message</key>
+	<string>Vous ne pouvez vous connecter qu'à trois comptes à la fois. Déconnectez-vous de l'un d'entre eux pour en ajouter un autre.</string>
+	<key>self.settings.add_account.error.title</key>
+	<string>Trois comptes actifs</string>
+	<key>self.settings.add_account.title</key>
+	<string>Ajouter un compte</string>
+	<key>self.settings.add_team_or_account.title</key>
+	<string>Ajouter un Compte</string>
+	<key>self.settings.advanced.debugging_tools.first_unread_conversation.title</key>
+	<string>Find first unread conversation</string>
+	<key>self.settings.advanced.debugging_tools.title</key>
+	<string>Debugging Tools</string>
+	<key>self.settings.advanced.reset_push_token.subtitle</key>
+	<string>Si vous rencontrez des problèmes avec les notifications push, l'assistance de Wire peut vous demander de réinitialiser ce jeton.</string>
+	<key>self.settings.advanced.reset_push_token.title</key>
+	<string>Réinitialiser le jeton des notifications Push</string>
+	<key>self.settings.advanced.reset_push_token_alert.message</key>
+	<string>Les notifications seront restaurées dans quelques secondes.</string>
+	<key>self.settings.advanced.reset_push_token_alert.title</key>
+	<string>Le jeton pour les notifications Push a été réinitialisé</string>
+	<key>self.settings.advanced.title</key>
+	<string>Avancé</string>
+	<key>self.settings.advanced.troubleshooting.submit_debug.subtitle</key>
+	<string>Cette information aide Wire à identifier les problèmes d'appel et à améliorer l'experience globale de l'application.</string>
+	<key>self.settings.advanced.troubleshooting.submit_debug.title</key>
+	<string>Rapport d'erreur</string>
+	<key>self.settings.advanced.troubleshooting.title</key>
+	<string>Dépannage</string>
+	<key>self.settings.advanced.version_technical_details.title</key>
+	<string>Détails techniques de la version</string>
+	<key>self.settings.apns_logging.title</key>
+	<string>Enregistrement des APNS</string>
+	<key>self.settings.callkit.caption</key>
+	<string>Partager avec iOS</string>
+	<key>self.settings.callkit.description</key>
+	<string>Affiche les appels Wire sur l'écran de verrouillage et dans le journal des appels iOS. Si iCloud est activé, le journal des appels est partagé avec Apple.</string>
+	<key>self.settings.callkit.title</key>
+	<string>Appels</string>
+	<key>self.settings.conversations.title</key>
+	<string>Historique</string>
+	<key>self.settings.create_team.title</key>
+	<string>Créer une équipe</string>
+	<key>self.settings.developer_options.title</key>
+	<string>Options du développeur</string>
+	<key>self.settings.device_details.fingerprint.subtitle</key>
+	<string>Wire attribue à chaque appareil une empreinte numérique unique. Comparez-les et vérifiez vos appareils et conversations.</string>
+	<key>self.settings.device_details.remove_device.subtitle</key>
+	<string>Supprimez cet appareil si vous ne l'utilisez plus. Vous serez déconnecté de cet appareil immédiatement.</string>
+	<key>self.settings.device_details.reset_session.subtitle</key>
+	<string>Si les empreintes numériques ne correspondent pas, réinitialisez la session afin de générer de nouvelles clés de chiffrement des deux côtés.</string>
+	<key>self.settings.device_details.reset_session.success</key>
+	<string>La session a été réinitialisée</string>
+	<key>self.settings.enable_read_receipts.title</key>
+	<string>Envoyer des Accusés de Lecture</string>
+	<key>self.settings.external_apps.header</key>
+	<string>Ouvrir avec</string>
+	<key>self.settings.history_backup.action</key>
+	<string>Sauvegarder</string>
+	<key>self.settings.history_backup.description</key>
+	<string>Créez une sauvegarde pour enregistrer votre historique des conversations. Vous pourrez l'utiliser si vous perdez votre appareil, ou si vous en utilisez un nouveau.</string>
+	<key>self.settings.history_backup.error.title</key>
+	<string>Erreur</string>
+	<key>self.settings.history_backup.password.cancel</key>
+	<string>Annuler</string>
+	<key>self.settings.history_backup.password.description</key>
+	<string>La sauvegarde sera compressée et chiffrée avec le mot de passe que vous entrez ici.</string>
+	<key>self.settings.history_backup.password.next</key>
+	<string>Suivant</string>
+	<key>self.settings.history_backup.password.placeholder</key>
+	<string>Mot de passe</string>
+	<key>self.settings.history_backup.password.title</key>
+	<string>Définir un mot de passe</string>
+	<key>self.settings.history_backup.set_email.message</key>
+	<string>Vous devez définir une adresse email et un mot de passe pour pouvoir faire une sauvegarde de vos conversations. Vous pouvez les définir dans la section compte des paramètres.</string>
+	<key>self.settings.history_backup.set_email.title</key>
+	<string>Définir une adresse email et un mot de passe.</string>
+	<key>self.settings.history_backup.title</key>
+	<string>Sauvegarder les conversations</string>
+	<key>self.settings.invite_friends.title</key>
+	<string>Inviter des contacts</string>
+	<key>self.settings.link_options.browser.title</key>
+	<string>Navigateur</string>
+	<key>self.settings.link_options.maps.title</key>
+	<string>Positions</string>
+	<key>self.settings.link_options.twitter.title</key>
+	<string>Tweets</string>
+	<key>self.settings.manage_team.title</key>
+	<string>Gérer l’équipe</string>
+	<key>self.settings.notifications.chat_alerts.footer</key>
+	<string>Nouveaux messages dans les autres conversations.</string>
+	<key>self.settings.notifications.chat_alerts.toggle</key>
+	<string>Bannières</string>
+	<key>self.settings.notifications.push_notification.footer</key>
+	<string>Nom de l’expéditeur et message sur l’écran de verrouillage ainsi que dans le Centre de notification.</string>
+	<key>self.settings.notifications.push_notification.title</key>
+	<string>Notifications</string>
+	<key>self.settings.notifications.push_notification.toogle</key>
+	<string>Aperçus des messages</string>
+	<key>self.settings.options_menu.title</key>
+	<string>Options</string>
+	<key>self.settings.password_reset_menu.title</key>
+	<string>Réinitialiser votre mot de passe</string>
+	<key>self.settings.popular_demand.dark_mode.footer</key>
+	<string>Basculer entre le thème sombre et clair.</string>
+	<key>self.settings.popular_demand.send_button.footer</key>
+	<string>Désactiver pour envoyer en appuyant sur la touche entrée.</string>
+	<key>self.settings.popular_demand.send_button.title</key>
+	<string>Bouton d'envoi</string>
+	<key>self.settings.popular_demand.title</key>
+	<string>À la demande générale</string>
+	<key>self.settings.privacy.clear_history.subtitle</key>
+	<string>Cette opération effacera définitivement le contenu de toutes vos conversations.</string>
+	<key>self.settings.privacy.clear_history.title</key>
+	<string>Effacer l'historique</string>
+	<key>self.settings.privacy_analytics.title</key>
+	<string>Envoyer des données anonymement</string>
+	<key>self.settings.privacy_analytics_menu.description.title</key>
+	<string>Vous pouvez aider à améliorer Wire en envoyant des données anonymes sur votre utilisation et des rapports d'erreur.</string>
+	<key>self.settings.privacy_analytics_menu.devices.title</key>
+	<string>Appareils</string>
+	<key>self.settings.privacy_analytics_section.title</key>
+	<string>Rapports d’utilisation et de plantage</string>
+	<key>self.settings.privacy_contacts_menu.description_disabled.title</key>
+	<string>Cela vous permet de vous connecter à d'autres personnes. Nous anonymisons toutes les informations et ne les partageons avec personne d'autre. Autorisez l'accès via Paramètres &gt; Confidentialité &gt; Contacts.</string>
+	<key>self.settings.privacy_contacts_menu.settings_button.title</key>
+	<string>Ouvrir les paramètres de Contacts</string>
+	<key>self.settings.privacy_contacts_section.title</key>
+	<string>Contacts</string>
+	<key>self.settings.privacy_section_group.subtitle</key>
+	<string>Si cette option est désactivée, vous ne pourrez pas voir les accusés de lecture d'autres destinataires.
+
+Cette option ne s'applique pas aux conversations de groupe.</string>
+	<key>self.settings.privacy_section_group.title</key>
+	<string>Confidentialité</string>
+	<key>self.settings.privacy_security.disable_link_previews.footer</key>
+	<string>Les aperçus peuvent toujours s'afficher pour les liens venant d'autres contacts.</string>
+	<key>self.settings.privacy_security.disable_link_previews.title</key>
+	<string>Créer un aperçu des liens</string>
+	<key>self.settings.privacy_security.lock_app</key>
+	<string>Verrouiller avec un code</string>
+	<key>self.settings.privacy_security.lock_app.description</key>
+	<string>Déverrouiller Wire</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.face_id</key>
+	<string>Déverrouiller avec Face ID ou saisie du code.</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.lock_description</key>
+	<string>Verrouiller Wire après %@.</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.none</key>
+	<string>Déverrouiller en saisissant le code.</string>
+	<key>self.settings.privacy_security.lock_app.subtitle.touch_id</key>
+	<string>Déverrouiller avec Touch ID ou saisie du code.</string>
+	<key>self.settings.privacy_security.lock_cancelled.action</key>
+	<string>Déverrouiller</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_face_id</key>
+	<string>Déverrouillez Wire avec Face ID ou votre Code</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_passcode</key>
+	<string>Déverrouillez Wire avec votre Code</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_passcode_unavailable</key>
+	<string>Pour déverrouiller Wire, veuillez configurer votre code d'authentification dans les paramètres de votre appareil</string>
+	<key>self.settings.privacy_security.lock_cancelled.description_touch_id</key>
+	<string>Déverrouillez Wire avec Touch ID ou votre Code</string>
+	<key>self.settings.privacy_security.lock_password.description.unlock</key>
+	<string>Déverrouillez avec votre mot de passe.</string>
+	<key>self.settings.privacy_security.lock_password.description.wrong_offline_password</key>
+	<string>Mot de passe incorrect. Si vous avez récemment changé votre mot de passe, connectez-vous à internet et réessayez.</string>
+	<key>self.settings.privacy_security.lock_password.description.wrong_password</key>
+	<string>Mot de passe incorrect. Veuillez réessayer.</string>
+	<key>self.settings.receiveNews_and_offers.description.title</key>
+	<string>Recevoir des e-mails sur les nouveautés de Wire.</string>
+	<key>self.settings.receiveNews_and_offers.title</key>
+	<string>Recevoir notre Newsletter</string>
+	<key>self.settings.sound_menu.all_sounds.title</key>
+	<string>Toutes</string>
+	<key>self.settings.sound_menu.message.title</key>
+	<string>Son d'alertes</string>
+	<key>self.settings.sound_menu.mute_while_talking.title</key>
+	<string>Premier message et signes</string>
+	<key>self.settings.sound_menu.no_sounds.title</key>
+	<string>Aucune</string>
+	<key>self.settings.sound_menu.ping.title</key>
+	<string>Signe</string>
+	<key>self.settings.sound_menu.ringtone.title</key>
+	<string>Sonnerie</string>
+	<key>self.settings.sound_menu.ringtones.title</key>
+	<string>Sonneries</string>
+	<key>self.settings.sound_menu.sounds.none</key>
+	<string>Aucun</string>
+	<key>self.settings.sound_menu.sounds.title</key>
+	<string>Sons</string>
+	<key>self.settings.sound_menu.sounds.wire_call</key>
+	<string>Appel Wire</string>
+	<key>self.settings.sound_menu.sounds.wire_message</key>
+	<string>Message Wire</string>
+	<key>self.settings.sound_menu.sounds.wire_ping</key>
+	<string>Signe Wire</string>
+	<key>self.settings.sound_menu.sounds.wire_sound</key>
+	<string>Wire</string>
+	<key>self.settings.sound_menu.title</key>
+	<string>Alertes sonores</string>
+	<key>self.settings.switch_account.action</key>
+	<string>Changer quand même</string>
+	<key>self.settings.switch_account.message</key>
+	<string>Vous êtes actuellement dans un appel avec ce compte.
+Changer de compte raccrochera l'autre appel.</string>
+	<key>self.settings.technical_report.include_log</key>
+	<string>Inclure le rapport détaillé</string>
+	<key>self.settings.technical_report.mail.subject</key>
+	<string>Rapport d'erreur Wire</string>
+	<key>self.settings.technical_report.no_mail_alert</key>
+	<string>Aucun client de messagerie détecté. Appuyez sur "OK" et envoyer les enregistrements manuellement à : </string>
+	<key>self.settings.technical_report.privacy_warning</key>
+	<string>Les rapports détaillés pourraient contenir des données personnelles</string>
+	<key>self.settings.technical_report.send_report</key>
+	<string>Envoyer le rapport à Wire</string>
+	<key>self.settings.technical_report_section.title</key>
+	<string>Rapport technique</string>
+	<key>self.settings.vbr.description</key>
+	<string>Les appels audio utiliseront moins de données et fonctionneront mieux sur des réseaux plus lents. Désactiver pour utiliser un échantillonnage constant (CBR).</string>
+	<key>self.settings.vbr.title</key>
+	<string>Échantillonnage variable (VBR)</string>
+	<key>self.sign_out</key>
+	<string>Déconnexion</string>
+	<key>self.voiceover.hint</key>
+	<string>Ouvrir le profil et les paramètres</string>
+	<key>self.voiceover.label</key>
+	<string>Profil</string>
+	<key>send_invitation.subject</key>
+	<string>Rejoins-moi sur Wire</string>
+	<key>send_invitation.text</key>
+	<string>Je suis sur Wire, cherche %@ ou va sur get.wire.com</string>
+	<key>send_invitation_no_email.text</key>
+	<string>Je suis sur Wire. Va sur get.wire.com pour me rejoindre.</string>
+	<key>share_extension.voiceover.conversation_secure</key>
+	<string>Tous les clients ont été vérifiés.</string>
+	<key>share_extension.voiceover.conversation_secure_with_ignored</key>
+	<string>Tous les clients n'ont pas été vérifiés.</string>
+	<key>share_extension.voiceover.conversation_under_legal_hold</key>
+	<string>Soumis à la conservation à des fins juridiques.</string>
+	<key>shortcut.mark_all_as_read.title</key>
+	<string>Tout marquer comme lu</string>
+	<key>signin.company_idp.button.title</key>
+	<string>Entreprises</string>
+	<key>signin.confirm</key>
+	<string>Se connecter</string>
+	<key>signin.email.missing_password.subtitle</key>
+	<string>Entrez votre adresse email et votre mot de passe pour continuer.</string>
+	<key>signin.forgot_password</key>
+	<string>Mot de passe oublié ?</string>
+	<key>signin.phone.missing_password.subtitle</key>
+	<string>Entrez votre numéro de téléphone pour continuer.</string>
+	<key>signin.use_email.label</key>
+	<string>Connexion avec votre adresse email</string>
+	<key>signin.use_one_password.hint</key>
+	<string>Tapez deux fois pour renseigner votre mot de passe avec 1Password</string>
+	<key>signin.use_one_password.label</key>
+	<string>Connexion avec 1Password</string>
+	<key>signin.use_phone.label</key>
+	<string>Connexion avec votre numéro de téléphone</string>
+	<key>signin_logout.email.subheadline</key>
+	<string>Votre session a expiré. Entrez votre adresse email et votre mot de passe pour continuer.</string>
+	<key>signin_logout.phone.subheadline</key>
+	<string>Votre session a expiré. Entrez votre numéro de téléphone de continuer.</string>
+	<key>signin_logout.sso.buton</key>
+	<string>Connection Entreprise</string>
+	<key>signin_logout.sso.subheadline</key>
+	<string>Votre session a expiré. Connectez-vous avec votre compte entreprise pour continuer.</string>
+	<key>signin_logout.subheadline</key>
+	<string>Votre session a expiré, veuillez vous reconnecter pour continuer.</string>
+	<key>sketchpad.initial_hint</key>
+	<string>Appuyez sur les couleurs pour changer la taille du pinceau</string>
+	<key>system_status_bar.no_internet.explanation</key>
+	<string>Il semble y avoir un problème avec votre connexion Internet. Merci de vous assurer de son bon fonctionnement.</string>
+	<key>system_status_bar.no_internet.title</key>
+	<string>Pas de connexion Internet</string>
+	<key>system_status_bar.poor_connectivity.explanation</key>
+	<string>Nous ne pouvons garantir la qualité de la voix. Connectez-vous à un réseau Wi-Fi ou essayez de vous déplacer.</string>
+	<key>system_status_bar.poor_connectivity.title</key>
+	<string>Connexion Internet lente, impossible d’effectuer un appel</string>
+	<key>team.activation_code.button.change_email</key>
+	<string>Modifier l’adresse e-mail</string>
+	<key>team.activation_code.button.change_phone</key>
+	<string>Changer le numéro de téléphone</string>
+	<key>team.activation_code.button.resend</key>
+	<string>Renvoyer le code</string>
+	<key>team.activation_code.headline</key>
+	<string>Vous avez du courrier</string>
+	<key>team.activation_code.subheadline</key>
+	<string>Saisir le code de vérification que nous avons envoyé à %@.</string>
+	<key>team.email.button.learn_more</key>
+	<string>En savoir plus</string>
+	<key>team.email.headline</key>
+	<string>Votre compte</string>
+	<key>team.email.subheadline</key>
+	<string>Saisissez votre adresse e-mail professionnelle.</string>
+	<key>team.email.textfield.placeholder</key>
+	<string>Votre adresse e-mail pro</string>
+	<key>team.full_name.headline</key>
+	<string>Votre nom</string>
+	<key>team.full_name.textfield.accessibility</key>
+	<string>Définir le nom complet</string>
+	<key>team.full_name.textfield.placeholder</key>
+	<string>Nom complet</string>
+	<key>team.invite.error.already_invited</key>
+	<string>Une invitation a déjà été envoyée à cette adresse</string>
+	<key>team.invite.error.already_registered</key>
+	<string>Cette adresse email est déjà associée à un utilisateur</string>
+	<key>team.invite.error.generic</key>
+	<string>Une erreur s'est produite, veuillez réessayer</string>
+	<key>team.invite.error.no_internet</key>
+	<string>Pas de connexion internet</string>
+	<key>team.invite.error.too_many_invitations</key>
+	<string>Le nombre maximal d'invitations possibles a été atteint</string>
+	<key>team.invite.header.subtitle</key>
+	<string>Votre équipe Wire est prête. Invitez vos collègues à devenir membres.</string>
+	<key>team.invite.header.title</key>
+	<string>Créez votre équipe</string>
+	<key>team.invite.learn_more.title</key>
+	<string>En savoir plus</string>
+	<key>team.invite.textfield.accesibility</key>
+	<string>Entrez l'adresse email de la personne à inviter.</string>
+	<key>team.invite.textfield.placeholder</key>
+	<string>E-mail d'un collègue</string>
+	<key>team.invite.top_bar.done</key>
+	<string>Terminé</string>
+	<key>team.invite.top_bar.skip</key>
+	<string>Passer</string>
+	<key>team.name.headline</key>
+	<string>Nommez votre équipe</string>
+	<key>team.name.subheadline</key>
+	<string>Vous pourrez toujours le modifier plus tard.</string>
+	<key>team.name.textfield.accessibility</key>
+	<string>Définir le nom de l'équipe</string>
+	<key>team.name.textfield.placeholder</key>
+	<string>nom de l'équipe</string>
+	<key>team.name.whatiswireforteams</key>
+	<string>Qu'est-ce que Wire Pro ?</string>
+	<key>team.password.headline</key>
+	<string>Définir le mot de passe</string>
+	<key>team.phone_activation_code.headline</key>
+	<string>Vérification</string>
+	<key>tool_tip.contacts.message</key>
+	<string>Commencez une conversation. Appelez, envoyez des messages et partagez en privé ou en groupe.</string>
+	<key>tool_tip.contacts.title</key>
+	<string>Les conversations commencent ici</string>
+	<key>twitter_status.on_twitter</key>
+	<string>%@ via Twitter</string>
+	<key>url_action.authorization_required.message</key>
+	<string>Vous devez vous connecter pour voir ce contenu.</string>
+	<key>url_action.authorization_required.title</key>
+	<string>Autorisation requise.</string>
+	<key>url_action.confirm</key>
+	<string>Confirmer</string>
+	<key>url_action.connect_to_bot.message</key>
+	<string>Voulez-vous vous connecter à ce service ?</string>
+	<key>url_action.invalid_conversation.message</key>
+	<string>Il est possible que vous n'ayez pas l'autorisation de voir ce compte, ou que cette personne ne soit pas sur Wire.</string>
+	<key>url_action.invalid_conversation.title</key>
+	<string>Wire ne peut pas ouvrir cette conversation.</string>
+	<key>url_action.invalid_link.message</key>
+	<string>Le lien que vous avez ouvert n'est pas valide.</string>
+	<key>url_action.invalid_link.title</key>
+	<string>Lien invalide.</string>
+	<key>url_action.invalid_user.message</key>
+	<string>Il est possible que vous ne soyez pas autorisé à voir ce compte, ou qu'il n’existe plus.</string>
+	<key>url_action.invalid_user.title</key>
+	<string>Wire ne peut pas trouver cette personne.</string>
+	<key>url_action.switch_backend.error.invalid_backend</key>
+	<string>Veuillez vérifier votre connexion internet, vérifier le lien et essayer à nouveau.</string>
+	<key>url_action.switch_backend.error.invalid_backend.title</key>
+	<string>Le serveur ne répond pas</string>
+	<key>url_action.switch_backend.error.logged_in</key>
+	<string>Vous êtes déjà connecté. Pour vous connecter à ce serveur, veuillez vous déconnecter de tous vos comptes et essayer à nouveau.</string>
+	<key>url_action.switch_backend.error.logged_in.title</key>
+	<string>Impossible de changer de serveur</string>
+	<key>url_action.switch_backend.message</key>
+	<string>Cette configuration va connecter l’application au serveur tiers :
+%@</string>
+	<key>url_action.switch_backend.title</key>
+	<string>Se connecter au serveur</string>
+	<key>url_action.title</key>
+	<string>Confirmer</string>
+	<key>user_cell.title.you_suffix</key>
+	<string> (Vous)</string>
+	<key>verification.code_hint</key>
+	<string>Appuyez deux fois pour entrer le code.</string>
+	<key>verification.code_label</key>
+	<string>Code à six chiffres. Champ de texte.</string>
+	<key>video_call.camera_access.denied</key>
+	<string>Wire ne peut pas utiliser l'appareil photo</string>
+	<key>voice.accept_button.title</key>
+	<string>Accepter</string>
+	<key>voice.alert.call_in_progress.confirm</key>
+	<string>OK</string>
+	<key>voice.alert.call_in_progress.message</key>
+	<string>Vous ne pouvez avoir qu’un seul appel actif à la fois</string>
+	<key>voice.alert.call_in_progress.title</key>
+	<string>Appel en cours</string>
+	<key>voice.alert.camera_warning.title</key>
+	<string>Wire a besoin d’accéder à l'appareil photo.</string>
+	<key>voice.alert.microphone_warning.title</key>
+	<string>Wire a besoin d’accéder au micro.</string>
+	<key>voice.call_button.title</key>
+	<string>Appeler</string>
+	<key>voice.call_error.unsupported_version.dismiss</key>
+	<string>Plus tard</string>
+	<key>voice.call_error.unsupported_version.message</key>
+	<string>Vous avez reçu un appel qui n’est pas pris en charge par cette version de Wire.
+Téléchargez la dernière version depuis l’App Store.</string>
+	<key>voice.call_error.unsupported_version.title</key>
+	<string>Veuillez mettre à jour Wire</string>
+	<key>voice.cancel_button.title</key>
+	<string>Annuler</string>
+	<key>voice.decline_button.title</key>
+	<string>Refuser</string>
+	<key>voice.degradation.new_self_device</key>
+	<string>Vous utilisez un nouvel appareil.</string>
+	<key>voice.degradation.new_user_device</key>
+	<string>%@ utilise un nouvel appareil.</string>
+	<key>voice.degradation_incoming.prompt</key>
+	<string>Voulez-vous toujours prendre l'appel ?</string>
+	<key>voice.degradation_outgoing.prompt</key>
+	<string>Voulez-vous toujours appeler ?</string>
+	<key>voice.end_call_button.title</key>
+	<string>Raccrocher</string>
+	<key>voice.flip_video_button.title</key>
+	<string>Inverser</string>
+	<key>voice.hang_up_button.title</key>
+	<string>Raccrocher</string>
+	<key>voice.mute_button.title</key>
+	<string>Mettre en sourdine</string>
+	<key>voice.network_error.body</key>
+	<string>Vous devez être connecté pour appeler. Vérifiez votre connexion et réessayez.</string>
+	<key>voice.network_error.title</key>
+	<string>Pas de connexion internet</string>
+	<key>voice.speaker_button.title</key>
+	<string>Haut-parleur</string>
+	<key>voice.status.cbr</key>
+	<string>Échantillonnage constant (CBR)</string>
+	<key>voice.status.group_call.incoming</key>
+	<string>%@
+Appel Entrant</string>
+	<key>voice.status.joining</key>
+	<string>%@
+Connexion</string>
+	<key>voice.status.leaving</key>
+	<string>%@ a raccroché</string>
+	<key>voice.status.low_connection</key>
+	<string>Mauvaise connexion</string>
+	<key>voice.status.one_to_one.incoming</key>
+	<string>Appel de %@</string>
+	<key>voice.status.one_to_one.outgoing</key>
+	<string>%@
+Appel</string>
+	<key>voice.status.video_not_available</key>
+	<string>Vidéo désactivée</string>
+	<key>voice.top_overlay.accessibility_title</key>
+	<string>Appel en cours</string>
+	<key>voice.top_overlay.tap_to_return</key>
+	<string>Cliquez pour revenir à l'appel</string>
+	<key>voice.video_button.title</key>
+	<string>Vidéo</string>
+</dict>
+</plist>

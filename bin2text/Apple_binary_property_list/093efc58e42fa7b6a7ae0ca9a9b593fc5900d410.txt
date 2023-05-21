@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>suggestions.%dsuggestions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@suggestions@ є в наявності</string>
+		<key>suggestions</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d пропозиції</string>
+			<key>one</key>
+			<string>%d пропозиція</string>
+			<key>many</key>
+			<string>%d пропозицій</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d пропозиції</string>
+		</dict>
+	</dict>
+	<key>accounts.list.groupmember%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@, %#@items@, у групі</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d нагадування</string>
+			<key>one</key>
+			<string>%d нагадування</string>
+			<key>many</key>
+			<string>%d нагадувань</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d нагадування</string>
+		</dict>
+	</dict>
+	<key>accounts.list.name%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@, %#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d нагадування</string>
+			<key>one</key>
+			<string>%d нагадування</string>
+			<key>many</key>
+			<string>%d нагадувань</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d нагадування</string>
+		</dict>
+	</dict>
+	<key>reminders.%dsubtasks.collapsed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@subtasks@</string>
+		<key>subtasks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d згорнуті підзавдання</string>
+			<key>one</key>
+			<string>%d згорнуте підзавдання</string>
+			<key>many</key>
+			<string>%d згорнутих підзавдань</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d згорнутого підзавдання</string>
+		</dict>
+	</dict>
+	<key>reminders.%dsubtasks.expanded</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@subtasks@</string>
+		<key>subtasks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d підзавдання</string>
+			<key>one</key>
+			<string>%d підзавдання</string>
+			<key>many</key>
+			<string>%d підзавдань</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d підзавдання</string>
+		</dict>
+	</dict>
+	<key>accounts.list.groupname%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@, група, %#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d нагадування</string>
+			<key>one</key>
+			<string>%d нагадування</string>
+			<key>many</key>
+			<string>%d нагадувань</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d нагадування</string>
+		</dict>
+	</dict>
+	<key>reminders.%dimages</key>
+	<dict>
+		<key>images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d зображення</string>
+			<key>one</key>
+			<string>%d зображення</string>
+			<key>many</key>
+			<string>%d зображень</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d зображення</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@images@</string>
+	</dict>
+	<key>reminders.list.name%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>, %d нагадування</string>
+			<key>one</key>
+			<string>, %d нагадування</string>
+			<key>many</key>
+			<string>, %d нагадувань</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>, %d нагадування</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

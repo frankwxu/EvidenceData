@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>SOS_DESCRIPTION</string>
+			<key>id</key>
+			<string>SOS_DESCRIPTION_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>SOS_CONTACTS_GROUP_ID</string>
+			<key>label</key>
+			<string>SOS_CONTACTS_HEADER</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>_editMedicalID</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>_COSSOSShrinkingCell</string>
+			<key>id</key>
+			<string>SOS_OPEN_HEALTH_ID</string>
+			<key>label</key>
+			<string>SOS_CONTACTS_EDIT_MEDICAL_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>SOS_LEARN_MORE_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>LONG_PRESS_TRIGGERS_SOS_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>longPressTriggersEmergencySOS:</string>
+			<key>id</key>
+			<string>LONG_PRESS_TRIGGERS_SOS_ID</string>
+			<key>label</key>
+			<string>LONG_PRESS_TRIGGERS_SOS_LABEL</string>
+			<key>set</key>
+			<string>setLongPressTriggersEmergencySOS:forSpecifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SOS_TITLE</string>
+</dict>
+</plist>

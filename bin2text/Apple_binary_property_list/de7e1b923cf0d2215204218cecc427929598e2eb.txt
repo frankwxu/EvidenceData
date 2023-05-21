@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리가 하향세입니다, {{username}}님. 이 화살표가 제 궤도에 오르게 하려면 매일 더 많이 걸으려고 노력해 보세요.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>원하는 경우, 걷기 및 달리기 운동을 더 많이 해서 이 화살표가 다시 위를 향하도록 할 수 있습니다, {{username}}님. 이번 주에 적어도 하루에 {{goal_value:distance}} 운동하고 다음 주에 새로운 목표를 확인하세요. %#@num_weeks@ 후에, 이 화살표의 방향을 바꿀 수 있을 거예요.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d주</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리를 잘 관리하고 있어요. 계속 뛰고 걸어서 화살표가 위를 향하도록 유지하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꿔 보세요! %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}}만 걷고 달리면 됩니다.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표가 다시 위를 향하게 하려면, %#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 뛰세요. 뿌린 만큼 거두리라, 파이팅 {{username}}님!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}님, 총 거리 화살표가 위를 향하고 있습니다. 매일 달리거나 걸어서 화살표가 계속 위를 향하게 하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리를 잘 관리하고 있어요, {{username}}님. 매일 뛰고 걸어서 화살표가 위를 향하도록 유지하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표가 다시 위를 향하게 하려면, %#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 뛰세요. 뿌린 만큼 거두리라, 파이팅!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>화살표의 방향을 위로 유지하려면, 최근보다 더 많은 거리를 걷고 달려야 합니다. 꼭 달성하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리를 잘 관리하고 있어요, {{username}}님. 계속 뛰고 걸어서 화살표가 위를 향하도록 유지하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>오늘 적어도 {{goal_value:distance}} 뛰거나 걸으면, 이 화살표가 다시 위를 향하도록 할 수 있습니다. 해볼 만하죠, {{username}}님.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리 화살표가 위를 향하고 있습니다. 매일 달리기 및 걷기를 계속하여 화살표 방향을 유지하세요.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꿔 보세요, {{username}}님! %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}}만 걷고 달리면 됩니다.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 달리면 화살표가 다시 위를 향하게 될 거예요, {{username}}님. 할 수 있어요.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표가 다시 위를 향하게 하려면, %#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 뛰세요. 뿌린 만큼 거두리라, 파이팅!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>오늘 적어도 {{goal_value:distance}} 뛰거나 걸으면, 이 화살표가 다시 위를 향하도록 할 수 있습니다. 해볼 만하죠!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 달리면 화살표가 다시 위를 향하게 될 거예요. 할 수 있어요.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리 화살표가 위를 향하고 있습니다. 매일 달리기 및 걷기를 계속하여 화살표 방향을 유지하세요.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리가 하향세입니다. 이 화살표가 제 궤도에 오르게 하려면 매일 더 많이 걸으려고 노력해 보세요.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표가 다시 위를 향하게 하려면, %#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 뛰세요. 뿌린 만큼 거두리라, 파이팅 {{username}}님!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>원하는 경우, 걷기 및 달리기 운동을 더 많이 해서 이 화살표가 다시 위를 향하도록 할 수 있습니다, {{username}}님. 이번 주에 적어도 하루에 {{goal_value:distance}} 운동하고 다음 주에 새로운 목표를 확인하세요. %#@num_weeks@ 후에, 이 화살표의 방향을 바꿀 수 있을 거예요.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d주</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>화살표의 방향을 위로 유지하려면, 최근보다 더 많은 거리를 걷고 달려야 합니다, {{username}}님. 꼭 달성하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>오늘 적어도 {{goal_value:distance}} 뛰거나 걸으면, 이 화살표가 다시 위를 향하도록 할 수 있습니다. 해볼 만하죠!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꾸려면, %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}} 걷고 뛰세요, {{username}}님. 해볼 만하죠!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 달리면 화살표가 다시 위를 향하게 될 거예요. 할 수 있어요.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>원하는 경우, 걷기 및 달리기 운동을 더 많이 해서 이 화살표가 다시 위를 향하도록 할 수 있습니다. 이번 주에 적어도 하루에 {{goal_value:distance}} 운동하고 다음 주에 새로운 목표를 확인하세요. %#@num_weeks@ 후에, 이 화살표의 방향을 바꿀 수 있을 거예요.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d주</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리를 잘 관리하고 있어요. 계속 뛰고 걸어서 화살표가 위를 향하도록 유지하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꾸려면, %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}} 걷고 뛰세요. 해볼 만하죠!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ 동안 하루에 {{goal_value:distance}} 걷고 달리면 화살표가 다시 위를 향하게 될 거예요, {{username}}님. 할 수 있어요.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>원하는 경우, 걷기 및 달리기 운동을 더 많이 해서 이 화살표가 다시 위를 향하도록 할 수 있습니다. 이번 주에 적어도 하루에 {{goal_value:distance}} 운동하고 다음 주에 새로운 목표를 확인하세요. %#@num_weeks@ 후에, 이 화살표의 방향을 바꿀 수 있을 거예요.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d주</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리가 하향세입니다. 이 화살표가 제 궤도에 오르게 하려면 매일 더 많이 걸으려고 노력해 보세요.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꾸려면, %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}} 걷고 뛰세요. 해볼 만하죠!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>걷기 및 달리기 운동량이 이전보다 줄었습니다, {{username}}님. 화살표의 방향을 위로 유지하려면 더 많이 움직이세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>걷기 및 달리기 운동량이 이전보다 줄었습니다. 화살표의 방향을 위로 유지하려면 더 많이 움직이세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꿔 보세요, {{username}}님! %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}}만 걷고 달리면 됩니다.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}님, 총 거리 화살표가 위를 향하고 있습니다. 매일 달리거나 걸어서 화살표가 계속 위를 향하게 하세요!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>오늘 적어도 {{goal_value:distance}} 뛰거나 걸으면, 이 화살표가 다시 위를 향하도록 할 수 있습니다. 해볼 만하죠, {{username}}님.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꾸려면, %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}} 걷고 뛰세요, {{username}}님. 해볼 만하죠!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>총 거리가 하향세입니다, {{username}}님. 이 화살표가 제 궤도에 오르게 하려면 매일 더 많이 걸으려고 노력해 보세요.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>이 화살표의 방향을 바꿔 보세요! %#@num_days@ 동안 적어도 하루에 {{goal_value:distance}}만 걷고 달리면 됩니다.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d일</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

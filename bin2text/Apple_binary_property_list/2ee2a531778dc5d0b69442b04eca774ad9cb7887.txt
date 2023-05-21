@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u more messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u сообщения</string>
+			<key>many</key>
+			<string>%u сообщений</string>
+			<key>one</key>
+			<string>%u сообщение</string>
+			<key>other</key>
+			<string>%u сообщений</string>
+			<key>two</key>
+			<string>%u сообщения</string>
+			<key>zero</key>
+			<string>%u сообщений</string>
+		</dict>
+	</dict>
+	<key>%u more missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_missed_calls@</string>
+		<key>num_missed_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u пропущенных вызова</string>
+			<key>many</key>
+			<string>%u пропущенных вызовов</string>
+			<key>one</key>
+			<string>%u пропущенный вызов</string>
+			<key>other</key>
+			<string>%u пропущенных вызовов</string>
+			<key>two</key>
+			<string>%u пропущенных вызова</string>
+			<key>zero</key>
+			<string>%u пропущенных вызовов</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

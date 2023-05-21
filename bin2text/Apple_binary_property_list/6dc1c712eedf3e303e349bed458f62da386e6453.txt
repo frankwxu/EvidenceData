@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTIVITY_CONNECTING</key>
+	<string>‎Σύνδεση...</string>
+	<key>ACTIVITY_LOADING</key>
+	<string>‎Φόρτωση…</string>
+	<key>ACTIVITY_WAITING_FOR_NETWORK</key>
+	<string>‎Αναμονή για δίκτυο</string>
+	<key>ADDRESS_TITLE</key>
+	<string>‎Διεύθυνση</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_FACE_ID</key>
+	<string>‎Απαιτείται Face ID για χρήση του %@.</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_TOUCH_ID</key>
+	<string>‎Απαιτείται Touch ID για χρήση του %@.</string>
+	<key>BIOMETRIC_PRIVACY_ENABLE_FACE_ID</key>
+	<string>‎%@ χρειάζεται άδεια για τη χρήση του Face ID για να συνεχίσει.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_FACE_ID_PROMPT</key>
+	<string>‎Ρυθμίστε το Face ID στις Ρυθμίσεις του iPhone για χρήση του %1$@.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_TOUCH_ID_PROMPT</key>
+	<string>‎Ρυθμίστε το Touch ID στις Ρυθμίσεις του iPhone για χρήση του %1$@.</string>
+	<key>BIZ_ACCOUNT</key>
+	<string>‎Επαγγελματικός λογαριασμός</string>
+	<key>BIZ_CATEGORIES_TITLE</key>
+	<string>‎Κατηγορίες</string>
+	<key>BIZ_CATEGORY_TITLE</key>
+	<string>‎Κατηγορία</string>
+	<key>BIZ_HOURS_AND_ADDRESS</key>
+	<string>‎%1$@ • %2$@</string>
+	<key>BIZ_HOURS_TITLE</key>
+	<string>‎Ώρες Λειτουργίας</string>
+	<key>BIZ_NAME_TITLE</key>
+	<string>‎Επαγγελματικό Όνομα</string>
+	<key>BIZ_REPORT</key>
+	<string>‎Αναφορά</string>
+	<key>BIZ_REPORT_ILLEGAL</key>
+	<string>‎Αυτό είναι υβριστικό, επιβλαβές ή παράνομο</string>
+	<key>BIZ_REPORT_KNOCKOFF</key>
+	<string>‎Αυτό φαίνεται να είναι αντίγραφο ή πλαστό αντικείμενο</string>
+	<key>BIZ_REPORT_NO_MATCH</key>
+	<string>‎Οι εικόνες ή οι περιγραφές δεν ταιριάζουν με το αντικείμενο</string>
+	<key>BIZ_REPORT_OTHER</key>
+	<string>‎Άλλα</string>
+	<key>BIZ_REPORT_PRODUCT_TITLE_FOR_HEADER</key>
+	<string>‎Βοηθήστε μας να καταλάβουμε τί συμβαίνει</string>
+	<key>BIZ_REPORT_SCAM</key>
+	<string>‎Αυτό είναι απάτη</string>
+	<key>BIZ_REPORT_SPAM</key>
+	<string>‎Αυτό είναι spam</string>
+	<key>BIZ_REPORT_THIS_PRODUCT</key>
+	<string>‎Αναφορά αυτού του προϊόντος ή της υπηρεσίας;</string>
+	<key>BIZ_SEND_PRODUCT</key>
+	<string>‎Αποστολή</string>
+	<key>BIZ_TELL_US_MORE</key>
+	<string>‎Πείτε μας Περισσότερα</string>
+	<key>BIZ_THIS_PRODUCT_HAS_BEEN_REPORTED</key>
+	<string>‎Ευχαριστούμε. Η αναφορά σας υποβλήθηκε.</string>
+	<key>BIZ_VERTICAL_APPAREL</key>
+	<string>‎Ρουχισμός &amp; Ενδύματα</string>
+	<key>BIZ_VERTICAL_AUTO</key>
+	<string>‎Αυτοκίνητα</string>
+	<key>BIZ_VERTICAL_BEAUTY</key>
+	<string>‎Σαλόνια ομορφιάς &amp; Spa</string>
+	<key>BIZ_VERTICAL_EDU</key>
+	<string>‎Εκπαίδευση</string>
+	<key>BIZ_VERTICAL_ENTERTAIN</key>
+	<string>‎Ψυχαγωγία</string>
+	<key>BIZ_VERTICAL_EVENT_PLAN</key>
+	<string>‎Διοργάνωση Εκδηλώσεων &amp; Υπηρεσίες</string>
+	<key>BIZ_VERTICAL_FINANCE</key>
+	<string>‎Οικονομικά &amp; Τράπεζες</string>
+	<key>BIZ_VERTICAL_GROCERY</key>
+	<string>‎Φαγητό &amp; Ψώνια</string>
+	<key>BIZ_VERTICAL_HEALTH</key>
+	<string>‎Ιατρικά &amp; Υγεία</string>
+	<key>BIZ_VERTICAL_HOTEL</key>
+	<string>‎Ξενοδοχεία &amp; Καταλύματα</string>
+	<key>BIZ_VERTICAL_NONPROFIT</key>
+	<string>‎Μη Κερδοσκοπικές</string>
+	<key>BIZ_VERTICAL_NOTABIZ</key>
+	<string>‎Όχι επαγγελματίας</string>
+	<key>BIZ_VERTICAL_OTHER</key>
+	<string>‎Άλλα</string>
+	<key>BIZ_VERTICAL_POLICY</key>
+	<string>‎Δημόσιες Υπηρεσίες</string>
+	<key>BIZ_VERTICAL_PROF_SERVICES</key>
+	<string>‎Επαγγελματικές Υπηρεσίες</string>
+	<key>BIZ_VERTICAL_RESTAURANT</key>
+	<string>‎Εστιατόριο</string>
+	<key>BIZ_VERTICAL_RETAIL</key>
+	<string>‎Ψώνια &amp; Λιανική</string>
+	<key>BIZ_VERTICAL_TRAVEL</key>
+	<string>‎Ταξίδια &amp; Μεταφορά</string>
+	<key>BIZ_WE_WILL_REVIEW</key>
+	<string>‎Θα αναθεωρήσουμε το προϊόν ή την υπηρεσία και αν δεν πληροί τις προϋποθέσεις μας, θα αφαιρεθεί.</string>
+	<key>BLOCKLIST_BLOCK_BUTTON_TITLE</key>
+	<string>‎Αποκλεισμός</string>
+	<key>BLOCKLIST_HELPER_TEXT</key>
+	<string>‎Οι αποκλεισμένες επαφές δε θα μπορούν πλέον να σας καλούν ή να σας στέλνουν μηνύματα.</string>
+	<key>BLOCKLIST_HELPER_TEXT_BUSINESS_WITH_REASONS</key>
+	<string>‎Αποκλεισμός %@; Αυτή η επιχείρηση δε θα μπορεί να σας καλεί ή να σας στέλνει μηνύματα. Λόγος αποκλεισμού:</string>
+	<key>BLOCKLIST_UNBLOCK_BUTTON_TITLE</key>
+	<string>‎Άρση αποκλεισμού</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_CALL</key>
+	<string>‎Άρση αποκλεισμού της επαφής για κλήση WhatsApp</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_SEND_MESSAGE</key>
+	<string>‎Άρση αποκλεισμού της επαφής για αποστολή μηνύματος.</string>
+	<key>BLOCKLIST_UNBLOCK_TO_ADD</key>
+	<string>‎Άρση αποκλεισμού για προσθήκη</string>
+	<key>BLOCKLIST_UNBLOCK_TO_CALL</key>
+	<string>‎Άρση αποκλεισμού για κλήση</string>
+	<key>BLOCKLIST_UNBLOCK_TO_MESSAGE</key>
+	<string>‎Άρση αποκλεισμού για αποστολή μηνύματος</string>
+	<key>BLOCKLIST_UNBLOCK_TO_REMOVE</key>
+	<string>‎Άρση αποκλεισμού για αφαίρεση</string>
+	<key>BLOCK_REASON_BAD_EXPERIENCE</key>
+	<string>‎Κακή εμπειρία</string>
+	<key>BLOCK_REASON_DIDNT_OPTIN</key>
+	<string>‎Δεν συμμετέχετε</string>
+	<key>BLOCK_REASON_NEED_RESOLVED</key>
+	<string>‎Χρήζει επίλυσης</string>
+	<key>BLOCK_REASON_NO_LONGER_INTERESTED</key>
+	<string>‎Δεν ενδιαφέρομαι πλέον</string>
+	<key>BLOCK_REASON_NO_REASON</key>
+	<string>‎Κανένας λόγος</string>
+	<key>BLOCK_SHORTENED</key>
+	<string>‎Αποκλεισμός</string>
+	<key>BLOC_BIZ_HELPER_TEXT</key>
+	<string>‎Οι αποκλεισμένοι επαγγελματικοί δε θα μπορούν πλέον να σε καλέσουν ή να σου στείλουν μηνύματα.</string>
+	<key>BUTTON_BACK</key>
+	<string>‎Πίσω</string>
+	<key>BUTTON_CANCEL</key>
+	<string>‎Άκυρο</string>
+	<key>BUTTON_CLOSE</key>
+	<string>‎Κλείσιμο</string>
+	<key>BUTTON_CONFIRM</key>
+	<string>‎Επιβεβαίωση</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>‎Συνέχεια</string>
+	<key>BUTTON_DONE</key>
+	<string>‎Εντάξει</string>
+	<key>BUTTON_FORWARD</key>
+	<string>‎Προώθηση</string>
+	<key>BUTTON_LEARN_MORE</key>
+	<string>‎Περισσότερα</string>
+	<key>BUTTON_NEXT</key>
+	<string>‎Επόμενο</string>
+	<key>BUTTON_NOT_NOW</key>
+	<string>‎Όχι τώρα</string>
+	<key>BUTTON_OK</key>
+	<string>‎ΟΚ</string>
+	<key>BUTTON_OPEN_SETTINGS</key>
+	<string>‎Άνοιγμα Ρυθμίσεων</string>
+	<key>BUTTON_RESET</key>
+	<string>‎Επαναφορά</string>
+	<key>BUTTON_SEND</key>
+	<string>‎Αποστολή</string>
+	<key>BUTTON_TRY_AGAIN</key>
+	<string>‎Δοκιμάστε ξανά</string>
+	<key>BUTTON_UNDO</key>
+	<string>‎Αναίρεση</string>
+	<key>CHANGE_NUMBER_OLD_PHONE_LABEL</key>
+	<string>‎παλιός αριθμός</string>
+	<key>CHAT_INPUT_BAR_PLACEHOLDER_TEXT</key>
+	<string>‎Προσθήκη επικεφαλίδας...</string>
+	<key>CHAT_MENU_MORE</key>
+	<string>‎Περισσότερα</string>
+	<key>CHAT_SUBJECT_TEXT_RECIPIENTS</key>
+	<string>‎Αποδέκτες: %@</string>
+	<key>COMMON_ERROR</key>
+	<string>‎Σφάλμα</string>
+	<key>COMPANY_LABEL</key>
+	<string>‎εταιρία</string>
+	<key>CONTACTS_LIST_EMPTY_CONTACTS_DESC</key>
+	<string>‎Δεν υπάρχουν επαφές</string>
+	<key>CONTACTS_{{0}}</key>
+	<string>‎%@ επαφή</string>
+	<key>CONTACTS_{{1}}</key>
+	<string>‎%@ επαφές</string>
+	<key>CONTACT_PLACEHOLDER_NAME</key>
+	<string>‎Επαφή</string>
+	<key>CONTACT_US_DOES_NOT_ANSWER_MY_QUESTION</key>
+	<string>‎Αυτό δεν απαντά στην ερώτησή μου</string>
+	<key>CONTENT_STICKERS_HEADER</key>
+	<string>‎Αυτοκόλλητα Περιεχομένου</string>
+	<key>COULDNT_SEND_MESSAGES_{{0}}</key>
+	<string>‎Αδύνατη η αποστολή %@ μηνύματος.</string>
+	<key>COULDNT_SEND_MESSAGES_{{1}}</key>
+	<string>‎Αδύνατη η αποστολή %@ μηνυμάτων.</string>
+	<key>DEPRECATED_DEVICE_NO_SUPPORT</key>
+	<string>‎Το WhatsApp δεν υποστηρίζει πλέον το τηλέφωνό σας.</string>
+	<key>DOCUMENT_MESSAGE_DEFAULT_TITLE</key>
+	<string>‎Χωρίς τίτλο</string>
+	<key>EMOJI_CATEGORY_ACTIVITY</key>
+	<string>‎Δραστηριότητα</string>
+	<key>EMOJI_CATEGORY_ANIMALS_NATURE</key>
+	<string>‎Ζώα και Φύση</string>
+	<key>EMOJI_CATEGORY_FLAGS</key>
+	<string>‎Σημαίες</string>
+	<key>EMOJI_CATEGORY_FOOD_DRINK</key>
+	<string>‎Φαγητό και Ποτό</string>
+	<key>EMOJI_CATEGORY_OBJECTS</key>
+	<string>‎Αντικείμενα</string>
+	<key>EMOJI_CATEGORY_SMILEYS_PEOPLE</key>
+	<string>‎Emoticon και Άτομα</string>
+	<key>EMOJI_CATEGORY_SYMBOLS</key>
+	<string>‎Σύμβολα</string>
+	<key>EMOJI_CATEGORY_TRAVEL_AND_PLACES</key>
+	<string>‎Ταξίδια και Μέρη</string>
+	<key>EMOJI_SEARCH_NO_RESULTS</key>
+	<string>‎Κανένα αποτέλεσμα για “%@”</string>
+	<key>EMOJI_SEARCH_RECENT_EMOJIS_HEADER</key>
+	<string>‎Πρόσφατα</string>
+	<key>EMOJI_SEARCH_RESULTS</key>
+	<string>‎Αποτελέσματα emoji για “%@”</string>
+	<key>ERROR_COULDNT_CONNECT_TO_SERVICE</key>
+	<string>‎Δεν ήταν δυνατή η σύνδεση στην υπηρεσία WhatsApp.</string>
+	<key>ERROR_OCCURRED</key>
+	<string>‎Προέκυψε σφάλμα.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_DEFAULT</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στην κάμερά σας. Για ενεργοποίηση πρόσβασης, πατήστε Ρυθμίσεις και ενεργοποιήστε την Κάμερα.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_VIDEO_CALL</key>
+	<string>‎Για χρήση των βιντεοκλήσεων, %@ χρειάζεται πρόσβαση στην κάμερα του iPhone σας. Πατήστε Ρυθμίσεις και ενεργοποιήστε την Κάμερα.</string>
+	<key>EXTENSION_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>FILTER_NAME_BW</key>
+	<string>‎Ασπρόμαυρο</string>
+	<key>FILTER_NAME_COOL</key>
+	<string>‎Ψυχρό</string>
+	<key>FILTER_NAME_FILM</key>
+	<string>‎Ταινία</string>
+	<key>FILTER_NAME_NONE</key>
+	<string>‎Κανένα</string>
+	<key>FILTER_NAME_PEN</key>
+	<string>‎Χρώμιο</string>
+	<key>FILTER_NAME_POP</key>
+	<string>‎Ποπ</string>
+	<key>GROUP_INVITE_NOTIFICATION_TEXT</key>
+	<string>‎Ομαδική Πρόσκληση</string>
+	<key>GROUP_SEND_ERROR_NOT_ADMIN</key>
+	<string>‎Μόνο οι διαχειριστές μπορούν να στείλουν μηνύματα σε αυτήν την ομάδα.</string>
+	<key>GROUP_SEND_ERROR_NOT_PARTICIPANT</key>
+	<string>‎Δεν μπορείτε να στείλετε μηνύματα σε αυτήν την ομάδα γιατί δεν είστε πλέον μέλος της.</string>
+	<key>HOME_SCREEN_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>INCOMPATIBLE_ADD_ONS_ON_JAILBROKEN_PHONE</key>
+	<string>‎Τα πρόσθετα που χρησιμοποιείται στο jailbroken iPhone σας δεν είναι συμβατά με αυτήν την έκδοση του %1$@.</string>
+	<key>INPUT_LABEL_EMAIL</key>
+	<string>‎Email</string>
+	<key>INSTAGRAM</key>
+	<string>‎Instagram</string>
+	<key>INTERNET_REQUIRED_TO_UPDATE_SETTINGS</key>
+	<string>‎%1$@ Χρειάζεται μια Ενεργή Σύνδεση στο Διαδίκτυο για να ενημερώσει τις Ρυθμίσεις σας</string>
+	<key>JAILBROKEN_NO_SUPPORT_AVAILABLE</key>
+	<string>‎Λυπούμαστε, προς το παρόν οι jailbroken συσκευές δεν υποστηρίζονται. 
+‎
+‎ Εάν αντιμετωπίζετε δυσκολίες, παρακαλούμε επαναφέρετε τη συσκευή σας στις αρχικές εργοστασιακές ρυθμίσεις.</string>
+	<key>JOINED_BIZ_CATEGORIES</key>
+	<string>‎%1$@, %2$@</string>
+	<key>JOINED_SENTENCES</key>
+	<string>‎%1$@ %2$@</string>
+	<key>LABEL_DATE_ANNIVERSARY</key>
+	<string>‎επέτειος</string>
+	<key>LABEL_HOME</key>
+	<string>‎σπίτι</string>
+	<key>LABEL_OTHER</key>
+	<string>‎άλλο</string>
+	<key>LABEL_PHONE_NUMBER_HOME_FAX</key>
+	<string>‎φαξ οικίας</string>
+	<key>LABEL_PHONE_NUMBER_MAIN</key>
+	<string>‎κύριο</string>
+	<key>LABEL_PHONE_NUMBER_MOBILE</key>
+	<string>‎κινητό</string>
+	<key>LABEL_PHONE_NUMBER_OTHER_FAX</key>
+	<string>‎άλλο φαξ</string>
+	<key>LABEL_PHONE_NUMBER_PAGER</key>
+	<string>‎βομβητής</string>
+	<key>LABEL_PHONE_NUMBER_WORK_FAX</key>
+	<string>‎φαξ εργασίας</string>
+	<key>LABEL_SCHOOL</key>
+	<string>‎σχολείο</string>
+	<key>LABEL_URL_ADDRESS_HOME</key>
+	<string>‎αρχική σελίδα</string>
+	<key>LABEL_WORK</key>
+	<string>‎εργασία</string>
+	<key>LINK_ACCESSIBILITY_HINT</key>
+	<string>‎Πατήστε δυο φορές για άνοιγμα συνδέσμου</string>
+	<key>LIVE_LOCATION_ENDED</key>
+	<string>‎Η τωρινή τοποθεσία τερματίστηκε</string>
+	<key>LIVE_LOCATION_ENDED_VOICEOVER</key>
+	<string>‎Η τωρινή τοποθεσία τερματίστηκε</string>
+	<key>LOCALIZED_APP_NAME_LONG</key>
+	<string>‎WhatsApp Messenger</string>
+	<key>LOCALIZED_APP_NAME_SHORT</key>
+	<string>‎WhatsApp</string>
+	<key>LOCALIZED_SMB_APP_NAME_LONG</key>
+	<string>‎WhatsApp Business</string>
+	<key>LOCALIZED_SMB_APP_NAME_SHORT</key>
+	<string>‎WhatsApp Business</string>
+	<key>MATCHING_VCARD_CONTACTS_TITLE</key>
+	<string>‎Ταίριασμα</string>
+	<key>MEDIA_ANIMATED_GIF</key>
+	<string>‎Κινούμενο GIF</string>
+	<key>MEDIA_AUDIO</key>
+	<string>‎Ήχος</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{0}}</key>
+	<string>‎%@ Επιλεγμένος Ήχος</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{1}}</key>
+	<string>‎%@ Επιλεγμένοι Ήχοι</string>
+	<key>MEDIA_CANNOT_BESELECTED</key>
+	<string>‎Αδύνατη η επιλογή του αντικειμένου. Παρακαλώ δοκιμάστε με ένα διαφορετικό.</string>
+	<key>MEDIA_DOCUMENT</key>
+	<string>‎Έγγραφο</string>
+	<key>MEDIA_GIF</key>
+	<string>‎GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{0}}</key>
+	<string>‎%@ GIF επιλέχθηκε</string>
+	<key>MEDIA_GIFS_SELECTED_{{1}}</key>
+	<string>‎%@ GIF επιλέχθηκαν</string>
+	<key>MEDIA_ITEMS_SELECTED_{{0}}</key>
+	<string>‎%@ Επιλεγμένο Στοιχείο</string>
+	<key>MEDIA_ITEMS_SELECTED_{{1}}</key>
+	<string>‎%@ Επιλεγμένα Στοιχεία</string>
+	<key>MEDIA_ITEMS_{{0}}</key>
+	<string>‎%@ αντικείμενο</string>
+	<key>MEDIA_ITEMS_{{1}}</key>
+	<string>‎%@ αντικείμενα</string>
+	<key>MEDIA_LANDSCAPE</key>
+	<string>‎Οριζόντια προβολή</string>
+	<key>MEDIA_LIVE_LOCATION</key>
+	<string>‎Τωρινή τοποθεσία</string>
+	<key>MEDIA_LOCATION</key>
+	<string>‎Τοποθεσία</string>
+	<key>MEDIA_PAGES_{{0}}</key>
+	<string>‎%@ σελίδα</string>
+	<key>MEDIA_PAGES_{{1}}</key>
+	<string>‎%@ σελίδες</string>
+	<key>MEDIA_PHOTO</key>
+	<string>‎Φωτογραφία</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{0}}</key>
+	<string>‎%@ Επιλεγμένη Φωτογραφία</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{1}}</key>
+	<string>‎%@ Επιλεγμένες Φωτογραφίες</string>
+	<key>MEDIA_PHOTOS_{{0}}</key>
+	<string>‎%@ Φωτογραφία</string>
+	<key>MEDIA_PHOTOS_{{1}}</key>
+	<string>‎%@ Φωτογραφίες</string>
+	<key>MEDIA_PORTRAIT</key>
+	<string>‎Κάθετη προβολή</string>
+	<key>MEDIA_PRODUCTS_{{0}}</key>
+	<string>‎%@ Προϊόν</string>
+	<key>MEDIA_PRODUCTS_{{1}}</key>
+	<string>‎%@ Προϊόντα</string>
+	<key>MEDIA_PTT_LOW_VOLUME_WARNING</key>
+	<string>‎Πιέστε το κουμπί της αύξησης της έντασης για κατάργηση σίγασης</string>
+	<key>MEDIA_SELECT</key>
+	<string>‎Επιλογή</string>
+	<key>MEDIA_SHEETS_{{0}}</key>
+	<string>‎%@ φύλλο</string>
+	<key>MEDIA_SHEETS_{{1}}</key>
+	<string>‎%@ φύλλα</string>
+	<key>MEDIA_SLIDES_{{0}}</key>
+	<string>‎%@ διαφάνεια</string>
+	<key>MEDIA_SLIDES_{{1}}</key>
+	<string>‎%@ διαφάνειες</string>
+	<key>MEDIA_VIDEO</key>
+	<string>‎Βίντεο</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{0}}</key>
+	<string>‎%@ Επιλεγμένο Βίντεο</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{1}}</key>
+	<string>‎%@ Επιλεγμένα Βίντεο</string>
+	<key>MEDIA_VIDEOS_{{0}}</key>
+	<string>‎%@ Βίντεο</string>
+	<key>MEDIA_VIDEOS_{{1}}</key>
+	<string>‎%@ Βίντεο</string>
+	<key>MEDIA_VOICE_MESSAGE</key>
+	<string>‎Φωνητικό μήνυμα</string>
+	<key>MESSAGE_GENERIC</key>
+	<string>‎Μήνυμα</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{0}}</key>
+	<string>‎Μόνο ο πρώτος %@ χαρακτήρας θα σταλεί στην Κατάστασή μου. Θέλετε να συνεχίσετε;</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{1}}</key>
+	<string>‎Μόνο οι πρώτοι %@ χαρακτήρες θα σταλούν στην Κατάστασή μου. Θέλετε να συνεχίσετε;</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{0}}</key>
+	<string>‎Μόνο ο πρώτος %@ χαρακτήρας θα σταλεί. Θέλετε να συνεχίσετε;</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{1}}</key>
+	<string>‎Μόνο οι πρώτοι %@ χαρακτήρες θα σταλούν. Θέλετε να συνεχίσετε;</string>
+	<key>MESSAGE_TYPE_CONTACT</key>
+	<string>‎Επαφή</string>
+	<key>MULTISEND_FIT_TO_SCREEN</key>
+	<string>‎Περιορισμός στην Οθόνη</string>
+	<key>MULTISEND_ORIGINAL</key>
+	<string>‎Επιστροφή στην αρχική</string>
+	<key>MULTISEND_PICKER_HEADER_EMOJI</key>
+	<string>‎Emoji</string>
+	<key>MULTISEND_PICKER_HEADER_FAVORITE_STICKERS</key>
+	<string>‎Αγαπημένα</string>
+	<key>MULTISEND_PICKER_HEADER_STICKERS</key>
+	<string>‎Αυτοκόλλητα</string>
+	<key>MULTISEND_SQUARE</key>
+	<string>‎Τετράγωνο</string>
+	<key>NICKNAME_LABEL</key>
+	<string>‎ψευδώνυμο</string>
+	<key>NOTIFICATION_CONTACT_AT_GROUP_MESSAGE</key>
+	<string>‎%1$@ @ “%2$@”:
+‎%3$@</string>
+	<key>NOTIFICATION_CONTACT_MESSAGE</key>
+	<string>‎%1$@: %2$@</string>
+	<key>NOTIFICATION_MESSAGE</key>
+	<string>‎Μήνυμα</string>
+	<key>NOTIFICATION_MESSAGE_FROM</key>
+	<string>‎Μήνυμα από %@</string>
+	<key>NOTIFICATION_MESSAGE_FROM_CONTACT_AT_GROUP</key>
+	<string>‎Μηνύματα από %1$@ @ “%2$@”</string>
+	<key>NOTIFICATION_TITLE_CONTACT</key>
+	<string>‎%1$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT_AT_GROUP</key>
+	<string>‎%1$@ @ %2$@</string>
+	<key>NO_RESULTS</key>
+	<string>‎Κανένα αποτέλεσμα</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να δημιουργείτε γεγονότα στο ημερολόγιό σας.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να τραβάτε φωτογραφίες και βίντεο απευθείας από το WhatsApp.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>‎Ανεβάστε τις επαφές σας στους διακομιστές του WhatsApp, ώστε να έρχεστε σε επαφή πιο γρήγορα με τους φίλους σας και να μας βοηθήσετε να σας παρέχουμε μια καλύτερη υπηρεσία.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>‎Χρήση Face ID για πιστοποίηση στο WhatsApp.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>‎Αν επιτρέπετε πάντα την πρόσβαση στην τοποθεσία σας, μπορείτε να επιλέξετε να κοινοποιείται την τωρινή σας τοποθεσία, και θα ενημερώνεται ακόμα και όταν δεν χρησιμοποιείτε την εφαρμογή. Αν επιτρέψετε την πρόσβαση μόνο κατά τη χρήση της εφαρμογής, μπορείτε μόνο να στέλνετε την τρέχουσα τοποθεσία σας ή κοντινές θέσεις.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>‎Αν επιτρέπετε πάντα την πρόσβαση στην τοποθεσία σας, μπορείτε να επιλέξετε να κοινοποιείται την τωρινή σας τοποθεσία, και θα ενημερώνεται ακόμα και όταν δεν χρησιμοποιείτε την εφαρμογή. Αυτό επίσης σας επιτρέπει να στέλνετε την τρέχουσα τοποθεσία σας και κοντινές θέσεις.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να στέλνετε την τοποθεσία σας ή τοποθεσίες κοντά σας στις συνομιλίες.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να στέλνετε την τοποθεσία σας ή τοποθεσίες κοντά σας στις συνομιλίες.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να πραγματοποιείτε κλήσεις, να στέλνετε φωνητικά μηνύματα και να εγγράφετε βίντεο με ήχο.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να στέλνετε φωτογραφίες και βίντεο από το άλμπουμ κάμερας και να αποθηκεύετε αυτές που τραβάτε.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να βάζετε υπενθυμίσεις για επανάκληση χαμένων κλήσεων.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‎Αυτό σας επιτρέπει να χρησιμοποιείτε τη Siri για γρήγορη αποστολή και ανάγνωση μηνυμάτων και πραγματοποίηση κλήσεων.</string>
+	<key>OPERATION_ABORTED</key>
+	<string>‎Η λειτουργία ακυρώθηκε.</string>
+	<key>OPERATION_CANCELLED</key>
+	<string>‎Η λειτουργία ακυρώθηκε.</string>
+	<key>OTHERS_VCARD_CONTACTS_TITLE</key>
+	<string>‎Άλλοι</string>
+	<key>PAYMENT_NOTIFICATION</key>
+	<string>‎πληρωμή</string>
+	<key>PAYMENT_REQUEST_NOTIFICATION</key>
+	<string>‎αίτημα πληρωμής</string>
+	<key>PERM_CALENDARS</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στα ημερολόγιά σας. 
+‎ Για ενεργοποίηση πρόσβασης, πατήστε Ρυθμίσεις και ενεργοποιήστε τα Ημερολόγια</string>
+	<key>PERM_FACEID</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στο Face ID. Για ενεργοποίηση πρόσβασης μεταβείτε: Ρυθμίσεις &gt; Face ID και Κωδικός &gt; Χρήση Face ID Για: &gt; Άλλες εφαρμογές.</string>
+	<key>PERM_LOCATION_7</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στην τοποθεσία σας. 
+‎ Για ενεργοποίηση πρόσβασης μεταβείτε σε: Ρυθμίσεις iPhone &gt; Απόρρητο &gt; Υπηρεσίες Τοποθεσίας &gt; %2$@</string>
+	<key>PERM_PHOTOS_7</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στις φωτογραφίες ή τα βίντεό σας. Για ενεργοποίηση πρόσβασης μεταβείτε σε: Ρυθμίσεις iPhone &gt; Απόρρητο &gt; Φωτογραφίες &gt; %2$@</string>
+	<key>PERM_REMINDERS</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στις υπενθυμίσεις σας. 
+‎ Για ενεργοποίηση πρόσβασης, πατήστε Ρυθμίσεις και ενεργοποιήστε τις Υπενθυμίσεις</string>
+	<key>PHONE_VERIFICATION_RESEND_CODE</key>
+	<string>‎Επανάληψη</string>
+	<key>PHONE_VERIFICATION_RESEND_SMS</key>
+	<string>‎Αποστολή Κωδικού ξανά σε %@</string>
+	<key>PHOTO_LIBRARY_ERROR_SAVE_FAILED</key>
+	<string>‎Αδύνατη η αποθήκευση του πολυμέσου.</string>
+	<key>PHOTO_LIBRARY_PERMISSIONS</key>
+	<string>‎%1$@ δεν έχει πρόσβαση στις φωτογραφίες και τα βίντεό σας. Για ενεργοποίηση πρόσβασης. πατήστε Ρυμίσεις και ενεργοποιήστε τις Φωτογραφίες.</string>
+	<key>PHOTO_LIBRARY_PHOTO_ASSET_NOT_READY</key>
+	<string>‎Φόρτωση φωτό</string>
+	<key>PHOTO_LIBRARY_PHOTO_FAILED</key>
+	<string>‎Αυτή η φωτογραφία δεν μπορεί να χρησιμοποιηθεί. Παρακαλώ επιλέξτε μία άλλη.</string>
+	<key>PHOTO_LIBRARY_PHOTO_NOT_READY_YET</key>
+	<string>‎Αυτή η φωτογραφία ακόμα φορτώνει, παρακαλώ δοκιμάστε ξανά αργότερα.</string>
+	<key>PHOTO_LIBRARY_VIDEO_ASSET_NOT_READY</key>
+	<string>‎Φόρτωση βίντεο</string>
+	<key>PHOTO_LIBRARY_VIDEO_FAILED</key>
+	<string>‎Το βίντεο δεν γίνεται να χρησιμοποιηθεί. Παρακαλώ επιλέξτε ένα άλλο βίντεο.</string>
+	<key>PHOTO_LIBRARY_VIDEO_NOT_READY_YET</key>
+	<string>‎Αυτό το βίντεο ακόμα φορτώνει, παρακαλώ δοκιμάστε ξανά αργότερα.</string>
+	<key>PIN_ENTRY_FIELD_ACCESSIBILITY_LABEL</key>
+	<string>‎Πεδίο κωδικού PIN</string>
+	<key>PIP_VIDEO_CANNOT_BE_PLAYED</key>
+	<string>‎Αδύνατη η αναπαραγωγή του βίντεο.</string>
+	<key>PLACEHOLDER_SEARCH</key>
+	<string>‎Αναζήτηση</string>
+	<key>PRODUCT</key>
+	<string>‎Προϊόν</string>
+	<key>QUOTED_LIVE_LOCATION_SNIPPET</key>
+	<string>‎Τωρινή τοποθεσία</string>
+	<key>RECIPIENTS_SEND_TO</key>
+	<string>‎Προς:</string>
+	<key>REG_INVALID_CODE</key>
+	<string>‎Ο κωδικός που εισάγατε είναι λανθασμένος.</string>
+	<key>REQUEST_TOOK_TOO_LONG_TRY_AGAIN_LATER</key>
+	<string>‎Κάτι πήγε στραβά. Η αίτησή σας κάνει πολύ ώρα. Παρακαλώ δοκιμάστε αργότερα.</string>
+	<key>REQUIRED_PLACEHOLDER</key>
+	<string>‎Απαιτείται</string>
+	<key>REVOKE_QR_CODE_ERROR</key>
+	<string>‎Βρέθηκε μη έγκυρος κωδικός</string>
+	<key>REVOKE_QR_CODE_ERROR_MESSAGE</key>
+	<string>‎Αυτός ο κωδικός δεν είναι πλέον έγκυρος. Μπορεί να έχει γίνει επαναφορά του, ή ο λογαριασμός μπορεί πλέον να μην υπάρχει.</string>
+	<key>ROTATION_DEGREES_{{0}}</key>
+	<string>‎%@ μοίρα</string>
+	<key>ROTATION_DEGREES_{{1}}</key>
+	<string>‎%@ μοίρες</string>
+	<key>SENDER_ADDED_YOU_TO_GROUP</key>
+	<string>‎%1$@ σας πρόσθεσε στην ομάδα “%2$@”</string>
+	<key>SEND_FULL</key>
+	<string>‎Αποστολή</string>
+	<key>SERVICE_EXTENSION_REVOKE_MESSAGE</key>
+	<string>‎%1$@ διέγραψε ένα μήνυμα.</string>
+	<key>SERVICE_PROBLEM</key>
+	<string>‎Υπήρξε κάποιο πρόβλημα με την υπηρεσία. Κωδικός = %ld.</string>
+	<key>SETTINGS_APP</key>
+	<string>‎Ρυθμίσεις</string>
+	<key>SHARE_CONTACT_SHORT</key>
+	<string>‎Απ/λή επαφής</string>
+	<key>SINGLE_MESSAGE_SEND_FAILED</key>
+	<string>‎Αδύνατη η αποστολή μηνύματος.</string>
+	<key>SMB_PRODUCT_CATALOG_MESSAGE_BUSINESS</key>
+	<string>‎Μήνυμα σε Επιχείρηση</string>
+	<key>SMB_PRODUCT_CATALOG_RETRIEVE_ERROR</key>
+	<string>‎Κάτι πήγε στραβά. Ελέγξτε τη σύνδεση στο διαδίκτυο της συσκευής σας και δοκιμάστε ξανά.</string>
+	<key>STANDALONE_ME</key>
+	<string>‎Εγώ</string>
+	<key>STANDALONE_YOU</key>
+	<string>‎Εσείς</string>
+	<key>STATUSV3</key>
+	<string>‎Κατάσταση</string>
+	<key>STATUSV3_MY_STATUS</key>
+	<string>‎Η κατάστασή μου</string>
+	<key>STATUS_COLOR_BALI_HAI</key>
+	<string>‎Μπαλί</string>
+	<key>STATUS_COLOR_BITTERSWEET</key>
+	<string>‎Γλυκόπικρο</string>
+	<key>STATUS_COLOR_BRANDY_ROSE</key>
+	<string>‎Τριανταφυλλί</string>
+	<key>STATUS_COLOR_BRIGHT_SUN</key>
+	<string>‎Έντονο κίτρινο</string>
+	<key>STATUS_COLOR_CE_SOIR</key>
+	<string>‎Λυκόφως</string>
+	<key>STATUS_COLOR_EARLS_GREEN</key>
+	<string>‎Πράσινο τσάι</string>
+	<key>STATUS_COLOR_ELEPHANT</key>
+	<string>‎Γκρί Ελέφαντα</string>
+	<key>STATUS_COLOR_EMERALD</key>
+	<string>‎Σμαραγδί</string>
+	<key>STATUS_COLOR_MAYA_BLUE</key>
+	<string>‎Μπλε των Μάγια</string>
+	<key>STATUS_COLOR_MAYA_BLUE_2</key>
+	<string>‎Μπλε των Μάγια</string>
+	<key>STATUS_COLOR_MEDIUM_RED_VIOLET</key>
+	<string>‎Βιολετί</string>
+	<key>STATUS_COLOR_MONA_LISA</key>
+	<string>‎Μόνα Λίζα</string>
+	<key>STATUS_COLOR_MONTE_CARLO</key>
+	<string>‎Μόντε Κάρλο</string>
+	<key>STATUS_COLOR_POLO_BLUE</key>
+	<string>‎Πόλο</string>
+	<key>STATUS_COLOR_PRELUDE</key>
+	<string>‎Πρελούδιο</string>
+	<key>STATUS_COLOR_SCARLETT</key>
+	<string>‎Άλικο</string>
+	<key>STATUS_COLOR_SCORPION</key>
+	<string>‎Σκορπιός</string>
+	<key>STATUS_COLOR_SUMMER_SKY</key>
+	<string>‎Γαλάζιο ουρανού</string>
+	<key>STATUS_COLOR_SUNDANCE</key>
+	<string>‎Χορός του ήλιου</string>
+	<key>STATUS_COLOR_VIVID_VIOLET</key>
+	<string>‎Έντονο βιολετί</string>
+	<key>STATUS_COLOR_WASABI</key>
+	<string>‎Πράσινο Γουασάμπι</string>
+	<key>STATUS_FONT_BRYNDAN</key>
+	<string>‎Bryndan Write</string>
+	<key>STATUS_FONT_GEORGIA</key>
+	<string>‎Γεωργία</string>
+	<key>STATUS_FONT_HELVETICA</key>
+	<string>‎Helvetica</string>
+	<key>STATUS_FONT_NORICAN</key>
+	<string>‎Norican</string>
+	<key>STATUS_FONT_OSWALD</key>
+	<string>‎Oswald Heavy</string>
+	<key>STATUS_PREPARING</key>
+	<string>‎Προετοιμασία...</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{0}}</key>
+	<string>‎%@ Αποκλείστηκε</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{1}}</key>
+	<string>‎%@ Αποκλείστηκαν</string>
+	<key>STATUS_PRIVACY_MY_CONTACTS</key>
+	<string>‎Οι Επαφές μου</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_BODY_TEXT</key>
+	<string>‎Επιτρέψτε σε %@ την πρόσβαση στις επαφές σας ώστε να μπορείτε να στέλνετε και να λαμβάνετε τις ενημερώσεις της κατάστασής τους. Για να το κάνετε αυτό, πατήστε Ρυθμίσεις και ενεργοποιήστε τις Επαφές.</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_TITLE</key>
+	<string>‎Οι Ενημερώσεις Κατάστασης Δεν είναι Διαθέσιμες</string>
+	<key>STICKER</key>
+	<string>‎Αυτοκόλλητο</string>
+	<key>STICKER_SEARCH_RESULTS</key>
+	<string>‎Αποτελέσματα αυτοκόλλητων για “%@”</string>
+	<key>STR_BIZ_APPT_ONLY</key>
+	<string>‎Μόνο με ραντεβού</string>
+	<key>STR_BIZ_CLOSED</key>
+	<string>‎Κλειστά</string>
+	<key>STR_BIZ_OPEN_24H</key>
+	<string>‎Ανοιχτά 24 ώρες</string>
+	<key>STR_SOCIAL_FACEBOOK</key>
+	<string>‎Facebook</string>
+	<key>STR_STATUS_WHATSAPP_STATUS</key>
+	<string>‎Κατάσταση WhatsApp</string>
+	<key>SUSPICIOUS_LINK_WARNING</key>
+	<string>‎Ύποπτος Σύνδεσμος</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{0}}</key>
+	<string>‎%@ Ύποπτος Σύνδεσμος</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{1}}</key>
+	<string>‎%@ Ύποπτοι Σύνδεσμοι</string>
+	<key>TAP_FOR_MORE</key>
+	<string>‎ΠΑΤΗΣΤΕ ΓΙΑ ΠΕΡΙΣΣΟΤΕΡΑ</string>
+	<key>TAP_TO_CANCEL</key>
+	<string>‎Πατήστε για Ακύρωση</string>
+	<key>TAP_TO_DOWNLOAD</key>
+	<string>‎Πατήστε για Λήψη</string>
+	<key>TAP_TO_EDIT</key>
+	<string>‎Πατήστε για Επεξεργασία</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{0}}_MAXIMUM</key>
+	<string>‎Το αναγνωριστικό του πακέτου αυτοκόλλητων έχει πολύ λίγους χαρακτήρες. %@ χαρακτήρας είναι το ελάχιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{1}}_MAXIMUM</key>
+	<string>‎Το αναγνωριστικό του πακέτου αυτοκόλλητων έχει πολύ λίγους χαρακτήρες. %@ χαρακτήρες είναι το ελάχιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORTING_ERROR</key>
+	<string>‎Υπάρχει κάποιο πρόβλημα με αυτό το πακέτο αυτοκόλλητων και δεν μπορεί να προστεθεί σε %1$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{0}}_MINIMUM</key>
+	<string>‎Ο αριθμός των αυτοκόλλητων σε αυτό το πακέτο δεν είναι μεταξύ %1$@ και %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{1}}_MINIMUM</key>
+	<string>‎Ο αριθμός των αυτοκόλλητων σε αυτό το πακέτο δεν είναι μεταξύ %1$@ και %2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_APP_STORE_LINK</key>
+	<string>‎Το πακέτο αυτοκόλλητων έχει έναν μη έγκυρο σύνδεσμο του App Store.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_PLAY_STORE_LINK</key>
+	<string>‎Το πακέτο αυτοκόλλητων έχει έναν μη έγκυρο σύνδεσμο του Play Store.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_STICKER_IMAGE</key>
+	<string>‎Ένα από αυτά τα αυτοκόλλητα σε αυτό το πακέτο αυτοκόλλητων έχει ένα μη έγκυρο χαρακτηριστικό.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Ένα από τα αυτοκόλλητα δεν έχει διαστάσεις %1$@ x %1$@ pixel.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Ένα από τα αυτοκόλλητα δεν έχει διαστάσεις %1$@ x %1$@ pixels.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Το μέγεθος ενός αυτοκόλλητου είναι πολύ μεγάλο. %@ KB είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Το μέγεθος ενός αυτοκόλλητου είναι πολύ μεγάλο. %@ KB είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{0}}_MAXIMUM</key>
+	<string>‎Το όνομα, ο εκδότης ή το αναγνωριστικό του πακέτου αυτοκόλλητων έχει πάρα πολλούς χαρακτήρες ή είναι κενό. %@ χαρακτήρας είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{1}}_MAXIMUM</key>
+	<string>‎Το όνομα, ο εκδότης ή το αναγνωριστικό του πακέτου αυτοκόλλητων έχει πάρα πολλούς χαρακτήρες ή είναι κενό. %@ χαρακτήρες είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{0}}_MAXIMUM</key>
+	<string>‎Ένα από τα αυτοκόλλητα έχει πάρα πολλά emoji. %@ emoji είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{1}}_MAXIMUM</key>
+	<string>‎Ένα από τα αυτοκόλλητα έχει πάρα πολλά emoji. %@ emoji είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Η εικόνα του συρταριού δεν έχει διαστάσεις %1$@ x %1$@ pixel.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Η εικόνα του συρταριού δεν έχει διαστάσεις %1$@ x %1$@ pixels.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Το μέγεθος της εικόνας του συρταριού είναι πολύ μεγάλη. %@ KB είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Το μέγεθος της εικόνας του συρταριού είναι πολύ μεγάλη. %@ KB είναι το μέγιστο όριο.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_WRONG_BUNDLE_ID</key>
+	<string>‎Η εφαρμογή που φιλοξενεί αυτό το πακέτο αυτοκόλλητων έχει ένα μη έγκυρο αναγνωριστικό.</string>
+	<key>TITLE_CHATS</key>
+	<string>‎Συνομιλίες</string>
+	<key>TITLE_PHOTOS</key>
+	<string>‎Φωτογραφίες</string>
+	<key>TRANSCODER_ALERT_COULD_NOT_SHARE_VIDEO</key>
+	<string>‎Αδύνατη η κοινοποίηση του βίντεο</string>
+	<key>TRANSCODER_ERROR_BLANK_VIDEO_FILE</key>
+	<string>‎Το βίντεο είναι κενό.</string>
+	<key>TRANSCODER_ERROR_UNUSABLE_VIDEO</key>
+	<string>‎Αυτό το βίντεο δεν είναι δυνατό να αποσταλεί. Παρακαλώ δοκιμάστε με ένα διαφορετικό βίντεο.</string>
+	<key>TRY_AGAIN_LATER</key>
+	<string>‎Παρακαλώ προσπαθήστε αργότερα.</string>
+	<key>UNBLOCK_SHORTENED</key>
+	<string>‎Αποδοχή</string>
+	<key>UNKNOWN_CALLER</key>
+	<string>‎Άγνωστο</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{0}}</key>
+	<string>‎%1$@ και %2$@ άλλη επαφή</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{1}}</key>
+	<string>‎%1$@ και %2$@ άλλες επαφές</string>
+	<key>VCARD_SHARE_CONTACTS_{{0}}</key>
+	<string>‎Κοινή χρήση %@ επαφής</string>
+	<key>VCARD_SHARE_CONTACTS_{{1}}</key>
+	<string>‎Κοινή χρήση %@ επαφών</string>
+	<key>VIDEO_RECORDING_PERMISSIONS</key>
+	<string>‎Για εγγραφή βίντεο με ήχο, %1$@ χρειάζεται πρόσβαση στο μικρόφωνο. Για ενεργοποίηση πρόσβασης, μεταβείτε στις Ρυθμίσεις iPhone &gt; Απόρρητο &gt; Μικρόφωνο και ενεργοποιήστε το για %2$@.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_IOS8</key>
+	<string>‎Για εγγραφή βίντεο με ήχο, %1$@ χρειάζεται πρόσβαση στο μικρόφωνο. Για ενεργοποίηση πρόσβασης, πατήστε Ρυθμίσεις και ενεργοποιήστε το Μικρόφωνο.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_TITLE</key>
+	<string>‎Θέλετε βίντεο με ήχο;</string>
+	<key>VISION_BOTTOM</key>
+	<string>‎Στο κάτω μέρος</string>
+	<key>VISION_BOTTOM_LEFT</key>
+	<string>‎Στο κάτω μέρος αριστερά</string>
+	<key>VISION_BOTTOM_RIGHT</key>
+	<string>‎Στο κάτω μέρος δεξιά</string>
+	<key>VISION_CENTER</key>
+	<string>‎Στο κέντρο</string>
+	<key>VISION_CENTERED</key>
+	<string>‎Στο κέντρο</string>
+	<key>VISION_FACE_COUNT_{{0}}</key>
+	<string>‎Ένα πρόσωπο στο πλαίσιο</string>
+	<key>VISION_FACE_COUNT_{{1}}</key>
+	<string>‎{1} πρόσωπα στο πλαίσιο</string>
+	<key>VISION_LEFT_EDGE</key>
+	<string>‎Στην αριστερή γωνία</string>
+	<key>VISION_NO_FACES</key>
+	<string>‎Κανένα πρόσωπο στο πλαίσιο</string>
+	<key>VISION_RIGHT_EDGE</key>
+	<string>‎Στη δεξιά γωνία</string>
+	<key>VISION_TOP</key>
+	<string>‎Κοντά στην κορυφή</string>
+	<key>VISION_TOP_LEFT</key>
+	<string>‎Κοντά στην κορυφή αριστερά</string>
+	<key>VISION_TOP_RIGHT</key>
+	<string>‎Κοντά στην κορυφή δεξιά</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{0}}</key>
+	<string>‎Κωδικός ενεργοποίησης. %1$@ από %2$@ τιμή εισήχθηκε.</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{1}}</key>
+	<string>‎Κωδικός ενεργοποίησης. %1$@ από %2$@ τιμές εισήχθησαν.</string>
+	<key>VOICEOVER_ALERT</key>
+	<string>‎Προειδοποίηση</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{0}}</key>
+	<string>‎%@ χαρακτήρας απομένει</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{1}}</key>
+	<string>‎%@ χαρακτήρες απομένουν</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA</key>
+	<string>‎Προσθέστε άλλη φωτογραφία ή βίντεο</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA_REPLY</key>
+	<string>‎Απάντηση με υπάρχουσα φωτογραφία ή βίντεο</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA</key>
+	<string>‎Λήψη άλλης φωτογραφίας ή βίντεο</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA_REPLY</key>
+	<string>‎Απαντήστε με νέα φωτογραφία ή βίντεο</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION</key>
+	<string>‎Πεδίο επικεφαλίδας</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_ADD_HINT</key>
+	<string>‎Διπλό πάτημα για προσθήκη επικεφαλίδας</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_CHANGE_HINT</key>
+	<string>‎Διπλό πάτημα για αλλαγή επικεφαλίδας</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY</key>
+	<string>‎Πεδίο κειμένου απάντησης</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_ADD_HINT</key>
+	<string>‎Διπλό πάτημα για προσθήκη απάντησης</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_CHANGE_HINT</key>
+	<string>‎Διπλό πάτημα για αλλαγή της απάντησης</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_ACTIVATE</key>
+	<string>‎Διπλό πάτημα για ενεργοποίηση</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CANCEL</key>
+	<string>‎Πατήστε δυο φορές για ακύρωση</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CLOSE</key>
+	<string>‎Διπλό πάτημα για κλείσιμο</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DESELECT</key>
+	<string>‎Πατήστε δύο φορές για αποεπιλογή</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DOWNLOAD</key>
+	<string>‎Διπλό πάτημα για λήψη</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_EDIT</key>
+	<string>‎Διπλό πάτημα για επεξεργασία</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_OPEN</key>
+	<string>‎Διπλό πάτημα για άνοιγμα</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_PLAY</key>
+	<string>‎Πατήστε δυο φορές για αναπαραγωγή</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_SELECT</key>
+	<string>‎Πατήστε δύο φορές για επιλογή</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_TOGGLE_SETTING</key>
+	<string>‎Πατήστε δύο φορές για αποεπιλογή ρύθμισης.</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_EDIT</key>
+	<string>‎Αναλογίες</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_LIST</key>
+	<string>‎Πατήστε δύο φορές για λίστα αναλογιών</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ROTATE</key>
+	<string>‎Περιστροφή αντικειμένου</string>
+	<key>VOICEOVER_FILTER_MODE_ENTER</key>
+	<string>‎Εφαρμογή φίλτρου</string>
+	<key>VOICEOVER_FILTER_MODE_EXIT_HINT</key>
+	<string>‎Πατήστε δυο φορές για έξοδο από την επιλογή φίλτρου</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_GIF</key>
+	<string>‎Αποστολή ως GIF</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_VIDEO</key>
+	<string>‎Αποστολή ως βίντεο</string>
+	<key>VOICEOVER_GIF_SEND_AS_GIF</key>
+	<string>‎Αποστολή ως GIF</string>
+	<key>VOICEOVER_GIF_SEND_AS_VIDEO</key>
+	<string>‎Αποστολή ως βίντεο</string>
+	<key>VOICEOVER_GIF_TOGGLE_HINT</key>
+	<string>‎Πατήστε δυο φορές για εναλλαγή μεταξύ αποστολής ως βίντεο και αποστολής ως GIF</string>
+	<key>VOICEOVER_MEDIA_BROWSER_EDIT_DONE</key>
+	<string>‎Όταν ολοκληρώστε την ανακατανομή των φωτογραφιών, πατήστε εδώ</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_GIF</key>
+	<string>‎Πατήστε δυο φορές για μετάβαση στα GIF</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_PHOTO</key>
+	<string>‎Πατήστε δύο φορές για μετάβαση στις φωτογραφίες</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_VIDEO</key>
+	<string>‎Πατήστε δύο φορές για μετάβαση στα βίντεο</string>
+	<key>VOICEOVER_MULTISEND_ADD_EMOJI</key>
+	<string>‎Προσθήκη emoji</string>
+	<key>VOICEOVER_MULTISEND_ADD_TEXT</key>
+	<string>‎Προσθήκη κειμένου</string>
+	<key>VOICEOVER_MULTISEND_CROP_AND_TILT</key>
+	<string>‎Περικοπή και περιστροφή αντικειμένου</string>
+	<key>VOICEOVER_MULTISEND_DELETE</key>
+	<string>‎Διαγραφή παρόντος αντικειμένου</string>
+	<key>VOICEOVER_MULTISEND_PAINT</key>
+	<string>‎Βούρτσα</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_CROPPED</key>
+	<string>‎Περικόπηκε</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_NO_CHANGE</key>
+	<string>‎Πρωτότυπο</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_ROTATED</key>
+	<string>‎Γυρισμένη</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{0}}</key>
+	<string>‎%@ αντικείμενο πολυμέσων.</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{1}}</key>
+	<string>‎%@ αντικείμενα πολυμέσων.</string>
+	<key>VOICEOVER_NOTIFICATION_DOWNLOADING_PTT_MESSAGE</key>
+	<string>‎Φωνητικό μήνυμα - Λήψη</string>
+	<key>VOICEOVER_NOTIFICATION_PTT_MESSAGE</key>
+	<string>‎Φωνητικό μήνυμα.</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST</key>
+	<string>‎Συμμετέχουν: %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{0}}</key>
+	<string>‎Μέλη: __ΟΝΟΜΑΤΑ__ και %@ ακόμα</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{1}}</key>
+	<string>‎Μέλη: __ΟΝΟΜΑΤΑ__ και %@ ακόμα</string>
+	<key>VOICEOVER_PHOTO_CROP_AND_TILT_LABEL</key>
+	<string>‎Περικοπή και περιστροφή</string>
+	<key>VOICEOVER_PLAY_VIDEO</key>
+	<string>‎Αναπαραγωγή βίντεο</string>
+	<key>VOICEOVER_REMOVED</key>
+	<string>‎Αφαιρέθηκε</string>
+	<key>VOICEOVER_REMOVE_LINK_PREVIEW</key>
+	<string>‎Αφαίρεση συνδέσμου προεπισκόπησης</string>
+	<key>VOICEOVER_SELECTED</key>
+	<string>‎Επιλεγμένο</string>
+	<key>VOICEOVER_STICKER_PACK_HEADER</key>
+	<string>‎%@, Επικεφαλίδα</string>
+	<key>VOICE_OVER_POSITION</key>
+	<string>‎Τρέχουσα θέση. %1$@. από %2$@.</string>
+	<key>VOIP_VOICEOVER_VIDEO_CALL</key>
+	<string>‎Βιντεοκλήση</string>
+	<key>VOIP_VOICEOVER_VOICE_CALL</key>
+	<string>‎Φωνητική κλήση</string>
+	<key>WACONTACT_BIRTHDAY_KEY</key>
+	<string>‎Γενέθλια</string>
+	<key>WACONTACT_DATE_KEY</key>
+	<string>‎Ημερομηνία</string>
+	<key>WACONTACT_DEPARTMENT_NAME_KEY</key>
+	<string>‎Διαμέρισμα</string>
+	<key>WACONTACT_EMAIL_ADDRESSES_KEY</key>
+	<string>‎Email</string>
+	<key>WACONTACT_FAMILY_NAME_KEY</key>
+	<string>‎Επώνυμο</string>
+	<key>WACONTACT_GIVEN_NAME_KEY</key>
+	<string>‎Όνομα</string>
+	<key>WACONTACT_INSTANT_MESSAGE_KEY</key>
+	<string>‎Αποστολή μηνύματος</string>
+	<key>WACONTACT_JOB_TITLE_KEY</key>
+	<string>‎Τίτλος εργασίας</string>
+	<key>WACONTACT_MIDDLE_NAME_KEY</key>
+	<string>‎Μεσαίο όνομα</string>
+	<key>WACONTACT_NAME_PREFIX_KEY</key>
+	<string>‎Πρόθεμα</string>
+	<key>WACONTACT_NAME_SUFFIX_KEY</key>
+	<string>‎Επίθημα</string>
+	<key>WACONTACT_NICKNAME_KEY</key>
+	<string>‎Προσωνύμιο</string>
+	<key>WACONTACT_ORGANIZATION_NAME_KEY</key>
+	<string>‎Εταιρία</string>
+	<key>WACONTACT_PHONETIC_FAMILY_NAME_KEY</key>
+	<string>‎Φωνητικό επώνημο</string>
+	<key>WACONTACT_PHONETIC_GIVEN_NAME_KEY</key>
+	<string>‎Φωνητικό όνομα</string>
+	<key>WACONTACT_PHONETIC_MIDDLE_NAME_KEY</key>
+	<string>‎Φωνητικό μεσαίο όνομα</string>
+	<key>WACONTACT_PHONETIC_ORGANIZATION_NAME_KEY</key>
+	<string>‎Φωνητικό όνομα εταιρίας</string>
+	<key>WACONTACT_PHONE_NUMBER_KEY</key>
+	<string>‎Τηλέφωνο</string>
+	<key>WACONTACT_POSTAL_ADDRESSES_KEY</key>
+	<string>‎Διεύθυνση</string>
+	<key>WACONTACT_PREVIOUS_FAMILY_NAME_KEY</key>
+	<string>‎Επώνυμο πατρός</string>
+	<key>WACONTACT_SOCIAL_PROFILES_KEY</key>
+	<string>‎Κοινωνικό προφίλ</string>
+	<key>WACONTACT_URL_ADDRESSES_KEY</key>
+	<string>‎URL</string>
+	<key>WEBSITE_TITLE</key>
+	<string>‎Ιστότοπος</string>
+	<key>YOU_WERE_ADDED_TO_GROUP</key>
+	<string>‎Προστεθήκατε στην ομάδα “%@”</string>
+</dict>
+</plist>

@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aika saada tämä nuoli osoittamaan oikeaan suuntaan. Polta vähintään {{goal_value:energy}} kaloria päivässä %#@num_days@ ajan, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli on kääntymäisillään ylös! Polta {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ aikana, niin se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Olet ollut aktiivinen, {{username}}. Pysy liikkeellä ja polta lisää kaloreita, niin nuolen suunta pysyy ylös!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, liikut hienosti joka päivä. Jatka samaan malliin!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä nuoli ylös! Polta vähintään {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ ajan, niin olet taas aikataulussa.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä nuoli ylös, {{username}}! Polta vähintään {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ ajan, niin olet taas aikataulussa.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Olet ollut aktiivinen! Pysy liikkeellä, niin nuolen suunta pysyy ylös!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli kaipaa hieman huomiota. Yritä polttaa vähintään {{goal_value:energy}} kaloria päivässä, jotta tilanne paranee.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käy tämän nuolen kimppuun polttamalla vähintään {{goal_value:energy}} kaloria päivässä. Tarkista myös uusi tavoitteesi ensi viikolla. Jos pystyt pysymään aikataulussa, nuoli kääntyy noin %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikkoa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli ylös! Sinun tarvitsee vain polttaa {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Olet ollut aktiivinen, {{username}}. Pysy liikkeellä ja polta lisää kaloreita, niin nuolen suunta pysyy ylös!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ota tämä nuoli haltuun polttamalla vähintään {{goal_value:energy}} kaloria päivässä tällä viikolla. Saat uuden tavoitteen joka viikko, kunnes nuoli kääntyy ylöspäin. Tähän tarvitaan noin %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikko</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikkoa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ota tämä nuoli haltuun polttamalla vähintään {{goal_value:energy}} kilojoulea päivässä tällä viikolla. Saat uuden tavoitteen joka viikko, kunnes nuoli kääntyy ylöspäin. Tähän tarvitaan noin %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikko</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikkoa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, liikut hienosti joka päivä. Jatka samaan malliin!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Liikut hienosti joka päivä. Jatka samaan malliin!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Olet ollut aktiivinen! Pysy liikkeellä, niin nuolen suunta pysyy ylös!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli kaipaa hieman huomiota, {{username}}. Yritä polttaa vähintään {{goal_value:energy}} kilojoulea päivässä, jotta tilanne paranee.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Liikut hienosti joka päivä. Jatka samaan malliin!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli on kääntymäisillään ylös! Polta {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ aikana, niin se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, nuolesi osoittaa vielä ylöspäin, mutta viime aikoina olet liikkunut vähemmän. Liiku päivittäin enemmän, jotta nuolen suunta pysyy oikeana.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, nuoli osoittaa ylös, mutta polttamasi energia on ollut laskusuunnassa. Liiku päivittäin vähän enemmän. Kyllä se onnistuu.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Polta tänään vähintään {{goal_value:energy}} kilojoulea, niin tämä nuoli kääntyy takaisin ylös! Anna mennä, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuoli osoittaa alas, mutta pian se muuttuu! Käännä se polttamalla {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli ylös! Sinun tarvitsee vain polttaa {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Arkiliikuntanuoli osoittaa alas, mutta poltetut kalorit ovat noususuhdanteessa. Käännä nuolen suunta polttamalla vähintään {{goal_value:energy}} kaloria päivässä seuraavan 30 päivän aikana.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Polta tänään vähintään {{goal_value:energy}} kilojoulea, niin tämä nuoli kääntyy takaisin ylös! Anna mennä!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä arkiliikuntanuoli! Polta vähintään {{goal_value:energy}} kaloria päivässä seuraavan 30 päivän ajan, niin olet taas aikataulussa.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuoli osoittaa alas, mutta pian se muuttuu! Käännä se polttamalla {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli on kääntymäisillään ylös, {{username}}! Polta {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ aikana, niin se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Arkiliikuntanuoli osoittaa alas, mutta poltetut kilojoulet ovat noususuhdanteessa. Käännä nuolen suunta polttamalla vähintään {{goal_value:energy}} kilojoulea päivässä seuraavan 30 päivän aikana.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käy tämän nuolen kimppuun polttamalla vähintään {{goal_value:energy}} kaloria päivässä. Tarkista myös uusi tavoitteesi ensi viikolla. Jos pystyt pysymään aikataulussa, nuoli kääntyy noin %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli ylös, {{username}}! Sinun tarvitsee vain polttaa {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ ajan.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä arkiliikuntanuoli! Polta vähintään {{goal_value:energy}} kilojoulea päivässä seuraavan 30 päivän ajan, niin olet taas aikataulussa.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ota tämä nuoli haltuun polttamalla vähintään {{goal_value:energy}} kaloria päivässä tällä viikolla. Saat uuden tavoitteen joka viikko, kunnes nuoli kääntyy ylöspäin. Tähän tarvitaan noin %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikko</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikkoa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli on kääntymäisillään ylös, {{username}}! Polta {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ aikana, niin se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Polta tänään vähintään {{goal_value:energy}} kaloria, niin tämä nuoli kääntyy takaisin ylös! Anna mennä, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aika saada tämä nuoli osoittamaan oikeaan suuntaan. Polta vähintään {{goal_value:energy}} kaloria päivässä %#@num_days@ ajan!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuolesi osoittaa vielä ylöspäin, mutta viime aikoina olet liikkunut vähemmän. Liiku päivittäin enemmän, jotta nuolen suunta pysyy oikeana.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aika saada tämä nuoli osoittamaan oikeaan suuntaan. Polta vähintään {{goal_value:energy}} kilojoulea päivässä %#@num_days@ ajan!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuoli osoittaa alas, mutta pian se muuttuu, {{username}}! Käännä se polttamalla {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Polta tänään vähintään {{goal_value:energy}} kaloria, niin tämä nuoli kääntyy takaisin ylös! Anna mennä!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aika saada tämä nuoli osoittamaan oikeaan suuntaan. Polta vähintään {{goal_value:energy}} kilojoulea päivässä %#@num_days@ ajan, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, arkiliikuntanuoli osoittaa alas, mutta poltetut kalorit ovat noususuhdanteessa. Käännä nuolen suunta polttamalla vähintään {{goal_value:energy}} kaloria päivässä seuraavan 30 päivän ajan.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli ylös, {{username}}! Sinun tarvitsee vain polttaa {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ ajan.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käy tämän nuolen kimppuun polttamalla vähintään {{goal_value:energy}} kilojoulea päivässä. Tarkista myös uusi tavoitteesi ensi viikolla. Jos pystyt pysymään aikataulussa, nuoli kääntyy noin %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käy tämän nuolen kimppuun polttamalla vähintään {{goal_value:energy}} kilojoulea päivässä. Tarkista myös uusi tavoitteesi ensi viikolla. Jos pystyt pysymään aikataulussa, nuoli kääntyy noin %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä nuoli ylös, {{username}}! Polta vähintään {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ ajan, niin olet taas aikataulussa.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, arkiliikuntanuoli osoittaa alas, mutta poltetut kilojoulet ovat noususuhdanteessa. Käännä nuolen suunta polttamalla vähintään {{goal_value:energy}} kilojoulea päivässä seuraavan 30 päivän ajan.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ota tämä nuoli haltuun polttamalla vähintään {{goal_value:energy}} kilojoulea päivässä tällä viikolla. Saat uuden tavoitteen joka viikko, kunnes nuoli kääntyy ylöspäin. Tähän tarvitaan noin %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikko</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikkoa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuoli osoittaa alas, mutta pian se muuttuu, {{username}}! Käännä se polttamalla {{goal_value:energy}} kaloria päivässä seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli kaipaa hieman huomiota. Yritä polttaa vähintään {{goal_value:energy}} kilojoulea päivässä, jotta tilanne paranee.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli kaipaa hieman huomiota, {{username}}. Yritä polttaa vähintään {{goal_value:energy}} kaloria päivässä, jotta tilanne paranee.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä nuoli ylös! Polta vähintään {{goal_value:energy}} kilojoulea päivässä seuraavan %#@num_days@ ajan, niin olet taas aikataulussa.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä arkiliikuntanuoli, {{username}}! Polta vähintään {{goal_value:energy}} kilojoulea päivässä seuraavan 30 päivän ajan, niin olet taas aikataulussa.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuoli osoittaa ylös, mutta polttamasi energia on ollut laskusuunnassa. Liiku päivittäin vähän enemmän. Kyllä se onnistuu.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetäänpä arkiliikuntanuoli, {{username}}! Polta vähintään {{goal_value:energy}} kaloria päivässä seuraavan 30 päivän ajan, niin olet taas aikataulussa.</string>
+	</dict>
+</dict>
+</plist>

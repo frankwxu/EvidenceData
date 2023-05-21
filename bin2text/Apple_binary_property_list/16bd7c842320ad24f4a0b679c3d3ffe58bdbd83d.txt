@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u mesajlar</string>
+			<key>many</key>
+			<string>%u mesajlar</string>
+			<key>one</key>
+			<string>Mesaj</string>
+			<key>other</key>
+			<string>%u mesajlar</string>
+			<key>two</key>
+			<string>%u mesaj</string>
+			<key>zero</key>
+			<string>%u mesajlar</string>
+		</dict>
+	</dict>
+	<key>%u missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_calls@</string>
+		<key>num_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u cevapsız arama</string>
+			<key>many</key>
+			<string>%u cevapsız arama</string>
+			<key>one</key>
+			<string>Cevapsız arama</string>
+			<key>other</key>
+			<string>%u cevapsız arama</string>
+			<key>two</key>
+			<string>%u cevapsız arama</string>
+			<key>zero</key>
+			<string>%u cevapsız arama</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>사용할 수 없음</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>임시 저장 계속함</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>%@에 업데이트됨</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>%@ 이후로 Mail Drop에서 더 이상 사용할 수 없음</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>메시지 아카이브</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>선택된 메시지 삭제</string>
+	<key>MAILBOXES</key>
+	<string>메일상자</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>전년</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string>, </string>
+	<key>AND_N_MORE</key>
+	<string> 외 %@명…</string>
+	<key>NO_INCLUDE</key>
+	<string>포함하지 않음</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>아카이브</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>새로운 메시지</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>발신자가 이 메시지를 암호화했습니다.</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>임시 저장 최소화</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>이전 임시 저장</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>선택한 필터와 일치하는 메시지 없음</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>메일상자 위치</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>전체 선택</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>서버에서 메일상자를 생성할 수 없습니다.</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>문제가 발생했기 때문에 이 메시지를 볼 수 없습니다.</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>어제</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>전체 메시지 다운로드</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>해당 첨부 파일이 너무 큽니다.</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>메일상자를 생성할 수 없음</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>메시지를 %@ 메일상자로 이동할 수 없습니다.</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>어제</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>삭제</string>
+	<key>FORWARD</key>
+	<string>전달</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>문제 리포트</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>마크업 및 답장</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>이 연락처 차단 해제</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>, %@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>VIP가 보낸 메일만</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>이 메시지가 서버에서 다운로드되지 않았습니다.</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>이 iPod은 메일 계정을 생성할 수 없도록 제한되었습니다.</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>Siri 예측이 더 이상 유효하지 않습니다.</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>표시(%@개)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>암호</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>수신자를 지정하지 않았습니다.</string>
+	<key>BLOCK_CONTACT</key>
+	<string>이 연락처 차단</string>
+	<key>REVERTING_CHANGE</key>
+	<string>마지막 변경 사항 취소 중…</string>
+	<key>MOVE_OTHER</key>
+	<string> 기타 메일상자…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>읽지 않음</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>모든 받은 편지함</string>
+	<key>MARK_BUTTON</key>
+	<string>표시</string>
+	<key>BYTES_REMAINING</key>
+	<string>남아있는 %@ 다운로드</string>
+	<key>DELETE_MAILBOX</key>
+	<string>메일상자 삭제</string>
+	<key>TO_LABEL</key>
+	<string>받는 사람</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>저장 공간이 거의 가득 참</string>
+	<key>SAVE</key>
+	<string>저장</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>오늘</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>이벤트 생성</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>%@ 검색</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>보낸 사람이 다음을 포함: %@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>발신자 주소가 유효하지 않습니다.</string>
+	<key>UNREAD_FORMAT</key>
+	<string>%lu개 읽지 않음</string>
+	<key>UNMUTE</key>
+	<string>알림 활성화</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>인증서 설치</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>구독 취소</string>
+	<key>ALL_DRAFTS</key>
+	<string>모든 임시 저장</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>%@ 계정이 다른 기기에서 사용 중입니다.</string>
+	<key>INSTALL</key>
+	<string>설치</string>
+	<key>DATE_HEADER</key>
+	<string>날짜:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>%1$@(%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>%@/%@ 결과</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>어제 업데이트됨</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>읽지 않은 메일 없음</string>
+	<key>NO_TO</key>
+	<string>수신자 없음</string>
+	<key>SETTINGS</key>
+	<string>설정</string>
+	<key>CC</key>
+	<string>참조:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>회색</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>메일상자</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>계정 제한</string>
+	<key>INBOXES</key>
+	<string>받은 편지함</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>선택된 메시지 없음</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>첨부 파일 다운로드 중</string>
+	<key>ADD_VIP</key>
+	<string>VIP로 추가</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>다음 메일 포함:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>첨부 파일이 있는 메시지</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>기타</string>
+	<key>SWIPE_MORE</key>
+	<string>기타</string>
+	<key>BCC</key>
+	<string>숨은 참조:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>이 보낸 사람에 대한 서명된 인증서를 관리합니다.</string>
+	<key>HIDE_DETAILS</key>
+	<string>가리기</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>직전 1주</string>
+	<key>CC/BCC/FROM</key>
+	<string>참조/숨은 참조, 보낸 사람:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>%@ 메일상자에서 찾음</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>지난주</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>Handoff 동작에 실패함</string>
+	<key>SIGNED</key>
+	<string>서명됨</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>지금 업데이트됨</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>읽지 않은 메시지</string>
+	<key>TRASH_EMAIL</key>
+	<string>메시지 삭제</string>
+	<key>YES_INCLUDE</key>
+	<string>포함</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>사용 가능한 인터넷 연결 없음.</string>
+	<key>VIP_ALERTS</key>
+	<string>VIP 알림</string>
+	<key>NO</key>
+	<string>아니요</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>모든 받은 편지함</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>​</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>깃발 표시</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>이 iPhone은 메일 계정을 생성할 수 없도록 제한되었습니다.</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>VIP</string>
+	<key>DETAILS</key>
+	<string>세부사항</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>재인증 필요</string>
+	<key>DONE</key>
+	<string>완료</string>
+	<key>DOWNLOAD</key>
+	<string>다운로드</string>
+	<key>MOVE_MESSAGE</key>
+	<string>메시지 이동…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>읽지 않음</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>서명된 인증서 보기</string>
+	<key>DELETE_EMAIL</key>
+	<string>메시지 삭제</string>
+	<key>HEAL_MESSAGE</key>
+	<string>Mail에서 이 설정을 복구하려고 시도할 수 있습니다.</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>%@/%@ 결과</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>암호화 인증서 보기</string>
+	<key>REMOVE_VIP</key>
+	<string>VIP에서 제거</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>전달</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>첨부 파일 다운로드 중</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>정크로 이동</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>메시지를 옮기려면 메일상자를 탭하십시오.</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>‘%@’에 대한 발신 메일 서버에 연결할 수 없음</string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>주소가 유효하지 않기 때문에 Mail에서 해당 페이지를 열 수 없음</string>
+	<key>SEARCHING</key>
+	<string>검색 중</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>지난달</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>메시지를 이동할 수 없음</string>
+	<key>MUTE</key>
+	<string>알림 비활성화</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>첨부 파일을 다운로드할 수 없음</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>선택된 메시지 아카이브</string>
+	<key>SEARCH_RESULTS</key>
+	<string>검색</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>첨부 파일</string>
+	<key>SUBJECT</key>
+	<string>제목:</string>
+	<key>SAVE_VIDEO</key>
+	<string>비디오 저장</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>첨부 파일</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>메시지를 %@ 메일상자로 이동할 수 없습니다.</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>전체 메시지를 로드할 수 없음</string>
+	<key>TO</key>
+	<string>받는 사람:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>계정 추가</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>메일상자를 삭제할 수 없음</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>메일상자 여는 중…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>표시…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>세부사항…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>휴지통(%@개)</string>
+	<key>FROM</key>
+	<string>보낸 사람:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>해당 첨부 파일이 너무 큽니다.</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>깃발 표⁠시 제⁠거</string>
+	<key>ENABLE_FILTER</key>
+	<string>메시지 필터 활성화</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>이 메시지는 일부만 다운로드되었습니다.</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>받는 사람이 다음을 포함: %@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>모든 이미지 로드</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>메시지를 옮기려면 메일상자를 탭하십시오.</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>‘%@’에 대한 서버에 연결할 수 없음</string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>스레드 알림 없음</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>첨부 파일 다운로드됨</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>답장: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>첨부 파일이 있는 메일 없음</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>받는 사람:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>Mail 확인 중…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>Mail에서 이 첨부 파일을 열 수 없습니다.</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>메일상자</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>정크로 이동</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>%@ 이후로 더 이상 사용할 수 없음</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>%@/%@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>VIP 추가</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>‘%@’에 대해 암호화된 인증서가 이미 있습니다.  대신에 이 인증서를 사용하겠습니까?</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>이 첨부 파일을 다운로드하려면 Wi-Fi에 연결해야 합니다.</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>%@ %@ 메일상자에서 찾음</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>발신자가 이 메시지를 신뢰하는 인증서로 서명했습니다.</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld개)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>VIP가 보낸 메시지</string>
+	<key>OK</key>
+	<string>확인</string>
+	<key>SEE_MORE</key>
+	<string>더 보기</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>이 메시지를 전송하는 중 오류가 발생했습니다.</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>캘린더 이벤트를 더 이상 사용할 수 없기 때문에 Mail에서 열 수 없습니다.</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>메일상자의 이름을 변경할 수 없음</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>필터링 토글</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>메시지를 이동할 수 없음</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>신뢰하지 않는 서명</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>읽지 않음으로 표시</string>
+	<key>REMOVE</key>
+	<string>제거</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>%@ 및 %@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>이 첨부 파일을 다운로드하려면 Wi-Fi에 연결해야 합니다.</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>배지 유형 필터</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>깃발 표시 제거</string>
+	<key>BCC_TITLE</key>
+	<string>숨은 참조</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>모두 삭제</string>
+	<key>DELETE_BUTTON</key>
+	<string>삭제</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>VIP 추가…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>Mail을 사용하려면 사용하지 않는 앱 또는 파일을 삭제하여 저장 공간을 확보한 다음 다시 시도하십시오.</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>서버에 연결하는 데 실패했습니다.</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>%@ 업데이트됨</string>
+	<key>ALL_MAILBOXES</key>
+	<string>모든 메일상자</string>
+	<key>ALL_SENT</key>
+	<string>모든 보낸 메일</string>
+	<key>REPLY</key>
+	<string>답장</string>
+	<key>YES</key>
+	<string>예</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>메일상자</string>
+	<key>THREAD</key>
+	<string>스레드</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>정크 아님으로 표시</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>현재 메일상자</string>
+	<key>NOTIFY_ME</key>
+	<string>나에게 알림</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>이번 주</string>
+	<key>LOADING</key>
+	<string>로드 중…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>새로운 메시지</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>암호 유실</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>알림 중단</string>
+	<key>CC_TITLE</key>
+	<string>참조</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>읽지 않음</string>
+	<key>FROM_TITLE</key>
+	<string>보낸 사람</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>직전 1년</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>이 첨부 파일을 다운로드하려면 WLAN에 연결해야 합니다.</string>
+	<key>QUICK_LOOK</key>
+	<string>훑어보기</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>작년</string>
+	<key>ENCRYPTED</key>
+	<string>암호화됨</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>보낸 사람</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>이 메시지는 메일링 리스트에서 옵니다.</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>로드 중</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>‘%@’ 검색</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>검색</string>
+	<key>DISABLE_FILTER</key>
+	<string>메시지 필터 비활성화</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>발신자가 이 메시지를 암호화했으며 신뢰하는 인증서로 서명했습니다.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>사람</string>
+	<key>TRASH_BUTTON</key>
+	<string>휴지통</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>서버에서 메일상자를 옮길 수 없습니다.</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>다음 포함:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>전달: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>환경설정</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>검색</string>
+	<key>PRINT</key>
+	<string>프린트</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>많이 검색한 항목</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>주황색</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>받는 사람 또는 참조</string>
+	<key>VIP_MAILBOX</key>
+	<string>VIP</string>
+	<key>FROM_LABEL</key>
+	<string>보낸 사람</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>메시지 아카이브</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>이동</string>
+	<key>SWIPE_FLAG</key>
+	<string>깃발 표시</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>이 메시지는 로드되지 않은 이미지를 포함합니다.</string>
+	<key>MOVE_TO</key>
+	<string>‘%@’(으)로 이동</string>
+	<key>ARCHIVE</key>
+	<string>아카이브</string>
+	<key>VIP_EDIT</key>
+	<string>VIP 목록</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>서버에서 메일상자를 삭제할 수 없습니다.</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>%@ – %@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>‘%@’ 메일상자가 이미 존재합니다.</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>오류가 발생한 계정: %@.
+자세한 사항을 보려면 각각의 계정을 선택하십시오.</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>휴지통</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>오늘</string>
+	<key>SWIPE_MOVE</key>
+	<string>이동…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>모든 아카이브</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>받는 사람</string>
+	<key>NO_FROM</key>
+	<string>발신자 없음</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>주소:</string>
+	<key>NEW_MAILBOX</key>
+	<string>새로운 메일상자</string>
+	<key>REPAIR</key>
+	<string>복구</string>
+	<key>SEND_AGAIN</key>
+	<string>다시 보내기</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>%lu개 깃발 표시됨</string>
+	<key>MOVE_BUTTON</key>
+	<string>이동</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>제목</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>스레드 알림</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>설정에서 저장 공간을 관리할 수 있습니다.</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>메일상자</string>
+	<key>BACK</key>
+	<string>뒤로</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>임시 저장</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>%@에 업데이트됨</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>전체 선택 해제</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>계정 오류: %@</string>
+	<key>CERTIFICATE</key>
+	<string>인증서</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>새로운 콘텐츠 개수</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>받는 사람 또는 참조</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>임시 저장: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>전주</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>다수의 계정 오류</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>모든 새로운 메일 가져오기</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>VIP</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@의 %@에서 검색</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>현재 통화 중이기 때문에 데이터 연결을 시작할 수 없습니다.</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>모두 아카이브</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>깃발 표시됨</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>참조: 나 자신</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>첨부 파일 저장</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>최대 해상도 이미지가 사진에 저장됨</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>암호화 해제 오류</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>지난주</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>구독</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>스레드 접기</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>%@까지 사용 가능</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>%@개의 전송하지 않은 메시지</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>이동(%@개)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>발견된 결과 없음</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>읽음으로 표시</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>다른 기기와의 연결이 중단되었을 수 있습니다. 다시 시도하십시오.</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>모든 메시지 개수</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ - %@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>VIP 메일상자에서 중요한 사람이 보낸 메일을 빠르게 열어볼 수 있습니다.</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>이동</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>아카이브하거나 이동할 메시지를 선택하십시오.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>첨부 파일 및 최대 해상도 이미지가 다운로드됨</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>문제가 반복해서 발생하기 때문에 이 메시지를 볼 수 없습니다.</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>읽음</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>선택된 메시지 삭제</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>해당 메시지를 새로운 메일상자로 이동하십시오.</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>나에게 온 메일 없음</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>첨부 파일 다운로드</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>Siri 예측을 수행하는 데 실패함</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>이 메시지는 차단 목록에 포함된 사람에게서 온 메시지입니다.</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>서버에서 메일상자 이름을 변경할 수 없습니다.</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>깃발 표시됨</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>이 연락처를 차단하겠습니까?</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>스레드 알림</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>첨부 파일 다운로드</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>받는 사람: 나 자신</string>
+	<key>BCC_HEADER</key>
+	<string>숨은 참조:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>서버가 수신자 주소 중 하나를 거부했습니다.  해당 메시지는 보낼 편지함에 보관됩니다.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>제안된 검색</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>깃발 표시됨</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>아카이브(%@개)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>해당 메시지를 새로운 메일상자로 이동하십시오.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>첨부 파일 및 최대 해상도 이미지 다운로드 중</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>%@까지 Mail Drop에서 사용 가능</string>
+	<key>CANCEL</key>
+	<string>취소</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>첨부 파일</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>나에게</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>남아있는 %@ 다운로드 중</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>새로운 메시지</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>올해</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>아카이브</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>‘%@’ 메일상자를 삭제하면 관련 메시지가 사용자의 계정에서 제거됩니다.</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>보라색</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>알림 비활성화한 스레드</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>전체 메시지 다운로드 중</string>
+	<key>MESSAGE</key>
+	<string>메시지</string>
+	<key>TRUST</key>
+	<string>신뢰</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>%@ 깃발 색상</string>
+	<key>EXPAND_THREAD</key>
+	<string>스레드 펼치기</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>정크로 이동</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>노란색</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>필터 기준:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>메시지 콘텐츠를 확인할 수 없습니다.</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>기타:</string>
+	<key>CC/BCC</key>
+	<string>참조/숨은 참조:</string>
+	<key>SAVE_IMAGE</key>
+	<string>이미지 저장</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>필터</string>
+	<key>TO_TITLE</key>
+	<string>받는 사람</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>%@ %@에서 찾음</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>다음 메시지로 이동</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>폴더</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>이 첨부 파일이 너무 커서 볼 수 없습니다.</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>Apple Watch를 위해 일부 사용자의 메일 계정을 다시 인증해야 합니다.</string>
+	<key>MUTED_MAILBOX</key>
+	<string>알림 비활성화한 스레드</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>인증서 보기</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>연결 중…</string>
+	<key>NO_MAIL</key>
+	<string>메일 없음</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>알림 설정에서 새로운 VIP 메일에 대한 사용자 설정 알림을 설정합니다.</string>
+	<key>EDIT</key>
+	<string>편집</string>
+	<key>SAVING</key>
+	<string>저장 중</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>정크 아님으로 표시</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>파란색</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>구독 취소</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>이전 메시지로 이동</string>
+	<key>FROM_HEADER</key>
+	<string>보낸 사람:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>빨간색</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>휴지통</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>전날</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>참조</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>인용된 콘텐츠 보기</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>첨부 파일</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>최대 해상도 이미지를 사진에 다운로드 중</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>이 iPad는 메일 계정을 생성할 수 없도록 제한되었습니다.</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>메일상자</string>
+	<key>NO_VIP_MAIL</key>
+	<string>VIP 메일 없음</string>
+	<key>CC_LABEL</key>
+	<string>참조</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>받는 사람</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>이번 달</string>
+	<key>N_MESSAGES</key>
+	<string>%@개의 메시지</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>서버 오류
+서버 관리자에게 문의하십시오.</string>
+	<key>LOAD_MESSAGE</key>
+	<string>메시지 로드(권장하지 않음)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>이 메시지는 일반 텍스트로 다운로드되었습니다.</string>
+	<key>FAVORITES</key>
+	<string>즐겨찾기</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>계정 오류</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>메일상자 검색</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%2$@의 %3$@에서 %1$@ 검색</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>삭제하거나 이동할 메시지를 선택하십시오.</string>
+	<key>ALL_TRASH</key>
+	<string>모든 휴지통</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>임시 저장 없음</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>서명 오류</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>표시</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>첨부 파일 다운로드됨</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>유효하지 않은 Mail Drop 첨부 파일</string>
+	<key>DATE</key>
+	<string>날짜:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>이 시뮬레이터는 메일 계정을 생성할 수 없도록 제한되었습니다.</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>첨부 파일</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>아카이브</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>최대 해상도 이미지</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>깃발 표시된 메일 없음</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>오늘 보낸 메일만</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>메시지 콘텐츠를 확인할 수 없습니다.</string>
+	<key>NO_BODY</key>
+	<string>해당 메시지에는 내용이 없습니다.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>날짜</string>
+	<key>EDIT_MAILBOX</key>
+	<string>메일상자 편집</string>
+	<key>REPLY_ALL</key>
+	<string>모두 답장</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>%lu개의 임시 저장</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>%2$@에서 %1$@ 검색</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>읽지 않음</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>모든 이미지 로드(권장하지 않음)</string>
+	<key>DELETE</key>
+	<string>삭제</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>삭제(%@개)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>제목</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>이 보낸 사람에 대한 암호화된 인증서를 관리합니다.</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>새로운 메시지</string>
+	<key>NO_SUBJECT</key>
+	<string>제목 없음</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>어저께</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>나에게</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>이름</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>최대 해상도 이미지를 사진에 저장</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>깃발 표시된 메시지</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>깃발 표시 제거</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>메일상자가 꽉 찼습니다</string>
+	<key>UNTRUST</key>
+	<string>신뢰하지 않음</string>
+	<key>TODAY_MAILBOX</key>
+	<string>오늘</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>모두 삭제</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>읽지 않은 개수</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>깃발 표시</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>읽지 않음</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>메일상자를 이동할 수 없음</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>첨부 파일이 있는 메일만</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>직전 1일</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld개)</string>
+	<key>ERROR</key>
+	<string>오류</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>이 첨부 파일을 다운로드하려면 WLAN에 연결해야 합니다.</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>원격 콘텐츠 로드</string>
+	<key>SWIPE_JUNK</key>
+	<string>정크</string>
+	<key>CONTINUE</key>
+	<string>계속</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>오늘 메시지 없음</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>기타</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>%@개의 전송하지 않은 메시지</string>
+	<key>SENDING</key>
+	<string>전송 중…</string>
+	<key>BOX_SUFFIX</key>
+	<string>상자</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>알림 비활성화한 스레드 없음</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>메시지 삭제</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>Apple Watch 앱으로 이동</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>.eml로 보내기</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>원본 메시지의 첨부 파일을 포함하겠습니까?</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>제목이 다음을 포함: %@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>메시지</string>
+	<key>ACCOUNTS</key>
+	<string>계정</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>닫기</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>‘%@’ 메일상자를 삭제하면 관련 메시지와 하위 메일상자가 사용자의 계정에서 제거됩니다.</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>정크 아님</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>첨부 파일 및 최대 해상도 이미지 다운로드 중</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>메시지 삭제</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>읽음</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>초록색</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>이 메시지는 여러 번 서명되었습니다.</string>
+	<key>CC_HEADER</key>
+	<string>참조:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>%@에서 찾음</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld개)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>메일상자 추가…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>%@에서 검색</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>직전 1개월</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>나에게 알림</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> 및 %@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>먼저 남아있는 메시지를 다운로드하겠습니까?</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>메시지 콘텐츠를 확인할 수 없습니다.</string>
+	<key>SUBJECT_HEADER</key>
+	<string>제목:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>삭제하거나 이동할 메시지를 선택하십시오.</string>
+	<key>TRASH</key>
+	<string>휴지통</string>
+	<key>SHARE</key>
+	<string>공유</string>
+</dict>
+</plist>

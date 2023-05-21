@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حان وقت توجيه هذا السهم في الاتجاه الصحيح. احرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة %#@num_days@ يا {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقد أوشكت جدًا أن تقلب اتجاه هذا السهم! احرق {{goal_value:energy}} من السعرات يوميًا لمدة %#@num_days@ لتحقق ذلك.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هكذا يكون النشاط يا {{username}}. استمر في التحرك وحرق السعرات حتى يظل سهمك متجهًا لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، أنت تبلي بلاء حسنًا في التحرك كل يوم. داوم على ذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهمك لأعلى! احرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة %#@num_days@ لتعود إلى مسارك الجيد.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهمك لأعلى يا {{username}}! احرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة %#@num_days@ لتعود إلى مسارك الجيد.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هكذا يكون النشاط! استمر في التحرك حتى يظل سهمك متجهًا لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يحتاج هذا السهم بعض العناية. حاول حرق {{goal_value:energy}} من السعرات على الأقل يوميًا لتحول الهبوط إلى صعود.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>للعمل على تحسين هذا السهم، ابدأ بحرق {{goal_value:energy}} من السعرات على الأقل يوميًا. وابحث مرة أخرى الأسبوع القادم عن هدف جديد. إذا استعطت أن تواصل تقدمك، فمن المفترض أن يستغرق قلب اتجاه سهمك لأعلى %#@num_weeks@ تقريبًا يا {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم لأعلى! ما عليك سوى حرق {{goal_value:energy}} من السعرات يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هكذا يكون النشاط يا {{username}}. استمر في التحرك وحرق السعرات حتى يظل سهمك متجهًا لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ابدأ في العمل على تحسين هذا السهم عن طريق حرق {{goal_value:energy}} من السعرات على الأقل يوميًا هذا الأسبوع. سيكون عندك هدف جديد كل أسبوع حتى تقلب اتجاه سهمك لأعلى. من المفترض أن يستغرق ذلك %#@num_weeks@ يا {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ابدأ في العمل على تحسين هذا السهم عن طريق حرق {{goal_value:energy}} ك.جول على الأقل يوميًا هذا الأسبوع. سيكون عندك هدف جديد كل أسبوع حتى تقلب اتجاه سهمك لأعلى. من المفترض أن يستغرق ذلك %#@num_weeks@ يا {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، أنت تبلي بلاء حسنًا في التحرك كل يوم. داوم على ذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أنت تبلي بلاء حسنًا في التحرك كل يوم. داوم على ذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هكذا يكون النشاط! استمر في التحرك حتى يظل سهمك متجهًا لأعلى!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يحتاج هذا السهم بعض العناية يا {{username}}. حاول حرق {{goal_value:energy}} ك.جول على الأقل يوميًا لتحول الهبوط إلى صعود.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أنت تبلي بلاء حسنًا في التحرك كل يوم. داوم على ذلك!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقد أوشكت جدًا أن تقلب اتجاه هذا السهم! احرق {{goal_value:energy}} ك.جول يوميًا لمدة %#@num_days@ لتحقق ذلك.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، سهمك متجه لأعلى الآن، لكن حركتك قلّت مؤخرًا. تحرك أكثر كل يوم للحفاظ على اتجاه سهمك في المسار الصحيح.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، سهمك متجه لأعلى، لكن مقدار الطاقة التي تحرقها يتجه لأسفل مؤخرًا. تحرّك أكثر قليلاً كل يوم. أنت لها.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>احرق {{goal_value:energy}} ك.جول اليوم لينقلب اتجاه هذا السهم لأعلى من جديد! انطلق نحو هدفك يا {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهمك متجه لأسفل، لكن ليس لمسافة طويلة! اقلب اتجاهه عن طريق حرق {{goal_value:energy}} من السعرات يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم لأعلى! ما عليك سوى حرق {{goal_value:energy}} ك.جول يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهم الحركة متجه لأسفل، لكن معدل السعرات المحروقة يتجه لأعلى! اقلب اتجاه سهمك عن طريق حرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة ٣٠ يومًا قادمة.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>احرق {{goal_value:energy}} ك.جول اليوم لينقلب اتجاه هذا السهم لأعلى من جديد! انطلق نحو هدفك!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهم الحركة لأعلى! احرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة ٣٠ يومًا قادمة لتعود إلى مسارك الجيد.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهمك متجه لأسفل، لكن ليس لمسافة طويلة! اقلب اتجاهه عن طريق حرق {{goal_value:energy}} ك.جول يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقد أوشكت جدًا أن تقلب اتجاه هذا السهم يا {{username}}! احرق {{goal_value:energy}} ك.جول يوميًا لمدة %#@num_days@ لتحقق ذلك.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهم الحركة متجه لأسفل، لكن معدل الكيلوجول المحروق يتجه لأعلى! اقلب اتجاه سهمك عن طريق حرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة ٣٠ يومًا قادمة.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>للعمل على تحسين هذا السهم، ابدأ بحرق {{goal_value:energy}} من السعرات على الأقل يوميًا. وابحث مرة أخرى الأسبوع القادم عن هدف جديد. إذا استعطت أن تواصل تقدمك، فمن المفترض أن يستغرق قلب اتجاه سهمك لأعلى %#@num_weeks@ تقريبًا.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم لأعلى يا {{username}}! ما عليك سوى حرق {{goal_value:energy}} ك.جول يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهم الحركة لأعلى! احرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة ٣٠ يومًا قادمة لتعود إلى مسارك الجيد.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ابدأ في العمل على تحسين هذا السهم عن طريق حرق {{goal_value:energy}} من السعرات على الأقل يوميًا هذا الأسبوع. سيكون عندك هدف جديد كل أسبوع حتى تقلب اتجاه سهمك لأعلى. من المفترض أن يستغرق ذلك %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقد أوشكت جدًا أن تقلب اتجاه هذا السهم يا {{username}}! احرق {{goal_value:energy}} من السعرات يوميًا لمدة %#@num_days@ لتحقق ذلك.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>احرق {{goal_value:energy}} من السعرات اليوم لينقلب اتجاه هذا السهم لأعلى من جديد! انطلق نحو هدفك يا {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حان وقت توجيه هذا السهم في الاتجاه الصحيح. احرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة %#@num_days@!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهمك متجه لأعلى الآن، لكن حركتك قلّت مؤخرًا. تحرك أكثر كل يوم للحفاظ على اتجاه سهمك في المسار الصحيح.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حان وقت توجيه هذا السهم في الاتجاه الصحيح. احرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة %#@num_days@!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهمك متجه لأسفل، لكن ليس لمسافة طويلة يا {{username}}! اقلب اتجاهه عن طريق حرق {{goal_value:energy}} ك.جول يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>احرق {{goal_value:energy}} من السعرات اليوم لينقلب اتجاه هذا السهم لأعلى من جديد! انطلق نحو هدفك!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حان وقت توجيه هذا السهم في الاتجاه الصحيح. احرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة %#@num_days@ يا {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، سهم الحركة متجه لأسفل، لكن معدل السعرات المحروقة يتجه لأعلى! اقلب اتجاه سهمك عن طريق حرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة ٣٠ يومًا قادمة.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اقلب اتجاه هذا السهم لأعلى يا {{username}}! ما عليك سوى حرق {{goal_value:energy}} من السعرات يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>للعمل على تحسين هذا السهم، ابدأ بحرق {{goal_value:energy}} ك.جول على الأقل يوميًا. وابحث مرة أخرى الأسبوع القادم عن هدف جديد. إذا استعطت أن تواصل تقدمك، فمن المفترض أن يستغرق قلب اتجاه سهمك لأعلى %#@num_weeks@ تقريبًا.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>للعمل على تحسين هذا السهم، ابدأ بحرق {{goal_value:energy}} ك.جول على الأقل يوميًا. وابحث مرة أخرى الأسبوع القادم عن هدف جديد. إذا استعطت أن تواصل تقدمك، فمن المفترض أن يستغرق قلب اتجاه سهمك لأعلى %#@num_weeks@ تقريبًا يا {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهمك لأعلى يا {{username}}! احرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة %#@num_days@ لتعود إلى مسارك الجيد.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، سهم الحركة متجه لأسفل، لكن معدل الكيلوجول المحروق يتجه لأعلى! اقلب اتجاه سهمك عن طريق حرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة ٣٠ يومًا قادمة.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ابدأ في العمل على تحسين هذا السهم عن طريق حرق {{goal_value:energy}} ك.جول على الأقل يوميًا هذا الأسبوع. سيكون عندك هدف جديد كل أسبوع حتى تقلب اتجاه سهمك لأعلى. من المفترض أن يستغرق ذلك %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أسابيع</string>
+			<key>one</key>
+			<string>أسبوع واحد</string>
+			<key>many</key>
+			<string>%d أسبوعًا</string>
+			<key>two</key>
+			<string>أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d أسبوع</string>
+			<key>zero</key>
+			<string>%d أسبوع</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهمك متجه لأسفل، لكن ليس لمسافة طويلة يا {{username}}! اقلب اتجاهه عن طريق حرق {{goal_value:energy}} من السعرات يوميًا لمدة %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يحتاج هذا السهم بعض العناية. حاول حرق {{goal_value:energy}} ك.جول على الأقل يوميًا لتحول الهبوط إلى صعود.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يحتاج هذا السهم بعض العناية يا {{username}}. حاول حرق {{goal_value:energy}} من السعرات على الأقل يوميًا لتحول الهبوط إلى صعود.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهمك لأعلى! احرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة %#@num_days@ لتعود إلى مسارك الجيد.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهم الحركة لأعلى يا {{username}}! احرق {{goal_value:energy}} ك.جول على الأقل يوميًا لمدة ٣٠ يومًا قادمة لتعود إلى مسارك الجيد.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>سهمك متجه لأعلى، لكن مقدار الطاقة التي تحرقها يتجه لأسفل مؤخرًا. تحرّك أكثر قليلاً كل يوم. أنت لها.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا نقلب اتجاه سهم الحركة لأعلى يا {{username}}! احرق {{goal_value:energy}} من السعرات على الأقل يوميًا لمدة ٣٠ يومًا قادمة لتعود إلى مسارك الجيد.</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ дня</string>
+			<key>many</key>
+			<string>%@ дня</string>
+			<key>one</key>
+			<string>день</string>
+			<key>other</key>
+			<string>%@ дня</string>
+			<key>two</key>
+			<string>%@ дня</string>
+			<key>zero</key>
+			<string>%@ дня</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ хвилини</string>
+			<key>many</key>
+			<string>%@ хвилини</string>
+			<key>one</key>
+			<string>хв</string>
+			<key>other</key>
+			<string>%@ хвилини</string>
+			<key>two</key>
+			<string>%@ хвилини</string>
+			<key>zero</key>
+			<string>%@ хвилини</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ місяця</string>
+			<key>many</key>
+			<string>%@ місяця</string>
+			<key>one</key>
+			<string>місяць</string>
+			<key>other</key>
+			<string>%@ місяця</string>
+			<key>two</key>
+			<string>%@ місяця</string>
+			<key>zero</key>
+			<string>%@ місяця</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ тижнів</string>
+			<key>many</key>
+			<string>%@ тижнів</string>
+			<key>one</key>
+			<string>тиждень</string>
+			<key>other</key>
+			<string>%@ тижнів</string>
+			<key>two</key>
+			<string>%@ тижнів</string>
+			<key>zero</key>
+			<string>%@ тижнів</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ року</string>
+			<key>many</key>
+			<string>%@ року</string>
+			<key>one</key>
+			<string>рік</string>
+			<key>other</key>
+			<string>%@ року</string>
+			<key>two</key>
+			<string>%@ року</string>
+			<key>zero</key>
+			<string>%@ року</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Діє %@ тижнів</string>
+			<key>many</key>
+			<string>Діє %@ тижнів</string>
+			<key>one</key>
+			<string>Діє %@ тиждень</string>
+			<key>other</key>
+			<string>Діє %@ тижнів</string>
+			<key>two</key>
+			<string>Діє %@ тижнів</string>
+			<key>zero</key>
+			<string>Діє %@ тижнів</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Діє %@ дн</string>
+			<key>many</key>
+			<string>Діє %@ дн</string>
+			<key>one</key>
+			<string>Діє %@ день</string>
+			<key>other</key>
+			<string>Діє %@ дн</string>
+			<key>two</key>
+			<string>Діє %@ дн</string>
+			<key>zero</key>
+			<string>Діє %@ дн</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Діє %@ місяців</string>
+			<key>many</key>
+			<string>Діє %@ місяців</string>
+			<key>one</key>
+			<string>Діє %@ місяць</string>
+			<key>other</key>
+			<string>Діє %@ місяців</string>
+			<key>two</key>
+			<string>Діє %@ місяців</string>
+			<key>zero</key>
+			<string>Діє %@ місяців</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Діє %@ років</string>
+			<key>many</key>
+			<string>Діє %@ років</string>
+			<key>one</key>
+			<string>Діє %@ рік</string>
+			<key>other</key>
+			<string>Діє %@ років</string>
+			<key>two</key>
+			<string>Діє %@ років</string>
+			<key>zero</key>
+			<string>Діє %@ років</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

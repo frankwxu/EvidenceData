@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kokonaismatkasi on laskenut, {{username}}. Jos haluat saada tämän nuolen takaisin raiteilleen, yritä löytää aikaa käydä kävelyllä joka päivä.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos intoa riittää, saat tämän nuolen taas ylöspäin juoksemalla tai kävelemällä pidemmän matkan, {{username}}. Aseta tavoitteeksi vähintään {{goal_value:distance}} päivässä tällä viikolla ja uusi tavoite ensi viikolla. Voit kääntää tämän nuolen %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hienoa työtä kokonaismatkan kanssa. Pidä nuolen suunta ylöspäin tekemällä juoksu- ja kävelylenkkisi!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli! Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit saada tämän nuolen takaisin ylös kävelemällä ja juoksemalla {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan. Tee parhaasi, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, kokonaismatkan nuoli osoittaa ylöspäin. Pidä tämä suunta juoksemalla ja kävelemällä joka päivä!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hienoa työtä kokonaismatkan kanssa, {{username}}. Pidä nuolen suunta ylöspäin tekemällä päivittäiset juoksu- ja kävelylenkkisi!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit saada tämän nuolen takaisin ylös kävelemällä ja juoksemalla {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan. Tee parhaasi.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos haluat pitää nuolen suunnan ylöspäin, sinun on käveltävä ja juostava pitempiä matkoja kuin viime aikoina. Tee siitä totta!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hienoa työtä kokonaismatkan kanssa, {{username}}. Pidä nuolen suunta ylöspäin tekemällä juoksu- ja kävelylenkkisi!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos onnistut juoksemaan tai kävelemään tänään vähintään {{goal_value:distance}}, tämä nuoli osoittaa jälleen ylös. Tämä jos mikä kannattaa, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kokonaismatkan nuoli osoittaa ylöspäin. Pidä tämä suunta juoksemalla ja kävelemällä joka päivä!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli, {{username}}! Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ aikana, niin nuolesi kääntyy takaisin ylös, {{username}}. Kyllä se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit saada tämän nuolen takaisin ylös kävelemällä ja juoksemalla {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan. Tee parhaasi.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos onnistut juoksemaan tai kävelemään tänään vähintään {{goal_value:distance}}, tämä nuoli osoittaa jälleen ylös. Tämä jos mikä kannattaa!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ aikana, niin nuolesi kääntyy takaisin ylös. Kyllä se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kokonaismatkan nuoli osoittaa ylöspäin. Pidä tämä suunta juoksemalla ja kävelemällä joka päivä!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kokonaismatkasi on laskenut. Jos haluat saada tämän nuolen takaisin raiteilleen, yritä löytää aikaa käydä kävelyllä joka päivä.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit saada tämän nuolen takaisin ylös kävelemällä ja juoksemalla {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan. Tee parhaasi, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos intoa riittää, saat tämän nuolen taas ylöspäin juoksemalla tai kävelemällä pidemmän matkan, {{username}}. Aseta tavoitteeksi vähintään {{goal_value:distance}} päivässä tällä viikolla ja uusi tavoite ensi viikolla. Voit kääntää tämän nuolen %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos haluat pitää nuolen suunnan ylöspäin, sinun on käveltävä ja juostava pitempiä matkoja kuin viime aikoina, {{username}}. Tee siitä totta!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos onnistut juoksemaan tai kävelemään tänään vähintään {{goal_value:distance}}, tämä nuoli osoittaa jälleen ylös. Tämä jos mikä kannattaa!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit kääntää tämän kävelemällä ja juoksemalla vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan, {{username}}. Se kannattaa!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ aikana, niin nuolesi kääntyy takaisin ylös. Kyllä se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos intoa riittää, saat tämän nuolen taas ylöspäin juoksemalla tai kävelemällä pidemmän matkan. Aseta tavoitteeksi vähintään {{goal_value:distance}} päivässä tällä viikolla ja uusi tavoite ensi viikolla. Voit kääntää tämän nuolen %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hienoa työtä kokonaismatkan kanssa. Pidä nuolen suunta ylöspäin tekemällä juoksu- ja kävelylenkkisi!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit kääntää tämän kävelemällä ja juoksemalla vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan. Se kannattaa!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ aikana, niin nuolesi kääntyy takaisin ylös, {{username}}. Kyllä se onnistuu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos intoa riittää, saat tämän nuolen taas ylöspäin juoksemalla tai kävelemällä pidemmän matkan. Aseta tavoitteeksi vähintään {{goal_value:distance}} päivässä tällä viikolla ja uusi tavoite ensi viikolla. Voit kääntää tämän nuolen %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d viikossa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d viikossa</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kokonaismatkasi on laskenut. Jos haluat saada tämän nuolen takaisin raiteilleen, yritä löytää aikaa käydä kävelyllä joka päivä.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit kääntää tämän kävelemällä ja juoksemalla vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan. Se kannattaa!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Olet kävellyt ja juossut vähemmän viime aikoina, {{username}}. Yritä liikkua vähän enemmän, jotta nuoli pysyy ylöspäin!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Olet kävellyt ja juossut vähemmän viime aikoina. Yritä liikkua vähän enemmän, jotta nuoli pysyy ylöspäin!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli, {{username}}! Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, kokonaismatkan nuoli osoittaa ylöspäin. Pidä tämä suunta juoksemalla ja kävelemällä joka päivä!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos onnistut juoksemaan tai kävelemään tänään vähintään {{goal_value:distance}}, tämä nuoli osoittaa jälleen ylös. Tämä jos mikä kannattaa, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit kääntää tämän kävelemällä ja juoksemalla vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan, {{username}}. Se kannattaa!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kokonaismatkasi on laskenut, {{username}}. Jos haluat saada tämän nuolen takaisin raiteilleen, yritä löytää aikaa käydä kävelyllä joka päivä.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännä tämä nuoli! Kävele ja juokse vähintään {{goal_value:distance}} päivässä seuraavan %#@num_days@ ajan.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Copy %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نسخ %lu ملاحظات</string>
+			<key>one</key>
+			<string>نسخ الملاحظة</string>
+			<key>many</key>
+			<string>نسخ %lu ملاحظة</string>
+			<key>two</key>
+			<string>نسخ الملاحظتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>نسخ %lu ملاحظة</string>
+			<key>zero</key>
+			<string>نسخ %lu ملاحظة</string>
+		</dict>
+	</dict>
+	<key>%lu scans</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_scans@</string>
+		<key>num_scans</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu نسخ ضوئية</string>
+			<key>one</key>
+			<string>نسخة ضوئية واحدة</string>
+			<key>many</key>
+			<string>‏%lu نسخة ضوئية</string>
+			<key>two</key>
+			<string>نسختان ضوئيتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu نسخة ضوئية</string>
+			<key>zero</key>
+			<string>‏%lu نسخة ضوئية</string>
+		</dict>
+	</dict>
+	<key>At most %lu more attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>يمكن إضافة %lu مرفقات إضافية على الأكثر.</string>
+			<key>one</key>
+			<string>يمكن إضافة مرفق واحد إضافي على الأكثر.</string>
+			<key>many</key>
+			<string>يمكن إضافة %lu مرفقًا إضافيًا على الأكثر.</string>
+			<key>two</key>
+			<string>يمكن إضافة مرفقين إضافيين على الأكثر.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>يمكن إضافة %lu مرفق إضافي على الأكثر.</string>
+			<key>zero</key>
+			<string>يمكن إضافة %lu مرفق إضافي على الأكثر.</string>
+		</dict>
+	</dict>
+	<key>Trash %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نقل %lu ملاحظات إلى سلة المهملات</string>
+			<key>one</key>
+			<string>نقل الملاحظة إلى سلة المهملات</string>
+			<key>many</key>
+			<string>نقل %lu ملاحظة إلى سلة المهملات</string>
+			<key>two</key>
+			<string>نقل الملاحظتين إلى سلة المهملات</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>نقل %lu ملاحظة إلى سلة المهملات</string>
+			<key>zero</key>
+			<string>نقل %lu ملاحظة إلى سلة المهملات</string>
+		</dict>
+	</dict>
+	<key>ICAX_NUM_NOTES_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu ملاحظات</string>
+			<key>one</key>
+			<string>ملاحظة واحدة</string>
+			<key>many</key>
+			<string>‏%lu ملاحظة</string>
+			<key>two</key>
+			<string>ملاحظتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu ملاحظة</string>
+			<key>zero</key>
+			<string>لا توجد ملاحظات</string>
+		</dict>
+	</dict>
+	<key>Deleted %lu notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@deleted_num_notes@</string>
+		<key>deleted_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم حذف %lu ملاحظات</string>
+			<key>one</key>
+			<string>تم حذف ملاحظة واحدة</string>
+			<key>many</key>
+			<string>تم حذف %lu ملاحظة</string>
+			<key>two</key>
+			<string>تم حذف ملاحظتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم حذف %lu من الملاحظات</string>
+			<key>zero</key>
+			<string>لم يتم حذف ملاحظات</string>
+		</dict>
+	</dict>
+	<key>%d days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>‏%d يومًا</string>
+			<key>two</key>
+			<string>يومان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d يوم</string>
+			<key>zero</key>
+			<string>‏%d يوم</string>
+		</dict>
+	</dict>
+	<key>ADD_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>إضافة %lu نسخ ضوئية</string>
+			<key>one</key>
+			<string>إضافة نسخة ضوئية</string>
+			<key>many</key>
+			<string>إضافة %lu نسخة ضوئية</string>
+			<key>two</key>
+			<string>إضافة نسختين ضوئيتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>إضافة %lu نسخة ضوئية</string>
+			<key>zero</key>
+			<string>إضافة %lu نسخة ضوئية</string>
+		</dict>
+	</dict>
+	<key>%lu (notes) Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes_selected@</string>
+		<key>num_notes_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم تحديد %lu</string>
+			<key>one</key>
+			<string>تم تحديد %lu</string>
+			<key>many</key>
+			<string>تم تحديد %lu</string>
+			<key>two</key>
+			<string>تم تحديد %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم تحديد %lu</string>
+			<key>zero</key>
+			<string>تم تحديد %lu</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Column</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_columns@</string>
+		<key>num_columns</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حذف %lu عمود</string>
+			<key>one</key>
+			<string>حذف العمود</string>
+			<key>many</key>
+			<string>حذف %lu عمودًا</string>
+			<key>two</key>
+			<string>حذف عمودين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حذف %lu عمود</string>
+			<key>zero</key>
+			<string>حذف %lu عمود</string>
+		</dict>
+	</dict>
+	<key>%lu notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu ملاحظات</string>
+			<key>one</key>
+			<string>ملاحظة واحدة</string>
+			<key>many</key>
+			<string>‏%lu ملاحظة</string>
+			<key>two</key>
+			<string>ملاحظتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu ملاحظة</string>
+			<key>zero</key>
+			<string>لا توجد ملاحظات</string>
+		</dict>
+	</dict>
+	<key>At most %lu attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>يمكن إضافة %lu مرفقات على الأكثر.</string>
+			<key>one</key>
+			<string>يمكن إضافة مرفق واحد على الأكثر.</string>
+			<key>many</key>
+			<string>يمكن إضافة %lu مرفقًا على الأكثر.</string>
+			<key>two</key>
+			<string>يمكن إضافة مرفقين على الأكثر.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>يمكن إضافة %lu مرفق على الأكثر.</string>
+			<key>zero</key>
+			<string>يمكن إضافة %lu مرفق على الأكثر.</string>
+		</dict>
+	</dict>
+	<key>Move %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>نقل %lu ملاحظات</string>
+			<key>one</key>
+			<string>نقل ملاحظة</string>
+			<key>many</key>
+			<string>نقل %lu ملاحظة</string>
+			<key>two</key>
+			<string>نقل الملاحظتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>نقل %lu ملاحظة</string>
+			<key>zero</key>
+			<string>نقل %lu ملاحظة</string>
+		</dict>
+	</dict>
+	<key>NUM_SUBFOLDERS_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_subfolders@</string>
+		<key>num_subfolders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu مجلدات فرعية</string>
+			<key>one</key>
+			<string>مجلد فرعي واحد</string>
+			<key>many</key>
+			<string>‏%lu مجلدًا فرعيًا</string>
+			<key>two</key>
+			<string>مجلدان فرعيان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu مجلد فرعي</string>
+			<key>zero</key>
+			<string>لا توجد مجلدات فرعية</string>
+		</dict>
+	</dict>
+	<key>DELETE_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حذف %lu نسخة ضوئية</string>
+			<key>one</key>
+			<string>حذف النسخة الضوئية</string>
+			<key>many</key>
+			<string>حذف %lu نسخة ضوئية</string>
+			<key>two</key>
+			<string>حذف نسختين ضوئيتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حذف %lu نسخة ضوئية</string>
+			<key>zero</key>
+			<string>حذف %lu نسخة ضوئية</string>
+		</dict>
+	</dict>
+	<key>%lu_SCANNED_IMAGE_THUMBNAILS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu صورة نسخة ضوئية مصغرة</string>
+			<key>one</key>
+			<string>صورة نسخة ضوئية مصغرة واحدة</string>
+			<key>many</key>
+			<string>‏%lu صورة نسخة ضوئية مصغرة</string>
+			<key>two</key>
+			<string>صورتا نسختين ضوئيتين مصغرتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu صورة نسخة ضوئية مصغرة</string>
+			<key>zero</key>
+			<string>‏%lu صورة نسخة ضوئية مصغرة</string>
+		</dict>
+	</dict>
+	<key>%lu (folders) Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders_selected@</string>
+		<key>num_folders_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم تحديد %lu</string>
+			<key>one</key>
+			<string>تم تحديد %lu</string>
+			<key>many</key>
+			<string>تم تحديد %lu</string>
+			<key>two</key>
+			<string>تم تحديد %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم تحديد %lu</string>
+			<key>zero</key>
+			<string>تم تحديد %lu</string>
+		</dict>
+	</dict>
+	<key>%lu (Notes) Found</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes_found@</string>
+		<key>num_notes_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم العثور على %lu</string>
+			<key>one</key>
+			<string>تم العثور على %lu</string>
+			<key>many</key>
+			<string>تم العثور على %lu</string>
+			<key>two</key>
+			<string>تم العثور على %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم العثور على %lu</string>
+			<key>zero</key>
+			<string>لم يتم العثور على أي شيء</string>
+		</dict>
+	</dict>
+	<key>%d hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_hours@</string>
+		<key>num_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d ساعات</string>
+			<key>one</key>
+			<string>ساعة واحدة</string>
+			<key>many</key>
+			<string>‏%d ساعة</string>
+			<key>two</key>
+			<string>ساعتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d ساعة</string>
+			<key>zero</key>
+			<string>‏%d ساعة</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders@</string>
+		<key>num_folders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حذف %lu مجلدات</string>
+			<key>one</key>
+			<string>حذف المجلد</string>
+			<key>many</key>
+			<string>حذف %lu مجلدًا</string>
+			<key>two</key>
+			<string>حذف المجلدين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حذف %lu مجلد</string>
+			<key>zero</key>
+			<string>حذف %lu مجلد</string>
+		</dict>
+	</dict>
+	<key>FOLDER_DEPTH_LIMIT_MESSAGE_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@folder_depth_limit_message@</string>
+		<key>folder_depth_limit_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>الملاحظات محددة بـ %lu مستويات من المجلدات.</string>
+			<key>one</key>
+			<string>الملاحظات مقيدة بمستوى واحد من المجلدات.</string>
+			<key>many</key>
+			<string>الملاحظات محددة بـ %lu مستوى من المجلدات.</string>
+			<key>two</key>
+			<string>الملاحظات محددة بمستووين من المجلدات.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>الملاحظات محددة بـ %lu مستوى من المجلدات.</string>
+			<key>zero</key>
+			<string>الملاحظات محددة بـ %lu مستوى من المجلدات.</string>
+		</dict>
+	</dict>
+	<key>%lu (Attachments) Found</key>
+	<dict>
+		<key>num_attachments_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم العثور على %lu</string>
+			<key>one</key>
+			<string>تم العثور على %lu</string>
+			<key>many</key>
+			<string>تم العثور على %lu</string>
+			<key>two</key>
+			<string>تم العثور على %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم العثور على %lu</string>
+			<key>zero</key>
+			<string>تم العثور على %lu</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_attachments_found@</string>
+	</dict>
+	<key>Delete %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حذف %lu ملاحظات</string>
+			<key>one</key>
+			<string>حذف الملاحظة</string>
+			<key>many</key>
+			<string>حذف %lu ملاحظة</string>
+			<key>two</key>
+			<string>حذف الملاحظتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حذف %lu ملاحظة</string>
+			<key>zero</key>
+			<string>حذف %lu ملاحظة</string>
+		</dict>
+	</dict>
+	<key>%lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu ملاحظات</string>
+			<key>one</key>
+			<string>ملاحظة واحدة</string>
+			<key>many</key>
+			<string>‏%lu ملاحظة</string>
+			<key>two</key>
+			<string>ملاحظتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu ملاحظة</string>
+			<key>zero</key>
+			<string>لا توجد ملاحظات</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Row</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows@</string>
+		<key>num_rows</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>حذف %lu صف</string>
+			<key>one</key>
+			<string>حذف الصف</string>
+			<key>many</key>
+			<string>حذف %lu صف</string>
+			<key>two</key>
+			<string>حذف صفين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>حذف %lu صف</string>
+			<key>zero</key>
+			<string>حذف %lu صف</string>
+		</dict>
+	</dict>
+	<key>Double-tap to preview %lu scanned images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>اضغط مرتين لمعاينة %lu صورة ممسوحة ضوئيًا</string>
+			<key>one</key>
+			<string>اضغط مرتين لمعاينة الصورة الممسوحة ضوئيًا</string>
+			<key>many</key>
+			<string>اضغط مرتين لمعاينة %lu صورة ممسوحة ضوئيًا</string>
+			<key>two</key>
+			<string>اضغط مرتين لمعاينة الصورتين الممسوحتين ضوئيًا</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>اضغط مرتين لمعاينة %lu صورة ممسوحة ضوئيًا</string>
+			<key>zero</key>
+			<string>اضغط مرتين لمعاينة %lu صورة ممسوحة ضوئيًا</string>
+		</dict>
+	</dict>
+	<key>SAVE_%lu_SCANNED_IMAGES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏(%lu)</string>
+			<key>one</key>
+			<string></string>
+			<key>many</key>
+			<string>‏(%lu)</string>
+			<key>two</key>
+			<string>‏(%lu)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏(%lu)</string>
+			<key>zero</key>
+			<string>‏(%lu)</string>
+		</dict>
+	</dict>
+	<key>DISCARD_%lu_SCANNED_IMAGES_ALERT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>هل ترغب بالتأكيد في استبعاد %lu نسخ ضوئية؟</string>
+			<key>one</key>
+			<string>هل ترغب بالتأكيد في استبعاد هذه النسخة الضوئية؟</string>
+			<key>many</key>
+			<string>هل ترغب بالتأكيد في استبعاد %lu نسخة ضوئية؟</string>
+			<key>two</key>
+			<string>هل ترغب بالتأكيد في استبعاد نسختين ضوئيتين؟</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>هل ترغب بالتأكيد في استبعاد %lu نسخة ضوئية؟</string>
+			<key>zero</key>
+			<string>هل ترغب بالتأكيد في استبعاد %lu نسخة ضوئية؟</string>
+		</dict>
+	</dict>
+	<key>%d minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d دقائق</string>
+			<key>one</key>
+			<string>دقيقة واحدة</string>
+			<key>many</key>
+			<string>‏%d دقيقة</string>
+			<key>two</key>
+			<string>دقيقتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d دقيقة</string>
+			<key>zero</key>
+			<string>‏%d دقيقة</string>
+		</dict>
+	</dict>
+	<key>%d seconds</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_seconds@</string>
+		<key>num_seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d ثوانٍ</string>
+			<key>one</key>
+			<string>ثانية واحدة</string>
+			<key>many</key>
+			<string>‏%d ثانية</string>
+			<key>two</key>
+			<string>ثانيتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d ثانية</string>
+			<key>zero</key>
+			<string>‏%d ثانية</string>
+		</dict>
+	</dict>
+	<key>Moved %lu notes to %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%#@moved_num_notes@ إلى %@</string>
+		<key>moved_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم نقل %lu ملاحظات</string>
+			<key>one</key>
+			<string>تم نقل ملاحظة واحدة</string>
+			<key>many</key>
+			<string>تم نقل %lu ملاحظة</string>
+			<key>two</key>
+			<string>تم نقل ملاحظتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم نقل %lu ملاحظة</string>
+			<key>zero</key>
+			<string>لم يتم نقل ملاحظات</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

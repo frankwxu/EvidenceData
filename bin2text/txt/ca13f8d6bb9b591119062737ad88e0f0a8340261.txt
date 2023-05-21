@@ -1,0 +1,35 @@
+SUBQUERY (
+    extensionItems,
+    $extensionItem,
+        (SUBQUERY (
+            $extensionItem.attachments,
+            $attachment,
+            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
+            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie"
+        ).@count == 1 OR
+        SUBQUERY (
+            $extensionItem.attachments,
+            $attachment,
+            ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url"
+        ).@count == 1) AND
+        SUBQUERY (
+            $extensionItem.attachments,
+            $attachment,
+            (ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.kik.chat.item")
+    ).@count == 0
+).@count == 1
+
+
+******************************************************************************************
+
+NOTE:
+
+This predicate is implemented so that the Kik share extension is not opened from Kik main app.
+
+The third SUBQUERY is responsible for not allowing Kik ActivityItem to be displayed in
+the UIActivityViewController when it is opened from Kik main app.
+
+The unique identifier, "com.kik.chat.item", is declared in 'SocialMediaShare.m' file in ActionExtensionBlockerItem class.
+
+In a nutshell, we append an additional, dummy, element into the array of items which contains the "com.kik.chat.item"
+identifier. This way other sharing apps like 'Photos' are able to display Kik ActivityItem, but Kik main app isn't.

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TLSProbeExperiment</key>
+	<dict>
+		<key>ConfigArray</key>
+		<array>
+			<dict>
+				<key>DeviceSampleRate</key>
+				<integer>10</integer>
+				<key>ConfigData</key>
+				<dict>
+					<key>transform</key>
+					<dict>
+						<key>tls</key>
+						<dict>
+							<key>tls_grease_enabled</key>
+							<true/>
+						</dict>
+					</dict>
+					<key>validate</key>
+					<dict>
+						<key>tls</key>
+						<dict/>
+					</dict>
+				</dict>
+				<key>FleetSampleRate</key>
+				<integer>100</integer>
+				<key>ExpName</key>
+				<string>tlsGreaseConfiguration</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

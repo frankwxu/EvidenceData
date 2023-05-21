@@ -1,0 +1,163 @@
+# /snap/pycharm-community/312/bin/pycharm.sh
+import subprocess
+import os
+import re
+import shutil
+import sqlite3
+import pandas as pd
+import glob
+import hashlib
+import time, datetime
+
+def convertFileToStrings(in_path, out_base, file_type):
+    start_time = time.time()
+
+    # create an empty folder for the output
+    out_type_path = create_out_dir(file_type, out_base)
+
+    # find files with a specific file type (signiture)
+    all_files = find_files(file_type, in_path)
+    print("File list : ", all_files)
+
+
+    # process each file
+    for f in all_files:
+        print("Processing ", f)  # processing
+
+        ofname = os.path.join(out_type_path, sha1_hash(f))
+
+        try:
+
+            if file_type in ["PE32 executable"]:  # need to test binary files
+                # find all strings in a file. The output strings are line by line
+                proc2 = subprocess.run(["strings", f], stdout=subprocess.PIPE, text=True)
+                # concat all string lines in one long string
+                proc3 = subprocess.run(["tr", "\n", " "], input=proc2.stdout, stdout=subprocess.PIPE, text=True)
+
+                with open(ofname + ".txt", 'w') as of:
+                    # remove extra space between strings and save to a file
+                    proc4 = subprocess.run(["tr", "-s", " "], input=proc3.stdout, stdout=of, text=True)
+
+            if file_type in ["JPEG"]:
+                with open(ofname + ".txt", 'w') as of:
+                    # apt get exiftool
+                    proc = subprocess.run(["exiftool", f], stdout=of, text=True)
+
+            if file_type in ["txt"]:
+                proc = subprocess.run(["cp", f, ofname + ".txt"])
+
+            if file_type in ["Microsoft Word 2007+"]:
+                proc2 = subprocess.run(["unzip", "-p", f, "word/document.xml"], stdout=subprocess.PIPE, text=True)
+                with open(ofname + ".txt", 'w') as of:
+                    proc3 = subprocess.run(["sed", "-E", "s/<[^<]*paraId[^>]*>/ /g ; s/<[^>]+>//g"],
+                                           input=proc2.stdout, stdout=of, text=True)
+
+                proc2 = subprocess.run(["unzip", "-p", f, "docProps/core.xml"], stdout=subprocess.PIPE, text=True)
+                with open(ofname + ".txt", 'a') as of:
+                    proc3 = subprocess.run(["sed", "-E", "s/<[^>]+>/ /g"],
+                                           input=proc2.stdout, stdout=of, text=True)
+
+            if file_type in ["PDF document"]:
+                # you need to install software
+                # sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+                # ebook-convert uses extension to identify the output format
+                proc = subprocess.run(["ebook-convert", f, ofname + ".txt"])
+
+            if file_type in ["SQLite 3.x database"]:
+                print("Processing sqlite ... ", f)
+                conn = sqlite3.connect(f, isolation_level=None,
+                                       detect_types=sqlite3.PARSE_COLNAMES)
+                try:
+                    c = conn.cursor()
+                    c.execute("SELECT name FROM sqlite_master WHERE type='table';")
+                    for table in c.fetchall():
+                        try:
+                            print("Ssving sqlite tables.", table[0])
+                            db_df = pd.read_sql_query("SELECT * FROM " + table[0], conn)
+                            db_df.to_csv(ofname + "_" + table[0] + ".txt", index=False)
+                            # db_df.to_html(ofname+"_"+table[0]+".txt", index=False)
+                        except Exception:
+                            pass
+                except Exception:
+                    pass
+
+            if file_type in ["Apple binary property list"]:
+                # you need to install software
+                # sudo apt install libplist-utils
+                # print(f)
+                proc = subprocess.run(["plistutil", "-i", f, "-o", ofname + ".txt"])
+        except:
+            print("Processing error ", f)  # processing
+        pass
+
+    end_time = time.time()
+    computing_time = end_time - start_time
+    current_time = datetime.datetime.now()
+
+    append_to_file(os.path.join(out_base, "report.txt"), file_type+",  " + str(len(all_files)) +",  "+ str(current_time) + ",  "+ str(computing_time) +"\n")
+
+
+
+
+def create_out_dir(file_type, out_base):
+    # create an empty folder for the output
+    out_type_path = os.path.join(out_base, file_type)
+    out_type_path = re.sub('[. ]', '_', str(out_type_path))
+    if os.path.isdir(out_type_path):
+        shutil.rmtree(out_type_path, ignore_errors=True)
+
+    os.mkdir(out_type_path)
+    print("Output Directory ", out_type_path)
+    return out_type_path
+
+
+def sha1_hash(text):
+    """
+    Compute the SHA1 hash of a string.
+    """
+    sha1 = hashlib.sha1()
+    sha1.update(text.encode('utf-8'))
+    return sha1.hexdigest()
+
+def append_to_file(file_path, text):
+    """
+    Append a string to a file.
+    """
+    with open(file_path, 'a') as f:
+        f.write(text)
+
+
+def find_files(file_type, in_path):
+    # search all files and save them to a list
+    proc = subprocess.run(["find", in_path, "-type", "f", "-name", "*"], stdout=subprocess.PIPE, text=True)
+    fs = proc.stdout.split("\n")
+    del fs[-1]  # remove the empty string due to split function
+    # print(fs)
+    # get all files with signiture
+    fs_type = []
+    for f in fs:
+        proc = subprocess.run(["file", f], stdout=subprocess.PIPE, text=True)
+        # print(proc.stdout)
+        # Has signiture
+        if file_type in proc.stdout:
+            fs_type.append(f)
+        # some files have no signiture, such as txt
+        elif file_type == "txt" and len(proc.stdout) == 0:
+            fs_type.append(f)
+    print("The number of file type [", file_type, "] ", len(fs_type))
+    return fs_type
+
+if __name__ == '__main__':
+    # in_path="/media/kali/C8CA0C8DCA0C7A48/Users/informant/"
+    # in_path="/home/kali/regex"
+    in_path = "/media/sf_vmshared_storage/kali202004/ios_13_4_1/iOS 13.4.1 Extraction/Extraction/Volumes/JOSH/NoTar-13-4-1/private/"
+    # in_path = "/media/sf_vmshared_storage/kali202004/private_test/"
+    out_base = "/media/sf_vmshared_storage/kali202004/bin2text/"
+    # file_type is case sensitive, must exactly strings
+    # file_types=["SQLite 3.x database","JPEG","txt","Microsoft Word 2007+","PDF document","PE32 executable"]
+    # The program takes file type based on Linux "file" command and output the converted file files
+    file_types=["Apple binary property list"]
+    # file_types = ["PDF document"]
+    # file_types = ["Microsoft Word 2007+"]
+    for file_type in file_types:
+        convertFileToStrings(in_path, out_base, file_type)

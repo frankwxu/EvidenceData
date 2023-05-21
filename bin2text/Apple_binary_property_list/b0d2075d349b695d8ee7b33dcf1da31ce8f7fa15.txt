@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SR</key>
+	<string>[%@] 릴레이가 공지로 올라왔습니다.</string>
+	<key>chat.reply.no.original.message</key>
+	<string>원본 메시지를 불러올 수 없습니다.</string>
+	<key>iaa.squareannouncement</key>
+	<string>[%@] 중요 게시글이 올라왔습니다.</string>
+	<key>iaa.squareannouncementrelay</key>
+	<string>[%@] 릴레이가 공지로 올라왔습니다.</string>
+	<key>squar.group.settings.managemembers.request.delete.alert.notall.done</key>
+	<string>삭제가 완료되었습니다.
+
+(이미 처리된 요청은 제외되었습니다.)</string>
+	<key>square.access.changephoto</key>
+	<string>이 오픈챗에서 사용 중인 프로필 사진 변경</string>
+	<key>square.access.chat</key>
+	<string>새 대화방 만들기</string>
+	<key>square.access.chat.image</key>
+	<string>대화방 프로필 변경</string>
+	<key>square.access.chatroomtohome</key>
+	<string>SQUARE 홈으로 이동</string>
+	<key>square.access.chatroomtonote</key>
+	<string>노트로 이동</string>
+	<key>square.access.cover.image</key>
+	<string>오픈챗 배경 변경</string>
+	<key>square.access.create</key>
+	<string>오픈챗 만들기</string>
+	<key>square.access.hide</key>
+	<string>오픈챗 설명 접기</string>
+	<key>square.access.invite</key>
+	<string>친구 초대</string>
+	<key>square.access.join</key>
+	<string>오픈챗 참여</string>
+	<key>square.access.joinrequest</key>
+	<string>오픈챗 참여 신청</string>
+	<key>square.access.postoption</key>
+	<string>노트 옵션 더보기</string>
+	<key>square.access.profile.image</key>
+	<string>오픈챗 프로필 변경</string>
+	<key>square.access.profile.nickname</key>
+	<string>오픈챗 닉네임 변경</string>
+	<key>square.access.qrcode</key>
+	<string>오픈챗의 QR 코드</string>
+	<key>square.access.search</key>
+	<string>오픈챗 검색</string>
+	<key>square.access.show</key>
+	<string>오픈챗 설명 펼치기</string>
+	<key>square.access.square</key>
+	<string>오픈챗</string>
+	<key>square.access.squareoption</key>
+	<string>오픈챗 옵션 더보기</string>
+	<key>square.access.timelinetosquare</key>
+	<string>오픈챗으로 이동</string>
+	<key>square.access.write</key>
+	<string>글쓰기</string>
+	<key>square.answer.guide</key>
+	<string>참여를 신청하려면 위 질문의 답을 입력해 주세요.</string>
+	<key>square.answer.send.done</key>
+	<string>오픈챗 참여를 신청했습니다.</string>
+	<key>square.answer.title</key>
+	<string>답변 입력</string>
+	<key>square.chat.more.leaveroom</key>
+	<string>오픈챗 나가기</string>
+	<key>square.chat.settings.bg.apply.square.image</key>
+	<string>오픈챗 사진을 배경에 적용</string>
+	<key>square.chat.settings.export.title</key>
+	<string>%@대화</string>
+	<key>square.chat.system.msg.invite.a.b</key>
+	<string>%1$@님이 %2$@님을 초대했습니다.</string>
+	<key>square.chat.system.msg.join.chat</key>
+	<string>%@님이 대화에 참여했습니다.</string>
+	<key>square.chat.system.msg.leave.chat</key>
+	<string>%@님이 대화방에서 나갔습니다.</string>
+	<key>square.chat.text.input.nickname</key>
+	<string>%@</string>
+	<key>square.chathistory.message.unreadmark</key>
+	<string>읽지 않은 메시지 (%@)</string>
+	<key>square.chatlist.alert.deletedchat</key>
+	<string>존재하지 않는 대화방입니다. 다른 대화에 참여해 보세요.</string>
+	<key>square.chatlist.alert.max</key>
+	<string>최대 인원수에 도달하여 참여할 수 없습니다. 잠시 후 다시 시도해 주세요.</string>
+	<key>square.chatlist.delete.desc</key>
+	<string>이 대화방을 삭제하시겠습니까?</string>
+	<key>square.chatlist.join.guide</key>
+	<string>참여하고 싶은 하위 대화방을 선택해 주세요. 대화방에 입장한 다음 화면 오른쪽 위에 있는 메뉴 &gt; 대화방 목록을 누르면 다른 대화방에 참여할 수 있습니다.</string>
+	<key>square.chatlist.joined.title</key>
+	<string>참여 중인 대화 %d</string>
+	<key>square.chatlist.joined.zero</key>
+	<string>참여 중인 대화가 없습니다.</string>
+	<key>square.chatlist.max.member.desc</key>
+	<string>멤버 수를 초과하여 참여할 수 없습니다.</string>
+	<key>square.chatlist.public.join.alert</key>
+	<string>참여 시 내 대화 목록에도 
+추가됩니다.</string>
+	<key>square.chatlist.public.join.btn</key>
+	<string>참여</string>
+	<key>square.chatlist.public.max.btn</key>
+	<string>최대 인원수 도달</string>
+	<key>square.chatlist.public.no.msg</key>
+	<string>메시지가 없습니다.</string>
+	<key>square.chatlist.public.title</key>
+	<string>참여 가능한 대화 %d</string>
+	<key>square.chatlist.public.zero</key>
+	<string>참여 가능한 대화가 없습니다.</string>
+	<key>square.chatlist.square.button</key>
+	<string>오픈챗</string>
+	<key>square.chatlist.square.button.description</key>
+	<string>오픈챗에서 새로운 친구들을 만나보세요.</string>
+	<key>square.chatlist.title</key>
+	<string>대화방 목록</string>
+	<key>square.chatroom.alert.open.url</key>
+	<string>해당 링크는 안전하지 않을 수 있습니다.
+링크를 여시겠습니까?</string>
+	<key>square.chatroom.block.inputarea.deletedchat</key>
+	<string>대화방이 삭제됨</string>
+	<key>square.chatroom.block.inputarea.deletedgroup</key>
+	<string>오픈챗이 삭제됨</string>
+	<key>square.chatroom.block.inputarea.kickoutgroup</key>
+	<string>오픈챗에서 강제 퇴장됨</string>
+	<key>square.chatroom.button.bots</key>
+	<string>봇 </string>
+	<key>square.chatroom.chatlilst.guide.des</key>
+	<string>이 오픈챗에 개설된 대화방을 한눈에 확인하고 참여할 수 있습니다.</string>
+	<key>square.chatroom.chatlist.title</key>
+	<string>대화방 목록</string>
+	<key>square.chatroom.confirm.desc.kickout</key>
+	<string>이 멤버가 오픈챗에서 강제 탈퇴됩니다. 계속하시겠습니까?</string>
+	<key>square.chatroom.create.image</key>
+	<string>프로필 설정</string>
+	<key>square.chatroom.default.announce.content</key>
+	<string>'%@' 대화방에 오신 것을 환영합니다.</string>
+	<key>square.chatroom.deletefromall.alert</key>
+	<string>해당 메시지가 모든 대화방에서 삭제됩니다. 계속하시겠습니까?</string>
+	<key>square.chatroom.desc.botadded</key>
+	<string>%@님이 봇(%@)을 추가했습니다.</string>
+	<key>square.chatroom.desc.botremoved</key>
+	<string>%@ 님이 봇(%@)을 삭제했습니다.</string>
+	<key>square.chatroom.error.alert.deletedchatroom</key>
+	<string>존재하지 않는 대화방입니다. 다른 대화에 참여해 보세요.</string>
+	<key>square.chatroom.input.deletedgroup</key>
+	<string>삭제된 오픈챗</string>
+	<key>square.chatroom.input.join.btn</key>
+	<string>%@ 오픈챗에 참여</string>
+	<key>square.chatroom.invite.layer.des</key>
+	<string>함께 이야기하고 싶은 친구를 초대해 보세요.</string>
+	<key>square.chatroom.layer.upperloading</key>
+	<string>대화를 불러오는 중...</string>
+	<key>square.chatroom.longpress.deleteformall</key>
+	<string>지우기</string>
+	<key>square.chatroom.longpress.deletefromall.title</key>
+	<string>대화방에서 지우기</string>
+	<key>square.chatroom.longpress.deletefromall.toast</key>
+	<string>최대 50개까지 선택할 수 있습니다.</string>
+	<key>square.chatroom.longpress.kickout</key>
+	<string>강제탈퇴</string>
+	<key>square.chatroom.longpress.squarepost</key>
+	<string>게시</string>
+	<key>square.chatroom.memberlist.guest</key>
+	<string>손님</string>
+	<key>square.chatroom.setting.deletechat</key>
+	<string>하위 대화방 삭제</string>
+	<key>square.chatroom.setting.deletechat.description</key>
+	<string>모든 멤버가 해당 하위 대화방을 더 이상 사용할 수 없습니다. 삭제하시겠습니까?</string>
+	<key>square.chatroom.settings.change.title</key>
+	<string>대화방 이름</string>
+	<key>square.chatroom.settings.leave.no.message</key>
+	<string>조용히 나가기</string>
+	<key>square.chatroom.system.alert.notfriend</key>
+	<string>%1$@ 스퀘어의 %2$@님은 내 친구가 아닙니다.
+메시지의 내용을 주의해 주세요.</string>
+	<key>square.chatroom.system.message.change.bg</key>
+	<string>운영자가 오픈챗 사진을 변경했습니다.</string>
+	<key>square.chatroom.system.message.change.maxparticipants</key>
+	<string>%1$@님이 대화방 정원을 %2$@명으로 변경했습니다.</string>
+	<key>square.chatroom.system.message.change.name</key>
+	<string>%1$@님이 대화방 이름을 '%2$@' 대화방으로 변경했습니다.</string>
+	<key>square.chatroom.system.message.change.picture</key>
+	<string>%@님이 대화방 프로필을 변경했습니다.</string>
+	<key>square.chatroom.system.message.kickout</key>
+	<string>%@님이 오픈챗에서 강제 탈퇴되었습니다.</string>
+	<key>square.chatroom.system.msg.alert.private</key>
+	<string>%@ 스퀘어의 비공개 대화방입니다. 메시지 내용을 주의해 주세요.</string>
+	<key>square.chatroom.system.msg.alert.public</key>
+	<string>%@ 오픈챗은 누구나 참여할 수 있습니다. 메시지 내용을 주의해 주세요.</string>
+	<key>square.chatroom.system.msg.guide.loading</key>
+	<string>이전 대화는 스크롤 할 때만 조금씩 불러옵니다.</string>
+	<key>square.chatroom.system.msg.guide.report</key>
+	<string>부적절한 메시지(사진, 동영상, 링크, 텍스트)는 길게 눌러 신고할 수 있습니다.</string>
+	<key>square.chatroom.system.msg.tooltip.private</key>
+	<string>%@ 스퀘어의 비공개 대화방입니다. 메시지 내용을 주의해 주세요.</string>
+	<key>square.chatroom.system.msg.tooltip.public</key>
+	<string>%@ 오픈챗은 누구나 참여할 수 있습니다. 메시지 내용을 주의해 주세요.</string>
+	<key>square.chatroom.systemmsg.deletedchat</key>
+	<string>대화방이 삭제되었습니다.</string>
+	<key>square.chatroom.systemmsg.deletedgroup</key>
+	<string>오픈챗이 삭제되었습니다.</string>
+	<key>square.chatroom.systemmsg.emptycommunity</key>
+	<string>사용할 수 없는 오픈챗</string>
+	<key>square.chatroom.systemmsg.emptyroom</key>
+	<string>사용할 수 없는 대화방</string>
+	<key>square.chatroom.systemmsg.kickout</key>
+	<string>운영자에 의해 강제 퇴장되었습니다.</string>
+	<key>square.chatroom.vmenu.chatlist</key>
+	<string>대화방 목록</string>
+	<key>square.chatroom.vmenu.leave.alert.outmsg.option</key>
+	<string>대화방을 나갈 때 알림 메시지를 보냅니다.</string>
+	<key>square.clear</key>
+	<string>삭제</string>
+	<key>square.coadmin.alert</key>
+	<string>부운영자 권한을 부여하시겠습니까?</string>
+	<key>square.common.send</key>
+	<string>전송</string>
+	<key>square.common.share</key>
+	<string>공유</string>
+	<key>square.community.home.alert.invited.chat</key>
+	<string>초대받은 대화방에 입장하겠습니까?</string>
+	<key>square.community.home.chat.button.start</key>
+	<string>시작</string>
+	<key>square.community.home.invite.button</key>
+	<string>초대</string>
+	<key>square.community.home.msg.chat.onlymember</key>
+	<string>대화는 가입 후 참여할 수 있습니다. 가입하시겠습니까?</string>
+	<key>square.community.home.msg.onlymember</key>
+	<string>해당 스퀘어의 콘텐츠는 가입 후 이용할 수 있습니다. 가입이 승인될 때까지 기다려 주세요.</string>
+	<key>square.cover.chat.btn</key>
+	<string>대화</string>
+	<key>square.cover.post.btn</key>
+	<string>노트</string>
+	<key>square.create.category</key>
+	<string>카테고리</string>
+	<key>square.create.category.guide</key>
+	<string>선택한 카테고리의 목록에 내 오픈챗이 표시됩니다.</string>
+	<key>square.create.chat.button</key>
+	<string>일반</string>
+	<key>square.create.chat.header</key>
+	<string>대화방 만들기</string>
+	<key>square.create.default.category</key>
+	<string>선택 안 함(카테고리에서 제외)</string>
+	<key>square.create.description</key>
+	<string>소개</string>
+	<key>square.create.description.desc</key>
+	<string>오픈챗에 대한 소개를 입력해 주세요.</string>
+	<key>square.create.description.input</key>
+	<string>소개</string>
+	<key>square.create.description2</key>
+	<string>이 오픈챗에 어울리는 해시태그(#)를 입력해 주세요.</string>
+	<key>square.create.error.no.name</key>
+	<string>오픈챗 이름을 입력해 주세요.</string>
+	<key>square.create.error.popup.input.description.info</key>
+	<string>오픈챗에 대한 설명을 입력해 주세요.</string>
+	<key>square.create.error.popup.input.info</key>
+	<string>필수 정보를 모두 입력해 주세요.</string>
+	<key>square.create.group.button</key>
+	<string>그룹</string>
+	<key>square.create.groupname</key>
+	<string>오픈챗 이름</string>
+	<key>square.create.groupname.desc</key>
+	<string>이 프로필이 대화방 배경화면으로 사용됩니다.</string>
+	<key>square.create.image</key>
+	<string>프로필 설정</string>
+	<key>square.create.openchat.button</key>
+	<string>오픈챗</string>
+	<key>square.create.over.text.num.alert</key>
+	<string>더 이상 입력할 수 없습니다.</string>
+	<key>square.create.search</key>
+	<string>검색 허용</string>
+	<key>square.create.search.desc</key>
+	<string>이름, 설명으로 오픈챗을 검색할 수 있습니다.</string>
+	<key>square.create.setting.desc</key>
+	<string>다른 사용자가 내 오픈챗을 검색할 수 있습니다.</string>
+	<key>square.create.sgroup.approval.desc</key>
+	<string>가입 시 운영자의 승인이 필요합니다.</string>
+	<key>square.create.sgroup.closedtype</key>
+	<string>승인 후 가입</string>
+	<key>square.create.sgroup.opentype</key>
+	<string>즉시 가입</string>
+	<key>square.create.subchat.guide.des</key>
+	<string>오픈챗의 운영자 권한과 공개 설정이 이 오픈챗의 모든 하위 대화방에 동일하게 적용됩니다.</string>
+	<key>square.create.subchat.title</key>
+	<string>하위 대화방 만들기</string>
+	<key>square.create.title</key>
+	<string>오픈챗 만들기</string>
+	<key>square.create.welcome</key>
+	<string>가입 인사말</string>
+	<key>square.createchat.error.no.auth.public</key>
+	<string>운영자가 해당 권한을 제한하여 누구나 참여할 수 있는 하위 대화방을 만들 수 없습니다.</string>
+	<key>square.createchat.inputtitle</key>
+	<string>제목을 입력해 주세요.</string>
+	<key>square.createchat.title</key>
+	<string>새 대화</string>
+	<key>square.createchat.type.maximum.option</key>
+	<string>최대 멤버 수</string>
+	<key>square.createchat.type.maximum.option.desc</key>
+	<string>대화에 참여할 수 있는 최대 멤버 수를 설정할 수 있습니다.</string>
+	<key>square.createchat.type.private</key>
+	<string>비공개</string>
+	<key>square.createchat.type.private.desc</key>
+	<string>초대된 멤버들만 대화할 수 있습니다.</string>
+	<key>square.createchat.type.public</key>
+	<string>공개</string>
+	<key>square.createchat.type.public.desc</key>
+	<string>스퀘어 멤버 누구나 대화에 참여할 수 있습니다.</string>
+	<key>square.createchat.type.public.option</key>
+	<string>멤버 전체 공개</string>
+	<key>square.default.cover.title</key>
+	<string>배경 사진</string>
+	<key>square.default.name.title</key>
+	<string>오픈챗 이름</string>
+	<key>square.error.cannot.forward.contact</key>
+	<string>스퀘어 대화방에는 연락처를 보낼 수 없습니다.</string>
+	<key>square.error.deletedcontents</key>
+	<string>이미 삭제된 항목입니다.</string>
+	<key>square.error.fail.upload.profile.image</key>
+	<string>프로필을 편집하지 못했습니다.</string>
+	<key>square.error.loadfail</key>
+	<string>일시적인 오류가 발생하여 작업을 완료하지 못했습니다. 다시 시도해 주세요.</string>
+	<key>square.error.noti.kickout</key>
+	<string>해당 오픈챗에서 강제 탈퇴되었습니다.</string>
+	<key>square.error.popup.cannot.invite</key>
+	<string>스퀘어 운영자가 해당 기능을 껐습니다</string>
+	<key>square.error.popup.cannot.join</key>
+	<string>일시적으로 가입이 제한되었습니다. 다음에 방문해 주세요.</string>
+	<key>square.error.popup.deletedgroup</key>
+	<string>오픈챗이 운영자에 의해 삭제되었습니다.</string>
+	<key>square.error.popup.network</key>
+	<string>연결할 수 없습니다. 
+네트워크 상태를 확인한 다음 다시 시도해 주세요.</string>
+	<key>square.error.popup.noauth</key>
+	<string>해당 화면에 접근할 수 있는 권한이 없습니다. 
+설정 화면으로 이동합니다.</string>
+	<key>square.error.popup.noauth.alert</key>
+	<string>해당 화면에 접근할 수 있는 권한이 없습니다.</string>
+	<key>square.error.popup.usingbyotheruser</key>
+	<string>다른 사용자가 해당 설정을 변경 중입니다. 
+잠시 후 다시 시도해 주세요.</string>
+	<key>square.filtering.keyword.error.alert</key>
+	<string>사용할 수 없는 단어입니다.</string>
+	<key>square.friendslist.join.requests</key>
+	<string>가입 신청 관리</string>
+	<key>square.friendstab.newrequest</key>
+	<string>신규 가입 신청</string>
+	<key>square.friendstab.request.count</key>
+	<string>가입 신청</string>
+	<key>square.group.create.change.image</key>
+	<string>사진 변경</string>
+	<key>square.group.name</key>
+	<string>오픈챗</string>
+	<key>square.group.settings.change.groupname</key>
+	<string>오픈챗 이름</string>
+	<key>square.group.settings.change.myname</key>
+	<string>이름</string>
+	<key>square.group.settings.delete.alert</key>
+	<string>오픈챗을 삭제하면 대화 내용을 비롯하여 해당 오픈챗과 관련된 모든 정보가 삭제됩니다. 삭제하시겠습니까?</string>
+	<key>square.group.settings.editmember.kickout</key>
+	<string>멤버 강제 탈퇴</string>
+	<key>square.group.settings.editmember.kickout.alert.done</key>
+	<string>강제 탈퇴 완료</string>
+	<key>square.group.settings.group.profile</key>
+	<string>오픈챗 프로필 수정</string>
+	<key>square.group.settings.groupset</key>
+	<string>오픈챗 설정</string>
+	<key>square.group.settings.leave</key>
+	<string>오픈챗 나가기</string>
+	<key>square.group.settings.leave.alert</key>
+	<string>오픈챗을 나가면 대화 내용을 비롯하여 해당 오픈챗과 관련된 모든 정보가 삭제됩니다. 나가시겠습니까?</string>
+	<key>square.group.settings.leave.error.alert.admin</key>
+	<string>오픈챗에서 탈퇴하려면 운영자 권한을 다른 사람에게 양도해 주세요.</string>
+	<key>square.group.settings.managegroup</key>
+	<string>오픈챗 관리</string>
+	<key>square.group.settings.managegroup.allowtojoin</key>
+	<string>운영자 승인 후 가입</string>
+	<key>square.group.settings.managegroup.allowtojoin.desc</key>
+	<string>가입 시 운영자의 승인이 필요합니다.</string>
+	<key>square.group.settings.managegroup.allowtosearch</key>
+	<string>오픈챗 검색 허용</string>
+	<key>square.group.settings.managegroup.allowtosearch.desc</key>
+	<string>키워드로 오픈챗을 검색할 수 있습니다.</string>
+	<key>square.group.settings.managegroup.autotag</key>
+	<string>태그 자동 추천</string>
+	<key>square.group.settings.managegroup.autotag.decs</key>
+	<string>게시글 작성 시 태그를 자동으로 추천합니다.</string>
+	<key>square.group.settings.managegroup.deletegroup</key>
+	<string>오픈챗 삭제</string>
+	<key>square.group.settings.managegroup.invite</key>
+	<string>멤버 초대</string>
+	<key>square.group.settings.managegroup.invite.desc</key>
+	<string>옵션을 끄면 다른 멤버를 초대할 수 없으며 기존에 공유한 링크나 QR 코드도 사용할 수 없습니다.</string>
+	<key>square.group.settings.managegroup.updateurl</key>
+	<string>초대 링크 업데이트</string>
+	<key>square.group.settings.managegroup.updateurl.desc</key>
+	<string>업데이트 시 기존 초대 링크를 사용할 수 없습니다. 
+계속하시겠습니까?</string>
+	<key>square.group.settings.managemember</key>
+	<string>멤버 관리</string>
+	<key>square.group.settings.managemembers.alert.cannot.select</key>
+	<string>%d명 까지만 선택 가능합니다.</string>
+	<key>square.group.settings.managemembers.allowrejoin</key>
+	<string>강제 탈퇴 해제</string>
+	<key>square.group.settings.managemembers.blocktojoin</key>
+	<string>강제 탈퇴 멤버 목록</string>
+	<key>square.group.settings.managemembers.blocktojoin.alert</key>
+	<string>강제 탈퇴를 해제하면 해당 사용자가 오픈챗에 다시 참여할 수 있습니다. 계속하시겠습니까?</string>
+	<key>square.group.settings.managemembers.manageadmin</key>
+	<string>운영자 관리</string>
+	<key>square.group.settings.managemembers.manageadmin.added</key>
+	<string>추가했습니다.</string>
+	<key>square.group.settings.managemembers.manageadmin.alert.deletecoadmin</key>
+	<string>부운영자 권한을 취소하시겠습니까?</string>
+	<key>square.group.settings.managemembers.manageadmin.coadmin</key>
+	<string>부운영자</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin</key>
+	<string>운영자 권한 양도</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin.alert</key>
+	<string>운영자 권한을 양도하시겠습니까? 
+양도 시 내 역할이 부운영자로 변경됩니다.</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin.desc</key>
+	<string>부운영자 권한을 부여하여 스퀘어를 같이 관리할 수 있습니다. 
+부운영자의 역할은 권한 관리에서 조정해 주세요.</string>
+	<key>square.group.settings.managemembers.manageadmin.handoveradmin.description</key>
+	<string>부운영자에게 운영자 권한을 양도할 수 있습니다. 양도 시 내가 부운영자로 지정됩니다.</string>
+	<key>square.group.settings.managemembers.manageadmin.makecoadmin</key>
+	<string>부운영자 권한 부여</string>
+	<key>square.group.settings.managemembers.manageadmin.makecoadmin.desc</key>
+	<string>부운영자 권한을 부여하여 오픈챗을 같이 관리할 수 있습니다. 부운영자의 권한은 권한 관리에서 조정해 주세요.</string>
+	<key>square.group.settings.managemembers.manageadmin.makecoadmin.no.member</key>
+	<string>선택할 수 있는 멤버가 없습니다.</string>
+	<key>square.group.settings.managemembers.manageadmin.no.coadmin</key>
+	<string>부운영자가 없습니다.</string>
+	<key>square.group.settings.managemembers.manageadmin.select</key>
+	<string>선택</string>
+	<key>square.group.settings.managemembers.manageauth</key>
+	<string>권한 관리</string>
+	<key>square.group.settings.managemembers.manageauth.acceptrequest</key>
+	<string>가입 승인</string>
+	<key>square.group.settings.managemembers.manageauth.admincoadmin</key>
+	<string>운영자 및 부운영자</string>
+	<key>square.group.settings.managemembers.manageauth.adminonly</key>
+	<string>운영자</string>
+	<key>square.group.settings.managemembers.manageauth.all</key>
+	<string>모든 멤버</string>
+	<key>square.group.settings.managemembers.manageauth.createpost</key>
+	<string>게시글 작성</string>
+	<key>square.group.settings.managemembers.manageauth.createpublicchat</key>
+	<string>하위 대화방 만들기</string>
+	<key>square.group.settings.managemembers.manageauth.deletecontents</key>
+	<string>대화/게시글 삭제</string>
+	<key>square.group.settings.managemembers.manageauth.invitemembers</key>
+	<string>멤버 초대</string>
+	<key>square.group.settings.managemembers.manageauth.kickout</key>
+	<string>멤버 강제 탈퇴</string>
+	<key>square.group.settings.managemembers.manageauth.maxparticipants</key>
+	<string>최대 대화 인원 변경</string>
+	<key>square.group.settings.managemembers.managepost</key>
+	<string>노트에 글쓰기</string>
+	<key>square.group.settings.managemembers.request</key>
+	<string>가입 신청</string>
+	<key>square.group.settings.managemembers.request.accept</key>
+	<string>승인</string>
+	<key>square.group.settings.managemembers.request.accept.alert.done</key>
+	<string>가입 신청을 승인했습니다.</string>
+	<key>square.group.settings.managemembers.request.accept.alert.notall.done</key>
+	<string>가입 신청을 승인했습니다. 이미 처리된 요청은 제외되며 일부 요청의 경우 인원 제한에 따라 승인되지 않을 수 있습니다.</string>
+	<key>square.group.settings.managemembers.request.acceptall</key>
+	<string>전체 승인</string>
+	<key>square.group.settings.managemembers.request.acceptall.alert</key>
+	<string>모든 신청을 승인하시겠습니까?</string>
+	<key>square.group.settings.managemembers.request.delete.alert</key>
+	<string>삭제하시겠습니까?</string>
+	<key>square.group.settings.managemembers.request.delete.alert.done</key>
+	<string>삭제가 완료되었습니다.</string>
+	<key>square.group.settings.managemembers.request.delete.alert.notall.done</key>
+	<string>삭제가 완료되었습니다.
+(이미 처리된 요청은 제외되었습니다.)</string>
+	<key>square.group.settings.managemembers.request.noti.tooltip</key>
+	<string>가입 신청 시 알림을 받을지를 설정할 수 있습니다.</string>
+	<key>square.group.settings.managemembers.request.select100</key>
+	<string>최근 %d건 선택</string>
+	<key>square.group.settings.managemembers.request.selectall</key>
+	<string>전체 선택</string>
+	<key>square.group.settings.managemembers.request.zero</key>
+	<string>가입 신청이 없습니다.</string>
+	<key>square.group.settings.memberlist</key>
+	<string>멤버 목록/초대</string>
+	<key>square.group.settings.myprofile.title</key>
+	<string>내 프로필</string>
+	<key>square.group.settings.noti.post</key>
+	<string>게시글 알림</string>
+	<key>square.group.settings.noti.post.dec</key>
+	<string>포스트 알림을 받을 수 있습니다.</string>
+	<key>square.group.settings.policy</key>
+	<string>오픈챗 이용약관</string>
+	<key>square.group.settings.recieve.chat</key>
+	<string>대화 초대 수신</string>
+	<key>square.group.settings.recieve.friendsrequest</key>
+	<string>친구 신청 받기</string>
+	<key>square.group.settings.report</key>
+	<string>오픈챗 신고</string>
+	<key>square.group.settings.reportpage.desc</key>
+	<string>신고 사유를 선택해 주세요.</string>
+	<key>square.group.settings.reportpage.reason1</key>
+	<string>광고/사기</string>
+	<key>square.group.settings.reportpage.reason2</key>
+	<string>불건전 교제 요구</string>
+	<key>square.group.settings.reportpage.reason3</key>
+	<string>유해성 메시지</string>
+	<key>square.group.settings.reportpage.reason4</key>
+	<string>기타</string>
+	<key>square.group.settings.reportpage.reason5</key>
+	<string>주제와 무관한 글</string>
+	<key>square.group.settings.reportpage.report.btn</key>
+	<string>신고</string>
+	<key>square.group.settings.subscription.mytimeline</key>
+	<string>내 타임라인에서 구독</string>
+	<key>square.group.settings.subscription.mytimeline.desc</key>
+	<string>내 타임라인에서 스퀘어 포스트를 볼 수 있습니다.</string>
+	<key>square.grouppopup.alert.alreadyjoin</key>
+	<string>이미 참여한 오픈챗입니다. 이 오픈챗을 다시 열어주세요.</string>
+	<key>square.grouppopup.alert.blocked</key>
+	<string>참여가 제한된 오픈챗입니다. 다음에 다시 시도해 주세요.</string>
+	<key>square.grouppopup.alert.join.ing</key>
+	<string>가입 승인 절차가 진행 중입니다. 
+운영자 승인 시 가입이 완료됩니다.</string>
+	<key>square.grouppopup.alert.requestdone</key>
+	<string>가입을 신청했습니다. 운영자 승인 시 가입이 완료됩니다.</string>
+	<key>square.grouppopup.button.join.ing</key>
+	<string>승인 대기 중...</string>
+	<key>square.grouppopup.invite.tooltip</key>
+	<string>LINE 친구를 직접 초대하거나 링크, QR 코드를 공유하세요.</string>
+	<key>square.grouppopup.invitefriend</key>
+	<string>친구 초대</string>
+	<key>square.grouppopup.qrcode</key>
+	<string>QR 코드로 초대</string>
+	<key>square.grouppopup.qrcode.desc</key>
+	<string>QR 코드를 직접 보여주거나 게시글로 공유해 주세요.</string>
+	<key>square.grouppopup.qrcode.save</key>
+	<string>QR 코드 저장</string>
+	<key>square.grouppopup.qrcode.saved</key>
+	<string>QR 코드를 저장했습니다.</string>
+	<key>square.grouppopup.sendrequest</key>
+	<string>가입 신청</string>
+	<key>square.grouppopup.url</key>
+	<string>링크로 초대</string>
+	<key>square.grouppopup.url.app</key>
+	<string>다른 앱으로 공유</string>
+	<key>square.grouppopup.url.desc</key>
+	<string>초대 링크를 직접 전달하거나 게시글로 공유해 주세요.</string>
+	<key>square.grouppopup.url.line</key>
+	<string>LINE으로 공유</string>
+	<key>square.home.addfavorite</key>
+	<string>즐겨찾기에 추가</string>
+	<key>square.home.cancelfavorite</key>
+	<string>즐겨찾기 해제</string>
+	<key>square.home.chat.section.invited</key>
+	<string>초대받은 대화</string>
+	<key>square.home.favorite.tooltip</key>
+	<string>버튼을 누르면 친구 탭 즐겨찾기에 오픈챗을 추가할 수 있어요.</string>
+	<key>square.home.invite.copy.link</key>
+	<string>링크 복사</string>
+	<key>square.home.invite.save.qr</key>
+	<string>QR 코드 저장</string>
+	<key>square.home.invite.share.link</key>
+	<string>링크 공유</string>
+	<key>square.home.invite.share.qr</key>
+	<string>QR 코드 공유</string>
+	<key>square.home.menu.photo</key>
+	<string>사진</string>
+	<key>square.home.menu.relay</key>
+	<string>릴레이</string>
+	<key>square.home.menu.write</key>
+	<string>글쓰기</string>
+	<key>square.home.nickname</key>
+	<string>%@</string>
+	<key>square.home.post.write.permission</key>
+	<string>게시글 작성 권한</string>
+	<key>square.home.setting</key>
+	<string>설정</string>
+	<key>square.home.tab.chat</key>
+	<string>대화</string>
+	<key>square.home.tab.post</key>
+	<string>게시판</string>
+	<key>square.home.toast.addfavorite</key>
+	<string>즐겨찾기에 추가했습니다.</string>
+	<key>square.home.toast.cancelfavorite</key>
+	<string>즐겨찾기를 해제하였습니다.</string>
+	<key>square.hometab.desc.createopenchat</key>
+	<string>오픈챗을 만들어 새로운 친구들을 만나보세요.</string>
+	<key>square.invite.friend</key>
+	<string>친구 초대</string>
+	<key>square.invite.urlscheme.chatroom.chatname</key>
+	<string>'%@'에 초대</string>
+	<key>square.invitemember.confirm.donotshowagain</key>
+	<string>다음부터 표시 안 함</string>
+	<key>square.invitemember.confirm.invite</key>
+	<string>초대 받은 사용자는 이전 대화 내용을 확인할 수 있습니다.</string>
+	<key>square.invitemember.desc</key>
+	<string>스퀘어 멤버만 대화에 초대할 수 있습니다. 멤버가 아닌 사용자의 경우 우선 스퀘어에 초대해 주세요.</string>
+	<key>square.invitemember.desc.urlscheme.chatroom</key>
+	<string>스퀘어 멤버가 아닌 사용자를 초대하려면 아래 버튼을 눌러주세요.</string>
+	<key>square.invitemember.invitetogroup</key>
+	<string>오픈챗으로 초대</string>
+	<key>square.invitemember.invitetogroup.urlscheme.chatroom</key>
+	<string>대화방으로 초대</string>
+	<key>square.invitemember.memberlist.title</key>
+	<string>'%@' 멤버 %d</string>
+	<key>square.invitemember.title</key>
+	<string>대화 상대 선택</string>
+	<key>square.join.precaution</key>
+	<string>'%@' 오픈챗에 오신 것을 환영합니다. 오픈챗 서비스 정책을 위반하는 메시지를 보낼 경우 사용이 제한될 수 있으니 유의해 주세요.</string>
+	<key>square.join.question.guide</key>
+	<string>질문을 5~50자로 입력해 주세요.</string>
+	<key>square.joincode.error</key>
+	<string>참여 코드가 일치하지 않습니다. 확인 후 다시 입력해 주세요.</string>
+	<key>square.joincode.guide</key>
+	<string>운영자가 지정한 참여 코드를 입력하면 오픈챗에 참여할 수 있어요.</string>
+	<key>square.joincode.guide.description</key>
+	<string>오픈챗 참여 시 입력해야 하는 참여 코드를 설정해 주세요.</string>
+	<key>square.joincode.input.guide</key>
+	<string>참여 코드를 입력해 주세요.</string>
+	<key>square.joincode.title</key>
+	<string>참여 코드 입력</string>
+	<key>square.joinscreen.placeholder.enteranswerhere</key>
+	<string>답변 입력</string>
+	<key>square.kickout.alert.done</key>
+	<string>해당 오픈챗에서 강제 탈퇴된 멤버입니다. 오픈챗 설정의 멤버 관리 &gt; 강제 탈퇴 멤버 목록에서 강제 탈퇴를 해제하여 재가입을 허용할 수 있습니다.</string>
+	<key>square.kickout.blockoption</key>
+	<string>재가입 금지</string>
+	<key>square.kickout.error.alert.admin</key>
+	<string>운영자나 부운영자의 경우 강제 탈퇴시킬 수 없습니다.</string>
+	<key>square.kickout.reason1</key>
+	<string>광고, 스팸</string>
+	<key>square.kickout.reason2</key>
+	<string>불건전하거나 외설적인 표현</string>
+	<key>square.kickout.reason3</key>
+	<string>기타 규칙 위반</string>
+	<key>square.main.create</key>
+	<string>오픈챗 만들기</string>
+	<key>square.main.create.block.alert</key>
+	<string>베타 테스트 기간에는 스퀘어를 만들 수 없습니다.</string>
+	<key>square.main.mylist</key>
+	<string>내 목록</string>
+	<key>square.main.mylist.sortbyname</key>
+	<string>이름순</string>
+	<key>square.main.mylist.sortbyupdate</key>
+	<string>업데이트순</string>
+	<key>square.main.mylist.sortbyvisit</key>
+	<string>최근 방문순</string>
+	<key>square.main.mylist.viewall</key>
+	<string>전체 보기</string>
+	<key>square.main.mylist.zero</key>
+	<string>다양한 주제로 새로운 사람들과 대화할 수 있는 스퀘어! 지금 대화에 참여해 보세요.</string>
+	<key>square.main.number</key>
+	<string>만</string>
+	<key>square.main.number2</key>
+	<string>억</string>
+	<key>square.main.search.block.alert</key>
+	<string>베타 테스트 기간에는 검색 기능을 이용할 수 없습니다.</string>
+	<key>square.main.search.default.msg</key>
+	<string>오픈챗 이름, 소개</string>
+	<key>square.members</key>
+	<string>멤버</string>
+	<key>square.noti.post.desc</key>
+	<string>오픈챗에 새 노트가 올라오면 알림을 받습니다.</string>
+	<key>square.noti.post.desc2</key>
+	<string>새 노트가 올라오면 알림을 받을지, 오픈챗마다 설정할 수 있습니다.</string>
+	<key>square.noti.post.desc3</key>
+	<string>오픈챗에 새 노트가 올라오면 알림을 받습니다.</string>
+	<key>square.noti.post.title</key>
+	<string>새 글 알림</string>
+	<key>square.noti.reaction.desc</key>
+	<string>내가 올린 노트나 댓글에 대한 알림을 설정할 수 있습니다.</string>
+	<key>square.noti.settings.commentlikes</key>
+	<string>내 댓글에 좋아요</string>
+	<key>square.noti.settings.newposts</key>
+	<string>새 글</string>
+	<key>square.noti.settings.postcomments</key>
+	<string>내 노트에 댓글</string>
+	<key>square.noti.settings.postlikes</key>
+	<string>내 노트에 좋아요</string>
+	<key>square.noti.settings.postmentions</key>
+	<string>노트/댓글에서 멘션</string>
+	<key>square.noti.title</key>
+	<string>오픈챗 알림</string>
+	<key>square.openchat.desc.messageremovedforsharinginappropriatecontent</key>
+	<string>오픈챗 서비스 정책 위반이 의심되어 %@님의 메시지가 삭제되었습니다.</string>
+	<key>square.openchat.popupbutton.close</key>
+	<string>닫기</string>
+	<key>square.openchat.popupbutton.deleteforall</key>
+	<string>전체 참여자 대화방에서 삭제</string>
+	<key>square.openchat.popupbutton.deleteforyou</key>
+	<string>내 대화방만 삭제</string>
+	<key>square.openchat.popupbutton.seemore</key>
+	<string>자세히 보기</string>
+	<key>square.openchat.popupdesc.deletemessagesfor</key>
+	<string>메시지를 어디에서 삭제할지 선택해 주세요.</string>
+	<key>square.openchatannouncements.title.announcements</key>
+	<string>공지사항</string>
+	<key>square.openchatentry.button.confirm</key>
+	<string>확인</string>
+	<key>square.openchatentry.desc.dontsendrudemessages</key>
+	<string>&lt;font color='#07B53B'&gt;불쾌감을 유발하거나&lt;/font&gt; &lt;font color='#07B53B'&gt;부적절한 행동&lt;/font&gt;은 삼가주세요.</string>
+	<key>square.openchatentry.desc.followopenchatrules</key>
+	<string>&lt;font color='#07B53B'&gt;위 규칙을 위반할 경우&lt;/font&gt; 오픈챗 이용이 제한될 수 있어요.</string>
+	<key>square.openchatentry.desc.treatmemberswithrespect</key>
+	<string>모두를 위한 공간이 될 수 있도록 &lt;font color='#07B53B'&gt;서로를 배려해 주세요&lt;/font&gt;.</string>
+	<key>square.openchatentry.header.dontsendrudemessages</key>
+	<string>2. 친절하게</string>
+	<key>square.openchatentry.header.followopenchatrules</key>
+	<string>3. 모두가 즐거운 오픈챗</string>
+	<key>square.openchatentry.header.treatmemberswithrespect</key>
+	<string>1. 서로 존중하며!</string>
+	<key>square.openchatentry.title.openchatuserules</key>
+	<string>오픈챗 이용 규칙</string>
+	<key>square.openchatmenu.button.seemembers</key>
+	<string>멤버 보기</string>
+	<key>square.openchatmenu.button.seeopenchat</key>
+	<string>오픈챗 보기</string>
+	<key>square.openchatnotes.desc.subchatmemberscanseenotes</key>
+	<string>노트 공유 시 하위 대화방 멤버들도 볼 수 있습니다.</string>
+	<key>square.openchatsettings.placeholder.enterhashtags</key>
+	<string>오픈챗 소개</string>
+	<key>square.personaloption.alert.error.name</key>
+	<string>이미 사용중인 이름입니다. 다른 이름을 입력해 주세요.</string>
+	<key>square.personaloption.chat</key>
+	<string>대화 초대 수신</string>
+	<key>square.personaloption.chat.desc</key>
+	<string>스퀘어 멤버의 초대 메시지를 받습니다.</string>
+	<key>square.personaloption.copy</key>
+	<string>링크를 복사했습니다.</string>
+	<key>square.personaloption.friendrequest</key>
+	<string>친구 신청 받기</string>
+	<key>square.personaloption.friendrequest.desc</key>
+	<string>멤버가 나에게 친구 신청을 할 수 있습니다.</string>
+	<key>square.personaloption.greetingmessage</key>
+	<string>가입 신청 메시지</string>
+	<key>square.personaloption.greetingmessage.default</key>
+	<string>메시지를 입력해 주세요.</string>
+	<key>square.personaloption.guide</key>
+	<string>닉네임을 입력해 주세요.</string>
+	<key>square.personaloption.join.btn</key>
+	<string>참여</string>
+	<key>square.personaloption.joincode.btn</key>
+	<string>참여 코드 입력</string>
+	<key>square.personaloption.profile.title</key>
+	<string>내 프로필</string>
+	<key>square.personaloption.profile.title.tooltip</key>
+	<string>%@에서 사용할 닉네임을 설정할 수 있습니다.</string>
+	<key>square.personaloption.profile.title.tooltip.desc</key>
+	<string>오픈챗에서 사용할 프로필을 설정해 보세요.</string>
+	<key>square.personaloption.sendrequest.btn</key>
+	<string>참여 신청</string>
+	<key>square.personaloption.welcomemsg</key>
+	<string>가입 인사말</string>
+	<key>square.policy.agree.btn</key>
+	<string>동의</string>
+	<key>square.policy.title</key>
+	<string>이용약관 및 정책</string>
+	<key>square.policy.viewall</key>
+	<string>오픈챗 이용약관 전문 보기</string>
+	<key>square.popup.button.grantpermission</key>
+	<string>권한 부여</string>
+	<key>square.popup.button.setaspublic</key>
+	<string>전체 공개</string>
+	<key>square.post.announcement.announce</key>
+	<string>올리기</string>
+	<key>square.post.announcement.delete</key>
+	<string>노트 삭제</string>
+	<key>square.post.announcement.delete.desc</key>
+	<string>삭제 시 중요 노트가 취소됩니다. 계속하시겠습니까?</string>
+	<key>square.post.announcement.guide</key>
+	<string>공유하고 싶은 노트는 중요 노트로 등록!</string>
+	<key>square.post.announcement.list.title</key>
+	<string>중요 노트</string>
+	<key>square.post.announcement.list.zero</key>
+	<string>아직 작성된 노트가 없습니다.</string>
+	<key>square.post.announcement.mark</key>
+	<string>중요 노트로 올리기</string>
+	<key>square.post.announcement.mark.desc</key>
+	<string>매일 처음 올리는 중요 노트에 한해, 모든 오픈챗 멤버에게 알림이 한 번 발송됩니다.</string>
+	<key>square.post.announcement.postui</key>
+	<string>중요 노트</string>
+	<key>square.post.announcement.postui2</key>
+	<string>&lt;b&gt;중요 노트&lt;/b&gt;입니다.</string>
+	<key>square.post.announcement.push</key>
+	<string>[%@] 중요 노트가 올라왔습니다.</string>
+	<key>square.post.announcement.push.relay</key>
+	<string>[%@] 릴레이가 공지로 올라왔습니다.</string>
+	<key>square.post.announcement.remove</key>
+	<string>중요 노트 취소</string>
+	<key>square.post.announcement.seeall</key>
+	<string>%@개의 노트</string>
+	<key>square.post.announcement.seeall.title</key>
+	<string>공지사항</string>
+	<key>square.post.error.deletedannouncement</key>
+	<string>삭제된 중요 노트입니다.</string>
+	<key>square.post.error.deletedcomment</key>
+	<string>이미 삭제된 댓글입니다.</string>
+	<key>square.post.error.deletedcontents</key>
+	<string></string>
+	<key>square.post.error.deletedjoined</key>
+	<string>이미 삭제된 참여글입니다.</string>
+	<key>square.post.error.deletedpost</key>
+	<string>이미 삭제된 노트입니다.</string>
+	<key>square.post.error.write</key>
+	<string>운영자가 권한을 제한하여 사용할 수 없는 기능입니다.</string>
+	<key>square.post.hashtag.popular</key>
+	<string>이 오픈챗의 인기 태그</string>
+	<key>square.post.join</key>
+	<string>가입</string>
+	<key>square.post.joinguide</key>
+	<string>늦으면 손해! '%@'에 가입하고 재미있는 글과 대화를 함께 즐겨보세요.</string>
+	<key>square.post.linktype.chatlist</key>
+	<string>오픈챗 노트를 공유했습니다.</string>
+	<key>square.post.linktype.scroll</key>
+	<string>오픈챗 노트를 공유했습니다.</string>
+	<key>square.post.linktype.title</key>
+	<string>오픈챗</string>
+	<key>square.post.relay.zero</key>
+	<string>오픈챗 멤버들과 함께하는 릴레이 글쓰기!</string>
+	<key>square.post.share.chatlist</key>
+	<string>오픈챗에 공유</string>
+	<key>square.post.share.popup</key>
+	<string>게시글 공유</string>
+	<key>square.post.title</key>
+	<string>노트</string>
+	<key>square.post.userslist.zero</key>
+	<string>아직 작성된 노트가 없습니다.</string>
+	<key>square.post.write.authority</key>
+	<string>노트 작성 권한 설정</string>
+	<key>square.post.write.guide</key>
+	<string>스퀘어에 공유합니다.</string>
+	<key>square.post.write.guidecountryspecific</key>
+	<string>오픈챗에 공유합니다.</string>
+	<key>square.post.write.hashtag</key>
+	<string>스퀘어 멤버들과 같은 주제의 태그로 
+글을 올려 이야기를 나누어 보세요.</string>
+	<key>square.post.zeropage.newpost</key>
+	<string>글쓰기</string>
+	<key>square.post.zeropage.welcome</key>
+	<string>오픈챗 첫 노트의 주인공이 되어주세요!</string>
+	<key>square.postpopup.join</key>
+	<string>해당 기능은 멤버만 사용할 수 있습니다. 스퀘어에 가입하시겠습니까?</string>
+	<key>square.privacy.setting.approval</key>
+	<string>운영자 승인</string>
+	<key>square.privacy.setting.change.approval</key>
+	<string>이 오픈챗의 공개 설정이 '운영자 승인'으로 변경되었습니다.</string>
+	<key>square.privacy.setting.change.joincode</key>
+	<string>이 오픈챗의 공개 설정이 '참여 코드 입력'으로 변경되었습니다.</string>
+	<key>square.privacy.setting.change.open</key>
+	<string>이 오픈챗의 공개 설정이 '전체 공개'로 변경되었습니다.</string>
+	<key>square.privacy.setting.desc</key>
+	<string>오픈챗 공개 설정을 변경할 수 있습니다.</string>
+	<key>square.privacy.setting.guide</key>
+	<string>참여 코드를 입력하거나 운영자가 승인해야 참여할 수 있습니다.</string>
+	<key>square.privacy.setting.joincode</key>
+	<string>참여 코드 입력</string>
+	<key>square.privacy.setting.off</key>
+	<string>전체 공개</string>
+	<key>square.privacy.setting.off.guide</key>
+	<string>누구나 자유롭게 오픈챗에 참여할 수 있습니다.</string>
+	<key>square.privacy.setting.title</key>
+	<string>공개 설정</string>
+	<key>square.privacy.turnoff.alert</key>
+	<string>누구나 참여할 수 있도록 오픈챗이 공개됩니다. 계속하시겠습니까?</string>
+	<key>square.qrcode.save.failed</key>
+	<string>QR 코드 저장에 실패했습니다.</string>
+	<key>square.report.page.reason01</key>
+	<string>원조 교제 등 불건전 교제 요구</string>
+	<key>square.report.page.reason02</key>
+	<string>폭력적, 악의적, 성적 콘텐츠 전송</string>
+	<key>square.report.page.reason03</key>
+	<string>광고, 스팸 등 사기성 콘텐츠 전송</string>
+	<key>square.report.page.reason04</key>
+	<string>자살, 테러 등 위해 행위 방조</string>
+	<key>square.report.policy.desc</key>
+	<string>신고할 경우, 관련 사용자의 정보, 주고받은 최근 20건의 대화 내용 또는 관련 게시글이 전송됩니다.</string>
+	<key>square.report.policy.desc.10</key>
+	<string>신고할 경우, 관련 사용자의 정보, 주고받은 최근 20건의 대화 내용 또는 관련 게시글이 전송됩니다.</string>
+	<key>square.report.policy.desc01</key>
+	<string>오픈챗 서비스는 신고된 내용의 운영정책 위배 여부를 24시간 상시 검토하여 조치하고 있습니다.</string>
+	<key>square.report.policy.desc02</key>
+	<string>허위로 신고한 경우 신고자가 이용에 제재를 받을 수 있습니다.</string>
+	<key>square.report.policy.desc1</key>
+	<string>신고 접수하신 내용은 확인 후 오픈챗 운영 정책에 따라 처리됩니다.</string>
+	<key>square.requesttojoin.button.submit</key>
+	<string>제출</string>
+	<key>square.set.joincode.input.guide</key>
+	<string>4~8자리 영문자 또는 숫자를 입력해 주세요.</string>
+	<key>square.set.question.input.guide</key>
+	<string>참여 신청자에게 제시할 질문을 입력해 주세요. 승인 여부는 신청자의 답변을 확인한 후 결정할 수 있습니다.</string>
+	<key>square.set.question.title</key>
+	<string>질문 입력</string>
+	<key>square.setting.auth.announcement</key>
+	<string>공지/중요 게시글 올리기</string>
+	<key>square.setting.auth.message.post</key>
+	<string>메시지 및 노트 삭제</string>
+	<key>square.setting.childprotection.message</key>
+	<string>미성년자나 연령을 인증하지 않은 사용자는 해당 기능을 사용할 수 없습니다.</string>
+	<key>square.settings.delete.chathistory</key>
+	<string>모든 대화 내용 삭제</string>
+	<key>square.settings.delete.chathistory.desc</key>
+	<string>대화방 화면을 아래로 당기면 기존 대화 내용을 불러올 수 있습니다. 삭제하시겠습니까?</string>
+	<key>square.settings.deleteaccount.desc</key>
+	<string>오픈챗 운영자 권한은 다른 사람에게 자동으로 양도됩니다.</string>
+	<key>square.settings.manage.permissions.chatapp.permission</key>
+	<string>추가 대화방 기능</string>
+	<key>square.settings.managesquare.defaultchatroom.desc</key>
+	<string>기본 대화방은 스퀘어와 함께 자동으로 생성되며 삭제할 수 없습니다.</string>
+	<key>square.settings.managesquare.defaultchatroom.title</key>
+	<string>%@ 스퀘어의 기본 대화방</string>
+	<key>square.settings.managesquare.privatechat</key>
+	<string>비공개 대화 허용</string>
+	<key>square.settings.managesquare.privatechat.desc</key>
+	<string>멤버가 비공개 대화방을 만들거나, 1:1로 대화할 수 있습니다.</string>
+	<key>square.settings.memberlist.members.subtitle</key>
+	<string>멤버 %d</string>
+	<key>square.settings.members</key>
+	<string>멤버 (%d)</string>
+	<key>square.sub.cover.title</key>
+	<string>하위 대화방 프로필</string>
+	<key>square.sub.name.title</key>
+	<string>하위 대화방 이름</string>
+	<key>square.timeline.button.tooltip</key>
+	<string>새로운 사람들과
+재미있는 수다 한판!</string>
+	<key>square.timeline.button.tooltip2</key>
+	<string>오픈챗에서 캐미가 잘 맞는 친구를 찾아보세요!</string>
+	<key>square.unsupported.version.message</key>
+	<string>이 버전에서는 사용할 수 없습니다.
+LINE을 최신 버전으로 업데이트해 주세요.</string>
+	<key>square.urlscheme.alert.linkjoin.function.off</key>
+	<string>초대 링크로 참여할 수 없습니다.
+오픈챗 멤버에게 친구 초대를 요청해 주세요.</string>
+	<key>square.urlscheme.desc2</key>
+	<string>해당 오픈챗은 Android, iOS 기기에서만 참여할 수 있습니다.</string>
+	<key>square.urlscheme.error.notexist</key>
+	<string>존재하지 않는 오픈챗입니다.</string>
+	<key>square.urlscheme.invite.msg</key>
+	<string>오픈챗에 초대합니다.</string>
+	<key>square.urlscheme.package</key>
+	<string>[%1$@] 오픈챗에 초대합니다. 
+%3$@
+%2$@</string>
+	<key>square.urlscheme.package.chatroom</key>
+	<string>%1$@ 오픈챗에 초대합니다. 링크를 선택하면 대화에 참여할 수 있습니다.
+%2$@</string>
+	<key>square.user.admin</key>
+	<string>운영자</string>
+	<key>square.user.coadmin</key>
+	<string>부운영자</string>
+	<key>square.userpopup.blockinvite</key>
+	<string>초대 차단</string>
+	<key>square.userpopup.error.alert.notmember</key>
+	<string>이 오픈챗의 멤버가 아닙니다.</string>
+	<key>square.userpopup.friendsinfo.btn</key>
+	<string>친구 정보 보기</string>
+	<key>square.userpopup.friendsrequest.btn</key>
+	<string>친구 신청</string>
+	<key>square.userpopup.kickout.ban.btn</key>
+	<string>강제 탈퇴</string>
+	<key>square.userpopup.kickout.btn</key>
+	<string>강제 탈퇴</string>
+	<key>square.userpopup.kickout.cancel.btn</key>
+	<string>취소</string>
+	<key>square.userpopup.post.count.btn</key>
+	<string>게시글</string>
+</dict>
+</plist>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du heute {{goal_value:minutes}} Trainingsminuten erzielst, ist dieser Pfeil morgen oben. Los geht’s!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil sieht gut aus. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil zeigt in die richtige Richtung. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil geht runter, lässt sich aber leicht wieder nach oben drehen! Erziele die nächsten %#@num_days@ {{goal_value:minutes}} Trainingsminuten pro Tag und dreh ihn um.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil geht runter, aber du erreichst in letzter Zeit mehr Trainingsminuten. Erziele die nächsten 30 Tage mindestens {{goal_value:minutes}} pro Tag, um deinen Pfeil zu drehen. Zieh es durch, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Um diesen Pfeil zu drehen, musst du die nächsten 30 Tage mindestens {{goal_value:minutes}} Trainingsminuten pro Tag erreichen. In letzter Zeit hast du mehr Trainingsminuten erzielt, du schaffst das also locker, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dieser Pfeil geht runter, aber nicht viel. Steigere deine Trainingsminuten die nächsten %#@num_days@ auf über {{goal_value:minutes}} pro Tag und dein Pfeil geht wieder hoch.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bleib dran und erziele mindestens {{goal_value:minutes}} Trainingsminuten pro Tag, damit dieser Pfeil oben bleibt. Du machst das prima, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil sieht gut aus, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil geht runter, aber du erreichst in letzter Zeit mehr Trainingsminuten. Erziele die nächsten 14 Tage mindestens {{goal_value:minutes}} pro Tag, um deinen Pfeil zu drehen. Zieh es durch!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kannst deinen Trainingspfeil in %#@num_days@ drehen! Erziele mindestens {{goal_value:minutes}} Trainingsminuten pro Tag, damit das klappt.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil ist oben. Sorge dafür, dass du mindestens {{goal_value:minutes}} Trainingsminuten pro Tag schaffst, damit das so bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Um diesen Pfeil wieder nach oben zu drehen, musst du die nächsten %#@num_days@ durchschnittlich mindestens {{goal_value:minutes}} Trainingsminuten pro Tag erreichen. Das schaffst du locker!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil sieht gut aus, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil geht runter, aber du erreichst in letzter Zeit mehr Trainingsminuten. Erziele die nächsten 14 Tage mindestens {{goal_value:minutes}} pro Tag, um deinen Pfeil zu drehen. Zieh es durch, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bleib dran und erziele mindestens {{goal_value:minutes}} Trainingsminuten pro Tag, damit dieser Pfeil oben bleibt. Du machst das prima!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Um diesen Pfeil zu drehen, musst du die nächsten 14 Tage mindestens {{goal_value:minutes}} Trainingsminuten pro Tag erreichen. In letzter Zeit hast du mehr Trainingsminuten erzielt, du schaffst das also locker, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dieser Pfeil geht runter, aber nicht viel, {{username}}. Steigere deine Trainingsminuten die nächsten %#@num_days@ auf über {{goal_value:minutes}} pro Tag und dein Pfeil geht wieder hoch.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil zeigt in die richtige Richtung, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kannst deinen Trainingspfeil in %#@num_days@ drehen, {{username}}! Erziele mindestens {{goal_value:minutes}} Trainingsminuten pro Tag, damit das klappt.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil geht runter, lässt sich aber leicht wieder nach oben drehen, {{username}}! Erziele die nächsten %#@num_days@ {{goal_value:minutes}} Trainingsminuten pro Tag und dreh ihn um.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Um diesen Pfeil wieder nach oben zu drehen, musst du die nächsten %#@num_days@ durchschnittlich mindestens {{goal_value:minutes}} Trainingsminuten pro Tag erreichen. Das schaffst du locker, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Versuche, mit mindestens {{goal_value:minutes}} Trainingsminuten pro Tag loszulegen. Hol dir dann jede Woche ein neues Ziel. Erreiche deine Ziele und du wirst deinen Pfeil in ungefähr %#@num_weeks@ nach oben drehen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Woche</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Wochen</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil geht runter, aber du erreichst in letzter Zeit mehr Trainingsminuten. Erziele die nächsten 30Tage mindestens {{goal_value:minutes}} pro Tag, um deinen Pfeil zu drehen. Zieh es durch!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bleib dran und erziele mindestens {{goal_value:minutes}} Trainingsminuten pro Tag, damit dieser Pfeil oben bleibt. Du machst das prima!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil zeigt in die richtige Richtung, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil ist oben. Sorge dafür, dass du mindestens {{goal_value:minutes}} Trainingsminuten pro Tag schaffst, damit das so bleibt, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Mit einem zügigen Gehtraining pro Tag steigen deine Trainingsminuten wieder an. Das packst du, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil sieht gut aus. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Trainingspfeil zeigt in die richtige Richtung. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Um diesen Pfeil zu drehen, musst du die nächsten 14 Tage mindestens {{goal_value:minutes}} Trainingsminuten pro Tag erreichen. In letzter Zeit hast du mehr Trainingsminuten erzielt, du schaffst das also locker!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Es lohnt sich, wenn dieser Pfeil nach oben zeigt. Fange in dieser Woche durchschnittlich mit mindestens {{goal_value:minutes}} Trainingsminuten an. Steigere dich dann kontinuierlich und dein Pfeil wird sich in ungefähr %#@num_weeks@ drehen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Woche</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Wochen</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Mit einem zügigen Gehtraining pro Tag steigen deine Trainingsminuten wieder an. Das packst du.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil ist oben, aber deine Trainingsminuten gehen in letzter Zeit zurück. Lege pro Tag ein zügiges Gehtraining ein und dein Pfeil bleibt oben, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, wenn du heute {{goal_value:minutes}} Trainingsminuten erzielst, ist dieser Pfeil morgen oben. Los geht’s!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil ist oben, aber deine Trainingsminuten gehen in letzter Zeit zurück. Lege pro Tag ein zügiges Gehtraining ein und dein Pfeil bleibt oben!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bleib dran und erziele mindestens {{goal_value:minutes}} Trainingsminuten pro Tag, damit dieser Pfeil oben bleibt. Du machst das prima, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Um diesen Pfeil zu drehen, musst du die nächsten 30 Tage mindestens {{goal_value:minutes}} Trainingsminuten pro Tag erreichen. In letzter Zeit hast du mehr Trainingsminuten erzielt, du schaffst das also locker!</string>
+	</dict>
+</dict>
+</plist>

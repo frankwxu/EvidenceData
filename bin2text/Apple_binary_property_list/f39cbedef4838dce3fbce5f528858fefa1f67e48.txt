@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u pesan</string>
+			<key>many</key>
+			<string>%u pesan</string>
+			<key>one</key>
+			<string>Pesan</string>
+			<key>other</key>
+			<string>%u pesan</string>
+			<key>two</key>
+			<string>%u pesan</string>
+			<key>zero</key>
+			<string>%u pesan</string>
+		</dict>
+	</dict>
+	<key>%u missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_calls@</string>
+		<key>num_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u panggilan tak terjawab</string>
+			<key>many</key>
+			<string>%u panggilan tak terjawab</string>
+			<key>one</key>
+			<string>Panggilan tak terjawab</string>
+			<key>other</key>
+			<string>%u panggilan tak terjawab</string>
+			<key>two</key>
+			<string>%u panggilan tak terjawab</string>
+			<key>zero</key>
+			<string>%u panggilan tak terjawab</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

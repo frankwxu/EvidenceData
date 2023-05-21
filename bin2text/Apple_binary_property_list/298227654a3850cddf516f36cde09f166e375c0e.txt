@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>number_of_disambiguation_lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>קו אחד</string>
+			<key>many</key>
+			<string>%d קווים</string>
+			<key>two</key>
+			<string>שני קווים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d קווים</string>
+			<key>zero</key>
+			<string>%d קווים</string>
+		</dict>
+	</dict>
+	<key>[Collections] subtitle</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>מקום אחד</string>
+			<key>many</key>
+			<string>%lu מקומות</string>
+			<key>two</key>
+			<string>שני מקומות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu מקומות</string>
+			<key>zero</key>
+			<string>%lu מקומות</string>
+		</dict>
+	</dict>
+	<key>[RAP] Cell_subtitle_for_a_previous_search_with_results</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תוצאה אחת • %2$@</string>
+			<key>many</key>
+			<string>‏%1$d תוצאות • %2$@</string>
+			<key>two</key>
+			<string>שתי תוצאות • %2$@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%1$d תוצאות • %2$@</string>
+			<key>zero</key>
+			<string>אין תוצאות • %2$@</string>
+		</dict>
+	</dict>
+	<key>%d stop [BUS]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תחנה אחת</string>
+			<key>many</key>
+			<string>‏%d תחנות</string>
+			<key>two</key>
+			<string>שתי תחנות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תחנות</string>
+			<key>zero</key>
+			<string>אין תחנות</string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Bus) Show next bus stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>הצג את התחנה הבאה</string>
+			<key>many</key>
+			<string>הצג את %u התחנות הבאות</string>
+			<key>two</key>
+			<string>הצג את שתי התחנות הבאות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>הצג את %u התחנות הבאות</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>reservations_number_of_offers_key</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>מבצע אחד</string>
+			<key>many</key>
+			<string>‏%d מבצעים</string>
+			<key>two</key>
+			<string>שני מבצעים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d מבצעים</string>
+			<key>zero</key>
+			<string>‏%d מבצעים</string>
+		</dict>
+	</dict>
+	<key>[Collections] subtitle for Lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>קו אחד</string>
+			<key>many</key>
+			<string>%lu קווים</string>
+			<key>two</key>
+			<string>שני קווים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu קווים</string>
+			<key>zero</key>
+			<string>%lu קווים</string>
+		</dict>
+	</dict>
+	<key>NAV_SAR_RESULT_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תוצאה אחת</string>
+			<key>many</key>
+			<string>%d תוצאות</string>
+			<key>two</key>
+			<string>שתי תוצאות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d תוצאות</string>
+			<key>zero</key>
+			<string>%d תוצאות</string>
+		</dict>
+	</dict>
+	<key>[ridesharing] max party size</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>עד אדם אחד</string>
+			<key>many</key>
+			<string>עד %llu אנשים</string>
+			<key>two</key>
+			<string>עד שני אנשים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>llu</string>
+			<key>other</key>
+			<string>עד %llu אנשים</string>
+			<key>zero</key>
+			<string>עד %llu אנשים</string>
+		</dict>
+	</dict>
+	<key>Shared Trips Cell Subtitle Format String</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%2$@ ואדם אחד נוסף</string>
+			<key>many</key>
+			<string>%2$@ ו-%1$lu אנשים נוספים</string>
+			<key>two</key>
+			<string>%2$@ ושני אנשים נוספים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%2$@ ו-%1$lu אנשים נוספים</string>
+			<key>zero</key>
+			<string>‏%2$@ שיתף/ה איתך נסיעה</string>
+		</dict>
+	</dict>
+	<key>Places [Cluster Card]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>מקום אחד</string>
+			<key>many</key>
+			<string>%lu מקומות</string>
+			<key>two</key>
+			<string>שני מקומות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu מקומות</string>
+			<key>zero</key>
+			<string>%lu מקומות</string>
+		</dict>
+	</dict>
+	<key>TransitWidget_GoodService_SecondaryText</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>לא דווח על אזהרות בנוגע לקו התחבורה הציבורית המועדף שלך.</string>
+			<key>many</key>
+			<string>לא דווח על אזהרות בנוגע ל-%d קווי הת. הציבורית המועדפים שלך.</string>
+			<key>two</key>
+			<string>לא דווח על אזהרות בנוגע לשני קווי הת. הציבורית המועדפים שלך.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>לא דווח על אזהרות בנוגע ל-%d קווי הת. הציבורית המועדפים שלך.</string>
+			<key>zero</key>
+			<string>לא דווח על אזהרות בנוגע לקו הת. הציבורית המועדף שלך.</string>
+		</dict>
+	</dict>
+	<key>count_of_places</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>מקום אחד</string>
+			<key>many</key>
+			<string>‏%d מקומות</string>
+			<key>two</key>
+			<string>שני מקומות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d מקומות</string>
+			<key>zero</key>
+			<string>%d מקומות</string>
+		</dict>
+	</dict>
+	<key>number_of_people_reservation_request</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>אדם %ld</string>
+			<key>many</key>
+			<string>‏%ld אנשים</string>
+			<key>two</key>
+			<string>שני אנשים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>‏%ld אנשים</string>
+			<key>zero</key>
+			<string>‏%ld אנשים</string>
+		</dict>
+	</dict>
+	<key>Shared Trip Format [Cell, Title]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>נסיעה משותפת אחת</string>
+			<key>many</key>
+			<string>‏%u מסלולים משותפים</string>
+			<key>two</key>
+			<string>‏%u מסלולים משותפים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>‏%u מסלולים משותפים</string>
+			<key>zero</key>
+			<string>‏%u נסיעות משותפות</string>
+		</dict>
+	</dict>
+	<key>Title_for_search_in_maps_history</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תוצאה אחת ב-%2$@</string>
+			<key>many</key>
+			<string>%1$d תוצאות ב-%2$@</string>
+			<key>two</key>
+			<string>שתי תוצאות ב-%2$@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%1$d תוצאות ב-%2$@</string>
+			<key>zero</key>
+			<string>%1$d תוצאות ב-%2$@</string>
+		</dict>
+	</dict>
+	<key>Add_Associate_Line_Item_To_Favorites_Message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>האם ברצונך גם להוסיף את קו התחבורה הציבורית שעוצר בתחנה זו? ניתן להציג אזהרות שירות עבור הקווים המועדפים שלך דרך הווידג׳ט ״ת. ציבורית״ ב״מפות״.</string>
+			<key>many</key>
+			<string>האם ברצונך גם להוסיף את %d קווי התחבורה הציבורית שעוצרים בתחנה זו? ניתן להציג אזהרות שירות עבור הקווים המועדפים שלך דרך הווידג׳ט ״ת. ציבורית״ ב״מפות״.</string>
+			<key>two</key>
+			<string>האם ברצונך גם להוסיף את שני קווי התחבורה הציבורית שעוצרים בתחנה זו? ניתן להציג אזהרות שירות עבור הקווים המועדפים שלך דרך הווידג׳ט ״ת. ציבורית״ ב״מפות״.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>האם ברצונך גם להוסיף את %d קווי התחבורה הציבורית שעוצרים בתחנה זו? ניתן להציג אזהרות שירות עבור הקווים המועדפים שלך דרך הווידג׳ט ״ת. ציבורית״ ב״מפות״.</string>
+			<key>zero</key>
+			<string>האם ברצונך גם להוסיף את %d קווי התחבורה הציבורית שעוצרים בתחנה זו? ניתן להציג אזהרות שירות עבור הקווים המועדפים שלך דרך הווידג׳ט ״ת. ציבורית״ ב״מפות״.</string>
+		</dict>
+	</dict>
+	<key>[Results] subtitle</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תוצאה אחת</string>
+			<key>many</key>
+			<string>‏%lu תוצאות</string>
+			<key>two</key>
+			<string>שתי תוצאות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu תוצאות</string>
+			<key>zero</key>
+			<string>‏%lu תוצאות</string>
+		</dict>
+	</dict>
+	<key>TransitWidget_GoodService_Overflow_SecondaryText</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>דיווח על שירות משביע רצון בקו הת. ציבורית המועדף שלך.</string>
+			<key>many</key>
+			<string>דיווח על שירות משביע רצון ב-%ld קווי ת. ציבורית מועדפים שלך.</string>
+			<key>two</key>
+			<string>דיווח על שירות משביע רצון בשני קווי ת. ציבורית מועדפים שלך.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>דיווח על שירות משביע רצון ב-%ld קווי ת. ציבורית מועדפים שלך.</string>
+			<key>zero</key>
+			<string>דיווח על שירות משביע רצון ב-%ld קווי ת. ציבורית מועדפים שלך.</string>
+		</dict>
+	</dict>
+	<key>Search result cluster subtitle</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>+ אחת נוספת</string>
+			<key>many</key>
+			<string>‏+ %d נוספות</string>
+			<key>two</key>
+			<string>‏+ שתיים נוספות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>+%d נוספות</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>[RAP] Cell_subtitle_for_a_previous_search_with_results_and_no_location</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תוצאה אחת</string>
+			<key>many</key>
+			<string>%1$d תוצאות</string>
+			<key>two</key>
+			<string>שתי תוצאות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%1$d תוצאות</string>
+			<key>zero</key>
+			<string>אין תוצאות</string>
+		</dict>
+	</dict>
+	<key>Transit_Incident_Not_Displayed_Incidents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string> ועוד %u</string>
+			<key>many</key>
+			<string> ועוד %u</string>
+			<key>two</key>
+			<string> ועוד %u</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string> ועוד %u</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>%d stop [OTHER]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תחנה אחת</string>
+			<key>many</key>
+			<string>‏%d תחנות</string>
+			<key>two</key>
+			<string>שתי תחנות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תחנות</string>
+			<key>zero</key>
+			<string>אין תחנות</string>
+		</dict>
+	</dict>
+	<key>%d stop [RAIL]</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תחנה אחת</string>
+			<key>many</key>
+			<string>‏%d תחנות</string>
+			<key>two</key>
+			<string>שתי תחנות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תחנות</string>
+			<key>zero</key>
+			<string>אין תחנות</string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Non-bus) Show next non-bus stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>הצג את התחנה הבאה</string>
+			<key>many</key>
+			<string>הצג את %u התחנות הבאות</string>
+			<key>two</key>
+			<string>הצג את שתי התחנות הבאות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>הצג את %u התחנות הבאות</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>Transit_Routing_Incident_Message_Multiple_Incidents_Synthesized_Title</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תקרית אחת</string>
+			<key>many</key>
+			<string>‏%d תקריות</string>
+			<key>two</key>
+			<string>שתי תקריות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תקריות</string>
+			<key>zero</key>
+			<string>אין תקריות</string>
+		</dict>
+	</dict>
+	<key>[Share ETA] nav banner button</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>משתף עם אדם אחד</string>
+			<key>many</key>
+			<string>משתף עם %lu אנשים</string>
+			<key>two</key>
+			<string>משתף עם שני אנשים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>משתף עם %lu אנשים</string>
+			<key>zero</key>
+			<string>שיתוף זמן הגעה משוער</string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Bus) Show previous stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>הצג את התחנה הקודמת</string>
+			<key>many</key>
+			<string>הצג את %u התחנות הקודמות</string>
+			<key>two</key>
+			<string>הצג את שתי התחנות הקודמות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>הצג את %u התחנות הקודמות</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>[Transit Schedule] (Non-bus) Show previous stops button text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>הצג את התחנה הקודמת</string>
+			<key>many</key>
+			<string>הצג את %u התחנות הקודמות</string>
+			<key>two</key>
+			<string>הצג את שתי התחנות הקודמות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>הצג את %u התחנות הקודמות</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>count_of_transit_lines</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@_count_@</string>
+		<key>_count_</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>קו ת. ציבורית אחד</string>
+			<key>many</key>
+			<string>%d קווי ת. ציבורית</string>
+			<key>two</key>
+			<string>%d קווי ת. ציבורית</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d קווי ת. ציבורית</string>
+			<key>zero</key>
+			<string>%d קווי ת. ציבורית</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

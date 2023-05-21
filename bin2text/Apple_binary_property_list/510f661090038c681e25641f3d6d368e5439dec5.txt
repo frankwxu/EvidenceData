@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>«%@»</string>
+			<key>one</key>
+			<string>«%@»</string>
+			<key>many</key>
+			<string>«%@»</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>«%@»</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%2$#@title@ і %lu інші елементи неможливо викачати. Спробуйте пізніше.</string>
+			<key>one</key>
+			<string>%2$#@title@ і %lu інший елемент неможливо викачати. Спробуйте пізніше.</string>
+			<key>many</key>
+			<string>%2$#@title@ і %lu інших елементів неможливо викачати. Спробуйте пізніше.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%2$#@title@ і %lu іншого елемента неможливо викачати. Спробуйте пізніше.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Нещодавні епізоди у вашій Медіатеці автоматично перезавантажуються. Ще %lu старіші епізоди очікують завантажування.</string>
+			<key>one</key>
+			<string>Нещодавні епізоди у вашій Медіатеці автоматично перезавантажуються. Ще %lu старіший епізод очікує завантажування.</string>
+			<key>many</key>
+			<string>Нещодавні епізоди у вашій Медіатеці автоматично перезавантажуються. Ще %lu старіших епізодів очікують завантажування.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Нещодавні епізоди у вашій Медіатеці автоматично перезавантажуються. Ще %lu старішого епізоду очікують завантажування.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Не вдається викачати подкасти</string>
+			<key>one</key>
+			<string>Не вдається викачати подкаст</string>
+			<key>many</key>
+			<string>Не вдається викачати подкастів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Не вдається викачати подкаста</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u інші епізоди від %@</string>
+			<key>one</key>
+			<string>%u інший епізод від %@</string>
+			<key>many</key>
+			<string>%u інших епізодів від %@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u іншого епізоду від %@</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Відтворивши цей, ви хочете далі слухати %lu епізоди, які ви вибрали грати наступними?</string>
+			<key>one</key>
+			<string>Відтворивши цей, ви хочете далі слухати %lu епізод, який ви вибрали грати наступним?</string>
+			<key>many</key>
+			<string>Відтворивши цей, ви хочете далі слухати %lu епізодів, які ви вибрали грати наступними?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Відтворивши цей, ви хочете далі слухати %lu епізоду, які ви вибрали грати наступними?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u нові епізоди</string>
+			<key>one</key>
+			<string>%u новий епізод</string>
+			<key>many</key>
+			<string>%u нових епізодів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u нового епізоду</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Є %lu нові епізоди.</string>
+			<key>one</key>
+			<string>Є %lu новий епізод.</string>
+			<key>many</key>
+			<string>Є %lu нових епізодів.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Доступні нові епізоди (%lu).</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako danas osvojite {{goal_value:minutes}} minuta vježbanja ova će strelica sutra biti podignuta. Učinite to!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja izgleda dobro. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja usmjerena je u pravom smjeru. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja okrenuta je prema dolje, ali je blizu preokretanja. Osvojite {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih %#@num_days@ kako biste je preokrenuli.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica okrenuta prema dolje, ali u posljednje vrijeme osvajate više minuta vježbanja. Osvojite najmanje {{goal_value:minutes}} dnevno tijekom sljedećih 30 dana za preokretanje strelice. Zadržite ovaj ritam, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice u prosjeku morate imati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih 30 dana. U posljednje vrijeme osvajate više minuta vježbanja, pa je preokretanje sigurna stvar, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ova je strelica okrenuta prema dolje, ali ne puno. Povećajte svoje minute vježbanja iznad {{goal_value:minutes}} dnevno tijekom sljedećih %#@num_days@ i vaša će se strelica vratiti gore.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nastavite osvajati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tako da ova strelica ostane okrenuta prema gore. Izvrsno vam ide, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja izgleda dobro, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica okrenuta prema dolje, ali u posljednje vrijeme osvajate više minuta vježbanja. Osvojite najmanje {{goal_value:minutes}} dnevno tijekom sljedećih 14 dana za preokretanje strelice. Zadržite ovaj ritam!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Možete preokrenuti svoju strelicu vježbanja za %#@num_days@! Osvojite najmanje {{goal_value:minutes}} minuta vježbanja dnevno kako biste to ostvarili.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica vježbanja okrenuta prema gore. Potrudite se osvojiti najmanje {{goal_value:minutes}} minuta vježbanja svaki dan kako bi tako i ostalo!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za ponovno preokretanje ove strelice prema gore, u prosjeku morate imati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih %#@num_days@. Možete vi to!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja izgleda dobro, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica okrenuta prema dolje, ali u posljednje vrijeme osvajate više minuta vježbanja. Osvojite najmanje {{goal_value:minutes}} dnevno tijekom sljedećih 14 dana za preokretanje strelice. Zadržite ovaj ritam, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nastavite osvajati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tako da ova strelica ostane okrenuta prema gore. Izvrsno vam ide!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice u prosjeku morate imati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih 14 dana. U posljednje vrijeme osvajate više minuta vježbanja, pa je preokretanje sigurna stvar, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ova je strelica okrenuta prema dolje, ali ne puno, {{username}}. Povećajte svoje minute vježbanja iznad {{goal_value:minutes}} dnevno tijekom sljedećih %#@num_days@ i vaša će se strelica vratiti gore.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja usmjerena je u pravom smjeru, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Možete preokrenuti svoju strelicu vježbanja za %#@num_days@, {{username}}! Osvojite najmanje {{goal_value:minutes}} minuta vježbanja dnevno kako biste to ostvarili.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja okrenuta je prema dolje, ali je blizu preokretanja, {{username}}. Osvojite {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih %#@num_days@ kako biste je preokrenuli.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za ponovno preokretanje ove strelice prema gore, u prosjeku morate imati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih %#@num_days@. Možete vi to, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokušajte osvojiti najmanje {{goal_value:minutes}} minuta vježbanja dnevno kako biste započeli. Zatim svaki tjedan provjerite svoj novi cilj. Ispunjavajte svoje ciljeve i preokrenut ćete svoju strelicu prema gore za otprilike %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tjedna</string>
+			<key>one</key>
+			<string>%d tjedan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tjedana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica okrenuta prema dolje, ali u posljednje vrijeme osvajate više minuta vježbanja. Osvojite najmanje {{goal_value:minutes}} dnevno tijekom sljedećih 30 dana za preokretanje strelice. Zadržite ovaj ritam!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nastavite osvajati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tako da ova strelica ostane okrenuta prema gore. Izvrsno vam ide!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja usmjerena je u pravom smjeru, {{username}}. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica vježbanja okrenuta prema gore. Potrudite se osvojiti najmanje {{goal_value:minutes}} minuta vježbanja svaki dan kako bi tako i ostalo, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ubacivanjem žustre šetnje svaki dan vaše će minute vježbanja krenuti prema gore. Možete vi to, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja izgleda dobro. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica vježbanja usmjerena je u pravom smjeru. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice u prosjeku morate imati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih 14 dana. U posljednje vrijeme osvajate više minuta vježbanja, pa je preokretanje sigurna stvar!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Imate dobru strelicu okrenutu prema gore. Započnite s najmanje {{goal_value:minutes}} minuta vježbanja u prosjeku ovaj tjedan. Povećavajte minute i vaša će se strelica preokrenuti za otprilike %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tjedna</string>
+			<key>one</key>
+			<string>%d tjedan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tjedana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ubacivanjem žustre šetnje svaki dan vaše će minute vježbanja krenuti prema gore. Možete vi to.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica okrenuta prema gore, ali se u posljednje vrijeme vaše minute vježbanja smanjuju. Pokušajte svaki dan odraditi žustru šetnju kako bi strelica ostala okrenuta prema gore, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ako danas osvojite {{goal_value:minutes}} minuta vježbanja ova će strelica sutra biti podignuta. Učinite to!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša je strelica okrenuta prema gore, ali se u posljednje vrijeme vaše minute vježbanja smanjuju. Pokušajte svaki dan odraditi žustru šetnju kako bi strelica ostala okrenuta prema gore!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nastavite osvajati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tako da ova strelica ostane okrenuta prema gore. Izvrsno vam ide, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice u prosjeku morate imati najmanje {{goal_value:minutes}} minuta vježbanja dnevno tijekom sljedećih 30 dana. U posljednje vrijeme osvajate više minuta vježbanja, pa je preokretanje sigurna stvar!</string>
+	</dict>
+</dict>
+</plist>

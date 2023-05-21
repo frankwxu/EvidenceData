@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_NON_COACHING_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaikka et ole ollut seisaallasi ja liikkunut yhtä paljon kuin tavallisesti, keskiarvosi on silti yli 45 minuuttia tunnissa. Vakuuttavaa.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos onnistut tänään saamaan keskimäärin {{goal_value:hours}} seisomisminuuttia tunnissa, tämä nuoli kääntyy. Kyllä se onnistuu, {{username}}.</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaikka et ole ollut seisaallasi ja liikkunut yhtä paljon kuin tavallisesti, keskiarvosi on silti yli 45 minuuttia tunnissa. Vakuuttavaa, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Seisomisminuuttien nuoli osoittaa alas, mutta se on kääntymäisillään. Seiso ja liiku vähintään {{goal_value:minutes}} minuuttia tunnissa seuraavan %#@num_days@ aikana, niin saat nuolen takaisin ylös.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jokainen minuutti, jonka olet liikkeellä, on hyvä minuutti. Jatka samaan malliin!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Seisomisminuuttien nuoli osoittaa alas, mutta se on kääntymäisillään, {{username}}. Seiso ja liiku vähintään {{goal_value:minutes}} minuuttia tunnissa seuraavan %#@num_days@ aikana, niin saat nuolen takaisin ylös.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit kääntää seisomisminuuttien nuolen %#@num_days@. Riittää, että seisot ja liikut vähintään {{goal_value:minutes}} minuuttia joka tunti.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivässä</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivässä</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetään tämä nuoli takaisin ylös! Ansaitse keskimäärin vähintään {{goal_value:hours}} seisomisminuuttia tunnissa seuraavan %#@num_days@ aikana, niin se kääntyy.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Yritä ansaita tällä viikolla keskimäärin vähintään {{goal_value:minutes}} minuuttia tunnissa. Tarkista uudet tavoitteet ja pysy aikataulussa, niin tämä nuoli kääntyy takaisin ylös.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli ylöspäin on hyvä juttu, {{username}}. Hienoa työtä.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos haluat saada seisomisminuuttisi takaisin raiteilleen, sinun tarvitsee vain ansaita keskimäärin {{goal_value:hours}} seisomisminuuttia tunnissa seuraavan %#@num_days@ aikana.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Käännetään tämä nuoli takaisin ylös, {{username}}! Ansaitse keskimäärin vähintään {{goal_value:hours}} seisomisminuuttia tunnissa seuraavan %#@num_days@ aikana, niin se kääntyy.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos onnistut tänään saamaan keskimäärin {{goal_value:hours}} seisomisminuuttia tunnissa, tämä nuoli kääntyy. Kyllä se onnistuu.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Yritä nousta ylös ja liikkua vähintään {{goal_value:minutes}} minuuttia tunnissa, jotta saat tämän nuolen ojennukseen. Sinulla on uusi tavoite joka viikko, kunnes nuoli kääntyy.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuolesi osoittaa ylöspäin, mutta seisomisminuuttisi ovat olleet laskusuunnassa. Muista nousta seisomaan ja liikkua hieman joka tunti, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jokainen minuutti, jonka olet liikkeellä, on hyvä minuutti. Jatka samaan malliin, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Seisomisminuutit ovat tärkeitä, {{username}}. Yritä nousta ylös ja liikkua vähän enemmän joka tunti, jotta nuolen suunta pysyy ylöspäin.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos haluat ohjata tämän trendin oikeaan suuntaan, nouse ylös istumasta vähän enemmän ja liiku joka päivä.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jokainen minuutti, jonka olet liikkeellä, on hyvä minuutti. Jatka samaan malliin!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voit kääntää seisomisminuuttien nuolen %#@num_days@, {{username}}. Sinun tarvitsee vain nousta ylös ja liikkua vähintään {{goal_value:minutes}} minuuttia joka tunti, niin se on siinä.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivässä</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivässä</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Seisomisminuutit ovat tärkeitä. Yritä nousta ylös ja liikkua vähän enemmän joka tunti, jotta nuolen suunta pysyy ylöspäin.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Yritä nousta ylös ja liikkua vähintään {{goal_value:minutes}} minuuttia tunnissa, jotta saat tämän nuolen ojennukseen, {{username}}. Sinulla on uusi tavoite joka viikko, kunnes nuoli kääntyy.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli ylöspäin on hyvä juttu, {{username}}. Hienoa työtä.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jokainen minuutti, jonka olet liikkeellä, on hyvä minuutti. Jatka samaan malliin, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli ylöspäin on hyvä juttu. Hienoa työtä.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, jos haluat ohjata tämän trendin oikeaan suuntaan, nouse ylös istumasta vähän enemmän ja liiku joka päivä.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tämä nuoli ylöspäin on hyvä juttu. Hienoa työtä.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nuolesi osoittaa ylöspäin, mutta seisomisminuuttisi ovat olleet laskusuunnassa. Muista nousta seisomaan ja liikkua hieman joka tunti.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jos haluat saada seisomisminuuttisi takaisin raiteilleen, sinun tarvitsee vain ansaita keskimäärin {{goal_value:hours}} seisomisminuuttia tunnissa seuraavan %#@num_days@ aikana, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d päivän</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d päivän</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Yritä ansaita tällä viikolla keskimäärin vähintään {{goal_value:minutes}} minuuttia tunnissa. Tarkista uudet tavoitteet ja pysy aikataulussa, niin tämä nuoli kääntyy takaisin ylös, {{username}}.</string>
+	</dict>
+</dict>
+</plist>

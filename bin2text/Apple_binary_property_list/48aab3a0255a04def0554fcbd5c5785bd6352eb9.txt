@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Η συνολική απόσταση που διανύετε έχει μειωθεί, {{username}}. Αν θέλετε να αποκτήσει πάλι ανοδική τάση το βέλος, προσπαθήστε να βρείτε χρόνο για περπάτημα κάθε ημέρα.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, προσπαθήστε να κάνετε τουλάχιστον {{goal_value:distance}} την ημέρα αυτήν την εβδομάδα και θα εμφανιστεί νέος στόχος την επόμενη εβδομάδα, {{username}}. Σε %#@num_weeks@, το βέλος θα δείχνει πάλι προς τα πάνω.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d εβδομάδα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Τα πηγαίνετε υπέροχα στη συνολική απόσταση. Συνεχίστε το βάδισμα και το τρέξιμο για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ώρα να αποκτήσει πάλι ανοδική τάση το βέλος! Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, περπατήστε και τρέξτε {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα. Θα τα καταφέρετε, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, το βέλος συνολικής απόστασης είναι ανοδικό. Συνεχίστε το βάδισμα και το τρέξιμο κάθε ημέρα για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Τα πηγαίνετε υπέροχα στη συνολική απόσταση, {{username}}. Συνεχίστε το βάδισμα και το τρέξιμο κάθε ημέρα για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, περπατήστε και τρέξτε {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να διατηρήσετε την ανοδική τάση του βέλους, πρέπει να περπατήσετε και να τρέξετε περισσότερο από ό,τι έχετε κάνει τελευταίως. Μπορείτε να τα καταφέρετε!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Τα πηγαίνετε υπέροχα στη συνολική απόσταση, {{username}}. Συνεχίστε το βάδισμα και το τρέξιμο για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Αν καταφέρετε να τρέξετε ή να περπατήσετε τουλάχιστον {{goal_value:distance}} σήμερα, αυτό το βέλος αποκτήσει πάλι ανοδική τάση. Αξίζει τον κόπο, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος συνολικής απόστασης είναι ανοδικό. Συνεχίστε το βάδισμα και το τρέξιμο κάθε ημέρα για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ώρα να αποκτήσει πάλι ανοδική τάση το βέλος, {{username}}! Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα, ώστε να αποκτήσει πάλι ανοδική τάση το βέλος, {{username}}. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, περπατήστε και τρέξτε {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Αν καταφέρετε να τρέξετε ή να περπατήσετε τουλάχιστον {{goal_value:distance}} σήμερα, αυτό το βέλος αποκτήσει πάλι ανοδική τάση. Αξίζει τον κόπο!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα, ώστε να αποκτήσει πάλι ανοδική τάση το βέλος. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Το βέλος συνολικής απόστασης είναι ανοδικό. Συνεχίστε το βάδισμα και το τρέξιμο κάθε ημέρα για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Η συνολική απόσταση που διανύετε έχει μειωθεί. Αν θέλετε να αποκτήσει πάλι ανοδική τάση το βέλος, προσπαθήστε να βρείτε χρόνο για περπάτημα κάθε ημέρα.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, περπατήστε και τρέξτε {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα. Θα τα καταφέρετε, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, προσπαθήστε να κάνετε τουλάχιστον {{goal_value:distance}} την ημέρα αυτήν την εβδομάδα και θα εμφανιστεί νέος στόχος την επόμενη εβδομάδα, {{username}}. Σε %#@num_weeks@, το βέλος θα δείχνει πάλι προς τα πάνω.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d εβδομάδα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να διατηρήσετε την ανοδική τάση του βέλους, πρέπει να περπατήσετε και να τρέξετε περισσότερο από ό,τι έχετε κάνει τελευταίως, {{username}}. Μπορείτε να τα καταφέρετε!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Αν καταφέρετε να τρέξετε ή να περπατήσετε τουλάχιστον {{goal_value:distance}} σήμερα, αυτό το βέλος αποκτήσει πάλι ανοδική τάση. Αξίζει τον κόπο!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση το βέλος, περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα, {{username}}. Αξίζει τον κόπο!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα, ώστε να αποκτήσει πάλι ανοδική τάση το βέλος. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, προσπαθήστε να κάνετε τουλάχιστον {{goal_value:distance}} την ημέρα αυτήν την εβδομάδα και θα εμφανιστεί νέος στόχος την επόμενη εβδομάδα. Σε %#@num_weeks@, το βέλος θα δείχνει πάλι προς τα πάνω.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d εβδομάδα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Τα πηγαίνετε υπέροχα στη συνολική απόσταση. Συνεχίστε το βάδισμα και το τρέξιμο για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση το βέλος, περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα. Αξίζει τον κόπο!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα, ώστε να αποκτήσει πάλι ανοδική τάση το βέλος, {{username}}. Θα τα καταφέρετε!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση αυτό το βέλος, προσπαθήστε να κάνετε τουλάχιστον {{goal_value:distance}} την ημέρα αυτήν την εβδομάδα και θα εμφανιστεί νέος στόχος την επόμενη εβδομάδα. Σε %#@num_weeks@, το βέλος θα δείχνει πάλι προς τα πάνω.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d εβδομάδα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Η συνολική απόσταση που διανύετε έχει μειωθεί. Αν θέλετε να αποκτήσει πάλι ανοδική τάση το βέλος, προσπαθήστε να βρείτε χρόνο για περπάτημα κάθε ημέρα.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση το βέλος, περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα. Αξίζει τον κόπο!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Τελευταίως κάνετε λιγότερες προπονήσεις βαδίσματος και τρεξίματος, {{username}}. Για να διατηρήσετε την ανοδική τάση του βέλους, αυξήστε λίγο τον αριθμό των προπονήσεων.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Τελευταίως κάνετε λιγότερες προπονήσεις βαδίσματος και τρεξίματος. Για να διατηρήσετε την ανοδική τάση του βέλους, αυξήστε λίγο τον αριθμό των προπονήσεων.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ώρα να αποκτήσει πάλι ανοδική τάση το βέλος, {{username}}! Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, το βέλος συνολικής απόστασης είναι ανοδικό. Συνεχίστε το βάδισμα και το τρέξιμο κάθε ημέρα για να διατηρήσετε την ανοδική τάση του βέλους!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Αν καταφέρετε να τρέξετε ή να περπατήσετε τουλάχιστον {{goal_value:distance}} σήμερα, αυτό το βέλος αποκτήσει πάλι ανοδική τάση. Αξίζει τον κόπο, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Για να αποκτήσει πάλι ανοδική τάση το βέλος, περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα, {{username}}. Αξίζει τον κόπο!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Η συνολική απόσταση που διανύετε έχει μειωθεί, {{username}}. Αν θέλετε να αποκτήσει πάλι ανοδική τάση το βέλος, προσπαθήστε να βρείτε χρόνο για περπάτημα κάθε ημέρα.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ώρα να αποκτήσει πάλι ανοδική τάση το βέλος! Περπατήστε και τρέξτε τουλάχιστον {{goal_value:distance}} την ημέρα για %#@num_days@ από σήμερα.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

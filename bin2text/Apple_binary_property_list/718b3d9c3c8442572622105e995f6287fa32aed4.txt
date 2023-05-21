@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLOSE</key>
+	<string>ปิด</string>
+	<key>workouts</key>
+	<string>การออกกำลังกาย</string>
+	<key>LEARN_MORE</key>
+	<string>เรียนรู้เพิ่มเติมที่ %1$@</string>
+	<key>HR</key>
+	<string>ชม.</string>
+	<key>TRENDS_LIST_FOOTER</key>
+	<string>แนวโน้มจะเปรียบเทียบกิจกรรมในช่วง 90 วันที่ผ่านมาของคุณกับช่วง 365 วันที่ผ่านมา ถ้าคุณทำได้เท่าเดิมหรือทำได้ดีขึ้น ลูกศรของคุณจะชี้ขึ้น ถ้าคุณทำได้ไม่ดีเท่าเดิม ลูกศรจะชี้ลง</string>
+	<key>WORKOUT_MONTH_HEADER_TOTAL</key>
+	<string>รวมทั้งหมด</string>
+	<key>TREND_EXPLANATION_ROLL</key>
+	<string>การหมุนล้อคือจำนวนชั่วโมงที่คุณผลักล้อเคลื่อนที่ของวีลแชร์ของคุณเป็นเวลาอย่างน้อยหนึ่งนาทีในหนึ่งชั่วโมง</string>
+	<key>TREND_EXPLANATION_WHEELCHAIR_RUNNING_PACE_METRIC</key>
+	<string>เวลาเฉลี่ยต่อระยะทางวิ่งวีลแชร์คือเวลาเฉลี่ยที่คุณใช้ในการผลักล้อหนึ่งกิโลเมตรในระหว่างการวิ่งวีลแชร์ออกกำลังกายกลางแจ้งตามเวลาเฉลี่ยต่อระยะทาง เมื่อคุณวิ่งวีลแชร์เร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>WATCH_URL_DISPLAY</key>
+	<string>apple.com/th/watch/features</string>
+	<key>HISTORY</key>
+	<string>ประวัติ</string>
+	<key>SORT_BY</key>
+	<string>เรียงตาม</string>
+	<key>TOTAL_ACTIVE_TIME_FORMAT_%@</key>
+	<string>รวมทั้งหมด %@</string>
+	<key>WORKOUT_SWIM_PACE_TITLE</key>
+	<string>เวลาเฉลี่ยโดยรวมต่อสโตรก</string>
+	<key>RING_SHARING_TODAY</key>
+	<string>ลองเช็คดูความคืบหน้าวันนี้ของฉันด้วยแอพกิจกรรมบน #AppleWatch ของฉัน</string>
+	<key>WORKOUT_WEATHER_TITLE</key>
+	<string>สภาพอากาศ</string>
+	<key>SHARING_CANCEL</key>
+	<string>ยกเลิก</string>
+	<key>HOURS_STOOD_WHEELCHAIR</key>
+	<string>ชั่วโมงการหมุนล้อ</string>
+	<key>TREND_EXPLANATION_EXERCISE_WHEELCHAIR</key>
+	<string>ทำจำนวนนาทีในการออกกำลังกายด้วยกิจกรรมใดๆ ที่เป็นมากกว่าการหมุนล้อเลื่อนรถอย่างเร็ว</string>
+	<key>TREND_NO_DATA_STAND_PLUS</key>
+	<string>นี่คือจำนวนนาทีโดยเฉลี่ยที่คุณยืนและเคลื่อนไหวในหนึ่งชั่วโมง</string>
+	<key>ORB_SEND_RINGS_ACTION</key>
+	<string>ส่งวงแหวนกิจกรรมของฉัน</string>
+	<key>WORKOUT_GROUND_ELEVATION_TITLE</key>
+	<string>ระดับความสูง</string>
+	<key>TREND_WORKOUT_WALK_SPEED</key>
+	<string>เวลาเฉลี่ยต่อระยะทางเดิน</string>
+	<key>WEATHER_HUMIDITY</key>
+	<string>ความชื้น: %@</string>
+	<key>TREND_EXPLANATION_ROLL_MINUTES</key>
+	<string>นาทีในการหมุนล้อคือจำนวนนาทีโดยเฉลี่ยที่คุณผลักล้อเคลื่อนที่ในแต่ละชั่วโมง</string>
+	<key>SHARING_LIST_PENDING</key>
+	<string>ได้ส่งคำเชิญของคุณแล้ว! เมื่อตอบรับ ชื่อของพวกเขาจะแสดงที่นี่</string>
+	<key>SHARING_SETUP_CLOUDKIT_DESCRIPTION_RESTRICTED</key>
+	<string>บัญชี %@ ของคุณไม่รองรับการแชร์กิจกรรม</string>
+	<key>MINUTES_OTHER</key>
+	<string>นาที</string>
+	<key>WORKOUT_AVERAGE_CADENCE_TITLE</key>
+	<string>ความเร็วรอบขาปั่นเฉลี่ย</string>
+	<key>WORKOUT_EMPTY_STATE_DETAIL</key>
+	<string>Apple Watch ช่วยติดตามการออกกำลังกายของคุณ เช่น การวิ่ง การเดิน การปั่นจักรยาน และอื่นๆ ประวัติการออกกำลังกายจะแสดงขึ้นที่นี่เมื่อคุณออกกำลังกายเสร็จ เพียงเปิดแอพออกกำลังกายบน Apple Watch ของคุณเพื่อเริ่มต้น </string>
+	<key>ACTIVE</key>
+	<string>เคลื่อนไหว</string>
+	<key>EXERCISE</key>
+	<string>ออกกำลังกาย</string>
+	<key>TREND_EXPLANATION_DISTANCE_METRIC</key>
+	<string>ระยะทางทั้งหมดแสดงถึงกิโลเมตรที่คุณวิ่งและเดินในแต่ละวัน</string>
+	<key>TREND_EXPLANATION_WHEELCHAIR_WALKING_PACE_METRIC</key>
+	<string>เวลาเฉลี่ยต่อระยะทางเดินวีลแชร์คือเวลาเฉลี่ยที่คุณใช้ในการผลักล้อหนึ่งกิโลเมตรในระหว่างการเดินวีลแชร์ออกกำลังกายกลางแจ้งตามเวลาเฉลี่ยต่อระยะทาง เมื่อคุณเดินวีลแชร์เร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>TREND_EXPLANATION_RUNNING_PACE_METRIC</key>
+	<string>เวลาเฉลี่ยต่อระยะทางวิ่งคือระยะเวลาที่คุณใช้ในการวิ่งหนึ่งกิโลเมตรในระหว่างการวิ่งออกกำลังกาย เมื่อคุณวิ่งเร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>PACE_UNIT_FORMAT_%@</key>
+	<string>/%@</string>
+	<key>BPM</key>
+	<string>BPM</string>
+	<key>WORKOUT_TOTAL_ENERGY_TITLE_KJ</key>
+	<string>กิโลจูลทั้งหมด</string>
+	<key>TREND_NO_DATA_STAND</key>
+	<string>ทำจำนวนชั่วโมงการยืนโดยการยืนและเคลื่อนไหวเล็กน้อยให้ได้อย่างน้อยหนึ่งนาทีต่อชั่วโมง</string>
+	<key>ME</key>
+	<string>ฉัน</string>
+	<key>MOVE</key>
+	<string>เคลื่อนไหว</string>
+	<key>COMPETITION_INBOX_CURRENTLY_COMPETING_HEADER</key>
+	<string>กำลังแข่งขันอยู่ในตอนนี้</string>
+	<key>VO2MAX_GENDER_MALE</key>
+	<string>ชาย</string>
+	<key>WORKOUT_SWIM_PACE_STROKECOUNT_FORMAT</key>
+	<string>%1$@/%2$@</string>
+	<key>TREND_WORKOUT_RUN_SPEED</key>
+	<string>เวลาเฉลี่ยต่อระยะทางวิ่ง</string>
+	<key>SHARING_SETUP_PRIMARY_BUTTON_TITLE</key>
+	<string>เริ่มต้นกัน</string>
+	<key>TREND_NO_DATA_VO2MAX_WHEELCHAIR</key>
+	<string>นี่จะประมาณฟิตเนสโดยรวมของคุณเป็นค่า VO2 max และจะวัดระหว่างการออกกำลังกายสำหรับเวลาเฉลี่ยต่อระยะทางเดินและวิ่งของคุณ</string>
+	<key>MIN</key>
+	<string>นาที</string>
+	<key>PACE_NOVALUE</key>
+	<string>--'--''</string>
+	<key>HEART_RATE_KB_LINK_TITLE</key>
+	<string>ดูข้อมูลเพิ่มเติม</string>
+	<key>SWIMMING_STROKE_STYLE_DISTANCE_%@_%@</key>
+	<string>%1$@ (%2$@)</string>
+	<key>FITNESS_FRACTION_UNIT_FORMAT</key>
+	<string>%1$@/%2$@%3$@</string>
+	<key>MULTIPLE_DEVICES_SHARING_PAST</key>
+	<string>คุณอาจแชร์กิจกรรมจากอุปกรณ์เครื่องอื่นที่ลงชื่อเข้าบัญชี iCloud ของคุณด้วยแล้ว</string>
+	<key>WORKOUT_MONTH_SUMMARY_WORKOUTS_RIDES</key>
+	<string>การขี่</string>
+	<key>VO2MAX_BUCKET_VERY_POOR</key>
+	<string>แย่มาก</string>
+	<key>goal</key>
+	<string>เป้าหมาย</string>
+	<key>HOURS_ZERO</key>
+	<string>ชั่วโมง</string>
+	<key>SHARING_SETUP_ABOUT_TITLE</key>
+	<string>เกี่ยวกับการแชร์กิจกรรม</string>
+	<key>SHARING_INBOX_PENDING</key>
+	<string>กำลังรอคุณตอบกลับ</string>
+	<key>SUMMARY_COMPLETE</key>
+	<string>เสร็จเรียบร้อย</string>
+	<key>TREND_MOVE</key>
+	<string>เคลื่อนไหว</string>
+	<key>TREND_NO_DATA_EXERCISE</key>
+	<string>ทำจำนวนนาทีในการออกกำลังกายสำหรับกิจกรรมใดๆ ที่เป็นมากกว่าการเดินเร็ว</string>
+	<key>MIN_LOWERCASE: </key>
+	<string>ต่ำสุด: </string>
+	<key>MAX_LOWERCASE: </key>
+	<string>สูงสุด: </string>
+	<key>WORKOUT_MONTH_SUMMARY_WORKOUTS_WALKS</key>
+	<string>การเดิน</string>
+	<key>HEART_RATE_NO_DATA_MODAL_TITLE</key>
+	<string>ไม่มีแผนภูมิ</string>
+	<key>HISTORY_VIEW_TITLE</key>
+	<string>มุมมองประวัติ</string>
+	<key>FITNESS_UNIT_FORMAT_NO_SPACE</key>
+	<string>%1$@%2$@</string>
+	<key>TREND_EXPLANATION_EXERCISE</key>
+	<string>การออกกำลังกายคือจำนวนนาทีที่ระดับกิจกรรมของคุณเท่ากับหรือมากกว่าการเดินเร็ว</string>
+	<key>SHARING_SETUP_TERMS_AND_CONDITIONS_DISCLAIMER</key>
+	<string>ข้อมูลเกี่ยวกับการออกกำลังกายและกิจกรรมของคุณจะถูกแชร์กับผู้คนที่คุณเลือก คุณสามารถจัดการตัวเลือกการแชร์ของคุณได้ตลอดเวลาจากแถบนี้</string>
+	<key>TREND_EXPLANATION_WHEELCHAIR_WALKING_PACE_IMPERIAL</key>
+	<string>เวลาเฉลี่ยต่อระยะทางเดินวีลแชร์คือเวลาเฉลี่ยที่คุณใช้ในการผลักล้อหนึ่งไมล์ในระหว่างการเดินวีลแชร์ออกกำลังกายกลางแจ้งตามเวลาเฉลี่ยต่อระยะทาง เมื่อคุณเดินวีลแชร์เร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>TREND_DETAIL_NO_DATA_FLIGHTS</key>
+	<string>สวม Apple Watch ของคุณอย่างน้อย 5 วันต่อสัปดาห์และขึ้นบันไดเมื่อใดก็ตามที่คุณมีโอกาส คุณจะปลดล็อคแนวโน้มนี้ได้เมื่อคุณมีข้อมูลถึง 6 เดือน</string>
+	<key>TRENDS_TRENDING_UP</key>
+	<string>แนวโน้มเพิ่มขึ้น</string>
+	<key>SHARING_INVITE_SEND</key>
+	<string>ส่ง</string>
+	<key>TREND_EXPLANATION_RUNNING_PACE_IMPERIAL</key>
+	<string>เวลาเฉลี่ยต่อระยะทางวิ่งคือระยะเวลาที่คุณใช้ในการวิ่งหนึ่งไมล์ในระหว่างการวิ่งออกกำลังกาย เมื่อคุณวิ่งเร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>SHARING_SETUP_CLOUDKIT_DESCRIPTION</key>
+	<string>คุณต้องลงชื่อเข้า iCloud เพื่อแชร์ความก้าวหน้าของกิจกรรม</string>
+	<key>SHARING_TERMS_AND_CONDITIONS_ABBREVIATED</key>
+	<string>ข้อมูลเกี่ยวกับการออกกำลังกายของคุณและแอพกิจกรรมจะถูกแชร์กับผู้คนที่คุณเลือก %@</string>
+	<key>FITNESS_AVERAGE_UNIT_FORMAT_WITH_SPACE</key>
+	<string>เฉลี่ย %1$@ %2$@</string>
+	<key>SHARE_SUGGESTED</key>
+	<string>คำแนะนำ</string>
+	<key>TREND_STAND_PLUS</key>
+	<string>นาทีในการยืน</string>
+	<key>TREND_STAND_PLUS_WHEELCHAIR</key>
+	<string>นาทีในการผลักล้อ</string>
+	<key>TREND_STAND_RINGS_CLOSED</key>
+	<string>ปิดวงแหวนการยืนแล้ว</string>
+	<key>STEPS_LABEL</key>
+	<string>ก้าวเดิน</string>
+	<key>WEATHER_TEMP</key>
+	<string>%@°</string>
+	<key>OK</key>
+	<string>ตกลง</string>
+	<key>TREND_EXPLANATION_DISTANCE_IMPERIAL</key>
+	<string>ระยะทางทั้งหมดแสดงถึงไมล์ที่คุณวิ่งและเดินในแต่ละวัน</string>
+	<key>TREND_EXPLANATION_FLIGHTS_METRIC</key>
+	<string>หนึ่งชั้นมีค่าเท่ากับระดับความสูงประมาณ 3 เมตรหรือบันได 16 ขั้น</string>
+	<key>ORB_TRENDS_ACTION</key>
+	<string>แนวโน้ม</string>
+	<key>TOTAL_TITLE</key>
+	<string>รวมทั้งหมด</string>
+	<key>FITNESS</key>
+	<string>กิจกรรม</string>
+	<key>UNINSTALL_ICON_BODY_NOT_ALLOWED</key>
+	<string>ในการเอาแอพนี้ออกจากหน้าจอโฮม ให้เลิกจับคู่ Apple Watch ทุกเรือนที่จับคู่อยู่กับ iPhone ของคุณ</string>
+	<key>COMPETITION_TOTAL_WINS_HEADER_INACTIVE</key>
+	<string>ชนะการแข่งขัน</string>
+	<key>TREND_DETAIL_NO_DATA_WALK_PACE_WHEELCHAIR</key>
+	<string>ในการปลดล็อคแนวโน้มนี้ ให้ออกกำลังกายสำหรับเวลาเฉลี่ยต่อระยะทางเดินอย่างน้อยหนึ่งครั้งต่อสัปดาห์เป็นเวลา 6 เดือน</string>
+	<key>SHARING_INVITE_DECLINE_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างเอาคำเชิญออก โปรดลองอีกครั้ง</string>
+	<key>WORKOUT_MONTH_SUMMARY_TIME_TITLE</key>
+	<string>เวลา</string>
+	<key>AWARDS</key>
+	<string>รางวัล</string>
+	<key>TREND_DISTANCE</key>
+	<string>ระยะทาง</string>
+	<key>WORKOUT_TIME_TITLE</key>
+	<string>เวลารวมทั้งหมด</string>
+	<key>SHARING_HIDING_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างพยายามซ่อนข้อมูลกิจกรรมของคุณเพื่อไม่ให้ %@ เห็น โปรดลองอีกครั้ง</string>
+	<key>HOURS_STOOD</key>
+	<string>ชั่วโมงที่ยืน</string>
+	<key>WORKOUT_DESCRIPTION</key>
+	<string>%3$@: %1$@ %2$@</string>
+	<key>WORKOUT_SHARING_%@</key>
+	<string>ฉันเพิ่งเสร็จ%@ด้วยแอพออกกำลังกายบน #AppleWatch ของฉัน</string>
+	<key>SHARING_INBOX_ACTIVE</key>
+	<string>กำลังแชร์กับ</string>
+	<key>SHARING_SHOWING_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างพยายามแสดงข้อมูลกิจกรรมของคุณให้ %@ โปรดลองอีกครั้ง</string>
+	<key>GO_FOR_IT</key>
+	<string>ออกไปลุย</string>
+	<key>TRENDS</key>
+	<string>แนวโน้ม</string>
+	<key>TREND_ALL_DOWN_SECTION_HEADER_WITH_NAME_%@</key>
+	<string>คุณต้องให้ความสนใจกับแนวโน้มของคุณ เน้นที่การปิดวงแหวนของคุณในแต่ละวันเพื่อให้ปิดวงแหวนได้ทัน คุณทำได้แน่นอน %@!</string>
+	<key>VO2MAX_BUCKET_POOR</key>
+	<string>แย่</string>
+	<key>SHARING_INVITE_ACCEPT</key>
+	<string>ตอบรับ</string>
+	<key>TREND_DETAIL_NO_DATA_WALK_PACE</key>
+	<string>ในการปลดล็อคแนวโน้มนี้ ให้เดินออกกำลังกายโดยเฉลี่ยอย่างน้อยหนึ่งครั้งต่อสัปดาห์เป็นเวลา 6 เดือน</string>
+	<key>TREND_DETAIL_NO_DATA_RUN_PACE</key>
+	<string>ในการปลดล็อคแนวโน้มนี้ ให้วิ่งออกกำลังกายโดยเฉลี่ยอย่างน้อยหนึ่งครั้งต่อสัปดาห์เป็นเวลา 6 เดือน</string>
+	<key>LIMITED_EDITION</key>
+	<string>คำท้าในวันสำคัญ</string>
+	<key>WORKOUT_SEGMENT_ENERGY_HEADER_%@</key>
+	<string>ที่เคลื่อนไหว
+(%@)</string>
+	<key>TREND_DETAIL_NO_DATA_VO2MAX</key>
+	<string>ในการปลดล็อคแนวโน้มนี้ คุณต้องใช้การอ่านค่า VO2 max อย่างน้อย 5 ครั้งภายใน 3 เดือนล่าสุดและการอ่าน 10 ครั้งภายใน 6 เดือนล่าสุด</string>
+	<key>ACHIEVEMENTS</key>
+	<string>ผลสำเร็จ</string>
+	<key>WORKOUT_SWIM_TIME_TITLE</key>
+	<string>ว่ายน้ำ</string>
+	<key>TOTAL_ENERGY_FORMAT_%@_%@</key>
+	<string>รวมทั้งหมด %1$@ %2$@</string>
+	<key>SHARE_INVITE_TO</key>
+	<string>ถึง:</string>
+	<key>SPLASH_MSG</key>
+	<string>แอพกิจกรรมใช้งานกับ Apple Watch เพื่อติดตามประวัติการทำกิจกรรมและการออกกำลังกายของคุณ ในการเริ่มใช้แอพบน iPhone ของคุณ โปรดตั้งค่าแอพกิจกรรมบน Apple Watch ของคุณก่อน</string>
+	<key>TREND_EXPLANATION_WHEELCHAIR_RUNNING_PACE_IMPERIAL</key>
+	<string>เวลาเฉลี่ยต่อระยะทางวิ่งวีลแชร์คือเวลาเฉลี่ยที่คุณใช้ในการผลักล้อหนึ่งไมล์ในระหว่างการวิ่งวีลแชร์ออกกำลังกายกลางแจ้งตามเวลาเฉลี่ยต่อระยะทาง เมื่อคุณวิ่งวีลแชร์เร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>WORKOUT_FILTER_SHORT_TITLE_HKWorkoutActivityTypeHighIntensityIntervalTraining</key>
+	<string>HIIT</string>
+	<key>TOTAL_ENERGY_KCAL</key>
+	<string>กิโลแคลอรีทั้งหมด</string>
+	<key>WORKOUT_ACTIVE_ENERGY_KJ</key>
+	<string>กิโลจูลที่เคลื่อนไหว</string>
+	<key>TRENDS_ONBOARDING_TITLE</key>
+	<string>แนวโน้มกิจกรรม</string>
+	<key>COMPETITION_SEND_ACTION_TITLE</key>
+	<string>แข่งขันกับ %@</string>
+	<key>WORKOUT_MONTH_SUMMARY_WORKOUTS_RUNS</key>
+	<string>การวิ่ง</string>
+	<key>TRENDS_ONBOARDING_DETAIL_TEXT</key>
+	<string>การปิดวงแหวนของคุณทุกวันเป็นวิธีการที่ยอดเยี่ยมที่จะทำให้มีความกระตือรือร้นอยู่เสมอ ลูกศรแนวโน้มช่วยให้คุณมีแรงจูงใจอยู่เสมอโดยการแสดงรายละเอียดเพิ่มเติม
+ถ้าคุณจะย้ายจำนวนเงินเดียวกันหรือมากกว่านั้นในช่วง 90 วันที่ผ่านมาเมื่อเทียบกับ 365 วันที่ผ่านมา ลูกศรการเคลื่อนไหวของคุณจะชี้ขึ้น ถ้าคุณยืนขึ้นน้อยลง ลูกศรการยืนของคุณจะชี้ลง การปิดวงแหวนและการติดตามลูกศรของคุณอยู่เสมอจะช่วยให้คุณแอ็คทีฟและกระตือรือร้นตลอดเวลา!</string>
+	<key>TREND_NO_DATA_WALK_PACE</key>
+	<string>วัดว่าคุณเคลื่อนไหวได้เร็วเท่าใดในการเดินออกกำลังกายของคุณ</string>
+	<key>SHARING_SETUP_CLOUDKIT_BUTTON_TITLE</key>
+	<string>ลงชื่อเข้า</string>
+	<key>SHARING_INBOX_HIDING</key>
+	<string>คุณกำลังซ่อนข้อมูลกิจกรรมของคุณอยู่ในตอนนี้เพื่อไม่ให้ผู้คนเหล่านี้เห็น</string>
+	<key>SHARING_SETUP_UPGRADE_WATCH_BUTTON_TITLE</key>
+	<string>อัพเดทตอนนี้</string>
+	<key>WATCH_URL</key>
+	<string>http://www.apple.com/th/watch/features</string>
+	<key>CALORIE_GOAL_SIDEBAR_FORMAT</key>
+	<string>%@ %@</string>
+	<key>TREND_NO_DATA_FLIGHTS</key>
+	<string>แสดงจำนวนชั้นของบันไดที่คุณขึ้นในแต่ละวัน</string>
+	<key>TIME_FORMAT_%@_%@00</key>
+	<string>%1$@%2$@00</string>
+	<key>DELETE_WORKOUT_ALERT_WORKOUT_ONLY</key>
+	<string>ลบเฉพาะการออกกำลังกาย</string>
+	<key>WORKOUT_LAPS_TITLE</key>
+	<string>รอบ</string>
+	<key>IDLE_HOURS</key>
+	<string>ชั่วโมงที่อยู่นิ่ง</string>
+	<key>COMPETITION_SEND_UPGRADE_WATCH</key>
+	<string>อัพเดท Apple Watch ของคุณเป็น watchOS เวอร์ชั่นล่าสุดหากคุณต้องการที่จะแข่งขันกับเพื่อน</string>
+	<key>COMPETITION_ACCEPT_ACTION_TITLE</key>
+	<string>ตอบรับคำเชิญการแข่งขัน</string>
+	<key>TREND_ALL_UP_SECTION_HEADER_WITH_NAME_%@</key>
+	<string>แนวโน้มทั้งหมดของคุณดูดีใช้ได้เลย %@ ไม่น่าเชื่อเลย! อย่าปล่อยให้พลาดนะ</string>
+	<key>WORKOUT_DISTANCE_TITLE</key>
+	<string>ระยะทาง</string>
+	<key>TREND_NO_DATA_MOVE</key>
+	<string>นี่จะวัดพลังงานที่เคลื่อนไหวซึ่งคุณเผาผลาญโดยการเคลื่อนไหว</string>
+	<key>FLIGHTS_ADDENDUM_WATCHES_NOT_SUPPORTED</key>
+	<string> จำนวนชั้นสามารถติดตามได้โดยใช้ Apple Watch Series 3 ขึ้นไปเท่านั้น</string>
+	<key>COMPETITION_IGNORE_ERROR_MESSAGE</key>
+	<string>เกิดข้อผิดพลาดในระหว่างที่ไม่ได้ตอบคำเชิญการแข่งขัน โปรดลองอีกครั้ง</string>
+	<key>TREND_DATE_RANGE_%@ – %@</key>
+	<string>%@ – %@</string>
+	<key>WORKOUT_SPLITS_HEADER_TITLE</key>
+	<string>แยก</string>
+	<key>DELETE_WORKOUT_ALERT_DESCRIPTION</key>
+	<string>คุณต้องการลบข้อมูลสุขภาพที่บันทึกด้วยการออกกำลังกายนี้หรือไม่ การลบข้อมูลนี้จะมีผลกับวงแหวนกิจกรรมของคุณ แต่จะไม่มีผลกับผลสำเร็จต่างๆ ที่คุณได้รับ</string>
+	<key>COMPETITION_ACCEPT_UNHIDE_MESSAGE</key>
+	<string>คุณซ่อนกิจกรรมของคุณอยู่ในตอนนี้เพื่อไม่ให้ %@ เห็น ในการตอบรับคำเชิญและเข้าร่วมแข่งขัน คุณจะต้องหยุดซ่อนข้อมูลของคุณ</string>
+	<key>TRENDS_ONBOARDING_OKAY_BUTTON</key>
+	<string>ตกลง</string>
+	<key>WORKOUT_FILTER_CANCEL</key>
+	<string>ยกเลิก</string>
+	<key>VO2MAX_BUCKET_EXCELLENT</key>
+	<string>เยี่ยม</string>
+	<key>ACTIVE_ENERGY_KJ</key>
+	<string>กิโลจูลที่เคลื่อนไหว</string>
+	<key>WORKOUT_FILTER_OUTDOOR_CYCLE_DESCRIPTION</key>
+	<string>ปั่นจักรยานกลางแจ้ง</string>
+	<key>SHARING_SETUP_TITLE</key>
+	<string>แชร์กิจกรรม</string>
+	<key>TRENDS_SUBTITLE_%@</key>
+	<string>%@ วัน</string>
+	<key>WORKOUTS</key>
+	<string>การออกกำลังกาย</string>
+	<key>COMPETITION_INBOX_INCOMING_HEADER</key>
+	<string>คำเชิญการแข่งขันที่รอดำเนินการ</string>
+	<key>WORKOUT_REST_TIME_TITLE</key>
+	<string>พัก</string>
+	<key>WEATHER</key>
+	<string>สภาพอากาศ</string>
+	<key>WORKOUT_SEGMENT_DISTANCE_HEADER_%@</key>
+	<string>ระยะทาง
+(%@)</string>
+	<key>TREND_DOWN_SECTION_HEADER</key>
+	<string>คุ้มค่าน่าดู</string>
+	<key>TREND_DATE_%@_AVG</key>
+	<string>%@ โดยเฉลี่ย</string>
+	<key>TRENDS_HEADER_AWAITING_DATA</key>
+	<string>จะใช้เวลาทำกิจกรรม 180 วันในการเริ่มต้นแนวโน้มของคุณ สวมนาฬิกาของคุณไว้ ปิดวงแหวนของคุณและออกกำลังกายอยู่เสมอ เมื่อมีข้อมูลเพียงพอ คุณจะได้รับการแจ้งเตือนว่าแนวโน้มของคุณพร้อมแล้ว</string>
+	<key>WORKOUT_SHARE_PREVIEW_ITEM_TITLE</key>
+	<string>แชร์</string>
+	<key>VO2MAX_BUCKET_GOOD</key>
+	<string>ดี</string>
+	<key>TOTAL_ACTIVE_TIME</key>
+	<string>เวลาที่เคลื่อนไหวโดยรวม</string>
+	<key>MULTIPLE_DEVICES_SHARING_TODAY</key>
+	<string>คุณอาจแชร์กิจกรรมจากอุปกรณ์เครื่องอื่นที่ลงชื่อเข้าบัญชี iCloud ของคุณได้ด้วย</string>
+	<key>WORKOUT</key>
+	<string>การออกกำลังกาย</string>
+	<key>COMPETITION_TOTAL_WINS_HEADER_ACTIVE</key>
+	<string>ชนะทั้งหมด</string>
+	<key>FLIGHTS_SINGULAR</key>
+	<string>ชั้น</string>
+	<key>WORKOUT_ELEVATION_TITLE</key>
+	<string>ระดับความสูงที่ได้</string>
+	<key>STAND_WHEELCHAIR</key>
+	<string>การหมุนล้อ</string>
+	<key>WORKOUT_HEART_RATE_TITLE</key>
+	<string>หัวใจเต้นเฉลี่ย</string>
+	<key>WORKOUT_MONTH_HEADER_AVERAGE</key>
+	<string>เฉลี่ย</string>
+	<key>SHARE_ACTIVITY</key>
+	<string>แชร์กิจกรรม</string>
+	<key>WORKOUT_MONTH_SUMMARY_DISTANCE_TITLE</key>
+	<string>ระยะทาง</string>
+	<key>ACTIVE_ENERGY_KCAL</key>
+	<string>กิโลแคลอรีที่เคลื่อนไหว</string>
+	<key>TRENDS_DAILY_AVERAGES_TITLE</key>
+	<string>เฉลี่ยประจำวัน</string>
+	<key>WORKOUT_SEGMENT_PACE_HEADER_%@</key>
+	<string>เวลาเฉลี่ยโดยรวม
+(/%@)</string>
+	<key>SHARING_INBOX_WAITING</key>
+	<string>เชิญแล้ว</string>
+	<key>TREND_VO2MAX_UNIT</key>
+	<string>VO2MAX</string>
+	<key>MINUTES_ZERO</key>
+	<string>นาที</string>
+	<key>FITNESS_CENT_YARD_METER_UNIT_FORMAT_%@</key>
+	<string>/100%@</string>
+	<key>SHARING_SETUP_CLOUDKIT_DESCRIPTION_RESTRICTED_NO_USERNAME</key>
+	<string>บัญชี iCloud ของคุณไม่รองรับการแชร์กิจกรรม</string>
+	<key>VO2MAX_GENDER_FEMALE</key>
+	<string>หญิง</string>
+	<key>WORKOUT_DESCRIPTION_OUTDOOR_CYCLE</key>
+	<string>ปั่นจักรยานกลางแจ้ง</string>
+	<key>AVG_HEART_RATE</key>
+	<string>อัตราการเต้นของหัวใจโดยเฉลี่ย</string>
+	<key>TREND_UNIT_%@_PER_DAY</key>
+	<string>%@/วัน</string>
+	<key>VO2MAX_BUCKET_SUPERIOR</key>
+	<string>ผู้อาวุโส</string>
+	<key>SHARING_SETUP_PRIMARY_DESCRIPTION</key>
+	<string>เชิญเพื่อนๆ มาออกกำลังกายแข่งกันและเป็นกำลังใจให้กันและกัน แชร์การออกกำลังกาย รับการแจ้งเตือนความคืบหน้า และส่งข้อความได้เลยจากแอพกิจกรรม</string>
+	<key>TREND_EXPLANATION_MOVE_IMPERIAL</key>
+	<string>การเคลื่อนไหวคือปริมาณแคลอรีที่คุณเผาผลาญโดยการเคลื่อนไหว ซึ่งจะอธิบายถึงทุกกิจกรรมตั้งแต่กิจกรรมงานบ้านแบบเบาๆ และการเดินเล่นไปจนถึงการปั่นจักรยานหรือการออกกำลังกายที่ยิม</string>
+	<key>NOON</key>
+	<string>เที่ยง</string>
+	<key>COMPETITION_SEND_CONFIRMATION_HIDING</key>
+	<string>คุณซ่อนกิจกรรมของคุณอยู่เพื่อไม่ให้ %@ เห็น ในการท้า %@ ให้เข้าร่วมแข่งขัน คุณจะต้องหยุดซ่อนข้อมูลของคุณ</string>
+	<key>WORKOUT_SEGMENT_PACE_HEADER_PER_HUNDRED_%@</key>
+	<string>เวลาเฉลี่ยโดยรวม
+(/100%@)</string>
+	<key>TREND_WORKOUT_RUN_SPEED_WHEELCHAIR</key>
+	<string>เวลาเฉลี่ยต่อระยะทางวิ่งวีลแชร์</string>
+	<key>FITNESS_PACE_UNIT_FORMAT_%@</key>
+	<string>/%@</string>
+	<key>DISTANCE</key>
+	<string>ระยะทางทั้งหมด</string>
+	<key>SHARING_INBOX_HIDDEN</key>
+	<string>ผู้คนเหล่านี้ซ่อนข้อมูลกิจกรรมของพวกเขาอยู่ในตอนนี้เพื่อไม่ให้คุณเห็น</string>
+	<key>SHARING_NO_SUGGESTED</key>
+	<string>ไม่มีคำแนะนำ</string>
+	<key>TREND_EXPLANATION_MOVE_IMPERIAL_WHEELCHAIR</key>
+	<string>การเคลื่อนไหวคือปริมาณแคลอรีที่คุณเผาผลาญโดยการเคลื่อนไหว ซึ่งจะอธิบายถึงทุกกิจกรรมตั้งแต่กิจกรรมงานบ้านแบบเบาๆ และการผลักล้อรถวีลแชร์ไปจนถึงการออกกำลังกายที่ยิม</string>
+	<key>SPLITS</key>
+	<string>แยก</string>
+	<key>STAND</key>
+	<string>ยืน</string>
+	<key>UNINSTALL_ICON_TITLE_NOT_ALLOWED</key>
+	<string>เอา “กิจกรรม” ออกหรือไม่</string>
+	<key>TREND_ALL_UP_SECTION_HEADER</key>
+	<string>แนวโน้มทั้งหมดของคุณดูดีใช้ได้เลย ไม่น่าเชื่อเลย! อย่าปล่อยให้พลาดนะ</string>
+	<key>TREND_EXPLANATION_MOVE_METRIC</key>
+	<string>การเคลื่อนไหวคือปริมาณพลังงานที่เคลื่อนไหวที่คุณเผาผลาญโดยการเคลื่อนไหว ซึ่งจะอธิบายถึงทุกกิจกรรมตั้งแต่กิจกรรมงานบ้านแบบเบาๆ และการเดินเล่นไปจนถึงการปั่นจักรยานหรือการออกกำลังกายที่ยิม</string>
+	<key>WORKOUT_TOTAL_ENERGY_TITLE_KCAL</key>
+	<string>กิโลแคลอรีทั้งหมด</string>
+	<key>TREND_NO_DATA_EXERCISE_WHEELCHAIR</key>
+	<string>ทำจำนวนนาทีในการออกกำลังกายด้วยกิจกรรมใดๆ ที่เป็นมากกว่าการหมุนล้อเลื่อนรถอย่างเร็ว</string>
+	<key>TREND_DETAIL_NO_DATA_DISTANCE</key>
+	<string>สวม Apple Watch ของคุณอย่างน้อย 5 วันต่อสัปดาห์ แล้วคุณจะปลดล็อคแนวโน้มระยะทางได้เมื่อคุณมีข้อมูลถึง 6 เดือน</string>
+	<key>MINUTE_ZERO</key>
+	<string>นาที</string>
+	<key>HOURS_ONE</key>
+	<string>ชั่วโมง</string>
+	<key>TREND_EXPLANATION_STAND_MINUTES</key>
+	<string>นาทีในการยืนคือจำนวนนาทีโดยเฉลี่ยที่คุณยืนและเคลื่อนไหวในแต่ละชั่วโมง</string>
+	<key>TREND_FLIGHTS_UNIT_LONG</key>
+	<string>ชั้น</string>
+	<key>WORKOUT_PACE_TITLE</key>
+	<string>เวลาเฉลี่ยโดยรวม</string>
+	<key>WORKOUT_SEGMENT_SPEED_HEADER_%@</key>
+	<string>ความเร็วเฉลี่ย
+(%@)</string>
+	<key>TREND_NO_DATA_VO2MAX</key>
+	<string>นี่จะประมาณฟิตเนสโดยรวมของคุณเป็นค่า VO2 max ซึ่งจะวัดระหว่างการเดินและวิ่งออกกำลังกายของคุณ</string>
+	<key>HOURS_OTHER</key>
+	<string>ชั่วโมง</string>
+	<key>DISTANCE_LABEL</key>
+	<string>ระยะทาง</string>
+	<key>TREND_WORKOUT_WALK_SPEED_WHEELCHAIR</key>
+	<string>เวลาเฉลี่ยต่อระยะทางเดินวีลแชร์</string>
+	<key>MINUTES_ONE</key>
+	<string>นาที</string>
+	<key>FLIGHTS_PLURAL</key>
+	<string>ชั้น</string>
+	<key>RESTORING_FROM_ICLOUD</key>
+	<string>กำลังกู้คืนข้อมูลกิจกรรมจาก iCloud…</string>
+	<key>TREND_NO_DATA_ROLL</key>
+	<string>ทำจำนวนชั่วโมงการหมุนล้อโดยการผลักล้อเคลื่อนที่ให้ได้อย่างน้อยหนึ่งนาทีต่อชั่วโมง</string>
+	<key>SHARING_SETUP_UPGRADE_WATCH_DESCRIPTION</key>
+	<string>การแชร์ความก้าวหน้าของกิจกรรมต้องใช้กับ Apple Watch ที่คุณจับคู่และเป็นเวอร์ชั่นล่าสุดของ watchOS</string>
+	<key>MINUTE_ONE</key>
+	<string>นาที</string>
+	<key>TREND_STAND_PLUS_UNIT_LONG</key>
+	<string>นาทีต่อชั่วโมง</string>
+	<key>TOTAL_TIME</key>
+	<string>เวลารวมทั้งหมด</string>
+	<key>SHARING_CANNOT_INVITE_MESSAGE</key>
+	<string>ไม่สามารถส่งคำเชิญได้ คุณสามารถแชร์กิจกรรมกับผู้คนที่มี Apple Watch ได้เท่านั้น</string>
+	<key>WORKOUT_FILTER</key>
+	<string>ฟิลเตอร์</string>
+	<key>IDLE_HOURS_EMPTY</key>
+	<string>—— ชั่วโมงที่อยู่นิ่ง</string>
+	<key>TREND_RING_CLOSURE_UNIT_WITH_%@_PERCENTAGE</key>
+	<string> วัน (%@)</string>
+	<key>VO2MAX_BUCKET_FAIR</key>
+	<string>พอใช้</string>
+	<key>WORKOUT_ACTIVE_ENERGY_TITLE_KJ</key>
+	<string>กิโลจูลที่เคลื่อนไหว</string>
+	<key>TREND_STAND</key>
+	<string>ยืน</string>
+	<key>ORB_WORKOUTS_ACTION</key>
+	<string>การออกกำลังกาย</string>
+	<key>TOTAL</key>
+	<string>รวมทั้งหมด</string>
+	<key>SHARING_UNMUTING_ERROR_%@</key>
+	<string>เกิดข้อผิดพลาดในระหว่างพยายามเปิดการแจ้งเตือนจาก %@ โปรดลองอีกครั้ง</string>
+	<key>TREND_FLIGHTS_UNIT</key>
+	<string>ชั้น</string>
+	<key>VO2MAX_RANGE_%@_%@</key>
+	<string>%1$@ - %2$@</string>
+	<key>WORKOUT_DESCRIPTION_INDOOR</key>
+	<string>%1$@ %2$@ %3$@ในร่ม</string>
+	<key>TREND_INVALID_CELL_VALUE</key>
+	<string>-/-</string>
+	<key>WORKOUT_AVERAGE_POWER_TITLE</key>
+	<string>กำลังเฉลี่ย</string>
+	<key>WORKOUT_SEGMENT_TIME_HEADER</key>
+	<string>เวลาผ่านไป</string>
+	<key>TREND_UNIT_%@_APPENDING_DIFFERENCE_VALUE_%@</key>
+	<string>%@ (-%@)</string>
+	<key>DELETE_WORKOUT</key>
+	<string>ลบ</string>
+	<key>WORKOUT_DESCRIPTION_INDOOR_CYCLE</key>
+	<string>ปั่นจักรยานในร่ม</string>
+	<key>PACE_FORMAT_%@_%@</key>
+	<string>%1$@'%2$@''</string>
+	<key>TREND_UP_SECTION_HEADER</key>
+	<string>ทำต่อไปอีก</string>
+	<key>TRENDS_TRENDING_DOWN</key>
+	<string>แนวโน้มลดลง</string>
+	<key>SWIMMING_SPLITS_HEADER_UNIT_FORMAT_%@_%@</key>
+	<string>/%1$@ %2$@</string>
+	<key>PACE_SECTION_YARD_METER_ORDER</key>
+	<string>%1$@00%2$@</string>
+	<key>RECENT</key>
+	<string>ล่าสุด</string>
+	<key>TODAY</key>
+	<string>วันนี้</string>
+	<key>SHARING_MUTING_ERROR_%@</key>
+	<string>เกิดข้อผิดพลาดในระหว่างพยายามปิดการแจ้งเตือนจาก %@ โปรดลองอีกครั้ง</string>
+	<key>TREND_INVALID_SECTION_HEADER</key>
+	<string>ต้องใช้ข้อมูลเพิ่มเติม</string>
+	<key>FRIEND_DETAIL_ACTIVITY_HEADER</key>
+	<string>กิจกรรม</string>
+	<key>SHARING_LIST_EMPTY</key>
+	<string>แตะปุ่ม + เพื่อเชิญผู้คนให้แชร์กิจกรรมกับคุณ</string>
+	<key>DELETE_WORKOUT_ALERT_CANCEL</key>
+	<string>ยกเลิก</string>
+	<key>WORKOUT_AUTO_SETS_TITLE</key>
+	<string>ตั้งค่าอัตโนมัติ</string>
+	<key>WORKOUT_MONTH_SUMMARY_WORKOUTS_TITLE</key>
+	<string>การออกกำลังกาย</string>
+	<key>SHARING_INVITE_WITHDRAW_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างเอาคำเชิญที่ส่งแล้วออก โปรดลองอีกครั้ง </string>
+	<key>TRENDS_HEADER_TITLE_AWAITING_DATA</key>
+	<string>เคลื่อนไหวต่อไปอีก</string>
+	<key>PACE_SECTION_SWIM_ORDER</key>
+	<string>%1$@%2$@</string>
+	<key>TREND_NO_DATA_RUN_PACE</key>
+	<string>วัดว่าคุณเคลื่อนไหวได้เร็วเท่าใดในการวิ่งออกกำลังกายของคุณ</string>
+	<key>WORKOUT_COMPLETION_FORMAT_%@</key>
+	<string>สำเร็จ %@</string>
+	<key>FITNESS_UNIT_FORMAT_WITH_SPACE</key>
+	<string>%1$@ %2$@</string>
+	<key>WORKOUT_HEART_RATE_RECOVERY_PAGE_TITLE</key>
+	<string>อัตราการฟื้นฟูการเต้นของหัวใจ</string>
+	<key>RESTING</key>
+	<string>ขณะพัก</string>
+	<key>ALL_WORKOUTS</key>
+	<string>การออกกำลังกายทั้งหมด</string>
+	<key>TREND_NO_DATA_WALK_PACE_WHEELCHAIR</key>
+	<string>วัดว่าคุณผลักล้อได้เร็วเท่าใดในการออกกำลังกายสำหรับเวลาเฉลี่ยต่อระยะทางเดินของคุณ</string>
+	<key>TREND_STAND_WHEELCHAIR</key>
+	<string>การหมุนล้อ</string>
+	<key>TREND_EXPLANATION_MOVE_METRIC_WHEELCHAIR</key>
+	<string>การเคลื่อนไหวคือปริมาณพลังงานที่เคลื่อนไหวที่คุณเผาผลาญโดยการเคลื่อนไหว ซึ่งจะอธิบายถึงทุกกิจกรรมตั้งแต่กิจกรรมงานบ้านแบบเบาๆ และการผลักล้อรถวีลแชร์ไปจนถึงการออกกำลังกายที่ยิม</string>
+	<key>TREND_PACE_AND_SPEED_FORMAT_%@_%@</key>
+	<string>%@ (%@)</string>
+	<key>VO2MAX_TITLE_SEX_AGE_RANGE_%@_%@_%@</key>
+	<string>VO2 Max %1$@ %2$@–%3$@</string>
+	<key>SHARING_INVITE_ACCEPT_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างตอบรับคำเชิญ โปรดลองอีกครั้ง</string>
+	<key>WORKOUT_ACTIVE_ENERGY_TITLE_KCAL</key>
+	<string>กิโลแคลอรีที่เคลื่อนไหว</string>
+	<key>WORKOUT_SPEED_TITLE</key>
+	<string>ความเร็วเฉลี่ย</string>
+	<key>WORKOUT_SEGMENT_HEADER_TITLE</key>
+	<string>ส่วน</string>
+	<key>new_goal</key>
+	<string>เป้าหมายการเคลื่อนไหวต่อวัน</string>
+	<key>SHARING_LIST_EMPTY_TITLE</key>
+	<string>การแชร์กิจกรรม</string>
+	<key>DELETE_WORKOUT_ALERT_TITLE</key>
+	<string>ลบข้อมูลการออกกำลังกาย</string>
+	<key>TREND_UNIT_%@_AVG</key>
+	<string>%@ เฉลี่ย</string>
+	<key>UNINSTALL_ICON_BODY_REMOVE_DATA</key>
+	<string>การเอาแอพนี้ออกจากหน้าจอโฮมของคุณจะลบข้อมูลผลสำเร็จของกิจกรรมของคุณด้วย</string>
+	<key>BRISK_MINUTES</key>
+	<string>นาทีในการออกกำลังกาย</string>
+	<key>WORKOUT_MONTH_SUMMARY_WORKOUTS_HIKES</key>
+	<string>เดินเขา</string>
+	<key>RING_SHARING_%@</key>
+	<string>ลองเช็คดูวงแหวนกิจกรรมของฉันจาก %@ บน #AppleWatch ของฉัน</string>
+	<key>TREND_NO_DATA_ROLL_PLUS</key>
+	<string>นี่คือจำนวนนาทีโดยเฉลี่ยที่คุณผลักล้อเคลื่อนที่ในหนึ่งชั่วโมง</string>
+	<key>TREND_DETAIL_NO_DATA_RUN_PACE_WHEELCHAIR</key>
+	<string>ในการปลดล็อคแนวโน้มนี้ ให้ออกกำลังกายสำหรับเวลาเฉลี่ยต่อระยะทางวิ่งอย่างน้อยหนึ่งครั้งต่อสัปดาห์เป็นเวลา 6 เดือน</string>
+	<key>WORKOUT_ROUTE_TITLE</key>
+	<string>แผนที่</string>
+	<key>TREND_NO_DATA_RUN_PACE_WHEELCHAIR</key>
+	<string>วัดว่าคุณผลักล้อได้เร็วเท่าใดในการออกกำลังกายสำหรับเวลาเฉลี่ยต่อระยะทางวิ่งของคุณ</string>
+	<key>PACE_SECTION_ORDER</key>
+	<string>%1$@ที่ %2$@</string>
+	<key>MINUTE_OTHER</key>
+	<string>นาที</string>
+	<key>WORKOUT_EMPTY_STATE_TITLE</key>
+	<string>การออกกำลังกาย</string>
+	<key>TREND_EXERCISE</key>
+	<string>ออกกำลังกาย</string>
+	<key>SHARING_SETUP_TERMS_AND_CONDITIONS_LINK</key>
+	<string>เกี่ยวกับการแชร์กิจกรรม</string>
+	<key>TREND_VO2MAX</key>
+	<string>ฟิตเนสแบบคาร์ดิโอ</string>
+	<key>SHARING_UPGRADE_CURRENT_WATCH</key>
+	<string>คุณไม่ได้แชร์กิจกรรมจาก Apple Watch ที่จับคู่ด้วยในตอนนี้ การแชร์ความก้าวหน้าของกิจกรรมต้องใช้กับ Apple Watch ที่คุณจับคู่และติดตั้ง watchOS เวอร์ชั่นล่าสุด</string>
+	<key>TREND_EXPLANATION_VO2MAX</key>
+	<string>ฟิตเนสแบบคาร์ดิโอคือค่าคาดการณ์ VO2 สูงสุด ซึ่งเป็นค่าปริมาณออกซิเจนสูงสุดที่ร่างกายของคุณสามารถใช้ได้ในระหว่างการออกกำลังกาย ฟิตเนสประเภทนี้จะวัดจากการเดิน การวิ่ง หรือการเดินเขาออกกำลังกายเป็นเวลาอย่างน้อย 20 นาทีโดยที่มีการอ่านอัตราการเต้นของหัวใจอย่างต่อเนื่อง การวัดค่า VO2 สูงสุดใช้ได้กับผู้ที่มีอายุมากกว่า 20 ปีขึ้นไป</string>
+	<key>SHARING_SETUP_FULL_DISCLAIMER</key>
+	<string>ข้อมูลการออกกำลังกายและกิจกรรมที่แชร์กับเพื่อนๆ อาจจะประกอบด้วย สถานะของวงแหวนการเคลื่อนไหว จำนวนนาทีของการออกกำลังกาย จำนวนชั่วโมงของการยืน ข้อมูลโซนเวลา (เพื่อให้เพื่อนๆ ของคุณรู้ว่า คุณเริ่มเมื่อไรของวันนั้น) และ ข้อมูลเกี่ยวกับการออกกำลังกาย เช่น ประเภทและระยะเวลาของการออกกำลังกาย อีเมลที่ผูกกับบัญชี iCloud ของคุณจะแสดงให้ทุกคนที่คุณเชิญหรือตอบรับคำเชิญเห็น ถ้าคุณใช้คุณสมบัตินี้ ข้อมูลกิจกรรมจะถูกส่งไปที่ Apple เพื่อที่ Apple จะสามารถแชร์ข้อมูลนี้ได้อย่างปลอดภัยกับผู้คนที่คุณเลือก Apple จะเก็บข้อมูลกิจกรรมของคุณในช่วงเวลาสั้นๆ และใช้ข้อมูลนี้เพื่อเปิดใช้งานคุณสมบัติการแชร์นี้เท่านั้น รายชื่อเพื่อนที่แชร์กิจกรรมกับคุณจะถูกผูกกับบัญชี iCloud ของคุณและจะถูกกู้คืนให้กับอุปกรณ์ iOS เครื่องอื่นๆ ที่คุณลงชื่อเข้าโดยใช้บัญชี iCloud นี้</string>
+	<key>ORB_SHARING_ACTION</key>
+	<string>การแชร์</string>
+	<key>RESTING_TITLE</key>
+	<string>ขณะพัก</string>
+	<key>MAP</key>
+	<string>แผนที่</string>
+	<key>TREND_EXPLANATION_WALKING_PACE_IMPERIAL</key>
+	<string>เวลาเฉลี่ยต่อระยะทางเดินคือระยะเวลาที่คุณใช้ในการเดินหนึ่งไมล์ในระหว่างการเดินออกกำลังกาย เมื่อคุณเดินเร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>SORT</key>
+	<string>เรียง</string>
+	<key>TREND_EXPLANATION_WALKING_PACE_METRIC</key>
+	<string>เวลาเฉลี่ยต่อระยะทางเดินคือระยะเวลาที่คุณใช้ในการเดินหนึ่งกิโลเมตรในระหว่างการเดินออกกำลังกาย เมื่อคุณเดินเร็วขึ้น ความเร็วของคุณจะเพิ่มขึ้น แต่เวลาเฉลี่ยต่อระยะทางของคุณจะลดลง</string>
+	<key>WORKOUT_FLIGHTS_CLIMBED_TITLE</key>
+	<string>จำนวนชั้นที่ขึ้น</string>
+	<key>BPM_AVG</key>
+	<string>%@ BPM เฉลี่ย</string>
+	<key>COMPETITION_SCORE_HEADER</key>
+	<string>การแข่งขัน</string>
+	<key>WORKOUT_STROKE_COUNT_TITLE</key>
+	<string>อัตราการสโตรกเฉลี่ย</string>
+	<key>TREND_NO_VALUE_DASHES</key>
+	<string>——</string>
+	<key>PACE_LONG_UNIT_FORMAT_%@</key>
+	<string>เวลาเฉลี่ยต่อ%@</string>
+	<key>TREND_EXPLANATION_STAND</key>
+	<string>การยืนคือจำนวนชั่วโมงที่คุณยืนและเคลื่อนไหวเป็นเวลาอย่างน้อยหนึ่งนาทีในหนึ่งชั่วโมง</string>
+	<key>TRENDS_AXIS_LABEL_90_DAY</key>
+	<string>90 วัน</string>
+	<key>TREND_STAND_PLUS_UNIT</key>
+	<string>นาที/ชม.</string>
+	<key>HRS</key>
+	<string>ชม.</string>
+	<key>WORKOUT_HEART_RATE_RECOVERY_PAGE_RECOVERY</key>
+	<string>การฟื้นฟู</string>
+	<key>TREND_STAND_RINGS_CLOSED_WHEELCHAIR</key>
+	<string>ปิดวงแหวนการหมุนล้อแล้ว</string>
+	<key>TREND_EXPLANATION_FLIGHTS_IMPERIAL</key>
+	<string>หนึ่งชั้นมีค่าเท่ากับระดับความสูงประมาณ 10 ฟุตหรือบันได 16 ขั้น</string>
+	<key>ALL_DAY_ACTIVITY</key>
+	<string>กิจกรรมตลอดวัน</string>
+	<key>WORKOUT_ACTIVE_ENERGY_KCAL</key>
+	<string>กิโลแคลอรีที่เคลื่อนไหว</string>
+	<key>SHARING_INVITE_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างส่งคำเชิญการแชร์กิจกรรมของคุณ โปรดลองส่งอีกครั้ง</string>
+	<key>WORKOUT_FILTER_INDOOR_CYCLE_DESCRIPTION</key>
+	<string>ปั่นจักรยานในร่ม</string>
+	<key>AVERAGE_SPEED</key>
+	<string>ความเร็วเฉลี่ย</string>
+	<key>SHARING_REMOVE_ERROR</key>
+	<string>เกิดข้อผิดพลาดในระหว่างเอา %@ ออก โปรดลองอีกครั้ง</string>
+	<key>WORKOUTS_FILTER</key>
+	<string>ฟิลเตอร์</string>
+	<key>ACTIVITY</key>
+	<string>ปิดวงแหวนของคุณ</string>
+	<key>SHARING</key>
+	<string>การแชร์</string>
+	<key>TOTAL_ENERGY_KJ</key>
+	<string>กิโลจูลทั้งหมด</string>
+	<key>SHARING_INVITE_DECLINE</key>
+	<string>ปฏิเสธ</string>
+	<key>WORKOUT_MONTH_SUMMARY_AVG_SPEED_TITLE</key>
+	<string>ความเร็ว</string>
+	<key>SHARING_SETUP_FULL_DISCLAIMER_WHEELCHAIR</key>
+	<string>ข้อมูลการออกกำลังกายและกิจกรรมที่แชร์กับเพื่อนๆ อาจจะประกอบด้วย สถานะของวงแหวนการเคลื่อนไหว จำนวนนาทีของการออกกำลังกาย จำนวนชั่วโมงของการหมุนล้อ ข้อมูลโซนเวลา (เพื่อให้เพื่อนๆ ของคุณรู้ว่า คุณเริ่มเมื่อไรของวันนั้น) และ ข้อมูลเกี่ยวกับการออกกำลังกาย เช่น ประเภทและระยะเวลาของการออกกำลังกาย อีเมลที่ผูกกับบัญชี iCloud ของคุณจะแสดงให้ทุกคนที่คุณเชิญหรือตอบรับคำเชิญเห็น ถ้าคุณใช้คุณสมบัตินี้ ข้อมูลกิจกรรมจะถูกส่งไปที่ Apple เพื่อที่ Apple จะสามารถแชร์ข้อมูลนี้ได้อย่างปลอดภัยกับผู้คนที่คุณเลือก Apple จะเก็บข้อมูลกิจกรรมของคุณในช่วงเวลาสั้นๆ และใช้ข้อมูลนี้เพื่อเปิดใช้งานคุณสมบัติการแชร์นี้เท่านั้น รายชื่อเพื่อนที่แชร์กิจกรรมกับคุณจะถูกผูกกับบัญชี iCloud ของคุณและจะถูกกู้คืนให้กับอุปกรณ์ iOS เครื่องอื่นๆ ที่คุณลงชื่อเข้าโดยใช้บัญชี iCloud นี้</string>
+	<key>UNINSTALL_ICON_TITLE_REMOVE_WITH_NAME</key>
+	<string>เอา “กิจกรรม” ออกหรือไม่</string>
+	<key>TREND_FLIGHTS_CLIMBED</key>
+	<string>ชั้น</string>
+	<key>TREND_DETAIL_NO_DATA_RING_BASED</key>
+	<string>สวม Apple Watch ของคุณอย่างน้อย 5 วันต่อสัปดาห์ แล้วคุณจะปลดล็อคแนวโน้มนี้ได้เมื่อคุณมีข้อมูลถึง 6 เดือน </string>
+	<key>STEPS_LABEL_WHEELCHAIR</key>
+	<string>การผลักล้อ</string>
+	<key>TREND_ALL_DOWN_SECTION_HEADER</key>
+	<string>คุณต้องให้ความสนใจกับแนวโน้มของคุณ เน้นที่การปิดวงแหวนของคุณในแต่ละวันเพื่อให้ปิดวงแหวนได้ทัน คุณทำได้แน่นอน!</string>
+	<key>TREND_MOVE_RINGS_CLOSED</key>
+	<string>ปิดวงแหวนการเคลื่อนไหวแล้ว</string>
+	<key>TREND_EXERCISE_RINGS_CLOSED</key>
+	<string>ปิดวงแหวนการออกกำลังกายแล้ว</string>
+	<key>COMPETITION_INBOX_OUTGOING_HEADER</key>
+	<string>ส่งคำเชิญการแข่งขันแล้ว</string>
+	<key>HEART_RATE_NO_DATA_MODAL_BODY</key>
+	<string>มีการวัดอัตราการเต้นของหัวใจไม่เพียงพอที่จะสร้างแผนภูมิ ตรวจสอบให้แน่ใจว่า Apple Watch สามารถตรวจพบอัตราการเต้นของหัวใจของคุณได้ และแอพที่ใช้สำหรับการออกกำลังกายนี้สามารถเข้าถึงอัตราการเต้นของหัวใจของคุณได้ในการตั้งค่า Apple Watch หรือ iPhone</string>
+	<key>MONTHLY_CHALLENGES</key>
+	<string>คำท้าประจำเดือน</string>
+	<key>WORKOUT_STEP_COUNT_TITLE</key>
+	<string>จำนวนก้าว</string>
+	<key>DELETE_WORKOUT_ALERT_YES</key>
+	<string>ลบการออกกำลังกายและข้อมูล</string>
+	<key>TRENDS_AXIS_LABEL_365_DAY</key>
+	<string>365 วัน</string>
+	<key>TREND_MET_UNIT</key>
+	<string>MET</string>
+	<key>WORKOUT_HEART_RATE_PAGE_TITLE</key>
+	<string>อัตราการเต้นของหัวใจ</string>
+	<key>COMPETITIONS</key>
+	<string>การแข่งขัน</string>
+	<key>TRENDS_TITLE</key>
+	<string>แนวโน้ม</string>
+	<key>WORKOUT_MONTH_SUMMARY_AVG_PACE_TITLE</key>
+	<string>เวลาเฉลี่ยต่อระยะทาง</string>
+	<key>SUMMARY_PERCENT_COMPLETE</key>
+	<string>สำเร็จ %@</string>
+	<key>SHARING_INVITE_WITHDRAW</key>
+	<string>ลบ</string>
+	<key>TREND_NO_DATA_DISTANCE</key>
+	<string>วัดระยะทางทั้งหมดที่คุณเดินและวิ่งในแต่ละวัน</string>
+</dict>
+</plist>

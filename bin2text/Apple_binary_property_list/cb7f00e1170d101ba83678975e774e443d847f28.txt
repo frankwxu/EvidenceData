@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>BACKGROUND_APP_UPDATING_FOOTER</string>
+			<key>requiredWatchCapabilities</key>
+			<array>
+				<string>background-app-updating</string>
+			</array>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.apple.Carousel.DisableBackgroundAppUpdates</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.apple.Carousel</string>
+			<key>id</key>
+			<string>BACKGROUND_APP_UPDATING_CELL_ID</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>DisableBackgroundAppUpdates</string>
+			<key>label</key>
+			<string>BACKGROUND_APP_UPDATING_LABEL</string>
+			<key>negate</key>
+			<true/>
+			<key>notifyNano</key>
+			<true/>
+			<key>requiredWatchCapabilities</key>
+			<array>
+				<string>background-app-updating</string>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>BACKGROUND_APP_UPDATING_LABEL</string>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.apple.system.prefs</string>
+			<key>get</key>
+			<string>tritiumEnabled:</string>
+			<key>id</key>
+			<string>TRITIUM_ID</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>AOTEnabled</string>
+			<key>label</key>
+			<string>TRITIUM</string>
+			<key>notifyNano</key>
+			<true/>
+			<key>set</key>
+			<string>setTritiumEnabled:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>TRITIUM_PRIVACY_FOOTER</string>
+			<key>id</key>
+			<string>TRITIUM_PRIVACY_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.apple.system.prefs</string>
+			<key>get</key>
+			<string>tritiumPrivacyEnabled:</string>
+			<key>id</key>
+			<string>TRITIUM_PRIVACY_ID</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>AOTPrivacyEnabled</string>
+			<key>label</key>
+			<string>TRITIUM_PRIVACY</string>
+			<key>notifyNano</key>
+			<true/>
+			<key>set</key>
+			<string>setTritiumPrivacyEnabled:specifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>TRITIUM</string>
+</dict>
+</plist>

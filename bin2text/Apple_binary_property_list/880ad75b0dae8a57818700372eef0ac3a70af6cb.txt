@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>Ikke tilgængelig</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>Fortsæt udkast</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>Opdateret kl. %@</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>Ikke længere tilgængelig i Mail Drop fra den %@</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>Arkiver beskeder</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>Slet valgte beskeder</string>
+	<key>MAILBOXES</key>
+	<string>Postkasser</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>Forrige år</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string>, </string>
+	<key>AND_N_MORE</key>
+	<string> og %@ mere…</string>
+	<key>NO_INCLUDE</key>
+	<string>Inkluder ikke</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>Arkiver</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>Ny besked</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>Afsenderen krypterede beskeden.</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>Minimer udkast</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>Forrige udkast</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>Ingen beskeder matcher med filtrene</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>Postkasseplacering</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>Vælg alt</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>Postkassen kunne ikke oprettes på serveren.</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>Denne besked kan ikke vises, fordi der opstod et problem.</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>I går</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>Hent hele beskeden</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>Disse bilag er for store.</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>Kan ikke oprette postkasse</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>Beskederne kunne ikke flyttes til postkassen %@.</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>I går</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>Slet</string>
+	<key>FORWARD</key>
+	<string>Videresend</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>Rapporter problem</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>Marker og svar</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>Fjern blokering af denne kontakt</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>, %@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>Kun fra VIP</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>Denne besked er ikke hentet fra serveren.</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>Denne iPod mangler rettigheder til at oprette e-mailkonti.</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>Siri‑forslaget er ikke længere gyldigt.</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Marker (%@)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>Adgangskode</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>Du har ikke anført nogen modtagere.</string>
+	<key>BLOCK_CONTACT</key>
+	<string>Bloker denne kontakt</string>
+	<key>REVERTING_CHANGE</key>
+	<string>Fortryder sidste ændring…</string>
+	<key>MOVE_OTHER</key>
+	<string> Anden postkasse…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>Ulæst</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>Alle indbakker</string>
+	<key>MARK_BUTTON</key>
+	<string>Marker</string>
+	<key>BYTES_REMAINING</key>
+	<string>Hent resterende %@</string>
+	<key>DELETE_MAILBOX</key>
+	<string>Slet postkasse</string>
+	<key>TO_LABEL</key>
+	<string>TIL</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>Lagringsplads er næsten fuld</string>
+	<key>SAVE</key>
+	<string>Gem</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>I dag</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>Opret begivenhed</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>Søg i %@</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>Afsender indeholder: %@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>Afsenderadressen er ugyldig.</string>
+	<key>UNREAD_FORMAT</key>
+	<string>%lu ulæste</string>
+	<key>UNMUTE</key>
+	<string>Ignorer ikke tråd</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>Installer certifikat</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>Afmeld abonnement</string>
+	<key>ALL_DRAFTS</key>
+	<string>Alle udkast</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>Kontoen %@ bruges på en anden enhed.</string>
+	<key>INSTALL</key>
+	<string>Installer</string>
+	<key>DATE_HEADER</key>
+	<string>Dato:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>%1$@ (%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>%@ af %@ resultater</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>Opdateret i går</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>Ingen ulæste e-mails</string>
+	<key>NO_TO</key>
+	<string>Ingen modtager</string>
+	<key>SETTINGS</key>
+	<string>Indstillinger</string>
+	<key>CC</key>
+	<string>Cc:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>Grå</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>Postkasser</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>Kontobegrænsning</string>
+	<key>INBOXES</key>
+	<string>Indbakker</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>Ingen besked valgt</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>Henter bilag</string>
+	<key>ADD_VIP</key>
+	<string>Føj til VIP</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>Inkluder e-mail fra:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>Beskeder med bilag</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>Anden</string>
+	<key>SWIPE_MORE</key>
+	<string>Mere</string>
+	<key>BCC</key>
+	<string>Bcc:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>Administrer signeringscertifikatet til denne afsender.</string>
+	<key>HIDE_DETAILS</key>
+	<string>Skjul</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>Foregående uge</string>
+	<key>CC/BCC/FROM</key>
+	<string>Cc/bcc, fra:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>Fundet i %@-postkasse</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>Sidste uge</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>Kunne ikke bruge Handoff med aktiviteten</string>
+	<key>SIGNED</key>
+	<string>Signeret</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>Lige opdateret</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>Ulæste beskeder</string>
+	<key>TRASH_EMAIL</key>
+	<string>Slet besked</string>
+	<key>YES_INCLUDE</key>
+	<string>Inkluder</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>Ingen internetforbindelse.</string>
+	<key>VIP_ALERTS</key>
+	<string>VIP-advarsler</string>
+	<key>NO</key>
+	<string>Nej</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>Indbakker</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>i forgårs</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>Sæt flag ved</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>Denne iPhone mangler rettigheder til at oprette e-mailkonti.</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>VIP</string>
+	<key>DETAILS</key>
+	<string>Flere oplysninger</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>Ny godkendelse kræves</string>
+	<key>DONE</key>
+	<string>OK</string>
+	<key>DOWNLOAD</key>
+	<string>Hent</string>
+	<key>MOVE_MESSAGE</key>
+	<string>Flyt besked…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>Ulæst</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>Vis signeringscertifikat</string>
+	<key>DELETE_EMAIL</key>
+	<string>Slet besked</string>
+	<key>HEAL_MESSAGE</key>
+	<string>Mail kan forsøge at reparere disse indstillinger.</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>%@ af %@ result</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>Vis krypteringscertifikat</string>
+	<key>REMOVE_VIP</key>
+	<string>Fjern fra VIP</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>Forrige måned</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>Henter bilag</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>Flyt til mappen Reklame</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>Tryk på en postkasse for at flytte denne besked.</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>Kan ikke oprette forbindelse til serveren til udgående post til “%@” </string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>Mail kan ikke åbne siden, fordi adressen er ugyldig</string>
+	<key>SEARCHING</key>
+	<string>Søger</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>Sidste måned</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>Kan ikke flytte beskeder</string>
+	<key>MUTE</key>
+	<string>Ignorer tråd</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>Kan ikke hente bilag</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>Arkiver valgte beskeder</string>
+	<key>SEARCH_RESULTS</key>
+	<string>Søg</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>Bilag</string>
+	<key>SUBJECT</key>
+	<string>Emne:</string>
+	<key>SAVE_VIDEO</key>
+	<string>Gem video</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>Bilag</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>Beskeden kunne ikke flyttes til postkassen %@.</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>Kan ikke indlæse hele beskeden</string>
+	<key>TO</key>
+	<string>Til:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>Tilføj konto</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>Kan ikke slette postkasse</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>Åbner postkasse…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>Marker…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>Oplysninger…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Slet (%@)</string>
+	<key>FROM</key>
+	<string>Fra:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>Dette bilag er for stort.</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>Fjern flag</string>
+	<key>ENABLE_FILTER</key>
+	<string>Slå beskedfilter til</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>Denne besked er kun hentet delvist.</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>Modtager indeholder: %@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>Indlæs alle billeder</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>Tryk på en postkasse for at flytte disse beskeder.</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>Kan ikke oprette forbindelse til serveren til “%@” </string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>Ingen trådnotifikationer</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>Bilag hentet</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>Besvar: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>Ingen e-mail med bilag</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>Til:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>Søger efter e‑mail…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>Mail kan ikke åbne dette bilag.</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>postkasse</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>Flyt til mappen Reklame</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>Ikke længere tilgængeligt pr. %@</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>%@ af %@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>Tilføj VIP</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>Du har allerede et krypteret certifikat for “%@”. Vil du bruge dette certifikat i stedet?</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>Opret forbindelse til et Wi-Fi-netværk for at hente disse bilag.</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>Fundet i %@ %@-postkasse</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>Afsenderen signerede beskeden med et godkendt certifikat.</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>Beskeder fra VIP'er</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>SEE_MORE</key>
+	<string>Se mere</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>Der opstod en fejl under levering af beskeden.</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>Mail kan ikke åbne kalenderbegivenheden, fordi den ikke længere er tilgængelig</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>Kan ikke omdøbe postkasse</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>Slå filter til/fra</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>Kan ikke flytte besked</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>Signatur ikke godkendt</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>Marker som ulæst</string>
+	<key>REMOVE</key>
+	<string>Fjern</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>%@ og %@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>Opret forbindelse til et Wi-Fi-netværk for at hente dette bilag.</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>Filtrer mærketype</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>Fjern flag</string>
+	<key>BCC_TITLE</key>
+	<string>Bcc</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>Slet alle</string>
+	<key>DELETE_BUTTON</key>
+	<string>Slet</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>Tilføj VIP…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>Hvis du vil bruge Mail, skal du frigøre plads ved at slette ubrugte apps eller arkiver og derefter prøve igen.</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>Forbindelsen til serveren afbrudt.</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>Opdateret %@</string>
+	<key>ALL_MAILBOXES</key>
+	<string>Alle postkasser</string>
+	<key>ALL_SENT</key>
+	<string>Alle sendte</string>
+	<key>REPLY</key>
+	<string>Svar</string>
+	<key>YES</key>
+	<string>Ja</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>Postkasser</string>
+	<key>THREAD</key>
+	<string>Tråd</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>Marker som ikke reklamepost</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>Nuværende postkasse</string>
+	<key>NOTIFY_ME</key>
+	<string>Underret mig</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>Denne uge</string>
+	<key>LOADING</key>
+	<string>Indlæser…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>Ny besked</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>Adgangskode mangler</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>Underret mig ikke</string>
+	<key>CC_TITLE</key>
+	<string>Cc</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>Ulæst</string>
+	<key>FROM_TITLE</key>
+	<string>Afsender</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>Foregående år</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Opret forbindelse til WLAN for at hente disse bilag.</string>
+	<key>QUICK_LOOK</key>
+	<string>Vis</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>Sidste år</string>
+	<key>ENCRYPTED</key>
+	<string>Krypteret</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>Fra</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>Denne besked er fra en mailingliste.</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>INDLÆSER</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>Søg efter “%@”</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>Søg</string>
+	<key>DISABLE_FILTER</key>
+	<string>Slå beskedfilter fra</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>Afsenderen krypterede beskeden og signerede den med et godkendt certifikat.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>Personer</string>
+	<key>TRASH_BUTTON</key>
+	<string>Slet</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>Postkassen kunne ikke flyttes på serveren.</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>Inkluder:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>Videresend til: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>Indstillinger</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>Søg</string>
+	<key>PRINT</key>
+	<string>Udskriv</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>Tophits</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>Orange</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>Til eller Cc</string>
+	<key>VIP_MAILBOX</key>
+	<string>VIP</string>
+	<key>FROM_LABEL</key>
+	<string>FRA</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>Arkiver besked</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>Flyt</string>
+	<key>SWIPE_FLAG</key>
+	<string>Sæt flag ved</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>Beskeden indeholder billeder, der ikke er indlæst.</string>
+	<key>MOVE_TO</key>
+	<string>Flyt til “%@”</string>
+	<key>ARCHIVE</key>
+	<string>Arkiver</string>
+	<key>VIP_EDIT</key>
+	<string>VIP-liste</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>Postkassen kunne ikke slettes på serveren.</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>%@ – %@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>Postkassen “%@” findes allerede.</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>Følgende konti har fejl: %@.
+Vælg en konto for at få flere oplysninger.</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>slet</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>I dag</string>
+	<key>SWIPE_MOVE</key>
+	<string>Flyt…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>Alle arkiver</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>Til</string>
+	<key>NO_FROM</key>
+	<string>Ingen afsender</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>Adresseret til:</string>
+	<key>NEW_MAILBOX</key>
+	<string>Ny postkasse</string>
+	<key>REPAIR</key>
+	<string>Reparer</string>
+	<key>SEND_AGAIN</key>
+	<string>Send igen</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>%lu med flag</string>
+	<key>MOVE_BUTTON</key>
+	<string>Flyt</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>Emner</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>Trådnotifikationer</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>Du kan administrere lagring i Indstillinger.</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>Postkasse</string>
+	<key>BACK</key>
+	<string>Tilbage</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>Udkast</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>Opdateret den %@</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>Fravælg alt</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>Kontofejl: %@.</string>
+	<key>CERTIFICATE</key>
+	<string>Certifikat</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>Antal af nyt indhold</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>Til eller Cc</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>Udkast til: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>Forrige uge</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>Flere kontofejl</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>Hent alle nye beskeder</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>VIP</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>Søg i %@ - %@</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>Der kan ikke oprettes en dataforbindelse, fordi der foretages et opkald lige nu.</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>Arkiver alt</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>Med flag</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>Cc: mig</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>Gem bilag</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>Billeder i fuld opløsning er gemt til Fotos</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>Fejl under dekryptering</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>Sidste uge</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>Abonnementer</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>Skjul tråd</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>Tilgængelig indtil %@</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>%@ beskeder ikke sendt</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Flyt (%@)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>Ingen resultater fundet</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>Marker som læst</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>Forbindelsen til din anden enhed kan være blevet afbrudt. Prøv igen senere.</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>Antal af alle beskeder</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ - %@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>Få hurtig adgang til e-mail fra vigtige personer i din VIP-postkasse.</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>Flyt</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>Vælg beskeder, der skal arkiveres eller flyttes.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>Bilag og billeder i fuld opløsning er hentet</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>Denne besked kan ikke vises på grund af en vedvarende fejl.</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>Læst</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>Slet valgte beskeder</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>Flyt disse beskeder til en ny postkasse.</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>Ingen e-mail adresseret til mig</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>Hent bilag</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>Kunne ikke udføre Siri‑forslag</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>Denne besked er fra en afsender på din liste med blokerede personer.</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>Postkassen kunne ikke omdøbes på serveren.</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>Med flag</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>Er du sikker på, at du vil blokere denne kontakt?</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>Trådnotifikationer</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>Hent bilag</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>Til: mig</string>
+	<key>BCC_HEADER</key>
+	<string>Bcc:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>Serveren afviste en af modtageradresserne. Beskeden ligger i udbakken.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>Foreslåede søgninger</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>Med flag</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Arkiver (%@)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>Flyt denne besked til en ny postkasse.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>Henter bilag og billeder i fuld opløsning</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>Tilgængeligt i Mail Drop indtil %@</string>
+	<key>CANCEL</key>
+	<string>Annuller</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>Bilag</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>Til mig</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>Henter resterende %@</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>Ny besked</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>Dette år</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>Arkiver</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>Hvis du sletter postkassen “%@”, fjernes dens beskeder fra kontoen.</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>Violet</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>Ignorerede tråde</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>Henter hele beskeden</string>
+	<key>MESSAGE</key>
+	<string>Besked</string>
+	<key>TRUST</key>
+	<string>Godkend</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>%@ flagfarve</string>
+	<key>EXPAND_THREAD</key>
+	<string>Udvid tråd</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>Flyt til mappen Reklame</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>Gul</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>Filtreret efter:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>Kan ikke bekræfte beskedens indhold.</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>Andre:</string>
+	<key>CC/BCC</key>
+	<string>Cc/bcc:</string>
+	<key>SAVE_IMAGE</key>
+	<string>Gem billede</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>Filtre</string>
+	<key>TO_TITLE</key>
+	<string>Modtager</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>Fundet i %@ %@</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>Gå til næste besked</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>mappe</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>Dette bilag er for stort til at kunne vises.</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>Nogle af dine postkonti skal godkendes på ny til Apple Watch</string>
+	<key>MUTED_MAILBOX</key>
+	<string>Ignorerede tråde</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>Vis certifikat</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>Opretter forbindelse…</string>
+	<key>NO_MAIL</key>
+	<string>Ingen post</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>Indstil advarsler ved ny e-mail fra VIP-personer i indstillinger til Notifikationer.</string>
+	<key>EDIT</key>
+	<string>Rediger</string>
+	<key>SAVING</key>
+	<string>Gemmer</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>Marker som ikke reklamepost</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>Blå</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>Afmeld abonnement</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>Gå til forrige besked</string>
+	<key>FROM_HEADER</key>
+	<string>Fra:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>Rød</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>Slet</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>I går</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>Cc</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>Vis anført indhold</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>Bilag</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>Henter billeder i fuld opløsning til Fotos</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>Denne iPad mangler rettigheder til at oprette e-mailkonti.</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>Postkasser</string>
+	<key>NO_VIP_MAIL</key>
+	<string>Ingen VIP-e-mail</string>
+	<key>CC_LABEL</key>
+	<string>Cc</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>TIL</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>Denne måned</string>
+	<key>N_MESSAGES</key>
+	<string>%@ beskeder</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>Serverfejl.
+Kontakt serveradministratoren.</string>
+	<key>LOAD_MESSAGE</key>
+	<string>Indlæs besked (anbefales ikke)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>Denne besked er hentet som ren tekst.</string>
+	<key>FAVORITES</key>
+	<string>Favoritter</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>Kontofejl</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>Søg i postkasse</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>Søg efter %@ i %@ - %@</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>Vælg beskeder, der skal slettes eller flyttes.</string>
+	<key>ALL_TRASH</key>
+	<string>Alt i papirkurv</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>Ingen udkast</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>Signaturfejl</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>Marker</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>Bilag hentet</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>Ugyldigt Mail Drop-bilag</string>
+	<key>DATE</key>
+	<string>Dato:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>Simulatoren mangler rettigheder til at oprette e-mailkonti.</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>Bilag</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>Arkiver</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>Billeder i fuld opløsning</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>Ingen markeret e-mail</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>Kun e-mail sendt i dag</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>Kan ikke bekræfte beskedens indhold.</string>
+	<key>NO_BODY</key>
+	<string>Denne besked har intet indhold.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>Datoer</string>
+	<key>EDIT_MAILBOX</key>
+	<string>Rediger</string>
+	<key>REPLY_ALL</key>
+	<string>Svar alle</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>%lu udkast</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>Søg efter %@ i %@</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>Ulæst</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>Indlæs alle billeder (anbefales ikke)</string>
+	<key>DELETE</key>
+	<string>Slet</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Slet (%@)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>Emne</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>Administrer krypteringscertifikatet til denne afsender.</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>Ny besked</string>
+	<key>NO_SUBJECT</key>
+	<string>Intet emne</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>Forrige dag</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>Til mig</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>Navn</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>Gemmer billeder i fuld opløsning til Fotos</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>Beskeder med flag</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>Fjern flag</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>Din postbakke er fuld</string>
+	<key>UNTRUST</key>
+	<string>Godkend ikke</string>
+	<key>TODAY_MAILBOX</key>
+	<string>I dag</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>Slet alle</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>Antal ulæste</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>Sæt flag ved</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>Ulæst</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>Kan ikke flytte postkasse</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>Kun e-mail med bilag</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>Foregående dag</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ERROR</key>
+	<string>Fejl</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Opret forbindelse til WLAN for at hente dette bilag.</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>Indlæs eksternt indhold</string>
+	<key>SWIPE_JUNK</key>
+	<string>Reklame</string>
+	<key>CONTINUE</key>
+	<string>Fortsæt</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>Ingen beskeder fra i dag</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>Anden</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>%@ besked ikke sendt</string>
+	<key>SENDING</key>
+	<string>Sender…</string>
+	<key>BOX_SUFFIX</key>
+	<string>kasse</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>Ingen ignorerede tråde</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>Slet beskeder</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>Gå til appen Apple Watch</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>Send som .eml</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>Inkluder bilag fra original besked?</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>Emne indeholder: %@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>Besked</string>
+	<key>ACCOUNTS</key>
+	<string>Konti</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>Afvis</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>Hvis du sletter postkassen “%@”, fjernes dens beskeder og underpostkasser fra kontoen.</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>Ikke reklame</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>Henter bilag og billeder i fuld opløsning</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>Slet beskeder</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>Læst</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>Grøn</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>Denne besked er blevet signeret flere gange.</string>
+	<key>CC_HEADER</key>
+	<string>Cc:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>Fundet i %@</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>Tilføj postkasse…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>Søg i %@</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>Foregående måned</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>Underret mig</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> og %@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>Hent resten af beskeden først?</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>Kan ikke bekræfte beskedens indhold.</string>
+	<key>SUBJECT_HEADER</key>
+	<string>Emne:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>Vælg beskeder, der skal slettes eller flyttes.</string>
+	<key>TRASH</key>
+	<string>Slet</string>
+	<key>SHARE</key>
+	<string>Del</string>
+</dict>
+</plist>

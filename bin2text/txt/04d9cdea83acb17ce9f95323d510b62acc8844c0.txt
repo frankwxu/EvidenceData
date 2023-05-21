@@ -1,0 +1,103 @@
+# Ruleset for Yosemite (Vocalizer Expressive)
+# 
+#RLSTAG: RLS_FE.ENU_8.0.7
+
+[header]
+language = enu
+type = music
+charset = utf-8
+
+[data]
+
+# tn=sms type ruleset removes tn=music markup at the end
+# this rule enables that tn=music markup can be (re)inserted
+# in the main ruleset
+/^/   -->   "\e<reinsert_tn_music_tag>"
+
+/\b311\b/   -->   "3 11"
+/\b8701\b/   -->   "87 oh 1"
+/\b867[ -–]?5309\b/   -->   "8 6 7 5 3 O 9" # rdar://problem/48872292
+/\b223'?s\b/ --> "2 2 3's" # rdar://problem/55658372
+/\b223\b/ --> "2 2 3" # rdar://problem/55658372
+
+
+# Radio stations, rdar://problem/52790007
+/\bV-_?103_?\b/i   -->   "V 1 O 3"
+/\bKISS _?104\.1_?\b/i   -->   "Kiss 1 O 4 point 1"
+/\bMAGIC _?106\.7_?\b/i   -->   "Magic 1 O 6 point 7"
+/\bKISS _?108_?\b/i   -->   "Kiss 1 O 8"
+/\b_?107\.5_? WGCI Chicago\b/i   -->   "1 O 7 point 5, W G C I, Chicago"
+/\b_?104\.3_? JAMS\b/i   -->   "1 O 4 3 Jams"
+/\b94\.7 WLS\b/i   -->   "94 7 W L S" # no guidance
+/\bWBBM Newsradio _?780_? ?AM (&|\+|and) _?105\.9_? ?FM\b/i   -->   "W B B M Newsradio"
+/\b_?103\.5_? KISS ?FM\b/i   -->   "1 O 3 point 5 kiss F M"
+/\b93\.9 Lite ?FM\b/i   -->   "93 point 9 lite F M"
+/\bThe Drive 97\.1 ?FM\b/i   -->   "The Drive 97 1 F M" # no guidance
+/\b_?106\.1_? KISS ?FM\b/i   -->   "1 O 6 point 1 kiss F M"
+/\bStar _?102\.1_?\b/i   -->   "star 1 O 2 point 1"
+/\b_?102\.9_? NOW\b/i   -->   "1 O 2 point 9 now"
+/\bLone Star 92\.5\b/i   -->   "lone star 92 point 5" # other variant given: lone star 92 5
+/\b98\.7 KLUV\b/i   -->   "98 point 7 K love"
+/\b_?100\.3_? WNIC\b/i   -->   "100 3 W N I C" # other variant given: 100 point 3 W N I C
+/\bLa Raza 97\.9\b/i   -->   "\e/+l$_'R+A.z$\e/+ 97 9" # no guidance
+/\b95\.7 The Spot\b/i   -->   "95 7 the spot"
+/\bQu[ée] Buena _?102\.9_?\b/i   -->   "\e/+'ke&I_'bwEn.$\e/+ 1 O 2 9" # no guidance
+/\b_?104\.1_? KRBE\b/i   -->   "1 O 4 point 1 K R B E"
+/\bSUNNY 99\.1 Houston\b/i   -->   "Sunny 99 1 houston" # other variants given: sunny 99 point 1 houston, sunny 99 1, sunny 99 point 1
+/\bKNX _?1070_? NEWSRADIO\b/i   -->   "K N X 10 70 Newsradio"
+/\b95\.5 KLOS\b/i   -->   "95 point 5 K L O S"
+/\b_?1043_? MYfm\b/i   -->   "1 O 4 3 my F M "
+/\b_?102\.7_? KIIS[- ]?FM Los Angeles\b/i   -->   "1 O 2 point 7 kiss F M Los Angeles"
+/\bKOST _?103\.5_? Los Angeles\b/i   -->   "Coast 1 O 3 point 5 Los Angeles"
+/\bALT 98\.7\b/i   -->   "alt 98 7" # other variant given: alt 98 point 7
+/\bKROQ\b/i   -->   "K Rock"
+/\b94\.7 The WAVE\b/i   -->   "94 point 7 the wave"
+/\bK-EARTH _?101_?\b/i   -->   "K earth 1 O 1"
+/\b_?101\.5_? LITE ?FM\b/i   -->   "1 O 1 point 5 Lite F M "
+/\bHOT _?105_?\b/i   -->   "hot 1 O 5"
+/\b_?101\.3_? KDWB\b/i   -->   "1 O 1 point 3 K D W B"
+/\bHOT 97\b/i   -->   "hot 97" # no guidance
+/\bNEW _?102\.7_?\b/i   -->   "New 1 O 2 point 7"
+/\bWCBS[- ]?FM\b/i   -->   "C B S F M"
+/\bQ_?104\.3_?\b/i   -->   "Q 1 O 4 point 3"
+/\bZ_?100_?\b/i   -->   "Z 100"
+/\b_?103\.?5_? KTU\b/i   -->   "1 O 3 point 5 K T U"
+/\b_?106\.7_? Lite ?fm\b/i   -->   "1 O 6 point 7 lite F M"
+/\bPower _?105\.1_?\b/i   -->   "power 1 O 5 point 1"
+/\b_?107\.5_? WBLS\b/i   -->   "1 O 7 point 5 W B L S"
+/\bLa Mega New York\b/i   -->   "\e/+l$\e/+ Mega New York" # no guidance
+/\bPhilly's B_?101\.1_?\b/i   -->   "Philly's B 1 O 1"
+/\bPower99\b/i   -->   "power 99"
+/\b99\.9 KEZ\b/i   -->   "99 point 9 K E Z"
+/\b_?104\.7_? KISS ?FM\b/i   -->   "1 O 4 point 7, kiss F M"
+/\bKCBS All News _?106\.9_? ?FM and _?740_? ?AM\b/i   -->   "K C B S All News"
+/\b98\.1 The Breeze\b/i   -->   "98 1 the breeze" # other variant given: 98 point 1 the breeze
+/\bWILD 94\.9\b/i   -->   "wild 94 9" # other variant given:  wild 94 point 9
+/\bThe New ALT _?105\.3_?\b/i   -->   "alt 1 O 5 3"
+/\b96\.5 KOIT\b/i   -->   "96 point 5 K O I T"
+/\b_?107\.7_? The End\b/i   -->   "1 O 7 point 7 the end"
+/\b_?101\.9_? The MIX\b/i   -->   "1 O 1 point 9 the mix"
+/\b[Tt]he MIX\b/   -->   "the mix"
+/\b97\.1 WASH[- ]?FM\b/i   -->   "97 1 wash F M" # other variant given: 97 point 1 wash F M
+/\bHOT 99.5\b/i   -->   "hot 99 point 5"
+/\bWTOP\b/i   -->   "W T O P" # no guidance given
+
+# Australian radio stations
+/\b2GB\b/i  --> "2 G B"
+/\bKIIS 106.5\b/i   --> "kiss 1 O 6 point 5"
+/\bTripleJ\b/i  --> "triple J"
+
+/\bXXL\b/   -->   "double X L" # rdar://problem/55849036
+
+# <rdar://problem/54372247> Add TTS overrides for Broadcast radio frequencies marked with underscores
+/_(100)\.(\d)_/   -->   " $1 point $2 "   # 100.5, 100.9, etc
+/_([1-9])00_/   -->   " $1 hundred "   # 100, 200, etc
+/_10([1-9])\.(\d)_/   -->   " one oh $1 point $2 "     # 106.4, 107.2, etc
+/_([1-9])0([1-9])_/   -->   " $1 oh $2 "   # 909, 202, etc
+/_([1-9])(\d{2})_/   -->   " $1 $2 "   # 840, 921, etc
+/_(1\d)0(\d)_/   -->   " $1 oh $2 "   # 1405, 1201, etc
+/_(1\d)(\d{2})_/   -->   " $1 $2 "   # 1080, 1922, etc
+
+# ***This test entry must be the VERY LAST line in the rule set.***
+# rdar://problem/48523405 TTSVerifier: Check that user rules and dictionary file get correctly loaded on the device
+/\b1A724D6E-2FE5-4F4A-B965-8F92697A4723\b/   -->   "OK"

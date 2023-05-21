@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EMSG_00000</key>
+	<string>Common</string>
+	<key>EMSG_00001</key>
+	<string>lack of stream data.</string>
+	<key>EMSG_00002</key>
+	<string>another operation is runnning.</string>
+	<key>EMSG_01000</key>
+	<string>Client</string>
+	<key>EMSG_01100</key>
+	<string>GetInfo failed.</string>
+	<key>EMSG_01201</key>
+	<string>uafMessage is null or empty.</string>
+	<key>EMSG_01202</key>
+	<string>uafMessage is too long.</string>
+	<key>EMSG_01203</key>
+	<string>uafMessage serialization failed.</string>
+	<key>EMSG_01204</key>
+	<string>uafMessage is not registration request.</string>
+	<key>EMSG_01205</key>
+	<string>invalid ASM response.</string>
+	<key>EMSG_01206</key>
+	<string>ASM status error.(%1$d)</string>
+	<key>EMSG_01207</key>
+	<string>invalid uafMessage.(message=%1$@)</string>
+	<key>EMSG_01208</key>
+	<string>authenticator not found.</string>
+	<key>EMSG_01209</key>
+	<string>fido registration not found.</string>
+	<key>EMSG_01210</key>
+	<string>preferred authenticator not found.</string>
+	<key>EMSG_01211</key>
+	<string>preferred fido registration not found.</string>
+	<key>EMSG_01500</key>
+	<string>upv is null.</string>
+	<key>EMSG_01501</key>
+	<string>invalid upv.(%1$d.%2$d)</string>
+	<key>EMSG_01502</key>
+	<string>invalid op.(op=%1$d)</string>
+	<key>EMSG_01503</key>
+	<string>appID too long.</string>
+	<key>EMSG_01504</key>
+	<string>challenge is null or empty.</string>
+	<key>EMSG_01505</key>
+	<string>username is null or empty.</string>
+	<key>EMSG_01506</key>
+	<string>username too long.</string>
+	<key>EMSG_01507</key>
+	<string>policy is null or empty.</string>
+	<key>EMSG_01508</key>
+	<string>accepted is null or empty.</string>
+	<key>EMSG_01509</key>
+	<string>authenticator not found.(%1$@)</string>
+	<key>EMSG_01510</key>
+	<string>contentType is null or empty.</string>
+	<key>EMSG_01511</key>
+	<string>invalid parameter.(contentType=%1$@)</string>
+	<key>EMSG_01512</key>
+	<string>content is null or empty.</string>
+	<key>EMSG_01513</key>
+	<string>invalid parameter.(content=%1$@)</string>
+	<key>EMSG_01514</key>
+	<string>authenticators is null or empty.</string>
+	<key>EMSG_01515</key>
+	<string>aaid is null or empty.</string>
+	<key>EMSG_01516</key>
+	<string>KeyID is null or empty.</string>
+	<key>EMSG_01517</key>
+	<string>serverData too long.</string>
+	<key>EMSG_01518</key>
+	<string>invalid challenge length.(%1$@)</string>
+	<key>EMSG_01519</key>
+	<string>invalid challenge.(%1$@)</string>
+	<key>EMSG_01520</key>
+	<string>invalid aaid.(%1$@)</string>
+	<key>EMSG_01521</key>
+	<string>invalid keyID length.(%1$@)</string>
+	<key>EMSG_01522</key>
+	<string>invalid keyID.(%1$@)</string>
+	<key>EMSG_01523</key>
+	<string>facetID authorization failed.(appID=%1$@, facetID=%2$@)</string>
+	<key>EMSG_01524</key>
+	<string>facetID authorization failed.(facetID=%1$@)</string>
+	<key>EMSG_01525</key>
+	<string>duplicated aaid/keyID.(aaid=%1$@, keyID=%2$@)</string>
+	<key>EMSG_01526</key>
+	<string>Authenticator not found.(AAID=%1$@)</string>
+	<key>EMSG_01600</key>
+	<string>invalid userVerification.(userVerification=%1$04x)</string>
+	<key>EMSG_01601</key>
+	<string>invalid keyProtection.(keyProtection=%1$04x)</string>
+	<key>EMSG_01602</key>
+	<string>invalid matcherProtection.(matcherProtection=%1$04x)</string>
+	<key>EMSG_01603</key>
+	<string>invalid attachmentHint.(attachmentHint=%1$04x)</string>
+	<key>EMSG_01604</key>
+	<string>invalid tcDisplay.(tcDisplay=%1$04x)</string>
+	<key>EMSG_01605</key>
+	<string>invalid authenticationAlgorithms.(authenticationAlgorithms=%1$04x)</string>
+	<key>EMSG_01606</key>
+	<string>invalid attestationTypes.(attestationTypes=%1$04x)</string>
+	<key>EMSG_01607</key>
+	<string>authentication Algorithm or assertionSchemes is null or empty.</string>
+	<key>EMSG_01608</key>
+	<string>only keyIDs, attachmentHint, authenticatorVersion and exts can be used with aaid.</string>
+	<key>EMSG_01609</key>
+	<string>invalid exts.</string>
+	<key>EMSG_01700</key>
+	<string>invalid config value.(start_mode)</string>
+	<key>EMSG_01701</key>
+	<string>invalid config value.(auto_close_time)</string>
+	<key>EMSG_01702</key>
+	<string>invalid config value.(action_count)</string>
+	<key>EMSG_01703</key>
+	<string>invalid config value.(action_time_out)</string>
+	<key>EMSG_01704</key>
+	<string>invalid config value.(actions)</string>
+	<key>EMSG_01705</key>
+	<string>config not found.</string>
+	<key>EMSG_01706</key>
+	<string>invalid config value.(faceprint_max_count)</string>
+	<key>EMSG_01707</key>
+	<string>invalid config value.(feature_max_count)</string>
+	<key>EMSG_01708</key>
+	<string>invalid config value.(actions)</string>
+	<key>EMSG_01709</key>
+	<string>invalid config value.(verify_level)</string>
+	<key>EMSG_01710</key>
+	<string>invalid config value.(mask_verify_level)</string>
+	<key>EMSG_01711</key>
+	<string>invalid config value.(sunglasses_verify_level)</string>
+	<key>EMSG_01712</key>
+	<string>invalid config value.(see_center_time)</string>
+	<key>EMSG_01713</key>
+	<string>invalid config value.(reverb_disp_time)</string>
+	<key>EMSG_02000</key>
+	<string>ASM</string>
+	<key>EMSG_02001</key>
+	<string>ASM initialization failed.</string>
+	<key>EMSG_02002</key>
+	<string>ASM database encrypt failed.</string>
+	<key>EMSG_02004</key>
+	<string>ASMRequest is null.</string>
+	<key>EMSG_02005</key>
+	<string>invalid ASM request.(%1$@)</string>
+	<key>EMSG_02007</key>
+	<string>requestType is null or empty.</string>
+	<key>EMSG_02008</key>
+	<string>parameter not supported.(requestType=%1$@)</string>
+	<key>EMSG_02009</key>
+	<string>asmVersion is null.</string>
+	<key>EMSG_02010</key>
+	<string>invalid asmVersion.(%1$d.%2$d)</string>
+	<key>EMSG_02011</key>
+	<string>invalid authenticator response.</string>
+	<key>EMSG_02012</key>
+	<string>invalid authenticator index.</string>
+	<key>EMSG_02013</key>
+	<string>invaild ASM request.</string>
+	<key>EMSG_02014</key>
+	<string>appID is null or empty.</string>
+	<key>EMSG_02015</key>
+	<string>invaild appID.</string>
+	<key>EMSG_02016</key>
+	<string>username is null or empty.</string>
+	<key>EMSG_02017</key>
+	<string>invaild username.</string>
+	<key>EMSG_02018</key>
+	<string>finalChallenge is null or empty.</string>
+	<key>EMSG_02019</key>
+	<string>contentType is null or empty.</string>
+	<key>EMSG_02020</key>
+	<string>invalid parameter.(contentType=%1$@)</string>
+	<key>EMSG_02021</key>
+	<string>content is null or empty.</string>
+	<key>EMSG_02022</key>
+	<string>invalid parameter.(content=%1$@)</string>
+	<key>EMSG_02023</key>
+	<string>invaild keyID.</string>
+	<key>EMSG_02024</key>
+	<string>no valid transaction.</string>
+	<key>EMSG_02028</key>
+	<string>Authenticator not found.(AuthenticatorIndex=%1$@)</string>
+	<key>EMSG_02029</key>
+	<string>invalid parameter.(attestationType=%1$d)</string>
+	<key>EMSG_02030</key>
+	<string>ASM database save failed.</string>
+	<key>EMSG_02032</key>
+	<string>keyhandle not found.</string>
+	<key>EMSG_02036</key>
+	<string>KeyID not found.</string>
+	<key>EMSG_02037</key>
+	<string>authenticatorIndex is null.</string>
+	<key>EMSG_02038</key>
+	<string>keyHandle encrypt failed.</string>
+	<key>EMSG_02039</key>
+	<string>keyHandle decrypt failed.</string>
+	<key>EMSG_02040</key>
+	<string>invaild exts.</string>
+	<key>EMSG_03000</key>
+	<string>FPAuthntr</string>
+	<key>EMSG_03002</key>
+	<string>internal storage encrypt failed.</string>
+	<key>EMSG_03005</key>
+	<string>internal storage save failed.</string>
+	<key>EMSG_03006</key>
+	<string>Authenticator command is null.</string>
+	<key>EMSG_03007</key>
+	<string>fingerprint authentication function not implemented.</string>
+	<key>EMSG_03008</key>
+	<string>fingerprint authentication failed.</string>
+	<key>EMSG_03009</key>
+	<string>attestationType not supported.(attestationType=%1$d)</string>
+	<key>EMSG_03010</key>
+	<string>invalid command length.(length=%1$d)</string>
+	<key>EMSG_03012</key>
+	<string>KHAccessToken mismatch.</string>
+	<key>EMSG_03013</key>
+	<string>tag not found.(tagid=0x%1$x)</string>
+	<key>EMSG_03014</key>
+	<string>invalid parameter.(tagid=0x%1$x,value=%2$d)</string>
+	<key>EMSG_03015</key>
+	<string>invalid parameter.(tagid=0x%1$x,value=%2$@)</string>
+	<key>EMSG_03016</key>
+	<string>Authenticator command tag not found.(tagid=0x%1$x)</string>
+	<key>EMSG_03017</key>
+	<string>transaction content type is not supported.(content type=%1$@)</string>
+	<key>EMSG_03018</key>
+	<string>private key delete failed.</string>
+	<key>EMSG_03019</key>
+	<string>sign counter delete failed.</string>
+	<key>EMSG_03020</key>
+	<string>extensionID not supported.</string>
+	<key>EMSG_03021</key>
+	<string>key pair create failed.(%1$d)</string>
+	<key>EMSG_03022</key>
+	<string>fingerprint authentication cancelled.</string>
+	<key>EMSG_03023</key>
+	<string>fingerprint authentication fallbacked.</string>
+	<key>EMSG_03024</key>
+	<string>fingerprint not enrolled.</string>
+	<key>EMSG_03025</key>
+	<string>transaction confirmation not supported.</string>
+	<key>EMSG_03026</key>
+	<string>transaction cancelled.</string>
+	<key>EMSG_03027</key>
+	<string>already registered.</string>
+	<key>EMSG_03028</key>
+	<string>Authenticator command is not supported.</string>
+	<key>EMSG_04000</key>
+	<string>HttpService</string>
+	<key>EMSG_04001</key>
+	<string>%1$@.(%2$d)</string>
+	<key>EMSG_04002</key>
+	<string>invalid content type.(%1$@)</string>
+	<key>EMSG_04003</key>
+	<string>invalid http header.(%1$@=%2$@)</string>
+	<key>EMSG_04004</key>
+	<string>invalid http response.(%1$@)</string>
+	<key>EMSG_05000</key>
+	<string>FCAuthntr</string>
+	<key>EMSG_05001</key>
+	<string>another faceprint operation is running.</string>
+	<key>EMSG_05002</key>
+	<string>invalid parameter.(mode=%1$d)</string>
+	<key>EMSG_05003</key>
+	<string>faceprint authentication cancelled.</string>
+	<key>EMSG_05004</key>
+	<string>feature data save failed.</string>
+	<key>EMSG_05005</key>
+	<string>can not use faceprint function.</string>
+	<key>EMSG_05006</key>
+	<string>faceprint permission error.</string>
+	<key>EMSG_05007</key>
+	<string>faceprint not enrolled.</string>
+	<key>EMSG_05008</key>
+	<string>faceprint authentication timeout.</string>
+	<key>EMSG_05009</key>
+	<string>registered user property mismatch.</string>
+	<key>EMSG_05010</key>
+	<string>initialize failed.(code=%1$d)</string>
+	<key>EMSG_05011</key>
+	<string>faceprint authentication failed.</string>
+	<key>EMSG_05012</key>
+	<string>faceprint verify failed.</string>
+	<key>EMSG_05013</key>
+	<string>feature data encrypt failed.</string>
+	<key>EMSG_05014</key>
+	<string>record is null.</string>
+	<key>EMSG_05015</key>
+	<string>feature is null or empty.</string>
+	<key>EMSG_05016</key>
+	<string>featureID is null or empty.</string>
+	<key>EMSG_05017</key>
+	<string>name is null or empty.</string>
+	<key>EMSG_05018</key>
+	<string>featureID already registered.</string>
+	<key>EMSG_05019</key>
+	<string>invalid parameter.(regTime=%1$.0f)</string>
+	<key>EMSG_05021</key>
+	<string>already maximum registered.</string>
+	<key>EMSG_05022</key>
+	<string>feature data decrypt failed.</string>
+	<key>EMSG_05023</key>
+	<string>username can not be found.(%1$@)</string>
+	<key>EMSG_06000</key>
+	<string>Face ID authentication function not implemented.</string>
+	<key>EMSG_06001</key>
+	<string>Face ID authentication failed.</string>
+	<key>EMSG_06002</key>
+	<string>Face ID authentication cancelled.</string>
+	<key>EMSG_06003</key>
+	<string>Face ID authentication fallbacked.</string>
+	<key>EMSG_06004</key>
+	<string>Face ID not enrolled.</string>
+	<key>EMSG_06005</key>
+	<string>Face ID Lockout</string>
+	<key>FC_META_DESCRIPTION</key>
+	<string>NEC NC7000-3A-FS Faceprint UAF Authenticator</string>
+	<key>FC_META_ICON</key>
+	<string>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAACSCAYAAACue5OOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyRkE2QTk1OTExRjZFNTExQkVFNkI0RjdEQjQ5NkIyRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMDQ1MzE4OTFGREQxMUU3QTg5N0JFMjM0QkIwNUNCOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMDQ1MzE4ODFGREQxMUU3QTg5N0JFMjM0QkIwNUNCOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkMyMTU5QjYxREUwRUU3MTE4N0M1OTgwM0NERkM4MEM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJGQTZBOTU5MTFGNkU1MTFCRUU2QjRGN0RCNDk2QjJFIi8+IDwvcmRmOkRlc2NyaXB0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</string>
+	<key>FC_META_TITLE</key>
+	<string>3A-FS NeoFace Authenticator</string>
+	<key>FI_META_DESCRIPTION</key>
+	<string>NEC NC7000-3A-FS Face ID UAF Authenticator</string>
+	<key>FI_META_ICON</key>
+	<string>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAACSCAYAAACue5OOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyRkE2QTk1OTExRjZFNTExQkVFNkI0RjdEQjQ5NkIyRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMDQ1MzE4OTFGREQxMUU3QTg5N0JFMjM0QkIwNUNCOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMDQ1MzE4ODFGREQxMUU3QTg5N0JFMjM0QkIwNUNCOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkMyMTU5QjYxREUwRUU3MTE4N0M1OTgwM0NERkM4MEM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJGQTZBOTU5MTFGNkU1MTFCRUU2QjRGN0RCNDk2QjJFIi8+IDwvcmRmOkRlc2NyaXB0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</string>
+	<key>FI_META_TITLE</key>
+	<string>3A-FS Face ID Authenticator</string>
+	<key>FI_matcher_alert_FI_not_reg_message</key>
+	<string>Face IDが登録されていません。設定アプリでFace IDの登録を行ってください。</string>
+	<key>FI_matcher_alert_accept</key>
+	<string>OK</string>
+	<key>FI_matcher_alert_deny</key>
+	<string>Cancel</string>
+	<key>FI_matcher_alert_faceID_lockout</key>
+	<string>Face IDがロックアウト状態です。端末をロックしてパスコードを入力してください。</string>
+	<key>FI_matcher_alert_passcode_not_reg_message</key>
+	<string>パスコードが設定されていません。設定アプリでパスコードの設定を行ってください。</string>
+	<key>FI_matcher_message</key>
+	<string>%1$@ appID:%2$@</string>
+	<key>FI_matcher_non_message</key>
+	<string>appID:%1$@</string>
+	<key>FP_META_DESCRIPTION</key>
+	<string>NEC NC7000-3A-FS Fingerprint UAF Authenticator</string>
+	<key>FP_META_ICON</key>
+	<string>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAACSCAYAAACue5OOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyRkE2QTk1OTExRjZFNTExQkVFNkI0RjdEQjQ5NkIyRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDMzY2RUE2M0U3N0YxMUU2OTg3Q0ZERkM0REQxNTg1NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDMzY2RUE2MkU3N0YxMUU2OTg3Q0ZERkM0REQxNTg1NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjcyOENDMzM5MjRFMkU2MTE5OTg3QjRDREIwMkU4RUVCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJGQTZBOTU5MTFGNkU1MTFCRUU2QjRGN0RCNDk2QjJFIi8+IDwvcmRmOkRlc2NyaXB0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</string>
+	<key>FP_META_TITLE</key>
+	<string>3A-FS Fingerprint Authenticator</string>
+	<key>FP_matcher_alert_FP_not_reg_message</key>
+	<string>指紋が登録されていません。設定アプリで指紋の登録を行ってください。</string>
+	<key>FP_matcher_alert_accept</key>
+	<string>OK</string>
+	<key>FP_matcher_alert_deny</key>
+	<string>Cancel</string>
+	<key>FP_matcher_alert_passcode_not_reg_message</key>
+	<string>パスコードが設定されていません。設定アプリでパスコードの設定を行ってください。</string>
+	<key>FP_matcher_message</key>
+	<string>%1$@ appID:%2$@</string>
+	<key>FP_matcher_non_message</key>
+	<string>appID:%1$@</string>
+	<key>FS_CL_DFT_DESC</key>
+	<string>authneticator-%1$d</string>
+	<key>FS_CL_DFT_ICON</key>
+	<string>data:image/png;base64,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Ki0lJQAAAAEAAP8AAAAAAAQAAAAAAAD/AAD/AAAB+eYI2FXi0Njj+DUAAAMZBqQiJ/z87/rOywLoBDn2Rl7MJxjFAt/z+Nr7/PkA//4BAAAA+P0B6/dJ9SFkLUsFBQb9/v7/AAAAAAAAAAAE//8A////AP8A//7+CdBe3M3g6y+lHig1AQEB5t3S78JiIRPv7j6VtiYN1QXr+PrO+/n5/vj6/PH3Au/7JPULKv8dGAYmQzEjCgsK/P3+/wAAAAAAAAAAAAAABP////////7//wXoxQDeyPkcayw4RQUFBQAAABERP+HxZw/ugzUcAoXl0/L69hD2BRj5CRwAFhADGP0AGN7+BcXn+/Lk6EcuB/8AAAAA/wD//wAAAAAAAAAAAAT+///+/////v775Mz/+QAXKSQDAwMAAAAAAAADAwMZHyYD7AAD7NNeAVPs+gXxAAfo/QLO7/3t7vf38PX59fP58+5kOAgGBQP//////wD/AAAAAAAAAAAAAAAE/v7+/v38B+2o8PcAC/gADvW++f5k/wD+AQEBAQAADfW9+/kA8vUDy+oK1+j5/Pz2/Pv9+vv8+/r7/fn5/vTsVSwBUEArAQEB/f7/////AP//AAAAAAAAAAAABP3+/v64cvjnr/M2nP7oASESswHed/kcbAACBAbongXhoeHnAPcqNEsL9ygF7O3z+fH1+/X4+/oH/QQO/jo9FTQuJQYICP39/f////8AAP8AAAAAAAAAAP8AAAG9xMf9+vfv08AdJizswZso+7seJgAEFQAAAQD97gDm3QDW+zgqbq0ICQn9/fz7+/z6+/v7+/v8/P3/AAADBAT+///8/f79/f39/v79/v7///8AAAAAAADn5eQEx8XEUFRVGh4gAwICARMgzab/38C9FA//AQEA7fMA7hI9Il2MBwgI/v7+/wABAgMDBQEBAgMEBP79/P3+/f39/f7+/v7+/v///v//////AAAAAAAAAAAAyMXEASMlJqKpqxAPDwMDAgIBAvLx8OXXzvbgzwD//gsgMB0sNxITEwEBAf////7+//7//v3+/v79/v3+/vz9/f39/v3+/v3+/f39/v7//////wAAAAAAAPHx8GleXAEAAABDRUaAhogREREDAwICAQIBAQD9/f0BAQEFBAQBAgIAAAD//////wD+//7//v/9/v7+/v79/v79/v79/f79/v7+/v7+/v7+//8AAAAAAADw7++Hf3zHxMMBAAAAAAAAHyAhWFxdNTc4Dg4OAgICAQEBAQEAAQABAAAAAAAA/wD///8A///+/v////7//v7+/f///v7+/v7+/v7//v/+/v//AP8A9PPyzcvKr6qo5uTkAAAAOZvXNYL9ESwAAAAASUVORK5CYII=</string>
+	<key>FS_CL_DFT_TITLE</key>
+	<string>authneticator-%1$d</string>
+	<key>FS_NFG_already_register</key>
+	<string>既に登録済の顔です</string>
+	<key>FS_NFG_auth_ng</key>
+	<string>顔が認識できませんでした</string>
+	<key>FS_NFG_auth_ok</key>
+	<string>顔が認識されました</string>
+	<key>FS_NFG_auth_slow</key>
+	<string>まばたきしてください</string>
+	<key>FS_NFG_not_find_face</key>
+	<string>顔を画面に映してください</string>
+	<key>FS_NFG_reg_ng</key>
+	<string>顔が認識できませんでした</string>
+	<key>FS_NFG_reg_ok</key>
+	<string>顔が認識されました</string>
+	<key>FS_NFG_see_center</key>
+	<string>中央を見てください</string>
+	<key>FS_already_feature_max_registered</key>
+	<string>事前登録数上限まで登録されています</string>
+	<key>FS_deviceinfo_custom_version</key>
+	<string>%08x</string>
+	<key>FS_deviceinfo_sdk_version</key>
+	<string>%08x</string>
+	<key>FS_fcauth_guide</key>
+	<string>カメラで顔を撮影して認証を行ってください</string>
+	<key>FS_fcauth_info1</key>
+	<string>認証します。(1)</string>
+	<key>FS_fcauth_info2</key>
+	<string>認証します。(2)</string>
+	<key>FS_fcauth_info3</key>
+	<string>認証します。(3)</string>
+	<key>FS_fcauth_info4</key>
+	<string>認証します。(4)</string>
+	<key>FS_fcauth_privatemode</key>
+	<string>プライベートモード</string>
+	<key>FS_fcauth_welcome</key>
+	<string>認証します!</string>
+	<key>FS_fcedit_guide</key>
+	<string>顔認証の編集</string>
+	<key>FS_fcliveness_blink_guide</key>
+	<string>まばたきしてください</string>
+	<key>FS_fcliveness_close_eyes_guide</key>
+	<string>両目を閉じてください</string>
+	<key>FS_fcliveness_close_leye_guide</key>
+	<string>左目を閉じてください</string>
+	<key>FS_fcliveness_close_reye_guide</key>
+	<string>右目を閉じてください</string>
+	<key>FS_fcliveness_noaction_guide</key>
+	<string>正面を向いてください</string>
+	<key>FS_fcliveness_pan_left_guide</key>
+	<string>左を見てください</string>
+	<key>FS_fcliveness_pan_right_guide</key>
+	<string>右を見てください</string>
+	<key>FS_fcliveness_progress_number</key>
+	<string>%d</string>
+	<key>FS_fcliveness_progress_unit</key>
+	<string>%</string>
+	<key>FS_fcliveness_roll_left_guide</key>
+	<string>顔を左に傾けてください</string>
+	<key>FS_fcliveness_roll_right_guide</key>
+	<string>顔を右傾けてください</string>
+	<key>FS_fcliveness_smile_guide</key>
+	<string>笑ってください</string>
+	<key>FS_fcliveness_tilt_guide</key>
+	<string>うなずいてください</string>
+	<key>FS_fcmanage_guide</key>
+	<string>顔認証の登録・削除</string>
+	<key>FS_fcreg_guide</key>
+	<string>カメラで顔を撮影して登録を行ってください</string>
+	<key>FS_fcreg_info1</key>
+	<string>登録します。(1)</string>
+	<key>FS_fcreg_info2</key>
+	<string>登録します。(2)</string>
+	<key>FS_fcreg_info3</key>
+	<string>登録します。(3)</string>
+	<key>FS_fcreg_info4</key>
+	<string>登録します。(4)</string>
+	<key>FS_fcreg_welcome</key>
+	<string>登録します!</string>
+	<key>FS_feature_name</key>
+	<string>顔画像%1$d</string>
+	<key>FS_matchscore_error_msg</key>
+	<string>_[ScoreInfo]_%1$@</string>
+	<key>FS_toast_low_quality</key>
+	<string>ぶれないように撮影を行ってください</string>
+	<key>FS_toast_mask_weared</key>
+	<string>マスクを外してください</string>
+	<key>FS_toast_not_frontal</key>
+	<string>カメラを正面から見てください</string>
+	<key>FS_toast_push_auth_button</key>
+	<string>認識開始ボタンを押してください</string>
+	<key>FS_toast_sunglasses_weared</key>
+	<string>サングラスを外してください</string>
+	<key>FS_toast_too_small</key>
+	<string>カメラを近づけてください</string>
+	<key>FS_voice_name</key>
+	<string>音声%1$d</string>
+	<key>authntr_choose_alert_cancel</key>
+	<string>キャンセル</string>
+	<key>authntr_choose_alert_message</key>
+	<string>認証方法を選んでください</string>
+	<key>authntr_choose_multi_title</key>
+	<string>%1$@+その他</string>
+	<key>authntr_confirm_alert_accept</key>
+	<string>OK</string>
+	<key>authntr_confirm_alert_deny</key>
+	<string>キャンセル</string>
+	<key>authntr_confirm_alert_message</key>
+	<string>次の認証方法の登録を行います</string>
+	<key>authntr_customtitle_faceID</key>
+	<string>Face ID認証</string>
+	<key>authntr_customtitle_faceprint</key>
+	<string>顔認証</string>
+	<key>authntr_customtitle_fingerprint</key>
+	<string>指紋認証</string>
+	<key>face_recognition_cancel</key>
+	<string>キャンセル</string>
+	<key>face_recognition_retry</key>
+	<string>やり直す</string>
+	<key>faceprint_edit_accept</key>
+	<string>OK</string>
+	<key>faceprint_edit_cancel</key>
+	<string>キャンセル</string>
+	<key>faceprint_edit_delete</key>
+	<string>削除</string>
+	<key>faceprint_edit_hint</key>
+	<string>顔画像名</string>
+	<key>faceprint_edit_too_long</key>
+	<string>顔画像名が長すぎます</string>
+	<key>faceprint_edit_too_short</key>
+	<string>顔画像名は省略できません</string>
+	<key>faceprint_manager_accept</key>
+	<string>OK</string>
+	<key>faceprint_manager_cancel</key>
+	<string>キャンセル</string>
+	<key>faceprint_manager_delete</key>
+	<string>全顔画像を削除</string>
+	<key>faceprint_manager_delete_confirm_alert</key>
+	<string>本当に削除してもよろしいですか？</string>
+	<key>faceprint_manager_deleted_alert</key>
+	<string>削除しました</string>
+	<key>faceprint_manager_filter_hint</key>
+	<string>フィルター</string>
+	<key>faceprint_manager_max_register_alert</key>
+	<string>登録数上限まで登録されています</string>
+	<key>faceprint_manager_regist</key>
+	<string>顔画像を登録</string>
+	<key>locale</key>
+	<string>日本語</string>
+	<key>transaction_alert_accept</key>
+	<string>承認する</string>
+	<key>transaction_alert_deny</key>
+	<string>取り消す</string>
+	<key>transaction_alert_message</key>
+	<string>%1$@ appID:%2$@</string>
+	<key>transaction_alert_title</key>
+	<string>手続き処理が完了しました</string>
+	<key>user_choose_alert_cancel</key>
+	<string>キャンセル</string>
+	<key>user_choose_alert_message</key>
+	<string>認証するユーザーを選んでください</string>
+</dict>
+</plist>

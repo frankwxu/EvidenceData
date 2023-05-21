@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTIVITY_CONNECTING</key>
+	<string>‎Yhdistetään...</string>
+	<key>ACTIVITY_LOADING</key>
+	<string>‎Ladataan…</string>
+	<key>ACTIVITY_WAITING_FOR_NETWORK</key>
+	<string>‎Odotetaan verkkoa</string>
+	<key>ADDRESS_TITLE</key>
+	<string>‎Osoite</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_FACE_ID</key>
+	<string>‎Face ID vaaditaan apille %@.</string>
+	<key>BIOMETRIC_PRIVACY_AUTHENTICATE_TOUCH_ID</key>
+	<string>‎Touch ID vaaditaan apille %@.</string>
+	<key>BIOMETRIC_PRIVACY_ENABLE_FACE_ID</key>
+	<string>‎%@ vaatii luvan käyttää Face ID:tä, jotta voit jatkaa.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_FACE_ID_PROMPT</key>
+	<string>‎Ota Face ID käyttöön iPhonen asetuksissa käyttääksesi appia %1$@.</string>
+	<key>BIOMETRIC_PRIVACY_SET_UP_TOUCH_ID_PROMPT</key>
+	<string>‎Ota Touch ID käyttöön iPhonen asetuksissa käyttääksesi appia %1$@.</string>
+	<key>BIZ_ACCOUNT</key>
+	<string>‎Yritystili</string>
+	<key>BIZ_CATEGORIES_TITLE</key>
+	<string>‎Luokat</string>
+	<key>BIZ_CATEGORY_TITLE</key>
+	<string>‎Luokka</string>
+	<key>BIZ_HOURS_AND_ADDRESS</key>
+	<string>‎%1$@ • %2$@</string>
+	<key>BIZ_HOURS_TITLE</key>
+	<string>‎Aukioloajat</string>
+	<key>BIZ_NAME_TITLE</key>
+	<string>‎Yrityksen nimi</string>
+	<key>BIZ_REPORT</key>
+	<string>‎Ilmianna</string>
+	<key>BIZ_REPORT_ILLEGAL</key>
+	<string>‎Tämä on herjaava, vahingollinen tai laiton</string>
+	<key>BIZ_REPORT_KNOCKOFF</key>
+	<string>‎Tämä vaikuttaa olevan jäljitelmä tai väärennetty tuote</string>
+	<key>BIZ_REPORT_NO_MATCH</key>
+	<string>‎Kuvat tai kuvaukset eivät vastaa tuotetta</string>
+	<key>BIZ_REPORT_OTHER</key>
+	<string>‎Muu</string>
+	<key>BIZ_REPORT_PRODUCT_TITLE_FOR_HEADER</key>
+	<string>‎Kerro meille, mitä tapahtuu</string>
+	<key>BIZ_REPORT_SCAM</key>
+	<string>‎Tämä on petosta tai huijaus</string>
+	<key>BIZ_REPORT_SPAM</key>
+	<string>‎Tämä on roskapostia</string>
+	<key>BIZ_REPORT_THIS_PRODUCT</key>
+	<string>‎Haluatko ilmiantaa tämän tuotteen tai palvelun?</string>
+	<key>BIZ_SEND_PRODUCT</key>
+	<string>‎Lähetä</string>
+	<key>BIZ_TELL_US_MORE</key>
+	<string>‎Kerro meille lisää</string>
+	<key>BIZ_THIS_PRODUCT_HAS_BEEN_REPORTED</key>
+	<string>‎Kiitos. Ilmiantosi on lähetetty.</string>
+	<key>BIZ_VERTICAL_APPAREL</key>
+	<string>‎Vaatetus</string>
+	<key>BIZ_VERTICAL_AUTO</key>
+	<string>‎Autoala</string>
+	<key>BIZ_VERTICAL_BEAUTY</key>
+	<string>‎Kauneus ja hyvinvointi</string>
+	<key>BIZ_VERTICAL_EDU</key>
+	<string>‎Koulutus</string>
+	<key>BIZ_VERTICAL_ENTERTAIN</key>
+	<string>‎Viihde</string>
+	<key>BIZ_VERTICAL_EVENT_PLAN</key>
+	<string>‎Tapahtumat</string>
+	<key>BIZ_VERTICAL_FINANCE</key>
+	<string>‎Talous ja pankki</string>
+	<key>BIZ_VERTICAL_GROCERY</key>
+	<string>‎Ruoka ja elintarvikkeet</string>
+	<key>BIZ_VERTICAL_HEALTH</key>
+	<string>‎Terveys</string>
+	<key>BIZ_VERTICAL_HOTEL</key>
+	<string>‎Majoitus</string>
+	<key>BIZ_VERTICAL_NONPROFIT</key>
+	<string>‎Voittoa tavoittelematon järjestö</string>
+	<key>BIZ_VERTICAL_NOTABIZ</key>
+	<string>‎Ei yritys</string>
+	<key>BIZ_VERTICAL_OTHER</key>
+	<string>‎Muu</string>
+	<key>BIZ_VERTICAL_POLICY</key>
+	<string>‎Julkinen palvelu</string>
+	<key>BIZ_VERTICAL_PROF_SERVICES</key>
+	<string>‎Ammattilaispalvelu</string>
+	<key>BIZ_VERTICAL_RESTAURANT</key>
+	<string>‎Ravintola</string>
+	<key>BIZ_VERTICAL_RETAIL</key>
+	<string>‎Ostokset</string>
+	<key>BIZ_VERTICAL_TRAVEL</key>
+	<string>‎Kuljetuspalvelu</string>
+	<key>BIZ_WE_WILL_REVIEW</key>
+	<string>‎Tarkistamme tuotteen tai palvelun ja se poistetaan, jos se ei ole ohjeistuksemme mukainen.</string>
+	<key>BLOCKLIST_BLOCK_BUTTON_TITLE</key>
+	<string>‎Estä</string>
+	<key>BLOCKLIST_HELPER_TEXT</key>
+	<string>‎Estetyt yhteystiedot eivät voi soittaa tai lähettää viestejä sinulle.</string>
+	<key>BLOCKLIST_HELPER_TEXT_BUSINESS_WITH_REASONS</key>
+	<string>‎Estetäänkö %@? Tällöin tämä yritys ei voi enää soittaa tai lähettää sinulle viestejä. Kerro, miksi haluat estää yrityksen:</string>
+	<key>BLOCKLIST_UNBLOCK_BUTTON_TITLE</key>
+	<string>‎Poista esto</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_CALL</key>
+	<string>‎Poista henkilön esto soittaaksesi WhatsApp-puhelun hänelle.</string>
+	<key>BLOCKLIST_UNBLOCK_CONTACT_TO_SEND_MESSAGE</key>
+	<string>‎Poista esto lähettääksesi viestin.</string>
+	<key>BLOCKLIST_UNBLOCK_TO_ADD</key>
+	<string>‎Poista esto lisätäksesi</string>
+	<key>BLOCKLIST_UNBLOCK_TO_CALL</key>
+	<string>‎Poista esto soittaaksesi</string>
+	<key>BLOCKLIST_UNBLOCK_TO_MESSAGE</key>
+	<string>‎Poista esto lähettääksesi viestin</string>
+	<key>BLOCKLIST_UNBLOCK_TO_REMOVE</key>
+	<string>‎Poista esto poistaaksesi</string>
+	<key>BLOCK_REASON_BAD_EXPERIENCE</key>
+	<string>‎Huono kokemus</string>
+	<key>BLOCK_REASON_DIDNT_OPTIN</key>
+	<string>‎En tilannut</string>
+	<key>BLOCK_REASON_NEED_RESOLVED</key>
+	<string>‎Asiani selvisi</string>
+	<key>BLOCK_REASON_NO_LONGER_INTERESTED</key>
+	<string>‎En ole enää kiinnostunut</string>
+	<key>BLOCK_REASON_NO_REASON</key>
+	<string>‎Ei syytä</string>
+	<key>BLOCK_SHORTENED</key>
+	<string>‎Estä</string>
+	<key>BLOC_BIZ_HELPER_TEXT</key>
+	<string>‎Estetyt yritykset eivät voi soittaa tai lähettää viestejä sinulle.</string>
+	<key>BUTTON_BACK</key>
+	<string>‎Takaisin</string>
+	<key>BUTTON_CANCEL</key>
+	<string>‎Kumoa</string>
+	<key>BUTTON_CLOSE</key>
+	<string>‎Sulje</string>
+	<key>BUTTON_CONFIRM</key>
+	<string>‎Vahvista</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>‎Jatka</string>
+	<key>BUTTON_DONE</key>
+	<string>‎Valmis</string>
+	<key>BUTTON_FORWARD</key>
+	<string>‎Välitä</string>
+	<key>BUTTON_LEARN_MORE</key>
+	<string>‎Lue lisää</string>
+	<key>BUTTON_NEXT</key>
+	<string>‎Seuraava</string>
+	<key>BUTTON_NOT_NOW</key>
+	<string>‎Ei nyt</string>
+	<key>BUTTON_OK</key>
+	<string>‎OK</string>
+	<key>BUTTON_OPEN_SETTINGS</key>
+	<string>‎Avaa Asetukset</string>
+	<key>BUTTON_RESET</key>
+	<string>‎Nollaa</string>
+	<key>BUTTON_SEND</key>
+	<string>‎Lähetä</string>
+	<key>BUTTON_TRY_AGAIN</key>
+	<string>‎Yritä uudelleen</string>
+	<key>BUTTON_UNDO</key>
+	<string>‎Peru</string>
+	<key>CHANGE_NUMBER_OLD_PHONE_LABEL</key>
+	<string>‎vanha numero</string>
+	<key>CHAT_INPUT_BAR_PLACEHOLDER_TEXT</key>
+	<string>‎Lisää kuvateksti...</string>
+	<key>CHAT_MENU_MORE</key>
+	<string>‎Lisää</string>
+	<key>CHAT_SUBJECT_TEXT_RECIPIENTS</key>
+	<string>‎Vastaanottajat: %@</string>
+	<key>COMMON_ERROR</key>
+	<string>‎Virhe</string>
+	<key>COMPANY_LABEL</key>
+	<string>‎yritys</string>
+	<key>CONTACTS_LIST_EMPTY_CONTACTS_DESC</key>
+	<string>‎Ei yhteystietoja</string>
+	<key>CONTACTS_{{0}}</key>
+	<string>‎%@ yhteystieto</string>
+	<key>CONTACTS_{{1}}</key>
+	<string>‎%@ yhteystietoa</string>
+	<key>CONTACT_PLACEHOLDER_NAME</key>
+	<string>‎Yhteystieto</string>
+	<key>CONTACT_US_DOES_NOT_ANSWER_MY_QUESTION</key>
+	<string>‎Tämä ei vastaa kysymykseeni</string>
+	<key>CONTENT_STICKERS_HEADER</key>
+	<string>‎Sisältötarrat</string>
+	<key>COULDNT_SEND_MESSAGES_{{0}}</key>
+	<string>‎%@ viestiä ei voitu lähettää.</string>
+	<key>COULDNT_SEND_MESSAGES_{{1}}</key>
+	<string>‎%@ viestiä ei voitu lähettää.</string>
+	<key>DEPRECATED_DEVICE_NO_SUPPORT</key>
+	<string>‎WhatsApp ei enää tue puhelintasi.</string>
+	<key>DOCUMENT_MESSAGE_DEFAULT_TITLE</key>
+	<string>‎Nimetön</string>
+	<key>EMOJI_CATEGORY_ACTIVITY</key>
+	<string>‎Toiminta</string>
+	<key>EMOJI_CATEGORY_ANIMALS_NATURE</key>
+	<string>‎Eläimet ja luonto</string>
+	<key>EMOJI_CATEGORY_FLAGS</key>
+	<string>‎Liput</string>
+	<key>EMOJI_CATEGORY_FOOD_DRINK</key>
+	<string>‎Ruoka ja juoma</string>
+	<key>EMOJI_CATEGORY_OBJECTS</key>
+	<string>‎Esineet</string>
+	<key>EMOJI_CATEGORY_SMILEYS_PEOPLE</key>
+	<string>‎Hymiöt ja ihmiset</string>
+	<key>EMOJI_CATEGORY_SYMBOLS</key>
+	<string>‎Symbolit</string>
+	<key>EMOJI_CATEGORY_TRAVEL_AND_PLACES</key>
+	<string>‎Matkailu ja paikat</string>
+	<key>EMOJI_SEARCH_NO_RESULTS</key>
+	<string>‎Ei tuloksia haulle “%@”</string>
+	<key>EMOJI_SEARCH_RECENT_EMOJIS_HEADER</key>
+	<string>‎Äskeiset</string>
+	<key>EMOJI_SEARCH_RESULTS</key>
+	<string>‎Emojihaun "%@" tulokset</string>
+	<key>ERROR_COULDNT_CONNECT_TO_SERVICE</key>
+	<string>‎Ei voitu yhdistää WhatsApp-palveluun.</string>
+	<key>ERROR_OCCURRED</key>
+	<string>‎Tapahtui virhe.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_DEFAULT</key>
+	<string>‎%1$@ ei voi käyttää kameraa. Salli tämä napauttamalla Asetukset ja kytke Kamera päälle.</string>
+	<key>ERR_NO_CAMERA_PERMISSION_VIDEO_CALL</key>
+	<string>‎%@ tarvitsee pääsyn iPhonen kameraan, jotta voit käyttää videopuheluita. Napauta Asetukset ja kytke kamera päälle.</string>
+	<key>EXTENSION_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>FILTER_NAME_BW</key>
+	<string>‎Mustav.</string>
+	<key>FILTER_NAME_COOL</key>
+	<string>‎Kylmä</string>
+	<key>FILTER_NAME_FILM</key>
+	<string>‎Filmi</string>
+	<key>FILTER_NAME_NONE</key>
+	<string>‎Ei mitään</string>
+	<key>FILTER_NAME_PEN</key>
+	<string>‎Värikor.</string>
+	<key>FILTER_NAME_POP</key>
+	<string>‎Pop</string>
+	<key>GROUP_INVITE_NOTIFICATION_TEXT</key>
+	<string>‎Ryhmäkutsu</string>
+	<key>GROUP_SEND_ERROR_NOT_ADMIN</key>
+	<string>‎Vain ylläpitäjät voivat lähettää viestejä tähän ryhmään.</string>
+	<key>GROUP_SEND_ERROR_NOT_PARTICIPANT</key>
+	<string>‎Et voi lähettää viestejä tähän ryhmään, koska et ole enää ryhmän jäsen.</string>
+	<key>HOME_SCREEN_APP_NAME</key>
+	<string>‎WhatsApp</string>
+	<key>INCOMPATIBLE_ADD_ONS_ON_JAILBROKEN_PHONE</key>
+	<string>‎Liitännäiset, joita käytät jailbroken-muunnetulla iPhonellasi eivät ole yhteensopivia tämän apin %1$@ version kanssa.</string>
+	<key>INPUT_LABEL_EMAIL</key>
+	<string>‎S-posti</string>
+	<key>INSTAGRAM</key>
+	<string>‎Instagram</string>
+	<key>INTERNET_REQUIRED_TO_UPDATE_SETTINGS</key>
+	<string>‎%1$@ vaatii toimivan internetyhteyden asetuksien päivittämiseen</string>
+	<key>JAILBROKEN_NO_SUPPORT_AVAILABLE</key>
+	<string>‎Meillä ei tällä hetkellä ole mahdollisuutta tukea jailbreak-laitteita.
+‎
+‎Jos sinulla on ongelmia, palauta laitteesi tehdasasetuksiin.</string>
+	<key>JOINED_BIZ_CATEGORIES</key>
+	<string>‎%1$@, %2$@</string>
+	<key>JOINED_SENTENCES</key>
+	<string>‎%1$@ %2$@</string>
+	<key>LABEL_DATE_ANNIVERSARY</key>
+	<string>‎merkkipäivä</string>
+	<key>LABEL_HOME</key>
+	<string>‎koti</string>
+	<key>LABEL_OTHER</key>
+	<string>‎muu</string>
+	<key>LABEL_PHONE_NUMBER_HOME_FAX</key>
+	<string>‎kotifaksi</string>
+	<key>LABEL_PHONE_NUMBER_MAIN</key>
+	<string>‎päänumero</string>
+	<key>LABEL_PHONE_NUMBER_MOBILE</key>
+	<string>‎matkapuh.</string>
+	<key>LABEL_PHONE_NUMBER_OTHER_FAX</key>
+	<string>‎muu faksi</string>
+	<key>LABEL_PHONE_NUMBER_PAGER</key>
+	<string>‎hakulaite</string>
+	<key>LABEL_PHONE_NUMBER_WORK_FAX</key>
+	<string>‎faksi (työ)</string>
+	<key>LABEL_SCHOOL</key>
+	<string>‎koulu</string>
+	<key>LABEL_URL_ADDRESS_HOME</key>
+	<string>‎verkkosivu</string>
+	<key>LABEL_WORK</key>
+	<string>‎työ</string>
+	<key>LINK_ACCESSIBILITY_HINT</key>
+	<string>‎Avaa linkki kaksoisnapauttamalla.</string>
+	<key>LIVE_LOCATION_ENDED</key>
+	<string>‎Live-sijainti päättyi</string>
+	<key>LIVE_LOCATION_ENDED_VOICEOVER</key>
+	<string>‎Live-sijainti päättyi</string>
+	<key>LOCALIZED_APP_NAME_LONG</key>
+	<string>‎WhatsApp Messenger</string>
+	<key>LOCALIZED_APP_NAME_SHORT</key>
+	<string>‎WhatsApp</string>
+	<key>LOCALIZED_SMB_APP_NAME_LONG</key>
+	<string>‎WhatsApp Business</string>
+	<key>LOCALIZED_SMB_APP_NAME_SHORT</key>
+	<string>‎WhatsApp Business</string>
+	<key>MATCHING_VCARD_CONTACTS_TITLE</key>
+	<string>‎Vastaavat</string>
+	<key>MEDIA_ANIMATED_GIF</key>
+	<string>‎GIF-animaatio</string>
+	<key>MEDIA_AUDIO</key>
+	<string>‎Ääni</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{0}}</key>
+	<string>‎%@ äänitiedosto valittu</string>
+	<key>MEDIA_AUDIOS_SELECTED_{{1}}</key>
+	<string>‎%@ äänitiedostoa valittu</string>
+	<key>MEDIA_CANNOT_BESELECTED</key>
+	<string>‎Kohdetta ei voitu valita. Valitse toinen kohde.</string>
+	<key>MEDIA_DOCUMENT</key>
+	<string>‎Dokumentti</string>
+	<key>MEDIA_GIF</key>
+	<string>‎GIF</string>
+	<key>MEDIA_GIFS_SELECTED_{{0}}</key>
+	<string>‎%@ GIF-animaatio valittu</string>
+	<key>MEDIA_GIFS_SELECTED_{{1}}</key>
+	<string>‎%@ GIF-animaatiota valittu</string>
+	<key>MEDIA_ITEMS_SELECTED_{{0}}</key>
+	<string>‎%@ kohde valittu</string>
+	<key>MEDIA_ITEMS_SELECTED_{{1}}</key>
+	<string>‎%@ kohdetta valittu</string>
+	<key>MEDIA_ITEMS_{{0}}</key>
+	<string>‎%@ kohde</string>
+	<key>MEDIA_ITEMS_{{1}}</key>
+	<string>‎%@ kohdetta</string>
+	<key>MEDIA_LANDSCAPE</key>
+	<string>‎Vaaka</string>
+	<key>MEDIA_LIVE_LOCATION</key>
+	<string>‎Live-sijainti</string>
+	<key>MEDIA_LOCATION</key>
+	<string>‎Sijainti</string>
+	<key>MEDIA_PAGES_{{0}}</key>
+	<string>‎%@ sivu</string>
+	<key>MEDIA_PAGES_{{1}}</key>
+	<string>‎%@ sivua</string>
+	<key>MEDIA_PHOTO</key>
+	<string>‎Kuva</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{0}}</key>
+	<string>‎%@ kuva valittu</string>
+	<key>MEDIA_PHOTOS_SELECTED_{{1}}</key>
+	<string>‎%@ kuvaa valittu</string>
+	<key>MEDIA_PHOTOS_{{0}}</key>
+	<string>‎%@ kuva</string>
+	<key>MEDIA_PHOTOS_{{1}}</key>
+	<string>‎%@ kuvaa</string>
+	<key>MEDIA_PORTRAIT</key>
+	<string>‎Pysty</string>
+	<key>MEDIA_PRODUCTS_{{0}}</key>
+	<string>‎%@ tuote</string>
+	<key>MEDIA_PRODUCTS_{{1}}</key>
+	<string>‎%@ tuotetta</string>
+	<key>MEDIA_PTT_LOW_VOLUME_WARNING</key>
+	<string>‎Lisää äänenvoimakkuutta kuullaksesi</string>
+	<key>MEDIA_SELECT</key>
+	<string>‎Valitse</string>
+	<key>MEDIA_SHEETS_{{0}}</key>
+	<string>‎%@ taulukko</string>
+	<key>MEDIA_SHEETS_{{1}}</key>
+	<string>‎%@ taulukkoa</string>
+	<key>MEDIA_SLIDES_{{0}}</key>
+	<string>‎%@ dia</string>
+	<key>MEDIA_SLIDES_{{1}}</key>
+	<string>‎%@ diaa</string>
+	<key>MEDIA_VIDEO</key>
+	<string>‎Video</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{0}}</key>
+	<string>‎%@ video valittu</string>
+	<key>MEDIA_VIDEOS_SELECTED_{{1}}</key>
+	<string>‎%@ videota valittu</string>
+	<key>MEDIA_VIDEOS_{{0}}</key>
+	<string>‎%@ video</string>
+	<key>MEDIA_VIDEOS_{{1}}</key>
+	<string>‎%@ videota</string>
+	<key>MEDIA_VOICE_MESSAGE</key>
+	<string>‎Ääniviesti</string>
+	<key>MESSAGE_GENERIC</key>
+	<string>‎Viesti</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{0}}</key>
+	<string>‎Vain ensimmäinen %@ merkki lähetetään omaan tilaan. Haluatko jatkaa?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_MY_STATUS_{{1}}</key>
+	<string>‎Vain ensimmäiset %@ merkkiä lähetetään omaan tilaan. Haluatko jatkaa?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{0}}</key>
+	<string>‎Vain %@ merkki lähetetään. Haluatko jatkaa?</string>
+	<key>MESSAGE_TRUNCATION_WARNING_{{1}}</key>
+	<string>‎Vain ensimmäiset %@ merkkiä lähetetään. Haluatko jatkaa?</string>
+	<key>MESSAGE_TYPE_CONTACT</key>
+	<string>‎Yhteystieto</string>
+	<key>MULTISEND_FIT_TO_SCREEN</key>
+	<string>‎Sovita näytölle</string>
+	<key>MULTISEND_ORIGINAL</key>
+	<string>‎Alkuperäinen</string>
+	<key>MULTISEND_PICKER_HEADER_EMOJI</key>
+	<string>‎Emojit</string>
+	<key>MULTISEND_PICKER_HEADER_FAVORITE_STICKERS</key>
+	<string>‎Suosikit</string>
+	<key>MULTISEND_PICKER_HEADER_STICKERS</key>
+	<string>‎Tarrat</string>
+	<key>MULTISEND_SQUARE</key>
+	<string>‎Neliö</string>
+	<key>NICKNAME_LABEL</key>
+	<string>‎lempinimi</string>
+	<key>NOTIFICATION_CONTACT_AT_GROUP_MESSAGE</key>
+	<string>‎%1$@ @ “%2$@”:
+‎%3$@</string>
+	<key>NOTIFICATION_CONTACT_MESSAGE</key>
+	<string>‎%1$@: %2$@</string>
+	<key>NOTIFICATION_MESSAGE</key>
+	<string>‎Viesti</string>
+	<key>NOTIFICATION_MESSAGE_FROM</key>
+	<string>‎Viesti henkilöltä %@</string>
+	<key>NOTIFICATION_MESSAGE_FROM_CONTACT_AT_GROUP</key>
+	<string>‎Viesti henkilöltä %1$@ ryhmässä “%2$@”</string>
+	<key>NOTIFICATION_TITLE_CONTACT</key>
+	<string>‎%1$@</string>
+	<key>NOTIFICATION_TITLE_CONTACT_AT_GROUP</key>
+	<string>‎%1$@ ryhmässä %2$@</string>
+	<key>NO_RESULTS</key>
+	<string>‎Ei tuloksia</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>‎Toiminnon avulla voit luoda tapahtumia kalenteriin.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>‎Toiminnon avulla voit ottaa kuvia ja videoita suoraan WhatsAppissa.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>‎Lataa yhteystiedot WhatsAppin palvelimelle, niin saat yhteyden ystäviisi nopeasti ja voimme tarjota sinulle paremman palvelun.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>‎Avaa WhatsAppin lukitus Face ID:llä.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>‎Jos sallit WhatsAppin käyttää sijaintiasi aina, voit halutessasi jakaa live-sijaintisi ja se päivittyy, vaikka et käyttäisi appia. Jos sallit sijainnin käytön vain käytettäessä appia, voit lähettää vain nykyisen sijaintisi tai lähellä olevan paikan.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>‎Jos sallit WhatsAppin käyttää sijaintiasi aina, voit halutessasi jakaa live-sijaintisi ja se päivittyy, vaikka et käyttäisi appia. Jos sallit sijainnin käytön, voit myös lähettää nykyisen sijaintisi tai lähellä olevan paikan.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>‎Toiminnon avulla voit lähettää sijaintisi tai tiedon läheisestä paikasta keskusteluun.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>‎Toiminnon avulla voit lähettää sijaintisi tai tiedon läheisestä paikasta keskusteluun.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>‎Toiminnon avulla voit soittaa puheluita, lähettää ääniviestejä ja nauhoittaa videoita äänellä.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>‎Toiminnon avulla voit lähettää kuvia ja videoita kirjastosta sekä tallentaa WhatsAppissa olevia kuvia ja videoita kirjastoon.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>‎Toiminnon avulla voit asettaa muistutuksia ystävillesi soittamisesta.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>‎Toiminnon avulla voit lähettää ja kuunnella viestejä sekä soittaa puheluita nopeasti Sirillä.</string>
+	<key>OPERATION_ABORTED</key>
+	<string>‎Toiminto hylättiin.</string>
+	<key>OPERATION_CANCELLED</key>
+	<string>‎Toiminto peruutettiin.</string>
+	<key>OTHERS_VCARD_CONTACTS_TITLE</key>
+	<string>‎Muut</string>
+	<key>PAYMENT_NOTIFICATION</key>
+	<string>‎maksu</string>
+	<key>PAYMENT_REQUEST_NOTIFICATION</key>
+	<string>‎maksupyyntö</string>
+	<key>PERM_CALENDARS</key>
+	<string>‎%1$@ ei voi käyttää kalentereitasi.
+‎Salli käyttö napauttamalla Asetukset ja kytke kalenterit päälle</string>
+	<key>PERM_FACEID</key>
+	<string>‎%1$@ ei voi käyttää Face ID:tä. Salli käyttö kohdassa Asetukset &gt; Face ID ja pääsykoodi &gt; Käytä Face ID:tä seuraaviin toimintoihin: &gt; Muut apit</string>
+	<key>PERM_LOCATION_7</key>
+	<string>‎%1$@ ei voi käyttää sijaintiasi.
+‎Salli käyttö avaamalla iPhonen asetukset &gt; Tietosuoja &gt; Sijaintipalvelut &gt; %2$@</string>
+	<key>PERM_PHOTOS_7</key>
+	<string>‎%1$@ ei voi käyttää kuviasi ja videoitasi.
+‎Salli käyttö avaamalla iPhonen asetukset &gt; Tietosuoja &gt; Kuvat &gt; %2$@</string>
+	<key>PERM_REMINDERS</key>
+	<string>‎%1$@ ei voi käyttää muistutuksiasi.
+‎Salli käyttö napauttamalla Asetukset ja kytke Muistutukset päälle</string>
+	<key>PHONE_VERIFICATION_RESEND_CODE</key>
+	<string>‎Lähetä uudelleen</string>
+	<key>PHONE_VERIFICATION_RESEND_SMS</key>
+	<string>‎Lähetä uudelleen (%@)</string>
+	<key>PHOTO_LIBRARY_ERROR_SAVE_FAILED</key>
+	<string>‎Tätä mediaa ei voida tallentaa.</string>
+	<key>PHOTO_LIBRARY_PERMISSIONS</key>
+	<string>‎%1$@ ei voi käyttää kuviasi tai videoitasi. Salli tämä napauttamalla Asetukset ja kytke Kuvat päälle.</string>
+	<key>PHOTO_LIBRARY_PHOTO_ASSET_NOT_READY</key>
+	<string>‎Ladataan kuvaa</string>
+	<key>PHOTO_LIBRARY_PHOTO_FAILED</key>
+	<string>‎Tätä kuvaa ei voida käyttää. Valitse toinen kuva.</string>
+	<key>PHOTO_LIBRARY_PHOTO_NOT_READY_YET</key>
+	<string>‎Kuvaa ladataan edelleen, yritä myöhemmin uudelleen.</string>
+	<key>PHOTO_LIBRARY_VIDEO_ASSET_NOT_READY</key>
+	<string>‎Ladataan videota</string>
+	<key>PHOTO_LIBRARY_VIDEO_FAILED</key>
+	<string>‎Tätä videota ei voida käyttää. Valitse toinen video.</string>
+	<key>PHOTO_LIBRARY_VIDEO_NOT_READY_YET</key>
+	<string>‎Videota ladataan edelleen, yritä myöhemmin uudelleen.</string>
+	<key>PIN_ENTRY_FIELD_ACCESSIBILITY_LABEL</key>
+	<string>‎PIN-koodin syöttämiskenttä</string>
+	<key>PIP_VIDEO_CANNOT_BE_PLAYED</key>
+	<string>‎Tätä videota ei voi toistaa.</string>
+	<key>PLACEHOLDER_SEARCH</key>
+	<string>‎Haku</string>
+	<key>PRODUCT</key>
+	<string>‎Tuote</string>
+	<key>QUOTED_LIVE_LOCATION_SNIPPET</key>
+	<string>‎Live-sijainti</string>
+	<key>RECIPIENTS_SEND_TO</key>
+	<string>‎Vastaanottaja:</string>
+	<key>REG_INVALID_CODE</key>
+	<string>‎Syöttämäsi koodi on väärä.</string>
+	<key>REQUEST_TOOK_TOO_LONG_TRY_AGAIN_LATER</key>
+	<string>‎Virhe ilmaantui, pyynnössäsi kesti liian pitkään. Yritä myöhemmin uudelleen.</string>
+	<key>REQUIRED_PLACEHOLDER</key>
+	<string>‎Pakollinen</string>
+	<key>REVOKE_QR_CODE_ERROR</key>
+	<string>‎Virheellinen koodi tunnistettu</string>
+	<key>REVOKE_QR_CODE_ERROR_MESSAGE</key>
+	<string>‎Tämä koodi ei ole enää toimiva. Se on saatettu nollata tai siihen liitettyä tiliä ei ole enää olemassa.</string>
+	<key>ROTATION_DEGREES_{{0}}</key>
+	<string>‎%@ aste</string>
+	<key>ROTATION_DEGREES_{{1}}</key>
+	<string>‎%@ astetta</string>
+	<key>SENDER_ADDED_YOU_TO_GROUP</key>
+	<string>‎%1$@ lisäsi sinut ryhmään “%2$@”</string>
+	<key>SEND_FULL</key>
+	<string>‎Lähetä</string>
+	<key>SERVICE_EXTENSION_REVOKE_MESSAGE</key>
+	<string>‎%1$@ poisti viestin.</string>
+	<key>SERVICE_PROBLEM</key>
+	<string>‎Ongelma palvelun kanssa. Koodi = %ld.</string>
+	<key>SETTINGS_APP</key>
+	<string>‎Asetukset</string>
+	<key>SHARE_CONTACT_SHORT</key>
+	<string>‎Jaa yhteystieto</string>
+	<key>SINGLE_MESSAGE_SEND_FAILED</key>
+	<string>‎Viestin lähetys epäonnistui.</string>
+	<key>SMB_PRODUCT_CATALOG_MESSAGE_BUSINESS</key>
+	<string>‎Viesti yritykselle</string>
+	<key>SMB_PRODUCT_CATALOG_RETRIEVE_ERROR</key>
+	<string>‎Tapahtui virhe. Tarkista, että käyttämäsi laitteen internet-yhteys on toiminnassa ja yritä uudelleen.</string>
+	<key>STANDALONE_ME</key>
+	<string>‎Minä</string>
+	<key>STANDALONE_YOU</key>
+	<string>‎Sinä</string>
+	<key>STATUSV3</key>
+	<string>‎Tila</string>
+	<key>STATUSV3_MY_STATUS</key>
+	<string>‎Oma tila</string>
+	<key>STATUS_COLOR_BALI_HAI</key>
+	<string>‎Tummansininen</string>
+	<key>STATUS_COLOR_BITTERSWEET</key>
+	<string>‎Punertava</string>
+	<key>STATUS_COLOR_BRANDY_ROSE</key>
+	<string>‎Vaaleanruskea</string>
+	<key>STATUS_COLOR_BRIGHT_SUN</key>
+	<string>‎Oranssi</string>
+	<key>STATUS_COLOR_CE_SOIR</key>
+	<string>‎Kirkkaan oranssi</string>
+	<key>STATUS_COLOR_EARLS_GREEN</key>
+	<string>‎Keltavihreä</string>
+	<key>STATUS_COLOR_ELEPHANT</key>
+	<string>‎Syvä sininen</string>
+	<key>STATUS_COLOR_EMERALD</key>
+	<string>‎Vihreä</string>
+	<key>STATUS_COLOR_MAYA_BLUE</key>
+	<string>‎Kirkkaan sininen</string>
+	<key>STATUS_COLOR_MAYA_BLUE_2</key>
+	<string>‎Kirkkaan sininen</string>
+	<key>STATUS_COLOR_MEDIUM_RED_VIOLET</key>
+	<string>‎Tummempi punainen</string>
+	<key>STATUS_COLOR_MONA_LISA</key>
+	<string>‎Kirkas punainen</string>
+	<key>STATUS_COLOR_MONTE_CARLO</key>
+	<string>‎Vaalean vihreä</string>
+	<key>STATUS_COLOR_POLO_BLUE</key>
+	<string>‎Vaaleansininen</string>
+	<key>STATUS_COLOR_PRELUDE</key>
+	<string>‎Purppura</string>
+	<key>STATUS_COLOR_SCARLETT</key>
+	<string>‎Tummanpunainen</string>
+	<key>STATUS_COLOR_SCORPION</key>
+	<string>‎Tumma</string>
+	<key>STATUS_COLOR_SUMMER_SKY</key>
+	<string>‎Taivaansininen</string>
+	<key>STATUS_COLOR_SUNDANCE</key>
+	<string>‎Kulta</string>
+	<key>STATUS_COLOR_VIVID_VIOLET</key>
+	<string>‎Violetti</string>
+	<key>STATUS_COLOR_WASABI</key>
+	<string>‎Vihreä</string>
+	<key>STATUS_FONT_BRYNDAN</key>
+	<string>‎Bryndan Write</string>
+	<key>STATUS_FONT_GEORGIA</key>
+	<string>‎Georgia</string>
+	<key>STATUS_FONT_HELVETICA</key>
+	<string>‎Helvetica</string>
+	<key>STATUS_FONT_NORICAN</key>
+	<string>‎Norican</string>
+	<key>STATUS_FONT_OSWALD</key>
+	<string>‎Oswald Heavy</string>
+	<key>STATUS_PREPARING</key>
+	<string>‎Valmistellaan...</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{0}}</key>
+	<string>‎%@ ei näe</string>
+	<key>STATUS_PRIVACY_EXCLUDED_{{1}}</key>
+	<string>‎%@ ei näe</string>
+	<key>STATUS_PRIVACY_MY_CONTACTS</key>
+	<string>‎Yhteystietoni</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_BODY_TEXT</key>
+	<string>‎Salli apin %@ käyttää yhteystietojasi, niin voit lähettää ja vastaanottaa heidän tilapäivityksiään. Voit antaa luvan napauttamalla Asetukset ja kytkemällä Yhteystiedot päälle.</string>
+	<key>STATUS_TAB_CONTACTS_PERMISSION_PROMPT_TITLE</key>
+	<string>‎Tilapäivitykset eivät ole saatavilla</string>
+	<key>STICKER</key>
+	<string>‎Tarra</string>
+	<key>STICKER_SEARCH_RESULTS</key>
+	<string>‎Tarrahaun "%@" tulokset</string>
+	<key>STR_BIZ_APPT_ONLY</key>
+	<string>‎Vain ajanvarauksella</string>
+	<key>STR_BIZ_CLOSED</key>
+	<string>‎Suljettu</string>
+	<key>STR_BIZ_OPEN_24H</key>
+	<string>‎Avoinna 24 tuntia</string>
+	<key>STR_SOCIAL_FACEBOOK</key>
+	<string>‎Facebook</string>
+	<key>STR_STATUS_WHATSAPP_STATUS</key>
+	<string>‎WhatsApp-tila</string>
+	<key>SUSPICIOUS_LINK_WARNING</key>
+	<string>‎Epäilyttävä linkki</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{0}}</key>
+	<string>‎%@ epäilyttävä linkki</string>
+	<key>SUSPICIOUS_LINK_WARNING_{{1}}</key>
+	<string>‎%@ epäilyttävää linkkiä</string>
+	<key>TAP_FOR_MORE</key>
+	<string>‎LISÄÄ NAPAUTTAMALLA</string>
+	<key>TAP_TO_CANCEL</key>
+	<string>‎Peruuta napauttamalla</string>
+	<key>TAP_TO_DOWNLOAD</key>
+	<string>‎Lataa napauttamalla</string>
+	<key>TAP_TO_EDIT</key>
+	<string>‎Muokkaa napauttamalla</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{0}}_MAXIMUM</key>
+	<string>‎Tarrapaketin tunniste on liian lyhyt. Vähimmäispituus on %@ merkki.</string>
+	<key>THIRD_PARTY_STICKER_ID_TOO_SMALL_{{1}}_MAXIMUM</key>
+	<string>‎Tarrapaketin tunniste on liian lyhyt. Vähimmäispituus on %@ merkkiä.</string>
+	<key>THIRD_PARTY_STICKER_IMPORTING_ERROR</key>
+	<string>‎Tämä tarrapaketti on viallinen ja sitä ei voi lisätä appiin %1$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{0}}_MINIMUM</key>
+	<string>‎Tarrapaketissa olevien tarrojen määrä ei ole %1$@-%2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_COUNT_OUT_OF_RANGE_{{1}}_MINIMUM</key>
+	<string>‎Tarrapaketissa olevien tarrojen määrä ei ole %1$@-%2$@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_APP_STORE_LINK</key>
+	<string>‎Tarrapaketilla on virheellinen App Store -linkki.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_PLAY_STORE_LINK</key>
+	<string>‎Tarrapaketilla on virheellinen Play Store -linkki.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_INVALID_STICKER_IMAGE</key>
+	<string>‎Jollakin tarrapaketin tarralla on virheelliset resurssit.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Joku tarroista ei ole mitoiltaan %1$@x%1$@ kuvapistettä.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Joku tarroista ei ole mitoiltaan %1$@x%1$@ kuvapistettä.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Joku tarroista on liian suuri. Enimmäiskoko on %@ kt.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_STICKER_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Joku tarroista on liian suuri. Enimmäiskoko on %@ kt.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{0}}_MAXIMUM</key>
+	<string>‎Tarrapaketin nimi, julkaisija tai tunniste on liian pitkä tai tyhjä. Jokaisessa niistä voi olla enintään %@ merkki.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TEXT_OUT_OF_RANGE_{{1}}_MAXIMUM</key>
+	<string>‎Tarrapaketin nimi, julkaisija tai tunniste on liian pitkä tai tyhjä. Jokaisessa niistä voi olla enintään %@ merkkiä.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{0}}_MAXIMUM</key>
+	<string>‎Jossakin tarrassa on liian monta emojia. Niitä voi olla enintään %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TOO_MANY_EMOJIS_{{1}}_MAXIMUM</key>
+	<string>‎Jossakin tarrassa on liian monta emojia. Niitä voi olla enintään %@.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{0}}_LENGTH</key>
+	<string>‎Tarjotinkuva ei ole mitoiltaan %1$@x%1$@ kuvapistettä.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_DIMENSIONS_INCORRECT_{{1}}_LENGTH</key>
+	<string>‎Tarjotinkuva ei ole mitoiltaan %1$@x%1$@ kuvapistettä.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{0}}_KB</key>
+	<string>‎Tarjotinkuva on liian suuri. Enimmäiskoko on %@ kt.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_TRAY_SIZE_INCORRECT_{{1}}_KB</key>
+	<string>‎Tarjotinkuva on liian suuri. Enimmäiskoko on %@ kt.</string>
+	<key>THIRD_PARTY_STICKER_IMPORT_WRONG_BUNDLE_ID</key>
+	<string>‎Tätä tarrapakettia tarjoavalla apilla on virheellinen nipputunniste.</string>
+	<key>TITLE_CHATS</key>
+	<string>‎Keskustelut</string>
+	<key>TITLE_PHOTOS</key>
+	<string>‎Kuvat</string>
+	<key>TRANSCODER_ALERT_COULD_NOT_SHARE_VIDEO</key>
+	<string>‎Videon jako epäonnistui</string>
+	<key>TRANSCODER_ERROR_BLANK_VIDEO_FILE</key>
+	<string>‎Tämä video on tyhjä.</string>
+	<key>TRANSCODER_ERROR_UNUSABLE_VIDEO</key>
+	<string>‎Tätä videota ei voida jakaa. Yritä jakaa jokin toinen video.</string>
+	<key>TRY_AGAIN_LATER</key>
+	<string>‎Yritä myöhemmin uudelleen.</string>
+	<key>UNBLOCK_SHORTENED</key>
+	<string>‎Poista esto</string>
+	<key>UNKNOWN_CALLER</key>
+	<string>‎Ei tiedossa</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{0}}</key>
+	<string>‎%1$@ ja %2$@ muu yhteystieto</string>
+	<key>VCARD_CONTACT_NAME_AND_N_OTHERS_{{1}}</key>
+	<string>‎%1$@ ja %2$@ muuta yhteystietoa</string>
+	<key>VCARD_SHARE_CONTACTS_{{0}}</key>
+	<string>‎Jaa %@ yhteystieto</string>
+	<key>VCARD_SHARE_CONTACTS_{{1}}</key>
+	<string>‎Jaa %@ yhteystietoa</string>
+	<key>VIDEO_RECORDING_PERMISSIONS</key>
+	<string>‎%1$@ tarvitsee pääsyn mikrofoniin, jotta voit nauhoittaa videoita äänellä. Salli pääsy napauttamalla siirtymällä iPhonen asetuksiin &gt; Tietosuoja &gt; Mikrofoni ja kytke sitten päälle apin %2$@ kohdalla.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_IOS8</key>
+	<string>‎%1$@ tarvitsee pääsyn mikrofoniin, jotta voit nauhoittaa videoita äänellä. Salli pääsy napauttamalla Asetukset ja kytke sitten Mikrofoni päälle.</string>
+	<key>VIDEO_RECORDING_PERMISSIONS_TITLE</key>
+	<string>‎Haluatko videoita äänen kanssa?</string>
+	<key>VISION_BOTTOM</key>
+	<string>‎Lähellä alaosaa</string>
+	<key>VISION_BOTTOM_LEFT</key>
+	<string>‎Lähellä vasenta alanurkkaa</string>
+	<key>VISION_BOTTOM_RIGHT</key>
+	<string>‎Lähellä oikeaa alanurkkaa</string>
+	<key>VISION_CENTER</key>
+	<string>‎Keskikohta</string>
+	<key>VISION_CENTERED</key>
+	<string>‎Keskitetty</string>
+	<key>VISION_FACE_COUNT_{{0}}</key>
+	<string>‎Yhdet kasvot kehyksessä</string>
+	<key>VISION_FACE_COUNT_{{1}}</key>
+	<string>‎{1} kasvot kehyksessä</string>
+	<key>VISION_LEFT_EDGE</key>
+	<string>‎Vasen reuna</string>
+	<key>VISION_NO_FACES</key>
+	<string>‎Ei kasvoja kehyksessä</string>
+	<key>VISION_RIGHT_EDGE</key>
+	<string>‎Oikea reuna</string>
+	<key>VISION_TOP</key>
+	<string>‎Lähellä yläosaa</string>
+	<key>VISION_TOP_LEFT</key>
+	<string>‎Lähellä vasenta ylänurkkaa</string>
+	<key>VISION_TOP_RIGHT</key>
+	<string>‎Lähellä oikeaa ylänurkkaa</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{0}}</key>
+	<string>‎Aktivointikoodi. %1$@/%2$@ arvo syötetty.</string>
+	<key>VOICEOVER_ACTIVATION_CODE_LABEL_{{1}}</key>
+	<string>‎Aktivointikoodi. %1$@/%2$@ arvoa syötetty.</string>
+	<key>VOICEOVER_ALERT</key>
+	<string>‎Varoitus</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{0}}</key>
+	<string>‎%@ merkki jäljellä</string>
+	<key>VOICEOVER_CHARS_REMAINING_{{1}}</key>
+	<string>‎%@ merkkiä jäljellä</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA</key>
+	<string>‎Lisää toinen kuva tai video</string>
+	<key>VOICEOVER_CHAT_BAR_ADD_MEDIA_REPLY</key>
+	<string>‎Vastaa olemassa olevalla kuvalla tai videolla</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA</key>
+	<string>‎Ota toinen kuva tai video</string>
+	<key>VOICEOVER_CHAT_BAR_CAMERA_REPLY</key>
+	<string>‎Vastaa uudella kuvalla tai videolla</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION</key>
+	<string>‎Otsikon tekstikenttä</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_ADD_HINT</key>
+	<string>‎Lisää kuvateksti kaksoisnapauttamalla</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_CAPTION_CHANGE_HINT</key>
+	<string>‎Muuta kuvatekstiä kaksoisnapauttamalla</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY</key>
+	<string>‎Vastauksen tekstikenttä</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_ADD_HINT</key>
+	<string>‎Lisää vastaus kaksoisnapauttamalla</string>
+	<key>VOICEOVER_CHAT_INPUT_BAR_REPLY_CHANGE_HINT</key>
+	<string>‎Muuta vastausta napauttamalla kahdesti</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_ACTIVATE</key>
+	<string>‎Aktivoi kaksoisnapauttamalla</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CANCEL</key>
+	<string>‎Peruuta kaksoisnapauttamalla</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_CLOSE</key>
+	<string>‎Sulje kaksoisnapauttamalla</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DESELECT</key>
+	<string>‎Poista valinta kaksoisnapauttamalla.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_DOWNLOAD</key>
+	<string>‎Lataa kaksoisnapauttamalla.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_EDIT</key>
+	<string>‎Muokkaa kaksoisnapauttamalla.</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_OPEN</key>
+	<string>‎Avaa kaksoisnapauttamalla</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_PLAY</key>
+	<string>‎Toista kaksoisnapauttamalla</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_SELECT</key>
+	<string>‎Valitse kaksoisnapauttamalla</string>
+	<key>VOICEOVER_DOUBLE_TAP_TO_TOGGLE_SETTING</key>
+	<string>‎Vaihda asetusta kaksoisnapauttamalla.</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_EDIT</key>
+	<string>‎Kuvasuhde</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ASPECT_RATIO_LIST</key>
+	<string>‎Kaksoisnapauta avataksesi listan kuvasuhteista</string>
+	<key>VOICEOVER_EDITABLE_IMAGE_ROTATE</key>
+	<string>‎Pyöritä kohdetta</string>
+	<key>VOICEOVER_FILTER_MODE_ENTER</key>
+	<string>‎Käytä suodatinta</string>
+	<key>VOICEOVER_FILTER_MODE_EXIT_HINT</key>
+	<string>‎Poistu suodattimen valinnasta kaksoisnapauttamalla</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_GIF</key>
+	<string>‎Tällä hetkellä lähetetään GIF-animaationa</string>
+	<key>VOICEOVER_GIF_CURRENT_STATE_VIDEO</key>
+	<string>‎Tällä hetkellä lähetetään videona</string>
+	<key>VOICEOVER_GIF_SEND_AS_GIF</key>
+	<string>‎Lähetä GIF-animaationa</string>
+	<key>VOICEOVER_GIF_SEND_AS_VIDEO</key>
+	<string>‎Lähetä videona</string>
+	<key>VOICEOVER_GIF_TOGGLE_HINT</key>
+	<string>‎Vaihda videon ja GIF-animaation lähettämisen välillä kaksoisnapauttamalla</string>
+	<key>VOICEOVER_MEDIA_BROWSER_EDIT_DONE</key>
+	<string>‎Napauta tähän kun olet järjestänyt kuvat</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_GIF</key>
+	<string>‎Siirry GIF-animaatioon kaksoisnapauttamalla</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_PHOTO</key>
+	<string>‎Siirry kuvaan kaksoisnapauttamalla.</string>
+	<key>VOICEOVER_MEDIA_BROWSER_NAV_VIDEO</key>
+	<string>‎Siirry videoon kaksoisnapauttamalla.</string>
+	<key>VOICEOVER_MULTISEND_ADD_EMOJI</key>
+	<string>‎Lisää emoji</string>
+	<key>VOICEOVER_MULTISEND_ADD_TEXT</key>
+	<string>‎Lisää tekstiä</string>
+	<key>VOICEOVER_MULTISEND_CROP_AND_TILT</key>
+	<string>‎Leikkaa ja käännä kohdetta</string>
+	<key>VOICEOVER_MULTISEND_DELETE</key>
+	<string>‎Poista nykyinen kohde</string>
+	<key>VOICEOVER_MULTISEND_PAINT</key>
+	<string>‎Sivellin</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_CROPPED</key>
+	<string>‎Leikattu</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_NO_CHANGE</key>
+	<string>‎Alkuperäinen</string>
+	<key>VOICEOVER_MULTISEND_PHOTO_ROTATED</key>
+	<string>‎Pyöritetty</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{0}}</key>
+	<string>‎%@ mediakohde.</string>
+	<key>VOICEOVER_MULTI_SEND_MEDIA_ITEM_COUNT_{{1}}</key>
+	<string>‎%@ mediakohdetta.</string>
+	<key>VOICEOVER_NOTIFICATION_DOWNLOADING_PTT_MESSAGE</key>
+	<string>‎Ääniviesti - Ladataan</string>
+	<key>VOICEOVER_NOTIFICATION_PTT_MESSAGE</key>
+	<string>‎Ääniviesti.</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST</key>
+	<string>‎Jäsenet: %@</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{0}}</key>
+	<string>‎Jäsenet: __NAMES__ ja %@ muu</string>
+	<key>VOICEOVER_PARTICIPANTS_LIST_WITH_COUNT_{{1}}</key>
+	<string>‎Jäsenet: __NAMES__ ja %@ muuta</string>
+	<key>VOICEOVER_PHOTO_CROP_AND_TILT_LABEL</key>
+	<string>‎Leikkaa ja käännä</string>
+	<key>VOICEOVER_PLAY_VIDEO</key>
+	<string>‎Toista video</string>
+	<key>VOICEOVER_REMOVED</key>
+	<string>‎Poistettu</string>
+	<key>VOICEOVER_REMOVE_LINK_PREVIEW</key>
+	<string>‎Poista linkin esikatselu</string>
+	<key>VOICEOVER_SELECTED</key>
+	<string>‎Valittu</string>
+	<key>VOICEOVER_STICKER_PACK_HEADER</key>
+	<string>‎%@, Otsikko</string>
+	<key>VOICE_OVER_POSITION</key>
+	<string>‎Nykyinen kohta. %1$@. /. %2$@.</string>
+	<key>VOIP_VOICEOVER_VIDEO_CALL</key>
+	<string>‎Videopuhelu</string>
+	<key>VOIP_VOICEOVER_VOICE_CALL</key>
+	<string>‎Äänipuhelu</string>
+	<key>WACONTACT_BIRTHDAY_KEY</key>
+	<string>‎Syntymäpäivä</string>
+	<key>WACONTACT_DATE_KEY</key>
+	<string>‎Päivämäärä</string>
+	<key>WACONTACT_DEPARTMENT_NAME_KEY</key>
+	<string>‎Osasto</string>
+	<key>WACONTACT_EMAIL_ADDRESSES_KEY</key>
+	<string>‎Sähköposti</string>
+	<key>WACONTACT_FAMILY_NAME_KEY</key>
+	<string>‎Sukunimi</string>
+	<key>WACONTACT_GIVEN_NAME_KEY</key>
+	<string>‎Etunimi</string>
+	<key>WACONTACT_INSTANT_MESSAGE_KEY</key>
+	<string>‎Pikaviestin</string>
+	<key>WACONTACT_JOB_TITLE_KEY</key>
+	<string>‎Titteli</string>
+	<key>WACONTACT_MIDDLE_NAME_KEY</key>
+	<string>‎Toinen nimi</string>
+	<key>WACONTACT_NAME_PREFIX_KEY</key>
+	<string>‎Etuliite</string>
+	<key>WACONTACT_NAME_SUFFIX_KEY</key>
+	<string>‎Pääte</string>
+	<key>WACONTACT_NICKNAME_KEY</key>
+	<string>‎Lempinimi</string>
+	<key>WACONTACT_ORGANIZATION_NAME_KEY</key>
+	<string>‎Yritys</string>
+	<key>WACONTACT_PHONETIC_FAMILY_NAME_KEY</key>
+	<string>‎Sukunimi äännettynä</string>
+	<key>WACONTACT_PHONETIC_GIVEN_NAME_KEY</key>
+	<string>‎Etunimi äännettynä</string>
+	<key>WACONTACT_PHONETIC_MIDDLE_NAME_KEY</key>
+	<string>‎Toinen nimi äännettynä</string>
+	<key>WACONTACT_PHONETIC_ORGANIZATION_NAME_KEY</key>
+	<string>‎Yrityksen nimi äännettynä</string>
+	<key>WACONTACT_PHONE_NUMBER_KEY</key>
+	<string>‎Puhelin</string>
+	<key>WACONTACT_POSTAL_ADDRESSES_KEY</key>
+	<string>‎Osoite</string>
+	<key>WACONTACT_PREVIOUS_FAMILY_NAME_KEY</key>
+	<string>‎Tyttönimi</string>
+	<key>WACONTACT_SOCIAL_PROFILES_KEY</key>
+	<string>‎Some-profiili</string>
+	<key>WACONTACT_URL_ADDRESSES_KEY</key>
+	<string>‎Verkko-osoite</string>
+	<key>WEBSITE_TITLE</key>
+	<string>‎Verkkosivu</string>
+	<key>YOU_WERE_ADDED_TO_GROUP</key>
+	<string>‎Sinut lisättiin ryhmään “%@”</string>
+</dict>
+</plist>

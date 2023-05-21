@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MN.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous avez %d nouveau%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string> message</string>
+			<key>other</key>
+			<string>x messages</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_audio</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_audio@</string>
+		<key>group_audio</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre message vocal</string>
+			<key>other</key>
+			<string>%u autres messages vocaux</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_call</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_call@</string>
+		<key>group_call</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre appel</string>
+			<key>other</key>
+			<string>%u autres appels</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_comment@</string>
+		<key>group_comment</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre commentaire</string>
+			<key>other</key>
+			<string>%u autres commentaires</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_comment_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_comment_like@</string>
+		<key>group_comment_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre mention « J’aime » sur des commentaires</string>
+			<key>other</key>
+			<string>%u autres mentions « J’aime » sur des commentaires</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_file</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_file@</string>
+		<key>group_file</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre fichier</string>
+			<key>other</key>
+			<string>%u autres fichiers</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_importantpost</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_importantpost@</string>
+		<key>group_importantpost</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre publication importante</string>
+			<key>other</key>
+			<string>%u autres publications importantes</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_like@</string>
+		<key>group_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre mention « J’aime »</string>
+			<key>other</key>
+			<string>%u autres mentions « J’aime »</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_mention</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_mention@</string>
+		<key>group_mention</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre mention</string>
+			<key>other</key>
+			<string>%u autres mentions</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_message@</string>
+		<key>group_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre message</string>
+			<key>other</key>
+			<string>%u autres messages</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_notification</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_notification@</string>
+		<key>group_notification</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre notification</string>
+			<key>other</key>
+			<string>%u autres notifications</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_notification_from</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_notification_from@</string>
+		<key>group_notification_from</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre notification de %@</string>
+			<key>other</key>
+			<string>%u autres notifications de %@</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_pay</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_pay@</string>
+		<key>group_pay</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre transfert</string>
+			<key>other</key>
+			<string>%u autres transferts</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_photo@</string>
+		<key>group_photo</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre photo</string>
+			<key>other</key>
+			<string>%u autres photos</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_share</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_share@</string>
+		<key>group_share</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre partage</string>
+			<key>other</key>
+			<string>%u autres partages</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_video@</string>
+		<key>group_video</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u autre vidéo</string>
+			<key>other</key>
+			<string>%u autres vidéos</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_audio</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_audio@</string>
+		<key>hidden_audio</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u message vocal</string>
+			<key>other</key>
+			<string>%u messages vocaux</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_call</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_call@</string>
+		<key>hidden_call</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u appel</string>
+			<key>other</key>
+			<string>%u appels</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_comment@</string>
+		<key>hidden_comment</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u commentaire</string>
+			<key>other</key>
+			<string>%u commentaires</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_comment_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_comment_like@</string>
+		<key>hidden_comment_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u mention « J’aime » sur des commentaires</string>
+			<key>other</key>
+			<string>%u mentions « J’aime » sur des commentaires</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_file</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_file@</string>
+		<key>hidden_file</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u fichier</string>
+			<key>other</key>
+			<string>%u fichiers</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_importantpost</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_importantpost@</string>
+		<key>hidden_importantpost</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u publication importante</string>
+			<key>other</key>
+			<string>%u publications importantes</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_like@</string>
+		<key>hidden_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u mention « J’aime »</string>
+			<key>other</key>
+			<string>%u mentions « J’aime »</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_mention</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_mention@</string>
+		<key>hidden_mention</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u mention</string>
+			<key>other</key>
+			<string>%u mentions</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_message@</string>
+		<key>hidden_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u message</string>
+			<key>other</key>
+			<string>%u messages</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_notification</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_notification@</string>
+		<key>hidden_notification</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u notification</string>
+			<key>other</key>
+			<string>%u notifications</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_pay</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_pay@</string>
+		<key>hidden_pay</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u transfert</string>
+			<key>other</key>
+			<string>%u transferts</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_photo@</string>
+		<key>hidden_photo</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u photo</string>
+			<key>other</key>
+			<string>%u photos</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_share</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_share@</string>
+		<key>hidden_share</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u partage</string>
+			<key>other</key>
+			<string>%u partages</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_video@</string>
+		<key>hidden_video</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u vidéo</string>
+			<key>other</key>
+			<string>%u vidéos</string>
+		</dict>
+	</dict>
+	<key>access.albums.allnumber</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d photo%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.audio.duration.minutes.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d minute%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.audio.duration.seconds.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d seconde%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.call.duration.hours.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d heure%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.call.duration.minutes.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d minute%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.call.duration.seconds.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d seconde%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.chatList.cell.newItem.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d nouvel élément</string>
+			<key>other</key>
+			<string>%d nouvel élément</string>
+		</dict>
+	</dict>
+	<key>access.friendRequests.more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Affichez vo%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string>tre %@ invitation</string>
+			<key>other</key>
+			<string>s %@ invitations</string>
+		</dict>
+	</dict>
+	<key>access.recommendation.friends.more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voir %d ami%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string> recommandé</string>
+			<key>other</key>
+			<string>s recommandés</string>
+		</dict>
+	</dict>
+	<key>access.slideshow.photo.edit.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Modifier la photo %1$d</string>
+			<key>other</key>
+			<string>Modifier la photo %1$d</string>
+		</dict>
+	</dict>
+	<key>access.slideshow.photo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Photo %2$d sur %1$d</string>
+			<key>other</key>
+			<string>Photo %2$d sur %1$d</string>
+		</dict>
+	</dict>
+	<key>access.slideshow.photo.selected.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Photo %1$d sélectionnée</string>
+			<key>other</key>
+			<string>Photo %1$d sélectionnée</string>
+		</dict>
+	</dict>
+	<key>access.timeline.poppost.edit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cette publication sera automatiquement supprimée dans %d heure%1$#@p@. Appuyez pour modifier les paramètres de suppression automatique.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>access.wallet.header.button.pointclub</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@%@ point%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>addFriends.shakeIt.found.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d Personne trouvée.</string>
+			<key>other</key>
+			<string>%d Personne trouvée.</string>
+		</dict>
+	</dict>
+	<key>addressbook.selected.limit.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ne peut sélectionner que %d personne%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s.</string>
+		</dict>
+	</dict>
+	<key>calls.freecount.label</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>&lt;font color='#f8ff2f'&gt;%@&lt;/font&gt; appel%1$#@p@ aujourd’hui</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string> restant pour</string>
+			<key>other</key>
+			<string>s restants</string>
+		</dict>
+	</dict>
+	<key>chat.layer.groupcall.numofmembers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>&lt;font color=%@&gt;%d personne%2$#@p@&lt;/font&gt; en appel.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>chat.message.album.addedPictures.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A ajouté %1$#@p@ à l’album.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>une photo</string>
+			<key>other</key>
+			<string>des photos</string>
+		</dict>
+	</dict>
+	<key>chat.more.gallery.alert.saved.cameraRoll.failed.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Sauvegardées sur l'appareil. (%ld photo%1$#@p@.)</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string> et/ou vidéo non sauvegardée</string>
+			<key>other</key>
+			<string>s et/ou vidéos non sauvegardées</string>
+		</dict>
+	</dict>
+	<key>chat.sharing.notification.multiple</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>Message transféré à %u chats.</string>
+			<key>other</key>
+			<string>Message transféré à %u chats.</string>
+		</dict>
+	</dict>
+	<key>chatlist.delete.tooManyRowsSelected.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous ne pouvez supprimer qu%1$#@p@ à la fois.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string> %d Chat</string>
+			<key>other</key>
+			<string>e %d Chats</string>
+		</dict>
+	</dict>
+	<key>coin.history.no.history.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous n'avez pas d'historique d'utilisation pour le%1$#@p@ mois.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string> %d dernier</string>
+			<key>other</key>
+			<string>s %d derniers</string>
+		</dict>
+	</dict>
+	<key>common.date.dayAgo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Il y a %d jour%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>common.date.hourAgo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Il y a %d heure%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>common.date.minuteAgo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Il y a %d minute%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>friends.edit.blockUsers.title.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voulez-vous bloquer ce%1$#@p@?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>t %d utilisateur</string>
+			<key>other</key>
+			<string>s %d utilisateurs</string>
+		</dict>
+	</dict>
+	<key>friends.edit.hideUsers.title.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voulez-vous cacher ce%1$#@p@?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>t %d utilisateur</string>
+			<key>other</key>
+			<string>s %d utilisateurs</string>
+		</dict>
+	</dict>
+	<key>gallery.camera.max.video.toast2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez enregistrer jusqu’à %d minute%1$#@p@ de vidéo.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>gallery.camera.max.video.toast3.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez enregistrer jusqu’à %d seconde%1$#@p@ de vidéo.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>gallery.camera.max.video.toast4.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez enregistrer jusqu’à %1$d minute%1$#@p@ de vidéo.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string> et 2$d seconde</string>
+			<key>other</key>
+			<string>s et %2$d secondes</string>
+		</dict>
+	</dict>
+	<key>gallery.max.media.guide</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez envoyer %1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d élément</string>
+			<key>other</key>
+			<string>jusqu'à %1$d éléments</string>
+		</dict>
+	</dict>
+	<key>gallery.max.photo.guide.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez envoyer %1$#@p@ à la fois.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d photo</string>
+			<key>other</key>
+			<string>jusqu'à %d photos</string>
+		</dict>
+	</dict>
+	<key>gallery.max.second.video.guide</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous ne pouvez pas envoyer de vidéos de plus de%dseconde%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>gallery.max.video.guide</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous ne pouvez pas envoyer de vidéos de plus de%dminute%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>gallery.photo.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string>Photo</string>
+			<key>other</key>
+			<string>photos</string>
+		</dict>
+	</dict>
+	<key>gallery.photo.header.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ Photo%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>gallery.picker.canceled.gocam.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si vous ouvrez la caméra, l%1$#@p@. Continuer?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>a photo %u sélectionnée ne sera pas sélectionnée</string>
+			<key>other</key>
+			<string>es photos %u sélectionnées ne seront pas sélectionnées</string>
+		</dict>
+	</dict>
+	<key>gallery.picker.max.media.alert.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez envoyer %1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d élément</string>
+			<key>other</key>
+			<string>jusqu'à %1$d éléments</string>
+		</dict>
+	</dict>
+	<key>gallery.picker.selected.items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d sélect.</string>
+			<key>other</key>
+			<string>%d sélect.</string>
+		</dict>
+	</dict>
+	<key>gallery.selected.photos.cancel</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si vous ouvrez la caméra, l%1$#@p@. Continuer ?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>a photo %u sélectionnée ne sera pas sélectionnée</string>
+			<key>other</key>
+			<string>es photos %u sélectionnées ne seront pas sélectionnées</string>
+		</dict>
+	</dict>
+	<key>gallery.video.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ Vidéo%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>gallery.video.header.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ Vidéo%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>home.profile.postcount</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d publication%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>line.friendsettings.popupdesc.removeblockeduser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voulez-vous vraiment supprimer le%1$#@p@ ?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string> compte sélectionné</string>
+			<key>other</key>
+			<string>s comptes sélectionnés</string>
+		</dict>
+	</dict>
+	<key>line.friendsettings.popupdesc.unblockuser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voulez-vous vraiment débloquer le%1$#@p@ ?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string> compte sélectionné</string>
+			<key>other</key>
+			<string>s comptes sélectionnés</string>
+		</dict>
+	</dict>
+	<key>line.friendsettings.popupdesc.unhideuser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Voulez-vous vraiment afficher vo%1$#@p@ ?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>tre compte masqué</string>
+			<key>other</key>
+			<string>s comptes masqués</string>
+		</dict>
+	</dict>
+	<key>more.category.friends.counts.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>&lt;b&gt;&lt;font color='#4c5a72'&gt;%d&lt;/font&gt; amis utilisent cette app.&lt;/b&gt;</string>
+			<key>other</key>
+			<string>&lt;b&gt;&lt;font color='#4c5a72'&gt;%d&lt;/font&gt; amis utilisent cette app.&lt;/b&gt;</string>
+		</dict>
+	</dict>
+	<key>more.category.friends.nameAndCounts2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>et &lt;font color='#4c5a72'&gt;%d&lt;/font&gt; autres amis utilisent cette app%1$#@p@&lt;/b&gt;</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>.</string>
+			<key>other</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>pay.chat.message.notAvailableUser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Vous ne pouvez pas envoyer de demande à %1$d personnes parmi tous vos amis dans ce chat.</string>
+			<key>other</key>
+			<string>Vous ne pouvez pas envoyer de demande à %1$d personnes parmi tous vos amis dans ce chat.</string>
+		</dict>
+	</dict>
+	<key>pay.chat.message.sendDutchMulti.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Vous avez demandé à %1$@ et %2$d autres amis de partager les paiements de %3$@.</string>
+			<key>other</key>
+			<string>Vous avez demandé à %1$@ et %2$d autres amis de partager les paiements de %3$@.</string>
+		</dict>
+	</dict>
+	<key>pay.chat.message.sendRequestMulti.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Vous avez demandé %3$@ à %1$@ et %2$d autres amis.</string>
+			<key>other</key>
+			<string>Vous avez demandé %3$@ à %1$@ et %2$d autres amis.</string>
+		</dict>
+	</dict>
+	<key>pay.chooseMember.maxMember.alert</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>Ne peut sélectionner que %1$d personnes.</string>
+		</dict>
+	</dict>
+	<key>promotion.friendsinvite.popup.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>encore %d point%1$#@p@ de plus !</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>repair.friend.confirm</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Synchronisation terminée. Données réparées pour %d ami%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>repair.group.confirm</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Synchronisation terminée. Données réparées pour %d groupe%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>repair.profile.settings.confirm</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Synchronisation terminée. Données réparées pour %d élément%1$#@p@ au profil et aux paramètres.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string> relatif</string>
+			<key>other</key>
+			<string>s relatifs</string>
+		</dict>
+	</dict>
+	<key>search.category.keyword.message.num</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@p@@ »</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>1 message pour « %</string>
+			<key>other</key>
+			<string>%2$d messages pour « %1$</string>
+		</dict>
+	</dict>
+	<key>search.result.message.num</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>1 message trouvé</string>
+			<key>other</key>
+			<string>%d messages trouvés</string>
+		</dict>
+	</dict>
+	<key>selected.contents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d élément%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>setting.keep.total.usage</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Vous utilisez actuellement %d%% de votre espace de stockage.</string>
+			<key>other</key>
+			<string>Vous utilisez actuellement %d%% de votre espace de stockage.</string>
+		</dict>
+	</dict>
+	<key>settings.theme.detail.period.text.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Validité - %d jour%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>stickers.shop.detail.period.text.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Validité - %d jour%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>stickers.shop.detail.present.confirm2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string>(%@ Jeton)?</string>
+			<key>other</key>
+			<string>(%@ Jeton)?</string>
+		</dict>
+	</dict>
+	<key>stickers.shop.detail.purchase.confirm2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>one</key>
+			<string> (%@  Jetons)</string>
+			<key>other</key>
+			<string> (%@  Jetons)</string>
+		</dict>
+	</dict>
+	<key>walletTab.balance.coin</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d jeton%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+	<key>walletTab.balance.point</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d point%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>s</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

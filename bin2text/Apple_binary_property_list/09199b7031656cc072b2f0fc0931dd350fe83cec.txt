@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIdentifierPrefix</key>
+	<string>$(AppIdentifierPrefix)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(VIB_GLOBAL_PRODUCT_NAME)$(VIB_GLOBAL_PRODUCT_NAME_SUFFIX)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(VIB_PARENT_APP_BUNDLE_ID).$(PRODUCT_NAME:rfc1034identifier)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(VIBER_BUILDNAME_XCCONFIG)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>${VIBER_VERSION_XCCONFIG}</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>aeb7932376ad531330720329d27922aa7f125fa0</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FirebaseScreenReportingEnabled</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>NSExtensionActivationRule</key>
+			<string>( SUBQUERY( extensionItems, $extensionItem, ( (SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url").@count &gt;= 1 AND SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.file-url").@count &lt; SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url").@count) OR SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text").@count &gt;= 1 OR SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image").@count &gt;= 1 OR SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie").@count &gt;= 1 ) AND ( SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image").@count &lt;= 10 AND SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie").@count &lt;= 3 AND SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image").@count + SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie").@count &lt;= 10 AND SUBQUERY( $extensionItem.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url").@count &lt;= 1) ).@count &gt; 0 )</string>
+			<key>NSExtensionJavaScriptPreprocessingFile</key>
+			<string>WebPageShare</string>
+		</dict>
+		<key>NSExtensionOverridesHostUIAppearance</key>
+		<true/>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.share-services</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>VIBSERootController</string>
+	</dict>
+	<key>VIB_PARENT_APP_BUNDLE_ID</key>
+	<string>${VIB_PARENT_APP_BUNDLE_ID}</string>
+	<key>VIB_URL_SCHEME</key>
+	<string>${VIB_URL_SCHEME}</string>
+	<key>ViberFullVersion</key>
+	<string>${VIBER_VERSION_XCCONFIG}</string>
+	<key>ViberPassThroughReleaseVersion</key>
+	<string>12.6.0</string>
+	<key>ViberTaggedVersion</key>
+	<string>$(VIBER_BUILDNAME_XCCONFIG)</string>
+</dict>
+</plist>

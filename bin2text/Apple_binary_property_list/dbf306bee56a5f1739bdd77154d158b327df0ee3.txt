@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Ligar para o João através do Viber</string>
+				<string>Ligar para o João com o Viber</string>
+				<string>Fazer uma chamada Viber para o João</string>
+				<string>Fazer uma chamada para o João através do Viber</string>
+				<string>Efetuar uma chamada Viber para o João</string>
+				<string>Efetuar uma chamada para o João através do Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Enviar ao João uma mensagem Viber</string>
+				<string>Enviar uma mensagem de texto ao João no Viber</string>
+				<string>Enviar uma mensagem Viber ao João</string>
+				<string>Enviar mensagem de texto ao João com o Viber</string>
+				<string>Enviar mensagem ao João no Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Iniciar uma chamada de vídeo com o João no Viber</string>
+				<string>Iniciar um chat de vídeo com o João no Viber</string>
+				<string>Efetuar uma chamada de vídeo para o João através do Viber</string>
+				<string>Efetuar uma videochamada Viber para o João</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

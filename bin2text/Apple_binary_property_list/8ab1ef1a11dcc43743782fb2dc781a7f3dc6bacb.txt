@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ дні</string>
+			<key>many</key>
+			<string>%@ дзён</string>
+			<key>one</key>
+			<string>дзень</string>
+			<key>other</key>
+			<string>%@ дня</string>
+			<key>two</key>
+			<string>%@ дні</string>
+			<key>zero</key>
+			<string>%@ дзён</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ хвіліны</string>
+			<key>many</key>
+			<string>%@ хвілін</string>
+			<key>one</key>
+			<string>хвіліна</string>
+			<key>other</key>
+			<string>%@ хвіліны</string>
+			<key>two</key>
+			<string>%@ хвіліны</string>
+			<key>zero</key>
+			<string>%@ хвілін</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ месяцы</string>
+			<key>many</key>
+			<string>%@ месяцаў</string>
+			<key>one</key>
+			<string>месяц</string>
+			<key>other</key>
+			<string>%@ месяца</string>
+			<key>two</key>
+			<string>%@ месяцы</string>
+			<key>zero</key>
+			<string>%@ месяцаў</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ тыдні</string>
+			<key>many</key>
+			<string>%@ тыдняў</string>
+			<key>one</key>
+			<string>тыдзень</string>
+			<key>other</key>
+			<string>%@ тыдня</string>
+			<key>two</key>
+			<string>%@ тыдні</string>
+			<key>zero</key>
+			<string>%@ тыдняў</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ гады</string>
+			<key>many</key>
+			<string>%@ гадоў</string>
+			<key>one</key>
+			<string>год</string>
+			<key>other</key>
+			<string>%@ года</string>
+			<key>two</key>
+			<string>%@ гады</string>
+			<key>zero</key>
+			<string>%@ гадоў</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Дзейнічае на працягу %@ тыдняў</string>
+			<key>many</key>
+			<string>Дзейнічае на працягу %@ тыдняў</string>
+			<key>one</key>
+			<string>Дзейнічае на працягу %@ тыдня</string>
+			<key>other</key>
+			<string>Дзейнічае на працягу %@ тыдня</string>
+			<key>two</key>
+			<string>Дзейнічае на працягу %@ тыдняў</string>
+			<key>zero</key>
+			<string>Дзейнічае на працягу %@ тыдняў</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Дзейнічае на працягу %@ дзён</string>
+			<key>many</key>
+			<string>Дзейнічае на працягу %@ дзён</string>
+			<key>one</key>
+			<string>Дзейнічае на працягу %@ дня</string>
+			<key>other</key>
+			<string>Дзейнічае на працягу %@ дня</string>
+			<key>two</key>
+			<string>Дзейнічае на працягу %@ дзён</string>
+			<key>zero</key>
+			<string>Дзейнічае на працягу %@ дзён</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Дзейнічае на працягу %@ месяцаў</string>
+			<key>many</key>
+			<string>Дзейнічае на працягу %@ месяцаў</string>
+			<key>one</key>
+			<string>Дзейнічае на працягу %@ месяца</string>
+			<key>other</key>
+			<string>Дзейнічае на працягу %@ месяца</string>
+			<key>two</key>
+			<string>Дзейнічае на працягу %@ месяцаў</string>
+			<key>zero</key>
+			<string>Дзейнічае на працягу %@ месяцаў</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Дзейнічае на працягу %@ гадоў</string>
+			<key>many</key>
+			<string>Дзейнічае на працягу %@ гадоў</string>
+			<key>one</key>
+			<string>Дзейнічае на працягу %@ года</string>
+			<key>other</key>
+			<string>Дзейнічае на працягу %@ года</string>
+			<key>two</key>
+			<string>Дзейнічае на працягу %@ гадоў</string>
+			<key>zero</key>
+			<string>Дзейнічае на працягу %@ гадоў</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

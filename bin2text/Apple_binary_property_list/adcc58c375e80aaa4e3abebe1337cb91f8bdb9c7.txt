@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDLE_HOURS_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@idle_hours@</string>
+		<key>idle_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%ld ώρα αδράνειας</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>other</key>
+			<string>%ld ώρες αδράνειας</string>
+			<key>zero</key>
+			<string>%ld ώρες αδράνειας</string>
+		</dict>
+	</dict>
+	<key>MINUTES_SHORT_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%lu %#@minutes@</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>ΛΕΠ</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>ΛΕΠ</string>
+		</dict>
+	</dict>
+	<key>COMPETITION_ACCEPT_ACTION_TITLE</key>
+	<dict>
+		<key>NSStringVariableWidthRuleType</key>
+		<dict>
+			<key>27</key>
+			<string>Αποδοχή πρόσκλησης διαγωνισμού</string>
+			<key>1</key>
+			<string>Αποδοχή διαγωνισμού</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

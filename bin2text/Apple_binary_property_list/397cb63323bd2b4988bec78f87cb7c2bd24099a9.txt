@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u件のメッセージ</string>
+			<key>many</key>
+			<string>%u件のメッセージ</string>
+			<key>one</key>
+			<string>件のメッセージ</string>
+			<key>other</key>
+			<string>%u件のメッセージ</string>
+			<key>two</key>
+			<string>%u件のメッセージ</string>
+			<key>zero</key>
+			<string>%u件のメッセージ</string>
+		</dict>
+	</dict>
+	<key>%u missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_calls@</string>
+		<key>num_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u 件の不在着信</string>
+			<key>many</key>
+			<string>%u 件の不在着信</string>
+			<key>one</key>
+			<string>不在着信</string>
+			<key>other</key>
+			<string>%u 件の不在着信</string>
+			<key>two</key>
+			<string>%u 件の不在着信</string>
+			<key>zero</key>
+			<string>%u 件の不在着信</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Copy %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Kopírovať %lu poznámky</string>
+			<key>one</key>
+			<string>Kopírovať poznámku</string>
+			<key>many</key>
+			<string>Kopírovať %lu poznámky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Kopírovať %lu poznámok</string>
+		</dict>
+	</dict>
+	<key>%lu scans</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_scans@</string>
+		<key>num_scans</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu skeny</string>
+			<key>one</key>
+			<string>%lu sken</string>
+			<key>many</key>
+			<string>%lu skenov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu skenov</string>
+		</dict>
+	</dict>
+	<key>At most %lu more attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Môžete pridať najviac %lu ďalšie prílohy.</string>
+			<key>one</key>
+			<string>Môžete pridať najviac %lu ďalšiu prílohu.</string>
+			<key>many</key>
+			<string>Môžete pridať najviac %lu ďalšej prílohy.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Môžete pridať najviac %lu ďalších príloh.</string>
+		</dict>
+	</dict>
+	<key>Trash %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Zahodiť %lu poznámky</string>
+			<key>one</key>
+			<string>Zahodiť poznámku</string>
+			<key>many</key>
+			<string>Zahodiť %lu poznámok</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Zahodiť %lu poznámok</string>
+		</dict>
+	</dict>
+	<key>ICAX_NUM_NOTES_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu poznámky</string>
+			<key>one</key>
+			<string>%lu poznámka</string>
+			<key>many</key>
+			<string>%lu poznámky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu poznámok</string>
+			<key>zero</key>
+			<string>Žiadne poznámky</string>
+		</dict>
+	</dict>
+	<key>Deleted %lu notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@deleted_num_notes@</string>
+		<key>deleted_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu poznámky boli vymazané</string>
+			<key>one</key>
+			<string>%lu poznámka bola vymazaná</string>
+			<key>many</key>
+			<string>%lu poznámok bolo vymazaných</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu poznámok bolo vymazaných</string>
+			<key>zero</key>
+			<string>Žiadne poznámky neboli vymazané</string>
+		</dict>
+	</dict>
+	<key>%d days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dni</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>%d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>ADD_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Pridať %lu skeny</string>
+			<key>one</key>
+			<string>Pridať sken</string>
+			<key>many</key>
+			<string>Pridať %lu skenov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Pridať %lu skenov</string>
+		</dict>
+	</dict>
+	<key>%lu (notes) Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes_selected@</string>
+		<key>num_notes_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu vybrané</string>
+			<key>one</key>
+			<string>%lu vybraná</string>
+			<key>many</key>
+			<string>%lu vybranej</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu vybraných</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Column</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_columns@</string>
+		<key>num_columns</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Vymazať %lu stĺpce</string>
+			<key>one</key>
+			<string>Vymazať stĺpec</string>
+			<key>many</key>
+			<string>Vymazať %lu stĺpcov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vymazať %lu stĺpcov</string>
+		</dict>
+	</dict>
+	<key>%lu notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu poznámky</string>
+			<key>one</key>
+			<string>%lu poznámka</string>
+			<key>many</key>
+			<string>%lu poznámok</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu poznámok</string>
+			<key>zero</key>
+			<string>Žiadne poznámky</string>
+		</dict>
+	</dict>
+	<key>At most %lu attachments can be added.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Môžete pridať najviac %lu prílohy.</string>
+			<key>one</key>
+			<string>Môžete pridať najviac %lu prílohu.</string>
+			<key>many</key>
+			<string>Môžete pridať najviac %lu prílohy.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Môžete pridať najviac %lu príloh.</string>
+		</dict>
+	</dict>
+	<key>Move %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Presunúť %lu poznámky</string>
+			<key>one</key>
+			<string>Presunúť poznámku</string>
+			<key>many</key>
+			<string>Presunúť %lu poznámky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Presunúť %lu poznámok</string>
+		</dict>
+	</dict>
+	<key>NUM_SUBFOLDERS_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_subfolders@</string>
+		<key>num_subfolders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu podpriečinky</string>
+			<key>one</key>
+			<string>%lu podpriečinok</string>
+			<key>many</key>
+			<string>%lu podpriečinkov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu podpriečinkov</string>
+			<key>zero</key>
+			<string>Žiadne podpriečinky</string>
+		</dict>
+	</dict>
+	<key>DELETE_%lu_SCANNED_IMAGES</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Vymazať %lu skeny</string>
+			<key>one</key>
+			<string>Vymazať sken</string>
+			<key>many</key>
+			<string>Vymazať %lu skenov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vymazať %lu skenov</string>
+		</dict>
+	</dict>
+	<key>%lu_SCANNED_IMAGE_THUMBNAILS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu miniatúry skenov</string>
+			<key>one</key>
+			<string>%lu miniatúra skenu</string>
+			<key>many</key>
+			<string>%lu miniatúr skenov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu miniatúr skenov</string>
+		</dict>
+	</dict>
+	<key>%lu (folders) Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders_selected@</string>
+		<key>num_folders_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu vybrané</string>
+			<key>one</key>
+			<string>%lu vybraná</string>
+			<key>many</key>
+			<string>%lu vybranej</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu vybraných</string>
+		</dict>
+	</dict>
+	<key>%lu (Notes) Found</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes_found@</string>
+		<key>num_notes_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu nájdené</string>
+			<key>one</key>
+			<string>%lu nájdená</string>
+			<key>many</key>
+			<string>%lu nájdených</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu nájdených</string>
+			<key>zero</key>
+			<string>Nenašli sa</string>
+		</dict>
+	</dict>
+	<key>%d hours</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_hours@</string>
+		<key>num_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d h</string>
+			<key>one</key>
+			<string>%d h</string>
+			<key>many</key>
+			<string>%d h</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d h</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Folders</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_folders@</string>
+		<key>num_folders</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Vymazať %lu priečinky</string>
+			<key>one</key>
+			<string>Vymazať priečinok</string>
+			<key>many</key>
+			<string>Vymazať %lu priečinka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vymazať %lu priečinkov</string>
+		</dict>
+	</dict>
+	<key>FOLDER_DEPTH_LIMIT_MESSAGE_%lu</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@folder_depth_limit_message@</string>
+		<key>folder_depth_limit_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Poznámky podporujú najviac %lu úrovne priečinkov.</string>
+			<key>one</key>
+			<string>Poznámky podporujú najviac %lu úroveň priečinkov.</string>
+			<key>many</key>
+			<string>Poznámky podporujú najviac %lu úrovne priečinkov.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Poznámky podporujú najviac %lu úrovní priečinkov.</string>
+		</dict>
+	</dict>
+	<key>%lu (Attachments) Found</key>
+	<dict>
+		<key>num_attachments_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu nájdené</string>
+			<key>one</key>
+			<string>%lu nájdená</string>
+			<key>many</key>
+			<string>%lu nájdených</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu nájdených</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_attachments_found@</string>
+	</dict>
+	<key>Delete %lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Vymazať %lu poznámky</string>
+			<key>one</key>
+			<string>Vymazať poznámku</string>
+			<key>many</key>
+			<string>Vymazať %lu poznámky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vymazať %lu poznámok</string>
+		</dict>
+	</dict>
+	<key>%lu Notes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_notes@</string>
+		<key>num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu poznámky</string>
+			<key>one</key>
+			<string>%lu poznámka</string>
+			<key>many</key>
+			<string>%lu poznámky</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu poznámok</string>
+			<key>zero</key>
+			<string>Žiadne poznámky</string>
+		</dict>
+	</dict>
+	<key>Delete %lu Row</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows@</string>
+		<key>num_rows</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Vymazať %lu riadky</string>
+			<key>one</key>
+			<string>Vymazať riadok</string>
+			<key>many</key>
+			<string>Vymazať %lu riadkov</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Vymazať %lu riadkov</string>
+		</dict>
+	</dict>
+	<key>Double-tap to preview %lu scanned images</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Dvojitým klepnutím zobrazíte náhľad %lu naskenovaných obrázkov</string>
+			<key>one</key>
+			<string>Dvojitým klepnutím zobrazíte náhľad naskenovaného obrázka</string>
+			<key>many</key>
+			<string>Dvojitým klepnutím zobrazíte náhľad %lu naskenovaného obrázka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Dvojitým klepnutím zobrazíte náhľad %lu naskenovaných obrázkov</string>
+		</dict>
+	</dict>
+	<key>SAVE_%lu_SCANNED_IMAGES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>(%lu)</string>
+			<key>one</key>
+			<string></string>
+			<key>many</key>
+			<string>(%lu)</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>(%lu)</string>
+		</dict>
+	</dict>
+	<key>DISCARD_%lu_SCANNED_IMAGES_ALERT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_images@</string>
+		<key>num_images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Naozaj chcete zahodiť %lu skeny?</string>
+			<key>one</key>
+			<string>Naozaj chcete zahodiť tento sken?</string>
+			<key>many</key>
+			<string>Naozaj chcete zahodiť %lu skenov?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>Naozaj chcete zahodiť %lu skenov?</string>
+		</dict>
+	</dict>
+	<key>%d minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d min</string>
+			<key>one</key>
+			<string>%d min</string>
+			<key>many</key>
+			<string>%d min</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d min</string>
+		</dict>
+	</dict>
+	<key>%d seconds</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_seconds@</string>
+		<key>num_seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d s</string>
+			<key>one</key>
+			<string>%d s</string>
+			<key>many</key>
+			<string>%d s</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d s</string>
+		</dict>
+	</dict>
+	<key>Moved %lu notes to %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@moved_num_notes@ do %@</string>
+		<key>moved_num_notes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu poznámky boli presunuté</string>
+			<key>one</key>
+			<string>%lu poznámka bola presunutá</string>
+			<key>many</key>
+			<string>%lu poznámok bolo presunutých</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu poznámok bolo presunutých</string>
+			<key>zero</key>
+			<string>Žiadne poznámky neboli presunuté</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

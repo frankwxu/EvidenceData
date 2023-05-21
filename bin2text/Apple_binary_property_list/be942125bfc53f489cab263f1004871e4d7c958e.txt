@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>suggestions.%dsuggestions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>יש %#@suggestions@</string>
+		<key>suggestions</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>הצעה אחת</string>
+			<key>many</key>
+			<string>%d הצעות</string>
+			<key>two</key>
+			<string>שתי הצעות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d הצעות</string>
+		</dict>
+	</dict>
+	<key>accounts.list.groupmember%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@, %#@items@, בקבוצה</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תזכורת אחת</string>
+			<key>many</key>
+			<string>‏%d תזכורות</string>
+			<key>two</key>
+			<string>שתי תזכורות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תזכורות</string>
+		</dict>
+	</dict>
+	<key>accounts.list.name%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@, %#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תזכורת אחת</string>
+			<key>many</key>
+			<string>‏%d תזכורות</string>
+			<key>two</key>
+			<string>שתי תזכורות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תזכורות</string>
+		</dict>
+	</dict>
+	<key>reminders.%dsubtasks.collapsed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@subtasks@</string>
+		<key>subtasks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תת-משימה אחת מקופלת</string>
+			<key>many</key>
+			<string>%d תתי-משימות מקופלות</string>
+			<key>two</key>
+			<string>שתי תתי-משימות מקופלות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d תתי-משימות מקופלות</string>
+		</dict>
+	</dict>
+	<key>reminders.%dsubtasks.expanded</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@subtasks@</string>
+		<key>subtasks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תת-משימה אחת</string>
+			<key>many</key>
+			<string>%d תתי-משימות</string>
+			<key>two</key>
+			<string>שתי תתי-משימות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d תתי-משימות</string>
+		</dict>
+	</dict>
+	<key>accounts.list.groupname%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@, קבוצה, %#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תזכורת אחת</string>
+			<key>many</key>
+			<string>‏%d תזכורות</string>
+			<key>two</key>
+			<string>שתי תזכורות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תזכורות</string>
+		</dict>
+	</dict>
+	<key>reminders.%dimages</key>
+	<dict>
+		<key>images</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>תמונה אחת</string>
+			<key>many</key>
+			<string>‏%d תמונות</string>
+			<key>two</key>
+			<string>שתי תמונות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d תמונות</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@images@</string>
+	</dict>
+	<key>reminders.list.name%ditems</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ %#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>, תזכורת אחת</string>
+			<key>many</key>
+			<string>, ‏%d תזכורות</string>
+			<key>two</key>
+			<string>, שתי תזכורות</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>, ‏%d תזכורות</string>
+			<key>zero</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

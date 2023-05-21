@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.cancel</key>
+	<string>Hủy</string>
+	<key>common.deleteAccount</key>
+	<string>Xóa tài khoản</string>
+	<key>common.error.networkError</key>
+	<string>Hãy kiểm tra 
+tình trạng kết nối mạng 
+và thử lại.</string>
+	<key>common.error.systemError</key>
+	<string>Có lỗi: Hãy thử lại sau.</string>
+	<key>common.error.unknownError</key>
+	<string>Đã xảy ra lỗi.</string>
+	<key>common.later</key>
+	<string>Đăng ký sau</string>
+	<key>no</key>
+	<string>Không</string>
+	<key>pay.addMoney.qrcode.title</key>
+	<string>Mã QR/Mã vạch</string>
+	<key>pay.agencyqr.popup.message</key>
+	<string>Có thể bạn sẽ được chuyển hướng tới trang nằm ngoài LINE Pay. Mở link bên dưới?</string>
+	<key>pay.agreement.agree</key>
+	<string>Đồng ý</string>
+	<key>pay.amount</key>
+	<string>Khoản tiền</string>
+	<key>pay.apply</key>
+	<string>Tiếp</string>
+	<key>pay.available.coupon</key>
+	<string>Coupon có sẵn</string>
+	<key>pay.bank.searchBranch.guideMessage</key>
+	<string>Hãy tìm kiếm bằng tên chi nhánh hoặc số chi nhánh.</string>
+	<key>pay.bank.searchBranch.searchResult</key>
+	<string>Kết quả</string>
+	<key>pay.bank.searchBranch.title</key>
+	<string>Tên chi nhánh</string>
+	<key>pay.barcode.help</key>
+	<string>Chạm vào đây để được giúp quét mã.</string>
+	<key>pay.barcode.recognizeGuide</key>
+	<string>Camera của bạn sẽ tự động phát hiện mã vạch.</string>
+	<key>pay.brandName</key>
+	<string>LINE Pay</string>
+	<key>pay.card.nickname.placeholder</key>
+	<string>Đặt danh thiếp.</string>
+	<key>pay.cashable.balance</key>
+	<string>Không thể rút tiền từ phần thưởng LINE Pay của bạn</string>
+	<key>pay.charge.add</key>
+	<string>Thêm</string>
+	<key>pay.charge.amount</key>
+	<string>Số tiền nạp</string>
+	<key>pay.charge.from.7bank</key>
+	<string>SevenBank ATM</string>
+	<key>pay.charge.minimum.unit.bank</key>
+	<string>Số tiền tối thiểu: %1$@</string>
+	<key>pay.charging.bank.accountBalance</key>
+	<string>Số dư tài khoản ngân hàng</string>
+	<key>pay.charging.bank.accountBalance.button</key>
+	<string>Xem</string>
+	<key>pay.charging.bank.appendAccount</key>
+	<string>Thêm tài khoản ngân hàng</string>
+	<key>pay.charging.charege.button</key>
+	<string>Nạp tiền</string>
+	<key>pay.charging.debit.cardName</key>
+	<string>Thẻ ghi nợ</string>
+	<key>pay.charging.maximumAmount.alert</key>
+	<string>Có thể nạp tối đa 
+tới %1$@.</string>
+	<key>pay.charging.miniumAmount.alert</key>
+	<string>Thêm ít nhất %1$@.</string>
+	<key>pay.charging.waiting.alert</key>
+	<string>Đang thêm tiền. Bạn sẽ sớm có thể xác nhận số dư mới trong menu Hoạt động của tài khoản.</string>
+	<key>pay.charging.waiting.text</key>
+	<string>Đang chờ</string>
+	<key>pay.chargingATM.agencyNo</key>
+	<string>Số ủy quyền.</string>
+	<key>pay.chargingATM.agencyNo.colon</key>
+	<string>Số ủy quyền.:</string>
+	<key>pay.chargingATM.closeDate</key>
+	<string>Hết hạn</string>
+	<key>pay.chargingATM.closeDate.colon</key>
+	<string>Hết hạn:</string>
+	<key>pay.chargingATM.complete</key>
+	<string>Xong</string>
+	<key>pay.chargingATM.confirmNo</key>
+	<string>Số tham khảo.</string>
+	<key>pay.chargingATM.confirmNo.colon</key>
+	<string>Số tham khảo.:</string>
+	<key>pay.chargingATM.dealNo</key>
+	<string>Số khách hàng</string>
+	<key>pay.chargingATM.dealNo.colon</key>
+	<string>Số khách hàng:</string>
+	<key>pay.chargingATM.description</key>
+	<string>Sử dụng thông tin sau để thêm tiền vào tài khoản LINE Pay của bạn.</string>
+	<key>pay.chargingATM.howto</key>
+	<string>Hướng dẫn sử dụng</string>
+	<key>pay.chargingATM.inputName.alert</key>
+	<string>Nhập tên của bạn</string>
+	<key>pay.chargingATM.maximum.amount.alert</key>
+	<string>Có thể nạp tối đa tới %1$@.</string>
+	<key>pay.chargingATM.minimum.amount.alert</key>
+	<string>Thêm ít nhất %1$@.</string>
+	<key>pay.chargingATM.minimum.unit</key>
+	<string>Vui lòng nhập số tiền tăng theo khoảng %1$@. Đối với số tiền thấp hơn %1$@, hãy nạp tiền từ tài khoản ngân hàng của bạn.
+Không thể dùng thẻ trả trước LINE (có bán tại các cửa hàng tiện lợi) và LINE Coin để nạp tiền cho số dư LINE Pay của bạn.
+Có thể mất tới hai phút để số dư của bạn cập nhật sau khi nạp tiền.</string>
+	<key>pay.chargingATM.title</key>
+	<string>Pay-easy</string>
+	<key>pay.chargingConvenience.button</key>
+	<string>FamiPort</string>
+	<key>pay.chargingConvenience.confirmNo</key>
+	<string>Số đặt trước.</string>
+	<key>pay.chargingConvenience.confirmNo.colon</key>
+	<string>Số đặt trước.:</string>
+	<key>pay.chargingConvenience.dealNo</key>
+	<string>Số đăng ký.</string>
+	<key>pay.chargingConvenience.dealNo.colon</key>
+	<string>Số đăng ký.:</string>
+	<key>pay.chargingConvenience.guideText.maximumAmout</key>
+	<string>Bạn có thể nạp tối đa %1$@
+thông qua FamiPort.</string>
+	<key>pay.chargingConvenience.list</key>
+	<string>Cửa hàng có thể sử dụng</string>
+	<key>pay.chargingConvenience.title</key>
+	<string>FamiPort</string>
+	<key>pay.chat.message.notAvailableAllUser</key>
+	<string>Bạn chỉ có thể chọn bạn bè có khả năng sử dụng Pay và có tài khoản Pay ở cùng quốc gia với bạn.</string>
+	<key>pay.chat.message.receiveRequest.alert</key>
+	<string>Hãy đảm bảo rằng 
+bạn đang gửi tiền cho bạn bè. 
+Tiếp tục chuyển tiền?</string>
+	<key>pay.chat.message.receiveRequest.alert.jp</key>
+	<string>Hãy đảm bảo rằng bạn đã chọn đúng người để chuyển tiền hoặc phần thưởng. Chuyển tiền hoặc phần thưởng?</string>
+	<key>pay.checkout.address</key>
+	<string>Địa chỉ giao hàng</string>
+	<key>pay.checkout.address.detail</key>
+	<string>Địa chỉ đường phố</string>
+	<key>pay.checkout.address.directInput</key>
+	<string>Nhập địa chỉ mới</string>
+	<key>pay.checkout.address.emptyError</key>
+	<string>Vui lòng nhập địa chỉ đường của bạn.</string>
+	<key>pay.checkout.address.optional</key>
+	<string>Tên tòa nhà</string>
+	<key>pay.checkout.address.placeholder</key>
+	<string>JＲ新宿ミライナタワー23階</string>
+	<key>pay.checkout.address.validError</key>
+	<string>Địa chỉ có chứa ký tự không hợp lệ.</string>
+	<key>pay.checkout.chineseName</key>
+	<string>Kanji</string>
+	<key>pay.checkout.email</key>
+	<string>Email</string>
+	<key>pay.checkout.email.emptyError</key>
+	<string>Vui lòng nhập địa chỉ email.</string>
+	<key>pay.checkout.email.validError</key>
+	<string>Không nhận dạng được định dạng email.</string>
+	<key>pay.checkout.firstName.phonetic.hint</key>
+	<string>Ví dụ: タロウ</string>
+	<key>pay.checkout.fullname.valid.error</key>
+	<string>Vui lòng nhập tên người nhận bằng cả kanji và katakana.</string>
+	<key>pay.checkout.katakanaName</key>
+	<string>Katakana</string>
+	<key>pay.checkout.lastName.phonetic.hint</key>
+	<string>Ví dụ: ヤマダ</string>
+	<key>pay.checkout.linepayPromotion</key>
+	<string>Khuyến mãi của LINE Pay</string>
+	<key>pay.checkout.name.firstName.hint</key>
+	<string>Ví dụ: Tarou</string>
+	<key>pay.checkout.name.lastName.hint</key>
+	<string>Ví dụ: Yamada</string>
+	<key>pay.checkout.name.phonetic.validError</key>
+	<string>Vui lòng nhập tên người nhận bằng chữ katakana (hoặc chữ tiếng Anh, nếu cần).</string>
+	<key>pay.checkout.name.validError</key>
+	<string>Vui lòng nhập tên người nhận bằng chữ kanji, hiragana hoặc katakana. (Nhập chữ tiếng Anh nếu cần).</string>
+	<key>pay.checkout.phone</key>
+	<string>Số điện thoại</string>
+	<key>pay.checkout.phone.validError</key>
+	<string>Định dạng số điện thoại không được chấp nhận.</string>
+	<key>pay.checkout.profilePlus.address.description</key>
+	<string>Địa chỉ trên Profile+</string>
+	<key>pay.checkout.profilePlus.description</key>
+	<string>Địa chỉ bạn đã nhập sẽ được thêm vào LINE Profile+ của bạn ngay khi giao dịch hoàn tất.
+Tất cả thông tin được thêm vào LINE Profile+ của bạn sẽ phải tuân theo Chính sách quyền riêng tư.
+- Địa chỉ bạn đã nhập sẽ không được thêm nếu mã bưu điện của địa chỉ này khớp với mã bưu điện của địa chỉ đã có hoặc nếu LINE Profile+ của bạn đã có 10 địa chỉ trở lên.</string>
+	<key>pay.checkout.recentDelivery.delete</key>
+	<string>Bạn sẽ không thể phục hồi địa chỉ này sau khi xóa. Xóa địa chỉ này?</string>
+	<key>pay.checkout.recentDelivery.more</key>
+	<string>Xem thêm</string>
+	<key>pay.checkout.recentDelivery.select</key>
+	<string>Chọn địa chỉ dùng cho giao hàng.</string>
+	<key>pay.checkout.recentDelivery.title</key>
+	<string>Địa chỉ gần đây</string>
+	<key>pay.checkout.recipient</key>
+	<string>Người nhận</string>
+	<key>pay.checkout.recipient.phonetic</key>
+	<string>Người nhận (bằng chữ Furigana)</string>
+	<key>pay.checkout.required</key>
+	<string>Bắt buộc</string>
+	<key>pay.checkout.searchAddress</key>
+	<string>Tìm địa chỉ</string>
+	<key>pay.checkout.searchAddress.checkPostNumber</key>
+	<string>Vui lòng kiểm tra mã bưu điện và thử lại.</string>
+	<key>pay.checkout.searchAddress.noResult</key>
+	<string>Không có kết quả.</string>
+	<key>pay.checkout.searchAddress.postNumber.placeholder</key>
+	<string>1234567</string>
+	<key>pay.checkout.searchAddress.recent</key>
+	<string>Tìm kiếm gần đây</string>
+	<key>pay.checkout.shipping.method</key>
+	<string>Phương thức chuyển phát</string>
+	<key>pay.checkout.shippingAddress</key>
+	<string>Chi tiết giao hàng</string>
+	<key>pay.checkout.shippingAddress.description</key>
+	<string>Chi tiết giao hàng sẽ được chia sẻ với người bán sau khi hoàn thành thanh toán.</string>
+	<key>pay.checkout.shippingFee</key>
+	<string>Phí vận chuyển</string>
+	<key>pay.checkout.shippingFee.change</key>
+	<string>Phí vận chuyển đã được điều chỉnh do thay đổi địa chỉ. Vui lòng kiểm tra số tiền thanh toán cuối cùng.</string>
+	<key>pay.close</key>
+	<string>Đóng</string>
+	<key>pay.common.merchantInfo</key>
+	<string>Thông tin người bán</string>
+	<key>pay.common.pocketMoney.amount.description</key>
+	<string>Sẵn dùng</string>
+	<key>pay.common.pocketMoney.desc</key>
+	<string>Số tiền bạn có thể vay từ LINE Credit Corporation.</string>
+	<key>pay.common.pocketMoney.title</key>
+	<string>LINE Pocket Money</string>
+	<key>pay.confirm</key>
+	<string>OK</string>
+	<key>pay.confirm.secure.confirmation</key>
+	<string>Xác nhận</string>
+	<key>pay.coupon</key>
+	<string>Coupon</string>
+	<key>pay.coupon.discount</key>
+	<string>Chiết khấu coupon</string>
+	<key>pay.coupon.empty.message</key>
+	<string>Không có sẵn coupon.</string>
+	<key>pay.coupon.how.to.use</key>
+	<string>Cách sử dụng</string>
+	<key>pay.coupon.noDownloadableCoupons</key>
+	<string>Không có coupon được đề xuất.</string>
+	<key>pay.coupon.price.discount</key>
+	<string>Giảm %@</string>
+	<key>pay.coupon.search</key>
+	<string>Tìm kiếm</string>
+	<key>pay.coupon.selection.empty.message</key>
+	<string>Không có coupon nào được chọn.</string>
+	<key>pay.coupon.use.in.mycode</key>
+	<string>Quy đổi bằng cách thanh toán qua Mã của tôi</string>
+	<key>pay.cs.contact</key>
+	<string>Help Page</string>
+	<key>pay.cs.title</key>
+	<string>Trợ giúp</string>
+	<key>pay.deleteAccount.alert</key>
+	<string>Trước hết hãy đóng tài khoản %1$@.</string>
+	<key>pay.discount</key>
+	<string>Giảm giá</string>
+	<key>pay.dutch.changeAmount.alert</key>
+	<string>Hãy đổi tổng số tiền thành %1$@ 
+để có thể chia cho đều.</string>
+	<key>pay.dutch.checkedFriend.cancel.alert</key>
+	<string>Bạn có chắc chắn 
+muốn hủy bỏ yêu cầu đã gửi 
+cho bạn bè đã chọn không?</string>
+	<key>pay.dutch.complete.alert</key>
+	<string>Đã yêu cầu chia sẻ thanh toán.</string>
+	<key>pay.dutch.detailView.result</key>
+	<string>%1$@ ÷ %2$d = %3$@</string>
+	<key>pay.dutch.eachMoney</key>
+	<string>Mỗi</string>
+	<key>pay.dutch.maximumMoney.alert</key>
+	<string>Đã vượt quá số tiền tối đa để dùng cách Chia sẻ thanh toán.</string>
+	<key>pay.dutch.me.text</key>
+	<string>Tôi</string>
+	<key>pay.dutch.members</key>
+	<string>Bạn đã chọn</string>
+	<key>pay.dutch.minimumMember.alert</key>
+	<string>Chọn hai bạn bè trở lên 
+để chia sẻ thanh toán.</string>
+	<key>pay.dutch.minimumMoney.alert</key>
+	<string>K.tiền thấp hơn 
+g.hạn t.thiểu. %1$@</string>
+	<key>pay.dutch.result</key>
+	<string>Tính thanh toán riêng</string>
+	<key>pay.dutch.resultMembers.text</key>
+	<string>÷ %1$d</string>
+	<key>pay.dutch.sendButton</key>
+	<string>Chia hóa đơn</string>
+	<key>pay.dutch.totalMoney</key>
+	<string>Tổng số</string>
+	<key>pay.einvoice.confirmRemove</key>
+	<string>Xóa mã vạch này?</string>
+	<key>pay.einvoice.mycode</key>
+	<string>Biên nhận điện tử của tôi</string>
+	<key>pay.einvoice.reg.tooltip</key>
+	<string>Đăng ký mã biên nhận điện tử của bạn để tạo mã vạch để sử dụng khi mua hàng bằng LINE Pay.</string>
+	<key>pay.einvoice.reg.wrongCode</key>
+	<string>Nhập mã hóa đơn điện tử</string>
+	<key>pay.einvoice.showAlways</key>
+	<string>Luôn hiển thị mã vạch biên nhận của tôi</string>
+	<key>pay.ekyc.alert.deviceIsNotSupported</key>
+	<string>この端末では、かんたん本人確認をサポートしません。他の本人確認手段を選択してください。</string>
+	<key>pay.ekyc.confirm.inputs</key>
+	<string>Hãy đảm bảo bạn đã nhập thông tin cá nhân mới nhất. Tiếp tục?</string>
+	<key>pay.ekyc.download.nec.files</key>
+	<string>Đang chuẩn bị nhận diện khuôn mặt...</string>
+	<key>pay.ekyc.error.checkKatakana</key>
+	<string>Vui lòng nhập tên bạn bằng chữ katakana (hoặc chữ tiếng Anh, nếu cần).</string>
+	<key>pay.ekyc.error.checkPostalCode</key>
+	<string>Vui lòng kiểm tra mã bưu điện và thử lại.</string>
+	<key>pay.ekyc.error.checkRequiredField</key>
+	<string>Trường này là bắt buộc.</string>
+	<key>pay.ekyc.header.title</key>
+	<string>Xác minh danh tính LINE Pay</string>
+	<key>pay.ekyc.nec.take.id.error.message.device.space</key>
+	<string>Không thể lưu ảnh. Vui lòng giải phóng dung lượng trên thiết bị của bạn, rồi thử lại.</string>
+	<key>pay.ekyc.nec.take.id.error.message.unknown</key>
+	<string>Không thể lưu ảnh. Vui lòng thử lại.</string>
+	<key>pay.ekyc.nec.verify.face.error.message.dist.does.not.exist</key>
+	<string>エラーが発生しました。もう一度お試しください。</string>
+	<key>pay.ekyc.nec.verify.face.error.message.liveness.failed</key>
+	<string>Không thể nhận diện chuyển động của bạn. Vui lòng thử lại.</string>
+	<key>pay.ekyc.nec.verify.face.error.message.read.failed</key>
+	<string>Không gửi được video. Vui lòng thử lại.</string>
+	<key>pay.ekyc.nec.verify.face.error.message.recognition.failed</key>
+	<string>Không thể nhận diện các đặc điểm khuôn mặt của bạn. Vui lòng thử lại.</string>
+	<key>pay.ekyc.nec.verify.face.error.message.sidecheck.failed</key>
+	<string>Không thể nhận diện độ dày của thẻ ID. Vui lòng thử lại.</string>
+	<key>pay.ekyc.nec.verify.face.error.message.timeout</key>
+	<string>Yêu cầu đã quá thời gian cho phép. Vui lòng thử lại.</string>
+	<key>pay.ekyc.personal.info.address.hint</key>
+	<string>Đ.chỉ.1</string>
+	<key>pay.ekyc.personal.info.address.title</key>
+	<string>Địa chỉ</string>
+	<key>pay.ekyc.personal.info.birthday.hint</key>
+	<string>Ngày sinh</string>
+	<key>pay.ekyc.personal.info.contact.cs</key>
+	<string>Liên hệ với chúng tôi</string>
+	<key>pay.ekyc.personal.info.desc</key>
+	<string>Đảm bảo rằng thông tin cá nhân của bạn chính xác và cập nhật.</string>
+	<key>pay.ekyc.personal.info.detail.address.hint</key>
+	<string>Đ.chỉ.2</string>
+	<key>pay.ekyc.personal.info.detail.desc</key>
+	<string>Bạn có thể thay đổi họ ở đây nếu cần. Vui lòng liên hệ với dịch vụ Chăm sóc khách hàng nếu bạn cần thay đổi tên hoặc sửa ngày sinh.</string>
+	<key>pay.ekyc.personal.info.job.hint</key>
+	<string>Nghề nghiệp</string>
+	<key>pay.ekyc.personal.info.joint.use.desc</key>
+	<string>Thông tin của bạn sẽ được chia sẻ với LINE Financial Corporation và các dịch vụ khác.</string>
+	<key>pay.ekyc.personal.info.kanji.firstName.hint</key>
+	<string>Tên(Tiếng Hán)</string>
+	<key>pay.ekyc.personal.info.kanji.lastName.hint</key>
+	<string>Họ(Tiếng Hán)</string>
+	<key>pay.ekyc.personal.info.katakana.firstName.hint</key>
+	<string>Tên(Katakana)</string>
+	<key>pay.ekyc.personal.info.katakana.lastName.hint</key>
+	<string>Họ(Katakana)</string>
+	<key>pay.ekyc.personal.info.optional.address.hint</key>
+	<string>Tên tòa nhà</string>
+	<key>pay.ekyc.personal.info.postalCode.hint</key>
+	<string>Mã bưu điện</string>
+	<key>pay.ekyc.personal.info.postalCode.search</key>
+	<string>Tìm</string>
+	<key>pay.ekyc.personal.info.prefecture.hint</key>
+	<string>Tiểu bang/tỉnh/khu vực</string>
+	<key>pay.ekyc.personal.info.purpose.hint</key>
+	<string>Vì sao là Tài khoản LINE Pay?</string>
+	<key>pay.ekyc.personal.info.required</key>
+	<string>Bắt buộc</string>
+	<key>pay.ekyc.personal.info.up.to.date.desc</key>
+	<string>Thông tin của tôi đã được cập nhật.</string>
+	<key>pay.ekyc.select.id.card.type.desc</key>
+	<string>Chọn một trong những loại ID dưới đây và tải lên ảnh ID của bạn.</string>
+	<key>pay.ekyc.transmission.error</key>
+	<string>Không thể xử lý yêu cầu của bạn. Vui lòng chạm vào Thử lại để thử lại.</string>
+	<key>pay.ekyc.upload.id.card.back.side.title</key>
+	<string>Mặt sau ID 
+(hoặc trang thông tin liên hệ trong hộ chiếu)</string>
+	<key>pay.ekyc.upload.id.card.both.sides.desc</key>
+	<string>Tải lên ảnh mặt trước và mặt sau của ID của bạn.</string>
+	<key>pay.ekyc.upload.id.card.front.side.desc</key>
+	<string>Tải lên ảnh mặt trước của ID của bạn.</string>
+	<key>pay.ekyc.upload.id.card.front.side.title</key>
+	<string>Mặt trước ID 
+(hoặc trang ảnh trong hộ chiếu)</string>
+	<key>pay.ekyc.upload.id.card.retake</key>
+	<string>Chụp lại ảnh</string>
+	<key>pay.ekyc.upload.id.card.take</key>
+	<string>Chụp ảnh</string>
+	<key>pay.error.checkPeriod</key>
+	<string>Thời gian: %1$@-%2$@</string>
+	<key>pay.error.checkService</key>
+	<string>Dịch vụ đang được bảo trì.</string>
+	<key>pay.error.failLoad</key>
+	<string>Không thể tải</string>
+	<key>pay.error.gotoHelp</key>
+	<string>Trợ giúp</string>
+	<key>pay.error.retry</key>
+	<string>Làm mới</string>
+	<key>pay.error.userStatus.passwordLockOut</key>
+	<string>Tài khoản đã bị khóa.
+Yêu cầu đặt lại mật khẩu.</string>
+	<key>pay.error.userStatus.passwordLockOut.button</key>
+	<string>Đặt mật khẩu</string>
+	<key>pay.expired.coupon</key>
+	<string>Coupon đã hết hạn</string>
+	<key>pay.expired.coupon.empty.message</key>
+	<string>Không có coupon.</string>
+	<key>pay.global.newCard</key>
+	<string>Thẻ mới</string>
+	<key>pay.globalPayment.alreadyCancel.alert</key>
+	<string>Yêu cầu t.toán mới. T.toán ngay?</string>
+	<key>pay.globalPayment.amount.discount</key>
+	<string>Chiết khấu sản phẩm</string>
+	<key>pay.globalPayment.amount.discountAdd</key>
+	<string>Ch.khấu khác</string>
+	<key>pay.globalPayment.amount.payAmount</key>
+	<string>Tổng số</string>
+	<key>pay.globalPayment.amount.point</key>
+	<string>Điểm đã sử dụng</string>
+	<key>pay.globalPayment.amount.product</key>
+	<string>Giá sản phẩm</string>
+	<key>pay.globalPayment.balance.start</key>
+	<string>Chưa tạo tài khoản</string>
+	<key>pay.globalPayment.bankDirect</key>
+	<string>Thanh toán ghi nợ</string>
+	<key>pay.globalPayment.bankMaintenance</key>
+	<string>Đang bảo trì</string>
+	<key>pay.globalPayment.bankWaiting</key>
+	<string>Đăng ký đang chờ xử lý</string>
+	<key>pay.globalPayment.cancelPay.alert</key>
+	<string>Bạn có chắc chắn 
+muốn hủy
+thanh toán 
+đang thực hiện không?</string>
+	<key>pay.globalPayment.cancelRegistration.alert</key>
+	<string>Bạn có chắc chắn 
+muốn hủy
+thanh toán 
+đang thực hiện không?</string>
+	<key>pay.globalPayment.card.regist.isNotSupport</key>
+	<string>Thẻ không hợp lệ.
+Hãy thử một thẻ tín dụng khác.</string>
+	<key>pay.globalPayment.creditCard</key>
+	<string>Thẻ tín dụng</string>
+	<key>pay.globalPayment.disablePayCard</key>
+	<string>Người bán hàng này không chấp nhận thẻ này.</string>
+	<key>pay.globalPayment.goMerchantPag</key>
+	<string>Truy cập trang người bán</string>
+	<key>pay.globalPayment.limitTimePay</key>
+	<string>Thanh toán vào lúc %1$@.</string>
+	<key>pay.globalPayment.limitTimeRegistration</key>
+	<string>Thanh toán vào lúc %1$@.</string>
+	<key>pay.globalPayment.modifyCard</key>
+	<string>Chỉnh sửa</string>
+	<key>pay.globalPayment.needHolderName</key>
+	<string>Vui lòng đăng ký tên của bạn để sử dụng thẻ tín dụng.</string>
+	<key>pay.globalPayment.pay</key>
+	<string>Tiếp</string>
+	<key>pay.globalPayment.payMethod</key>
+	<string>Phương thức</string>
+	<key>pay.globalPayment.payMethod.point</key>
+	<string>Điểm LINE</string>
+	<key>pay.globalPayment.payRemain</key>
+	<string>Số dư %1$@</string>
+	<key>pay.globalPayment.payRemain.tw</key>
+	<string>Số dư LINE Pay</string>
+	<key>pay.globalPayment.payableCard</key>
+	<string>Đã chấp nhận thẻ</string>
+	<key>pay.globalPayment.point.failedToLoad</key>
+	<string>Không thể truy xuất điểm của bạn do lỗi tạm thời.</string>
+	<key>pay.globalPayment.point.myPoint.alert.exceedAmount</key>
+	<string>Bạn chỉ mua với số tiền %1$@.</string>
+	<key>pay.globalPayment.point.myPoint.alert.exceedPoint</key>
+	<string>Bạn hiện chỉ có %1$@ điểm.</string>
+	<key>pay.globalPayment.point.myPoint.input.subTitle</key>
+	<string>Điểm hiện có</string>
+	<key>pay.globalPayment.point.myPoint.input.title</key>
+	<string>Thanh toán bằng điểm</string>
+	<key>pay.globalPayment.point.myPoint.title</key>
+	<string>Thanh toán bằng điểm</string>
+	<key>pay.globalPayment.point.myPoint.useAll</key>
+	<string>S.dụng t.cả</string>
+	<key>pay.globalPayment.registerBankAccount</key>
+	<string>Không có tài khoản khả dụng.</string>
+	<key>pay.globalPayment.registerCard</key>
+	<string>Chưa thêm thẻ t.dụng</string>
+	<key>pay.globalPayment.registeredCard</key>
+	<string>Thêm</string>
+	<key>pay.globalPayment.registration</key>
+	<string>Đăng ký</string>
+	<key>pay.globalPayment.requestPay</key>
+	<string>%1$@ đã yêu cầu thanh toán.</string>
+	<key>pay.globalPayment.requestRegistration</key>
+	<string>%1$@ đã yêu cầu thanh toán.</string>
+	<key>pay.globalPayment.security.info</key>
+	<string>Ko khớp tên/hồ sơ của LINE 
+và Thông tin của tôi 
+bị giảm bớt tính bảo mật.</string>
+	<key>pay.globalPayment.sellerName</key>
+	<string>Người bán</string>
+	<key>pay.go.main</key>
+	<string>Đi đến Home</string>
+	<key>pay.history.noData</key>
+	<string>Không có dữ liệu để hiển thị</string>
+	<key>pay.identification.album</key>
+	<string>Chọn từ album</string>
+	<key>pay.identification.alert.complete</key>
+	<string>Xong</string>
+	<key>pay.identification.alert.notification</key>
+	<string>Đã gửi yêu cầu xác minh ID.</string>
+	<key>pay.identification.back</key>
+	<string>Sau ID</string>
+	<key>pay.identification.beingVerified</key>
+	<string>ID của bạn hiện đang được xác minh. Bạn có thể sử dụng tài khoản ngân hàng của mình sau khi hoàn thành xác minh ID.</string>
+	<key>pay.identification.birthOfDate.buddhist</key>
+	<string>Ngày sinh (Phật lịch)</string>
+	<key>pay.identification.camera</key>
+	<string>Chụp ảnh</string>
+	<key>pay.identification.dopa.guide</key>
+	<string>Vui lòng nhập số laser ở mặt sau thẻ ID của bạn.</string>
+	<key>pay.identification.dopa.title</key>
+	<string>Xác minh danh tính</string>
+	<key>pay.identification.faceAndId</key>
+	<string>Xác minh ID và khuôn mặt</string>
+	<key>pay.identification.faceAndId.guideLabel</key>
+	<string>Vui lòng tải lên ảnh chụp ID của bạn và ảnh nhìn rõ khuôn mặt bạn cùng ID. Việc xác minh có thể diễn ra trong một thời gian và bạn sẽ có thể sử dụng các tính năng được hạn chế sau khi đã xác minh.</string>
+	<key>pay.identification.faceAndId.idCardButton</key>
+	<string>Chụp ảnh</string>
+	<key>pay.identification.faceAndId.idCardTitle</key>
+	<string>Mặt trước ID 
+(hoặc trang ảnh trong hộ chiếu)</string>
+	<key>pay.identification.faceAndId.scanGuide</key>
+	<string>Đảm bảo ID của bạn được đặt trong hình chữ nhật hiển thị bên trên.</string>
+	<key>pay.identification.faceAndId.scanTitle</key>
+	<string>Chụp ảnh ID</string>
+	<key>pay.identification.faceAndId.selfieButton</key>
+	<string>Chụp ảnh</string>
+	<key>pay.identification.faceAndId.selfieTitle</key>
+	<string>Ảnh khuôn mặt và mặt trước ID của bạn</string>
+	<key>pay.identification.faceAndId.success.detail</key>
+	<string>Khi đã được xác minh, bạn sẽ nhận thông báo qua tài khoản  chính thức.</string>
+	<key>pay.identification.faceAndId.success.title</key>
+	<string>Đã tải ảnh lên.</string>
+	<key>pay.identification.front</key>
+	<string>Trước ID</string>
+	<key>pay.identification.image.description</key>
+	<string>Các hình thức ID hợp lệ bao gồm giấy phép lái xe, thẻ bảo hiểm y tế, hộ khẩu có ảnh, thẻ cư trú hoặc giấy chứng nhận đăng ký người nước ngoài.</string>
+	<key>pay.identification.image.upload.guide</key>
+	<string>Hãy chụp một bức ảnh thật rõ ràng cho thẻ nhận dạng.</string>
+	<key>pay.identification.inputInfo.title</key>
+	<string>Nhập thông tin</string>
+	<key>pay.identification.kycInProgress</key>
+	<string>Bạn cần hoàn thành yêu cầu xác minh danh tính để có thể sử dụng tính năng này. Bạn sẽ nhận được thông báo qua tài khoản chính thức của chúng tôi khi bạn đã được xác minh.</string>
+	<key>pay.identification.kycInProgress.payment</key>
+	<string>Bạn cần hoàn thành yêu cầu xác minh danh tính để có thể thanh toán từ %1$@ THB trở lên. Bạn sẽ nhận được thông báo qua tài khoản chính thức của chúng tôi khi bạn đã được xác minh.</string>
+	<key>pay.identification.laserNumber.placeholder</key>
+	<string>Nhập chữ và số, không bao gồm dấu gạch ngang</string>
+	<key>pay.identification.method.ID</key>
+	<string>Tải lên thẻ ID ảnh</string>
+	<key>pay.identification.method.ID.guide</key>
+	<string>Giấy phép lái xe, thẻ bảo hiểm y tế, hộ khẩu có ảnh và thẻ cư trú</string>
+	<key>pay.identification.method.bank</key>
+	<string>Kết nối tk ngân hàng</string>
+	<key>pay.identification.method.info</key>
+	<string>Chọn phương pháp xác nhận ID.</string>
+	<key>pay.identification.need.alert</key>
+	<string>Sau khi h.tất quy trình nhận dạng 
+sẽ có kết quả.</string>
+	<key>pay.identification.needAuth.alert</key>
+	<string>Bạn cần xác minh danh tính để sử dụng Rabbit LINE Pay.</string>
+	<key>pay.identification.needAuth.alert.payment</key>
+	<string>Bạn phải xác minh danh tính để thanh toán %1$@ THB trở lên.</string>
+	<key>pay.identification.purpose</key>
+	<string>Vì sao là Tài khoản LINE Pay?</string>
+	<key>pay.identification.purpose.input</key>
+	<string>Hãy nhập mục đích sử dụng 
+LINE Pay.</string>
+	<key>pay.identification.required</key>
+	<string>Bạn cần xác minh ID để sử dụng tài khoản ngân hàng này. Tải lên ảnh ID của bạn ngay?</string>
+	<key>pay.identification.required.mark</key>
+	<string>Xác minh ID</string>
+	<key>pay.identification.th.need.alert</key>
+	<string>Bạn phải kích hoạt số dư tài khoản %1$@ trước rồi mới có thể sử dụng tính năng này.</string>
+	<key>pay.identification.title</key>
+	<string>Xác nhận ID</string>
+	<key>pay.identification.title.kataka.alert</key>
+	<string>Vui lòng nhập tên bạn 
+dưới dạng Katanaka.</string>
+	<key>pay.identification.title.katakaEnglish.alert</key>
+	<string>Vui lòng chỉ nhập katakana, chữ tiếng Anh hoặc số.</string>
+	<key>pay.identification.tw.need.alert</key>
+	<string>Bạn phải đăng ký Online Saving Account trước. Bạn có muốn tiếp tục không?</string>
+	<key>pay.identification.uploadFailed</key>
+	<string>Không thể tải hình ảnh.</string>
+	<key>pay.identification.viewer</key>
+	<string>Xem bằng viewer</string>
+	<key>pay.identification.waiting</key>
+	<string>Đang tiến hành xác thực.
+Bạn có thể sử dụng
+ dịch vụ này sau khi hoàn tất xác thực.</string>
+	<key>pay.identifyUser.carryForward.cancel</key>
+	<string>Bỏ qua chuyển số dư</string>
+	<key>pay.identifyUser.carryForward.cancel.warn</key>
+	<string>Bạn sẽ được chuyển hướng đến trang chính mà không chuyển số dư còn lại của mình. Xin lưu ý rằng bạn chỉ có thể chuyển số dư còn lại của mình thông qua Dịch vụ khách hàng sau đó. Tiếp tục?</string>
+	<key>pay.identifyUser.carryForward.cs</key>
+	<string>Hỗ trợ khách hàng</string>
+	<key>pay.identifyUser.carryForward.csGuide</key>
+	<string>Nếu bạn không thể xác minh danh tính của mình bằng thông tin tài khoản trước đây, vui lòng liên hệ với Dịch vụ khách hàng.</string>
+	<key>pay.identifyUser.carryForward.methodGuide</key>
+	<string>Số dư tài khoản LINE Pay của bạn đã được tạo. Bạn có thể chuyển số dư vào tài khoản mới của mình bằng cách nhập thông tin từ tài khoản trước đây. Vui lòng chọn phương thức xác minh.</string>
+	<key>pay.identifyUser.carryForward.title</key>
+	<string>Chuyển số dư</string>
+	<key>pay.identifyUser.inputInfo.limitedUsageGuide</key>
+	<string>Chỉ sử dụng thông tin này để xác nhận tài khoản.</string>
+	<key>pay.identifyUser.method.balance</key>
+	<string>Số dư</string>
+	<key>pay.identifyUser.method.balance.bottomDescription</key>
+	<string>Nếu bạn quên số dư tài khoản, vui lòng liên hệ với bộ phận hỗ trợ khách hàng để xác minh danh tính của bạn.</string>
+	<key>pay.identifyUser.method.balance.inputTitle</key>
+	<string>Số dư</string>
+	<key>pay.identifyUser.method.balance.inquiry</key>
+	<string>Trợ giúp</string>
+	<key>pay.identifyUser.method.balance.topDescription</key>
+	<string>Vui lòng nhập số dư hiện tại trong tài khoản để xác minh danh tính của bạn.</string>
+	<key>pay.identifyUser.method.bankAccount</key>
+	<string>TK ngân hàng để thanh toán</string>
+	<key>pay.identifyUser.method.bankAccount.accountNumber</key>
+	<string>Số tài khoản</string>
+	<key>pay.identifyUser.method.bankAccount.bankName</key>
+	<string>Ngân hàng</string>
+	<key>pay.identifyUser.method.bankAccount.branchName</key>
+	<string>Tên chi nhánh</string>
+	<key>pay.identifyUser.method.bankAccount.depositType</key>
+	<string>Hạng mục tiền gửi</string>
+	<key>pay.identifyUser.method.bankAccount.induceMessageForInput</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.identifyUser.method.bankAccount.induceMessageForSelect</key>
+	<string>Lựa chọn</string>
+	<key>pay.identifyUser.method.bankAccount.inputGuide</key>
+	<string>Nhập thông tin tài khoản ngân hàng đã dùng để nạp tiền vào dịch vụ này.</string>
+	<key>pay.identifyUser.method.creditCard</key>
+	<string>Thẻ tín dụng đã đăng ký</string>
+	<key>pay.identifyUser.method.creditCard.inputGuide</key>
+	<string>Nhập thông tin thẻ tín dụng.</string>
+	<key>pay.identifyUser.method.creditCard.inputGuide.jp</key>
+	<string>Nhập số của thẻ được đăng ký với LINE Pay.</string>
+	<key>pay.identifyUser.method.creditCard.jp</key>
+	<string>Thẻ tín dụng hoặc thẻ LINE Pay đã đăng ký</string>
+	<key>pay.identifyUser.method.personalInfo</key>
+	<string>Tên và ngày sinh</string>
+	<key>pay.identifyUser.method.personalInfo.topDescription</key>
+	<string>Tên và ngày sinh của bạn phải khớp với tên và ngày sinh mà bạn đã sử dụng để xác minh danh tính của bạn trước đây.</string>
+	<key>pay.identifyUser.method.referenceNo</key>
+	<string>Reference No.</string>
+	<key>pay.identifyUser.methodGuide</key>
+	<string>Cần phải có xác minh nhận dạng để đổi mật khẩu. 
+Hãy chọn một phương pháp để xác minh nhận dạng.</string>
+	<key>pay.identifyUser.title</key>
+	<string>Xác nhận ID</string>
+	<key>pay.input.amount.amountSection.title</key>
+	<string>Số tiền thanh toán</string>
+	<key>pay.input.amount.header.title</key>
+	<string>Thanh toán qua mã QR</string>
+	<key>pay.input.amount.merchant.info.dialog.address.title</key>
+	<string>Địa chỉ</string>
+	<key>pay.input.amount.merchant.info.dialog.company.title</key>
+	<string>Công ty</string>
+	<key>pay.input.amount.merchant.info.dialog.email.title</key>
+	<string>Email</string>
+	<key>pay.input.amount.merchant.info.dialog.merchant.title</key>
+	<string>Người bán</string>
+	<key>pay.input.amount.merchant.info.dialog.phoneNo.title</key>
+	<string>Số điện thoại</string>
+	<key>pay.input.amount.merchant.info.dialog.representative.name.title</key>
+	<string>Đại sứ</string>
+	<key>pay.input.amount.notice.input.desc</key>
+	<string>Vui lòng nhập cẩn thận số tiền thanh toán.</string>
+	<key>pay.input.amount.notice.payment.desc</key>
+	<string>Chạm vào nút Thanh toán để tiếp tục thanh toán thông qua %1$@</string>
+	<key>pay.input.amount.noticeSection.title</key>
+	<string>Ghi chú</string>
+	<key>pay.intro.guide</key>
+	<string>Hãy chạm vào nút bên dưới.</string>
+	<key>pay.ipass.account.freezing.contact</key>
+	<string>Contact iPASS</string>
+	<key>pay.ipass.account.freezing.description</key>
+	<string>Your iPASS account is unavailable now. Please contact iPASS Customer Service for more.</string>
+	<key>pay.ipass.account.freezing.disconnect.guide</key>
+	<string>Please reset your passcode if you want to use LINE Pay service.</string>
+	<key>pay.ipass.balance</key>
+	<string>iPASS Balance</string>
+	<key>pay.ipass.change.passcode.guide.desc</key>
+	<string>Please note that the following password setting cases are prohibited.
+See more &gt;</string>
+	<key>pay.ipass.change.passcode.rule.guide.desc</key>
+	<string>1.Using the same number three or more times consecutively.
+2.Using a set of three numbers in ascending or descending order.
+3.Using the last four digits of the phone number registered to LINE Pay.
+4.Using iPASS account ID.</string>
+	<key>pay.ipass.charge.maximumAmountNotice</key>
+	<string>The maximum top up amount is %@ at once.</string>
+	<key>pay.ipass.charging.wait.alert</key>
+	<string>Processing, you will be able to check your balance on iPASS Account page.</string>
+	<key>pay.ipass.deposit.autoTopup</key>
+	<string>Auto Top Up</string>
+	<key>pay.ipass.deposit.virtualAccountAtm</key>
+	<string>Virtual Account (Top up via ATM)</string>
+	<key>pay.ipass.disconnected</key>
+	<string>This iPASS account has been linked to the other LINE Pay account. The page will be closed.</string>
+	<key>pay.ipass.duplication.suspend.desc1</key>
+	<string>You are not allowed to use iPASS account for payment.</string>
+	<key>pay.ipass.duplication.suspend.desc2</key>
+	<string>Checking payment history and withdrawal function are still available.</string>
+	<key>pay.ipass.duplication.suspend.desc3</key>
+	<string>If you would like to unblock suspended status or know more details, please contact iPASS account CS Center.</string>
+	<key>pay.ipass.duplication.suspend.title</key>
+	<string>Your iPASS account has been suspended.</string>
+	<key>pay.ipass.duplication.suspend.unable.to.use</key>
+	<string>Your iPASS account has been suspended. You are not allowed to use iPASS account for payment.</string>
+	<key>pay.ipass.enterId</key>
+	<string>Enter iPASS Login ID</string>
+	<key>pay.ipass.enterId.csMessage</key>
+	<string>If you did not receive SMS, please reference the &lt;a href="%@"&gt;Help&lt;/a&gt; page.</string>
+	<key>pay.ipass.forgotIpassId</key>
+	<string>Forgot iPass ID/Passcode</string>
+	<key>pay.ipass.helpLink</key>
+	<string>Help</string>
+	<key>pay.ipass.id</key>
+	<string>iPASS Login ID</string>
+	<key>pay.ipass.idHint</key>
+	<string>Please enter 6~12 alphanumeric characters for iPASS account login.</string>
+	<key>pay.ipass.invite.chooseMemberMaxAlert</key>
+	<string>You can invite up to %@ friends at once.</string>
+	<key>pay.ipass.invite.confirm</key>
+	<string>Invite the selected friends to register iPASS account?</string>
+	<key>pay.ipass.invite.invitationSent</key>
+	<string>Invited friend.</string>
+	<key>pay.ipass.invite.receive</key>
+	<string>%@ has invited you to register iPASS account.</string>
+	<key>pay.ipass.invite.sendToMore</key>
+	<string>You have invited your friend to register iPASS account.</string>
+	<key>pay.ipass.invite.sendToOne</key>
+	<string>You have invited %@ to  register iPASS account.</string>
+	<key>pay.ipass.invite.title</key>
+	<string>Invite Friends to iPASS</string>
+	<key>pay.ipass.invite.unableToChoose</key>
+	<string>Friends who already have an iPASS account will be deselected.
+You can only select friends who use Taiwan LINE Pay account.</string>
+	<key>pay.ipass.leavingMessage.first</key>
+	<string>Please note you have to register LINE Pay again or use other LINE Pay accounts to log in, you can link your original iPASS account and use remaining balance.</string>
+	<key>pay.ipass.leavingMessage.second</key>
+	<string>Please read the Help as below for more details.</string>
+	<key>pay.ipass.linkSvcCard</key>
+	<string>Link iPASS Card</string>
+	<key>pay.ipass.mainDeck.account</key>
+	<string>iPASS Account No.</string>
+	<key>pay.ipass.mainDeck.myTransferNo</key>
+	<string>My transfer number</string>
+	<key>pay.ipass.mainDeck.svcActivation</key>
+	<string>Activate LINE Pay iPASS Card</string>
+	<key>pay.ipass.mainDeck.svcApplication</key>
+	<string>Apply for LINE Pay iPASS Card</string>
+	<key>pay.ipass.myTransferNo.desc</key>
+	<string>Share the QR code or transfer number to receive money.</string>
+	<key>pay.ipass.myTransferNo.downloadQRCode</key>
+	<string>Save Transfer QR Code Image</string>
+	<key>pay.ipass.myTransferNo.failedToDownloadQRCode</key>
+	<string>Fail to process, please try again later.</string>
+	<key>pay.ipass.myTransferNo.qrCodeDownloaded</key>
+	<string>Saved</string>
+	<key>pay.ipass.myTransferNo.title</key>
+	<string>My transfer number</string>
+	<key>pay.ipass.payment.accountRequired</key>
+	<string>Please register iPASS account first.</string>
+	<key>pay.ipass.payment.offline.balance</key>
+	<string>iPASS %@</string>
+	<key>pay.ipass.payment.offline.limitPerDay</key>
+	<string>Daily Usable Limit%@</string>
+	<key>pay.ipass.payment.offline.limitPerMonth</key>
+	<string>Monthly Usable Limit %@</string>
+	<key>pay.ipass.payment.offline.limitPerOnce</key>
+	<string>iPASS Payment Limit %@</string>
+	<key>pay.ipass.payment.register</key>
+	<string>Register</string>
+	<key>pay.ipass.phoneVerification</key>
+	<string>Phone
+Verification</string>
+	<key>pay.ipass.phoneVerification.csMessage</key>
+	<string>If you have not received the verification code or entered the code but failed, please see &lt;a href="%@"&gt;Help&lt;/a&gt;</string>
+	<key>pay.ipass.phoneVerification.inputHint</key>
+	<string>Enter verification code.</string>
+	<key>pay.ipass.phoneVerification.remainTimeLimit</key>
+	<string>Time remaining:%@</string>
+	<key>pay.ipass.phoneVerification.resend</key>
+	<string>Resend</string>
+	<key>pay.ipass.phoneVerification.sendCode</key>
+	<string>Send code</string>
+	<key>pay.ipass.phoneVerification.sendCodeToPhone</key>
+	<string>A verification code will be sent to the phone number registered to your LINE account.</string>
+	<key>pay.ipass.phoneVerification.timeExpired</key>
+	<string>The verification code has expired.
+Please press the "Resend" button and verify with the new code.</string>
+	<key>pay.ipass.scanId.desc</key>
+	<string>Please take a photo of your national ID card and confirm the result.</string>
+	<key>pay.ipass.scanId.title</key>
+	<string>ID Reader</string>
+	<key>pay.ipass.sessionExpired</key>
+	<string>The connection has expired. Please enter your passcode again.</string>
+	<key>pay.ipass.setting.passcodeLock</key>
+	<string>Since you have iPASS account, it is required to enter passcode when accessing LINE Pay and the passcode lock cannot be turned off.</string>
+	<key>pay.ipass.setting.termsOfUse</key>
+	<string>iPASS Terms of Service</string>
+	<key>pay.ipass.signUp.accountLogin</key>
+	<string>iPASS Account Login</string>
+	<key>pay.ipass.signUp.accountRegister</key>
+	<string>iPASS Account Register</string>
+	<key>pay.ipass.signUp.continueRegistration</key>
+	<string>Continue the unfinished registration process?</string>
+	<key>pay.ipass.signUp.createIpassId</key>
+	<string>Create
+iPASS ID</string>
+	<key>pay.ipass.signUp.creditCardInputHint</key>
+	<string>Please input 16-digits credit card number</string>
+	<key>pay.ipass.signUp.cvcHint</key>
+	<string>3 digits on the card back</string>
+	<key>pay.ipass.signUp.dateOfBirth</key>
+	<string>Date of Birth</string>
+	<key>pay.ipass.signUp.day</key>
+	<string>Day</string>
+	<key>pay.ipass.signUp.enterNationalId</key>
+	<string>Enter National ID/UI No.</string>
+	<key>pay.ipass.signUp.father</key>
+	<string>Father</string>
+	<key>pay.ipass.signUp.foreigner</key>
+	<string>Foreigner</string>
+	<key>pay.ipass.signUp.foreigner.completeDesc</key>
+	<string>Your application has been submitted successfully and is currently under review. The result will be sent via LINE Wallet Official Account within five days. Thank you for registration.</string>
+	<key>pay.ipass.signUp.foreigner.permanentExpiry</key>
+	<string>APRC</string>
+	<key>pay.ipass.signUp.foreignerIdNumberTitle</key>
+	<string>UI No.</string>
+	<key>pay.ipass.signUp.idScanTooltip</key>
+	<string>Scan your ID directly (Please confirm the result)</string>
+	<key>pay.ipass.signUp.inputIdNumber</key>
+	<string>Enter ID number</string>
+	<key>pay.ipass.signUp.inputText</key>
+	<string>Set up login ID.</string>
+	<key>pay.ipass.signUp.invalidFormat</key>
+	<string>Unavailable ID. Please enter a different ID.</string>
+	<key>pay.ipass.signUp.invalidFormat.dateOfBirth</key>
+	<string>Invalid date of birth format.
+Please enter your date of birth again.</string>
+	<key>pay.ipass.signUp.invalidFormat.id</key>
+	<string>Invalid ID format.
+Please check your ID number and try again.</string>
+	<key>pay.ipass.signUp.invalidFormat.issueDate</key>
+	<string>Invalid date of issue format.
+Please enter the date of issue again.</string>
+	<key>pay.ipass.signUp.invalidFormat.stayingLimitation</key>
+	<string>Invalid format. Please re-enter staying limitation.</string>
+	<key>pay.ipass.signUp.issueAreas</key>
+	<string>Place of Issue</string>
+	<key>pay.ipass.signUp.issueDate</key>
+	<string>Date of Issue</string>
+	<key>pay.ipass.signUp.issueTypes</key>
+	<string>Issue Type</string>
+	<key>pay.ipass.signUp.local</key>
+	<string>Native user</string>
+	<key>pay.ipass.signUp.localIdNumberTitle</key>
+	<string>ID Number</string>
+	<key>pay.ipass.signUp.login</key>
+	<string>Log in</string>
+	<key>pay.ipass.signUp.login.confirmPasscode</key>
+	<string>Passcode</string>
+	<key>pay.ipass.signUp.login.forgotIdPasscode</key>
+	<string>Forgot iPass login ID or passcode?</string>
+	<key>pay.ipass.signUp.login.passcodeWillUpdate</key>
+	<string>I understand my original LINE Pay passcode will be updated to my iPASS passcode simultaneously.</string>
+	<key>pay.ipass.signUp.month</key>
+	<string>Month</string>
+	<key>pay.ipass.signUp.mother</key>
+	<string>Mother</string>
+	<key>pay.ipass.signUp.nationalIdVerification</key>
+	<string>Identity
+Verification</string>
+	<key>pay.ipass.signUp.nationality</key>
+	<string>Nationality</string>
+	<key>pay.ipass.signUp.notSet</key>
+	<string>Not Set</string>
+	<key>pay.ipass.signUp.passcode</key>
+	<string>Passcode</string>
+	<key>pay.ipass.signUp.passcode.confirm</key>
+	<string>Confirm Passcode</string>
+	<key>pay.ipass.signUp.passcode.desc</key>
+	<string>When accessing LINE Pay, you will be only required to verify iPASS account passcode afterwards. The original LINE Pay passcode will be invalid.</string>
+	<key>pay.ipass.signUp.register</key>
+	<string>Register</string>
+	<key>pay.ipass.signUp.selectCreditCard</key>
+	<string>Select
+Credit Card</string>
+	<key>pay.ipass.signUp.selectCreditCard.debitDesc</key>
+	<string>Only those VISA/Master/JCB Cards physically issued by Taiwan local Banks can be used for verification:
+CTBC Bank, Mega Bank, Cathay United Bank, E.Sun Bank, Union Bank of Taiwan, Shanghai Bank, Bank SinoPac, Taipei Fubon Bank, Far Eastern Bank, Jih Sun Bank, Taishin Bank, EnTie Bank, DBS Bank, Shin Kong Bank, Yuanta Bank, Sunny Bank, Hwatai Bank, Cota Bank, AEON, First Bank, Hua Nan Bank, Rakuten, Taichung Bank, Land Bank, Taiwan Cooperative Bank, Taiwan Business Bank, Chang Hwa Bank, Kaohsiung Bank, Bank of Taiwan, HSBC, Citibank, KGI Bank.</string>
+	<key>pay.ipass.signUp.selectCreditCard.manualInput</key>
+	<string>Enter a different card.</string>
+	<key>pay.ipass.signUp.selectCreditCardDebit.note1</key>
+	<string>Digital credit cards cannot be used for verification.</string>
+	<key>pay.ipass.signUp.selectCreditCardDebit.note2</key>
+	<string>Debit cards cannot be used for verification.</string>
+	<key>pay.ipass.signUp.selectVerificationMethod</key>
+	<string>Select
+Verification Method</string>
+	<key>pay.ipass.signUp.selectVerificationMethod.desc.first</key>
+	<string>Use your own credit card or bank account only.</string>
+	<key>pay.ipass.signUp.selectVerificationMethod.desc.second</key>
+	<string>Verification is free.</string>
+	<key>pay.ipass.signUp.setPasscode</key>
+	<string>Set
+passcode</string>
+	<key>pay.ipass.signUp.sixDigitNumbers</key>
+	<string>Enter 6-digit number</string>
+	<key>pay.ipass.signUp.stayingLimitation</key>
+	<string>Date of Expiry</string>
+	<key>pay.ipass.signUp.under20Registration.afterScan</key>
+	<string>If the name is incorrect, please scan the back of your ID again.</string>
+	<key>pay.ipass.signUp.under20Registration.beforeScan</key>
+	<string>Please scan the back of your ID.</string>
+	<key>pay.ipass.signUp.under20Registration.completeDesc</key>
+	<string>Your application has been submitted successfully and is waiting for parental approval. You can continue the registration process afterwards.</string>
+	<key>pay.ipass.signUp.under20Registration.desc</key>
+	<string>If you are between the age of 14-20, you must get parental consent to register. Scan and upload the back of your ID and enter your parents' 10-digits iPASS Account Number to proceed. If you have any inquiries, please contact iPASS customer service center.</string>
+	<key>pay.ipass.signUp.under20Registration.first</key>
+	<string>Please scan and upload the back of your ID card.</string>
+	<key>pay.ipass.signUp.under20Registration.parentsName</key>
+	<string>Father's Name: %1$@
+Mother's Name: %2$@</string>
+	<key>pay.ipass.signUp.under20Registration.second</key>
+	<string>Please enter your parents' 10-digits iPASS Account Number.</string>
+	<key>pay.ipass.signUp.uploadId.front</key>
+	<string>Upload Front of ID</string>
+	<key>pay.ipass.signUp.uploadId.rear</key>
+	<string>Upload Back of ID</string>
+	<key>pay.ipass.signUp.useTouchFaceId</key>
+	<string>Use %@</string>
+	<key>pay.ipass.signUp.year</key>
+	<string>Year</string>
+	<key>pay.ipass.signUp.year.tw</key>
+	<string>Year</string>
+	<key>pay.ipass.signup.pass.code.rule.guide.desc</key>
+	<string>Please note that the following password setting cases are prohibited:
+
+1.Using the same number three or more times consecutively.
+
+2.Using a set of three numbers in ascending or descending order.
+
+3.Using the last four digits of the phone number registered to LINE Pay.
+
+4.Using iPASS account ID.</string>
+	<key>pay.ipass.svcCard</key>
+	<string>LINE Pay iPASS Card</string>
+	<key>pay.ipass.tos.agreeAllDesc</key>
+	<string>I have read and accepted the Terms of Service.</string>
+	<key>pay.ipass.tos.agreeToFollowing</key>
+	<string>I agree to the following:</string>
+	<key>pay.ipass.tos.detailedScreenWarning</key>
+	<string>Please read the Terms of Use carefully.</string>
+	<key>pay.ipass.tos.warning</key>
+	<string>Please prepare your ID card, credit card or bank account in advance.</string>
+	<key>pay.ipass.trafficQR</key>
+	<string>Traffic QR</string>
+	<key>pay.ipass.transactionInfo.confirmedTime</key>
+	<string>Time of Transfer Instruction</string>
+	<key>pay.ipass.transactionInfo.recipientId</key>
+	<string>Recipient Account Number</string>
+	<key>pay.ipass.transactionInfo.recipientName</key>
+	<string>Recipient</string>
+	<key>pay.ipass.transactionInfo.senderId</key>
+	<string>Sender Account Number</string>
+	<key>pay.ipass.transactionInfo.senderName</key>
+	<string>Sender</string>
+	<key>pay.ipass.transfer.accountLimit</key>
+	<string>iPASS Balance</string>
+	<key>pay.ipass.transfer.complete.alert</key>
+	<string>Processing, you will be able to check transfer result on iPASS Account page.</string>
+	<key>pay.ipass.transfer.confirmMessage</key>
+	<string>Transfer %1$@ to %2$@.</string>
+	<key>pay.ipass.transfer.enterNo</key>
+	<string>Enter recipient's transfer number.</string>
+	<key>pay.ipass.transfer.enterNo.desc</key>
+	<string>Enter the recipient's transfer number here.</string>
+	<key>pay.ipass.transfer.qrUnableToSend</key>
+	<string>Unable to read the QR code, or recipient is unable to receive money.</string>
+	<key>pay.ipass.transfer.toMeMessage</key>
+	<string>You cannot transfer money to yourself.</string>
+	<key>pay.ipass.withdraw.info.alert</key>
+	<string>Processing, you will be able to check your balance on iPASS Account page.</string>
+	<key>pay.ipass.withdrawal.autoTopupAlert</key>
+	<string>Due to auto-topped up settings, iPASS balance may be auto-topped up again after withdrawal.
+Continue?</string>
+	<key>pay.ipasss.transfer.accountLimit.atOnce</key>
+	<string>Maximum transfer amount each time %@</string>
+	<key>pay.ipasss.transfer.accountLimit.perDay</key>
+	<string>Maximum transfer amount per day %@</string>
+	<key>pay.ipasss.transfer.accountLimit.perMonth</key>
+	<string>Maximum transfer amount per month %@</string>
+	<key>pay.jailbreak.detected</key>
+	<string>Bạn không thể sử dụng dịch vụ Pay trên thiết bị này
+vì đã phát hiện ra hành động trái phép.
+
+ *Việc bẻ khóa, chiếm quyền điều khiển máy hoặc cài đặt ứng dụng
+ qua các kênh không phải App Store chính thức
+có thể gây ra sự cố bảo mật.</string>
+	<key>pay.jailbreak.initFailed</key>
+	<string>Đã xảy ra lỗi. Nếu bạn đang kết nối với mạng Wi-Fi miễn phí (chẳng hạn như ở cửa hàng tiện lợi), hãy thử lại bằng cách kết nối với một mạng khác.</string>
+	<key>pay.join</key>
+	<string>Đăng ký</string>
+	<key>pay.join.additional.address</key>
+	<string>Địa chỉ đường</string>
+	<key>pay.join.address</key>
+	<string>Địa chỉ</string>
+	<key>pay.join.address1</key>
+	<string>Đ.chỉ.1</string>
+	<key>pay.join.address1.guide</key>
+	<string>Ví dụ: 新宿区新宿4-1-6</string>
+	<key>pay.join.address2</key>
+	<string>Đ.chỉ.2</string>
+	<key>pay.join.address2.guide</key>
+	<string>Ví dụ: 新宿ミライナタワー23階</string>
+	<key>pay.join.agree.mustScroll</key>
+	<string>Hãy cuộn xuống dưới cùng Điều khoản sử dụng 
+và xác nhận rằng bạn đồng ý.</string>
+	<key>pay.join.city</key>
+	<string>Quận/Huyện</string>
+	<key>pay.join.email</key>
+	<string>Email</string>
+	<key>pay.join.email.placeholder</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.join.migration.description.register</key>
+	<string>Thanh toán an toàn và đơn giản!</string>
+	<key>pay.join.migration.description.registerEmail</key>
+	<string>Vui lòng đăng ký địa chỉ email của bạn trên LINE để sử dụng tính năng này.</string>
+	<key>pay.join.migration.description.registerPhone</key>
+	<string>Nhập số điện thoại để xác nhận khu vực được liên kết với tài khoản LINE của bạn.</string>
+	<key>pay.join.migration.phoneDescription</key>
+	<string>Chúng tôi sẽ chỉ sử dụng số điện thoại của bạn để xác minh danh tính và hỗ trợ khách hàng.</string>
+	<key>pay.join.migration.title</key>
+	<string>T.tin tài khoản LINE</string>
+	<key>pay.join.nationality</key>
+	<string>Quốc tịch</string>
+	<key>pay.join.phone</key>
+	<string>Nhập số điện thoại.</string>
+	<key>pay.join.please.input.job</key>
+	<string>Nhập nghề nghiệp của bạn</string>
+	<key>pay.join.prefecture</key>
+	<string>Tiểu bang/tỉnh/khu vực</string>
+	<key>pay.join.prefecture.guide</key>
+	<string>Ví dụ: 東京都</string>
+	<key>pay.join.province</key>
+	<string>Tỉnh thành</string>
+	<key>pay.join.register.job.others</key>
+	<string>Khác</string>
+	<key>pay.join.start</key>
+	<string>Bắt đầu</string>
+	<key>pay.join.sub.city</key>
+	<string>Phường</string>
+	<key>pay.join.tel</key>
+	<string>Điện thoại</string>
+	<key>pay.join.wrong.postal.code</key>
+	<string>Vui lòng kiểm tra mã bưu điện và thử lại.</string>
+	<key>pay.join.zipcode</key>
+	<string>Mã bưu điện</string>
+	<key>pay.join.zipcode.alert.th</key>
+	<string>Mã bưu điện phải có 5 chữ số.</string>
+	<key>pay.join.zipcode.guide</key>
+	<string>Ví dụ: 1230000</string>
+	<key>pay.join.zipcode.search</key>
+	<string>Tìm</string>
+	<key>pay.jp.main.deposit.method</key>
+	<string>Chọn phương thức</string>
+	<key>pay.jp.main.payment.method</key>
+	<string>Chọn phương thức thanh toán</string>
+	<key>pay.kyc.info.isNeeded</key>
+	<string>Bạn cần nhập thông tin bắt buộc để sử dụng Rabbit LINE Pay.</string>
+	<key>pay.kyc.info.isNeeded.payment</key>
+	<string>Bạn phải nhập thông tin bắt buộc để thanh toán %1$@ THB trở lên.</string>
+	<key>pay.linecard.activate</key>
+	<string>Đăng ký</string>
+	<key>pay.linecard.apply.alert</key>
+	<string>Vì lý do bảo mật, bạn sẽ không thể sử dụng thẻ trực tuyến khi chưa đăng ký thẻ cứng. Tiếp tục?</string>
+	<key>pay.linecard.cardNo.copy</key>
+	<string>Đã sao chép số thẻ vào bảng tạm.</string>
+	<key>pay.linecard.delete</key>
+	<string>Xóa thẻ</string>
+	<key>pay.linecard.delete.alert</key>
+	<string>Bạn có chắc chắn muốn xóa thẻ không?</string>
+	<key>pay.linecard.delete.description</key>
+	<string>Việc xóa thẻ ảo của bạn cũng sẽ hủy kích hoạt thẻ cứng được liên kết với thẻ ảo đó.
+Bạn có thể tạo thẻ tối đa 2 lần mỗi tháng.</string>
+	<key>pay.linecard.delete.title</key>
+	<string>Xóa thẻ</string>
+	<key>pay.linecard.deleted</key>
+	<string>Thẻ của bạn đã bị xóa.</string>
+	<key>pay.linecard.detail.title</key>
+	<string>Thẻ LINE Pay</string>
+	<key>pay.linecard.entry.title</key>
+	<string>Đăng ký thẻ</string>
+	<key>pay.linecard.helpGuide</key>
+	<string>Trợ giúp</string>
+	<key>pay.linecard.issue</key>
+	<string>Nhận thẻ cứng</string>
+	<key>pay.linecard.issue.description</key>
+	<string>Bạn sẽ được cấp cả thẻ ảo và thẻ cứng có cùng số thẻ để có thể thanh toán tại người bán ngoại tuyến thuộc JCB.</string>
+	<key>pay.linecard.issue.title</key>
+	<string>Sử dụng thẻ cả ở cửa hàng ngoại tuyến!</string>
+	<key>pay.linecard.onlinePayment.suspend.alert</key>
+	<string>Hủy kích hoạt thẻ của bạn để sử dụng trực tuyến?</string>
+	<key>pay.linecard.onlinePayment.usage.resumed</key>
+	<string>Bạn đã kích hoạt lại thẻ để sử dụng trực tuyến.</string>
+	<key>pay.linecard.onlinePayment.usage.suspended</key>
+	<string>Bạn đã hủy kích hoạt thẻ để sử dụng trực tuyến.</string>
+	<key>pay.linecard.password</key>
+	<string>Mật khẩu thẻ</string>
+	<key>pay.linecard.plasticcard</key>
+	<string>Dành cho sử dụng ngoại tuyến</string>
+	<key>pay.linecard.point.off.alert</key>
+	<string>Bạn sẽ không còn sử dụng Điểm LINE khi thanh toán bằng thẻ LINE Pay hoặc QUICPay+ nữa.</string>
+	<key>pay.linecard.point.on.alert</key>
+	<string>Giờ đây, bạn sẽ sử dụng Điểm LINE trước tiên khi thanh toán bằng thẻ LINE Pay hoặc QUICPay+.</string>
+	<key>pay.linecard.readyForShippment</key>
+	<string>Chuẩn bị vận chuyển</string>
+	<key>pay.linecard.registration.completed</key>
+	<string>Đã hoàn tất ứng dụng.</string>
+	<key>pay.linecard.registration.confirm</key>
+	<string>Xác nhận</string>
+	<key>pay.linecard.registration.delivery.notice</key>
+	<string>Xin lưu rằng có thể mất 1 đến 2 tuần bạn mới nhận được thẻ.</string>
+	<key>pay.linecard.registration.imageDownloadFail</key>
+	<string>Không thể tải ảnh.</string>
+	<key>pay.linecard.registration.inputaddr.description</key>
+	<string>Vui lòng nhập địa chỉ của bạn.</string>
+	<key>pay.linecard.registration.inputaddr.guide</key>
+	<string>Thẻ của bạn sẽ được gửi đến địa chỉ mà bạn đã nhập. Vui lòng đảm bảo rằng bạn đã nhập địa chỉ chính xác.</string>
+	<key>pay.linecard.registration.inputname.description</key>
+	<string>Vui lòng nhập tên của bạn bằng chữ kanji.</string>
+	<key>pay.linecard.registration.inputname.guide</key>
+	<string>"Thành viên LINE" sẽ được hiển thị trên thẻ của bạn.</string>
+	<key>pay.linecard.registration.inputzip.description</key>
+	<string>Vui lòng nhập mã bưu điện của bạn.</string>
+	<key>pay.linecard.registration.later</key>
+	<string>Bỏ qua</string>
+	<key>pay.linecard.registration.retry</key>
+	<string>Đăng ký đã hoàn tất nhưng đã xảy ra lỗi trong khi đăng ký thẻ. Đăng ký lại?</string>
+	<key>pay.linecard.registration.selectcard.description</key>
+	<string>Vui lòng chọn một thiết kế thẻ.</string>
+	<key>pay.linecard.registration.title</key>
+	<string>Đăng ký thẻ</string>
+	<key>pay.linecard.resume.alert</key>
+	<string>Kích hoạt lại thẻ của bạn?</string>
+	<key>pay.linecard.resumed</key>
+	<string>Bạn đã kích hoạt lại thẻ của mình.</string>
+	<key>pay.linecard.status.available</key>
+	<string>Hiện hoạt</string>
+	<key>pay.linecard.status.notAvailable</key>
+	<string>Không hiện hoạt</string>
+	<key>pay.linecard.suspend.alert</key>
+	<string>Hủy kích hoạt thẻ của bạn?</string>
+	<key>pay.linecard.usage</key>
+	<string>Sử dụng thẻ</string>
+	<key>pay.linecard.usage.limit</key>
+	<string>Loại số dư và giới hạn</string>
+	<key>pay.linecard.usage.suspended</key>
+	<string>Bạn đã hủy kích hoạt thẻ của mình.</string>
+	<key>pay.linecard.use.point</key>
+	<string>Sử dụng Điểm LINE</string>
+	<key>pay.linecard.useOnlineTransaction</key>
+	<string>Dành cho sử dụng trực tuyến</string>
+	<key>pay.main.balance.guide</key>
+	<string>Tạo tài khoản
+để nạp tiền và nhận tiền.</string>
+	<key>pay.main.balance.guide.jp</key>
+	<string>Bạn có thể chuyển tiền hoặc phần thưởng cho bạn bè.
+
+Thanh toán, thậm chí không cần thẻ.</string>
+	<key>pay.main.balance.start</key>
+	<string>Tạo tài khoản</string>
+	<key>pay.main.balance.th.guide</key>
+	<string>Tạo số dư tài khoản %1$@
+để thêm và nhận tiền.</string>
+	<key>pay.main.balance.tw.guide</key>
+	<string>Tạo tài khoản LINE Pay
+để thêm và nhận tiền.</string>
+	<key>pay.main.balance.update.complete</key>
+	<string>Đã cập nhật</string>
+	<key>pay.main.balance.updating</key>
+	<string>Đang tải...</string>
+	<key>pay.main.balance.updating.fail</key>
+	<string>Không tải được số dư. Vui lòng thử lại.</string>
+	<key>pay.main.card.apply</key>
+	<string>Đăng ký thẻ</string>
+	<key>pay.main.cardDeck.history.title</key>
+	<string>Lịch sử sử dụng</string>
+	<key>pay.main.cardDeck.merit.title</key>
+	<string>Xem lợi ích</string>
+	<key>pay.main.charge</key>
+	<string>Nạp tiền</string>
+	<key>pay.main.dutch</key>
+	<string>Chia hóa đơn</string>
+	<key>pay.main.featureList.title</key>
+	<string>Lối tắt</string>
+	<key>pay.main.installApp.message</key>
+	<string>%1$@ chưa được cài đặt.
+Bạn có muốn cài đặt không?</string>
+	<key>pay.main.linecard.activate</key>
+	<string>Kích hoạt thẻ của bạn.</string>
+	<key>pay.main.linecard.suspended</key>
+	<string>Thẻ của bạn đã bị hủy kích hoạt.</string>
+	<key>pay.main.paymentMethod.description</key>
+	<string>Phương thức đã chọn sẽ được sử dụng khi thanh toán qua Mã của tôi.</string>
+	<key>pay.main.pocketMoney.amount.description</key>
+	<string>Có thể sử dụng %1$@ từ LINE Pocket Money</string>
+	<key>pay.main.pocketMoney.register.guide</key>
+	<string>Nhận tới 50.000 JPY với LINE Pocket Money</string>
+	<key>pay.main.recentHistory</key>
+	<string>Thông báo</string>
+	<key>pay.main.registerCard</key>
+	<string>Hãy đăng ký thẻ.</string>
+	<key>pay.main.setting</key>
+	<string>Cài đặt</string>
+	<key>pay.main.title</key>
+	<string>%1$@</string>
+	<key>pay.main.transfer</key>
+	<string>Chuyển tiền</string>
+	<key>pay.main.transfer.jp</key>
+	<string>Đã chuyển tiền hoặc phần thưởng</string>
+	<key>pay.main.transferNumber</key>
+	<string>Mã số LINE Pay</string>
+	<key>pay.main.transferRequest</key>
+	<string>Yêu cầu</string>
+	<key>pay.main.transferRequest.jp</key>
+	<string>Yêu cầu chuyển tiền hoặc phần thưởng</string>
+	<key>pay.maintenance</key>
+	<string>Bảo trì dịch vụ</string>
+	<key>pay.my.coupon</key>
+	<string>Coupon của tôi</string>
+	<key>pay.need.signUp</key>
+	<string>Bạn phải đăng ký Pay để tiếp tục. Đăng ký ngay?</string>
+	<key>pay.next</key>
+	<string>Tiếp</string>
+	<key>pay.nfc.guide</key>
+	<string>Đưa iPhone lại gần thiết bị thanh toán.</string>
+	<key>pay.nfc.payment</key>
+	<string>TT qua NFC</string>
+	<key>pay.nfc.ready</key>
+	<string>Vẫn đang chuẩn bị bước thanh toán. Vui lòng thử lại sau giây lát.</string>
+	<key>pay.open</key>
+	<string>Mở</string>
+	<key>pay.otp.placeholder.guide.input</key>
+	<string>Tap the Send button</string>
+	<key>pay.otp.placeholder.input</key>
+	<string>Enter your authentication code.</string>
+	<key>pay.paidConfirm</key>
+	<string>Thanh toán</string>
+	<key>pay.password.changed</key>
+	<string>Mật khẩu
+đã được thay đổi.</string>
+	<key>pay.password.mismatch</key>
+	<string>Mật khẩu không đồng nhất. 
+Xin vui lòng nhập lại.</string>
+	<key>pay.password.registered</key>
+	<string>Đã đặt mật khẩu.</string>
+	<key>pay.password.samePassword</key>
+	<string>Không thể sử dụng 
+mật khẩu giống nhau.</string>
+	<key>pay.password.touchid.ipass.error</key>
+	<string>Không thể kích hoạt %@ ngay bây giờ. Vui lòng thử lại sau.</string>
+	<key>pay.passwordSetting.csGuide</key>
+	<string>Mẹo: Bật tùy chọn Khóa bằng mật mã sẽ tăng cường bảo mật trên thiết bị của bạn bằng cách yêu cầu mật mã mỗi lần truy cập tài khoản.</string>
+	<key>pay.payMethod.myRank.title</key>
+	<string>Cấp độ của tôi</string>
+	<key>pay.payMethod.topUpPay.register.desc</key>
+	<string>Bạn chưa liên kết %1$@ với tài khoản của mình.</string>
+	<key>pay.payment.cancel.popup</key>
+	<string>Bạn có muốn hủy hoạt động thanh toán này?</string>
+	<key>pay.payment.includedBonus</key>
+	<string>Bao gồm %1$@ từ phần thưởng LINE Pay của bạn</string>
+	<key>pay.payment.info.preferreduse</key>
+	<string>Phần thưởng sẽ được sử dụng trước</string>
+	<key>pay.payment.nonsubscriber.coupon.guide</key>
+	<string>Để nhận chiết khấu coupon, bật tùy chọn đăng ký %@ ở cuối màn hình này.</string>
+	<key>pay.payment.nonsubscriber.coupon.popup.guide</key>
+	<string>Vui lòng bật tùy chọn đăng ký %1$@ để nhận chiết khấu coupon. Nếu không muốn đăng ký %2$@, bạn có thể xóa coupon đã chọn và hoàn tất thanh toán nhưng chiết khấu sẽ không được áp dụng.</string>
+	<key>pay.payment.pay.coupon</key>
+	<string>Coupon LINE Pay</string>
+	<key>pay.payment.pay.coupon.th</key>
+	<string>Coupon Rabbit LINE Pay</string>
+	<key>pay.payment.pay.point.title</key>
+	<string>Điểm LINE</string>
+	<key>pay.payment.payIncludedBonus</key>
+	<string>Thanh toán %1$@ (bao gồm khoản tương đương %2$@ từ phần thưởng của bạn)</string>
+	<key>pay.payment.register.bank.account.except.blacklist</key>
+	<string>Vui lòng liên kết với tài khoản ngân hàng.</string>
+	<key>pay.payment.request.detail.pay.balance</key>
+	<string>Số dư LINE Pay</string>
+	<key>pay.photo</key>
+	<string>Ảnh</string>
+	<key>pay.pin.dailyPaymentLimit.paymentSession.expired.popup</key>
+	<string>Yêu cầu thanh toán của bạn đã hết thời gian. Vui lòng bắt đầu thanh toán lại.</string>
+	<key>pay.pin.guide.dailyPaymentLimit</key>
+	<string>Bạn cần nhập mật khẩu của mình vì số tiền thanh toán hằng ngày của bạn sẽ từ %1$@ trở lên.</string>
+	<key>pay.pin.guide.dailyPaymentLimit.paymentSession</key>
+	<string>Bạn cần nhập mật khẩu của mình vì số tiền thanh toán hằng ngày của bạn sẽ từ %1$@ trở lên. Vui lòng nhập mật khẩu của bạn trước khi hết thời gian.</string>
+	<key>pay.pin.guide.paymentSession</key>
+	<string>(Thời gian còn lại: %1$02d:%2$02d)</string>
+	<key>pay.pin.guide.sessionTimeOut</key>
+	<string>Bạn cần nhập lại mật khẩu của mình vì bạn đã không sử dụng LINE Pay trong vòng ít nhất %1$@ phút trở lại đây.</string>
+	<key>pay.pin.option.off.popup</key>
+	<string>Bắt đầu từ LINE 9.20.0, bạn đã có thể bỏ qua bước xác minh bằng mật khẩu khi thanh toán.
+Nếu bạn muốn tiếp tục xác minh bằng mật khẩu khi đăng nhập và thanh toán, hãy chạm vào "Bật" ở bên dưới. Bạn có thể thay đổi cài đặt này bất cứ khi nào bằng cách vào Cài đặt &gt; Mật khẩu trong LINE Pay.
+Lưu ý: Cài đặt này cũng áp dụng cho ứng dụng LINE Pay độc lập.</string>
+	<key>pay.pin.popup.off.button</key>
+	<string>Tắt</string>
+	<key>pay.pin.popup.on.button</key>
+	<string>Bật</string>
+	<key>pay.placeholder.input</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.preapproved.my.point.use</key>
+	<string>Thanh toán bằng Điểm có sẵn trước</string>
+	<key>pay.previous.main.pocket.money.register.guide</key>
+	<string>Nhận tới 50.000 JPY</string>
+	<key>pay.qrcode.balance</key>
+	<string>Số dư của bạn</string>
+	<key>pay.qrcode.cell.change</key>
+	<string>Thay đổi</string>
+	<key>pay.qrcode.cell.charge</key>
+	<string>Nạp tiền</string>
+	<key>pay.qrcode.cell.make</key>
+	<string>Tạo</string>
+	<key>pay.qrcode.cell.register</key>
+	<string>Thêm</string>
+	<key>pay.qrcode.charge.timeover.alert</key>
+	<string>Phiên nạp tiền của bạn đã hết hạn. Vui lòng chạm vào nút Làm mới để thử lại.</string>
+	<key>pay.qrcode.codeReader</key>
+	<string>Trình đọc mã</string>
+	<key>pay.qrcode.directInputCode</key>
+	<string>Nhập mã</string>
+	<key>pay.qrcode.directInputCodeGuide</key>
+	<string>Nhập số mã QR vào dưới đây. Không thể nhập số mã vạch thủ công.</string>
+	<key>pay.qrcode.input.numbersOnly</key>
+	<string>Vui lòng chỉ nhập số.</string>
+	<key>pay.qrcode.linePoint</key>
+	<string>LINE POINTS</string>
+	<key>pay.qrcode.location.popup</key>
+	<string>Để sử dụng tính năng này, hãy mở cài đặt thiết bị của bạn và bật Dịch vụ định vị trong menu Bảo mật thông tin.</string>
+	<key>pay.qrcode.makeShortCut</key>
+	<string>Tạo phím tắt đến Mã của tôi</string>
+	<key>pay.qrcode.method</key>
+	<string>Phương thức</string>
+	<key>pay.qrcode.myCode</key>
+	<string>Mã của tôi</string>
+	<key>pay.qrcode.payment.timeover.alert</key>
+	<string>Phiên thanh toán của bạn đã hết hạn. Vui lòng nhấn nút Làm mới để thử lại.</string>
+	<key>pay.qrcode.recognizeGuide</key>
+	<string>Màn hình tự động phát hiện mã QR.</string>
+	<key>pay.qrcode.refresh.alert</key>
+	<string>Mã QR code này không còn hợp lệ. Hãy làm mới mã này để tiếp tục thanh toán.</string>
+	<key>pay.qrcode.refreshCode</key>
+	<string>Làm mới</string>
+	<key>pay.qrcode.scanMode</key>
+	<string>Quét</string>
+	<key>pay.qrcode.setting.header</key>
+	<string>Vui lòng chọn phương thức thanh toán mà bạn muốn sử dụng với mã của mình.</string>
+	<key>pay.qrcode.title</key>
+	<string>LINE Pay Mã của tôi</string>
+	<key>pay.qrcode.title.th</key>
+	<string>Rabbit LINE Pay Mã của tôi</string>
+	<key>pay.recentTransfer.friend</key>
+	<string>Chuyển khoản gần đây</string>
+	<key>pay.recentTransfer.friend.jp</key>
+	<string>Chuyển khoản gần đây</string>
+	<key>pay.recentTransfer.money</key>
+	<string>Đã gửi %@</string>
+	<key>pay.recentTransfer.money.jp</key>
+	<string>Đã chuyển số lượng tương đương %1$@</string>
+	<key>pay.recommend.coupon</key>
+	<string>Đề xuất</string>
+	<key>pay.registCard.acceptedCard</key>
+	<string>Chấp nhận các thẻ tín dụng sau:</string>
+	<key>pay.registCard.acceptedCard.th</key>
+	<string>Chấp nhận các loại thẻ tín dụng và thẻ ghi nợ sau:</string>
+	<key>pay.registCard.addButton</key>
+	<string>Thêm thẻ</string>
+	<key>pay.registCard.cardNickname</key>
+	<string>Tên thẻ (Tùy chọn)</string>
+	<key>pay.registCard.cardNickname.hint</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.registCard.cardNo</key>
+	<string>Số thẻ</string>
+	<key>pay.registCard.cardNo.hint</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.registCard.complete</key>
+	<string>Đã hoàn tất đăng ký thẻ.</string>
+	<key>pay.registCard.cvc</key>
+	<string>CVC</string>
+	<key>pay.registCard.cvc.hint</key>
+	<string>3-4 chữ số</string>
+	<key>pay.registCard.cvc.last.3digit</key>
+	<string>Mã bảo mật 3 chữ số sau</string>
+	<key>pay.registCard.cvc.last.4digit</key>
+	<string>Mã bảo mật 4 chữ số trước</string>
+	<key>pay.registCard.defaultCard.confirmPossiblePaymentMethod</key>
+	<string>Bạn cũng có thể đặt thẻ này làm thẻ thanh toán cho Mã của tôi. Đặt làm thẻ thanh toán?</string>
+	<key>pay.registCard.defaultCard.notice</key>
+	<string>Thẻ này sẽ được đặt làm thẻ chính. Bạn cũng có thể sử dụng thẻ này làm thẻ thanh toán tại các cửa hàng cho Mã của tôi.</string>
+	<key>pay.registCard.defaultCard.noticeAndChange</key>
+	<string>Bạn cũng có thể đặt thẻ này làm thẻ thanh toán cho Mã của tôi. Đặt làm thẻ thanh toán?</string>
+	<key>pay.registCard.errorNotRegist.alert</key>
+	<string>Không thêm được thẻ. 
+Hãy thử thẻ tín dụng khác.</string>
+	<key>pay.registCard.expire</key>
+	<string>Hết hạn</string>
+	<key>pay.registCard.firstName</key>
+	<string>Tên (English)</string>
+	<key>pay.registCard.firstName.hint</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.registCard.lastName</key>
+	<string>Họ (English)</string>
+	<key>pay.registCard.lastName.hint</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.registCard.possessionOfCards.alert</key>
+	<string>Bạn không thể thêm thẻ nào nữa. Vui lòng xóa bớt thẻ trước khi thêm thẻ mới.</string>
+	<key>pay.registCard.registToMain</key>
+	<string>Đặt làm thẻ chính</string>
+	<key>pay.registCard.scan</key>
+	<string>Quét thẻ của bạn</string>
+	<key>pay.registCard.scan.guideMessage</key>
+	<string>Giữ thẻ ở đây. 
+Thẻ sẽ được quét tự động.</string>
+	<key>pay.registCard.title</key>
+	<string>Thêm thẻ</string>
+	<key>pay.registerBank.charge.agree.button</key>
+	<string>Đồng ý</string>
+	<key>pay.registerBank.charge.agree.mustScroll</key>
+	<string>Đọc kỹ điều khoản sử dụng.</string>
+	<key>pay.registerBank.charge.checkingAccount</key>
+	<string>Kiểm tra tài khoản</string>
+	<key>pay.registerBank.charge.input.address.alert</key>
+	<string>Vui lòng điền tất cả thông tin đã yêu cầu.</string>
+	<key>pay.registerBank.charge.input.birthday.alert</key>
+	<string>Vui lòng điền tất cả thông tin đã yêu cầu.</string>
+	<key>pay.registerBank.charge.input.job</key>
+	<string>Vui lòng nhập ngành nghề.</string>
+	<key>pay.registerBank.charge.input.job.alert</key>
+	<string>Vui lòng điền tất cả thông tin đã yêu cầu.</string>
+	<key>pay.registerBank.charge.input.kanji.alert</key>
+	<string>Vui lòng điền tất cả thông tin đã yêu cầu.</string>
+	<key>pay.registerBank.charge.input.kanji.check</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.registerBank.charge.input.name</key>
+	<string>Tên</string>
+	<key>pay.registerBank.charge.job.title</key>
+	<string>Nghề nghiệp</string>
+	<key>pay.registerBank.charge.savingAccount</key>
+	<string>TK tiết kiệm thường</string>
+	<key>pay.registerBank.charge.selectBank.title</key>
+	<string>Chọn ngân hàng</string>
+	<key>pay.registerBank.chargeFromAutoDeposit</key>
+	<string>Tự động gửi</string>
+	<key>pay.registerBank.chargeFromBank</key>
+	<string>Tài khoản ngân hàng</string>
+	<key>pay.registerBank.chargeFromConvenience</key>
+	<string>FamiPort</string>
+	<key>pay.registerBank.chargeFromDebitCard</key>
+	<string>Thẻ ghi nợ</string>
+	<key>pay.registerBank.chargeFromEChannel</key>
+	<string>Phương thức khác</string>
+	<key>pay.registerBank.chargeFromLawson</key>
+	<string>Thẻ LINE Pay</string>
+	<key>pay.registerBank.chargeFromPayEasy</key>
+	<string>Pay-easy</string>
+	<key>pay.registerBank.chargeFromVirtualAccount</key>
+	<string>Tài khoản tiền gửi</string>
+	<key>pay.registerBank.termsOfService</key>
+	<string>Điều khoản sử dụng</string>
+	<key>pay.registration.authenticateComplete.alert</key>
+	<string>Hoàn thành xác minh người dùng. Tài khoản Pay được tạo trước đây có cùng thông tin người dùng sẽ bị treo.</string>
+	<key>pay.registration.balance</key>
+	<string>Tạo tài khoản</string>
+	<key>pay.registration.balance.headerText</key>
+	<string>Bắt buộc phải nhập thông tin sau khi tạo tài khoản.</string>
+	<key>pay.registration.completed</key>
+	<string>Hoàn tất đăng ký.</string>
+	<key>pay.registration.foreign.guide</key>
+	<string>Số ID của bạn sẽ chỉ được sử dụng để xác minh danh tính của bạn. Vui lòng đảm bảo nhập số ID chính xác vì bạn không thể sửa đổi sau khi số này đã được đăng ký.</string>
+	<key>pay.registration.foreignerName.guide</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.registration.foreignerName.title</key>
+	<string>Tên đầy đủ</string>
+	<key>pay.registration.idCardNumber.title</key>
+	<string>Số ID</string>
+	<key>pay.registration.idType.alienCard</key>
+	<string>Thẻ ID cư trú</string>
+	<key>pay.registration.idType.passport</key>
+	<string>Hộ chiếu</string>
+	<key>pay.registration.idType.title</key>
+	<string>Thẻ ID</string>
+	<key>pay.registration.idType.title.guide</key>
+	<string>Chọn loại thẻ ID của bạn</string>
+	<key>pay.registration.idType.workPermit</key>
+	<string>Giấy phép lao động</string>
+	<key>pay.registration.local.guide</key>
+	<string>Thông tin căn cước của bạn sẽ được thu thập và lưu trữ bảo mật theo chính sách Ngân hàng Thái Lan.</string>
+	<key>pay.registration.notTHCitizen.text</key>
+	<string>Ko phải công dân Thái Lan? Chạm vào đây.</string>
+	<key>pay.registration.termsOfUse.allAgree</key>
+	<string>Đồng ý với tất cả</string>
+	<key>pay.registration.termsOfUse.headerText</key>
+	<string>Tôi đồng ý với những điều sau:</string>
+	<key>pay.registration.useTouchID</key>
+	<string>Dùng %@?</string>
+	<key>pay.registration.useTouchID.guide</key>
+	<string>Sử dụng %@ với dịch vụ này để có trải nghiệm người dùng dễ hơn và bảo mật nâng cao.</string>
+	<key>pay.request.timeout</key>
+	<string>Không thể xác nhận kết quả. 
+Vui lòng thử lại sau.</string>
+	<key>pay.requestTransfer.amount</key>
+	<string>Số tiền yêu cầu</string>
+	<key>pay.requestTransfer.amount.maxError.alert</key>
+	<string>Vượt giới hạn gửi tiền tối đa. 
+Sẽ thay đổi khoản tiền.</string>
+	<key>pay.requestTransfer.amount.minError.alert</key>
+	<string>K.tiền thấp hơn g.hạn t.thiểu %1$@</string>
+	<key>pay.requestTransfer.cancel</key>
+	<string>Xóa</string>
+	<key>pay.requestTransfer.complete.alert</key>
+	<string>Đã yêu cầu chuyển tiền.</string>
+	<key>pay.requestTransfer.complete.alert.jp</key>
+	<string>Đã gửi yêu cầu chuyển tiền hoặc phần thưởng.</string>
+	<key>pay.requestTransfer.description.request</key>
+	<string>Bạn đã yêu cầu %1$@ chuyển tiền.</string>
+	<key>pay.requestTransfer.description.request.jp</key>
+	<string>Bạn đã yêu cầu %1$@ chuyển tiền hoặc phần thưởng.</string>
+	<key>pay.requestTransfer.request.cancel</key>
+	<string>Hủy</string>
+	<key>pay.requestTransfer.request.cancel.alert</key>
+	<string>Bạn có chắc chắn 
+muốn hủybỏ 
+yêu cầu chuyển tiền đã gửi 
+cho bạn bè đã chọn không?</string>
+	<key>pay.requestTransfer.request.cancel.alert.jp</key>
+	<string>Bạn muốn hủy
+yêu cầu chuyển khoản đã chọn?</string>
+	<key>pay.requestTransfer.request.cancelStatus</key>
+	<string>Đã hủy bỏ</string>
+	<key>pay.requestTransfer.request.title.text</key>
+	<string>%1$@ đã yêu cầu chuyển tiền.</string>
+	<key>pay.requestTransfer.request.title.text.jp</key>
+	<string>%1$@ đang yêu cầu bạn chuyển tiền hoặc phần thưởng.</string>
+	<key>pay.requestTransfer.requestMoney.cancel</key>
+	<string>Hủy (%1$d)</string>
+	<key>pay.requestTransfer.requestMoney.cancel.alert</key>
+	<string>Hủy tất cả yêu cầu? 
+Sẽ hủy tất cả g.dịch chuyển tiền 
+chưa hoàn tất.</string>
+	<key>pay.requestTransfer.requestMoney.cancel.alert.jp</key>
+	<string>Bạn muốn hủy tất cả yêu cầu?
+Sẽ hủy tất cả giao dịch chuyển khoản chưa hoàn tất.</string>
+	<key>pay.requestTransfer.sendButton</key>
+	<string>Yêu cầu</string>
+	<key>pay.requestTransfer.sendButton.jp</key>
+	<string>Yêu cầu chuyển tiền hoặc phần thưởng</string>
+	<key>pay.requestTransferRequestMulti.detailView.result</key>
+	<string>%1$@ × %2$d = %3$@</string>
+	<key>pay.restriction.message</key>
+	<string>Dịch vụ sẽ bị hạn chế như sau.</string>
+	<key>pay.restriction.title</key>
+	<string>Dịch vụ bị hạn chế</string>
+	<key>pay.retry</key>
+	<string>Thử lại</string>
+	<key>pay.save</key>
+	<string>Lưu</string>
+	<key>pay.select</key>
+	<string>Chọn</string>
+	<key>pay.select.placeholder</key>
+	<string>Lựa chọn</string>
+	<key>pay.send.amount.both</key>
+	<string>%1$@ từ số dư LINE Pay của bạn, %2$@ từ phần thưởng LINE Pay của bạn</string>
+	<key>pay.send.amount.info</key>
+	<string>Chỉ có thể sử dụng phần thưởng LINE Pay để thanh toán và chuyển tiền. Không thể rút số tiền này.</string>
+	<key>pay.send.amount.onlyBonus</key>
+	<string>Gửi khoản tương đương %1$@ từ phần thưởng</string>
+	<key>pay.send.amount.onlyPay</key>
+	<string>%1$@ từ số dư LINE Pay của bạn</string>
+	<key>pay.setting.accountSettings</key>
+	<string>Cài đặt tài khoản</string>
+	<key>pay.setting.accountSettings.agree.using</key>
+	<string>Account Terms of Use</string>
+	<key>pay.setting.agree.using</key>
+	<string>Điều khoản sử dụng</string>
+	<key>pay.setting.autoDeposit</key>
+	<string>Tự động gửi</string>
+	<key>pay.setting.autoPayment</key>
+	<string>Khoản thanh toán được phê duyệt trước</string>
+	<key>pay.setting.card</key>
+	<string>Thẻ tín dụng</string>
+	<key>pay.setting.card.globalHistory</key>
+	<string>Lịch sử thanh toán thẻ tín dụng</string>
+	<key>pay.setting.card.goodsName</key>
+	<string>Sản phẩm</string>
+	<key>pay.setting.card.history</key>
+	<string>Lịch sử thanh toán thẻ tín dụng</string>
+	<key>pay.setting.card.main</key>
+	<string>Đặt làm thẻ chính</string>
+	<key>pay.setting.card.registHolderName</key>
+	<string>Đặt tên chủ thẻ</string>
+	<key>pay.setting.card.totalCard</key>
+	<string>Tất cả thẻ tín dụng</string>
+	<key>pay.setting.card.yearMonth</key>
+	<string>MM/YY</string>
+	<key>pay.setting.cardManage.alert</key>
+	<string>Tiếp tục để xóa? Sẽ không xóa lịch sử thanh toán. Nếu bạn đăng ký thẻ để thanh toán đã chấp thuận trước thì sẽ hủy thanh toán đã chấp thuận trước.</string>
+	<key>pay.setting.charge.cancel.alert</key>
+	<string>Hủy số của khách hàng?</string>
+	<key>pay.setting.charge.cancelled</key>
+	<string>Đã hủy bỏ</string>
+	<key>pay.setting.charge.history</key>
+	<string>Hoạt động Pay-easy và FamiPort</string>
+	<key>pay.setting.charge.payeasy</key>
+	<string>Pay-easy</string>
+	<key>pay.setting.charge.state.cancelled</key>
+	<string>Đã hủy bỏ</string>
+	<key>pay.setting.charge.state.complete</key>
+	<string>Xong</string>
+	<key>pay.setting.charge.state.expire</key>
+	<string>Quá hạn</string>
+	<key>pay.setting.charge.state.fail</key>
+	<string>Thất bại</string>
+	<key>pay.setting.charge.state.ready</key>
+	<string>İşleniyor</string>
+	<key>pay.setting.chargeAccount.delete</key>
+	<string>Xóa</string>
+	<key>pay.setting.chargeAccount.deleteBank.alert</key>
+	<string>Xóa tài khoản ngân hàng?</string>
+	<key>pay.setting.chargeAccount.deleteDepositBank.alert</key>
+	<string>Tài khoản này đang được sử dụng để thêm tiền. Một khi đã xóa, bạn sẽ không thể thêm tiền vào số dư bằng tài khoản này nữa. Bạn có muốn xóa không?</string>
+	<key>pay.setting.chargeAccount.description.notSupportAccount</key>
+	<string>Chỉ hiển thị tài khoản được người bán này chấp nhận.</string>
+	<key>pay.setting.chargeAccount.title</key>
+	<string>Tài khoản tiền gửi</string>
+	<key>pay.setting.createShortCut</key>
+	<string>Tạo phím tắt đến Mã của tôi</string>
+	<key>pay.setting.createShortcut2</key>
+	<string>Tạo phím tắt</string>
+	<key>pay.setting.deleteAccount</key>
+	<string>Xóa tài khoản</string>
+	<key>pay.setting.deleteAccount.alert</key>
+	<string>Nếu bạn xóa tài khoản %1$@ của mình, toàn bộ lịch sử giao dịch của bạn sẽ bị xóa và không thể phục hồi lại được. Bạn có chắc chắn muốn xóa tài khoản không?</string>
+	<key>pay.setting.deleteAccount.button</key>
+	<string>Xóa tài khoản</string>
+	<key>pay.setting.deleteAccount.cannotDeleteNeedCharge.alert</key>
+	<string>Bạn không thể xóa tài khoản của mình nếu số dư nợ dưới 0.</string>
+	<key>pay.setting.deleteAccount.failRemainMoney</key>
+	<string>Mất số tiền còn lại</string>
+	<key>pay.setting.deleteAccount.guideText.cannotDeleteAccount</key>
+	<string>an toàn hơn 
+cho LINE Pay.</string>
+	<key>pay.setting.deleteAccount.guideText.cannotDeleteAccount.jp</key>
+	<string>Bạn không thể xóa tài khoản của mình
+nếu có bất kỳ giao dịch nào đang thực hiện.</string>
+	<key>pay.setting.deleteAccount.guideText.deleteAllTransaction</key>
+	<string>Việc xóa tài khoản %1$@ sẽ xóa toàn bộ lịch sử giao dịch của bạn. Bạn không thể khôi phục dữ liệu sau khi đã xóa.</string>
+	<key>pay.setting.deleteAccount.guideText.deleteBalance</key>
+	<string>Hủy kích hoạt 
+sẽ bị mất số tiền còn lại.</string>
+	<key>pay.setting.deleteAccount.guideText.deleteLineCard</key>
+	<string>Xóa tài khoản LINE Pay cũng sẽ xóa thẻ LINE Pay của bạn.</string>
+	<key>pay.setting.deleteAccount.guideText.reRegistrationGuide</key>
+	<string>You cannot use the same Online Saving Account number when you register to Online Saving Account again next time.</string>
+	<key>pay.setting.deleteAccount.guideText.remainMoneyGuide</key>
+	<string>You can withdraw your balance now or visit the bank to retrieve it.</string>
+	<key>pay.setting.deleteAccount.guideTitle</key>
+	<string>Tài khoản của bạn sẽ bị xóa.</string>
+	<key>pay.setting.deleteAccount.identification.alert</key>
+	<string>Xác nhận ID của bạn và rút tiền còn lại để hủy kích hoạt.</string>
+	<key>pay.setting.deleteAccount.remainMoney.tw.alert</key>
+	<string>You have %1$@left.  
+ You can withdraw your balance now or visit the bank to retrieve it.</string>
+	<key>pay.setting.deleteAccount.transfer.alert</key>
+	<string>Bạn có thể hủy kích hoạt 
+sau khi hoàn tất chyển tiền.</string>
+	<key>pay.setting.deleteAccount.transfer.alert.jp</key>
+	<string>Bạn có thể xóa tài khoản của mình
+sau khi hoàn tất
+mọi giao dịch chuyển khoản.</string>
+	<key>pay.setting.deleteAccount.waitCharge.alert</key>
+	<string>Bạn có thể hủy kích hoạt 
+sau khi hủy giao dịch 
+bị tạm dừng.</string>
+	<key>pay.setting.deleteAccount.withdrawRemainMoney</key>
+	<string>Rút số tiền còn lại</string>
+	<key>pay.setting.help</key>
+	<string>Trợ giúp</string>
+	<key>pay.setting.identification.alert</key>
+	<string>İşleniyor</string>
+	<key>pay.setting.identification.complete</key>
+	<string>Xong</string>
+	<key>pay.setting.ipass.guide</key>
+	<string>LINE Pay iPASS User Manual</string>
+	<key>pay.setting.lackNotification</key>
+	<string>Cảnh báo số dư</string>
+	<key>pay.setting.lackNotification.checkNotification.alert</key>
+	<string>Tắt cảnh báo %1$@.</string>
+	<key>pay.setting.lackNotification.description</key>
+	<string>Sẽ thông báo khi số dư dưới khoản tiền đã đặt</string>
+	<key>pay.setting.lackNotification.exceedAmount</key>
+	<string>Vượt giới hạn tối đa.</string>
+	<key>pay.setting.lackNotification.minimumMoney</key>
+	<string>Đặt ra giới hạn</string>
+	<key>pay.setting.lackNotification.minimumMoney.description</key>
+	<string>Nhập khoản tiền</string>
+	<key>pay.setting.lackNotificationSetting.alert</key>
+	<string>Đặt %1$@ trở lên.</string>
+	<key>pay.setting.lineCard</key>
+	<string>Thẻ LINE Pay</string>
+	<key>pay.setting.lineCardAutoDeposit</key>
+	<string>Tự động gửi</string>
+	<key>pay.setting.lineCardHelp</key>
+	<string>Trợ giúp thẻ LINE Pay</string>
+	<key>pay.setting.manageCard.alertDeleteLinePayCard</key>
+	<string>Khi hủy liên kết thẻ của mình, bạn sẽ không nhận được Điểm LINE bằng cách sử dụng thẻ này nữa và mọi khoản thanh toán được phê duyệt trước bằng thẻ này sẽ bị hủy. Lịch sử thanh toán sẽ vẫn như cũ.
+Tiếp tục?</string>
+	<key>pay.setting.myAccount</key>
+	<string>Trạng thái tài khoản</string>
+	<key>pay.setting.myAccount.cash</key>
+	<string>LINE Cash</string>
+	<key>pay.setting.myAccount.jp</key>
+	<string>Loại số dư và giới hạn</string>
+	<key>pay.setting.myAccount.lv9</key>
+	<string>Chưa tạo</string>
+	<key>pay.setting.myAccount.money</key>
+	<string>LINE Money</string>
+	<key>pay.setting.myAccount.th.created</key>
+	<string>Đã tạo</string>
+	<key>pay.setting.myAccount.th.notCreated</key>
+	<string>Chưa tạo</string>
+	<key>pay.setting.myInfo</key>
+	<string>Thông tin của tôi</string>
+	<key>pay.setting.password</key>
+	<string>Mật khẩu</string>
+	<key>pay.setting.password.call.alert</key>
+	<string>Nhấn OK để nhận 
+cuộc gọi xác nhận. 
+(ID của người gọi có thể bị chặn.
+ Có thể mất phí gọi.)</string>
+	<key>pay.setting.password.change</key>
+	<string>Đổi mật khẩu</string>
+	<key>pay.setting.password.hold</key>
+	<string>Cài đặt khóa LINE Pay</string>
+	<key>pay.setting.password.inputNumber</key>
+	<string>Hãy nhập mã xác nhận đã nhận được.</string>
+	<key>pay.setting.password.reissue.smsAuthKey.alert</key>
+	<string>Bạn phải nhận được mã xác nhận mới. 
+Bạn có muốn quay lại màn hình trước không?</string>
+	<key>pay.setting.password.resendNumber</key>
+	<string>Đã gửi mã xác nhận.</string>
+	<key>pay.setting.password.reset</key>
+	<string>Quên mật khẩu?</string>
+	<key>pay.setting.password.resetTitle</key>
+	<string>Đổi mật khẩu</string>
+	<key>pay.setting.password.resetTitle.alert</key>
+	<string>Quên mật khẩu?</string>
+	<key>pay.setting.password.retry</key>
+	<string>Mã nhận dạng mới</string>
+	<key>pay.setting.password.touchid.use</key>
+	<string>Dùng %@</string>
+	<key>pay.setting.password.touchid.verification</key>
+	<string>Xác nhận mật mã</string>
+	<key>pay.setting.payment.history</key>
+	<string>Lịch sử mua</string>
+	<key>pay.setting.pin.passlock</key>
+	<string>Xác minh bằng mật khẩu khi đăng nhập và thanh toán</string>
+	<key>pay.setting.pin.passlock.expire.popup</key>
+	<string>Tắt xác minh bằng mật khẩu khi đăng nhập và thanh toán?
+Cài đặt này cũng áp dụng cho ứng dụng LINE Pay độc lập.</string>
+	<key>pay.setting.pin.passlock.guide</key>
+	<string>Yêu cầu nhập mật khẩu mỗi khi đăng nhập và thực hiện thanh toán.
+Không yêu cầu nhập mật khẩu nếu thực hiện thanh toán với Mã của tôi và thanh toán hóa đơn trong vòng %1$@ phút kể từ khi sử dụng dịch vụ Pay. Lưu ý rằng cài đặt này cũng sẽ áp dụng cho ứng dụng LINE Pay độc lập.</string>
+	<key>pay.setting.pin.passlock.setting.popup</key>
+	<string>Bật xác minh bằng mật khẩu khi đăng nhập và thanh toán?
+Cài đặt này cũng áp dụng cho ứng dụng LINE Pay độc lập.</string>
+	<key>pay.setting.remain.history</key>
+	<string>Lịch sử thanh toán số dư</string>
+	<key>pay.setting.skinTheme</key>
+	<string>Theme màn hình chính</string>
+	<key>pay.setting.transaction.history</key>
+	<string>Hoạt động TK</string>
+	<key>pay.setting.transaction.input</key>
+	<string>Tiền gửi</string>
+	<key>pay.setting.transaction.maximumDate.alert</key>
+	<string>Bạn có thể chọn 
+tối đa 6 tháng.</string>
+	<key>pay.setting.transaction.output</key>
+	<string>Rút tiền</string>
+	<key>pay.setting.transaction.period</key>
+	<string>Thời gian</string>
+	<key>pay.setting.transaction.periodSelect</key>
+	<string>Chọn thời gian</string>
+	<key>pay.setting.transaction.recent3Month</key>
+	<string>Ba tháng qua</string>
+	<key>pay.setting.transaction.recentMonth</key>
+	<string>1 tháng gần đây</string>
+	<key>pay.setting.transaction.requesting</key>
+	<string>Đang chờ</string>
+	<key>pay.setting.transaction.total</key>
+	<string>Tất cả</string>
+	<key>pay.setting.transfer.cancel</key>
+	<string>Hủy</string>
+	<key>pay.setting.transfer.complete</key>
+	<string>Xong</string>
+	<key>pay.setting.transfer.fail</key>
+	<string>Failed</string>
+	<key>pay.setting.transfer.history</key>
+	<string>Yêu cầu chuyển tiền</string>
+	<key>pay.setting.transfer.history.jp</key>
+	<string>Lịch sử yêu cầu chuyển khoản</string>
+	<key>pay.setting.transfer.receiveHistory</key>
+	<string>Yêu cầu Nhận</string>
+	<key>pay.setting.transfer.requestHistory</key>
+	<string>Yêu cầu Gửi</string>
+	<key>pay.setting.unregister.coupon.warning</key>
+	<string>Nếu bạn xóa tài khoản %1$@, toàn bộ lịch sử giao dịch và mọi coupon của bạn sẽ bị xóa. Không thể khôi phục dữ liệu của bạn sau khi đã xóa.</string>
+	<key>pay.setting.unregister.lost.bonus</key>
+	<string>Với việc xóa tài khoản của mình, bạn sẽ mất tất cả phần thưởng LINE Pay còn lại.</string>
+	<key>pay.setting.withdraw</key>
+	<string>Rút tiền</string>
+	<key>pay.setting.withdrawAccount.deleteAccount.alert</key>
+	<string>Xóa tài khoản ngân hàng?</string>
+	<key>pay.simeplePayment.signUp.point</key>
+	<string>Sau khi bạn đã đăng ký %1$@, chỉ cần nhập mật khẩu để thanh toán!</string>
+	<key>pay.simplePayment.confirmAmount</key>
+	<string>Xem số tiền thanh toán</string>
+	<key>pay.simplePayment.creditCard.title</key>
+	<string>Thẻ tín dụng</string>
+	<key>pay.simplePayment.purchaseInfo.memberText</key>
+	<string>Th.viên %1$@</string>
+	<key>pay.simplePayment.signUp.completed</key>
+	<string>Giờ đây, bạn đã được đăng ký và thẻ tín dụng của bạn đã được thêm.</string>
+	<key>pay.simplePayment.signUp.password</key>
+	<string>Vui lòng tạo mật mã.</string>
+	<key>pay.simplePayment.signUp.password.completed</key>
+	<string>Xong</string>
+	<key>pay.simplePayment.signUp.password.unset</key>
+	<string>Chưa cài đặt</string>
+	<key>pay.simplePayment.signUp.succeed</key>
+	<string>Đã hoàn tất đăng ký.</string>
+	<key>pay.simplePayment.signUp.text</key>
+	<string>Sau khi bạn đã đăng ký %1$@, chỉ cần nhập mật khẩu để thanh toán!</string>
+	<key>pay.simplePayment.signUp.title</key>
+	<string>Đăng ký</string>
+	<key>pay.splitbill.acceptSplitbill</key>
+	<string>Tham gia hóa đơn chia sẻ</string>
+	<key>pay.splitbill.acceptSplitbill.cash</key>
+	<string>Tiền mặt</string>
+	<key>pay.splitbill.acceptSplitbill.linepay</key>
+	<string>LINE Pay</string>
+	<key>pay.splitbill.acceptSplitbill.title</key>
+	<string>Bạn đã được mời tham gia chia sẻ hóa đơn dành cho "%1$@".
+Chọn phương thức thanh toán bạn muốn.</string>
+	<key>pay.splitbill.acceptSplitbillResult.message</key>
+	<string>Bạn đã tham gia hóa đơn chia sẻ này và sẽ thanh toán bằng %1$@.</string>
+	<key>pay.splitbill.aceeptSplitbill.guide</key>
+	<string>Khi tham gia hóa đơn chia sẻ này, những người khác sẽ có thể thấy hồ sơ và tên hiển thị của bạn.</string>
+	<key>pay.splitbill.alert.cancelBasic</key>
+	<string>Hủy hóa đơn chia sẻ này? Nếu hủy, bạn sẽ phải tạo lại hóa đơn chia sẻ này từ đầu.</string>
+	<key>pay.splitbill.alert.editSplitbill</key>
+	<string>Bạn đã thay đổi số tiền bạn cần thanh toán.</string>
+	<key>pay.splitbill.alert.request.ChangeAmount</key>
+	<string>Bạn đã yêu cầu thay đổi số tiền cần thanh toán.</string>
+	<key>pay.splitbill.alert.requestedSplitBill</key>
+	<string>Bạn đã yêu cầu những người tham gia hóa đơn chia sẻ thanh toán phần chia sẻ của họ.</string>
+	<key>pay.splitbill.alert.requestedSplitbill.again</key>
+	<string>Bạn đã gửi một lời nhắc về hóa đơn chia sẻ.</string>
+	<key>pay.splitbill.alert.splitbillPayment.complete</key>
+	<string>Bạn đã thanh toán cho hóa đơn chia sẻ.</string>
+	<key>pay.splitbill.assignedAmount</key>
+	<string>Số tiền bạn được yêu cầu thanh toán: %1$@</string>
+	<key>pay.splitbill.attendedSplitbill</key>
+	<string>Hóa đơn chia sẻ chưa thanh toán</string>
+	<key>pay.splitbill.cancelPrevious.splitbillAlert</key>
+	<string>Hủy hóa đơn chia sẻ này? Bạn sẽ không thể tạo lại hóa đơn chia sẻ cho khoản thanh toán này và sẽ phải tự thanh toán toàn bộ số tiền.</string>
+	<key>pay.splitbill.cancelSplitbill</key>
+	<string>Hủy hóa đơn chia sẻ</string>
+	<key>pay.splitbill.canceled</key>
+	<string>Hủy</string>
+	<key>pay.splitbill.canceledAlert</key>
+	<string>Đã hủy hóa đơn chia sẻ.</string>
+	<key>pay.splitbill.commonTitle</key>
+	<string>Hóa đơn chia sẻ</string>
+	<key>pay.splitbill.completedSplitbill</key>
+	<string>Hóa đơn chia sẻ đã thanh toán</string>
+	<key>pay.splitbill.createRequestCode</key>
+	<string>Tạo mã QR</string>
+	<key>pay.splitbill.createSplitbill</key>
+	<string>Chia sẻ một hóa đơn</string>
+	<key>pay.splitbill.createSplitbill.guide</key>
+	<string>Bạn chưa có hóa đơn chia sẻ nào.
+Chạm vào nút dưới đây để chia sẻ hóa đơn mới.</string>
+	<key>pay.splitbill.createSplitbill.title</key>
+	<string>Chia sẻ hóa đơn mới</string>
+	<key>pay.splitbill.detail.confirmPayment</key>
+	<string>Đánh dấu là đã thanh toán</string>
+	<key>pay.splitbill.detail.confirmPaymentAlert</key>
+	<string>%1$@ đã thanh toán phần của mình trong hóa đơn chia sẻ chưa?</string>
+	<key>pay.splitbill.detail.invalid</key>
+	<string>Hóa đơn chia sẻ này đã bị hủy hoặc hết hạn.</string>
+	<key>pay.splitbill.detail.needToPayment.friendsCount</key>
+	<string>Còn %1$@ người chưa thanh toán</string>
+	<key>pay.splitbill.detail.paid.FriendsCount</key>
+	<string>%1$@ người đã thanh toán</string>
+	<key>pay.splitbill.detail.requestPayment</key>
+	<string>Yêu cầu lần nữa</string>
+	<key>pay.splitbill.detail.requestUpdate</key>
+	<string>Thay đổi số tiền</string>
+	<key>pay.splitbill.detail.totalAmount</key>
+	<string>Tổng</string>
+	<key>pay.splitbill.detail.waiting</key>
+	<string>Bạn đã chia sẻ hóa đơn dành cho "%1$@".</string>
+	<key>pay.splitbill.detailPaymentMethod</key>
+	<string>Đang thanh toán bằng %1$@</string>
+	<key>pay.splitbill.divideEqually</key>
+	<string>Chia đều</string>
+	<key>pay.splitbill.errorMessage.over</key>
+	<string>Tổng cộng %1$@ nhiều hơn tổng số.</string>
+	<key>pay.splitbill.errorMessage.under</key>
+	<string>Tổng cộng %1$@ ít hơn tổng số.</string>
+	<key>pay.splitbill.expired</key>
+	<string>Hết hạn</string>
+	<key>pay.splitbill.friendsCount</key>
+	<string>Đã mời %1$@ người</string>
+	<key>pay.splitbill.friendsTitle</key>
+	<string>Bạn bè đã mời</string>
+	<key>pay.splitbill.guideMessage</key>
+	<string>Bạn có thể thay đổi số tiền mà mỗi người tham gia phải thanh toán bằng cách chạm vào số tiền của họ.</string>
+	<key>pay.splitbill.needToPaymentByCash</key>
+	<string>Cần phải thanh toán %1$@ bằng tiền mặt</string>
+	<key>pay.splitbill.needToPaymentByLinepay</key>
+	<string>Cần phải thanh toán %1$@ qua LINE Pay</string>
+	<key>pay.splitbill.ownedSplitbill</key>
+	<string>Hóa đơn chia sẻ bạn đã tạo</string>
+	<key>pay.splitbill.paidByCash</key>
+	<string>Đã thanh toán %1$@ bằng tiền mặt</string>
+	<key>pay.splitbill.paidByLinepay</key>
+	<string>Đã thanh toán %1$@ qua LINE Pay</string>
+	<key>pay.splitbill.paidByOther</key>
+	<string>Đã thanh toán %1$@ bằng các phương thức khác</string>
+	<key>pay.splitbill.paidMethod.other</key>
+	<string>các phương thức khác</string>
+	<key>pay.splitbill.payment.attendedSplitbill</key>
+	<string>Thanh toán %1$@</string>
+	<key>pay.splitbill.paymentSplitbill</key>
+	<string>Thanh toán</string>
+	<key>pay.splitbill.qrCode.ClickGuideToast2</key>
+	<string> QRコードをタップすると拡大されます。</string>
+	<key>pay.splitbill.request.updateTitle</key>
+	<string>Thay đổi số tiền</string>
+	<key>pay.splitbill.requestAmount</key>
+	<string>Số tiền bạn muốn thanh toán</string>
+	<key>pay.splitbill.requestCode.alert.removeFriend</key>
+	<string>Loại bỏ %1$@ khỏi hóa đơn chia sẻ này?</string>
+	<key>pay.splitbill.requestCode.guide</key>
+	<string>Quét mã dưới đây để tham gia hóa đơn chia sẻ này.</string>
+	<key>pay.splitbill.requestCode.title</key>
+	<string>Mã QR của hóa đơn chia sẻ</string>
+	<key>pay.splitbill.requestUpdate</key>
+	<string>Yêu cầu thay đổi</string>
+	<key>pay.splitbill.selectOfflinePayment.description</key>
+	<string>Hãy thanh toán trong vòng 30 phút tới.
+(Bạn có thể thực hiện thanh toán đến %1$@.)</string>
+	<key>pay.splitbill.selectOfflinePayment.guide</key>
+	<string>Vui lòng lưu ý rằng bạn sẽ thanh toán hóa đơn chia sẻ này bằng phương thức thanh toán đã chọn.</string>
+	<key>pay.splitbill.selectOfflinePayment.title</key>
+	<string>Thanh toán bằng %1$@</string>
+	<key>pay.splitbill.selectPayment.method</key>
+	<string>Bạn muốn thanh toán bằng cách nào?</string>
+	<key>pay.splitbill.selectPaymentMethod.cash</key>
+	<string>Tiền mặt</string>
+	<key>pay.splitbill.selectPaymentMethod.cash.guide</key>
+	<string>Thanh toán trực tiếp cho người tổ chức bằng tiền mặt.</string>
+	<key>pay.splitbill.selectPaymentMethod.linepay</key>
+	<string>LINE Pay</string>
+	<key>pay.splitbill.selectPaymentMethod.linepay.disabled.desc</key>
+	<string>Cần xác minh từ ngân hàng</string>
+	<key>pay.splitbill.selectPaymentMethod.linepay.guide</key>
+	<string>Nhận Điểm LINE dựa trên cấp độ của bản thân mỗi khi bạn thanh toán.</string>
+	<key>pay.splitbill.selectPaymentMethod.linepayCard</key>
+	<string>Thẻ LINE Pay</string>
+	<key>pay.splitbill.selectPaymentMethod.qrCode</key>
+	<string>Mã của tôi</string>
+	<key>pay.splitbill.selectPaymentMethod.scanCode</key>
+	<string>Mã QR của người khác</string>
+	<key>pay.splitbill.startSplitbill</key>
+	<string>Gửi hóa đơn chia sẻ</string>
+	<key>pay.splitbill.statusComplete</key>
+	<string>Đã hoàn tất</string>
+	<key>pay.splitbill.statusNeedToPayment</key>
+	<string>Chưa thanh toán</string>
+	<key>pay.splitbill.statusNeedToReceive</key>
+	<string>Đang thu</string>
+	<key>pay.splitbill.statusOngoing</key>
+	<string>Đang chờ</string>
+	<key>pay.splitbill.titlePlaceholder</key>
+	<string>Hóa đơn này thanh toán gì?</string>
+	<key>pay.splitbill.totalAmount</key>
+	<string>(Tổng %1$@)</string>
+	<key>pay.splitbill.unknownUser</key>
+	<string>Người dùng không xác định</string>
+	<key>pay.splitbill.updateFriends.count</key>
+	<string>%1$@ người tham gia</string>
+	<key>pay.splitbill.updateSplitbill</key>
+	<string>Thay đổi số tiền</string>
+	<key>pay.splitbill.waiting</key>
+	<string>Đang đợi khoản thanh toán</string>
+	<key>pay.suspended.coupon</key>
+	<string>Tạm dừng</string>
+	<key>pay.th.identification.otherMethod</key>
+	<string>Phương thức khác</string>
+	<key>pay.th.signUp.actualAddress</key>
+	<string>Địa chỉ cư trú</string>
+	<key>pay.th.signUp.alert.foreignerCheck</key>
+	<string>Tap OK to be redirected to the sign-up screen for non-Thai citizens. Please note Thai citizens are unable to sign up on that screen.</string>
+	<key>pay.th.signUp.idCardAddress</key>
+	<string>Địa chỉ trên ID</string>
+	<key>pay.th.signUp.idCardAddress.foreigner.guidetext</key>
+	<string>Đảm bảo nhập chính xác địa chỉ trên ID do quốc gia của bạn phát hành hoặc địa chỉ cư trú ở quốc gia mà bạn được sinh ra.</string>
+	<key>pay.th.signUp.idCardAddress.guidetext</key>
+	<string>Đảm bảo nhập chính xác địa chỉ trên ID.</string>
+	<key>pay.th.signUp.sameAddressAbove</key>
+	<string>Tương tự như trên</string>
+	<key>pay.th.signUp.workplaceAddress</key>
+	<string>Địa chỉ làm việc</string>
+	<key>pay.th.signup.agree.guide</key>
+	<string>Chạm vào "Đăng ký" để đồng ý với điều khoản và chính sách ở trên. Thỏa thuận này có hiệu lực ngay cả khi bạn chưa hoàn thành quy trình đăng ký.</string>
+	<key>pay.tos.agreeTo</key>
+	<string>Agree to %@</string>
+	<key>pay.touchid.authentication</key>
+	<string>Dùng %@</string>
+	<key>pay.touchid.noEnrolled</key>
+	<string>Thiết bị của bạn không hỗ trợ %@ hoặc bạn chưa thiết lập %@. Nếu thiết bị của bạn có hỗ trợ, hãy thiết lập %@ trong cài đặt trên thiết bị rồi thử lại.</string>
+	<key>pay.touchid.turnedOff</key>
+	<string>Sử dụng %@? Bạn sẽ cần nhập mật mã để sử dụng %@.</string>
+	<key>pay.transaction.legislation</key>
+	<string>Thông tin về nhà cung cấp dịch vụ chuyển khoản</string>
+	<key>pay.transaction.request.timeout</key>
+	<string>Không kiểm tra được kết quả xử lý. 
+Hãy kiểm tra chi tiết</string>
+	<key>pay.transfer.InfobyBalance</key>
+	<string>• Số dư LINE Pay: Số tiền này có thể được dùng để thanh toán, chuyển tiền và rút tiền.
+• Phần thưởng LINE Pay: Khoản này chỉ có thể được dùng để thanh toán và chuyển tiền. Không thể rút khoản này.
+Số dư LINE Pay của bạn sẽ được sử dụng trước, phần thưởng LINE Pay sẽ được dùng để thanh toán phần còn thiếu từ số dư LINE Pay.</string>
+	<key>pay.transfer.InfobyBalance.certified</key>
+	<string>Yêu cầu xác minh danh tính</string>
+	<key>pay.transfer.InfobyBalance.jp</key>
+	<string>• Số dư LINE Pay: Có thể sử dụng số dư này để thanh toán, chuyển khoản và rút.
+• Phần thưởng LINE Pay: Chỉ có thể sử dụng phần thưởng LINE Pay để thanh toán và chuyển khoản. Không thể rút.
+Số dư LINE Pay của bạn sẽ được sử dụng trước, số còn lại được thanh toán từ Phần thưởng LINE Pay của bạn.</string>
+	<key>pay.transfer.InfobyBalance.title</key>
+	<string>Thông tin về tiền của bạn</string>
+	<key>pay.transfer.bonusBalance</key>
+	<string>Phần thưởng LINE Pay</string>
+	<key>pay.transfer.bonusInfo</key>
+	<string>Không đủ điều kiện rút tiền</string>
+	<key>pay.transfer.charge</key>
+	<string>Nạp tiền</string>
+	<key>pay.transfer.complete.alert</key>
+	<string>Hoàn tất truyền tải. Có thể mất một lúc để các thay đổi được phản ánh.</string>
+	<key>pay.transfer.complete.alert.jp</key>
+	<string>Đã chuyển xong.
+Có thể mất một lúc để cập nhật số dư của bạn.</string>
+	<key>pay.transfer.currency.about</key>
+	<string>tương đương</string>
+	<key>pay.transfer.input.maxMoney.alert</key>
+	<string>Vượt giới hạn chuyển tiền tối đa. 
+Khoản tiền sẽ thay đổi.</string>
+	<key>pay.transfer.input.maxMoney.alert.jp</key>
+	<string>Đã vượt giới hạn tiền hoặc phần thưởng chuyển đi tối đa. Sẽ thay đổi số lượng.</string>
+	<key>pay.transfer.input.minMoney.alert</key>
+	<string>Số tiền gửi đi nhỏ hơn so với 
+số tiền tối thiểu 
+có thể gửi.</string>
+	<key>pay.transfer.input.remain</key>
+	<string>Số dư</string>
+	<key>pay.transfer.input.remain.tw</key>
+	<string>Số dư</string>
+	<key>pay.transfer.needCharge.alert</key>
+	<string>Số dư không đủ.</string>
+	<key>pay.transfer.openChat.alert</key>
+	<string>Xem</string>
+	<key>pay.transfer.payBalance</key>
+	<string>Số dư LINE Pay</string>
+	<key>pay.transfer.receive.description</key>
+	<string>Đã gửi tiền 
+cho %1$@.</string>
+	<key>pay.transfer.receive.description.jp</key>
+	<string>Bạn đã chuyển tiền hoặc phần thưởng đến %1$@.</string>
+	<key>pay.transfer.request.description</key>
+	<string>%1$@ đã gửi tiền.</string>
+	<key>pay.transfer.request.description.jp</key>
+	<string>%1$@ đã chuyển tiền hoặc phần thưởng.</string>
+	<key>pay.transfer.selectFriends.title</key>
+	<string>Bạn bè</string>
+	<key>pay.transfer.sendButton</key>
+	<string>Chuyển tiền</string>
+	<key>pay.transfer.sendButton.jp</key>
+	<string>Đã chuyển tiền hoặc phần thưởng</string>
+	<key>pay.transfer.sendConfirm.alert</key>
+	<string>Bạn có muốn truyền tải %1$@ không?</string>
+	<key>pay.transfer.sendConfirm.alert.jp</key>
+	<string>Bạn có muốn chuyển số lượng tương đương %1$@‎ không?</string>
+	<key>pay.transfer.sendMoney.message</key>
+	<string>Vui lòng nhập tin nhắn</string>
+	<key>pay.transfer.title</key>
+	<string>Gửi tiền cho bất cứ ai. Thậm chí cả người bạn không có tài khoản Thanh toán cũng có thể nhận tiền.</string>
+	<key>pay.transfer.title.jp</key>
+	<string>Gửi số dư LINE Pay và phần thưởng cho bạn bè!</string>
+	<key>pay.transfer.title.tw</key>
+	<string>You may only transfer money to your friends on Taiwan's LINE, and the receiver must complete iPASS account registration within 3 days upon receipt of notification to receive the money.</string>
+	<key>pay.transfer.used.bonusBalance</key>
+	<string>Đã sử dụng phần thưởng LINE Pay</string>
+	<key>pay.transfer.used.bonusInfo</key>
+	<string>(Người nhận không thể rút tiền)</string>
+	<key>pay.userInfo.birthday</key>
+	<string>Ngày sinh</string>
+	<key>pay.userInfo.birthday.th</key>
+	<string>Ngày sinh (Phật lịch)</string>
+	<key>pay.userInfo.firstName</key>
+	<string>Tên</string>
+	<key>pay.userInfo.firstName.katakana</key>
+	<string>Tên</string>
+	<key>pay.userInfo.lastName</key>
+	<string>Họ</string>
+	<key>pay.userInfo.lastName.katakana</key>
+	<string>Họ</string>
+	<key>pay.userInfo.name</key>
+	<string>Tên(Tiếng Hán)</string>
+	<key>pay.userInfo.name.katakana</key>
+	<string>Tên(Katakana)</string>
+	<key>pay.userInfo.th.citizenID</key>
+	<string>ID công dân Thái Lan</string>
+	<key>pay.userInfo.th.citizenID.guide</key>
+	<string>Vui lòng nhập</string>
+	<key>pay.userInfo.th.laserNum</key>
+	<string>Số laser</string>
+	<key>pay.userInfo.th.laserNum.guide</key>
+	<string>JC1234567890</string>
+	<key>pay.userInfo.th.name</key>
+	<string>Tên (Thái Lan)</string>
+	<key>pay.virtualcard.delete.description</key>
+	<string>Tài khoản LINE Pay và số dư của bạn sẽ không bị ảnh hưởng kể cả sau khi bạn xóa thẻ ảo của mình. 
+Bạn có thể tạo thẻ tối đa 2 lần mỗi tháng.</string>
+	<key>pay.virtualcard.issue</key>
+	<string>Tạo thẻ ảo</string>
+	<key>pay.virtualcard.issue.complete</key>
+	<string>Bạn đã tạo một thẻ ảo.</string>
+	<key>pay.virtualcard.issue.description</key>
+	<string>Mua sắm tại người bán trực tuyến thuộc JCB và thanh toán bằng số dư LINE Pay của bạn qua thẻ ảo.</string>
+	<key>pay.virtualcard.issue.title</key>
+	<string>Nhận thẻ ảo của bạn ngay lập tức!</string>
+	<key>pay.virtualcard.suspension.guide</key>
+	<string>Cho phép sử dụng thẻ trực tuyến? Vì lý do bảo mật, bạn sẽ chỉ có thể sử dụng thẻ trực tuyến trong vòng một giờ nếu không đăng ký thẻ cứng.</string>
+	<key>pay.withdraw.account.title</key>
+	<string>Tài khoản rút tiền</string>
+	<key>pay.withdraw.act</key>
+	<string>Rút tiền</string>
+	<key>pay.withdraw.amount</key>
+	<string>Số tiền rút</string>
+	<key>pay.withdraw.changeAmount</key>
+	<string>Sửa</string>
+	<key>pay.withdraw.etcBank</key>
+	<string>Các ngân hàng khác</string>
+	<key>pay.withdraw.fee</key>
+	<string>Tiền phí</string>
+	<key>pay.withdraw.info.alert</key>
+	<string>Đang rút tiền. Bạn sẽ sớm có thể xác nhận số dư mới trong menu Hoạt động của tài khoản.</string>
+	<key>pay.withdraw.overEachMinAmount</key>
+	<string>Số tiền tối đa có thể rút là%1$@.</string>
+	<key>pay.withdraw.totalAmount</key>
+	<string>Tổng số tiền giảm</string>
+	<key>pay.withdraw.underEachMinAmount</key>
+	<string>Rút ít nhất là %1$@.</string>
+	<key>pay_balance_dec_pocket_money_cashuser</key>
+	<string>Nhận tới 50.000 JPY với LINE Pocket Money</string>
+	<key>pay_balance_dec_pocket_money_moneyuser</key>
+	<string>Có thể sử dụng {0} JPY từ LINE Pocket Money</string>
+	<key>random_key_forgot_passcode_1</key>
+	<string>Bạn không thể xóa tài khoản LINE Pay vì tài khoản có giao dịch đang diễn ra.</string>
+	<key>random_key_forgot_passcode_2</key>
+	<string>Bạn không thể xóa tài khoản Rabbit LINE Pay trong những trường hợp sau:</string>
+	<key>random_key_forgot_passcode_3</key>
+	<string>Liên hệ với bộ phận Chăm sóc khách hàng để biết thêm chi tiết.</string>
+	<key>random_key_forgot_passcode_4</key>
+	<string>Bạn có giao dịch đang diễn ra.</string>
+	<key>random_key_forgot_passcode_5</key>
+	<string>Tài khoản LINE Pay của bạn còn số dư.</string>
+	<key>random_key_forgot_passcode_6</key>
+	<string>Tài khoản LINE Pay của bạn được đặt làm phương thức thanh toán cho LINE TAXI.</string>
+	<key>random_key_forgot_passcode_7</key>
+	<string>Nhập 12 chữ số cuối trong số thẻ của bạn.</string>
+	<key>random_key_forgot_passcode_bottom_1</key>
+	<string>Nếu không đặt lại được mật khẩu, bạn có thể xóa tài khoản LINE Pay của mình và đăng ký lại.</string>
+	<key>random_key_forgot_passcode_bottom_2</key>
+	<string>Xóa tài khoản LINE Pay</string>
+	<key>random_key_forgot_passcode_bottom_3</key>
+	<string>Nếu bạn không thể xác minh danh thính hoặc xóa tài khoản LINE Pay của mình, hãy liên hệ với bộ phận Chăm sóc khách hàng bằng cách chạm vào "Trợ giúp" bên dưới để thay đổi mật khẩu.</string>
+	<key>randomkey_delete_account_confirm_popup_1</key>
+	<string></string>
+	<key>randomkey_delete_account_confirm_popup_2</key>
+	<string></string>
+	<key>randomkey_delete_account_confirm_popup_3</key>
+	<string></string>
+	<key>setting.history.accumulation.type.bonus</key>
+	<string>Phần thưởng</string>
+	<key>setting.history.bonus.restricted.store</key>
+	<string>Bonus-exempt merchant</string>
+	<key>settings.privacy.account.identification.prompt</key>
+	<string>Đã gửi thư xác nhận đến địa chỉ.</string>
+	<key>yes</key>
+	<string>Có</string>
+</dict>
+</plist>

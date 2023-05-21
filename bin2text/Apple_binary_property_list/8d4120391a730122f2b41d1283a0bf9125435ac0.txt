@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COMMENTS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%2$#@commentscount@ ‏%1$@</string>
+		<key>commentscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>التعليقات:</string>
+			<key>one</key>
+			<string>التعليقات:</string>
+			<key>many</key>
+			<string>التعليقات:</string>
+			<key>two</key>
+			<string>التعليقات:</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>التعليقات:</string>
+			<key>zero</key>
+			<string>التعليقات:</string>
+		</dict>
+	</dict>
+	<key>ADDED_SONGS_TO_PLAYLIST_CONFIRMATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>تمت إضافة %#@songcount@ إلى "%@".</string>
+		<key>songcount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d أغانٍ</string>
+			<key>one</key>
+			<string>أغنية واحدة</string>
+			<key>many</key>
+			<string>‏%d أغنية</string>
+			<key>two</key>
+			<string>أغنيتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d أغنية</string>
+			<key>zero</key>
+			<string>‏%d أغنية</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أنت تتابع الآن %@.</string>
+	</dict>
+	<key>SEARCH_RADIO_PROVIDER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>من %@</string>
+	</dict>
+	<key>SEARCH_MOVIES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الأفلام</string>
+	</dict>
+	<key>SEARCH_SHARED_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في قوائم التشغيل المشتركة</string>
+	</dict>
+	<key>SONGS_COUNT_AND_DURATION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%#@songscount@، %@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu أغانٍ</string>
+			<key>one</key>
+			<string>أغنية واحدة</string>
+			<key>many</key>
+			<string>‏%lu أغنية</string>
+			<key>two</key>
+			<string>أغنيتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu من الأغاني</string>
+			<key>zero</key>
+			<string>%lu من الأغاني</string>
+		</dict>
+	</dict>
+	<key>ACCOUNT_EDIT_HANDLE_TAKEN_WITH_SUGGESTIONS_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هل تود استخدام %@ عوضًا عن ذلك؟ يمكنك تغيير هذا لاحقًا.</string>
+	</dict>
+	<key>SEASON_AND_EPISODE_NUMBERS_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>الموسم %lu</string>
+			<key>one</key>
+			<string>الموسم %lu</string>
+			<key>many</key>
+			<string>الموسم %lu</string>
+			<key>two</key>
+			<string>الموسم %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>الموسم %lu</string>
+			<key>zero</key>
+			<string>موسم غير معروف</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%#@season@، ‏%#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>الحلقة %lu</string>
+			<key>one</key>
+			<string>الحلقة %lu</string>
+			<key>many</key>
+			<string>الحلقة %lu</string>
+			<key>two</key>
+			<string>الحلقة %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>الحلقة %lu</string>
+			<key>zero</key>
+			<string>الحلقة %lu</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_UNLINK_ACCOUNT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا قمت بقطع الاتصال بـ %@، فلن تتمكن من العثور على مستخدمي Apple Music الآخرين الذين تتواصل معهم باستخدام %@.</string>
+	</dict>
+	<key>SEARCH_SONG_ARTIST_ALBUM_YEAR_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ — ‏%@</string>
+	</dict>
+	<key>LIKES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%2$#@likescount@ ‏%1$@</string>
+		<key>likescount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>الإعجابات:</string>
+			<key>one</key>
+			<string>الإعجابات:</string>
+			<key>many</key>
+			<string>الإعجابات:</string>
+			<key>two</key>
+			<string>الإعجابات:</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>الإعجابات:</string>
+			<key>zero</key>
+			<string>الإعجابات:</string>
+		</dict>
+	</dict>
+	<key>SEARCH_ARTISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الفنانين</string>
+	</dict>
+	<key>SEARCH_PEOPLE_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الأشخاص</string>
+	</dict>
+	<key>SEARCH_LYRICS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏"%@" في الكلمات</string>
+	</dict>
+	<key>EPISODES_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episodes@</string>
+		<key>episodes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu حلقات</string>
+			<key>one</key>
+			<string>حلقة واحدة</string>
+			<key>many</key>
+			<string>‏%lu حلقة</string>
+			<key>two</key>
+			<string>حلقتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu حلقة</string>
+			<key>zero</key>
+			<string>لا توجد حلقات</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إضافة الأغاني إلى قائمة تشغيل جديدة.</string>
+	</dict>
+	<key>SOCIAL_BLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>أنت تحظر الآن %@.</string>
+	</dict>
+	<key>SEARCH_PLAYLISTS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في قوائم التشغيل</string>
+	</dict>
+	<key>ALBUMS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu ألبومات</string>
+			<key>one</key>
+			<string>ألبوم %lu</string>
+			<key>many</key>
+			<string>%lu ألبومًا</string>
+			<key>two</key>
+			<string>ألبومان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu من الألبومات</string>
+			<key>zero</key>
+			<string>‏%lu من الألبومات</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@albumscount@</string>
+	</dict>
+	<key>CONNECT_FOLLOWING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>المشاركات بواسطة %@ سيتم عرضها في "لك".</string>
+	</dict>
+	<key>NOW_PLAYING_PLAY_SOURCE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>من %@</string>
+	</dict>
+	<key>ALBUMS_AND_SONGS_COUNT</key>
+	<dict>
+		<key>albumscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%lu ألبومات</string>
+			<key>one</key>
+			<string>ألبوم %lu</string>
+			<key>many</key>
+			<string>%lu ألبومًا</string>
+			<key>two</key>
+			<string>ألبومان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu من الألبومات</string>
+			<key>zero</key>
+			<string>‏%lu من الألبومات</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%#@albumscount@، ‏%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu أغانٍ</string>
+			<key>one</key>
+			<string>أغنية واحدة</string>
+			<key>many</key>
+			<string>‏%lu أغنية</string>
+			<key>two</key>
+			<string>أغنيتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu من الأغاني</string>
+			<key>zero</key>
+			<string>‏%lu أغنية</string>
+		</dict>
+	</dict>
+	<key>SEASON_TITLE</key>
+	<dict>
+		<key>season</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>الموسم %lu</string>
+			<key>one</key>
+			<string>الموسم %lu</string>
+			<key>many</key>
+			<string>الموسم %lu</string>
+			<key>two</key>
+			<string>الموسم %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>الموسم %lu</string>
+			<key>zero</key>
+			<string>موسم غير معروف</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@season@</string>
+	</dict>
+	<key>LIKES_COUNT_LONG</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%1$@ ‏%2$#@likescountlong@</string>
+		<key>likescountlong</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>معجبون بهذا.</string>
+			<key>one</key>
+			<string>معجب بهذا.</string>
+			<key>many</key>
+			<string>معجبون بهذا.</string>
+			<key>two</key>
+			<string>معجبان بهذا.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>معجبون بهذا.</string>
+			<key>zero</key>
+			<string>معجب بهذا.</string>
+		</dict>
+	</dict>
+	<key>SEARCH_TV_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في TV</string>
+	</dict>
+	<key>SOCIAL_UNFOLLOWED_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لم تعد تتابع %@.</string>
+	</dict>
+	<key>SONGS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu أغانٍ</string>
+			<key>one</key>
+			<string>أغنية واحدة</string>
+			<key>many</key>
+			<string>‏%lu أغنية</string>
+			<key>two</key>
+			<string>أغنيتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>%lu من الأغاني</string>
+			<key>zero</key>
+			<string>%lu من الأغاني</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم التحديث منذ %lu أيام</string>
+			<key>one</key>
+			<string>تم التحديث بالأمس</string>
+			<key>many</key>
+			<string>تم التحديث منذ %lu يومًا</string>
+			<key>two</key>
+			<string>تم التحديث منذ يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم التحديث منذ %lu يوم</string>
+			<key>zero</key>
+			<string>تم التحديث اليوم</string>
+		</dict>
+	</dict>
+	<key>EPISODE_NUMBER_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode@</string>
+		<key>episode</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>الحلقة %lu</string>
+			<key>one</key>
+			<string>الحلقة %lu</string>
+			<key>many</key>
+			<string>الحلقة %lu</string>
+			<key>two</key>
+			<string>الحلقة %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>الحلقة %lu</string>
+			<key>zero</key>
+			<string>حلقة غير معروفة</string>
+		</dict>
+	</dict>
+	<key>UPDATED_TIME_DAYS_DAY_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>آخر تحديث: %@</string>
+	</dict>
+	<key>SEARCH_GENRES_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الأنواع</string>
+	</dict>
+	<key>UPDATED_TIME_YEARS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@years@</string>
+		<key>years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم التحديث منذ %lu سنوات</string>
+			<key>one</key>
+			<string>تم التحديث السنة الماضية</string>
+			<key>many</key>
+			<string>تم التحديث منذ %lu سنة</string>
+			<key>two</key>
+			<string>تم التحديث منذ سنتين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم التحديث منذ %lu سنة</string>
+			<key>zero</key>
+			<string>تم التحديث منذ %lu سنة</string>
+		</dict>
+	</dict>
+	<key>SEARCH_LYRICS_DISPLAY_TERM</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ "%@"</string>
+	</dict>
+	<key>SOCIAL_REQUESTED_FOLLOW_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يرغب %@ في متابعتك.</string>
+	</dict>
+	<key>UPDATED_TIME_MONTHS</key>
+	<dict>
+		<key>months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم التحديث منذ %lu أشهر</string>
+			<key>one</key>
+			<string>تم التحديث الشهر الماضي</string>
+			<key>many</key>
+			<string>تم التحديث منذ %lu شهرًا</string>
+			<key>two</key>
+			<string>تم التحديث منذ شهرين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم التحديث منذ %lu شهر</string>
+			<key>zero</key>
+			<string>تم التحديث منذ %lu شهر</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@months@</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_NEW_PLAYLIST</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>تمت إضافة %#@songscount@ إلى قائمة تشغيل جديدة.</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu أغانٍ</string>
+			<key>one</key>
+			<string>أغنية واحدة</string>
+			<key>many</key>
+			<string>‏%lu أغنية</string>
+			<key>two</key>
+			<string>أغنيتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu أغنية</string>
+			<key>zero</key>
+			<string>‏%lu أغنية</string>
+		</dict>
+	</dict>
+	<key>SEARCH_MUSIC_VIDEOS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الفيديوهات الموسيقية</string>
+	</dict>
+	<key>CLEAR_UP_NEXT_QUESTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@songscount@</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>بعد تشغيل هذا المسار، هل ترغب في متابعة التشغيل أم إزالة الأغاني الـ %luالتي وضعت في قائمة الانتظار سابقًا؟</string>
+			<key>one</key>
+			<string>بعد تشغيل هذا المسار، هل ترغب في متابعة التشغيل أم إزالة الأغنية التي وضعتها في قائمة الانتظار سابقًا؟ </string>
+			<key>many</key>
+			<string>بعد تشغيل هذا المسار، هل ترغب في متابعة التشغيل أم إزالة الأغاني الـ %luالتي وضعت في قائمة الانتظار سابقًا؟</string>
+			<key>two</key>
+			<string>بعد تشغيل هذا المسار، هل ترغب في متابعة التشغيل أم إزالة الأغاني الـ %luالتي وضعت في قائمة الانتظار سابقًا؟</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>بعد تشغيل هذا المسار، هل ترغب في متابعة التشغيل أم إزالة الأغاني الـ %luالتي وضعت في قائمة الانتظار سابقًا؟</string>
+			<key>zero</key>
+			<string>بعد تشغيل هذا المسار، هل ترغب في متابعة التشغيل أم إزالة الموسيقى التي وضعتها في قائمة الانتظار سابقًا؟ </string>
+		</dict>
+	</dict>
+	<key>SOCIAL_UNBLOCKING_CONFIRMATION_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لم تعد تحظر %@.</string>
+	</dict>
+	<key>SEARCH_SONGS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الأغاني</string>
+	</dict>
+	<key>ADDED_SONGS_COUNT_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>تمت إضافة %#@songscount@ إلى "%@".</string>
+		<key>songscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu أغانٍ</string>
+			<key>one</key>
+			<string>أغنية واحدة</string>
+			<key>many</key>
+			<string>‏%lu أغنية</string>
+			<key>two</key>
+			<string>أغنيتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu أغنية</string>
+			<key>zero</key>
+			<string>‏%lu أغنية</string>
+		</dict>
+	</dict>
+	<key>COMPOSED_BY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>بواسطة %@</string>
+	</dict>
+	<key>UPDATED_TIME_WEEKS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@weeks@</string>
+		<key>weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم التحديث منذ %lu أسابيع</string>
+			<key>one</key>
+			<string>تم التحديث الأسبوع الماضي</string>
+			<key>many</key>
+			<string>تم التحديث منذ %lu أسبوعًا</string>
+			<key>two</key>
+			<string>تم التحديث منذ أسبوعين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم التحديث منذ %lu أسبوع</string>
+			<key>zero</key>
+			<string>تم التحديث منذ %lu أسبوع</string>
+		</dict>
+	</dict>
+	<key>CANCEL_DOWNLOADS_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إلغاء %#@downloadsCount@</string>
+		<key>downloadsCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu تنزيلات</string>
+			<key>one</key>
+			<string>تنزيل واحد</string>
+			<key>many</key>
+			<string>‏%lu تنزيلاً</string>
+			<key>two</key>
+			<string>تنزيلين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu تنزيل</string>
+			<key>zero</key>
+			<string>‏%lu تنزيل</string>
+		</dict>
+	</dict>
+	<key>ADD_SONGS_TO_CONTAINER_NAME</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إضافة الأغاني إلى "%@".</string>
+	</dict>
+	<key>SEARCH_ALBUMS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الألبومات</string>
+	</dict>
+	<key>SEARCH_STATIONS_CATEGORY_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ في الراديو</string>
+	</dict>
+	<key>MUSIC_VIDEOS_COUNT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@musicvideoscount@</string>
+		<key>musicvideoscount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%lu مقاطع فيديو موسيقية</string>
+			<key>one</key>
+			<string>فيديو موسيقي واحد</string>
+			<key>many</key>
+			<string>‏%lu مقطع فيديو موسيقي</string>
+			<key>two</key>
+			<string>مقطعا فيديو موسيقيان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>‏%lu فيديو موسيقي</string>
+			<key>zero</key>
+			<string>‏%lu فيديو موسيقي</string>
+		</dict>
+	</dict>
+	<key>SOCIAL_ONBOARDING_CONNECT_WITH_BUTTON_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اتصال %@‎</string>
+	</dict>
+	<key>SEARCH_SONG_ALBUM_DESCRIPTION</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏%@ · %@</string>
+	</dict>
+</dict>
+</plist>

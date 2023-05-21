@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common.cancel</key>
+	<string>ยกเลิก</string>
+	<key>common.deleteAccount</key>
+	<string>ลบบัญชี</string>
+	<key>common.error.networkError</key>
+	<string>โปรดตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่อีกครั้ง</string>
+	<key>common.error.systemError</key>
+	<string>เกิดข้อผิดพลาด โปรดลองใหม่อีกครั้ง</string>
+	<key>common.error.unknownError</key>
+	<string>เกิดข้อผิดพลาด โปรดลองใหม่อีกครั้ง</string>
+	<key>common.later</key>
+	<string>ภายหลัง</string>
+	<key>no</key>
+	<string>ไม่ใช่</string>
+	<key>pay.addMoney.qrcode.title</key>
+	<string>คิวอาร์โค้ด/บาร์โค้ด</string>
+	<key>pay.agencyqr.popup.message</key>
+	<string>ลิงก์นี้อาจนำคุณไปยังเว็บไซต์อื่นที่ไม่ใช่ LINE Pay ต้องการเปิดลิงก์หรือไม่</string>
+	<key>pay.agreement.agree</key>
+	<string>ยอมรับ</string>
+	<key>pay.amount</key>
+	<string>จำนวนเงิน</string>
+	<key>pay.apply</key>
+	<string>ต่อไป</string>
+	<key>pay.available.coupon</key>
+	<string>คูปองที่ใช้ได้</string>
+	<key>pay.bank.searchBranch.guideMessage</key>
+	<string>โปรดใส่ชื่อหรือรหัสสาขาเพื่อค้นหา</string>
+	<key>pay.bank.searchBranch.searchResult</key>
+	<string>ผลการค้นหา</string>
+	<key>pay.bank.searchBranch.title</key>
+	<string>สาขา</string>
+	<key>pay.barcode.help</key>
+	<string>แตะที่นี่หากมีปัญหาในการสแกนบาร์โค้ด</string>
+	<key>pay.barcode.recognizeGuide</key>
+	<string>กล้องจะตรวจหาบาร์โค้ดโดยอัตโนมัติ</string>
+	<key>pay.brandName</key>
+	<string>LINE Pay</string>
+	<key>pay.card.nickname.placeholder</key>
+	<string>ตั้งชื่อบัตร</string>
+	<key>pay.cashable.balance</key>
+	<string> โบนัส LINE Pay ถอนเป็นเงินสดไม่ได้</string>
+	<key>pay.charge.add</key>
+	<string>เพิ่ม</string>
+	<key>pay.charge.amount</key>
+	<string>จำนวนเงินที่เติม</string>
+	<key>pay.charge.from.7bank</key>
+	<string>SevenBank ATM</string>
+	<key>pay.charge.minimum.unit.bank</key>
+	<string>จำนวนเงินขั้นต่ำ: %1$@</string>
+	<key>pay.charging.bank.accountBalance</key>
+	<string>ยอดคงเหลือในบัญชี</string>
+	<key>pay.charging.bank.accountBalance.button</key>
+	<string>ดู</string>
+	<key>pay.charging.bank.appendAccount</key>
+	<string>เพิ่มบัญชีธนาคาร</string>
+	<key>pay.charging.charege.button</key>
+	<string>เติมเงิน</string>
+	<key>pay.charging.debit.cardName</key>
+	<string>บัตรเดบิต</string>
+	<key>pay.charging.maximumAmount.alert</key>
+	<string>การเติมเงินต้องมีมูลค่าไม่เกิน %1$@</string>
+	<key>pay.charging.miniumAmount.alert</key>
+	<string>การเติมเงินต้องมีมูลค่าขั้นต่ำ %1$@</string>
+	<key>pay.charging.waiting.alert</key>
+	<string>กำลังเติมเงิน โปรดรอสักครู่แล้วตรวจสอบที่ "ประวัติยอดคงเหลือ"</string>
+	<key>pay.charging.waiting.text</key>
+	<string>กำลังดำเนินการ</string>
+	<key>pay.chargingATM.agencyNo</key>
+	<string>เลขที่อนุมัติ</string>
+	<key>pay.chargingATM.agencyNo.colon</key>
+	<string>เลขที่อนุมัติ:</string>
+	<key>pay.chargingATM.closeDate</key>
+	<string>หมดอายุ</string>
+	<key>pay.chargingATM.closeDate.colon</key>
+	<string>หมดอายุ:</string>
+	<key>pay.chargingATM.complete</key>
+	<string>เสร็จสิ้น</string>
+	<key>pay.chargingATM.confirmNo</key>
+	<string>เลขที่อ้างอิง</string>
+	<key>pay.chargingATM.confirmNo.colon</key>
+	<string>เลขที่อ้างอิง:</string>
+	<key>pay.chargingATM.dealNo</key>
+	<string>เลขที่ลูกค้า</string>
+	<key>pay.chargingATM.dealNo.colon</key>
+	<string>เลขที่ลูกค้า:</string>
+	<key>pay.chargingATM.description</key>
+	<string>เติมเงินในบัญชี LINE Pay ได้โดยโอนเงินไปยังบัญชีนี้</string>
+	<key>pay.chargingATM.howto</key>
+	<string>ดูวิธีการชำระเงิน</string>
+	<key>pay.chargingATM.inputName.alert</key>
+	<string>ใส่ชื่อของคุณ</string>
+	<key>pay.chargingATM.maximum.amount.alert</key>
+	<string>การเติมเงินต้องมีมูลค่าไม่เกิน %1$@</string>
+	<key>pay.chargingATM.minimum.amount.alert</key>
+	<string>การเติมเงินต้องมีมูลค่าขั้นต่ำ %1$@</string>
+	<key>pay.chargingATM.minimum.unit</key>
+	<string>คุณสามารถเติมเงินโดยเพิ่มจำนวนเงินครั้งละ %1$@ หากต้องการเติมเงินต่ำกว่า %1$@ ขอให้เติมเงินจากบัญชีธนาคารแทน
+ไม่สามารถเติมเงินไปยังยอดคงเหลือ LINE Pay โดยใช้บัตรเติมเงิน LINE ที่จำหน่ายที่ร้านสะดวกซื้อหรือเหรียญ LINE ได้
+การอัพเดตจำนวนเงินไปยังยอดคงเหลือจะใช้เวลาไม่เกิน 2 นาที</string>
+	<key>pay.chargingATM.title</key>
+	<string>Pay-easy</string>
+	<key>pay.chargingConvenience.button</key>
+	<string>FamiPort</string>
+	<key>pay.chargingConvenience.confirmNo</key>
+	<string>เลขที่จอง</string>
+	<key>pay.chargingConvenience.confirmNo.colon</key>
+	<string>เลขที่จอง:</string>
+	<key>pay.chargingConvenience.dealNo</key>
+	<string>เลขที่ลงทะเบียน</string>
+	<key>pay.chargingConvenience.dealNo.colon</key>
+	<string>เลขที่ลงทะเบียน:</string>
+	<key>pay.chargingConvenience.guideText.maximumAmout</key>
+	<string>การเติมเงินผ่าน FamiPort
+ต้องมีมูลค่าไม่เกิน %1$@</string>
+	<key>pay.chargingConvenience.list</key>
+	<string>รายชื่อร้านสะดวกซื้อที่รองรับ</string>
+	<key>pay.chargingConvenience.title</key>
+	<string>FamiPort</string>
+	<key>pay.chat.message.notAvailableAllUser</key>
+	<string>เลือกได้เฉพาะเพื่อนที่มีบัญชี Pay ที่สามารถใช้งานได้และอยู่ในประเทศเดียวกับคุณ</string>
+	<key>pay.chat.message.receiveRequest.alert</key>
+	<string>โปรดตรวจสอบอีกครั้งว่าผู้ที่ส่งคำขอให้โอนเงินเป็นเพื่อนของคุณ 
+ต้องการส่งเงินหรือไม่</string>
+	<key>pay.chat.message.receiveRequest.alert.jp</key>
+	<string>คุณกำลังจะส่งเงิน &amp; โบนัสให้เพื่อน โปรดตรวจสอบความถูกต้องของผู้รับก่อนส่ง ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.checkout.address</key>
+	<string>ที่อยู่จัดส่ง</string>
+	<key>pay.checkout.address.detail</key>
+	<string>ที่อยู่</string>
+	<key>pay.checkout.address.directInput</key>
+	<string>ใช้ที่อยู่ใหม่</string>
+	<key>pay.checkout.address.emptyError</key>
+	<string>โปรดใส่ที่อยู่</string>
+	<key>pay.checkout.address.optional</key>
+	<string>ชื่ออาคาร</string>
+	<key>pay.checkout.address.placeholder</key>
+	<string>JＲ新宿ミライナタワー23階</string>
+	<key>pay.checkout.address.validError</key>
+	<string>ที่อยู่มีตัวอักษรที่ไม่ถูกต้อง</string>
+	<key>pay.checkout.chineseName</key>
+	<string>อักษรคันจิ</string>
+	<key>pay.checkout.email</key>
+	<string>อีเมล</string>
+	<key>pay.checkout.email.emptyError</key>
+	<string>โปรดใส่อีเมล</string>
+	<key>pay.checkout.email.validError</key>
+	<string>รูปแบบอีเมลไม่ถูกต้อง</string>
+	<key>pay.checkout.firstName.phonetic.hint</key>
+	<string>ตย. タロウ</string>
+	<key>pay.checkout.fullname.valid.error</key>
+	<string>โปรดใส่ชื่อผู้รับทั้งอักษรคันจิและคาตาคานะ</string>
+	<key>pay.checkout.katakanaName</key>
+	<string>อักษรคาตาคานะ</string>
+	<key>pay.checkout.lastName.phonetic.hint</key>
+	<string>ตย. ヤマダ</string>
+	<key>pay.checkout.linepayPromotion</key>
+	<string>โปรโมชั่น LINE Pay</string>
+	<key>pay.checkout.name.firstName.hint</key>
+	<string>ตย. Tarou</string>
+	<key>pay.checkout.name.lastName.hint</key>
+	<string>ตย. Yamada</string>
+	<key>pay.checkout.name.phonetic.validError</key>
+	<string>โปรดใส่ชื่อผู้รับเป็นตัวอักษรคาตากานะ (หรือตัวอักษรภาษาอังกฤษหากจำเป็น)</string>
+	<key>pay.checkout.name.validError</key>
+	<string>โปรดใส่ชื่อผู้รับเป็นตัวอักษรคันจิ ฮิรางานะ หรือคะตะกะนะ (หรือตัวอักษรภาษาอังกฤษหากจำเป็น)</string>
+	<key>pay.checkout.phone</key>
+	<string>หมายเลขโทรศัพท์</string>
+	<key>pay.checkout.phone.validError</key>
+	<string>รูปแบบหมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+	<key>pay.checkout.profilePlus.address.description</key>
+	<string>ที่อยู่ที่บันทึกใน Profile+</string>
+	<key>pay.checkout.profilePlus.description</key>
+	<string>ที่อยู่ที่คุณให้ไว้จะถูกบันทึกใน LINE Profile+ หลังเสร็จสิ้นการชำระเงิน
+ข้อมูลทั้งหมดที่บันทึกใน LINE Profile+ จะถูกจัดการและดูแลภายใต้นโยบายความเป็นส่วนตัว
+- ที่อยู่ที่คุณให้จะไม่ถูกบันทึกใน LINE Profile+ ถ้ารหัสไปรษณีย์ที่ใส่ตรงกับในที่อยู่ที่ลงทะเบียนไว้แล้ว หรือ LINE Profile+ มีข้อมูลที่อยู่ของคุณ 10 แห่งขึ้นไปแล้ว</string>
+	<key>pay.checkout.recentDelivery.delete</key>
+	<string>ถ้าลบที่อยู่แล้วจะไม่สามารถเรียกกลับคืนมาได้อีก ต้องการลบที่อยู่นี้หรือไม่</string>
+	<key>pay.checkout.recentDelivery.more</key>
+	<string>ดูเพิ่มเติม</string>
+	<key>pay.checkout.recentDelivery.select</key>
+	<string>เลือกที่อยู่สำหรับจัดส่ง</string>
+	<key>pay.checkout.recentDelivery.title</key>
+	<string>ที่อยู่จัดส่งล่าสุด</string>
+	<key>pay.checkout.recipient</key>
+	<string>ผู้รับ</string>
+	<key>pay.checkout.recipient.phonetic</key>
+	<string>ผู้รับ (เสียงอ่าน)</string>
+	<key>pay.checkout.required</key>
+	<string>ต้องระบุ</string>
+	<key>pay.checkout.searchAddress</key>
+	<string>ค้นหาที่อยู่</string>
+	<key>pay.checkout.searchAddress.checkPostNumber</key>
+	<string>โปรดตรวจสอบรหัสไปรษณีย์แล้วลองใหม่อีกครั้ง</string>
+	<key>pay.checkout.searchAddress.noResult</key>
+	<string>ไม่พบผลการค้นหา</string>
+	<key>pay.checkout.searchAddress.postNumber.placeholder</key>
+	<string>1234567</string>
+	<key>pay.checkout.searchAddress.recent</key>
+	<string>การค้นหาล่าสุด</string>
+	<key>pay.checkout.shipping.method</key>
+	<string>วิธีจัดส่ง</string>
+	<key>pay.checkout.shippingAddress</key>
+	<string>ข้อมูลจัดส่ง</string>
+	<key>pay.checkout.shippingAddress.description</key>
+	<string>ข้อมูลจัดส่งจะถูกส่งให้กับร้านค้าหลังเสร็จสิ้นการชำระเงินแล้ว</string>
+	<key>pay.checkout.shippingFee</key>
+	<string>ค่าส่ง</string>
+	<key>pay.checkout.shippingFee.change</key>
+	<string>ค่าจัดส่งเปลี่ยนไปแล้วเนื่องจากมีการแก้ไขที่อยู่ โปรดตรวจสอบจำนวนเงินสุทธิที่ต้องชำระ</string>
+	<key>pay.close</key>
+	<string>ปิด</string>
+	<key>pay.common.merchantInfo</key>
+	<string>ข้อมูลร้านค้า</string>
+	<key>pay.common.pocketMoney.amount.description</key>
+	<string> วงเงินที่ใช้ได้</string>
+	<key>pay.common.pocketMoney.desc</key>
+	<string>จำนวนเงินที่คุณสามารถยืมจาก LINE Credit Corporation</string>
+	<key>pay.common.pocketMoney.title</key>
+	<string>LINE Pocket Money</string>
+	<key>pay.confirm</key>
+	<string>ตกลง</string>
+	<key>pay.confirm.secure.confirmation</key>
+	<string>ยืนยัน</string>
+	<key>pay.coupon</key>
+	<string>คูปอง</string>
+	<key>pay.coupon.discount</key>
+	<string>คูปองส่วนลด</string>
+	<key>pay.coupon.empty.message</key>
+	<string>ไม่มีคูปอง</string>
+	<key>pay.coupon.how.to.use</key>
+	<string>วิธีใช้</string>
+	<key>pay.coupon.noDownloadableCoupons</key>
+	<string>ไม่มีคูปองแนะนำ</string>
+	<key>pay.coupon.price.discount</key>
+	<string>ลด %@</string>
+	<key>pay.coupon.search</key>
+	<string>ค้นหา</string>
+	<key>pay.coupon.selection.empty.message</key>
+	<string>ไม่มีคูปองที่เลือก</string>
+	<key>pay.coupon.use.in.mycode</key>
+	<string>ใช้คูปองเมื่อชำระเงินด้วยรหัส</string>
+	<key>pay.cs.contact</key>
+	<string>Help Page</string>
+	<key>pay.cs.title</key>
+	<string>ช่วยเหลือ</string>
+	<key>pay.deleteAccount.alert</key>
+	<string>คุณต้องลบบัญชี %1$@ ของคุณก่อน</string>
+	<key>pay.discount</key>
+	<string>ส่วนลด</string>
+	<key>pay.dutch.changeAmount.alert</key>
+	<string>จำนวนเงินรวมเปลี่ยนเป็น %1$@ เพื่อแชร์เงินเท่ากัน</string>
+	<key>pay.dutch.checkedFriend.cancel.alert</key>
+	<string>คุณกำลังจะยกเลิกคำขอ ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.dutch.complete.alert</key>
+	<string>ส่งคำขอให้แชร์เงินแล้ว</string>
+	<key>pay.dutch.detailView.result</key>
+	<string>%1$@ ÷ %2$d = %3$@</string>
+	<key>pay.dutch.eachMoney</key>
+	<string>ต่อคน</string>
+	<key>pay.dutch.maximumMoney.alert</key>
+	<string>จำนวนเงินเกินวงเงินที่สามารถแชร์เงินได้</string>
+	<key>pay.dutch.me.text</key>
+	<string>คุณ</string>
+	<key>pay.dutch.members</key>
+	<string>เพื่อนที่เลือก</string>
+	<key>pay.dutch.minimumMember.alert</key>
+	<string>ต้องเลือกเพื่อน
+อย่างน้อย 2 คนเพื่อแชร์เงิน</string>
+	<key>pay.dutch.minimumMoney.alert</key>
+	<string>จำนวนเงินต้องไม่ต่ำกว่า %1$@ ต่อ 1 คน</string>
+	<key>pay.dutch.result</key>
+	<string>จำนวนเงินที่จะแชร์</string>
+	<key>pay.dutch.resultMembers.text</key>
+	<string>÷ %1$d</string>
+	<key>pay.dutch.sendButton</key>
+	<string>แชร์เงิน</string>
+	<key>pay.dutch.totalMoney</key>
+	<string>รวม</string>
+	<key>pay.einvoice.confirmRemove</key>
+	<string>ต้องการลบบาร์โค้ดนี้หรือไม่</string>
+	<key>pay.einvoice.mycode</key>
+	<string>ใบเสร็จอิเล็กทรอนิกส์</string>
+	<key>pay.einvoice.reg.tooltip</key>
+	<string>ลงทะเบียนรหัสใบเสร็จอิเล็กทรอนิกส์ของคุณเพื่อสร้างบาร์โค้ดสำหรับการชำระเงินด้วย LINE Pay</string>
+	<key>pay.einvoice.reg.wrongCode</key>
+	<string>ใส่รหัสใบแจ้งหนี้อิเล็กทรอนิกส์</string>
+	<key>pay.einvoice.showAlways</key>
+	<string>แสดงบาร์โค้ดใบเสร็จอิเล็กทรอนิกส์เสมอ</string>
+	<key>pay.ekyc.alert.deviceIsNotSupported</key>
+	<string>この端末では、かんたん本人確認をサポートしません。他の本人確認手段を選択してください。</string>
+	<key>pay.ekyc.confirm.inputs</key>
+	<string>โปรดตรวจสอบอีกครั้งว่าข้อมูลส่วนบุคคลที่คุณใส่เป็นข้อมูลล่าสุด ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.ekyc.download.nec.files</key>
+	<string>กำลังดาวน์โหลดไฟล์สำหรับยืนยันตัวตน...</string>
+	<key>pay.ekyc.error.checkKatakana</key>
+	<string>โปรดใส่ชื่อเป็นตัวอักษรคะตะกะนะ (หรือตัวอักษรภาษาอังกฤษหากจำเป็น)</string>
+	<key>pay.ekyc.error.checkPostalCode</key>
+	<string>โปรดตรวจสอบรหัสไปรษณีย์แล้วลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.error.checkRequiredField</key>
+	<string>ต้องใส่ข้อมูลในช่องนี้</string>
+	<key>pay.ekyc.header.title</key>
+	<string>การยืนยันตัวตน LINE Pay</string>
+	<key>pay.ekyc.nec.take.id.error.message.device.space</key>
+	<string>ไม่สามารถบันทึกรูปได้ โปรดลบไฟล์ที่ไม่จำเป็นเพื่อให้มีพื้นที่ว่างแล้วลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.nec.take.id.error.message.unknown</key>
+	<string>ไม่สามารถบันทึกรูปได้ โปรดลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.nec.verify.face.error.message.dist.does.not.exist</key>
+	<string>エラーが発生しました。もう一度お試しください。</string>
+	<key>pay.ekyc.nec.verify.face.error.message.liveness.failed</key>
+	<string>ไม่สามารถตรวจสอบการเคลื่อนไหวของคุณได้ โปรดลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.nec.verify.face.error.message.read.failed</key>
+	<string>ไม่สามารถส่งวิดีโอได้ โปรดลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.nec.verify.face.error.message.recognition.failed</key>
+	<string>ไม่สามารถตรวจสอบใบหน้าของคุณได้ โปรดลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.nec.verify.face.error.message.sidecheck.failed</key>
+	<string>ไม่สามารถตรวจสอบความหนาของบัตรประจำตัวได้ โปรดลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.nec.verify.face.error.message.timeout</key>
+	<string>หมดเวลาสำหรับคำขอแล้ว โปรดลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.personal.info.address.hint</key>
+	<string>ที่อยู่ 1</string>
+	<key>pay.ekyc.personal.info.address.title</key>
+	<string>ที่อยู่</string>
+	<key>pay.ekyc.personal.info.birthday.hint</key>
+	<string>วันเกิด</string>
+	<key>pay.ekyc.personal.info.contact.cs</key>
+	<string>ติดต่อเรา</string>
+	<key>pay.ekyc.personal.info.desc</key>
+	<string>โปรดตรวจสอบว่าข้อมูลของคุณถูกต้องและเป็นข้อมูลล่าสุดหรือไม่</string>
+	<key>pay.ekyc.personal.info.detail.address.hint</key>
+	<string>ที่อยู่ 2</string>
+	<key>pay.ekyc.personal.info.detail.desc</key>
+	<string>คุณสามารถแก้ไขนามสกุลของคุณได้ในหน้าจอนี้
+โปรดติดต่อฝ่ายดูแลลูกค้าหากต้องการแก้ไขชื่อหรือวันเกิดของคุณ</string>
+	<key>pay.ekyc.personal.info.job.hint</key>
+	<string>อาชีพ</string>
+	<key>pay.ekyc.personal.info.joint.use.desc</key>
+	<string>ข้อมูลของคุณจะถูกแบ่งปันกับ LINE Financial Corporation และบริการอื่นๆ ที่คุณใช้งาน</string>
+	<key>pay.ekyc.personal.info.kanji.firstName.hint</key>
+	<string>ชื่อ (คันจิ)</string>
+	<key>pay.ekyc.personal.info.kanji.lastName.hint</key>
+	<string>นามสกุล (คันจิ)</string>
+	<key>pay.ekyc.personal.info.katakana.firstName.hint</key>
+	<string>ชื่อ (คะตะกะนะ)</string>
+	<key>pay.ekyc.personal.info.katakana.lastName.hint</key>
+	<string>นามสกุล (คะตะกะนะ)</string>
+	<key>pay.ekyc.personal.info.optional.address.hint</key>
+	<string>ชื่ออาคาร</string>
+	<key>pay.ekyc.personal.info.postalCode.hint</key>
+	<string>รหัสไปรษณีย์</string>
+	<key>pay.ekyc.personal.info.postalCode.search</key>
+	<string>ค้นหา</string>
+	<key>pay.ekyc.personal.info.prefecture.hint</key>
+	<string>จังหวัด</string>
+	<key>pay.ekyc.personal.info.purpose.hint</key>
+	<string>ทำไมจึงใช้ LINE Pay</string>
+	<key>pay.ekyc.personal.info.required</key>
+	<string>ต้องระบุ</string>
+	<key>pay.ekyc.personal.info.up.to.date.desc</key>
+	<string>ข้อมูลของฉันเป็นข้อมูลล่าสุด</string>
+	<key>pay.ekyc.select.id.card.type.desc</key>
+	<string>โปรดเลือกประเภทของบัตรประจำตัวแล้วอัพโหลดรูปบัตรประจำตัว</string>
+	<key>pay.ekyc.transmission.error</key>
+	<string>ไม่สามารถดำเนินการตามคำขอได้ โปรดแตะที่ "ลองอีกครั้ง" เพื่อลองใหม่อีกครั้ง</string>
+	<key>pay.ekyc.upload.id.card.back.side.title</key>
+	<string>ด้านหลังบัตรประจำตัว 
+(หรือหนังสือเดินทางหน้าที่มีข้อมูลติดต่อ)</string>
+	<key>pay.ekyc.upload.id.card.both.sides.desc</key>
+	<string>โปรดอัพโหลดรูปบัตรประจำตัวทั้งด้านหน้าและด้านหลัง</string>
+	<key>pay.ekyc.upload.id.card.front.side.desc</key>
+	<string>โปรดอัพโหลดรูปบัตรประจำตัวด้านหน้า</string>
+	<key>pay.ekyc.upload.id.card.front.side.title</key>
+	<string>ด้านหน้าบัตรประจำตัว 
+(หรือหนังสือเดินทางหน้าที่มีรูป)</string>
+	<key>pay.ekyc.upload.id.card.retake</key>
+	<string>ถ่ายรูปอีกครั้ง</string>
+	<key>pay.ekyc.upload.id.card.take</key>
+	<string>ถ่ายรูป</string>
+	<key>pay.error.checkPeriod</key>
+	<string>ระยะเวลา: %1$@-%2$@</string>
+	<key>pay.error.checkService</key>
+	<string>กำลังบำรุงรักษาระบบ</string>
+	<key>pay.error.failLoad</key>
+	<string>โหลดไม่ได้</string>
+	<key>pay.error.gotoHelp</key>
+	<string>ช่วยเหลือ</string>
+	<key>pay.error.retry</key>
+	<string>โหลดใหม่</string>
+	<key>pay.error.userStatus.passwordLockOut</key>
+	<string>คุณถูกจำกัดการใช้บริการ
+โปรดกำหนดรหัสผ่านใหม่</string>
+	<key>pay.error.userStatus.passwordLockOut.button</key>
+	<string>กำหนดรหัสผ่าน</string>
+	<key>pay.expired.coupon</key>
+	<string>คูปองหมดอายุ</string>
+	<key>pay.expired.coupon.empty.message</key>
+	<string>ไม่มีคูปอง</string>
+	<key>pay.global.newCard</key>
+	<string>บัตรใหม่</string>
+	<key>pay.globalPayment.alreadyCancel.alert</key>
+	<string>คุณได้รับคำของให้ชำระเงิน 
+ต้องการชำระเงินเลยหรือไม่</string>
+	<key>pay.globalPayment.amount.discount</key>
+	<string>ส่วนลด</string>
+	<key>pay.globalPayment.amount.discountAdd</key>
+	<string>ส่วนลดอื่นๆ</string>
+	<key>pay.globalPayment.amount.payAmount</key>
+	<string>ยอดรวม</string>
+	<key>pay.globalPayment.amount.point</key>
+	<string>ใช้พอยท์</string>
+	<key>pay.globalPayment.amount.product</key>
+	<string>ราคาสินค้า</string>
+	<key>pay.globalPayment.balance.start</key>
+	<string>ยังไม่ได้สร้างกระเป๋าเงิน</string>
+	<key>pay.globalPayment.bankDirect</key>
+	<string>การชำระเงินโดยการตัดบัญชี</string>
+	<key>pay.globalPayment.bankMaintenance</key>
+	<string>กำลังบำรุงรักษาระบบ</string>
+	<key>pay.globalPayment.bankWaiting</key>
+	<string>รอลงทะเบียน</string>
+	<key>pay.globalPayment.cancelPay.alert</key>
+	<string>คุณกำลังจะยกเลิกการชำระเงิน ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.globalPayment.cancelRegistration.alert</key>
+	<string>คุณกำลังจะยกเลิกการลงทะเบียนวิธีชำระเงิน ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.globalPayment.card.regist.isNotSupport</key>
+	<string>บัตรเครดิตไม่ถูกต้อง 
+ โปรดลองใช้บัตรเครดิตอื่น</string>
+	<key>pay.globalPayment.creditCard</key>
+	<string>บัตรเครดิต</string>
+	<key>pay.globalPayment.disablePayCard</key>
+	<string>ไม่สามารถใช้บัตรเครดิตนี้้ที่ร้านค้านี้ได้</string>
+	<key>pay.globalPayment.goMerchantPag</key>
+	<string>ไปเว็บไซต์ร้านค้า</string>
+	<key>pay.globalPayment.limitTimePay</key>
+	<string>โปรดชำระเงินภายใน %1$@</string>
+	<key>pay.globalPayment.limitTimeRegistration</key>
+	<string>โปรดลงทะเบียนวิธีชำระเงินภายใน %1$@</string>
+	<key>pay.globalPayment.modifyCard</key>
+	<string>แก้ไข</string>
+	<key>pay.globalPayment.needHolderName</key>
+	<string>โปรดลงทะเบียนชื่อของคุณเพื่อใช้บัตรเครดิต</string>
+	<key>pay.globalPayment.pay</key>
+	<string>หน้าต่อไป</string>
+	<key>pay.globalPayment.payMethod</key>
+	<string>วิธีการชำระเงิน</string>
+	<key>pay.globalPayment.payMethod.point</key>
+	<string>LINE Points</string>
+	<key>pay.globalPayment.payRemain</key>
+	<string>กระเป๋าเงิน %1$@</string>
+	<key>pay.globalPayment.payRemain.tw</key>
+	<string>ยอดคงเหลือ</string>
+	<key>pay.globalPayment.payableCard</key>
+	<string>บัตรที่ใช้ได้</string>
+	<key>pay.globalPayment.point.failedToLoad</key>
+	<string>ไม่สามารถรับพอยท์ได้ เนื่องจากเกิดข้อผิดพลาดชั่วคราว</string>
+	<key>pay.globalPayment.point.myPoint.alert.exceedAmount</key>
+	<string>จำนวนเงินที่ชำระคือ %1$@ เท่านั้น</string>
+	<key>pay.globalPayment.point.myPoint.alert.exceedPoint</key>
+	<string>ขณะนี้คุณมี %1$@ พอยท์เท่านั้น</string>
+	<key>pay.globalPayment.point.myPoint.input.subTitle</key>
+	<string>พอยท์ที่มี</string>
+	<key>pay.globalPayment.point.myPoint.input.title</key>
+	<string>ชำระเงินโดยใช้พอยท์</string>
+	<key>pay.globalPayment.point.myPoint.title</key>
+	<string>ชำระเงินโดยใช้พอยท์</string>
+	<key>pay.globalPayment.point.myPoint.useAll</key>
+	<string>ใช้ทั้งหมด</string>
+	<key>pay.globalPayment.registerBankAccount</key>
+	<string>ไม่มีบัญชีที่ใช้ได้</string>
+	<key>pay.globalPayment.registerCard</key>
+	<string>ยังไม่ได้ลงทะเบียนบัตรเครดิต</string>
+	<key>pay.globalPayment.registeredCard</key>
+	<string>เพิ่มบัตร</string>
+	<key>pay.globalPayment.registration</key>
+	<string>ลงทะเบียน</string>
+	<key>pay.globalPayment.requestPay</key>
+	<string>ชำระเงินด้วยบัญชี %1$@</string>
+	<key>pay.globalPayment.requestRegistration</key>
+	<string>%1$@กำลังลงทะเบียนอยู่</string>
+	<key>pay.globalPayment.security.info</key>
+	<string>โปรดตรวจสอบข้อมูลบัญชีที่แสดงอยู่ด้านบนหน้าจอการชำระเงิน ถ้าข้อมูลไม่ถูกต้องอาจหมายความว่ามีปัญหาด้านความปลอดภัย</string>
+	<key>pay.globalPayment.sellerName</key>
+	<string>ร้านค้า</string>
+	<key>pay.go.main</key>
+	<string>ไปที่หน้าหลัก</string>
+	<key>pay.history.noData</key>
+	<string>ไม่มีข้อมูล</string>
+	<key>pay.identification.album</key>
+	<string>เลือกจากคลังรูปภาพ</string>
+	<key>pay.identification.alert.complete</key>
+	<string>เสร็จสิ้น</string>
+	<key>pay.identification.alert.notification</key>
+	<string>ส่งคำขอเพื่อยืนยันตัวตนแล้ว</string>
+	<key>pay.identification.back</key>
+	<string>ด้านหลังบัตร</string>
+	<key>pay.identification.beingVerified</key>
+	<string>กำลังยืนยันตัวตน คุณสามารถใช้บัญชีธนาคารได้หลังเสร็จสิ้นการยืนยันตัวตนแล้ว</string>
+	<key>pay.identification.birthOfDate.buddhist</key>
+	<string>วันเดือนปีเกิด (ปีพุทธศักราช)</string>
+	<key>pay.identification.camera</key>
+	<string>ถ่ายภาพ</string>
+	<key>pay.identification.dopa.guide</key>
+	<string>โปรดใส่หมายเลขเลเซอร์ที่อยู่ด้านหลังบัตรประจำตัวประชาชน</string>
+	<key>pay.identification.dopa.title</key>
+	<string>ยืนยันตัวตน</string>
+	<key>pay.identification.faceAndId</key>
+	<string>ยืนยันใบหน้า&amp;บัตรประจำตัว</string>
+	<key>pay.identification.faceAndId.guideLabel</key>
+	<string>โปรดอัพโหลดรูปบัตรประจำตัวของคุณ และรูปที่มองเห็นใบหน้าและบัตรประจำตัวอย่างชัดเจน การยืนยันตัวตนอาจต้องใช้เวลานานพอสมควร คุณจะไม่สามารถใช้ฟังก์ชันบางส่วนได้จนกว่าการยืนยันตัวตนจะเสร็จสิ้น</string>
+	<key>pay.identification.faceAndId.idCardButton</key>
+	<string>ถ่ายภาพ</string>
+	<key>pay.identification.faceAndId.idCardTitle</key>
+	<string>ด้านหน้าบัตรประจำตัว 
+(หรือหนังสือเดินทางหน้าที่มีรูป)</string>
+	<key>pay.identification.faceAndId.scanGuide</key>
+	<string>โปรดตรวจสอบว่าคุณได้วางบัตรประจำตัวให้อยู่ในกรอบสี่เหลี่ยมด้านบน</string>
+	<key>pay.identification.faceAndId.scanTitle</key>
+	<string>ถ่ายรูปบัตรประจำตัว</string>
+	<key>pay.identification.faceAndId.selfieButton</key>
+	<string>ถ่ายภาพ</string>
+	<key>pay.identification.faceAndId.selfieTitle</key>
+	<string>รูปที่มองเห็นใบหน้าของคุณและบัตรประจำตัว</string>
+	<key>pay.identification.faceAndId.success.detail</key>
+	<string>คุณจะได้รับการแจ้งเตือนผ่านบัญชีทางการ หลังจากเสร็จสิ้นการยืนยันแล้ว</string>
+	<key>pay.identification.faceAndId.success.title</key>
+	<string>อัพโหลดรูปแล้ว</string>
+	<key>pay.identification.front</key>
+	<string>ด้านหน้าบัตร</string>
+	<key>pay.identification.image.description</key>
+	<string>บัตรประจำตัว รวมถึงใบอนุญาตขับรถ บัตรประกันสุขภาพ บัตรประจำตัวผู้พำนักที่มีภาพถ่าย บัตรผู้พำนักอาศัย หรือบัตรประจำตัวคนต่างด้าว</string>
+	<key>pay.identification.image.upload.guide</key>
+	<string>ถ่ายภาพเอกสารยืนยันตัวตนให้เห็นข้อมูลอย่างชัดเจน</string>
+	<key>pay.identification.inputInfo.title</key>
+	<string>ใส่ข้อมูล</string>
+	<key>pay.identification.kycInProgress</key>
+	<string>คุณต้องยืนยันตัวตนให้เสร็จสิ้นก่อนจึงจะใช้บริการนี้ได้ คุณจะได้รับข้อความแจ้งเตือนจากบัญชีทางการเมื่อการยืนยันตัวตนเสร็จสิ้น</string>
+	<key>pay.identification.kycInProgress.payment</key>
+	<string>คุณต้องยืนยันตัวตนให้เสร็จสิ้นก่อนจึงจะชำระเงินตั้งแต่ %1$@ บาทขึ้นไปได้ คุณจะได้รับข้อความแจ้งเตือนจากบัญชีทางการเมื่อการยืนยันตัวตนเสร็จสิ้น</string>
+	<key>pay.identification.laserNumber.placeholder</key>
+	<string>ใส่หมายเลขเลเซอร์โดยไม่ต้องใส่ขีด</string>
+	<key>pay.identification.method.ID</key>
+	<string>อัพโหลดไฟล์ภาพบัตรประจำตัว</string>
+	<key>pay.identification.method.ID.guide</key>
+	<string>ใบอนุญาตขับขี่รถยนต์ บัตรประกันสุขภาพ และบัตรประชาชนที่มีรูปถ่าย</string>
+	<key>pay.identification.method.bank</key>
+	<string>เชื่อมต่อกับบัญชีธนาคาร</string>
+	<key>pay.identification.method.info</key>
+	<string>โปรดเลือกวิธียืนยันตัวตน</string>
+	<key>pay.identification.need.alert</key>
+	<string>คุณสามารถใช้บริการนี้ได้หลังจากยืนยันตัวตนแล้ว
+ต้องการยืนยันตัวตนหรือไม่</string>
+	<key>pay.identification.needAuth.alert</key>
+	<string>คุณต้องยืนยันตัวตน จึงจะสามารถใช้ Rabbit LINE Pay ได้</string>
+	<key>pay.identification.needAuth.alert.payment</key>
+	<string>คุณต้องยืนยันตัวตนเพื่อชำระเงินตั้งแต่ %1$@ บาทขึ้นไป</string>
+	<key>pay.identification.purpose</key>
+	<string>ทำไมจึงใช้ LINE Pay</string>
+	<key>pay.identification.purpose.input</key>
+	<string>โปรดใส่วัตถุประสงค์ในการใช้ LINE Pay ของคุณ</string>
+	<key>pay.identification.required</key>
+	<string>คุณต้องยืนยันตัวตนก่อนจึงจะใช้บัญชีธนาคารนี้ได้ ต้องการอัพโหลดภาพบัตรประจำตัวหรือไม่</string>
+	<key>pay.identification.required.mark</key>
+	<string>ยืนยันตัวตน</string>
+	<key>pay.identification.th.need.alert</key>
+	<string>คุณต้องสร้างกระเป๋าเงิน %1$@ ก่อนเพื่อใช้บริการนี้</string>
+	<key>pay.identification.title</key>
+	<string>ยืนยันตัวตน</string>
+	<key>pay.identification.title.kataka.alert</key>
+	<string>โปรดใส่ชื่อของคุณดัวยตัวอักษรคะตะกะนะ</string>
+	<key>pay.identification.title.katakaEnglish.alert</key>
+	<string>โปรดใส่ตัวอักษรคะตะกะนะ ตัวอักษรภาษาอังกฤษ หรือตัวเลขเท่านั้น</string>
+	<key>pay.identification.tw.need.alert</key>
+	<string>คุณต้องสมัคร Online Saving Account ก่อน คุณต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.identification.uploadFailed</key>
+	<string>ไม่สามารถอัพโหลดรูปได้</string>
+	<key>pay.identification.viewer</key>
+	<string>ดูในโปรแกรมแสดงภาพ</string>
+	<key>pay.identification.waiting</key>
+	<string>กำลังยืนยันตัวตน คุณสามารถใช้บริการได้หลังเสร็จสิ้นขั้นตอนนี้แล้ว</string>
+	<key>pay.identifyUser.carryForward.cancel</key>
+	<string>ข้ามการโอนยอดคงเหลือ</string>
+	<key>pay.identifyUser.carryForward.cancel.warn</key>
+	<string>คุณจะถูกพากลับไปที่หน้าหลักโดยไม่โอนยอดคงเหลือ โปรดสอบถามฝ่ายดูแลลูกค้าเกี่ยวกับการโอนยอดคงเหลือ ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.identifyUser.carryForward.cs</key>
+	<string>ฝ่ายดูแลลูกค้า</string>
+	<key>pay.identifyUser.carryForward.csGuide</key>
+	<string>โปรดติดต่อฝ่ายบริการลูกค้า หากคุณไม่สามารถยืนยันตัวตนโดยใช้ข้อมูลบัญชีก่​อนหน้า</string>
+	<key>pay.identifyUser.carryForward.methodGuide</key>
+	<string>กระเป๋าเงิน LINE Pay ของคุณได้ถูกสร้างขึ้นแล้ว คุณสามารถโอนยอดคงเหลือไปยังบัญชีใหม่ได้ โดยป้อนข้อมูลของบัญชีก่อนหน้า โปรดเลือกวิธีการยืนยันตัวตน</string>
+	<key>pay.identifyUser.carryForward.title</key>
+	<string>โอนยอดคงเหลือ</string>
+	<key>pay.identifyUser.inputInfo.limitedUsageGuide</key>
+	<string>ข้อมูลเหล่านี้จะนำไปใช้ในการยืนยันตัวตนเท่านั้น</string>
+	<key>pay.identifyUser.method.balance</key>
+	<string>ยอดคงเหลือ</string>
+	<key>pay.identifyUser.method.balance.bottomDescription</key>
+	<string>ถ้าคุณลืมยอดคงเหลือ ขอให้ติดต่อฝ่ายดูแลลูกค้าเพื่อทำการยืนยันตัวตน</string>
+	<key>pay.identifyUser.method.balance.inputTitle</key>
+	<string>ยอดคงเหลือ</string>
+	<key>pay.identifyUser.method.balance.inquiry</key>
+	<string>ช่วยเหลือ</string>
+	<key>pay.identifyUser.method.balance.topDescription</key>
+	<string>โปรดใส่ยอดคงเหลือในขณะนี้เพื่อยืนยันยันตัวตน</string>
+	<key>pay.identifyUser.method.bankAccount</key>
+	<string>บัญชีธนาคารสำหรับเติมเงิน</string>
+	<key>pay.identifyUser.method.bankAccount.accountNumber</key>
+	<string>หมายเลขบัญชี</string>
+	<key>pay.identifyUser.method.bankAccount.bankName</key>
+	<string>ธนาคาร</string>
+	<key>pay.identifyUser.method.bankAccount.branchName</key>
+	<string>สาขา</string>
+	<key>pay.identifyUser.method.bankAccount.depositType</key>
+	<string>ประเภทบัญชี</string>
+	<key>pay.identifyUser.method.bankAccount.induceMessageForInput</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.identifyUser.method.bankAccount.induceMessageForSelect</key>
+	<string>โปรดเลือก</string>
+	<key>pay.identifyUser.method.bankAccount.inputGuide</key>
+	<string>โปรดใส่ข้อมูลบัญชีธนาคารสำหรับเติมเงิน</string>
+	<key>pay.identifyUser.method.creditCard</key>
+	<string>บัตรเครดิตที่ลงทะเบียน</string>
+	<key>pay.identifyUser.method.creditCard.inputGuide</key>
+	<string>โปรดใส่หมายเลขบัตรเครดิตที่ลงทะเบียนไว้</string>
+	<key>pay.identifyUser.method.creditCard.inputGuide.jp</key>
+	<string>โปรดใส่หมายเลขบัตรที่ลงทะเบียนกับ LINE Pay</string>
+	<key>pay.identifyUser.method.creditCard.jp</key>
+	<string>บัตรเครดิตหรือบัตร LINE PAY ที่ลงทะเบียนไว้</string>
+	<key>pay.identifyUser.method.personalInfo</key>
+	<string>ชื่อและวันเกิด</string>
+	<key>pay.identifyUser.method.personalInfo.topDescription</key>
+	<string>ชื่อและวันเกิดจะต้องตรงกับข้อมูลที่คุณเคยใช้ยืนยันตัวตน</string>
+	<key>pay.identifyUser.method.referenceNo</key>
+	<string>หมายเลขอ้างอิง</string>
+	<key>pay.identifyUser.methodGuide</key>
+	<string>คุณต้องยืนยันตัวตนก่อนจึงจะเปลี่ยนรหัสผ่านได้
+โปรดเลือกวิธียืนยันตัวตน</string>
+	<key>pay.identifyUser.title</key>
+	<string>ยืนยันตัวตน</string>
+	<key>pay.input.amount.amountSection.title</key>
+	<string>จำนวนเงิน</string>
+	<key>pay.input.amount.header.title</key>
+	<string>ชำระเงินด้วยคิวอาร์โค้ด</string>
+	<key>pay.input.amount.merchant.info.dialog.address.title</key>
+	<string>ที่อยู่</string>
+	<key>pay.input.amount.merchant.info.dialog.company.title</key>
+	<string>บริษัท</string>
+	<key>pay.input.amount.merchant.info.dialog.email.title</key>
+	<string>อีเมล</string>
+	<key>pay.input.amount.merchant.info.dialog.merchant.title</key>
+	<string>ร้านค้า</string>
+	<key>pay.input.amount.merchant.info.dialog.phoneNo.title</key>
+	<string>โทร.</string>
+	<key>pay.input.amount.merchant.info.dialog.representative.name.title</key>
+	<string>Ambassador</string>
+	<key>pay.input.amount.notice.input.desc</key>
+	<string>โปรดใส่จำนวนเงินอย่างถูกต้อง</string>
+	<key>pay.input.amount.notice.payment.desc</key>
+	<string>แตะปุ่ม "ชำระเงิน" เพื่อชำระเงินด้วย %1$@</string>
+	<key>pay.input.amount.noticeSection.title</key>
+	<string>หมายเหตุ</string>
+	<key>pay.intro.guide</key>
+	<string>โปรดแตะปุ่มด้านล่าง</string>
+	<key>pay.ipass.account.freezing.contact</key>
+	<string>Contact iPASS</string>
+	<key>pay.ipass.account.freezing.description</key>
+	<string>Your iPASS account is unavailable now. Please contact iPASS Customer Service for more.</string>
+	<key>pay.ipass.account.freezing.disconnect.guide</key>
+	<string>Please reset your passcode if you want to use LINE Pay service.</string>
+	<key>pay.ipass.balance</key>
+	<string>iPASS Balance</string>
+	<key>pay.ipass.change.passcode.guide.desc</key>
+	<string>Please note that the following password setting cases are prohibited.
+See more &gt;</string>
+	<key>pay.ipass.change.passcode.rule.guide.desc</key>
+	<string>1.Using the same number three or more times consecutively.
+2.Using a set of three numbers in ascending or descending order.
+3.Using the last four digits of the phone number registered to LINE Pay.
+4.Using iPASS account ID.</string>
+	<key>pay.ipass.charge.maximumAmountNotice</key>
+	<string>The maximum top up amount is %@ at once.</string>
+	<key>pay.ipass.charging.wait.alert</key>
+	<string>Processing, you will be able to check your balance on iPASS Account page.</string>
+	<key>pay.ipass.deposit.autoTopup</key>
+	<string>Auto Top Up</string>
+	<key>pay.ipass.deposit.virtualAccountAtm</key>
+	<string>Virtual Account (Top up via ATM)</string>
+	<key>pay.ipass.disconnected</key>
+	<string>This iPASS account has been linked to the other LINE Pay account. The page will be closed.</string>
+	<key>pay.ipass.duplication.suspend.desc1</key>
+	<string>You are not allowed to use iPASS account for payment.</string>
+	<key>pay.ipass.duplication.suspend.desc2</key>
+	<string>Checking payment history and withdrawal function are still available.</string>
+	<key>pay.ipass.duplication.suspend.desc3</key>
+	<string>If you would like to unblock suspended status or know more details, please contact iPASS account CS Center.</string>
+	<key>pay.ipass.duplication.suspend.title</key>
+	<string>Your iPASS account has been suspended.</string>
+	<key>pay.ipass.duplication.suspend.unable.to.use</key>
+	<string>Your iPASS account has been suspended. You are not allowed to use iPASS account for payment.</string>
+	<key>pay.ipass.enterId</key>
+	<string>Enter iPASS Login ID</string>
+	<key>pay.ipass.enterId.csMessage</key>
+	<string>If you did not receive SMS, please reference the &lt;a href="%@"&gt;Help&lt;/a&gt; page.</string>
+	<key>pay.ipass.forgotIpassId</key>
+	<string>Forgot iPass ID/Passcode</string>
+	<key>pay.ipass.helpLink</key>
+	<string>Help</string>
+	<key>pay.ipass.id</key>
+	<string>iPASS Login ID</string>
+	<key>pay.ipass.idHint</key>
+	<string>Please enter 6~12 alphanumeric characters for iPASS account login.</string>
+	<key>pay.ipass.invite.chooseMemberMaxAlert</key>
+	<string>You can invite up to %@ friends at once.</string>
+	<key>pay.ipass.invite.confirm</key>
+	<string>Invite the selected friends to register iPASS account?</string>
+	<key>pay.ipass.invite.invitationSent</key>
+	<string>Invited friend.</string>
+	<key>pay.ipass.invite.receive</key>
+	<string>%@ has invited you to register iPASS account.</string>
+	<key>pay.ipass.invite.sendToMore</key>
+	<string>You have invited your friend to register iPASS account.</string>
+	<key>pay.ipass.invite.sendToOne</key>
+	<string>You have invited %@ to  register iPASS account.</string>
+	<key>pay.ipass.invite.title</key>
+	<string>Invite Friends to iPASS</string>
+	<key>pay.ipass.invite.unableToChoose</key>
+	<string>Friends who already have an iPASS account will be deselected.
+You can only select friends who use Taiwan LINE Pay account.</string>
+	<key>pay.ipass.leavingMessage.first</key>
+	<string>Please note you have to register LINE Pay again or use other LINE Pay accounts to log in, you can link your original iPASS account and use remaining balance.</string>
+	<key>pay.ipass.leavingMessage.second</key>
+	<string>Please read the Help as below for more details.</string>
+	<key>pay.ipass.linkSvcCard</key>
+	<string>Link iPASS Card</string>
+	<key>pay.ipass.mainDeck.account</key>
+	<string>iPASS Account No.</string>
+	<key>pay.ipass.mainDeck.myTransferNo</key>
+	<string>My transfer number</string>
+	<key>pay.ipass.mainDeck.svcActivation</key>
+	<string>Activate LINE Pay iPASS Card</string>
+	<key>pay.ipass.mainDeck.svcApplication</key>
+	<string>Apply for LINE Pay iPASS Card</string>
+	<key>pay.ipass.myTransferNo.desc</key>
+	<string>Share the QR code or transfer number to receive money.</string>
+	<key>pay.ipass.myTransferNo.downloadQRCode</key>
+	<string>Save Transfer QR Code Image</string>
+	<key>pay.ipass.myTransferNo.failedToDownloadQRCode</key>
+	<string>Fail to process, please try again later.</string>
+	<key>pay.ipass.myTransferNo.qrCodeDownloaded</key>
+	<string>Saved</string>
+	<key>pay.ipass.myTransferNo.title</key>
+	<string>My transfer number</string>
+	<key>pay.ipass.payment.accountRequired</key>
+	<string>Please register iPASS account first.</string>
+	<key>pay.ipass.payment.offline.balance</key>
+	<string>iPASS %@</string>
+	<key>pay.ipass.payment.offline.limitPerDay</key>
+	<string>Daily Usable Limit%@</string>
+	<key>pay.ipass.payment.offline.limitPerMonth</key>
+	<string>Monthly Usable Limit %@</string>
+	<key>pay.ipass.payment.offline.limitPerOnce</key>
+	<string>iPASS Payment Limit %@</string>
+	<key>pay.ipass.payment.register</key>
+	<string>Register</string>
+	<key>pay.ipass.phoneVerification</key>
+	<string>Phone
+Verification</string>
+	<key>pay.ipass.phoneVerification.csMessage</key>
+	<string>If you have not received the verification code or entered the code but failed, please see &lt;a href="%@"&gt;Help&lt;/a&gt;</string>
+	<key>pay.ipass.phoneVerification.inputHint</key>
+	<string>Enter verification code.</string>
+	<key>pay.ipass.phoneVerification.remainTimeLimit</key>
+	<string>Time remaining:%@</string>
+	<key>pay.ipass.phoneVerification.resend</key>
+	<string>Resend</string>
+	<key>pay.ipass.phoneVerification.sendCode</key>
+	<string>Send code</string>
+	<key>pay.ipass.phoneVerification.sendCodeToPhone</key>
+	<string>A verification code will be sent to the phone number registered to your LINE account.</string>
+	<key>pay.ipass.phoneVerification.timeExpired</key>
+	<string>The verification code has expired.
+Please press the "Resend" button and verify with the new code.</string>
+	<key>pay.ipass.scanId.desc</key>
+	<string>Please take a photo of your national ID card and confirm the result.</string>
+	<key>pay.ipass.scanId.title</key>
+	<string>ID Reader</string>
+	<key>pay.ipass.sessionExpired</key>
+	<string>The connection has expired. Please enter your passcode again.</string>
+	<key>pay.ipass.setting.passcodeLock</key>
+	<string>Since you have iPASS account, it is required to enter passcode when accessing LINE Pay and the passcode lock cannot be turned off.</string>
+	<key>pay.ipass.setting.termsOfUse</key>
+	<string>iPASS Terms of Service</string>
+	<key>pay.ipass.signUp.accountLogin</key>
+	<string>iPASS Account Login</string>
+	<key>pay.ipass.signUp.accountRegister</key>
+	<string>Register iPASS Account</string>
+	<key>pay.ipass.signUp.continueRegistration</key>
+	<string>Continue the unfinished registration process?</string>
+	<key>pay.ipass.signUp.createIpassId</key>
+	<string>Create
+iPASS ID</string>
+	<key>pay.ipass.signUp.creditCardInputHint</key>
+	<string>Please input 16-digits credit card number</string>
+	<key>pay.ipass.signUp.cvcHint</key>
+	<string>3 digits on the card back</string>
+	<key>pay.ipass.signUp.dateOfBirth</key>
+	<string>Date of Birth</string>
+	<key>pay.ipass.signUp.day</key>
+	<string>Day</string>
+	<key>pay.ipass.signUp.enterNationalId</key>
+	<string>Enter National ID/UI No.</string>
+	<key>pay.ipass.signUp.father</key>
+	<string>Father</string>
+	<key>pay.ipass.signUp.foreigner</key>
+	<string>Foreigner</string>
+	<key>pay.ipass.signUp.foreigner.completeDesc</key>
+	<string>Your application has been submitted successfully and is currently under review. The result will be sent via LINE Wallet Official Account within five days. Thank you for registration.</string>
+	<key>pay.ipass.signUp.foreigner.permanentExpiry</key>
+	<string>APRC</string>
+	<key>pay.ipass.signUp.foreignerIdNumberTitle</key>
+	<string>UI No.</string>
+	<key>pay.ipass.signUp.idScanTooltip</key>
+	<string>Scan your ID directly (Please confirm the result)</string>
+	<key>pay.ipass.signUp.inputIdNumber</key>
+	<string>Enter ID number</string>
+	<key>pay.ipass.signUp.inputText</key>
+	<string>Set up login ID.</string>
+	<key>pay.ipass.signUp.invalidFormat</key>
+	<string>Unavailable ID. Please enter a different ID.</string>
+	<key>pay.ipass.signUp.invalidFormat.dateOfBirth</key>
+	<string>Invalid date of birth format.
+Please enter your date of birth again.</string>
+	<key>pay.ipass.signUp.invalidFormat.id</key>
+	<string>Invalid ID format.
+Please check your ID number and try again.</string>
+	<key>pay.ipass.signUp.invalidFormat.issueDate</key>
+	<string>Invalid date of issue format.
+Please enter the date of issue again.</string>
+	<key>pay.ipass.signUp.invalidFormat.stayingLimitation</key>
+	<string>Invalid format. Please re-enter staying limitation.</string>
+	<key>pay.ipass.signUp.issueAreas</key>
+	<string>Place of Issue</string>
+	<key>pay.ipass.signUp.issueDate</key>
+	<string>Date of Issue</string>
+	<key>pay.ipass.signUp.issueTypes</key>
+	<string>Issue Type</string>
+	<key>pay.ipass.signUp.local</key>
+	<string>Native user</string>
+	<key>pay.ipass.signUp.localIdNumberTitle</key>
+	<string>ID Number</string>
+	<key>pay.ipass.signUp.login</key>
+	<string>Log in</string>
+	<key>pay.ipass.signUp.login.confirmPasscode</key>
+	<string>Passcode</string>
+	<key>pay.ipass.signUp.login.forgotIdPasscode</key>
+	<string>Forgot iPass login ID or passcode?</string>
+	<key>pay.ipass.signUp.login.passcodeWillUpdate</key>
+	<string>I understand my original LINE Pay passcode will be updated to my iPASS passcode simultaneously.</string>
+	<key>pay.ipass.signUp.month</key>
+	<string>Month</string>
+	<key>pay.ipass.signUp.mother</key>
+	<string>Mother</string>
+	<key>pay.ipass.signUp.nationalIdVerification</key>
+	<string>Identity
+Verification</string>
+	<key>pay.ipass.signUp.nationality</key>
+	<string>Nationality</string>
+	<key>pay.ipass.signUp.notSet</key>
+	<string>Not Set</string>
+	<key>pay.ipass.signUp.passcode</key>
+	<string>Passcode</string>
+	<key>pay.ipass.signUp.passcode.confirm</key>
+	<string>Confirm Passcode</string>
+	<key>pay.ipass.signUp.passcode.desc</key>
+	<string>When accessing LINE Pay, you will be only required to verify iPASS account passcode afterwards. The original LINE Pay passcode will be invalid.</string>
+	<key>pay.ipass.signUp.register</key>
+	<string>Register</string>
+	<key>pay.ipass.signUp.selectCreditCard</key>
+	<string>Select
+Credit Card</string>
+	<key>pay.ipass.signUp.selectCreditCard.debitDesc</key>
+	<string>Only those VISA/Master/JCB Cards physically issued by Taiwan local Banks can be used for verification:
+CTBC Bank, Mega Bank, Cathay United Bank, E.Sun Bank, Union Bank of Taiwan, Shanghai Bank, Bank SinoPac, Taipei Fubon Bank, Far Eastern Bank, Jih Sun Bank, Taishin Bank, EnTie Bank, DBS Bank, Shin Kong Bank, Yuanta Bank, Sunny Bank, Hwatai Bank, Cota Bank, AEON, First Bank, Hua Nan Bank, Rakuten, Taichung Bank, Land Bank, Taiwan Cooperative Bank, Taiwan Business Bank, Chang Hwa Bank, Kaohsiung Bank, Bank of Taiwan, HSBC, Citibank, KGI Bank.</string>
+	<key>pay.ipass.signUp.selectCreditCard.manualInput</key>
+	<string>Enter a different card.</string>
+	<key>pay.ipass.signUp.selectCreditCardDebit.note1</key>
+	<string>Digital credit cards cannot be used for verification.</string>
+	<key>pay.ipass.signUp.selectCreditCardDebit.note2</key>
+	<string>Debit cards cannot be used for verification.</string>
+	<key>pay.ipass.signUp.selectVerificationMethod</key>
+	<string>Select
+Verification Method</string>
+	<key>pay.ipass.signUp.selectVerificationMethod.desc.first</key>
+	<string>Use your own credit card or bank account only.</string>
+	<key>pay.ipass.signUp.selectVerificationMethod.desc.second</key>
+	<string>Verification is free.</string>
+	<key>pay.ipass.signUp.setPasscode</key>
+	<string>Set
+passcode</string>
+	<key>pay.ipass.signUp.sixDigitNumbers</key>
+	<string>Enter 6-digit number</string>
+	<key>pay.ipass.signUp.stayingLimitation</key>
+	<string>Date of Expiry</string>
+	<key>pay.ipass.signUp.under20Registration.afterScan</key>
+	<string>If the name is incorrect, please scan the back of your ID again.</string>
+	<key>pay.ipass.signUp.under20Registration.beforeScan</key>
+	<string>Please scan the back of your ID.</string>
+	<key>pay.ipass.signUp.under20Registration.completeDesc</key>
+	<string>Your application has been submitted successfully and is waiting for parental approval. You can continue the registration process afterwards.</string>
+	<key>pay.ipass.signUp.under20Registration.desc</key>
+	<string>If you are between the age of 14-20, you must get parental consent to register. Scan and upload the back of your ID and enter your parents' 10-digits iPASS Account Number to proceed. If you have any inquiries, please contact iPASS customer service center.</string>
+	<key>pay.ipass.signUp.under20Registration.first</key>
+	<string>Please scan and upload the back of your ID card.</string>
+	<key>pay.ipass.signUp.under20Registration.parentsName</key>
+	<string>Father's Name: %1$@
+Mother's Name: %2$@</string>
+	<key>pay.ipass.signUp.under20Registration.second</key>
+	<string>Please enter your parents' 10-digits iPASS Account Number.</string>
+	<key>pay.ipass.signUp.uploadId.front</key>
+	<string>Upload Front of ID</string>
+	<key>pay.ipass.signUp.uploadId.rear</key>
+	<string>Upload Back of ID</string>
+	<key>pay.ipass.signUp.useTouchFaceId</key>
+	<string>Use %@</string>
+	<key>pay.ipass.signUp.year</key>
+	<string>Year</string>
+	<key>pay.ipass.signUp.year.tw</key>
+	<string>Year</string>
+	<key>pay.ipass.signup.pass.code.rule.guide.desc</key>
+	<string>Please note that the following password setting cases are prohibited:
+
+1.Using the same number three or more times consecutively.
+
+2.Using a set of three numbers in ascending or descending order.
+
+3.Using the last four digits of the phone number registered to LINE Pay.
+
+4.Using iPASS account ID.</string>
+	<key>pay.ipass.svcCard</key>
+	<string>LINE Pay iPASS Card</string>
+	<key>pay.ipass.tos.agreeAllDesc</key>
+	<string>I have read and accepted the Terms of Service.</string>
+	<key>pay.ipass.tos.agreeToFollowing</key>
+	<string>I agree to the following:</string>
+	<key>pay.ipass.tos.detailedScreenWarning</key>
+	<string>Please read the Terms of Use carefully.</string>
+	<key>pay.ipass.tos.warning</key>
+	<string>Please prepare your ID card, credit card or bank account in advance.</string>
+	<key>pay.ipass.trafficQR</key>
+	<string>Traffic QR</string>
+	<key>pay.ipass.transactionInfo.confirmedTime</key>
+	<string>Time of Transfer Instruction</string>
+	<key>pay.ipass.transactionInfo.recipientId</key>
+	<string>Recipient Account Number</string>
+	<key>pay.ipass.transactionInfo.recipientName</key>
+	<string>Recipient</string>
+	<key>pay.ipass.transactionInfo.senderId</key>
+	<string>Sender Account Number</string>
+	<key>pay.ipass.transactionInfo.senderName</key>
+	<string>Sender</string>
+	<key>pay.ipass.transfer.accountLimit</key>
+	<string>iPASS Balance</string>
+	<key>pay.ipass.transfer.complete.alert</key>
+	<string>Processing, you will be able to check transfer result on iPASS Account page.</string>
+	<key>pay.ipass.transfer.confirmMessage</key>
+	<string>Transfer %1$@ to %2$@.</string>
+	<key>pay.ipass.transfer.enterNo</key>
+	<string>Enter recipient's transfer number.</string>
+	<key>pay.ipass.transfer.enterNo.desc</key>
+	<string>Enter the recipient's transfer number here.</string>
+	<key>pay.ipass.transfer.qrUnableToSend</key>
+	<string>Unable to read the QR code, or recipient is unable to receive money.</string>
+	<key>pay.ipass.transfer.toMeMessage</key>
+	<string>You cannot transfer money to yourself.</string>
+	<key>pay.ipass.withdraw.info.alert</key>
+	<string>Processing, you will be able to check your balance on iPASS Account page.</string>
+	<key>pay.ipass.withdrawal.autoTopupAlert</key>
+	<string>Due to auto-topped up settings, iPASS balance may be auto-topped up again after withdrawal.
+Continue?</string>
+	<key>pay.ipasss.transfer.accountLimit.atOnce</key>
+	<string>Maximum transfer amount each time %@</string>
+	<key>pay.ipasss.transfer.accountLimit.perDay</key>
+	<string>Maximum transfer amount per day %@</string>
+	<key>pay.ipasss.transfer.accountLimit.perMonth</key>
+	<string>Maximum transfer amount per month %@</string>
+	<key>pay.jailbreak.detected</key>
+	<string>คุณไม่สามารถใช้บริการ Pay บนอุปกรณ์เครื่องนี้
+เนื่องจากระบบตรวจพบการดำเนินการที่ไม่ได้รับอนุญาต
+
+*การเจลเบรก รูท หรือติดตั้งแอพ
+ผ่านช่องทางอื่น ๆ นอกเหนือจาก App Store
+อาจเป็นสาเหตุของปัญหาด้านความปลอดภัย</string>
+	<key>pay.jailbreak.initFailed</key>
+	<string>มีข้อผิดพลาดเกิดขึ้น หากคุณกำลังเชื่อมต่อกับเครือข่าย Wi-Fi ฟรี (เช่น ที่ร้านสะดวกซื้อ) โปรดลองอีกครั้งด้วยเครือข่ายอื่น</string>
+	<key>pay.join</key>
+	<string>สมัครใช้บริการ</string>
+	<key>pay.join.additional.address</key>
+	<string>ที่อยู่</string>
+	<key>pay.join.address</key>
+	<string>ที่อยู่</string>
+	<key>pay.join.address1</key>
+	<string>ที่อยู่ 1</string>
+	<key>pay.join.address1.guide</key>
+	<string>ตย. ถนนสุขุมวิท</string>
+	<key>pay.join.address2</key>
+	<string>ที่อยู่ 2</string>
+	<key>pay.join.address2.guide</key>
+	<string>ตย. เขตพระโขนง</string>
+	<key>pay.join.agree.mustScroll</key>
+	<string>โปรดเลื่อนไปยังด้านล่างสุดของข้อกำหนดการใช้บริการแล้วยอมรับข้อกำหนดดังกล่าว</string>
+	<key>pay.join.city</key>
+	<string>เขต/อำเภอ</string>
+	<key>pay.join.email</key>
+	<string>อีเมล</string>
+	<key>pay.join.email.placeholder</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.join.migration.description.register</key>
+	<string>ชำระเงินได้อย่างสะดวกและปลอดภัย</string>
+	<key>pay.join.migration.description.registerEmail</key>
+	<string>โปรดลงทะเบียนอีเมลของคุณในบัญชี LINE เพื่อใช้บริการนี้</string>
+	<key>pay.join.migration.description.registerPhone</key>
+	<string>โปรดใส่หมายเลขโทรศัพท์ของคุณเพื่อตรวจสอบประเทศที่ใช้บริการ LINE</string>
+	<key>pay.join.migration.phoneDescription</key>
+	<string>หมายเลขโทรศัพท์ของคุณจะถูกใช้ในการยืนยันตัวตนและการดูแลลูกค้าเท่านั้น</string>
+	<key>pay.join.migration.title</key>
+	<string>ข้อมูลบัญชี LINE</string>
+	<key>pay.join.nationality</key>
+	<string>สัญชาติ</string>
+	<key>pay.join.phone</key>
+	<string>โปรดใส่หมายเลขโทรศัพท์</string>
+	<key>pay.join.please.input.job</key>
+	<string>ระบุอาชีพของคุณ</string>
+	<key>pay.join.prefecture</key>
+	<string>จังหวัด</string>
+	<key>pay.join.prefecture.guide</key>
+	<string>ตย. กรุงเทพ</string>
+	<key>pay.join.province</key>
+	<string>จังหวัด</string>
+	<key>pay.join.register.job.others</key>
+	<string>อื่น ๆ</string>
+	<key>pay.join.start</key>
+	<string>เริ่มต้นใช้งาน</string>
+	<key>pay.join.sub.city</key>
+	<string>แขวง, ตำบล</string>
+	<key>pay.join.tel</key>
+	<string>หมายเลขโทรศัพท์</string>
+	<key>pay.join.wrong.postal.code</key>
+	<string>โปรดตรวจสอบรหัสไปรษณีย์แล้วลองใหม่อีกครั้ง</string>
+	<key>pay.join.zipcode</key>
+	<string>รหัสไปรษณีย์</string>
+	<key>pay.join.zipcode.alert.th</key>
+	<string>รหัสไปรษณีย์ต้องเป็นตัวเลข 5 หลัก</string>
+	<key>pay.join.zipcode.guide</key>
+	<string>ตย. 1230000</string>
+	<key>pay.join.zipcode.search</key>
+	<string>ค้นหา</string>
+	<key>pay.jp.main.deposit.method</key>
+	<string>เลือกวิธี</string>
+	<key>pay.jp.main.payment.method</key>
+	<string>เลือกวิธีชำระเงิน</string>
+	<key>pay.kyc.info.isNeeded</key>
+	<string>คุณต้องใส่ข้อมูลที่จำเป็น จึงจะสามารถใช้ Rabbit LINE Pay ได้</string>
+	<key>pay.kyc.info.isNeeded.payment</key>
+	<string>คุณต้องใส่ข้อมูลที่จำเป็นเพื่อชำระเงินตั้งแต่ %1$@ บาทขึ้นไป</string>
+	<key>pay.linecard.activate</key>
+	<string>ลงทะเบียน</string>
+	<key>pay.linecard.apply.alert</key>
+	<string>คุณจะไม่สามารถใช้บัตรชำระเงินออนไลน์ได้จนกว่าจะลงทะเบียนบัตรจริง ด้วยเหตุผลด้านความปลอดภัย ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.linecard.cardNo.copy</key>
+	<string>คัดลอกหมายเลขบัตรแล้ว</string>
+	<key>pay.linecard.delete</key>
+	<string>ลบบัตร</string>
+	<key>pay.linecard.delete.alert</key>
+	<string>ต้องการลบบัตรหรือไม่</string>
+	<key>pay.linecard.delete.description</key>
+	<string>การลบบัตรเสมือนจะเป็นการปิดใช้งานบัตรจริงที่เชื่อมต่อกันไว้
+คุณสามารถสมัครได้ไม่เกิน 2 ครั้งต่อเดือน</string>
+	<key>pay.linecard.delete.title</key>
+	<string>ลบบัตร</string>
+	<key>pay.linecard.deleted</key>
+	<string>บัตรของคุณถูกลบแล้ว</string>
+	<key>pay.linecard.detail.title</key>
+	<string>บัตร LINE Pay</string>
+	<key>pay.linecard.entry.title</key>
+	<string>สมัครทำบัตร</string>
+	<key>pay.linecard.helpGuide</key>
+	<string>ช่วยเหลือ</string>
+	<key>pay.linecard.issue</key>
+	<string>รับบัตรจริง</string>
+	<key>pay.linecard.issue.description</key>
+	<string>คุณจะได้รับบัตรเสมือนและบัตรจริงที่มีหมายเลขบัตรเหมือนกัน ซึ่งสามารถใช้ชำระเงินที่ร้านค้าแบบออฟไลน์ที่รับบัตร JCB</string>
+	<key>pay.linecard.issue.title</key>
+	<string>แล้วใช้จับจ่ายที่ร้านค้าออฟไลน์!</string>
+	<key>pay.linecard.onlinePayment.suspend.alert</key>
+	<string>ต้องการปิดใช้บัตรสำหรับการชำระเงินออนไลน์หรือไม่</string>
+	<key>pay.linecard.onlinePayment.usage.resumed</key>
+	<string>เปิดใช้บัตรสำหรับการชำระเงินออนไลน์แล้ว</string>
+	<key>pay.linecard.onlinePayment.usage.suspended</key>
+	<string>ปิดใช้บัตรสำหรับการชำระเงินออนไลน์แล้ว</string>
+	<key>pay.linecard.password</key>
+	<string>รหัสบัตร</string>
+	<key>pay.linecard.plasticcard</key>
+	<string>บัตรจริง</string>
+	<key>pay.linecard.point.off.alert</key>
+	<string>พอยท์ LINE จะไม่ถูกนำมาใช้เมื่อคุณชำระเงินด้วยบัตร LINE Pay หรือ QUICPay+ อีกต่อไป</string>
+	<key>pay.linecard.point.on.alert</key>
+	<string>พอยท์ LINE จะถูกนำมาใช้เมื่อคุณชำระเงินด้วยบัตร LINE Pay หรือ QUICPay+</string>
+	<key>pay.linecard.readyForShippment</key>
+	<string>เตรียมจัดส่ง</string>
+	<key>pay.linecard.registration.completed</key>
+	<string>เสร็จสิ้นการสมัคร</string>
+	<key>pay.linecard.registration.confirm</key>
+	<string>ยืนยัน</string>
+	<key>pay.linecard.registration.delivery.notice</key>
+	<string>โปรดทราบว่าคุณจะได้รับบัตรภายใน 1 ถึง 2 สัปดาห์</string>
+	<key>pay.linecard.registration.imageDownloadFail</key>
+	<string>ไม่สามารถโหลดรูปได้</string>
+	<key>pay.linecard.registration.inputaddr.description</key>
+	<string>โปรดใส่ที่อยู่ของคุณ</string>
+	<key>pay.linecard.registration.inputaddr.guide</key>
+	<string>เราจะส่งบัตรไปยังที่อยู่ที่คุณระบุ โปรดตรวจสอบให้แน่ใจว่าได้ใส่ที่อยู่อย่างถูกต้อง</string>
+	<key>pay.linecard.registration.inputname.description</key>
+	<string></string>
+	<key>pay.linecard.registration.inputname.guide</key>
+	<string>"LINE MEMBER" จะปรากฏบนบัตรของคุณ</string>
+	<key>pay.linecard.registration.inputzip.description</key>
+	<string>โปรดใส่รหัสไปรษณีย์</string>
+	<key>pay.linecard.registration.later</key>
+	<string>ข้าม</string>
+	<key>pay.linecard.registration.retry</key>
+	<string>เสร็จสิ้นการสมัครแล้ว แต่เกิดข้อผิดพลาดขณะสมัครทำบัตร ต้องการสมัครทำบัตรอีกครั้งหรือไม่</string>
+	<key>pay.linecard.registration.selectcard.description</key>
+	<string>โปรดเลือกรูปแบบบัตร</string>
+	<key>pay.linecard.registration.title</key>
+	<string>สมัครทำบัตร</string>
+	<key>pay.linecard.resume.alert</key>
+	<string>ต้องการเปิดใช้งานบัตรอีกครั้งหรือไม่</string>
+	<key>pay.linecard.resumed</key>
+	<string>คุณเปิดใช้งานบัตรอีกครั้งแล้ว</string>
+	<key>pay.linecard.status.available</key>
+	<string>กำลังใช้งาน</string>
+	<key>pay.linecard.status.notAvailable</key>
+	<string>ไม่ได้ใช้งาน</string>
+	<key>pay.linecard.suspend.alert</key>
+	<string>ต้องการปิดใช้งานบัตรหรือไม่</string>
+	<key>pay.linecard.usage</key>
+	<string>ใช้บัตร</string>
+	<key>pay.linecard.usage.limit</key>
+	<string>ประเภทบัญชีและวงเงิน</string>
+	<key>pay.linecard.usage.suspended</key>
+	<string>คุณปิดใช้งานบัตรแล้ว</string>
+	<key>pay.linecard.use.point</key>
+	<string>ใช้พอยท์ LINE</string>
+	<key>pay.linecard.useOnlineTransaction</key>
+	<string>การชำระเงินออนไลน์</string>
+	<key>pay.main.balance.guide</key>
+	<string>สร้างบัญชี
+เพื่อเติมเงินและรับเงิน</string>
+	<key>pay.main.balance.guide.jp</key>
+	<string>สร้างบัญชี LINE Pay เพื่อส่งเงิน &amp; โบนัสให้เพื่อน
+
+และชำระเงินโดยไม่ต้องมีบัตรเครดิต</string>
+	<key>pay.main.balance.start</key>
+	<string>สร้างบัญชี</string>
+	<key>pay.main.balance.th.guide</key>
+	<string>สร้างกระเป๋าเงิน %1$@ เพื่อเติมเงินหรือรับเงิน</string>
+	<key>pay.main.balance.tw.guide</key>
+	<string>สร้างบัญชี LINE Pay 
+เพื่อเพิ่มและรับเงิน</string>
+	<key>pay.main.balance.update.complete</key>
+	<string>อัพเดต</string>
+	<key>pay.main.balance.updating</key>
+	<string>กำลังโหลด...</string>
+	<key>pay.main.balance.updating.fail</key>
+	<string>ไม่สามารถโอนยอดคงเหลือได้ โปรดลองอีกครั้ง</string>
+	<key>pay.main.card.apply</key>
+	<string>สมัครทำบัตร</string>
+	<key>pay.main.cardDeck.history.title</key>
+	<string>ประวัติการใช้งาน</string>
+	<key>pay.main.cardDeck.merit.title</key>
+	<string>ดูสิทธิประโยชน์</string>
+	<key>pay.main.charge</key>
+	<string>เติมเงิน</string>
+	<key>pay.main.dutch</key>
+	<string>แชร์เงิน</string>
+	<key>pay.main.featureList.title</key>
+	<string>คำสั่งลัด</string>
+	<key>pay.main.installApp.message</key>
+	<string>คุณยังไม่ได้ติดตั้ง %1$@
+ต้องการติดตั้งตอนนี้หรือไม่</string>
+	<key>pay.main.linecard.activate</key>
+	<string>เปิดใช้งานบัตรของคุณ</string>
+	<key>pay.main.linecard.suspended</key>
+	<string>บัตรของคุณถูกปิดใช้งานแล้ว</string>
+	<key>pay.main.paymentMethod.description</key>
+	<string>ใช้วิธีที่เลือกเมื่อชำระเงินด้วยรหัสของฉัน</string>
+	<key>pay.main.pocketMoney.amount.description</key>
+	<string>คุณสามารถใช้ LINE Pocket Money ได้ %1$@</string>
+	<key>pay.main.pocketMoney.register.guide</key>
+	<string>คุณสามารถยืมเงินจาก LINE Pocket Money ได้สูงสุด 50,000 เยน</string>
+	<key>pay.main.recentHistory</key>
+	<string>การแจ้งเตือน</string>
+	<key>pay.main.registerCard</key>
+	<string>โปรดลงทะเบียนบัตรเครดิต</string>
+	<key>pay.main.setting</key>
+	<string>ตั้งค่า</string>
+	<key>pay.main.title</key>
+	<string>%1$@</string>
+	<key>pay.main.transfer</key>
+	<string>ส่งเงิน</string>
+	<key>pay.main.transfer.jp</key>
+	<string>ส่งเงิน &amp; โบนัส</string>
+	<key>pay.main.transferNumber</key>
+	<string>หมายเลข LINE Pay</string>
+	<key>pay.main.transferRequest</key>
+	<string>ขอให้ส่งเงิน</string>
+	<key>pay.main.transferRequest.jp</key>
+	<string>คำขอให้ส่งเงิน &amp; โบนัส</string>
+	<key>pay.maintenance</key>
+	<string>บำรุงรักษาระบบ</string>
+	<key>pay.my.coupon</key>
+	<string>คูปองของฉัน</string>
+	<key>pay.need.signUp</key>
+	<string>คุณต้องสมัครใช้ Pay ก่อนจึงจะใช้บริการนี้ได้ ต้องการสมัครตอนนี้เลยหรือไม่</string>
+	<key>pay.next</key>
+	<string>ต่อไป</string>
+	<key>pay.nfc.guide</key>
+	<string>โปรดถือ iPhone ของคุณไปใกล้เครื่องชำระเงิน</string>
+	<key>pay.nfc.payment</key>
+	<string>ชำระเงิน NFC</string>
+	<key>pay.nfc.ready</key>
+	<string>กำลังเตรียมการเพื่อชำระเงิน โปรดรอสักครู่แล้วลองใหม่อีกครั้ง</string>
+	<key>pay.open</key>
+	<string>เปิด</string>
+	<key>pay.otp.placeholder.guide.input</key>
+	<string>Tap the Send button</string>
+	<key>pay.otp.placeholder.input</key>
+	<string>Enter your authentication code.</string>
+	<key>pay.paidConfirm</key>
+	<string>ชำระเงิน</string>
+	<key>pay.password.changed</key>
+	<string>เปลี่ยนรหัสผ่านแล้ว</string>
+	<key>pay.password.mismatch</key>
+	<string>รหัสผ่านไม่ตรงกัน
+โปรดลองอีกครั้ง</string>
+	<key>pay.password.registered</key>
+	<string>กำหนดรหัสผ่านแล้ว</string>
+	<key>pay.password.samePassword</key>
+	<string>ไม่สามารถใช้รหัสผ่านเดิมได้</string>
+	<key>pay.password.touchid.ipass.error</key>
+	<string>ไม่สามารถเปิดใช้ %@ ได้ในขณะนี้ โปรดลองใหม่อีกครั้งในภายหลัง</string>
+	<key>pay.passwordSetting.csGuide</key>
+	<string>คำแนะนำ: เมื่อล็อคด้วยรหัสผ่าน ผู้ใช้จะต้องใส่รหัสผ่านทุกครั้งที่เปิดใช้งาน ซึ่งเป็นการเพิ่มความปลอดภัยให้กับการใช้งานของคุณ</string>
+	<key>pay.payMethod.myRank.title</key>
+	<string>ระดับสมาชิก</string>
+	<key>pay.payMethod.topUpPay.register.desc</key>
+	<string>คุณยังไม่ได้เชื่อมต่อ%1$@ กับบัญชีของคุณ</string>
+	<key>pay.payment.cancel.popup</key>
+	<string>ต้องการยกเลิกการชำระเงินนี้หรือไม่</string>
+	<key>pay.payment.includedBonus</key>
+	<string> ใช้โบนัส %1$@</string>
+	<key>pay.payment.info.preferreduse</key>
+	<string>ใช้โบนัสก่อน</string>
+	<key>pay.payment.nonsubscriber.coupon.guide</key>
+	<string>หากต้องการใช้คูปองส่วนลด ขอให้เปิดตัวเลือกการสมัคร %@ ที่ด้านล่างของหน้าจอนี้</string>
+	<key>pay.payment.nonsubscriber.coupon.popup.guide</key>
+	<string>โปรดสมัคร %1$@ โดยเปิดใช้ตัวเลือกเพื่อรับคูปองส่วนลด หากไม่ต้องการสมัคร %2$@ ขอให้ลบคูปองที่เลือกแล้วชำระเงินโดยไม่ใช้ส่วนลด</string>
+	<key>pay.payment.pay.coupon</key>
+	<string>คูปอง LINE Pay</string>
+	<key>pay.payment.pay.coupon.th</key>
+	<string>คูปอง Rabbit LINE Pay</string>
+	<key>pay.payment.pay.point.title</key>
+	<string>LINE Points</string>
+	<key>pay.payment.payIncludedBonus</key>
+	<string>ชำระเงิน %1$@ (ใช้โบนัสมูลค่า %2$@)</string>
+	<key>pay.payment.register.bank.account.except.blacklist</key>
+	<string>โปรดเชื่อมต่อบัญชีธนาคาร</string>
+	<key>pay.payment.request.detail.pay.balance</key>
+	<string>ยอดคงเหลือ LINE Pay</string>
+	<key>pay.photo</key>
+	<string>ภาพถ่าย</string>
+	<key>pay.pin.dailyPaymentLimit.paymentSession.expired.popup</key>
+	<string>หมดเวลาสำหรับคำขอชำระเงินแล้ว โปรดชำระเงินอีกครั้ง</string>
+	<key>pay.pin.guide.dailyPaymentLimit</key>
+	<string>คุณต้องใส่รหัสผ่านอีกครั้ง เนื่องจากมียอดชำระเงินต่อวันเกิน %1$@ บาท</string>
+	<key>pay.pin.guide.dailyPaymentLimit.paymentSession</key>
+	<string>คุณต้องใส่รหัสผ่านอีกครั้ง เนื่องจากมียอดชำระเงินต่อวันเกิน %1$@ บาท โปรดใส่รหัสผ่านก่อนหมดเวลา</string>
+	<key>pay.pin.guide.paymentSession</key>
+	<string>(เหลือเวลา: %1$02d:%2$02d)</string>
+	<key>pay.pin.guide.sessionTimeOut</key>
+	<string>คุณต้องใส่รหัสผ่านอีกครั้ง เนื่องจากไม่ได้ใช้ LINE Pay เกิน %1$@ นาที</string>
+	<key>pay.pin.option.off.popup</key>
+	<string>นับตั้งแต่ LINE 9.20.0 เป็นต้นไป คุณสามารถข้ามการยืนยันด้วยรหัสผ่านเมื่อชำระเงินได้
+หากต้องการยืนยันด้วยรหัสผ่านเมื่อเข้าสู่ระบบหรือชำระเงิน ขอให้แตะ "เปิด" ด้านล่าง คุณสามารถเปลี่ยนการตั้งค่านี้ได้ตลอดเวลาที่ "ตั้งค่า" &gt; "รหัสผ่าน" ใน LINE Pay
+* การตั้งค่านี้จะถูกนำไปใช้กับแอพ LINE Pay ด้วยเช่นกัน</string>
+	<key>pay.pin.popup.off.button</key>
+	<string>ปิด</string>
+	<key>pay.pin.popup.on.button</key>
+	<string>เปิด</string>
+	<key>pay.placeholder.input</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.preapproved.my.point.use</key>
+	<string>ใช้พอยท์ก่อน</string>
+	<key>pay.previous.main.pocket.money.register.guide</key>
+	<string>วงเงินสูงสุด 50,000 เยน</string>
+	<key>pay.qrcode.balance</key>
+	<string>ยอดคงเหลือ</string>
+	<key>pay.qrcode.cell.change</key>
+	<string>เปลี่ยน</string>
+	<key>pay.qrcode.cell.charge</key>
+	<string>เติมเงิน</string>
+	<key>pay.qrcode.cell.make</key>
+	<string>สร้างบัญชี</string>
+	<key>pay.qrcode.cell.register</key>
+	<string>เพิ่ม</string>
+	<key>pay.qrcode.charge.timeover.alert</key>
+	<string>หมดเวลาเติมเงินแล้ว โปรดแตะ "โหลดใหม่" แล้วลองอีกครั้ง</string>
+	<key>pay.qrcode.codeReader</key>
+	<string>ตัวอ่านรหัส</string>
+	<key>pay.qrcode.directInputCode</key>
+	<string>ใส่โค้ด</string>
+	<key>pay.qrcode.directInputCodeGuide</key>
+	<string>คุณสามารถพิมพ์หมายเลขคิวอาร์โค้ดในช่องด้านล่าง แต่การพิมพ์โดยตรงนี้ไม่รองรับหมายเลขบาร์โค้ด</string>
+	<key>pay.qrcode.input.numbersOnly</key>
+	<string>โปรดใส่ตัวเลขเท่านั้น</string>
+	<key>pay.qrcode.linePoint</key>
+	<string>LINE POINTS</string>
+	<key>pay.qrcode.location.popup</key>
+	<string>โปรดเปิดใช้งานบริการหาตำแหน่งที่ตั้งเพื่อใช้บริการนี้ โดยไปที่ "การตั้งค่า" บนอุปกรณ์ &gt; "ความเป็นส่วนตัว" &gt; "บริการหาตำแหน่งที่ตั้ง"</string>
+	<key>pay.qrcode.makeShortCut</key>
+	<string>สร้างทางลัดไปยังรหัสของฉัน</string>
+	<key>pay.qrcode.method</key>
+	<string>วิธีการชำระเงิน</string>
+	<key>pay.qrcode.myCode</key>
+	<string>รหัสของฉัน</string>
+	<key>pay.qrcode.payment.timeover.alert</key>
+	<string>หมดเวลาชำระเงินแล้ว โปรดแตะ "โหลดใหม่" แล้วลองอีกครั้ง</string>
+	<key>pay.qrcode.recognizeGuide</key>
+	<string>คิวอาร์โค้ดจะถูกตรวจหาโดยอัตโนมัติบนหน้าจอ</string>
+	<key>pay.qrcode.refresh.alert</key>
+	<string>คิวอาร์โค้ดนี้หมดเวลาใช้งานแล้ว โปรดรีเฟรชโค้ดเพื่อชำระเงินต่อ</string>
+	<key>pay.qrcode.refreshCode</key>
+	<string>โหลดใหม่</string>
+	<key>pay.qrcode.scanMode</key>
+	<string>สแกน</string>
+	<key>pay.qrcode.setting.header</key>
+	<string>โปรดเลือกวิธีชำระเงินที่คุณต้องการใช้กับรหัสนี้</string>
+	<key>pay.qrcode.title</key>
+	<string>LINE Pay รหัสของฉัน</string>
+	<key>pay.qrcode.title.th</key>
+	<string>Rabbit LINE Pay รหัสของฉัน</string>
+	<key>pay.recentTransfer.friend</key>
+	<string>การส่งเงินล่าสุด</string>
+	<key>pay.recentTransfer.friend.jp</key>
+	<string>เพื่อนที่ส่งเงิน &amp; โบนัสล่าสุด</string>
+	<key>pay.recentTransfer.money</key>
+	<string>ส่งเงิน %@</string>
+	<key>pay.recentTransfer.money.jp</key>
+	<string>เงิน &amp; โบนัสที่ส่ง: มูลค่า %1$@</string>
+	<key>pay.recommend.coupon</key>
+	<string>แนะนำ</string>
+	<key>pay.registCard.acceptedCard</key>
+	<string>บัตรเครดิตที่ลงทะเบียนได้</string>
+	<key>pay.registCard.acceptedCard.th</key>
+	<string>บัตรเครดิต/เดบิตที่ลงทะเบียนได้:</string>
+	<key>pay.registCard.addButton</key>
+	<string>เพิ่มบัตร</string>
+	<key>pay.registCard.cardNickname</key>
+	<string>ชื่อบัตร (ตัวเลือก)</string>
+	<key>pay.registCard.cardNickname.hint</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.registCard.cardNo</key>
+	<string>หมายเลขบัตร</string>
+	<key>pay.registCard.cardNo.hint</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.registCard.complete</key>
+	<string>ลงทะเบียนบัตรเครดิตแล้ว</string>
+	<key>pay.registCard.cvc</key>
+	<string>CVC</string>
+	<key>pay.registCard.cvc.hint</key>
+	<string>ตัวเลข 3-4 หลัก</string>
+	<key>pay.registCard.cvc.last.3digit</key>
+	<string>เลข 3 ตัวสุดท้ายด้านหลังบัตร</string>
+	<key>pay.registCard.cvc.last.4digit</key>
+	<string>เลข 4 ตัวด้านหน้าบัตร</string>
+	<key>pay.registCard.defaultCard.confirmPossiblePaymentMethod</key>
+	<string>คุณสามารถกำหนดให้บัตรนี้เป็นบัตรชำระเงินสำหรับ "รหัสของฉัน" ได้ ต้องการกำหนดให้เป็นบัตรชำระเงินหรือไม่</string>
+	<key>pay.registCard.defaultCard.notice</key>
+	<string>บัตรนี้จะถูกกำหนดให้เป็นบัตรหลัก คุณสามารถกำหนดให้เป็นบัตรชำระเงินเมื่อคุณชำระเงินด้วย "รหัสของฉัน" ได้เช่นกัน</string>
+	<key>pay.registCard.defaultCard.noticeAndChange</key>
+	<string>คุณสามารถกำหนดให้บัตรนี้เป็นบัตรชำระเงินสำหรับ "รหัสของฉัน" ได้ ต้องการกำหนดให้เป็นบัตรชำระเงินหรือไม่</string>
+	<key>pay.registCard.errorNotRegist.alert</key>
+	<string>ไม่สามารถเพิ่มบัตรได้ 
+โปรดลองใช้บัตรเครดิตใบอื่น</string>
+	<key>pay.registCard.expire</key>
+	<string>หมดอายุ</string>
+	<key>pay.registCard.firstName</key>
+	<string>ชื่อจริง (English)</string>
+	<key>pay.registCard.firstName.hint</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.registCard.lastName</key>
+	<string>นามสกุล (English)</string>
+	<key>pay.registCard.lastName.hint</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.registCard.possessionOfCards.alert</key>
+	<string>เพิ่มบัตรได้ไม่เกิน %1$@ ใบ</string>
+	<key>pay.registCard.registToMain</key>
+	<string>กำหนดเป็นบัตรหลัก</string>
+	<key>pay.registCard.scan</key>
+	<string>สแกนบัตร</string>
+	<key>pay.registCard.scan.guideMessage</key>
+	<string>ถือบัตรที่นี่ 
+บัตรจะถูกสแกนโดยอัตโนมัติ</string>
+	<key>pay.registCard.title</key>
+	<string>เพิ่มบัตร</string>
+	<key>pay.registerBank.charge.agree.button</key>
+	<string>ยอมรับข้อกำหนด</string>
+	<key>pay.registerBank.charge.agree.mustScroll</key>
+	<string>โปรดอ่านข้อกำหนดการใช้บริการอย่างละเอียด</string>
+	<key>pay.registerBank.charge.checkingAccount</key>
+	<string>บัญชีกระแสรายวัน</string>
+	<key>pay.registerBank.charge.input.address.alert</key>
+	<string>โปรดใส่ข้อมูลที่จำเป็นทั้งหมด</string>
+	<key>pay.registerBank.charge.input.birthday.alert</key>
+	<string>โปรดใส่ข้อมูลที่จำเป็นทั้งหมด</string>
+	<key>pay.registerBank.charge.input.job</key>
+	<string>โปรดใส่อาชีพของคุณ</string>
+	<key>pay.registerBank.charge.input.job.alert</key>
+	<string>โปรดใส่ข้อมูลที่จำเป็นทั้งหมด</string>
+	<key>pay.registerBank.charge.input.kanji.alert</key>
+	<string>โปรดใส่ข้อมูลที่จำเป็นทั้งหมด</string>
+	<key>pay.registerBank.charge.input.kanji.check</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.registerBank.charge.input.name</key>
+	<string>ชื่อ</string>
+	<key>pay.registerBank.charge.job.title</key>
+	<string>อาชีพ</string>
+	<key>pay.registerBank.charge.savingAccount</key>
+	<string>บัญชีออมทรัพย์</string>
+	<key>pay.registerBank.charge.selectBank.title</key>
+	<string>เลือกธนาคาร</string>
+	<key>pay.registerBank.chargeFromAutoDeposit</key>
+	<string>เติมเงินอัตโนมัติ</string>
+	<key>pay.registerBank.chargeFromBank</key>
+	<string>บัญชีธนาคาร</string>
+	<key>pay.registerBank.chargeFromConvenience</key>
+	<string>FamiPort</string>
+	<key>pay.registerBank.chargeFromDebitCard</key>
+	<string>บัตรเดบิต</string>
+	<key>pay.registerBank.chargeFromEChannel</key>
+	<string>ช่องทางอื่นๆ</string>
+	<key>pay.registerBank.chargeFromLawson</key>
+	<string>บัตร LINE Pay</string>
+	<key>pay.registerBank.chargeFromPayEasy</key>
+	<string>เติมเงินด้วย Pay-easy</string>
+	<key>pay.registerBank.chargeFromVirtualAccount</key>
+	<string>บัญชีสำหรับเติมเงิน</string>
+	<key>pay.registerBank.termsOfService</key>
+	<string>ข้อกำหนดการใช้บริการ</string>
+	<key>pay.registration.authenticateComplete.alert</key>
+	<string>เสร็จสิ้นการยืนยันผู้ใช้ กระเป๋าเงิน Pay ที่เคยสร้างไว้ด้วยข้อมูลผู้ใช้เดียวกันจะถูกระงับ</string>
+	<key>pay.registration.balance</key>
+	<string>สร้างบัญชี</string>
+	<key>pay.registration.balance.headerText</key>
+	<string>โปรดลงทะเบียนข้อมูลต่อไปนี้เพื่อสร้างบัญชี</string>
+	<key>pay.registration.completed</key>
+	<string>ลงทะเบียนแล้ว</string>
+	<key>pay.registration.foreign.guide</key>
+	<string>เราจะนำหมายเลขบัตรประจำตัวของคุณไปใช้เพื่อยืนยันตัวตนของคุณเท่านั้น โปรดตรวจสอบความถูกต้อง เนื่องจากเมื่อลงทะเบียนไปแล้วจะไม่สามารถแก้ไขได้</string>
+	<key>pay.registration.foreignerName.guide</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.registration.foreignerName.title</key>
+	<string>ชื่อนามสกุล</string>
+	<key>pay.registration.idCardNumber.title</key>
+	<string>หมายเลขบัตรประจำตัว</string>
+	<key>pay.registration.idType.alienCard</key>
+	<string>บัตรประจำตัวคนต่างด้าว</string>
+	<key>pay.registration.idType.passport</key>
+	<string>หนังสือเดินทาง</string>
+	<key>pay.registration.idType.title</key>
+	<string>บัตรประจำตัว</string>
+	<key>pay.registration.idType.title.guide</key>
+	<string>เลือกประเภทบัตรประจำตัว</string>
+	<key>pay.registration.idType.workPermit</key>
+	<string>ใบอนุญาตทำงาน</string>
+	<key>pay.registration.local.guide</key>
+	<string>เลขประจำตัวประชาชนของคุณจะถูกรวบรวมและจัดเก็บ​อย่างปลอดภัยตามนโยบายของธนาคารแห่งประเทศไทย</string>
+	<key>pay.registration.notTHCitizen.text</key>
+	<string>ถ้าคุณไม่ได้ถือสัญชาติไทย โปรดแตะด้านล่าง</string>
+	<key>pay.registration.termsOfUse.allAgree</key>
+	<string>ยอมรับทั้งหมด</string>
+	<key>pay.registration.termsOfUse.headerText</key>
+	<string>ยอมรับดังต่อไปนี้</string>
+	<key>pay.registration.useTouchID</key>
+	<string>ต้องการใช้ %@ หรือไม่</string>
+	<key>pay.registration.useTouchID.guide</key>
+	<string>ใช้ %@ เพื่อการใช้งานที่สะดวกและปลอดภัยยิ่งขึ้น</string>
+	<key>pay.request.timeout</key>
+	<string>ไม่สามารถทำการยืนยันได้ 
+โปรดลองอีกครั้งในภายหลัง</string>
+	<key>pay.requestTransfer.amount</key>
+	<string>จำนวนเงินที่ร้องขอ</string>
+	<key>pay.requestTransfer.amount.maxError.alert</key>
+	<string>จำนวนเงินเกินวงเงินที่กำหนดไว้ 
+และจะถูกแก้ไขให้เป็นจำนวนเงินสูงสุดที่สามารถกำหนดได้</string>
+	<key>pay.requestTransfer.amount.minError.alert</key>
+	<string>จำนวนเงินต้องไม่ต่ำกว่า %1$@ ต่อ 1 คน</string>
+	<key>pay.requestTransfer.cancel</key>
+	<string>ลบ</string>
+	<key>pay.requestTransfer.complete.alert</key>
+	<string>ส่งคำขอให้ส่งเงินแล้ว</string>
+	<key>pay.requestTransfer.complete.alert.jp</key>
+	<string>ส่งคำขอให้ส่งเงิน &amp; โบนัสแล้ว</string>
+	<key>pay.requestTransfer.description.request</key>
+	<string>คุณส่งคำขอให้ส่งเงินให้ %1$@</string>
+	<key>pay.requestTransfer.description.request.jp</key>
+	<string>ส่งคำขอให้ส่งเงิน &amp; โบนัสให้ %1$@ แล้ว</string>
+	<key>pay.requestTransfer.request.cancel</key>
+	<string>ยกเลิก</string>
+	<key>pay.requestTransfer.request.cancel.alert</key>
+	<string>คุณกำลังจะยกเลิกคำขอ ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.requestTransfer.request.cancel.alert.jp</key>
+	<string>คุณกำลังจะยกเลิกคำขอให้ส่งเงิน &amp; โบนัสที่ส่งให้เพื่อนที่เลือก ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.requestTransfer.request.cancelStatus</key>
+	<string>ยกเลิกแล้ว</string>
+	<key>pay.requestTransfer.request.title.text</key>
+	<string>%1$@ ขอให้คุณส่งเงินให้</string>
+	<key>pay.requestTransfer.request.title.text.jp</key>
+	<string>%1$@ ส่งคำขอให้ส่งเงิน &amp; โบนัส</string>
+	<key>pay.requestTransfer.requestMoney.cancel</key>
+	<string>ยกเลิก (%1$d)</string>
+	<key>pay.requestTransfer.requestMoney.cancel.alert</key>
+	<string>คุณกำลังจะยกเลิกคำขอให้ส่งเงินทั้งหมด
+คำขอที่คุณส่งไปจะถูกยกเลิกยกเว้นคำขอที่เพื่อนส่งเงินให้คุณแล้ว ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.requestTransfer.requestMoney.cancel.alert.jp</key>
+	<string>คุณกำลังจะยกเลิกคำขอให้ส่งเงิน &amp; โบนัสทั้งหมด
+ยกเว้นคำขอที่เพื่อนส่งเงิน &amp; โบนัสให้คุณแล้ว
+ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.requestTransfer.sendButton</key>
+	<string>คำขอให้ส่งเงิน</string>
+	<key>pay.requestTransfer.sendButton.jp</key>
+	<string>คำขอให้ส่งเงิน &amp; โบนัส</string>
+	<key>pay.requestTransferRequestMulti.detailView.result</key>
+	<string>%1$@ × %2$d = %3$@</string>
+	<key>pay.restriction.message</key>
+	<string>ข้อจำกัดของบริการมีดังต่อไปนี้</string>
+	<key>pay.restriction.title</key>
+	<string>ข้อจำกัดของบริการ</string>
+	<key>pay.retry</key>
+	<string>ลองอีกครั้ง</string>
+	<key>pay.save</key>
+	<string>บันทึก</string>
+	<key>pay.select</key>
+	<string>เลือก</string>
+	<key>pay.select.placeholder</key>
+	<string>โปรดเลือก</string>
+	<key>pay.send.amount.both</key>
+	<string>ใช้ยอดคงเหลือ LINE Pay %1$@ และโบนัส LINE Pay %2$@</string>
+	<key>pay.send.amount.info</key>
+	<string>* โบนัส LINE Pay ใช้ชำระเงินและส่งเงินได้แต่ถอนเป็นเงินสดไม่ได้)</string>
+	<key>pay.send.amount.onlyBonus</key>
+	<string>ส่งโบนัส LINE มูลค่า %1$@</string>
+	<key>pay.send.amount.onlyPay</key>
+	<string>ใช้ยอดคงเหลือ LINE Pay %1$@</string>
+	<key>pay.setting.accountSettings</key>
+	<string>ตั้งค่าบัญชีธนาคาร</string>
+	<key>pay.setting.accountSettings.agree.using</key>
+	<string>Account Terms of Use</string>
+	<key>pay.setting.agree.using</key>
+	<string>ข้อกำหนดการใช้บริการ</string>
+	<key>pay.setting.autoDeposit</key>
+	<string>เติมเงินอัตโนมัติ</string>
+	<key>pay.setting.autoPayment</key>
+	<string>การชำระเงินอัตโนมัติ</string>
+	<key>pay.setting.card</key>
+	<string>บัตรเครดิต</string>
+	<key>pay.setting.card.globalHistory</key>
+	<string>ประวัติการชำระเงินด้วยบัตรเครดิต</string>
+	<key>pay.setting.card.goodsName</key>
+	<string>สินค้า</string>
+	<key>pay.setting.card.history</key>
+	<string>ประวัติการชำระเงินด้วยบัตรเครดิต</string>
+	<key>pay.setting.card.main</key>
+	<string>กำหนดเป็นบัตรหลัก</string>
+	<key>pay.setting.card.registHolderName</key>
+	<string>ใส่ชื่อเจ้าของบัตร</string>
+	<key>pay.setting.card.totalCard</key>
+	<string>บัตรเครดิตทั้งหมด</string>
+	<key>pay.setting.card.yearMonth</key>
+	<string>ดด/ปป</string>
+	<key>pay.setting.cardManage.alert</key>
+	<string>ประวัติการชำระเงินของคุณจะไม่ถูกลบ แต่การชำระเงินที่อนุมัติล่วงหน้าที่ลงทะเบียนไว้จะถูกยกเลิก ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.setting.charge.cancel.alert</key>
+	<string>คุณกำลังจะยกเลิกหมายเลขลูกค้าสำหรับเติมเงิน ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.setting.charge.cancelled</key>
+	<string>ยกเลิกแล้ว</string>
+	<key>pay.setting.charge.history</key>
+	<string>ประวัติการเติมเงินผ่าน Pay-easy และ FamiPort</string>
+	<key>pay.setting.charge.payeasy</key>
+	<string>Pay-easy</string>
+	<key>pay.setting.charge.state.cancelled</key>
+	<string>ยกเลิกแล้ว</string>
+	<key>pay.setting.charge.state.complete</key>
+	<string>เสร็จสิ้น</string>
+	<key>pay.setting.charge.state.expire</key>
+	<string>หมดเวลา</string>
+	<key>pay.setting.charge.state.fail</key>
+	<string>ไม่สามารถดำเนินการได้</string>
+	<key>pay.setting.charge.state.ready</key>
+	<string>กำลังดำเนินการ...</string>
+	<key>pay.setting.chargeAccount.delete</key>
+	<string>ลบ</string>
+	<key>pay.setting.chargeAccount.deleteBank.alert</key>
+	<string>ต้องการลบบัญชีธนาคารนี้หรือไม่</string>
+	<key>pay.setting.chargeAccount.deleteDepositBank.alert</key>
+	<string>คุณกำลังใช้บัญชีนี้เพื่อเติมเงิน ถ้าลบบัญชีนี้คุณจะไม่สามารถเติมเงินได้ ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.setting.chargeAccount.description.notSupportAccount</key>
+	<string>แสดงเฉพาะบัญชีที่สามารถชำระเงินที่ร้านนี้เท่านั้น</string>
+	<key>pay.setting.chargeAccount.title</key>
+	<string>บัญชีธนาคาร</string>
+	<key>pay.setting.createShortCut</key>
+	<string>สร้างทางลัดไปยังรหัสของฉัน</string>
+	<key>pay.setting.createShortcut2</key>
+	<string>สร้างทางลัด</string>
+	<key>pay.setting.deleteAccount</key>
+	<string>ลบบัญชี</string>
+	<key>pay.setting.deleteAccount.alert</key>
+	<string>ถ้าลบบัญชี %1$@ จะทำให้ประวัติธุรกรรมทั้งหมดถูกลบและไม่สามารถเรียกคืนข้อมูลได้ ต้องการลบบัญชีของคุณหรือไม่</string>
+	<key>pay.setting.deleteAccount.button</key>
+	<string>ลบบัญชี</string>
+	<key>pay.setting.deleteAccount.cannotDeleteNeedCharge.alert</key>
+	<string>คุณจะไม่สามารถลบบัญชีได้ หากมียอดคงเหลือน้อยกว่า 0</string>
+	<key>pay.setting.deleteAccount.failRemainMoney</key>
+	<string>สละสิทธิ์ในยอดคงเหลือ</string>
+	<key>pay.setting.deleteAccount.guideText.cannotDeleteAccount</key>
+	<string>ไม่สามารถลบบัญชีได้
+เนื่องจากมีเงินค้างชำระหรือมีเพื่อนที่ยังไม่รับเงินที่คุณส่งให้</string>
+	<key>pay.setting.deleteAccount.guideText.cannotDeleteAccount.jp</key>
+	<string>ไม่สามารถลบบัญชีได้ เนื่องจากมีการชำระเงินหรือการส่งเงิน &amp; โบนัสที่ยังไม่เสร็จสิ้น</string>
+	<key>pay.setting.deleteAccount.guideText.deleteAllTransaction</key>
+	<string>ถ้าลบบัญชี %1$@ ประวัติการใช้บริการทั้งหมดจะถูกลบและไม่สามารถเรียกคืนได้</string>
+	<key>pay.setting.deleteAccount.guideText.deleteBalance</key>
+	<string>ยอดคงเหลือจะถูกยกเลิกเมื่อคุณลบบัญชี</string>
+	<key>pay.setting.deleteAccount.guideText.deleteLineCard</key>
+	<string>ถ้าลบบัญชี LINE Pay จะทำให้บัตร LINE Pay ของคุณถูกลบไปด้วย</string>
+	<key>pay.setting.deleteAccount.guideText.reRegistrationGuide</key>
+	<string>You cannot use the same Online Saving Account number when you register to Online Saving Account again next time.</string>
+	<key>pay.setting.deleteAccount.guideText.remainMoneyGuide</key>
+	<string>You can withdraw your balance now or visit the bank to retrieve it.</string>
+	<key>pay.setting.deleteAccount.guideTitle</key>
+	<string>บัญชีของคุณจะถูกลบ</string>
+	<key>pay.setting.deleteAccount.identification.alert</key>
+	<string>โปรดยืนยันตัวตนแล้วถอนเงินที่เหลืออยู่ก่อนที่จะลบบัญชี</string>
+	<key>pay.setting.deleteAccount.remainMoney.tw.alert</key>
+	<string>You have %1$@left.  
+ You can withdraw your balance now or visit the bank to retrieve it.</string>
+	<key>pay.setting.deleteAccount.transfer.alert</key>
+	<string>ไม่สามารถลบบัญชีได้
+เนื่องจากมีเพื่อนที่ยังไม่รับเงินที่คุณส่งให้</string>
+	<key>pay.setting.deleteAccount.transfer.alert.jp</key>
+	<string>ไม่สามารถลบบัญชีได้
+เนื่องจากมีเพื่อนที่ยังไม่รับเงิน &amp; โบนัสที่คุณส่ง</string>
+	<key>pay.setting.deleteAccount.waitCharge.alert</key>
+	<string>โปรดยกเลิกธุรกรรมที่รอดำเนินการก่อนจึงจะลบบัญชีได้</string>
+	<key>pay.setting.deleteAccount.withdrawRemainMoney</key>
+	<string>ถอนเงินยอดคงเหลือ</string>
+	<key>pay.setting.help</key>
+	<string>หน้าช่วยเหลือ</string>
+	<key>pay.setting.identification.alert</key>
+	<string>กำลังดำเนินการ...</string>
+	<key>pay.setting.identification.complete</key>
+	<string>เสร็จสิ้น</string>
+	<key>pay.setting.ipass.guide</key>
+	<string>LINE Pay iPASS User Manual</string>
+	<key>pay.setting.lackNotification</key>
+	<string>บริการแจ้งยอดคงเหลือ</string>
+	<key>pay.setting.lackNotification.checkNotification.alert</key>
+	<string>ปิดการแจ้งเตือน %1$@</string>
+	<key>pay.setting.lackNotification.description</key>
+	<string>ส่งข้อความแจ้งเตือนเมื่อมียอดคงเหลือน้อยกว่าจำนวนที่กำหนดไว้</string>
+	<key>pay.setting.lackNotification.exceedAmount</key>
+	<string>จำนวนเงินเกินวงเงินที่กำหนดไว้</string>
+	<key>pay.setting.lackNotification.minimumMoney</key>
+	<string>กำหนดจำนวนเงิน</string>
+	<key>pay.setting.lackNotification.minimumMoney.description</key>
+	<string>กรอกจำนวนเงิน</string>
+	<key>pay.setting.lackNotificationSetting.alert</key>
+	<string>ตั้งค่าที่ %1$@ ขึ้นไป</string>
+	<key>pay.setting.lineCard</key>
+	<string>บัตร LINE Pay</string>
+	<key>pay.setting.lineCardAutoDeposit</key>
+	<string>เติมเงินอัตโนมัติ</string>
+	<key>pay.setting.lineCardHelp</key>
+	<string>วิธีใช้บัตร LINE Pay</string>
+	<key>pay.setting.manageCard.alertDeleteLinePayCard</key>
+	<string>ถ้ายกเลิกการเชื่อมต่อบัตร คุณจะไม่ได้รับพอยท์ LINE เมื่อใช้บัตรนี้อีกต่อไป และการชำระเงินแบบอนุมัติล่วงหน้าที่ใช้บัตรเครดิตนี้จะถูกยกเลิก ทั้งนี้ประวัตการชำระเงินจะยังคงอยู่ตามเดิม
+ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.setting.myAccount</key>
+	<string>ประเภทบัญชี</string>
+	<key>pay.setting.myAccount.cash</key>
+	<string>LINE Cash</string>
+	<key>pay.setting.myAccount.jp</key>
+	<string>ประเภทบัญชีและวงเงิน</string>
+	<key>pay.setting.myAccount.lv9</key>
+	<string>ยังไม่ได้สร้าง</string>
+	<key>pay.setting.myAccount.money</key>
+	<string>LINE Money</string>
+	<key>pay.setting.myAccount.th.created</key>
+	<string>สร้างแล้ว</string>
+	<key>pay.setting.myAccount.th.notCreated</key>
+	<string>ยังไม่ได้สร้าง</string>
+	<key>pay.setting.myInfo</key>
+	<string>ข้อมูลของฉัน</string>
+	<key>pay.setting.password</key>
+	<string>รหัสผ่าน</string>
+	<key>pay.setting.password.call.alert</key>
+	<string>เราจะแจ้งรหัสยืนยันให้คุณทราบทางโทรศัพท์
+อาจมีค่าบริการโดยขึ้นกับแพ็กเกจโทรศัพท์ที่คุณใช้
+และระบบอาจไม่แสดงหมายเลขผู้โทรเข้า</string>
+	<key>pay.setting.password.change</key>
+	<string>เปลี่ยนรหัสผ่าน</string>
+	<key>pay.setting.password.hold</key>
+	<string>ล็อคด้วยรหัสผ่าน</string>
+	<key>pay.setting.password.inputNumber</key>
+	<string>โปรดใส่รหัสยืนยันที่คุณได้รับ</string>
+	<key>pay.setting.password.reissue.smsAuthKey.alert</key>
+	<string>โปรดรับรหัสยืนยันอีกครั้ง
+ต้องการกลับไปที่หน้าจอก่อนหน้าหรือไม่</string>
+	<key>pay.setting.password.resendNumber</key>
+	<string>ส่งรหัสยืนยันอีกครั้งแล้ว</string>
+	<key>pay.setting.password.reset</key>
+	<string>ลืมรหัสผ่าน?</string>
+	<key>pay.setting.password.resetTitle</key>
+	<string>เปลี่ยนรหัสผ่าน</string>
+	<key>pay.setting.password.resetTitle.alert</key>
+	<string>ลืมรหัสผ่าน?</string>
+	<key>pay.setting.password.retry</key>
+	<string>ส่งรหัสยืนยันอีกครั้ง</string>
+	<key>pay.setting.password.touchid.use</key>
+	<string>ใช้ %@</string>
+	<key>pay.setting.password.touchid.verification</key>
+	<string>ยืนยันรหัสผ่าน</string>
+	<key>pay.setting.payment.history</key>
+	<string>ประวัติการชำระเงิน</string>
+	<key>pay.setting.pin.passlock</key>
+	<string>ยืนยันด้วยรหัสผ่านเพื่อเข้าสู่ระบบและชำระเงิน</string>
+	<key>pay.setting.pin.passlock.expire.popup</key>
+	<string>คุณกำลังจะปิดใช้การยืนยันด้วยรหัสผ่านเมื่อเข้าสู่ระบบและชำระเงิน
+การตั้งค่านี้จะถูกนำไปใช้กับแอพ LINE Pay ด้วยเช่นกัน ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.setting.pin.passlock.guide</key>
+	<string>เมื่อเปิดการตั้งค่านี้ คุณจะต้องใส่รหัสผ่านเพื่อเข้าสู่ระบบและชำระเงิน
+คุณไม่จำเป็นต้องใส่รหัสผ่านอีกครั้งหากชำระเงินด้วยรหัสของฉันหรือจ่ายบิลภายใน %1$@ นาทีหลังการใช้งานครั้งล่าสุด ทั้งนี้การตั้งค่านี้จะถูกนำไปใช้กับแอป LINE Pay ด้วยเช่นกัน</string>
+	<key>pay.setting.pin.passlock.setting.popup</key>
+	<string>คุณกำลังจะเปิดใช้การยืนยันด้วยรหัสผ่านเมื่อเข้าสู่ระบบและชำระเงิน
+การตั้งค่านี้จะถูกนำไปใช้กับแอพ LINE Pay ด้วยเช่นกัน ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.setting.remain.history</key>
+	<string>ประวัติการชำระเงินด้วยกระเป๋าเงิน LINE Pay</string>
+	<key>pay.setting.skinTheme</key>
+	<string>ธีมหน้าจอหลัก</string>
+	<key>pay.setting.transaction.history</key>
+	<string>ประวัติยอดคงเหลือ</string>
+	<key>pay.setting.transaction.input</key>
+	<string>ฝากเงิน</string>
+	<key>pay.setting.transaction.maximumDate.alert</key>
+	<string>คุณสามารถเลือกระยะเวลาได้สูงสุด 6 เดือน</string>
+	<key>pay.setting.transaction.output</key>
+	<string>ถอนเงิน</string>
+	<key>pay.setting.transaction.period</key>
+	<string>ระยะเวลา</string>
+	<key>pay.setting.transaction.periodSelect</key>
+	<string>เลือกระยะเวลา</string>
+	<key>pay.setting.transaction.recent3Month</key>
+	<string>90 วันที่ผ่านมา</string>
+	<key>pay.setting.transaction.recentMonth</key>
+	<string>30 วันที่ผ่านมา</string>
+	<key>pay.setting.transaction.requesting</key>
+	<string>กำลังดำเนินการ...</string>
+	<key>pay.setting.transaction.total</key>
+	<string>ทั้งหมด</string>
+	<key>pay.setting.transfer.cancel</key>
+	<string>ยกเลิกแล้ว</string>
+	<key>pay.setting.transfer.complete</key>
+	<string>เสร็จสิ้น</string>
+	<key>pay.setting.transfer.fail</key>
+	<string>Failed</string>
+	<key>pay.setting.transfer.history</key>
+	<string>ประวัติคำขอให้ส่งเงิน</string>
+	<key>pay.setting.transfer.history.jp</key>
+	<string>ประวัติคำขอให้ส่งเงิน &amp; โบนัส</string>
+	<key>pay.setting.transfer.receiveHistory</key>
+	<string>รับ</string>
+	<key>pay.setting.transfer.requestHistory</key>
+	<string>ส่ง</string>
+	<key>pay.setting.unregister.coupon.warning</key>
+	<string>ถ้าลบบัญชี %1$@ ประวัติการใช้บริการและคูปองที่มีทั้งหมดจะถูกลบ และไม่สามารถเรียกคืนได้</string>
+	<key>pay.setting.unregister.lost.bonus</key>
+	<string>เมื่อคุณลบบัญชี จะทำให้โบนัส LINE Pay ทั้งหมดที่มีอยู่ถูกลบไปด้วย</string>
+	<key>pay.setting.withdraw</key>
+	<string>ถอนเงิน</string>
+	<key>pay.setting.withdrawAccount.deleteAccount.alert</key>
+	<string>ต้องการลบบัญชีธนาคารนี้หรือไม่</string>
+	<key>pay.simeplePayment.signUp.point</key>
+	<string>เมื่อสมัครใช้บริการ %1$@ แล้ว คุณสามารถชำระเงินได้อย่างง่ายดายด้วยการใส่รหัสผ่านเท่านั้น</string>
+	<key>pay.simplePayment.confirmAmount</key>
+	<string>ดูจำนวนเงินที่ต้องชำระ</string>
+	<key>pay.simplePayment.creditCard.title</key>
+	<string>บัตรเครดิต</string>
+	<key>pay.simplePayment.purchaseInfo.memberText</key>
+	<string>สมาชิก%1$@</string>
+	<key>pay.simplePayment.signUp.completed</key>
+	<string>คุณได้สมัครและลงทะเบียนบัตรเครดิตเรียบร้อยแล้ว</string>
+	<key>pay.simplePayment.signUp.password</key>
+	<string>โปรดกำหนดรหัสผ่าน</string>
+	<key>pay.simplePayment.signUp.password.completed</key>
+	<string>เสร็จสิ้น</string>
+	<key>pay.simplePayment.signUp.password.unset</key>
+	<string>ยังไม่ได้ตั้งค่า</string>
+	<key>pay.simplePayment.signUp.succeed</key>
+	<string>เสร็จสิ้นการสมัครแล้ว</string>
+	<key>pay.simplePayment.signUp.text</key>
+	<string>เมื่อสมัครใช้บริการ %1$@ แล้ว คุณสามารถชำระเงินได้อย่างง่ายดายด้วยการใส่รหัสผ่านเท่านั้น</string>
+	<key>pay.simplePayment.signUp.title</key>
+	<string>สมัครใช้บริการ</string>
+	<key>pay.splitbill.acceptSplitbill</key>
+	<string>ร่วมการแชร์เงิน</string>
+	<key>pay.splitbill.acceptSplitbill.cash</key>
+	<string>เงินสด</string>
+	<key>pay.splitbill.acceptSplitbill.linepay</key>
+	<string>LINE Pay</string>
+	<key>pay.splitbill.acceptSplitbill.title</key>
+	<string>คุณได้รับคำขอให้แชร์เงิน %1$@
+ต้องการเข้าร่วมหรือไม่</string>
+	<key>pay.splitbill.acceptSplitbillResult.message</key>
+	<string>คุณร่วมการแชร์เงินนี้และจะชำระเงินด้วย %1$@</string>
+	<key>pay.splitbill.aceeptSplitbill.guide</key>
+	<string>ผู้ใช้คนอื่นจะเห็นโปรไฟล์และชื่อของคุณเมื่อคุณร่วมการแชร์เงินนี้</string>
+	<key>pay.splitbill.alert.cancelBasic</key>
+	<string>หากระงับการแชร์เงินนี้ คุณจะต้องสร้างการแชร์เงินใหม่ตั้งแต่ต้นอีกครั้ง ต้องการดำเนินการต่อหรือไม่</string>
+	<key>pay.splitbill.alert.editSplitbill</key>
+	<string>คุณแก้ไขจำนวนเงินในการแชร์เงินแล้ว</string>
+	<key>pay.splitbill.alert.request.ChangeAmount</key>
+	<string>คุณขอให้แก้ไขจำนวนเงินที่คุณต้องชำระ</string>
+	<key>pay.splitbill.alert.requestedSplitBill</key>
+	<string>คุณส่งคำขอให้ผู้ร่วมแชร์เงินชำระเงินในส่วนของตนแล้ว</string>
+	<key>pay.splitbill.alert.requestedSplitbill.again</key>
+	<string>คุณส่งการแจ้งเตือนให้ชำระเงินในการแชร์เงินแล้ว</string>
+	<key>pay.splitbill.alert.splitbillPayment.complete</key>
+	<string>คุณชำระเงินในการแชร์เงินแล้ว</string>
+	<key>pay.splitbill.assignedAmount</key>
+	<string>จำนวนเงินที่ถูกขอให้ชำระ: %1$@</string>
+	<key>pay.splitbill.attendedSplitbill</key>
+	<string>การแชร์เงินที่ยังไม่ชำระ</string>
+	<key>pay.splitbill.cancelPrevious.splitbillAlert</key>
+	<string>หากระงับการแชร์เงินนี้ คุณจะไม่สามารถขอให้เพื่อนแชร์เงินสำหรับเงินจำนวนนี้ได้อีก คุณจะต้องชำระเงินเต็มจำนวนด้วยตนเอง</string>
+	<key>pay.splitbill.cancelSplitbill</key>
+	<string>ระงับการแชร์เงิน</string>
+	<key>pay.splitbill.canceled</key>
+	<string>ยกเลิก</string>
+	<key>pay.splitbill.canceledAlert</key>
+	<string>ระงับการแชร์เงินแล้ว</string>
+	<key>pay.splitbill.commonTitle</key>
+	<string>แชร์เงิน</string>
+	<key>pay.splitbill.completedSplitbill</key>
+	<string>การแชร์เงินที่ชำระแล้ว</string>
+	<key>pay.splitbill.createRequestCode</key>
+	<string>ออกคิวอาร์โค้ด</string>
+	<key>pay.splitbill.createSplitbill</key>
+	<string>แชร์เงิน</string>
+	<key>pay.splitbill.createSplitbill.guide</key>
+	<string>คุณยังไม่มีการแชร์เงิน
+โปรดแตะปุ่มด้านล่างเพื่อเริ่มการแชร์เงิน</string>
+	<key>pay.splitbill.createSplitbill.title</key>
+	<string>แชร์เงินกับเพื่อนๆ</string>
+	<key>pay.splitbill.detail.confirmPayment</key>
+	<string>เปลี่ยนเป็น "ชำระเงินแล้ว"</string>
+	<key>pay.splitbill.detail.confirmPaymentAlert</key>
+	<string>%1$@ ชำระเงินในการแชร์เงินแล้วหรือไม่</string>
+	<key>pay.splitbill.detail.invalid</key>
+	<string>การแชร์เงินนี้ถูกระงับหรือหมดเวลาแล้ว</string>
+	<key>pay.splitbill.detail.needToPayment.friendsCount</key>
+	<string>ยังไม่ชำระเงิน %1$@</string>
+	<key>pay.splitbill.detail.paid.FriendsCount</key>
+	<string>ชำระเงินแล้ว %1$@</string>
+	<key>pay.splitbill.detail.requestPayment</key>
+	<string>ส่งคำขออีกครั้ง</string>
+	<key>pay.splitbill.detail.requestUpdate</key>
+	<string>แก้ไขจำนวนเงิน</string>
+	<key>pay.splitbill.detail.totalAmount</key>
+	<string>จำนวนเงินทั้งหมด</string>
+	<key>pay.splitbill.detail.waiting</key>
+	<string>คุณกำลังร่วมการแชร์เงิน "%1$@"</string>
+	<key>pay.splitbill.detailPaymentMethod</key>
+	<string>ชำระเงินด้วย %1$@</string>
+	<key>pay.splitbill.divideEqually</key>
+	<string>แบ่งให้เท่ากัน</string>
+	<key>pay.splitbill.errorMessage.over</key>
+	<string>เงินที่จะได้รับมากเกินจำนวนเงินรวม %1$@</string>
+	<key>pay.splitbill.errorMessage.under</key>
+	<string>เงินที่จะได้รับน้อยกว่าจำนวนเงินรวม %1$@</string>
+	<key>pay.splitbill.expired</key>
+	<string>หมดเวลา</string>
+	<key>pay.splitbill.friendsCount</key>
+	<string>เชิญ %1$@</string>
+	<key>pay.splitbill.friendsTitle</key>
+	<string>เพื่อนที่เชิญ</string>
+	<key>pay.splitbill.guideMessage</key>
+	<string>คุณสามารถแก้ไขจำนวนเงินที่เพื่อนต้องชำระได้โดยการแตะบนจำนวนเงินของแต่ละคน</string>
+	<key>pay.splitbill.needToPaymentByCash</key>
+	<string>ต้องชำระด้วยเงินสด %1$@</string>
+	<key>pay.splitbill.needToPaymentByLinepay</key>
+	<string>ต้องชำระเงินผ่าน LINE Pay %1$@</string>
+	<key>pay.splitbill.ownedSplitbill</key>
+	<string>การแชร์เงินที่สร้างไว้</string>
+	<key>pay.splitbill.paidByCash</key>
+	<string>ชำระด้วยเงินสด %1$@</string>
+	<key>pay.splitbill.paidByLinepay</key>
+	<string>ชำระเงินผ่าน LINE Pay %1$@</string>
+	<key>pay.splitbill.paidByOther</key>
+	<string>ชำระเงินผ่านช่องทางอื่น %1$@</string>
+	<key>pay.splitbill.paidMethod.other</key>
+	<string>ชำระเงินด้วยวิธีอื่น</string>
+	<key>pay.splitbill.payment.attendedSplitbill</key>
+	<string>ชำระเงิน %1$@</string>
+	<key>pay.splitbill.paymentSplitbill</key>
+	<string>ชำระเงิน</string>
+	<key>pay.splitbill.qrCode.ClickGuideToast2</key>
+	<string> QRコードをタップすると拡大されます。</string>
+	<key>pay.splitbill.request.updateTitle</key>
+	<string>แก้ไขจำนวนเงิน</string>
+	<key>pay.splitbill.requestAmount</key>
+	<string>จำนวนเงินที่ต้องการชำระ</string>
+	<key>pay.splitbill.requestCode.alert.removeFriend</key>
+	<string>ต้องการนำ %1$@ ออกจากการแชร์เงินหรือไม่</string>
+	<key>pay.splitbill.requestCode.guide</key>
+	<string>โปรดสแกนรหัสด้านล่างเพื่อร่วมการแชร์เงิน</string>
+	<key>pay.splitbill.requestCode.title</key>
+	<string>คิวอาร์โค้ดการแชร์เงิน</string>
+	<key>pay.splitbill.requestUpdate</key>
+	<string>ขอแก้ไขจำนวนเงิน</string>
+	<key>pay.splitbill.selectOfflinePayment.description</key>
+	<string>โปรดชำระเงินภายใน 30 นาที
+(ชำระเงินได้ถึง %1$@)</string>
+	<key>pay.splitbill.selectOfflinePayment.guide</key>
+	<string>คุณจะต้องชำระเงินสำหรับการแชร์เงินด้วยวิธีที่เลือกไว้</string>
+	<key>pay.splitbill.selectOfflinePayment.title</key>
+	<string>คุณเลือกชำระเงินด้วย %1$@</string>
+	<key>pay.splitbill.selectPayment.method</key>
+	<string>คุณต้องการชำระเงินด้วยวิธีใด</string>
+	<key>pay.splitbill.selectPaymentMethod.cash</key>
+	<string>ชำระด้วยเงินสด</string>
+	<key>pay.splitbill.selectPaymentMethod.cash.guide</key>
+	<string>ชำระเงินสดให้แก่ผู้ขอให้แชร์เงินโดยตรง</string>
+	<key>pay.splitbill.selectPaymentMethod.linepay</key>
+	<string>LINE Pay</string>
+	<key>pay.splitbill.selectPaymentMethod.linepay.disabled.desc</key>
+	<string>ต้องยืนยันตัวตนด้วยบัญชีธนาคาร</string>
+	<key>pay.splitbill.selectPaymentMethod.linepay.guide</key>
+	<string>รับพอยท์ LINE Points ตามระดับสมาชิกเมื่อชำระเงินด้วยวิธีนี้</string>
+	<key>pay.splitbill.selectPaymentMethod.linepayCard</key>
+	<string>บัตร LINE Pay</string>
+	<key>pay.splitbill.selectPaymentMethod.qrCode</key>
+	<string>รหัสของฉัน</string>
+	<key>pay.splitbill.selectPaymentMethod.scanCode</key>
+	<string>สแกนคิวอาร์โค้ดเพื่อชำระเงิน</string>
+	<key>pay.splitbill.startSplitbill</key>
+	<string>แชร์เงินกับเพื่อนๆ</string>
+	<key>pay.splitbill.statusComplete</key>
+	<string>ชำระเงินแล้ว</string>
+	<key>pay.splitbill.statusNeedToPayment</key>
+	<string>ยังไม่ชำระเงิน</string>
+	<key>pay.splitbill.statusNeedToReceive</key>
+	<string>กำลังเรียกเก็บเงิน</string>
+	<key>pay.splitbill.statusOngoing</key>
+	<string>รอเพิ่มเพื่อน</string>
+	<key>pay.splitbill.titlePlaceholder</key>
+	<string>โปรดใส่ชื่อการแชร์เงิน</string>
+	<key>pay.splitbill.totalAmount</key>
+	<string>(รวม %1$@)</string>
+	<key>pay.splitbill.unknownUser</key>
+	<string>ไม่มีผู้ใช้นี้</string>
+	<key>pay.splitbill.updateFriends.count</key>
+	<string>ผู้ร่วมแชร์เงิน %1$@</string>
+	<key>pay.splitbill.updateSplitbill</key>
+	<string>แก้ไขจำนวนเงิน</string>
+	<key>pay.splitbill.waiting</key>
+	<string>กำลังรอการชำระเงิน</string>
+	<key>pay.suspended.coupon</key>
+	<string>ไม่สามารถใช้ได้ในขณะนี้</string>
+	<key>pay.th.identification.otherMethod</key>
+	<string>ช่องทางอื่นๆ</string>
+	<key>pay.th.signUp.actualAddress</key>
+	<string>ที่พักอาศัย</string>
+	<key>pay.th.signUp.alert.foreignerCheck</key>
+	<string>แตะ "ตกลง" เพื่อไปยังหน้าจอสมัครใช้งานสำหรับผู้ที่ไม่ได้มีสัญชาติไทย โปรดทราบว่าผู้ที่มีสัญชาติไทยไม่สามารถสมัครใช้งานจากหน้าจอดังกล่าวได้</string>
+	<key>pay.th.signUp.idCardAddress</key>
+	<string>ที่อยู่บนบัตรประจำตัว</string>
+	<key>pay.th.signUp.idCardAddress.foreigner.guidetext</key>
+	<string>โปรดตรวจสอบว่าได้ใส่ที่อยู่ตามบัตรประจำตัวที่ออกในประเทศของคุณ หรือที่อยู่ของที่พักอาศัยในประเทศบ้านเกิดของคุณอย่างถูกต้องแล้ว</string>
+	<key>pay.th.signUp.idCardAddress.guidetext</key>
+	<string>โปรดตรวจสอบว่าได้ใส่ที่อยู่ตามบัตรประจำตัวอย่างถูกต้องแล้ว</string>
+	<key>pay.th.signUp.sameAddressAbove</key>
+	<string>เหมือนด้านบน</string>
+	<key>pay.th.signUp.workplaceAddress</key>
+	<string>ที่ทำงาน</string>
+	<key>pay.th.signup.agree.guide</key>
+	<string>แตะปุ่ม "สมัครใช้บริการ" เพื่อยอมรับข้อกำหนดและนโยบายข้างต้น ข้อตกลงนี้จะมีผลแม้ว่าคุณจะลงทะเบียนไม่เสร็จสมบูรณ์ก็ตาม</string>
+	<key>pay.tos.agreeTo</key>
+	<string>ข้าพเจ้ายอมรับใน %@</string>
+	<key>pay.touchid.authentication</key>
+	<string>ใช้ %@</string>
+	<key>pay.touchid.noEnrolled</key>
+	<string>อุปกรณ์ของคุณไม่รองรับ %@ หรือคุณยังไม่ได้ตั้งค่าเพื่อใช้ %@ หากอุปกรณ์ของคุณรองรับ %@ โปรดตั้งค่าให้สามารถใช้งานได้แล้วลองใหม่อีกครั้ง</string>
+	<key>pay.touchid.turnedOff</key>
+	<string>ต้องการใช้ %@ ใช่หรือไม่ คุณต้องใส่รหัสผ่านเพื่อใช้ %@</string>
+	<key>pay.transaction.legislation</key>
+	<string>ข้อมูลผู้ให้บริการโอนเงิน</string>
+	<key>pay.transaction.request.timeout</key>
+	<string>ไม่สามารถยืนยันสถานะของรายการได้ โปรดตรวจสอบที่รายละเอียดการทำรายการ</string>
+	<key>pay.transfer.InfobyBalance</key>
+	<string>- ยอดคงเหลือ LINE Pay ใช้ชำระเงิน ส่งให้ผู้อื่น และถอนเป็นเงินสดได้
+- โบนัส LINE Pay ใช้ชำระเงินและส่งให้ผู้อื่นได้แต่ถอนเป็นเงินสดไม่ได้
+* ยอดคงเหลือ LINE Pay จะถูกนำมาใช้ก่อน หากจำนวนเงินไม่พอจึงนำโบนัส LINE Pay มาใช้ร่วมด้วย</string>
+	<key>pay.transfer.InfobyBalance.certified</key>
+	<string>ใช้บริการได้หลังยืนยันตัวตน</string>
+	<key>pay.transfer.InfobyBalance.jp</key>
+	<string>- ยอดคงเหลือ LINE Pay ใช้ชำระเงิน ส่งให้ผู้อื่น และถอนเป็นเงินสดได้
+- โบนัส LINE Pay ใช้ชำระเงินและส่งให้ผู้อื่นได้ แต่ถอนเป็นเงินสดไม่ได้
+* ยอดคงเหลือ LINE Pay จะถูกนำมาใช้ก่อน หากจำนวนเงินไม่พอจึงนำโบนัส LINE Pay มาใช้ร่วมด้วย</string>
+	<key>pay.transfer.InfobyBalance.title</key>
+	<string>เกี่ยวกับบริการนี้</string>
+	<key>pay.transfer.bonusBalance</key>
+	<string>LINE Pay โบนัส</string>
+	<key>pay.transfer.bonusInfo</key>
+	<string> ถอนเป็นเงินสดไม่ได้</string>
+	<key>pay.transfer.charge</key>
+	<string>เติมเงิน</string>
+	<key>pay.transfer.complete.alert</key>
+	<string>ส่งเงินแล้ว
+อาจต้องใช้เวลาสักครู่ในการอัพเดตข้อมูล</string>
+	<key>pay.transfer.complete.alert.jp</key>
+	<string>ส่งเงิน &amp; โบนัสแล้ว
+การอัพเดตยอดคงเหลืออาจต้องใช้เวลาสักครู่</string>
+	<key>pay.transfer.currency.about</key>
+	<string>(มูลค่าโดยประมาณ)</string>
+	<key>pay.transfer.input.maxMoney.alert</key>
+	<string>จำนวนเงินเกินวงเงินที่กำหนดไว้
+และจะถูกแก้ไขให้เป็นจำนวนเงินสูงสุดที่สามารถกำหนดได้</string>
+	<key>pay.transfer.input.maxMoney.alert.jp</key>
+	<string>จำนวนเงินจะถูกเปลี่ยนเนื่องจากเกินวงเงินสูงสุดของการส่งเงิน &amp; โบนัส</string>
+	<key>pay.transfer.input.minMoney.alert</key>
+	<string>จำนวนเงินที่ระบุน้อยกว่าจำนวนเงินขั้นต่ำที่ส่งได้</string>
+	<key>pay.transfer.input.remain</key>
+	<string>ยอดคงเหลือ</string>
+	<key>pay.transfer.input.remain.tw</key>
+	<string>ยอดคงเหลือ</string>
+	<key>pay.transfer.needCharge.alert</key>
+	<string>มียอดคงเหลือไม่พอ</string>
+	<key>pay.transfer.openChat.alert</key>
+	<string>ดู</string>
+	<key>pay.transfer.payBalance</key>
+	<string>ยอดคงเหลือ LINE Pay</string>
+	<key>pay.transfer.receive.description</key>
+	<string>คุณส่งเงินให้ %1$@</string>
+	<key>pay.transfer.receive.description.jp</key>
+	<string>คุณส่งเงิน &amp; โบนัสให้ %1$@</string>
+	<key>pay.transfer.request.description</key>
+	<string>%1$@ ส่งเงินให้คุณ</string>
+	<key>pay.transfer.request.description.jp</key>
+	<string>%1$@ ส่งเงิน &amp; โบนัสให้คุณ</string>
+	<key>pay.transfer.selectFriends.title</key>
+	<string>เลือกเพื่อน</string>
+	<key>pay.transfer.sendButton</key>
+	<string>ส่งเงิน</string>
+	<key>pay.transfer.sendButton.jp</key>
+	<string>ส่งเงิน &amp; โบนัส</string>
+	<key>pay.transfer.sendConfirm.alert</key>
+	<string>ต้องการส่งเงินจำนวน %1$@ หรือไม่</string>
+	<key>pay.transfer.sendConfirm.alert.jp</key>
+	<string>‎ต้องการส่งเงิน &amp; โบนัสมูลค่า ‎%1$@ หรือไม่</string>
+	<key>pay.transfer.sendMoney.message</key>
+	<string>โปรดใส่ข้อความ</string>
+	<key>pay.transfer.title</key>
+	<string>ส่งเงินให้ทุกคนได้ แม้ผู้รับจะไม่มีบัญชี Pay ก็ตาม</string>
+	<key>pay.transfer.title.jp</key>
+	<string>ส่งเงิน &amp; โบนัสให้เพื่อน LINE!</string>
+	<key>pay.transfer.title.tw</key>
+	<string>You may only transfer money to your friends on Taiwan's LINE, and the receiver must complete iPASS account registration within 3 days upon receipt of notification to receive the money.</string>
+	<key>pay.transfer.used.bonusBalance</key>
+	<string>โบนัส LINE Pay</string>
+	<key>pay.transfer.used.bonusInfo</key>
+	<string> ผู้รับถอนเป็นเงินสดไม่ได้</string>
+	<key>pay.userInfo.birthday</key>
+	<string>วันเกิด</string>
+	<key>pay.userInfo.birthday.th</key>
+	<string>วันเดือนปีเกิด (ปีพุทธศักราช)</string>
+	<key>pay.userInfo.firstName</key>
+	<string>ชื่อ</string>
+	<key>pay.userInfo.firstName.katakana</key>
+	<string>ชื่อ</string>
+	<key>pay.userInfo.lastName</key>
+	<string>นามสกุล</string>
+	<key>pay.userInfo.lastName.katakana</key>
+	<string>นามสกุล</string>
+	<key>pay.userInfo.name</key>
+	<string>ชื่อ(คันจิ)</string>
+	<key>pay.userInfo.name.katakana</key>
+	<string>ชื่อ(คะตะกะนะ)</string>
+	<key>pay.userInfo.th.citizenID</key>
+	<string>เลขประจำตัวประชาชน</string>
+	<key>pay.userInfo.th.citizenID.guide</key>
+	<string>โปรดใส่ข้อมูล</string>
+	<key>pay.userInfo.th.laserNum</key>
+	<string>หมายเลขเลเซอร์</string>
+	<key>pay.userInfo.th.laserNum.guide</key>
+	<string>ตย. JC123456789</string>
+	<key>pay.userInfo.th.name</key>
+	<string>ชื่อ (ภาษาไทย)</string>
+	<key>pay.virtualcard.delete.description</key>
+	<string>บัญชีและยอดคงเหลือใน LINE Pay ของคุณจะไม่ได้รับผลกระทบจากการลบบัตรเสมือน
+คุณสามารถสมัครได้ไม่เกิน 2 ครั้งต่อเดือน</string>
+	<key>pay.virtualcard.issue</key>
+	<string>สร้างบัตรเสมือน</string>
+	<key>pay.virtualcard.issue.complete</key>
+	<string>คุณสร้างบัตรเสมือน</string>
+	<key>pay.virtualcard.issue.description</key>
+	<string>ช้อปปิ้งที่ร้านค้าออนไลน์ที่รับบัตร JCB แล้วชำระเงินด้วยยอดคงเหลือใน LINE Pay ผ่านบัตรเสมือน</string>
+	<key>pay.virtualcard.issue.title</key>
+	<string>รับบัตรเสมือนได้ทันที!</string>
+	<key>pay.virtualcard.suspension.guide</key>
+	<string>ต้องการอนุญาตให้ใช้บัตรทางออนไลน์หรือไม่ เมื่ออนุญาตแล้วจะใช้บัตรออนไลน์ได้เพียงหนึ่งชั่วโมงเท่านั้น ด้วยเหตุผลด้านความปลอดภัย หรือลงทะเบียนบัตรจริงเพื่อให้ใช้บัตรออนไลน์ได้ตลอดเวลา</string>
+	<key>pay.withdraw.account.title</key>
+	<string>บัญชีธนาคารสำหรับถอนเงิน</string>
+	<key>pay.withdraw.act</key>
+	<string>ถอนเงิน</string>
+	<key>pay.withdraw.amount</key>
+	<string>จำนวนเงินที่ถอน</string>
+	<key>pay.withdraw.changeAmount</key>
+	<string>แก้ไข</string>
+	<key>pay.withdraw.etcBank</key>
+	<string>ธนาคารอื่น</string>
+	<key>pay.withdraw.fee</key>
+	<string>ค่าบริการ</string>
+	<key>pay.withdraw.info.alert</key>
+	<string>กำลังถอนเงิน อีกสักครู่คุณจะสามารถตรวจสอบยอดคงเหลือได้ที่ "ประวัติยอดคงเหลือ"</string>
+	<key>pay.withdraw.overEachMinAmount</key>
+	<string>คุณสามารถถอนเงินได้สูงสุด %1$@</string>
+	<key>pay.withdraw.totalAmount</key>
+	<string>รวมจำนวนเงินที่หัก</string>
+	<key>pay.withdraw.underEachMinAmount</key>
+	<string>การถอนเงินต้องมีมูลค่าขั้นต่ำ %1$@</string>
+	<key>pay_balance_dec_pocket_money_cashuser</key>
+	<string>คุณสามารถยืมเงินจาก LINE Pocket Money ได้สูงสุด 50,000 เยน</string>
+	<key>pay_balance_dec_pocket_money_moneyuser</key>
+	<string>คุณสามารถใช้ LINE Pocket Money ได้ {0} เยน</string>
+	<key>random_key_forgot_passcode_1</key>
+	<string>ไม่สามารถลบบัญชี LINE Pay ได้ เนื่องจากมีธุรกรรมที่อยู่ระหว่างการดำเนินการ</string>
+	<key>random_key_forgot_passcode_2</key>
+	<string>ไม่สามารถลบบัญชี Rabbit LINE Pay ได้ในกรณีต่อไปนี้</string>
+	<key>random_key_forgot_passcode_3</key>
+	<string>โปรดติดต่อฝ่ายดูแลลูกค้าเพื่อสอบถามรายละเอียดเพิ่มเติม</string>
+	<key>random_key_forgot_passcode_4</key>
+	<string>มีธุรกรรมที่อยู่ระหว่างการดำเนินการ</string>
+	<key>random_key_forgot_passcode_5</key>
+	<string>มียอดคงเหลือในบัญชี LINE Pay</string>
+	<key>random_key_forgot_passcode_6</key>
+	<string>กำหนดให้ใช้บัญชี LINE Pay ในการชำระค่าบริการ LINE TAXI</string>
+	<key>random_key_forgot_passcode_7</key>
+	<string>โปรดใส่ตัวเลข 12 หลักบนบัตรโดยยกเว้นเลข 4 ตัวแรก</string>
+	<key>random_key_forgot_passcode_bottom_1</key>
+	<string>หากรีเซ็ตรหัสผ่านไม่ได้ คุณสามารถลบบัญชี LINE Pay แล้วสมัครใช้บริการอีกครั้ง</string>
+	<key>random_key_forgot_passcode_bottom_2</key>
+	<string>ลบบัญชี LINE Pay</string>
+	<key>random_key_forgot_passcode_bottom_3</key>
+	<string>หากคุณไม่สามารถยืนยันตัวตนหรือลบบัญชี LINE Pay โปรดติดต่อฝ่ายดูแลลูกค้าเพื่อเปลี่ยนรหัสผ่าน โดยแตะ "หน้าช่วยเหลือ" ด้านล่าง</string>
+	<key>randomkey_delete_account_confirm_popup_1</key>
+	<string></string>
+	<key>randomkey_delete_account_confirm_popup_2</key>
+	<string></string>
+	<key>randomkey_delete_account_confirm_popup_3</key>
+	<string></string>
+	<key>setting.history.accumulation.type.bonus</key>
+	<string>โบนัส</string>
+	<key>setting.history.bonus.restricted.store</key>
+	<string>Bonus-exempt merchant</string>
+	<key>settings.privacy.account.identification.prompt</key>
+	<string>ที่อยู่ที่ลงทะเบียนไว้และที่อยู่บนบัตรประจำตัวจะต้องเหมือนกัน เราจะส่งเอกสารยืนยันตัวตนไปยังที่อยู่ด้านบน</string>
+	<key>yes</key>
+	<string>ใช่</string>
+</dict>
+</plist>

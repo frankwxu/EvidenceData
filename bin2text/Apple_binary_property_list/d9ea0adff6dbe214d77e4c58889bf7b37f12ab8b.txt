@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>badgeShapeName</key>
+	<string>circle</string>
+	<key>predicate</key>
+	<string>(workout.type == 37 OR workout.type == 52 OR workout.type == 70 OR workout.type == 71) AND workout.kilometers &gt;= 1.609</string>
+	<key>triggers</key>
+	<integer>2</integer>
+	<key>visibilityStart</key>
+	<string>2017-05-12</string>
+	<key>visibilityEnd</key>
+	<string>2017-05-14</string>
+	<key>availabilityStart</key>
+	<string>2017-05-14</string>
+	<key>identifier</key>
+	<string>MOTHERS_DAY_US_2017</string>
+	<key>displayOrder</key>
+	<integer>4</integer>
+	<key>availableCountryCodes</key>
+	<array>
+		<string>US</string>
+	</array>
+	<key>alertDates</key>
+	<array>
+		<string>2017-05-13</string>
+	</array>
+	<key>availabilityEnd</key>
+	<string>2017-05-14</string>
+</dict>
+</plist>

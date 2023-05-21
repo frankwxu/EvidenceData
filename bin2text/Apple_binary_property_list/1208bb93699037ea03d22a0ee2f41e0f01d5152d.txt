@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Model</key>
+	<string>N69AP</string>
+	<key>Interfaces</key>
+	<array>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/uart4@A0D0000/AppleSamsungSerial/wlan/AppleBCMWLANBusInterfacePCIe/AppleBCMWLANCore/AppleBCMWLANSkywalkInterface/IOSkywalkLegacyEthernet/en0</string>
+			<key>IOMACAddress</key>
+			<data>
+			oNeVed2h
+			</data>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>0</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>IEEE80211</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Wi-Fi</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>en0</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-device@100000/AppleSynopsysOTG3Device@0/AppleUSBEthernet@5/AppleUSBEthernetDevice/en1</string>
+			<key>IOMACAddress</key>
+			<data>
+			oteVed2j
+			</data>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>1</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Ethernet Adaptor (en1)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>en1</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-device@100000/AppleSynopsysOTG3Device@0/AppleUSBNCMData@c/AppleUSBDeviceNCMData/en2</string>
+			<key>IOMACAddress</key>
+			<data>
+			oteVed1c
+			</data>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>2</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Ethernet Adaptor (en2)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>en2</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>pdp_ip</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-ehci1@03000000/AppleS5L8960XUSBEHCI@03000000/hsic-baseband@03100000/hsic-baseband/pdp_ip0/pdp_ip0</string>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>0</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Cellular</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceType</key>
+			<integer>255</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Cellular (pdp_ip0)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>pdp_ip0</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>pdp_ip</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-ehci1@03000000/AppleS5L8960XUSBEHCI@03000000/hsic-baseband@03100000/hsic-baseband/pdp_ip1/pdp_ip1</string>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>1</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Cellular</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceType</key>
+			<integer>255</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Cellular (pdp_ip1)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>pdp_ip1</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>pdp_ip</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-ehci1@03000000/AppleS5L8960XUSBEHCI@03000000/hsic-baseband@03100000/hsic-baseband/pdp_ip2/pdp_ip2</string>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>2</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Cellular</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceType</key>
+			<integer>255</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Cellular (pdp_ip2)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>pdp_ip2</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>pdp_ip</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-ehci1@03000000/AppleS5L8960XUSBEHCI@03000000/hsic-baseband@03100000/hsic-baseband/pdp_ip3/pdp_ip3</string>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>3</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Cellular</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceType</key>
+			<integer>255</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Cellular (pdp_ip3)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>pdp_ip3</string>
+		</dict>
+		<dict>
+			<key>IOInterfaceNamePrefix</key>
+			<string>pdp_ip</string>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@2240000/AppleS8000IO/usb-complex@C900000/AppleS5L8960XUSBArbitrator/usb-ehci1@03000000/AppleS5L8960XUSBEHCI@03000000/hsic-baseband@03100000/hsic-baseband/pdp_ip4/pdp_ip4</string>
+			<key>Active</key>
+			<true/>
+			<key>IOInterfaceUnit</key>
+			<integer>4</integer>
+			<key>SCNetworkInterfaceType</key>
+			<string>Cellular</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceType</key>
+			<integer>255</integer>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Cellular (pdp_ip4)</string>
+			</dict>
+			<key>BSD Name</key>
+			<string>pdp_ip4</string>
+		</dict>
+	</array>
+	<key>__VERSION__</key>
+	<integer>20191120</integer>
+</dict>
+</plist>

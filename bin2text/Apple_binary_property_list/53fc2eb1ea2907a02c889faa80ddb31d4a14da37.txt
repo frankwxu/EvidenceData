@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>NotificationContent</string>
+	<key>CFBundleExecutable</key>
+	<string>NotificationContentExtension</string>
+	<key>CFBundleIdentifier</key>
+	<string>ph.telegra.Telegraph.NotificationContent</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Telegram</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.0</string>
+	<key>CFBundleVersion</key>
+	<string>16868</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>UNNotificationExtensionCategory</key>
+			<array>
+				<string>withReplyMedia</string>
+				<string>withMuteMedia</string>
+			</array>
+			<key>UNNotificationExtensionInitialContentSizeRatio</key>
+			<real>0.0001</real>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.usernotifications.content-extension</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>NotificationViewController</string>
+	</dict>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>13.4</string>
+	<key>DTSDKName</key>
+	<string>iphoneos13.4</string>
+	<key>MinimumOSVersion</key>
+	<string>10.0</string>
+	<key>DTPlatformBuild</key>
+	<string>17E255</string>
+	<key>DTSDKBuild</key>
+	<string>17E255</string>
+	<key>DTXcodeBuild</key>
+	<string>11E146</string>
+	<key>DTXcode</key>
+	<string>1140</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jeśli zgromadzisz dziś {{goal_value:minutes}} min Ćwiczeń, ta strzałka jutro zmieni kierunek. Dajesz!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twoja strzałka Ćwiczenie wygląda dobrze. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twoja strzałka Ćwiczenie jest skierowana w górę. I tak ma być. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka Ćwiczenie jest skierowana w dół, ale nieznacznie. Zgromadź {{goal_value:minutes}} min ćwiczeń dziennie przez %#@num_days@ i zmień jej kierunek.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ta strzałka jest skierowana w dół, ale ostatnio gromadzisz więcej minut ćwiczeń. Gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 30 dni, a zmienisz kierunek strzałki. {{username}}, nie trać impetu!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby zmienić kierunek strzałki, gromadź średnio co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 30 dni. {{username}}, ostatnio gromadzisz więcej minut ćwiczeń, więc dasz radę!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ta strzałka jest skierowana w dół, ale nieznacznie. Gromadź ponad {{goal_value:minutes}} min ćwiczeń dziennie przez %#@num_days@, a zmienisz jej kierunek.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nadal gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie, a ta strzałka nie zmieni kierunku. {{username}}, idzie Ci świetnie!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twoja strzałka Ćwiczenie wygląda dobrze. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ta strzałka jest skierowana w dół, ale ostatnio gromadzisz więcej minut ćwiczeń. Gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 14 dni, a zmienisz kierunek strzałki. Nie trać impetu!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Możesz zmienić kierunek strzałki Ćwiczenie, po prostu zawalcz przez %#@num_days@, gromadząc co najmniej {{goal_value:minutes}} min ćwiczeń dziennie.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka Ćwiczenie jest skierowana w górę. Aby to utrzymać, musisz gromadzić co najmniej {{goal_value:minutes}} min ćwiczeń dziennie!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby ponownie skierować strzałkę w górę, gromadź średnio co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez %#@num_days@. Dasz radę!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twoja strzałka Ćwiczenie wygląda dobrze. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ta strzałka jest skierowana w dół, ale ostatnio gromadzisz więcej minut ćwiczeń. Gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 14 dni, a zmienisz kierunek strzałki. {{username}}, nie trać impetu!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nadal gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie, a ta strzałka nie zmieni kierunku. Idzie Ci świetnie!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby zmienić kierunek strzałki, gromadź średnio co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 14 dni. {{username}}, ostatnio gromadzisz więcej minut ćwiczeń, więc dasz radę!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ta strzałka jest skierowana w dół, ale nieznacznie. Gromadź ponad {{goal_value:minutes}} min ćwiczeń dziennie przez %#@num_days@, a zmienisz jej kierunek.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twoja strzałka Ćwiczenie jest skierowana w górę. I tak ma być. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, możesz zmienić kierunek strzałki Ćwiczenie, po prostu zawalcz przez %#@num_days@, gromadząc co najmniej {{goal_value:minutes}} min ćwiczeń dziennie.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, strzałka Ćwiczenie jest skierowana w dół, ale nieznacznie. Zgromadź {{goal_value:minutes}} min ćwiczeń dziennie przez %#@num_days@ i zmień jej kierunek.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby ponownie skierować strzałkę w górę, gromadź średnio co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez %#@num_days@. Dasz radę, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d kolejne dni</string>
+			<key>one</key>
+			<string>jeszcze %d dzień</string>
+			<key>many</key>
+			<string>%d kolejnych dni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d kolejnego dnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Na początek spróbuj gromadzić co najmniej {{goal_value:minutes}} min ćwiczeń dziennie. W przyszłym tygodniu dostaniesz nowy cel. Rób regularne postępy, a strzałka zmieni kierunek za około %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tygodnie</string>
+			<key>one</key>
+			<string>%d tydzień</string>
+			<key>many</key>
+			<string>%d tygodni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tygodnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ta strzałka jest skierowana w dół, ale ostatnio gromadzisz więcej minut ćwiczeń. Gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 30 dni, a zmienisz kierunek strzałki. Nie trać impetu!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nadal gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie, a ta strzałka nie zmieni kierunku. Idzie Ci świetnie!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Twoja strzałka Ćwiczenie jest skierowana w górę. I tak ma być. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka Ćwiczenie jest skierowana w górę. Aby to utrzymać, {{username}}, musisz gromadzić co najmniej {{goal_value:minutes}} min ćwiczeń dziennie!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Szybki spacer każdego dnia pozwoli Ci ponownie skierować strzałkę liczby minut ćwiczeń w górę. {{username}}, uda Ci się.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twoja strzałka Ćwiczenie wygląda dobrze. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Twoja strzałka Ćwiczenie jest skierowana w górę. I tak ma być. Brawo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby zmienić kierunek strzałki, gromadź średnio co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 14 dni. Ostatnio gromadzisz więcej minut ćwiczeń, więc dasz radę!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>To ważna strzałka i byłoby świetnie, gdyby była skierowana w górę. Zacznij od gromadzenia co najmniej {{goal_value:minutes}} min ćwiczeń dziennie w tym tygodniu. Rób regularne postępy, a strzałka zmieni kierunek za około %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tygodnie</string>
+			<key>one</key>
+			<string>%d tydzień</string>
+			<key>many</key>
+			<string>%d tygodni</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tygodnia</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Szybki spacer każdego dnia pozwoli Ci ponownie skierować strzałkę liczby minut ćwiczeń w górę. Uda Ci się.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka wygląda dobrze, ale Twoja liczba minut ćwiczeń ostatnio spadała. {{username}}, jeśli nie chcesz, aby strzałka zmieniła kierunek, spróbuj szybkiego marszu każdego dnia!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, jeśli zgromadzisz dziś {{goal_value:minutes}} min Ćwiczeń, ta strzałka jutro zmieni kierunek. Dajesz!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Strzałka wygląda dobrze, ale Twoja liczba minut ćwiczeń ostatnio spadała. Jeśli nie chcesz, aby strzałka zmieniła kierunek, spróbuj szybkiego marszu każdego dnia!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nadal gromadź co najmniej {{goal_value:minutes}} min ćwiczeń dziennie, a ta strzałka nie zmieni kierunku. {{username}}, idzie Ci świetnie!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aby zmienić kierunek strzałki, gromadź średnio co najmniej {{goal_value:minutes}} min ćwiczeń dziennie przez następnych 30 dni. Ostatnio gromadzisz więcej minut ćwiczeń, więc dasz radę!</string>
+	</dict>
+</dict>
+</plist>

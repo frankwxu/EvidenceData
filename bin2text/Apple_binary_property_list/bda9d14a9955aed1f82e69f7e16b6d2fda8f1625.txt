@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора придать этой стрелке верное направление, {{username}}! В течение %#@num_days@ сжигайте калории — хотя бы по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы почти повернули эту стрелку! В течение %#@num_days@ сжигайте калории — по {{goal_value:energy}} в день, и Вы своего добьетесь.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отличная активность, {{username}}. Продолжайте двигаться и сжигать калории, чтобы стрелка и дальше указывала вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, с ежедневной подвижностью у Вас все в порядке. Так держать!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора поднять эту стрелку! В течение %#@num_days@ сжигайте калории — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора поднять эту стрелку, {{username}}! В течение %#@num_days@ сжигайте калории — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отличная активность! Продолжайте двигаться, чтобы стрелка и дальше указывала вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Эта стрелка требует внимания. Чтобы все исправить, сжигайте калории — хотя бы по {{goal_value:energy}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы повернуть эту стрелку, сжигайте калории — хотя бы по {{goal_value:energy}} в день. А на следующей неделе ждите новую цель. Если Вы будете соблюдать график, примерно через %#@num_weeks@ стрелка будет указывать вверх, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку! Нужно лишь в течение %#@num_days@ сжигать калории — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отличная активность, {{username}}. Продолжайте двигаться и сжигать калории, чтобы стрелка и дальше указывала вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>На этой неделе поработайте над данной стрелкой, сжигая калории — хотя бы по {{goal_value:energy}} в день. Вы будете еженедельно получать новую цель, пока стрелка не начнет указывать вверх. Это должно занять примерно %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>На этой неделе поработайте над данной стрелкой, сжигая килоджоули — хотя бы по {{goal_value:energy}} в день. Вы будете еженедельно получать новую цель, пока стрелка не начнет указывать вверх. Это должно занять примерно %#@num_weeks@, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, с ежедневной подвижностью у Вас все в порядке. Так держать!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>С ежедневной подвижностью у Вас все в порядке. Так держать!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Отличная активность! Продолжайте двигаться, чтобы стрелка и дальше указывала вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Эта стрелка требует внимания, {{username}}. Чтобы все исправить, сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>С ежедневной подвижностью у Вас все в порядке. Так держать!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы почти повернули эту стрелку! В течение %#@num_days@ сжигайте килоджоули — по {{goal_value:energy}} в день, и Вы своего добьетесь.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, стрелка пока направлена вверх, но в последнее время Вы стали двигаться меньше. Чтобы стрелка продолжала указывать в правильном направлении, необходимо ежедневно больше двигаться.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, стрелка направлена вверх, но с недавнего времени Вы стали сжигать меньше калорий. Двигайтесь больше каждый день. У Вас получится.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сжигайте сегодня килоджоули — хотя бы {{goal_value:energy}}, и стрелка снова поднимется! Вперед, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сейчас стрелка смотрит вниз, но это ненадолго! Поверните ее, сжигая калории в течение %#@num_days@ — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку! Нужно лишь в течение %#@num_days@ сжигать килоджоули — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ваша стрелка движения направлена вниз, но наблюдается тренд к повышению количества сжигаемых калорий. Сжигайте калории — не менее {{goal_value:energy}} ежедневно — в течение следующих 30 дней, чтобы поднять стрелку.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сжигайте сегодня килоджоули — хотя бы {{goal_value:energy}}, и стрелка снова поднимется! Вперед!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора повернуть Вашу стрелку движения! В течение следующих 30 дней сжигайте калории — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сейчас стрелка смотрит вниз, но это ненадолго! Поверните ее, сжигая килоджоули в течение %#@num_days@ — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы почти повернули эту стрелку, {{username}}! В течение %#@num_days@ сжигайте килоджоули — по {{goal_value:energy}} в день, и Вы своего добьетесь.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ваша стрелка движения направлена вниз, но наблюдается тренд к повышению количества сжигаемых килоджоулей. Сжигайте килоджоули — не менее {{goal_value:energy}} ежедневно — в течение следующих 30 дней, чтобы поднять стрелку.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы повернуть эту стрелку, сжигайте калории — хотя бы по {{goal_value:energy}} в день. А на следующей неделе ждите новую цель. Если Вы будете соблюдать график, примерно через %#@num_weeks@ стрелка будет указывать вверх.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку, {{username}}! Нужно лишь в течение %#@num_days@ сжигать килоджоули — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора повернуть Вашу стрелку движения! В течение следующих 30 дней сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_CAL_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>На этой неделе поработайте над данной стрелкой, сжигая калории — хотя бы по {{goal_value:energy}} в день. Вы будете еженедельно получать новую цель, пока стрелка не начнет указывать вверх. Это должно занять примерно %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы почти повернули эту стрелку, {{username}}! В течение %#@num_days@ сжигайте калории — по {{goal_value:energy}} в день, и Вы своего добьетесь.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сжигайте сегодня калории — хотя бы {{goal_value:energy}}, и стрелка снова поднимется! Вперед, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора придать этой стрелке верное направление! В течение %#@num_days@ сжигайте калории — хотя бы по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка пока направлена вверх, но в последнее время Вы стали двигаться меньше. Чтобы стрелка продолжала указывать в правильном направлении, необходимо ежедневно больше двигаться.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора придать этой стрелке верное направление! В течение %#@num_days@ сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сейчас стрелка смотрит вниз, но это ненадолго, {{username}}! Поверните ее, сжигая килоджоули в течение %#@num_days@ — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_CAL_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сжигайте сегодня калории — хотя бы {{goal_value:energy}}, и стрелка снова поднимется! Вперед!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора придать этой стрелке верное направление, {{username}}! В течение %#@num_days@ сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Ваша стрелка движения направлена вниз, но наблюдается тренд к повышению количества сжигаемых калорий. Сжигайте калории — не менее {{goal_value:energy}} ежедневно — в течение следующих 30 дней, чтобы поднять стрелку.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку, {{username}}! Нужно лишь в течение %#@num_days@ сжигать калории — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы повернуть эту стрелку, сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день. А на следующей неделе ждите новую цель. Если Вы будете соблюдать график, примерно через %#@num_weeks@ стрелка будет указывать вверх.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы повернуть эту стрелку, сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день. А на следующей неделе ждите новую цель. Если Вы будете соблюдать график, примерно через %#@num_weeks@ стрелка будет указывать вверх, {{username}}.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_NAME_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора поднять эту стрелку, {{username}}! В течение %#@num_days@ сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, Ваша стрелка движения направлена вниз, но наблюдается тренд к повышению количества сжигаемых килоджоулей. Сжигайте килоджоули — не менее {{goal_value:energy}} ежедневно — в течение следующих 30 дней, чтобы поднять стрелку.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KJ_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>На этой неделе поработайте над данной стрелкой, сжигая килоджоули — хотя бы по {{goal_value:energy}} в день. Вы будете еженедельно получать новую цель, пока стрелка не начнет указывать вверх. Это должно занять примерно %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_CAL_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сейчас стрелка смотрит вниз, но это ненадолго, {{username}}! Поверните ее, сжигая калории в течение %#@num_days@ — всего по {{goal_value:energy}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KJ_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Эта стрелка требует внимания. Чтобы все исправить, сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_CAL_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Эта стрелка требует внимания, {{username}}. Чтобы все исправить, сжигайте калории — хотя бы по {{goal_value:energy}} в день.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KJ_5</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора поднять эту стрелку! В течение %#@num_days@ сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_KJ_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора повернуть Вашу стрелку движения, {{username}}! В течение следующих 30 дней сжигайте килоджоули — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка направлена вверх, но с недавнего времени Вы стали сжигать меньше калорий. Двигайтесь больше каждый день. У Вас получится.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_CAL_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Пора повернуть Вашу стрелку движения, {{username}}! В течение следующих 30 дней сжигайте калории — хотя бы по {{goal_value:energy}} в день, и Вы снова окажетесь на коне.</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>locale</key>
+	<string>en-US</string>
+	<key>inappnote</key>
+	<string>In-App Purchases</string>
+	<key>tabs</key>
+	<dict>
+		<key>standard</key>
+		<array>
+			<dict>
+				<key>id</key>
+				<string>music</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&amp;id=1</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>movies</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&amp;id=39</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>tv</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&amp;id=37</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>search</string>
+				<key>url</key>
+				<string>https://search.itunes.apple.com/WebObjects/MZStore.woa/wa/search</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>tones</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRingtones?cc=us</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>genius</string>
+				<key>url</key>
+				<string>https://my.itunes.apple.com/WebObjects/MZPersonalizer.woa/wa/seeAllRecommendations</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>purchased</string>
+				<key>url</key>
+				<string>https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/purchases?mode=UNHIDDEN</string>
+			</dict>
+			<dict>
+				<key>id</key>
+				<string>downloads</string>
+			</dict>
+		</array>
+	</dict>
+	<key>appjs.v2</key>
+	<string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/appBootstrap</string>
+</dict>
+</plist>

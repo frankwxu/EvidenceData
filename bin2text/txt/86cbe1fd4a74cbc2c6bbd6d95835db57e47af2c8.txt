@@ -1,0 +1,20 @@
+[header]
+language = enu
+type = address
+charset = utf-8
+
+[data]
+# tn=address type ruleset removes tn=address markup at the end
+# this rule enables that tn=address markup can be (re)inserted
+# in the main ruleset
+/^/   -->   "\e<reinsert_tn_address_tag>"
+
+#Add any address domain specific rules here. For example:
+#/\bSt\b/ --> "Street"
+
+/\b([\d])([\d])([\d])([\d])([\d])\b/ --> "$1 $2 $3 $4 $5"
+/\b([A-Z])([A-Z])(?=\d{2}\b)/   -->   "$1 $2 "
+
+# ***This test entry must be the VERY LAST line in the rule set.***
+# rdar://problem/48523405 TTSVerifier: Check that user rules and dictionary file get correctly loaded on the device
+/\bC2D93839C1A54B90BFAFFC09AD42DF58\b/   -->   "OK"

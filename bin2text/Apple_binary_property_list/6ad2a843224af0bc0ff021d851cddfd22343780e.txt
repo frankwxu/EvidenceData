@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A teljes távolságot mutató nyíl lefelé néz, {{username}}. Ha azt szeretné, hogy a nyíl ismét a megfelelő irányba nézzen, próbáljon minden nap időt szakítani egy gyaloglásra!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ha van kedve tovább futni vagy gyalogolni, akkor ez a nyíl ismét felfelé fog mutatni. Próbáljon meg naponta legalább {{goal_value:distance}} távot teljesíteni, és találjon egy új célt a jövő héten. %#@num_weeks@ alatt megfordíthatja a nyíl irányát.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hét</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hét</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Szép munkát végzett a teljes távolsággal. Folytassa a futásokat és a gyaloglásokat, hogy a nyíl felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fordítsa meg ezt a nyilat! Ehhez naponta legalább {{goal_value:distance}} táv megtétele szükséges futva vagy gyalogolva a következő %#@num_days@ során.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha azt szeretné, hogy ez a nyíl ismét felfelé nézzen, gyalogoljon vagy fusson naponta {{goal_value:distance}} távot a következő %#@num_days@ során. Meg tudja csinálni, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, a teljes távolságot mutató nyíl felfelé néz. Fusson és gyalogoljon minden nap, hogy a nyíl továbbra is felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Szép munkát végzett a teljes távolsággal, {{username}}. Minden nap folytassa a futásokat és a gyaloglásokat, hogy a nyíl felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha azt szeretné, hogy ez a nyíl ismét felfelé nézzen, gyalogoljon vagy fusson naponta {{goal_value:distance}} távot a következő %#@num_days@ során. Meg tudja csinálni.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha azt szeretné, hogy a nyíl folyamatosan felfelé nézzen, a mostaninál többet kell gyalogolnia és futnia. Meg tudja csinálni!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Szép munkát végzett a teljes távolsággal, {{username}}. Folytassa a futásokat és a gyaloglásokat, hogy a nyíl felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha ma legalább {{goal_value:distance}} távot tesz meg futva vagy gyalogolva, akkor ez a nyíl ismét felfelé fog mutatni. Igazán megéri, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A teljes távolságot mutató nyíl felfelé néz. Fusson és gyalogoljon minden nap, hogy a nyíl továbbra is felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fordítsa meg ezt a nyilat, {{username}}! Ehhez naponta legalább {{goal_value:distance}} táv megtétele szükséges futva vagy gyalogolva a következő %#@num_days@ során.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tegyen meg naponta legalább {{goal_value:distance}} távot futva vagy gyalogolva a következő %#@num_days@ során, és a nyíl ismét felfelé fog nézni, {{username}}. Meg tudja csinálni.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha azt szeretné, hogy ez a nyíl ismét felfelé nézzen, gyalogoljon vagy fusson naponta {{goal_value:distance}} távot a következő %#@num_days@ során. Meg tudja csinálni.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha ma legalább {{goal_value:distance}} távot tesz meg futva vagy gyalogolva, akkor ez a nyíl ismét felfelé fog mutatni. Igazán megéri!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tegyen meg naponta legalább {{goal_value:distance}} távot futva vagy gyalogolva a következő %#@num_days@ során, és a nyíl ismét felfelé fog nézni. Meg tudja csinálni.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A teljes távolságot mutató nyíl felfelé néz. Fusson és gyalogoljon minden nap, hogy a nyíl továbbra is felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A teljes távolságot mutató nyíl lefelé néz. Ha azt szeretné, hogy a nyíl ismét a megfelelő irányba nézzen, próbáljon minden nap időt szakítani egy gyaloglásra!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha azt szeretné, hogy ez a nyíl ismét felfelé nézzen, gyalogoljon vagy fusson naponta {{goal_value:distance}} távot a következő %#@num_days@ során. Meg tudja csinálni, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ha van kedve tovább futni vagy gyalogolni, akkor ez a nyíl ismét felfelé fog mutatni. Próbáljon meg naponta legalább {{goal_value:distance}} távot teljesíteni, és találjon egy új célt a jövő héten. %#@num_weeks@ alatt megfordíthatja a nyíl irányát.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hét</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hét</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha azt szeretné, hogy a nyíl folyamatosan felfelé nézzen, a mostaninál többet kell gyalogolnia és futnia, {{username}}. Meg tudja csinálni!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha ma legalább {{goal_value:distance}} távot tesz meg futva vagy gyalogolva, akkor ez a nyíl ismét felfelé fog mutatni. Igazán megéri!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, gyalogoljon vagy fusson naponta legalább {{goal_value:distance}} távot a következő %#@num_days@ során a nyíl megfordításához. Igazán megéri!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tegyen meg naponta legalább {{goal_value:distance}} távot futva vagy gyalogolva a következő %#@num_days@ során, és a nyíl ismét felfelé fog nézni. Meg tudja csinálni.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha van kedve tovább futni vagy gyalogolni, akkor ez a nyíl ismét felfelé fog mutatni. Próbáljon meg naponta legalább {{goal_value:distance}} távot teljesíteni, és találjon egy új célt a jövő héten. %#@num_weeks@ alatt megfordíthatja a nyíl irányát.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hét</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hét</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Szép munkát végzett a teljes távolsággal. Folytassa a futásokat és a gyaloglásokat, hogy a nyíl felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gyalogoljon vagy fusson naponta legalább {{goal_value:distance}} távot a következő %#@num_days@ során a nyíl megfordításához. Igazán megéri!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tegyen meg naponta legalább {{goal_value:distance}} távot futva vagy gyalogolva a következő %#@num_days@ során, és a nyíl ismét felfelé fog nézni, {{username}}. Meg tudja csinálni.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha van kedve tovább futni vagy gyalogolni, akkor ez a nyíl ismét felfelé fog mutatni. Próbáljon meg naponta legalább {{goal_value:distance}} távot teljesíteni, és találjon egy új célt a jövő héten. %#@num_weeks@ alatt megfordíthatja a nyíl irányát.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hét</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hét</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A teljes távolságot mutató nyíl lefelé néz. Ha azt szeretné, hogy a nyíl ismét a megfelelő irányba nézzen, próbáljon minden nap időt szakítani egy gyaloglásra!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gyalogoljon vagy fusson naponta legalább {{goal_value:distance}} távot a következő %#@num_days@ során a nyíl megfordításához. Igazán megéri!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Az utóbbi időben kevesebbet gyalogol és fut, {{username}}. Próbáljon meg egy kicsit többet mozogni, hogy a nyíl felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Az utóbbi időben kevesebbet gyalogol és fut. Próbáljon meg egy kicsit többet mozogni, hogy a nyíl felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fordítsa meg ezt a nyilat, {{username}}! Ehhez naponta legalább {{goal_value:distance}} táv megtétele szükséges futva vagy gyalogolva a következő %#@num_days@ során.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, a teljes távolságot mutató nyíl felfelé néz. Fusson és gyalogoljon minden nap, hogy a nyíl továbbra is felfelé nézzen!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ha ma legalább {{goal_value:distance}} távot tesz meg futva vagy gyalogolva, akkor ez a nyíl ismét felfelé fog mutatni. Igazán megéri, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, gyalogoljon vagy fusson naponta legalább {{goal_value:distance}} távot a következő %#@num_days@ során a nyíl megfordításához. Igazán megéri!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>A teljes távolságot mutató nyíl lefelé néz, {{username}}. Ha azt szeretné, hogy a nyíl ismét a megfelelő irányba nézzen, próbáljon minden nap időt szakítani egy gyaloglásra!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fordítsa meg ezt a nyilat! Ehhez naponta legalább {{goal_value:distance}} táv megtétele szükséges futva vagy gyalogolva a következő %#@num_days@ során.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d nap</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d nap</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,288 @@
+2020-04-16 08:07:27.498 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/DCDF64FA-76DE-4149-9665-D6D6A8C4B646/Library/Caches/Logs/currentSession.logger.txt
+2020-04-16 08:07:27.501 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Build Type: Production
+2020-04-16 08:07:27.538 [🤖 Info] [IMGAPIClient.m] -[IMGAPIClient setupSessionManager] > Time to clear disk cache: 0.009
+2020-04-16 08:07:27.546 [🙀 Warning] [IMGAPIClient.m] -[IMGAPIClient setupSessionManager] > Not using certificate pinning due to Tweak
+2020-04-16 08:07:27.558 [🤖 Info] [IdentityKeychainManager.swift] allIdentities() > retrieved 1 items from keychain
+2020-04-16 08:07:27.564 [🗣] [IdentityManager+Migration.swift] identityFromOld() > no user needing migration
+2020-04-16 08:07:27.933 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Session Count: 2
+2020-04-16 08:07:27.934 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Posts Viewed: 210
+2020-04-16 08:07:28.045 [🗣] [IdentityManager.swift] updateServices() > updated branch identity: Optional([:]) nil
+2020-04-16 08:07:28.099 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPMediationManager] Could not find MPAdapters.plist.
+2020-04-16 08:07:28.119 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPMediationManager] Cached SDK initialization parameters for IASDKMopubAdapterConfiguration:
+{
+    appID = 103024;
+}
+2020-04-16 08:07:28.119 [🤖 Info] [AdVendorManager.swift] setupMopub(withMediatedAdProvidersConfig:) > mopub sdk finished initialization
+2020-04-16 08:07:28.120 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MoPub] SDK initialized and ready to display ads.
+	Initialized adapters:
+	InMobiAdapterConfiguration: Adapter version 1.0.0, SDK version 9.0.4
+	IASDKMopubAdapterConfiguration: Adapter version 7.4.2, SDK version 7.4.2
+
+2020-04-16 08:07:28.138 [🤖 Info] [MessagingClient.swift] connect(then:) > Fetch Stream token from Imgur
+2020-04-16 08:07:28.152 [🙀 Warning] [JSONAPIClient.swift] init() > Not using certificate pinning due to Tweak
+2020-04-16 08:07:28.172 [🤖 Info] [Experiments.swift] setupExperiments() > active client experiments: ["Auth_Onboarding_Ordering-", "Onboarding_Tag_Count-", "DeepLink_Install-control", "Tag_Picker_Copy-", "Tag_Descriptions-", "EXAMPLE-", "NSFW_Deeplink_Tags-mature_and_tags", "expT5761-control"] with headers [:]
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Auth_Onboarding_Ordering: 
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Onboarding_Tag_Count: 
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - DeepLink_Install: control
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Picker_Copy: 
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Descriptions: 
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - EXAMPLE: 
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - NSFW_Deeplink_Tags: mature_and_tags
+2020-04-16 08:07:28.173 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - expT5761: control
+2020-04-16 08:07:28.189 [🗣] [NotificationsManager.swift] requestAuthorization(provisional:completionHandler:) > requesting authorization
+2020-04-16 08:07:28.242 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-04-16 08:07:28.266 [🤖 Info] [GalleryViewController.swift] savedConfiguration() > no saved category, using most viral
+2020-04-16 08:07:28.285 [🤖 Info] [NavigationTabViewController.swift] pagerView(_:didMoveToPageAt:) > selected navigation tab 1
+2020-04-16 08:07:28.323 [🤖 Info] [IMGAppDelegate.swift] applicationLaunch(with:) > startup costs: realm: 0.368s, navigation stack and first time auth: 0.133s, ads: 0.088s, crashlytics: 0.050s, facebook: 0.044s, networking: 0.036s, messaging: 0.035s, firebase: 0.025s, logger: 0.023s, branch: 0.022s, appboy: 0.017s, notifications: 0.015s, google: 0.013s, audio: 0.007s, experiments: 0.006s, analytics: 0.006s, updateUser: 0.004s, session manager: 0.003s, caching: 0.003s, shortcut items: 0.001s, delete index: 0.000s, retry routing: 0.000s
+2020-04-16 08:07:28.382 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Feed - Viewed: [:]
+2020-04-16 08:07:28.393 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedLoadingCell with type loading and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:28.393 [🤖 Info] [FeedLoadingCell.swift] update(isLoading:isError:) > loading cell showing hidden state
+2020-04-16 08:07:28.430 [🤖 Info] [AdConsentViewController.swift] shouldPromptForConsent > shouldPrompt: false isGDPRA: false allowsTracking: true hasPC: false sessionCount: 2
+2020-04-16 08:07:28.442 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Notification Permission: authorized
+2020-04-16 08:07:28.444 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Notification Permission: authorized
+2020-04-16 08:07:28.532 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Lifecycle - Application Opened: ["Type": "Cold Start", "Method": "Other"]
+2020-04-16 08:07:28.556 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-04-16 08:07:28.558 [🗣] [AudioManager.swift] update(force:) > switch audio session to AVAudioSessionCategory(_rawValue: AVAudioSessionCategoryAmbient)
+2020-04-16 08:07:28.565 [🤖 Info] [NotificationsManager.swift] fetchNotifications(completionHandler:) > Fetching more notifications
+2020-04-16 08:07:28.581 [🤖 Info] [DraftOperationManager.swift] init(realm:) > Deleting old PendingOperations: []
+2020-04-16 08:07:28.637 [🤖 Info] [FeedLoadingCell.swift] update(isLoading:isError:) > loading cell showing loading state
+2020-04-16 08:07:28.717 [🤖 Info] [NotificationsManager.swift] didRegisterForRemoteNotificationsWithToken(_:) > push token: aab4688c9998ce77ec7dfe0d9fa1a29afdf5277e181a23eac8b9ba262ec3cbd7
+2020-04-16 08:07:29.213 [🤖 Info] [AdManager.swift] loadAd(type:reason:) > loading ad banner, reason: preload after startup
+2020-04-16 08:07:29.218 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][f228f690307b46e79cc8d23cf22ac2eb] Attempting to load ad
+2020-04-16 08:07:29.240 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-04-16 08:07:29.240 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-04-16 08:07:29.302 [🤖 Info] [IMGAppDelegate.swift] setupBranch(_:) > Got Branch deeplink callback: [AnyHashable("+clicked_branch_link"): 0, AnyHashable("+is_first_session"): 0]
+2020-04-16 08:07:29.551 [🤖 Info] [IMGAppDelegate.swift] applicationDidBecomeActive(_:) > no facebook deeplink available
+2020-04-16 08:07:29.914 [🗣] [ListDataListenerUpdate.swift] applyTo(collectionView:section:reloadingModifications:) > applying ListDataListenerUpdate(reload: false, deletions: [], insertions: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], modifications: []) to <UICollectionView: 0x10913d400; frame = (0 0; 320 455); clipsToBounds = YES; autoresize = W+H; tintColor = UIExtendedGrayColorSpace 1 1; gestureRecognizers = <NSArray: 0x280b654d0>; layer = <CALayer: 0x28037dc20>; contentOffset: {0, 0}; contentSize: {320, 120}; adjustedContentInset: {0, 0, 0, 0}; layout: <Imgur.FeedCollectionViewLayout: 0x1084ffc30>; dataSource: <Imgur.FeedViewController: 0x10913b000>>
+2020-04-16 08:07:30.157 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedRecommendedFollowableCell with type recommendedFollowable and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:30.189 [🤖 Info] [MediaPresentable.swift] Imgur > determined max texture size to be 16384.0 pixels
+2020-04-16 08:07:30.224 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with JITQjdh
+2020-04-16 08:07:30.226 [🗣] [MediaView.swift] state > mediaview 0x0000000114873aa0 with model JITQjdh > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:30.234 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with MhRLUbF
+2020-04-16 08:07:30.236 [🗣] [MediaView.swift] state > mediaview 0x000000010d4644b0 with model MhRLUbF > updated state: unloaded with prior state: video - unused
+2020-04-16 08:07:30.243 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with YbxRdm9
+2020-04-16 08:07:30.244 [🗣] [MediaView.swift] state > mediaview 0x000000010d4683f0 with model YbxRdm9 > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:30.251 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/JITQjdh_d.jpg?maxwidth=262&shape=thumb&fidelity=high
+2020-04-16 08:07:30.252 [🗣] [MediaView.swift] state > mediaview 0x000000010d4644b0 with model MhRLUbF > updated state: video - unused
+2020-04-16 08:07:30.252 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/MhRLUbF_d.jpg?maxwidth=262&shape=thumb&fidelity=high
+2020-04-16 08:07:30.253 [🗣] [MediaView.swift] state > mediaview 0x000000010d4644b0 with model MhRLUbF > updated state: video - not started
+2020-04-16 08:07:30.253 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/YbxRdm9_d.png?maxwidth=262&shape=thumb&fidelity=high
+2020-04-16 08:07:30.294 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedPostCell with type post and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:30.315 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with Yi2fKpo
+2020-04-16 08:07:30.317 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/Yi2fKpo_d.jpg?maxwidth=600&shape=thumb&fidelity=high
+2020-04-16 08:07:30.318 [🗣] [FeedPostCommentControl.swift] startTimerIfUnpaused() > starting comment update timer
+2020-04-16 08:07:30.318 [🗣] [MediaView.swift] state > mediaview 0x000000010d47ccb0 with model Yi2fKpo > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:30.320 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Post - Viewing Summary: ["Monetizable Count": 1, "Location": "Feed", "Promoted Eligible Count": 0, "NSFW Count": 0, "Promoted Count": 0, "Total Count": 1, "Type": "Feed"]
+2020-04-16 08:07:30.362 [🤖 Info] [AdManager.swift] loadAd(type:reason:) > loading ad medium rect, reason: preload upon retrieving a feed section with an ad
+2020-04-16 08:07:30.365 [🤖 Info] [FeedLoadingCell.swift] update(isLoading:isError:) > loading cell showing hidden state
+2020-04-16 08:07:30.409 [🤖 Info] [UncachedPostDataController.swift] loadData(for:updateHandler:) > fetched post data for vBRaAPi, updating
+2020-04-16 08:07:30.493 [🗣] [MediaView.swift] state > mediaview 0x0000000114873aa0 with model JITQjdh > updated state: image - progress: finished in 0.24041807651519775s
+2020-04-16 08:07:30.507 [🗣] [MediaView.swift] state > mediaview 0x000000010d47ccb0 with model Yi2fKpo > updated state: image - progress: finished in 0.1892719268798828s
+2020-04-16 08:07:30.516 [🗣] [MediaView.swift] state > mediaview 0x000000010d4683f0 with model YbxRdm9 > updated state: image - progress: finished in 0.2626100778579712s
+2020-04-16 08:07:30.634 [🤖 Info] [Experiments.swift] setupServerExperiments(_:updatingProperties:) > all active experiments: ["Auth_Onboarding_Ordering-", "Onboarding_Tag_Count-", "DeepLink_Install-control", "Tag_Picker_Copy-", "Tag_Descriptions-", "EXAMPLE-", "NSFW_Deeplink_Tags-mature_and_tags", "expT5761-control"] with headers [:]
+2020-04-16 08:07:30.635 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Auth_Onboarding_Ordering: 
+2020-04-16 08:07:30.635 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Onboarding_Tag_Count: 
+2020-04-16 08:07:30.636 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - DeepLink_Install: control
+2020-04-16 08:07:30.636 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Picker_Copy: 
+2020-04-16 08:07:30.636 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Descriptions: 
+2020-04-16 08:07:30.636 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - EXAMPLE: 
+2020-04-16 08:07:30.636 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - NSFW_Deeplink_Tags: mature_and_tags
+2020-04-16 08:07:30.636 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - expT5761: control
+2020-04-16 08:07:30.650 [🗣] [IdentityKeychainManager.swift] store(identity:) > store query: [agrp: "Q9SM2F33Y6.shared", svce: "imgur.com", class: genp, acct: "122948083"]
+2020-04-16 08:07:30.662 [🤖 Info] [IdentityKeychainManager.swift] store(identity:) > successfully updated keychain item for 122948083
+2020-04-16 08:07:30.669 [🤖 Info] [IdentityKeychainManager.swift] allIdentities() > retrieved 1 items from keychain
+2020-04-16 08:07:30.714 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPAdConfiguration] Could not find custom event class named CRBannerCustomEvent
+2020-04-16 08:07:30.714 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: custom
+2020-04-16 08:07:30.715 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:30.716 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:30.906 [🗣] [PlayerQueue.swift] dequeueAvailablePlayer(_:) > requesting player with 0 active players
+2020-04-16 08:07:30.927 [🗣] [MediaView.swift] state > mediaview 0x000000010d4644b0 with model MhRLUbF > updated state: video - finished in 0.6652230024337769s
+2020-04-16 08:07:30.928 [🗣] [MediaView.swift] state > mediaview 0x000000010d4644b0 with model MhRLUbF > updated state: video - playing muted - time: 0.0s - duration: 0.0s
+2020-04-16 08:07:31.186 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedPostCell with type post and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:31.225 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with Bq0nl2k
+2020-04-16 08:07:31.227 [🗣] [MediaView.swift] state > mediaview 0x000000011489a8d0 with model Bq0nl2k > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:31.229 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/Bq0nl2k_d.jpg?maxwidth=600&shape=thumb&fidelity=high
+2020-04-16 08:07:31.230 [🗣] [FeedPostCommentControl.swift] startTimerIfUnpaused() > starting comment update timer
+2020-04-16 08:07:31.235 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Post - Viewing Summary: ["Monetizable Count": 1, "Total Count": 1, "Location": "Feed", "Type": "Feed", "Promoted Eligible Count": 0, "NSFW Count": 0, "Promoted Count": 0]
+2020-04-16 08:07:31.289 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:31.289 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:31.298 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:31.318 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][be881e89af1b48828062e1151d287ba4] Attempting to load ad
+2020-04-16 08:07:31.327 [🐛 Debug] [MediaVideoView.swift] load(item:catchup:) > video ready stream time: 1.0736809968948364s
+2020-04-16 08:07:31.350 [🤖 Info] [UncachedPostDataController.swift] loadData(for:updateHandler:) > fetched post data for pkX2bBX, updating
+2020-04-16 08:07:31.434 [🗣] [MediaView.swift] state > mediaview 0x000000011489a8d0 with model Bq0nl2k > updated state: image - progress: finished in 0.20469391345977783s
+2020-04-16 08:07:31.475 [🗣] [FeedPostCommentControl.swift] stopTimer() > pausing comment update timer
+2020-04-16 08:07:31.579 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedHeaderCell with type header and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:31.613 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedRecommendedListCell with type recommendedList and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:31.623 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with MifWJps
+2020-04-16 08:07:31.629 [🗣] [MediaView.swift] state > mediaview 0x000000010d4461a0 with model MifWJps > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:31.637 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with 1dQGsS9
+2020-04-16 08:07:31.638 [🗣] [MediaView.swift] state > mediaview 0x000000010d4716e0 with model 1dQGsS9 > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:31.645 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with eWY7qg5
+2020-04-16 08:07:31.649 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/MifWJps_d.png?maxwidth=262&shape=thumb&fidelity=high
+2020-04-16 08:07:31.649 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/1dQGsS9_d.png?maxwidth=262&shape=thumb&fidelity=high
+2020-04-16 08:07:31.650 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/eWY7qg5_d.png?maxwidth=262&shape=thumb&fidelity=high
+2020-04-16 08:07:31.653 [🗣] [MediaView.swift] state > mediaview 0x000000011940f2a0 with model eWY7qg5 > updated state: unloaded with prior state: image - progress: not started
+2020-04-16 08:07:31.732 [🗣] [MediaView.swift] state > mediaview 0x000000010d4461a0 with model MifWJps > updated state: image - progress: finished in 0.07626402378082275s
+2020-04-16 08:07:31.737 [🗣] [MediaView.swift] state > mediaview 0x000000011940f2a0 with model eWY7qg5 > updated state: image - progress: finished in 0.08264493942260742s
+2020-04-16 08:07:31.737 [🗣] [MediaView.swift] state > mediaview 0x000000010d4716e0 with model 1dQGsS9 > updated state: image - progress: finished in 0.08712506294250488s
+2020-04-16 08:07:31.845 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedPostCell with type post and display FeedSectionDisplay(rawValue: 0)
+2020-04-16 08:07:31.855 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with kGnrASo
+2020-04-16 08:07:31.857 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/kGnrASo_d.jpg?maxwidth=600&shape=thumb&fidelity=high
+2020-04-16 08:07:31.858 [🗣] [FeedPostCommentControl.swift] startTimerIfUnpaused() > starting comment update timer
+2020-04-16 08:07:31.862 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Post - Viewing Summary: ["Promoted Count": 0, "Total Count": 1, "NSFW Count": 0, "Location": "Feed", "Monetizable Count": 1, "Type": "Feed", "Promoted Eligible Count": 0]
+2020-04-16 08:07:31.943 [🤖 Info] [UncachedPostDataController.swift] loadData(for:updateHandler:) > fetched post data for D8GjVZX, updating
+2020-04-16 08:07:31.962 [🗣] [MediaView.swift] state > mediaview 0x000000010d47ccb0 with model kGnrASo > updated state: image - progress: finished in 0.10486495494842529s
+2020-04-16 08:07:32.236 [🤖 Info] [SessionManager.swift] willResignActive(notification:) > logging session summary, spent 232772.11501300335s in session #3
+2020-04-16 08:07:32.471 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:32.479 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:32.627 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:32.631 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:32.874 [🗣] [MediaView.swift] state > mediaview 0x0000000114873aa0 with model JITQjdh > updated state: unloaded with prior state: image - progress: finished in 0.24041807651519775s
+2020-04-16 08:07:32.874 [🗣] [MediaView.swift] state > mediaview 0x000000010d4644b0 with model MhRLUbF > updated state: unloaded with prior state: video - paused
+2020-04-16 08:07:32.879 [🗣] [MediaView.swift] state > mediaview 0x000000010d4683f0 with model YbxRdm9 > updated state: unloaded with prior state: image - progress: finished in 0.2626100778579712s
+2020-04-16 08:07:32.879 [🗣] [MediaView.swift] state > mediaview 0x000000010d47ccb0 with model kGnrASo > updated state: unloaded with prior state: image - progress: finished in 0.10486495494842529s
+2020-04-16 08:07:32.879 [🗣] [MediaView.swift] state > mediaview 0x000000011489a8d0 with model Bq0nl2k > updated state: unloaded with prior state: image - progress: finished in 0.20469391345977783s
+2020-04-16 08:07:32.879 [🗣] [MediaView.swift] state > mediaview 0x000000010d4461a0 with model MifWJps > updated state: unloaded with prior state: image - progress: finished in 0.07626402378082275s
+2020-04-16 08:07:32.879 [🗣] [MediaView.swift] state > mediaview 0x000000010d4716e0 with model 1dQGsS9 > updated state: unloaded with prior state: image - progress: finished in 0.08712506294250488s
+2020-04-16 08:07:32.879 [🗣] [MediaView.swift] state > mediaview 0x000000011940f2a0 with model eWY7qg5 > updated state: unloaded with prior state: image - progress: finished in 0.08264493942260742s
+2020-04-16 08:07:37.562 [🤖 Info] [Experiments.swift] setupExperiments() > got firebase remote config with status 1 and error nil
+2020-04-16 08:07:37.581 [🤖 Info] [Experiments.swift] setupFirebaseExperiments(updatingProperties:) > added firebase experiments [FirebaseComputedExperiment(Auth_Onboarding_Ordering, ), FirebaseComputedExperiment(EXAMPLE, ), FirebaseComputedExperiment(Onboarding_Tag_Count, ), FirebaseComputedExperiment(NSFW_Deeplink_Tags, mature_and_tags), FirebaseComputedExperiment(Tag_Descriptions, ), FirebaseComputedExperiment(Tag_Picker_Copy, ), FirebaseComputedExperiment(DeepLink_Install, control)]
+2020-04-16 08:07:37.581 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Auth_Onboarding_Ordering: 
+2020-04-16 08:07:37.581 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Onboarding_Tag_Count: 
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - DeepLink_Install: control
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Picker_Copy: 
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Descriptions: 
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - EXAMPLE: 
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - NSFW_Deeplink_Tags: mature_and_tags
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - expT5761: control
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Auth_Onboarding_Ordering: 
+2020-04-16 08:07:37.582 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - EXAMPLE: 
+2020-04-16 08:07:37.583 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Onboarding_Tag_Count: 
+2020-04-16 08:07:37.583 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - NSFW_Deeplink_Tags: mature_and_tags
+2020-04-16 08:07:37.583 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Descriptions: 
+2020-04-16 08:07:37.583 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Picker_Copy: 
+2020-04-16 08:07:37.583 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - DeepLink_Install: control
+2020-04-16 08:07:39.824 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:39.831 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:39.846 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:40.148 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:40.149 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:40.156 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:41.226 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:41.419 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPAdConfiguration] Could not find custom event class named CRBannerCustomEvent
+2020-04-16 08:07:41.420 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: custom
+2020-04-16 08:07:41.421 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:41.423 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:42.006 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:42.006 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:42.008 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:42.384 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:42.385 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: custom
+2020-04-16 08:07:42.386 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named InMobiBannerCustomEvent.
+2020-04-16 08:07:44.410 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:44.412 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:44.414 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:44.552 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:44.552 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:45.068 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:45.069 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:45.072 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:45.472 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:45.472 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:45.595 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:45.899 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:45.902 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:46.766 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:46.771 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:47.228 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:47.363 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:47.364 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:47.524 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:47.526 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:48.434 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:48.441 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:49.562 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:49.563 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: custom
+2020-04-16 08:07:49.565 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named InMobiBannerCustomEvent.
+2020-04-16 08:07:50.058 [🤖 Info] [AdManager.swift] adDidLoad(controller:) > ad medium rect loaded after 19.69547998905182s
+2020-04-16 08:07:50.061 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][be881e89af1b48828062e1151d287ba4] Ad loaded
+2020-04-16 08:07:50.163 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:50.166 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:51.668 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:51.669 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: html
+2020-04-16 08:07:51.670 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPHTMLBannerCustomEvent.
+2020-04-16 08:07:54.657 [🙀 Warning] [AdManager.swift] memoryWarning(_:) > banner ad status, total: 1, loading: 1, ready: 0
+2020-04-16 08:07:54.658 [🙀 Warning] [AdManager.swift] memoryWarning(_:) > medium rect ad status, total: 1, loading: 0, ready: 1
+2020-04-16 08:07:54.659 [🙀 Warning] [AdManager.swift] memoryWarning(_:) > sticky banner ad status, total: 0, loading: 0, ready: 0
+2020-04-16 08:07:54.661 [🙀 Warning] [AdManager.swift] memoryWarning(_:) > native full screen ad status, total: 0, loading: 0, ready: 0
+2020-04-16 08:07:54.663 [🙀 Warning] [AdManager.swift] memoryWarning(_:) > nimbus aps interstitial ad status, total: 0, loading: 0, ready: 0
+2020-04-16 08:07:54.665 [🙀 Warning] [AdManager.swift] memoryWarning(_:) > nimbus aps video ad status, total: 0, loading: 0, ready: 0
+2020-04-16 08:07:54.842 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPTimer] An MPTimer was somehow paused after it was supposed to fire.
+2020-04-16 08:07:54.843 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][f228f690307b46e79cc8d23cf22ac2eb] Ad loaded

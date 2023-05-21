@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.mobilemail.MailVIPWidget</string>
+	<key>com.apple.Contacts.database-allow</key>
+	<true/>
+	<key>com.apple.mobilemail.mailservices</key>
+	<true/>
+	<key>com.apple.private.tcc.allow.overridable</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceCalendar</string>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceReminders</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+</dict>
+</plist>

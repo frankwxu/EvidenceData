@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_likes@</string>
+		<key>num_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u gostos</string>
+			<key>many</key>
+			<string>%u gostos</string>
+			<key>one</key>
+			<string>Gostar</string>
+			<key>other</key>
+			<string>%u gostos</string>
+			<key>two</key>
+			<string>%u gostos</string>
+			<key>zero</key>
+			<string>%u gostos</string>
+		</dict>
+	</dict>
+	<key>%u more likes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_more_likes@</string>
+		<key>num_more_likes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Mais %u gostos</string>
+			<key>many</key>
+			<string>Mais %u gostos</string>
+			<key>one</key>
+			<string>Mais %u gosto</string>
+			<key>other</key>
+			<string>Mais %u gostos</string>
+			<key>two</key>
+			<string>Mais %u gostos</string>
+			<key>zero</key>
+			<string>Mais %u gostos</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

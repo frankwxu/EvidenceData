@@ -1,0 +1,32 @@
+tbl,idx,stat
+urls,ix_urls_bundle_id_group_id,4 4 4
+urls,ix_urls_seconds_from_1970,4 1
+urls,ix_urls_url,4 1
+emailTags,ix_emailTags_key,32 4
+emailTags,ix_emailTags_tag,32 3
+entity_fts_segdir,sqlite_autoindex_entity_fts_segdir_1,9 5 1
+entityReferences,entityReferencesEntityIdIdx,9 1
+entityReferences,entityReferencesDomainIdx,9 9 5
+entityReferences,entityReferencesUniqueIdx,9 9 1
+entityTags,ix_entityTags_parentKey,8 2
+entityTags,ix_entityTags_dupKeyHashBlob,8 2
+entityTags,ix_entityTags_dupKey,8 3 3 2
+entityTags,ix_entityTags_tag,8 2
+entityParentage,entityParentageDuplicateKeyHashBlobIdx,9 1 1
+entityParentage,entityParentageParentKeyChildIdIdx,9 1 1
+entityParentage,entityParentageChildIdx,9 3
+entityParentage,sqlite_autoindex_entityParentage_1,9 1 1
+identityPerson,ix_identityPerson_recordId,3 1
+identityPerson,ix_identityPerson_email_nameless,3 1
+identityPerson,ix_identityPerson_middlename,3 2
+identityPerson,ix_identityPerson_surname,3 1
+cnContactsToSgContacts,cnContactsToSgContactsUniqueJoin,1 1 1
+cnContactsToSgContacts,cnContactsToSgContactsEntityIdx,1 1
+entity,entityContentHashBlobIdx,3 1
+entity,entityTypeIdx,3 3
+entity,entityDupKeyIdx,3 1 1
+entity,groupIdIdx,3 3
+entity,entityDownloadStateIdx,3 3
+entity,entityStateIdx,3 3
+entity,entityMasterEntityIdIdx,3 2
+entity,entityIdIdx,3 1

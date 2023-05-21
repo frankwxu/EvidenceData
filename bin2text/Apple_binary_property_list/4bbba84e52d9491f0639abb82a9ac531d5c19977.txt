@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%d days free trial</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>קבל/י %d ימים בחינם</string>
+			<key>many</key>
+			<string>קבל/י %d ימים בחינם</string>
+			<key>one</key>
+			<string>קבל/י יום %d בחינם</string>
+			<key>other</key>
+			<string>קבל/י %d ימים בחינם</string>
+			<key>two</key>
+			<string>קבל/י %d ימים בחינם</string>
+			<key>zero</key>
+			<string>קבל/י %d ימים בחינם</string>
+		</dict>
+	</dict>
+	<key>%d months free trial</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>קבל/י %d חודשים בחינם</string>
+			<key>many</key>
+			<string>קבל/י %d חודשים בחינם</string>
+			<key>one</key>
+			<string>קבל/י חודש %d בחינם</string>
+			<key>other</key>
+			<string>קבל/י %d חודשים בחינם</string>
+			<key>two</key>
+			<string>קבל/י %d חודשים בחינם</string>
+			<key>zero</key>
+			<string>קבל/י %d חודשים בחינם</string>
+		</dict>
+	</dict>
+	<key>%d weeks free trial</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>קבל/י %d שבועות בחינם</string>
+			<key>many</key>
+			<string>קבל/י %d שבועות בחינם</string>
+			<key>one</key>
+			<string>קבל/י שבוע %d בחינם</string>
+			<key>other</key>
+			<string>קבל/י %d שבועות בחינם</string>
+			<key>two</key>
+			<string>קבל/י %d שבועות בחינם</string>
+			<key>zero</key>
+			<string>קבל/י %d שבועות בחינם</string>
+		</dict>
+	</dict>
+	<key>Get %d days for %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>קבל/י %d ימים ב-%@</string>
+			<key>many</key>
+			<string>קבל/י %d ימים ב-%@</string>
+			<key>one</key>
+			<string>קבל/י יום %d ב-%@</string>
+			<key>other</key>
+			<string>קבל/י %d ימים ב-%@</string>
+			<key>two</key>
+			<string>קבל/י %d ימים ב-%@</string>
+			<key>zero</key>
+			<string>קבל/י %d ימים ב-%@</string>
+		</dict>
+	</dict>
+	<key>Get %d months for %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>קבל/י %d חודשים ב-%@</string>
+			<key>many</key>
+			<string>קבל/י %d חודשים ב-%@</string>
+			<key>one</key>
+			<string>קבל/י חודש %d ב-%@</string>
+			<key>other</key>
+			<string>קבל/י %d חודשים ב-%@</string>
+			<key>two</key>
+			<string>קבל/י %d חודשים ב-%@</string>
+			<key>zero</key>
+			<string>קבל/י %d חודשים ב-%@</string>
+		</dict>
+	</dict>
+	<key>Get %d weeks for %@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>קבל/י %d שבועות ב-%@</string>
+			<key>many</key>
+			<string>קבל/י %d שבועות ב-%@</string>
+			<key>one</key>
+			<string>קבל/י שבוע %d ב-%@</string>
+			<key>other</key>
+			<string>קבל/י %d שבועות ב-%@</string>
+			<key>two</key>
+			<string>קבל/י %d שבועות ב-%@</string>
+			<key>zero</key>
+			<string>קבל/י %d שבועות ב-%@</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

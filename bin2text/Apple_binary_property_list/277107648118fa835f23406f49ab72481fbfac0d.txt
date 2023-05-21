@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ nap</string>
+			<key>many</key>
+			<string>%@ nap</string>
+			<key>one</key>
+			<string>nap</string>
+			<key>other</key>
+			<string>%@ nap</string>
+			<key>two</key>
+			<string>%@ nap</string>
+			<key>zero</key>
+			<string>%@ nap</string>
+		</dict>
+	</dict>
+	<key>%@ minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_minutes@</string>
+		<key>num_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ perc</string>
+			<key>many</key>
+			<string>%@ perc</string>
+			<key>one</key>
+			<string>perc</string>
+			<key>other</key>
+			<string>%@ perc</string>
+			<key>two</key>
+			<string>%@ perc</string>
+			<key>zero</key>
+			<string>%@ perc</string>
+		</dict>
+	</dict>
+	<key>%@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ hónap</string>
+			<key>many</key>
+			<string>%@ hónap</string>
+			<key>one</key>
+			<string>hónap</string>
+			<key>other</key>
+			<string>%@ hónap</string>
+			<key>two</key>
+			<string>%@ hónap</string>
+			<key>zero</key>
+			<string>%@ hónap</string>
+		</dict>
+	</dict>
+	<key>%@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ hét</string>
+			<key>many</key>
+			<string>%@ hét</string>
+			<key>one</key>
+			<string>hét</string>
+			<key>other</key>
+			<string>%@ hét</string>
+			<key>two</key>
+			<string>%@ hét</string>
+			<key>zero</key>
+			<string>%@ hét</string>
+		</dict>
+	</dict>
+	<key>%@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ év</string>
+			<key>many</key>
+			<string>%@ év</string>
+			<key>one</key>
+			<string>év</string>
+			<key>other</key>
+			<string>%@ év</string>
+			<key>two</key>
+			<string>%@ év</string>
+			<key>zero</key>
+			<string>%@ év</string>
+		</dict>
+	</dict>
+	<key>Vaild for %@ weeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_weeks@</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Érvényes %@ hétig</string>
+			<key>many</key>
+			<string>Érvényes %@ hétig</string>
+			<key>one</key>
+			<string>Érvényes %@ hétig</string>
+			<key>other</key>
+			<string>Érvényes %@ hétig</string>
+			<key>two</key>
+			<string>Érvényes %@ hétig</string>
+			<key>zero</key>
+			<string>Érvényes %@ hétig</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ days</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Érvényes %@ napig</string>
+			<key>many</key>
+			<string>Érvényes %@ napig</string>
+			<key>one</key>
+			<string>Érvényes %@ napig</string>
+			<key>other</key>
+			<string>Érvényes %@ napig</string>
+			<key>two</key>
+			<string>Érvényes %@ napig</string>
+			<key>zero</key>
+			<string>Érvényes %@ napig</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ months</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_months@</string>
+		<key>num_months</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Érvényes %@ hónapig</string>
+			<key>many</key>
+			<string>Érvényes %@ hónapig</string>
+			<key>one</key>
+			<string>Érvényes %@ hónapig</string>
+			<key>other</key>
+			<string>Érvényes %@ hónapig</string>
+			<key>two</key>
+			<string>Érvényes %@ hónapig</string>
+			<key>zero</key>
+			<string>Érvényes %@ hónapig</string>
+		</dict>
+	</dict>
+	<key>Valid for %@ years</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_years@</string>
+		<key>num_years</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>Érvényes %@ évig</string>
+			<key>many</key>
+			<string>Érvényes %@ évig</string>
+			<key>one</key>
+			<string>Érvényes %@ évig</string>
+			<key>other</key>
+			<string>Érvényes %@ évig</string>
+			<key>two</key>
+			<string>Érvényes %@ évig</string>
+			<key>zero</key>
+			<string>Érvényes %@ évig</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

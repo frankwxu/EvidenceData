@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Deine Gesamtstrecke hat sich verschlechtert, {{username}}. Versuche, täglich Zeit für ein Gehtraining zu finden, um diesen Pfeil wieder auf Kurs zu bringen.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du weiter gehst und läufst, geht dieser Pfeil wieder nach oben, {{username}}. Versuche, in dieser Woche mindestens {{goal_value:distance}} pro Tag zu schaffen, und setze dir nächste Woche ein neues Ziel. In %#@num_weeks@ kannst du diesen Pfeil drehen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Woche</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Wochen</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Toll, wie du an deiner Gesamtstrecke gearbeitet hast. Bleib dran an deinen Geh- und Lauftrainings, damit dein Pfeil weiterhin nach oben zeigt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dreh diesen Pfeil! Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Damit dieser Pfeil wieder nach oben geht, musst du die nächsten %#@num_days@ {{goal_value:distance}} pro Tag gehen und laufen. Kein Problem für dich, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, dein Pfeil für die Gesamtstrecke ist oben. Mach weiter mit deinen täglichen Geh- und Lauftrainings, damit das so bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Toll, wie du an deiner Gesamtstrecke gearbeitet hast, {{username}}. Bleib dran an deinen täglichen Geh- und Lauftrainings, damit dein Pfeil weiterhin nach oben zeigt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Damit dieser Pfeil wieder nach oben geht, musst du die nächsten %#@num_days@ {{goal_value:distance}} pro Tag gehen und laufen. Kein Problem für dich.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Damit dieser Pfeil oben bleibt, musst du mehr gehen und laufen als in letzter Zeit. Los geht’s!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Toll, wie du an deiner Gesamtstrecke gearbeitet hast, {{username}}. Bleib dran an deinen Geh- und Lauftrainings, damit dein Pfeil weiterhin nach oben zeigt!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du heute mindestens {{goal_value:distance}} gehst oder läufst, zeigt dieser Pfeil wieder nach oben. Es lohnt sich, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil für die Gesamtstrecke ist oben. Mach weiter mit deinen täglichen Geh- und Lauftrainings, damit das so bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dreh diesen Pfeil, {{username}}! Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gehe und laufe die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag und dein Pfeil zeigt wieder nach oben, {{username}}. Das schaffst du locker.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Damit dieser Pfeil wieder nach oben geht, musst du die nächsten %#@num_days@ {{goal_value:distance}} pro Tag gehen und laufen. Kein Problem für dich.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du heute mindestens {{goal_value:distance}} gehst oder läufst, zeigt dieser Pfeil wieder nach oben. Es lohnt sich!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gehe und laufe die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag und dein Pfeil zeigt wieder nach oben. Das schaffst du locker.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dein Pfeil für die Gesamtstrecke ist oben. Mach weiter mit deinen täglichen Geh- und Lauftrainings, damit das so bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Deine Gesamtstrecke hat sich verschlechtert. Versuche, täglich Zeit für ein Gehtraining zu finden, um diesen Pfeil wieder auf Kurs zu bringen.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Damit dieser Pfeil wieder nach oben geht, musst du die nächsten %#@num_days@ {{goal_value:distance}} pro Tag gehen und laufen. Kein Problem für dich, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du weiter gehst und läufst, geht dieser Pfeil wieder nach oben, {{username}}. Versuche, in dieser Woche mindestens {{goal_value:distance}} pro Tag zu schaffen, und setze dir nächste Woche ein neues Ziel. In %#@num_weeks@ kannst du diesen Pfeil drehen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Woche</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Wochen</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Damit dieser Pfeil oben bleibt, musst du mehr gehen und laufen als in letzter Zeit, {{username}}. Los geht’s!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du heute mindestens {{goal_value:distance}} gehst oder läufst, zeigt dieser Pfeil wieder nach oben. Es lohnt sich!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag, um diesen Pfeil zu drehen, {{username}}. Es lohnt sich!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gehe und laufe die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag und dein Pfeil zeigt wieder nach oben. Das schaffst du locker.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du weiter gehst und läufst, geht dieser Pfeil wieder nach oben. Versuche, in dieser Woche mindestens {{goal_value:distance}} pro Tag zu schaffen, und setze dir nächste Woche ein neues Ziel. In %#@num_weeks@ kannst du diesen Pfeil drehen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Woche</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Wochen</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Toll, wie du an deiner Gesamtstrecke gearbeitet hast. Bleib dran an deinen Geh- und Lauftrainings, damit dein Pfeil weiterhin nach oben zeigt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag, um diesen Pfeil zu drehen. Es lohnt sich!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gehe und laufe die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag und dein Pfeil zeigt wieder nach oben, {{username}}. Das schaffst du locker.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du weiter gehst und läufst, geht dieser Pfeil wieder nach oben. Versuche, in dieser Woche mindestens {{goal_value:distance}} pro Tag zu schaffen, und setze dir nächste Woche ein neues Ziel. In %#@num_weeks@ kannst du diesen Pfeil drehen.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Woche</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Wochen</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Deine Gesamtstrecke hat sich verschlechtert. Versuche, täglich Zeit für ein Gehtraining zu finden, um diesen Pfeil wieder auf Kurs zu bringen.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag, um diesen Pfeil zu drehen. Es lohnt sich!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du gehst und läufst weniger in letzter Zeit, {{username}}. Bewege dich mehr, damit dein Pfeil oben bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du gehst und läufst weniger in letzter Zeit. Bewege dich mehr, damit dein Pfeil oben bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dreh diesen Pfeil, {{username}}! Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, dein Pfeil für die Gesamtstrecke ist oben. Mach weiter mit deinen täglichen Geh- und Lauftrainings, damit das so bleibt!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Wenn du heute mindestens {{goal_value:distance}} gehst oder läufst, zeigt dieser Pfeil wieder nach oben. Es lohnt sich, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag, um diesen Pfeil zu drehen, {{username}}. Es lohnt sich!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Deine Gesamtstrecke hat sich verschlechtert, {{username}}. Versuche, täglich Zeit für ein Gehtraining zu finden, um diesen Pfeil wieder auf Kurs zu bringen.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dreh diesen Pfeil! Geh und lauf die nächsten %#@num_days@ mindestens {{goal_value:distance}} pro Tag.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Tag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Tage</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>Nem érhető el</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>Vázlat folytatása</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>Frissítve ekkor: %@</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>%@ időponttól már nem érhető el a Mail Dropban</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>Üzenetek archiválása</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>Kijelöltek Kukába helyezése</string>
+	<key>MAILBOXES</key>
+	<string>Fiókok</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>Előző év</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string>, </string>
+	<key>AND_N_MORE</key>
+	<string> és %@ további…</string>
+	<key>NO_INCLUDE</key>
+	<string>Mégsem</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>Arch.</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>Új üzenet</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>A feladó titkosította ezt az üzenetet.</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>Vázlat minimalizálása</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>Előző vázlatok</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>Egy üzenet sem felel meg a kijelölt szűrőknek</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>Postafiók-helyszín</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>Összes kijelölése</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>A postafiókot nem sikerült létrehozni a szerveren.</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>Ez az üzenet egy hiba miatt nem jeleníthető meg.</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>Tegnap</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>Teljes üzenet letöltése</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>Ezek a mellékletek túl nagyok.</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>A postafiók nem hozható létre</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>Az üzenet nem volt a(z) %@ postafiókba mozgatható.</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>Tegnap</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>Törl.</string>
+	<key>FORWARD</key>
+	<string>Továbbítás</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>Probléma jelentése</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>Megjelölés és válasz</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>Kontakt letiltásának feloldása</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>, %@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>Csak VIP</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>Ez az üzenet nem lett letöltve a szerverről.</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>Ez az iPod nem hozhat létre levelezési fiókot.</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>A Siri-előrejelzés már nem érvényes.</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Megj. (%@)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>Jelszó</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>Nem adott meg címzettet.</string>
+	<key>BLOCK_CONTACT</key>
+	<string>Kontakt letiltása</string>
+	<key>REVERTING_CHANGE</key>
+	<string>Utolsó módosítás visszavonása…</string>
+	<key>MOVE_OTHER</key>
+	<string> Egyéb postafiók…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>Olvasat-
+lan</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>Az összes bejövő</string>
+	<key>MARK_BUTTON</key>
+	<string>Megj.</string>
+	<key>BYTES_REMAINING</key>
+	<string>Hátralévő %@ letöltése</string>
+	<key>DELETE_MAILBOX</key>
+	<string>Postafiók törlése</string>
+	<key>TO_LABEL</key>
+	<string>Címzett</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>A tárhely majdnem megtelt</string>
+	<key>SAVE</key>
+	<string>Mentés</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>Ma</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>Esemény létrehozása</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>%@ keresése</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>A feladó tart.: %@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>A feladó címe érvénytelen volt.</string>
+	<key>UNREAD_FORMAT</key>
+	<string>%lu olvasatlan</string>
+	<key>UNMUTE</key>
+	<string>Némítás feloldása</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>Tanúsítvány telepítése</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>Leiratkozás</string>
+	<key>ALL_DRAFTS</key>
+	<string>Az összes vázlat</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>A(z) %@ fiók már használatban van egy másik eszközön.</string>
+	<key>INSTALL</key>
+	<string>Telepítés</string>
+	<key>DATE_HEADER</key>
+	<string>Dátum:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>%1$@ (%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>%2$@ / %1$@ találat</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>Frissítve tegnap</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>Nincs olvasatlan levél</string>
+	<key>NO_TO</key>
+	<string>Nincs címzett</string>
+	<key>SETTINGS</key>
+	<string>Beállítások</string>
+	<key>CC</key>
+	<string>Másolat:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>Szürke</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>Fiókok</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>Fiókkorlátozás</string>
+	<key>INBOXES</key>
+	<string>Bejövő fiókok</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>Nincs kijelölt üzenet</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>Mellékletek letöltése</string>
+	<key>ADD_VIP</key>
+	<string>Hozzáadás a VIP csoporthoz</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>Levelek hozzáadása a következőtől:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>Üzenetek mellékletekkel</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>Egyéb</string>
+	<key>SWIPE_MORE</key>
+	<string>Továbbiak</string>
+	<key>BCC</key>
+	<string>Bcc:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>A feladó aláíró tanúsítványának kezelése.</string>
+	<key>HIDE_DETAILS</key>
+	<string>Elrejtés</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>Elmúlt hét</string>
+	<key>CC/BCC/FROM</key>
+	<string>Másolat/Bcc, Feladó:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>Itt talált: %@ postafiók</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>Múlt hét</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>Nem sikerült átadni a tevékenységet</string>
+	<key>SIGNED</key>
+	<string>Aláírva</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>Nemrég frissítve</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>Olvasatlan üzenetek</string>
+	<key>TRASH_EMAIL</key>
+	<string>Üzenet Kukába helyezése</string>
+	<key>YES_INCLUDE</key>
+	<string>Csatolás</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>Nincs elérhető internetkapcsolat.</string>
+	<key>VIP_ALERTS</key>
+	<string>VIP-jelzések</string>
+	<key>NO</key>
+	<string>Nem</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>Az összes bejövő</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>Tegnapelőtt</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>Jelölés</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>Ez az iPhone nem hozhat létre levelezési fiókot.</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>VIP</string>
+	<key>DETAILS</key>
+	<string>Részletek</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>Újrahitelesítés szükséges</string>
+	<key>DONE</key>
+	<string>Kész</string>
+	<key>DOWNLOAD</key>
+	<string>Letöltés</string>
+	<key>MOVE_MESSAGE</key>
+	<string>Üzenet áthelyezése…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>Olvasatlan</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>Aláíró tanúsítvány megtekintése</string>
+	<key>DELETE_EMAIL</key>
+	<string>Üzenet törlése</string>
+	<key>HEAL_MESSAGE</key>
+	<string>A Mail megpróbálhatja kijavítani ezeket a beállításokat.</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>%2$@ / %1$@ találat</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>Titkosítási tanúsítvány megtekintése</string>
+	<key>REMOVE_VIP</key>
+	<string>Eltávolítás a VIP csoportból</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>Előző hónap</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>Melléklet letöltése</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>Áthelyezés a Kéretlenbe</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>Az üzenet mozgatásához kopp. egy postafiókra.</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>Nem lehet kapcsolódni a(z) „%@” kimenő levelezőszerveréhez</string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>A Mail nem képes az oldal megnyitására, mert a cím érvénytelen</string>
+	<key>SEARCHING</key>
+	<string>Keresés</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>Múlt hónap</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>Az üzenetek nem mozgathatók</string>
+	<key>MUTE</key>
+	<string>Némítás</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>A melléklet nem tölthető le</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>Kijelölt üzenetek archiválása</string>
+	<key>SEARCH_RESULTS</key>
+	<string>Keresés</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>Mellékletek</string>
+	<key>SUBJECT</key>
+	<string>Tárgy:</string>
+	<key>SAVE_VIDEO</key>
+	<string>Videó mentése</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>Melléklet</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>Az üzenet nem volt a(z) „%@” postafiókba mozgatható.</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>Teljes üzenet letöltése sikertelen</string>
+	<key>TO</key>
+	<string>Címzett:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>Fiók hozzáadása</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>A postafiók nem törölhető</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>Postafiók megnyitása…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>Megjelölés…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>Részletek…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Kuka (%@)</string>
+	<key>FROM</key>
+	<string>Feladó:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>A melléklet túl nagy.</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>Jel. törl.</string>
+	<key>ENABLE_FILTER</key>
+	<string>Üzenetszűrő bekapcsolása</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>Ez az üzenet csak részben töltődött le.</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>A címzett tart.: %@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>Összes kép betöltése</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>Ezeknek az üzeneteknek a mozgatásához koppintson egy postafiókra.</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>Nem lehet csatlakozni a(z) „%@” szerveréhez</string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>Nincsenek szálértesítések</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>Melléklet letöltve</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>Válasz: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>Nincs melléklettel rendelkező levél</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>Címzett:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>Levelek ellenőrzése…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>A Mail nem képes megnyitni ezt a mellékletet.</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>postafiók</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>Áthelyezés a Kéretlenbe</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>%@ időponttól már nem érhető el</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>%2$@ / %1$@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>VIP hozzáadása</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>Már rendelkezik a(z) „%@” titkosítási tanúsítványával. Szeretné inkább ezt a tanúsítványt használni?</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>A mellékletek letöltéséhez csatlakozzon Wi-Fi-hez.</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>Itt talált: %@ %@ postafiók</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>A feladó megbízható tanúsítvánnyal írta alá ezt az üzenetet.</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>VIP-üzenetek</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>SEE_MORE</key>
+	<string>Továbbiak</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>Ezen üzenet kézbesítésekor hiba lépett fel.</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>A Mail nem tudja megnyitni a naptáreseményt, mert az már nem érhető el</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>A postafiók nem nevezhető át</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>Szűrő be- és kikapcsolása</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>Az üzenet nem mozgatható</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>Nem megbízható aláírás</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>Jelölés olvasatlanként</string>
+	<key>REMOVE</key>
+	<string>Eltávolítás</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>%@ és %@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>A melléklet letöltéséhez csatlakozzon Wi-Fi-hez.</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>Jelvénytípus szűrése</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>Megjelölés törlése</string>
+	<key>BCC_TITLE</key>
+	<string>Bcc</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>Mind törlése</string>
+	<key>DELETE_BUTTON</key>
+	<string>Törl.</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>VIP hozzáadása…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>A Mail használatához a nem használt alkalmazások és fájlok törlésével szabadítson fel tárhelyet, majd próbálja újra.</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>A szerverhez történő kapcsololódás sikertelen.</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>Frissítve ekkor: %@</string>
+	<key>ALL_MAILBOXES</key>
+	<string>Az összes postafiók</string>
+	<key>ALL_SENT</key>
+	<string>Az összes elküldött</string>
+	<key>REPLY</key>
+	<string>Válasz</string>
+	<key>YES</key>
+	<string>Igen</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>Fiókok</string>
+	<key>THREAD</key>
+	<string>Szál</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>Megjelölés nem kéretlenként</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>Jelenlegi postafiók</string>
+	<key>NOTIFY_ME</key>
+	<string>Értesítés</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>Ezen a héten</string>
+	<key>LOADING</key>
+	<string>Betöltés…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>Új üzenet</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>Hiányzó jelszó</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>Értesítés leállítása</string>
+	<key>CC_TITLE</key>
+	<string>Másolat</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>Olvasatlan</string>
+	<key>FROM_TITLE</key>
+	<string>Feladó</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>Elmúlt év</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Kérjük, csatlakozzon WLAN-hoz a mellékletek letöltéséhez.</string>
+	<key>QUICK_LOOK</key>
+	<string>Gyorsnézet</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>Múlt év</string>
+	<key>ENCRYPTED</key>
+	<string>Titkosított</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>Feladó</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>Ez az üzenet egy levelezőlistáról származik.</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>BETÖLTÉS</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>A(z) „%@” keresése</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>Keresés</string>
+	<key>DISABLE_FILTER</key>
+	<string>Üzenetszűrő kikapcsolása</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>A feladó titkosította ezt az üzenetet, és megbízható jogosultsággal írta alá.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>Személyek</string>
+	<key>TRASH_BUTTON</key>
+	<string>Kuka</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>A postafiókot nem sikerült áthelyezni a szerveren.</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>Hozzáadás:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>Továbbítás ide: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>Beállítások</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>Keresés</string>
+	<key>PRINT</key>
+	<string>Nyomtatás</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>Legpontosabb találatok</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>Narancssárga</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>Címzett/Másolat</string>
+	<key>VIP_MAILBOX</key>
+	<string>VIP</string>
+	<key>FROM_LABEL</key>
+	<string>FELADÓ</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>Üzenet archiválása</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>Mozg.</string>
+	<key>SWIPE_FLAG</key>
+	<string>Jelölés</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>Betöltetlen képek vannak ebben a levélben.</string>
+	<key>MOVE_TO</key>
+	<string>Áthelyezés ide: „%@”</string>
+	<key>ARCHIVE</key>
+	<string>Arch.</string>
+	<key>VIP_EDIT</key>
+	<string>VIP-lista</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>A postafiókot nem sikerült törölni a szerveren.</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>%@ – %@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>A(z) „%@” postafiók már létezik.</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>A következő fiókokban hiba történt: %@.
+Kérjük, a további információkért jelölje ki az egyes fiókokat.</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>Kuka</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>Ma</string>
+	<key>SWIPE_MOVE</key>
+	<string>Mozgatás…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>Minden archívum</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>Címzett</string>
+	<key>NO_FROM</key>
+	<string>Nincs küldő</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>Címzett:</string>
+	<key>NEW_MAILBOX</key>
+	<string>Új postafiók</string>
+	<key>REPAIR</key>
+	<string>Javítás</string>
+	<key>SEND_AGAIN</key>
+	<string>Küldés újra</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>%lu megjelölt</string>
+	<key>MOVE_BUTTON</key>
+	<string>Mozg.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>Tárgyak</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>Szál értesítései</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>A tárhelyet a Beállításokban kezelheti.</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>Postafiók</string>
+	<key>BACK</key>
+	<string>Vissza</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>Vázlatok</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>Frissítve ekkor: %@</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>Kijelölés törlése</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>Fiókhiba: %@.</string>
+	<key>CERTIFICATE</key>
+	<string>Tanúsítvány</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>Új tartalmak száma</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>Címzett vagy Másolat</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>Vázlat: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>Előző hét</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>Többszörös fiókhibák</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>Összes új levél letöltése</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>VIP</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>Keresés a következőben: %@ – %@</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>Nem építhető ki adatkapcsolat, mert egy hívás éppen aktív.</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>Mind archiválása</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>Megjelölt</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>Másolat: én</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>Mellékletek mentése</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>Teljes felbontású képek mentve a Fotókba</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>Titkosítási hiba</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>Múlt hét</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>Feliratkozások</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>Szál összecsukása</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>Elérhető eddig: %@</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>%@ elküldetlen üzenet</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Mozg. (%@)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>Nincs találat</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>Jelölés olvasottként</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>Előfordulhat, hogy megszakadt a kapcsolat a másik eszközzel. Kérjük, próbálja újra.</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>Üzenetek száma</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ – %@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>Gyorsan hozzáférhet a fontos emberektől érkező levelekhez a VIP-postafiókban.</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>Mozg.</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>Archiváljon vagy mozgasson üzeneteket.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>Mellékletek és teljes felbontású képek letöltve</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>Ez az üzenet egy ismétlődő hiba miatt nem jeleníthető meg.</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>Olvasott</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>Kijelölt üzenetek törlése</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>Mozgassa az üzeneteket új postafiókba.</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>Nincs nekem címzett levél</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>Melléklet letöltése</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>Nem sikerült elvégezni a Siri-előrejelzést</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>Ez az üzenet egy olyan feladótól érkezett, aki a blokkoltak listáján szerepel.</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>A postafiókot nem sikerült átnevezni a szerveren.</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>Megjelölt</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>Biztos benne, hogy blokkolja ezt a kontaktot?</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>Szál értesítései</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>Mellékletek letöltése</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>Címzett: én</string>
+	<key>BCC_HEADER</key>
+	<string>Bcc:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>A szerver elutasította az egyik címzett címét. Az üzenet a Kimenő postafiókba került.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>Javasolt keresések</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>Megjelölt</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Arch. (%@)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>Mozgassa az üzenetet új postafiókba.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>Melléklet és teljes felbontású képek letöltése</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>Elérhető a Mail Dropban eddig: %@</string>
+	<key>CANCEL</key>
+	<string>Mégsem</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>Mellékletek</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>Nekem</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>Hátralévő %@ letöltése</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>Új üzenet</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>Ebben az évben</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>Arch.</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>A(z) „%@” postafióknak a törlésekor annak üzenetei el lesznek távolítva a fiókból.</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>Bíbor</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>Némított szálak</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>Teljes üzenet letöltése</string>
+	<key>MESSAGE</key>
+	<string>Üzenet</string>
+	<key>TRUST</key>
+	<string>Megbízható</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>%@ jelölésszín</string>
+	<key>EXPAND_THREAD</key>
+	<string>Szál kibővítése</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>Áthelyezés a Kéretlenbe</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>Sárga</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>Szűrő:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>Az üzenet tartalma nem ellenőrizhető.</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>Egyéb:</string>
+	<key>CC/BCC</key>
+	<string>Másolat/Bcc:</string>
+	<key>SAVE_IMAGE</key>
+	<string>Kép mentése</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>Szűrők</string>
+	<key>TO_TITLE</key>
+	<string>Címzett</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>Itt talált: %@ %@</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>Ugrás a következő üzenetre</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>mappa</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>Ez a melléklet túl nagy a megtekintéshez.</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>Néhány levelezési fiókját újra kell hitelesíteni az Apple Watchhoz</string>
+	<key>MUTED_MAILBOX</key>
+	<string>Némított szálak</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>Tanúsítvány megtekintése</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>Kapcsolódás…</string>
+	<key>NO_MAIL</key>
+	<string>Nincs levél</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>Állítson be egyéni jelzéseket az új VIP-levelekhez az Értesítési beállításokban.</string>
+	<key>EDIT</key>
+	<string>Szerk.</string>
+	<key>SAVING</key>
+	<string>Mentés</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>Megjelölés nem kéretlenként</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>Kék</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>Leiratkozás</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>Ugrás az előző üzenetre</string>
+	<key>FROM_HEADER</key>
+	<string>Feladó:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>Vörös</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>Kuka</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>Elmúlt nap</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>Másolat</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>Idézett tartalom megjelenítése</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>Mellékletek</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>Teljes felbontású képek letöltése a Fotókba</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>Ez az iPad nem hozhat létre levelezési fiókot.</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>Fiókok</string>
+	<key>NO_VIP_MAIL</key>
+	<string>Nincs VIP-levél</string>
+	<key>CC_LABEL</key>
+	<string>Másolat</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>Címzett</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>Ez a hónap</string>
+	<key>N_MESSAGES</key>
+	<string>%@ üzenet</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>Szerverhiba.
+Lépjen kapcsolatba a szerveradminisztrátorral.</string>
+	<key>LOAD_MESSAGE</key>
+	<string>Üzenet betöltése (nem ajánlott)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>Ez az üzenet sima szövegként lett letöltve.</string>
+	<key>FAVORITES</key>
+	<string>Kedvencek</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>Fiókhibák</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>Keresés a postafiókban</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ keresése a következőben: %@ – %@</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>Jelölje ki a törlendő vagy áthelyezendő üzeneteket.</string>
+	<key>ALL_TRASH</key>
+	<string>Az összes kuka</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>Nincs vázlat</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>Aláíráshiba</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>Megj.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>Mellékletek letöltve</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>Érvénytelen Mail Drop-melléklet</string>
+	<key>DATE</key>
+	<string>Dátum:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>Ez a Szimulátor nem hozhat létre levelezési fiókot.</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>Mellékletek</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>Arch.</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>Teljes felbontású képek</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>Nincs megjelölt levél</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>Csak a ma küldött levelek</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>Az üzenet tartalma nem ellenőrizhető.</string>
+	<key>NO_BODY</key>
+	<string>Ennek az üzenetnek nincs tartalma.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>Dátumok</string>
+	<key>EDIT_MAILBOX</key>
+	<string>Postafiók</string>
+	<key>REPLY_ALL</key>
+	<string>Válasz mindenkinek</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>%lu vázlat</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>%@ keresése a következőben: %@</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>Olvasatlan</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>Összes kép betöltése (nem javasolt)</string>
+	<key>DELETE</key>
+	<string>Törlés</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Törl. (%@)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>Tárgy</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>A küldő titkosítási tanúsítványának kezelése.</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>Új üzenet</string>
+	<key>NO_SUBJECT</key>
+	<string>Nincs tárgy</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>Előző nap</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>Nekem</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>Név</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>Teljes felbontású képek mentése a Fotókba</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>Megjelölt üzenetek</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>Megjelölés törlése</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>A postafiókja megtelt</string>
+	<key>UNTRUST</key>
+	<string>Nem megbízható</string>
+	<key>TODAY_MAILBOX</key>
+	<string>Ma</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>Az összes Kukába helyezése</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>Olvasatlanok száma</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>Jelölés</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>Olvasatlan</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>A postafiók nem helyezhető át</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>Csak mellékletekkel</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>Elmúlt nap</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ERROR</key>
+	<string>Hiba</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Kérjük, csatlakozzon WLAN-hoz a melléklet letöltéséhez.</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>Távoli tartalom betöltése</string>
+	<key>SWIPE_JUNK</key>
+	<string>Kéretlen</string>
+	<key>CONTINUE</key>
+	<string>Folytatás</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>Ma nincsenek üzenetek</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>Egyéb</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>%@ elküldetlen üzenet</string>
+	<key>SENDING</key>
+	<string>Küldés…</string>
+	<key>BOX_SUFFIX</key>
+	<string>fiók</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>Nincsenek némított szálak</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>Üzenetek törlése</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>Az Apple Watch alkalmazás megnyitása</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>Küldés, mint .eml</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>Csatolja az eredeti üzenet mellékleteit?</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>A tárgy tart.: %@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>Üzenet</string>
+	<key>ACCOUNTS</key>
+	<string>Fiókok</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>Bezárás</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>A(z) „%@” postafióknak a törlésekor annak üzenetei és alpostafiókjai is el lesznek távolítva a fiókból.</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>Nem kéretlen</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>Mellékletek és teljes felbontású képek letöltése</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>Üzenetek Kukába helyezése</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>Olvasott</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>Zöld</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>Ez az üzenet többször alá van írva.</string>
+	<key>CC_HEADER</key>
+	<string>Másolat:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>Itt talált: %@</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>Postafiók hozzáadása…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>Keresés a következőben: %@</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>Elmúlt hónap</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>Értesítés</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> és %@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>Letölti előbb az üzenet hátralévő részét?</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>Az üzenet tartalma nem ellenőrizhető.</string>
+	<key>SUBJECT_HEADER</key>
+	<string>Tárgy:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>Jelölje ki a törl. vagy mozg. üzeneteket.</string>
+	<key>TRASH</key>
+	<string>Kuka</string>
+	<key>SHARE</key>
+	<string>Megosztás</string>
+</dict>
+</plist>

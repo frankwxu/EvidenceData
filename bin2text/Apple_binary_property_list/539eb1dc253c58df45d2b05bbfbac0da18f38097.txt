@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Viber uygulamasını kullanarak John'u ara</string>
+				<string>Viber uygulaması ile John'u ara</string>
+				<string>Viber ile John'u ara</string>
+				<string>Viber üzerinden John'u ara</string>
+				<string>Viber ile John'u ara</string>
+				<string>Viber üzerinden John'u ara</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>John'a bir Viber mesajı gönder</string>
+				<string>John'a Viber üzerinden bir metin mesajı gönder</string>
+				<string>John'a bir Viber mesajı gönder</string>
+				<string>Viber uygulaması ile John'a mesaj gönder</string>
+				<string>Viber uygulamasını kullanarak John'a mesaj gönder</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Viber üzerinden John ile görüntülü konuşma başlat</string>
+				<string>Viber üzerinden John ile görüntülü konuşma başlat</string>
+				<string>Viber üzerinden John'u görüntülü ara</string>
+				<string>John'u Viber ile görüntülü ara</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

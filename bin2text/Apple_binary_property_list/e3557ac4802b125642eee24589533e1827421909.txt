@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>โทรหา John บน Viber</string>
+				<string>โทรหา John ด้วย Viber</string>
+				<string>ใช้  Viber เพื่อโทรหา John</string>
+				<string>โทรศัพท์หา John บน Viber</string>
+				<string>โทรไปหา John บน Viber</string>
+				<string>โทรศัพท์ไปหา John บน Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>ส่งข้อความ Viber ให้กับ John</string>
+				<string>ส่งข้อความถึง John บน Viber</string>
+				<string>ส่งข้อความ Viber ไปถึง John</string>
+				<string>ส่งข้อความไปหา John ด้วย Viber</string>
+				<string>ส่งข้อความให้กับ John บน Viber</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>เริ่มการสนทนาทางวิดีโอกับ John บน Viber</string>
+				<string>เริ่มแชททางวิดีโอกับ John บน Viber</string>
+				<string>โทรวิดีโอคอลถึง John บน Viber</string>
+				<string>โทรผ่านวิดีโอคอลของ Viber ไปหา John</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

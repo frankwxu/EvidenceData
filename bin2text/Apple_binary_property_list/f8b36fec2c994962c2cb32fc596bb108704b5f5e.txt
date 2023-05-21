@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>ไม่มี</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>เขียนฉบับร่างต่อ</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>ล่าสุดเวลา %@</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>ไม่มีแล้วใน Mail Drop ตั้งแต่ %@</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>เก็บข้อความถาวร</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>ทิ้งข้อความที่เลือก</string>
+	<key>MAILBOXES</key>
+	<string>กล่องเมล</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>ปีก่อน</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string> </string>
+	<key>AND_N_MORE</key>
+	<string> และอีก %@…</string>
+	<key>NO_INCLUDE</key>
+	<string>ไม่รวมเข้าด้วย</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>เก็บถาวร</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>ข้อความใหม่</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>ผู้ส่งได้เข้ารหัสข้อความนี้</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>ย่อฉบับร่าง</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>ฉบับร่างก่อนหน้านี้</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>ไม่มีข้อความที่ตรงกับฟิลเตอร์ที่เลือก</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>ตำแหน่งที่ตั้งกล่องเมล</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>เลือกทั้งหมด</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>ไม่สามารถสร้างกล่องเมลบนเซิร์ฟเวอร์ได้</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>ไม่สามารถแสดงข้อความนี้ได้เนื่องจากเกิดปัญหา</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>เมื่อวานนี้</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>ดาวน์โหลดทั้งข้อความ</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>ไฟล์แนบเหล่านี้ขนาดใหญ่เกินไป</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>ไม่สามารถสร้างกล่องเมลได้</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>ไม่สามารถย้ายข้อความไปยังกล่องเมล %@ ได้</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>เมื่อวานนี้</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>ลบ</string>
+	<key>FORWARD</key>
+	<string>ส่งต่อ</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>แจ้งปัญหา</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>ทำเครื่องหมายและตอบกลับ</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>เลิกปิดกั้นรายชื่อนี้</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>, %@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>เฉพาะจาก VIP</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>ยังไม่ได้ดาวน์โหลดข้อความนี้จากเซิร์ฟเวอร์</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>iPod เครื่องนี้ถูกจำกัดไม่ให้สร้างบัญชีเมล</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>การคาดเดาโดย Siri ไม่สามารถใช้ได้</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>ทำเครื่องหมาย (%@)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>รหัสผ่าน</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>คุณไม่ได้ระบุผู้รับ</string>
+	<key>BLOCK_CONTACT</key>
+	<string>ปิดกั้นรายชื่อนี้</string>
+	<key>REVERTING_CHANGE</key>
+	<string>กำลังเลิกการเปลี่ยนแปลงล่าสุด…</string>
+	<key>MOVE_OTHER</key>
+	<string> กล่องเมลอื่น…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>ไม่ได้อ่าน</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>กล่องเข้าทั้งหมด</string>
+	<key>MARK_BUTTON</key>
+	<string>ทำเครื่องหมาย</string>
+	<key>BYTES_REMAINING</key>
+	<string>ดาวน์โหลดที่เหลือ %@</string>
+	<key>DELETE_MAILBOX</key>
+	<string>ลบกล่องเมล</string>
+	<key>TO_LABEL</key>
+	<string>ถึง</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>พื้นที่จัดเก็บข้อมูลเกือบจะเต็ม</string>
+	<key>SAVE</key>
+	<string>บันทึก</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>วันนี้</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>สร้างกิจกรรม</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>ค้นหาใน %@</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>ผู้ส่งประกอบด้วย: %@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>ที่อยู่ผู้ส่งไม่ถูกต้อง</string>
+	<key>UNREAD_FORMAT</key>
+	<string>ไม่ได้อ่าน %lu ข้อความ</string>
+	<key>UNMUTE</key>
+	<string>เลิกไม่รับแจ้งเตือน</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>ติดตั้งใบรับรอง</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>เลิกสมัครรับ</string>
+	<key>ALL_DRAFTS</key>
+	<string>ฉบับร่างทั้งหมด</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>บัญชี %@ ใช้งานอยู่บนอุปกรณ์เครื่องอื่น</string>
+	<key>INSTALL</key>
+	<string>ติดตั้ง</string>
+	<key>DATE_HEADER</key>
+	<string>วันที่:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>%1$@ (%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>ผลการค้นหาที่ %@ จาก %@ รายการ</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>ล่าสุดเมื่อวานนี้</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>ไม่มีเมลที่ไม่ได้อ่าน</string>
+	<key>NO_TO</key>
+	<string>ไม่มีผู้รับ</string>
+	<key>SETTINGS</key>
+	<string>การตั้งค่า</string>
+	<key>CC</key>
+	<string>สำเนา:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>สีเทา</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>กล่องเมล</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>การจำกัดบัญชี</string>
+	<key>INBOXES</key>
+	<string>กล่องเข้า</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>ไม่ได้เลือกข้อความ</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>กำลังดาวน์โหลดไฟล์แนบ</string>
+	<key>ADD_VIP</key>
+	<string>เพิ่มไปยัง VIP</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>รวมเมลจาก:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>ข้อความที่มีไฟล์แนบ</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>อื่นๆ</string>
+	<key>SWIPE_MORE</key>
+	<string>เพิ่มเติม</string>
+	<key>BCC</key>
+	<string>สำเนาลับ:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>จัดการใบรับรองการเซ็นชื่อสำหรับผู้ส่งนี้</string>
+	<key>HIDE_DETAILS</key>
+	<string>ซ่อน</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>สัปดาห์ที่แล้ว</string>
+	<key>CC/BCC/FROM</key>
+	<string>สำเนา/สำเนาลับ จาก:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>พบในกล่องเมล %@</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>สัปดาห์ที่แล้ว</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>ดำเนินการกิจกรรม Handoff ไม่สำเร็จ</string>
+	<key>SIGNED</key>
+	<string>เซ็นชื่อแล้ว</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>อัพเดทเมื่อสักครู่</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>ข้อความที่ไม่ได้อ่าน</string>
+	<key>TRASH_EMAIL</key>
+	<string>ทิ้งข้อความ</string>
+	<key>YES_INCLUDE</key>
+	<string>รวม</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>ไม่มีการเชื่อมต่อกับอินเทอร์เน็ต</string>
+	<key>VIP_ALERTS</key>
+	<string>การเตือน VIP</string>
+	<key>NO</key>
+	<string>ไม่</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>กล่องเข้าทั้งหมด</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>​</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>ติดธง</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>iPhone เครื่องนี้ถูกจำกัดไม่ให้สร้างบัญชีเมล</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>VIP</string>
+	<key>DETAILS</key>
+	<string>รายละเอียด</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>ต้องตรวจสอบสิทธิ์อีกครั้ง</string>
+	<key>DONE</key>
+	<string>เสร็จสิ้น</string>
+	<key>DOWNLOAD</key>
+	<string>ดาวน์โหลด</string>
+	<key>MOVE_MESSAGE</key>
+	<string>ย้ายข้อความ…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>ไม่ได้อ่าน</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>ดูใบรับรองการเซ็นชื่อ</string>
+	<key>DELETE_EMAIL</key>
+	<string>ลบข้อความ</string>
+	<key>HEAL_MESSAGE</key>
+	<string>แอพเมลสามารถพยายามซ่อมแซมการตั้งค่าเหล่านี้ได้</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>ผลการค้นหาที่ %@ จาก %@ รายการ</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>ดูใบรับรองการเข้ารหัส</string>
+	<key>REMOVE_VIP</key>
+	<string>เอาออกจาก VIP</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>เดือนก่อน</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>กำลังดาวน์โหลดไฟล์แนบ</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>ย้ายไปยังขยะ</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>แตะกล่องเมลเพื่อย้ายข้อความนี้</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์เมลออกสำหรับ “%@” ได้ </string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>แอพเมลไม่สามารถเปิดหน้าเว็บได้เนื่องจากที่อยู่ของหน้าเว็บไม่ถูกต้อง</string>
+	<key>SEARCHING</key>
+	<string>กำลังค้นหา</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>เดือนที่แล้ว</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>ไม่สามารถย้ายข้อความได้</string>
+	<key>MUTE</key>
+	<string>ไม่รับแจ้งเตือน</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>ไม่สามารถดาวน์โหลดไฟล์แนบได้</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>เก็บข้อความที่เลือกอยู่ถาวร</string>
+	<key>SEARCH_RESULTS</key>
+	<string>ค้นหา</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>ไฟล์แนบ</string>
+	<key>SUBJECT</key>
+	<string>ชื่อเรื่อง:</string>
+	<key>SAVE_VIDEO</key>
+	<string>บันทึกวิดีโอ</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>ไฟล์แนบ</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>ไม่สามารถย้ายข้อความไปยังกล่องเมล %@ ได้</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>ไม่สามารถโหลดทั้งข้อความได้</string>
+	<key>TO</key>
+	<string>ถึง:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>เพิ่มบัญชี</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>ไม่สามารถลบกล่องเมลได้</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>กำลังเปิดกล่องเมล…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>ทำเครื่องหมาย…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>รายละเอียด…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>ทิ้ง (%@)</string>
+	<key>FROM</key>
+	<string>จาก:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>ไฟล์แนบนี้ขนาดใหญ่เกินไป</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>เลิกติดธง</string>
+	<key>ENABLE_FILTER</key>
+	<string>เปิดใช้งานฟิลเตอร์ข้อความ</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>ข้อความนี้ดาวน์โหลดเฉพาะบางส่วนเท่านั้น</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>ผู้รับประกอบด้วย: %@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>โหลดรูปภาพทั้งหมด</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>แตะกล่องเมลเพื่อย้ายข้อความเหล่านี้</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์สำหรับ “%@” ได้ </string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>ไม่มีการแจ้งเตือนตามหัวเรื่อง</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>ดาวน์โหลดไฟล์แนบแล้ว</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>ตอบกลับ: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>ไม่มีเมลที่มีไฟล์แนบ</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>ถึง:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>กำลังตรวจหาเมล…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>แอพเมลไม่สามารถเปิดไฟล์แนบนี้ได้</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>กล่องเมล</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>ย้ายไปยังขยะ</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>ไม่มีแล้วตั้งแต่ %@</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>%@ จาก %@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>เพิ่ม VIP</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>คุณมีใบรับรองการเข้ารหัสสำหรับ “%@” อยู่แล้ว  คุณต้องการใช้ใบรับรองนี้แทนที่หรือไม่</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>โปรดเชื่อมต่อกับ Wi‑Fi เพื่อดาวน์โหลดไฟล์แนบเหล่านี้</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>พบในกล่องเมล %@ %@</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>ผู้ส่งได้เซ็นชื่อข้อความนี้ด้วยใบรับรองที่เชื่อถือแล้ว</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>ข้อความจาก VIP</string>
+	<key>OK</key>
+	<string>ตกลง</string>
+	<key>SEE_MORE</key>
+	<string>ดูเพิ่มเติม</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>ข้อผิดพลาดเกิดขึ้นในขณะส่งข้อความ</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>แอพเมลเปิดกิจกรรมปฏิทินไม่ได้เนื่องจากไม่มีกิจกรรมนั้นแล้ว</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>ไม่สามารถเปลี่ยนชื่อกล่องเมลได้</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>สลับระหว่างฟิลเตอร์</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>ไม่สามารถย้ายข้อความได้</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>ลายเซ็นเชื่อถือไม่ได้</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>ทำว่าไม่ได้อ่าน</string>
+	<key>REMOVE</key>
+	<string>เอาออก</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>%@ กับ %@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>โปรดเชื่อมต่อกับ Wi‑Fi เพื่อดาวน์โหลดไฟล์แนบนี้</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>ฟิลเตอร์ประเภทป้ายประกาศ</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>เลิกติดธง</string>
+	<key>BCC_TITLE</key>
+	<string>สำเนาลับ</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>ลบทั้งหมด</string>
+	<key>DELETE_BUTTON</key>
+	<string>ลบ</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>เพิ่ม VIP…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>ในการใช้แอพเมล ต้องทำพื้นที่จัดเก็บข้อมูลให้ว่างเพิ่มขึ้นโดยลบแอพหรือไฟล์ที่ไม่ได้ใช้ แล้วลองอีกครั้ง</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>การเชื่อมต่อกับเซิร์ฟเวอร์ไม่สำเร็จ</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>ล่าสุด %@</string>
+	<key>ALL_MAILBOXES</key>
+	<string>กล่องเมลทั้งหมด</string>
+	<key>ALL_SENT</key>
+	<string>ที่ส่งแล้วทั้งหมด</string>
+	<key>REPLY</key>
+	<string>ตอบกลับ</string>
+	<key>YES</key>
+	<string>ใช่</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>กล่องเมล</string>
+	<key>THREAD</key>
+	<string>หัวเรื่อง</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>ทำว่าไม่ใช่ขยะ</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>กล่องเมลปัจจุบัน</string>
+	<key>NOTIFY_ME</key>
+	<string>แจ้งเตือนฉัน</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>สัปดาห์นี้</string>
+	<key>LOADING</key>
+	<string>กำลังโหลด…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>ข้อความใหม่</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>ขาดรหัสผ่าน</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>หยุดการแจ้งเตือน</string>
+	<key>CC_TITLE</key>
+	<string>สำเนา</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>ไม่ได้อ่าน</string>
+	<key>FROM_TITLE</key>
+	<string>ผู้ส่ง</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>ปีที่แล้ว</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>โปรดเชื่อมต่อกับ WLAN เพื่อดาวน์โหลดไฟล์แนบเหล่านี้</string>
+	<key>QUICK_LOOK</key>
+	<string>ดูแบบรวดเร็ว</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>ปีที่แล้ว</string>
+	<key>ENCRYPTED</key>
+	<string>เข้ารหัสแล้ว</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>จาก</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>ข้อความนี้มาจากกลุ่มรายชื่อผู้รับอีเมล</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>กำลังโหลด</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>ค้นหา “%@”</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>ค้นหา</string>
+	<key>DISABLE_FILTER</key>
+	<string>ปิดใช้งานฟิลเตอร์ข้อความ</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>ผู้ส่งได้เข้ารหัสข้อความนี้และได้เซ็นชื่อด้วยใบรับรองที่เชื่อถือแล้ว</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>ผู้คน</string>
+	<key>TRASH_BUTTON</key>
+	<string>ทิ้ง</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>ไม่สามารถย้ายกล่องเมลบนเซิร์ฟเวอร์ได้</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>รวม:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>ส่งต่อ: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>การตั้งค่า</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>ค้นหา</string>
+	<key>PRINT</key>
+	<string>พิมพ์</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>ยอดนิยม</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>สีส้ม</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>ถึงหรือสำเนา</string>
+	<key>VIP_MAILBOX</key>
+	<string>VIP</string>
+	<key>FROM_LABEL</key>
+	<string>จาก</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>เก็บข้อความถาวร</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>ย้าย</string>
+	<key>SWIPE_FLAG</key>
+	<string>ติดธง</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>ข้อความนี้ประกอบด้วยภาพที่ยังไม่ได้โหลด</string>
+	<key>MOVE_TO</key>
+	<string>ย้ายไปยัง “%@”</string>
+	<key>ARCHIVE</key>
+	<string>เก็บถาวร</string>
+	<key>VIP_EDIT</key>
+	<string>รายการ VIP</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>ไม่สามารถลบกล่องเมลบนเซิร์ฟเวอร์ได้</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>%@ – %@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>กล่องเมล “%@” มีอยู่แล้ว</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>บัญชีต่อไปนี้มีข้อผิดพลาด: %@
+โปรดเลือกแต่ละบัญชีเพื่อดูรายละเอียดเพิ่มเติม</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>ทิ้ง</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>วันนี้</string>
+	<key>SWIPE_MOVE</key>
+	<string>ย้าย…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>ที่เก็บถาวรทั้งหมด</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>ถึง</string>
+	<key>NO_FROM</key>
+	<string>ไม่มีผู้ส่ง</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>ถึงที่อยู่อีเมล:</string>
+	<key>NEW_MAILBOX</key>
+	<string>กล่องเมลใหม่</string>
+	<key>REPAIR</key>
+	<string>ซ่อมแซม</string>
+	<key>SEND_AGAIN</key>
+	<string>ส่งอีกครั้ง</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>ติดธงอยู่ %lu ข้อความ</string>
+	<key>MOVE_BUTTON</key>
+	<string>ย้าย</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>ชื่อเรื่อง</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>การแจ้งเตือนตามหัวเรื่อง</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>คุณสามารถจัดการพื้นที่จัดเก็บข้อมูลของคุณได้ในการตั้งค่า</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>กล่องเมล</string>
+	<key>BACK</key>
+	<string>ย้อนกลับ</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>ฉบับร่าง</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>ล่าสุดเมื่อ %@</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>เลิกเลือกทั้งหมด</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>ข้อผิดพลาดบัญชี: %@</string>
+	<key>CERTIFICATE</key>
+	<string>ใบรับรอง</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>จำนวนเนื้อหาใหม่</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>ถึงหรือสำเนา</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>ฉบับร่างถึง: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>สัปดาห์ก่อน</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>ข้อผิดพลาดหลายบัญชี</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>รับเมลใหม่ทั้งหมด</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>VIP</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>ค้นหาใน %@ - %@</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>การเชื่อมต่อกับข้อมูลไม่สามารถเริ่มได้เนื่องจากตอนนี้กำลังใช้สายโทรศัพท์อยู่</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>เก็บถาวรทั้งหมด</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>ติดธงอยู่</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>สำเนา: ฉัน</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>บันทึกไฟล์แนบ</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>บันทึกรูปภาพความละเอียดสูงไปยังแอพรูปภาพแล้ว</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>ข้อผิดพลาดการถอดรหัส</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>สัปดาห์ที่แล้ว</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>รายการสมัครรับ</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>ยุบหัวเรื่อง</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>มีอยู่จนถึง %@</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>ยังไม่ได้ส่ง %@ ข้อความ</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>ย้าย (%@)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>ไม่มีผลการค้นหา</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>ทำว่าอ่านแล้ว</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>การเชื่อมต่อกับอุปกรณ์เครื่องอื่นของคุณอาจขัดข้อง โปรดลองอีกครั้ง</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>จำนวนข้อความทั้งหมด</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ - %@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>เข้าถึงเมลจากผู้คนสำคัญที่อยู่ในกล่องเมล VIP ของคุณได้อย่างรวดเร็ว</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>ย้าย</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>เลือกข้อความเพื่อเก็บถาวรหรือย้าย</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>ดาวน์โหลดไฟล์แนบและรูปภาพความละเอียดสูงแล้ว</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>ไม่สามารถแสดงข้อความนี้ได้เนื่องจากเกิดปัญหาตลอดเวลา</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>อ่านแล้ว</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>ลบข้อความที่เลือกอยู่</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>ย้ายข้อความเหล่านี้ไปยังกล่องเมลใหม่</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>ไม่มีเมลที่ส่งถึงฉัน</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>ดาวน์โหลดไฟล์แนบ</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>ดำเนินการการคาดเดาโดย Siri ไม่สำเร็จ</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>ข้อความนี้มาจากผู้ส่งในรายชื่อที่ถูกปิดกั้นของคุณ</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>ไม่สามารถเปลี่ยนชื่อกล่องเมลบนเซิร์ฟเวอร์ได้</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>ติดธงอยู่</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>คุณแน่ใจหรือไม่ว่าคุณต้องการปิดกั้นรายชื่อนี้</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>การแจ้งเตือนตามหัวเรื่อง</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>ดาวน์โหลดไฟล์แนบ</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>ถึง: ฉัน</string>
+	<key>BCC_HEADER</key>
+	<string>สำเนาลับ:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>เซิร์ฟเวอร์ได้ปฏิเสธที่อยู่หนึ่งที่อยู่ของผู้รับ ข้อความถูกเก็บอยู่ในกล่องออกของคุณ</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>การค้นหาที่แนะนำ</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>ติดธงอยู่</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>เก็บถาวร (%@)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>ย้ายข้อความนี้ไปยังกล่องเมลใหม่</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>กำลังดาวน์โหลดไฟล์แนบและรูปภาพความละเอียดสูง</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>มีอยู่ใน Mail Drop จนถึง %@</string>
+	<key>CANCEL</key>
+	<string>ยกเลิก</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>ไฟล์แนบ</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>ถึงฉัน</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>กำลังดาวน์โหลดที่เหลือ %@</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>ข้อความใหม่</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>ปีนี้</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>เก็บถาวร</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>การลบกล่องเมล “%@” จะเอาข้อความในกล่องออกจากบัญชีของคุณ</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>สีม่วง</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>หัวเรื่องที่ไม่รับแจ้งเตือน</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>กำลังดาวน์โหลดทั้งข้อความ</string>
+	<key>MESSAGE</key>
+	<string>ข้อความ</string>
+	<key>TRUST</key>
+	<string>เชื่อถือ</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>ธง%@</string>
+	<key>EXPAND_THREAD</key>
+	<string>ขยายหัวเรื่อง</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>ย้ายไปยังขยะ</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>สีเหลือง</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>ฟิลเตอร์ตาม:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>ไม่สามารถตรวจสอบยืนยันเนื้อหาของข้อความได้</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>อื่นๆ:</string>
+	<key>CC/BCC</key>
+	<string>สำเนา/สำเนาลับ:</string>
+	<key>SAVE_IMAGE</key>
+	<string>บันทึกรูปภาพ</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>ฟิลเตอร์</string>
+	<key>TO_TITLE</key>
+	<string>ผู้รับ</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>พบใน %@ %@</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>ไปที่ข้อความถัดไป</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>โฟลเดอร์</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>ไฟล์แนบนี้ขนาดใหญ่เกินไปที่จะดู</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>บัญชีเมลของคุณบางบัญชีต้องถูกตรวจสอบสิทธิ์อีกครั้งสำหรับ Apple Watch</string>
+	<key>MUTED_MAILBOX</key>
+	<string>หัวเรื่องที่ไม่รับแจ้งเตือน</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>ดูใบรับรอง</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>กำลังเชื่อมต่อ…</string>
+	<key>NO_MAIL</key>
+	<string>ไม่มีเมล</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>ตั้งการเตือนกำหนดเองสำหรับเมล VIP ใหม่ในการตั้งค่าการแจ้งเตือน</string>
+	<key>EDIT</key>
+	<string>แก้ไข</string>
+	<key>SAVING</key>
+	<string>กำลังบันทึก</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>ทำว่าไม่ใช่ขยะ</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>สีน้ำเงิน</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>เลิกสมัครรับ</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>ไปที่ข้อความก่อนหน้า</string>
+	<key>FROM_HEADER</key>
+	<string>จาก:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>สีแดง</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>ทิ้ง</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>วันที่แล้ว</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>สำเนา</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>แสดงเนื้อหาที่อ้างอิง</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>ไฟล์แนบ</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>กำลังดาวน์โหลดรูปภาพความละเอียดสูงลงในแอพรูปภาพ</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>iPad เครื่องนี้ถูกจำกัดไม่ให้สร้างบัญชีเมล</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>กล่องเมล</string>
+	<key>NO_VIP_MAIL</key>
+	<string>ไม่มีเมล VIP</string>
+	<key>CC_LABEL</key>
+	<string>สำเนา</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>ถึง</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>เดือนนี้</string>
+	<key>N_MESSAGES</key>
+	<string>%@ ข้อความ</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>ข้อผิดพลาดเกี่ยวกับเซิร์ฟเวอร์
+ติดต่อผู้ดูแลระบบของคุณ</string>
+	<key>LOAD_MESSAGE</key>
+	<string>โหลดข้อความ (ไม่แนะนำ)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>ข้อความนี้ได้ดาวน์โหลดเป็นเนื้อความธรรมดา</string>
+	<key>FAVORITES</key>
+	<string>รายการโปรด</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>ข้อผิดพลาดบัญชี</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>ค้นหาในกล่องเมล</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>ค้นหา %@ ใน %@ - %@</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>เลือกข้อความเพื่อทิ้งลงถังขยะหรือย้าย</string>
+	<key>ALL_TRASH</key>
+	<string>ทิ้งทั้งหมด</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>ไม่มีฉบับร่าง</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>ข้อผิดพลาดลายเซ็น</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>ทำเครื่องหมาย</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>ดาวน์โหลดไฟล์แนบแล้ว</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>ไฟล์แนบ Mail Drop ไม่ถูกต้อง</string>
+	<key>DATE</key>
+	<string>วันที่:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>โปรแกรมจำลองนี้ถูกจำกัดไม่ให้สร้างบัญชีเมล</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>ไฟล์แนบ</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>เก็บถาวร</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>รูปภาพความละเอียดสูง</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>ไม่มีเมลที่ติดธง</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>เฉพาะเมลที่ส่งในวันนี้</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>ไม่สามารถตรวจสอบยืนยันเนื้อหาของข้อความได้</string>
+	<key>NO_BODY</key>
+	<string>ข้อความนี้ไม่มีเนื้อหา</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>วันที่</string>
+	<key>EDIT_MAILBOX</key>
+	<string>แก้ไขกล่องเมล</string>
+	<key>REPLY_ALL</key>
+	<string>ตอบกลับทั้งหมด</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>ฉบับร่าง %lu ฉบับ</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>ค้นหา %@ ใน %@</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>ไม่ได้อ่าน</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>โหลดรูปภาพทั้งหมด (ไม่แนะนำ)</string>
+	<key>DELETE</key>
+	<string>ลบ</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>ลบ (%@)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>ชื่อเรื่อง</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>จัดการใบรับรองการเข้ารหัสสำหรับผู้ส่งนี้</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>ข้อความใหม่</string>
+	<key>NO_SUBJECT</key>
+	<string>ไม่มีชื่อเรื่อง</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>วันก่อนหน้านี้</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>ถึงฉัน</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>ชื่อ</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>บันทึกรูปภาพความละเอียดสูงไปยังแอพรูปภาพ</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>ข้อความที่ติดธง</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>เลิกติดธง</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>กล่องเมลของคุณเต็ม</string>
+	<key>UNTRUST</key>
+	<string>ไม่เชื่อถือ</string>
+	<key>TODAY_MAILBOX</key>
+	<string>วันนี้</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>ทิ้งทั้งหมด</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>จำนวนที่ไม่ได้อ่าน</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>ติดธง</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>ไม่ได้อ่าน</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>ไม่สามารถย้ายกล่องเมลได้</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>เฉพาะเมลที่มีไฟล์แนบ</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>วันที่แล้ว</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ERROR</key>
+	<string>ข้อผิดพลาด</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>โปรดเชื่อมต่อกับ WLAN เพื่อดาวน์โหลดไฟล์แนบนี้</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>โหลดเนื้อหาระยะไกล</string>
+	<key>SWIPE_JUNK</key>
+	<string>ขยะ</string>
+	<key>CONTINUE</key>
+	<string>ดำเนินการต่อ</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>ไม่มีข้อความสำหรับวันนี้</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>อื่นๆ</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>ยังไม่ได้ส่ง %@ ข้อความ</string>
+	<key>SENDING</key>
+	<string>กำลังส่ง…</string>
+	<key>BOX_SUFFIX</key>
+	<string>กล่อง</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>ไม่มีหัวเรื่องที่ไม่รับแจ้งเตือน</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>ลบข้อความ</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>ไปที่แอพ Apple Watch</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>ส่งเป็น .eml</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>แนบไฟล์แนบจากข้อความต้นฉบับหรือไม่</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>ชื่อเรื่องประกอบด้วย: %@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>ข้อความ</string>
+	<key>ACCOUNTS</key>
+	<string>บัญชี</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>ปิดทิ้ง</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>การลบกล่องเมล “%@” จะเอาข้อความในกล่องและกล่องเมลย่อยเหล่านั้นออกจากบัญชีของคุณ</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>ไม่ใช่ขยะ</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>กำลังดาวน์โหลดไฟล์แนบและรูปภาพความละเอียดสูง</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>ทิ้งข้อความ</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>อ่านแล้ว</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>สีเขียว</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>ข้อความนี้ถูกเซ็นชื่อหลายครั้ง</string>
+	<key>CC_HEADER</key>
+	<string>สำเนา:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>พบใน %@</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>เพิ่มกล่องเมล…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>ค้นหาใน %@</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>เดือนที่แล้ว</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>แจ้งเตือนฉัน</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> และ %@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>ดาวน์โหลดข้อความส่วนที่เหลือก่อนหรือไม่</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>ไม่สามารถตรวจสอบยืนยันเนื้อหาของข้อความได้</string>
+	<key>SUBJECT_HEADER</key>
+	<string>ชื่อเรื่อง:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>เลือกข้อความเพื่อลบหรือย้าย</string>
+	<key>TRASH</key>
+	<string>ถังขยะ</string>
+	<key>SHARE</key>
+	<string>แชร์</string>
+</dict>
+</plist>

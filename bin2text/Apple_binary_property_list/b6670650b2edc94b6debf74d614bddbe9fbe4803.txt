@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_NON_COACHING_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>I když poslední dobou nestojíte a nehýbete se tak často jako dřív, pořád máte průměr přes 45 minut za hodinu. To není špatné.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud se vám dnes podaří dosáhnout v průměru aspoň {{goal_value:hours}} neprosezených minut za hodinu, šipka se otočí. Vy na to máte, {{username}}.</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>I když poslední dobou nestojíte a nehýbete se tak často jako dřív, pořád máte průměr přes 45 minut za hodinu. To není špatné, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka neprosezených minut ukazuje dolů, ale k otočení jí moc nechybí. Když teď %#@num_days@ každou hodinu vstanete a budete se aspoň {{goal_value:minutes}} min hýbat, otočí se zase nahoru.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny po sobě</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne po sobě</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dnů po sobě</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá každá minuta, kdy nesedíte a hýbete se. Jen tak dál!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka neprosezených minut ukazuje dolů, ale k otočení jí moc nechybí, {{username}}. Když teď %#@num_days@ každou hodinu vstanete a budete se aspoň {{goal_value:minutes}} min hýbat, otočí se zase nahoru.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipku neprosezených minut můžete otočit už za %#@num_days@. Stačí každou hodinu vstát a aspoň {{goal_value:minutes}} min se hýbat, a máte to v kapse.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pojďme tuto šipku vrátit zase nahoru! Když teď budete %#@num_days@ dosahovat průměrně {{goal_value:hours}} neprosezených minut za hodinu, šipka se otočí.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Zkuste tento týden dosáhnout v průměru aspoň {{goal_value:minutes}} minut za hodinu. Sledujte nové cíle, nepolevujte a brzo bude šipka zase mířit nahoru.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tuhle šipku je dobré držet nahoře, {{username}}. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>K tomu, abyste dali neprosezené minuty zase do pořádku, vám jich stačí %#@num_days@ nasbírat průměrně {{goal_value:hours}} za hodinu.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>v příštích %d dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v příštích %d dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v příštích %d dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pojďme tuto šipku vrátit zase nahoru, {{username}}! Když teď budete %#@num_days@ dosahovat průměrně {{goal_value:hours}} neprosezených minut za hodinu, šipka se otočí.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud se vám dnes podaří dosáhnout v průměru aspoň {{goal_value:hours}} neprosezených minut za hodinu, šipka se otočí. Vy na to máte.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete zapracovat na této šipce, zkuste každou hodinu vstát a aspoň {{goal_value:minutes}} min se hýbat. Jednou týdně dostanete nový cíl, dokud se šipka neotočí.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka míří nahoru, ale počet neprosezených minut se vám poslední dobou snižuje. Myslete na to, že máte každou hodinu vstát a trochu se rozhýbat, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá každá minuta, kdy nesedíte a hýbete se. Jen tak dál, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Neprosezené minuty jsou důležité, {{username}}. Snažte se každou hodinu vstát a o něco víc se hýbat, ať se šipka drží nahoře.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete tento ukazatel rozhýbat správným směrem, každý den se trochu častěji zvedněte ze židle a dopřejte si chvíli pohybu.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá každá minuta, kdy nesedíte a hýbete se. Jen tak dál!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipku neprosezených minut můžete otočit už za %#@num_days@, {{username}}. Stačí každou hodinu vstát a aspoň {{goal_value:minutes}} min se hýbat, a máte to v kapse.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Neprosezené minuty jsou důležité. Snažte se každou hodinu vstát a o něco víc se hýbat, ať se šipka drží nahoře.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete zapracovat na této šipce, {{username}}, zkuste každou hodinu vstát a aspoň {{goal_value:minutes}} min se hýbat. Jednou týdně dostanete nový cíl, dokud se šipka neotočí.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tuhle šipku je dobré držet nahoře, {{username}}. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá každá minuta, kdy nesedíte a hýbete se. Jen tak dál, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tuhle šipku je dobré držet nahoře. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete tento ukazatel rozhýbat správným směrem, {{username}}, každý den se trochu častěji zvedněte ze židle a dopřejte si chvíli pohybu.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tuhle šipku je dobré držet nahoře. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka míří nahoru, ale počet neprosezených minut se vám poslední dobou snižuje. Myslete na to, že máte každou hodinu vstát a trochu se rozhýbat.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>K tomu, abyste dali neprosezené minuty zase do pořádku, vám jich stačí %#@num_days@ nasbírat průměrně {{goal_value:hours}} za hodinu, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>v příštích %d dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v příštích %d dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v příštích %d dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, zkuste tento týden dosáhnout v průměru aspoň {{goal_value:minutes}} minut za hodinu. Sledujte nové cíle, nepolevujte a brzo bude šipka zase mířit nahoru.</string>
+	</dict>
+</dict>
+</plist>

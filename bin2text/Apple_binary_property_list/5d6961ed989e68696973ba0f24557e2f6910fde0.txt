@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HOSelectableAccessoriesInstructionsDescription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Выберите аксессуары, которые Вы хотите включить в список «Избранное». Избранные аксессуары отображаются на главной вкладке приложения «Дом», при этом аксессуары, находящиеся в верхней части списка, будут доступны для быстрого доступа в Пункте управления.</string>
+			<key>mac</key>
+			<string>Выберите аксессуары, которые хотите включить в список «Избранное». Избранные аксессуары отображаются на главной вкладке приложения «Дом».</string>
+			<key>ipad</key>
+			<string>Выберите аксессуары, которые Вы хотите включить в список «Избранное». Избранные аксессуары отображаются на главной вкладке приложения «Дом», при этом аксессуары, находящиеся в верхней части списка, будут доступны для быстрого доступа в Пункте управления.</string>
+			<key>ipod</key>
+			<string>Выберите аксессуары, которые Вы хотите включить в список «Избранное». Избранные аксессуары отображаются на главной вкладке приложения «Дом», при этом аксессуары, находящиеся в верхней части списка, будут доступны для быстрого доступа в Пункте управления.</string>
+		</dict>
+	</dict>
+	<key>HOWelcomeView_Description_Control</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Безопасно управляйте своим домом и наблюдайте за происходящим в нем с помощью приложения «Дом», Пункта управления, Siri и Apple Watch.</string>
+			<key>mac</key>
+			<string>Безопасно управляйте своим домом и наблюдайте за происходящим в нем с помощью приложения «Дом», Siri и Apple Watch.</string>
+			<key>ipad</key>
+			<string>Безопасно управляйте своим домом и наблюдайте за происходящим в нем с помощью приложения «Дом», Пункта управления, Siri и Apple Watch.</string>
+			<key>ipod</key>
+			<string>Безопасно управляйте своим домом и наблюдайте за происходящим в нем с помощью приложения «Дом», Пункта управления, Siri и Apple Watch.</string>
+		</dict>
+	</dict>
+	<key>HOLocationInvitationCount</key>
+	<dict>
+		<key>invitations</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d приглашения</string>
+			<key>one</key>
+			<string>%d приглашение</string>
+			<key>many</key>
+			<string>%d приглашений</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d приглашения</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@invitations@</string>
+	</dict>
+</dict>
+</plist>

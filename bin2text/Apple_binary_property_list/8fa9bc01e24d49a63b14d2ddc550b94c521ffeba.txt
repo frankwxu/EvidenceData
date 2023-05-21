@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vyjdite dnes {{goal_value:flights}} poschodia a zajtra bude šípka smerovať nahor. Použite schody, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Táto šípka môže smerovať opäť nahor už o %#@num_days@! Vyjdite každý deň aspoň {{goal_value:flights}} poschodia, aby sa šípka otočila.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dni</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>%d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Skvelý výstup po schodoch!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, táto šípka môže smerovať opäť nahor už o %#@num_days@! Vyjdite každý deň aspoň {{goal_value:flights}} poschodia, aby sa šípka otočila.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dni</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>%d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Už ste blízko! Nenechajte túto šípku smerovať nadol. Počas %#@num_days@ vyjdite aspoň {{goal_value:flights}} poschodia denne, aby sa šípka znova otočila nahor.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>nasledujúcich %d dní</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>nasledujúceho %d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>nasledujúcich %d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Je načase poobzerať sa po nejakých schodoch. Ak chcete otočiť svoju šípku, vyjdite počas %#@num_days@ aspoň {{goal_value:flights}} poschodia denne. Pustite sa do toho!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>nasledujúcich %d dní</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>nasledujúceho %d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>nasledujúcich %d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Neprestávajte chodiť po schodoch, {{username}}. Zdolávanie poschodí vám ide skvele.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ak chcete otočiť túto šípku nahor, použite schody vždy, keď je to možné. Počas %#@num_days@ sa pokúste vyjsť aspoň {{goal_value:flights}} poschodia denne. Je to na vás!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>nasledujúcich %d dní</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>nasledujúceho %d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>nasledujúcich %d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Je načase poobzerať sa po nejakých schodoch, {{username}}. Ak chcete otočiť svoju šípku, vyjdite počas %#@num_days@ aspoň {{goal_value:flights}} poschodia denne. Pustite sa do toho!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>nasledujúcich %d dní</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>nasledujúceho %d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>nasledujúcich %d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vyjdite dnes {{goal_value:flights}} poschodia a zajtra bude šípka smerovať nahor. Použite schody!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ak chcete, aby bola táto šípka opäť otočená správnym smerom, vyjdite po schodoch, hneď ako nejaké zbadáte.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chodíte po schodoch menej ako niekedy, {{username}}. Pokúste sa vyjsť aspoň {{goal_value:flights}} poschodia denne, aby zostala vaša šípka otočená nahor.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Skvelý výstup po schodoch, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Udržte šípku prejdených poschodí otočenú nahor, {{username}}. Ak o ňu nechcete prísť, musíte vyjsť v priemere aspoň {{goal_value:flights}} poschodia denne.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Častejšie chodenie po schodoch môže pomôcť tejto šípke. A je to zdravé!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Skvelý výstup po schodoch!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Už ste blízko, {{username}}! Nenechajte túto šípku smerovať nadol. Počas %#@num_days@ vyjdite aspoň {{goal_value:flights}} poschodia denne, aby sa šípka znova otočila nahor.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>nasledujúcich %d dní</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>nasledujúceho %d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>nasledujúcich %d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Udržte šípku prejdených poschodí otočenú nahor. Ak o ňu nechcete prísť, musíte vyjsť v priemere aspoň {{goal_value:flights}} poschodia denne.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ak chcete, aby bola táto šípka opäť otočená správnym smerom, vyjdite po schodoch, hneď ako nejaké zbadáte.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Neprestávajte chodiť po schodoch, {{username}}. Zdolávanie poschodí vám ide skvele.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Skvelý výstup po schodoch, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Neprestávajte chodiť po schodoch. Zdolávanie poschodí vám ide skvele.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Neprestávajte chodiť po schodoch. Zdolávanie poschodí vám ide skvele.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ak chcete otočiť túto šípku nahor, použite schody vždy, keď je to možné. Počas %#@num_days@ sa pokúste vyjsť aspoň {{goal_value:flights}} poschodia denne. Je to na vás, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>nasledujúcich %d dní</string>
+			<key>one</key>
+			<string>%d deň</string>
+			<key>many</key>
+			<string>nasledujúceho %d dňa</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>nasledujúcich %d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chodíte po schodoch menej ako niekedy. Pokúste sa vyjsť aspoň {{goal_value:flights}} poschodia denne, aby zostala vaša šípka otočená nahor.</string>
+	</dict>
+</dict>
+</plist>

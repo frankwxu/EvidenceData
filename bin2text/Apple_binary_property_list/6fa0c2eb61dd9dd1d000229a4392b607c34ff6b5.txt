@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>״%@״</string>
+			<key>many</key>
+			<string>״%@״</string>
+			<key>two</key>
+			<string>״%@״</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>״%@״</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>לא ניתן להוריד את ״%2$#@title@״ ופריט נוסף. נא לנסות שוב מאוחר יותר.</string>
+			<key>many</key>
+			<string>לא ניתן להוריד את ״%2$#@title@״ ועוד %lu פריטים אחרים. נא לנסות שוב מאוחר יותר.</string>
+			<key>two</key>
+			<string>לא ניתן להוריד את ״%2$#@title@״ ועוד %lu פריטים אחרים. נא לנסות שוב מאוחר יותר.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>לא ניתן להוריד את ״%2$#@title@״ ועוד %lu פריטים אחרים. נא לנסות שוב מאוחר יותר.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>הפרקים החדשים ביותר בספריה שלך מורדים מחדש באופן אוטומטי. יש פרק אחד ישן יותר שמחכה להורדה.</string>
+			<key>many</key>
+			<string>הפרקים החדשים ביותר בספריה שלך מורדים מחדש באופן אוטומטי. יש %lu פרקים ישנים יותר שמחכים להורדה.</string>
+			<key>two</key>
+			<string>הפרקים החדשים ביותר בספריה שלך מורדים מחדש באופן אוטומטי. יש שני פרקים ישנים יותר שמחכים להורדה.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>הפרקים החדשים ביותר בספריה שלך מורדים מחדש באופן אוטומטי. יש %lu פרקים ישנים יותר שמחכים להורדה.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>לא ניתן להוריד את הפודקאסט</string>
+			<key>many</key>
+			<string>לא ניתן להוריד את הפודקאסטים</string>
+			<key>two</key>
+			<string>לא ניתן להוריד את הפודקאסטים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>לא ניתן להוריד את הפודקאסטים</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>עוד פרק אחד של %2$@</string>
+			<key>many</key>
+			<string>עוד %u פרקים של %@</string>
+			<key>two</key>
+			<string>עוד שני פרקים של %2$@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>עוד %u פרקים של %@</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>האם ברצונך להמשיך להאזין לפרק שבחרת להפעיל בתור הבא?</string>
+			<key>many</key>
+			<string>האם ברצונך להמשיך להאזין ל-%lu הפרקים שבחרת להפעיל בתור הבא?</string>
+			<key>two</key>
+			<string>האם ברצונך להמשיך להאזין לשני הפרקים שבחרת להפעיל בתור הבא?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>האם ברצונך להמשיך להאזין ל-%lu הפרקים שבחרת להפעיל בתור הבא?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>פרק חדש אחד</string>
+			<key>many</key>
+			<string>‏%u פרקים חדשים</string>
+			<key>two</key>
+			<string>שני פרקים חדשים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>‏%u פרקים חדשים</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>‏%lu פרקים חדשים זמינים.</string>
+			<key>many</key>
+			<string>‏%lu פרקים חדשים זמינים.</string>
+			<key>two</key>
+			<string>שני פרקים חדשים זמינים.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>יש %lu פרקים חדשים זמינים.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

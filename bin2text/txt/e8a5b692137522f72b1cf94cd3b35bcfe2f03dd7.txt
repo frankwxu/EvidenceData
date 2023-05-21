@@ -1,0 +1,48 @@
+{
+"liveness":{
+    "enable":true,
+    "no_preview":false,
+    "auto_close_time":180,
+    "action_count":2,
+    "action_time_out":30,
+    "must_keep_face":false,
+    "actions":[
+            {
+            "name": "close_eye",
+            "comment": "close threshold",
+            "param1": "4"
+            },
+            {
+            "name": "roll",
+            "comment": "roll threshold",
+            "param1": "10"
+            },
+            {
+            "name": "pan",
+            "comment": "pan threshold",
+            "param1": "10"
+            },
+            {
+            "name": "smile",
+            "comment": "smile threshold",
+            "param1": "10"
+            },
+            {
+            "name": "tilt",
+            "comment": "tilt threshold",
+            "param1": "8"
+            }
+        ]
+    },
+	"faceprint":{
+		"faceprint_max_count":1,
+		"feature_max_count":1,
+        "reverb_disp_time":3000,
+        "verify_level":1,
+        "mask_level": 20,
+        "sunglasses_level": 20
+    },
+    "statistics" : {
+        "collect_score":true
+    }
+}

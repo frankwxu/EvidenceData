@@ -1,0 +1,252 @@
+/**
+ * Build SMS page HTML. Actually, it's MMS.
+ * 
+ * @param smsAttrs sms attributes
+ * 
+ * @author Mark Gan
+ */
+function buildHTML(smsAttrs) {
+	switch(smsAttrs.type) {
+		case 1: //image
+			return _buildImg(smsAttrs);
+		case 2: //map
+			return _buildMap(smsAttrs);
+		case 3: //video
+			return _buildVideo(smsAttrs);
+		default:
+			return _buildImg(smsAttrs);
+	}
+}
+
+function _getURLParam(strParamName) {
+    var strReturn = '';
+    var strHref = window.location.href;
+    if (strHref.indexOf("?") > -1){
+        var strQueryString = strHref.substr(strHref.indexOf("?"));
+
+        var aQueryString = strQueryString.split("&");
+        for (var iParam = 0; iParam < aQueryString.length; iParam++) {
+            if (aQueryString[iParam].indexOf(strParamName + "=") > -1) {
+                var aParam = aQueryString[iParam].split("=");
+                strReturn = aParam[1];
+                break;
+            }
+        }
+    }
+    return unescape(strReturn);
+}
+
+
+function _goDownloadDT() {
+	window.location.href = "http://dingtone.me/d";
+}
+
+
+function _buildImg(smsAttrs) {
+	var client = new Client();
+	var isChinese = client.isChineseClient();
+	
+	var html = isChinese ? _ImgHtml_CN() : _ImgHtml_EN();
+	
+	var key = _getURLParam('k'); //get key from URL parameter.
+	var url = _replace(smsAttrs.url, '{KEY}', key); //put key into the s3 URL of the image.
+	
+	var signKey = 'Signature';
+	var index_sign = url.indexOf(signKey + '=');
+	if(index_sign >= 0) {
+		var start = index_sign + signKey.length + 1;
+		var end = url.indexOf('&', start);
+		end = end > 0 ? end : url.length;
+		
+		var signVal = url.substring(start, end);
+		var encSignVal = encodeURIComponent(signVal); //URI encoding of the signature
+		url = url.replace(signVal, encSignVal);
+	}
+	
+	html = _replace(html, '{SENDER}', smsAttrs.sender);
+	html = _replace(html, '{TIME}', new Date(smsAttrs.time).toLocaleString());
+	html = _replace(html, '{CLASS}', smsAttrs.width > smsAttrs.height ? 'h' : '');
+	html = _replace(html, '{URL}', url);
+	
+	
+	var width = 193, height=288;
+	if(smsAttrs.width > smsAttrs.height) {
+		width = 288, height = 193;
+	}
+	html = _replace(html, '{WIDTH}', width);
+	html = _replace(html, '{HEIGHT}', height);
+
+	return html;
+}
+
+function _replace(str, oldVal, newVal) {
+	return str.replace(new RegExp(oldVal, "gm"), newVal);
+}
+
+
+function _ImgHtml_EN() {
+	var html =  "<div class=\"content\">";
+		html += "<div class=\"title\">";
+		html += "<div class=\"logo\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/logo.png\" width=\"40\" height=\"40\" alt=\"dingtone logo\" /></a></div>";
+	    html += "<div class=\"title_f\"><strong>{SENDER}</strong> sent your a photo <br/> via Dingtone<br/>";
+	    html += "<span>Sent at {TIME}</span></div>";
+	
+	    html += "</div>";
+	
+	    html += "<div class=\"load_images\"><a target='_blank' href=\"http://dingtone.me/d\"><img id=\"smsContent\" class=\"{CLASS}\" src=\"{URL}\" width=\"{WIDTH}\" height=\"{HEIGHT}\" /></a></div>";
+	    html += "<div class=\"download\"><div class=\"download_f\">Free calling and texting with {SENDER}, <br/>join Dingtone</div>";
+	    html += "<div class=\"download_bnt\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/bnt_download.png\" width=\"182\" height=\"34\" alt=\"download dingtone\" /></a></div></div>";
+	    html += "</div></div>";
+	    
+    return html;
+}
+
+function _ImgHtml_CN() {
+	var html =  "<div class=\"content\">";
+		html += "<div class=\"title\">";
+		html += "<div class=\"logo\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/logo.png\" width=\"40\" height=\"40\" alt=\"dingtone logo\" /></a></div>";
+	    html += "<div class=\"title_f\"><strong>{SENDER}</strong>发送了照片给你 <br/>通过叮咚发送<br/>";
+	    html += "<span>发送于: {TIME}</span></div>";
+	
+	    html += "</div>";
+	
+	    html += "<div class=\"load_images\"><a target='_blank' href=\"http://dingtone.me/d\"><img id=\"smsContent\" class=\"{CLASS}\" src=\"{URL}\" width=\"{WIDTH}\" height=\"{HEIGHT}\" /></a></div>";
+	    html += "<div class=\"download\"><div class=\"download_f\">想要与{SENDER}免费打电话，免费发短信，<br/>就加入叮咚吧。</div>";
+	    html += "<div class=\"download_bnt\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/bnt_download.png\" width=\"182\" height=\"34\" alt=\"下载叮咚\" /></a></div></div>";
+	    html += "</div></div>";
+	    
+    return html;
+}
+
+
+
+function _buildMap(smsAttrs) {
+	var client = new Client();
+	var isChinese = client.isChineseClient();
+	var isIOS = client.isIOSClient(navigator.userAgent);
+	var isAndroid = client.isAndroidClient(navigator.userAgent);
+	
+	var html = isChinese ? _MapHtml_CN() : _MapHtml_EN();
+	
+	var pos = _getURLParam('k');//key is the sharing position of the map.
+
+	html = _replace(html, '{SENDER}', smsAttrs.sender);
+	html = _replace(html, '{TIME}', new Date(smsAttrs.time).toLocaleString());
+	html = _replace(html, '{POSITION}', pos);
+	
+	
+	var width=300, height=235;
+	if(isAndroid) {
+		width=300, height=280;
+	}
+	html = _replace(html, '{WIDTH}', width);
+	html = _replace(html, '{HEIGHT}', height);
+
+	return html;
+}
+
+
+function _MapHtml_EN() {
+	var html =  "<div class=\"content\">";
+		html += "<div class=\"title\">";
+		html += "<div class=\"logo\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/logo.png\" width=\"40\" height=\"40\" alt=\"dingtone logo\" /></a></div>";
+	    html += "<div class=\"title_f\"><strong>{SENDER}</strong> sent your a map <br/> via Dingtone<br/>";
+	    html += "<span>Sent at {TIME}</span></div>";
+	
+	    html += "</div>";
+	
+	    html += "<div class=\"load_images\"><a target='_blank' href=\"http://dingtone.me/d\"><iframe width=\"{WIDTH\" height=\"{HEIGHT}\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?q={POSITION}&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;z=14&amp;output=embed\"></iframe></a></div>";
+	    html += "<div class=\"download\"><div class=\"download_f\">Free calling and texting with {SENDER}, <br/>join Dingtone</div>";
+	    html += "<div class=\"download_bnt\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/bnt_download.png\" width=\"182\" height=\"34\" alt=\"download dingtone\" /></a></div></div>";
+	    html += "</div></div>";
+	    
+    return html;
+}
+
+function _MapHtml_CN() {
+	var html =  "<div class=\"content\">";
+		html += "<div class=\"title\">";
+		html += "<div class=\"logo\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/logo.png\" width=\"40\" height=\"40\" alt=\"dingtone logo\" /></a></div>";
+	    html += "<div class=\"title_f\"><strong>{SENDER}</strong>发送了地图给你 <br/>通过叮咚发送<br/>";
+	    html += "<span>发送于: {TIME}</span></div>";
+	
+	    html += "</div>";
+	
+	    html += "<div class=\"load_images\"><a target='_blank' href=\"http://dingtone.me/d\"><iframe width=\"{WIDTH\" height=\"{HEIGHT}\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://ditu.google.cn/maps?q={POSITION}&amp;hl=zh-CN&amp;ie=UTF8&amp;t=m&amp;z=14&amp;output=embed\"></iframe></a></div>";
+	    html += "<div class=\"download\"><div class=\"download_f\">想要与{SENDER}免费打电话，免费发短信，<br/>就加入叮咚吧。</div>";
+	    html += "<div class=\"download_bnt\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/bnt_download.png\" width=\"182\" height=\"34\" alt=\"下载叮咚\" /></a></div></div>";
+	    html += "</div></div>";
+	    
+    return html;
+}
+
+function _buildVideo(smsAttrs) {
+	var client = new Client();
+	var isChinese = client.isChineseClient();
+	
+	var html = isChinese ? _VideoHtml_CN() : _VideoHtml_EN();
+	var key = _getURLParam('k');//get key from URL parameter
+	var url = _replace(smsAttrs.url, '{KEY}', key);//put key into the URL of video
+	
+	var signKey = 'Signature';
+	var index_sign = url.indexOf(signKey + '=');
+	if(index_sign >= 0) {
+		var start = index_sign + signKey.length + 1;
+		var end = url.indexOf('&', start);
+		end = end > 0 ? end : url.length;
+		
+		var signVal = url.substring(start, end);
+		var encSignVal = encodeURIComponent(signVal);
+		url = url.replace(signVal, encSignVal);
+	}
+	
+	html = _replace(html, '{SENDER}', smsAttrs.sender);
+	html = _replace(html, '{TIME}', new Date(smsAttrs.time).toLocaleString());
+	html = _replace(html, '{CLASS}', smsAttrs.width > smsAttrs.height ? 'h' : '');
+	html = _replace(html, '{URL}', url);
+	
+	
+	var width = 193, height=288;
+	if(smsAttrs.width > smsAttrs.height) {
+		width = 288, height = 193;
+	}
+	html = _replace(html, '{WIDTH}', width);
+	html = _replace(html, '{HEIGHT}', height);
+
+	return html;
+}
+
+function _VideoHtml_EN() {
+	var html =  "<div class=\"content\">";
+		html += "<div class=\"title\">";
+		html += "<div class=\"logo\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/logo.png\" width=\"40\" height=\"40\" alt=\"dingtone logo\" /></a></div>";
+	    html += "<div class=\"title_f\"><strong>{SENDER}</strong> sent your a video <br/> via Dingtone<br/>";
+	    html += "<span>Sent at {TIME}</span></div>";
+	
+	    html += "</div>";
+	
+	    html += "<div class=\"load_videos\"><a target='_blank' href=\"http://dingtone.me/d\"><video id=\"smsContent\" class=\"{CLASS}\" src=\"{URL}\" width=\"{WIDTH}\" height=\"{HEIGHT}\" controls=\"controls\"></video></a></div>";
+	    html += "<div class=\"download\"><div class=\"download_f\">Free calling and texting with {SENDER}, <br/>join Dingtone</div>";
+	    html += "<div class=\"download_bnt\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/bnt_download.png\" width=\"182\" height=\"34\" alt=\"download dingtone\" /></a></div></div>";
+	    html += "</div></div>";
+	    
+    return html;
+}
+
+function _VideoHtml_CN() {
+	var html =  "<div class=\"content\">";
+		html += "<div class=\"title\">";
+		html += "<div class=\"logo\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/logo.png\" width=\"40\" height=\"40\" alt=\"dingtone logo\" /></a></div>";
+	    html += "<div class=\"title_f\"><strong>{SENDER}</strong>发送了视频给你 <br/>通过叮咚发送<br/>";
+	    html += "<span>发送于: {TIME}</span></div>";
+	
+	    html += "</div>";
+	
+	    html += "<div class=\"load_videos\"><a target='_blank' href=\"http://dingtone.me/d\"><video id=\"smsContent\" class=\"{CLASS}\" src=\"{URL}\" width=\"{WIDTH}\" height=\"{HEIGHT}\" controls=\"controls\"></video></a></div>";
+	    html += "<div class=\"download\"><div class=\"download_f\">想要与{SENDER}免费打电话，免费发短信，<br/>就加入叮咚吧。</div>";
+	    html += "<div class=\"download_bnt\"><a target='_blank' href=\"http://dingtone.me/d\"><img src=\"http://resource.dingtone.me/images2/bnt_download.png\" width=\"182\" height=\"34\" alt=\"下载叮咚\" /></a></div></div>";
+	    html += "</div></div>";
+	    
+    return html;
+}
+

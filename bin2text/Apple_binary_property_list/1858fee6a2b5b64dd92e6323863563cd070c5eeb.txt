@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HOSelectableAccessoriesInstructionsDescription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>よく使う項目に入れるアクセサリを選択してください。よく使う項目は“ホーム” Appのメインタブに表示されます。最もよく使う項目はコントロールセンターに表示されるため、素早くアクセスできます。</string>
+			<key>mac</key>
+			<string>よく使う項目に入れるアクセサリを選択してください。よく使う項目は“ホーム” Appのメインタブに表示されます。</string>
+			<key>ipad</key>
+			<string>よく使う項目に入れるアクセサリを選択してください。よく使う項目は“ホーム” Appのメインタブに表示されます。最もよく使う項目はコントロールセンターに表示されるため、素早くアクセスできます。</string>
+			<key>ipod</key>
+			<string>よく使う項目に入れるアクセサリを選択してください。よく使う項目は“ホーム” Appのメインタブに表示されます。最もよく使う項目はコントロールセンターに表示されるため、素早くアクセスできます。</string>
+		</dict>
+	</dict>
+	<key>HOWelcomeView_Description_Control</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>“ホーム” App、コントロールセンター、Siri、Apple Watchを使って、家を安全にコントロールかつモニターしましょう。</string>
+			<key>mac</key>
+			<string>“ホーム” App、Siri、Apple Watchを使って、家を安全にコントロールかつモニターしましょう。</string>
+			<key>ipad</key>
+			<string>“ホーム” App、コントロールセンター、Siri、Apple Watchを使って、家を安全にコントロールかつモニターしましょう。</string>
+			<key>ipod</key>
+			<string>“ホーム” App、コントロールセンター、Siri、Apple Watchを使って、家を安全にコントロールかつモニターしましょう。</string>
+		</dict>
+	</dict>
+	<key>HOLocationInvitationCount</key>
+	<dict>
+		<key>invitations</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d件の参加依頼</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@invitations@</string>
+	</dict>
+</dict>
+</plist>

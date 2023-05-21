@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>WRIST_CHOICE_ID</string>
+			<key>isRadioGroup</key>
+			<true/>
+			<key>label</key>
+			<string>WRIST_CHOICE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>LEFT_HAND_ID</string>
+			<key>label</key>
+			<string>LEFT_HAND</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>RIGHT_HAND_ID</string>
+			<key>label</key>
+			<string>RIGHT_HAND</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>WRIST_FOOTER</string>
+			<key>id</key>
+			<string>ORIENTATION_CHOICE_ID</string>
+			<key>isRadioGroup</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>LISA_ON_LEFT_ID</string>
+			<key>label</key>
+			<string>LISA_ON_LEFT</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>LISA_ON_RIGHT_ID</string>
+			<key>label</key>
+			<string>LISA_ON_RIGHT</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>GizmoOrientation</string>
+</dict>
+</plist>

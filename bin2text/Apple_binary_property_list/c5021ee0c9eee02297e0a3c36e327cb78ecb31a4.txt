@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LIVE_SUMMARY</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lives@</string>
+		<key>lives</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u more live video</string>
+			<key>other</key>
+			<string>%u more live videos</string>
+		</dict>
+	</dict>
+	<key>MESSAGE_SUMMARY</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@messages@</string>
+		<key>messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u more message</string>
+			<key>other</key>
+			<string>%u more messages</string>
+		</dict>
+	</dict>
+	<key>VIDEO_SUMMARY</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@videos@</string>
+		<key>videos</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u more video</string>
+			<key>other</key>
+			<string>%u more videos</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

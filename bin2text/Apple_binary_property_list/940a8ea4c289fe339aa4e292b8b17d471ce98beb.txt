@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bugün {{goal_value:minutes}} Egzersiz dakikası kazanırsanız bu ok yarın yukarıyı gösterir. Başarabilirsiniz!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz iyi görünüyor. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz doğru yönü gösteriyor. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz aşağıyı gösteriyor ama yukarıya çevirmeye çok yaklaştınız. Önümüzdeki %#@num_days@ günde {{goal_value:minutes}} Egzersiz dakikası kazanın ve oku yukarıya çevirin.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz aşağıyı gösteriyor ama son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz. Önümüzdeki 30 gün günde en az {{goal_value:minutes}} kazanın ve oku yukarıya çevirin. Hızınızı koruyun {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu oku yeniden yukarıya çevirmek için önümüzdeki 30 gün günde ortalama en az {{goal_value:minutes}} Egzersiz dakikası yapın. Son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz, başarabilirsiniz {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz aşağıyı gösteriyor ama çok fazla değil. Önümüzdeki %#@num_days@ Egzersiz dakikalarınızı günde {{goal_value:minutes}} üzerinde tutarsanız okunuz yeniden yukarıyı gösterecek.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Günde en az {{goal_value:minutes}} Egzersiz dakikası kazanmaya devam edin, okunuz da yukarıyı göstermeye devam etsin. Çok iyi gidiyorsunuz {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz iyi görünüyor {{username}}. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz aşağıyı gösteriyor ama son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz. Önümüzdeki 14 gün günde en az {{goal_value:minutes}} kazanın ve oku yukarıya çevirin. Hızınızı koruyun!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuzu yaklaşık %#@num_days@ içinde yukarıya çevirebilirsiniz! Bunun için günde en az {{goal_value:minutes}} Egzersiz dakikası kazanın.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz yukarıyı gösteriyor. Böyle kalması için günde en az {{goal_value:minutes}} Egzersiz dakikası kazandığınızdan emin olun!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu oku yeniden yukarıya çevirmek için önümüzdeki %#@num_days@ günde ortalama en az {{goal_value:minutes}} Egzersiz dakikası yapın. Başarabilirsiniz!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz iyi görünüyor {{username}}. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz aşağıyı gösteriyor ama son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz. Önümüzdeki 14 gün günde en az {{goal_value:minutes}} kazanın ve oku yukarıya çevirin. Hızınızı koruyun {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Günde en az {{goal_value:minutes}} Egzersiz dakikası kazanmaya devam edin, okunuz da yukarıyı göstermeye devam etsin. Çok iyi gidiyorsunuz!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu oku yeniden yukarıya çevirmek için önümüzdeki 14 gün günde ortalama en az {{goal_value:minutes}} Egzersiz dakikası yapın. Son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz, başarabilirsiniz {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz aşağıyı gösteriyor ama çok fazla değil {{username}}. Önümüzdeki %#@num_days@ Egzersiz dakikalarınızı günde {{goal_value:minutes}} üzerinde tutarsanız okunuz yeniden yukarıyı gösterecek.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz doğru yönü gösteriyor {{username}}. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuzu yaklaşık %#@num_days@ içinde yukarıya çevirebilirsiniz {{username}}! Bunun için günde en az {{goal_value:minutes}} Egzersiz dakikası kazanın.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz aşağıyı gösteriyor ama yukarıya çevirmeye çok yaklaştınız {{username}}! Önümüzdeki %#@num_days@ günde {{goal_value:minutes}} Egzersiz dakikası kazanın ve oku yukarıya çevirin.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu oku yeniden yukarıya çevirmek için önümüzdeki %#@num_days@ günde ortalama en az {{goal_value:minutes}} Egzersiz dakikası yapın. Başarabilirsiniz {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d gün</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d gün</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Başlamak için günde en az {{goal_value:minutes}} Egzersiz dakikası kazanmayı deneyin. Daha sonra her hafta yeni hedefinizi kontrol edin Hedeflerinize ulaşırsanız okunuzu yaklaşık %#@num_weeks@ içinde yukarıya çevirebilirsiniz.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hafta</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hafta</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz aşağıyı gösteriyor ama son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz. Önümüzdeki 30 gün günde en az {{goal_value:minutes}} kazanın ve oku yukarıya çevirin. Hızınızı koruyun!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Günde en az {{goal_value:minutes}} Egzersiz dakikası kazanmaya devam edin, okunuz da yukarıyı göstermeye devam etsin. Çok iyi gidiyorsunuz!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz doğru yönü gösteriyor {{username}}. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz yukarıyı gösteriyor. Böyle kalması için günde en az {{goal_value:minutes}} Egzersiz dakikası kazandığınızdan emin olun {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Her gün tempolu bir yürüyüş yaparak Egzersiz dakikalarınızın yeniden yükselmesini sağlayabilirsiniz. Yapabilirsiniz {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz iyi görünüyor. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Egzersiz okunuz doğru yönü gösteriyor. İyi gidiyorsunuz.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu oku yeniden yukarıya çevirmek için önümüzdeki 14 gün günde ortalama en az {{goal_value:minutes}} Egzersiz dakikası yapın. Son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz, başarabilirsiniz!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu okun yukarıyı göstermesi iyi olur. Bu hafta ortalama en az {{goal_value:minutes}} Egzersiz dakikası yaparak başlayın. İstikrarla ilerlerseniz okunuzu yaklaşık %#@num_weeks@ içinde çevirebilirsiniz.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d hafta</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d hafta boyunca</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Her gün tempolu bir yürüyüş yaparak Egzersiz dakikalarınızın yeniden yükselmesini sağlayabilirsiniz. Yapabilirsiniz.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz yukarıyı gösteriyor ama Egzersiz dakikalarınız son zamanlarda aşağıya iniyor. Okunuzun yukarıyı göstermesini sürdürmek için her gün tempolu bir yürüyüş yapın {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, bugün{{goal_value:minutes}} Egzersiz dakikası kazanırsanız bu ok yarın yukarıyı gösterir. Yapabilirsiniz!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Okunuz yukarıyı gösteriyor ama Egzersiz dakikalarınız son zamanlarda aşağıya iniyor. Okunuzun yukarıyı göstermesini sürdürmek için her gün tempolu bir yürüyüş yapın!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Günde en az {{goal_value:minutes}} Egzersiz dakikası kazanmaya devam edin, okunuz da yukarıyı göstermeye devam etsin. Çok iyi gidiyorsunuz {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bu oku yeniden yukarıya çevirmek için önümüzdeki 30 gün günde ortalama en az {{goal_value:minutes}} Egzersiz dakikası yapın. Son zamanlarda daha fazla Egzersiz dakikası kazanıyorsunuz, başarabilirsiniz!</string>
+	</dict>
+</dict>
+</plist>

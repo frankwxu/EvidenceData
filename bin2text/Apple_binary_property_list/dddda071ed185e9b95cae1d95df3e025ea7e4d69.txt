@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud dnes zvládnete odcvičit {{goal_value:minutes}} minut, zítra už bude šipka ukazovat nahoru. Pusťte se do toho!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení vypadá dobře. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení ukazuje tam, kam má. Dobrá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení ukazuje dolů, ale k otočení zpátky nahoru jí moc nechybí. Stačí, když %#@num_days@ odcvičíte {{goal_value:minutes}} minut denně.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka sice ukazuje dolů, ale minuty cvičení vám poslední dobou přibývají. Jestli chcete šipku otočit, odcvičte během příštích 30 dnů aspoň {{goal_value:minutes}} minut denně. Neztrácejte tempo, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete tuto šipku otočit, odcvičte v příštích 30 dnech v průměru aspoň {{goal_value:minutes}} minut denně. V poslední době se vám daří cvičit víc než dřív, takže na to máte, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka sice ukazuje dolů, ale je to jen o kousek. Když %#@num_days@ odcvičíte víc než {{goal_value:minutes}} minut denně, už bude zase mířit nahoru.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cvičte dál aspoň {{goal_value:minutes}} minut denně, ať se šipka drží nahoře. Jde vám to skvěle, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení vypadá dobře, {{username}}. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka sice ukazuje dolů, ale minuty cvičení vám poslední dobou přibývají. Jestli chcete šipku otočit, odcvičte během příštích 14 dnů aspoň {{goal_value:minutes}} minut denně. Neztrácejte tempo!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>K otočení šipky cvičení vám stačí %#@num_days@! Jestli to chcete dokázat, odcvičte každý den {{goal_value:minutes}} minut.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení míří vzhůru. Jestli chcete, aby tak zůstala, nezapomeňte odcvičit aspoň {{goal_value:minutes}} minut denně!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku nasměrovat zase nahoru, %#@num_days@ odcvičte v průměru aspoň {{goal_value:minutes}} minut denně. Máte na to!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení vypadá dobře, {{username}}. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka sice ukazuje dolů, ale minuty cvičení vám poslední dobou přibývají. Jestli chcete šipku otočit, odcvičte během příštích 14 dnů aspoň {{goal_value:minutes}} minut denně. Neztrácejte tempo, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cvičte dál aspoň {{goal_value:minutes}} minut denně, ať se šipka drží nahoře. Jde vám to skvěle!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete tuto šipku otočit, odcvičte v příštích 14 dnech v průměru aspoň {{goal_value:minutes}} minut denně. V poslední době se vám daří cvičit víc než dřív, takže na to máte, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka sice ukazuje dolů, ale je to jen o kousek, {{username}}. Když %#@num_days@ odcvičíte víc než {{goal_value:minutes}} minut denně, už bude zase mířit nahoru.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení ukazuje tam, kam má, {{username}}. Dobrá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>K otočení šipky cvičení vám stačí %#@num_days@, {{username}}! Jestli to chcete dokázat, odcvičte každý den {{goal_value:minutes}} minut.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dny</string>
+			<key>one</key>
+			<string>%d den</string>
+			<key>many</key>
+			<string>%d dne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dní</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení ukazuje dolů, ale k otočení zpátky nahoru jí moc nechybí, {{username}}! Stačí, když %#@num_days@ odcvičíte {{goal_value:minutes}} minut denně.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku nasměrovat zase nahoru, %#@num_days@ odcvičte v průměru aspoň {{goal_value:minutes}} minut denně. Máte na to, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pro začátek zkuste denně odcvičit aspoň {{goal_value:minutes}} minut. Každý týden se nezapomeňte podívat na nový cíl. Když budete cíle plnit, otočíte šipku přibližně za %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týdny</string>
+			<key>one</key>
+			<string>%d týden</string>
+			<key>many</key>
+			<string>%d týdne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týdnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka sice ukazuje dolů, ale minuty cvičení vám poslední dobou přibývají. Jestli chcete šipku otočit, odcvičte během příštích 30 dnů aspoň {{goal_value:minutes}} minut denně. Neztrácejte tempo!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cvičte dál aspoň {{goal_value:minutes}} minut denně, ať se šipka drží nahoře. Jde vám to skvěle!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení ukazuje tam, kam má, {{username}}. Dobrá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení míří vzhůru. Jestli chcete, aby tak zůstala, nezapomeňte odcvičit aspoň {{goal_value:minutes}} minut denně, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jedna svižná procházka každý den a minuty cvičení vám zase začnou přibývat. To určitě dokážete, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení vypadá dobře. Skvělá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka cvičení ukazuje tam, kam má. Dobrá práce.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete tuto šipku otočit, odcvičte v příštích 14 dnech v průměru aspoň {{goal_value:minutes}} minut denně. V poslední době se vám daří cvičit víc než dřív, takže na to máte!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tahle šipka by měla mířit nahoru. Začněte tím, že tento týden odcvičíte v průměru aspoň {{goal_value:minutes}} minut denně. Pak už se stačí po krůčcích zlepšovat a zhruba za %#@num_weeks@ by se šipka měla otočit.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týdny</string>
+			<key>one</key>
+			<string>%d týden</string>
+			<key>many</key>
+			<string>%d týdne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týdnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jedna svižná procházka každý den a minuty cvičení vám zase začnou přibývat. To určitě dokážete.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka ukazuje nahoru, ale poslední dobou vám ubývá odcvičených minut. Zkuste si dát každý den rychlou procházku, {{username}}, ať šipka zůstane, jak je!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, pokud dnes zvládnete odcvičit {{goal_value:minutes}} minut, zítra už bude šipka ukazovat nahoru. Pusťte se do toho!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka ukazuje nahoru, ale poslední dobou vám ubývá odcvičených minut. Zkuste si dát každý den rychlou procházku, ať šipka zůstane, jak je!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cvičte dál aspoň {{goal_value:minutes}} minut denně, ať se šipka drží nahoře. Jde vám to skvěle, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete tuto šipku otočit, odcvičte v příštích 30 dnech v průměru aspoň {{goal_value:minutes}} minut denně. V poslední době se vám daří cvičit víc než dřív, takže na to máte!</string>
+	</dict>
+</dict>
+</plist>

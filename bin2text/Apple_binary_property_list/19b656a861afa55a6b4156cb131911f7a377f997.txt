@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dacă acumulați {{goal_value:minutes}} minute de antrenament astăzi, această săgeată va fi orientată în sus mâine. La treabă!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament arată bine. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în direcția bună. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în jos, dar este aproape de a reveni în sus. Acumulați {{goal_value:minutes}} minute de antrenament pe zi în următoarele %#@num_days@ și o veți inversa.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. este orientată în jos, dar acumulați mai multe minute de antrenament în ultimul timp. Acumulați cel puțin {{goal_value:minutes}} pe zi în următoarele 30 de zile pentru a inversa săgeata. Nu vă pierdeți elanul, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pentru a inversa această săgeată, faceți în medie cel puțin {{goal_value:minutes}} minute de antrenament pe zi în următoarele 30 de zile. Acumulați mai multe minute de antrenament în ultimul timp, așa că puteți reuși, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Această săgeată este orientată în jos, dar nu cu mult. Faceți peste {{goal_value:minutes}} minute de antrenament pe zi în următoarele %#@num_days@ și săgeata va fi din nou în sus.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Acumulați în continuare cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru ca această săgeată să rămână în sus. Vă descurcați de minune, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament arată bine, {{username}}. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. este orientată în jos, dar acumulați mai multe minute de antrenament în ultimul timp. Acumulați cel puțin {{goal_value:minutes}} pe zi în următoarele 14 zile pentru a inversa săgeata. Nu vă pierdeți elanul!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vă puteți inversa săgeata Antrenament în %#@num_days@! Acumulați cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru a reuși.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în sus. Asigurați-vă că acumulați cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru a o menține!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pentru a readuce această săgeată în sus, faceți în medie cel puțin {{goal_value:minutes}} minute de antrenament pe zi în următoarele %#@num_days@. Puteți reuși!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament arată bine, {{username}}. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. este orientată în jos, dar acumulați mai multe minute de antrenament în ultimul timp. Acumulați cel puțin {{goal_value:minutes}} pe zi în următoarele 14 zile pentru a inversa săgeata. Nu vă pierdeți elanul, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Acumulați în continuare cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru ca această săgeată să rămână în sus. Vă descurcați de minune!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pentru a inversa această săgeată, faceți în medie cel puțin {{goal_value:minutes}} minute de antrenament pe zi în următoarele 14 zile. Acumulați mai multe minute de antrenament în ultimul timp, așa că puteți reuși, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Această săgeată este orientată în jos, dar nu cu mult, {{username}}. Faceți peste {{goal_value:minutes}} minute de antrenament pe zi în următoarele %#@num_days@ și săgeata va fi din nou în sus.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în direcția bună, {{username}}. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vă puteți inversa săgeata Antrenament în %#@num_days@, {{username}}! Acumulați cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru a reuși.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în jos, dar este aproape de a reveni în sus, {{username}}! Acumulați {{goal_value:minutes}} minute de antrenament pe zi în următoarele %#@num_days@ și o veți inversa.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pentru a readuce această săgeată în sus, faceți în medie cel puțin {{goal_value:minutes}} minute de antrenament pe zi în următoarele %#@num_days@. Puteți reuși, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d zile</string>
+			<key>one</key>
+			<string>%d zi</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de zile</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Încercați să acumulați cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru a începe. Apoi căutați în fiecare săptămână un nou obiectiv. Atingeți obiectivele și veți aduce săgeata în sus în aproximativ %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d săptămâni</string>
+			<key>one</key>
+			<string>%d săptămână</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de săptămâni</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. este orientată în jos, dar acumulați mai multe minute de antrenament în ultimul timp. Acumulați cel puțin {{goal_value:minutes}} pe zi în următoarele 30 de zile pentru a inversa săgeata. Nu vă pierdeți elanul!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Acumulați în continuare cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru ca această săgeată să rămână în sus. Vă descurcați de minune!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în direcția bună, {{username}}. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în sus. Asigurați-vă că acumulați cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru a o menține, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>O sesiune de mers energic în fiecare zi vă va readuce minutele de antrenament pe drumul cel bun. Puteți reuși, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament arată bine. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. Antrenament este orientată în direcția bună. Felicitări!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pentru a inversa această săgeată, faceți în medie cel puțin {{goal_value:minutes}} minute de antrenament pe zi în următoarele 14 zile. Acumulați mai multe minute de antrenament în ultimul timp, așa că puteți reuși!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>E minunat că aveți această săgeată orientată în sus. Începeți prin a acumula în medie cel puțin {{goal_value:minutes}} minute de antrenament săptămâna aceasta. Faceți progrese constante și săgeata dvs. se va inversa în aproximativ %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d săptămâni</string>
+			<key>one</key>
+			<string>%d săptămână</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d de săptămâni</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>O sesiune de mers energic în fiecare zi vă va readuce minutele de antrenament pe drumul cel bun. Puteți reuși.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. este în sus, dar minutele de antrenament au scăzut în ultimul timp. Încercați să mergeți în ritm alert în fiecare zi pentru ca săgeata dvs. să rămână orientată în sus, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, dacă acumulați {{goal_value:minutes}} minute de antrenament astăzi, această săgeată va fi orientată în sus mâine. La treabă!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Săgeata dvs. este în sus, dar minutele de antrenament au scăzut în ultimul timp. Încercați să mergeți în ritm alert în fiecare zi pentru ca săgeata dvs. să rămână orientată în sus!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Acumulați în continuare cel puțin {{goal_value:minutes}} minute de antrenament pe zi pentru ca această săgeată să rămână în sus. Vă descurcați de minune, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pentru a inversa această săgeată, faceți în medie cel puțin {{goal_value:minutes}} minute de antrenament pe zi în următoarele 30 de zile. Acumulați mai multe minute de antrenament în ultimul timp, așa că puteți reuși!</string>
+	</dict>
+</dict>
+</plist>

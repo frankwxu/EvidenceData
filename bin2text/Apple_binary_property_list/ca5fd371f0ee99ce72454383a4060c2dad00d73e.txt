@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HOLocationInvitationCount</key>
+	<dict>
+		<key>invitations</key>
+		<dict>
+			<key>one</key>
+			<string>%d Invitation</string>
+			<key>other</key>
+			<string>%d Invitations</string>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@invitations@</string>
+	</dict>
+	<key>HOSelectableAccessoriesInstructionsDescription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>ipad</key>
+			<string>Choose accessories you wish to include in Favorites. Favorites are shown on the main tab of the Home app, and your top favorites will be available in Control Center for quick access.</string>
+			<key>iphone</key>
+			<string>Choose accessories you wish to include in Favorites. Favorites are shown on the main tab of the Home app, and your top favorites will be available in Control Center for quick access.</string>
+			<key>ipod</key>
+			<string>Choose accessories you wish to include in Favorites. Favorites are shown on the main tab of the Home app, and your top favorites will be available in Control Center for quick access.</string>
+			<key>mac</key>
+			<string>Choose accessories you wish to include in Favorites. Favorites are shown on the main tab of the Home app.</string>
+		</dict>
+	</dict>
+	<key>HOWelcomeView_Description_Control</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>ipad</key>
+			<string>Securely control and monitor your home using the Home app, Control Center, Siri, and Apple Watch.</string>
+			<key>iphone</key>
+			<string>Securely control and monitor your home using the Home app, Control Center, Siri, and Apple Watch.</string>
+			<key>ipod</key>
+			<string>Securely control and monitor your home using the Home app, Control Center, Siri, and Apple Watch.</string>
+			<key>mac</key>
+			<string>Securely control and monitor your home using the Home app, Siri, and Apple Watch.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку, в течение %#@num_days@ зарабатывая часы с разминкой — по {{goal_value:hours}} в день. У Вас получится, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_NON_COACHING_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка опустилась по сравнению с Вашими результатами за год, но Вы по-прежнему зарабатываете больше 12 часов в день. Это превосходно. Продолжайте в том же духе, и стрелка снова поднимется.</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка опустилась по сравнению с Вашими результатами за год, но Вы по-прежнему зарабатываете больше 12 часов в день. Это превосходно, {{username}}. Продолжайте в том же духе, и стрелка снова поднимется.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы можете снова поднять эту стрелку! Просто зарабатывайте часы с разминкой в течение %#@num_days@ — по {{goal_value:hours}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «С разминкой». Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы можете снова поднять эту стрелку, {{username}}! Просто зарабатывайте часы с разминкой в течение %#@num_days@ — по {{goal_value:hours}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если Вы хотите, чтобы завтра эта стрелка указывала вверх, заработайте {{goal_value:hours}} ч с разминкой сегодня. Вы сможете!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Еще немного, и Вы сумеете повернуть стрелку «С разминкой». Для этого необходимо, чтобы в течение %#@num_days@ подряд у Вас было несколько часов с разминкой — по {{goal_value:hours}} каждый день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>В течение %#@num_days@ зарабатывайте часы с разминкой — хотя бы по {{goal_value:hours}} в день, и стрелка снова поднимется. Оно того стоит!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы взять эту стрелку под контроль, начните зарабатывать часы с разминкой — по {{goal_value:hours}} в день, а на следующей неделе Вы получите новую цель. Примерно через %#@num_weeks@ стрелка снова будет указывать вверх.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы здорово поработали над стрелкой «С разминкой», {{username}}. Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку, в течение %#@num_days@ зарабатывая часы с разминкой — по {{goal_value:hours}} в день. У Вас получится!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте вставать и двигаться! Вам это отлично удается.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если Вы хотите, чтобы завтра эта стрелка указывала вверх, заработайте {{goal_value:hours}} ч с разминкой сегодня. Вы сможете!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>В течение %#@num_days@ зарабатывайте часы с разминкой — хотя бы по {{goal_value:hours}} в день, и стрелка снова поднимется. Оно того стоит, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднять стрелку «С разминкой» — достойная цель. Для начала добейтесь, чтобы в течение следующей недели у Вас ежедневно было несколько часов с разминкой — хотя бы {{goal_value:hours}}. Стремитесь к своей цели, и стрелка должна снова подняться через %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте вставать и двигаться! Вам это отлично удается.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «С разминкой» все хорошо, но в последнее время Вы зарабатываете меньше часов, {{username}}. Вставайте и двигайтесь каждый час, чтобы все оставалось под контролем!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «С разминкой», {{username}}. Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка указывает вверх, но Вы встаете все меньше и меньше, {{username}}. Сосредоточьтесь на зарабатывании часов с разминкой, чтобы стрелка не изменила направление!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы заработать час с разминкой, достаточно вставать и двигаться всего по минуте каждый час. Постарайтесь сделать это привычкой.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «С разминкой». Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, еще немного, и Вы сумеете повернуть стрелку «С разминкой». Для этого необходимо, чтобы в течение %#@num_days@ подряд у Вас было несколько часов с разминкой — по {{goal_value:hours}} каждый день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка указывает вверх, но Вы встаете все меньше и меньше. Сосредоточьтесь на зарабатывании часов с разминкой, чтобы стрелка не изменила направление!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте вставать и двигаться, {{username}}! Вам это отлично удается.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы здорово поработали над стрелкой «С разминкой», {{username}}. Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «С разминкой», {{username}}. Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы здорово поработали над стрелкой «С разминкой». Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Продолжайте вставать и двигаться, {{username}}! Вам это отлично удается.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «С разминкой» все хорошо, но в последнее время Вы зарабатываете меньше часов. Вставайте и двигайтесь каждый час, чтобы все оставалось под контролем!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы здорово поработали над стрелкой «С разминкой». Продолжайте вставать и двигаться каждый час.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы заработать час с разминкой, достаточно вставать и двигаться всего по минуте каждый час. Постарайтесь сделать это привычкой, {{username}}.</string>
+	</dict>
+</dict>
+</plist>

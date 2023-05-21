@@ -1,0 +1,2578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>About_AppDescription</key>
+	<string>認識一下全新的 Philips Hue 應用程式，以直覺方式控制家中的每一個 Philips Hue 產品。請來試一試、隨心所欲地操作，盡情探索，感受控制的魅力並時而放鬆一下。讓 Hue 點亮您的生活。</string>
+	<key>About_AppDescription_BridgeV1</key>
+	<string>此應用程式僅能搭配 Philips Hue Bridge v1 使用。</string>
+	<key>About_AppVersion</key>
+	<string>版本 %@</string>
+	<key>About_BridgeUpgradeProgramLink</key>
+	<string>進一步了解 Philips Hue Bridge v2</string>
+	<key>About_CopyrightAuthor</key>
+	<string>每張影像的著作權皆屬於作者，除非下方另有說明。</string>
+	<key>About_CopyrightText</key>
+	<string>© 2018-2019 Signify Holding. 保留一切權利。</string>
+	<key>About_Id</key>
+	<string>識別碼：</string>
+	<key>About_LegalMentions</key>
+	<string>法律聲明</string>
+	<key>About_LicenseInformation</key>
+	<string>授權相關資訊：https://creativecommons.org/licenses</string>
+	<key>About_OpenSourceLicensesLink</key>
+	<string>開啟原始碼許可</string>
+	<key>About_PrivacyPolicyLink</key>
+	<string>隱私保護原則</string>
+	<key>About_SwVersion</key>
+	<string>版本：</string>
+	<key>About_TermsConditionsLink</key>
+	<string>條款與條件</string>
+	<key>Accessories</key>
+	<string>配件</string>
+	<key>AccessorySetup_FoH</key>
+	<string>Friends of Hue 開關</string>
+	<key>Accessory_CleanBehavior</key>
+	<string>確認</string>
+	<key>Accessory_CleanConfirmation</key>
+	<string>您將繼續而不設定此配件。</string>
+	<key>Accessory_ConfigureAnotherApp</key>
+	<string>稍後在其它應用程式中設定</string>
+	<key>Accessory_ConfigureExplanation</key>
+	<string>您可以[b-white]使用其它應用程式[/b-white]，像是「家庭」應用程式或是 Hue Labs 來設定此配件。</string>
+	<key>Accessory_ConfigureHomeApp</key>
+	<string>在「家庭」應用程式中設定</string>
+	<key>Accessory_NotConfigured</key>
+	<string>[b-white]未設定[/b-white]</string>
+	<key>Actionsheet_ChangeNameHue</key>
+	<string>在 Hue 應用程式內重新命名</string>
+	<key>Actionsheet_DuplicateNameSiri</key>
+	<string>「家庭」應用程式內已有該名稱。</string>
+	<key>Actionsheet_OverwriteHomeApp</key>
+	<string>在「家庭」應用程式內覆寫</string>
+	<key>Actionsheet_Replace</key>
+	<string>取代</string>
+	<key>AddAccessory_FoH</key>
+	<string>Friends of Hue 開關</string>
+	<key>AddAccessory_OutdoorSensor</key>
+	<string>Hue outdoor sensor</string>
+	<key>AddAccessory_SyncBox</key>
+	<string>Hue Sync Box</string>
+	<key>AddControls_ChooseType</key>
+	<string>於下方選擇您要連接的開關類型。</string>
+	<key>AddDevice_ChooseType</key>
+	<string>選擇您想要新增的配件。務必先建立要使用配件的房間。</string>
+	<key>AddDimmerWhite_DefaultsInstalled</key>
+	<string>Switch 將設定[b-white]%@[/b-white]。您可以開燈、關燈和調整亮度。您稍後可在配件設定畫面中調整這些設定。</string>
+	<key>AddDimmer_BlinkingInstruction</key>
+	<string>請確定突出於電池槽的隔離蓋已[b-white]拉出[/b-white]。
+
+請檢查開關前方的橘色 LED 燈是否在[b-white]閃爍[/b-white]。</string>
+	<key>AddDimmer_BlinkingInstruction2</key>
+	<string>若沒有的話，請按住後方的 [設定] 按鈕一秒鐘。</string>
+	<key>AddDimmer_BlinkingInstructionAndroid</key>
+	<string>請確定突出於電池槽的隔離蓋已[b-white]拉出[/b-white]。
+
+請檢查開關前方的橘色 LED 燈是否在 [b-white]閃爍[/b-white]。若沒有的話，請按住後方的 [設定] 按鈕一秒鐘。</string>
+	<key>AddDimmer_ChooseRoom</key>
+	<string>好耶！您已經[b-white]成功連接[/b-white] Hue 調光開關。現在只需再選擇開關的使用地點就好。</string>
+	<key>AddDimmer_Defaults</key>
+	<string>按下按鈕您的燈具就會依照[b-white]上回狀態[/b-white]開啟。每按一次會依次在 4 個不同[b-white]燈光主題[/b-white]間循環。</string>
+	<key>AddDimmer_Option1</key>
+	<string>您想要連接[b-white]未曾[/b-white]搭配燈光使用過或是已經重新設定的 Hue 調光開關。</string>
+	<key>AddDimmer_Option1Instruction</key>
+	<string>搜尋過程最多可能需要三分鐘。</string>
+	<key>AddDimmer_Option2</key>
+	<string>您的 Hue 調光開關 [b-white]已經可以[/b-white]控制燈光，或是隨附於燈光。</string>
+	<key>AddDimmer_Option2Instruction</key>
+	<string>搜尋可能需要三分鐘時間。請確認燈光均已開啟。燈光可能會閃爍，此為正常現象。</string>
+	<key>AddDimmer_SearchingLights</key>
+	<string>正在搜尋燈光
+[b-white]找到 %ld 盞燈光[/b-white]</string>
+	<key>AddDimmer_SearchingLights0</key>
+	<string>正在搜尋燈光
+找到 0 盞燈光</string>
+	<key>AddDimmer_SearchingSwitch</key>
+	<string>正在搜尋開關...</string>
+	<key>AddDimmer_SituationInstruction</key>
+	<string>哪個選項符合您的狀況？</string>
+	<key>AddDimmer_SwitchFound</key>
+	<string>找到開關</string>
+	<key>AddLightsOrPlug_InstructionsText</key>
+	<string>若要尋找新的燈具或 Hue Smart 插頭，請確定這些裝置已[b-white]開啟[/b-white] ，接著[b-white]點選下方的 [搜尋][/b-white]。</string>
+	<key>AddLightsOrPlug_ProblemsText</key>
+	<string>找不到燈光或 Hue Smart 插頭？請先輸入燈具上所顯示的[b-white]六個字元[/b-white] 序號，接著點選 [搜尋]。</string>
+	<key>AddLights_AddSerialButton</key>
+	<string>新增序號</string>
+	<key>AddLights_InstructionsText</key>
+	<string>若要尋找新燈光，請確定[b-white]已開燈[/b-white]後再[b-white]點選下方的 [搜尋][/b-white]。</string>
+	<key>AddLights_ProblemsText</key>
+	<string>找不到燈光？請在點選 [搜尋] 之前，先輸入燈上的[b-white]六個字元[/b-white]序號。</string>
+	<key>AddSensor_ChooseRoom</key>
+	<string>您已經[b-white]成功連接[/b-white] Hue 動作感測器。請選擇使用感測器的房間。</string>
+	<key>AddSensor_DefaultsBright</key>
+	<string>明亮光線</string>
+	<key>AddSensor_DefaultsConcentrate</key>
+	<string>專注精神</string>
+	<key>AddSensor_DefaultsDay</key>
+	<string>在白天從 [b-white]%@[/b-white] 到 [b-white]%@[/b-white] 的時間內，假如日光不足，動作將觸發 [b-white]%@[/b-white]。</string>
+	<key>AddSensor_DefaultsDimmed</key>
+	<string>昏暗光線</string>
+	<key>AddSensor_DefaultsEnergize</key>
+	<string>活力充沛</string>
+	<key>AddSensor_DefaultsInstalled</key>
+	<string>感測器將設定[b-white]%@[/b-white]的下列預設值。您稍後可在配件設定畫面中調整這些設定。</string>
+	<key>AddSensor_DefaultsNight</key>
+	<string>在晚上從 [b-white]%@[/b-white] 到 [b-white]%@[/b-white] 的時間內，假如日光不足，動作將觸發 [b-white]%@[/b-white]。</string>
+	<key>AddSensor_DefaultsNightlight</key>
+	<string>夜燈</string>
+	<key>AddSensor_DefaultsNoMotion</key>
+	<string>[b-white]%@[/b-white] 沒有動作時，光線會先變暗，然後[b-white]關閉[/b-white]。</string>
+	<key>AddSensor_DefaultsRelax</key>
+	<string>放鬆休息</string>
+	<key>AddSensor_Instruction</key>
+	<string>抽出突出於電池槽的[b-white]塑膠插片[/b-white]。
+
+請檢查感測器前方的橘色 LED 燈是否在[b-white]閃爍[/b-white]。</string>
+	<key>AddSensor_Instruction2</key>
+	<string>若沒有的話，請按住後方的 [設定] 按鈕一秒鐘。搜尋過程最多可能需要三分鐘。</string>
+	<key>AddSensor_SensorPlacement</key>
+	<string>將感測器放在感測範圍可[b-white]涵蓋[/b-white]房間入口的位置。</string>
+	<key>AddSwitch_DefaultsInstalled</key>
+	<string>Switch 將設定[b-white]%@[/b-white]的下列預設值。您稍後可在配件設定畫面中調整這些設定。</string>
+	<key>AddTap_ChooseRoom</key>
+	<string>太好了！您已經[b-white]成功連接[/b-white] Hue Tap switch。現在只需再選擇開關的使用地點就好。</string>
+	<key>AddTap_Defaults</key>
+	<string>按下大按鈕將燈光[b-white]關閉[/b-white]，或按下三個小按鈕之一，啟動[b-white]明暗[/b-white]或[b-white]夜燈[/b-white]。</string>
+	<key>AddTap_Instruction</key>
+	<string>如要連接至 Hue Tap switch，請緊按住 Hue Tap switch 的 [b-white]%@ 按鈕[/b-white] 10 秒鐘再放開。</string>
+	<key>After</key>
+	<string>之後</string>
+	<key>Android_BackgroundWorkDesc</key>
+	<string>Philips Hue 應用程式嘗試在背景連接您的燈光時，會顯示上述通知。</string>
+	<key>Android_BackgroundWorkTitle</key>
+	<string>背景程序</string>
+	<key>Android_WidgetRecallDesc</key>
+	<string>上述通知會顯示無法叫出小工具的原因。</string>
+	<key>Android_WidgetRecallTitle</key>
+	<string>叫出小工具</string>
+	<key>App_Icon_Name_Bridgev1</key>
+	<string>Hue</string>
+	<key>AppleWatch_AppNotSetUp</key>
+	<string>請先在手機上設定 Hue 應用程式。</string>
+	<key>AppleWatch_NoRooms</key>
+	<string>尚未建立任何的房間。請先透過 [設定] 的 Hue 應用程式建立房間。</string>
+	<key>AppleWatch_NoWidgets</key>
+	<string>尚未建立任何的小工具。請先透過設定下的 Hue 應用程式建立小工具。</string>
+	<key>Archetype_Category_ceiling</key>
+	<string>天花板</string>
+	<key>Archetype_Category_floor</key>
+	<string>地板</string>
+	<key>Archetype_Category_other</key>
+	<string>其他</string>
+	<key>Archetype_Category_table</key>
+	<string>桌上</string>
+	<key>Archetype_Category_wall</key>
+	<string>牆壁</string>
+	<key>Archetype_Selection_Title</key>
+	<string>圖示</string>
+	<key>Archetype_bollard</key>
+	<string>柱燈</string>
+	<key>Archetype_candleBulb</key>
+	<string>蠟燭燈燈泡</string>
+	<key>Archetype_ceilingRound</key>
+	<string>天花板圓形吊燈</string>
+	<key>Archetype_ceilingSquare</key>
+	<string>天花板方型吊燈</string>
+	<key>Archetype_christmasTree</key>
+	<string>聖誕樹</string>
+	<key>Archetype_classicBulb</key>
+	<string>經典燈泡</string>
+	<key>Archetype_doubleSpot</key>
+	<string>雙件組聚光</string>
+	<key>Archetype_flexibleLamp</key>
+	<string>彈性燈</string>
+	<key>Archetype_floodBulb</key>
+	<string>投射燈泡</string>
+	<key>Archetype_floorLantern</key>
+	<string>立燈燈籠</string>
+	<key>Archetype_floorShade</key>
+	<string>投射光影</string>
+	<key>Archetype_groundSpot</key>
+	<string>地面聚光燈</string>
+	<key>Archetype_hueBloom</key>
+	<string>Hue Bloom</string>
+	<key>Archetype_hueGo</key>
+	<string>Hue Go</string>
+	<key>Archetype_hueIris</key>
+	<string>Hue Iris</string>
+	<key>Archetype_hueLightStrip</key>
+	<string>Hue 燈條</string>
+	<key>Archetype_huePlay</key>
+	<string>Hue Play</string>
+	<key>Archetype_pendantLong</key>
+	<string>長型吊燈</string>
+	<key>Archetype_pendantRound</key>
+	<string>吊燈</string>
+	<key>Archetype_plug</key>
+	<string>插頭</string>
+	<key>Archetype_recessedCeiling</key>
+	<string>內嵌天花板吊燈</string>
+	<key>Archetype_recessedFloor</key>
+	<string>內嵌投射燈</string>
+	<key>Archetype_singleSpot</key>
+	<string>單聚光</string>
+	<key>Archetype_spotBulb</key>
+	<string>聚光燈燈泡</string>
+	<key>Archetype_sultanBulb</key>
+	<string>Sultan 燈泡</string>
+	<key>Archetype_tableShade</key>
+	<string>桌上吊燈</string>
+	<key>Archetype_tableWash</key>
+	<string>桌上洗牆燈</string>
+	<key>Archetype_vintagebulb</key>
+	<string>復古燈泡</string>
+	<key>Archetype_wallLantern</key>
+	<string>壁燈燈籠</string>
+	<key>Archetype_wallShade</key>
+	<string>壁燈</string>
+	<key>Archetype_wallSpot</key>
+	<string>壁上聚光燈</string>
+	<key>Authenticate_InstructionText</key>
+	<string>按下 Hue Bridge 上的配對按鈕進行連結。</string>
+	<key>AutomaticUpdates_Disabled</key>
+	<string>已停用</string>
+	<key>AutomaticUpdates_Enbaled</key>
+	<string>已啟用</string>
+	<key>AutomaticUpdates_Explanation</key>
+	<string>Hue 系統將自動在指定時間為您的燈光和配件安裝更新。
+
+更新過程中，您的[b-white]燈光可能會閃爍[/b-white]。</string>
+	<key>AutomaticUpdates_Toggle</key>
+	<string>自動更新</string>
+	<key>Banner_PowerOnBehavior_FailToSet</key>
+	<string>變更設定失敗。請再試一次。</string>
+	<key>Banner_PowerOnBehavior_NotSupportedLight</key>
+	<string>抱歉，本產品不支援「電源開啟時的氛圍」功能。</string>
+	<key>Banner_PowerOnBehavior_SoftwareUpdateRequired</key>
+	<string>請先完成更新，即可設定照明情境。</string>
+	<key>Banner_PowerOnBehavior_SoftwareUpdateRequired_Button</key>
+	<string>需要更新</string>
+	<key>Banner_SaveScene</key>
+	<string>正在儲存場景...</string>
+	<key>Braze_MessagingPreferences_Button</key>
+	<string>設定</string>
+	<key>Braze_MessagingPreferences_Text</key>
+	<string>Philips Hue 希望寄送給您新產品與功能的相關資訊。</string>
+	<key>Braze_MessagingPreferences_Text2</key>
+	<string>啟用「產品與服務」，獲得 Philips Hue 所寄送的特別優惠、功能更新與新產品資訊。</string>
+	<key>Braze_MessagingPreferences_Title</key>
+	<string>訊息偏好設定</string>
+	<key>Braze_MessagingPreferences_Title2</key>
+	<string>搶先獲知最新資訊！</string>
+	<key>BridgeDetails_BridgeIdText</key>
+	<string>識別碼：</string>
+	<key>BridgeDetails_ChannelLabel</key>
+	<string>頻道切換</string>
+	<key>BridgeDetails_ConnectionStateText</key>
+	<string>狀態：</string>
+	<key>BridgeDetails_DeleteBridgeMessage</key>
+	<string>刪除此 Hue 橋接器後將會無法以此應用程式控制燈光和設定配件。</string>
+	<key>BridgeDetails_IpAddress</key>
+	<string>IP 位址：</string>
+	<key>BridgeDetails_MacAddressText</key>
+	<string>MAC 位址：</string>
+	<key>BridgeDetails_NetworkSettingsExplanation</key>
+	<string>[b-white]警告：[/b-white]請務必輸入正確的值。如果輸入不正確的值，可能會中斷與 Hue Bridge 的連線。這樣將無法修正問題。如果發生這種情況，只要按下 Hue Bridge 底部的按鈕，即可將 Hue Bridge 重設為出廠設定值。</string>
+	<key>BridgeDetails_NetworkSettingsLabel</key>
+	<string>網路設定</string>
+	<key>BridgeDetails_ResetHomeKit</key>
+	<string>重設 HomeKit 和 Siri</string>
+	<key>BridgeDetails_ResetHomeKitConfirmation</key>
+	<string>將會重設 HomeKit 和 Siri。</string>
+	<key>BridgeDetails_ResetHomeKitMessage</key>
+	<string>重設 HomeKit 和 Siri 後，您的 Hue 橋接器會與 HomeKit 解除配對。您所有的 Hue 配件都將無法與 HomeKit 和 Siri 共同運作。請確定 Hue 橋接器已開啟並連接至您目前 Wi-Fi 網路的路由器。
+
+[b-white]警告：[/b-white]只有在遭遇問題時才重設 HomeKit 和 Siri。
+
+若要重新啟動功能，請至 [設定] 重新進行 HomeKit 和 Siri 設定。</string>
+	<key>BridgeDetails_Security</key>
+	<string>安全性：</string>
+	<key>BridgeDetails_Security_Https</key>
+	<string>透過 HTTPS 保護安全</string>
+	<key>BridgeDetails_Security_Https_Not_Available</key>
+	<string>HTTPS 無法使用</string>
+	<key>BridgeDetails_SoftwareVersionText</key>
+	<string>SW:</string>
+	<key>BridgeDetails_TimeZoneLabel</key>
+	<string>時區</string>
+	<key>BridgeDetails_ZigbeeChannelLabel</key>
+	<string>Zigbee 頻道變更</string>
+	<key>BridgeV1NotSupported</key>
+	<string>已偵測到 Bridge v1</string>
+	<key>BridgeV1NotSupported_Explanation</key>
+	<string>很抱歉，最新的 Philips Hue 應用程式已不再支援 Bridge v1。</string>
+	<key>BridgeV1NotSupported_ExplanationNote</key>
+	<string>下載可搭配 Bridge v1 使用的 Hue 應用程式</string>
+	<key>BridgeV1_AppDescription</key>
+	<string>此應用程式僅能搭配 Philips Hue Bridge v1 使用。
+
+PHILIPS HUE 是什麼？
+Philips Hue 是一系列的智慧照明產品 (從燈泡到燈具與燈座)，並可透過應用程式、感測器、開關、語音助理以及更多其他的整合功能來控制這些照明產品。如欲進一步了解 Philips Hue，請造訪 www.meethue.com</string>
+	<key>BridgeV2NotSupported</key>
+	<string>已偵測到 Bridge v2</string>
+	<key>BridgeV2NotSupported_Explanation</key>
+	<string>Bridge v2 只能搭配最新版本的 Philips Hue 應用程式使用。</string>
+	<key>BridgeV2NotSupported_TransferExplanation</key>
+	<string>若要將 Bridge v1 的設定傳送至 Bridge v2，請確保 Bridge v2 先前未曾使用過，或已在連線之前還原為出廠設定值。</string>
+	<key>Bridge_Unknown_Name</key>
+	<string>未知的 Hue Bridge</string>
+	<key>Brightness</key>
+	<string>亮度</string>
+	<key>Buton_CreateNewRoom</key>
+	<string>建立新房間</string>
+	<key>Button_Abort</key>
+	<string>結束</string>
+	<key>Button_Accept</key>
+	<string>接受</string>
+	<key>Button_Add</key>
+	<string>新增</string>
+	<key>Button_AddAccessories</key>
+	<string>新增配件</string>
+	<key>Button_AddBridge</key>
+	<string>新增 Hue Bridge</string>
+	<key>Button_AddEntertainmentSetup</key>
+	<string>建立休閒娛樂區</string>
+	<key>Button_AddFirstAccessories</key>
+	<string>新增配件</string>
+	<key>Button_AddFirstEntertainmentSetup</key>
+	<string>建立區域</string>
+	<key>Button_AddFirstGoToSleep</key>
+	<string>建立日常作息</string>
+	<key>Button_AddFirstLight</key>
+	<string>新增燈光</string>
+	<key>Button_AddFirstOtherRoutine</key>
+	<string>建立日常作息</string>
+	<key>Button_AddFirstRoom</key>
+	<string>建立房間</string>
+	<key>Button_AddFirstScene</key>
+	<string>建立場景</string>
+	<key>Button_AddFirstTimer</key>
+	<string>建立計時器</string>
+	<key>Button_AddFirstWakeUp</key>
+	<string>建立日常作息</string>
+	<key>Button_AddFirstWidget</key>
+	<string>建立小工具</string>
+	<key>Button_AddGoToSleep</key>
+	<string>建立入睡功能</string>
+	<key>Button_AddLight</key>
+	<string>新增燈光</string>
+	<key>Button_AddOtherRoutine</key>
+	<string>建立專屬日常作息</string>
+	<key>Button_AddRoom</key>
+	<string>建立房間</string>
+	<key>Button_AddRoomZone</key>
+	<string>建立新</string>
+	<key>Button_AddScene</key>
+	<string>建立場景</string>
+	<key>Button_AddTimer</key>
+	<string>建立計時器</string>
+	<key>Button_AddWakeUp</key>
+	<string>建立喚醒功能</string>
+	<key>Button_AddWidget</key>
+	<string>建立小工具</string>
+	<key>Button_AllGood</key>
+	<string>全部沒問題！</string>
+	<key>Button_AllLightsFound</key>
+	<string>找到的所有燈光</string>
+	<key>Button_Authenticate</key>
+	<string>驗證</string>
+	<key>Button_BlinkLights</key>
+	<string>閃爍燈光</string>
+	<key>Button_Cancel</key>
+	<string>取消</string>
+	<key>Button_ChangeChannel</key>
+	<string>切換頻道</string>
+	<key>Button_CleanUp</key>
+	<string>清除</string>
+	<key>Button_Close</key>
+	<string>關閉</string>
+	<key>Button_ConfigureHomeApp</key>
+	<string>[u]在「家庭」應用程式中設定[/u]</string>
+	<key>Button_ConfigureOtherApp</key>
+	<string>[u]稍後在其他應用程式設定[/u]</string>
+	<key>Button_Connect</key>
+	<string>連線</string>
+	<key>Button_ConnectToBridgeV2</key>
+	<string>連線至 Bridge v2</string>
+	<key>Button_Continue</key>
+	<string>繼續</string>
+	<key>Button_Create</key>
+	<string>建立</string>
+	<key>Button_CreateHome</key>
+	<string>建立新的居家情境</string>
+	<key>Button_CreateNewHome</key>
+	<string>建立新的居家情境</string>
+	<key>Button_CreateNewScene</key>
+	<string>新增場景</string>
+	<key>Button_CreateNewZone</key>
+	<string>建立新區域</string>
+	<key>Button_Delete</key>
+	<string>刪除</string>
+	<key>Button_Discard</key>
+	<string>捨棄變更</string>
+	<key>Button_DoesntWork</key>
+	<string>需要調整</string>
+	<key>Button_Done</key>
+	<string>完成</string>
+	<key>Button_Download</key>
+	<string>下載</string>
+	<key>Button_DownloadBridgeV1App</key>
+	<string>下載 Bridge v1 應用程式</string>
+	<key>Button_DownloadBridgeV2App</key>
+	<string>下載 Bridge v2 應用程式</string>
+	<key>Button_Enable</key>
+	<string>啟動</string>
+	<key>Button_Exclude</key>
+	<string>設為例外</string>
+	<key>Button_GoToHueApp</key>
+	<string>Connor</string>
+	<key>Button_GoToUpdate</key>
+	<string>前往更新</string>
+	<key>Button_GotIt</key>
+	<string>了解</string>
+	<key>Button_Help</key>
+	<string>說明</string>
+	<key>Button_ItWorks</key>
+	<string>完全符合！</string>
+	<key>Button_Iunderstand</key>
+	<string>了解</string>
+	<key>Button_Later</key>
+	<string>稍後</string>
+	<key>Button_LearnAboutBridgeV2</key>
+	<string>[u]進一步了解 Bridge v2[/u]</string>
+	<key>Button_LedBlinks</key>
+	<string>LED 閃爍</string>
+	<key>Button_LightsAreOn</key>
+	<string>燈光已就緒</string>
+	<key>Button_LinkBridge</key>
+	<string>連結橋接器</string>
+	<key>Button_LogIn</key>
+	<string>啟動</string>
+	<key>Button_Logout</key>
+	<string>已停用</string>
+	<key>Button_MakePrimary</key>
+	<string>設為主要</string>
+	<key>Button_Manage</key>
+	<string>管理</string>
+	<key>Button_MoreInformation</key>
+	<string>瞭解更多資訊</string>
+	<key>Button_Next</key>
+	<string>下一步</string>
+	<key>Button_NotAllLightsFound</key>
+	<string>未全部找到</string>
+	<key>Button_NotNow</key>
+	<string>現在不要</string>
+	<key>Button_Ok</key>
+	<string>確定</string>
+	<key>Button_OpenSettings</key>
+	<string>開啟設定</string>
+	<key>Button_Option1</key>
+	<string>選項 1</string>
+	<key>Button_Option2</key>
+	<string>選項 2</string>
+	<key>Button_Pair</key>
+	<string>配對橋接器</string>
+	<key>Button_PostponeMandatoryUpdate</key>
+	<string>[u]延遲更新[/u]</string>
+	<key>Button_RemindMeWeek</key>
+	<string>[u]一星期後提醒我[/u]
+</string>
+	<key>Button_Reset</key>
+	<string>重新設定</string>
+	<key>Button_Restart</key>
+	<string>重新啟動</string>
+	<key>Button_Restore</key>
+	<string>重新設定</string>
+	<key>Button_RestoreToDefaults</key>
+	<string>重設為預設值</string>
+	<key>Button_Retry</key>
+	<string>重試</string>
+	<key>Button_Save</key>
+	<string>儲存</string>
+	<key>Button_Search</key>
+	<string>搜尋</string>
+	<key>Button_SetTimeZone</key>
+	<string>設定時區</string>
+	<key>Button_SetUp</key>
+	<string>設定</string>
+	<key>Button_ShareHome</key>
+	<string>分享住家</string>
+	<key>Button_Shuffle</key>
+	<string>隨機切換</string>
+	<key>Button_Skip</key>
+	<string>略過</string>
+	<key>Button_Start</key>
+	<string>開始使用</string>
+	<key>Button_StopSync</key>
+	<string>停止燈光同步</string>
+	<key>Button_SyncHueRooms</key>
+	<string>更新房間</string>
+	<key>Button_TestSetup</key>
+	<string>測試區域</string>
+	<key>Button_Transfer</key>
+	<string>傳送</string>
+	<key>Button_TryAgain</key>
+	<string>再試一次</string>
+	<key>Button_TryTheApp</key>
+	<string>試用 app</string>
+	<key>Button_Understand</key>
+	<string>了解</string>
+	<key>Button_Update</key>
+	<string>更新</string>
+	<key>Button_UseZones</key>
+	<string>建立區域</string>
+	<key>CleanUpLabel_Header</key>
+	<string>清除</string>
+	<key>CleanUp_Cleaning1</key>
+	<string>[b-white]正在清除[/b-white]資料…</string>
+	<key>CleanUp_Cleaning2</key>
+	<string>[b-white]正在重設[/b-white]配件…</string>
+	<key>CleanUp_DeleteConfirmation</key>
+	<string>資料將會自 Hue Bridge 中清除。</string>
+	<key>CleanUp_Explanation</key>
+	<string>[b-white]警告：[/b-white] 將清除 Hue 橋接器中的所有資料，包括您所有的個人場景、日常作息、Siri 語音指令、休閒娛樂區，以及來自其他 Hue 應用程式的資料。我們將確保依照您仍能控制燈光的方式來還原您的房間、燈光。</string>
+	<key>CleanUp_Explanation_NoSiri</key>
+	<string>[b-white]警告：[/b-white] 將清除 Hue Bridge 中的所有資料，包括您所有的個人場景、日常作息、休閒娛樂區，以及來自其他 Hue 應用程式的資料。我們將確保依照您仍能控制燈光的方式來還原您的房間、區域、燈光。</string>
+	<key>Color_Blue</key>
+	<string>藍色</string>
+	<key>Color_Green</key>
+	<string>綠色</string>
+	<key>Color_Orange</key>
+	<string>橘色</string>
+	<key>Color_Pink</key>
+	<string>粉紅色</string>
+	<key>Color_Purple</key>
+	<string>紫色</string>
+	<key>Color_Red</key>
+	<string>紅色</string>
+	<key>Color_White</key>
+	<string>白色</string>
+	<key>Color_Yellow</key>
+	<string>黃色</string>
+	<key>Colorpicker_Group</key>
+	<string>燈光群組</string>
+	<key>ComingHome_AfterSunset</key>
+	<string>僅限日落之後</string>
+	<key>ComingHome_MinAfterArrival</key>
+	<string>抵達後 %ld 分鐘</string>
+	<key>ComingHome_SelectScene</key>
+	<string>請選擇[b-white]回家[/b-white]時要開啟的場景。</string>
+	<key>ComingHome_WhenArrive</key>
+	<string>當我到達時</string>
+	<key>ConnectionState_Connected</key>
+	<string>已連線</string>
+	<key>ConnectionState_Connecting</key>
+	<string>連線中…</string>
+	<key>ConnectionState_NotAuthenticated</key>
+	<string>未驗證</string>
+	<key>ConnectionState_NotConnected</key>
+	<string>無法連結</string>
+	<key>ConnectionState_RemoteConnected</key>
+	<string>雲端連網</string>
+	<key>ConnorSetup_Brightness</key>
+	<string>亮度</string>
+	<key>ConnorSetup_Broadcaster</key>
+	<string>效能</string>
+	<key>ConnorSetup_BroadcasterAutomatic</key>
+	<string>自動偵測</string>
+	<key>ConnorSetup_CreateRoom</key>
+	<string>開關燈位置</string>
+	<key>ConnorSetup_CurrentlyInSync</key>
+	<string>在同步停止之前，無法控制目前正與娛樂同步的燈光。</string>
+	<key>ConnorSetup_DefaultSetupName</key>
+	<string>休閒娛樂區</string>
+	<key>ConnorSetup_DeleteConfirmation</key>
+	<string>如此將會刪除休閒娛樂區。</string>
+	<key>ConnorSetup_DoneWithSetup</key>
+	<string>您現在已完成設定供娛樂之用的燈光。</string>
+	<key>ConnorSetup_DragLights</key>
+	<string>Connor</string>
+	<key>ConnorSetup_DragLightsExisting</key>
+	<string>[b-white]拖曳所有燈光[/b-white]至您區域中對應的實體位置。請點選[b-white]測試區域[/b-white]試試看。</string>
+	<key>ConnorSetup_EditTestSetup</key>
+	<string>測試區域</string>
+	<key>ConnorSetup_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]建立第一個休閒娛樂區。</string>
+	<key>ConnorSetup_InferiorLightsSelected</key>
+	<string>我們注意到您所選擇的燈光色彩並不豐富，強烈建議您只使用推薦的燈光，以獲得最佳體驗。</string>
+	<key>ConnorSetup_Instruction</key>
+	<string>建立休閒娛樂區以[b-white]同步您的燈光與娛樂[/b-white]。請造訪探索分頁查看相容夥伴的清單。</string>
+	<key>ConnorSetup_LightBlinking</key>
+	<string>觀賞燈光閃爍</string>
+	<key>ConnorSetup_Lights</key>
+	<string>燈光</string>
+	<key>ConnorSetup_MoreInformation</key>
+	<string>如需更多資訊，請造訪 [b-white]meethue.com/supportentertainment[/b-white]。</string>
+	<key>ConnorSetup_NoColorLights</key>
+	<string>很抱歉，您沒有[b-white]支援娛樂同步[/b-white]的可調色功能燈光。</string>
+	<key>ConnorSetup_PlacementInstruction</key>
+	<string>請先確認所有[b-white]燈光電源已開啟[/b-white]並位於您的休閒娛樂區中再繼續。</string>
+	<key>ConnorSetup_Recommended</key>
+	<string>推薦</string>
+	<key>ConnorSetup_RecommendedLights</key>
+	<string>以下僅列出[b-white]具可調色功能的 Hue 燈光[/b-white]。部分燈光的色彩較豐富，因而[b-green]推薦[/b-green]。如需更多資訊，請造訪 [b-white]meethue.com/supportentertainment[/b-white]。</string>
+	<key>ConnorSetup_RoomSetupName</key>
+	<string>#@ 區域</string>
+	<key>ConnorSetup_SelectBroadcaster</key>
+	<string>若要獲得最佳效能，可選擇位於您區域正中央的燈光。關閉「自動偵測」以手動選擇燈光或您的 Hue Bridge。</string>
+	<key>ConnorSetup_SelectLights</key>
+	<string>選擇燈光</string>
+	<key>ConnorSetup_SelectRoom</key>
+	<string>選擇房間</string>
+	<key>ConnorSetup_SoftwareUpdateExplanation</key>
+	<string>這些燈光需要更新才能在休閒娛樂區中正常運作。請更新這些燈光並於完成後返回。</string>
+	<key>ConnorSetup_SoftwareUpdateRequired</key>
+	<string>需要軟體更新</string>
+	<key>ConnorSetup_Streaming</key>
+	<string>燈光同步已在使用中</string>
+	<key>ConnorSetup_TestSetup</key>
+	<string>確認您燈光的色彩是否符合螢幕上的動畫。</string>
+	<key>ConnorSetup_TestSetup2</key>
+	<string>確認您燈光的位置是否符合螢幕上的動畫。</string>
+	<key>ConnorSetup_TestSetup2Title</key>
+	<string>測試位置</string>
+	<key>ConnorSetup_TestSetupTitle</key>
+	<string>測試同步</string>
+	<key>ConnorSetup_Where</key>
+	<string>選擇您想要[b-white]同步燈光與娛樂[/b-white]的房間。</string>
+	<key>ConnorSetup_WhereExisting</key>
+	<string>選擇您想要[b-white]同步燈光與娛樂[/b-white]的房間。只能選擇具有可調色功能燈光的房間。</string>
+	<key>Connor_DragDrop</key>
+	<string>放置燈光</string>
+	<key>Connor_OptimisingSetup</key>
+	<string>[b-white]正在最佳化[/b-white]…</string>
+	<key>Connor_Placement</key>
+	<string>開啟燈光</string>
+	<key>Controls_ButtonPressed</key>
+	<string>%@ 已按下</string>
+	<key>Controls_DimmerButton_DimDown</key>
+	<string>調暗按鈕</string>
+	<key>Controls_DimmerButton_DimUp</key>
+	<string>調亮按鈕</string>
+	<key>Controls_DimmerButton_FifthPress</key>
+	<string>按第五下</string>
+	<key>Controls_DimmerButton_FirstPress</key>
+	<string>按第一下</string>
+	<key>Controls_DimmerButton_FourthPress</key>
+	<string>按第四下</string>
+	<key>Controls_DimmerButton_Off</key>
+	<string>關閉按鈕</string>
+	<key>Controls_DimmerButton_On</key>
+	<string>開啟按鈕</string>
+	<key>Controls_DimmerButton_SecondPress</key>
+	<string>按第二下</string>
+	<key>Controls_DimmerButton_ThirdPress</key>
+	<string>按第三下</string>
+	<key>Controls_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]開始新增配件。</string>
+	<key>Controls_SelectScene</key>
+	<string>請選擇[b-white]按下此按鈕[/b-white]時要開啟的場景。</string>
+	<key>Controls_SettingsDefaults</key>
+	<string>正在設定預設值…</string>
+	<key>Controls_TapButton1</key>
+	<string>按鈕 1</string>
+	<key>Controls_TapButton2</key>
+	<string>按鈕 2</string>
+	<key>Controls_TapButton3</key>
+	<string>按鈕 3</string>
+	<key>Controls_TapButton4</key>
+	<string>按鈕 4</string>
+	<key>Controls_UnknownRule</key>
+	<string>無法顯示這個按鈕目前的行為。如果設定按鈕，將移除目前的行為。</string>
+	<key>Controls_UnknownRuleDimmer</key>
+	<string>無法顯示這個按鈕目前的行為。如果設定開啟按鈕，將移除目前的行為。</string>
+	<key>Controls_UnknownRuleSensor</key>
+	<string>無法顯示這個感測器目前的行為。如果設定感測器，將移除目前的行為。</string>
+	<key>CreateScene</key>
+	<string>新增場景</string>
+	<key>CreateScene_CameraRoll</key>
+	<string>相機膠卷</string>
+	<key>CreateScene_DefaultName</key>
+	<string>場景</string>
+	<key>CreateScene_NoPhotos</key>
+	<string>您的相機膠卷是空的。</string>
+	<key>CreateScene_Philips</key>
+	<string>Philips</string>
+	<key>CreateScene_SelectImage</key>
+	<string>請挑選一張照片</string>
+	<key>CreateScene_SelectPhilipsImage</key>
+	<string>我們精心挑選出一些十分特別的燈光效果，請體驗看看。</string>
+	<key>CreateScene_Where</key>
+	<string>請選取一個房間或區域，以[b-white]建立場景[/b-white]。</string>
+	<key>Default_LastState</key>
+	<string>上次開啟狀態</string>
+	<key>Default_Off</key>
+	<string>關</string>
+	<key>Default_Toggle</key>
+	<string>切換</string>
+	<key>DeleteRoom_Explanation</key>
+	<string>刪除此房間後將影響到以下項目：</string>
+	<key>DeleteScene_Explanation</key>
+	<string>刪除此場景後將影響到以下項目：</string>
+	<key>DeviceDetails_DeleteWarning</key>
+	<string>刪除此配件後，即無法繼續控制燈光。</string>
+	<key>Dimmer_ButtonNotConfigured</key>
+	<string>%@ 按鈕[b-red]未設定[/b-red]。</string>
+	<key>Dimmer_DimDownButtonExplain</key>
+	<string>此按鈕會將連接到此開關開啟按鈕的房間內的燈光調暗。</string>
+	<key>Dimmer_DimUpButtonExplain</key>
+	<string>此按鈕會將連接到此開關開啟按鈕的房間內的燈光調亮。</string>
+	<key>Dimmer_OffButtonExplain</key>
+	<string>此按鈕會關閉連接到此開關開啟按鈕的房間內的所有燈光。</string>
+	<key>Dimmer_OtherButtonNotConfigured</key>
+	<string>此按鈕尚未設定。如果設定開啟按鈕，將還原預設行為。</string>
+	<key>DiscardChanges_Warning</key>
+	<string>即將捨棄您的變更。</string>
+	<key>DoNothing</key>
+	<string>不執行任何功能</string>
+	<key>EditRoom_NoLightsWarning</key>
+	<string>未選取燈光。%@ 將失去所有場景和配件組態。</string>
+	<key>EditRoom_NoLightsWarning_MultipleRooms</key>
+	<string>%@ 及 %@ 沒有燈光。將刪除所有場景。</string>
+	<key>EditScene</key>
+	<string>編輯</string>
+	<key>EmptyScreen_AccessoriesHeading</key>
+	<string>設定 Hue 配件</string>
+	<key>EmptyScreen_AccessoriesSubtext</key>
+	<string>運用感測器和開關，讓您的 Hue 體驗更加豐富</string>
+	<key>EmptyScreen_EntertainmentSetupHeading</key>
+	<string>休閒娛樂區</string>
+	<key>EmptyScreen_EntertainmentSetupSubtext</key>
+	<string>放置燈光，以同步娛樂</string>
+	<key>EmptyScreen_GoToSleepHeading</key>
+	<string>和 Hue 一起就寢</string>
+	<key>EmptyScreen_GoToSleepSubtext</key>
+	<string>慢慢關閉燈光，幫助您一夜好眠</string>
+	<key>EmptyScreen_LightHeading</key>
+	<string>未連接燈光</string>
+	<key>EmptyScreen_LightSubtext</key>
+	<string>新增燈光並為其指定名稱供辨識</string>
+	<key>EmptyScreen_OtherRoutineHeading</key>
+	<string>量身規劃日常作息</string>
+	<key>EmptyScreen_OtherRoutineSubtext</key>
+	<string>根據時間或日出日落來控制燈光</string>
+	<key>EmptyScreen_RoomsHeading</key>
+	<string>未建立房間</string>
+	<key>EmptyScreen_RoomsSubtext</key>
+	<string>建立房間並分配燈光</string>
+	<key>EmptyScreen_RoomsZonesHeading</key>
+	<string>未建立房間或區域</string>
+	<key>EmptyScreen_RoomsZonesSubtext</key>
+	<string>建立區域或房間並分配燈光</string>
+	<key>EmptyScreen_ScenesHeading</key>
+	<string>此房間沒有場景</string>
+	<key>EmptyScreen_ScenesSubtext</key>
+	<string>建立場景，彈指之間變換室內氣氛</string>
+	<key>EmptyScreen_ScenesZonesHeading</key>
+	<string>此區域沒有場景</string>
+	<key>EmptyScreen_ScenesZonesSubtext</key>
+	<string>建立場景，彈指之間變換區域氣氛。</string>
+	<key>EmptyScreen_TimersHeading</key>
+	<string>以燈光倒數計時</string>
+	<key>EmptyScreen_TimersSubtext</key>
+	<string>在特定時間點，啟動照明</string>
+	<key>EmptyScreen_WakeUpHeading</key>
+	<string>和 Hue 一起醒來</string>
+	<key>EmptyScreen_WakeUpSubtext</key>
+	<string>早上慢慢開啟燈光</string>
+	<key>EmptyScreen_WidgetsHeading</key>
+	<string>建立場景快捷鍵</string>
+	<key>EmptyScreen_WidgetsSubtext</key>
+	<string>從主畫面啟動場景</string>
+	<key>Entertainment_ChangeLevel</key>
+	<string>改變高度</string>
+	<key>Entertainment_ChangeLevelExplanation</key>
+	<string>點選燈具，就能改變高度。</string>
+	<key>Entertainment_Level1</key>
+	<string>地面高度</string>
+	<key>Entertainment_Level2</key>
+	<string>電視機高度</string>
+	<key>Entertainment_Level3</key>
+	<string>天花板高度</string>
+	<key>Entertainment_PositionLights</key>
+	<string>放置燈光</string>
+	<key>Entertainment_PositionLightsExplanation</key>
+	<string>將所有的燈具拖曳到指定區域的對應實際位置。</string>
+	<key>Entertainment_StateAfterStreaming</key>
+	<string>燈光同步停止時的行為</string>
+	<key>Entertainment_StateAfterStreaming_Desc</key>
+	<string>定義當燈光不再與娛樂同步時的燈光行為。這些設定將套用到娛樂區域中的所有燈具。</string>
+	<key>Entertainment_StateAfterStreaming_Scene</key>
+	<string>場景</string>
+	<key>ErrorBanner_AlreadyPaired</key>
+	<string>目前的 Hue Bridge 已配對，無法新增至 HomeKit。如果使用其他裝置配對，請將您的住家分享至新裝置。如果這是唯一的一部裝置，請重設 HomeKit 和 Siri。</string>
+	<key>ErrorBanner_AutoUpdateFalse</key>
+	<string>請同意條款與條件，並繼續使用應用程式。</string>
+	<key>ErrorBanner_CantCreateDefaultScenes</key>
+	<string>Hue Bridge 已滿，無法建立預設場景。請嘗試先刪除部分日常作息或場景。</string>
+	<key>ErrorBanner_CantDeleteHomeKitDefault</key>
+	<string>無法刪除預設的「家庭」應用程式場景。</string>
+	<key>ErrorBanner_CantTestSetup</key>
+	<string>燈光同步正在使用中時，無法測試休閒娛樂區。</string>
+	<key>ErrorBanner_CleanUpFailed</key>
+	<string>清除失敗。請重試一次。</string>
+	<key>ErrorBanner_CleanUpOutOfHome</key>
+	<string>請連線至住家 Wi-Fi 網路，以清除 Hue Bridge。</string>
+	<key>ErrorBanner_Controls_NoRoomsSelected</key>
+	<string>一或多個按鈕尚未設定，請設定完成後再點擊儲存。</string>
+	<key>ErrorBanner_CreateRoomFirst</key>
+	<string>尚未建立房間。您必須先將燈光新增至房間，才能新增至休閒娛樂區。您可以在「房間設定」中建立房間。</string>
+	<key>ErrorBanner_CreateScene_NoPermission</key>
+	<string>Hue 應用程式不具備存取相片庫的權限。請確認裝置的設定選單。</string>
+	<key>ErrorBanner_Devices_IncompleteMSLFound</key>
+	<string>%ld已找到多組裝置，但僅只部分多光源燈具。請開始新一次的搜尋動作。</string>
+	<key>ErrorBanner_Dimmer_EmptyPresses</key>
+	<string>一或多個按鈕尚未設定，請設定完成後再點擊儲存。</string>
+	<key>ErrorBanner_EntertainmentCreation_NoLocalConnection</key>
+	<string>請連線至家用 Wi-Fi 網路，以建立休閒娛樂區。</string>
+	<key>ErrorBanner_EntertainmentTest_NoLocalConnection</key>
+	<string>請連線至家用 Wi-Fi 網路，以測試您的休閒娛樂區。</string>
+	<key>ErrorBanner_FatalDataMigration</key>
+	<string>應用程式遭受嚴重的更新錯誤。請確保執行最新版本的 iOS，或嘗試重新安裝應用程式。</string>
+	<key>ErrorBanner_Generic_DeleteFailed</key>
+	<string>刪除失敗，請再試一次。</string>
+	<key>ErrorBanner_Generic_SaveFailed</key>
+	<string>儲存失敗，請再試一次。</string>
+	<key>ErrorBanner_HomeAwayUnavailable</key>
+	<string>無法使用位置感知，因不提供 Google Play 服務。</string>
+	<key>ErrorBanner_HomeKit_CantFindBridge</key>
+	<string>找不到您的 Hue Bridge。請先關閉 Hue Bridge 的電源並重新開啟，以重新啟動 Hue Bridge，並確定已連接至路由器。</string>
+	<key>ErrorBanner_HomeKit_CheckBridge</key>
+	<string>無法連線至 Hue Bridge。請確定 Hue Bridge 已開啟並正確連接至路由器。</string>
+	<key>ErrorBanner_HomeKit_CloudDataSyncInProgress</key>
+	<string>iCloud 資料同步進行中。請等待幾分鐘，然後再試一次。</string>
+	<key>ErrorBanner_HomeKit_CommunicationError</key>
+	<string>無法建立 HomeKit 與 Hue Bridge 之間的通訊。請重新再試一次。</string>
+	<key>ErrorBanner_HomeKit_ExportFailed</key>
+	<string>匯出失敗。請重新再試一次。</string>
+	<key>ErrorBanner_HomeKit_Generic</key>
+	<string>無法完成 HomeKit 動作。 %@</string>
+	<key>ErrorBanner_HomeKit_KeychainSyncNotEnabled</key>
+	<string>iCloud keychain 未啟用。請從 iCloud 設定畫面中啟用 iCloud keychain，並再試一次。</string>
+	<key>ErrorBanner_HomeKit_MaxHomesCreated</key>
+	<string>建立的住家數目已達上限。</string>
+	<key>ErrorBanner_HomeKit_NoLocalConnection</key>
+	<string>請連線至家用 Wi-Fi 網路，以變更 HomeKit 和 Siri。</string>
+	<key>ErrorBanner_HomeKit_NoPermission</key>
+	<string>Hue 應用程式無權存取 HomeKit 配件資料庫。可透過 [設定] 授予權限。</string>
+	<key>ErrorBanner_HomeKit_NotAdminOfHome</key>
+	<string>您不是 %@ 的管理員。請選擇其他住家或創建新家。</string>
+	<key>ErrorBanner_HomeKit_NotSignedInToIcloud</key>
+	<string>請確定你已登入 iCloud，以進行 HomeKit 首頁分享。</string>
+	<key>ErrorBanner_HomeKit_OutOfCompliance</key>
+	<string>Hue Bridge 配對失敗。若問題持續發生，請檢查 Hue Bridge 是否有軟體更新。</string>
+	<key>ErrorBanner_HomeKit_PairingFailed</key>
+	<string>配對失敗。請確定 Hue Bridge 已開啟電源並正確連接至路由器，且輸入正確的配對代碼無誤。</string>
+	<key>ErrorBanner_HomeKit_SceneNameAlreadyExists</key>
+	<string>「家庭」應用程式內已有場景名稱。</string>
+	<key>ErrorBanner_HomeKit_SceneToLarge</key>
+	<string>匯出失敗。房間內燈光太多，無法透過 Siri 啟動場景。</string>
+	<key>ErrorBanner_HomeKit_SyncAllFailed</key>
+	<string>無法同步 %ld 個項目，可能存在無效的名稱。請先點選各項目進行變更名稱。</string>
+	<key>ErrorBanner_HomeKit_UnpairingFailed</key>
+	<string>無法重設 HomeKit 和 Siri。請確定 Hue Bridge 已開啟並正確連接至路由器。</string>
+	<key>ErrorBanner_HomeKit_UserManagementFailed</key>
+	<string>無法分享。請確定您已登入 iCloud，以進行 HomeKit 首頁分享。</string>
+	<key>ErrorBanner_IncompleteMSL</key>
+	<string>只找到一部分的多來源燈具。請重新搜尋燈光。</string>
+	<key>ErrorBanner_IncompleteMSLLightsFound</key>
+	<string>找到 %ld 盞燈光，但只找到一部分的多來源燈具。請重新搜尋燈光。</string>
+	<key>ErrorBanner_LightNameNotExported</key>
+	<string>HomeKit 內已有該燈名稱。請變更名稱，以確定您可用 Siri 控制燈光，以及在「家庭」應用程式內更新名稱。</string>
+	<key>ErrorBanner_LocationAwareness</key>
+	<string>我們需要判斷您的住家位置，好讓這項功能正常運作。請透過您裝置的設定選單隨時允許進行位置存取。</string>
+	<key>ErrorBanner_LocationDisabled</key>
+	<string>我們需要啟用位置設定，好讓此功能正常運作。請透過您裝置的設定選單啟用位置設定。</string>
+	<key>ErrorBanner_LocationRefresh_NoLocalConnection</key>
+	<string>您似乎未連線至家用 Wi-Fi。請連線至家用 Wi-Fi 網路，以設定住家位置。</string>
+	<key>ErrorBanner_LoginRequired</key>
+	<string>啟用戶外控制以使用此功能。</string>
+	<key>ErrorBanner_MaxNumberOfGroups</key>
+	<string>您的 Hue Bridge 已滿。請先嘗試刪除一個房間、區域或娛樂設定。</string>
+	<key>ErrorBanner_MaxNumberOfRules</key>
+	<string>您的 Hue Bridge 已滿。請嘗試先刪除部分日常作息。</string>
+	<key>ErrorBanner_MaxNumberOfScenes</key>
+	<string>您的 Hue Bridge 已滿。請嘗試先刪除部分日常作息或場景。</string>
+	<key>ErrorBanner_MaxNumberOfSchedules</key>
+	<string>您的 Hue Bridge 已滿。請嘗試先刪除部分日常作息。</string>
+	<key>ErrorBanner_MaxNumberOfSensors</key>
+	<string>您的 Hue Bridge 已滿。請嘗試先刪除部分日常作息。</string>
+	<key>ErrorBanner_MaxNumberOfSensors_Switches</key>
+	<string>您的 Hue Bridge 已滿。請嘗試先刪除一個配件。</string>
+	<key>ErrorBanner_MaxResourcesReached_HueLabs</key>
+	<string>您的 Hue Bridge 已無可用空間。請試試在應用程式中刪除部分日常作息或使用資源管理員管理空間。</string>
+	<key>ErrorBanner_MyHue_AccountHasNoBridge</key>
+	<string>由於您的帳戶尚未連接任何 Hue Bridge，因此登入我的 Hue 目前無法使用。</string>
+	<key>ErrorBanner_MyHue_BridgeOffline</key>
+	<string>由於 Hue Bridge 離線中，無法登入 My Hue。請確認 Hue Bridge 已連線至網際網路。</string>
+	<key>ErrorBanner_MyHue_LoginFailed</key>
+	<string>無法登入。請稍後再試一次。</string>
+	<key>ErrorBanner_MyHue_NotLocalBridge</key>
+	<string>您嘗試登入的帳戶已連接至另一個 Hue Bridge，而非您目前連接的 Hue Bridge。</string>
+	<key>ErrorBanner_NetworkSettingsSaveFailed</key>
+	<string>無法儲存網路設定。請再試一次。</string>
+	<key>ErrorBanner_NoHueConnection</key>
+	<string>尚未與 Hue Bridge 連線。</string>
+	<key>ErrorBanner_NoLightsSelected</key>
+	<string>未選取燈光。請選取燈光，然後點選儲存。</string>
+	<key>ErrorBanner_NoLightsSelected2</key>
+	<string>未選取燈光。請選取一個房間或區段，接著燈光。然後點選儲存。</string>
+	<key>ErrorBanner_NoRoomsSelected</key>
+	<string>未選取房間。請選取房間並儲存。</string>
+	<key>ErrorBanner_NotAuthenticated</key>
+	<string>驗證裝置以控制 Hue Bridge。</string>
+	<key>ErrorBanner_NothingToControlSelected</key>
+	<string>您未選取任何控制項目。請選取您要控制的項目，並加以儲存。</string>
+	<key>ErrorBanner_OnlyAfterSunset</key>
+	<string>若要知道您所住地方的[b-white]日出和日落時間[/b-white]，請允許位置存取功能。</string>
+	<key>ErrorBanner_RestartOnboarding</key>
+	<string>與 Hue Bridge 的連線已中斷。請確定 Hue Bridge 已開啟並連接至您目前 Wi-Fi 網路的路由器，以繼續設定系統。或者您可以重新開始。</string>
+	<key>ErrorBanner_Rooms_MaxNumberCreated</key>
+	<string>建立的房間數已達上限。請刪除某個房間以建立新房間。</string>
+	<key>ErrorBanner_SceneEdit_NoHueConnection</key>
+	<string>尚未與 Hue Bridge 連線。</string>
+	<key>ErrorBanner_Scenes_MaxNumberOfScenes</key>
+	<string>建立的場景數目已達上限。請嘗試先刪除部分場景。</string>
+	<key>ErrorBanner_Sensor_Empty</key>
+	<string>感測器尚未設定，請設定完成後再點擊儲存。</string>
+	<key>ErrorBanner_SoftwareOutOfDate</key>
+	<string>Hue 系統更新已可供使用。請安裝更新後繼續使用應用程式。</string>
+	<key>ErrorBanner_SoftwareUpdateCheckFailed</key>
+	<string>無法下載更新。請確認您已連線至家用 Wi-Fi 網路。</string>
+	<key>ErrorBanner_SoftwareUpdateFailedLocal</key>
+	<string>糟糕！無法安裝更新。請重試一次。</string>
+	<key>ErrorBanner_SoftwareUpdateFailedRemote</key>
+	<string>糟糕！無法透過外出連線安裝更新。請連線至家用 Wi-Fi 網路安裝更新，或稍後再試。</string>
+	<key>ErrorBanner_SoftwareUpdateRemote</key>
+	<string>請連線至家用 Wi-Fi 網路，以更新 Hue Bridge。</string>
+	<key>ErrorBanner_StreamingNoScenes</key>
+	<string>您需要先停用燈光同步，才能建立場景。</string>
+	<key>ErrorBanner_SyncToHomeKitFailed</key>
+	<string>無法在 Siri 和「家庭」應用程式中更新。請至 [設定] 中的 [HomeKit 和 Siri]，並再試一次。</string>
+	<key>ErrorBanner_TimeZoneGenericLoadFailed</key>
+	<string>無法載入時區。</string>
+	<key>ErrorBanner_TimeZoneSaveFailed</key>
+	<string>無法儲存時區。請再試一次。</string>
+	<key>ErrorBanner_UpdateFailed</key>
+	<string>更新失敗，請再試一次。</string>
+	<key>ErrorBanner_WidgetEmpty</key>
+	<string>小工具未設定房間。請開啟 Hue 應用程式以編輯小工具。</string>
+	<key>ErrorBanner_WidgetGenericFail</key>
+	<string>無法啟動小工具。</string>
+	<key>ErrorBanner_ZigBeeChannelChangeFailed</key>
+	<string>無法變更 Zigbee 通道。請重新再試一次。</string>
+	<key>ErrorMessage_CantOpenWebPage</key>
+	<string>糟糕！本頁面無法開啟。請確認您的裝置是否[b-white]已連線[/b-white]至網際網路，然後再試一次。</string>
+	<key>Existing_Connor_Done</key>
+	<string>[b-white]已成功建立休閒娛樂區。[/b-white]</string>
+	<key>Existing_Connor_DoneBullet1</key>
+	<string>請前往探索分頁，了解搭配 Hue 休閒娛樂區的內容。</string>
+	<key>Existing_Connor_ReadyTo</key>
+	<string>休閒娛樂區已就緒！</string>
+	<key>Explore_UpgradeHue</key>
+	<string>升級您的 Hue 體驗</string>
+	<key>FaultyBridge_Banner_Button</key>
+	<string>更換</string>
+	<key>FaultyBridge_Banner_Text</key>
+	<string>由於我們必須將您目前的 Hue Bridge 更換為更新的版本，因此應用程式功能會受到限制。</string>
+	<key>FaultyBridge_Button_Help</key>
+	<string>更換</string>
+	<key>FaultyBridge_Button_NotNow</key>
+	<string>[u]現在不要[/u]</string>
+	<key>FaultyBridge_Text</key>
+	<string>很抱歉，我們要通知您，您的 Philips Hue Bridge 必須更新，但是無法透過遠端韌體更新來完成。為確保您的 Hue Bridge 能夠正常運作，我們必須將您目前的 Hue Bridge 更換為更新的版本。
+
+為能順利進行更換，請按一下下方的按鈕並依照指示執行。收到新的 Hue Bridge 之後，請重新安裝應用程式以設定您的 Hue 系統。
+
+對於造成您的不便，我們致上最深的歉意。</string>
+	<key>FaultyBridge_Title</key>
+	<string>更換 Hue Bridge</string>
+	<key>FindBridges_InstructionText</key>
+	<string>請確定 Hue Bridge 已開啟並透過乙太網路線連接至您目前 Wi-Fi 網路的路由器。您的裝置必須連接到同一個 Wi-Fi 網路。然後[b-white]點選下方的 [搜尋][/b-white]。</string>
+	<key>FindBridges_ProblemsText</key>
+	<string>進階：也可以在下方手動輸入 IP 位址再開始搜尋。</string>
+	<key>FormFieldBridge_InvalidName</key>
+	<string>名稱過短。</string>
+	<key>FormFieldIP_InvalidIp</key>
+	<string>IP 位址無效。</string>
+	<key>FormFieldIP_Placeholder</key>
+	<string>手動 IP</string>
+	<key>FormFieldLight_InvalidName</key>
+	<string>名稱過長。</string>
+	<key>FormFieldRoom_DuplicateName</key>
+	<string>名稱已存在。</string>
+	<key>FromOtherApps_DeleteConfirmation</key>
+	<string>如此將會刪除該行程/計時器。</string>
+	<key>FromOtherApps_Description</key>
+	<string>這些行程和計時器是在[b-white]其他應用程式[/b-white]中建立。您可以在此啟用、停用或刪除它們。</string>
+	<key>FromOtherApps_EmptyDescription</key>
+	<string>在您的 Hue Bridge 上找不到來自其他應用程式的行程和計時器。</string>
+	<key>General_App_Name</key>
+	<string>Hue</string>
+	<key>General_App_Name_Bridgev1</key>
+	<string>Hue Bridge v1
+</string>
+	<key>GoToSleep_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]建立第一個睡覺的日常作息。</string>
+	<key>GoToSleep_Explanation</key>
+	<string>此日常作息會將[b-white]已經開啟的燈光[/b-white]設成溫暖光線，並[b-white]逐漸變暗[/b-white]，幫助您迎接一夜美夢。</string>
+	<key>GoToSleep_FadeExplain</key>
+	<string>請選擇在您睡覺日常作息開始[b-white]之後[/b-white]燈光漸暗的持續時間。</string>
+	<key>GoToSleep_NightLightExplain</key>
+	<string>請選擇在您睡覺日常時間結束時要將哪些燈光調亮為[b-white]夜燈[/b-white]。</string>
+	<key>GoToSleep_NightLight_WhichLights</key>
+	<string>用哪些燈？</string>
+	<key>GoToSleep_SetNightLight</key>
+	<string>結束時開啟夜燈</string>
+	<key>GoToSleep_SetNightLightExplain</key>
+	<string>以防您想要留一盞小夜燈，將夜裡的怪物嚇跑。 </string>
+	<key>GoToSleep_TurnOnLights</key>
+	<string>開始時開啟燈光</string>
+	<key>GoToSleep_TurnOnLightsExplain</key>
+	<string>啟用這個選項，會在此日常作息[b-white]開始[/b-white]時於選定的房間內[b-white]開啟所有燈光[/b-white]。</string>
+	<key>GoToSleep_When</key>
+	<string>幾點開始？</string>
+	<key>GoToSleep_Where</key>
+	<string>用於什麼情況？</string>
+	<key>Header_AboutTitle</key>
+	<string>關於</string>
+	<key>Header_AddControlsTitle</key>
+	<string>新增開關</string>
+	<key>Header_AddDeviceTitle</key>
+	<string>新增配件</string>
+	<key>Header_AddDimmer</key>
+	<string>新增開關</string>
+	<key>Header_AddLightsTitle</key>
+	<string>新增</string>
+	<key>Header_AddSensorTitle</key>
+	<string>新增感測器</string>
+	<key>Header_AddSmartButton</key>
+	<string>新增按鈕</string>
+	<key>Header_AddTap</key>
+	<string>新增開關</string>
+	<key>Header_AuthenticateTitle</key>
+	<string>推送連結</string>
+	<key>Header_Away</key>
+	<string>外出</string>
+	<key>Header_BridgesTitle</key>
+	<string>Hue Bridge</string>
+	<key>Header_ComingHome</key>
+	<string>回家</string>
+	<key>Header_ConnorWeLike</key>
+	<string>Hue娛樂</string>
+	<key>Header_ControlsTitle</key>
+	<string>開關設定</string>
+	<key>Header_DeleteRoom</key>
+	<string>刪除房間</string>
+	<key>Header_DeleteScene</key>
+	<string>刪除場景</string>
+	<key>Header_DevicesTitle</key>
+	<string>配件設定</string>
+	<key>Header_Feedback</key>
+	<string>意見回饋</string>
+	<key>Header_FindBridgeTitle</key>
+	<string>尋找 Hue橋接器</string>
+	<key>Header_FriendsOfHue</key>
+	<string>Friends of Hue</string>
+	<key>Header_FromOtherApps</key>
+	<string>來自其他應用程式</string>
+	<key>Header_GoToSleep</key>
+	<string>睡覺</string>
+	<key>Header_HomeAway</key>
+	<string>在家與外出</string>
+	<key>Header_HomeDashboard</key>
+	<string>首頁</string>
+	<key>Header_HowTo</key>
+	<string>如何使用影片</string>
+	<key>Header_HueLabs</key>
+	<string>Hue實驗室</string>
+	<key>Header_Icon</key>
+	<string>圖示</string>
+	<key>Header_Image</key>
+	<string>照片</string>
+	<key>Header_LeavingHome</key>
+	<string>出門</string>
+	<key>Header_LightsTitle</key>
+	<string>燈光設定</string>
+	<key>Header_LogIn</key>
+	<string>登入 My Hue</string>
+	<key>Header_MyHue</key>
+	<string>外出連線</string>
+	<key>Header_NewGoToSleep</key>
+	<string>新增</string>
+	<key>Header_NewPersonalRoutine</key>
+	<string>新增</string>
+	<key>Header_NewTimer</key>
+	<string>新增</string>
+	<key>Header_NewWakeUp</key>
+	<string>新增</string>
+	<key>Header_OtherApps</key>
+	<string>推薦應用程式</string>
+	<key>Header_PersonalRoutine</key>
+	<string>其他日常作息</string>
+	<key>Header_RoomCreateTitle</key>
+	<string>新增</string>
+	<key>Header_RoomsTitle</key>
+	<string>房間設定</string>
+	<key>Header_SettingsTitle</key>
+	<string>設定</string>
+	<key>Header_SoftwareUpdate</key>
+	<string>軟體更新</string>
+	<key>Header_TermsConditions</key>
+	<string>條款與條件</string>
+	<key>Header_Timers</key>
+	<string>計時器</string>
+	<key>Header_TransferSettings</key>
+	<string>傳送設定</string>
+	<key>Header_UpdateAvailable</key>
+	<string>已有更新</string>
+	<key>Header_WakeUp</key>
+	<string>喚醒</string>
+	<key>Header_WhatsNew</key>
+	<string>最新資訊</string>
+	<key>Header_WidgetCreateTitle</key>
+	<string>新增</string>
+	<key>Header_WidgetTitle</key>
+	<string>小工具設定</string>
+	<key>Header_WidgetWatchTitle</key>
+	<string>小工具 &amp; Apple Watch</string>
+	<key>HomeAway_LocationAware</key>
+	<string>位置感知</string>
+	<key>HomeAway_LocationAwareExplain</key>
+	<string>根據您的所在位置，[b-white]自動[/b-white]啟動 [回家] 和 [外出] 的日常作息程序。</string>
+	<key>HomeAway_MimicingPresence</key>
+	<string>假裝家中有人在</string>
+	<key>HomeAway_Notification_ComingHome</key>
+	<string>已啟動回家的日常作息。</string>
+	<key>HomeAway_Notification_ComingHomeFailed</key>
+	<string>發生錯誤。未啟動回家日常作息。</string>
+	<key>HomeAway_Notification_LeavingHome</key>
+	<string>已啟動出門的日常作息。</string>
+	<key>HomeAway_Notification_LeavingHomeFailed</key>
+	<string>發生錯誤。未啟動出門的日常作息。</string>
+	<key>HomeAway_OverlayHomeAway</key>
+	<string>現在可手動切換 [b-white][在家][/b-white] 和 [b-white][在外][/b-white]。如此可啟動您決定該日常作息中需執行的動作。</string>
+	<key>HomeKitScenes_EmptyInstruction</key>
+	<string>請點選下方的 [b-white]+ 按鈕[/b-white]建立第一個使用 Siri 控制的場景。</string>
+	<key>HomeKitScenes_TurnOn</key>
+	<string>說出[b-white]設定 [場景名稱][/b-white]，即可開啟場景。</string>
+	<key>HomeKit_Accessories</key>
+	<string>%ld 個其他的 HomeKit 配件</string>
+	<key>HomeKit_AccessoriesEmpty</key>
+	<string>未新增配件。請先透過 [設定] 新增配件。</string>
+	<key>HomeKit_AccessoriesItem</key>
+	<string>配件</string>
+	<key>HomeKit_AccessoriesItem_Explanation</key>
+	<string>可使用[b-white]「家庭」應用程式[/b-white]設定配件。出現 [img]Generic_Attention[/img] 的項目未同步。請點選以再次同步。</string>
+	<key>HomeKit_AccessoriesItem_ExplanationIOS9</key>
+	<string>出現 [img]Generic_Attention[/img] 的項目未與 HomeKit 同步。請點選以再次同步。</string>
+	<key>HomeKit_Accessories_Banner</key>
+	<string>「家庭」應用程式內現在已可使用 Philips Hue 配件。</string>
+	<key>HomeKit_Accessories_NonAdmin</key>
+	<string>可使用[b-white]「家庭」應用程式[/b-white]設定配件。</string>
+	<key>HomeKit_Accessory</key>
+	<string>1 個其他的 HomeKit 配件</string>
+	<key>HomeKit_Advanced</key>
+	<string>進階</string>
+	<key>HomeKit_AlreadyPaired</key>
+	<string>目前的 Hue Bridge 已經與 HomeKit 配對。
+
+如果已經使用其他裝置進行配對，請要求該裝置所有人透過 [HomeKit 和 Siri] 中的 [進階設定]，由 Philips Hue 應用程式分享住家至您的 iCloud 帳戶。我們建議透過 [iOS 設定] 將 iPad 或 Apple TV 設定為 Home Hub。
+
+如果已經有人向您分享其住家，iCloud 同步可能要花一些時間處理。請稍後再試一次。
+
+若您想移除之前的配對，請重設 HomeKit 和 Siri。</string>
+	<key>HomeKit_AutoExportFailed</key>
+	<string>偵測到 Hue 與「家庭」應用程式內的房間不符。是否要在「家庭」應用程式內更新房間？
+
+[b-white]警告：[/b-white]此動作將變更「家庭」應用程式內的房間。
+
+如果想手動解決此問題，請選擇「現在不要」，並在 Hue 或「家庭」應用程式內重新命名房間。</string>
+	<key>HomeKit_BridgeNoSupport1</key>
+	<string>您目前所用的 Hue 橋接器不支援 HomeKit。您需要具備 HomeKit 功能的 Hue 橋接器，才能使用 HomeKit 和 Siri。</string>
+	<key>HomeKit_BridgeNoSupport2</key>
+	<string>如果您沒有具備 HomeKit 功能的 Hue 橋接器，請透過 [設定] 連線。</string>
+	<key>HomeKit_ControlLights</key>
+	<string>說出[b-white]關燈[/b-white]或是[b-white]打開天花板燈[/b-white]，即可控制燈光。</string>
+	<key>HomeKit_ControlLightsExample</key>
+	<string>說[b-white]「關燈」[/b-white] 或[b-white]「開 %@」[/b-white] ，以控制燈光。出現 [img]Generic_Attention[/img] 驚嘆號的項目未同步。請點選以進行同步並搭配 Siri 來使用。</string>
+	<key>HomeKit_ControlLightsExample_NonAdmin</key>
+	<string>說出[b-white]關燈[/b-white]或是[b-white]打開 %@ 的燈[/b-white]，即可控制燈光。</string>
+	<key>HomeKit_ControlRooms</key>
+	<string>說出[b-white]關掉客廳的燈[/b-white]或是[b-white]打開臥室的燈[/b-white]，即可控制房間的燈光。</string>
+	<key>HomeKit_ControlRoomsExample</key>
+	<string>說出[b-white]關掉 %@ 的燈[/b-white]或[b-white]打開 %@ 的燈[/b-white]，即可控制房間的燈光。</string>
+	<key>HomeKit_ControlScenes</key>
+	<string>說出[b-white]設定早安[/b-white]，即可開啟喜愛的場景。</string>
+	<key>HomeKit_ControlScenesExample</key>
+	<string>說出[b-white]設定 %@[/b-white]，即可開啟喜愛的場景。</string>
+	<key>HomeKit_DefaultHomeName</key>
+	<string>我家</string>
+	<key>HomeKit_ExclamationExplain</key>
+	<string>出現 [img]Generic_Attention[/img] 驚嘆號的項目未同步。請點選以進行同步並搭配 Siri 來使用。如需更多 Siri 的相關資訊，請至 meetHue.com/siri。</string>
+	<key>HomeKit_ExportRooms</key>
+	<string>您可在 Hue 應用程式內變更部分房間，所選的房間將在「家庭」應用程式內更新。</string>
+	<key>HomeKit_ExportText</key>
+	<string>將 HomeKit 設定分享給其他人，讓其他人也能利用 HomeKit 和 Siri 來控制燈光。</string>
+	<key>HomeKit_HomeKitSiri</key>
+	<string>HomeKit 和 Siri</string>
+	<key>HomeKit_Home_NotTheAdmin</key>
+	<string>此住家已分享。您不是此住家的管理員。很抱歉，你無法進行任何修改。</string>
+	<key>HomeKit_Home_ShareNobody</key>
+	<string>尚未分享。</string>
+	<key>HomeKit_Home_YouAreAdmin</key>
+	<string>您是此住家[b-white]的管理員[/b-white]。</string>
+	<key>HomeKit_Homes</key>
+	<string>住家</string>
+	<key>HomeKit_HueLight</key>
+	<string>1 盞 Hue 燈</string>
+	<key>HomeKit_HueLights</key>
+	<string>%ld 盞 Hue 燈</string>
+	<key>HomeKit_Import</key>
+	<string>匯入</string>
+	<key>HomeKit_ImportDeletesRoom</key>
+	<string>從「家庭」應用程式匯入 %@ 時，需要移動部分燈光，也就是 %@ 將變成空白，並將刪除 %@ 內的所有 Hue 場景。</string>
+	<key>HomeKit_ImportRooms</key>
+	<string>請選擇想要從「家庭」應用程式匯入的房間。</string>
+	<key>HomeKit_Ios9Support</key>
+	<string>需有 iOS 9 以上的版本才能使用 HomeKit 和 Siri 控制燈光。</string>
+	<key>HomeKit_Lights</key>
+	<string>燈光</string>
+	<key>HomeKit_LightsEmpty</key>
+	<string>未新增燈光。請先透過 [設定] 新增燈光。</string>
+	<key>HomeKit_MultipleHomes</key>
+	<string>選擇所需的住家以啟用 Siri，或是建立新的住家。</string>
+	<key>HomeKit_NewRooms</key>
+	<string>發現新房間</string>
+	<key>HomeKit_NoHomes</key>
+	<string>建立新的住家以啟用 Siri。</string>
+	<key>HomeKit_NotTheAdminText</key>
+	<string>您不是與具備 HomeKit 功能之 Hue 橋接器配對的 %@ 的管理員。很抱歉，您無法進行任何修改。</string>
+	<key>HomeKit_NumberOfAccessories</key>
+	<string>其他的 HomeKit 配件：[b-white]%ld[/b-white]</string>
+	<key>HomeKit_NumberOfHue</key>
+	<string>Hue 燈光：[b-white]%ld[/b-white]</string>
+	<key>HomeKit_PairBridgeText</key>
+	<string>請將裝置與 Hue Bridge配對，以啟動 HomeKit 和 Siri。</string>
+	<key>HomeKit_PrimaryHome</key>
+	<string>主要住家</string>
+	<key>HomeKit_PrimaryHome_Explanation</key>
+	<string>如果 Siri 語音指令未使用住家名稱，將使用[b-white]主要的住家[/b-white]。</string>
+	<key>HomeKit_Rooms</key>
+	<string>房間</string>
+	<key>HomeKit_RoomsEmpty</key>
+	<string>尚未建立任何的房間。請先透過 [設定] 建立房間。</string>
+	<key>HomeKit_SceneCreatedOtherApp</key>
+	<string>此場景已由其他應用程式建立。如果您從此處變更場景，將覆寫目前的行為。</string>
+	<key>HomeKit_SceneOutOfSync</key>
+	<string>一或多個場景已在 Hue 應用程式外部經過編輯。如果您從此處變更場景，將覆寫目前的行為。</string>
+	<key>HomeKit_Scenes</key>
+	<string>場景</string>
+	<key>HomeKit_ShareControl</key>
+	<string>如欲分享控制功能，請將 iPad 或 Apple TV 設定為 [b-white]Home Hub[/b-white]，並按下管理員裝置的[b-white]分享住家[/b-white]按鈕。</string>
+	<key>HomeKit_ShareHome</key>
+	<string>分享首頁</string>
+	<key>HomeKit_SiriName</key>
+	<string>對著 Siri 說%@以啟動。</string>
+	<key>HomeKit_SuccessfullyPaired</key>
+	<string>現在已成功配對至 HomeKit。</string>
+	<key>HomeKit_SuccessfullyPairedSubtitle</key>
+	<string>請透過 [iOS 設定] 啟用 Siri 和 iCloud Keychain。如需更多資訊請至 meetHue.com/support。</string>
+	<key>HomeKit_SyncHome</key>
+	<string>再次與首頁同步</string>
+	<key>HomeKit_TestText</key>
+	<string>如果要測試是否成功，請按住主畫面按鈕啟動 Siri，並說：[b-white]開啟燈光[/b-white]。</string>
+	<key>HomeKit_UpdateHomeKit</key>
+	<string>更新</string>
+	<key>HomeLocation_Configured</key>
+	<string>設定完成</string>
+	<key>HomeLocation_Explanation</key>
+	<string>您的位置用來判斷日落與日出的作息，以及在家與外出的作息。</string>
+	<key>HomeLocation_NotConfigured</key>
+	<string>尚未設定完成</string>
+	<key>How</key>
+	<string>燈光場景</string>
+	<key>How_Bold</key>
+	<string>[b-white]燈光場景[/b-white]</string>
+	<key>Info_New</key>
+	<string>新增</string>
+	<key>Info_Unreachable</key>
+	<string>無法連接</string>
+	<key>Info_Unreachable_Orange</key>
+	<string>[b-white]無法連接[/b-white]</string>
+	<key>IntentInvocation_SetSceneInRoom</key>
+	<string>%@</string>
+	<key>IntentInvocation_TurnHomeOff</key>
+	<string>家中關閉</string>
+	<key>IntentInvocation_TurnHomeOn</key>
+	<string>家中開啟</string>
+	<key>IntentInvocation_TurnRoomOff</key>
+	<string>%@ 關</string>
+	<key>IntentInvocation_TurnRoomOn</key>
+	<string>%@ 開</string>
+	<key>LastTriggered</key>
+	<string>%@ 已啟用</string>
+	<key>LeavingHome_MimicPresence</key>
+	<string>假裝家中有人在</string>
+	<key>LeavingHome_MimicPresenceExplain</key>
+	<string>整天燈光會開開關關，以模擬家中有人的狀態。</string>
+	<key>LeavingHome_OnlyDark</key>
+	<string>僅在天黑時</string>
+	<key>LeavingHome_SelectWhat</key>
+	<string>請選擇[b-white]出門[/b-white]時要執行的動作。</string>
+	<key>LeavingHome_TurnOffExplain</key>
+	<string>會逐漸關閉燈光。</string>
+	<key>LeavingHome_WhenLeave</key>
+	<string>當我出門時</string>
+	<key>LeavingHome_WhenLeave2</key>
+	<string>當我出門時，關閉電源</string>
+	<key>LightPicking_Color</key>
+	<string>色彩</string>
+	<key>LightPicking_Recipes</key>
+	<string>燈光組合</string>
+	<key>LightPicking_Scene</key>
+	<string>場景</string>
+	<key>LightPicking_Whites</key>
+	<string>白色</string>
+	<key>Light_Unknown_Name</key>
+	<string>未知的燈光</string>
+	<key>LightsDetails_DeleteWarning</key>
+	<string>刪除此燈光後，即無法繼續控制。</string>
+	<key>LightsDetails_Manufacturer</key>
+	<string>製造商：</string>
+	<key>LightsDetails_Model</key>
+	<string>型號：</string>
+	<key>LightsDetails_Room</key>
+	<string>房間：</string>
+	<key>LightsDetails_SoftwareVersion</key>
+	<string>SW:</string>
+	<key>Lights_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]開始新增燈光。</string>
+	<key>Lights_LightsFound</key>
+	<string>找到 %ld 盞燈光。若要重新命名，請進入應用程式設定中的照明設定。</string>
+	<key>Loading</key>
+	<string>正在載入…</string>
+	<key>LocationSelector_AllLights</key>
+	<string>燈光全開</string>
+	<key>LocationSelector_ComingHome</key>
+	<string>當我抵達時，打開電源</string>
+	<key>LocationSelector_Lights</key>
+	<string>燈光</string>
+	<key>LocationSelector_Lights_SelectLights</key>
+	<string>或者選擇燈光</string>
+	<key>LocationSelector_Rooms</key>
+	<string>房間</string>
+	<key>LocationSelector_Selected</key>
+	<string>%ld 已選取的</string>
+	<key>LocationSelector_Selected2</key>
+	<string>已選取的</string>
+	<key>LocationSelector_Selected_Light</key>
+	<string>1 盞燈光</string>
+	<key>LocationSelector_Selected_Lights</key>
+	<string>%ld 盞燈光</string>
+	<key>LocationSelector_Selected_Room</key>
+	<string>1 間房間</string>
+	<key>LocationSelector_Selected_Rooms</key>
+	<string>%ld 間房間</string>
+	<key>LocationSelector_Selected_Zone</key>
+	<string>1 區</string>
+	<key>LocationSelector_WhatToControl</key>
+	<string>所要控制的</string>
+	<key>LocationSelector_Zones</key>
+	<string>區域</string>
+	<key>LogIn_Benefit1</key>
+	<string>當[b-white]出門在外[/b-white]時，控制您的燈光。</string>
+	<key>LogIn_Benefit2</key>
+	<string>設定好[b-white]回家[/b-white]的日常作息，就再也不用在一片漆黑中踏進家門。</string>
+	<key>LogIn_Benefit3</key>
+	<string>在[b-white]出門[/b-white]時自動關燈。</string>
+	<key>LogIn_Explain</key>
+	<string>戶外控制可存取各種酷炫功能。</string>
+	<key>LogIn_Explain2</key>
+	<string>請注意，一個帳戶僅能使用一個 Hue Bridge。</string>
+	<key>LogIn_LoggedIn</key>
+	<string>[b-green]已啟用[/b-green]</string>
+	<key>LogIn_LoggingIn</key>
+	<string>[b-orange]啟用中[/b-orange]</string>
+	<key>LogIn_NotLoggedIn</key>
+	<string>已停用</string>
+	<key>LogIn_Offline</key>
+	<string>[b-red]離線[/b-red]</string>
+	<key>MessagingPreferences_Explanation</key>
+	<string>如果您不希望在應用程式內收到關於產品、服務或如何充分利用 Hue 系統的提示的訊息，請停用這些選項。</string>
+	<key>MessagingPreferences_ProductsServices</key>
+	<string>產品與服務</string>
+	<key>MessagingPreferences_TipsRecommendations</key>
+	<string>秘訣與建議</string>
+	<key>MessagingPreferences_Title</key>
+	<string>訊息</string>
+	<key>MyHue_DoLater</key>
+	<string>稍後進行</string>
+	<key>MyRoutine_DoNothing</key>
+	<string>不執行任何功能</string>
+	<key>MyRoutine_Sunrise</key>
+	<string>日出時</string>
+	<key>MyRoutine_Sunset</key>
+	<string>日落時</string>
+	<key>MyRoutine_Time</key>
+	<string>在指定的時間</string>
+	<key>MyRoutine_TimeInactive</key>
+	<string>[b-white](閒置中)[/b-white]</string>
+	<key>MyRoutine_WhenStart</key>
+	<string>該項日常作息從幾點開始？</string>
+	<key>My_Home</key>
+	<string>首頁</string>
+	<key>NSCameraUsageDescription</key>
+	<string>需有存取相機的權限，才能從您的相片創造場景。</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>需有存取住家資料的權限，才能使用 Siri 控制燈光。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>選擇"永遠"以使用 Hue Routines。</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>選擇"永遠"以使用 Hue Routines。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>要使用 [日常作息] 功能，需有權限存取您的位置。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>需有存取相片集的權限，才能從您的相片創造場景。</string>
+	<key>NSSiriUsageDescription</key>
+	<string>需有存取 Siri 的權限，才能利用聲控調整燈光。</string>
+	<key>NameChange_Body</key>
+	<string>我們已經改名了！飛利浦照明 (Philips Lighting) 現在叫做 Signify。因此，我們也因應更改了公司的使用條款及隱私權原則。</string>
+	<key>NameChange_Button</key>
+	<string>好的，明白了</string>
+	<key>NameChange_Privacy</key>
+	<string>閱讀隱私保護原則</string>
+	<key>NameChange_Terms</key>
+	<string>閱讀使用條款</string>
+	<key>NameChange_Title</key>
+	<string>已更新使用條款及隱私權聲明。</string>
+	<key>NetworkSettings_DHCP</key>
+	<string>DHCP</string>
+	<key>NetworkSettings_Gateway</key>
+	<string>閘道</string>
+	<key>NetworkSettings_HTTP</key>
+	<string>HTTP-Proxy</string>
+	<key>NetworkSettings_InvalidGateway</key>
+	<string>閘道無效。</string>
+	<key>NetworkSettings_InvalidNetmask</key>
+	<string>網路遮罩無效。</string>
+	<key>NetworkSettings_IpAddress</key>
+	<string>IP 位址</string>
+	<key>NetworkSettings_Netmask</key>
+	<string>網路遮罩</string>
+	<key>NetworkSettings_Port</key>
+	<string>連接埠</string>
+	<key>NetworkSettings_PortRequired</key>
+	<string>需有連接埠。</string>
+	<key>NetworkSettings_Port_Placeholder</key>
+	<string>請輸入連接埠</string>
+	<key>NetworkSettings_Server</key>
+	<string>伺服器</string>
+	<key>NetworkSettings_ServerRequired</key>
+	<string>需有伺服器。</string>
+	<key>NetworkSettings_Server_Placeholder</key>
+	<string>請輸入伺服器</string>
+	<key>NoPermission</key>
+	<string>無權限</string>
+	<key>NoRoomsNoLights_Instruction</key>
+	<string>若要開始設定房間，請點選[b-white]+ 按鈕[/b-white]，先新增一些燈光。</string>
+	<key>NoRoomsWithLights_Instruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]，在房間內新增燈光。</string>
+	<key>Notification_4x1WidgetEmpty</key>
+	<string>請開啟 Hue 應用程式以編輯小工具。</string>
+	<key>Notification_4x1WidgetEmpty_Title</key>
+	<string>小工具未設定房間</string>
+	<key>Notification_AppLimited</key>
+	<string>直到您更新以前，您的應用程式功能會受到限制。</string>
+	<key>Notification_BridgeUpdateProgress</key>
+	<string>Hue Bridge 更新進行中</string>
+	<key>Notification_CleanUpTime</key>
+	<string>清除需要一些時間。在清除完畢之前，請讓應用程式保持開啟。</string>
+	<key>Notification_ConfigureSwitch</key>
+	<string>設定需要一些時間。在設定完畢之前，請讓應用程式保持開啟。</string>
+	<key>Notification_EmptySmartButton</key>
+	<string>您尚未設定 Smart 按鈕。</string>
+	<key>Notification_EmptySmartButton_Button</key>
+	<string>設定</string>
+	<key>Notification_EmptyTimezoneDetected</key>
+	<string>無法自動為您的 Hue 橋接器設定時區。若要繼續建立並啟動日常作息，請手動設定正確的時區。</string>
+	<key>Notification_GoToSleepRecommend</key>
+	<string>為讓您擁有美好的睡眠體驗，我們建議使用 [b-white]Hue White Ambiance[/b-white] 或 [b-white]Hue White and Color Ambiance[/b-white] 燈泡。</string>
+	<key>Notification_MaxWidgetsDisplayed</key>
+	<string>已顯示最多數量的小工具。請調整小工具在儀錶板上的大小，以顯示更多小工具。</string>
+	<key>Notification_MismatchHueHomeKit</key>
+	<string>Hue 應用程式與「家庭」應用程式內的房間不符。是否要更新？</string>
+	<key>Notification_NewBridgeDetected</key>
+	<string>偵測到新的 Hue Bridge。將設定傳送至新的 Hue Bridge。</string>
+	<key>Notification_NewBridgeDetected2</key>
+	<string>偵測到新版的 Hue Bridge。請安裝 Hue Bridge v1 應用程式，以便將您的設定傳送至新的 Hue Bridge。</string>
+	<key>Notification_OneLightOn</key>
+	<string>請至少保留一個燈開啟以儲存場景。</string>
+	<key>Notification_SaveRoomTime</key>
+	<string>儲存需要一些時間。在儲存完畢之前，請讓應用程式保持開啟。</string>
+	<key>Notification_SceneSharingDisabledTitle</key>
+	<string>場景共用</string>
+	<key>Notification_SystemOutOfDate</key>
+	<string>我們改善了 Hue 系統的部分功能。請立即更新，以發揮 Hue 的完整效能。</string>
+	<key>Notification_UpdateHomeKitScenes</key>
+	<string>Hue 與「家庭」應用程式不符。是否要更新？</string>
+	<key>Notification_UserLoggedOut</key>
+	<string>您的安全是我們產品的最高原則。為提升您所使用系統的安全性，我們已將您登出 My Hue。現在請您再次登入，繼續享用外出連線。</string>
+	<key>Notification_UserLoggedOut_Button</key>
+	<string>登入</string>
+	<key>Onboarding_AgreePrivacy</key>
+	<string>並且了解[u]隱私權條件[/u]。</string>
+	<key>Onboarding_AgreeTerms</key>
+	<string>我同意[u]條款與條件[/u]</string>
+	<key>Onboarding_Congratulations</key>
+	<string>恭喜！</string>
+	<key>Onboarding_Connor_Discover</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DiscoverBullet1</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DiscoverBullet2</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DiscoverBullet3</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_Done</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DoneBullet1</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_DoneBullet2</key>
+	<string>Connor</string>
+	<key>Onboarding_Connor_ReadyTo</key>
+	<string>Connor</string>
+	<key>Onboarding_DeclinePortalFlag</key>
+	<string>[u]我不願意協助改進[/u]</string>
+	<key>Onboarding_OverlayLightsNext</key>
+	<string>要繼續進行時，請點選這裡。</string>
+	<key>Onboarding_OverlayLightsNextAndroid</key>
+	<string>要繼續進行時，請點選 [下一步]。</string>
+	<key>Onboarding_OverlayLightsRename</key>
+	<string>請點選該燈具以重新命名。</string>
+	<key>Onboarding_OverlayLigtsPlus</key>
+	<string>請點選[b-white]按鈕[/b-white]新增更多燈光。</string>
+	<key>Onboarding_OverlayRoomsLights</key>
+	<string>請選取此房間內的燈光。</string>
+	<key>Onboarding_OverlayRoomsName</key>
+	<string>請為第一間房間命名。</string>
+	<key>Onboarding_OverlayRoomsPlus</key>
+	<string>請按下按鈕建立另一個房間並分配更多燈光。</string>
+	<key>Onboarding_OverlayRoomsType</key>
+	<string>請為建立中的房間選擇房間類型。</string>
+	<key>Onboarding_PortalFlagMessage</key>
+	<string>請與我們的開發人員及合作夥伴分享您的診斷與使用狀況資料，協助改進 Philips Hue 產品及服務。</string>
+	<key>Onboarding_PortalFlagTitle</key>
+	<string>協助我們改進</string>
+	<key>Onboarding_UpAndRunning</key>
+	<string>您的 Hue 應用程式已設定完畢
+開始運作了！</string>
+	<key>OrSelectRooms</key>
+	<string>或選擇房間</string>
+	<key>PersonalRoutine_EmptyInstruction</key>
+	<string>請點選下方的 [b-white]+ 按鈕[/b-white]建立第一個日常作息。</string>
+	<key>PersonalRoutine_FadeExplain</key>
+	<string>請選擇在您日常作息開始[b-white]之後[/b-white]燈光漸亮或漸暗的持續時間。</string>
+	<key>PersonalRoutine_MyRoutine</key>
+	<string>日常作息</string>
+	<key>PersonalRoutine_Random</key>
+	<string>隨機時間</string>
+	<key>PersonalRoutine_RandomExplanation</key>
+	<string>按照選定次數隨機調整開始與結束時間。</string>
+	<key>PersonalRoutine_RandomOffset</key>
+	<string>調整次數</string>
+	<key>PersonalRoutine_RoomsOff</key>
+	<string>關閉房間時間</string>
+	<key>PersonalRoutine_SelectScene</key>
+	<string>請選擇[b-white]啟用此日常作息[/b-white]時要開啟的場景。</string>
+	<key>PersonalRoutine_What</key>
+	<string>執行什麼動作？</string>
+	<key>PersonalRoutine_When</key>
+	<string>幾點開始？</string>
+	<key>PhotoGallery_Category1</key>
+	<string>季節</string>
+	<key>PhotoGallery_Category2</key>
+	<string>陽光</string>
+	<key>PhotoGallery_Category3</key>
+	<string>日落時分</string>
+	<key>PhotoGallery_Category4</key>
+	<string>城市燈光</string>
+	<key>PhotoGallery_Category5</key>
+	<string>暮色</string>
+	<key>Plus_CurrentLightSettings</key>
+	<string>目前的燈光設定</string>
+	<key>Plus_DefaultScenes</key>
+	<string>預設場景</string>
+	<key>Plus_PictureScene</key>
+	<string>照片場景</string>
+	<key>PopUp_BackWhileSearching</key>
+	<string>仍在搜尋燈光，請稍候。</string>
+	<key>PopUp_EnterSerial</key>
+	<string>輸入 6 個字元</string>
+	<key>PopUp_SceneName</key>
+	<string>新場景名稱</string>
+	<key>PopUp_SceneNameDesc</key>
+	<string>輸入場景名稱</string>
+	<key>PopUp_SiriPermissionText</key>
+	<string>前往「設定」&gt;「Siri 與搜尋」允許 Hue 應用程式存取 Siri 的權限。</string>
+	<key>PopUp_SiriPermissionTitle</key>
+	<string>需有 Siri 的權限:</string>
+	<key>Popup_AbortOnboarding</key>
+	<string>即將停止設定您的 Hue 系統。</string>
+	<key>Popup_DeleteHome</key>
+	<string>此動作會將住家從 HomeKit 設定中移除。</string>
+	<key>Popup_InvalidNameText</key>
+	<string>請提供另一個名稱。</string>
+	<key>Popup_InvalidNameTitle</key>
+	<string>名稱無效</string>
+	<key>Popup_NameTitle</key>
+	<string>名稱</string>
+	<key>Popup_RenameTitle</key>
+	<string>重新命名</string>
+	<key>PowerOnBehavior_BackToDefaultExplanation</key>
+	<string>提示：關閉/打開電源兩次，啟動間請稍待幾秒鐘，迅速開啟明亮白光後，即可恢復為預設的白色狀態。</string>
+	<key>PowerOnBehavior_Custom</key>
+	<string>自訂</string>
+	<key>PowerOnBehavior_Custom_HueWhite</key>
+	<string>Hue White 光線 [b-white]無法設為自訂色彩[/b-white]。請從上面 [b-white]選取亮度設定[/b-white]。</string>
+	<key>PowerOnBehavior_Custom_Subtext</key>
+	<string>選擇色彩與亮度</string>
+	<key>PowerOnBehavior_Explanation</key>
+	<string>運用相關設定，決定在關閉 [b-white] 電源後 (無論是經由開關或是停電)，再次開啟時的照明氛圍 [/b-white]</string>
+	<key>PowerOnBehavior_HueDefault</key>
+	<string>Philips Hue 預設的設定</string>
+	<key>PowerOnBehavior_HueDefault_Subtext</key>
+	<string>溫暖白光、全亮度</string>
+	<key>PowerOnBehavior_NotSupported</key>
+	<string>不支援</string>
+	<key>PowerOnBehavior_PowerFail</key>
+	<string>斷電恢復</string>
+	<key>PowerOnBehavior_PowerFail_Subtext</key>
+	<string>上一次使用的色彩與亮度</string>
+	<key>PowerOnBehavior_SelectForLight</key>
+	<string>為這項照明選擇 [b-white] 電源開啟時的氛圍 [/b-white]。</string>
+	<key>PowerOnBehavior_SelectForSmartPlug</key>
+	<string>為這個 Hue Smart 插頭選擇[b-white]電源開啟時的氛圍[/b-white] 。</string>
+	<key>PowerOnBehavior_SmartPlug_HueDefault</key>
+	<string>Philips Hue 預設的設定</string>
+	<key>PowerOnBehavior_SmartPlug_HueDefault_Subtext</key>
+	<string>開啟</string>
+	<key>PowerOnBehavior_SmartPlug_PowerFail</key>
+	<string>斷電恢復</string>
+	<key>PowerOnBehavior_SmartPlug_PowerFail_Subtext</key>
+	<string>上一次使用過後的開或關狀態</string>
+	<key>ProductName_BeyondDown</key>
+	<string>Hue beyond down</string>
+	<key>ProductName_BeyondUp</key>
+	<string>Hue beyond up</string>
+	<key>ProductName_Bridge</key>
+	<string>Hue Bridge</string>
+	<key>ProductName_Dimmer</key>
+	<string>Hue 調光開關</string>
+	<key>ProductName_EntityDown</key>
+	<string>Hue entity down</string>
+	<key>ProductName_EntityUp</key>
+	<string>Hue entity up</string>
+	<key>ProductName_ImpulseDown</key>
+	<string>Hue impulse down</string>
+	<key>ProductName_ImpulseUp</key>
+	<string>Hue impulse up</string>
+	<key>ProductName_MotionSensor</key>
+	<string>Hue 動作感測器</string>
+	<key>ProductName_Phoenix</key>
+	<string>Hue phoenix</string>
+	<key>ProductName_PhoenixDown</key>
+	<string>Hue phoenix down</string>
+	<key>ProductName_PhoenixUp</key>
+	<string>Hue phoenix up</string>
+	<key>ProductName_SmartButton</key>
+	<string>Hue Smart 按鈕</string>
+	<key>ProductName_SmartPlug</key>
+	<string>Hue Smart 插頭</string>
+	<key>ProductName_Tap</key>
+	<string>Hue Tap switch</string>
+	<key>ReconnectTap_Instruction</key>
+	<string>若要重新連線 Hue 無線智慧開關，請緊按 Hue 無線智慧開關的[b-white]按鈕 %@[/b-white] 10 秒鐘再放開，接著請再按一下按鈕確認開關有效。</string>
+	<key>Restore_Where</key>
+	<string>選擇要控制的房間。</string>
+	<key>RoomSetup_NewRoom</key>
+	<string>新房間</string>
+	<key>RoomType_Bathroom</key>
+	<string>浴室</string>
+	<key>RoomType_Bedroom</key>
+	<string>臥室</string>
+	<key>RoomType_Carport</key>
+	<string>車棚</string>
+	<key>RoomType_Dining</key>
+	<string>餐廳</string>
+	<key>RoomType_Driveway</key>
+	<string>車道</string>
+	<key>RoomType_FrontDoor</key>
+	<string>正門</string>
+	<key>RoomType_Garage</key>
+	<string>車庫</string>
+	<key>RoomType_Garden</key>
+	<string>花園</string>
+	<key>RoomType_Gym</key>
+	<string>健身房</string>
+	<key>RoomType_Hallway</key>
+	<string>走道</string>
+	<key>RoomType_KidsBedroom</key>
+	<string>兒童房</string>
+	<key>RoomType_Kitchen</key>
+	<string>廚房</string>
+	<key>RoomType_LivingRoom</key>
+	<string>客廳</string>
+	<key>RoomType_Nursery</key>
+	<string>育嬰室</string>
+	<key>RoomType_Office</key>
+	<string>辦公室</string>
+	<key>RoomType_Other</key>
+	<string>其他</string>
+	<key>RoomType_Recreation</key>
+	<string>遊戲房</string>
+	<key>RoomType_Terrace</key>
+	<string>陽台</string>
+	<key>RoomType_Toilet</key>
+	<string>廁所</string>
+	<key>RoomZoneSetup_Icon</key>
+	<string>圖示</string>
+	<key>Room_Unknown_Name</key>
+	<string>未知的房間</string>
+	<key>RoomsDetails_AddDefaultScenes</key>
+	<string>新增預設場景</string>
+	<key>RoomsDetails_DeleteWarning</key>
+	<string>此房間經刪除後，即無法繼續控制。</string>
+	<key>RoomsDetails_LightSelection</key>
+	<string>燈光選項</string>
+	<key>RoomsDetails_MultipleLights</key>
+	<string>%ld 盞 Hue 燈</string>
+	<key>RoomsDetails_NoLights</key>
+	<string>房間沒有燈光</string>
+	<key>RoomsDetails_NumberOfLights</key>
+	<string>燈光數：</string>
+	<key>RoomsDetails_OneLight</key>
+	<string>1 盞 Hue 燈</string>
+	<key>RoomsDetails_RoomType</key>
+	<string>圖示</string>
+	<key>RoomsDetails_RoomType_Colon</key>
+	<string>房間類型：</string>
+	<key>RoomsSelection_NoRooms</key>
+	<string>尚未建立房間。</string>
+	<key>Rooms_AS_NewRoom</key>
+	<string>建立新房間</string>
+	<key>Rooms_AllOff</key>
+	<string>所有燈光已關閉</string>
+	<key>Rooms_AllOn</key>
+	<string>所有燈光已開啟</string>
+	<key>Rooms_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]建立第一間房間。</string>
+	<key>Rooms_OneOn</key>
+	<string>已開啟 1 盞燈具</string>
+	<key>Rooms_PartlyOn</key>
+	<string>%@ 燈光已開啟</string>
+	<key>Rooms_UnassignedLights</key>
+	<string>未分配的燈光
+</string>
+	<key>Routines_DeleteConfirmation</key>
+	<string>將會刪除此日常作息。</string>
+	<key>Routines_EveryDay</key>
+	<string>每天</string>
+	<key>Routines_Fade</key>
+	<string>消失</string>
+	<key>Routines_FadeIn</key>
+	<string>漸亮</string>
+	<key>Routines_FadeOut</key>
+	<string>漸暗</string>
+	<key>Routines_Instant</key>
+	<string>立即</string>
+	<key>Routines_Lights</key>
+	<string>燈光</string>
+	<key>Routines_LocationAccess</key>
+	<string>住家位置</string>
+	<key>Routines_Weekdays</key>
+	<string>平日</string>
+	<key>Routines_Weekends</key>
+	<string>週末</string>
+	<key>SartScreen_PhilipsHue</key>
+	<string>Philips Hue</string>
+	<key>SceneCard_EnterName</key>
+	<string>點選輸入名稱</string>
+	<key>SceneEdit_ChangeImage</key>
+	<string>變更</string>
+	<key>SceneEdit_RemoveImage</key>
+	<string>移除</string>
+	<key>Scene_Aurora</key>
+	<string>北極極光</string>
+	<key>Scene_Autumn</key>
+	<string>秋季金黃</string>
+	<key>Scene_Blood</key>
+	<string>血月</string>
+	<key>Scene_Blossom</key>
+	<string>春花爛漫</string>
+	<key>Scene_Blue</key>
+	<string>藍潟湖</string>
+	<key>Scene_Bright</key>
+	<string>明亮</string>
+	<key>Scene_Chinatown</key>
+	<string>中國城</string>
+	<key>Scene_Concentrate</key>
+	<string>專注精神</string>
+	<key>Scene_DeleteConfirmation</key>
+	<string>如此將會刪除該場景。</string>
+	<key>Scene_Dimmed</key>
+	<string>調光</string>
+	<key>Scene_Emerald</key>
+	<string>翡翠島</string>
+	<key>Scene_Energize</key>
+	<string>活力充沛</string>
+	<key>Scene_Fairfax</key>
+	<string>費爾法克斯</string>
+	<key>Scene_Galaxy</key>
+	<string>銀河</string>
+	<key>Scene_Golden</key>
+	<string>金色池塘</string>
+	<key>Scene_Green</key>
+	<string>青翠茶葉</string>
+	<key>Scene_Honolulu</key>
+	<string>檀香山</string>
+	<key>Scene_Ibiza</key>
+	<string>伊比薩島</string>
+	<key>Scene_Lake</key>
+	<string>湖光薄霧</string>
+	<key>Scene_LakePlacid</key>
+	<string>寧靜湖</string>
+	<key>Scene_Midwinter</key>
+	<string>仲冬</string>
+	<key>Scene_Misty</key>
+	<string>週日早晨</string>
+	<key>Scene_Moonlight</key>
+	<string>月光</string>
+	<key>Scene_Motown</key>
+	<string>摩城</string>
+	<key>Scene_Mountain</key>
+	<string>山間微風</string>
+	<key>Scene_Nebula</key>
+	<string>星雲</string>
+	<key>Scene_Nightlight</key>
+	<string>夜燈</string>
+	<key>Scene_Ocean</key>
+	<string>海洋曙光</string>
+	<key>Scene_Osaka</key>
+	<string>大阪</string>
+	<key>Scene_Palm</key>
+	<string>棕櫚海灘</string>
+	<key>Scene_Reading</key>
+	<string>閱讀</string>
+	<key>Scene_Relax</key>
+	<string>放鬆休息</string>
+	<key>Scene_Ruby</key>
+	<string>紅寶石光線</string>
+	<key>Scene_Soho</key>
+	<string>蘇活</string>
+	<key>Scene_Spring</key>
+	<string>春季湖泊</string>
+	<key>Scene_Starlight</key>
+	<string>星光</string>
+	<key>Scene_Summer</key>
+	<string>嚴寒的黎明</string>
+	<key>Scene_SummerDawn</key>
+	<string>艷陽高照</string>
+	<key>Scene_Sundowner</key>
+	<string>暮後小酌</string>
+	<key>Scene_Sunset</key>
+	<string>大草原夕陽</string>
+	<key>Scene_Tokyo</key>
+	<string>東京</string>
+	<key>Scene_Turquoise</key>
+	<string>藍綠海灣</string>
+	<key>Scene_Twilight</key>
+	<string>熱帶暮色</string>
+	<key>Scene_Winter</key>
+	<string>凜冬之山</string>
+	<key>Scenes_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]開始建立場景。</string>
+	<key>SearchBridges_MultipleNewBridgesFound</key>
+	<string>找到 %@ 台新的 Hue Bridge</string>
+	<key>SearchBridges_NoBridgeFound</key>
+	<string>找不到新的 Hue Bridge</string>
+	<key>SearchBridges_OneBridgeFound</key>
+	<string>找到 1 台新的 Hue Bridge</string>
+	<key>SearchBridges_SearchingOneBridgeText</key>
+	<string>正在搜尋 Hue Bridge...</string>
+	<key>SearchBridges_SearchingText</key>
+	<string>正在搜尋 Hue Bridge...</string>
+	<key>SearchControls_MultipleAdditionalLightsFound</key>
+	<string>+ %ld 盞燈光</string>
+	<key>SearchControls_MultipleControlsFound</key>
+	<string>找到 %ld 個新配件</string>
+	<key>SearchControls_NoControlsFound</key>
+	<string>找不到新配件</string>
+	<key>SearchControls_OneAdditionalLightFound</key>
+	<string>+ 1 盞燈光</string>
+	<key>SearchControls_OneControlFound</key>
+	<string>找到 1 個新配件</string>
+	<key>SearchControls_SearchingForControls</key>
+	<string>正在搜尋配件...</string>
+	<key>SearchDevices_LightsAndSmartPlugsFound</key>
+	<string>已找到%ld 裝置。請記住只將您的 Hue Smart 插頭用於燈具。</string>
+	<key>SearchDevices_MultipleSmartPlugsFound</key>
+	<string>%ld已找到數個全新的智慧插頭。請記住只將您的 Hue Smart 插頭用於燈具。</string>
+	<key>SearchDevices_NoDevicesFound</key>
+	<string>找不到新的裝置</string>
+	<key>SearchDevices_OneSmartPlugFound</key>
+	<string>已找到一個全新的智慧插頭。請記住只將您的 Hue Smart 插頭用於燈具。</string>
+	<key>SearchDevices_Searching</key>
+	<string>正在搜尋裝置中...</string>
+	<key>SearchLights_MultipleAdditionalSwitchesFound</key>
+	<string>+ %ld 個配件</string>
+	<key>SearchLights_MultipleLightsFound</key>
+	<string>找到 %ld 盞新的燈光</string>
+	<key>SearchLights_NoLightsFound</key>
+	<string>找不到新的燈光</string>
+	<key>SearchLights_OneAdditionalSwitchFound</key>
+	<string>+ 1 個配件</string>
+	<key>SearchLights_OneLightFound</key>
+	<string>找到 1 盞新的燈光</string>
+	<key>SearchLights_SearchingForLights</key>
+	<string>正在搜尋燈光...</string>
+	<key>SearchSensor_SearchingForSensor</key>
+	<string>正在搜尋感測器...</string>
+	<key>SelectIcon_NoIcon</key>
+	<string>無</string>
+	<key>SelectRooms</key>
+	<string>選擇房間</string>
+	<key>SelectScene</key>
+	<string>選擇場景</string>
+	<key>SelectScene_Defaults</key>
+	<string>預設值</string>
+	<key>SelectScene_LightRecipes</key>
+	<string>燈光主題</string>
+	<key>Select_AllLights</key>
+	<string>燈光全開</string>
+	<key>Select_MultipleRooms</key>
+	<string>%ld 間房間</string>
+	<key>Select_MultpleLights</key>
+	<string>%ld 盞燈光</string>
+	<key>Select_OneLight</key>
+	<string>1 盞燈光</string>
+	<key>Select_OneRoom</key>
+	<string>1 間房間</string>
+	<key>Sensor_DaylightSensitivity</key>
+	<string>日光敏感度</string>
+	<key>Sensor_Daytime</key>
+	<string>日</string>
+	<key>Sensor_DoesNotTrigger</key>
+	<string>依據目前房間內測到的日光，動作將[b-red]不會觸發[/b-red]燈光。</string>
+	<key>Sensor_DoesTrigger</key>
+	<string>依據目前房間內測到的日光，動作將[b-green]觸發[/b-green]燈光。</string>
+	<key>Sensor_Inactive</key>
+	<string>非使用中</string>
+	<key>Sensor_LightLevel</key>
+	<string>照明亮度</string>
+	<key>Sensor_Motion</key>
+	<string>動作</string>
+	<key>Sensor_MotionSensitivity</key>
+	<string>動作敏感度</string>
+	<key>Sensor_MotionSensitivity_ChangeSettings</key>
+	<string>[b-white]變更[/b-white]設定</string>
+	<key>Sensor_MotionSensitivity_EnterTestMode</key>
+	<string>正在開始…</string>
+	<key>Sensor_MotionSensitivity_Explanation</key>
+	<string>螢幕開啟時，您可看著感測器上的 LED 測試整偵測範圍。</string>
+	<key>Sensor_MotionSensitivity_High</key>
+	<string>強</string>
+	<key>Sensor_MotionSensitivity_Low</key>
+	<string>暗</string>
+	<key>Sensor_MotionSensitivity_Medium</key>
+	<string>中</string>
+	<key>Sensor_MotionSensitivity_MotionDetected</key>
+	<string>[b-green]偵測到[/b-green]動作！</string>
+	<key>Sensor_MotionSensitivity_NoMotionDetected</key>
+	<string>未偵測到動作</string>
+	<key>Sensor_Nighttime</key>
+	<string>夜</string>
+	<key>Sensor_NotConfigured</key>
+	<string>[b-red]未設定[/b-red]</string>
+	<key>Sensor_PresenceDeteced</key>
+	<string>偵測到動作</string>
+	<key>Sensor_RenameBlinking</key>
+	<string>感測器上的 LED 將閃爍。</string>
+	<key>Sensor_SelectSceneDay</key>
+	<string>請選擇[b-white]白天[/b-white]偵測到動作時要啟動的場景。</string>
+	<key>Sensor_SelectSceneNight</key>
+	<string>請選擇[b-white]晚上[/b-white]偵測到動作時要啟動的場景。</string>
+	<key>Sensor_SensorName</key>
+	<string>%@ 感測器</string>
+	<key>Sensor_SufficientDaylight</key>
+	<string>日光充足</string>
+	<key>Sensor_Temperature</key>
+	<string>溫度:</string>
+	<key>Sensor_TurnOff_Explanation</key>
+	<string>選擇沒有動作時應執行的動作。光線會先 [b-white]變暗[/b-white]，然後關閉。</string>
+	<key>Sensor_WebHelp</key>
+	<string>如需更多放置及使用感測器的秘訣與技巧，請造訪 [b-white]meethue.com/motionsensor[/b-white]。</string>
+	<key>Sensor_WhenMotion</key>
+	<string>偵測到動作時</string>
+	<key>Sensor_WhenNoMotion</key>
+	<string>無動作時</string>
+	<key>Service_Running</key>
+	<string>啟動場景中...</string>
+	<key>Settings_AccessorySetup_Subtext</key>
+	<string>設定感測器與開關</string>
+	<key>Settings_Advanced</key>
+	<string>進階</string>
+	<key>Settings_Advanced_HomeLocation</key>
+	<string>住家位置</string>
+	<key>Settings_Advanced_MessagingPreferences</key>
+	<string>訊息偏好設定</string>
+	<key>Settings_Advanced_Subtext</key>
+	<string>地點、太陽日出日落時間、訊息</string>
+	<key>Settings_Advanced_SunriseSunsetOffset</key>
+	<string>日落與日出</string>
+	<key>Settings_App</key>
+	<string>應用程式</string>
+	<key>Settings_Automation</key>
+	<string>iOS 自動化功能</string>
+	<key>Settings_ConnorSetup</key>
+	<string>休閒娛樂區</string>
+	<key>Settings_EntertainmentSetup_Subtext</key>
+	<string>設置娛樂用燈光</string>
+	<key>Settings_LightSetup_Subtext</key>
+	<string>新增燈光或變更名稱</string>
+	<key>Settings_PowerOnBehavior</key>
+	<string>電源開啟時的氛圍</string>
+	<key>Settings_PowerOnBehavior_Subtext</key>
+	<string>電源開啟時的照明氛圍</string>
+	<key>Settings_RoomSetup_Subtext</key>
+	<string>管理房間並分配燈光</string>
+	<key>Settings_RoomZoneSetup</key>
+	<string>房間 &amp; 區域</string>
+	<key>Settings_RoomZoneSetupSubtext</key>
+	<string>居家分區&amp;分配燈光</string>
+	<key>Settings_SoftwareUpdate</key>
+	<string>軟體更新</string>
+	<key>Settings_YourHome</key>
+	<string>您的居家</string>
+	<key>Sheet_ConfigurePowerOnBehavior</key>
+	<string>設定電源開啟時的氛圍</string>
+	<key>Sheet_EditLights</key>
+	<string>新增燈光或編輯名稱</string>
+	<key>Sheet_EditRoom</key>
+	<string>編輯房間或移動燈光</string>
+	<key>Sheet_EditZone</key>
+	<string>編輯區域或移動燈光</string>
+	<key>Sheet_Swap</key>
+	<string>切換房間 &amp; 區域</string>
+	<key>SiriShortcuts_Add</key>
+	<string>加入 Siri 中</string>
+	<key>SmartButton_ButtonPressed</key>
+	<string>已按下按鈕</string>
+	<key>SmartPlugDetails_DeleteWarning</key>
+	<string>刪除此 Hue Smart 插頭後，該裝置就不再供您控制。</string>
+	<key>SmartPlug_Warning</key>
+	<string>警告：Hue Smart 插頭僅限於燈具用使。
+
+切勿將插頭插至高電壓器具內，可能損壞插頭。</string>
+	<key>SoftareUpdate_NotificationAnyReady</key>
+	<string>有 Hue 系統可用的更新。
+
+但是，因為您的部分燈泡因為無法連線，所以尚未下載更新。請確認您的所有燈光電源開啟且您的 Hue Bridge 已經連接至家用 Wi-Fi 網路。</string>
+	<key>SoftareUpdate_NotificationTransferring</key>
+	<string>為您的 Hue 系統下載更新時出現錯誤。
+
+請確認您的所有燈光電源開啟且您的 Hue Bridge 已經連接至家用 Wi-Fi 網路。確認完畢請再試一次。</string>
+	<key>SoftwareUpdate_AgreePrivacy</key>
+	<string>並且了解[u]隱私權條件[/u]。</string>
+	<key>SoftwareUpdate_AgreeTerms</key>
+	<string>我同意[u]條款與條件[/u]</string>
+	<key>SoftwareUpdate_AutomaticUpdates</key>
+	<string>自動更新</string>
+	<key>SoftwareUpdate_BatteryLow</key>
+	<string>電力不足</string>
+	<key>SoftwareUpdate_CheckForUpdate</key>
+	<string>查看更新</string>
+	<key>SoftwareUpdate_Checking</key>
+	<string>[b-white]正在檢查[/b-white] 更新…</string>
+	<key>SoftwareUpdate_CheckingFailed</key>
+	<string>檢查更新 [b-white]失敗[/b-white]</string>
+	<key>SoftwareUpdate_CheckingForUpdate</key>
+	<string>檢查更新</string>
+	<key>SoftwareUpdate_DevicesInstruction</key>
+	<string>請確認您的所有燈光皆已[b-white]開啟[/b-white]，以便更新至最新版。每件燈泡或配件下載更新最久需 1 小時，燈光在更新過程中可能會短暫關閉。</string>
+	<key>SoftwareUpdate_Downloading</key>
+	<string>正在下載…</string>
+	<key>SoftwareUpdate_DownloadingUpdate</key>
+	<string>下載更新</string>
+	<key>SoftwareUpdate_FlagFalse</key>
+	<string>為了提升您的使用經驗，您將定期收到 Hue Bridge、燈光與配件的更新。
+
+若要更新燈光與配件，需要接受「條款與條件」。</string>
+	<key>SoftwareUpdate_InstallUpdate</key>
+	<string>安裝更新</string>
+	<key>SoftwareUpdate_InstallingUpdate</key>
+	<string>Installing update %ld/%ld
+</string>
+	<key>SoftwareUpdate_InstallingUpdateSubtext</key>
+	<string>安裝更新</string>
+	<key>SoftwareUpdate_LastUpdated</key>
+	<string>上次更新日期： %@</string>
+	<key>SoftwareUpdate_LocalText</key>
+	<string>Hue Bridge 有更新可供使用，此應用程式需要該更新才能正常運作。安裝時，您的系統可能會暫時沒有回應。
+
+請不要關閉燈光與 Hue bridge 的電源。
+
+[b-white] 注意：[/b-white] 如果您延遲這項更新，您的應用程式功能會受到限制。</string>
+	<key>SoftwareUpdate_MandatoryUpdate</key>
+	<string>Hue Bridge 有更新可供使用，此應用程式需要該更新才能正常運作。安裝時，您的系統可能會暫時沒有回應。
+
+請不要關閉燈光與 Hue bridge 的電源。
+
+[b-white]注意：[/b-white]如果您延遲這項更新，您的應用程式功能會受到限制。</string>
+	<key>SoftwareUpdate_NoInternetConnection</key>
+	<string>Hue Bridge 無法 [b-white]沒有網際網路連線[/b-white]。請稍後再試一次。</string>
+	<key>SoftwareUpdate_NoUpdatesAvailable</key>
+	<string>[b-white]無[/b-white] 可用的更新。</string>
+	<key>SoftwareUpdate_NonMandatoryUpdate</key>
+	<string>有 Hue 系統更新可供使用。為了確保您的 Hue 系統運作流暢，我們建議您立即更新。</string>
+	<key>SoftwareUpdate_NotUpdatable</key>
+	<string>無法更新</string>
+	<key>SoftwareUpdate_NotUpdatedYet</key>
+	<string>尚未更新</string>
+	<key>SoftwareUpdate_OnlyBridgeUpdated</key>
+	<string>[u]僅更新 Hue Bridge[/u]</string>
+	<key>SoftwareUpdate_PowerAllLights</key>
+	<string>為確保燈光系統更新成功，請確認所有燈光[b-white]電源已開啟[/b-white]。</string>
+	<key>SoftwareUpdate_ReadyToInstall</key>
+	<string>立即可裝</string>
+	<key>SoftwareUpdate_ReadyToUpdate</key>
+	<string>立即更新</string>
+	<key>SoftwareUpdate_ReleaseNotes</key>
+	<string>版次聲明</string>
+	<key>SoftwareUpdate_RemoteText</key>
+	<string>Hue Bridge 有更新可供使用，此應用程式需要該更新才能正常運作。安裝時，您的系統可能會暫時沒有回應。
+
+請不要關閉燈光與 Hue bridge 的電源。
+
+[b-white] 注意：[/b-white] 如果您延遲這項更新，您的應用程式功能會受到限制。</string>
+	<key>SoftwareUpdate_ReplaceBattery</key>
+	<string>替換電池</string>
+	<key>SoftwareUpdate_SoftWareUpdateTitle</key>
+	<string>軟體更新</string>
+	<key>SoftwareUpdate_SoftwareOutOfDate</key>
+	<string>您的軟體 [b-white]需要更新[/b-white]。</string>
+	<key>SoftwareUpdate_SoftwareUpToDate</key>
+	<string>您的軟體[b-white]為最新[/b-white]。</string>
+	<key>SoftwareUpdate_TryAgain</key>
+	<string>更新失敗</string>
+	<key>SoftwareUpdate_UpToDate</key>
+	<string>最新狀態</string>
+	<key>SoftwareUpdate_UpdateAvailableFlagFalse</key>
+	<string>Hue Bridge 有更新可供使用。安裝時，您的系統可能會暫時沒有回應。
+
+請不要關閉燈光與 Hue Bridge 的電源。
+
+若要更新燈光與配件，需要接受「條款與條件」。</string>
+	<key>SoftwareUpdate_UpdateAvailableFlagTrue</key>
+	<string>Hue Bridge 有更新可供使用。安裝時，您的系統可能會暫時沒有回應。
+
+請不要關閉燈光與 Hue Bridge 的電源。</string>
+	<key>SoftwareUpdate_UpdateDone</key>
+	<string>更新完成</string>
+	<key>SoftwareUpdate_UpdateInformation</key>
+	<string>更新資訊</string>
+	<key>SoftwareUpdate_UpdatesAvailable</key>
+	<string>有 %ld 項更新</string>
+	<key>SoftwareUpdate_UpdatesDownloading</key>
+	<string>[b-white]正在下載[/b-white]更新…</string>
+	<key>SoftwareUpdate_UpdatesDownloadingLong</key>
+	<string>[b-white]正在下載[/b-white] 更新。 這需要一些時間。 請稍後再造訪，以更新您的 Hue 系統。</string>
+	<key>SoftwareUpdate_Updating</key>
+	<string>正在更新…</string>
+	<key>StartScreen_InstructionBridgeV1</key>
+	<string>透過隨附的纜線為您的 Hue Bridge 提供電源並連接至 WiFi 路由器，即可開始使用。如果此裝置位於相同的 WiFi 網路上，我們將會自動找到您的 Hue Bridge。</string>
+	<key>StartScreen_InstructionBridgeV2</key>
+	<string>透過隨附的纜線為您的 Hue Bridge 提供電源並連接至 WiFi 路由器，即可開始使用。如果此裝置位於相同的 WiFi 網路上，我們將會自動找到您的 Hue Bridge。</string>
+	<key>StartScreen_WelcomeTo</key>
+	<string>歡迎使用</string>
+	<key>Subheader_AdvancedSettings</key>
+	<string>進階設定</string>
+	<key>Subheader_HomeCurrentBridge</key>
+	<string>目前 Hue Bridge 的住家</string>
+	<key>Subheader_LightSettings</key>
+	<string>Hue 燈設定</string>
+	<key>Subheader_OtherHome</key>
+	<string>其他住家</string>
+	<key>Subheader_WithLightSettings</key>
+	<string>使用 Hue 燈</string>
+	<key>Subheader_WithoutLightSettings</key>
+	<string>不使用 Hue 燈</string>
+	<key>Subheader_YourRoom</key>
+	<string>您的房間</string>
+	<key>Subheader_YourZones</key>
+	<string>您的區域</string>
+	<key>Sunrise</key>
+	<string>日出</string>
+	<key>SunriseSunsetOffset_Explanation</key>
+	<string>如果您注意到日落或日出時間[b-white]太早或太晚開始[/b-white]，您可以微調啟動時間偏移。</string>
+	<key>Sunrise_StartAfter</key>
+	<string>日出之後</string>
+	<key>Sunrise_StartAfter_Explanation</key>
+	<string>您想在日出後[b-white]多久[/b-white]啟動您的日出作息呢？</string>
+	<key>Sunset</key>
+	<string>夕陽</string>
+	<key>SunsetSunrise_LocationExplanation</key>
+	<string>需要取得您的[b-white]位置[/b-white]，以設定日落與日出的正確時間，以及[b-white]判斷您是否在家[/b-white]。</string>
+	<key>Sunset_StartBefore</key>
+	<string>日落之前</string>
+	<key>Sunset_StartBefore_Explanation</key>
+	<string>您想在日落前[b-white]多久[/b-white]啟動您的日落作息呢？</string>
+	<key>Switch_SwitchName</key>
+	<string>%@ switch</string>
+	<key>Switches</key>
+	<string>開關</string>
+	<key>Switches_ButtonsNotConfigured</key>
+	<string>%ld 按鈕[b-red]未設定[/b-red]。</string>
+	<key>TabBar_Hue</key>
+	<string>盡情探索</string>
+	<key>TabBar_Lights</key>
+	<string>燈光</string>
+	<key>TabBar_Rooms</key>
+	<string>首頁</string>
+	<key>TabBar_Routines</key>
+	<string>日常作息</string>
+	<key>TabBar_Scenes</key>
+	<string>場景</string>
+	<key>TabBar_Settings</key>
+	<string>設定</string>
+	<key>Tap_ButtonNotConfigured</key>
+	<string>%@ 按鈕[b-red]未設定[/b-red]。</string>
+	<key>TimeStamp_Ago</key>
+	<string>%ld %@ 之前</string>
+	<key>TimeStamp_Ago_Only</key>
+	<string>之前</string>
+	<key>TimeStamp_Day</key>
+	<string>天</string>
+	<key>TimeStamp_Days</key>
+	<string>天</string>
+	<key>TimeStamp_Hour</key>
+	<string>小時</string>
+	<key>TimeStamp_Hours</key>
+	<string>小時</string>
+	<key>TimeStamp_JustNow</key>
+	<string>就在剛才</string>
+	<key>TimeStamp_Minute</key>
+	<string>分鐘</string>
+	<key>TimeStamp_Minutes</key>
+	<string>分鐘</string>
+	<key>TimeStamp_Month</key>
+	<string>月</string>
+	<key>TimeStamp_Months</key>
+	<string>月</string>
+	<key>TimeStamp_Now</key>
+	<string>現在</string>
+	<key>TimeStamp_Second</key>
+	<string>秒</string>
+	<key>TimeStamp_Seconds</key>
+	<string>秒</string>
+	<key>TimeStamp_Week</key>
+	<string>週</string>
+	<key>TimeStamp_Weeks</key>
+	<string>週</string>
+	<key>TimeStamp_Year</key>
+	<string>年</string>
+	<key>TimeStamp_Years</key>
+	<string>年</string>
+	<key>TimeStamp_Yesterday</key>
+	<string>昨天</string>
+	<key>Timer_1Hour1Minute</key>
+	<string>1 小時 1 分鐘</string>
+	<key>Timer_1HourMinutes</key>
+	<string>1 小時 %@ 分鐘</string>
+	<key>Timer_1Minute</key>
+	<string>1 分鐘</string>
+	<key>Timer_EmptyInstruction</key>
+	<string>請點選[b-white]+ 按鈕[/b-white] 建立第一個計時器。</string>
+	<key>Timer_Hours1Minute</key>
+	<string>%@ 小時 1 分鐘</string>
+	<key>Timer_HoursMinutes</key>
+	<string>%@ 小時 %@ 分鐘</string>
+	<key>Timer_LessMinute</key>
+	<string>短於 1 分鐘</string>
+	<key>Timer_Minutes</key>
+	<string>%@ 分鐘</string>
+	<key>Timers_BlinkLights</key>
+	<string>閃爍燈光</string>
+	<key>Timers_Effects</key>
+	<string>影響</string>
+	<key>Timers_SelectWhat</key>
+	<string>請點選[b-white]計時器結束時[/b-white]應開啟的效果或場景。</string>
+	<key>Timers_Start</key>
+	<string>開始</string>
+	<key>Timers_Stop</key>
+	<string>結束</string>
+	<key>Timers_Timer</key>
+	<string>計時器</string>
+	<key>Timers_What</key>
+	<string>執行什麼動作？</string>
+	<key>Timers_When</key>
+	<string>計時器時間多長？</string>
+	<key>Toast_1x1WidgetEmpty</key>
+	<string>小工具未設定房間。請刪除小工具。</string>
+	<key>Toast_NotCurrentBridge</key>
+	<string>您目前連線到與此項小工具所建立之 Hue Bridge 不同的其他 Hue Bridge。</string>
+	<key>Tooltip_SceneEditShuffle</key>
+	<string>點選並以手勢操作縮放圖片。此方式可以調整燈光。快來試試！</string>
+	<key>Tooltip_TryColorPicking</key>
+	<string>您也可以從「照明」分頁中[b-white]調整個別照明[/b-white]。</string>
+	<key>Tooltip_UseColorPicker_Android</key>
+	<string>[b-white]點選[/b-white]以調整[b-white]個別照明[/b-white]。</string>
+	<key>Tooltip_UseColorPicker_IOS</key>
+	<string>[b-white]點選或拖曳[/b-white]以調整[b-white]個別照明[/b-white]。</string>
+	<key>Tooltip_WellDone</key>
+	<string>[b-white]太好了！[/b-white]</string>
+	<key>TurnOff</key>
+	<string>關閉</string>
+	<key>TurnOn</key>
+	<string>開啟</string>
+	<key>TurnOn_Bold</key>
+	<string>[b-white]開啟[/b-white]</string>
+	<key>Unknown</key>
+	<string>未知</string>
+	<key>UpdateAvailable_Success</key>
+	<string>已[b-green]成功[/b-green]安裝更新。做得好！</string>
+	<key>UpdateAvailable_Updating</key>
+	<string>正在更新 Hue Bridge…</string>
+	<key>Visit_Meethue</key>
+	<string>[u]請造訪 Meethue.com[/u]</string>
+	<key>WakeUp_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]建立第一個喚醒的日常作息。</string>
+	<key>WakeUp_FadeExplain</key>
+	<string>請選擇在您喚醒[b-white]之前[/b-white]燈光漸亮的持續時間。</string>
+	<key>WakeUp_Fresh</key>
+	<string>新鮮</string>
+	<key>WakeUp_FreshDescription</key>
+	<string>燈光讓您精神抖擻地展開一天。</string>
+	<key>WakeUp_How</key>
+	<string>您想要以什麼方式喚醒？</string>
+	<key>WakeUp_LightsOff</key>
+	<string>關閉燈光時間</string>
+	<key>WakeUp_NoRecommendedExplain</key>
+	<string>無任何可提供您[b-white]最佳[/b-white]喚醒效果的燈光。</string>
+	<key>WakeUp_NotRecommended</key>
+	<string>不推薦</string>
+	<key>WakeUp_NotRecommendedExplain</key>
+	<string>下列燈光[b-white]並非最適合[/b-white]提供最佳喚醒效果。</string>
+	<key>WakeUp_Recommended</key>
+	<string>推薦</string>
+	<key>WakeUp_RecommendedExplain</key>
+	<string>以下列出的燈光可提供您[b-white]最佳[/b-white]喚醒效果。</string>
+	<key>WakeUp_Relax</key>
+	<string>放鬆</string>
+	<key>WakeUp_RelaxDescription</key>
+	<string>輕柔地喚醒您，舒適地展開一天。</string>
+	<key>WakeUp_SelectHow</key>
+	<string>請選擇您想要[b-white]喚醒[/b-white]的方式。</string>
+	<key>WakeUp_SelectLights</key>
+	<string>請選擇喚醒時要[b-white]開啟[/b-white]的燈光。</string>
+	<key>WakeUp_When</key>
+	<string>您想要何時喚醒？</string>
+	<key>WakeUp_Where</key>
+	<string>您想要在哪裡喚醒？</string>
+	<key>WarningBanner_BatteryOptimisationGeofencing</key>
+	<string>在裝置處於省電模式時，「在家與外出」功能將無法正常運作。請點選按鈕，將 Hue 應用程式加入省電模式的例外清單，以確保應用程式可正常運作。</string>
+	<key>WarningBanner_BatteryOptimisationWidgets</key>
+	<string>在裝置處於省電模式時，小工具將無法正常運作。請點選按鈕，將 Hue 應用程式加入省電模式的例外清單，以確保應用程式可正常運作。</string>
+	<key>What</key>
+	<string>燈光動作</string>
+	<key>When</key>
+	<string>什麼時間？</string>
+	<key>Where</key>
+	<string>開關燈位置</string>
+	<key>Where_Bold</key>
+	<string>開關燈位置</string>
+	<key>Where_LimitExplanation</key>
+	<string>為確保照明系統能快速回應，最多可選擇 [b-white]%ld 間房間[/b-white]。</string>
+	<key>Widget_Large</key>
+	<string>Hue 大型</string>
+	<key>Widget_Small</key>
+	<string>Hue 小型</string>
+	<key>Widgets</key>
+	<string>小工具</string>
+	<key>Widgets_DeleteWarning</key>
+	<string>如此將會刪除該小工具。</string>
+	<key>Widgets_EmptyInstruction</key>
+	<string>請點選 [b-white]+ 按鈕[/b-white]開始建立小工具。</string>
+	<key>Widgets_Empty_Android</key>
+	<string>請點選畫筆圖示，以設定此項小工具。</string>
+	<key>Widgets_Empty_Ios</key>
+	<string>透過「設定」下的 Philips Hue 應用程式設定此項小工具。</string>
+	<key>Widgets_Explanation_Android</key>
+	<string>小工具可讓您從 Android 主畫面[b-white]輕鬆叫出[/b-white]喜愛的燈光場景。</string>
+	<key>Widgets_Explanation_Ios</key>
+	<string>小工具可讓您從 iOS 通知中心或 Apple Watch [b-white]輕鬆叫出[/b-white]喜愛的燈光場景。</string>
+	<key>Widgets_Explanation_IosIpad</key>
+	<string>小工具可讓您從 iOS 通知中心[b-white]輕鬆叫出[/b-white]喜愛的燈光場景。</string>
+	<key>Widgets_NotDisplayed</key>
+	<string>未顯示</string>
+	<key>Widgets_NotificationCenterInstruction</key>
+	<string>小工具可透過 Apple Watch 或 iPhone 的通知中心啟動。請將通知中心往右滑動，並點選[b-white]編輯[/b-white]以新增 Hue 小工具。</string>
+	<key>Widgets_NotificationCenterInstructionIpad</key>
+	<string>小工具可透過 iPad 的通知中心啟動。請將通知中心往右滑動，並點選[b-white]編輯[/b-white]以新增 Hue 小工具。</string>
+	<key>Widgets_Off</key>
+	<string>關</string>
+	<key>Widgets_SelectScene</key>
+	<string>請選擇[b-white]啟用此小工具[/b-white]時要開啟的場景。</string>
+	<key>Widgets_When</key>
+	<string>啟動此小工具時</string>
+	<key>Widgets_Widget</key>
+	<string>小工具</string>
+	<key>ZigbeeChannel_Channel</key>
+	<string>通道：%ld</string>
+	<key>ZigbeeChannel_CurrentChannel</key>
+	<string>目前頻道：</string>
+	<key>ZigbeeChannel_Explain</key>
+	<string>Hue 使用 Zigbee 進行 Hue 橋接器、燈光及配件之間的通訊。如果您在控制燈光或使用配件時遭遇問題，您可以變更 Zigbee 頻道。
+
+[b-white]警告：[/b-white]只有在遭遇問題時才變更 Zigbee 頻道。
+
+如要變更 Zigbee 頻道：請[b-white]關閉全部的燈光[/b-white]並點選下方的 [變更頻道]。這將會花費 30 秒。</string>
+	<key>ZigbeeChannel_ReconnectTap</key>
+	<string>請點選 [b-white]下一步[/b-white]開始重新與您的開關連線。將維持目前設定。</string>
+	<key>ZigbeeChannel_ReconnectTapAndroid</key>
+	<string>請繼續開始重新與您的 Hue 無線智慧開關連線。將維持目前設定。</string>
+	<key>ZigbeeChannel_Reconnected</key>
+	<string>[b-white]%ld/%ld[/b-white] 已重新連線</string>
+	<key>ZigbeeChannel_Succes</key>
+	<string>已完成 Zigbee 頻道變更。如果您點選燈光閃爍選項時燈光並未閃爍，請關閉再開啟該盞燈。若這樣做仍然無法解決問題，請再點選變更頻道。</string>
+	<key>ZoneRoomType_Attic</key>
+	<string>閣樓</string>
+	<key>ZoneRoomType_Balcony</key>
+	<string>陽台</string>
+	<key>ZoneRoomType_Barbecue</key>
+	<string>烤肉區</string>
+	<key>ZoneRoomType_Bathroom</key>
+	<string>浴室</string>
+	<key>ZoneRoomType_Bedroom</key>
+	<string>臥室</string>
+	<key>ZoneRoomType_Carport</key>
+	<string>車棚</string>
+	<key>ZoneRoomType_Closet</key>
+	<string>壁櫥</string>
+	<key>ZoneRoomType_Computer</key>
+	<string>電腦</string>
+	<key>ZoneRoomType_Dining</key>
+	<string>餐廳</string>
+	<key>ZoneRoomType_Downstairs</key>
+	<string>下樓扶梯</string>
+	<key>ZoneRoomType_Driveway</key>
+	<string>車道</string>
+	<key>ZoneRoomType_FrontDoor</key>
+	<string>正門</string>
+	<key>ZoneRoomType_Garage</key>
+	<string>車庫</string>
+	<key>ZoneRoomType_Garden</key>
+	<string>花園</string>
+	<key>ZoneRoomType_Guestroom</key>
+	<string>訪客室</string>
+	<key>ZoneRoomType_Gym</key>
+	<string>健身房</string>
+	<key>ZoneRoomType_Hallway</key>
+	<string>走道</string>
+	<key>ZoneRoomType_Home</key>
+	<string>首頁</string>
+	<key>ZoneRoomType_KidsBedroom</key>
+	<string>兒童房</string>
+	<key>ZoneRoomType_Kitchen</key>
+	<string>廚房</string>
+	<key>ZoneRoomType_LaundryRoom</key>
+	<string>洗衣間</string>
+	<key>ZoneRoomType_Levels</key>
+	<string>亮度</string>
+	<key>ZoneRoomType_LivingRoom</key>
+	<string>客廳</string>
+	<key>ZoneRoomType_Lounge</key>
+	<string>客廳</string>
+	<key>ZoneRoomType_ManCave</key>
+	<string>遊戲間</string>
+	<key>ZoneRoomType_Music</key>
+	<string>Müzik</string>
+	<key>ZoneRoomType_Nursery</key>
+	<string>育嬰室</string>
+	<key>ZoneRoomType_Office</key>
+	<string>辦公室</string>
+	<key>ZoneRoomType_Other</key>
+	<string>其他</string>
+	<key>ZoneRoomType_Outdoor</key>
+	<string>戶外</string>
+	<key>ZoneRoomType_Pool</key>
+	<string> Pool</string>
+	<key>ZoneRoomType_Porch</key>
+	<string>門廊</string>
+	<key>ZoneRoomType_Practical</key>
+	<string>練習</string>
+	<key>ZoneRoomType_Reading</key>
+	<string>閱讀</string>
+	<key>ZoneRoomType_Recreation</key>
+	<string>遊戲房</string>
+	<key>ZoneRoomType_Recreational</key>
+	<string>娛樂</string>
+	<key>ZoneRoomType_Staircase</key>
+	<string>樓梯</string>
+	<key>ZoneRoomType_Storage</key>
+	<string>儲藏室</string>
+	<key>ZoneRoomType_Studio</key>
+	<string>工作室</string>
+	<key>ZoneRoomType_TV</key>
+	<string>電視</string>
+	<key>ZoneRoomType_Terrace</key>
+	<string>陽台</string>
+	<key>ZoneRoomType_Toilet</key>
+	<string>廁所</string>
+	<key>ZoneRoomType_TopFloor</key>
+	<string>頂樓</string>
+	<key>ZoneRoomType_Traditional</key>
+	<string>傳統</string>
+	<key>ZoneRoomType_Upstairs</key>
+	<string>上樓扶梯</string>
+	<key>ZoneRoom_AddDefaultScenes</key>
+	<string>新增預設場景</string>
+	<key>ZoneRoom_CreateNew</key>
+	<string>建立新</string>
+	<key>ZoneRoom_LightSelection</key>
+	<string>燈光選項</string>
+	<key>ZoneRoom_Room</key>
+	<string>房間</string>
+	<key>ZoneRoom_RoomDesc</key>
+	<string>可讓您控制家中[b-white]實際房間[/b-white]燈光，例如「客廳」。 </string>
+	<key>ZoneRoom_Zone</key>
+	<string>區域</string>
+	<key>ZoneRoom_ZoneBetaDesc</key>
+	<string>「區域」目前仍屬測試階段 (Beta 版)，並且無法搭配其他功能使用，像是配件或語音助理。</string>
+	<key>ZoneRoom_ZoneDesc</key>
+	<string>整理分類多間房間或房間內某區的[b-white]任何燈光組合[/b-white]，讓您[b-white]同步[/b-white]控制，例如，下樓扶梯或電視區。 </string>
+	<key>ZoneSetup_DeleteAffected</key>
+	<string>刪除此區域後將影響到以下項目：</string>
+	<key>ZoneSetup_DeleteConfirmation</key>
+	<string>此區域經刪除後，即無法繼續控制。</string>
+	<key>ZoneSetup_DeleteZone</key>
+	<string>刪除區域</string>
+	<key>ZoneSetup_NewZone</key>
+	<string>新區域</string>
+	<key>ZoneSetup_PlaceholderName</key>
+	<string>下樓扶梯</string>
+</dict>
+</plist>

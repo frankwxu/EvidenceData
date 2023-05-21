@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>"%@"</string>
+			<key>one</key>
+			<string>"%@"</string>
+			<key>many</key>
+			<string>"%@"</string>
+			<key>two</key>
+			<string>"%@"</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>"%@"</string>
+			<key>zero</key>
+			<string>"%@"</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>لا يمكن تنزيل "%2$#@title@" و %lu عناصر أخرى. الرجاء المحاولة مرة أخرى لاحقًا.</string>
+			<key>one</key>
+			<string>لا يمكن تنزيل "%2$#@title@" وعنصر واحد آخر. الرجاء المحاولة لاحقًا.</string>
+			<key>many</key>
+			<string>لا يمكن تنزيل "%2$#@title@" و %lu عنصرًا آخر. الرجاء المحاولة مرة أخرى لاحقًا.</string>
+			<key>two</key>
+			<string>لا يمكن تنزيل "%2$#@title@" و عنصرين آخرين. الرجاء المحاولة مرة أخرى لاحقًا.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>لا يمكن تنزيل "%2$#@title@" و %lu عنصرًا آخر. الرجاء المحاولة مرة أخرى لاحقًا.</string>
+			<key>zero</key>
+			<string>لا يمكن تنزيل "%2$#@title@" و %lu عنصر آخر. الرجاء المحاولة مرة أخرى لاحقًا.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>سيتم إعادة تنزيل أحدث الحلقات في مكتبتك تلقائيًا. هناك %lu حلقة قديمة بانتظار التنزيل.</string>
+			<key>one</key>
+			<string>سيتم إعادة تنزيل أحدث الحلقات في مكتبتك تلقائيًا. هناك حلقة واحدة قديمة بانتظار التنزيل.</string>
+			<key>many</key>
+			<string>سيتم إعادة تنزيل أحدث الحلقات في مكتبتك تلقائيًا. هناك %lu حلقة قديمة بانتظار التنزيل.</string>
+			<key>two</key>
+			<string>سيتم إعادة تنزيل أحدث الحلقات في مكتبتك تلقائيًا. هناك %lu حلقة قديمة بانتظار التنزيل.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>سيتم إعادة تنزيل أحدث الحلقات في مكتبتك تلقائيًا. هناك %lu حلقة قديمة بانتظار التنزيل.</string>
+			<key>zero</key>
+			<string>سيتم إعادة تنزيل أحدث الحلقات في مكتبتك تلقائيًا. هناك %lu حلقة قديمة بانتظار التنزيل.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>غير قادر على تنزيل البودكاست</string>
+			<key>one</key>
+			<string>تعذر تنزيل البودكاست</string>
+			<key>many</key>
+			<string>غير قادر على تنزيل البودكاست</string>
+			<key>two</key>
+			<string>غير قادر على تنزيل البودكاست</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>غير قادر على تنزيل البودكاست</string>
+			<key>zero</key>
+			<string>غير قادر على تنزيل البودكاست</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%u حلقات أخرى من %@</string>
+			<key>one</key>
+			<string>حلقة أخرى إضافية من %2$@</string>
+			<key>many</key>
+			<string>‏%u حلقة إضافية من %@</string>
+			<key>two</key>
+			<string>حلقتان أخريان من %2$@</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>‏%u حلقة إضافية من %@</string>
+			<key>zero</key>
+			<string>‏%u حلقات أخرى من %@</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>بعد تشغيل هذه، هل ترغب في متابعة الاستماع للحلقات الـ %lu التي حددتها ليتم تشغيلها تاليًا؟</string>
+			<key>one</key>
+			<string>بعد تشغيل هذه، هل ترغب في متابعة الاستماع للحلقة التي حددتها ليتم تشغيلها تاليًا؟</string>
+			<key>many</key>
+			<string>بعد تشغيل هذه، هل ترغب في متابعة الاستماع للحلقات الـ %lu التي حددتها ليتم تشغيلها تاليًا؟</string>
+			<key>two</key>
+			<string>بعد تشغيل هذه، هل ترغب في متابعة الاستماع للحلقتين اللتين حددتهما ليتم تشغيلهما تاليًا؟</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>بعد تشغيل هذه، هل ترغب في متابعة الاستماع للحلقات الـ %lu التي حددتها ليتم تشغيلها تاليًا؟</string>
+			<key>zero</key>
+			<string>بعد تشغيل هذه، هل ترغب في متابعة الاستماع للحلقات الـ %lu التي حددتها ليتم تشغيلها تاليًا؟</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%u حلقات جديدة</string>
+			<key>one</key>
+			<string>حلقة واحدة جديدة</string>
+			<key>many</key>
+			<string>‏%u حلقة جديدة</string>
+			<key>two</key>
+			<string>حلقتان جديدتان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>‏%u حلقة جديدة</string>
+			<key>zero</key>
+			<string>لا توجد حلقات جديدة</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>هناك %lu حلقات جديدة متوفرة.</string>
+			<key>one</key>
+			<string>هناك حلقة واحدة جديدة متوفرة.</string>
+			<key>many</key>
+			<string>هناك %lu حلقة جديدة متوفرة.</string>
+			<key>two</key>
+			<string>هناك حلقتان جديدتان متوفرتان.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>هناك %lu حلقة جديدة متوفرة.</string>
+			<key>zero</key>
+			<string>هناك %lu حلقة جديدة متوفرة.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

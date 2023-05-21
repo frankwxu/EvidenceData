@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>19B88</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>CFBundleDisplayName</key>
+	<string>ProtonMail</string>
+	<key>CFBundleExecutable</key>
+	<string>Share</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppUniversalIcon20x20</string>
+				<string>AppUniversalIcon29x29</string>
+				<string>AppUniversalIcon40x40</string>
+				<string>AppUniversalIcon57x57</string>
+				<string>AppUniversalIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppUniversalIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppUniversalIcon20x20</string>
+				<string>AppUniversalIcon29x29</string>
+				<string>AppUniversalIcon40x40</string>
+				<string>AppUniversalIcon57x57</string>
+				<string>AppUniversalIcon60x60</string>
+				<string>AppUniversalIcon50x50</string>
+				<string>AppUniversalIcon72x72</string>
+				<string>AppUniversalIcon76x76</string>
+				<string>AppUniversalIcon83.5x83.5</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>ch.protonmail.protonmail.Share</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Share</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.11.14</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>4013</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>17B102</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>13.2</string>
+	<key>DTSDKBuild</key>
+	<string>17B102</string>
+	<key>DTSDKName</key>
+	<string>iphoneos13.2</string>
+	<key>DTXcode</key>
+	<string>1120</string>
+	<key>DTXcodeBuild</key>
+	<string>11B500</string>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<false/>
+	<key>MinimumOSVersion</key>
+	<string>10.0</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Required for attaching media to the email.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Required for attaching photos to the email.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Required for email autocomplete.</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>NSExtensionActivationRule</key>
+			<string>SUBQUERY (
+			    extensionItems,
+			    $extensionItem,
+			    SUBQUERY (
+			        $extensionItem.attachments,
+			        $attachment,
+			        (ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.file-url" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.text" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.plain-text" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.utf8-plain-text" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.html" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.xml" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.adobe.pdf" ||
+              		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.composite-content" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.playlist" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.archive" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.spreadsheet" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.presentation" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.content" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.to-do-item" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.calendar-event" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.email-message" ||
+              		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.apple.internet-location" ||
+                    ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.vcard" ||
+			        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.message")
+			    ).@count &gt; 0
+			).@count &gt; 0</string>
+		</dict>
+		<key>NSExtensionOverridesHostUIAppearance</key>
+		<true/>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.share-services</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>ShareExtensionEntry</string>
+	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Allows you quick and secure to unlock your application.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Required for saving image attachments to photo library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Required for attaching photos to the email.</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UISupportsDocumentBrowser</key>
+	<false/>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

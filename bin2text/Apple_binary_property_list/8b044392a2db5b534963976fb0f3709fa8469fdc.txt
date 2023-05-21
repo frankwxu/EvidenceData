@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poklesla vám celková vzdálenost, {{username}}. Pokud chcete tuto šipku otočit zase nahoru, udělejte si každý den čas na procházku.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli se cítíte na delší procházky a běhání, můžete tuto šipku nasměrovat zase vzhůru, {{username}}. Zkuste tento týden ujít či uběhnout aspoň {{goal_value:distance}} denně a příští týden nepřehlédněte nový cíl. Když vám to vydrží %#@num_weeks@, šipka se otočí.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týdny</string>
+			<key>one</key>
+			<string>%d týden</string>
+			<key>many</key>
+			<string>%d týdne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týdnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá práce s celkovou vzdáleností. Nepolevujte v běhání a procházkách, ať šipka dál míří nahoru!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Obraťte tuto šipku! %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku otočit zase nahoru, %#@num_days@ ujděte a uběhněte {{goal_value:distance}} denně. Je to jenom na vás, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, šipka celkové vzdálenosti míří nahoru. Nepřestávejte s běháním a procházkami, ať tak zůstane!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá práce s celkovou vzdáleností, {{username}}. Jděte si každý den zaběhat nebo vyražte na procházku, ať šipka dál míří nahoru!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku otočit zase nahoru, %#@num_days@ ujděte a uběhněte {{goal_value:distance}} denně. Je to jenom na vás.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete udržet šipku nahoře, musíte toho nachodit a naběhat víc než v poslední době. Pusťte se do toho!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá práce s celkovou vzdáleností, {{username}}. Nepolevujte v běhání a procházkách, ať šipka dál míří nahoru!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud dnes zvládnete uběhnout nebo ujít aspoň {{goal_value:distance}}, šipka se otočí zpátky nahoru. To za to stojí, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka celkové vzdálenosti míří nahoru. Nepřestávejte s běháním a procházkami, ať tak zůstane!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Obraťte tuto šipku, {{username}}! %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně a šipka se zase otočí vzhůru, {{username}}. Máte na to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku otočit zase nahoru, %#@num_days@ ujděte a uběhněte {{goal_value:distance}} denně. Je to jenom na vás.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud dnes zvládnete uběhnout nebo ujít aspoň {{goal_value:distance}}, šipka se otočí zpátky nahoru. To za to stojí!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně a šipka se zase otočí vzhůru. Máte na to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Šipka celkové vzdálenosti míří nahoru. Nepřestávejte s běháním a procházkami, ať tak zůstane!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poklesla vám celková vzdálenost. Pokud chcete tuto šipku otočit zase nahoru, udělejte si každý den čas na procházku.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku otočit zase nahoru, %#@num_days@ ujděte a uběhněte {{goal_value:distance}} denně. Je to jenom na vás, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli se cítíte na delší procházky a běhání, můžete tuto šipku nasměrovat zase vzhůru, {{username}}. Zkuste tento týden ujít či uběhnout aspoň {{goal_value:distance}} denně a příští týden nepřehlédněte nový cíl. Když vám to vydrží %#@num_weeks@, šipka se otočí.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týdny</string>
+			<key>one</key>
+			<string>%d týden</string>
+			<key>many</key>
+			<string>%d týdne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týdnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli chcete udržet šipku nahoře, musíte toho nachodit a naběhat víc než v poslední době, {{username}}. Pusťte se do toho!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud dnes zvládnete uběhnout nebo ujít aspoň {{goal_value:distance}}, šipka se otočí zpátky nahoru. To za to stojí!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku obrátit, %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně, {{username}}. To za to stojí!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně a šipka se zase otočí vzhůru. Máte na to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli se cítíte na delší procházky a běhání, můžete tuto šipku nasměrovat zase vzhůru. Zkuste tento týden ujít či uběhnout aspoň {{goal_value:distance}} denně a příští týden nepřehlédněte nový cíl. Když vám to vydrží %#@num_weeks@, šipka se otočí.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týdny</string>
+			<key>one</key>
+			<string>%d týden</string>
+			<key>many</key>
+			<string>%d týdne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týdnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Dobrá práce s celkovou vzdáleností. Nepolevujte v běhání a procházkách, ať šipka dál míří nahoru!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku obrátit, %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně. To za to stojí!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně a šipka se zase otočí vzhůru, {{username}}. Máte na to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Jestli se cítíte na delší procházky a běhání, můžete tuto šipku nasměrovat zase vzhůru. Zkuste tento týden ujít či uběhnout aspoň {{goal_value:distance}} denně a příští týden nepřehlédněte nový cíl. Když vám to vydrží %#@num_weeks@, šipka se otočí.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d týdny</string>
+			<key>one</key>
+			<string>%d týden</string>
+			<key>many</key>
+			<string>%d týdne</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d týdnů</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poklesla vám celková vzdálenost. Pokud chcete tuto šipku otočit zase nahoru, udělejte si každý den čas na procházku.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku obrátit, %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně. To za to stojí!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poslední dobou nechodíte a neběháte tolik jako dřív, {{username}}. Jestli chcete udržet šipku nahoře, zkuste se trochu víc hýbat!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poslední dobou nechodíte a neběháte tolik jako dřív. Jestli chcete udržet šipku nahoře, zkuste se trochu víc hýbat!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Obraťte tuto šipku, {{username}}! %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, šipka celkové vzdálenosti míří nahoru. Nepřestávejte s běháním a procházkami, ať tak zůstane!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pokud dnes zvládnete uběhnout nebo ujít aspoň {{goal_value:distance}}, šipka se otočí zpátky nahoru. To za to stojí, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Chcete‑li tuto šipku obrátit, %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně, {{username}}. To za to stojí!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>ve %d následujících dnech</string>
+			<key>one</key>
+			<string>v %d následujícím dni</string>
+			<key>many</key>
+			<string>v %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>v %d následujících dnech</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Poklesla vám celková vzdálenost, {{username}}. Pokud chcete tuto šipku otočit zase nahoru, udělejte si každý den čas na procházku.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Obraťte tuto šipku! %#@num_days@ ujděte a uběhněte aspoň {{goal_value:distance}} denně.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Ve %d následujících dnech</string>
+			<key>one</key>
+			<string>V %d následujícím dni</string>
+			<key>many</key>
+			<string>V %d následujících dnech</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>V %d následujících dnech</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

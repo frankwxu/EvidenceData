@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du tränar {{goal_value:minutes}} minuter idag pekar den här pilen uppåt imorgon. Se till att det sker!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil ser bra ut. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar i rätt riktning. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar nedåt men är nära att vändas uppåt igen. Träna {{goal_value:minutes}} minuter per dag under de kommande %#@num_days@na och vänd på den.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar nedåt men du har ökat antalet träningsminuter på senaste tiden. Förtjäna minst {{goal_value:minutes}} per dag under de kommande 30 dagarna för att vända pilen. Tappa inte sugen, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill vända den här pilen måste du i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning per dag under de kommande 30 dagarna. Du har förtjänat fler träningsminuter på senaste tiden så du kan göra det, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Den här pilen pekar bara lite nedåt. Se till att ägna mer än {{goal_value:minutes}} per dag åt träning under de kommande %#@num_days@na så kommer pilen att peka uppåt igen.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsätt förtjäna minst {{goal_value:minutes}} träningsminuter per dag så att pilen håller sig uppåt. Du klarar dig jättebra, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil ser bra ut, {{username}}. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar nedåt men du har ökat antalet träningsminuter på senaste tiden. Förtjäna minst {{goal_value:minutes}} per dag under de kommande 14 dagarna för att vända pilen. Tappa inte sugen!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kan vända träningspilen på %#@num_days@! Träna minst {{goal_value:minutes}} minuter per dag så händer det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar uppåt. Se till att träna {{goal_value:minutes}} minuter per dag så att den håller sig uppe!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill vända pilen uppåt igen måste du i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning per dag under de kommande %#@num_days@na. Du klarar det!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil ser bra ut, {{username}}. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar nedåt men du har ökat antalet träningsminuter på senaste tiden. Förtjäna minst {{goal_value:minutes}} per dag under de kommande 14 dagarna för att vända pilen. Tappa inte sugen, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsätt förtjäna minst {{goal_value:minutes}} träningsminuter per dag så att pilen håller sig uppåt. Du klarar dig jättebra!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill vända den här pilen måste du i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning per dag under de kommande 14 dagarna. Du har förtjänat fler träningsminuter på senaste tiden så du kan göra det, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Den här pilen pekar bara lite nedåt, {{username}}. Se till att ägna mer än {{goal_value:minutes}} per dag åt träning under de kommande %#@num_days@na så kommer pilen att peka uppåt igen.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar i rätt riktning, {{username}}. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kan vända träningspilen på %#@num_days@, {{username}}! Träna minst {{goal_value:minutes}} minuter per dag så händer det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar nedåt men är nära att vändas uppåt igen, {{username}}! Träna {{goal_value:minutes}} minuter per dag under de kommande %#@num_days@na och vänd på den.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill vända pilen uppåt igen måste du i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning per dag under de kommande %#@num_days@na. Du klarar det, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Försök att klara av minst {{goal_value:minutes}} träningsminuter per dag för att komma igång. Återkom sedan varje vecka för ett nytt mål. Uppfyll målen så vänder du pilen uppåt om ungefär %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d vecka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d veckor</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar nedåt men du har ökat antalet träningsminuter på senaste tiden. Förtjäna minst {{goal_value:minutes}} per dag under de kommande 30 dagarna för att vända pilen. Tappa inte sugen!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsätt förtjäna minst {{goal_value:minutes}} träningsminuter per dag så att pilen håller sig uppåt. Du klarar dig jättebra!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar i rätt riktning, {{username}}. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar uppåt. Se till att träna {{goal_value:minutes}} minuter per dag så att den håller sig uppe, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du tar en rask promenad varje dag får du träningsminuterna att gå upp igen. Du kan göra det, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil ser bra ut. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din träningspil pekar i rätt riktning. Bra gjort.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill vända den här pilen måste du i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning per dag under de kommande 14 dagarna. Du har förtjänat fler träningsminuter på senaste tiden, så du kan göra det!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är bra att just den här pilen pekar uppåt. Börja med att i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning den här veckan. Om du gör stadiga framsteg så bör pilen vändas om ungefär %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d vecka</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d veckor</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du tar en rask promenad varje dag får du träningsminuterna att gå upp igen. Du kan göra det.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar uppåt, men träningsminuterna har minskat den senaste tiden. Försök att ta en rask promenad varje dag så att pilen fortsätter peka uppåt, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, om du tränar {{goal_value:minutes}} minuter idag pekar den här pilen uppåt imorgon. Se till att det sker!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar uppåt, men träningsminuterna har minskat den senaste tiden. Försök att ta en rask promenad varje dag så att pilen fortsätter peka uppåt!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Fortsätt förtjäna minst {{goal_value:minutes}} träningsminuter per dag så att pilen håller sig uppåt. Du klarar dig jättebra, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill vända den här pilen måste du i genomsnitt ägna minst {{goal_value:minutes}} minuter åt träning per dag under de kommande 30 dagarna. Du har förtjänat fler träningsminuter på senaste tiden, så du kan göra det!</string>
+	</dict>
+</dict>
+</plist>

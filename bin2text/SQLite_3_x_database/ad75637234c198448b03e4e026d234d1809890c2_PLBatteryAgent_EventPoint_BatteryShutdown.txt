@@ -1,0 +1,38 @@
+ID,timestamp,AverageCurrent,AverageCurrentPrevious,BatteryShutdownTimestamp,CycleCount,CycleCountLastQmax,DLOG_0,DLOG_1,DLOG_10,DLOG_11,DLOG_12,DLOG_13,DLOG_14,DLOG_15,DLOG_16,DLOG_17,DLOG_18,DLOG_19,DLOG_2,DLOG_3,DLOG_4,DLOG_5,DLOG_6,DLOG_7,DLOG_8,DLOG_9,DOD0,FullChargeCapacity,FullChargeCapacityPrevious,LowBatteryLog,MaximumDischargeCurrent,MaximumRa0-8,NominalChargeCapacity,NominalChargeCapacityPrevious,PassedCharge,PresentDOD,Qstart,RSS,RaTable_1,RaTable_10,RaTable_11,RaTable_12,RaTable_13,RaTable_14,RaTable_15,RaTable_2,RaTable_3,RaTable_4,RaTable_5,RaTable_6,RaTable_7,RaTable_8,RaTable_9,RemainingCapacity,RemainingCapacityPrevious,ResScale,Temperature,TimeAbove95Perc,TimeSinceWake,UISOC,UpoReboot,Voltage,VoltagePrevious
+1,1586037041.2387962,-1219,-1104,1586033572.4203482,659,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3216,694,692,"Date:                2020-04-04 16:52:26 -0400
+OS Version:          iPhone OS 13.3.1 (17D50)
+
+runningboardd: application<com.fitbit.FitbitMobile>26-77-50:com.fitbit.FitbitMobile(Bluetooth)	SystemIsActive == 255, held for 00:00:05
+runningboardd: daemon<com.apple.appstored>26-183-34:com.apple.StoreServices.SSSQLiteDatabase.appstored.sqlitedb(FinishTask)	SystemIsActive == 255, held for 00:00:13
+runningboardd: daemon<com.apple.SpringBoard>26-54-3:FBSystemApp-PreventIdleSleep	SystemIsActive == 255, held for 00:00:31
+profiled: MC activity	PreventUserIdleSystemSleep == 255, held for 00:00:01
+nsurlsessiond: NSURLSessionTask 457FD602-9A68-4F10-B9A2-469B00FD1F9C	PreventUserIdleSystemSleep == 255, held for 00:00:07
+nsurlsessiond: NSURLSessionTask E939CBB9-A6E0-479E-A13E-7B27C722C7EF	PreventUserIdleSystemSleep == 255, held for 00:00:02
+nsurlsessiond: NSURLSessionTask C39FB4A5-3521-478C-96AF-541AC3102A6F	PreventUserIdleSystemSleep == 255, held for 00:00:01
+nsurlsessiond: NSURLSessionTask 48FFCEB0-D2D6-44A7-AE6D-0535DAD36BE9	PreventUserIdleSystemSleep == 255, held for 00:00:00
+cloudd: Operation running - <CKDModifyRecordZonesOperation: 0x102e666c0; containerID=com.apple.icloud.searchparty, qos=Utility, operationID=AC80766B7C54DA35, childOps=[<CKDPCSCacheZoneFetchOperation 6F868BA2B4956650>], operationGroupID=0375998BD8894CA1, operationGroupName=EphemeralGroup, stateFlags=executing, flags=allows-cellular, state=Fetching Zone PCS, runningFor=0.03008806705474854>	PreventUserIdleSystemSleep == 255, held for 00:00:00
+cloudd: Operation running - <CKDFetchRecordZonesOperation: 0x102e672b0; containerID=com.apple.icloud.searchparty, qos=Utility, operationID=0F0B23127D313437, request=<CKDGetRecordZonesURLRequest: 0x10682fdf0; UUID=B5C68F5C-E0E0-40D6-9025-635C24F55EC6, flags=foreground|allows-cellular>, requestIDs=[B5C68F5C-E0E0-40D6-9025-635C24F55EC6], operationGroupID=0375998BD8894CA1, operationGroupName=EphemeralGroup, stateFlags=executing, flags=allows-cellular, state=Fetching Zones, runningFor=0.01920795440673828>	PreventUserIdleSystemSleep == 255, held for 00:00:00
+cloudd: Operation running - <CKDPCSCacheZoneFetchOperation: 0x106890410; containerID=com.apple.icloud.searchparty, qos=Utility, operationID=6F868BA2B4956650, operationGroupID=0375998BD8894CA1, operationGroupName=EphemeralGroup, stateFlags=executing, flags=allows-cellular, runningFor=0.0003829002380371094>	PreventUserIdleSystemSleep == 255, held for 00:00:00
+cloudd: Operation running - <CKDFetchRecordZoneChangesOperation: 0x102e564f0; requestIDs=[C9E49220-F134-4760-B13A-2653B8D82A34], stateFlags=executing, sourceApplicationBundleID=com.apple.willowd.homekit, containerID=com.apple.homekit, qos=Utility, operationGroupID=53E0FA4C7CF3B05C, operationGroupName=EphemeralGroup, request=<CKDFetchRecordZoneChangesURLRequest: 0x102e59b50; UUID=C9E49220-F134-4760-B13A-2653B8D82A34, flags=foreground|allows-cellular>, childOps=[<CKDRecordFetchAggregator 3B9B548099007C2D>], operationID=201B25DE44B55C68, flags=allows-cellular, runningFor=1.49980890750885>	PreventUserIdleSystemSleep == 255, held for 00:00:06
+cloudd: Operation running - <CKDRecordFetchAggregator: 0x102e50d00; containerID=com.apple.homekit, qos=Utility, operationID=3B9B548099007C2D, operationGroupID=53E0FA4C7CF3B05C, operationGroupName=EphemeralGroup, stateFlags=executing, flags=allows-cellular, sourceApplicationBundleID=com.apple.willowd.homekit, runningFor=0.001306891441345215>	PreventUserIdleSystemSleep == 255, held for 00:00:07
+apsd: com.apple.persistentconnection[apsd,106,APSDaemon-courierconnecttimer-PendingSimpleTimer(0x1047c40b0)]	NoIdleSleepAssertion == 255, held for 00:00:01
+apsd: com.apple.apsd-connectcouriers	NoIdleSleepAssertion == 255, held for 00:00:01
+apsd: com.apple.apsd-outgoingmessage	NoIdleSleepAssertion == 255, held for 00:00:12
+apsd: com.apple.apsd-criticalreliability	NoIdleSleepAssertion == 255, held for 00:00:02
+mediaserverd: com.apple.APEndpointManagerCarPlay.timed	PreventUserIdleSystemSleep == 255, held for 00:00:12
+bluetoothd: com.apple.BTStack	PreventUserIdleSystemSleep == 255, held for 00:00:13
+healthd: com.apple.healthd.sync.8DDD238A-F8E1-41D2-B0BC-D2756E655890	NoIdleSleepAssertion == 255, held for 00:00:01
+UserEventAgent: com.apple.coreduet.sync.update-source-device-identifiers	BackgroundTask == 255, held for 00:00:01
+UserEventAgent: com.apple.cloudkit.scheduler.com.apple.KeyValueService.EndToEndEncrypted.Production.Private.fetch-changes	BackgroundTask == 255, held for 00:00:01
+UserEventAgent: com.apple.cloudkit.scheduler.com.apple.KeyValueService.EndToEndEncrypted.Production.Private.save-subscription	BackgroundTask == 255, held for 00:00:01
+
+Screen Brightness: 0.389751
+Hardware Model: N69AP
+Awake Time: 05:17:01 (19021)
+Standby Time: 21:38:49 (77928)
+Partial Charge: 0
+Capacity: 45
+Voltage: 3410 mV
+Voltage Droop Time: 0
+Voltage Droop Transitions: 0
+",-1903,724,1334,1334,471,8279,225,428,370,696,666,1041,1842,4189,6524,493,601,676,445,422,506,635,724,-2,-1,0,2989,31,31,45.0,,3410,3442

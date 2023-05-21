@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AB_PERMISSION_MISSING_ACTION_NOT_NOW</key>
+	<string>Pas maintenant</string>
+	<key>ACCEPT_NEW_IDENTITY_ACTION</key>
+	<string>Accepter le nouveau numéro de sécurité</string>
+	<key>ACCESSIBILITY_LABEL_ATTACHMENT</key>
+	<string>Fichier joint</string>
+	<key>ACCESSIBILITY_LABEL_AUDIO</key>
+	<string>Son</string>
+	<key>ACCESSIBILITY_LABEL_CONTACT</key>
+	<string>Contact</string>
+	<key>ACCESSIBILITY_LABEL_MEDIA</key>
+	<string>Médias</string>
+	<key>ACCESSIBILITY_LABEL_MESSAGE</key>
+	<string>Message</string>
+	<key>ACCESSIBILITY_LABEL_SENDER_SELF</key>
+	<string>Vous</string>
+	<key>ACCESSIBILITY_LABEL_STICKER</key>
+	<string>Autocollant</string>
+	<key>ACTION_AUDIO_CALL</key>
+	<string>Appel Signal</string>
+	<key>ACTION_INVITE</key>
+	<string>Inviter à Signal</string>
+	<key>ACTION_SEND_MESSAGE</key>
+	<string>Envoyer un message</string>
+	<key>ACTION_SHARE_CONTACT</key>
+	<string>Partager un contact</string>
+	<key>ACTION_VIDEO_CALL</key>
+	<string>Appel vidéo</string>
+	<key>ADD_GROUP_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>Voulez-vous partager votre profil avec ce groupe ?</string>
+	<key>ADD_TO_CONTACTS_OFFER</key>
+	<string>Voulez-vous ajouter cet utilisateur à vos contacts ?</string>
+	<key>ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>Voulez-vous partager votre profil avec cet utilisateur ?</string>
+	<key>ALERT_ACTION_ACKNOWLEDGE</key>
+	<string>Compris</string>
+	<key>ALERT_DISCARD_BUTTON</key>
+	<string>Abandonner</string>
+	<key>ALERT_DONT_SAVE</key>
+	<string>Ne pas enregistrer</string>
+	<key>ALERT_ERROR_TITLE</key>
+	<string>Erreur</string>
+	<key>ALERT_SAVE</key>
+	<string>Enregistrer</string>
+	<key>ANSWER_CALL_BUTTON_TITLE</key>
+	<string>Répondre</string>
+	<key>APN_Message</key>
+	<string>Nouveau message</string>
+	<key>APPEARANCE_SETTINGS_DARK_THEME_NAME</key>
+	<string>Sombre</string>
+	<key>APPEARANCE_SETTINGS_LIGHT_THEME_NAME</key>
+	<string>Clair</string>
+	<key>APPEARANCE_SETTINGS_SYSTEM_THEME_NAME</key>
+	<string>Système</string>
+	<key>APPLICATION_NAME</key>
+	<string>Signal</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_MESSAGE</key>
+	<string>Signal ne peut pas démarrer. Veuillez envoyer un journal de débogage à support@signal.org afin que nous cherchions la cause de ce problème.</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_TITLE</key>
+	<string>Erreur</string>
+	<key>APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE</key>
+	<string>Chargement impossible de la base de données</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE</key>
+	<string>Veuillez installer la dernière version de Signal.</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE</key>
+	<string>Version de base de données inconnue.</string>
+	<key>APP_SETTINGS_EDIT_PROFILE_NAME_PROMPT</key>
+	<string>Saisir votre nom</string>
+	<key>APP_UPDATE_NAG_ALERT_DISMISS_BUTTON</key>
+	<string>Pas maintenant</string>
+	<key>APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT</key>
+	<string>La version %@ est maintenant proposée dans la logithèque App Store.</string>
+	<key>APP_UPDATE_NAG_ALERT_TITLE</key>
+	<string>Une nouvelle version de Signal est proposée</string>
+	<key>APP_UPDATE_NAG_ALERT_UPDATE_BUTTON</key>
+	<string>Mise à jour</string>
+	<key>ARCHIVE_ACTION</key>
+	<string>Archiver</string>
+	<key>ATTACHMENT</key>
+	<string>Fichier joint</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_LENGTH_LIMIT_REACHED</key>
+	<string>La limite de la légende est atteinte.</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_PLACEHOLDER</key>
+	<string>Ajouter une légende…</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_TITLE</key>
+	<string>Légende</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_EXPORT</key>
+	<string>L’exportation du fichier joint a échoué.</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_SAVE</key>
+	<string>Échec de l’enregistrement</string>
+	<key>ATTACHMENT_APPROVAL_FILE_EXTENSION_FORMAT</key>
+	<string>Type de fichier : %@</string>
+	<key>ATTACHMENT_APPROVAL_FILE_SIZE_FORMAT</key>
+	<string>Taille : %@</string>
+	<key>ATTACHMENT_APPROVAL_MEDIA_DID_SAVE</key>
+	<string>Enregistrée</string>
+	<key>ATTACHMENT_APPROVAL_MESSAGE_TO_FORMAT</key>
+	<string>Message pour %@</string>
+	<key>ATTACHMENT_APPROVAL_SEND_BUTTON</key>
+	<string>Envoyer</string>
+	<key>ATTACHMENT_DEFAULT_FILENAME</key>
+	<string>Fichier joint</string>
+	<key>ATTACHMENT_DOWNLOADING_STATUS_FAILED</key>
+	<string>Échec de téléchargement. Touchez pour ressayer.</string>
+	<key>ATTACHMENT_ERROR_ALERT_TITLE</key>
+	<string>Erreur d’envoi du fichier joint</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_JPEG</key>
+	<string>Impossible de convertir l’image.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_MP4</key>
+	<string>Impossible de traiter la vidéo.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_PARSE_IMAGE</key>
+	<string>Impossible d’analyser l’image.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA</key>
+	<string>Impossible de supprimer les métadonnées de l’image.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_RESIZE_IMAGE</key>
+	<string>Impossible de redimensionner l’image.</string>
+	<key>ATTACHMENT_ERROR_FILE_SIZE_TOO_LARGE</key>
+	<string>Le fichier joint est trop volumineux.</string>
+	<key>ATTACHMENT_ERROR_INVALID_DATA</key>
+	<string>Le fichier joint comporte du contenu non valide.</string>
+	<key>ATTACHMENT_ERROR_INVALID_FILE_FORMAT</key>
+	<string>Le fichier joint présente un format de fichier invalide.</string>
+	<key>ATTACHMENT_ERROR_MISSING_DATA</key>
+	<string>Le fichier joint est vide.</string>
+	<key>ATTACHMENT_HINT</key>
+	<string>Choisir un média à envoyer</string>
+	<key>ATTACHMENT_KEYBOARD_CAMERA</key>
+	<string>Appareil photo</string>
+	<key>ATTACHMENT_KEYBOARD_CONTACT</key>
+	<string>Contact</string>
+	<key>ATTACHMENT_KEYBOARD_FILE</key>
+	<string>Fichier</string>
+	<key>ATTACHMENT_KEYBOARD_GIF</key>
+	<string>GIF</string>
+	<key>ATTACHMENT_KEYBOARD_LOCATION</key>
+	<string>Position</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTOS</key>
+	<string>Une fois vos clichés pris, vous pourrez envoyer les plus récents ici.</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS</key>
+	<string>Autoriser l’accès à vos photos dans les réglages pour les envoyer d’ici.</string>
+	<key>ATTACHMENT_LABEL</key>
+	<string>Fichier joint</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE</key>
+	<string>Échec de sélection du document.</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY</key>
+	<string>Veuillez compresser ce fichier ou ce dossier et essayez plutôt d’envoyer le fichier compressé.</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE</key>
+	<string>Fichier non pris en charge</string>
+	<key>ATTACHMENT_TYPE_VOICE_MESSAGE</key>
+	<string>Message vocal</string>
+	<key>AUDIO_ACTIVITY_PLAYBACK_NAME_AUDIO_MESSAGE</key>
+	<string>Message audio</string>
+	<key>AUDIO_ROUTE_BUILT_IN_SPEAKER</key>
+	<string>Haut-parleur</string>
+	<key>BACKUP_EXPORT_ERROR_COULD_NOT_EXPORT</key>
+	<string>Impossible d’exporter les données de sauvegarde.</string>
+	<key>BACKUP_EXPORT_ERROR_INVALID_CLOUDKIT_RESPONSE</key>
+	<string>La réponse du service est invalide</string>
+	<key>BACKUP_EXPORT_PHASE_CLEAN_UP</key>
+	<string>Nettoyage de la sauvegarde</string>
+	<key>BACKUP_EXPORT_PHASE_CONFIGURATION</key>
+	<string>Initialisation de la sauvegarde</string>
+	<key>BACKUP_EXPORT_PHASE_DATABASE_EXPORT</key>
+	<string>Exportation des données</string>
+	<key>BACKUP_EXPORT_PHASE_EXPORT</key>
+	<string>Exportation de la sauvegarde</string>
+	<key>BACKUP_EXPORT_PHASE_UPLOAD</key>
+	<string>Téléversement de la sauvegarde</string>
+	<key>BACKUP_IMPORT_ERROR_COULD_NOT_IMPORT</key>
+	<string>Impossible d’importer la sauvegarde.</string>
+	<key>BACKUP_IMPORT_PHASE_CONFIGURATION</key>
+	<string>Configuration de la sauvegarde</string>
+	<key>BACKUP_IMPORT_PHASE_DOWNLOAD</key>
+	<string>Téléchargement des données de la sauvegarde</string>
+	<key>BACKUP_IMPORT_PHASE_FINALIZING</key>
+	<string>Finalisation de la sauvegarde</string>
+	<key>BACKUP_IMPORT_PHASE_IMPORT</key>
+	<string>Importation de la sauvegarde</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_DATABASE</key>
+	<string>Restauration de la base de données</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_FILES</key>
+	<string>Restauration des fichiers</string>
+	<key>BACKUP_RESTORE_DECISION_TITLE</key>
+	<string>Une sauvegarde existe</string>
+	<key>BACKUP_RESTORE_DESCRIPTION</key>
+	<string>Restauration de la sauvegarde</string>
+	<key>BACKUP_RESTORE_PROGRESS</key>
+	<string>Progression</string>
+	<key>BACKUP_RESTORE_STATUS</key>
+	<string>État</string>
+	<key>BACKUP_UNEXPECTED_ERROR</key>
+	<string>Erreur inattendue de sauvegarde</string>
+	<key>BACK_BUTTON</key>
+	<string>Retour</string>
+	<key>BLOCK_GROUP_BEHAVIOR_EXPLANATION</key>
+	<string>Vous ne recevrez plus ni messages ni mises à jour de ce groupe</string>
+	<key>BLOCK_LIST_BLOCKED_GROUPS_SECTION</key>
+	<string>Groupes bloqués</string>
+	<key>BLOCK_LIST_BLOCKED_USERS_SECTION</key>
+	<string>Utilisateurs bloqués</string>
+	<key>BLOCK_LIST_BLOCK_BUTTON</key>
+	<string>Bloquer</string>
+	<key>BLOCK_LIST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>Bloquer le groupe « %@ » et le quitter ?</string>
+	<key>BLOCK_LIST_BLOCK_USER_TITLE_FORMAT</key>
+	<string>Bloquer %@ ?</string>
+	<key>BLOCK_LIST_UNBLOCK_BUTTON</key>
+	<string>Débloquer</string>
+	<key>BLOCK_LIST_UNBLOCK_CONTACT_MESSAGE</key>
+	<string>Vous pourrez vous envoyer des messages et vous appeler mutuellement.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_BODY</key>
+	<string>Les membres actuels pourront vous ajouter au groupe de nouveau.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_MESSAGE</key>
+	<string>Les membres du groupe pourront de nouveau vous ajouter à ce groupe.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_TITLE</key>
+	<string>Débloquer ce groupe ?</string>
+	<key>BLOCK_LIST_UNBLOCK_TITLE_FORMAT</key>
+	<string>Débloquer %@ ?</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_MESSAGE_FORMAT</key>
+	<string>%@ a été bloqué.</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_TITLE</key>
+	<string>L’utilisateur est bloqué</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_GROUP_ALERT_TITLE</key>
+	<string>Le groupe a été bloqué</string>
+	<key>BLOCK_LIST_VIEW_BLOCK_BUTTON</key>
+	<string>Bloquer</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_MESSAGE</key>
+	<string>Vous ne pouvez pas vous bloquer.</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_TITLE</key>
+	<string>Erreur</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_ALERT_TITLE_FORMAT</key>
+	<string>%@ a été débloqué.</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_GROUP_ALERT_BODY</key>
+	<string>Les membres actuels peuvent désormais vous ajouter au groupe de nouveau.</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_BLOCK_ACTION</key>
+	<string>Bloquer</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_TITLE_FORMAT</key>
+	<string>Bloquer %@ ?</string>
+	<key>BLOCK_USER_BEHAVIOR_EXPLANATION</key>
+	<string>Les utilisateurs bloqués ne pourront ni vous appeler ni vous envoyer des messages.</string>
+	<key>BROWSE_FILES_BUTTON</key>
+	<string>Parcourir</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>Poursuivre</string>
+	<key>BUTTON_DONE</key>
+	<string>Terminé</string>
+	<key>BUTTON_NEXT</key>
+	<string>Suivant</string>
+	<key>BUTTON_OKAY</key>
+	<string>D’accord</string>
+	<key>BUTTON_SELECT</key>
+	<string>Sélectionner</string>
+	<key>BUTTON_SUBMIT</key>
+	<string>Envoyer</string>
+	<key>CALLBACK_BUTTON_TITLE</key>
+	<string>Rappeler</string>
+	<key>CALLKIT_ANONYMOUS_CONTACT_NAME</key>
+	<string>Utilisateur de Signal</string>
+	<key>CALL_AGAIN_BUTTON_TITLE</key>
+	<string>Rappeler</string>
+	<key>CALL_AUDIO_PERMISSION_MESSAGE</key>
+	<string>Vous pouvez accorder l’accès au microphone dans l’appli Réglages d’iOS pour passer des appels et enregistrer des messages vocaux avec Signal.</string>
+	<key>CALL_AUDIO_PERMISSION_TITLE</key>
+	<string>L’accès au microphone est exigé</string>
+	<key>CALL_INCOMING_NOTIFICATION_BODY</key>
+	<string>☎️ Appel entrant</string>
+	<key>CALL_LABEL</key>
+	<string>Appeller</string>
+	<key>CALL_MISSED_BECAUSE_OF_IDENTITY_CHANGE_NOTIFICATION_BODY</key>
+	<string>☎️ Appel manqué, car le numéro de sécurité de l’appelant a changé.</string>
+	<key>CALL_MISSED_NOTIFICATION_BODY</key>
+	<string>☎️ Appel manqué</string>
+	<key>CALL_SCREEN_STATUS_NO_ANSWER</key>
+	<string>Pas de réponse</string>
+	<key>CALL_STATUS_FORMAT</key>
+	<string>Signal %@</string>
+	<key>CALL_USER_ALERT_CALL_BUTTON</key>
+	<string>Appeler</string>
+	<key>CALL_USER_ALERT_MESSAGE_FORMAT</key>
+	<string>Souhaitez-vous appeler %@ ?</string>
+	<key>CALL_USER_ALERT_TITLE</key>
+	<string>Appeler ?</string>
+	<key>CALL_VIEW_ACCEPT_INCOMING_CALL_LABEL</key>
+	<string>Accepter l’appel entrant</string>
+	<key>CALL_VIEW_AUDIO_SOURCE_LABEL</key>
+	<string>Son</string>
+	<key>CALL_VIEW_DECLINE_INCOMING_CALL_LABEL</key>
+	<string>Refuser l’appel entrant</string>
+	<key>CALL_VIEW_ENABLE_VIDEO_HINT</key>
+	<string>Touchez ici pour activer votre caméra</string>
+	<key>CALL_VIEW_HANGUP_LABEL</key>
+	<string>Raccrocher</string>
+	<key>CALL_VIEW_MUTE_LABEL</key>
+	<string>Couper le microphone</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL</key>
+	<string>Vous pouvez activer l’intégration des appels dans iOS dans les paramètres de confidentialité de Signal afin de répondre aux appels entrants à partir de votre écran de verrouillage.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_PRIVACY</key>
+	<string>Vous pouvez activer l’intégration des appels dans iOS dans les paramètres de confidentialité de Signal afin de voir le nom et le numéro de téléphone pour les appels entrants.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_NOT_NOW_BUTTON</key>
+	<string>Pas maintenant</string>
+	<key>CALL_VIEW_SETTINGS_NAG_SHOW_CALL_SETTINGS</key>
+	<string>Afficher les paramètres de confidentialité</string>
+	<key>CALL_VIEW_SWITCH_CAMERA_DIRECTION</key>
+	<string>Intervertir les appareils photos</string>
+	<key>CALL_VIEW_SWITCH_TO_AUDIO_LABEL</key>
+	<string>Passer en appel audio</string>
+	<key>CALL_VIEW_SWITCH_TO_VIDEO_LABEL</key>
+	<string>Passer en appel vidéo</string>
+	<key>CALL_WINDOW_RETURN_TO_CALL</key>
+	<string>Touchez pour revenir à l’appel</string>
+	<key>CAMERA_BUTTON_HINT</key>
+	<string>Prenez une photo et envoyez-la</string>
+	<key>CAMERA_BUTTON_LABEL</key>
+	<string>Appareil photo</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_MESSAGE</key>
+	<string>Cet utilisateur ne pourra pas être vérifié tant que vous n’aurez pas échangé de messages.</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_TITLE</key>
+	<string>Erreur</string>
+	<key>CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE</key>
+	<string>Sélectionner un pays</string>
+	<key>CHECK_FOR_BACKUP_DO_NOT_RESTORE</key>
+	<string>Ne pas restaurer</string>
+	<key>CHECK_FOR_BACKUP_FAILED_MESSAGE</key>
+	<string>Impossible de déterminer s’il existe une sauvegarde à restaurer.</string>
+	<key>CHECK_FOR_BACKUP_FAILED_TITLE</key>
+	<string>Erreur</string>
+	<key>CHECK_FOR_BACKUP_RESTORE</key>
+	<string>Restaurer</string>
+	<key>CLOUDKIT_STATUS_COULD_NOT_DETERMINE</key>
+	<string>Signal n’a pas pu déterminer l’état de votre compte iCloud. Connectez-vous à votre compte iCloud dans l’appli Réglages d’iOS pour sauvegarder vos données relatives à Signal.</string>
+	<key>CLOUDKIT_STATUS_NO_ACCOUNT</key>
+	<string>Il n’y a pas de compte iCloud. Connectez-vous à votre compte iCloud dans l’appli Réglages d’iOS pour sauvegarder vos données relatives à Signal.</string>
+	<key>CLOUDKIT_STATUS_RESTRICTED</key>
+	<string>Signal s’est vu refuser l’accès à votre compte iCloud pour effectuer des sauvegardes. Accordez l’accès à votre compte iCloud à Signal dans l’appli Réglages d’iOS pour sauvegarder vos données relatives à Signal.</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_1</key>
+	<string>Choisissez la couleur des messages sortants de cette conversation.</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_2</key>
+	<string>Vous seul verrez la couleur que vous avez choisie.</string>
+	<key>COLOR_PICKER_SHEET_TITLE</key>
+	<string>Couleur de la conversation</string>
+	<key>COMPARE_SAFETY_NUMBER_ACTION</key>
+	<string>Comparer avec le presse-papiers</string>
+	<key>COMPOSE_BUTTON_HINT</key>
+	<string>Sélectionnez ou recherchez un utilisateur de Signal avec lequel vous souhaitez commencer une conversation.</string>
+	<key>COMPOSE_BUTTON_LABEL</key>
+	<string>Rédiger</string>
+	<key>COMPOSE_MESSAGE_CONTACT_SECTION_TITLE</key>
+	<string>Contacts</string>
+	<key>COMPOSE_MESSAGE_GROUP_SECTION_TITLE</key>
+	<string>Groupes</string>
+	<key>COMPOSE_MESSAGE_PHONE_NUMBER_SEARCH_SECTION_TITLE</key>
+	<string>Recherche par numéro de téléphone</string>
+	<key>COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE</key>
+	<string>Recherche par nom d’utilisateur</string>
+	<key>COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION</key>
+	<string>Vous pouvez accorder l’accès aux contacts dans l’appli Réglages d’iOS pour voir qui de vos contacts utilise Signal.</string>
+	<key>CONFIRMATION_TITLE</key>
+	<string>Confirmer</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TEXT</key>
+	<string>Cela réinitialisera l’application en supprimant vos messages et en vous désinscrivant du serveur. L’appli se fermera une fois le processus terminé.</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TITLE</key>
+	<string>Voulez-vous vraiment supprimer votre compte ?</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TEXT</key>
+	<string>Cela réinitialisera l’application en supprimant tous vos messages de cet appareil. Vous pourrez encore relier votre téléphone de nouveau, mais cela ne récupérera pas les messages supprimés. L’appli se fermera une fois le processus terminé.</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TITLE</key>
+	<string>Voulez-vous vraiment supprimer toutes les données ?</string>
+	<key>CONFIRM_LEAVE_GROUP_DESCRIPTION</key>
+	<string>Vous ne pourrez plus recevoir ni envoyer de messages dans ce groupe.</string>
+	<key>CONFIRM_LEAVE_GROUP_TITLE</key>
+	<string>Voulez-vous vraiment quitter ce groupe ?</string>
+	<key>CONFIRM_LINK_NEW_DEVICE_ACTION</key>
+	<string>Relier un nouvel appareil</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT</key>
+	<string>%@ a peut-être réinstallé Signal ou changé d’appareil. Pour assurer la confidentialité, confirmez votre numéro de sécurité avec cet utilisateur.</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_TITLE_FORMAT</key>
+	<string>Le numéro de sécurité avec %@ a changé</string>
+	<key>CONTACT_ADDRESS</key>
+	<string>Adresse</string>
+	<key>CONTACT_CELL_IS_BLOCKED</key>
+	<string>Bloqué</string>
+	<key>CONTACT_CELL_IS_NO_LONGER_VERIFIED</key>
+	<string>Non vérifié</string>
+	<key>CONTACT_DETAIL_COMM_TYPE_INSECURE</key>
+	<string>Numéro non inscrit</string>
+	<key>CONTACT_EDIT_NAME_BUTTON</key>
+	<string>Modifier</string>
+	<key>CONTACT_EMAIL</key>
+	<string>Adresse courriel</string>
+	<key>CONTACT_FIELD_ADDRESS_CITY</key>
+	<string>Ville</string>
+	<key>CONTACT_FIELD_ADDRESS_COUNTRY</key>
+	<string>Pays</string>
+	<key>CONTACT_FIELD_ADDRESS_NEIGHBORHOOD</key>
+	<string>Quartier</string>
+	<key>CONTACT_FIELD_ADDRESS_POBOX</key>
+	<string>Boîte postale</string>
+	<key>CONTACT_FIELD_ADDRESS_POSTCODE</key>
+	<string>Code postal</string>
+	<key>CONTACT_FIELD_ADDRESS_REGION</key>
+	<string>Région</string>
+	<key>CONTACT_FIELD_ADDRESS_STREET</key>
+	<string>Rue</string>
+	<key>CONTACT_FIELD_FAMILY_NAME</key>
+	<string>Nom de famille</string>
+	<key>CONTACT_FIELD_GIVEN_NAME</key>
+	<string>Prénom</string>
+	<key>CONTACT_FIELD_MIDDLE_NAME</key>
+	<string>Deuxième prénom</string>
+	<key>CONTACT_FIELD_NAME_PREFIX</key>
+	<string>Titre</string>
+	<key>CONTACT_FIELD_NAME_SUFFIX</key>
+	<string>Suffixe</string>
+	<key>CONTACT_FIELD_ORGANIZATION</key>
+	<string>Organisation</string>
+	<key>CONTACT_PHONE</key>
+	<string>Téléphone</string>
+	<key>CONTACT_PICKER_NO_EMAILS_AVAILABLE</key>
+	<string>Aucune adresse courriel indiquée.</string>
+	<key>CONTACT_PICKER_NO_PHONE_NUMBERS_AVAILABLE</key>
+	<string>Aucun numéro de téléphone indiqué.</string>
+	<key>CONTACT_PICKER_TITLE</key>
+	<string>Sélectionner un contact</string>
+	<key>CONTACT_SHARE_APPROVAL_VIEW_TITLE</key>
+	<string>Partager un contact</string>
+	<key>CONTACT_SHARE_EDIT_NAME_VIEW_TITLE</key>
+	<string>Modifier le nom</string>
+	<key>CONTACT_SHARE_INVALID_CONTACT</key>
+	<string>Le contact est invalide</string>
+	<key>CONTACT_SHARE_NO_FIELDS_SELECTED</key>
+	<string>Aucun champ de contact n’a été sélectionné</string>
+	<key>CONTACT_SUPPORT</key>
+	<string>Contacter l’assistance</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY</key>
+	<string>Signal n’a pas pu terminer votre demande d’assistance.</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN</key>
+	<string>Ressayer</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_MESSAGE</key>
+	<string>Vos journaux de débogage nous aideront à résoudre votre problème plus rapidement. L’envoi de vos journaux est facultatif.</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_TITLE</key>
+	<string>Envoyer le journal de débogage ?</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITHOUT_LOG</key>
+	<string>Envoyer sans journal de débogage</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITH_LOG</key>
+	<string>Envoyer avec un journal de débogage</string>
+	<key>CONTACT_VIEW_OPEN_ADDRESS_IN_MAPS_APP</key>
+	<string>Ouvrir dans Maps</string>
+	<key>CONTACT_VIEW_OPEN_EMAIL_IN_EMAIL_APP</key>
+	<string>Envoyer un courriel</string>
+	<key>CONTACT_WITHOUT_NAME</key>
+	<string>Contact sans nom</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_MESSAGE</key>
+	<string>Cette suppression ne peut pas être annulée.</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_TITLE</key>
+	<string>Supprimer la conversation ?</string>
+	<key>CONVERSATION_MEDIA_VIEW_DOWNLOAD_IMAGE</key>
+	<string>Télécharger</string>
+	<key>CONVERSATION_PICKER_CAN_SELECT_NO_MORE_CONVERSATIONS</key>
+	<string>Vous ne pouvez pas sélectionner plus de %@ conversations.</string>
+	<key>CONVERSATION_PICKER_SECTION_GROUPS</key>
+	<string>Groupes</string>
+	<key>CONVERSATION_PICKER_SECTION_RECENTS</key>
+	<string>Conversations récentes</string>
+	<key>CONVERSATION_PICKER_SECTION_SIGNAL_CONTACTS</key>
+	<string>Personnes</string>
+	<key>CONVERSATION_PICKER_TITLE</key>
+	<string>Choix des destinataires</string>
+	<key>CONVERSATION_SEARCH_NO_RESULTS</key>
+	<string>Aucune correspondance</string>
+	<key>CONVERSATION_SEARCH_ONE_RESULT</key>
+	<string>1 correspondance</string>
+	<key>CONVERSATION_SEARCH_RESULTS_FORMAT</key>
+	<string>%d sur %dcorrespondances</string>
+	<key>CONVERSATION_SETTINGS</key>
+	<string>Paramètres de la conversation</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_EXISTING_CONTACT</key>
+	<string>Ajouter à un contact existant</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_SYSTEM_CONTACTS</key>
+	<string>Ajouter aux contacts système</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_GROUP</key>
+	<string>Bloquer ce groupe</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_USER</key>
+	<string>Bloquer cet utilisateur</string>
+	<key>CONVERSATION_SETTINGS_CONTACT_INFO_TITLE</key>
+	<string>À propos du contact</string>
+	<key>CONVERSATION_SETTINGS_CONVERSATION_COLOR</key>
+	<string>Couleur de la conversation</string>
+	<key>CONVERSATION_SETTINGS_GROUP_INFO_TITLE</key>
+	<string>Renseignements du groupe</string>
+	<key>CONVERSATION_SETTINGS_MUTED_UNTIL_FORMAT</key>
+	<string>jusqu’à %@</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ACTION_SHEET_TITLE</key>
+	<string>Sourdine</string>
+	<key>CONVERSATION_SETTINGS_MUTE_LABEL</key>
+	<string>Sourdine</string>
+	<key>CONVERSATION_SETTINGS_MUTE_NOT_MUTED</key>
+	<string>Désactivée</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_DAY_ACTION</key>
+	<string>Sourdine pendant 1 jour</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_HOUR_ACTION</key>
+	<string>Sourdine pendant 1 heure</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_MINUTE_ACTION</key>
+	<string>Sourdine pendant 1 minute</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_WEEK_ACTION</key>
+	<string>Sourdine pendant 1 semaine</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_YEAR_ACTION</key>
+	<string>Sourdine pendant 1 an</string>
+	<key>CONVERSATION_SETTINGS_NEW_CONTACT</key>
+	<string>Créer un nouveau contact</string>
+	<key>CONVERSATION_SETTINGS_SEARCH</key>
+	<string>Chercher dans la conversation</string>
+	<key>CONVERSATION_SETTINGS_TAP_TO_CHANGE</key>
+	<string>Touchez pour modifier</string>
+	<key>CONVERSATION_SETTINGS_UNMUTE_ACTION</key>
+	<string>Réactiver les notifications</string>
+	<key>CONVERSATION_SETTINGS_VIEW_IS_SYSTEM_CONTACT</key>
+	<string>Cet utilisateur est dans vos contacts.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_GROUP</key>
+	<string>Ce groupe peut voir votre profil.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_USER</key>
+	<string>Cet utilisateur peut voir votre profil.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE</key>
+	<string>Partager le profil</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_GROUP</key>
+	<string>Partager votre profil</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_USER</key>
+	<string>Partager votre profil</string>
+	<key>CONVERSATION_VIEW_ADD_TO_CONTACTS_OFFER</key>
+	<string>Ajouter aux contacts</string>
+	<key>CONVERSATION_VIEW_ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>Partagez votre profil avec cet utilisateur.</string>
+	<key>CONVERSATION_VIEW_CONTACTS_OFFER_TITLE</key>
+	<string>Cet utilisateur n’est pas dans vos contacts.</string>
+	<key>CONVERSATION_VIEW_LOADING_MORE_MESSAGES</key>
+	<string>Chargement de plus de messages…</string>
+	<key>CONVERSATION_VIEW_OVERSIZE_TEXT_TAP_FOR_MORE</key>
+	<string>Touchez pour plus de renseignements</string>
+	<key>CONVERSATION_VIEW_UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>Bloquer cet utilisateur</string>
+	<key>CORRUPTED_SESSION_DESCRIPTION</key>
+	<string>La réinitialisation de votre session vous permettra de recevoir les futurs messages de %@, mais elle ne récupérera pas les messages déjà corrompus.</string>
+	<key>COUNTRYCODE_SELECT_TITLE</key>
+	<string>Sélectionner l’indicatif de pays</string>
+	<key>CROP_SCALE_IMAGE_VIEW_TITLE</key>
+	<string>Déplacer et mettre à l’échelle</string>
+	<key>DATABASE_VIEW_OVERLAY_SUBTITLE</key>
+	<string>Cela peut prendre quelques minutes.</string>
+	<key>DATABASE_VIEW_OVERLAY_TITLE</key>
+	<string>Optimisation de la base de données</string>
+	<key>DATE_HOURS_AGO_FORMAT</key>
+	<string>Il y a %@ h</string>
+	<key>DATE_MINUTES_AGO_FORMAT</key>
+	<string>Il y a %@ min</string>
+	<key>DATE_NOW</key>
+	<string>À l’instant</string>
+	<key>DATE_TODAY</key>
+	<string>Aujourd’hui</string>
+	<key>DATE_YESTERDAY</key>
+	<string>Hier</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_COPY_LOGS</key>
+	<string>Impossible de copier les journaux.</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_PACKAGE_LOGS</key>
+	<string>Impossible de compresser les journaux.</string>
+	<key>DEBUG_LOG_ALERT_ERROR_UPLOADING_LOG</key>
+	<string>Impossible de téléverser les journaux.</string>
+	<key>DEBUG_LOG_ALERT_MESSAGE</key>
+	<string>Que voulez-vous faire avec le lien vers votre journal de débogage ?</string>
+	<key>DEBUG_LOG_ALERT_NO_LOGS</key>
+	<string>Aucun journal n’a été trouvé.</string>
+	<key>DEBUG_LOG_ALERT_OPTION_BUG_REPORT</key>
+	<string>Ouvrir un relevé de bogue</string>
+	<key>DEBUG_LOG_ALERT_OPTION_COPY_LINK</key>
+	<string>Copier le lien</string>
+	<key>DEBUG_LOG_ALERT_OPTION_EMAIL</key>
+	<string>Envoyer un courriel à l’assistance</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SEND_TO_SELF</key>
+	<string>Envoyer à soi-même</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SHARE</key>
+	<string>Partager</string>
+	<key>DEBUG_LOG_ALERT_TITLE</key>
+	<string>Plus qu’une étape</string>
+	<key>DEBUG_LOG_COULD_NOT_EMAIL</key>
+	<string>Impossible d’ouvrir l’appli de courriel</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_MESSAGE</key>
+	<string>Le lien gist a été copié dans votre presse-papiers. Vous êtes sur le point d’être redirigé vers la liste des problèmes de GitHub.</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE</key>
+	<string>Redirection vers GitHub</string>
+	<key>DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER</key>
+	<string>Inscrire ce numéro de téléphone de nouveau</string>
+	<key>DEREGISTRATION_WARNING</key>
+	<string>L’appareil n’est plus inscrit. Votre numéro de téléphone est peut-être inscrit à Signal sur un appareil différent. Touchez pour vous inscrire de nouveau.</string>
+	<key>DEVICE_LAST_ACTIVE_AT_LABEL</key>
+	<string>Dernière activité : %@</string>
+	<key>DEVICE_LINKED_AT_LABEL</key>
+	<string>Relié : %@</string>
+	<key>DEVICE_LIST_UPDATE_FAILED_TITLE</key>
+	<string>Échec de mise à jour de la liste des appareils</string>
+	<key>DISAPPEARING_MESSAGES</key>
+	<string>Messages éphémères</string>
+	<key>DISAPPEARING_MESSAGES_CONFIGURATION_GROUP_EXISTING_FORMAT</key>
+	<string>Les messages de cette conversation disparaîtront dans %@.</string>
+	<key>DISAPPEARING_MESSAGES_DESCRIPTION</key>
+	<string>Si cette option est activée, les messages envoyés et reçus de cette conversation disparaîtront après avoir été lus.</string>
+	<key>DISAPPEARING_MESSAGES_HINT</key>
+	<string>Actuellement, les messages disparaissent après %@</string>
+	<key>DISAPPEARING_MESSAGES_LABEL</key>
+	<string>Paramètres des messages éphémères</string>
+	<key>DISMISS_BUTTON_TEXT</key>
+	<string>Fermer</string>
+	<key>DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER</key>
+	<string>Lieu pour le contournement de la censure</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY</key>
+	<string>Vous pouvez accorder l’accès dans l’appli Réglages d’iOS.</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE</key>
+	<string>Signal a besoin d’accéder aux contacts pour modifier les renseignements des contacts</string>
+	<key>EDIT_GROUP_ACTION</key>
+	<string>Modifier le groupe</string>
+	<key>EDIT_GROUP_CONTACTS_SECTION_TITLE</key>
+	<string>Contacts</string>
+	<key>EDIT_GROUP_DEFAULT_TITLE</key>
+	<string>Modifier le groupe</string>
+	<key>EDIT_GROUP_NEW_MEMBER_LABEL</key>
+	<string>Ajouté</string>
+	<key>EDIT_GROUP_UPDATE_BUTTON</key>
+	<string>Mise à jour</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>Souhaitez-vous enregistrer les changements apportées à ce groupe ?</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>Changements non enregistrés</string>
+	<key>EDIT_ITEM_COPY_ACTION</key>
+	<string>Copier</string>
+	<key>EMAIL_INVITE_BODY</key>
+	<string>Bonjour,
+
+Dernièrement, j’ai utilisé Signal pour assurer la confidentialité des conversations sur mon iPhone. J’aimerais que vous l’installiez aussi afin que nous puissions être sûrs que seuls vous et moi pouvons lire nos messages ou entendre nos appels.
+
+Signal est proposée pour iPhone et Android. Obtenez-le ici : %@
+
+Signal fonctionne comme votre appli de messagerie existante. Nous pouvons envoyer des photos et des vidéos, effectuer des appels et lancer des conversations de groupe. Le grand intérêt est que personne d’autre ne peut rien voir de tout cela, pas même les créateurs de Signal.
+
+Vous pouvez en savoir davantage sur « Open Whisper Systems », les personnes derrière Signal, ici : %@.</string>
+	<key>EMAIL_INVITE_SUBJECT</key>
+	<string>Passons à Signal</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE1</key>
+	<string>Aucun de vos contacts n’utilise Signal.</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE2</key>
+	<string>Pourquoi ne pas inviter quelqu’un ?</string>
+	<key>ENABLE_2FA_VIEW_CONFIRM_PIN_INSTRUCTIONS</key>
+	<string>Confirmez votre NIP</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_DISABLE_2FA</key>
+	<string>Impossible de désactiver le blocage de l’inscription</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_ENABLE_2FA</key>
+	<string>Impossible d’activer le blocage de l’inscription</string>
+	<key>ENABLE_2FA_VIEW_DISABLE_2FA</key>
+	<string>Désactiver</string>
+	<key>ENABLE_2FA_VIEW_ENABLE_2FA</key>
+	<string>Activer</string>
+	<key>ENABLE_2FA_VIEW_NEXT_BUTTON</key>
+	<string>Suivant</string>
+	<key>ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH</key>
+	<string>Le NIP ne correspond pas.</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_LONG</key>
+	<string>Le NIP ne peut contenir plus de 20 chiffres.</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_SHORT</key>
+	<string>Le NIP doit comporter au moins quatre chiffres.</string>
+	<key>ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS</key>
+	<string>Saisissez un NIP de blocage de l’inscription. Il vous sera demandé de saisir ce NIP la prochaine fois que vous inscrirez ce numéro de téléphone à Signal.</string>
+	<key>ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS</key>
+	<string>Pour une sécurité accrue, définissez un NIP de blocage de l’inscription qui sera exigé afin de réinscrire ce numéro de téléphone à Signal.</string>
+	<key>ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS</key>
+	<string>Le blocage de l’inscription est activé. Vous devrez saisir votre NIP pour réinscrire votre numéro de téléphone à Signal.</string>
+	<key>ENABLE_2FA_VIEW_TITLE</key>
+	<string>Blocage de l’inscription</string>
+	<key>END_CALL_RESPONDER_IS_BUSY</key>
+	<string>Occupé</string>
+	<key>END_CALL_UNCATEGORIZED_FAILURE</key>
+	<string>Échec d’appel</string>
+	<key>END_OF_LIFE_OS_WARNING</key>
+	<string>Les dernières fonctionnalités de Signal ne sont pas compatibles avec cette version d’iOS. Veuillez mettre à niveau cet appareil afin de recevoir les mises à jour ultérieures de Signal.</string>
+	<key>ERROR_COULD_NOT_FETCH_CONTACTS</key>
+	<string>Impossible d’accéder aux contacts</string>
+	<key>ERROR_COULD_NOT_SAVE_VIDEO</key>
+	<string>Impossible d’enregistrer la vidéo.</string>
+	<key>ERROR_DESCRIPTION_CLIENT_SENDING_FAILURE</key>
+	<string>Échec d’envoi du message.</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_DISABLED_PREKEY_UPDATE_FAILURES</key>
+	<string>Impossible d’envoyer en raison de données de confidentialité périmées.</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST</key>
+	<string>Échec d’envoi du message, car vous avez bloqué cet utilisateur.</string>
+	<key>ERROR_DESCRIPTION_NO_INTERNET</key>
+	<string>Signal n’a pas pu se connecter à Internet. Veuillez ressayer ultérieurement.</string>
+	<key>ERROR_DESCRIPTION_NO_VALID_RECIPIENTS</key>
+	<string>Échec d’envoi du message en raison d’absence de destinataires valides.</string>
+	<key>ERROR_DESCRIPTION_REQUEST_FAILED</key>
+	<string>Échec de la requête réseau</string>
+	<key>ERROR_DESCRIPTION_REQUEST_TIMED_OUT</key>
+	<string>La demande réseau est arrivée au bout de son délai.</string>
+	<key>ERROR_DESCRIPTION_RESPONSE_FAILED</key>
+	<string>Réponse invalide du service</string>
+	<key>ERROR_DESCRIPTION_SENDING_UNAUTHORIZED</key>
+	<string>Cet appareil n’est plus inscrit avec votre numéro de téléphone. Veuillez réinstaller Signal.</string>
+	<key>ERROR_DESCRIPTION_SERVER_FAILURE</key>
+	<string>Erreur serveur. Veuillez ressayer ultérieurement.</string>
+	<key>ERROR_DESCRIPTION_UNKNOWN_ERROR</key>
+	<string>Une erreur inconnue est survenue.</string>
+	<key>ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT</key>
+	<string>Le contact n’est pas un utilisateur de Signal.</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED</key>
+	<string>Échec de téléchargement du fichier joint.</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT</key>
+	<string>Échec de fichier joint : demandez à ce contact de renvoyer son message après avoir mis Signal à jour vers la dernière version.</string>
+	<key>ERROR_MESSAGE_DUPLICATE_MESSAGE</key>
+	<string>Réception d’un message en double.</string>
+	<key>ERROR_MESSAGE_INVALID_KEY_EXCEPTION</key>
+	<string>La clé du destinataire est invalide.</string>
+	<key>ERROR_MESSAGE_INVALID_MESSAGE</key>
+	<string>Le message reçu était désynchronisé</string>
+	<key>ERROR_MESSAGE_INVALID_VERSION</key>
+	<string>Réception d’un message incompatible avec cette version.</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE</key>
+	<string>Le numéro de sécurité a changé.</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT</key>
+	<string>Votre numéro de sécurité avec %@ a changé.</string>
+	<key>ERROR_MESSAGE_NO_SESSION</key>
+	<string>Aucune session pour ce contact.</string>
+	<key>ERROR_MESSAGE_UNKNOWN_ERROR</key>
+	<string>Une erreur inconnue est survenue.</string>
+	<key>ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY</key>
+	<string>Le numéro de sécurité a changé.</string>
+	<key>ERROR_SENDING_DELINKED</key>
+	<string>Votre appareil n’est plus relié. Veuillez rétablir le lien pour envoyer de nouveaux messages.</string>
+	<key>ERROR_SENDING_DEREGISTERED</key>
+	<string>Votre appareil n’est plus inscrit. Veuillez le réinscrire pour envoyer de nouveaux messages.</string>
+	<key>ERROR_SENDING_EXPIRED</key>
+	<string>Votre version de Signal est expirée. Veuillez la mettre à jour pour envoyer de nouveaux messages.</string>
+	<key>ERROR_UNREGISTERED_USER_FORMAT</key>
+	<string>Utilisateur non inscrit : %@</string>
+	<key>EXPIRATION_ERROR</key>
+	<string>Votre version de Signal est expirée. Les messages ne seront plus envoyés correctement. Touchez pour passer à la version la plus récente.</string>
+	<key>EXPIRATION_WARNING_SOON</key>
+	<string>Votre version de Signal expirera dans %d jours. Touchez pour mettre à jour vers la version la plus récente.</string>
+	<key>EXPIRATION_WARNING_TODAY</key>
+	<string>Votre version de Signal expirera aujourd’hui. Touchez pour mettre à jour vers la version la plus récente.</string>
+	<key>FAILED_SENDING_BECAUSE_RATE_LIMIT</key>
+	<string>Trop d’échecs avec ce contact. Veuillez ressayer ultérieurement.</string>
+	<key>FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_KEY</key>
+	<string>Votre numéro de sécurité avec %@ a changé récemment. Vous devriez peut-être le confirmer avant de le renvoyer.</string>
+	<key>FAILED_VERIFICATION_TITLE</key>
+	<string>Échec de confirmation du numéro de sécurité.</string>
+	<key>FINGERPRINT_SCAN_VERIFY_BUTTON</key>
+	<string>Marquer comme vérifié</string>
+	<key>FINGERPRINT_SHRED_KEYMATERIAL_BUTTON</key>
+	<string>Réinitialiser la session.</string>
+	<key>FINISH_GROUP_CREATION_LABEL</key>
+	<string>Achever la création du groupe</string>
+	<key>FORWARD_CONTACT</key>
+	<string>Transférer un contact</string>
+	<key>FORWARD_MESSAGE</key>
+	<string>Transférer le message</string>
+	<key>GALLERY_TILES_EMPTY_GALLERY</key>
+	<string>Vous n’avez aucun média dans cette conversation.</string>
+	<key>GALLERY_TILES_LOADING_MORE_RECENT_LABEL</key>
+	<string>Chargement des médias plus récents…</string>
+	<key>GALLERY_TILES_LOADING_OLDER_LABEL</key>
+	<string>Chargement des médias plus anciens…</string>
+	<key>GENERIC_ATTACHMENT_LABEL</key>
+	<string>Fichier joint</string>
+	<key>GIF_PICKER_ERROR_FETCH_FAILURE</key>
+	<string>Échec de récupération du GIF demandé. Veuillez vérifier que vous êtes bien en ligne.</string>
+	<key>GIF_PICKER_ERROR_GENERIC</key>
+	<string>Une erreur inconnue est survenue.</string>
+	<key>GIF_PICKER_FAILURE_ALERT_TITLE</key>
+	<string>Impossible de choisir le GIF</string>
+	<key>GIF_PICKER_VIEW_MISSING_QUERY</key>
+	<string>Veuillez saisir votre recherche.</string>
+	<key>GIF_PICKER_VIEW_TITLE</key>
+	<string>Recherche de GIF</string>
+	<key>GIF_VIEW_SEARCH_ERROR</key>
+	<string>Erreur. Touchez pour ressayer.</string>
+	<key>GIF_VIEW_SEARCH_NO_RESULTS</key>
+	<string>Il n’y a aucun résultat.</string>
+	<key>GIF_VIEW_SEARCH_PLACEHOLDER_TEXT</key>
+	<string>Saisir votre recherche</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_BODY</key>
+	<string>Cette version de Signal comprend des optimisations de la base de données et des améliorations des performances. Vous devrez peut-être ouvrir l’appli pour terminer le processus.</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_TITLE</key>
+	<string>Optimisation de la base de données</string>
+	<key>GROUP_CREATED</key>
+	<string>Le groupe a été créé.</string>
+	<key>GROUP_CREATED_BY_LOCAL_USER</key>
+	<string>Vous avez créé le groupe.</string>
+	<key>GROUP_CREATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@ vous a ajouté au groupe.</string>
+	<key>GROUP_CREATION_FAILED</key>
+	<string>Les membres n’ont pas tous pu être ajoutés au groupe. Touchez pour ressayer.</string>
+	<key>GROUP_MANAGEMENT_SECTION</key>
+	<string>Gestion du groupe</string>
+	<key>GROUP_MEMBERS_CALL</key>
+	<string>Appeler</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED</key>
+	<string>Effacer les vérifications pour tous</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED_ALERT_MESSAGE</key>
+	<string>Cela annulera la vérification de tous les membres du groupe dont les numéros de sécurité ont changé depuis la dernière vérification.</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_MEMBERS</key>
+	<string>Membres</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_NO_LONGER_VERIFIED</key>
+	<string>N’est plus marqué comme vérifié</string>
+	<key>GROUP_MEMBERS_SEND_MESSAGE</key>
+	<string>Message</string>
+	<key>GROUP_MEMBER_LEFT</key>
+	<string>%@ a quitté le groupe.</string>
+	<key>GROUP_UPDATED</key>
+	<string>Le groupe a été mis à jour.</string>
+	<key>GROUP_UPDATED_ADDED_MULTIPLE_MEMBERS_FORMAT</key>
+	<string>%@ et %@ ont rejoint le groupe.</string>
+	<key>GROUP_UPDATED_ADDED_ONE_MEMBER_FORMAT</key>
+	<string>%@ a rejoint le groupe.</string>
+	<key>GROUP_UPDATED_AVATAR_REMOVED</key>
+	<string>Suppression de l’avatar du groupe.</string>
+	<key>GROUP_UPDATED_AVATAR_UPDATED</key>
+	<string>Mise à jour de l’avatar du groupe.</string>
+	<key>GROUP_UPDATED_BY_LOCAL_USER</key>
+	<string>Vous avez mis le groupe à jour.</string>
+	<key>GROUP_UPDATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@ a mis à jour le groupe.</string>
+	<key>GROUP_UPDATED_NAME_REMOVED</key>
+	<string>Suppression du nom.</string>
+	<key>GROUP_UPDATED_NAME_UPDATED_FORMAT</key>
+	<string>Le nom du groupe est désormais « %@ ».</string>
+	<key>GROUP_UPDATED_READDED_YOU</key>
+	<string>Vous avez réintégré le groupe.</string>
+	<key>GROUP_YOU_LEFT</key>
+	<string>Vous avez quitté le groupe.</string>
+	<key>HOME_VIEW_ARCHIVED_CONVERSATIONS</key>
+	<string>Conversations archivées</string>
+	<key>HOME_VIEW_BLOCKED_CONVERSATION</key>
+	<string>Bloquée</string>
+	<key>HOME_VIEW_CONVERSATION_SEARCHBAR_PLACEHOLDER</key>
+	<string>Rechercher</string>
+	<key>HOME_VIEW_DRAFT_PREFIX</key>
+	<string>Brouillon :</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT</key>
+	<string>Certains de vos contacts sont déjà sur Signal, dont %@.</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT</key>
+	<string>Certains de vos contacts sont déjà sur Signal, dont %@ et %@.</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT</key>
+	<string>Certains de vos contacts sont déjà sur Signal, dont %@, %@ et %@.</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS</key>
+	<string>Lancez votre première conversation ici.</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_ADDED_TO_GROUP_FORMAT</key>
+	<string>%@ vous a ajouté(e) au groupe</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_CONVERSATION</key>
+	<string>Demande de contact</string>
+	<key>HOME_VIEW_SEARCH_NO_RESULTS_FORMAT</key>
+	<string>Aucun résultat n’a été trouvé pour « %@ ».</string>
+	<key>HOME_VIEW_TITLE_ARCHIVE</key>
+	<string>Archives</string>
+	<key>HOME_VIEW_TITLE_INBOX</key>
+	<string>Signal</string>
+	<key>IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT</key>
+	<string>Vous ne pouvez pas partager plus de %@ éléments.</string>
+	<key>IMAGE_PICKER_FAILED_TO_PROCESS_ATTACHMENTS</key>
+	<string>Échec de sélection du fichier joint.</string>
+	<key>INBOX_VIEW_ARCHIVE_MODE_REMINDER</key>
+	<string>Ces conversations sont archivées et n’apparaîtront dans la boîte de réception que si de nouveaux messages sont reçus.</string>
+	<key>INBOX_VIEW_EMPTY_INBOX</key>
+	<string>Donnez à votre boîte de réception quelque chose à raconter. Commencez en envoyant un message à un ami.</string>
+	<key>INBOX_VIEW_MISSING_CONTACTS_PERMISSION</key>
+	<string>Vous pouvez accorder l’accès aux contacts dans l’appli Réglages d’iOS pour voir le nom des contacts dans votre liste de conversations de Signal.</string>
+	<key>INCOMING_CALL</key>
+	<string>Appel entrant</string>
+	<key>INCOMING_DECLINED_CALL</key>
+	<string>Vous avez refusé un appel</string>
+	<key>INCOMING_INCOMPLETE_CALL</key>
+	<string>Appel entrant</string>
+	<key>INFO_MESSAGE_MISSED_CALL_DUE_TO_CHANGED_IDENITY</key>
+	<string>L’appel a été manqué, car le numéro de sécurité de l’appelant a changé.</string>
+	<key>INFO_MESSAGE_SYNCED_THREAD</key>
+	<string>Vous pouvez envoyer ou recevoir des messages synchronisés à partir de votre téléphone ou de votre iPad.
+Pour votre sécurité, l’historique des conversations n’est pas transféré vers les appareils nouvellement reliés.</string>
+	<key>INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT</key>
+	<string>%@ est sur Signal.</string>
+	<key>INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>Autocollants</string>
+	<key>INPUT_TOOLBAR_VOICE_MEMO_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>Message vocal</string>
+	<key>INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE</key>
+	<string>Le fichier son est invalide</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY</key>
+	<string>Vous pouvez accorder l’accès aux contacts dans l’appli Réglages d’iOS pour inviter vos amis à se joindre à Signal.</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE</key>
+	<string>Autoriser l’accès aux contacts</string>
+	<key>INVITE_FRIENDS_CONTACT_TABLE_BUTTON</key>
+	<string>Inviter des amis à Signal</string>
+	<key>INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER</key>
+	<string>Chercher</string>
+	<key>INVITE_FRIENDS_PICKER_TITLE</key>
+	<string>Inviter des amis</string>
+	<key>INVITE_WARNING_MULTIPLE_INVITES_BY_TEXT</key>
+	<string>L’invitation simultanée de plusieurs utilisateurs enverra un message de groupe dont les destinataires se verront les uns les autres.</string>
+	<key>IN_CALL_CONNECTING</key>
+	<string>Connexion…</string>
+	<key>IN_CALL_RECONNECTING</key>
+	<string>Reconnexion…</string>
+	<key>IN_CALL_RINGING</key>
+	<string>Sonnerie…</string>
+	<key>IN_CALL_SECURING</key>
+	<string>Pris. Sécurisation…</string>
+	<key>IN_CALL_TERMINATED</key>
+	<string>Appel terminé</string>
+	<key>KEEP_MESSAGES_DURATION</key>
+	<string>Les messages disparaîtront après %@.</string>
+	<key>KEEP_MESSAGES_FOREVER</key>
+	<string>Les messages ne disparaîtront pas.</string>
+	<key>KEY_COMMAND_ALL_MEDIA</key>
+	<string>Aller dans Tous les médias</string>
+	<key>KEY_COMMAND_ARCHIVE</key>
+	<string>Archiver la conversation</string>
+	<key>KEY_COMMAND_ATTACHMENTS</key>
+	<string>Afficher les fichiers joints</string>
+	<key>KEY_COMMAND_CONVERSATION_INFO</key>
+	<string>Aller vers les infos de conversation</string>
+	<key>KEY_COMMAND_FOCUS_COMPOSER</key>
+	<string>Focus sur la barre de saisie</string>
+	<key>KEY_COMMAND_GIF_SEARCH</key>
+	<string>Aller à la recherche de GIF</string>
+	<key>KEY_COMMAND_NEW_GROUP</key>
+	<string>Nouveau groupe</string>
+	<key>KEY_COMMAND_NEW_MESSAGE</key>
+	<string>Nouveau message</string>
+	<key>KEY_COMMAND_NEXT_CONVERSATION</key>
+	<string>Aller à la conversation suivante</string>
+	<key>KEY_COMMAND_PREVIOUS_CONVERSATION</key>
+	<string>Aller à la conversation précédente</string>
+	<key>KEY_COMMAND_SEARCH</key>
+	<string>Chercher</string>
+	<key>KEY_COMMAND_SETTINGS</key>
+	<string>Paramètres</string>
+	<key>KEY_COMMAND_STICKERS</key>
+	<string>Afficher les autocollants</string>
+	<key>KEY_COMMAND_UNARCHIVE</key>
+	<string>Désarchiver la conversation</string>
+	<key>LEAVE_BUTTON_TITLE</key>
+	<string>Quitter</string>
+	<key>LEAVE_GROUP_ACTION</key>
+	<string>Quitter le groupe </string>
+	<key>LEAVE_GROUP_FAILED</key>
+	<string>Une erreur s’est produite en quittant le groupe.</string>
+	<key>LINKED_DEVICES_TITLE</key>
+	<string>Appareils reliés</string>
+	<key>LINKING_DEVICE_FAILED_TITLE</key>
+	<string>Échec de liaison de l’appareil</string>
+	<key>LINK_DEVICE_INVALID_CODE_BODY</key>
+	<string>Ce code QR n’est pas valide. Veuillez vous assurer de balayer le code QR affiché sur l’appareil que vous souhaitez relier.</string>
+	<key>LINK_DEVICE_INVALID_CODE_TITLE</key>
+	<string>Échec de liaison de l’appareil</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_BODY</key>
+	<string>Cet appareil pourra voir vos groupes et contacts, accéder à vos conversations et envoyer des messages en votre nom.</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_TITLE</key>
+	<string>Relier cet appareil ?</string>
+	<key>LINK_DEVICE_RESTART</key>
+	<string>Ressayer</string>
+	<key>LINK_DEVICE_SCANNING_INSTRUCTIONS</key>
+	<string>Balayez le code QR affiché sur l’appareil que vous souhaitez relier.</string>
+	<key>LINK_NEW_DEVICE_SUBTITLE</key>
+	<string>Balayer le code QR</string>
+	<key>LINK_NEW_DEVICE_TITLE</key>
+	<string>Relier un nouvel appareil</string>
+	<key>LINK_PREVIEW_UNKNOWN_DOMAIN</key>
+	<string>Aperçu de lien</string>
+	<key>LIST_GROUP_MEMBERS_ACTION</key>
+	<string>Membres du groupe</string>
+	<key>LOCATION_PICKER_SEARCH_PLACEHOLDER</key>
+	<string>Chercher par nom ou adresse</string>
+	<key>LOCATION_PICKER_TITLE</key>
+	<string>Sélectionner un emplacement</string>
+	<key>LOGGING_SECTION</key>
+	<string>Journalisation</string>
+	<key>LONG_TEXT_VIEW_TITLE</key>
+	<string>Message</string>
+	<key>MEDIA_DETAIL_VIEW_ALL_MEDIA_BUTTON</key>
+	<string>Tous les médias</string>
+	<key>MEDIA_FROM_CAMERA_BUTTON</key>
+	<string>Appareil photo</string>
+	<key>MEDIA_FROM_LIBRARY_BUTTON</key>
+	<string>Photothèque</string>
+	<key>MEDIA_GALLERY_DELETE_MULTIPLE_MESSAGES_FORMAT</key>
+	<string>Supprimer %d messages</string>
+	<key>MEDIA_GALLERY_DELETE_SINGLE_MESSAGE</key>
+	<string>Supprimer le message</string>
+	<key>MEDIA_GALLERY_MORE_ITEMS_FORMAT</key>
+	<string>+ %@</string>
+	<key>MEDIA_GALLERY_SENDER_NAME_YOU</key>
+	<string>Vous</string>
+	<key>MEDIA_GALLERY_THIS_MONTH_HEADER</key>
+	<string>Ce mois-ci</string>
+	<key>MEGAPHONE_REMIND_LATER</key>
+	<string>Me le rappeler plus tard</string>
+	<key>MEGAPHONE_WILL_REMIND_LATER</key>
+	<string>Nous vous le rappellerons ultérieurement.</string>
+	<key>MESSAGES_VIEW_1_MEMBER_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>%@ n’est plus marqué comme vérifié. Touchez pour plus d’options.</string>
+	<key>MESSAGES_VIEW_CONTACT_BLOCKED</key>
+	<string>Vous avez bloqué cet utilisateur</string>
+	<key>MESSAGES_VIEW_CONTACT_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>%@ n’est plus marqué comme vérifié. Touchez pour plus d’options.</string>
+	<key>MESSAGES_VIEW_GROUP_1_MEMBER_BLOCKED</key>
+	<string>Vous avez bloqué un membre de ce groupe</string>
+	<key>MESSAGES_VIEW_GROUP_BLOCKED</key>
+	<string>Vous avez bloqué ce groupe</string>
+	<key>MESSAGES_VIEW_GROUP_N_MEMBERS_BLOCKED_FORMAT</key>
+	<string>Vous avez bloqué %@ membres de ce groupe</string>
+	<key>MESSAGES_VIEW_N_MEMBERS_NO_LONGER_VERIFIED</key>
+	<string>Plus d’un membre de ce groupe n’est plus marqué comme vérifié. Touchez pour plus d’options.</string>
+	<key>MESSAGES_VIEW_TITLE_SUBTITLE</key>
+	<string>Toucher ici pour les paramètres</string>
+	<key>MESSAGES_VIEW_UNREAD_INDICATOR</key>
+	<string>Nouveaux messages</string>
+	<key>MESSAGE_ACTION_COPY_TEXT</key>
+	<string>Copier le texto</string>
+	<key>MESSAGE_ACTION_DELETE_MESSAGE</key>
+	<string>Supprimer ce message</string>
+	<key>MESSAGE_ACTION_DETAILS</key>
+	<string>Plus d’infos</string>
+	<key>MESSAGE_ACTION_FORWARD_MESSAGE</key>
+	<string>Transférer ce message</string>
+	<key>MESSAGE_ACTION_REPLY</key>
+	<string>Répondre à ce message</string>
+	<key>MESSAGE_ACTION_SHARE_MEDIA</key>
+	<string>Partager un média</string>
+	<key>MESSAGE_APPROVAL_DIALOG_TITLE</key>
+	<string>Message</string>
+	<key>MESSAGE_COMPOSEVIEW_TITLE</key>
+	<string>Nouveau message</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_FILE_SIZE</key>
+	<string>Taille du fichier</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_MIME_TYPE</key>
+	<string>Type MIME</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_DELIVERED</key>
+	<string>Remis</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_FAILED</key>
+	<string>Échec</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_READ</key>
+	<string>Lu</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENDING</key>
+	<string>Envoi</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENT</key>
+	<string>Envoyé</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SKIPPED</key>
+	<string>Ignorés</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_UPLOADING</key>
+	<string>Téléversement</string>
+	<key>MESSAGE_METADATA_VIEW_NO_ATTACHMENT_OR_BODY</key>
+	<string>Le message n’a ni contenu ni fichier joint</string>
+	<key>MESSAGE_METADATA_VIEW_RECEIVED_DATE_TIME</key>
+	<string>Reçu</string>
+	<key>MESSAGE_METADATA_VIEW_SENDER</key>
+	<string>Expéditeur</string>
+	<key>MESSAGE_METADATA_VIEW_SENT_DATE_TIME</key>
+	<string>Envoyé</string>
+	<key>MESSAGE_METADATA_VIEW_SOURCE_FILENAME</key>
+	<string>Nom du fichier</string>
+	<key>MESSAGE_METADATA_VIEW_TITLE</key>
+	<string>Message</string>
+	<key>MESSAGE_REQUESTS_NAMES_SPLASH_TITLE</key>
+	<string>Nous présentons les demandes de contact</string>
+	<key>MESSAGE_REQUESTS_SPLASH_ADD_PROFILE_NAME_BUTTON</key>
+	<string>Ajouter un nom de profil</string>
+	<key>MESSAGE_REQUESTS_SPLASH_BODY</key>
+	<string>Vous pouvez maintenant choisir d’« Accepter » ou de « Supprimer » une nouvelle conversation. Les noms permettent aux gens de savoir qui leur envoie un message.</string>
+	<key>MESSAGE_REQUESTS_SPLASH_MEGAPHONE_TOAST</key>
+	<string>Votre nom de profil a été enregistré.</string>
+	<key>MESSAGE_REQUEST_BLOCK_ACTION</key>
+	<string>Bloquer</string>
+	<key>MESSAGE_REQUEST_BLOCK_AND_DELETE_ACTION</key>
+	<string>Bloquer et supprimer</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_MESSAGE</key>
+	<string>Les personnes bloquées ne pourront ni vous appeler ni vous envoyer de messages.</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_TITLE_FORMAT</key>
+	<string>Bloquer %@ ?</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_MESSAGE</key>
+	<string>Vous quitterez ce groupe et ne recevrez plus de messages ni de mises à jour.</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>Bloquer et quitter %@ ?</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION</key>
+	<string>Supprimer</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_MESSAGE</key>
+	<string>Cette conversation sera supprimée de tous vos appareils.</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_TITLE</key>
+	<string>Supprimer la conversation ?</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION</key>
+	<string>Supprimer et quitter</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE</key>
+	<string>Vous quitterez ce groupe et il sera supprimé de tous vos appareils.</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE</key>
+	<string>Supprimer et quitter le groupe ?</string>
+	<key>MESSAGE_REQUEST_VIEW_ACCEPT_BUTTON</key>
+	<string>Accepter</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_CONTACT_PROMPT_FORMAT</key>
+	<string>Souhaitez-vous autoriser %@ à vous envoyer des messages ? Vous ne recevrez aucun message tant que vous ne les aurez pas débloqués.</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_GROUP_PROMPT_FORMAT</key>
+	<string>Souhaitez-vous autoriser le groupe %@ à vous envoyer des messages ? Vous ne recevrez aucun message tant que vous ne les aurez pas débloqués.</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCK_BUTTON</key>
+	<string>Bloquer</string>
+	<key>MESSAGE_REQUEST_VIEW_DELETE_BUTTON</key>
+	<string>Supprimer</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_CONTACT_PROMPT_FORMAT</key>
+	<string>Vous devez partager votre profil afin de poursuivre votre conversation avec %@.</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_GROUP_PROMPT_FORMAT</key>
+	<string>Vous devez partager votre profil afin de poursuivre votre conversation dans %@.</string>
+	<key>MESSAGE_REQUEST_VIEW_LEARN_MORE_BUTTON</key>
+	<string>En savoir plus</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_CONTACT_PROMPT_FORMAT</key>
+	<string>Souhaitez-vous autoriser %@ à vous envoyer des messages ? L’utilisateur ne saura pas que vous avez lu ses messages tant que vous n’aurez pas accepté.</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_GROUP_PROMPT_FORMAT</key>
+	<string>Voulez-vous vous joindre au groupe %@ ? Ils ne sauront pas que vous avez lu leurs messages tant que vous n’aurez pas accepté.</string>
+	<key>MESSAGE_REQUEST_VIEW_SHARE_PROFILE_BUTTON</key>
+	<string>Partager le profil</string>
+	<key>MESSAGE_REQUEST_VIEW_UNBLOCK_BUTTON</key>
+	<string>Débloquer</string>
+	<key>MESSAGE_STATUS_DELIVERED</key>
+	<string>Remis</string>
+	<key>MESSAGE_STATUS_DOWNLOADING</key>
+	<string>Téléchargement</string>
+	<key>MESSAGE_STATUS_FAILED</key>
+	<string>Échec d’envoi.</string>
+	<key>MESSAGE_STATUS_FAILED_SHORT</key>
+	<string>En échec</string>
+	<key>MESSAGE_STATUS_READ</key>
+	<string>Lu</string>
+	<key>MESSAGE_STATUS_RECIPIENT_SKIPPED</key>
+	<string>Ignoré</string>
+	<key>MESSAGE_STATUS_SENDING</key>
+	<string>Envoi…</string>
+	<key>MESSAGE_STATUS_SEND_FAILED</key>
+	<string>Échec d’envoi</string>
+	<key>MESSAGE_STATUS_SENT</key>
+	<string>Envoyé</string>
+	<key>MESSAGE_STATUS_UPLOADING</key>
+	<string>Téléversement…</string>
+	<key>MESSAGE_TEXT_FIELD_PLACEHOLDER</key>
+	<string>Nouveau message</string>
+	<key>MISSED_CALL</key>
+	<string>Appel manqué</string>
+	<key>MISSING_CAMERA_PERMISSION_MESSAGE</key>
+	<string>Vous pouvez accorder l’accès à l’appareil photo dans l’appli Réglages d’iOS pour passer des appels vidéo avec Signal.</string>
+	<key>MISSING_CAMERA_PERMISSION_TITLE</key>
+	<string>Signal a besoin d’accéder à votre appareil photo.</string>
+	<key>MISSING_LOCATION_PERMISSION_MESSAGE</key>
+	<string>Vous pouvez accorder cette autorisation dans l’appli Réglages d’iOS.</string>
+	<key>MISSING_LOCATION_PERMISSION_TITLE</key>
+	<string>Signal a besoin de connaître votre position pour cette fonction.</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE</key>
+	<string>Vous pouvez accorder cette autorisation dans l’appli Réglages d’iOS.</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_TITLE</key>
+	<string>Signal doit accéder à vos photos pour cette option.</string>
+	<key>MULTIDEVICE_PAIRING_MAX_DESC</key>
+	<string>Impossible de relier d’autres appareils.</string>
+	<key>MULTIDEVICE_PAIRING_MAX_RECOVERY</key>
+	<string>Vous avez atteint le nombre maximal d’appareils que vous pouvez relier actuellement à votre compte. Veuillez supprimer un appareil et ressayer.</string>
+	<key>MUTE_BEHAVIOR_EXPLANATION</key>
+	<string>Vous ne recevrez pas de notifications pour les conversations en sourdine.</string>
+	<key>NAVIGATION_ITEM_SKIP_BUTTON</key>
+	<string>Ignorer</string>
+	<key>NETWORK_ERROR_RECOVERY</key>
+	<string>Veuillez vous assurer d’être en ligne et ressayer.</string>
+	<key>NEW_CONVERSATION_FIND_BY_PHONE_NUMBER</key>
+	<string>Trouver par numéro de téléphone</string>
+	<key>NEW_GROUP_ADD_PHOTO_ACTION</key>
+	<string>Définir la photo du groupe</string>
+	<key>NEW_GROUP_BUTTON_LABEL</key>
+	<string>Créer un nouveau groupe</string>
+	<key>NEW_GROUP_CREATE_BUTTON</key>
+	<string>Créer</string>
+	<key>NEW_GROUP_CREATION_FAILED</key>
+	<string>Le nouveau groupe n’a pas pu être créé.</string>
+	<key>NEW_GROUP_DEFAULT_TITLE</key>
+	<string>Nouveau groupe</string>
+	<key>NEW_GROUP_MEMBER_LABEL</key>
+	<string>Membre</string>
+	<key>NEW_GROUP_MESSAGE_NOTIFICATION_TITLE</key>
+	<string>%@ à %@</string>
+	<key>NEW_GROUP_NAMEGROUP_REQUEST_DEFAULT</key>
+	<string>Nommer cette conversation de groupe</string>
+	<key>NEW_GROUP_NON_CONTACTS_SECTION_TITLE</key>
+	<string>Autres utilisateurs</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>Souhaitez-vous abandonner ces changements ?</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>Changements non enregistrés</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_BUTTON</key>
+	<string>Chercher</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_TITLE</key>
+	<string>Trouver un utilisateur</string>
+	<key>NON_CONTACT_TABLE_CELL_NEW_MESSAGE</key>
+	<string>Nouveau message pour :</string>
+	<key>NON_CONTACT_TABLE_CELL_SEND_SMS</key>
+	<string>Aucun utilisateur n’a été trouvé. Inviter par texto ?</string>
+	<key>NOTE_TO_SELF</key>
+	<string>Note à mon intention</string>
+	<key>NOTIFICATIONS_FOOTER_WARNING</key>
+	<string>Les actions sont « Marquer comme lu », « Répondre » et « Rappeler ».</string>
+	<key>NOTIFICATIONS_NONE</key>
+	<string>Ni nom ni contenu</string>
+	<key>NOTIFICATIONS_SECTION_INAPP</key>
+	<string>Jouer pendant que l’appli est ouverte</string>
+	<key>NOTIFICATIONS_SECTION_SOUNDS</key>
+	<string>Sons</string>
+	<key>NOTIFICATIONS_SENDER_AND_MESSAGE</key>
+	<string>Nom, contenu et actions</string>
+	<key>NOTIFICATIONS_SENDER_ONLY</key>
+	<string>Nom seulement</string>
+	<key>NOTIFICATIONS_SHOW</key>
+	<string>Afficher</string>
+	<key>NOTIFICATION_BODY_PHONE_LOCKED_FORMAT</key>
+	<string>Vous avez peut-être reçu des messages alors que votre %@ redémarrait.</string>
+	<key>NO_CONTACTS_SEARCH_BY_PHONE_NUMBER</key>
+	<string>Trouver des contacts par numéro de téléphone</string>
+	<key>NO_SELECTED_CONVERSATION_DESCRIPTION</key>
+	<string>Sélectionnez un contact ou un groupe pour lancer une conversation.</string>
+	<key>NO_SELECTED_CONVERSATION_TITLE</key>
+	<string>Bienvenue sur Signal</string>
+	<key>OK</key>
+	<string>Valider</string>
+	<key>ONBOARDING_2FA_ATTEMPTS_EXHAUSTED</key>
+	<string>Le NIP est erroné. Vous avez épuisez le nombre d’essais.</string>
+	<key>ONBOARDING_2FA_ENTER_ALPHANUMERIC</key>
+	<string>Saisir un NIP alphanumérique</string>
+	<key>ONBOARDING_2FA_ENTER_NUMERIC</key>
+	<string>Saisir un NIP numérique</string>
+	<key>ONBOARDING_2FA_FORGOT_PIN_LINK</key>
+	<string>Besoin d’aide ?</string>
+	<key>ONBOARDING_2FA_INVALID_PIN</key>
+	<string>Le NIP est erroné</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_PLURAL_FORMAT</key>
+	<string>Le NIP est erroné. Il reste %lu essais.</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_SINGLE</key>
+	<string>Le NIP est erroné. Il reste 1 essai.</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_EXPLANATION</key>
+	<string>Pour protéger vos données personnelles et la sécurité de votre compte, nous avons bloqué ce dernier pour 7 jours.
+
+Après 7 jours d’inactivité, vous pourrez à nouveau enregistrer ce numéro de téléphone sans avoir besoin de NIP. Tout le contenu sera effacé.</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_LEARN_MORE</key>
+	<string>En savoir plus sur les comptes verrouillés</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_TITLE</key>
+	<string>Compte verrouillé</string>
+	<key>ONBOARDING_CAPTCHA_TITLE</key>
+	<string>Ajoutez une touche d’humanité à vos messages</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING</key>
+	<string>Inscrire l’iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING</key>
+	<string>Relier l’iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING</key>
+	<string>Toucher « Inscrire l’iPad », vous permettra de créer un tout nouveau compte Signal ou de transférer un compte existant vers cet iPad. Cela désactivera Signal sur tout autre appareil actuellement inscrit avec le même numéro de téléphone.</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING</key>
+	<string>Toucher « Relier l’iPhone », vous permettra de connecter votre téléphone à un compte existant. Il n’est généralement pas recommandé de relier votre téléphone et cela limitera certaines fonctions telles que les appels.</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_PROVISIONING</key>
+	<string>Inscrire cet iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_REGISTERING</key>
+	<string>Relier cet iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING</key>
+	<string>Inscrire cet iPad désactivera Signal sur tout autre appareil actuellement inscrit avec ce même numéro de téléphone.</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_REGISTERING</key>
+	<string>Relier votre iPhone n’est pas recommandé et limitera les fonctionnalités de base.</string>
+	<key>ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON</key>
+	<string>Accorder les autorisations</string>
+	<key>ONBOARDING_PERMISSIONS_EXPLANATION</key>
+	<string>Les notifications vous permettent de voir quand des messages arrivent et de recevoir des alertes sur l’activité des conversations.</string>
+	<key>ONBOARDING_PERMISSIONS_TITLE</key>
+	<string>Recevez le message</string>
+	<key>ONBOARDING_PHONE_NUMBER_TITLE</key>
+	<string>Saisissez votre numéro de téléphone pour commencer</string>
+	<key>ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING</key>
+	<string>Le numéro est invalide</string>
+	<key>ONBOARDING_PIN_EXPLANATION</key>
+	<string>Saisissez le NIP que vous avez créé pour votre compte. Il est différent de votre code de vérification reçu par texto.</string>
+	<key>ONBOARDING_PIN_TITLE</key>
+	<string>Entrer votre NIP</string>
+	<key>ONBOARDING_SPLASH_TERM_AND_PRIVACY_POLICY</key>
+	<string>Conditions générales d’utilisation et politique de confidentialité</string>
+	<key>ONBOARDING_SPLASH_TITLE</key>
+	<string>La confidentialité dans votre poche.
+Pour que chaque message reflète qui vous êtes.</string>
+	<key>ONBOARDING_VERIFICATION_BACK_LINK</key>
+	<string>Mauvais numéro ?</string>
+	<key>ONBOARDING_VERIFICATION_CODE_COUNTDOWN_FORMAT</key>
+	<string>Je n’ai pas reçu de code (disponible dans %@)</string>
+	<key>ONBOARDING_VERIFICATION_EMAIL_SIGNAL_SUPPORT</key>
+	<string>Contacter l’assistance de Signal</string>
+	<key>ONBOARDING_VERIFICATION_INVALID_CODE</key>
+	<string>Ce code est erroné</string>
+	<key>ONBOARDING_VERIFICATION_ORIGINAL_CODE_MISSING_LINK</key>
+	<string>Je n’ai pas reçu de code</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_MESSAGE</key>
+	<string>Assurez-vous que le service de téléphonie mobile est actif et que vous pouvez recevoir des textos.</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_TITLE</key>
+	<string>Aucun code reçu ?</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_SMS_BUTTON</key>
+	<string>Renvoyer le code.</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_VOICE_BUTTON</key>
+	<string>Appelez-moi plutôt</string>
+	<key>ONBOARDING_VERIFICATION_RESENT_CODE_MISSING_LINK</key>
+	<string>Toujours pas de code ?</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_DEFAULT_FORMAT</key>
+	<string>Saisir le code envoyé au %@</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_RESENT_FORMAT</key>
+	<string>Nous venons de renvoyer un code au %@</string>
+	<key>OPEN_SETTINGS_BUTTON</key>
+	<string>Paramètres</string>
+	<key>OTHER_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>%@ a désactivé les messages éphémères.</string>
+	<key>OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>%@ a défini l’expiration des messages éphémères à %@.</string>
+	<key>OUTAGE_WARNING</key>
+	<string>Signal éprouve des difficultés techniques. Nous mettons tout en œuvre pour restaurer le service aussi rapidement que possible.</string>
+	<key>OUTGOING_CALL</key>
+	<string>Appel sortant</string>
+	<key>OUTGOING_INCOMPLETE_CALL</key>
+	<string>Appel sortant</string>
+	<key>OUTGOING_MISSED_CALL</key>
+	<string>Appel sortant sans réponse</string>
+	<key>OVERSIZE_TEXT_DISPLAY_FORMAT</key>
+	<string>%@…</string>
+	<key>PDF_VIEW_COULD_NOT_RENDER</key>
+	<string>Impossible d’afficher le fichier PDF</string>
+	<key>PDF_VIEW_TITLE</key>
+	<string>PDF</string>
+	<key>PER_MESSAGE_EXPIRATION_INVALID_CONTENT</key>
+	<string>Erreur de traitement du message entrant</string>
+	<key>PER_MESSAGE_EXPIRATION_NOT_VIEWABLE</key>
+	<string>Média éphémère</string>
+	<key>PER_MESSAGE_EXPIRATION_OUTGOING_MESSAGE</key>
+	<string>Médias</string>
+	<key>PER_MESSAGE_EXPIRATION_PHOTO_PREVIEW</key>
+	<string>Photo éphémère</string>
+	<key>PER_MESSAGE_EXPIRATION_VIDEO_PREVIEW</key>
+	<string>Vidéo éphémère</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEWED</key>
+	<string>Vu</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_PHOTO</key>
+	<string>Afficher la photo</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_VIDEO</key>
+	<string>Voir la vidéo</string>
+	<key>PHONE_NUMBER_EXAMPLE_FORMAT</key>
+	<string>Exemple : %@</string>
+	<key>PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT</key>
+	<string>%@ %@</string>
+	<key>PHONE_NUMBER_TYPE_HOME</key>
+	<string>Domicile</string>
+	<key>PHONE_NUMBER_TYPE_HOME_FAX</key>
+	<string>Télécopieur domicile</string>
+	<key>PHONE_NUMBER_TYPE_IPHONE</key>
+	<string>iPhone</string>
+	<key>PHONE_NUMBER_TYPE_MAIN</key>
+	<string>Principal</string>
+	<key>PHONE_NUMBER_TYPE_MOBILE</key>
+	<string>Mobile</string>
+	<key>PHONE_NUMBER_TYPE_OTHER</key>
+	<string>Autre</string>
+	<key>PHONE_NUMBER_TYPE_OTHER_FAX</key>
+	<string>Autre télécopieur</string>
+	<key>PHONE_NUMBER_TYPE_PAGER</key>
+	<string>Téléavertisseur </string>
+	<key>PHONE_NUMBER_TYPE_UNKNOWN</key>
+	<string>Inconnu</string>
+	<key>PHONE_NUMBER_TYPE_WORK</key>
+	<string>Travail</string>
+	<key>PHONE_NUMBER_TYPE_WORK_FAX</key>
+	<string>Télécopieur travail</string>
+	<key>PHOTO_CAPTURE_GENERIC_ERROR</key>
+	<string>Impossible de prendre la photo.</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_CAPTURE_IMAGE</key>
+	<string>Impossible de prendre la photo.</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_INITIALIZE_CAMERA</key>
+	<string>Échec de configuration de l’appareil photo</string>
+	<key>PHOTO_PICKER_UNNAMED_COLLECTION</key>
+	<string>Album sans nom</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_ACTION</key>
+	<string>Mettre le NIP à jour</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_BODY</key>
+	<string>Votre blocage de l’inscription s’appelle désormais un NIP. Le mettre à jour ne prendra que quelques secondes.</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>Nous vous le rappellerons ultérieurement. La mise à jour de votre NIP deviendra obligatoire dans %ld jours.</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_TITLE</key>
+	<string>Nous présentons les NIP</string>
+	<key>PINS_MEGAPHONE_NO_PIN_ACTION</key>
+	<string>Créer un NIP</string>
+	<key>PINS_MEGAPHONE_NO_PIN_BODY</key>
+	<string>Les NIP ajoutent une couche supplémentaire de sécurité à votre compte Signal.</string>
+	<key>PINS_MEGAPHONE_NO_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>Nous vous le rappellerons ultérieurement. La création d’un NIP deviendra obligatoire dans %ld jours.</string>
+	<key>PINS_MEGAPHONE_NO_PIN_TITLE</key>
+	<string>Créer un NIP</string>
+	<key>PINS_MEGAPHONE_TOAST</key>
+	<string>NIP créé. Vous pouvez le changer dans les paramètres.</string>
+	<key>PIN_CREATION_ALPHANUMERIC_HINT</key>
+	<string>Votre NIP doit comporter au moins six caractères</string>
+	<key>PIN_CREATION_CHANGING_TITLE</key>
+	<string>Changer votre NIP</string>
+	<key>PIN_CREATION_CONFIRMATION_EXPLANATION</key>
+	<string>Confirmez votre nouveau NIP.</string>
+	<key>PIN_CREATION_CREATE_ALPHANUMERIC</key>
+	<string>Créer un NIP alphanumérique</string>
+	<key>PIN_CREATION_CREATE_NUMERIC</key>
+	<string>Créer un NIP numérique</string>
+	<key>PIN_CREATION_ERROR_MESSAGE</key>
+	<string>Votre NIP n’a pas été enregistré. Nous vous proposerons de créer un NIP ultérieurement.</string>
+	<key>PIN_CREATION_ERROR_TITLE</key>
+	<string>Échec de la création du NIP</string>
+	<key>PIN_CREATION_EXPLANATION</key>
+	<string>Les NIP renforcent la sécurité de votre compte et ne peuvent pas être récupérés. Vous aurez besoin de votre NIP pour vous réinscrire sur Signal.</string>
+	<key>PIN_CREATION_MISMATCH_ERROR</key>
+	<string>Les NIP ne correspondent pas. Veuillez ressayez.</string>
+	<key>PIN_CREATION_NUMERIC_HINT</key>
+	<string>Votre NIP doit comporter au moins six chiffres</string>
+	<key>PIN_CREATION_PIN_CONFIRMATION_HINT</key>
+	<string>Saisissez le NIP de nouveau.</string>
+	<key>PIN_CREATION_PIN_PROGRESS</key>
+	<string>Création du NIP…</string>
+	<key>PIN_CREATION_RECREATION_EXPLANATION</key>
+	<string>Vous pouvez choisir un nouveau NIP car cet appareil est enregistré. Si vous oubliez votre NIP, vous devrez peut-être attendre 7 jours pour l’enregistrer à nouveau.</string>
+	<key>PIN_CREATION_RECREATION_TITLE</key>
+	<string>Créer un nouveau NIP</string>
+	<key>PIN_CREATION_TITLE</key>
+	<string>Créer votre NIP</string>
+	<key>PIN_CREATION_TOO_SHORT_ERROR</key>
+	<string>Le NIP doit comporter au moins 6 chiffres.</string>
+	<key>PIN_REMINDER_EXPLANATION</key>
+	<string>Pour vous aider à mémoriser votre NIP, nous vous demanderons de le saisir régulièrement. Nous vous le demanderons de moins en moins souvent.</string>
+	<key>PIN_REMINDER_FORGOT_PIN</key>
+	<string>Avez-vous oublié votre NIP ?</string>
+	<key>PIN_REMINDER_MEGAPHONE_ACTION</key>
+	<string>Confirmer le NIP</string>
+	<key>PIN_REMINDER_MEGAPHONE_BODY</key>
+	<string>Nous vous demanderons occasionnellement de confirmer votre NIP afin que vous vous en souveniez.</string>
+	<key>PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST</key>
+	<string>Nous vous ferons un rappel dans quelques jours.</string>
+	<key>PIN_REMINDER_MEGAPHONE_TITLE</key>
+	<string>Confirmez votre NIP Signal</string>
+	<key>PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST</key>
+	<string>Nous vous ferons un rappel demain.</string>
+	<key>PIN_REMINDER_MEGAPHONE_TWO_WEEK_TOAST</key>
+	<string>Nous vous ferons un rappel dans deux semaines.</string>
+	<key>PIN_REMINDER_MEGAPHONE_WEEK_TOAST</key>
+	<string>Nous vous ferons un rappel dans une semaine.</string>
+	<key>PIN_REMINDER_MISMATCH_ERROR</key>
+	<string>NIP invalide, essayez encore.</string>
+	<key>PIN_REMINDER_TITLE</key>
+	<string>Saisissez votre NIP Signal</string>
+	<key>PIN_REMINDER_TOO_SHORT_ERROR</key>
+	<string>Le NIP doit comporter au moins 6 chiffres.</string>
+	<key>PLAY_BUTTON_ACCESSABILITY_LABEL</key>
+	<string>Jouez le contenu multimédia</string>
+	<key>PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT</key>
+	<string>Vous n’avez pas marqué %@ comme vérifié.</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_BADGE</key>
+	<string>Vérifié</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_FORMAT</key>
+	<string>%@ est vérifié</string>
+	<key>PRIVACY_SAFETY_NUMBERS_LEARN_MORE</key>
+	<string>En savoir plus</string>
+	<key>PRIVACY_TAP_TO_SCAN</key>
+	<string>Toucher pour balayer</string>
+	<key>PRIVACY_UNVERIFY_BUTTON</key>
+	<string>Annuler la vérification</string>
+	<key>PRIVACY_VERIFICATION_FAILED_I_HAVE_WRONG_KEY_FOR_THEM</key>
+	<string>Cela ne semble pas être votre numéro de sécurité avec %@. Confirmez-vous le bon contact ?</string>
+	<key>PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>Le numéro dans votre presse-papiers ne semble pas être le bon numéro de sécurité pour cette conversation.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>Signal n’a pas pu trouver de numéro de sécurité dans votre presse-papiers. L’avez-vous copié correctement ?</string>
+	<key>PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME</key>
+	<string>Chaque paire d’utilisateurs de Signal partage un numéro de sécurité distinct. Revérifiez que %@ affiche *votre* numéro de sécurité particulier.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION</key>
+	<string>Vous utilisez une ancienne version de Signal. Vous devez la mettre à jour avant de pouvoir confirmer les numéros de sécurité. </string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION</key>
+	<string>Votre partenaire utilise une ancienne version de Signal. Il doit la mettre à jour avant que vous puissiez confirmer son numéro de sécurité. </string>
+	<key>PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE</key>
+	<string>Le code balayé ne semble pas être un numéro de sécurité. Utilisez-vous tous les deux une version à jour de Signal ?</string>
+	<key>PRIVACY_VERIFICATION_INSTRUCTIONS</key>
+	<string>Si vous souhaitez vérifier la sécurité du chiffrement de bout en bout avec %@, comparez les numéros ci-dessus avec ceux sur son appareil.
+
+Vous pouvez aussi balayer le code sur son appareil ou lui demander de balayer le vôtre.</string>
+	<key>PRIVACY_VERIFICATION_TITLE</key>
+	<string>Confirmer le numéro de sécurité</string>
+	<key>PRIVACY_VERIFY_BUTTON</key>
+	<string>Marquer comme vérifié</string>
+	<key>PROCEED_BUTTON</key>
+	<string>Continuer</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_ACTION</key>
+	<string>Commençons</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_BODY</key>
+	<string>Votre profil peut désormais comporter un nom de famille facultatif.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_TITLE</key>
+	<string>Confirmez votre nom de profil</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_BODY</key>
+	<string>Il s’affichera quand vous lancerez une nouvelle conversation ou la partagerez.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_TITLE</key>
+	<string>Ajouter un nom de profil.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_TOAST</key>
+	<string>Votre nom de profil a été enregistré.</string>
+	<key>PROFILE_VIEW_AVATAR_ACTIONSHEET_TITLE</key>
+	<string>Définir un avatar de profil</string>
+	<key>PROFILE_VIEW_CLEAR_AVATAR</key>
+	<string>Supprimer l’avatar</string>
+	<key>PROFILE_VIEW_CREATE_USERNAME</key>
+	<string>Créer un nom d’utilisateur</string>
+	<key>PROFILE_VIEW_ERROR_FAMILY_NAME_TOO_LONG</key>
+	<string>Votre nom de famille est trop long.</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_REQUIRED</key>
+	<string>Votre prénom est requis.</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_TOO_LONG</key>
+	<string>Votre prénom est trop long.</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_DEFAULT_TEXT</key>
+	<string>(Facultatif)</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_FIELD</key>
+	<string>Nom de famille</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_DEFAULT_TEXT</key>
+	<string>(Obligatoire)</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_FIELD</key>
+	<string>Prénom</string>
+	<key>PROFILE_VIEW_NO_CONNECTION</key>
+	<string>Le profil ne peut être mis à jour qu’une fois connecté à Internet.</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION</key>
+	<string>Votre profil Signal sera visible pour vos contacts, quand vous lancez de nouvelles conversations et quand vous le partagez avec d’autres utilisateurs et groupes.</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION_LINK</key>
+	<string>Touchez ici pour en savoir davantage.</string>
+	<key>PROFILE_VIEW_SAVE_BUTTON</key>
+	<string>Enregistrer</string>
+	<key>PROFILE_VIEW_TITLE</key>
+	<string>Profil</string>
+	<key>PROFILE_VIEW_USERNAME_FIELD</key>
+	<string>Nom d’utilisateur</string>
+	<key>PUSH_MANAGER_MARKREAD</key>
+	<string>Marquer comme lu</string>
+	<key>PUSH_MANAGER_REPLY</key>
+	<string>Répondre</string>
+	<key>PUSH_REGISTER_SUCCESS</key>
+	<string>Les notifications poussées ont été réactivées avec succès.</string>
+	<key>PUSH_REGISTER_TITLE</key>
+	<string>Notifications poussées</string>
+	<key>QUESTIONMARK_PUNCTUATION</key>
+	<string> ?</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_FORMAT</key>
+	<string>Réponse à %@</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_YOU</key>
+	<string>Vous répond</string>
+	<key>QUOTED_REPLY_CONTENT_FROM_REMOTE_SOURCE</key>
+	<string>Le message original est introuvable.</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_DELETED</key>
+	<string>Le message original n’est plus accessible</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_REMOTELY_SOURCED</key>
+	<string>Le message original est introuvable.</string>
+	<key>QUOTED_REPLY_TYPE_ATTACHMENT</key>
+	<string>Fichier joint</string>
+	<key>QUOTED_REPLY_TYPE_AUDIO</key>
+	<string>Son</string>
+	<key>QUOTED_REPLY_TYPE_GIF</key>
+	<string>GIF</string>
+	<key>QUOTED_REPLY_TYPE_IMAGE</key>
+	<string>Image</string>
+	<key>QUOTED_REPLY_TYPE_VIDEO</key>
+	<string>Vidéo</string>
+	<key>REACTIONS_DETAIL_YOU</key>
+	<string>Vous</string>
+	<key>REACTION_DETAIL_ALL_FORMAT</key>
+	<string>Toutes · %@</string>
+	<key>REACTION_INCOMING_NOTIFICATION_BODY_FORMAT</key>
+	<string>A réagi par 1%@ à votre message</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_ALBUM_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre album</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_AUDIO_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre son</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_CONTACT_SHARE_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre partage de contact</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_FILE_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre fichier</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_GIF_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre GIF</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_PHOTO_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre photo</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_STICKER_MESSAGE_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre autocollant</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_TEXT_MESSAGE_BODY_FORMAT</key>
+	<string>A réagi avec %@ à : « %@ »</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIDEO_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre vidéo</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIEW_ONCE_MESSAGE_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre média éphémère</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VOICE_MESSAGE_BODY_FORMAT</key>
+	<string>A réagi avec %@ à votre message vocal</string>
+	<key>REACTION_MEGAPHONE_BODY</key>
+	<string>Touchez et maintenez n’importe quel message pour répondre rapidement ce que vous ressentez.</string>
+	<key>REACTION_MEGAPHONE_TITLE</key>
+	<string>Nous présentons les réactions</string>
+	<key>REGISTER_2FA_FORGOT_PIN</key>
+	<string>J’ai oublié mon NIP.</string>
+	<key>REGISTER_2FA_FORGOT_PIN_ALERT_TITLE</key>
+	<string>Besoin d’aide ?</string>
+	<key>REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE</key>
+	<string>Votre NIP est un code à 6 chiffres ou plus que vous avez créé et qui peut être numérique ou alphanumérique. Si vous ne vous souvenez plus de votre NIP, vous devrez attendre 7 jours pour réinscrire votre compte.</string>
+	<key>REGISTER_2FA_FORGOT_V1_PIN_ALERT_MESSAGE</key>
+	<string>Votre NIP est un code numérique à 4 chiffres ou plus que vous avez créé. Si vous ne vous souvenez pas de votre NIP, vous devrez attendre 7 jours pour réinscrire votre compte.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_PLURAL_FORMAT</key>
+	<string>Il vous reste %lu essais. Si vous épuisez le nombre limite d’essais, votre compte sera verrouillé. Après 7 jours d’inactivité, vous pourrez vous réinscrire sans votre NIP. Votre compte sera effacé et toutes ses données supprimées.
+Si vous épuisez le nombre d’essais, votre compte sera verrouillé. Après 7 jours d’inactivité, vous pourrez vous réinscrire sans votre NIP. Votre compte sera effacé et son contenu supprimé.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE</key>
+	<string>Il vous reste 1 essai. Si vous épuisez le nombre d’essais, votre compte sera verrouillé. Après 7 jours d’inactivité, vous pourrez vous réinscrire sans votre NIP. Votre compte sera effacé et son contenu supprimé.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_TITLE</key>
+	<string>Le NIP est erroné</string>
+	<key>REGISTER_2FA_SUBMIT_BUTTON</key>
+	<string>Envoyer</string>
+	<key>REGISTER_CONTACTS_WELCOME</key>
+	<string>Bienvenue.</string>
+	<key>REGISTER_FAILED_TRY_AGAIN</key>
+	<string>Ressayer</string>
+	<key>REGISTER_RATE_LIMITING_BODY</key>
+	<string>Trop de tentatives. Veuillez attendre une minute avant de ressayer.</string>
+	<key>REGISTER_RATE_LIMITING_ERROR</key>
+	<string>Trop de tentatives. Veuillez patienter une minute avant de ressayer.</string>
+	<key>REGISTRATION_BODY</key>
+	<string>Échec de réactivation des notifications poussées</string>
+	<key>REGISTRATION_DEFAULT_COUNTRY_NAME</key>
+	<string>Code de pays</string>
+	<key>REGISTRATION_ENTERNUMBER_DEFAULT_TEXT</key>
+	<string>Saisir le numéro</string>
+	<key>REGISTRATION_ERROR</key>
+	<string>Erreur d’enregistrement</string>
+	<key>REGISTRATION_ERROR_BLANK_VERIFICATION_CODE</key>
+	<string>Nous ne pouvons pas activer votre compte tant que vous n’aurez pas confirmé le code que nous vous avons envoyé.</string>
+	<key>REGISTRATION_NON_VALID_NUMBER</key>
+	<string>Ce format de numéro de téléphone n’est pas pris en charge, veuillez contacter l’assistance.</string>
+	<key>REGISTRATION_PHONENUMBER_BUTTON</key>
+	<string>Numéro de téléphone</string>
+	<key>REGISTRATION_RESTRICTED_MESSAGE</key>
+	<string>Vous devez d’abord vous inscrire avant de pouvoir envoyer un message.</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_TITLE</key>
+	<string>Échec de vérification</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_CODE_DESCRIPTION</key>
+	<string>Les numéros que vous avez envoyés ne correspondent pas à ce que nous avons envoyé. Voulez-vous les vérifier ?</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_PIN</key>
+	<string>Le NIP de blocage de l’inscription est erroné.</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>Veuillez saisir un numéro de téléphone valide pour vous inscrire.</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>Le numéro de téléphone est invalide</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>Veuillez saisir un numéro de téléphone pour vous inscrire.</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>Aucun numéro de téléphone</string>
+	<key>REJECT_CALL_BUTTON_TITLE</key>
+	<string>Refuser</string>
+	<key>RELAY_REGISTERED_ERROR_RECOVERY</key>
+	<string>Le numéro de téléphone que vous essayez d’inscrire l’a déjà été sur un autre serveur. Veuillez le désinscrire de ce serveur et ressayer.</string>
+	<key>REMINDER_2FA_BODY</key>
+	<string>Le blocage de l’inscription est activé pour votre numéro de téléphone. Pour vous aider à mémoriser votre NIP de blocage de l’inscription, Signal vous demandera de le confirmer régulièrement.</string>
+	<key>REMINDER_2FA_BODY_HEADER</key>
+	<string>Rappel :</string>
+	<key>REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE</key>
+	<string>Le blocage de l’inscription aide à protéger votre numéro de téléphone contre les tentatives d’inscription non autorisées. Cette fonction peut être désactivée en tout temps dans vos paramètres de confidentialité de Signal</string>
+	<key>REMINDER_2FA_NAV_TITLE</key>
+	<string>Saisissez votre NIP de blocage de l’inscription</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_BODY</key>
+	<string>Vous pouvez définir un nouveau NIP dans vos paramètres de confidentialité.</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_TITLE</key>
+	<string>Ce n’est pas le bon NIP.</string>
+	<key>REREGISTER_FOR_PUSH</key>
+	<string>Réactiver les notifications poussées</string>
+	<key>RETRY_BUTTON_TEXT</key>
+	<string>Ressayer</string>
+	<key>SAFETY_NUMBERS_ACTIONSHEET_TITLE</key>
+	<string>Votre numéro de sécurité avec %@ a changé. Vous devriez peut-être le confirmer.</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_ADD_TO_GROUP_ACTION</key>
+	<string>Ajouter quand même au groupe</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_CALL_ACTION</key>
+	<string>Appeler quand même</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION</key>
+	<string>Envoyer quand même</string>
+	<key>SAFETY_NUMBER_SHARE_FORMAT</key>
+	<string>Notre numéro de sécurité Signal :
+%@</string>
+	<key>SCAN_CODE_INSTRUCTIONS</key>
+	<string>Balayez le code QR sur l’appareil de votre contact.</string>
+	<key>SCAN_QR_CODE_VIEW_TITLE</key>
+	<string>Balayer le code QR</string>
+	<key>SCREEN_LOCK_ACTIVITY_TIMEOUT_NONE</key>
+	<string>Instantané</string>
+	<key>SCREEN_LOCK_ENABLE_UNKNOWN_ERROR</key>
+	<string>Impossible d’accéder à l’authentification</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_FAILED</key>
+	<string>Échec d’authentification</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_LOCKOUT</key>
+	<string>Trop d’essais infructueux d’authentification. Veuillez ressayer ultérieurement.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_AVAILABLE</key>
+	<string>Vous devez activer un code dans vos réglages iOS pour utiliser le verrouillage de l’écran.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_ENROLLED</key>
+	<string>Vous devez activer un code dans vos réglages iOS pour utiliser le verrouillage de l’écran.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET</key>
+	<string>Vous devez activer un code dans vos réglages iOS pour utiliser le verrouillage de l’écran.</string>
+	<key>SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK</key>
+	<string>Authentifiez-vous pour ouvrir Signal.</string>
+	<key>SCREEN_LOCK_UNLOCK_FAILED</key>
+	<string>Échec d’authentification</string>
+	<key>SCREEN_LOCK_UNLOCK_SIGNAL</key>
+	<string>Déverrouiller Signal</string>
+	<key>SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT</key>
+	<string>Recherche par nom ou numéro</string>
+	<key>SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT</key>
+	<string>Nom, nom d’utilisateur ou numéro</string>
+	<key>SEARCH_FIELD_PLACE_HOLDER_TEXT</key>
+	<string>Chercher</string>
+	<key>SEARCH_SECTION_CONTACTS</key>
+	<string>Autres contacts</string>
+	<key>SEARCH_SECTION_CONVERSATIONS</key>
+	<string>Conversations</string>
+	<key>SEARCH_SECTION_MESSAGES</key>
+	<string>Messages</string>
+	<key>SECONDARY_DEVICE_ERROR_FETCHING_LINKING_CODE</key>
+	<string>Impossible de récupérer le code de liaison</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE</key>
+	<string>Votre autre appareil exécute une ancienne version de Signal qui ne prend pas en charge le balayage des codes QR d’iPad. Veuillez installer la dernière version de Signal et ressayer.</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE</key>
+	<string>Mettre à jour l’appareil de balayage</string>
+	<key>SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN</key>
+	<string>Échec de liaison de votre appareil</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME</key>
+	<string>Choisissez un nom pour cet appareil</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_EXPLANATION</key>
+	<string>Vous verrez ce nom sous « Appareils reliés ».</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_PLACEHOLDER</key>
+	<string>Choisir un nom</string>
+	<key>SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS</key>
+	<string>Terminer la liaison</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY</key>
+	<string>Lancez Signal sur votre téléphone pour relier cet iPad à votre compte</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY</key>
+	<string>Je n’ai pas Signal sur mon téléphone…</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY</key>
+	<string>Allez dans l’App Store de votre téléphone, installez Signal, complétez la procédure d’inscription, et vous pourrez ensuite relier votre iPad au même compte.</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE</key>
+	<string>Installer Signal sur votre téléphone</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_BODY</key>
+	<string>Touchez sur votre image de profil pour accéder aux paramètres de Signal sur votre téléphone, puis « Appareils reliés » et « Relier un nouvel appareil » afin de balayer ce code avec votre téléphone :</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT</key>
+	<string>Obtenez de l’aide pour relier votre iPad ici</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_TITLE</key>
+	<string>Balayer le code QR avec votre téléphone</string>
+	<key>SECURE_SESSION_RESET</key>
+	<string>La session sécurisée a été réinitialisée.</string>
+	<key>SELECT_THREAD_TABLE_OTHER_CHATS_TITLE</key>
+	<string>Autres contacts</string>
+	<key>SELECT_THREAD_TABLE_RECENT_CHATS_TITLE</key>
+	<string>Conversations récentes</string>
+	<key>SEND_AGAIN_BUTTON</key>
+	<string>Envoyer de nouveau</string>
+	<key>SEND_BUTTON_TITLE</key>
+	<string>Envoyer</string>
+	<key>SEND_FAILED_NOTIFICATION_BODY</key>
+	<string>L’envoi de votre message a échoué.</string>
+	<key>SEND_INVITE_FAILURE</key>
+	<string>Échec d’envoi de l’invitation. Veuillez ressayer ultérieurement.</string>
+	<key>SEND_INVITE_SUCCESS</key>
+	<string>Vous avez invité votre ami à utiliser Signal.</string>
+	<key>SEND_MEDIA_CONFIRM_ABANDON_ALBUM</key>
+	<string>Abandonner le média</string>
+	<key>SEND_MEDIA_RETURN_TO_CAMERA</key>
+	<string>Revenir à l’appareil photo</string>
+	<key>SEND_MEDIA_RETURN_TO_MEDIA_LIBRARY</key>
+	<string>Revenir à la médiathèque</string>
+	<key>SEND_SMS_CONFIRM_TITLE</key>
+	<string>Inviter un ami par texto non sécurisé ?</string>
+	<key>SEND_SMS_INVITE_TITLE</key>
+	<string>Souhaitez-vous inviter le numéro suivant à Signal :</string>
+	<key>SETTINGS_ABOUT</key>
+	<string>À propos de Signal</string>
+	<key>SETTINGS_ADD_TO_BLOCK_LIST_TITLE</key>
+	<string>Bloquer</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION</key>
+	<string>Contournement de la censure</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT</key>
+	<string>Lieu : %@</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER</key>
+	<string>Si cette option est activée, Signal tentera de contourner la censure. N’activez cette fonction que si vous êtes situé en un lieu où Signal est censuré.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED</key>
+	<string>Le contournement de la censure a été activé d’après le numéro de téléphone de votre compte.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_MANUALLY_DISABLED</key>
+	<string>Vous avez manuellement désactivé le contournement de la censure.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION</key>
+	<string>Le contournement de la censure ne peut être activé qu’une fois connecté à Internet.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED</key>
+	<string>Le contournement de la censure n’est pas nécessaire ; vous êtes déjà connecté au service Signal.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER</key>
+	<string>Contournement de la censure</string>
+	<key>SETTINGS_ADVANCED_DEBUGLOG</key>
+	<string>Activer le journal de débogage</string>
+	<key>SETTINGS_ADVANCED_SUBMIT_DEBUGLOG</key>
+	<string>Envoyer le journal de débogage</string>
+	<key>SETTINGS_ADVANCED_TITLE</key>
+	<string>Avancés</string>
+	<key>SETTINGS_ADVANCED_VIEW_ERROR_LOG</key>
+	<string>Journaux d’erreurs</string>
+	<key>SETTINGS_APPEARANCE_THEME_TITLE</key>
+	<string>Thème</string>
+	<key>SETTINGS_APPEARANCE_TITLE</key>
+	<string>Apparence</string>
+	<key>SETTINGS_AUDIO_DEFAULT_TONE_LABEL_FORMAT</key>
+	<string>%@ (default)</string>
+	<key>SETTINGS_BACKUP</key>
+	<string>Sauvegarde</string>
+	<key>SETTINGS_BACKUP_BACKUP_NOW</key>
+	<string>Sauvegarder maintenant</string>
+	<key>SETTINGS_BACKUP_CANCEL_BACKUP</key>
+	<string>Annuler la sauvegarde</string>
+	<key>SETTINGS_BACKUP_ENABLING_SWITCH</key>
+	<string>La sauvegarde est activée</string>
+	<key>SETTINGS_BACKUP_ICLOUD_STATUS</key>
+	<string>État iCloud</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_FAILED</key>
+	<string>Échec de restauration de la sauvegarde</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IDLE</key>
+	<string>La restauration de sauvegardes est inactive</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IN_PROGRESS</key>
+	<string>La restauration de la sauvegarde est en cours</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_SUCCEEDED</key>
+	<string>La restauration de la sauvegarde a réussi</string>
+	<key>SETTINGS_BACKUP_PHASE</key>
+	<string>Phase</string>
+	<key>SETTINGS_BACKUP_PROGRESS</key>
+	<string>Progression</string>
+	<key>SETTINGS_BACKUP_STATUS</key>
+	<string>État</string>
+	<key>SETTINGS_BACKUP_STATUS_FAILED</key>
+	<string>Échec de sauvegarde</string>
+	<key>SETTINGS_BACKUP_STATUS_IDLE</key>
+	<string>Attente</string>
+	<key>SETTINGS_BACKUP_STATUS_IN_PROGRESS</key>
+	<string>Sauvegarde en cours</string>
+	<key>SETTINGS_BACKUP_STATUS_SUCCEEDED</key>
+	<string>La sauvegarde est terminée avec succès</string>
+	<key>SETTINGS_BLOCK_LIST_ADD_BUTTON</key>
+	<string>Ajouter un utilisateur bloqué</string>
+	<key>SETTINGS_BLOCK_LIST_NO_CONTACTS</key>
+	<string>Vous n’avez aucun contact sur Signal.</string>
+	<key>SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS</key>
+	<string>Aucun résultat n’a été trouvé</string>
+	<key>SETTINGS_BLOCK_LIST_TITLE</key>
+	<string>Bloqués</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE</key>
+	<string>Toujours relayer les appels</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL</key>
+	<string>Relayez tous les appels par un serveur Signal pour éviter de divulguer votre adresse IP à votre contact. L’activation de cette option réduira la qualité des appels.</string>
+	<key>SETTINGS_CLEAR_HISTORY</key>
+	<string>Effacer l’historique des conversations</string>
+	<key>SETTINGS_COPYRIGHT</key>
+	<string>Tous droits réservés Signal Messenger
+Sous licence GPLv3</string>
+	<key>SETTINGS_DELETE_ACCOUNT_BUTTON</key>
+	<string>Supprimer le compte</string>
+	<key>SETTINGS_DELETE_DATA_BUTTON</key>
+	<string>Supprimer toutes les données</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION</key>
+	<string>Voulez-vous vraiment supprimer tout l’historique (messages, fichiers joints, appels, etc.) ? Cette action est irréversible.</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION_BUTTON</key>
+	<string>Tout supprimer</string>
+	<key>SETTINGS_HELP_HEADER</key>
+	<string>Aide </string>
+	<key>SETTINGS_HISTORYLOG_TITLE</key>
+	<string>Effacer l’historique des conversations</string>
+	<key>SETTINGS_INFORMATION_HEADER</key>
+	<string>Renseignements</string>
+	<key>SETTINGS_INVITE_TITLE</key>
+	<string>Invitez vos amis</string>
+	<key>SETTINGS_INVITE_TWITTER_TEXT</key>
+	<string>Vous pouvez me joindre en utilisant @signalapp. Obtenez-le maintenant : https://signal.org/download/</string>
+	<key>SETTINGS_ITEM_NOTIFICATION_SOUND</key>
+	<string>Son de message</string>
+	<key>SETTINGS_LEGAL_TERMS_CELL</key>
+	<string>Conditions générales et politique de confidentialité</string>
+	<key>SETTINGS_LINK_PREVIEWS</key>
+	<string>Envoyer des aperçus de liens.</string>
+	<key>SETTINGS_LINK_PREVIEWS_FOOTER</key>
+	<string>Les aperçus sont pris en charge pour les liens Imgur, Instagram, Pinterest, Reddit et YouTube.</string>
+	<key>SETTINGS_LINK_PREVIEWS_HEADER</key>
+	<string>Aperçus de liens</string>
+	<key>SETTINGS_NAV_BAR_TITLE</key>
+	<string>Paramètres</string>
+	<key>SETTINGS_NOTIFICATIONS</key>
+	<string>Notifications</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_DESCRIPTION</key>
+	<string>Des notifications d’appels et de messages peuvent apparaître quand votre téléphone est verrouillé. Vous souhaiterez peut-être limiter ce qui est indiqué dans ces notifications.</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_TITLE</key>
+	<string>Contenu des notifications</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL</key>
+	<string>Un contact s’est joint à Signal</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_SECTION_TITLE</key>
+	<string>Évènements</string>
+	<key>SETTINGS_PINS_FOOTER</key>
+	<string>Votre NIP ajoute une couche supplémentaire de sécurité à votre compte. Il vous sera demandé quand vous inscrirez votre numéro de téléphone auprès de Signal. Si vous oubliez votre NIP, votre compte sera verrouillé pendant sept jours.</string>
+	<key>SETTINGS_PINS_ITEM</key>
+	<string>Changer votre NIP</string>
+	<key>SETTINGS_PINS_ITEM_CREATE</key>
+	<string>Créer un NIP</string>
+	<key>SETTINGS_PINS_TITLE</key>
+	<string>NIP</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_PRIVACY_TITLE</key>
+	<string>Afficher le nom et le numéro de l’appelant</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_DESCRIPTION</key>
+	<string>Afficher les appels dans la liste « Récents » de l’appli iOS Téléphone.</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_TITLE</key>
+	<string>Afficher les appels dans Récents</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_TITLE</key>
+	<string>Intégration des appels dans iOS</string>
+	<key>SETTINGS_PRIVACY_TITLE</key>
+	<string>Confidentialité</string>
+	<key>SETTINGS_READ_RECEIPT</key>
+	<string>Accusés de lecture</string>
+	<key>SETTINGS_READ_RECEIPTS_SECTION_FOOTER</key>
+	<string>Voyez et faites savoir que les messages ont été lus. Ce paramètre est facultatif et s’applique à toutes les conversations.</string>
+	<key>SETTINGS_RELINK_BUTTON</key>
+	<string>Relier à nouveau</string>
+	<key>SETTINGS_REREGISTER_BUTTON</key>
+	<string>S’inscrire de nouveau</string>
+	<key>SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT</key>
+	<string>Délai de verrouillage de l’écran</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_FOOTER</key>
+	<string>Déverrouillez l’écran de Signal en utilisant Touch ID, Face ID ou le code de déverrouillage de votre appareil sous iOS. Vous pouvez toujours répondre aux appels entrants et recevoir des notifications d’appels et de messages depuis l’écran verrouillé. Les paramètres de notification de Signal vous permettent de personnaliser les informations affichées.</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_TITLE</key>
+	<string>Verrouillage de l’écran</string>
+	<key>SETTINGS_SCREEN_LOCK_SWITCH_LABEL</key>
+	<string>Verrouillage de l’écran</string>
+	<key>SETTINGS_SCREEN_SECURITY</key>
+	<string>Activer la sécurité de l’écran</string>
+	<key>SETTINGS_SCREEN_SECURITY_DETAIL</key>
+	<string>Empêcher les aperçus de Signal d’apparaître dans le sélecteur d’applis.</string>
+	<key>SETTINGS_SECTION_CALL_KIT_DESCRIPTION</key>
+	<string>L’intégration des appels dans iOS affiche les appels Signal sur votre écran de verrouillage et dans l’historique des appels du système. Une option vous permet d’afficher les nom et numéro de votre contact. Si iCloud est activé, cet historique des appels sera partagé avec Apple.</string>
+	<key>SETTINGS_SECTION_NOTIFICATIONS</key>
+	<string>Notifications</string>
+	<key>SETTINGS_SECTION_SOUNDS</key>
+	<string>Sons</string>
+	<key>SETTINGS_SECTION_TITLE_CALLING</key>
+	<string>Appel en cours</string>
+	<key>SETTINGS_SECURITY_TITLE</key>
+	<string>Sécurité de l’écran</string>
+	<key>SETTINGS_SUPPORT</key>
+	<string>Assistance</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_DISABLED</key>
+	<string>Désactivé</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ENABLED</key>
+	<string>Activé</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ITEM</key>
+	<string>Blocage de l’inscription</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_TITLE</key>
+	<string>Blocage de l’inscription</string>
+	<key>SETTINGS_TYPING_INDICATORS</key>
+	<string>Indicateurs de saisie</string>
+	<key>SETTINGS_TYPING_INDICATORS_FOOTER</key>
+	<string>Voyez et faites savoir que des messages sont en cours de saisie. Ce paramètre est facultatif et s’applique à toutes les conversations.</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_LEARN_MORE</key>
+	<string>En savoir plus</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SECTION_TITLE</key>
+	<string>Expéditeur scellé</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS</key>
+	<string>Afficher les indicateurs</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS_FOOTER</key>
+	<string>Afficher une icône d’état quand vous sélectionnez « Plus d’infos » pour les messages qui ont été remis avec l’option « expéditeur scellé ».</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS</key>
+	<string>Autoriser de tous</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS_FOOTER</key>
+	<string>Activer l’option « expéditeur scellé » pour les messages entrants provenant d’expéditeurs qui ne sont pas dans vos contacts et de personnes avec qui vous n’avez pas partagé votre profil.</string>
+	<key>SETTINGS_VERSION</key>
+	<string>Version</string>
+	<key>SHARE_ACTION_MAIL</key>
+	<string>Mail</string>
+	<key>SHARE_ACTION_MESSAGE</key>
+	<string>Message</string>
+	<key>SHARE_ACTION_TWEET</key>
+	<string>Twitter</string>
+	<key>SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT</key>
+	<string>Votre numéro de sécurité avec %@ a changé récemment. Vous devriez peut-être le confirmer dans l’appli principale avant d’effectuer de nouveaux envois.</string>
+	<key>SHARE_EXTENSION_LOADING</key>
+	<string>Chargement…</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_MESSAGE</key>
+	<string>Lancez l’appli Signal pour vous inscrire.</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_TITLE</key>
+	<string>Non inscrit</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE</key>
+	<string>Lancez l’appli Signal pour mettre à jour ou vous inscrire.</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE</key>
+	<string>Pas prête</string>
+	<key>SHARE_EXTENSION_SENDING_FAILURE_TITLE</key>
+	<string>Impossible d’envoyer le fichier joint</string>
+	<key>SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE</key>
+	<string>Téléversement…</string>
+	<key>SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE</key>
+	<string>Impossible de préparer le fichier joint</string>
+	<key>SHARE_EXTENSION_VIEW_TITLE</key>
+	<string>Partager vers Signal</string>
+	<key>SHOW_SAFETY_NUMBER_ACTION</key>
+	<string>Afficher le numéro de sécurité</string>
+	<key>SHOW_THREAD_BUTTON_TITLE</key>
+	<string>Afficher la conversation</string>
+	<key>SMS_INVITE_BODY</key>
+	<string>Je t’invite à installer Signal. Voici le lien :</string>
+	<key>SOUNDS_NONE</key>
+	<string>Aucun</string>
+	<key>STICKERS_FAILED_DOWNLOAD</key>
+	<string>Autocollant</string>
+	<key>STICKERS_INSTALL_BUTTON</key>
+	<string>Installer</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE</key>
+	<string>Série artiste Signal</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE</key>
+	<string>Autocollants que vous avez reçus</string>
+	<key>STICKERS_MANAGE_VIEW_FAILED_KNOWN_PACKS</key>
+	<string>Échec de chargement de certains paquets d’autocollants.</string>
+	<key>STICKERS_MANAGE_VIEW_INSTALLED_PACKS_SECTION_TITLE</key>
+	<string>Autocollants installés</string>
+	<key>STICKERS_MANAGE_VIEW_LOADING_KNOWN_PACKS</key>
+	<string>Chargement…</string>
+	<key>STICKERS_MANAGE_VIEW_NO_INSTALLED_PACKS</key>
+	<string>Aucun autocollant n’est installé</string>
+	<key>STICKERS_MANAGE_VIEW_NO_KNOWN_PACKS</key>
+	<string>Les autocollants des messages entrants apparaîtront ici</string>
+	<key>STICKERS_MANAGE_VIEW_TITLE</key>
+	<string>Autocollants</string>
+	<key>STICKERS_PACK_DEFAULT_TITLE</key>
+	<string>Paquet d’autocollants</string>
+	<key>STICKERS_PACK_SHARE_VIEW_TITLE</key>
+	<string>Partager le paquet d’autocollants</string>
+	<key>STICKERS_PACK_VIEW_DEFAULT_TITLE</key>
+	<string>Paquet d’autocollants</string>
+	<key>STICKERS_PACK_VIEW_FAILED_TO_LOAD</key>
+	<string>Échec de chargement du paquet d’autocollants</string>
+	<key>STICKERS_UNINSTALL_BUTTON</key>
+	<string>Désinstaller</string>
+	<key>STICKER_MESSAGE_PREVIEW</key>
+	<string>Message — Autocollant</string>
+	<key>STICKER_PACK_INSTALLED_TOOLTIP</key>
+	<string>Le paquet d’autocollants a été installé</string>
+	<key>SUCCESSFUL_VERIFICATION_DESCRIPTION</key>
+	<string>Votre numéro de sécurité avec %@ correspond. Vous pouvez marquer ce contact comme vérifié.</string>
+	<key>SUCCESSFUL_VERIFICATION_TITLE</key>
+	<string>Le numéro de sécurité correspond.</string>
+	<key>SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER</key>
+	<string>Confirmer le numéro de sécurité</string>
+	<key>THREAD_DETAILS_GROUP_MEMBER_COUNT_FORMAT</key>
+	<string>%lu membres</string>
+	<key>THREAD_DETAILS_MORE_MUTUAL_GROUP</key>
+	<string>Membre de %@, %@ et %lu autres groupes.</string>
+	<key>THREAD_DETAILS_NOTE_TO_SELF_EXPLANATION</key>
+	<string>Vous pouvez ajouter des notes pour vous-même dans cette conversation. Si votre compte a des appareil reliés, les nouvelles notes seront synchronisées.</string>
+	<key>THREAD_DETAILS_ONE_MUTUAL_GROUP</key>
+	<string>Membre de %@</string>
+	<key>THREAD_DETAILS_THREE_MUTUAL_GROUP</key>
+	<string>Membre de %@, %@ et %@</string>
+	<key>THREAD_DETAILS_TWO_MUTUAL_GROUP</key>
+	<string>Membre de %@ et %@</string>
+	<key>TIME_AMOUNT_DAYS</key>
+	<string>%@ jours</string>
+	<key>TIME_AMOUNT_DAYS_SHORT_FORMAT</key>
+	<string>%@ j</string>
+	<key>TIME_AMOUNT_HOURS</key>
+	<string>%@ heures</string>
+	<key>TIME_AMOUNT_HOURS_SHORT_FORMAT</key>
+	<string>%@ h</string>
+	<key>TIME_AMOUNT_MINUTES</key>
+	<string>%@ minutes</string>
+	<key>TIME_AMOUNT_MINUTES_SHORT_FORMAT</key>
+	<string>%@ m</string>
+	<key>TIME_AMOUNT_SECONDS</key>
+	<string>%@ secondes</string>
+	<key>TIME_AMOUNT_SECONDS_SHORT_FORMAT</key>
+	<string>%@ s</string>
+	<key>TIME_AMOUNT_SINGLE_DAY</key>
+	<string>%@ jour</string>
+	<key>TIME_AMOUNT_SINGLE_HOUR</key>
+	<string>%@ heure</string>
+	<key>TIME_AMOUNT_SINGLE_MINUTE</key>
+	<string>%@ minute</string>
+	<key>TIME_AMOUNT_SINGLE_WEEK</key>
+	<string>%@ semaine</string>
+	<key>TIME_AMOUNT_WEEKS</key>
+	<string>%@ semaines</string>
+	<key>TIME_AMOUNT_WEEKS_SHORT_FORMAT</key>
+	<string>%@ sem</string>
+	<key>TXT_CANCEL_TITLE</key>
+	<string>Annuler</string>
+	<key>TXT_DELETE_TITLE</key>
+	<string>Supprimer</string>
+	<key>UNARCHIVE_ACTION</key>
+	<string>Désarchiver</string>
+	<key>UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>L’utilisateur n’est pas dans vos contacts. Voulez-vous bloquer cet utilisateur ?</string>
+	<key>UNKNOWN_CONTACT_NAME</key>
+	<string>Contact inconnu</string>
+	<key>UNKNOWN_COUNTRY_NAME</key>
+	<string>Pays inconnu</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE</key>
+	<string>Un de vos appareils a envoyé un message qui ne peut être ni traité ni affiché ici, car il utilise une nouvelle fonction de Signal.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME</key>
+	<string>Vous avez reçu un message qui ne peut être ni traité ni affiché, car il utilise une nouvelle fonction de Signal.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT</key>
+	<string>%@ vous a envoyé un message qui ne peut être ni traité ni affiché, car il utilise une nouvelle fonction de Signal.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON</key>
+	<string>Mettre Signal à jour maintenant</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE</key>
+	<string>Mise à jour vers la dernière version de Signal effectuée. Vous pouvez désormais recevoir ce type de message sur votre appareil.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME</key>
+	<string>Vous pouvez demander à l’expéditeur de renvoyer ce message, maintenant que vous utilisez une version à jour de Signal.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT</key>
+	<string>Vous pouvez demander à %@ de renvoyer ce message, maintenant que vous utilisez une version à jour de Signal.</string>
+	<key>UNKNOWN_VALUE</key>
+	<string>Inconnue</string>
+	<key>UNLINKED_WARNING</key>
+	<string>Cet appareil n’est plus relié. Veuillez rétablir le lien entre Signal et votre téléphone pour continuer la conversation.</string>
+	<key>UNLINKING_FAILED_ALERT_TITLE</key>
+	<string>Signal n’a pas pu annuler le lien avec votre appareil.</string>
+	<key>UNLINK_ACTION</key>
+	<string>Annuler le lien</string>
+	<key>UNLINK_CONFIRMATION_ALERT_BODY</key>
+	<string>Cet appareil ne pourra plus envoyer ni recevoir de messages s’il n’est plus relié.</string>
+	<key>UNLINK_CONFIRMATION_ALERT_TITLE</key>
+	<string>Annuler le lien avec « %@ » ?</string>
+	<key>UNNAMED_DEVICE</key>
+	<string>Appareil sans nom</string>
+	<key>UNREGISTER_SIGNAL_FAIL</key>
+	<string>Échec de désinscription de Signal.</string>
+	<key>UNSUPPORTED_ATTACHMENT</key>
+	<string>Un type de fichier joint non pris en charge a été reçu.</string>
+	<key>UNSUPPORTED_FEATURE_ERROR</key>
+	<string>Votre appareil ne prend pas cette fonction en charge</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_MESSAGE</key>
+	<string>Vous ne pouvez pas supprimer les membres d’un groupe. Il devra quitter le groupe. Vous pouvez aussi créer un nouveau groupe sans ce membre.</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_TITLE</key>
+	<string>La fonction n’est pas prise en charge</string>
+	<key>UPDATE_GROUP_FAILED</key>
+	<string>Le groupe n’a pas pu être mis à jour.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_CREATE_BUTTON</key>
+	<string>Créer votre NIP</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE_BUTTON</key>
+	<string>En savoir plus sur les NIP</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_DESCRIPTION</key>
+	<string>Votre blocage de l’inscription s’appelle désormais un NIP et il accomplit encore plus. Mettez-le à jour maintenant.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_TITLE</key>
+	<string>Blocage de l’inscription = NIP</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION</key>
+	<string>Les NIP ajoutent un niveau de sécurité supplémentaire à votre compte. Créez votre NIP maintenant.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE</key>
+	<string>Nous présentons les NIP</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_WHY_BUTTON</key>
+	<string>Dois-je créer un NIP ?</string>
+	<key>UPGRADE_IOS_ALERT_MESSAGE</key>
+	<string>Bientôt, Signal exigera iOS 10 ou ultérieure. Veuillez effectuer une mise à niveau dans l’appli Réglage &gt;&gt; Général &gt;&gt; Mise à jour logicielle</string>
+	<key>UPGRADE_IOS_ALERT_TITLE</key>
+	<string>Mettez iOS à niveau</string>
+	<key>USERNAME_DESCRIPTION</key>
+	<string>Sur Signal, les noms d’utilisateur sont facultatifs. Si vous choisissez de créer un nom d’utilisateur, les autres utilisateurs de Signal pourront vous trouver avec ce nom d’utilisateur et vous contacter sans connaître votre numéro de téléphone.</string>
+	<key>USERNAME_FIELD</key>
+	<string>Nom d’utilisateur</string>
+	<key>USERNAME_INVALID_CHARACTERS_ERROR</key>
+	<string>Les noms d’utilisateur ne peuvent comprendre que a à z, 0 à 9 et a-z, 0-9 et _.</string>
+	<key>USERNAME_LOOKUP_ERROR</key>
+	<string>Une erreur s’est produite lors de la recherche du nom d’utilisateur. Veuillez réessayer ultérieurement.</string>
+	<key>USERNAME_NOT_FOUND_FORMAT</key>
+	<string>%@ n’est pas un utilisateur de Signal. Assurez-vous d’avoir saisi le nom d’utilisateur en entier.</string>
+	<key>USERNAME_NOT_FOUND_TITLE</key>
+	<string>L’utilisateur est introuvable</string>
+	<key>USERNAME_PLACEHOLDER</key>
+	<string>Saisir un nom d’utilisateur</string>
+	<key>USERNAME_PREFIX</key>
+	<string>@</string>
+	<key>USERNAME_STARTS_WITH_NUMBER_ERROR</key>
+	<string>Les noms d’utilisateur ne peuvent pas commencer par un numéro.</string>
+	<key>USERNAME_TITLE</key>
+	<string>Nom d’utilisateur</string>
+	<key>USERNAME_TOO_SHORT_ERROR</key>
+	<string>Les noms d’utilisateur doivent comporter au moins quatre caractères.</string>
+	<key>USERNAME_UNAVAIALBE_ERROR_FORMAT</key>
+	<string>%@ est pris.</string>
+	<key>USERNAME_VIEW_ERROR_UPDATE_FAILED</key>
+	<string>Échec de mise à jour du nom d’utilisateur.</string>
+	<key>VALIDATION_ERROR_CANNOT_BE_BLANK</key>
+	<string>Le nom de l’appareil ne peut pas être vide</string>
+	<key>VALIDATION_ERROR_TOO_LONG</key>
+	<string>Le nom de l’appareil est trop long</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_LOCAL</key>
+	<string>Vous avez marqué %@ comme non vérifié.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE</key>
+	<string>Vous avez marqué %@ comme non vérifié sur un autre appareil.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL</key>
+	<string>Vous avez marqué %@ comme vérifié.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE</key>
+	<string>Vous avez marqué %@ comme vérifié sur un autre périphérique.</string>
+	<key>VERIFICATION_STATE_CHANGE_GENERIC</key>
+	<string>L’état de vérification a changé.</string>
+	<key>VERIFY_PRIVACY</key>
+	<string>Afficher le numéro de sécurité</string>
+	<key>VERIFY_PRIVACY_MULTIPLE</key>
+	<string>Examiner les numéros de sécurité</string>
+	<key>VIEW_ONCE_ALREADY_VIEWED_TOAST</key>
+	<string>Vous avez déjà vu ce message.</string>
+	<key>VIEW_ONCE_MESSAGES_TOOLTIP</key>
+	<string>Touchez ici pour que ce message disparaisse après qu’il a été vu.</string>
+	<key>VIEW_ONCE_OUTGOING_TOAST</key>
+	<string>Les fichiers multimédias éphémères sortants sont supprimés automatiquement après l’envoi.</string>
+	<key>VOICE_MESSAGE_CANCEL_INSTRUCTIONS</key>
+	<string>Faire glisser pour annuler</string>
+	<key>VOICE_MESSAGE_FILE_NAME</key>
+	<string>Message vocal</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_MESSAGE</key>
+	<string>Touchez et maintenez pour enregistrer un message vocal</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE</key>
+	<string>Message vocal</string>
+	<key>WAITING_TO_COMPLETE_DEVICE_LINK_TEXT</key>
+	<string>Terminez la configuration sur Signal pour ordinateur</string>
+	<key>YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>Vous avez désactivé les messages éphémères.</string>
+	<key>YOU_MUST_COMPLETE_ONBOARDING_BEFORE_PROCEEDING</key>
+	<string>Vous devez terminer la configuration pour continuer.</string>
+	<key>YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>Vous avez défini l’expiration des messages éphémères à %@.</string>
+	<key>new_message</key>
+	<string>Nouveau message</string>
+</dict>
+</plist>

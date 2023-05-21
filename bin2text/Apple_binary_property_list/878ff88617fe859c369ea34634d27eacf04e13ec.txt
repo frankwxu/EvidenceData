@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>burn.selection.description-%li-messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@li_messages@</string>
+		<key>li_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>li</string>
+			<key>one</key>
+			<string>%li message will be deleted. Are you sure?</string>
+			<key>other</key>
+			<string>%li messages will be deleted. Are you sure?</string>
+		</dict>
+	</dict>
+	<key>call.duration.full-units.unit-time.%lu-hour(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_unit_time@</string>
+		<key>lu_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu hour</string>
+			<key>other</key>
+			<string>%lu hours</string>
+		</dict>
+	</dict>
+	<key>call.duration.full-units.unit-time.%lu-minute(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_unit_time@</string>
+		<key>lu_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu minute</string>
+			<key>other</key>
+			<string>%lu minutes</string>
+		</dict>
+	</dict>
+	<key>call.duration.full-units.unit-time.%lu-second(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_unit_time@</string>
+		<key>lu_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu second</string>
+			<key>other</key>
+			<string>%lu seconds</string>
+		</dict>
+	</dict>
+	<key>chat.info.device-title.%lu-device(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Message is sent to %#@lu_devices@</string>
+		<key>lu_devices</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu device</string>
+			<key>other</key>
+			<string>%lu devices</string>
+		</dict>
+	</dict>
+	<key>chat.navigation-title.%li-participant(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@li_participants@</string>
+		<key>li_participants</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>li</string>
+			<key>one</key>
+			<string>%li participant</string>
+			<key>other</key>
+			<string>%li participants</string>
+		</dict>
+	</dict>
+	<key>chat.navigation-title.add-%li-participant(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Add %#@li_participants@</string>
+		<key>li_participants</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>li</string>
+			<key>one</key>
+			<string>%li participant</string>
+			<key>other</key>
+			<string>%li participants</string>
+			<key>zero</key>
+			<string>participants</string>
+		</dict>
+	</dict>
+	<key>conf-header-view.conf.accessibility-label.%i-call(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>conference. %#@i_calls@.</string>
+		<key>i_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>i</string>
+			<key>one</key>
+			<string>%i call</string>
+			<key>other</key>
+			<string>%i calls</string>
+		</dict>
+	</dict>
+	<key>conf-header-view.in-progress.incoming.accessibility-label.%i-call(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@i_incoming_calls@</string>
+		<key>i_incoming_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>i</string>
+			<key>one</key>
+			<string>%i incoming call</string>
+			<key>other</key>
+			<string>%i incoming calls</string>
+		</dict>
+	</dict>
+	<key>conf-header-view.in-progress.outgoing.accessibility-label.%i-call(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@i_outgoing_calls@</string>
+		<key>i_outgoing_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>i</string>
+			<key>one</key>
+			<string>%i outgoing call</string>
+			<key>other</key>
+			<string>%i outgoing calls</string>
+		</dict>
+	</dict>
+	<key>conf-header-view.private.accessibility-label.%i-call(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>private. %#@i_calls@.</string>
+		<key>i_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>i</string>
+			<key>one</key>
+			<string>%i call</string>
+			<key>other</key>
+			<string>%i calls</string>
+		</dict>
+	</dict>
+	<key>conversation.navigation-title.%li-selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@li_selected@</string>
+		<key>li_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>li</string>
+			<key>one</key>
+			<string>%li selected</string>
+			<key>other</key>
+			<string>%li selected</string>
+		</dict>
+	</dict>
+	<key>lock-screen.passcode-field.accessibility.hint.(%lu)-of-(%lu)-value(s)-entered</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@lu_entered_values@</string>
+		<key>lu_entered_values</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>One %2$#@lu_total_entries@</string>
+			<key>other</key>
+			<string>%lu %2$#@lu_total_entries@</string>
+			<key>zero</key>
+			<string>No values entered yet</string>
+		</dict>
+		<key>lu_total_entries</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>value entered</string>
+			<key>other</key>
+			<string>of %lu values entered</string>
+		</dict>
+	</dict>
+	<key>lock-screen.status.text.failed-attempts.%ld-failed-attempt(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@ld_failed_passcode_attempts@</string>
+		<key>ld_failed_passcode_attempts</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld Failed Passcode attempt</string>
+			<key>other</key>
+			<string>%ld Failed Passcode attempts</string>
+		</dict>
+	</dict>
+	<key>lock-screen.status.text.unlock-attempts.try-in-%ld-hour(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Try again in %#@ld_hours@</string>
+		<key>ld_hours</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld hour</string>
+			<key>other</key>
+			<string>%ld hours</string>
+		</dict>
+	</dict>
+	<key>lock-screen.status.text.unlock-attempts.try-in-%ld-minute(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Try again in %#@ld_minutes@</string>
+		<key>ld_minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld minute</string>
+			<key>other</key>
+			<string>%ld minutes</string>
+		</dict>
+	</dict>
+	<key>phoneui.callscreen.voiceover.antenna.%i-bar(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@i_bars@</string>
+		<key>i_bars</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>i</string>
+			<key>one</key>
+			<string>%i bar</string>
+			<key>other</key>
+			<string>%i bars</string>
+		</dict>
+	</dict>
+	<key>sc.contact.conversations.%lu-found</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_found@</string>
+		<key>lu_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu found</string>
+			<key>other</key>
+			<string>%lu found</string>
+			<key>zero</key>
+			<string>No results</string>
+		</dict>
+	</dict>
+	<key>sc.contact.directory.%lu-result(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_results@</string>
+		<key>lu_results</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu result</string>
+			<key>other</key>
+			<string>%lu results</string>
+			<key>zero</key>
+			<string>No results</string>
+		</dict>
+	</dict>
+	<key>sc.contact.general.%lu-found</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_found@</string>
+		<key>lu_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>%lu found</string>
+			<key>other</key>
+			<string>%lu found</string>
+			<key>zero</key>
+			<string>No contacts</string>
+		</dict>
+	</dict>
+	<key>sc.devicesview.my-other.device(s)-(%lu)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@lu_devices@</string>
+		<key>lu_devices</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>My other device (%lu)</string>
+			<key>other</key>
+			<string>My other devices (%lu)</string>
+		</dict>
+	</dict>
+	<key>sc.devicesview.partner.device(s)-(%lu)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@ messaging %#@lu_devices@</string>
+		<key>lu_devices</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>one</key>
+			<string>device (%lu)</string>
+			<key>other</key>
+			<string>devices (%lu)</string>
+		</dict>
+	</dict>
+	<key>sc.notification.hidden-preview.%u-messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@u_messages@</string>
+		<key>u_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u message</string>
+			<key>other</key>
+			<string>%u messages</string>
+		</dict>
+	</dict>
+	<key>sc.notification.hidden-preview.%u-missedcalls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@u_missedcalls@</string>
+		<key>u_missedcalls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u missed call</string>
+			<key>other</key>
+			<string>%u missed calls</string>
+		</dict>
+	</dict>
+	<key>sc.notification.summary.%u-messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@u_messages@</string>
+		<key>u_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u more message</string>
+			<key>other</key>
+			<string>%u more messages</string>
+		</dict>
+	</dict>
+	<key>sc.notification.summary.%u-messages-from-%@</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@u_messages@</string>
+		<key>u_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u more message from %@</string>
+			<key>other</key>
+			<string>%u more messages from %@</string>
+		</dict>
+	</dict>
+	<key>sc.notification.summary.%u-missedcalls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@u_moremissedcalls@</string>
+		<key>u_moremissedcalls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%u more missed call</string>
+			<key>other</key>
+			<string>%u more missed calls</string>
+		</dict>
+	</dict>
+	<key>status-bar.return-to-call.btn.num-active-calls.%d-call(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@d_calls@</string>
+		<key>d_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d call</string>
+			<key>other</key>
+			<string>%d calls</string>
+		</dict>
+	</dict>
+	<key>unit-time.%d-day(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@d_unit_time@</string>
+		<key>d_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>unit-time.%d-hour(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@d_unit_time@</string>
+		<key>d_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d hour</string>
+			<key>other</key>
+			<string>%d hours</string>
+		</dict>
+	</dict>
+	<key>unit-time.%d-minute(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@d_unit_time@</string>
+		<key>d_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d minute</string>
+			<key>other</key>
+			<string>%d minutes</string>
+		</dict>
+	</dict>
+	<key>unit-time.%d-month(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@d_unit_time@</string>
+		<key>d_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d month</string>
+			<key>other</key>
+			<string>%d months</string>
+		</dict>
+	</dict>
+	<key>unit-time.%d-week(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@d_unit_time@</string>
+		<key>d_unit_time</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

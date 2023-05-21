@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Permanently Delete %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حذف %#@recordings@ نهائيًا</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d تسجيلات</string>
+			<key>one</key>
+			<string>تسجيل واحد</string>
+			<key>many</key>
+			<string>‏%d تسجيلاً</string>
+			<key>two</key>
+			<string>تسجيلان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d تسجيل</string>
+			<key>zero</key>
+			<string>%d تسجيل</string>
+		</dict>
+	</dict>
+	<key>%d Files</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@Files@</string>
+		<key>Files</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d ملفات</string>
+			<key>one</key>
+			<string>ملف واحد</string>
+			<key>many</key>
+			<string>‏%d ملفًا</string>
+			<key>two</key>
+			<string>ملفان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d ملف</string>
+			<key>zero</key>
+			<string>‏%d ملف</string>
+		</dict>
+	</dict>
+	<key>%lu Selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_rows_selected@</string>
+		<key>num_rows_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>تم تحديد %lu</string>
+			<key>one</key>
+			<string>تم تحديد %lu</string>
+			<key>many</key>
+			<string>تم تحديد %lu</string>
+			<key>two</key>
+			<string>تم تحديد %lu</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>other</key>
+			<string>تم تحديد %lu</string>
+			<key>zero</key>
+			<string>تم تحديد %lu</string>
+		</dict>
+	</dict>
+	<key>ERASE_RECORDINGS</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@recordings@</string>
+		<key>Comment</key>
+		<string>Number of recordings that will be permanently deleted</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>هل ترغب بالتأكيد في حذف التسجيلات الـ %d المحددة؟</string>
+			<key>one</key>
+			<string>هل ترغب بالتأكيد في حذف هذا التسجيل نهائيًا؟</string>
+			<key>many</key>
+			<string>هل ترغب بالتأكيد في حذف التسجيلات الـ %d المحددة؟</string>
+			<key>two</key>
+			<string>هل ترغب بالتأكيد في حذف التسجيلين المحددين؟</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>هل ترغب بالتأكيد في حذف التسجيلات الـ %d المحددة؟</string>
+			<key>zero</key>
+			<string>هل ترغب بالتأكيد في حذف التسجيلات الـ %d المحددة؟</string>
+		</dict>
+	</dict>
+	<key>Recover %d Recordings</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استعادة %#@recordings@</string>
+		<key>recordings</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>‏%d تسجيلات</string>
+			<key>one</key>
+			<string>تسجيل واحد</string>
+			<key>many</key>
+			<string>‏%d تسجيلاً</string>
+			<key>two</key>
+			<string>تسجيلان</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d تسجيل</string>
+			<key>zero</key>
+			<string>%d تسجيل</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

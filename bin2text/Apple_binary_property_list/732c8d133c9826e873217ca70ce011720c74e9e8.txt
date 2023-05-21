@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MN.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>У вас%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string> %d новых сообщения</string>
+			<key>many</key>
+			<string>%d новых сообщений</string>
+			<key>one</key>
+			<string> %d новое сообщение</string>
+			<key>other</key>
+			<string> %d новых сообщения</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_audio</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_audio@</string>
+		<key>group_audio</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u голосовых сообщения</string>
+			<key>many</key>
+			<string>Еще %u голосовых сообщений</string>
+			<key>one</key>
+			<string>Еще %u голосовое сообщение</string>
+			<key>other</key>
+			<string>Еще %u голосового сообщения</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_call</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_call@</string>
+		<key>group_call</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u звонка</string>
+			<key>many</key>
+			<string>Еще %u звонков</string>
+			<key>one</key>
+			<string>Еще %u звонок</string>
+			<key>other</key>
+			<string>Еще %u звонка</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_comment@</string>
+		<key>group_comment</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u комментария</string>
+			<key>many</key>
+			<string>Еще %u комментариев</string>
+			<key>one</key>
+			<string>Еще %u комментарий</string>
+			<key>other</key>
+			<string>Еще %u комментария</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_comment_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_comment_like@</string>
+		<key>group_comment_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u отметки «Нравится» к комментариям</string>
+			<key>many</key>
+			<string>Еще %u отметок «Нравится» к комментариям</string>
+			<key>one</key>
+			<string>Еще %u отметка «Нравится» к комментариям</string>
+			<key>other</key>
+			<string>Еще %u отметки «Нравится» к комментариям</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_file</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_file@</string>
+		<key>group_file</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u файла</string>
+			<key>many</key>
+			<string>Еще %u файлов</string>
+			<key>one</key>
+			<string>Еще %u файл</string>
+			<key>other</key>
+			<string>Еще %u файла</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_importantpost</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_importantpost@</string>
+		<key>group_importantpost</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u важные публикации</string>
+			<key>many</key>
+			<string>Еще %u важных публикаций</string>
+			<key>one</key>
+			<string>Еще %u важная публикация</string>
+			<key>other</key>
+			<string>Еще %u важной публикации</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_like@</string>
+		<key>group_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u отметки «Нравится»</string>
+			<key>many</key>
+			<string>Еще %u отметок «Нравится»</string>
+			<key>one</key>
+			<string>Еще %u отметка «Нравится»</string>
+			<key>other</key>
+			<string>Еще %u отметки «Нравится»</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_mention</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_mention@</string>
+		<key>group_mention</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u упоминания</string>
+			<key>many</key>
+			<string>Еще %u упоминаний</string>
+			<key>one</key>
+			<string>Еще %u упоминание</string>
+			<key>other</key>
+			<string>Еще %u упоминания</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_message@</string>
+		<key>group_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u сообщения</string>
+			<key>many</key>
+			<string>Еще %u сообщений</string>
+			<key>one</key>
+			<string>Еще %u сообщение</string>
+			<key>other</key>
+			<string>Еще %u сообщения</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_notification</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_notification@</string>
+		<key>group_notification</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u уведомления</string>
+			<key>many</key>
+			<string>Еще %u уведомлений</string>
+			<key>one</key>
+			<string>Еще %u уведомление</string>
+			<key>other</key>
+			<string>Еще %u уведомления</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_notification_from</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_notification_from@</string>
+		<key>group_notification_from</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u уведомления от пользователя %@</string>
+			<key>many</key>
+			<string>Еще %u уведомлений от пользователя %@</string>
+			<key>one</key>
+			<string>Еще %u уведомление от пользователя %@</string>
+			<key>other</key>
+			<string>Еще %u уведомления от пользователя %@</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_pay</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_pay@</string>
+		<key>group_pay</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u перевода</string>
+			<key>many</key>
+			<string>Еще %u переводов</string>
+			<key>one</key>
+			<string>Еще %u перевод</string>
+			<key>other</key>
+			<string>Еще %u перевода</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_photo@</string>
+		<key>group_photo</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u фото</string>
+			<key>many</key>
+			<string>Еще %u фото</string>
+			<key>one</key>
+			<string>Еще %u фото</string>
+			<key>other</key>
+			<string>Еще %u фото</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_share</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_share@</string>
+		<key>group_share</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u элемента, которыми поделился пользователь</string>
+			<key>many</key>
+			<string>Еще %u элементов, которыми поделился пользователь</string>
+			<key>one</key>
+			<string>Еще %u элемент, которым поделился пользователь</string>
+			<key>other</key>
+			<string>Еще %u элемента, которым поделился пользователь</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_group_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@group_video@</string>
+		<key>group_video</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>Еще %u видео</string>
+			<key>many</key>
+			<string>Еще %u видео</string>
+			<key>one</key>
+			<string>Еще %u видео</string>
+			<key>other</key>
+			<string>Еще %u видео</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_audio</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_audio@</string>
+		<key>hidden_audio</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u голосовых сообщения</string>
+			<key>many</key>
+			<string>%u голосовых сообщений</string>
+			<key>one</key>
+			<string>%u голосовое сообщение</string>
+			<key>other</key>
+			<string>%u голосового сообщения</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_call</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_call@</string>
+		<key>hidden_call</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u звонка</string>
+			<key>many</key>
+			<string>%u звонков</string>
+			<key>one</key>
+			<string>%u звонок</string>
+			<key>other</key>
+			<string>%u звонка</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_comment@</string>
+		<key>hidden_comment</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u комментария</string>
+			<key>many</key>
+			<string>%u комментариев</string>
+			<key>one</key>
+			<string>%u комментарий</string>
+			<key>other</key>
+			<string>%u комментария</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_comment_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_comment_like@</string>
+		<key>hidden_comment_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u отметки «Нравится» к комментариям</string>
+			<key>many</key>
+			<string>%u отметок «Нравится» к комментариям</string>
+			<key>one</key>
+			<string>%u отметка «Нравится» к комментарию</string>
+			<key>other</key>
+			<string>%u отметки «Нравится» к комментариям</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_file</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_file@</string>
+		<key>hidden_file</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u файла</string>
+			<key>many</key>
+			<string>%u файлов</string>
+			<key>one</key>
+			<string>%u файл</string>
+			<key>other</key>
+			<string>%u файла</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_importantpost</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_importantpost@</string>
+		<key>hidden_importantpost</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u важные публикации</string>
+			<key>many</key>
+			<string>%u важных публикаций</string>
+			<key>one</key>
+			<string>%u важная публикация</string>
+			<key>other</key>
+			<string>%u важной публикации</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_like</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_like@</string>
+		<key>hidden_like</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u отметки «Нравится»</string>
+			<key>many</key>
+			<string>%u отметок «Нравится»</string>
+			<key>one</key>
+			<string>%u отметка «Нравится»</string>
+			<key>other</key>
+			<string>%u отметки «Нравится»</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_mention</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_mention@</string>
+		<key>hidden_mention</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u упоминания</string>
+			<key>many</key>
+			<string>%u упоминаний</string>
+			<key>one</key>
+			<string>%u упоминание</string>
+			<key>other</key>
+			<string>%u упоминания</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_message@</string>
+		<key>hidden_message</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u сообщения</string>
+			<key>many</key>
+			<string>%u сообщений</string>
+			<key>one</key>
+			<string>%u сообщение</string>
+			<key>other</key>
+			<string>%u сообщения</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_notification</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_notification@</string>
+		<key>hidden_notification</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u уведомления</string>
+			<key>many</key>
+			<string>%u уведомлений</string>
+			<key>one</key>
+			<string>%u уведомление</string>
+			<key>other</key>
+			<string>%u уведомления</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_pay</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_pay@</string>
+		<key>hidden_pay</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u перевода</string>
+			<key>many</key>
+			<string>%u переводов</string>
+			<key>one</key>
+			<string>%u перевод</string>
+			<key>other</key>
+			<string>%u перевода</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_photo@</string>
+		<key>hidden_photo</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u фото</string>
+			<key>many</key>
+			<string>%u фото</string>
+			<key>one</key>
+			<string>%u фото</string>
+			<key>other</key>
+			<string>%u фото</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_share</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_share@</string>
+		<key>hidden_share</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u пользователя поделились</string>
+			<key>many</key>
+			<string>%u пользователей поделились</string>
+			<key>one</key>
+			<string>%u пользователь поделился</string>
+			<key>other</key>
+			<string>%u пользователя поделились</string>
+		</dict>
+	</dict>
+	<key>NotificationCenter_hidden_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@hidden_video@</string>
+		<key>hidden_video</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u видео</string>
+			<key>many</key>
+			<string>%u видео</string>
+			<key>one</key>
+			<string>%u видео</string>
+			<key>other</key>
+			<string>%u видео</string>
+		</dict>
+	</dict>
+	<key>access.albums.allnumber</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d фото</string>
+			<key>many</key>
+			<string>%d фото</string>
+			<key>one</key>
+			<string>%d фото</string>
+			<key>other</key>
+			<string>%d фото</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.audio.duration.minutes.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d минут%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.audio.duration.seconds.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d секунд%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.call.duration.hours.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d час%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>а</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.call.duration.minutes.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d минут%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>access.chat.cell.call.duration.seconds.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d секунд%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>access.chatList.cell.newItem.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d новый элемент</string>
+			<key>many</key>
+			<string>%d новый элемент</string>
+			<key>one</key>
+			<string>%d новый элемент</string>
+			<key>other</key>
+			<string>%d новый элемент</string>
+		</dict>
+	</dict>
+	<key>access.friendRequests.more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Просмотреть %1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>запросы на добавление в друзья: %@</string>
+			<key>many</key>
+			<string>запросы на добавление в друзья: %@</string>
+			<key>one</key>
+			<string>%@ запрос на добавление в друзья</string>
+			<key>other</key>
+			<string>запросы на добавление в друзья: %@</string>
+		</dict>
+	</dict>
+	<key>access.recommendation.friends.more</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Показать %d рекомендованн%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ых друга</string>
+			<key>many</key>
+			<string>ых друзей </string>
+			<key>one</key>
+			<string>ого друга</string>
+			<key>other</key>
+			<string>ых друзей</string>
+		</dict>
+	</dict>
+	<key>access.slideshow.photo.edit.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Изменить фото %1$d</string>
+			<key>many</key>
+			<string>Изменить фото %1$d</string>
+			<key>one</key>
+			<string>Изменить фото %1$d</string>
+			<key>other</key>
+			<string>Изменить фото %1$d</string>
+		</dict>
+	</dict>
+	<key>access.slideshow.photo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Фото %2$d из %1$d</string>
+			<key>many</key>
+			<string>Фото %2$d из %1$d</string>
+			<key>one</key>
+			<string>Фото %2$d из %1$d</string>
+			<key>other</key>
+			<string>Фото %2$d из %1$d</string>
+		</dict>
+	</dict>
+	<key>access.slideshow.photo.selected.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Выбрано фото %1$d</string>
+			<key>many</key>
+			<string>Выбрано фото %1$d</string>
+			<key>one</key>
+			<string>Выбрано фото %1$d</string>
+			<key>other</key>
+			<string>Выбрано фото %1$d</string>
+		</dict>
+	</dict>
+	<key>access.timeline.poppost.edit</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Публикация будет автоматически удалена через %d%1$#@p@. Коснитесь, чтобы изменить этот параметр.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string> часов</string>
+			<key>many</key>
+			<string> часов</string>
+			<key>one</key>
+			<string> час</string>
+			<key>other</key>
+			<string> часов</string>
+		</dict>
+	</dict>
+	<key>access.wallet.header.button.pointclub</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%@%@Балл%1$#@p@:</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string>ы</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>addFriends.shakeIt.found.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Найден%1$#@p@ %d</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>о</string>
+			<key>many</key>
+			<string>о</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>о</string>
+		</dict>
+	</dict>
+	<key>addressbook.selected.limit.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Выбрать можно не более %d человек%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>calls.freecount.label</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Остал%1$#@p@ на сегодня</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>ись &lt;font color='#f8ff2f'&gt;%@&lt;/font&gt; звонка</string>
+			<key>many</key>
+			<string>ись &lt;font color='#f8ff2f'&gt;%@&lt;/font&gt; звонков</string>
+			<key>one</key>
+			<string>ся &lt;font color='#f8ff2f'&gt;%@&lt;/font&gt; звонок</string>
+			<key>other</key>
+			<string>ось &lt;font color='#f8ff2f'&gt;%@&lt;/font&gt; звонка</string>
+		</dict>
+	</dict>
+	<key>chat.layer.groupcall.numofmembers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%2$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Участников: &lt;font color=%@&gt;%d&lt;/font&gt;.</string>
+			<key>many</key>
+			<string>Участников: &lt;font color=%@&gt;%d&lt;/font&gt;.</string>
+			<key>one</key>
+			<string>Участников: &lt;font color=%@&gt;%d&lt;/font&gt;.</string>
+			<key>other</key>
+			<string>Участников: &lt;font color=%@&gt;%d&lt;/font&gt;.</string>
+		</dict>
+	</dict>
+	<key>chat.message.album.addedPictures.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>few</key>
+			<string>Добавил(а) фото в альбом.</string>
+			<key>many</key>
+			<string>Добавил(а) фото в альбом.</string>
+			<key>one</key>
+			<string>Добавил(а) фото в альбом.</string>
+			<key>other</key>
+			<string>Добавил(а) фото в альбом.</string>
+		</dict>
+	</dict>
+	<key>chat.more.gallery.alert.saved.cameraRoll.failed.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>few</key>
+			<string>Сохранение на устройство выполнено (%ld фото и/или видео не удалось сохранить).</string>
+			<key>many</key>
+			<string>Сохранение на устройство выполнено (%ld фото и/или видео не удалось сохранить).</string>
+			<key>one</key>
+			<string>Сохранение на устройство выполнено (%ld фото и/или видео не удалось сохранить).</string>
+			<key>other</key>
+			<string>Сохранение на устройство выполнено (%ld фото и/или видео не удалось сохранить).</string>
+		</dict>
+	</dict>
+	<key>chat.sharing.notification.multiple</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Сообщение переслано%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string> в %u чата</string>
+			<key>many</key>
+			<string> в %u чатов</string>
+			<key>one</key>
+			<string>: %u</string>
+			<key>other</key>
+			<string> в %u чата</string>
+		</dict>
+	</dict>
+	<key>chatlist.delete.tooManyRowsSelected.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы можете удалить до %d списк%1$#@p@ чата.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ов</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ов</string>
+		</dict>
+	</dict>
+	<key>coin.history.no.history.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>У вас нет истории использования монет за последни%1$#@p@ %d мес.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>е</string>
+			<key>many</key>
+			<string>е</string>
+			<key>one</key>
+			<string>й</string>
+			<key>other</key>
+			<string>е</string>
+		</dict>
+	</dict>
+	<key>common.date.dayAgo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d д%1$#@p@ назад</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ень</string>
+			<key>many</key>
+			<string>ня</string>
+			<key>one</key>
+			<string>ень.</string>
+			<key>other</key>
+			<string>ня</string>
+		</dict>
+	</dict>
+	<key>common.date.hourAgo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d ч. назад</string>
+			<key>many</key>
+			<string>%d ч. назад</string>
+			<key>one</key>
+			<string>%d ч. назад</string>
+			<key>other</key>
+			<string>%d ч. назад</string>
+		</dict>
+	</dict>
+	<key>common.date.minuteAgo.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d мин. назад</string>
+			<key>many</key>
+			<string>%d мин. назад</string>
+			<key>one</key>
+			<string>%d мин. назад</string>
+			<key>other</key>
+			<string>%d мин. назад</string>
+		</dict>
+	</dict>
+	<key>friends.edit.blockUsers.title.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Заблокировать эт%1$#@p@?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>их %d пользователей</string>
+			<key>many</key>
+			<string>их %d пользователей</string>
+			<key>one</key>
+			<string>ого %d пользователя</string>
+			<key>other</key>
+			<string>их %d пользователей</string>
+		</dict>
+	</dict>
+	<key>friends.edit.hideUsers.title.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Скрыть эт%1$#@p@?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>их %d пользователей</string>
+			<key>many</key>
+			<string>их %d пользователей</string>
+			<key>one</key>
+			<string>ого %d пользователя</string>
+			<key>other</key>
+			<string>их %d пользователей</string>
+		</dict>
+	</dict>
+	<key>gallery.camera.max.video.toast2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно снять видео продолжительностью не более %d минут%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>ы</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>gallery.camera.max.video.toast3.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно снять видео продолжительностью не более %d секунд%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>ы</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>gallery.camera.max.video.toast4.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно снять видео продолжительностью не более %1$d минут%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string> %2$d секунд</string>
+			<key>many</key>
+			<string> %2$d секунд</string>
+			<key>one</key>
+			<string>ы %2$d секунды</string>
+			<key>other</key>
+			<string>ы %2$d секунды</string>
+		</dict>
+	</dict>
+	<key>gallery.max.media.guide</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно отправить не более %1$d элемент%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ов</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>gallery.max.photo.guide.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Зараз можно отправить не более %d фото.</string>
+			<key>many</key>
+			<string>Зараз можно отправить не более %d фото.</string>
+			<key>one</key>
+			<string>Зараз можно отправить не более %d фото.</string>
+			<key>other</key>
+			<string>Зараз можно отправить не более %d фото.</string>
+		</dict>
+	</dict>
+	<key>gallery.max.second.video.guide</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно отправить видео продолжительностью не более %d секунд%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>ы</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>gallery.max.video.guide</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно отправить видео продолжительностью не более %d минут%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>ы</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>gallery.photo.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ фото</string>
+			<key>many</key>
+			<string>%@ фото</string>
+			<key>one</key>
+			<string>%@ фото</string>
+			<key>other</key>
+			<string>%@ фото</string>
+		</dict>
+	</dict>
+	<key>gallery.photo.header.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ фото</string>
+			<key>many</key>
+			<string>%@ фото</string>
+			<key>one</key>
+			<string>%@ фото</string>
+			<key>other</key>
+			<string>%@ фото</string>
+		</dict>
+	</dict>
+	<key>gallery.picker.canceled.gocam.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если перейти к камере, выбор снимк%1$#@p@ (%u) будет отменен. Продолжить?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>ов</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ов</string>
+		</dict>
+	</dict>
+	<key>gallery.picker.max.media.alert.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Можно отправить не более %1$d элемент%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ов</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>gallery.picker.selected.items</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Выбрано: %d</string>
+			<key>many</key>
+			<string>Выбрано: %d</string>
+			<key>one</key>
+			<string>Выбрано: %d</string>
+			<key>other</key>
+			<string>Выбрано: %d</string>
+		</dict>
+	</dict>
+	<key>gallery.selected.photos.cancel</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если перейти к камере, выбор снимк%1$#@p@ (%u) будет отменен. Продолжить?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>ов</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ов</string>
+		</dict>
+	</dict>
+	<key>gallery.video.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ видео</string>
+			<key>many</key>
+			<string>%@ видео</string>
+			<key>one</key>
+			<string>%@ видео</string>
+			<key>other</key>
+			<string>%@ видео</string>
+		</dict>
+	</dict>
+	<key>gallery.video.header.count.p</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>%@ видео</string>
+			<key>many</key>
+			<string>%@ видео</string>
+			<key>one</key>
+			<string>%@ видео</string>
+			<key>other</key>
+			<string>%@ видео</string>
+		</dict>
+	</dict>
+	<key>home.profile.postcount</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d публикаци%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>и</string>
+			<key>many</key>
+			<string>й</string>
+			<key>one</key>
+			<string>я</string>
+			<key>other</key>
+			<string>й</string>
+		</dict>
+	</dict>
+	<key>line.friendsettings.popupdesc.removeblockeduser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы действительно хотите удалить выбранны%1$#@p@?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>few</key>
+			<string>е аккаунты</string>
+			<key>many</key>
+			<string>е аккаунты</string>
+			<key>one</key>
+			<string>й аккаунт</string>
+			<key>other</key>
+			<string>е аккаунты</string>
+		</dict>
+	</dict>
+	<key>line.friendsettings.popupdesc.unblockuser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы действительно хотите разблокировать выбранны%1$#@p@?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>few</key>
+			<string>е аккаунты</string>
+			<key>many</key>
+			<string>е аккаунты</string>
+			<key>one</key>
+			<string>й аккаунт</string>
+			<key>other</key>
+			<string>е аккаунты</string>
+		</dict>
+	</dict>
+	<key>line.friendsettings.popupdesc.unhideuser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>Вы действительно хотите отобразить скрытый аккаунт?</string>
+			<key>other</key>
+			<string>Вы действительно хотите отобразить скрытые аккаунты?</string>
+		</dict>
+	</dict>
+	<key>more.category.friends.counts.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>&lt;b&gt;&lt;font color='#4c5a72'&gt;%d&lt;/font&gt; %1$#@p@тся этим приложением.&lt;/b&gt;</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>из ваших друзей пользую</string>
+			<key>many</key>
+			<string>из ваших друзей пользую</string>
+			<key>one</key>
+			<string>ваш друг пользуе</string>
+			<key>other</key>
+			<string>из ваших друзей пользую</string>
+		</dict>
+	</dict>
+	<key>more.category.friends.nameAndCounts2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>и еще &lt;font color='#4c5a72'&gt;%d&lt;/font&gt; %1$#@p@ пользуются этим.&lt;/b&gt;</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>других ваших друзей</string>
+			<key>many</key>
+			<string>других ваших друзей</string>
+			<key>one</key>
+			<string>ваш друг</string>
+			<key>other</key>
+			<string>других ваших друзей</string>
+		</dict>
+	</dict>
+	<key>pay.chat.message.notAvailableUser</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Невозможно отправить запросы %1$d пользовател%1$#@p@ из числа ваших друзей в этом чате.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ям</string>
+			<key>many</key>
+			<string>ям</string>
+			<key>one</key>
+			<string>ю</string>
+			<key>other</key>
+			<string>я</string>
+		</dict>
+	</dict>
+	<key>pay.chat.message.sendDutchMulti.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы попросили пользователя %1$@ и ещё %2$d дру%2$#@p@ оплатить %3$@ в складчину.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>зей</string>
+			<key>many</key>
+			<string>зей</string>
+			<key>one</key>
+			<string>га</string>
+			<key>other</key>
+			<string>га</string>
+		</dict>
+	</dict>
+	<key>pay.chat.message.sendRequestMulti.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы запросили %3$@ у %1$@ и ещё %2$d дру%2$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>зей</string>
+			<key>many</key>
+			<string>зей</string>
+			<key>one</key>
+			<string>га</string>
+			<key>other</key>
+			<string>га</string>
+		</dict>
+	</dict>
+	<key>pay.chooseMember.maxMember.alert</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Выбрать можно не более %1$d человек%1$#@p@.</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string></string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>promotion.friendsinvite.popup.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Еще %d балл%1$#@p@ и вы у цели!</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>а</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>repair.friend.confirm</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Синхронизация завершена. Восстановлены данные друзей: %d.</string>
+			<key>many</key>
+			<string>Синхронизация завершена. Восстановлены данные друзей: %d.</string>
+			<key>one</key>
+			<string>Синхронизация завершена. Восстановлены данные друзей: %d.</string>
+			<key>other</key>
+			<string>Синхронизация завершена. Восстановлены данные друзей: %d.</string>
+		</dict>
+	</dict>
+	<key>repair.group.confirm</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Синхронизация завершена. Восстановлены данные групп: %d.</string>
+			<key>many</key>
+			<string>Синхронизация завершена. Восстановлены данные групп: %d.</string>
+			<key>one</key>
+			<string>Синхронизация завершена. Восстановлены данные групп: %d.</string>
+			<key>other</key>
+			<string>Синхронизация завершена. Восстановлены данные групп: %d.</string>
+		</dict>
+	</dict>
+	<key>repair.profile.settings.confirm</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</string>
+			<key>many</key>
+			<string>Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</string>
+			<key>one</key>
+			<string>Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</string>
+			<key>other</key>
+			<string>Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</string>
+		</dict>
+	</dict>
+	<key>search.category.keyword.message.num</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>«%@»: %2$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d сообщения</string>
+			<key>many</key>
+			<string>%d сообщений</string>
+			<key>one</key>
+			<string>1 сообщение</string>
+			<key>other</key>
+			<string>%d сообщения</string>
+		</dict>
+	</dict>
+	<key>search.result.message.num</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Найдено %1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d сообщения</string>
+			<key>many</key>
+			<string>%d сообщений</string>
+			<key>one</key>
+			<string>1 сообщение</string>
+			<key>other</key>
+			<string>%d сообщения</string>
+		</dict>
+	</dict>
+	<key>selected.contents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d элемент%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>а</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+	<key>setting.keep.total.usage</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>В данный момент используется %d%% места в хранилище.</string>
+			<key>many</key>
+			<string>В данный момент используется %d%% места в хранилище.</string>
+			<key>one</key>
+			<string>В данный момент используется %d%% места в хранилище.</string>
+			<key>other</key>
+			<string>В данный момент используется %d%% места в хранилище.</string>
+		</dict>
+	</dict>
+	<key>settings.theme.detail.period.text.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Срок: %d д%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ня</string>
+			<key>many</key>
+			<string>ней</string>
+			<key>one</key>
+			<string>ень</string>
+			<key>other</key>
+			<string>ня</string>
+		</dict>
+	</dict>
+	<key>stickers.shop.detail.period.text.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Срок: %d д%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ня</string>
+			<key>many</key>
+			<string>ней</string>
+			<key>one</key>
+			<string>ень</string>
+			<key>other</key>
+			<string>ня</string>
+		</dict>
+	</dict>
+	<key>stickers.shop.detail.present.confirm2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>(%@ монет%1$#@p@)?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>stickers.shop.detail.purchase.confirm2.plural</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>(%@ монет%1$#@p@)?</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>@</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>walletTab.balance.coin</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d монет%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>ы</string>
+			<key>many</key>
+			<string></string>
+			<key>one</key>
+			<string>а</string>
+			<key>other</key>
+			<string>ы</string>
+		</dict>
+	</dict>
+	<key>walletTab.balance.point</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%d балл%1$#@p@</string>
+		<key>p</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>а</string>
+			<key>many</key>
+			<string>ов</string>
+			<key>one</key>
+			<string></string>
+			<key>other</key>
+			<string>а</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

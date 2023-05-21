@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chat.disappearing_message.hours_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d ώρα έμεινε για προβολή</string>
+			<key>other</key>
+			<string>%d ώρες έμειναν για προβολή</string>
+		</dict>
+	</dict>
+	<key>chat.disappearing_message.minutes_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d λεπτό έμεινε για προβολή</string>
+			<key>other</key>
+			<string>%d λεπτά έμειναν για προβολή</string>
+		</dict>
+	</dict>
+	<key>chat.request_options.common_groups_explanation2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Αυτό το άτομο δεν είναι επαφή αλλά είναι στην %d ίδια ομάδας όπως εσείς. Παρακαλούμε να είστε ιδιαίτερα προσεκτικοί όταν στέλνετε μηνύματα σε μη επαφές.</string>
+			<key>other</key>
+			<string>Αυτό το άτομο δεν είναι επαφή αλλά είναι στην %d ίδιες ομάδες όπως εσείς. Παρακαλούμε να είστε ιδιαίτερα προσεκτικοί όταν στέλνετε μηνύματα σε μη επαφές.</string>
+		</dict>
+	</dict>
+	<key>chat.requests.text.limit_reached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Για να περιορίσουμε τα spam, επιτρέπετε να στέλνετε μόνο 50 αιτήματα συνομιλίας κάθε 24 ώρες. Έχετε φτάσει αυτό το όριο και θα πρέπει να περιμένετε %d ώρα για να μπορέσετε να στείλετε περισσότερα. Δεν υπάρχει όριο στον αριθμό των αιτημάτων συνομιλίας που μπορείτε να λάβετε.</string>
+			<key>other</key>
+			<string>Για να περιορίσουμε τα spam, επιτρέπετε να στέλνετε μόνο 50 αιτήματα συνομιλίας κάθε 24 ώρες. Έχετε φτάσει αυτό το όριο και θα πρέπει να περιμένετε %d ώρες για να μπορέσετε να στείλετε περισσότερα. Δεν υπάρχει όριο στον αριθμό των αιτημάτων συνομιλίας που μπορείτε να λάβετε.</string>
+		</dict>
+	</dict>
+	<key>chat.text.new_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d νέο μήνυμα</string>
+			<key>other</key>
+			<string>%d νέα μηνύματα</string>
+		</dict>
+	</dict>
+	<key>chat.text.people_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d άτομο</string>
+			<key>other</key>
+			<string>%d άτομα</string>
+		</dict>
+	</dict>
+	<key>common.period.days_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d ημέρα</string>
+			<key>other</key>
+			<string>%d ημέρες</string>
+		</dict>
+	</dict>
+	<key>common.period.hours_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d ώρα</string>
+			<key>other</key>
+			<string>%d ώρες</string>
+		</dict>
+	</dict>
+	<key>common.period.minutes_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d λεπτό</string>
+			<key>other</key>
+			<string>%d λεπτά</string>
+		</dict>
+	</dict>
+	<key>contacts.text.add_contact_to_group_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Θα προσθέσετε αυτή την επαφή στο %2$@</string>
+			<key>other</key>
+			<string>Θα προσθέσετε %1$d επαφές στο %2$@</string>
+		</dict>
+	</dict>
+	<key>contacts.text.contacts_selected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d επαφή επιλέχθηκε</string>
+			<key>other</key>
+			<string>%d επαφές επιλέχθηκαν</string>
+		</dict>
+	</dict>
+	<key>contacts.text.invitation_limit_reached</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Για να περιορίσουμε τα ανεπιθύμητα μηνύματα, επιτρέπεται να στέλνετε μόνο 50 αιτήματα επικοινωνίας κάθε 24 ώρες. Έχετε φτάσει αυτό το όριο και θα πρέπει να περιμένετε %d ώρα για να μπορέσετε να στείλετε περισσότερα. Δεν υπάρχει όριο στον αριθμό των αιτημάτων επικοινωνίας που μπορείτε να λάβετε.</string>
+			<key>other</key>
+			<string>Για να περιορίσουμε τα ανεπιθύμητα μηνύματα, επιτρέπεται να στέλνετε μόνο 50 αιτήματα επικοινωνίας κάθε 24 ώρες. Έχετε φτάσει αυτό το όριο και θα πρέπει να περιμένετε %d ώρες για να μπορέσετε να στείλετε περισσότερα. Δεν υπάρχει όριο στον αριθμό των αιτημάτων επικοινωνίας που μπορείτε να λάβετε.</string>
+		</dict>
+	</dict>
+	<key>contacts_suggestions.alert.success</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Επιτυχώς στείλατε %d πρόταση επαφής</string>
+			<key>other</key>
+			<string>Επιτυχώς στείλατε %d προτάσεις επαφών</string>
+		</dict>
+	</dict>
+	<key>events.text.group_event_add_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Θέλετε να προσθέσετε αυτό το μέλος στην %2$@;</string>
+			<key>other</key>
+			<string>Θέλετε να προσθέσετε %1$d μέλη στην %2$@;</string>
+		</dict>
+	</dict>
+	<key>events.text.group_event_invite_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Θέλετε να προσκαλέσετε αυτό το μέλος στην %2$@;</string>
+			<key>other</key>
+			<string>Θέλετε να προσκαλέσετε %1$d μέλη στην %2$@;</string>
+		</dict>
+	</dict>
+	<key>events.text.user_event_invite_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Θέλετε να προσκαλέσετε αυτή την επαφή στη %2$@;</string>
+			<key>other</key>
+			<string>Θέλετε να προσκαλέσετε %1$d επαφές στην %2$@;</string>
+		</dict>
+	</dict>
+	<key>feed.text.comment_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d σχόλιο</string>
+			<key>other</key>
+			<string>%d σχόλια</string>
+		</dict>
+	</dict>
+	<key>feed.text.contacts_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d επαφή</string>
+			<key>other</key>
+			<string>%d επαφές</string>
+		</dict>
+	</dict>
+	<key>feed.text.like_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d συμπάθεια</string>
+			<key>other</key>
+			<string>%d συμπάθειες</string>
+		</dict>
+	</dict>
+	<key>feed.text.love_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d αγάπη</string>
+			<key>other</key>
+			<string>%d αγάπες</string>
+		</dict>
+	</dict>
+	<key>feed.text.more_documents_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>+ %d ακόμα έγγραφο</string>
+			<key>other</key>
+			<string>+ %d ακόμα έγγραφα</string>
+		</dict>
+	</dict>
+	<key>files.label.files_count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d αρχείο</string>
+			<key>other</key>
+			<string>%d αρχεία</string>
+		</dict>
+	</dict>
+	<key>forwarding.confirmation.delete_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το μήνυμα;</string>
+			<key>other</key>
+			<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε %d μηνύματα;</string>
+		</dict>
+	</dict>
+	<key>ftue.text.nice_you_have_n_friends_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ωραία! Έχετε ήδη ένα φίλο στο MeWe!</string>
+			<key>other</key>
+			<string>Ωραία! Έχετε ήδη %d φίλους στο MeWe!</string>
+		</dict>
+	</dict>
+	<key>group.label.members_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d μέλος</string>
+			<key>other</key>
+			<string>%d μέλη</string>
+		</dict>
+	</dict>
+	<key>group_picker.decline_all_invitations_alert.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Είστε βέβαιοι ότι θέλετε να απορρίψετε %d πρόσκλησης;</string>
+			<key>other</key>
+			<string>Είστε βέβαιοι ότι θέλετε να απορρίψετε όλες τις %d προσκλήσεις;</string>
+		</dict>
+	</dict>
+	<key>group_picker.decline_invitations_alert.text</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Είστε βέβαιοι ότι θέλετε να απορρίψετε %d πρόσκληση ομάδας;</string>
+			<key>other</key>
+			<string>Είστε βέβαιοι ότι θέλετε να απορρίψετε όλες τις %d προσκλήσεις ομάδων;</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.media_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d αντικείμενο</string>
+			<key>other</key>
+			<string>%d αντικείμενα</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.photos_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d φωτογραφία</string>
+			<key>other</key>
+			<string>%d φωτογραφίες</string>
+		</dict>
+	</dict>
+	<key>media_picker.text.selected_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d αντικείμενο επιλέχθηκε</string>
+			<key>other</key>
+			<string>%d αντικείμενα επιλέχθηκαν</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Πρόκειται να ειδοποιήσετε &lt;b&gt;%d άτομο&lt;/b&gt;. Είστε βέβαιος;</string>
+			<key>other</key>
+			<string>Πρόκειται να ειδοποιήσετε όλους τους &lt;b&gt;%d άτομα&lt;/b&gt;. Είστε βέβαιος;</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_chat</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Πρόκειται να ειδοποιήσετε &lt;b&gt;%d άτομο&lt;/b&gt; σε αυτή τη συνομιλία. Είστε βέβαιος;</string>
+			<key>other</key>
+			<string>Πρόκειται να ειδοποιήσετε όλα τα &lt;b&gt;%d άτομα&lt;/b&gt; σε αυτή τη συνομιλία. Είστε βέβαιος;</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Πρόκειται να ειδοποιήσετε &lt;b&gt;%d άτομο&lt;/b&gt; σε αυτή την εκδήλωση. Είστε βέβαιος;</string>
+			<key>other</key>
+			<string>Πρόκειται να ειδοποιήσετε όλα τα &lt;b&gt;%d άτομα&lt;/b&gt; σε αυτή την εκδήλωση. Είστε βέβαιος;</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_group</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Πρόκειται να ειδοποιήσετε &lt;b&gt;%d άτομο&lt;/b&gt; σε αυτή την ομάδα. Είστε βέβαιος;</string>
+			<key>other</key>
+			<string>Πρόκειται να ειδοποιήσετε όλα τα &lt;b&gt;%d άτομα&lt;/b&gt; σε αυτή την ομάδα. Είστε βέβαιος;</string>
+		</dict>
+	</dict>
+	<key>mention.notify.n_people_in_team</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Πρόκειται να ειδοποιήσετε &lt;b&gt;%d άτομο&lt;/b&gt; στην ομάδα. Είστε βέβαιος;</string>
+			<key>other</key>
+			<string>Πρόκειται να ειδοποιήσετε όλα τα &lt;b&gt;%d άτομα&lt;/b&gt; στην ομάδα. Είστε βέβαιος;</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.event_attendance</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος θα παρευρεθούν στην εκδήλωσή σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι θα παρευρεθούν στην εκδήλωση σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.n_others_followed_your_page</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος ακολούθησαν τη σελίδα σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ and %1$d άλλοι ακολούθησαν τη σελίδα σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.new_page_notifications</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Έχετε %1$d νέα ειδοποίηση στη %2$@</string>
+			<key>other</key>
+			<string>Έχετε %1$d νέες ειδοποιήσεις στην %2$@</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν τα έγγραφά σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν τα έγγραφά σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν τα έγγραφά σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν τα έγγραφά σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν την εκδήλωσή σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν την εκδήλωσή σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν τη φωτογραφία σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν τη φωτογραφία σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν τις φωτογραφίες σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν τις φωτογραφίες σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν την ανάρτηση σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν την ανάρτηση σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν τα %3$@ έγγραφα</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν τα %3$@ έγγραφα</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν τα %3$@ έγγραφα</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν τα %3$@ έγγραφα</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν στην %3$@ εκδήλωση</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν στην %3$@ εκδήλωση</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν την %3$@ φωτογραφία</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν την %3$@ φωτογραφία</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν στις %3$@ φωτογραφίες</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν στις %3$@ φωτογραφίες</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν στην %3$@ ανάρτηση</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν στην %3$@ ανάρτηση</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_user_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος επίσης σχολίασαν στο %3$@ βίντεο</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι επίσης σχολίασαν στο %3$@ βίντεο</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_commented_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος σχολίασαν στο βίντεο σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι σχολίασαν στο βίντεο σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_comment</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στο σχόλιό σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στο σχόλιό σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_document</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στο έγγραφό σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στο έγγραφό σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_documents</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στο σετ εγγράφων σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στο σετ εγγράφων σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_event</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στην εκδήλωσή σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στην εκδήλωσή σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_photo</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στις φωτογραφίες σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στις φωτογραφίες σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_photos</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στις φωτογραφίες σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στις φωτογραφίες σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στην ανάρτησή σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ and %1$d άλλοι έστειλαν emoji στην ανάρτησή σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_reply</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος έστειλαν emoji στην απάντηση σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ and %1$d άλλοι έστειλαν emoji στην απάντηση σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_emojied_video</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στο βίντεο σας</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι έστειλαν emoji στο βίντεο σας</string>
+		</dict>
+	</dict>
+	<key>notification_center.text.user_and_n_others_responded_to_your_poll</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλος απάντησε στη δημοσκόπηση σας: %3$@</string>
+			<key>other</key>
+			<string>Ο χρήστης %2$@ και %1$d άλλοι απάντησαν στη δημοσκόπησή σας: %3$@</string>
+		</dict>
+	</dict>
+	<key>pages.label.followers</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d ακόλουθος</string>
+			<key>other</key>
+			<string>%d ακόλουθοι</string>
+		</dict>
+	</dict>
+	<key>pn.text.event_reminder_minutes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Η εκδήλωση "%@" ξεκινά σε ένα λεπτό</string>
+			<key>other</key>
+			<string>Η εκδήλωση"%1$@" ξεκινά σε %2$d λεπτά</string>
+		</dict>
+	</dict>
+	<key>polls.label.n_people_voted</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ο χρήστης %d ψήφισε</string>
+			<key>other</key>
+			<string>Οι χρήστες %d ψήφισαν</string>
+		</dict>
+	</dict>
+	<key>polls.label.view_n_more_options</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Προβολή %d ακόμα</string>
+			<key>other</key>
+			<string>Προβολή %d ακόμα</string>
+		</dict>
+	</dict>
+	<key>pro.guests.group_add_confirmation</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Θέλετε να προσθέσετε αυτόν τον επισκέπτη στη %2$@;</string>
+			<key>other</key>
+			<string>Θέλετε να προσθέσετε %1$d επισκέπτες σε %2$@;</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.day_before</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d ημέρα πριν</string>
+			<key>other</key>
+			<string>%d ημέρες πριν</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Καθημερινά</string>
+			<key>other</key>
+			<string>Κάθε %d ημέρες</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_month</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Μηνιαία</string>
+			<key>other</key>
+			<string>Κάθε %d μήνες</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Εβδομαδιαία</string>
+			<key>other</key>
+			<string>Κάθε %d εβδομάδες</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.every_year</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Ετησίως</string>
+			<key>other</key>
+			<string>Κάθε %d χρόνια</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.hour_before</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d ώρα πριν</string>
+			<key>other</key>
+			<string>%d ώρες πριν</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.minutes_before_pattern</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d λεπτό πριν</string>
+			<key>other</key>
+			<string>%d λεπτά πριν</string>
+		</dict>
+	</dict>
+	<key>recurring_events.label.times</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d φορά</string>
+			<key>other</key>
+			<string>%d φορές</string>
+		</dict>
+	</dict>
+	<key>recurring_events.repeating.label.after_times</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>μετά από %d φορά</string>
+			<key>other</key>
+			<string>μετά από %d φορές</string>
+		</dict>
+	</dict>
+	<key>secret_chat.store.trial_days_left</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Σας μένει %d ημέρα στη δωρεάν δοκιμαστική περίοδο</string>
+			<key>other</key>
+			<string>Σας μένουν %d ημέρες στη δωρεάν δοκιμαστική περίοδο</string>
+		</dict>
+	</dict>
+	<key>wrapper.text.new_post</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@items@</string>
+		<key>items</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d νέα ανάρτηση</string>
+			<key>other</key>
+			<string>%d νέες αναρτήσεις</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

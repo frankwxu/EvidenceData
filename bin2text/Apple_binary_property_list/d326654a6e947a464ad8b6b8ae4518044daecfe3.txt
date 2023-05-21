@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AB_PERMISSION_MISSING_ACTION_NOT_NOW</key>
+	<string>ليس الآن</string>
+	<key>ACCEPT_NEW_IDENTITY_ACTION</key>
+	<string>قبول رقم الأمان الجديد</string>
+	<key>ACCESSIBILITY_LABEL_ATTACHMENT</key>
+	<string>ارفق الصور.</string>
+	<key>ACCESSIBILITY_LABEL_AUDIO</key>
+	<string>صوت</string>
+	<key>ACCESSIBILITY_LABEL_CONTACT</key>
+	<string> اتصال</string>
+	<key>ACCESSIBILITY_LABEL_MEDIA</key>
+	<string>الوسائط</string>
+	<key>ACCESSIBILITY_LABEL_MESSAGE</key>
+	<string>رسالة</string>
+	<key>ACCESSIBILITY_LABEL_SENDER_SELF</key>
+	<string>أنت</string>
+	<key>ACCESSIBILITY_LABEL_STICKER</key>
+	<string>ملصق</string>
+	<key>ACTION_AUDIO_CALL</key>
+	<string>اتصال</string>
+	<key>ACTION_INVITE</key>
+	<string>ادعُ إلى Signal</string>
+	<key>ACTION_SEND_MESSAGE</key>
+	<string>إرسال رسالة</string>
+	<key>ACTION_SHARE_CONTACT</key>
+	<string>مشاركة جهة اتصال</string>
+	<key>ACTION_VIDEO_CALL</key>
+	<string>اتصال فيديو</string>
+	<key>ADD_GROUP_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>هل تريد مشاركة ملفك الشخصي مع هذه المجموعة؟</string>
+	<key>ADD_TO_CONTACTS_OFFER</key>
+	<string>هل ترغب في إضافة هذا المستخدم لجهات الاتصال الخاصة بك؟</string>
+	<key>ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>هل تريد مشاركة ملفك الشخصي مع هذا المستخدم؟</string>
+	<key>ALERT_ACTION_ACKNOWLEDGE</key>
+	<string>عُلم</string>
+	<key>ALERT_DISCARD_BUTTON</key>
+	<string>تجاهل</string>
+	<key>ALERT_DONT_SAVE</key>
+	<string>عدم الحفظ</string>
+	<key>ALERT_ERROR_TITLE</key>
+	<string>يوجد خطأ</string>
+	<key>ALERT_SAVE</key>
+	<string>حفظ</string>
+	<key>ANSWER_CALL_BUTTON_TITLE</key>
+	<string>أجب</string>
+	<key>APN_Message</key>
+	<string>رسالة جديدة!</string>
+	<key>APPEARANCE_SETTINGS_DARK_THEME_NAME</key>
+	<string>داكن</string>
+	<key>APPEARANCE_SETTINGS_LIGHT_THEME_NAME</key>
+	<string>فاتح</string>
+	<key>APPEARANCE_SETTINGS_SYSTEM_THEME_NAME</key>
+	<string>نظام التشغيل</string>
+	<key>APPLICATION_NAME</key>
+	<string>Signal</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_MESSAGE</key>
+	<string>خطأ في تشغيل Signal. حتى نتمكّن من تصحيح المشكلة برجاء إرسال سجلات التصحيح إلى بريد الدعم: support@signal.org</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_TITLE</key>
+	<string>خطأ</string>
+	<key>APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE</key>
+	<string>تعذّر تحميل قاعدة البيانات</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE</key>
+	<string>Please upgrade to the latest version of Signal.</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE</key>
+	<string>Unknown Database Version.</string>
+	<key>APP_SETTINGS_EDIT_PROFILE_NAME_PROMPT</key>
+	<string>أدخل إسمك</string>
+	<key>APP_UPDATE_NAG_ALERT_DISMISS_BUTTON</key>
+	<string>ليس الآن</string>
+	<key>APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT</key>
+	<string>النسخة %@ غير موجودة بمتجر الآب ستور</string>
+	<key>APP_UPDATE_NAG_ALERT_TITLE</key>
+	<string>هناك إصدارٌ جديدٌ من Signal</string>
+	<key>APP_UPDATE_NAG_ALERT_UPDATE_BUTTON</key>
+	<string>تحديث التطبيق</string>
+	<key>ARCHIVE_ACTION</key>
+	<string>ارشفة المحادثة</string>
+	<key>ATTACHMENT</key>
+	<string>مرفق</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_LENGTH_LIMIT_REACHED</key>
+	<string>Caption limit reached.</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_PLACEHOLDER</key>
+	<string>إضافة تعليق..</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_TITLE</key>
+	<string>Caption</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_EXPORT</key>
+	<string>Attachment failed to export.</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_SAVE</key>
+	<string>Failed to Save</string>
+	<key>ATTACHMENT_APPROVAL_FILE_EXTENSION_FORMAT</key>
+	<string>نوع الملف: %@</string>
+	<key>ATTACHMENT_APPROVAL_FILE_SIZE_FORMAT</key>
+	<string>الحجم: %@</string>
+	<key>ATTACHMENT_APPROVAL_MEDIA_DID_SAVE</key>
+	<string>تم الحفظ</string>
+	<key>ATTACHMENT_APPROVAL_MESSAGE_TO_FORMAT</key>
+	<string>Message to %@</string>
+	<key>ATTACHMENT_APPROVAL_SEND_BUTTON</key>
+	<string>أرسل</string>
+	<key>ATTACHMENT_DEFAULT_FILENAME</key>
+	<string>المرفقات</string>
+	<key>ATTACHMENT_DOWNLOADING_STATUS_FAILED</key>
+	<string>فشل التحميل. انقر للمعاودة.</string>
+	<key>ATTACHMENT_ERROR_ALERT_TITLE</key>
+	<string>خطأ في ارسال المرفقات.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_JPEG</key>
+	<string>تعذر تحويل الصورة.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_MP4</key>
+	<string>لا يمكن معالجة الصيغة المرفقة الى MP4.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_PARSE_IMAGE</key>
+	<string>Unable to parse image.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA</key>
+	<string>لايمكن حذف معلومات META من المرفقات.</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_RESIZE_IMAGE</key>
+	<string>تعذر تحجيم الصورة.</string>
+	<key>ATTACHMENT_ERROR_FILE_SIZE_TOO_LARGE</key>
+	<string>لقد تجاوزت الحد الاقصى للمرفقات.</string>
+	<key>ATTACHMENT_ERROR_INVALID_DATA</key>
+	<string>Attachment includes invalid content.</string>
+	<key>ATTACHMENT_ERROR_INVALID_FILE_FORMAT</key>
+	<string>Attachment has an invalid file format.</string>
+	<key>ATTACHMENT_ERROR_MISSING_DATA</key>
+	<string>المفرق لا يحتوي على معلومات.</string>
+	<key>ATTACHMENT_HINT</key>
+	<string>Choose Media to Send</string>
+	<key>ATTACHMENT_KEYBOARD_CAMERA</key>
+	<string>الكاميرا</string>
+	<key>ATTACHMENT_KEYBOARD_CONTACT</key>
+	<string> اتصال</string>
+	<key>ATTACHMENT_KEYBOARD_FILE</key>
+	<string>ملف</string>
+	<key>ATTACHMENT_KEYBOARD_GIF</key>
+	<string>صورة GIF</string>
+	<key>ATTACHMENT_KEYBOARD_LOCATION</key>
+	<string>موقع جغرافي</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTOS</key>
+	<string>Once you’ve taken photos, you’ll be able to send your recents here.</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS</key>
+	<string>Grant access to your photos in settings to send them here.</string>
+	<key>ATTACHMENT_LABEL</key>
+	<string>ارفق الصور.</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE</key>
+	<string>فشل في اختيار المرفقات. </string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY</key>
+	<string>Please create a compressed archive of this file or directory and try sending that instead.</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE</key>
+	<string>ملف غير مدعم؟</string>
+	<key>ATTACHMENT_TYPE_VOICE_MESSAGE</key>
+	<string>رسالة صوتية.</string>
+	<key>AUDIO_ACTIVITY_PLAYBACK_NAME_AUDIO_MESSAGE</key>
+	<string>Audio Message</string>
+	<key>AUDIO_ROUTE_BUILT_IN_SPEAKER</key>
+	<string>مكبر الصوت.</string>
+	<key>BACKUP_EXPORT_ERROR_COULD_NOT_EXPORT</key>
+	<string>ليس بالامكان تصدير نسخة احتياطية.</string>
+	<key>BACKUP_EXPORT_ERROR_INVALID_CLOUDKIT_RESPONSE</key>
+	<string>فشل في استقبال المعلومات من الخادم.</string>
+	<key>BACKUP_EXPORT_PHASE_CLEAN_UP</key>
+	<string>ازالة المعلومات ا لاحتياطية</string>
+	<key>BACKUP_EXPORT_PHASE_CONFIGURATION</key>
+	<string>Initializing Backup</string>
+	<key>BACKUP_EXPORT_PHASE_DATABASE_EXPORT</key>
+	<string>تصدير النسخة الاحتياطية</string>
+	<key>BACKUP_EXPORT_PHASE_EXPORT</key>
+	<string>تصدير النسخة الاحتياطية</string>
+	<key>BACKUP_EXPORT_PHASE_UPLOAD</key>
+	<string>رفع النسخة الاحتياطية</string>
+	<key>BACKUP_IMPORT_ERROR_COULD_NOT_IMPORT</key>
+	<string>Backup could not be imported.</string>
+	<key>BACKUP_IMPORT_PHASE_CONFIGURATION</key>
+	<string>تهيئة النسخة الاحتياطية</string>
+	<key>BACKUP_IMPORT_PHASE_DOWNLOAD</key>
+	<string>تحميل بيانات النسخة الاحتياطية</string>
+	<key>BACKUP_IMPORT_PHASE_FINALIZING</key>
+	<string>Finalizing Backup</string>
+	<key>BACKUP_IMPORT_PHASE_IMPORT</key>
+	<string>Importing backup.</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_DATABASE</key>
+	<string>استعادة قاعدة البيانات</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_FILES</key>
+	<string>استعادة الملفات</string>
+	<key>BACKUP_RESTORE_DECISION_TITLE</key>
+	<string>Backup Available</string>
+	<key>BACKUP_RESTORE_DESCRIPTION</key>
+	<string>استعادة النسخة الاحتياطية</string>
+	<key>BACKUP_RESTORE_PROGRESS</key>
+	<string>Progress</string>
+	<key>BACKUP_RESTORE_STATUS</key>
+	<string>الحالة</string>
+	<key>BACKUP_UNEXPECTED_ERROR</key>
+	<string>Unexpected Backup Error</string>
+	<key>BACK_BUTTON</key>
+	<string>الرجوع للخلف.</string>
+	<key>BLOCK_GROUP_BEHAVIOR_EXPLANATION</key>
+	<string>لن تستقبل رسائل أو تحديثات من من هذه المجموعة بعد الآن.</string>
+	<key>BLOCK_LIST_BLOCKED_GROUPS_SECTION</key>
+	<string>المجموعات المحظورة</string>
+	<key>BLOCK_LIST_BLOCKED_USERS_SECTION</key>
+	<string>المستخدمون المحظورون</string>
+	<key>BLOCK_LIST_BLOCK_BUTTON</key>
+	<string>حظر</string>
+	<key>BLOCK_LIST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>Block and Leave the "%@" Group?</string>
+	<key>BLOCK_LIST_BLOCK_USER_TITLE_FORMAT</key>
+	<string>حظر %@؟</string>
+	<key>BLOCK_LIST_UNBLOCK_BUTTON</key>
+	<string>رفع الحظر</string>
+	<key>BLOCK_LIST_UNBLOCK_CONTACT_MESSAGE</key>
+	<string>You will be able to message and call each other.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_BODY</key>
+	<string>سيستطيع الأعضاء الموجودون إضافتك للمجموعة مرة أخرى.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_MESSAGE</key>
+	<string>Group members will be able to add you to this group again.</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_TITLE</key>
+	<string>إلغاء حظر المجموعة؟</string>
+	<key>BLOCK_LIST_UNBLOCK_TITLE_FORMAT</key>
+	<string>رفع الحظر %@؟</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_MESSAGE_FORMAT</key>
+	<string>%@ has been blocked.</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_TITLE</key>
+	<string>المستخدم محظور</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_GROUP_ALERT_TITLE</key>
+	<string>مجموعة محظورة</string>
+	<key>BLOCK_LIST_VIEW_BLOCK_BUTTON</key>
+	<string>حظر</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_MESSAGE</key>
+	<string>لا يمكنك حظر نفسك.</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_TITLE</key>
+	<string>خطأ</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_ALERT_TITLE_FORMAT</key>
+	<string>%@ تم رفع الحظر.</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_GROUP_ALERT_BODY</key>
+	<string>اﻷعضاء الحاليون يمكنهم إعادة إضافتك للمجموعة.</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_BLOCK_ACTION</key>
+	<string>حظر</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_TITLE_FORMAT</key>
+	<string>حظر %@؟</string>
+	<key>BLOCK_USER_BEHAVIOR_EXPLANATION</key>
+	<string>لن يتمكن المستخدم المحظور من الاتصال بك أو بعث الرسائل إليك.</string>
+	<key>BROWSE_FILES_BUTTON</key>
+	<string>Browse</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>استمر</string>
+	<key>BUTTON_DONE</key>
+	<string>تم</string>
+	<key>BUTTON_NEXT</key>
+	<string>التالي
+</string>
+	<key>BUTTON_OKAY</key>
+	<string>حسنًا</string>
+	<key>BUTTON_SELECT</key>
+	<string>حدد</string>
+	<key>BUTTON_SUBMIT</key>
+	<string>قدَم</string>
+	<key>CALLBACK_BUTTON_TITLE</key>
+	<string>إعادة الإتصال</string>
+	<key>CALLKIT_ANONYMOUS_CONTACT_NAME</key>
+	<string>مستخدم Signal</string>
+	<key>CALL_AGAIN_BUTTON_TITLE</key>
+	<string>معاودة الاتصال</string>
+	<key>CALL_AUDIO_PERMISSION_MESSAGE</key>
+	<string>You can enable microphone access in the iOS Settings app to make calls and record voice messages in Signal.</string>
+	<key>CALL_AUDIO_PERMISSION_TITLE</key>
+	<string>الإذن لاستخدام الميكرفون مطلوب</string>
+	<key>CALL_INCOMING_NOTIFICATION_BODY</key>
+	<string>☎️ Incoming Call</string>
+	<key>CALL_LABEL</key>
+	<string>إتصل</string>
+	<key>CALL_MISSED_BECAUSE_OF_IDENTITY_CHANGE_NOTIFICATION_BODY</key>
+	<string>☎️ Missed call because the caller's safety number changed.</string>
+	<key>CALL_MISSED_NOTIFICATION_BODY</key>
+	<string>☎️ Missed Call</string>
+	<key>CALL_SCREEN_STATUS_NO_ANSWER</key>
+	<string>لم يرد</string>
+	<key>CALL_STATUS_FORMAT</key>
+	<string>Signal  %@</string>
+	<key>CALL_USER_ALERT_CALL_BUTTON</key>
+	<string>اتصل</string>
+	<key>CALL_USER_ALERT_MESSAGE_FORMAT</key>
+	<string>هل تريد الإتصال ب%@؟</string>
+	<key>CALL_USER_ALERT_TITLE</key>
+	<string>إتصال؟</string>
+	<key>CALL_VIEW_ACCEPT_INCOMING_CALL_LABEL</key>
+	<string>قبول مكالمة واردة</string>
+	<key>CALL_VIEW_AUDIO_SOURCE_LABEL</key>
+	<string>صوت</string>
+	<key>CALL_VIEW_DECLINE_INCOMING_CALL_LABEL</key>
+	<string>رفض مكالمة واردة</string>
+	<key>CALL_VIEW_ENABLE_VIDEO_HINT</key>
+	<string>Tap here to turn on your video</string>
+	<key>CALL_VIEW_HANGUP_LABEL</key>
+	<string>انهاء المكالمة</string>
+	<key>CALL_VIEW_MUTE_LABEL</key>
+	<string>حجب المكرفون.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL</key>
+	<string>You can enable iOS Call Integration in your Signal privacy settings to answer incoming calls from your lock screen.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_PRIVACY</key>
+	<string>You can enable iOS Call Integration in your Signal privacy settings to see the name and phone number for incoming calls.</string>
+	<key>CALL_VIEW_SETTINGS_NAG_NOT_NOW_BUTTON</key>
+	<string>ليس الآن</string>
+	<key>CALL_VIEW_SETTINGS_NAG_SHOW_CALL_SETTINGS</key>
+	<string>اظهار إِعدادات الخصوصية</string>
+	<key>CALL_VIEW_SWITCH_CAMERA_DIRECTION</key>
+	<string>تغير اتجاه العدسة.</string>
+	<key>CALL_VIEW_SWITCH_TO_AUDIO_LABEL</key>
+	<string>التحويل الى مكالمة صوتية.</string>
+	<key>CALL_VIEW_SWITCH_TO_VIDEO_LABEL</key>
+	<string>تحويل الى مكالمة مرئية.</string>
+	<key>CALL_WINDOW_RETURN_TO_CALL</key>
+	<string>اضغك للعودة الى المكالمة.</string>
+	<key>CAMERA_BUTTON_HINT</key>
+	<string>Take a picture and then send it</string>
+	<key>CAMERA_BUTTON_LABEL</key>
+	<string>الكاميرا</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_MESSAGE</key>
+	<string>لا يمكن التحقق من هذا المستخدم حتى يتم تبادل الرسائل معه.</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_TITLE</key>
+	<string>يوجد خطأ</string>
+	<key>CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE</key>
+	<string>اختر الدولة</string>
+	<key>CHECK_FOR_BACKUP_DO_NOT_RESTORE</key>
+	<string>لا تستعد</string>
+	<key>CHECK_FOR_BACKUP_FAILED_MESSAGE</key>
+	<string>Could not determine whether there is a backup that can be restored.</string>
+	<key>CHECK_FOR_BACKUP_FAILED_TITLE</key>
+	<string>خطأ</string>
+	<key>CHECK_FOR_BACKUP_RESTORE</key>
+	<string>استعادة</string>
+	<key>CLOUDKIT_STATUS_COULD_NOT_DETERMINE</key>
+	<string>Signal could not determine your iCloud account status. Sign in to your iCloud Account in the iOS settings app to backup your Signal data.</string>
+	<key>CLOUDKIT_STATUS_NO_ACCOUNT</key>
+	<string>No iCloud Account. Sign in to your iCloud Account in the iOS settings app to backup your Signal data.</string>
+	<key>CLOUDKIT_STATUS_RESTRICTED</key>
+	<string>Signal was denied access your iCloud account for backups. Grant Signal access to your iCloud Account in the iOS settings app to backup your Signal data.</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_1</key>
+	<string>Choose the color of outgoing messages in this conversation.</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_2</key>
+	<string>Only you will see the color you choose.</string>
+	<key>COLOR_PICKER_SHEET_TITLE</key>
+	<string>لون المحادثة</string>
+	<key>COMPARE_SAFETY_NUMBER_ACTION</key>
+	<string>المقارنة مع الحافظة</string>
+	<key>COMPOSE_BUTTON_HINT</key>
+	<string>Select or search for a Signal user to start a conversation with.</string>
+	<key>COMPOSE_BUTTON_LABEL</key>
+	<string>Compose</string>
+	<key>COMPOSE_MESSAGE_CONTACT_SECTION_TITLE</key>
+	<string>جهات الاتصال</string>
+	<key>COMPOSE_MESSAGE_GROUP_SECTION_TITLE</key>
+	<string>مجموعة</string>
+	<key>COMPOSE_MESSAGE_PHONE_NUMBER_SEARCH_SECTION_TITLE</key>
+	<string>البحث عن طريق رقم الهاتف</string>
+	<key>COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE</key>
+	<string>البحث عن طريق اسم المستخدم</string>
+	<key>COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION</key>
+	<string>You can enable contacts access in the iOS Settings app to see which of your contacts are Signal users.</string>
+	<key>CONFIRMATION_TITLE</key>
+	<string>تأكيد</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TEXT</key>
+	<string>This will reset the application by deleting your messages and unregistering you with the server. The app will close after this process is complete.</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TITLE</key>
+	<string>هل أنت متأكد من أنك تريد حذف حسابك؟</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TEXT</key>
+	<string>This will reset the application by deleting all of your messages from this device. You can always link with your phone again, but that will not restore deleted messages. The app will close after this process is complete.</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TITLE</key>
+	<string>Are you sure you want to delete all data?</string>
+	<key>CONFIRM_LEAVE_GROUP_DESCRIPTION</key>
+	<string>لن تتمكن من إرسال أو استقبال رسائل في هذه المجموعة بعد اﻵن.</string>
+	<key>CONFIRM_LEAVE_GROUP_TITLE</key>
+	<string>هل أنت متأكد من مغادرتك؟</string>
+	<key>CONFIRM_LINK_NEW_DEVICE_ACTION</key>
+	<string>ربط جهاز جديد</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT</key>
+	<string>ربما يكون %@ قد اعاد تثبيت التطبيق او غير جهازه. من أجل ضمان الخصوصية قم بالتحقق معهم من رقم الأمان.</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_TITLE_FORMAT</key>
+	<string>لقد تم تغيير رقم الأمان مع %@</string>
+	<key>CONTACT_ADDRESS</key>
+	<string>عنوان البريد</string>
+	<key>CONTACT_CELL_IS_BLOCKED</key>
+	<string>محظور</string>
+	<key>CONTACT_CELL_IS_NO_LONGER_VERIFIED</key>
+	<string>لم يتم التحقق منه</string>
+	<key>CONTACT_DETAIL_COMM_TYPE_INSECURE</key>
+	<string>رقم غير مسجّل</string>
+	<key>CONTACT_EDIT_NAME_BUTTON</key>
+	<string>تحرير الاسم</string>
+	<key>CONTACT_EMAIL</key>
+	<string>البريد الاكتروني</string>
+	<key>CONTACT_FIELD_ADDRESS_CITY</key>
+	<string>المدينة</string>
+	<key>CONTACT_FIELD_ADDRESS_COUNTRY</key>
+	<string>الدولة</string>
+	<key>CONTACT_FIELD_ADDRESS_NEIGHBORHOOD</key>
+	<string>الحي</string>
+	<key>CONTACT_FIELD_ADDRESS_POBOX</key>
+	<string>صندوق البريد</string>
+	<key>CONTACT_FIELD_ADDRESS_POSTCODE</key>
+	<string>الرمز البريدي</string>
+	<key>CONTACT_FIELD_ADDRESS_REGION</key>
+	<string>الاقليم</string>
+	<key>CONTACT_FIELD_ADDRESS_STREET</key>
+	<string>الشارع</string>
+	<key>CONTACT_FIELD_FAMILY_NAME</key>
+	<string>اسم العائلة</string>
+	<key>CONTACT_FIELD_GIVEN_NAME</key>
+	<string>الاسم الاول</string>
+	<key>CONTACT_FIELD_MIDDLE_NAME</key>
+	<string>اسم الاب/ الاسم الثاني</string>
+	<key>CONTACT_FIELD_NAME_PREFIX</key>
+	<string>اللقب</string>
+	<key>CONTACT_FIELD_NAME_SUFFIX</key>
+	<string>الملحق</string>
+	<key>CONTACT_FIELD_ORGANIZATION</key>
+	<string>جهة العمل</string>
+	<key>CONTACT_PHONE</key>
+	<string>رقم الهاتف</string>
+	<key>CONTACT_PICKER_NO_EMAILS_AVAILABLE</key>
+	<string>لا يوجد عنوان بريد إلكتروني.</string>
+	<key>CONTACT_PICKER_NO_PHONE_NUMBERS_AVAILABLE</key>
+	<string>لا يوجد رقم هاتف.</string>
+	<key>CONTACT_PICKER_TITLE</key>
+	<string>اختار جهة الاتصال</string>
+	<key>CONTACT_SHARE_APPROVAL_VIEW_TITLE</key>
+	<string>مشاركة جهة الاتصال</string>
+	<key>CONTACT_SHARE_EDIT_NAME_VIEW_TITLE</key>
+	<string>تحرير الاسم</string>
+	<key>CONTACT_SHARE_INVALID_CONTACT</key>
+	<string>جهة اتصال غير صحيحة</string>
+	<key>CONTACT_SHARE_NO_FIELDS_SELECTED</key>
+	<string>لم يتم اختيار الحقول المطلوبة</string>
+	<key>CONTACT_SUPPORT</key>
+	<string>اتصل بالدعم</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY</key>
+	<string>Signal was unable to complete your support request.</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN</key>
+	<string>حاول مرة أُخرى</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_MESSAGE</key>
+	<string>Your debug logs will help us troubleshoot your issue faster. Submitting your logs is optional.</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_TITLE</key>
+	<string>Submit Debug Log?</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITHOUT_LOG</key>
+	<string>Submit without Debug Log</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITH_LOG</key>
+	<string>Submit with Debug Log</string>
+	<key>CONTACT_VIEW_OPEN_ADDRESS_IN_MAPS_APP</key>
+	<string>فتح في تطبيق الخريطة</string>
+	<key>CONTACT_VIEW_OPEN_EMAIL_IN_EMAIL_APP</key>
+	<string>ارسال بريد الكتروني</string>
+	<key>CONTACT_WITHOUT_NAME</key>
+	<string>Unnamed Contact</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_MESSAGE</key>
+	<string>This cannot be undone.</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_TITLE</key>
+	<string>حذف المحادثة؟</string>
+	<key>CONVERSATION_MEDIA_VIEW_DOWNLOAD_IMAGE</key>
+	<string>تنزيل</string>
+	<key>CONVERSATION_PICKER_CAN_SELECT_NO_MORE_CONVERSATIONS</key>
+	<string>You can't select more than %@ conversations.</string>
+	<key>CONVERSATION_PICKER_SECTION_GROUPS</key>
+	<string>مجموعة</string>
+	<key>CONVERSATION_PICKER_SECTION_RECENTS</key>
+	<string>محادثات حديثة</string>
+	<key>CONVERSATION_PICKER_SECTION_SIGNAL_CONTACTS</key>
+	<string>People</string>
+	<key>CONVERSATION_PICKER_TITLE</key>
+	<string>Choose Recipients</string>
+	<key>CONVERSATION_SEARCH_NO_RESULTS</key>
+	<string>No matches</string>
+	<key>CONVERSATION_SEARCH_ONE_RESULT</key>
+	<string>1 match</string>
+	<key>CONVERSATION_SEARCH_RESULTS_FORMAT</key>
+	<string>%d of %d matches</string>
+	<key>CONVERSATION_SETTINGS</key>
+	<string>إعدادات المحادثة</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_EXISTING_CONTACT</key>
+	<string>إضافة إلى جهة اتصال موجودة</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_SYSTEM_CONTACTS</key>
+	<string>Add to System Contacts</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_GROUP</key>
+	<string>حظر هذه المجموعة</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_USER</key>
+	<string>حجب هذا المستخدم</string>
+	<key>CONVERSATION_SETTINGS_CONTACT_INFO_TITLE</key>
+	<string>معلومات عن جهة الاتصال</string>
+	<key>CONVERSATION_SETTINGS_CONVERSATION_COLOR</key>
+	<string>لون المحادثة</string>
+	<key>CONVERSATION_SETTINGS_GROUP_INFO_TITLE</key>
+	<string>معلومات المجموعة</string>
+	<key>CONVERSATION_SETTINGS_MUTED_UNTIL_FORMAT</key>
+	<string>حتى %@</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ACTION_SHEET_TITLE</key>
+	<string>كتم</string>
+	<key>CONVERSATION_SETTINGS_MUTE_LABEL</key>
+	<string>كتم</string>
+	<key>CONVERSATION_SETTINGS_MUTE_NOT_MUTED</key>
+	<string>لم يتم الكتم </string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_DAY_ACTION</key>
+	<string>كتم ليوم واحد</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_HOUR_ACTION</key>
+	<string>كتم لساعة واحدة</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_MINUTE_ACTION</key>
+	<string>كتم لدقيقة واحدة</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_WEEK_ACTION</key>
+	<string>كتم لأسبوع واحد</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_YEAR_ACTION</key>
+	<string>كتم لسنة واحدة</string>
+	<key>CONVERSATION_SETTINGS_NEW_CONTACT</key>
+	<string>إنشاء جهة اتصال جديدة</string>
+	<key>CONVERSATION_SETTINGS_SEARCH</key>
+	<string>Search Conversation</string>
+	<key>CONVERSATION_SETTINGS_TAP_TO_CHANGE</key>
+	<string>انقر للتغيير</string>
+	<key>CONVERSATION_SETTINGS_UNMUTE_ACTION</key>
+	<string>رفع الكتم</string>
+	<key>CONVERSATION_SETTINGS_VIEW_IS_SYSTEM_CONTACT</key>
+	<string>This user is in your contacts</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_GROUP</key>
+	<string>يمكن لهذه المجموعة مشاهدة ملفك الشخصي.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_USER</key>
+	<string>يمكن لهذا المستخدم رؤية ملفك الشخصي.</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE</key>
+	<string>مشاركة الملف الشخصي</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_GROUP</key>
+	<string>مشاركة ملفك الشخصي</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_USER</key>
+	<string>مشاركة ملفك الشخصي</string>
+	<key>CONVERSATION_VIEW_ADD_TO_CONTACTS_OFFER</key>
+	<string>أضف إلى جهات الاتصال</string>
+	<key>CONVERSATION_VIEW_ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>مشاركة ملفك مع هذا المستخدم</string>
+	<key>CONVERSATION_VIEW_CONTACTS_OFFER_TITLE</key>
+	<string>هذا المستخدم غير موجود في جهات الاتصال الخاصة بك.</string>
+	<key>CONVERSATION_VIEW_LOADING_MORE_MESSAGES</key>
+	<string>Loading More Messages…</string>
+	<key>CONVERSATION_VIEW_OVERSIZE_TEXT_TAP_FOR_MORE</key>
+	<string>انقر للمزيد</string>
+	<key>CONVERSATION_VIEW_UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>حجب هذا المستخدم</string>
+	<key>CORRUPTED_SESSION_DESCRIPTION</key>
+	<string>إعادة تعيين جلستك سيسمح لك باستقبال الرسائل الحديثة من %@, لكن لن تتمكن من استعادة أي من الرسائل التالفة.</string>
+	<key>COUNTRYCODE_SELECT_TITLE</key>
+	<string>اختر رمز الدولة</string>
+	<key>CROP_SCALE_IMAGE_VIEW_TITLE</key>
+	<string>تحريك و تغير المقياس </string>
+	<key>DATABASE_VIEW_OVERLAY_SUBTITLE</key>
+	<string>قد يستغرق ذلك بضع دقائق.</string>
+	<key>DATABASE_VIEW_OVERLAY_TITLE</key>
+	<string>تحسين قاعدة البيانات</string>
+	<key>DATE_HOURS_AGO_FORMAT</key>
+	<string>%@ س مضت</string>
+	<key>DATE_MINUTES_AGO_FORMAT</key>
+	<string>%@ د مضت</string>
+	<key>DATE_NOW</key>
+	<string>الآن</string>
+	<key>DATE_TODAY</key>
+	<string>اليوم</string>
+	<key>DATE_YESTERDAY</key>
+	<string>البارحة</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_COPY_LOGS</key>
+	<string>Could not copy logs.</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_PACKAGE_LOGS</key>
+	<string>Could not package logs.</string>
+	<key>DEBUG_LOG_ALERT_ERROR_UPLOADING_LOG</key>
+	<string>Could not upload logs.</string>
+	<key>DEBUG_LOG_ALERT_MESSAGE</key>
+	<string>What would you like to do with the link to your debug log?</string>
+	<key>DEBUG_LOG_ALERT_NO_LOGS</key>
+	<string>Could not find any logs.</string>
+	<key>DEBUG_LOG_ALERT_OPTION_BUG_REPORT</key>
+	<string>Open a Bug Report</string>
+	<key>DEBUG_LOG_ALERT_OPTION_COPY_LINK</key>
+	<string>نسخ الرابط</string>
+	<key>DEBUG_LOG_ALERT_OPTION_EMAIL</key>
+	<string>بريد الدعم</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SEND_TO_SELF</key>
+	<string>Send to Self</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SHARE</key>
+	<string>شارك</string>
+	<key>DEBUG_LOG_ALERT_TITLE</key>
+	<string>One More Step</string>
+	<key>DEBUG_LOG_COULD_NOT_EMAIL</key>
+	<string>Could not open Email app.</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_MESSAGE</key>
+	<string>The gist link was copied in your clipboard. You are about to be redirected to the GitHub issue list.</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE</key>
+	<string>GitHub Redirection</string>
+	<key>DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER</key>
+	<string>Re-register this phone number</string>
+	<key>DEREGISTRATION_WARNING</key>
+	<string>Device no longer registered. Your phone number may be registered with Signal on a different device. Tap to re-register.</string>
+	<key>DEVICE_LAST_ACTIVE_AT_LABEL</key>
+	<string>آخر ظهور: %@</string>
+	<key>DEVICE_LINKED_AT_LABEL</key>
+	<string>مرتبط: %@</string>
+	<key>DEVICE_LIST_UPDATE_FAILED_TITLE</key>
+	<string>فشل تحديث قائمة الهاتف</string>
+	<key>DISAPPEARING_MESSAGES</key>
+	<string>رسائل مخفيّة</string>
+	<key>DISAPPEARING_MESSAGES_CONFIGURATION_GROUP_EXISTING_FORMAT</key>
+	<string>الرسائل في هذه المجموعة ستختفي بعد %@.</string>
+	<key>DISAPPEARING_MESSAGES_DESCRIPTION</key>
+	<string>عند التّمكين, الرسائل المرسلة أوالمستلمة في هذه المحادثة سوف تختفي بعد إرسالهم.</string>
+	<key>DISAPPEARING_MESSAGES_HINT</key>
+	<string>الرسائل الحالية تختفي بعد %@</string>
+	<key>DISAPPEARING_MESSAGES_LABEL</key>
+	<string>إعدادات إخفاء الرسائل</string>
+	<key>DISMISS_BUTTON_TEXT</key>
+	<string>إلغاء</string>
+	<key>DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER</key>
+	<string>مكان التحايل على الرقابة</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY</key>
+	<string>يمكنك تمكين الوصول من خلال إعدادت iOS</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE</key>
+	<string>يحتاج تطبيق Signal السماح بالوصول إلى جهات الإتصال الخاصة بكم من اجل تعديل البينات الخاصة بجهة الإتصال.</string>
+	<key>EDIT_GROUP_ACTION</key>
+	<string>تعديل المجموعة</string>
+	<key>EDIT_GROUP_CONTACTS_SECTION_TITLE</key>
+	<string>جهات الاتصال</string>
+	<key>EDIT_GROUP_DEFAULT_TITLE</key>
+	<string>تعديل المجموعة</string>
+	<key>EDIT_GROUP_NEW_MEMBER_LABEL</key>
+	<string>تم الإضافة</string>
+	<key>EDIT_GROUP_UPDATE_BUTTON</key>
+	<string>تحديث</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>Would you like to save the changes that you made to this group?</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>تعديلات غير محفوظة</string>
+	<key>EDIT_ITEM_COPY_ACTION</key>
+	<string>نسخ</string>
+	<key>EMAIL_INVITE_BODY</key>
+	<string>مرحبّا,
+
+مؤخرًا أصبحت أستخدم Signal لجعل محادثاتي على الـiPhone سرية. أرغب أن تثبّته أنت كذلك حتى نتأكد أنا وأنت أننا فقط من يمكنه قراءة رسائلنا أو سماع مكالماتنا.
+
+Signal متاح للـiPhone واﻷندرويد. احصل عليه من هنا: %@
+
+يعمل Signal كما تطبيق تراسلك الحالي. يستطيع إرسال الصور والفيديو, إجاراء المكالمات, وبدء محادثة جماعية. وأفضل جزء هو, لا أحد آخر قادرعلى رؤية أي شيء من ذلك, ولا حتى صنّاع Signal!
+
+تستطيع قراءة المزيد عن Open Whisper Systems, صنّاع Signal, هنا: %@</string>
+	<key>EMAIL_INVITE_SUBJECT</key>
+	<string>لنستخدم Signal</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE1</key>
+	<string>لا أحد من جهات اتصالك لديه Signal.</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE2</key>
+	<string>لمَ لا تدعُ أحدهم؟</string>
+	<key>ENABLE_2FA_VIEW_CONFIRM_PIN_INSTRUCTIONS</key>
+	<string>تأكيد الرقم التعريفي الشخصي الخاص بك.</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_DISABLE_2FA</key>
+	<string>Could not disable Registration Lock.</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_ENABLE_2FA</key>
+	<string>Could not enable Registration Lock.</string>
+	<key>ENABLE_2FA_VIEW_DISABLE_2FA</key>
+	<string>تعطيل</string>
+	<key>ENABLE_2FA_VIEW_ENABLE_2FA</key>
+	<string>تشغيل</string>
+	<key>ENABLE_2FA_VIEW_NEXT_BUTTON</key>
+	<string>التالي
+</string>
+	<key>ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH</key>
+	<string>PIN does not match.</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_LONG</key>
+	<string>PIN can be no longer than 20 digits.</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_SHORT</key>
+	<string>PIN must be at least 4 digits.</string>
+	<key>ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS</key>
+	<string>Enter a Registration Lock PIN. You will be asked to enter this PIN the next time you register this phone number with Signal.</string>
+	<key>ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS</key>
+	<string>For increased security, enable a Registration Lock PIN that will be required in order to register this phone number with Signal again.</string>
+	<key>ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS</key>
+	<string>Registration Lock is enabled. You'll need to enter your PIN when registering your phone number with Signal again.</string>
+	<key>ENABLE_2FA_VIEW_TITLE</key>
+	<string>قفل التسجيل</string>
+	<key>END_CALL_RESPONDER_IS_BUSY</key>
+	<string>مشغول</string>
+	<key>END_CALL_UNCATEGORIZED_FAILURE</key>
+	<string>لم ينجح الاتصال الهاتفي.</string>
+	<key>END_OF_LIFE_OS_WARNING</key>
+	<string>The latest Signal features won’t work on this version of iOS. Please upgrade this device to receive future Signal updates.</string>
+	<key>ERROR_COULD_NOT_FETCH_CONTACTS</key>
+	<string>Could not access contacts.</string>
+	<key>ERROR_COULD_NOT_SAVE_VIDEO</key>
+	<string>Could not save video.</string>
+	<key>ERROR_DESCRIPTION_CLIENT_SENDING_FAILURE</key>
+	<string>فشل إرسال الرسالة.</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_DISABLED_PREKEY_UPDATE_FAILURES</key>
+	<string>Unable to send due to stale prekey data.</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST</key>
+	<string>لم ينجح بعث الرسالة لأن المستخدم محظور.</string>
+	<key>ERROR_DESCRIPTION_NO_INTERNET</key>
+	<string>Signal was unable to connect to the internet. Please try again.</string>
+	<key>ERROR_DESCRIPTION_NO_VALID_RECIPIENTS</key>
+	<string>لم ينجح بعث الرسالة لعدم صحة معلومات المستلمين. </string>
+	<key>ERROR_DESCRIPTION_REQUEST_FAILED</key>
+	<string>Network request failed.</string>
+	<key>ERROR_DESCRIPTION_REQUEST_TIMED_OUT</key>
+	<string>Network request timed out.</string>
+	<key>ERROR_DESCRIPTION_RESPONSE_FAILED</key>
+	<string>Invalid response from service.</string>
+	<key>ERROR_DESCRIPTION_SENDING_UNAUTHORIZED</key>
+	<string>This device is no longer registered with your phone number. Please reinstall Signal.</string>
+	<key>ERROR_DESCRIPTION_SERVER_FAILURE</key>
+	<string>خطأ في المخدم، الرجاء تكرار المحاولة لاحقاً.</string>
+	<key>ERROR_DESCRIPTION_UNKNOWN_ERROR</key>
+	<string>حدث خطأ غير معروف.</string>
+	<key>ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT</key>
+	<string>جهة الاتصال ليست من مستخدمي Signal.</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED</key>
+	<string>Attachment download failed.</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT</key>
+	<string>Attachment failure: Ask this contact to send their message again after updating to the latest version of Signal.</string>
+	<key>ERROR_MESSAGE_DUPLICATE_MESSAGE</key>
+	<string>Received a duplicate message.</string>
+	<key>ERROR_MESSAGE_INVALID_KEY_EXCEPTION</key>
+	<string>المفتاح الخاص بالمستلم غير صالح.</string>
+	<key>ERROR_MESSAGE_INVALID_MESSAGE</key>
+	<string>Received message was out of sync.</string>
+	<key>ERROR_MESSAGE_INVALID_VERSION</key>
+	<string>Received a message that is not compatible with this version.</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE</key>
+	<string>تمّ تغيير رقم اﻷمان.</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT</key>
+	<string>تم تغيير رقم الأمان الخاص بك و %@</string>
+	<key>ERROR_MESSAGE_NO_SESSION</key>
+	<string>لا توجد دورة اتصال</string>
+	<key>ERROR_MESSAGE_UNKNOWN_ERROR</key>
+	<string>حدث خطأ غير معروف.</string>
+	<key>ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY</key>
+	<string>تمّ تغيير رقم اﻷمان.</string>
+	<key>ERROR_SENDING_DELINKED</key>
+	<string>Your device is no longer linked. Please re-link to send further messages.</string>
+	<key>ERROR_SENDING_DEREGISTERED</key>
+	<string>Your device is no longer registered. Please re-register to send further messages.</string>
+	<key>ERROR_SENDING_EXPIRED</key>
+	<string>Your version of Signal has expired. Please update to send further messages.</string>
+	<key>ERROR_UNREGISTERED_USER_FORMAT</key>
+	<string>Unregistered User: %@</string>
+	<key>EXPIRATION_ERROR</key>
+	<string>Your version of Signal has expired! Messages will no longer send successfully. Tap to update to the most recent version.</string>
+	<key>EXPIRATION_WARNING_SOON</key>
+	<string>سوف تنتهي صلاحية إصدارة Signal المستخدمة خلال %dيوم. أنقر من اجل التحديث إلى أحدث نسخة.</string>
+	<key>EXPIRATION_WARNING_TODAY</key>
+	<string>تنتهي اليوم صلاحية إصدارة Signal. ألمس لتحديث التطبيق.</string>
+	<key>FAILED_SENDING_BECAUSE_RATE_LIMIT</key>
+	<string>Too many failures with this contact. Please try again later.</string>
+	<key>FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_KEY</key>
+	<string>Your safety number with %@ has recently changed. You may wish to verify before sending this message again.</string>
+	<key>FAILED_VERIFICATION_TITLE</key>
+	<string>فشل التّحقّق من رقم اﻷمان!</string>
+	<key>FINGERPRINT_SCAN_VERIFY_BUTTON</key>
+	<string>وضع علامة "تم التحقق"</string>
+	<key>FINGERPRINT_SHRED_KEYMATERIAL_BUTTON</key>
+	<string>تجديد الجلسة</string>
+	<key>FINISH_GROUP_CREATION_LABEL</key>
+	<string>إتمام إنشاء المجموعة</string>
+	<key>FORWARD_CONTACT</key>
+	<string>Forward Contact</string>
+	<key>FORWARD_MESSAGE</key>
+	<string>Forward Message</string>
+	<key>GALLERY_TILES_EMPTY_GALLERY</key>
+	<string>ليس لديك وسائط في هذه المحادثة.</string>
+	<key>GALLERY_TILES_LOADING_MORE_RECENT_LABEL</key>
+	<string>Loading Newer Media…</string>
+	<key>GALLERY_TILES_LOADING_OLDER_LABEL</key>
+	<string>Loading Older Media…</string>
+	<key>GENERIC_ATTACHMENT_LABEL</key>
+	<string>ملحق</string>
+	<key>GIF_PICKER_ERROR_FETCH_FAILURE</key>
+	<string>Failed to fetch the requested GIF. Please verify you are online.</string>
+	<key>GIF_PICKER_ERROR_GENERIC</key>
+	<string>حدث خطأ غير معروف.</string>
+	<key>GIF_PICKER_FAILURE_ALERT_TITLE</key>
+	<string>Unable to Choose GIF</string>
+	<key>GIF_PICKER_VIEW_MISSING_QUERY</key>
+	<string>Please enter your search.</string>
+	<key>GIF_PICKER_VIEW_TITLE</key>
+	<string>بحث GIF</string>
+	<key>GIF_VIEW_SEARCH_ERROR</key>
+	<string>خطأ. انقر لإعادة المحاولة.</string>
+	<key>GIF_VIEW_SEARCH_NO_RESULTS</key>
+	<string>لا توجد أي نتائج.</string>
+	<key>GIF_VIEW_SEARCH_PLACEHOLDER_TEXT</key>
+	<string>أدخل بحثك</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_BODY</key>
+	<string>This version of Signal includes database optimizations and performance improvements. You may need to open the app to complete the process.</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_TITLE</key>
+	<string>تحسين قاعدة البيانات</string>
+	<key>GROUP_CREATED</key>
+	<string>تمّ إنشاء المجموعة.</string>
+	<key>GROUP_CREATED_BY_LOCAL_USER</key>
+	<string>You created the group.</string>
+	<key>GROUP_CREATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@ added you to the group.</string>
+	<key>GROUP_CREATION_FAILED</key>
+	<string>لا يمكن إضافة بعض الأعضاء إلى المجموعة. انقر لإعادة المحاولة.</string>
+	<key>GROUP_MANAGEMENT_SECTION</key>
+	<string>إدارة المجموعة</string>
+	<key>GROUP_MEMBERS_CALL</key>
+	<string>اتصال هاتفي</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED</key>
+	<string>Clear Verification for All</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED_ALERT_MESSAGE</key>
+	<string>سيؤدي ذلك إلى مسح علامة التحقق الخاص بجميع أعضاء المجموعة الذين تغيرت أرقام الأمان الخاصة بهم منذ آخر عملية تحقق لهم.</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_MEMBERS</key>
+	<string>الأعضاء</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_NO_LONGER_VERIFIED</key>
+	<string>لم يعد هناك علامة تحقق</string>
+	<key>GROUP_MEMBERS_SEND_MESSAGE</key>
+	<string>رسالة</string>
+	<key>GROUP_MEMBER_LEFT</key>
+	<string>%@ غادر المجموعة</string>
+	<key>GROUP_UPDATED</key>
+	<string>تم تحديث المجموعة.</string>
+	<key>GROUP_UPDATED_ADDED_MULTIPLE_MEMBERS_FORMAT</key>
+	<string>%@ and %@ joined the group.</string>
+	<key>GROUP_UPDATED_ADDED_ONE_MEMBER_FORMAT</key>
+	<string>%@ joined the group.</string>
+	<key>GROUP_UPDATED_AVATAR_REMOVED</key>
+	<string>Removed the group avatar.</string>
+	<key>GROUP_UPDATED_AVATAR_UPDATED</key>
+	<string>Updated the group avatar.</string>
+	<key>GROUP_UPDATED_BY_LOCAL_USER</key>
+	<string>قمت بتحديث المجموعة.</string>
+	<key>GROUP_UPDATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@ updated the group.</string>
+	<key>GROUP_UPDATED_NAME_REMOVED</key>
+	<string>Removed the name.</string>
+	<key>GROUP_UPDATED_NAME_UPDATED_FORMAT</key>
+	<string>Group name is now “%@”.</string>
+	<key>GROUP_UPDATED_READDED_YOU</key>
+	<string>Re-added you to the group.</string>
+	<key>GROUP_YOU_LEFT</key>
+	<string>لقد غادرت المجموعة</string>
+	<key>HOME_VIEW_ARCHIVED_CONVERSATIONS</key>
+	<string>أرشيف المحادثة</string>
+	<key>HOME_VIEW_BLOCKED_CONVERSATION</key>
+	<string>تم الحظر</string>
+	<key>HOME_VIEW_CONVERSATION_SEARCHBAR_PLACEHOLDER</key>
+	<string>بحث</string>
+	<key>HOME_VIEW_DRAFT_PREFIX</key>
+	<string>Draft: </string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT</key>
+	<string>Some of your contacts are already on Signal, including %@.</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT</key>
+	<string>Some of your contacts are already on Signal, including %@ and %@</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT</key>
+	<string>Some of your contacts are already on Signal, including %@, %@ and %@</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS</key>
+	<string>Start your first conversation here.</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_ADDED_TO_GROUP_FORMAT</key>
+	<string>%@ added you to the group</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_CONVERSATION</key>
+	<string>Message Request</string>
+	<key>HOME_VIEW_SEARCH_NO_RESULTS_FORMAT</key>
+	<string>No results found for '%@'</string>
+	<key>HOME_VIEW_TITLE_ARCHIVE</key>
+	<string>الأرشيف</string>
+	<key>HOME_VIEW_TITLE_INBOX</key>
+	<string>Signal</string>
+	<key>IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT</key>
+	<string>You can't share more than %@ items.</string>
+	<key>IMAGE_PICKER_FAILED_TO_PROCESS_ATTACHMENTS</key>
+	<string>Failed to select attachment.</string>
+	<key>INBOX_VIEW_ARCHIVE_MODE_REMINDER</key>
+	<string>These conversations are archived and will only appear in the Inbox if new messages are received.</string>
+	<key>INBOX_VIEW_EMPTY_INBOX</key>
+	<string>ابدأ محادثة مع أصدقائك.</string>
+	<key>INBOX_VIEW_MISSING_CONTACTS_PERMISSION</key>
+	<string>You can enable contacts access in the iOS Settings app to see contact names in your Signal conversation list.</string>
+	<key>INCOMING_CALL</key>
+	<string>مكالمة واردة</string>
+	<key>INCOMING_DECLINED_CALL</key>
+	<string>لقد رفضت مكالمة</string>
+	<key>INCOMING_INCOMPLETE_CALL</key>
+	<string>مكالمة واردة</string>
+	<key>INFO_MESSAGE_MISSED_CALL_DUE_TO_CHANGED_IDENITY</key>
+	<string>اتصال لم يرد عليه لأن رقم الأمان  الخاص بهم قد تغير.</string>
+	<key>INFO_MESSAGE_SYNCED_THREAD</key>
+	<string>You can send or receive synchronized messages from your phone or iPad.  For your security, conversation history isn't transferred to new linked devices.</string>
+	<key>INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT</key>
+	<string>%@ is on Signal!</string>
+	<key>INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>لصاقات</string>
+	<key>INPUT_TOOLBAR_VOICE_MEMO_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>رسالة صوتية.</string>
+	<key>INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE</key>
+	<string>ملف صوتي غير صالح.</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY</key>
+	<string>You can enable contacts access in the iOS Settings app to invite your friends to join Signal.</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE</key>
+	<string>السماح بإستخدام جهات الاتصال</string>
+	<key>INVITE_FRIENDS_CONTACT_TABLE_BUTTON</key>
+	<string>دعوة اﻷصدقاء لـSignal</string>
+	<key>INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER</key>
+	<string>بحث</string>
+	<key>INVITE_FRIENDS_PICKER_TITLE</key>
+	<string>أدع أصدقائك</string>
+	<key>INVITE_WARNING_MULTIPLE_INVITES_BY_TEXT</key>
+	<string>Inviting multiple users at the same time will start a group message and the recipients will be able to see each other.</string>
+	<key>IN_CALL_CONNECTING</key>
+	<string>جار الربط…</string>
+	<key>IN_CALL_RECONNECTING</key>
+	<string>إعادة الاتصال..</string>
+	<key>IN_CALL_RINGING</key>
+	<string>رنين…</string>
+	<key>IN_CALL_SECURING</key>
+	<string>تمت الإجابة. جار التأمين...</string>
+	<key>IN_CALL_TERMINATED</key>
+	<string>انتهت المكالمة.</string>
+	<key>KEEP_MESSAGES_DURATION</key>
+	<string>الرسائل ستختفي بعد %@.</string>
+	<key>KEEP_MESSAGES_FOREVER</key>
+	<string>الرسائل لا تختفي.</string>
+	<key>KEY_COMMAND_ALL_MEDIA</key>
+	<string>Go to All Media</string>
+	<key>KEY_COMMAND_ARCHIVE</key>
+	<string>Archive Conversation</string>
+	<key>KEY_COMMAND_ATTACHMENTS</key>
+	<string>Show Attachments</string>
+	<key>KEY_COMMAND_CONVERSATION_INFO</key>
+	<string>Go to Conversation Info</string>
+	<key>KEY_COMMAND_FOCUS_COMPOSER</key>
+	<string>Focus Input Bar</string>
+	<key>KEY_COMMAND_GIF_SEARCH</key>
+	<string>Go to GIF Search</string>
+	<key>KEY_COMMAND_NEW_GROUP</key>
+	<string>مجموعة جديدة</string>
+	<key>KEY_COMMAND_NEW_MESSAGE</key>
+	<string>رسالة جديدة</string>
+	<key>KEY_COMMAND_NEXT_CONVERSATION</key>
+	<string>Go to Next Conversation</string>
+	<key>KEY_COMMAND_PREVIOUS_CONVERSATION</key>
+	<string>Go to Previous Conversation</string>
+	<key>KEY_COMMAND_SEARCH</key>
+	<string>بحث</string>
+	<key>KEY_COMMAND_SETTINGS</key>
+	<string>إعدادات</string>
+	<key>KEY_COMMAND_STICKERS</key>
+	<string>Show Stickers</string>
+	<key>KEY_COMMAND_UNARCHIVE</key>
+	<string>Unarchive Conversation</string>
+	<key>LEAVE_BUTTON_TITLE</key>
+	<string>غادر</string>
+	<key>LEAVE_GROUP_ACTION</key>
+	<string>مغادرة المجموعة</string>
+	<key>LEAVE_GROUP_FAILED</key>
+	<string>An error occurred while leaving the group.</string>
+	<key>LINKED_DEVICES_TITLE</key>
+	<string>اﻷجهزة المرتبطة</string>
+	<key>LINKING_DEVICE_FAILED_TITLE</key>
+	<string>فشل ربط الجهاز</string>
+	<key>LINK_DEVICE_INVALID_CODE_BODY</key>
+	<string>This QR code is not valid. Please make sure you are scanning the QR code that is displayed on the device you want to link.</string>
+	<key>LINK_DEVICE_INVALID_CODE_TITLE</key>
+	<string>فشل ربط الجهاز</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_BODY</key>
+	<string>This device will be able to see your groups and contacts, access your conversations, and send messages in your name.</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_TITLE</key>
+	<string>ربط هذا الجهاز؟</string>
+	<key>LINK_DEVICE_RESTART</key>
+	<string>إعادة المحاولة</string>
+	<key>LINK_DEVICE_SCANNING_INSTRUCTIONS</key>
+	<string>Scan the QR code that is displayed on the device you want to link.</string>
+	<key>LINK_NEW_DEVICE_SUBTITLE</key>
+	<string>مسح رمز الـQR</string>
+	<key>LINK_NEW_DEVICE_TITLE</key>
+	<string>ربط جهاز جديد</string>
+	<key>LINK_PREVIEW_UNKNOWN_DOMAIN</key>
+	<string>Link Preview</string>
+	<key>LIST_GROUP_MEMBERS_ACTION</key>
+	<string>أعضاء المجموعة</string>
+	<key>LOCATION_PICKER_SEARCH_PLACEHOLDER</key>
+	<string>Search by name or address</string>
+	<key>LOCATION_PICKER_TITLE</key>
+	<string>Select Location</string>
+	<key>LOGGING_SECTION</key>
+	<string>التسجيل</string>
+	<key>LONG_TEXT_VIEW_TITLE</key>
+	<string>رسالة</string>
+	<key>MEDIA_DETAIL_VIEW_ALL_MEDIA_BUTTON</key>
+	<string>كل الوسائط</string>
+	<key>MEDIA_FROM_CAMERA_BUTTON</key>
+	<string>الكاميرا</string>
+	<key>MEDIA_FROM_LIBRARY_BUTTON</key>
+	<string>مكتبة الصور</string>
+	<key>MEDIA_GALLERY_DELETE_MULTIPLE_MESSAGES_FORMAT</key>
+	<string>حذف %d رسالة</string>
+	<key>MEDIA_GALLERY_DELETE_SINGLE_MESSAGE</key>
+	<string>حذف الرسالة</string>
+	<key>MEDIA_GALLERY_MORE_ITEMS_FORMAT</key>
+	<string>+%@</string>
+	<key>MEDIA_GALLERY_SENDER_NAME_YOU</key>
+	<string>أنت
+</string>
+	<key>MEDIA_GALLERY_THIS_MONTH_HEADER</key>
+	<string>هذا الشهر</string>
+	<key>MEGAPHONE_REMIND_LATER</key>
+	<string>Remind Me Later</string>
+	<key>MEGAPHONE_WILL_REMIND_LATER</key>
+	<string>We’ll remind you later.</string>
+	<key>MESSAGES_VIEW_1_MEMBER_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>لم تعد هناك دلالة تحقق من %@. انقر للحصول على خيارات.</string>
+	<key>MESSAGES_VIEW_CONTACT_BLOCKED</key>
+	<string>قد حظرت هذا المستخدم</string>
+	<key>MESSAGES_VIEW_CONTACT_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>لم تعد هناك دلالة تحقق من %@. انقر للحصول على خيارات</string>
+	<key>MESSAGES_VIEW_GROUP_1_MEMBER_BLOCKED</key>
+	<string>قد حظرت عضوًا في هذه المجموعة</string>
+	<key>MESSAGES_VIEW_GROUP_BLOCKED</key>
+	<string>قد حظرت هذه المجموعة</string>
+	<key>MESSAGES_VIEW_GROUP_N_MEMBERS_BLOCKED_FORMAT</key>
+	<string>قد حظرت %@ عضوًا في المجموعة</string>
+	<key>MESSAGES_VIEW_N_MEMBERS_NO_LONGER_VERIFIED</key>
+	<string>لم يعد هناك دلالة تحقق لأكثر من عضو في هذه المجموعة. انقر للحصول على خيارات.</string>
+	<key>MESSAGES_VIEW_TITLE_SUBTITLE</key>
+	<string>انقر هنا لفتح الإعدادات</string>
+	<key>MESSAGES_VIEW_UNREAD_INDICATOR</key>
+	<string>رسائل جديدة</string>
+	<key>MESSAGE_ACTION_COPY_TEXT</key>
+	<string>نسخ نص الرسالة</string>
+	<key>MESSAGE_ACTION_DELETE_MESSAGE</key>
+	<string>حذف هذه الرسالة</string>
+	<key>MESSAGE_ACTION_DETAILS</key>
+	<string>More Info</string>
+	<key>MESSAGE_ACTION_FORWARD_MESSAGE</key>
+	<string>Forward This Message</string>
+	<key>MESSAGE_ACTION_REPLY</key>
+	<string>Reply to This Message</string>
+	<key>MESSAGE_ACTION_SHARE_MEDIA</key>
+	<string>Share Media</string>
+	<key>MESSAGE_APPROVAL_DIALOG_TITLE</key>
+	<string>رسالة</string>
+	<key>MESSAGE_COMPOSEVIEW_TITLE</key>
+	<string>رسالة جديدة</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_FILE_SIZE</key>
+	<string>حجم الملف</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_MIME_TYPE</key>
+	<string>MIME type</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_DELIVERED</key>
+	<string>تم تسليم الرسالة</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_FAILED</key>
+	<string>فشل</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_READ</key>
+	<string>تمت القراءة</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENDING</key>
+	<string>إرسال</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENT</key>
+	<string>أرسلت</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SKIPPED</key>
+	<string>تم تجاوزه</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_UPLOADING</key>
+	<string>Uploading</string>
+	<key>MESSAGE_METADATA_VIEW_NO_ATTACHMENT_OR_BODY</key>
+	<string>Message has no content or attachment.</string>
+	<key>MESSAGE_METADATA_VIEW_RECEIVED_DATE_TIME</key>
+	<string>استُقبلت</string>
+	<key>MESSAGE_METADATA_VIEW_SENDER</key>
+	<string>المرسل</string>
+	<key>MESSAGE_METADATA_VIEW_SENT_DATE_TIME</key>
+	<string>أرسلت</string>
+	<key>MESSAGE_METADATA_VIEW_SOURCE_FILENAME</key>
+	<string>اسم الملف</string>
+	<key>MESSAGE_METADATA_VIEW_TITLE</key>
+	<string>رسالة</string>
+	<key>MESSAGE_REQUESTS_NAMES_SPLASH_TITLE</key>
+	<string>Introducing Message Requests</string>
+	<key>MESSAGE_REQUESTS_SPLASH_ADD_PROFILE_NAME_BUTTON</key>
+	<string>إضافة اسم للملف الشخصي</string>
+	<key>MESSAGE_REQUESTS_SPLASH_BODY</key>
+	<string>You can now choose to ”Accept” or ”Delete“ a new conversation. Names let people know who’s messaging them.</string>
+	<key>MESSAGE_REQUESTS_SPLASH_MEGAPHONE_TOAST</key>
+	<string>Your profile name has been saved.</string>
+	<key>MESSAGE_REQUEST_BLOCK_ACTION</key>
+	<string>حظر</string>
+	<key>MESSAGE_REQUEST_BLOCK_AND_DELETE_ACTION</key>
+	<string>Block and Delete</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_MESSAGE</key>
+	<string>Blocked people won’t be able to call you or send you messages.</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_TITLE_FORMAT</key>
+	<string>حظر %@؟</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_MESSAGE</key>
+	<string>You will leave this group and no longer receive messages or updates.</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>Block and Leave %@?</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION</key>
+	<string>حذف  </string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_MESSAGE</key>
+	<string>This conversation will be deleted from all of your devices.</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_TITLE</key>
+	<string>حذف المحادثة؟</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION</key>
+	<string>Delete and Leave</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE</key>
+	<string>You will leave this group, and it will be deleted from all your devices.</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE</key>
+	<string>Delete and Leave Group?</string>
+	<key>MESSAGE_REQUEST_VIEW_ACCEPT_BUTTON</key>
+	<string>موافقة</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_CONTACT_PROMPT_FORMAT</key>
+	<string>Do you want to let %@ message you? You won't receive any messages until you unblock them.</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_GROUP_PROMPT_FORMAT</key>
+	<string>Do you want to let the group %@ message you? You won't receive any messages until you unblock them.</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCK_BUTTON</key>
+	<string>حظر</string>
+	<key>MESSAGE_REQUEST_VIEW_DELETE_BUTTON</key>
+	<string>أحذف  </string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_CONTACT_PROMPT_FORMAT</key>
+	<string>You must share your profile to continue your conversation with %@.</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_GROUP_PROMPT_FORMAT</key>
+	<string>You must share your profile to continue your conversation in %@.</string>
+	<key>MESSAGE_REQUEST_VIEW_LEARN_MORE_BUTTON</key>
+	<string>أعرف أكثر</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_CONTACT_PROMPT_FORMAT</key>
+	<string>Do you want to let %@ message you? They won’t know you’ve seen their messages until you accept.</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_GROUP_PROMPT_FORMAT</key>
+	<string>Do you want to join the group %@? They won’t know you’ve seen their messages until you accept.</string>
+	<key>MESSAGE_REQUEST_VIEW_SHARE_PROFILE_BUTTON</key>
+	<string>مشاركة الملف الشخصي</string>
+	<key>MESSAGE_REQUEST_VIEW_UNBLOCK_BUTTON</key>
+	<string>رفع الحظر</string>
+	<key>MESSAGE_STATUS_DELIVERED</key>
+	<string>تم الاستلام</string>
+	<key>MESSAGE_STATUS_DOWNLOADING</key>
+	<string>التنزيل جارٍ...</string>
+	<key>MESSAGE_STATUS_FAILED</key>
+	<string>فشل الإرسال.</string>
+	<key>MESSAGE_STATUS_FAILED_SHORT</key>
+	<string>فشل</string>
+	<key>MESSAGE_STATUS_READ</key>
+	<string>تمت القراءة</string>
+	<key>MESSAGE_STATUS_RECIPIENT_SKIPPED</key>
+	<string>تم تجاوزه</string>
+	<key>MESSAGE_STATUS_SENDING</key>
+	<string>إرسال..</string>
+	<key>MESSAGE_STATUS_SEND_FAILED</key>
+	<string>الإرسال فشل</string>
+	<key>MESSAGE_STATUS_SENT</key>
+	<string>تم الارسال</string>
+	<key>MESSAGE_STATUS_UPLOADING</key>
+	<string>جار التحميل ...</string>
+	<key>MESSAGE_TEXT_FIELD_PLACEHOLDER</key>
+	<string>رسالة جديدة</string>
+	<key>MISSED_CALL</key>
+	<string>مكالمة فائتة</string>
+	<key>MISSING_CAMERA_PERMISSION_MESSAGE</key>
+	<string>You can enable camera access in the iOS Settings app to make video calls in Signal.</string>
+	<key>MISSING_CAMERA_PERMISSION_TITLE</key>
+	<string>يحتاج Signal للوصول للكاميرا</string>
+	<key>MISSING_LOCATION_PERMISSION_MESSAGE</key>
+	<string>You can enable this permission in the iOS Settings app.</string>
+	<key>MISSING_LOCATION_PERMISSION_TITLE</key>
+	<string>Signal requires access to your location for this feature.</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE</key>
+	<string>You can enable this permission in the iOS Settings app.</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_TITLE</key>
+	<string>Signal requires access to your photos for this feature.</string>
+	<key>MULTIDEVICE_PAIRING_MAX_DESC</key>
+	<string>You cannot link any more devices.</string>
+	<key>MULTIDEVICE_PAIRING_MAX_RECOVERY</key>
+	<string>You have reached the maximum of devices you can currently link with your account. Please remove a device and try again.</string>
+	<key>MUTE_BEHAVIOR_EXPLANATION</key>
+	<string>لن تستلم تنبيهات من المحادثات التي تم كتمها.</string>
+	<key>NAVIGATION_ITEM_SKIP_BUTTON</key>
+	<string>تخطى</string>
+	<key>NETWORK_ERROR_RECOVERY</key>
+	<string>Please check if you are online and try again.</string>
+	<key>NEW_CONVERSATION_FIND_BY_PHONE_NUMBER</key>
+	<string>البحث عن طريق رقم الهاتف</string>
+	<key>NEW_GROUP_ADD_PHOTO_ACTION</key>
+	<string>ضع صورة للمجموعة</string>
+	<key>NEW_GROUP_BUTTON_LABEL</key>
+	<string>Create a new group</string>
+	<key>NEW_GROUP_CREATE_BUTTON</key>
+	<string>إنشاء</string>
+	<key>NEW_GROUP_CREATION_FAILED</key>
+	<string>New group could not be created.</string>
+	<key>NEW_GROUP_DEFAULT_TITLE</key>
+	<string>مجموعة جديدة</string>
+	<key>NEW_GROUP_MEMBER_LABEL</key>
+	<string>عضو</string>
+	<key>NEW_GROUP_MESSAGE_NOTIFICATION_TITLE</key>
+	<string>%@ to %@</string>
+	<key>NEW_GROUP_NAMEGROUP_REQUEST_DEFAULT</key>
+	<string>تحديد اسم للمجموعة</string>
+	<key>NEW_GROUP_NON_CONTACTS_SECTION_TITLE</key>
+	<string>مستخدمين آخرين</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>هل تريد تجاهل هذه التغييرات؟</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>التغييرات غير المحفوظة</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_BUTTON</key>
+	<string>بحث</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_TITLE</key>
+	<string>البحث عن مستخدم</string>
+	<key>NON_CONTACT_TABLE_CELL_NEW_MESSAGE</key>
+	<string>New message to:</string>
+	<key>NON_CONTACT_TABLE_CELL_SEND_SMS</key>
+	<string>No user found. Invite via SMS?</string>
+	<key>NOTE_TO_SELF</key>
+	<string>ملاحظة لنفسي</string>
+	<key>NOTIFICATIONS_FOOTER_WARNING</key>
+	<string>Actions include “Mark as Read,” “Reply,” and “Call Back.”</string>
+	<key>NOTIFICATIONS_NONE</key>
+	<string>No Name or Content</string>
+	<key>NOTIFICATIONS_SECTION_INAPP</key>
+	<string>Play While App is Open</string>
+	<key>NOTIFICATIONS_SECTION_SOUNDS</key>
+	<string>اﻷصوات</string>
+	<key>NOTIFICATIONS_SENDER_AND_MESSAGE</key>
+	<string>Name, Content, and Actions</string>
+	<key>NOTIFICATIONS_SENDER_ONLY</key>
+	<string>الاسم فقط</string>
+	<key>NOTIFICATIONS_SHOW</key>
+	<string>عرض</string>
+	<key>NOTIFICATION_BODY_PHONE_LOCKED_FORMAT</key>
+	<string>You may have received messages while your %@ was restarting.</string>
+	<key>NO_CONTACTS_SEARCH_BY_PHONE_NUMBER</key>
+	<string>العثور على أسماء من يتم الاتصال بهم عن طريق رقم الهاتف</string>
+	<key>NO_SELECTED_CONVERSATION_DESCRIPTION</key>
+	<string>اختر جهة اتصال او مجموعة لبدء محادثه.</string>
+	<key>NO_SELECTED_CONVERSATION_TITLE</key>
+	<string>مرحبا الى سيجنال Signal</string>
+	<key>OK</key>
+	<string>على ما يرام</string>
+	<key>ONBOARDING_2FA_ATTEMPTS_EXHAUSTED</key>
+	<string>Incorrect PIN. Attempts exhausted.</string>
+	<key>ONBOARDING_2FA_ENTER_ALPHANUMERIC</key>
+	<string>Enter Alphanumeric PIN</string>
+	<key>ONBOARDING_2FA_ENTER_NUMERIC</key>
+	<string>Enter Numeric PIN</string>
+	<key>ONBOARDING_2FA_FORGOT_PIN_LINK</key>
+	<string>Need Help?</string>
+	<key>ONBOARDING_2FA_INVALID_PIN</key>
+	<string>الرقم التعريفي الشخصي غير صحيح</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_PLURAL_FORMAT</key>
+	<string>Incorrect PIN. %lu attempts remaining.</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_SINGLE</key>
+	<string>Incorrect PIN. 1 attempt remaining.</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_EXPLANATION</key>
+	<string>To protect your privacy and the security of your account, we’ve locked it for 7 days.
+
+After 7 days of inactivity, you’ll be able to reregister this phone number without needing your PIN. All content will be wiped.</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_LEARN_MORE</key>
+	<string>Learn more about locked accounts</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_TITLE</key>
+	<string>Account Locked</string>
+	<key>ONBOARDING_CAPTCHA_TITLE</key>
+	<string>Add a touch of humanity to your messages</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING</key>
+	<string>Register iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING</key>
+	<string>Link iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING</key>
+	<string>Tapping “Register iPad” will let you create a brand new Signal account or move an existing account to this iPad. This will disable Signal on any other device currently registered with the same phone number.</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING</key>
+	<string>Tapping “Link iPhone” will let you connect your phone to an existing account. Linking your phone is generally not recommended and will limit some functionality, such as calling.</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_PROVISIONING</key>
+	<string>Register this iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_REGISTERING</key>
+	<string>Link this iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING</key>
+	<string>Registering this iPad will disable Signal on any other device currently registered with the same phone number.</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_REGISTERING</key>
+	<string>Linking your iPhone is not recommended and will limit core functionality.</string>
+	<key>ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON</key>
+	<string>Enable Permissions</string>
+	<key>ONBOARDING_PERMISSIONS_EXPLANATION</key>
+	<string>Notifications let you see when messages arrive and receive updates about new conversation activity.</string>
+	<key>ONBOARDING_PERMISSIONS_TITLE</key>
+	<string>Get the message</string>
+	<key>ONBOARDING_PHONE_NUMBER_TITLE</key>
+	<string>أدخل رقم هاتفك للبدء</string>
+	<key>ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING</key>
+	<string>رقم خاطئ </string>
+	<key>ONBOARDING_PIN_EXPLANATION</key>
+	<string>أدخل الرقم التعريفي الشخصي الذى أنشأته لحسابك. هذا مختلف عن رمز تحقق SMS.</string>
+	<key>ONBOARDING_PIN_TITLE</key>
+	<string>أدخل الرقم التعريفي الشخصي</string>
+	<key>ONBOARDING_SPLASH_TERM_AND_PRIVACY_POLICY</key>
+	<string>Terms &amp; Privacy Policy</string>
+	<key>ONBOARDING_SPLASH_TITLE</key>
+	<string>Take privacy with you.
+Be yourself in every message.</string>
+	<key>ONBOARDING_VERIFICATION_BACK_LINK</key>
+	<string>الرقم خاطئ ؟</string>
+	<key>ONBOARDING_VERIFICATION_CODE_COUNTDOWN_FORMAT</key>
+	<string>I didn't get a code (available in %@)</string>
+	<key>ONBOARDING_VERIFICATION_EMAIL_SIGNAL_SUPPORT</key>
+	<string>الاتصال بخدمة دعم Signal</string>
+	<key>ONBOARDING_VERIFICATION_INVALID_CODE</key>
+	<string>This code is incorrect</string>
+	<key>ONBOARDING_VERIFICATION_ORIGINAL_CODE_MISSING_LINK</key>
+	<string>I didn't get a code</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_MESSAGE</key>
+	<string>Please ensure that you have cellular service and can receive SMS messages.</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_TITLE</key>
+	<string>No code?</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_SMS_BUTTON</key>
+	<string>Resend Code</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_VOICE_BUTTON</key>
+	<string>اتصل بي بدلاً من ذلك</string>
+	<key>ONBOARDING_VERIFICATION_RESENT_CODE_MISSING_LINK</key>
+	<string>Still no code?</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_DEFAULT_FORMAT</key>
+	<string>Enter the code we sent to %@</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_RESENT_FORMAT</key>
+	<string>We just resent a code to %@</string>
+	<key>OPEN_SETTINGS_BUTTON</key>
+	<string>إعدادات</string>
+	<key>OTHER_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>عطّل %@ تخفية الرسائل.</string>
+	<key>OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>ضبط %@ وقت تخفية الرسائل على %@.</string>
+	<key>OUTAGE_WARNING</key>
+	<string>نقوم حاليا باستعادة عمل خدمة Signal من بعض المشكلات بأسرع ما يمكن.</string>
+	<key>OUTGOING_CALL</key>
+	<string>مكالمة صادرة</string>
+	<key>OUTGOING_INCOMPLETE_CALL</key>
+	<string>مكالمة صادرة</string>
+	<key>OUTGOING_MISSED_CALL</key>
+	<string>مكالمة صادرة لم يتم الرد عليها</string>
+	<key>OVERSIZE_TEXT_DISPLAY_FORMAT</key>
+	<string>%@…</string>
+	<key>PDF_VIEW_COULD_NOT_RENDER</key>
+	<string>PDF could not be displayed</string>
+	<key>PDF_VIEW_TITLE</key>
+	<string>PDF</string>
+	<key>PER_MESSAGE_EXPIRATION_INVALID_CONTENT</key>
+	<string>خطأ فى التعامل مع الرسالة الواردة</string>
+	<key>PER_MESSAGE_EXPIRATION_NOT_VIEWABLE</key>
+	<string>وسيط لمشاهدة لمرة واحدة</string>
+	<key>PER_MESSAGE_EXPIRATION_OUTGOING_MESSAGE</key>
+	<string>الوسائط</string>
+	<key>PER_MESSAGE_EXPIRATION_PHOTO_PREVIEW</key>
+	<string>صورة لمشاهدة لمرة واحدة</string>
+	<key>PER_MESSAGE_EXPIRATION_VIDEO_PREVIEW</key>
+	<string>فيديو لمشاهدة لمرة واحدة</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEWED</key>
+	<string>تمت المشاهدة</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_PHOTO</key>
+	<string>مشاهدة الصورة</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_VIDEO</key>
+	<string>مشاهدة الفيديو</string>
+	<key>PHONE_NUMBER_EXAMPLE_FORMAT</key>
+	<string>مثال: %@</string>
+	<key>PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT</key>
+	<string>%@ %@</string>
+	<key>PHONE_NUMBER_TYPE_HOME</key>
+	<string>المنزل</string>
+	<key>PHONE_NUMBER_TYPE_HOME_FAX</key>
+	<string>فاكس المنزل</string>
+	<key>PHONE_NUMBER_TYPE_IPHONE</key>
+	<string>آي فون</string>
+	<key>PHONE_NUMBER_TYPE_MAIN</key>
+	<string>الأساسية</string>
+	<key>PHONE_NUMBER_TYPE_MOBILE</key>
+	<string>التليفون المحمول</string>
+	<key>PHONE_NUMBER_TYPE_OTHER</key>
+	<string>آخر</string>
+	<key>PHONE_NUMBER_TYPE_OTHER_FAX</key>
+	<string>فاكس آخر</string>
+	<key>PHONE_NUMBER_TYPE_PAGER</key>
+	<string>بيجر</string>
+	<key>PHONE_NUMBER_TYPE_UNKNOWN</key>
+	<string>غير معروف</string>
+	<key>PHONE_NUMBER_TYPE_WORK</key>
+	<string>عمل</string>
+	<key>PHONE_NUMBER_TYPE_WORK_FAX</key>
+	<string>فاكس عمل</string>
+	<key>PHOTO_CAPTURE_GENERIC_ERROR</key>
+	<string>Unable to capture image.</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_CAPTURE_IMAGE</key>
+	<string>Unable to capture image.</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_INITIALIZE_CAMERA</key>
+	<string>Failed to configure camera.</string>
+	<key>PHOTO_PICKER_UNNAMED_COLLECTION</key>
+	<string>Unnamed Album</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_ACTION</key>
+	<string>تحديث الرقم التعريفي الشخصي</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_BODY</key>
+	<string>Your Registration Lock is now called a PIN. Updating it takes seconds.</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>We’ll remind you later. Updating your PIN will become mandatory in %ld days.</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_TITLE</key>
+	<string>نقدم لكم الأرقام التعريفية الشخصية أو PINs</string>
+	<key>PINS_MEGAPHONE_NO_PIN_ACTION</key>
+	<string>إنشاء رقم تعريفي شخصي</string>
+	<key>PINS_MEGAPHONE_NO_PIN_BODY</key>
+	<string>PINs add another layer of security to your Signal account.</string>
+	<key>PINS_MEGAPHONE_NO_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>We’ll remind you later. Creating a PIN will become mandatory in %ld days.</string>
+	<key>PINS_MEGAPHONE_NO_PIN_TITLE</key>
+	<string>إنشاء رقم تعريفي شخصي</string>
+	<key>PINS_MEGAPHONE_TOAST</key>
+	<string>PIN created. You can change it in settings.</string>
+	<key>PIN_CREATION_ALPHANUMERIC_HINT</key>
+	<string>PIN must be at least 6 characters</string>
+	<key>PIN_CREATION_CHANGING_TITLE</key>
+	<string>Change your PIN</string>
+	<key>PIN_CREATION_CONFIRMATION_EXPLANATION</key>
+	<string>Confirm your new PIN.</string>
+	<key>PIN_CREATION_CREATE_ALPHANUMERIC</key>
+	<string>Create Alphanumeric PIN</string>
+	<key>PIN_CREATION_CREATE_NUMERIC</key>
+	<string>Create Numeric PIN</string>
+	<key>PIN_CREATION_ERROR_MESSAGE</key>
+	<string>Your PIN was not saved. We’ll prompt you to create a PIN later.</string>
+	<key>PIN_CREATION_ERROR_TITLE</key>
+	<string>PIN Creation Failed</string>
+	<key>PIN_CREATION_EXPLANATION</key>
+	<string>PINs add extra security to your account and can’t be recovered. You’ll need your PIN to register with Signal again.</string>
+	<key>PIN_CREATION_MISMATCH_ERROR</key>
+	<string>PINs don’t match. Try again.</string>
+	<key>PIN_CREATION_NUMERIC_HINT</key>
+	<string>PIN must be at least 6 digits</string>
+	<key>PIN_CREATION_PIN_CONFIRMATION_HINT</key>
+	<string>أعد إدخال الرقم التعريفي الشخصي</string>
+	<key>PIN_CREATION_PIN_PROGRESS</key>
+	<string>Creating PIN...</string>
+	<key>PIN_CREATION_RECREATION_EXPLANATION</key>
+	<string>You can choose a new PIN because this device is registered. If you forget your PIN, you may need to wait 7 days to register again.</string>
+	<key>PIN_CREATION_RECREATION_TITLE</key>
+	<string>إنشاء رقم تعريفي شخصي جديد</string>
+	<key>PIN_CREATION_TITLE</key>
+	<string>إنشاء الرقم التعريفي الشخصي الخاص بك</string>
+	<key>PIN_CREATION_TOO_SHORT_ERROR</key>
+	<string>PIN must be at least 6 digits.</string>
+	<key>PIN_REMINDER_EXPLANATION</key>
+	<string>To help you memorize your PIN, we’ll ask you to enter it periodically. We’ll ask less over time.</string>
+	<key>PIN_REMINDER_FORGOT_PIN</key>
+	<string>هل نسيت الرقم التعريفي الشخصي؟</string>
+	<key>PIN_REMINDER_MEGAPHONE_ACTION</key>
+	<string>إثبات الرقم التعريفي الشخصي</string>
+	<key>PIN_REMINDER_MEGAPHONE_BODY</key>
+	<string>We’ll occasionally ask you to verify your PIN so that you remember it.</string>
+	<key>PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST</key>
+	<string>We’ll remind you again in a few days.</string>
+	<key>PIN_REMINDER_MEGAPHONE_TITLE</key>
+	<string>إثبات الرقم التعريفي الشخصي ل Signal</string>
+	<key>PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST</key>
+	<string>We’ll remind you again tomorrow.</string>
+	<key>PIN_REMINDER_MEGAPHONE_TWO_WEEK_TOAST</key>
+	<string>We’ll remind you again in a couple weeks.</string>
+	<key>PIN_REMINDER_MEGAPHONE_WEEK_TOAST</key>
+	<string>We’ll remind you again in a week.</string>
+	<key>PIN_REMINDER_MISMATCH_ERROR</key>
+	<string>Invalid PIN, try again.</string>
+	<key>PIN_REMINDER_TITLE</key>
+	<string>أدخل الرقم التعريفي الشخصي ل Signal</string>
+	<key>PIN_REMINDER_TOO_SHORT_ERROR</key>
+	<string>PIN must be at least 6 digits.</string>
+	<key>PLAY_BUTTON_ACCESSABILITY_LABEL</key>
+	<string>Play Media</string>
+	<key>PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT</key>
+	<string>لم تقم بوضع علامة تحقق ل%@</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_BADGE</key>
+	<string>متحقق منه</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_FORMAT</key>
+	<string>%@ متحقق منه</string>
+	<key>PRIVACY_SAFETY_NUMBERS_LEARN_MORE</key>
+	<string>أعرف أكثر</string>
+	<key>PRIVACY_TAP_TO_SCAN</key>
+	<string>انقر من أجل المسح الضوئي</string>
+	<key>PRIVACY_UNVERIFY_BUTTON</key>
+	<string>محو علامة التحقق</string>
+	<key>PRIVACY_VERIFICATION_FAILED_I_HAVE_WRONG_KEY_FOR_THEM</key>
+	<string>لا يبدو هذا رقم اﻷمان الخاص بك مع %@. هل تتحقق من جهة الاتصال الصحيحة؟</string>
+	<key>PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>الرقم الذي في حافظتك لا يبدو كرقم اﻷمان الخاص بهذه المحادثة.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>لم يمكن Signal من إيجاد أي رقم أمان في حافظتك. هل نسخه بشكل صحيح؟</string>
+	<key>PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME</key>
+	<string>كل زوج من مستخدمي Signal يتشاركان رقم أمان فريد. تأكد أن %@ يعرض رقم أمانك الفريد.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION</key>
+	<string>أنت تستخدم إصدار قديم من Signal. تحتاج للتحديث لتتمكن من التحقق.</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION</key>
+	<string>شريكك يستخدم إصدار قديم من Signal. يحتاج للتحديث ليتمكن من التحقق.</string>
+	<key>PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE</key>
+	<string>The scanned code doesn't look like a safety number. Are you both on an up-to-date version of Signal?</string>
+	<key>PRIVACY_VERIFICATION_INSTRUCTIONS</key>
+	<string>إذا رغبت في التحقق من أمان تشفير end-to-end الخاص بك مع %@, قارن اﻷرقام في اﻷعلى مع اﻷرقام على أجهزتهم.
+
+أو يمكنك مسح الرمز على أجهزتهم, أو اطلب منهم مسح الرمز الخاص بك.</string>
+	<key>PRIVACY_VERIFICATION_TITLE</key>
+	<string>التّحقّق من رقم اﻷمان</string>
+	<key>PRIVACY_VERIFY_BUTTON</key>
+	<string>وضع علامة "تم التحقق"</string>
+	<key>PROCEED_BUTTON</key>
+	<string>تقدم</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_ACTION</key>
+	<string>Get Started</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_BODY</key>
+	<string>Your profile can now include an optional last name.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_TITLE</key>
+	<string>Confirm Your Profile Name</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_BODY</key>
+	<string>This will be displayed when you start a new conversation or share it.</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_TITLE</key>
+	<string>Add a Profile Name</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_TOAST</key>
+	<string>Your profile name has been saved.</string>
+	<key>PROFILE_VIEW_AVATAR_ACTIONSHEET_TITLE</key>
+	<string>تعيين  الصورة الرمزية للملف الشخصي</string>
+	<key>PROFILE_VIEW_CLEAR_AVATAR</key>
+	<string>مسح الصورة الرمزية</string>
+	<key>PROFILE_VIEW_CREATE_USERNAME</key>
+	<string>Create Username</string>
+	<key>PROFILE_VIEW_ERROR_FAMILY_NAME_TOO_LONG</key>
+	<string>Your last name is too long.</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_REQUIRED</key>
+	<string>Your first name is required.</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_TOO_LONG</key>
+	<string>Your first name is too long.</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_DEFAULT_TEXT</key>
+	<string>(Optional)</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_FIELD</key>
+	<string>Last Name</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_DEFAULT_TEXT</key>
+	<string>(Required)</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_FIELD</key>
+	<string>First Name</string>
+	<key>PROFILE_VIEW_NO_CONNECTION</key>
+	<string>Profile can only be updated when connected to the internet.</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION</key>
+	<string>سيكون ملف سيجنال الخاص بك مرئيا لجهات اتصالك عند بدء محادثات جديدة، وعند مشاركتها مع مستخدمين آخرين أو المجموعات.</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION_LINK</key>
+	<string>انقر هنا لمعرفة المزيد.</string>
+	<key>PROFILE_VIEW_SAVE_BUTTON</key>
+	<string>حفظ</string>
+	<key>PROFILE_VIEW_TITLE</key>
+	<string>الملف الشخصي</string>
+	<key>PROFILE_VIEW_USERNAME_FIELD</key>
+	<string>اسم المستخدم</string>
+	<key>PUSH_MANAGER_MARKREAD</key>
+	<string>وضع علامة "مقروء"</string>
+	<key>PUSH_MANAGER_REPLY</key>
+	<string>رُد</string>
+	<key>PUSH_REGISTER_SUCCESS</key>
+	<string>تمّ بنجاح إعادة التسجيل لدفع اﻹشعارات.</string>
+	<key>PUSH_REGISTER_TITLE</key>
+	<string>الإشعارات اللحظية</string>
+	<key>QUESTIONMARK_PUNCTUATION</key>
+	<string>؟</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_FORMAT</key>
+	<string>Replying to %@</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_YOU</key>
+	<string>Replying to You</string>
+	<key>QUOTED_REPLY_CONTENT_FROM_REMOTE_SOURCE</key>
+	<string>Original message not found.</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_DELETED</key>
+	<string>Original message no longer available.</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_REMOTELY_SOURCED</key>
+	<string>Original message not found.</string>
+	<key>QUOTED_REPLY_TYPE_ATTACHMENT</key>
+	<string>ارفق الصور.</string>
+	<key>QUOTED_REPLY_TYPE_AUDIO</key>
+	<string>صوت</string>
+	<key>QUOTED_REPLY_TYPE_GIF</key>
+	<string>صورة GIF</string>
+	<key>QUOTED_REPLY_TYPE_IMAGE</key>
+	<string>صورة</string>
+	<key>QUOTED_REPLY_TYPE_VIDEO</key>
+	<string>فيديو</string>
+	<key>REACTIONS_DETAIL_YOU</key>
+	<string>أنت</string>
+	<key>REACTION_DETAIL_ALL_FORMAT</key>
+	<string>All · %@</string>
+	<key>REACTION_INCOMING_NOTIFICATION_BODY_FORMAT</key>
+	<string>Reacted %@ to your message</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_ALBUM_BODY_FORMAT</key>
+	<string>Reacted %@ to your album</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_AUDIO_BODY_FORMAT</key>
+	<string>Reacted %@ to your audio</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_CONTACT_SHARE_BODY_FORMAT</key>
+	<string>Reacted %@ to your contact share</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_FILE_BODY_FORMAT</key>
+	<string>Reacted %@ to your file</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_GIF_BODY_FORMAT</key>
+	<string>Reacted %@ to your GIF</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_PHOTO_BODY_FORMAT</key>
+	<string>Reacted %@ to your photo</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_STICKER_MESSAGE_BODY_FORMAT</key>
+	<string>Reacted %@ to your sticker</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_TEXT_MESSAGE_BODY_FORMAT</key>
+	<string>Reacted %@ to: "%@"</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIDEO_BODY_FORMAT</key>
+	<string>Reacted %@ to your video</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIEW_ONCE_MESSAGE_BODY_FORMAT</key>
+	<string>Reacted %@ to your view-once media</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VOICE_MESSAGE_BODY_FORMAT</key>
+	<string>Reacted %@ to your voice message</string>
+	<key>REACTION_MEGAPHONE_BODY</key>
+	<string>Tap and hold on any message to quickly reply with how you feel.</string>
+	<key>REACTION_MEGAPHONE_TITLE</key>
+	<string>نقدم لكم التفاعلات</string>
+	<key>REGISTER_2FA_FORGOT_PIN</key>
+	<string>نسيتُ رمز PIN للأمان الخاص بي.</string>
+	<key>REGISTER_2FA_FORGOT_PIN_ALERT_TITLE</key>
+	<string>Need Help?</string>
+	<key>REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE</key>
+	<string>Your PIN is a 6+ digit code you created that can be numeric or alphanumeric. If you can’t remember your PIN, you’ll have to wait 7 days to re-register your account.</string>
+	<key>REGISTER_2FA_FORGOT_V1_PIN_ALERT_MESSAGE</key>
+	<string>Your PIN is a 4+ digit numeric code you created. If you can’t remember your PIN, you’ll have to wait 7 days to re-register your account.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_PLURAL_FORMAT</key>
+	<string>You have %lu attempts remaining. If you run out of attempts your account will be locked. After 7 days of inactivity, you can re-register without your PIN. Your account will be wiped and all content deleted.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE</key>
+	<string>You have 1 attempt remaining. If you run out of attempts your account will be locked. After 7 days of inactivity, you can re-register without your PIN. Your account will be wiped and all content deleted.</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_TITLE</key>
+	<string>الرقم التعريفي الشخصي غير صحيح</string>
+	<key>REGISTER_2FA_SUBMIT_BUTTON</key>
+	<string>إرسال</string>
+	<key>REGISTER_CONTACTS_WELCOME</key>
+	<string>مرحبًا!</string>
+	<key>REGISTER_FAILED_TRY_AGAIN</key>
+	<string>حاول مرة أُخرى</string>
+	<key>REGISTER_RATE_LIMITING_BODY</key>
+	<string>حاولت مراراً وتكراراً . الرجاء الانتظار لدقيقة واحدة قبل إعادة المحاولة.</string>
+	<key>REGISTER_RATE_LIMITING_ERROR</key>
+	<string>حاولت مراراً وتكراراً . الرجاء الانتظار لدقيقة واحدة قبل إعادة المحاولة.</string>
+	<key>REGISTRATION_BODY</key>
+	<string>فشل إعادة التسجيل في دفع اﻹشعارات.</string>
+	<key>REGISTRATION_DEFAULT_COUNTRY_NAME</key>
+	<string>رمز البلد</string>
+	<key>REGISTRATION_ENTERNUMBER_DEFAULT_TEXT</key>
+	<string>قم بإدخال الرقم</string>
+	<key>REGISTRATION_ERROR</key>
+	<string>خطأ في التسجيل</string>
+	<key>REGISTRATION_ERROR_BLANK_VERIFICATION_CODE</key>
+	<string>لا نستطيع تفعيل حسابك حتى تتحقق من الرمز الذي أرسلناه.</string>
+	<key>REGISTRATION_NON_VALID_NUMBER</key>
+	<string>صيغة رقم الهاتف هذه غير مدعومة, فضلّا تواصل مع الدعم.</string>
+	<key>REGISTRATION_PHONENUMBER_BUTTON</key>
+	<string>رقم الهاتف</string>
+	<key>REGISTRATION_RESTRICTED_MESSAGE</key>
+	<string>You need to register before you can send a message.</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_TITLE</key>
+	<string>فشل التحقق</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_CODE_DESCRIPTION</key>
+	<string>الأرقام التي أدخلتها لا تتطابق مع التي أرسلناها. تريد أن تعيد التحقق؟</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_PIN</key>
+	<string>Incorrect Registration Lock PIN.</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>الرجاء إدخال رقم هاتف صالح للتسجيل.</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>رقم الهاتف غير صحيح</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>الرجاء إدخال رقم هاتف للتسجيل.</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>لا يوجد رقم هاتف</string>
+	<key>REJECT_CALL_BUTTON_TITLE</key>
+	<string>رفض</string>
+	<key>RELAY_REGISTERED_ERROR_RECOVERY</key>
+	<string>رقم الهاتف الذي تحاول التسجيل به مسجل بالفعل على خادوم آخر, فضلّا ألغ التسجيل من هناك ثم حاول مرة أخرى.</string>
+	<key>REMINDER_2FA_BODY</key>
+	<string>تم تفعيل رقم تعريفي شخصي لحماية التسجيل بهذا الهاتف. سوف يقوم Signal بشكل دوري بطلب تأكيد الرقم التعريفي لمساعدتك في تذكرة.</string>
+	<key>REMINDER_2FA_BODY_HEADER</key>
+	<string>تذكير:</string>
+	<key>REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE</key>
+	<string>Registration Lock helps protect your phone number from unauthorized registration attempts. This feature can be disabled at any time in your Signal privacy settings.</string>
+	<key>REMINDER_2FA_NAV_TITLE</key>
+	<string>Enter Your Registration Lock PIN</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_BODY</key>
+	<string>You can set a new PIN in your privacy settings.</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_TITLE</key>
+	<string>That is not the correct PIN.</string>
+	<key>REREGISTER_FOR_PUSH</key>
+	<string>إعادة الإشتراك في خدمة الإشعارات اللحظية</string>
+	<key>RETRY_BUTTON_TEXT</key>
+	<string>إعادة المحاولة</string>
+	<key>SAFETY_NUMBERS_ACTIONSHEET_TITLE</key>
+	<string>تم تغيير رقم أمانك مع %@. ربما ترغب في التحقق منه.</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_ADD_TO_GROUP_ACTION</key>
+	<string>اضف إلى المجموعة على كل حال</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_CALL_ACTION</key>
+	<string>أتصل على كل حال</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION</key>
+	<string>أرسل على كل حال</string>
+	<key>SAFETY_NUMBER_SHARE_FORMAT</key>
+	<string>رقم أمان Signal الخاص بنا:
+%@</string>
+	<key>SCAN_CODE_INSTRUCTIONS</key>
+	<string>امسح رمز الـQR المعروض على جهاز جهة اتصالك.</string>
+	<key>SCAN_QR_CODE_VIEW_TITLE</key>
+	<string>مسح رمز الاستجابة السريعة</string>
+	<key>SCREEN_LOCK_ACTIVITY_TIMEOUT_NONE</key>
+	<string>Instant</string>
+	<key>SCREEN_LOCK_ENABLE_UNKNOWN_ERROR</key>
+	<string>Authentication could not be accessed.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_FAILED</key>
+	<string>Authentication failed.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_LOCKOUT</key>
+	<string>Too many failed authentication attempts. Please try again later.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_AVAILABLE</key>
+	<string>You must enable a passcode in your iOS Settings in order to use Screen Lock.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_ENROLLED</key>
+	<string>You must enable a passcode in your iOS Settings in order to use Screen Lock.</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET</key>
+	<string>You must enable a passcode in your iOS Settings in order to use Screen Lock.</string>
+	<key>SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK</key>
+	<string>Authenticate to open Signal.</string>
+	<key>SCREEN_LOCK_UNLOCK_FAILED</key>
+	<string>فشل التحقق</string>
+	<key>SCREEN_LOCK_UNLOCK_SIGNAL</key>
+	<string>فك القفل عن سيجنال</string>
+	<key>SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT</key>
+	<string>بحث باستخدام الاسم أو الرقم</string>
+	<key>SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT</key>
+	<string>Name, username, or number</string>
+	<key>SEARCH_FIELD_PLACE_HOLDER_TEXT</key>
+	<string>بحث</string>
+	<key>SEARCH_SECTION_CONTACTS</key>
+	<string>Other Contacts</string>
+	<key>SEARCH_SECTION_CONVERSATIONS</key>
+	<string>المحادثات</string>
+	<key>SEARCH_SECTION_MESSAGES</key>
+	<string>الرسائل</string>
+	<key>SECONDARY_DEVICE_ERROR_FETCHING_LINKING_CODE</key>
+	<string>Unable to Fetch Linking Code</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE</key>
+	<string>Your other device is running a legacy version of Signal that doesn't support scanning iPad QR codes. Please install the latest Signal release and try again.</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE</key>
+	<string>Update Scanning Device</string>
+	<key>SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN</key>
+	<string>Failed to Link Your Device</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME</key>
+	<string>Choose a name for this device</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_EXPLANATION</key>
+	<string>You'll see this name under "Linked Devices."</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_PLACEHOLDER</key>
+	<string>Choose a name</string>
+	<key>SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS</key>
+	<string>Finish Linking</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY</key>
+	<string>Launch Signal on your phone to link this iPad to your account</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY</key>
+	<string>I don't have Signal on my phone...</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY</key>
+	<string>Go to the App Store on your phone, install Signal, complete the registration process, and then you can link your iPad to the same account.</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE</key>
+	<string>Install Signal on Your Phone</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_BODY</key>
+	<string>Tap on your profile picture to open Signal Settings on your phone. Then "Linked Devices" and "Link New Device" to scan this code with your phone:</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT</key>
+	<string>Get help linking your iPad here</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_TITLE</key>
+	<string>Scan the QR Code with your phone</string>
+	<key>SECURE_SESSION_RESET</key>
+	<string>لقد تم إعادة تعيين دورة الاتصال الآمنة</string>
+	<key>SELECT_THREAD_TABLE_OTHER_CHATS_TITLE</key>
+	<string>Other Contacts</string>
+	<key>SELECT_THREAD_TABLE_RECENT_CHATS_TITLE</key>
+	<string>محادثات حديثة</string>
+	<key>SEND_AGAIN_BUTTON</key>
+	<string>ارسل مرة أُخرى</string>
+	<key>SEND_BUTTON_TITLE</key>
+	<string>إرسال</string>
+	<key>SEND_FAILED_NOTIFICATION_BODY</key>
+	<string>Your message failed to send.</string>
+	<key>SEND_INVITE_FAILURE</key>
+	<string>فشل إرسال الدعوة, فضلّا أعد المحاولة لاحقًا.</string>
+	<key>SEND_INVITE_SUCCESS</key>
+	<string>You invited your friend to use Signal!</string>
+	<key>SEND_MEDIA_CONFIRM_ABANDON_ALBUM</key>
+	<string>Discard Media</string>
+	<key>SEND_MEDIA_RETURN_TO_CAMERA</key>
+	<string>Return to Camera</string>
+	<key>SEND_MEDIA_RETURN_TO_MEDIA_LIBRARY</key>
+	<string>Return to Media Library</string>
+	<key>SEND_SMS_CONFIRM_TITLE</key>
+	<string>إرسال دعوة لصديق عن طريق رسالة نصية غير آمنة؟</string>
+	<key>SEND_SMS_INVITE_TITLE</key>
+	<string>هل ترغب في إرسال دعوة لتطبيق Signal إلى الرقم التالي:</string>
+	<key>SETTINGS_ABOUT</key>
+	<string>حول</string>
+	<key>SETTINGS_ADD_TO_BLOCK_LIST_TITLE</key>
+	<string>حظر</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION</key>
+	<string>التحايل على الرقابة</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT</key>
+	<string>الموقع:%@</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER</key>
+	<string>إذا كان مُفعل, الخدمة ستحاول التحايل على الرقابة. لا تُمكن هذه الميزة إلا إذا كنت في موقع يُراقب الخدمة.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED</key>
+	<string>تم تنشيط التحايل على الرقابة إستنادًا إلى رقم الهاتف الخاص بحسابك.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_MANUALLY_DISABLED</key>
+	<string>You have manually disabled censorship circumvention.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION</key>
+	<string>لا يمكن تفعيل التحايل على الرقابة إلا عند الإتصال بالإنترنت.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED</key>
+	<string>لا يلزمك التحايل على الرقابة; حيث أنك متصل على الخدمة.</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER</key>
+	<string>التحايل على الرقابة</string>
+	<key>SETTINGS_ADVANCED_DEBUGLOG</key>
+	<string>تفعيل سجل التصحيح</string>
+	<key>SETTINGS_ADVANCED_SUBMIT_DEBUGLOG</key>
+	<string>تقديم سجل التصحيح</string>
+	<key>SETTINGS_ADVANCED_TITLE</key>
+	<string>إعدادات متقدمة</string>
+	<key>SETTINGS_ADVANCED_VIEW_ERROR_LOG</key>
+	<string>Error Logs</string>
+	<key>SETTINGS_APPEARANCE_THEME_TITLE</key>
+	<string>السمة</string>
+	<key>SETTINGS_APPEARANCE_TITLE</key>
+	<string>المظهر</string>
+	<key>SETTINGS_AUDIO_DEFAULT_TONE_LABEL_FORMAT</key>
+	<string>%@ (default)</string>
+	<key>SETTINGS_BACKUP</key>
+	<string>Backup</string>
+	<key>SETTINGS_BACKUP_BACKUP_NOW</key>
+	<string>Backup Now</string>
+	<key>SETTINGS_BACKUP_CANCEL_BACKUP</key>
+	<string>Cancel Backup</string>
+	<key>SETTINGS_BACKUP_ENABLING_SWITCH</key>
+	<string>Backup Enabled</string>
+	<key>SETTINGS_BACKUP_ICLOUD_STATUS</key>
+	<string>iCloud Status</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_FAILED</key>
+	<string>Backup Restore Failed</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IDLE</key>
+	<string>Backup Restore Idle</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IN_PROGRESS</key>
+	<string>Backup Restore In Progress</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_SUCCEEDED</key>
+	<string>Backup Restore Succeeded</string>
+	<key>SETTINGS_BACKUP_PHASE</key>
+	<string>Phase</string>
+	<key>SETTINGS_BACKUP_PROGRESS</key>
+	<string>Progress</string>
+	<key>SETTINGS_BACKUP_STATUS</key>
+	<string>الحالة</string>
+	<key>SETTINGS_BACKUP_STATUS_FAILED</key>
+	<string>Backup Failed</string>
+	<key>SETTINGS_BACKUP_STATUS_IDLE</key>
+	<string>Waiting</string>
+	<key>SETTINGS_BACKUP_STATUS_IN_PROGRESS</key>
+	<string>Backing Up</string>
+	<key>SETTINGS_BACKUP_STATUS_SUCCEEDED</key>
+	<string>Backup Successful</string>
+	<key>SETTINGS_BLOCK_LIST_ADD_BUTTON</key>
+	<string>Add Blocked User</string>
+	<key>SETTINGS_BLOCK_LIST_NO_CONTACTS</key>
+	<string>جهات الاتصال الخاصة بك غير موجودة على Signal.</string>
+	<key>SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS</key>
+	<string>لا توجد نتائج لبحثك</string>
+	<key>SETTINGS_BLOCK_LIST_TITLE</key>
+	<string>تم الحظر</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE</key>
+	<string>مناوبة المكالمات الهاتفية دوماً</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL</key>
+	<string>Relay all calls through a Signal server to avoid revealing your IP address to your contact. Enabling will reduce call quality.</string>
+	<key>SETTINGS_CLEAR_HISTORY</key>
+	<string>حذف تاريخ المحادثة</string>
+	<key>SETTINGS_COPYRIGHT</key>
+	<string>Copyright Signal Messenger 
+ Licensed under the GPLv3</string>
+	<key>SETTINGS_DELETE_ACCOUNT_BUTTON</key>
+	<string>حذف حسابك</string>
+	<key>SETTINGS_DELETE_DATA_BUTTON</key>
+	<string>حذف كل البيانات</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION</key>
+	<string>Are you sure you want to delete all history (messages, attachments, calls, etc.)? This action cannot be reverted.</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION_BUTTON</key>
+	<string>حذف كل شيء</string>
+	<key>SETTINGS_HELP_HEADER</key>
+	<string>مساعدة</string>
+	<key>SETTINGS_HISTORYLOG_TITLE</key>
+	<string>حذف تاريخ المحادثة</string>
+	<key>SETTINGS_INFORMATION_HEADER</key>
+	<string>معلومات</string>
+	<key>SETTINGS_INVITE_TITLE</key>
+	<string>دعوة أصدقائك</string>
+	<key>SETTINGS_INVITE_TWITTER_TEXT</key>
+	<string>You can reach me using @signalapp. Get it now: https://signal.org/download/</string>
+	<key>SETTINGS_ITEM_NOTIFICATION_SOUND</key>
+	<string>Message Sound</string>
+	<key>SETTINGS_LEGAL_TERMS_CELL</key>
+	<string>Terms &amp; Privacy Policy</string>
+	<key>SETTINGS_LINK_PREVIEWS</key>
+	<string>Send Link Previews</string>
+	<key>SETTINGS_LINK_PREVIEWS_FOOTER</key>
+	<string>Previews are supported for Imgur, Instagram, Pinterest, Reddit, and YouTube links.</string>
+	<key>SETTINGS_LINK_PREVIEWS_HEADER</key>
+	<string>Link Previews</string>
+	<key>SETTINGS_NAV_BAR_TITLE</key>
+	<string>الإعدادات</string>
+	<key>SETTINGS_NOTIFICATIONS</key>
+	<string>الإشعارات</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_DESCRIPTION</key>
+	<string>Call and Message notifications can appear while your phone is locked. You may wish to limit what is shown in these notifications.</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_TITLE</key>
+	<string>Notification Content</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL</key>
+	<string>Contact Joined Signal</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_SECTION_TITLE</key>
+	<string>الأحداث</string>
+	<key>SETTINGS_PINS_FOOTER</key>
+	<string>Your PIN adds an extra layer of security to your account. You’ll be asked for it when you register your phone number with Signal. If you forget your PIN, you’ll be locked out of your account for 7 days.</string>
+	<key>SETTINGS_PINS_ITEM</key>
+	<string>Change your PIN</string>
+	<key>SETTINGS_PINS_ITEM_CREATE</key>
+	<string>إنشاء رقم تعريفي شخصي</string>
+	<key>SETTINGS_PINS_TITLE</key>
+	<string>الرقم التعريفي الشخصي</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_PRIVACY_TITLE</key>
+	<string>اظهار أسم المتصل ورقمه</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_DESCRIPTION</key>
+	<string>Show calls in the "Recents" list in the iOS Phone app.</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_TITLE</key>
+	<string>Show Calls in Recents</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_TITLE</key>
+	<string>نظام التشغيل iOS لدمج المكالمة</string>
+	<key>SETTINGS_PRIVACY_TITLE</key>
+	<string>الخصوصية</string>
+	<key>SETTINGS_READ_RECEIPT</key>
+	<string>تقارير القراءة</string>
+	<key>SETTINGS_READ_RECEIPTS_SECTION_FOOTER</key>
+	<string>مشاهدة ومشاركة إن رسائلٌ قرأت. هذا اﻹعداد اختياريّ ويطبق على كل المحادثات.</string>
+	<key>SETTINGS_RELINK_BUTTON</key>
+	<string>Re-link</string>
+	<key>SETTINGS_REREGISTER_BUTTON</key>
+	<string>إعادة التسجيل</string>
+	<key>SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT</key>
+	<string>Screen Lock Timeout</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_FOOTER</key>
+	<string>Unlock Signal's screen using Touch ID, Face ID, or your iOS device passcode. You can still answer incoming calls and receive call and message notifications while Screen Lock is enabled. Signal's notification settings allow you to customize the information that is displayed.</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_TITLE</key>
+	<string>قفل الشاشة</string>
+	<key>SETTINGS_SCREEN_LOCK_SWITCH_LABEL</key>
+	<string>قفل الشاشة</string>
+	<key>SETTINGS_SCREEN_SECURITY</key>
+	<string>تفعيل خاصية تأمين الشاشة</string>
+	<key>SETTINGS_SCREEN_SECURITY_DETAIL</key>
+	<string>منع ظهور استعراضات Signal في محول البرنامج.</string>
+	<key>SETTINGS_SECTION_CALL_KIT_DESCRIPTION</key>
+	<string>يعرض دمج المكالمة التابع لـ iOS مكالمات Signal الهاتفية على الشاشة المقفلة وفي سجل اتصالات النظام. يمكنك أن تختار اظهار أسم المتصل ورقمه. في حال تمكين iCloud يتم تبادل تاريخ المكالمات مع Apple.</string>
+	<key>SETTINGS_SECTION_NOTIFICATIONS</key>
+	<string>الإشعارات</string>
+	<key>SETTINGS_SECTION_SOUNDS</key>
+	<string>اﻷصوات</string>
+	<key>SETTINGS_SECTION_TITLE_CALLING</key>
+	<string>جاري الاتصال</string>
+	<key>SETTINGS_SECURITY_TITLE</key>
+	<string>تأمين الشاشة</string>
+	<key>SETTINGS_SUPPORT</key>
+	<string>الدعم</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_DISABLED</key>
+	<string>معطل</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ENABLED</key>
+	<string>مفعل</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ITEM</key>
+	<string>الرقم التعريفي الشخصي لحماية التسجيل</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_TITLE</key>
+	<string>الرقم التعريفي الشخصي لحماية التسجيل</string>
+	<key>SETTINGS_TYPING_INDICATORS</key>
+	<string>مؤشرات الكتابة</string>
+	<key>SETTINGS_TYPING_INDICATORS_FOOTER</key>
+	<string>مشاهدة ومشاركة بينما تكتب الرسائل. هذا اﻹعداد اختياريّ ويطبق على كل المحادثات.</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_LEARN_MORE</key>
+	<string>أعرف أكثر</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SECTION_TITLE</key>
+	<string>الراسل المغلق</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS</key>
+	<string>عرض المؤشرات</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS_FOOTER</key>
+	<string>Show a status icon when you select "More Info" on messages that were delivered using sealed sender.</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS</key>
+	<string>السماح من كل أحد</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS_FOOTER</key>
+	<string>اسمح بخاصية الراسل المغلق للرسائل القادمة من أشخاص ليسوا فى جهات اتصالك و الذين لم تشارك ملفك الشخصى معهم.</string>
+	<key>SETTINGS_VERSION</key>
+	<string>النسخة</string>
+	<key>SHARE_ACTION_MAIL</key>
+	<string>البريد</string>
+	<key>SHARE_ACTION_MESSAGE</key>
+	<string>رسالة</string>
+	<key>SHARE_ACTION_TWEET</key>
+	<string>تويتر</string>
+	<key>SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT</key>
+	<string>Your safety number with %@ has recently changed. You may wish to verify it in the main app before resending.</string>
+	<key>SHARE_EXTENSION_LOADING</key>
+	<string>قيد التحميل..</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_MESSAGE</key>
+	<string>Launch the Signal app to register.</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_TITLE</key>
+	<string>غير مسجل</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE</key>
+	<string>Launch the Signal app to update or register.</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE</key>
+	<string>Not Ready</string>
+	<key>SHARE_EXTENSION_SENDING_FAILURE_TITLE</key>
+	<string>Unable to Send Attachment</string>
+	<key>SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE</key>
+	<string>جار التحميل ...</string>
+	<key>SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE</key>
+	<string>Unable to Prepare Attachment</string>
+	<key>SHARE_EXTENSION_VIEW_TITLE</key>
+	<string>Share to Signal</string>
+	<key>SHOW_SAFETY_NUMBER_ACTION</key>
+	<string>عرض رقم الأمان</string>
+	<key>SHOW_THREAD_BUTTON_TITLE</key>
+	<string>عرض المحادثة</string>
+	<key>SMS_INVITE_BODY</key>
+	<string>أنا ادعُك لتثبيت تطبيق Signal، ها هو الرابط:</string>
+	<key>SOUNDS_NONE</key>
+	<string>لا شيء </string>
+	<key>STICKERS_FAILED_DOWNLOAD</key>
+	<string>ملصق</string>
+	<key>STICKERS_INSTALL_BUTTON</key>
+	<string>تنزيل</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE</key>
+	<string>سلسلة فنان Signal</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE</key>
+	<string>الملصقات المستلمة</string>
+	<key>STICKERS_MANAGE_VIEW_FAILED_KNOWN_PACKS</key>
+	<string>Some sticker packs failed to load</string>
+	<key>STICKERS_MANAGE_VIEW_INSTALLED_PACKS_SECTION_TITLE</key>
+	<string>الملصقات المثبتة</string>
+	<key>STICKERS_MANAGE_VIEW_LOADING_KNOWN_PACKS</key>
+	<string>قيد التحميل..</string>
+	<key>STICKERS_MANAGE_VIEW_NO_INSTALLED_PACKS</key>
+	<string>لم يتم تنزيل أية ملصقات</string>
+	<key>STICKERS_MANAGE_VIEW_NO_KNOWN_PACKS</key>
+	<string>ستظهر هنا الملصقات القادمة من الرسائل الواردة</string>
+	<key>STICKERS_MANAGE_VIEW_TITLE</key>
+	<string>لصاقات</string>
+	<key>STICKERS_PACK_DEFAULT_TITLE</key>
+	<string>Sticker Pack</string>
+	<key>STICKERS_PACK_SHARE_VIEW_TITLE</key>
+	<string>Share Sticker Pack</string>
+	<key>STICKERS_PACK_VIEW_DEFAULT_TITLE</key>
+	<string>Sticker Pack</string>
+	<key>STICKERS_PACK_VIEW_FAILED_TO_LOAD</key>
+	<string>Sticker Pack failed to load</string>
+	<key>STICKERS_UNINSTALL_BUTTON</key>
+	<string>Uninstall</string>
+	<key>STICKER_MESSAGE_PREVIEW</key>
+	<string>Sticker Message</string>
+	<key>STICKER_PACK_INSTALLED_TOOLTIP</key>
+	<string>تم تثبيت حزمة الملصقات</string>
+	<key>SUCCESSFUL_VERIFICATION_DESCRIPTION</key>
+	<string>رقم الأمان الخاص بك مع %@ متطابق. يمكنك وضع علامة على جهة الاتصال هذه بأنها مُتحقق منها.</string>
+	<key>SUCCESSFUL_VERIFICATION_TITLE</key>
+	<string>رقم الأمان متطابق!</string>
+	<key>SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER</key>
+	<string>التحقق من الرقم اﻷمان</string>
+	<key>THREAD_DETAILS_GROUP_MEMBER_COUNT_FORMAT</key>
+	<string>%lu members</string>
+	<key>THREAD_DETAILS_MORE_MUTUAL_GROUP</key>
+	<string>Member of %@, %@, and %lu additional groups</string>
+	<key>THREAD_DETAILS_NOTE_TO_SELF_EXPLANATION</key>
+	<string>You can add notes for yourself in this conversation. If your account has any linked devices, new notes will be synced.</string>
+	<key>THREAD_DETAILS_ONE_MUTUAL_GROUP</key>
+	<string>Member of %@</string>
+	<key>THREAD_DETAILS_THREE_MUTUAL_GROUP</key>
+	<string>Member of %@, %@, and %@</string>
+	<key>THREAD_DETAILS_TWO_MUTUAL_GROUP</key>
+	<string>Member of %@ and %@</string>
+	<key>TIME_AMOUNT_DAYS</key>
+	<string>%@ أيام</string>
+	<key>TIME_AMOUNT_DAYS_SHORT_FORMAT</key>
+	<string>%@ أيام</string>
+	<key>TIME_AMOUNT_HOURS</key>
+	<string>%@ ساعات</string>
+	<key>TIME_AMOUNT_HOURS_SHORT_FORMAT</key>
+	<string>%@ س</string>
+	<key>TIME_AMOUNT_MINUTES</key>
+	<string>%@ دقائق</string>
+	<key>TIME_AMOUNT_MINUTES_SHORT_FORMAT</key>
+	<string>%@ د</string>
+	<key>TIME_AMOUNT_SECONDS</key>
+	<string>%@ ثوان</string>
+	<key>TIME_AMOUNT_SECONDS_SHORT_FORMAT</key>
+	<string>%@ ث</string>
+	<key>TIME_AMOUNT_SINGLE_DAY</key>
+	<string>%@ يوم</string>
+	<key>TIME_AMOUNT_SINGLE_HOUR</key>
+	<string>%@ ساعة</string>
+	<key>TIME_AMOUNT_SINGLE_MINUTE</key>
+	<string>%@ دقيقة</string>
+	<key>TIME_AMOUNT_SINGLE_WEEK</key>
+	<string>%@ أسبوع</string>
+	<key>TIME_AMOUNT_WEEKS</key>
+	<string>%@ أسابيع</string>
+	<key>TIME_AMOUNT_WEEKS_SHORT_FORMAT</key>
+	<string>%@ أسابيع</string>
+	<key>TXT_CANCEL_TITLE</key>
+	<string>إلغاء</string>
+	<key>TXT_DELETE_TITLE</key>
+	<string>حذف</string>
+	<key>UNARCHIVE_ACTION</key>
+	<string>استعادة من اﻷرشيف</string>
+	<key>UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>المستخدم ليس ضمن أسماء قائمة جهات الاتصال التابعة لك. هل ترغب في حظر هذا المستخدم؟</string>
+	<key>UNKNOWN_CONTACT_NAME</key>
+	<string>جهة اتصال مجهولة</string>
+	<key>UNKNOWN_COUNTRY_NAME</key>
+	<string>Unknown Country</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE</key>
+	<string>One of your devices sent a message that can't be processed or displayed here because it uses a new Signal feature.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME</key>
+	<string>You received a message that can't be processed or displayed because it uses a new Signal feature.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT</key>
+	<string>%@ sent you a message that can't be processed or displayed because it uses a new Signal feature.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON</key>
+	<string>Update Signal Now</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE</key>
+	<string>Updated to the latest version of Signal. You can now receive this message type on your device.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME</key>
+	<string>You can ask the sender to re-send this message now that you are using an up-to-date version of Signal.</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT</key>
+	<string>You can ask %@ to re-send this message now that you are using an up-to-date version of Signal.</string>
+	<key>UNKNOWN_VALUE</key>
+	<string>مجهول</string>
+	<key>UNLINKED_WARNING</key>
+	<string>Device no longer linked. Re-link Signal with your phone to continue messaging.</string>
+	<key>UNLINKING_FAILED_ALERT_TITLE</key>
+	<string>فشل Signal في فك ارتباط جهازك.</string>
+	<key>UNLINK_ACTION</key>
+	<string>فصل الارتباط</string>
+	<key>UNLINK_CONFIRMATION_ALERT_BODY</key>
+	<string>This device will no longer be able to send or receive messages if it is unlinked.</string>
+	<key>UNLINK_CONFIRMATION_ALERT_TITLE</key>
+	<string>فصل ارتباط "%@"?</string>
+	<key>UNNAMED_DEVICE</key>
+	<string>جهاز غير مسمّى</string>
+	<key>UNREGISTER_SIGNAL_FAIL</key>
+	<string>فشل إلغاء التسجيل من Signal.</string>
+	<key>UNSUPPORTED_ATTACHMENT</key>
+	<string>تم تلقى ملحقة من نوعية غير معتمد</string>
+	<key>UNSUPPORTED_FEATURE_ERROR</key>
+	<string>جهازك لا يدعم هذه الخاصية</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_MESSAGE</key>
+	<string>لا يمكنك إزالة أعضاء المجموعة. سيتعين عليهم إما المغادرة أو يمكنك إنشاء مجموعة جديدة بدون هذا العضو.</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_TITLE</key>
+	<string>Not Supported</string>
+	<key>UPDATE_GROUP_FAILED</key>
+	<string>Group could not be updated.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_CREATE_BUTTON</key>
+	<string>إنشاء الرقم التعريفي الشخصي الخاص بك</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE_BUTTON</key>
+	<string>Learn more about PINs</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_DESCRIPTION</key>
+	<string>Your Registration Lock is now called a PIN, and it does more. Update it now.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_TITLE</key>
+	<string>قفل التسجيل = الرقم التعريفي الشخصي</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION</key>
+	<string>PINs add another level of security to your account. Create your PIN now.</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE</key>
+	<string>نقدم لكم الأرقام التعريفية الشخصية PINs</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_WHY_BUTTON</key>
+	<string>Do I have to create a PIN?</string>
+	<key>UPGRADE_IOS_ALERT_MESSAGE</key>
+	<string>Signal will soon require iOS 10 or later. Please upgrade in Settings app &gt;&gt; General &gt;&gt; Software Update.</string>
+	<key>UPGRADE_IOS_ALERT_TITLE</key>
+	<string>ترقية iOS</string>
+	<key>USERNAME_DESCRIPTION</key>
+	<string>Usernames on Signal are optional. If you choose to create a username other Signal users will be able to find you by this username and contact you without knowing your phone number.</string>
+	<key>USERNAME_FIELD</key>
+	<string>اسم المستخدم</string>
+	<key>USERNAME_INVALID_CHARACTERS_ERROR</key>
+	<string>Usernames may only contain a-z, 0-9, and _</string>
+	<key>USERNAME_LOOKUP_ERROR</key>
+	<string>An error occurred while looking up the username. Please try again later.</string>
+	<key>USERNAME_NOT_FOUND_FORMAT</key>
+	<string>%@ is not a Signal user. Make sure you’ve entered the complete username.</string>
+	<key>USERNAME_NOT_FOUND_TITLE</key>
+	<string>User Not Found</string>
+	<key>USERNAME_PLACEHOLDER</key>
+	<string>Enter a username</string>
+	<key>USERNAME_PREFIX</key>
+	<string>@</string>
+	<key>USERNAME_STARTS_WITH_NUMBER_ERROR</key>
+	<string>Usernames may not begin with a number.</string>
+	<key>USERNAME_TITLE</key>
+	<string>اسم المستخدم</string>
+	<key>USERNAME_TOO_SHORT_ERROR</key>
+	<string>Usernames must have at least 4 characters.</string>
+	<key>USERNAME_UNAVAIALBE_ERROR_FORMAT</key>
+	<string>%@ is taken.</string>
+	<key>USERNAME_VIEW_ERROR_UPDATE_FAILED</key>
+	<string>Username update failed.</string>
+	<key>VALIDATION_ERROR_CANNOT_BE_BLANK</key>
+	<string>Device name cannot be blank</string>
+	<key>VALIDATION_ERROR_TOO_LONG</key>
+	<string>Device name is too long</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_LOCAL</key>
+	<string>لقد قمت بوضع علامة "غير متحقق منه" ل%@.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE</key>
+	<string>لقد قمت بوضع علامة "غير متحقق منه" ل%@ من خلال جهاز آخر.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL</key>
+	<string>لقد قمت بوضع علامة "متحقق منه" ل%@.</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE</key>
+	<string>لقد قمت بوضع علامة "متحقق منه" ل%@ من خلال جهاز آخر.</string>
+	<key>VERIFICATION_STATE_CHANGE_GENERIC</key>
+	<string>تم تغيير حالة التحقق.</string>
+	<key>VERIFY_PRIVACY</key>
+	<string>عرض رقم اﻷمان</string>
+	<key>VERIFY_PRIVACY_MULTIPLE</key>
+	<string>مراجعة أرقام الأمان</string>
+	<key>VIEW_ONCE_ALREADY_VIEWED_TOAST</key>
+	<string>You already viewed this message.</string>
+	<key>VIEW_ONCE_MESSAGES_TOOLTIP</key>
+	<string>انقر هنا لجعل هذه الرسالة تختفي بعد أن تشاهد.</string>
+	<key>VIEW_ONCE_OUTGOING_TOAST</key>
+	<string>Outgoing view-once media files are automatically removed after they are sent.</string>
+	<key>VOICE_MESSAGE_CANCEL_INSTRUCTIONS</key>
+	<string>مرر للإلغاء</string>
+	<key>VOICE_MESSAGE_FILE_NAME</key>
+	<string>رسالة صوتية</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_MESSAGE</key>
+	<string>انقر مع الاستمرار لتسجيل رسالة صوتية.</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE</key>
+	<string>رسالة صوتية</string>
+	<key>WAITING_TO_COMPLETE_DEVICE_LINK_TEXT</key>
+	<string>إكمال الإعداد على نسخة سطح المكتب من Signal.</string>
+	<key>YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>قمت بتعطيل تخفية الرسائل.</string>
+	<key>YOU_MUST_COMPLETE_ONBOARDING_BEFORE_PROCEEDING</key>
+	<string>You must complete setup before proceeding.</string>
+	<key>YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>لقد ضبطت وقت إخفاء الرسالة على %@.</string>
+	<key>new_message</key>
+	<string>رسالة جديدة</string>
+</dict>
+</plist>

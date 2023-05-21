@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>John auf Viber anrufen</string>
+				<string>John über Viber anrufen</string>
+				<string>Einen Viber-Anruf mit John führen</string>
+				<string>John auf Viber anrufen</string>
+				<string>Einen Viber-Anruf mit John führen</string>
+				<string>John auf Viber anrufen</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartAudioCallIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>John eine Viber-Nachricht senden</string>
+				<string>John auf Viber eine SMS senden</string>
+				<string>Viber-Nachricht an John senden</string>
+				<string>John eine SMS über Viber senden</string>
+				<string>John eine Nachricht auf Viber senden</string>
+			</array>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+		</dict>
+		<dict>
+			<key>IntentExamples</key>
+			<array>
+				<string>Einen Videoanruf mit John auf Viber führen</string>
+				<string>Einen Video-Chat mit John auf Viber führen</string>
+				<string>John auf Videoanruf mit John auf Viber führen</string>
+				<string>Einen Viber-Videoanruf mit John führen</string>
+			</array>
+			<key>IntentName</key>
+			<string>INStartVideoCallIntent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

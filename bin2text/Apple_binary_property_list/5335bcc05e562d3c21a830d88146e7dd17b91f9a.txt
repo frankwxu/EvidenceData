@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si vous accumulez aujourd’hui {{goal_value:minutes}} minutes « M’entraîner », cette flèche pointera vers le haut demain. Donnez-vous les moyens d’y arriver!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » a bonne mine. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » pointe dans la bonne direction. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » pointe vers le bas, mais elle sur le point de remonter! Accumulez {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les %#@num_days@ à venir pour retourner la situation.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La flèche pointe vers le bas, mais vous accumulez davantage de minutes « M’entraîner » récemment. Accumulez au moins {{goal_value:minutes}} par jour pendant les 30 prochains jours pour retourner la flèche. {{username}}, ne perdez pas votre élan!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour retourner cette flèche, accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les 30 prochains jours. {{username}}, dernièrement, vous accumulez plus de minutes « M’entraîner ». Vous allez y arriver!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cette flèche pointe vers le bas, mais de peu. Accumulez plus de {{goal_value:minutes}} minutes « M’entraîner » par jour pendant %#@num_days@, et votre flèche pointera de nouveau vers le haut.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continuez d’accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pour que cette flèche ne cesse pas de pointer vers le haut. Bon travail {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, votre flèche « M’entraîner » a bonne mine. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La flèche pointe vers le bas, mais vous accumulez davantage de minutes « M’entraîner » récemment. Accumulez au moins {{goal_value:minutes}} par jour pendant les 14 prochains jours pour retourner la flèche. Ne perdez pas votre élan!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vous pouvez retourner votre flèche « M’entraîner » en %#@num_days@! Accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pour y arriver.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » pointe vers le haut. Veillez à accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » pour maintenir le cap!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour retourner cette flèche, accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les %#@num_days@ à venir. Vous allez y arriver!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, votre flèche « M’entraîner » a bonne mine. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La flèche pointe vers le bas, mais vous accumulez davantage de minutes « M’entraîner » récemment. Accumulez au moins {{goal_value:minutes}} par jour pendant les 14 prochains jours pour retourner la flèche. {{username}}, ne perdez pas votre élan!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continuez d’accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pour que cette flèche ne cesse pas de pointer vers le haut. Bon travail!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour retourner cette flèche, accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les 14 prochains jours. {{username}}, dernièrement, vous accumulez plus de minutes « M’entraîner ». Vous allez y arriver!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, cette flèche pointe vers le bas, mais de peu. Accumulez plus de {{goal_value:minutes}} minutes « M’entraîner » par jour pendant %#@num_days@, et votre flèche pointera de nouveau vers le haut.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, votre flèche « M’entraîner » pointe dans la bonne direction. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, vous pouvez retourner votre flèche « M’entraîner » en %#@num_days@! Accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pour y arriver.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, votre flèche « M’entraîner » pointe vers le bas, mais elle sur le point de remonter! Accumulez {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les %#@num_days@ à venir pour retourner la situation.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour retourner cette flèche, accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les %#@num_days@ à venir. {{username}}, vous allez y arriver!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d jour</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d jours</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour commencer, essayez d’accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » par jour. Atteignez ensuite un nouvel objectif chaque semaine, et votre flèche devrait pointer vers le haut dans environ %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d semaine</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d semaines</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La flèche pointe vers le bas, mais vous accumulez davantage de minutes « M’entraîner » récemment. Accumulez au moins {{goal_value:minutes}} par jour pendant les 30 prochains jours pour retourner la flèche. Ne perdez pas votre élan!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continuez d’accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pour que cette flèche ne cesse pas de pointer vers le haut. Bon travail!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, votre flèche « M’entraîner » pointe dans la bonne direction. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » pointe vers le haut. {{username}}, veillez à accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » pour maintenir le cap!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>En effectuant chaque jour une promenade rapide, vous pourrez faire pointer vos minutes « M’entraîner » vers le haut. {{username}}, vous pouvez y arriver.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » a bonne mine. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche « M’entraîner » pointe dans la bonne direction. Bravo.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour retourner cette flèche, accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les 14 prochains jours. Dernièrement, vous accumulez plus de minutes « M’entraîner ». Vous allez y arriver!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Cette flèche pourrait pointer vers le haut. Commencez par accumuler en moyenne {{goal_value:minutes}} minutes « M’entraîner » cette semaine. Faites régulièrement des progrès, et votre flèche devrait pointer vers le haut dans environ %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d semaine</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d semaines</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>En effectuant chaque jour une promenade rapide, vous pourrez faire pointer vos minutes « M’entraîner » vers le haut. Vous pouvez y arriver.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche pointe vers le haut, mais vous accumulez moins de minutes « M’entraîner » dernièrement. {{username}}, essayez de faire une promenade rapide tous les jours pour que votre flèche ne descende pas!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, si vous accumulez aujourd’hui {{goal_value:minutes}} minutes « M’entraîner », cette flèche pointera vers le haut demain. Donnez-vous les moyens d’y arriver!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Votre flèche pointe vers le haut, mais vous accumulez moins de minutes « M’entraîner » dernièrement. Essayez de faire une promenade rapide tous les jours pour que votre flèche ne descende pas!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continuez d’accumuler au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pour que cette flèche ne cesse pas de pointer vers le haut. Bon travail {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pour retourner cette flèche, accumulez au moins {{goal_value:minutes}} minutes « M’entraîner » par jour pendant les 30 prochains jours. Dernièrement, vous accumulez plus de minutes « M’entraîner ». Vous allez y arriver!</string>
+	</dict>
+</dict>
+</plist>

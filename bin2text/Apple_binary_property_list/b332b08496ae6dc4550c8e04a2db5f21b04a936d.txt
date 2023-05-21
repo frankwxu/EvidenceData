@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tổng quãng đường của bạn đã giảm xuống, {{username}}. Nếu bạn muốn đưa mũi tên này trở lại đúng quỹ đạo, hãy cố gắng dành thời gian đi bộ mỗi ngày.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn sẵn sàng cho thử thách, đi bộ và chạy bộ xa hơn sẽ giúp mũi tên này đi lên trở lại, {{username}}. Hãy cố gắng đi tối thiểu {{goal_value:distance}} một ngày trong tuần này và kiểm tra mục tiêu mới trong tuần sau. Sau %#@num_weeks@ nữa, bạn có thể đảo chiều mũi tên này.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tuần</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bạn làm rất tốt với mục tiêu Tổng quãng đường. Tiếp tục thực hiện các bài tập chạy bộ và đi bộ để duy trì mũi tên của bạn đi lên!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hãy đảo chiều mũi tên này! Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để mũi tên này đi lên trở lại, hãy đi bộ và chạy bộ {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo. Hãy cố gắng lên, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, mũi tên tổng quãng đường của bạn đang hướng lên. Tiếp tục chạy bộ và đi bộ mỗi ngày để duy trì!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bạn làm rất tốt với mục tiêu Tổng quãng đường, {{username}}. Thực hiện các bài tập chạy bộ và đi bộ mỗi ngày để duy trì mũi tên của bạn đi lên!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để mũi tên này đi lên trở lại, hãy đi bộ và chạy bộ {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo. Hãy cố gắng lên.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để duy trì mũi tên đi lên, bạn cần đi bộ và chạy bộ xa hơn mức gần đây của bạn. Hãy biến nó thành hiện thực!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bạn làm rất tốt với mục tiêu Tổng quãng đường, {{username}}. Tiếp tục thực hiện các bài tập chạy bộ và đi bộ để duy trì mũi tên của bạn đi lên!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn có thể chạy bộ hoặc đi bộ tối thiểu {{goal_value:distance}} trong hôm nay, mũi tên này sẽ hướng lên trở lại. Rất đáng giá, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Mũi tên tổng quãng đường của bạn đang hướng lên. Tiếp tục chạy bộ và đi bộ mỗi ngày để duy trì!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hãy đảo chiều mũi tên này, {{username}}! Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo và mũi tên của bạn sẽ đảo chiều đi lên, {{username}}. Bạn sẽ làm được.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để mũi tên này đi lên trở lại, hãy đi bộ và chạy bộ {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo. Hãy cố gắng lên.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn có thể chạy bộ hoặc đi bộ tối thiểu {{goal_value:distance}} trong hôm nay, mũi tên này sẽ hướng lên trở lại. Rất đáng giá!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo và mũi tên của bạn sẽ đảo chiều đi lên. Bạn sẽ làm được.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Mũi tên tổng quãng đường của bạn đang hướng lên. Tiếp tục chạy bộ và đi bộ mỗi ngày để duy trì!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tổng quãng đường của bạn đã giảm xuống. Nếu bạn muốn đưa mũi tên này trở lại đúng quỹ đạo, hãy cố gắng dành thời gian đi bộ mỗi ngày.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để mũi tên này đi lên trở lại, hãy đi bộ và chạy bộ {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo. Hãy cố gắng lên, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn sẵn sàng cho thử thách, đi bộ và chạy bộ xa hơn sẽ giúp mũi tên này đi lên trở lại, {{username}}. Hãy cố gắng đi tối thiểu {{goal_value:distance}} một ngày trong tuần này và kiểm tra mục tiêu mới trong tuần sau. Sau %#@num_weeks@ nữa, bạn có thể đảo chiều mũi tên này.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tuần</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để duy trì mũi tên đi lên, bạn cần đi bộ và chạy bộ xa hơn mức gần đây của bạn, {{username}}. Hãy biến nó thành hiện thực!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn có thể chạy bộ hoặc đi bộ tối thiểu {{goal_value:distance}} trong hôm nay, mũi tên này sẽ hướng lên trở lại. Rất đáng giá!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để đảo chiều mũi tên này, hãy đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo, {{username}}. Rất đáng giá!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo và mũi tên của bạn sẽ đảo chiều đi lên. Bạn sẽ làm được.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn sẵn sàng cho thử thách, đi bộ và chạy bộ xa hơn sẽ giúp mũi tên này đi lên trở lại. Hãy cố gắng đi tối thiểu {{goal_value:distance}} một ngày trong tuần này và kiểm tra mục tiêu mới trong tuần sau. Sau %#@num_weeks@ nữa, bạn có thể đảo chiều mũi tên này.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tuần</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Bạn làm rất tốt với mục tiêu Tổng quãng đường. Tiếp tục thực hiện các bài tập chạy bộ và đi bộ để duy trì mũi tên của bạn đi lên!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để đảo chiều mũi tên này, hãy đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo. Rất đáng giá!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo và mũi tên của bạn sẽ đảo chiều đi lên, {{username}}. Bạn sẽ làm được.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn sẵn sàng cho thử thách, đi bộ và chạy bộ xa hơn sẽ giúp mũi tên này đi lên trở lại. Hãy cố gắng đi tối thiểu {{goal_value:distance}} một ngày trong tuần này và kiểm tra mục tiêu mới trong tuần sau. Sau %#@num_weeks@ nữa, bạn có thể đảo chiều mũi tên này.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tuần</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tổng quãng đường của bạn đã giảm xuống. Nếu bạn muốn đưa mũi tên này trở lại đúng quỹ đạo, hãy cố gắng dành thời gian đi bộ mỗi ngày.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để đảo chiều mũi tên này, hãy đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo. Rất đáng giá!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gần đây, bạn đang đi bộ hoặc chạy bộ ít hơn, {{username}}. Để duy trì mũi tên của bạn đi lên, hãy cố gắng di chuyển nhiều hơn chút nữa!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Gần đây, bạn đang đi bộ hoặc chạy bộ ít hơn. Để duy trì mũi tên của bạn đi lên, hãy cố gắng di chuyển nhiều hơn chút nữa!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hãy đảo chiều mũi tên này, {{username}}! Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, mũi tên tổng quãng đường của bạn đang hướng lên. Tiếp tục chạy bộ và đi bộ mỗi ngày để duy trì!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Nếu bạn có thể chạy bộ hoặc đi bộ tối thiểu {{goal_value:distance}} trong hôm nay, mũi tên này sẽ hướng lên trở lại. Rất đáng giá, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Để đảo chiều mũi tên này, hãy đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo, {{username}}. Rất đáng giá!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Tổng quãng đường của bạn đã giảm xuống, {{username}}. Nếu bạn muốn đưa mũi tên này trở lại đúng quỹ đạo, hãy cố gắng dành thời gian đi bộ mỗi ngày.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hãy đảo chiều mũi tên này! Đi bộ và chạy bộ tối thiểu {{goal_value:distance}} một ngày trong %#@num_days@ tiếp theo.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ngày</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_NON_COACHING_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du har inte klivit upp och rört på dig så mycket den senaste tiden, men du har fortfarande över 45 minuter per timme i genomsnitt. Det är imponerande.</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du i genomsnitt klarar av minst {{goal_value:hours}} ståminuter per timme idag så vänds den här pilen. Du klarar det, {{username}}.</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du har inte klivit upp och rört på dig så mycket den senaste tiden, men du har fortfarande över 45 minuter per timme i genomsnitt. Det är imponerande, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din ståminutspil pekar nedåt men är nära att vändas. Stå upp och rör på dig minst {{goal_value:minutes}} minuter per timme under de kommande %#@num_days@na så vänds den uppåt igen.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Varje minut som du står upp och rör på dig är en bra minut. Fortsätt i samma stil!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din ståminutspil pekar nedåt men är nära att vändas, {{username}}. Stå upp och rör på dig minst {{goal_value:minutes}} minuter per timme under de kommande %#@num_days@na så vänds den uppåt igen.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kan vända ståminutspilen på %#@num_days@. Stå upp och rör på dig minst {{goal_value:minutes}} minuter varje timme så händer det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är dags att den här pilen pekar uppåt igen! Stå upp {{goal_value:hours}} minuter per timme i genomsnitt under de kommande %#@num_days@na så vänds den.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Försök att i genomsnitt klara av {{goal_value:minutes}} minuter per timme den här veckan. Återkom för nya mål och håll dig på banan så vänder du pilen uppåt igen.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är bra att just den här pilen pekar uppåt, {{username}}. Bra jobbat.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Få ståminuterna i rätt riktning igen genom att bara stå och röra dig i genomsnitt {{goal_value:hours}} minuter per timme under de kommande %#@num_days@na.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är dags att den här pilen pekar uppåt igen, {{username}}! Stå upp {{goal_value:hours}} minuter per timme i genomsnitt under de kommande %#@num_days@na så vänds den.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du i genomsnitt klarar av minst {{goal_value:hours}} ståminuter per timme idag så vänds den här pilen. Du klarar det.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Försök att stå upp och röra på dig minst {{goal_value:minutes}} minuter per timme för att jobba på den här pilen. Du får ett nytt mål varje vecka tills pilen vänds.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar uppåt, men ståminuterna har minskat den senaste tiden. Prioritera att stå upp och röra på dig varje timme, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Varje minut som du står upp och rör på dig är en bra minut. Fortsätt i samma stil, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ståminuter är viktiga, {{username}}. Försök att stå upp och röra dig lite mer varje timme så att pilen fortsätter peka uppåt.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Om du vill att den här trenden ska gå i rätt riktning får du kliva upp lite oftare och röra på dig varje dag.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Varje minut som du står upp och rör på dig är en bra minut. Fortsätt i samma stil!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Du kan vända ståminutspilen på %#@num_days@, {{username}}. Stå upp och rör på dig minst {{goal_value:minutes}} minuter varje timme så händer det.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ståminuter är viktiga. Försök att stå upp och röra dig lite mer varje timme så att pilen fortsätter peka uppåt.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Försök att stå upp och röra på dig minst {{goal_value:minutes}} minuter per timme för att jobba på den här pilen, {{username}}. Du får ett nytt mål varje vecka tills pilen vänds.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är bra att just den här pilen pekar uppåt, {{username}}. Bra jobbat.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Varje minut som du står upp och rör på dig är en bra minut. Fortsätt i samma stil, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är bra att just den här pilen pekar uppåt. Bra jobbat.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, om du vill att den här trenden ska gå i rätt riktning får du kliva upp lite oftare och röra på dig varje dag.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Det är bra att just den här pilen pekar uppåt. Bra jobbat.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Din pil pekar uppåt, men ståminuterna har minskat den senaste tiden. Prioritera att stå upp och röra på dig varje timme.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Få ståminuterna i rätt riktning igen genom att bara stå och röra dig i genomsnitt {{goal_value:hours}} minuter per timme under de kommande %#@num_days@na, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dag</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dagar</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Försök att i genomsnitt klara av {{goal_value:minutes}} minuter per timme den här veckan. Återkom för nya mål och håll dig på banan så vänder du pilen uppåt igen, {{username}}.</string>
+	</dict>
+</dict>
+</plist>

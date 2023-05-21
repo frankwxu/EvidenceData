@@ -1,0 +1,172 @@
+<head>
+    <STYLE TYPE=\"text/css\">
+    <!--
+
+    body {
+    	font-family: \"Lucida Grande\", Lucida, Verdana, sans-serif;
+    	margin: 0px;
+    	padding: 8px;
+    	font-size: 9pt;
+    	font-weight: normal;
+    	font-style: normal;
+    	text-decoration: none;
+    }
+
+    p.disclaimer {
+    	color: #aaa;
+    	text-align: left;
+    }
+
+    .title, .title a {
+    	padding: 0;
+    	margin: 0;
+    	font-size: 12pt;
+    	color: #331177;
+    	font-style: bold;
+    	text-decoration: none;
+    }
+
+
+    a:hover, .subtitle a:hover {
+    	color: blue;
+    }
+
+    .summary, td {
+    	padding:0;
+    	margin:0;
+    	font-size: 6pt;
+    }
+
+    /* for M68/iPhone on build */
+    .subtitle, .subtitle a {
+    	font-size: 10pt;
+    	color: #331177;
+    	padding-left: 6px;
+    	text-decoration: none;
+    }
+
+    em {
+    	font-weight: bold;
+    	font-style: normal;
+    }
+
+    .section p {
+    	margin: 0;
+    	margin-top: 10px;
+    	font-weight: bold;
+    	font-size: 10pt;
+    }
+
+    /* for Top nn of nn  */
+    .section {
+    	padding-left: 12px;
+    }
+
+    ol {
+    	margin: 0;
+    	margin-top: 2px;
+    }
+
+    .info {
+    	font-size: 10pt;
+    	padding-top: 4px;
+    	font-weight: bold;
+    	color: gray;
+    }
+
+    hr {
+    	width: 400px;
+    	float: left;
+    }
+
+    -->
+    </STYLE>
+    </head><body>
+    <div class=title><a href=\"https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=0&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;oc=Date&amp;od=1\" >
+    CrashTracer Daily Summary for 2007-10-24
+    </a></div>
+    <div class=summary>
+    <table>
+    <tr>
+    	<td align=right>
+    		Collected Logs:</td><td align=right>966633
+    	</td>
+    	<td>
+    		<small>&nbsp;&nbsp;(405282 crash, 15102 panic, 203800 baseband, 34901 reset count, 2 syslog, 60721 lowbatt)</small>
+    	</td>
+    </tr>
+
+
+    </table>
+    </div>
+    <br><B>Builds in this report:</B> <a href='#Oktoberfest'>3B48a</a> <a href='#OktoberfestSeed'>3B48</a> <hr><br><div class=subtitle id='Oktoberfest'><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=0&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;oc=Date&amp;od=1'>For <em>Oktoberfest</em> on build <em>3B48a</em></a></div><div class=section>
+    <p>Top 10 of 30 unique crash points :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=GraphicsServices:  GSEventRunModal'>GraphicsServices:  GSEventRunModal</a> (9 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=MusicLibrary:  TrackInfoShouldBookmarkLastPlayedTime'>MusicLibrary:  TrackInfoShouldBookmarkLastPlayedTime</a> (5 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=CoreAudio:  IOA2_BooleanControl::CacheValue'>CoreAudio:  IOA2_BooleanControl::CacheValue</a> (4 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=SpringBoard:  -[SBTelephonyManager dataConnectionType]'>SpringBoard:  -[SBTelephonyManager dataConnectionType]</a> (3 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=CoreAudio:  IOA2_BooleanControl::GetValue'>CoreAudio:  IOA2_BooleanControl::GetValue</a> (3 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=Message:  -[_NSSocket readBytes:length:]'>Message:  -[_NSSocket readBytes:length:]</a> (3 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=BTServer:  SendLinkPacket'>BTServer:  SendLinkPacket</a> (2 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=UIKit:  -[UIWebView(Interaction) performClick:]'>UIKit:  -[UIWebView(Interaction) performClick:]</a> (2 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=AppSupport:  CPPhoneNumberCopyNormalized'>AppSupport:  CPPhoneNumberCopyNormalized</a> (1 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=MusicLibrary:  -[MLTrackRep nominalHasBeenPlayedThresholdInSeconds]'>MusicLibrary:  -[MLTrackRep nominalHasBeenPlayedThresholdInSeconds]</a> (1 logs)
+    </ol>
+    <br><p>Top 5 of 16 crashed applications :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=mediaserverd&amp;gc[0]=Crash Point&amp;gc[1]=Process'>mediaserverd</a> (37 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=SpringBoard&amp;gc[0]=Crash Point&amp;gc[1]=Process'>SpringBoard</a> (36 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=Exited process&amp;gc[0]=Crash Point&amp;gc[1]=Process'>Exited process</a> (32 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=iapd&amp;gc[0]=Crash Point&amp;gc[1]=Process'>iapd</a> (31 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=MobileMusicPlayer&amp;gc[0]=Crash Point&amp;gc[1]=Process'>MobileMusicPlayer</a> (10 logs)
+    </ol>
+    <br><p>Top 5 of 6 baseband logs :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=call failed'>call failed</a> (63 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=AT response timeout'>AT response timeout</a> (34 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=modem reset'>modem reset</a> (26 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=call drop'>call drop</a> (12 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=User requested state dump'>User requested state dump</a> (2 logs)
+    </ol>
+    <br><p>Top 1 of 1 panic logs :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=110&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48a&amp;q1000c[2]=Reason&amp;q1000o[2]=0&amp;q1000v[2]=(cpu 0 caller 0xc012d76f IOPanic (IOLib.cpp:730)): '>(cpu 0 caller 0xc012d76f IOPanic (IOLib.cpp:730)): </a> (1 logs)
+    </ol>
+    <br><p>Total unclean device resets: 8
+    </div>
+    <hr><br><div class=subtitle id='Oktoberfest'><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=0&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;oc=Date&amp;od=1'>For <em>Oktoberfest</em> on build <em>3B48</em></a></div><div class=section>
+    <p>Top 10 of 121 unique crash points :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=MusicLibrary:  -[MLTrackRep nominalHasBeenPlayedThresholdInSeconds]'>MusicLibrary:  -[MLTrackRep nominalHasBeenPlayedThresholdInSeconds]</a> (90 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=GraphicsServices:  GSEventRunModal'>GraphicsServices:  GSEventRunModal</a> (87 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=MusicLibrary:  TrackInfoShouldBookmarkLastPlayedTime'>MusicLibrary:  TrackInfoShouldBookmarkLastPlayedTime</a> (72 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=Foundation:  0x30970c0e'>Foundation:  0x30970c0e</a> (27 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=Calendar:  CalEventOccurrenceGetEvent'>Calendar:  CalEventOccurrenceGetEvent</a> (15 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=MusicLibrary:  GetTrackInfoPermLocationStr %2B 20'>MusicLibrary:  GetTrackInfoPermLocationStr + 20</a> (15 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=SpringBoard:  -[SBTelephonyManager dataConnectionType]'>SpringBoard:  -[SBTelephonyManager dataConnectionType]</a> (8 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=Foundation:  -[NSCondition waitUntilDate:]'>Foundation:  -[NSCondition waitUntilDate:]</a> (8 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=page zero:  '>page zero:  </a> (7 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Crash Point&amp;q1000o[2]=2&amp;q1000v[2]=Celestial:  0x2851c74'>Celestial:  0x2851c74</a> (7 logs)
+    </ol>
+    <br><p>Top 5 of 22 crashed applications :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=MobileMusicPlayer&amp;gc[0]=Crash Point&amp;gc[1]=Process'>MobileMusicPlayer</a> (192 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=SpringBoard&amp;gc[0]=Crash Point&amp;gc[1]=Process'>SpringBoard</a> (122 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=mediaserverd&amp;gc[0]=Crash Point&amp;gc[1]=Process'>mediaserverd</a> (91 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=MobilePhone&amp;gc[0]=Crash Point&amp;gc[1]=Process'>MobilePhone</a> (84 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=109&amp;g=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Process&amp;q1000o[2]=2&amp;q1000v[2]=Exited process&amp;gc[0]=Crash Point&amp;gc[1]=Process'>Exited process</a> (65 logs)
+    </ol>
+    <br><p>Top 5 of 5 baseband logs :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=call failed'>call failed</a> (105 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=modem reset'>modem reset</a> (29 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=call drop'>call drop</a> (28 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=User requested state dump'>User requested state dump</a> (15 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=199&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=2&amp;q1000v[2]=AT response timeout'>AT response timeout</a> (11 logs)
+    </ol>
+    <br><p>Top 4 of 4 panic logs :
+    <ol><li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=110&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=0&amp;q1000v[2]=(cpu 0 caller 0xc0167729): Command pending but no LLIs to scan'>(cpu 0 caller 0xc0167729): Command pending but no LLIs to scan</a> (3 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=110&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=0&amp;q1000v[2]=(cpu 0 caller 0xc012d76f IOPanic (IOLib.cpp:730)): '>(cpu 0 caller 0xc012d76f IOPanic (IOLib.cpp:730)): </a> (1 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=110&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=0&amp;q1000v[2]=(cpu 0 caller 0xc0167729 IOPanic (IOLib.cpp:730)): Command pending but no LLIs to scan'>(cpu 0 caller 0xc0167729 IOPanic (IOLib.cpp:730)): Command pending but no LLIs to scan</a> (1 logs)
+    <li><a href='https://aspenlogs.apple.com/CrashTracer/index.php?q=1000&amp;q1000t=110&amp;oc=Date&amp;od=1&amp;q1000c[0]=Date Imported&amp;q1000o[0]=2&amp;q1000v[0]=2007-10-24%&amp;q1000c[1]=Build&amp;q1000o[1]=2&amp;q1000v[1]=3B48&amp;q1000c[2]=Reason&amp;q1000o[2]=0&amp;q1000v[2]=(cpu 0 caller 0xc04a40a4): AppleS5L8900XADMFMC: ADM did not complete command (POST 0x63)'>(cpu 0 caller 0xc04a40a4): AppleS5L8900XADMFMC: ADM did not complete command (POST 0x63)</a> (1 logs)
+    </ol>
+    <br><p>Total unclean device resets: 29
+    </div>
+    <hr><br><p class=disclaimer>
+
+    Confidential information for authorized Apple employees only.
+    </body>

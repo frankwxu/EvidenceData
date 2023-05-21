@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Telegram</string>
+	<key>CFBundleExecutable</key>
+	<string>WatchAppExtension</string>
+	<key>CFBundleIdentifier</key>
+	<string>ph.telegra.Telegraph.watchkitapp.watchkitextension</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Telegram</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.0</string>
+	<key>CFBundleVersion</key>
+	<string>16868</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>WKAppBundleIdentifier</key>
+			<string>ph.telegra.Telegraph.watchkitapp</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.watchkit</string>
+	</dict>
+	<key>WKExtensionDelegateClassName</key>
+	<string>TGExtensionDelegate</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>WatchOS</string>
+	</array>
+	<key>DTPlatformName</key>
+	<string>watchos</string>
+	<key>DTPlatformVersion</key>
+	<string>6.2</string>
+	<key>DTSDKName</key>
+	<string>watchos6.2</string>
+	<key>MinimumOSVersion</key>
+	<string>5.0</string>
+	<key>DTPlatformBuild</key>
+	<string>17T255</string>
+	<key>DTSDKBuild</key>
+	<string>17T255</string>
+	<key>DTXcodeBuild</key>
+	<string>11E146</string>
+	<key>DTXcode</key>
+	<string>1140</string>
+</dict>
+</plist>

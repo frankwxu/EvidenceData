@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HOSelectableAccessoriesInstructionsDescription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Choose accessories you wish to include in Favourites. Favourites are shown on the main tab of the Home app, and your top favourites will be available in Control Centre for quick access.</string>
+			<key>mac</key>
+			<string>Choose accessories you wish to include in Favourites. Favourites are shown on the main tab of the Home app.</string>
+			<key>ipad</key>
+			<string>Choose accessories you wish to include in Favourites. Favourites are shown on the main tab of the Home app, and your top favourites will be available in Control Centre for quick access.</string>
+			<key>ipod</key>
+			<string>Choose accessories you wish to include in Favourites. Favourites are shown on the main tab of the Home app, and your top favourites will be available in Control Centre for quick access.</string>
+		</dict>
+	</dict>
+	<key>HOWelcomeView_Description_Control</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Securely control and monitor your home using the Home app, Control Centre, Siri and Apple Watch.</string>
+			<key>mac</key>
+			<string>Securely control and monitor your home using the Home app, Siri and Apple Watch.</string>
+			<key>ipad</key>
+			<string>Securely control and monitor your home using the Home app, Control Centre, Siri and Apple Watch.</string>
+			<key>ipod</key>
+			<string>Securely control and monitor your home using the Home app, Control Centre, Siri and Apple Watch.</string>
+		</dict>
+	</dict>
+	<key>HOLocationInvitationCount</key>
+	<dict>
+		<key>invitations</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d Invitation</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d Invitations</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@invitations@</string>
+	</dict>
+</dict>
+</plist>

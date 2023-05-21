@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u messages</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_messages@</string>
+		<key>num_messages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u messaggi</string>
+			<key>many</key>
+			<string>%u messaggi</string>
+			<key>one</key>
+			<string>Messaggio</string>
+			<key>other</key>
+			<string>%u messaggi</string>
+			<key>two</key>
+			<string>%u messaggi</string>
+			<key>zero</key>
+			<string>%u messaggi</string>
+		</dict>
+	</dict>
+	<key>%u missed calls</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_calls@</string>
+		<key>num_calls</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u chiamate perse</string>
+			<key>many</key>
+			<string>%u chiamate perse</string>
+			<key>one</key>
+			<string>Chiamata persa</string>
+			<key>other</key>
+			<string>%u chiamate perse</string>
+			<key>two</key>
+			<string>%u chiamate perse</string>
+			<key>zero</key>
+			<string>%u chiamate perse</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša se ukupna udaljenost smanjila, {{username}}. Ako želite da ova strelica opet bude po planu, pokušajte naći vremena za hodanje svaki dan.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako imate snage, hodanje i trčanje na veće udaljenosti vratit će ovu strelicu natrag gore, {{username}}. Pokušajte prijeći najmanje {{goal_value:distance}} dnevno ovaj tjedan i potražite novi cilj sljedeći tjedan. Strelicu možete preokrenuti za %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tjedna</string>
+			<key>one</key>
+			<string>%d tjedan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tjedana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Odlično ste odradili ukupnu udaljenost. Nastavite trčati i hodati kako biste strelicu zadržali okrenutu prema gore!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Preokrenite ovu strelicu! Hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za okretanje ove strelice prema hodajte i trčite {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@. Sve ovisi o vama, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, vaša strelica ukupne udaljenosti okrenuta je prema gore. Nastavite trčati i hodati svaki dan da tako i ostane!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Odlično ste odradili ukupnu udaljenost, {{username}}. Trčite i hodajte svaki dan kako biste strelicu zadržali okrenutu prema gore!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za okretanje ove strelice prema hodajte i trčite {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@. Sve ovisi o vama.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kako biste zadržali svoju strelicu okrenutu prema gore, morate hodati i trčati dalje nego što ste to radili u posljednje vrijeme. Učinite to!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Odlično ste odradili ukupnu udaljenost, {{username}}. Nastavite trčati i hodati kako biste strelicu zadržali okrenutu prema gore!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako danas možete trčati ili hodati najmanje {{goal_value:distance}}, ova će se strelica okrenuti prema gore. Isplati se, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica ukupne udaljenosti okrenuta je prema gore. Nastavite trčati i hodati svaki dan da tako i ostane!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Preokrenite ovu strelicu, {{username}}! Hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hodajte i trčite najmanje {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@ i vaša će se strelica preokrenuti prema gore, {{username}}. Možete vi to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za okretanje ove strelice prema hodajte i trčite {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@. Sve ovisi o vama.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako danas možete trčati ili hodati najmanje {{goal_value:distance}}, ova će se strelica okrenuti prema gore. Isplati se!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hodajte i trčite najmanje {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@ i vaša će se strelica preokrenuti prema gore. Možete vi to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša strelica ukupne udaljenosti okrenuta je prema gore. Nastavite trčati i hodati svaki dan da tako i ostane!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša se ukupna udaljenost smanjila. Ako želite da ova strelica opet bude po planu, pokušajte naći vremena za hodanje svaki dan.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za okretanje ove strelice prema hodajte i trčite {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@. Sve ovisi o vama, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako imate snage, hodanje i trčanje na veće udaljenosti vratit će ovu strelicu natrag gore, {{username}}. Pokušajte prijeći najmanje {{goal_value:distance}} dnevno ovaj tjedan i potražite novi cilj sljedeći tjedan. Strelicu možete preokrenuti za %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tjedna</string>
+			<key>one</key>
+			<string>%d tjedan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tjedana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Kako biste zadržali svoju strelicu okrenutu prema gore, morate hodati i trčati dalje nego što ste to radili u posljednje vrijeme, {{username}}. Učinite to!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako danas možete trčati ili hodati najmanje {{goal_value:distance}}, ova će se strelica okrenuti prema gore. Isplati se!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@, {{username}}. Isplati se!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hodajte i trčite najmanje {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@ i vaša će se strelica preokrenuti prema gore. Možete vi to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako imate snage, hodanje i trčanje na veće udaljenosti vratit će ovu strelicu natrag gore. Pokušajte prijeći najmanje {{goal_value:distance}} dnevno ovaj tjedan i potražite novi cilj sljedeći tjedan. Strelicu možete preokrenuti za %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tjedna</string>
+			<key>one</key>
+			<string>%d tjedan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tjedana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Odlično ste odradili ukupnu udaljenost. Nastavite trčati i hodati kako biste strelicu zadržali okrenutu prema gore!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@. Isplati se!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Hodajte i trčite najmanje {{goal_value:distance}} dnevno tijekom sljedećih %#@num_days@ i vaša će se strelica preokrenuti prema gore, {{username}}. Možete vi to.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako imate snage, hodanje i trčanje na veće udaljenosti vratit će ovu strelicu natrag gore. Pokušajte prijeći najmanje {{goal_value:distance}} dnevno ovaj tjedan i potražite novi cilj sljedeći tjedan. Strelicu možete preokrenuti za %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d tjedna</string>
+			<key>one</key>
+			<string>%d tjedan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d tjedana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša se ukupna udaljenost smanjila. Ako želite da ova strelica opet bude po planu, pokušajte naći vremena za hodanje svaki dan.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@. Isplati se!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>U posljednje vrijeme manje hodate ili trčite, {{username}}. Kako bi strelica ostala okrenuta prema gore, pokušajte se malo više kretati!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>U posljednje vrijeme manje hodate ili trčite. Kako bi strelica ostala okrenuta prema gore, pokušajte se malo više kretati!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Preokrenite ovu strelicu, {{username}}! Hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, vaša strelica ukupne udaljenosti okrenuta je prema gore. Nastavite trčati i hodati svaki dan da tako i ostane!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ako danas možete trčati ili hodati najmanje {{goal_value:distance}}, ova će se strelica okrenuti prema gore. Isplati se, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Za preokretanje ove strelice hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@, {{username}}. Isplati se!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Vaša se ukupna udaljenost smanjila, {{username}}. Ako želite da ova strelica opet bude po planu, pokušajte naći vremena za hodanje svaki dan.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Preokrenite ovu strelicu! Hodajte i trčite najmanje {{goal_value:distance}} dnevno sljedećih %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d dana</string>
+			<key>one</key>
+			<string>%d dan</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dana</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

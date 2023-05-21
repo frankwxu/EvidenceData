@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका कुल दूरी वाला तीर नीचे की ओर है, {{username}}। अगर आप इस तीर को वापस ट्रैक पर लाना चाहते हैं, तो हर दिन वॉक के लिए समय निकालें।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगर आपने कमर कस ही ली है, तो ज़्यादा वॉकिंग और रनिंग करने से यह तीर वापस ऊपर की ओर बढ़ता जाएगा, {{username}}। इस सप्ताह कम-से-कम {{goal_value:distance}} तय करें और अगले सप्ताह के लिए नया लक्ष्य बनाएँ। %#@num_weeks@ में आप इस तीर को फ़्लिप कर सकते हैं।</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d सप्ताह</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d सप्ताह</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‘कुल दूरी’ का आँकड़ा बढ़िया लग रहा है। अपना तीर ऊपर की ओर रखने के लिए रन और वॉक करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप कर दें! अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को वापस ऊपर की ओर ले जाने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें। आप कर सकते हैं, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, आपका कुल दूरी वाला तीर ऊपर की ओर है। यह ऐसा ही बना रहे, इसके लिए हर दिन वॉकिंग और रनिंग करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‘कुल दूरी’ का आँकड़ा बढ़िया लग रहा है, {{username}}। अपना तीर ऊपर की ओर रखने के लिए हर दिन रन और वॉक करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को वापस ऊपर की ओर ले जाने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें। आप कर सकते हैं।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अपना तीर ऊपर की ओर रखने के लिए आपको उससे ज़्यादा वॉक और रन करनी होगी, जितनी आप अब तक कर रहे थे। कर के दिखाइए!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‘कुल दूरी’ का आँकड़ा बढ़िया लग रहा है, {{username}}। अपना तीर ऊपर की ओर रखने के लिए रन और वॉक करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप आज कम-से-कम {{goal_value:distance}} रन या वॉक कर सकते हैं, तो यह तीर वापस ऊपर की ओर आ जाएगा। आज़माने में फ़ायदा है, {{username}}।</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका कुल दूरी वाला तीर ऊपर की ओर है। यह ऐसा ही बना रहे, इसके लिए हर दिन वॉकिंग और रनिंग करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप कर दें, {{username}}! अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें और आपका तीर वापस ऊपर की ओर हो जाएगा, {{username}}। आप अवश्य कर पाएँगे।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को वापस ऊपर की ओर ले जाने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें। आप कर सकते हैं।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप आज कम-से-कम {{goal_value:distance}} रन या वॉक कर सकते हैं, तो यह तीर वापस ऊपर की ओर आ जाएगा। आज़माने में फ़ायदा है!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें और आपका तीर वापस ऊपर की ओर हो जाएगा। आप अवश्य कर पाएँगे।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका कुल दूरी वाला तीर ऊपर की ओर है। यह ऐसा ही बना रहे, इसके लिए हर दिन वॉकिंग और रनिंग करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका कुल दूरी वाला तीर नीचे की ओर है। अगर आप इस तीर को वापस ट्रैक पर लाना चाहते हैं, तो हर दिन वॉक के लिए समय निकालें।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को वापस ऊपर की ओर ले जाने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें। आप कर सकते हैं, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगर आपने कमर कस ही ली है, तो ज़्यादा वॉकिंग और रनिंग करने से यह तीर वापस ऊपर की ओर बढ़ता जाएगा, {{username}}। इस सप्ताह कम-से-कम {{goal_value:distance}} तय करें और अगले सप्ताह के लिए नया लक्ष्य बनाएँ। %#@num_weeks@ में आप इस तीर को फ़्लिप कर सकते हैं।</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d सप्ताह</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d सप्ताह</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अपना तीर ऊपर की ओर रखने के लिए आपको उससे ज़्यादा वॉक और रन करनी होगी, जितनी आप अब तक कर रहे थे, {{username}}। कर के दिखाइए!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप आज कम-से-कम {{goal_value:distance}} रन या वॉक कर सकते हैं, तो यह तीर वापस ऊपर की ओर आ जाएगा। आज़माने में फ़ायदा है!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप करने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें, {{username}}। आज़माने में फ़ायदा है!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें और आपका तीर वापस ऊपर की ओर हो जाएगा। आप अवश्य कर पाएँगे।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगर आपने कमर कस ही ली है, तो ज़्यादा वॉकिंग और रनिंग करने से यह तीर वापस ऊपर की ओर बढ़ता जाएगा। इस सप्ताह कम-से-कम {{goal_value:distance}} तय करें और अगले सप्ताह के लिए नया लक्ष्य बनाएँ। %#@num_weeks@ में आप इस तीर को फ़्लिप कर सकते हैं।</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d सप्ताह</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d सप्ताह</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‘कुल दूरी’ का आँकड़ा बढ़िया लग रहा है। अपना तीर ऊपर की ओर रखने के लिए रन और वॉक करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप करने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें। आज़माने में फ़ायदा है!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें और आपका तीर वापस ऊपर की ओर हो जाएगा, {{username}}। आप अवश्य कर पाएँगे।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>अगर आपने कमर कस ही ली है, तो ज़्यादा वॉकिंग और रनिंग करने से यह तीर वापस ऊपर की ओर बढ़ता जाएगा। इस सप्ताह कम-से-कम {{goal_value:distance}} तय करें और अगले सप्ताह के लिए नया लक्ष्य बनाएँ। %#@num_weeks@ में आप इस तीर को फ़्लिप कर सकते हैं।</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d सप्ताह</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d सप्ताह</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका कुल दूरी वाला तीर नीचे की ओर है। अगर आप इस तीर को वापस ट्रैक पर लाना चाहते हैं, तो हर दिन वॉक के लिए समय निकालें।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप करने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें। आज़माने में फ़ायदा है!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप फ़िलहाल कम वॉकिंग या रनिंग कर रहे हैं, {{username}}। अपना तीर ऊपर की ओर रखने के लिए थोड़ा और मूव करने की कोशिश करें!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आप फ़िलहाल कम वॉकिंग या रनिंग कर रहे हैं। अपना तीर ऊपर की ओर रखने के लिए थोड़ा और मूव करने की कोशिश करें!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप कर दें, {{username}}! अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, आपका कुल दूरी वाला तीर ऊपर की ओर है। यह ऐसा ही बना रहे, इसके लिए हर दिन वॉकिंग और रनिंग करते रहें!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>यदि आप आज कम-से-कम {{goal_value:distance}} रन या वॉक कर सकते हैं, तो यह तीर वापस ऊपर की ओर आ जाएगा। आज़माने में फ़ायदा है, {{username}}।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप करने के लिए अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें, {{username}}। आज़माने में फ़ायदा है!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>आपका कुल दूरी वाला तीर नीचे की ओर है, {{username}}। अगर आप इस तीर को वापस ट्रैक पर लाना चाहते हैं, तो हर दिन वॉक के लिए समय निकालें।</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>इस तीर को फ़्लिप कर दें! अगले %#@num_days@ तक एक दिन में कम-से-कम {{goal_value:distance}} वॉक और रन करें।</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d दिन</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d दिन</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

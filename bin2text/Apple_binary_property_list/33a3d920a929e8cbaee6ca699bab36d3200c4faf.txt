@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اصعد {{goal_value:flights}} من الطوابق اليوم وسيتجه هذا السهم لأعلى من جديد غدًا. استخدم الدرج يا {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يمكنك أن تجعل هذا السهم يتجه لأعلى من جديد خلال %#@num_days@، لا تجعل عدد الطوابق التي تصعدها يقل عن {{goal_value:flights}} يوميًا، وسترى أنه سيقلب اتجاهه.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا استخدم الدرج!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، يمكنك أن تجعل هذا السهم يتجه لأعلى من جديد خلال %#@num_days@، لا تجعل عدد الطوابق التي تصعدها يقل عن {{goal_value:flights}} يوميًا، وسترى أنه سيقلب اتجاهه.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام</string>
+			<key>one</key>
+			<string>يوم واحد</string>
+			<key>many</key>
+			<string>%d يومًا</string>
+			<key>two</key>
+			<string>يومين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم</string>
+			<key>zero</key>
+			<string>%d يوم</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لقد أوشكت جدًا أن تبقي هذا السهم متجهًا لأسفل. اصعد {{goal_value:flights}} من الطوابق على الأقل يوميًا لمدة %#@num_days@ لجعله يتجه لأعلى من جديد.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حان وقت البحث عن الدرج. اصعد {{goal_value:flights}} من الطوابق على الأقل يوميًا لمدة %#@num_days@ لقلب اتجاه سهمك. أنت لها!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استمر في استخدام الدرج يا {{username}}. أنت تحقق نتيجة رائعة في عدد الطوابق التي تصعدها.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لجعل هذا السهم يتجه لأعلى، استخدم الدرج كلما أمكنك. حاول ألا يقل عدد الطوابق التي تصعدها عن {{goal_value:flights}} يوميًا لمدة %#@num_days@. الأمر يعود إليك!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حان وقت البحث عن الدرج يا {{username}}. اصعد {{goal_value:flights}} من الطوابق على الأقل يوميًا لمدة %#@num_days@ لقلب اتجاه سهمك. أنت لها!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>اصعد {{goal_value:flights}} من الطوابق اليوم وسيتجه هذا السهم لأعلى من جديد غدًا. استخدم الدرج!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>إذا كنت تريد توجيه هذا السهم في الاتجاه الصحيح من جديد، فاستخدم الدرج عندما تراه.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استخدامك للدرج يتناقص مقارنةً بمعدلك المعتاد يا {{username}}. حاول ألا يقل عدد الطوابق التي تصعدها عن {{goal_value:flights}} يوميًا للحفاظ على اتجاه سهمك لأعلى.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا استخدم الدرج يا {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حافظ على اتجاه سهم الطوابق لأعلى يا {{username}}. ينبغي ألا يقل متوسط الطوابق التي تصعدها عن {{goal_value:flights}} يوميًا حتى تحافظ على تقدمك.</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استخدام الدرج أكثر قليلاً يمكن في الغالب أن يساعد في تحسين هذا السهم. هذا شيء جيد بالتأكيد.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا استخدم الدرج!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، لقد أوشكت جدًا أن تبقي هذا السهم متجهًا لأسفل. اصعد {{goal_value:flights}} من الطوابق على الأقل يوميًا لمدة %#@num_days@ لجعله يتجه لأعلى من جديد.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حافظ على اتجاه سهم الطوابق لأعلى. ينبغي ألا يقل متوسط الطوابق التي تصعدها عن {{goal_value:flights}} يوميًا حتى تحافظ على تقدمك.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>يا {{username}}، إذا كنت تريد توجيه هذا السهم في الاتجاه الصحيح من جديد، فاستخدم الدرج عندما تراه.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استمر في استخدام الدرج يا {{username}}. أنت تحقق نتيجة رائعة في عدد الطوابق التي تصعدها.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>هيا استخدم الدرج يا {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استمر في استخدام الدرج. أنت تحقق نتيجة رائعة في عدد الطوابق التي تصعدها.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استمر في استخدام الدرج. أنت تحقق نتيجة رائعة في عدد الطوابق التي تصعدها.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>لجعل هذا السهم يتجه لأعلى، استخدم الدرج كلما أمكنك. حاول ألا يقل عدد الطوابق التي تصعدها عن {{goal_value:flights}} يوميًا لمدة %#@num_days@. الأمر يعود إليك يا {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d أيام قادمة</string>
+			<key>one</key>
+			<string>يوم واحد قادم</string>
+			<key>many</key>
+			<string>%d يومًا قادمة</string>
+			<key>two</key>
+			<string>يومين قادمين</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d يوم قادمة</string>
+			<key>zero</key>
+			<string>%d يوم قادمة</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>استخدامك للدرج يتناقص مقارنةً بمعدلك المعتاد. حاول ألا يقل عدد الطوابق التي تصعدها عن {{goal_value:flights}} يوميًا للحفاظ على اتجاه سهمك لأعلى.</string>
+	</dict>
+</dict>
+</plist>

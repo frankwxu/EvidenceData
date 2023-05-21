@@ -1,0 +1,122 @@
+2020-03-30 07:33:48.705 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/DCDF64FA-76DE-4149-9665-D6D6A8C4B646/Library/Caches/Logs/currentSession.logger.txt
+2020-03-30 07:33:48.709 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Build Type: Production
+2020-03-30 07:33:48.733 [🤖 Info] [IMGAPIClient.m] -[IMGAPIClient setupSessionManager] > Time to clear disk cache: 0.003
+2020-03-30 07:33:48.740 [🙀 Warning] [IMGAPIClient.m] -[IMGAPIClient setupSessionManager] > Not using certificate pinning due to Tweak
+2020-03-30 07:33:48.779 [🤖 Info] [IdentityKeychainManager.swift] allIdentities() > retrieved 1 items from keychain
+2020-03-30 07:33:48.818 [🗣] [IdentityManager+Migration.swift] identityFromOld() > no user needing migration
+2020-03-30 07:33:49.265 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Session Count: 1
+2020-03-30 07:33:49.266 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Posts Viewed: 208
+2020-03-30 07:33:49.439 [🗣] [IdentityManager.swift] updateServices() > updated branch identity: Optional([:]) nil
+2020-03-30 07:33:49.542 [🤖 Info] [AdVendorManager.swift] setupMopub(withMediatedAdProvidersConfig:) > mopub sdk finished initialization
+2020-03-30 07:33:49.543 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MoPub] SDK initialized and ready to display ads.
+	Initialized adapters:
+	InMobiAdapterConfiguration: Adapter version 1.0.0, SDK version 9.0.4
+	IASDKMopubAdapterConfiguration: Adapter version 7.4.2, SDK version 7.4.2
+
+2020-03-30 07:33:49.545 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPMediationManager] Cached SDK initialization parameters for IASDKMopubAdapterConfiguration:
+{
+    appID = 103024;
+}
+2020-03-30 07:33:49.567 [🤖 Info] [MessagingClient.swift] connect(then:) > Fetch Stream token from Imgur
+2020-03-30 07:33:49.584 [🙀 Warning] [JSONAPIClient.swift] init() > Not using certificate pinning due to Tweak
+2020-03-30 07:33:49.605 [🤖 Info] [Experiments.swift] setupExperiments() > active client experiments: ["expT5761-control", "explorerandom-control"] with headers ["X-explorerandomcontrol": "control"]
+2020-03-30 07:33:49.605 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - expT5761: control
+2020-03-30 07:33:49.605 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - explorerandom: control
+2020-03-30 07:33:49.620 [🗣] [NotificationsManager.swift] requestAuthorization(provisional:completionHandler:) > requesting authorization
+2020-03-30 07:33:49.703 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-03-30 07:33:49.727 [🤖 Info] [GalleryViewController.swift] savedConfiguration() > no saved category, using most viral
+2020-03-30 07:33:49.748 [🤖 Info] [NavigationTabViewController.swift] pagerView(_:didMoveToPageAt:) > selected navigation tab 1
+2020-03-30 07:33:49.790 [🤖 Info] [IMGAppDelegate.swift] applicationLaunch(with:) > startup costs: realm: 0.425s, navigation stack and first time auth: 0.168s, ads: 0.125s, networking: 0.089s, firebase: 0.059s, crashlytics: 0.054s, branch: 0.044s, facebook: 0.044s, messaging: 0.024s, session manager: 0.024s, logger: 0.020s, google: 0.018s, experiments: 0.017s, notifications: 0.015s, appboy: 0.011s, audio: 0.008s, updateUser: 0.005s, analytics: 0.004s, caching: 0.003s, shortcut items: 0.001s, delete index: 0.000s, retry routing: 0.000s
+2020-03-30 07:33:49.841 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Feed - Viewed: [:]
+2020-03-30 07:33:49.854 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedLoadingCell with type loading and display FeedSectionDisplay(rawValue: 0)
+2020-03-30 07:33:49.855 [🤖 Info] [FeedLoadingCell.swift] update(isLoading:isError:) > loading cell showing hidden state
+2020-03-30 07:33:49.908 [🤖 Info] [AdConsentViewController.swift] shouldPromptForConsent > shouldPrompt: false isGDPRA: false allowsTracking: true hasPC: false sessionCount: 1
+2020-03-30 07:33:49.920 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Notification Permission: authorized
+2020-03-30 07:33:49.922 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Notification Permission: authorized
+2020-03-30 07:33:49.938 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Lifecycle - Application Opened: ["Method": "Other", "Type": "Cold Start"]
+2020-03-30 07:33:49.974 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-03-30 07:33:49.976 [🗣] [AudioManager.swift] update(force:) > switch audio session to AVAudioSessionCategory(_rawValue: AVAudioSessionCategoryAmbient)
+2020-03-30 07:33:49.994 [🤖 Info] [NotificationsManager.swift] fetchNotifications(completionHandler:) > Fetching more notifications
+2020-03-30 07:33:50.046 [🤖 Info] [DraftOperationManager.swift] init(realm:) > Deleting old PendingOperations: []
+2020-03-30 07:33:50.095 [🤖 Info] [FeedLoadingCell.swift] update(isLoading:isError:) > loading cell showing loading state
+2020-03-30 07:33:50.182 [🤖 Info] [NotificationsManager.swift] didRegisterForRemoteNotificationsWithToken(_:) > push token: aab4688c9998ce77ec7dfe0d9fa1a29afdf5277e181a23eac8b9ba262ec3cbd7
+2020-03-30 07:33:50.609 [🤖 Info] [AdManager.swift] loadAd(type:reason:) > loading ad banner, reason: preload after startup
+2020-03-30 07:33:50.879 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-03-30 07:33:50.879 [🗣] [NotificationsManager.swift] updateAppIconBadge() > setting app badge to 0 with 0 from stream and 0 from imgur
+2020-03-30 07:33:50.977 [🤖 Info] [IMGAppDelegate.swift] setupBranch(_:) > Got Branch deeplink callback: [AnyHashable("+is_first_session"): 0, AnyHashable("+clicked_branch_link"): 0]
+2020-03-30 07:33:51.024 [🤖 Info] [IMGAppDelegate.swift] applicationDidBecomeActive(_:) > no facebook deeplink available
+2020-03-30 07:33:51.167 [🤖 Info] [BannerAdController.swift] onSuccess(_:) > successful matchbuy ad response after 0.5563939809799194s
+2020-03-30 07:33:52.046 [🗣] [ListDataListenerUpdate.swift] applyTo(collectionView:section:reloadingModifications:) > applying ListDataListenerUpdate(reload: false, deletions: [], insertions: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], modifications: []) to <UICollectionView: 0x108923a00; frame = (0 0; 320 455); clipsToBounds = YES; autoresize = W+H; tintColor = UIExtendedGrayColorSpace 1 1; gestureRecognizers = <NSArray: 0x28200bf30>; layer = <CALayer: 0x282e95760>; contentOffset: {0, 0}; contentSize: {320, 120}; adjustedContentInset: {0, 0, 0, 0}; layout: <Imgur.FeedCollectionViewLayout: 0x108195100>; dataSource: <Imgur.FeedViewController: 0x109101000>>
+2020-03-30 07:33:52.293 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedRecommendedFollowableCell with type recommendedFollowable and display FeedSectionDisplay(rawValue: 0)
+2020-03-30 07:33:52.336 [🤖 Info] [MediaPresentable.swift] Imgur > determined max texture size to be 16384.0 pixels
+2020-03-30 07:33:52.350 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with W4tG7nc
+2020-03-30 07:33:52.351 [🗣] [MediaView.swift] state > mediaview 0x0000000114650930 with model W4tG7nc > updated state: unloaded with prior state: image - progress: not started
+2020-03-30 07:33:52.359 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with DJ20zxy
+2020-03-30 07:33:52.359 [🗣] [MediaView.swift] state > mediaview 0x00000001134aa310 with model DJ20zxy > updated state: unloaded with prior state: image - progress: not started
+2020-03-30 07:33:52.366 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with aqbjwWO
+2020-03-30 07:33:52.366 [🗣] [MediaView.swift] state > mediaview 0x00000001134ad1b0 with model aqbjwWO > updated state: unloaded with prior state: image - progress: not started
+2020-03-30 07:33:52.373 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/W4tG7nc_d.jpg?maxwidth=262&shape=thumb&fidelity=high
+2020-03-30 07:33:52.374 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/DJ20zxy_d.jpg?maxwidth=262&shape=thumb&fidelity=high
+2020-03-30 07:33:52.374 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/aqbjwWO_d.jpg?maxwidth=262&shape=thumb&fidelity=high
+2020-03-30 07:33:52.408 [🗣] [FeedViewController.swift] collectionView(_:cellForItemAt:) > configuring FeedPostCell with type post and display FeedSectionDisplay(rawValue: 0)
+2020-03-30 07:33:52.432 [🤖 Info] [MediaView.swift] configure(model:options:videoState:forced:) > configuring media with G1P9m92
+2020-03-30 07:33:52.434 [🗣] [UIImageView+Additions.swift] img_setImageWithURL(_:placeholderImage:options:animation:progressBlock:completedBlock:) > Loading image https://i.imgur.com/G1P9m92_d.jpg?maxwidth=600&shape=thumb&fidelity=high
+2020-03-30 07:33:52.434 [🗣] [FeedPostCommentControl.swift] startTimerIfUnpaused() > starting comment update timer
+2020-03-30 07:33:52.435 [🗣] [MediaView.swift] state > mediaview 0x000000011465f110 with model G1P9m92 > updated state: unloaded with prior state: image - progress: not started
+2020-03-30 07:33:52.438 [🤖 Info] [Analytics.swift] log(event:properties:) > amplitude: Post - Viewing Summary: ["Location": "Feed", "Type": "Feed", "NSFW Count": 0, "Total Count": 1, "Promoted Count": 0, "Promoted Eligible Count": 0, "Monetizable Count": 1]
+2020-03-30 07:33:52.448 [🤖 Info] [AdManager.swift] loadAd(type:reason:) > loading ad medium rect, reason: preload upon retrieving a feed section with an ad
+2020-03-30 07:33:52.467 [🤖 Info] [FeedLoadingCell.swift] update(isLoading:isError:) > loading cell showing hidden state
+2020-03-30 07:33:52.486 [🤖 Info] [Experiments.swift] setupServerExperiments(_:updatingProperties:) > all active experiments: ["expT5761-control", "explorerandom-control"] with headers ["X-explorerandomcontrol": "control"]
+2020-03-30 07:33:52.486 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - expT5761: control
+2020-03-30 07:33:52.486 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - explorerandom: control
+2020-03-30 07:33:52.489 [🗣] [IdentityKeychainManager.swift] store(identity:) > store query: [agrp: "Q9SM2F33Y6.shared", class: genp, svce: "imgur.com", acct: "122948083"]
+2020-03-30 07:33:52.494 [🤖 Info] [IdentityKeychainManager.swift] store(identity:) > successfully updated keychain item for 122948083
+2020-03-30 07:33:52.498 [🤖 Info] [IdentityKeychainManager.swift] allIdentities() > retrieved 1 items from keychain
+2020-03-30 07:33:52.553 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][fa18208d93ba4dba82d257a94e7255c6] Attempting to load ad
+2020-03-30 07:33:52.636 [🤖 Info] [UncachedPostDataController.swift] loadData(for:updateHandler:) > fetched post data for GcyQSpJ, updating
+2020-03-30 07:33:52.710 [🤖 Info] [Experiments.swift] setupExperiments() > got firebase remote config with status 1 and error nil
+2020-03-30 07:33:52.711 [🤖 Info] [Experiments.swift] setupFirebaseExperiments(updatingProperties:) > added firebase experiments [FirebaseComputedExperiment(Onboarding_Tag_Count, ), FirebaseComputedExperiment(EXAMPLE, ), FirebaseComputedExperiment(NSFW_Deeplink_Tags, mature_and_tags), FirebaseComputedExperiment(Tag_Picker_Copy, ), FirebaseComputedExperiment(Auth_Onboarding_Ordering, ), FirebaseComputedExperiment(Tag_Descriptions, ), FirebaseComputedExperiment(DeepLink_Install, control)]
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - expT5761: control
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - explorerandom: control
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Onboarding_Tag_Count: 
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - EXAMPLE: 
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - NSFW_Deeplink_Tags: mature_and_tags
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Picker_Copy: 
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Auth_Onboarding_Ordering: 
+2020-03-30 07:33:52.712 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - Tag_Descriptions: 
+2020-03-30 07:33:52.713 [🗣] [Analytics.swift] addUserProperty(key:forcedAmplitudeKey:brazeKey:value:) > adding user property Experiment - DeepLink_Install: control
+2020-03-30 07:33:52.799 [🗣] [MediaView.swift] state > mediaview 0x0000000114650930 with model W4tG7nc > updated state: image - progress: finished in 0.424360990524292s
+2020-03-30 07:33:52.822 [🗣] [MediaView.swift] state > mediaview 0x00000001134ad1b0 with model aqbjwWO > updated state: image - progress: finished in 0.44467902183532715s
+2020-03-30 07:33:52.838 [🗣] [MediaView.swift] state > mediaview 0x00000001134aa310 with model DJ20zxy > updated state: image - progress: finished in 0.4616110324859619s
+2020-03-30 07:33:52.851 [🗣] [MediaView.swift] state > mediaview 0x000000011465f110 with model G1P9m92 > updated state: image - progress: finished in 0.4164530038833618s
+2020-03-30 07:33:52.879 [🤖 Info] [BannerAdController.swift] onSuccess(_:) > successful matchbuy ad response after 0.41262102127075195s
+2020-03-30 07:33:53.863 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][be881e89af1b48828062e1151d287ba4] Attempting to load ad
+2020-03-30 07:33:53.897 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPAdConfiguration] Could not find custom event class named CRBannerCustomEvent
+2020-03-30 07:33:53.898 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: mraid
+2020-03-30 07:33:53.901 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPMRAIDBannerCustomEvent.
+2020-03-30 07:33:54.036 [🤖 Info] [RootController.swift] tabBarController(_:shouldSelectViewController:programmatically:) > selecting tab: Gallery
+2020-03-30 07:33:54.037 [🤖 Info] [RootController.swift] tabBarController(_:shouldSelectViewController:programmatically:) > spam tapped tab: Gallery
+2020-03-30 07:33:54.432 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager] Banner ad view is fetching ad type: mraid
+2020-03-30 07:33:54.443 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerCustomEventAdapter] Looking for custom event class named MPMRAIDBannerCustomEvent.
+2020-03-30 07:33:54.953 [🤖 Info] [AdManager.swift] adDidLoad(controller:) > ad medium rect loaded after 2.072377920150757s
+2020-03-30 07:33:54.953 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][be881e89af1b48828062e1151d287ba4] Ad loaded
+2020-03-30 07:33:54.956 [🤖 Info] [IMGMPLogger.swift] logMessage(_:) > MoPub log: 
+	[MoPub][MPBannerAdManager][fa18208d93ba4dba82d257a94e7255c6] Ad loaded
+2020-03-30 07:33:55.021 [🤖 Info] [SessionManager.swift] willResignActive(notification:) > logging session summary, spent 678862.5887469053s in session #2
+2020-03-30 07:33:55.679 [🗣] [MediaView.swift] state > mediaview 0x0000000114650930 with model W4tG7nc > updated state: unloaded with prior state: image - progress: finished in 0.424360990524292s
+2020-03-30 07:33:55.689 [🗣] [MediaView.swift] state > mediaview 0x00000001134aa310 with model DJ20zxy > updated state: unloaded with prior state: image - progress: finished in 0.4616110324859619s
+2020-03-30 07:33:55.690 [🗣] [MediaView.swift] state > mediaview 0x00000001134ad1b0 with model aqbjwWO > updated state: unloaded with prior state: image - progress: finished in 0.44467902183532715s
+2020-03-30 07:33:55.690 [🗣] [MediaView.swift] state > mediaview 0x000000011465f110 with model G1P9m92 > updated state: unloaded with prior state: image - progress: finished in 0.4164530038833618s
+2020-04-13 15:27:59.849 [Info] > Imgur Version: 2020.4 Build: 1609.1351 PID: 374
+2020-04-13 15:27:59.849 [Info] > XCGLogger Version: 7.0.1 - Level: Verbose
+2020-04-13 15:27:59.850 [Info] > XCGLogger appending log to: file:///var/mobile/Containers/Data/Application/DCDF64FA-76DE-4149-9665-D6D6A8C4B646/Library/Caches/Logs/currentSession.logger.txt

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ระยะทางทั้งหมดของคุณลดลง {{username}} ถ้าคุณอยากให้ลูกศรนี้กลับมาเป็นอย่างที่ควร ให้พยายามหาเวลาสำหรับการเดินในแต่ละวัน</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณพร้อม การเดินและวิ่งให้มากขึ้นจะทำให้ลูกศรนี้หันหัวกลับมาชี้ขึ้นได้นะ {{username}} พยายามไปให้ได้อย่างน้อย {{goal_value:distance}} ต่อวันในสัปดาห์นี้ และมองหาเป้าหมายใหม่ในสัปดาห์หน้า ใน %#@num_weeks@ คุณจะสามารถพลิกลูกศรนี้ได้</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d สัปดาห์</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทำระยะทางทั้งหมดของคุณได้ดีมาก วิ่งและเดินในแต่ละวันต่อไปเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พลิกลูกศรนี้สิ! เดินและวิ่งอย่างน้อย {{goal_value:distance}}ต่อวันสำหรับ %#@num_days@ถัดไป</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรนี้กลับมาชี้ขึ้น ให้เดินและวิ่ง {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป ฝีมือคุณทั้งหมดเลยนะ {{username}}</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}} ลูกศรระยะทางทั้งหมดของคุณชี้ขึ้น วิ่งและเดินต่อไปในแต่ละวันเพื่อให้ลูกศรชี้ขึ้นแบบนี้เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทำระยะทางทั้งหมดของคุณได้ดีมาก {{username}} วิ่งและเดินในแต่ละวันเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรนี้กลับมาชี้ขึ้น ให้เดินและวิ่ง {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป ฝีมือคุณทั้งหมดเลยนะ</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ คุณต้องเดินและวิ่งให้มากกว่าที่คุณทำได้เมื่อเร็วๆ นี้ ทำให้ได้นะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทำระยะทางทั้งหมดของคุณได้ดีมาก {{username}} วิ่งและเดินในแต่ละวันต่อไปเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณสามารถวิ่งหรือเดินได้อย่างน้อย {{goal_value:distance}}ในวันนี้ ลูกศรนี้จะกลับมาชี้ขึ้น คุ้มมากนะ {{username}}</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรระยะทางทั้งหมดของคุณชี้ขึ้นแล้ว วิ่งและเดินต่อไปในแต่ละวันเพื่อให้ลูกศรชี้ขึ้นแบบนี้เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พลิกลูกศรนี้สิ {{username}}! เดินและวิ่งอย่างน้อย {{goal_value:distance}}ต่อวันสำหรับ %#@num_days@ถัดไป</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป แล้วลูกศรของคุณจะพลิกกลับมาชี้ขึ้น{{username}} คุณทำได้แน่</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรนี้กลับมาชี้ขึ้น ให้เดินและวิ่ง {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป ฝีมือคุณทั้งหมดเลยนะ</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณสามารถวิ่งหรือเดินได้อย่างน้อย {{goal_value:distance}}ในวันนี้ ลูกศรนี้จะกลับมาชี้ขึ้น คุ้มมากนะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป แล้วลูกศรของคุณจะพลิกกลับมาชี้ขึ้น คุณทำได้แน่</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ลูกศรระยะทางทั้งหมดของคุณชี้ขึ้นแล้ว วิ่งและเดินต่อไปในแต่ละวันเพื่อให้ลูกศรชี้ขึ้นแบบนี้เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ระยะทางทั้งหมดของคุณลดลง ถ้าคุณอยากให้ลูกศรนี้กลับมาเป็นอย่างที่ควร ให้พยายามหาเวลาสำหรับการเดินในแต่ละวัน</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรนี้กลับมาชี้ขึ้น ให้เดินและวิ่ง {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป ฝีมือคุณทั้งหมดเลยนะ {{username}}</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณพร้อม การเดินและวิ่งให้มากขึ้นจะทำให้ลูกศรนี้หันหัวกลับมาชี้ขึ้นได้นะ {{username}} พยายามไปให้ได้อย่างน้อย {{goal_value:distance}} ต่อวันในสัปดาห์นี้ และมองหาเป้าหมายใหม่ในสัปดาห์หน้า ใน %#@num_weeks@ คุณจะสามารถพลิกลูกศรนี้ได้</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d สัปดาห์</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ คุณต้องเดินและวิ่งให้มากกว่าที่คุณทำได้เมื่อเร็วๆ นี้ {{username}} ทำให้ได้นะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณสามารถวิ่งหรือเดินได้อย่างน้อย {{goal_value:distance}}ในวันนี้ ลูกศรนี้จะกลับมาชี้ขึ้น คุ้มมากนะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการพลิกลูกศรนี้ ให้เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป {{username}} คุ้มมากนะ!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป แล้วลูกศรของคุณจะพลิกกลับมาชี้ขึ้น คุณทำได้แน่</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณพร้อม การเดินและวิ่งให้มากขึ้นจะทำให้ลูกศรนี้หันหัวกลับมาชี้ขึ้นได้นะ พยายามไปให้ได้อย่างน้อย {{goal_value:distance}} ต่อวันในสัปดาห์นี้ และมองหาเป้าหมายใหม่ในสัปดาห์หน้า ใน %#@num_weeks@ คุณจะสามารถพลิกลูกศรนี้ได้</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d สัปดาห์</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ทำระยะทางทั้งหมดของคุณได้ดีมาก วิ่งและเดินในแต่ละวันต่อไปเพื่อทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการพลิกลูกศรนี้ ให้เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป คุ้มมากนะ!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป แล้วลูกศรของคุณจะพลิกกลับมาชี้ขึ้น{{username}} คุณทำได้แน่</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณพร้อม การเดินและวิ่งให้มากขึ้นจะทำให้ลูกศรนี้หันหัวกลับมาชี้ขึ้นได้นะ พยายามไปให้ได้อย่างน้อย {{goal_value:distance}} ต่อวันในสัปดาห์นี้ และมองหาเป้าหมายใหม่ในสัปดาห์หน้า ใน %#@num_weeks@ คุณจะสามารถพลิกลูกศรนี้ได้</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d สัปดาห์</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ระยะทางทั้งหมดของคุณลดลง ถ้าคุณอยากให้ลูกศรนี้กลับมาเป็นอย่างที่ควร ให้พยายามหาเวลาสำหรับการเดินในแต่ละวัน</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการพลิกลูกศรนี้ ให้เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป คุ้มมากนะ!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณเดินหรือวิ่งน้อยลงเมื่อไม่นานมานี้ {{username}} ในการทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ ให้พยายามเคลื่อนไหวมากกว่านี้อีกเล็กน้อยนะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>คุณเดินหรือวิ่งน้อยลงเมื่อไม่นานมานี้ ในการทำให้ลูกศรของคุณชี้ขึ้นอยู่เสมอ ให้พยายามเคลื่อนไหวมากกว่านี้อีกเล็กน้อยนะ!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พลิกลูกศรนี้สิ {{username}}! เดินและวิ่งอย่างน้อย {{goal_value:distance}}ต่อวันสำหรับ %#@num_days@ถัดไป</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}} ลูกศรระยะทางทั้งหมดของคุณชี้ขึ้น วิ่งและเดินต่อไปในแต่ละวันเพื่อให้ลูกศรชี้ขึ้นแบบนี้เสมอ!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ถ้าคุณสามารถวิ่งหรือเดินได้อย่างน้อย {{goal_value:distance}}ในวันนี้ ลูกศรนี้จะกลับมาชี้ขึ้น คุ้มมากนะ {{username}}</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ในการพลิกลูกศรนี้ ให้เดินและวิ่งอย่างน้อย {{goal_value:distance}} ต่อวันสำหรับ %#@num_days@ถัดไป {{username}} คุ้มมากนะ!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>ระยะทางทั้งหมดของคุณลดลง {{username}} ถ้าคุณอยากให้ลูกศรนี้กลับมาเป็นอย่างที่ควร ให้พยายามหาเวลาสำหรับการเดินในแต่ละวัน</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>พลิกลูกศรนี้สิ! เดินและวิ่งอย่างน้อย {{goal_value:distance}}ต่อวันสำหรับ %#@num_days@ถัดไป</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d วัน</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

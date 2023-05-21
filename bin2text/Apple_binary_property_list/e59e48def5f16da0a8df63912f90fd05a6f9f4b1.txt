@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Показник вашої загальної відстані падає, {{username}}. Якщо ви хочете, щоб ця стрілка була знову в належному напрямку, щодня приділяйте час для прогулянок.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо вас це цікавить, довші прогулянки й пробіжки змусять цю стрілку знову вказувати догори, {{username}}. Намагайтеся долати принаймні {{goal_value:distance}} щодня цього тижня і вже наступного тижня дізнавайтеся свою нову ціль. Через %#@num_weeks@ ви зможете перекинути цю стрілку догори.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d тижні</string>
+			<key>one</key>
+			<string>%d тиждень</string>
+			<key>many</key>
+			<string>%d тижнів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d тижня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Гідно попрацювали над своєю Загальною відстанню. Призвичаюйтесь далі до щоденних прогулянок і пробіжок, аби ваша стрілка лишалася догори!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Перекиньте цю стрілку! Проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб повернути цю стрілку догори, проходьте і пробігайте {{goal_value:distance}} за день протягом %#@num_days@. Це все про вас, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ваша стрілка загальної відстані вказує догори. Не припиняйте бігати й ходити щодня, аби вона так і лишалась!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Гідно попрацювали над своєю Загальною відстанню, {{username}}. Призвичаюйтесь до щоденних прогулянок і пробіжок, аби ваша стрілка лишалася догори!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб повернути цю стрілку догори, проходьте і пробігайте {{goal_value:distance}} за день протягом %#@num_days@. Це все про вас.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Аби тримати свою стрілку догори, ви маєте проходити та пробігати довшу відстань від тієї, яку ви долали останнім часом. Беріться до справи!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Гідно попрацювали над своєю Загальною відстанню, {{username}}. Призвичаюйтесь далі до щоденних прогулянок і пробіжок, аби ваша стрілка лишалася догори!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо ви сьогодні зможете пробігти або пройти принаймні {{goal_value:distance}}, ця стрілка знову вказуватиме догори. Це того варте, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ваша стрілка загальної відстані вказує догори. Не припиняйте бігати й ходити щодня, аби вона так і лишалась!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Перекиньте цю стрілку, {{username}}! Проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Проходьте й пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@, і ваша стрілка знову вказуватиме догори, {{username}}. У вас вийде.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб повернути цю стрілку догори, проходьте і пробігайте {{goal_value:distance}} за день протягом %#@num_days@. Це все про вас.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо ви сьогодні зможете пробігти або пройти принаймні {{goal_value:distance}}, ця стрілка знову вказуватиме догори. Це того варте!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Проходьте й пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@, і ваша стрілка знову вказуватиме догори. У вас вийде.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ваша стрілка загальної відстані вказує догори. Не припиняйте бігати й ходити щодня, аби вона так і лишалась!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Показник вашої загальної відстані падає. Якщо ви хочете, щоб ця стрілка була знову в належному напрямку, щодня приділяйте час для прогулянок.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб повернути цю стрілку догори, проходьте і пробігайте {{goal_value:distance}} за день протягом %#@num_days@. Це все про вас, {{username}}.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо вас це цікавить, довші прогулянки й пробіжки змусять цю стрілку знову вказувати догори, {{username}}. Намагайтеся долати принаймні {{goal_value:distance}} щодня цього тижня і вже наступного тижня дізнавайтеся свою нову ціль. Через %#@num_weeks@ ви зможете перекинути цю стрілку догори.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d тижні</string>
+			<key>one</key>
+			<string>%d тиждень</string>
+			<key>many</key>
+			<string>%d тижнів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d тижня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Аби тримати свою стрілку догори, ви маєте проходити та пробігати довшу відстань від тієї, яку ви долали останнім часом, {{username}}. Беріться до справи!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо ви сьогодні зможете пробігти або пройти принаймні {{goal_value:distance}}, ця стрілка знову вказуватиме догори. Це того варте!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб перекинути цю стрілку догори, проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@, {{username}}. Це того варте!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Проходьте й пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@, і ваша стрілка знову вказуватиме догори. У вас вийде.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо вас це цікавить, довші прогулянки й пробіжки змусять цю стрілку знову вказувати догори. Намагайтеся долати принаймні {{goal_value:distance}} щодня цього тижня і вже наступного тижня дізнавайтеся свою нову ціль. Через %#@num_weeks@ ви зможете перекинути цю стрілку догори.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d тижні</string>
+			<key>one</key>
+			<string>%d тиждень</string>
+			<key>many</key>
+			<string>%d тижнів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d тижня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Гідно попрацювали над своєю Загальною відстанню. Призвичаюйтесь далі до щоденних прогулянок і пробіжок, аби ваша стрілка лишалася догори!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб перекинути цю стрілку догори, проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@. Це того варте!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Проходьте й пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@, і ваша стрілка знову вказуватиме догори, {{username}}. У вас вийде.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо вас це цікавить, довші прогулянки й пробіжки змусять цю стрілку знову вказувати догори. Намагайтеся долати принаймні {{goal_value:distance}} щодня цього тижня і вже наступного тижня дізнавайтеся свою нову ціль. Через %#@num_weeks@ ви зможете перекинути цю стрілку догори.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d тижні</string>
+			<key>one</key>
+			<string>%d тиждень</string>
+			<key>many</key>
+			<string>%d тижнів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d тижня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Показник вашої загальної відстані падає. Якщо ви хочете, щоб ця стрілка була знову в належному напрямку, щодня приділяйте час для прогулянок.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб перекинути цю стрілку догори, проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@. Це того варте!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ви менше ходите чи бігаєте останнім часом, {{username}}. Аби стрілка лишалася догори, намагайтеся рухатися трохи більше!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Ви менше ходите чи бігаєте останнім часом. Аби стрілка лишалася догори, намагайтеся рухатися трохи більше!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Перекиньте цю стрілку, {{username}}! Проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, ваша стрілка загальної відстані вказує догори. Не припиняйте бігати й ходити щодня, аби вона так і лишалась!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_KM_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Якщо ви сьогодні зможете пробігти або пройти принаймні {{goal_value:distance}}, ця стрілка знову вказуватиме догори. Це того варте, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_MI_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Щоб перекинути цю стрілку догори, проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@, {{username}}. Це того варте!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_MI_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Показник вашої загальної відстані падає, {{username}}. Якщо ви хочете, щоб ця стрілка була знову в належному напрямку, щодня приділяйте час для прогулянок.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_KM_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Перекиньте цю стрілку! Проходьте і пробігайте принаймні {{goal_value:distance}} за день протягом %#@num_days@.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d наступних днів</string>
+			<key>one</key>
+			<string>%d наступного дня</string>
+			<key>many</key>
+			<string>%d наступних днів</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d наступного дня</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

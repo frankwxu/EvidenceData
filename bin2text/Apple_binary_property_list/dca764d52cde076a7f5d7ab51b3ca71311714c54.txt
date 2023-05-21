@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FRChannelNotAvailableInStoreFrontAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Channel Unavailable</string>
+			<key>mac</key>
+			<string>This channel isn’t currently available in your region.</string>
+			<key>ipad</key>
+			<string>Channel Unavailable</string>
+			<key>ipod</key>
+			<string>Channel Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRWebSubscriptionErrorAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Couldn’t Verify</string>
+			<key>mac</key>
+			<string>Your subscription couldn’t be verified because there’s a problem with the server or network.</string>
+			<key>ipad</key>
+			<string>Couldn’t Verify</string>
+			<key>ipod</key>
+			<string>Couldn’t Verify</string>
+		</dict>
+	</dict>
+	<key>FRBundleSubscriptionExpiredAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Expired</string>
+			<key>mac</key>
+			<string>Your subscription to %@ has expired.</string>
+			<key>ipad</key>
+			<string>Subscription Expired</string>
+			<key>ipod</key>
+			<string>Subscription Expired</string>
+		</dict>
+	</dict>
+	<key>FRSectionUnavailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Section Unavailable</string>
+			<key>mac</key>
+			<string>This section is unavailable.</string>
+			<key>ipad</key>
+			<string>Section Unavailable</string>
+			<key>ipod</key>
+			<string>Section Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRAlreadySubscribedNoPublisherNameAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>You’re already subscribed.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>You’re already subscribed.</string>
+			<key>ipod</key>
+			<string>You’re already subscribed.</string>
+		</dict>
+	</dict>
+	<key>FRPurchaseInProgressAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Purchase in Progress</string>
+			<key>mac</key>
+			<string>Your purchase is in progress.</string>
+			<key>ipad</key>
+			<string>Purchase in Progress</string>
+			<key>ipod</key>
+			<string>Purchase in Progress</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionRemovalLocation</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Manage Subscriptions</string>
+			<key>mac</key>
+			<string>Manage Subscriptions</string>
+			<key>ipad</key>
+			<string>Manage Subscriptions</string>
+			<key>ipod</key>
+			<string>Manage Subscriptions</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionUnavailableNoInternetAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Unavailable</string>
+			<key>mac</key>
+			<string>Apple News isn’t connected to the internet.</string>
+			<key>ipad</key>
+			<string>Subscription Unavailable</string>
+			<key>ipod</key>
+			<string>Subscription Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRTopicUnavailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Topic Unavailable</string>
+			<key>mac</key>
+			<string>This topic is unavailable.</string>
+			<key>ipad</key>
+			<string>Topic Unavailable</string>
+			<key>ipod</key>
+			<string>Topic Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRStoryNoLongerAvailableAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This story is no longer available in Apple News.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>This story is no longer available in Apple News.</string>
+			<key>ipod</key>
+			<string>This story is no longer available in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FRTrialWeeks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@trialweeks@</string>
+		<key>trialweeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d week</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d weeks</string>
+		</dict>
+	</dict>
+	<key>FRiTunesSignedIntoDifferentAccountAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>You’ve signed in to a different iTunes Store account (%@). You no longer have access to subscriptions purchased by %@.</string>
+			<key>mac</key>
+			<string>You no longer have access to subscriptions purchased by %@.</string>
+			<key>ipad</key>
+			<string>You’ve signed in to a different iTunes Store account (%@). You no longer have access to subscriptions purchased by %@.</string>
+			<key>ipod</key>
+			<string>You’ve signed in to a different iTunes Store account (%@). You no longer have access to subscriptions purchased by %@.</string>
+		</dict>
+	</dict>
+	<key>FRBundleSubscriptionExpiredAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Your subscription to %@ has expired. Would you like to renew it?</string>
+			<key>mac</key>
+			<string>Would you like to renew it?</string>
+			<key>ipad</key>
+			<string>Your subscription to %@ has expired. Would you like to renew it?</string>
+			<key>ipod</key>
+			<string>Your subscription to %@ has expired. Would you like to renew it?</string>
+		</dict>
+	</dict>
+	<key>FRiTunesSignInErrorAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Couldn't Sign In</string>
+			<key>mac</key>
+			<string>Sorry, there was a problem signing in to the iTunes Store.</string>
+			<key>ipad</key>
+			<string>Couldn't Sign In</string>
+			<key>ipod</key>
+			<string>Couldn't Sign In</string>
+		</dict>
+	</dict>
+	<key>FRURLAlreadySubscribedMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>You are already following %@.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>You are already following %@.</string>
+			<key>ipod</key>
+			<string>You are already following %@.</string>
+		</dict>
+	</dict>
+	<key>FRCannotOpenLinkAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Apple News can’t open this channel or story because the link is invalid.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>Apple News can’t open this channel or story because the link is invalid.</string>
+			<key>ipod</key>
+			<string>Apple News can’t open this channel or story because the link is invalid.</string>
+		</dict>
+	</dict>
+	<key>FRAppStoreSubscriptionExpiredAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Your subscription to %@ has expired. Would you like to renew it?</string>
+			<key>mac</key>
+			<string>Would you like to renew it?</string>
+			<key>ipad</key>
+			<string>Your subscription to %@ has expired. Would you like to renew it?</string>
+			<key>ipod</key>
+			<string>Your subscription to %@ has expired. Would you like to renew it?</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionNotSupportedInNewsAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Unavailable</string>
+			<key>mac</key>
+			<string>Subscriptions to %@ are no longer available in Apple News.</string>
+			<key>ipad</key>
+			<string>Subscription Unavailable</string>
+			<key>ipod</key>
+			<string>Subscription Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRSectionNoLongerAvailableAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This section is no longer available in Apple News.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>This section is no longer available in Apple News.</string>
+			<key>ipod</key>
+			<string>This section is no longer available in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FRStoryNoLongerAvailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Story Unavailable</string>
+			<key>mac</key>
+			<string>This story is no longer available in Apple News.</string>
+			<key>ipad</key>
+			<string>Story Unavailable</string>
+			<key>ipod</key>
+			<string>Story Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionUnavailableAtThisTimeAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This subscription is unavailable at this time. We’re working to correct the problem.</string>
+			<key>mac</key>
+			<string>We’re working to correct the problem.</string>
+			<key>ipad</key>
+			<string>This subscription is unavailable at this time. We’re working to correct the problem.</string>
+			<key>ipod</key>
+			<string>This subscription is unavailable at this time. We’re working to correct the problem.</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionUnavailableInRegionAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>The subscription you’ve requested isn’t currently available in your region.</string>
+			<key>mac</key>
+			<string>If you recently signed in to iCloud, try signing back in to the App Store.</string>
+			<key>ipad</key>
+			<string>The subscription you’ve requested isn’t currently available in your region.</string>
+			<key>ipod</key>
+			<string>The subscription you’ve requested isn’t currently available in your region.</string>
+		</dict>
+	</dict>
+	<key>FRChannelUnavailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Channel Unavailable</string>
+			<key>mac</key>
+			<string>This channel is unavailable.</string>
+			<key>ipad</key>
+			<string>Channel Unavailable</string>
+			<key>ipod</key>
+			<string>Channel Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRURLSubscribeToTagMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Would you like to follow %@?</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>Would you like to follow %@?</string>
+			<key>ipod</key>
+			<string>Would you like to follow %@?</string>
+		</dict>
+	</dict>
+	<key>FRURLSubscribeToTopicTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Follow Topic?</string>
+			<key>mac</key>
+			<string>Would you like to follow %@?</string>
+			<key>ipad</key>
+			<string>Follow Topic?</string>
+			<key>ipod</key>
+			<string>Follow Topic?</string>
+		</dict>
+	</dict>
+	<key>FRiTunesSignedIntoDifferentAccountAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>iTunes Store Account</string>
+			<key>mac</key>
+			<string>You’ve signed in to a different iTunes Store account (%@).</string>
+			<key>ipad</key>
+			<string>iTunes Store Account</string>
+			<key>ipod</key>
+			<string>iTunes Store Account</string>
+		</dict>
+	</dict>
+	<key>FROpenChannelRequiresLatestVersionOS</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>To view this channel, you’ll need the latest version of iOS.</string>
+			<key>mac</key>
+			<string>To view this channel, you’ll need the latest version of macOS.</string>
+			<key>ipad</key>
+			<string>To view this channel, you’ll need the latest version of iPadOS.</string>
+			<key>ipod</key>
+			<string>To view this channel, you’ll need the latest version of iOS.</string>
+		</dict>
+	</dict>
+	<key>FRTopicNotAvailableInStoreFrontAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This topic isn’t currently available in your region.</string>
+			<key>mac</key>
+			<string>If you recently signed in to iCloud, try signing back in to the App Store.</string>
+			<key>ipad</key>
+			<string>This topic isn’t currently available in your region.</string>
+			<key>ipod</key>
+			<string>This topic isn’t currently available in your region.</string>
+		</dict>
+	</dict>
+	<key>FRGoToSettings</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Go to Settings</string>
+			<key>mac</key>
+			<string>Go to System Preferences</string>
+			<key>ipad</key>
+			<string>Go to Settings</string>
+			<key>ipod</key>
+			<string>Go to Settings</string>
+		</dict>
+	</dict>
+	<key>FRiTunesSignedOutAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>You’ve signed out of your iTunes Store account (%@). You’ll need to sign back in to enjoy your subscriptions in Apple News.</string>
+			<key>mac</key>
+			<string>You’ll need to sign back in to enjoy your subscriptions in Apple News.</string>
+			<key>ipad</key>
+			<string>You’ve signed out of your iTunes Store account (%@). You’ll need to sign back in to enjoy your subscriptions in Apple News.</string>
+			<key>ipod</key>
+			<string>You’ve signed out of your iTunes Store account (%@). You’ll need to sign back in to enjoy your subscriptions in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FROpenTopicRequiresLatestVersionOS</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>To view this topic, you’ll need the latest version of iOS.</string>
+			<key>mac</key>
+			<string>To view this topic, you’ll need the latest version of macOS.</string>
+			<key>ipad</key>
+			<string>To view this topic, you’ll need the latest version of iPadOS.</string>
+			<key>ipod</key>
+			<string>To view this topic, you’ll need the latest version of iOS.</string>
+		</dict>
+	</dict>
+	<key>FRAlreadySubscribedWithPublisherNameAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>You’re already subscribed to %@.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>You’re already subscribed to %@.</string>
+			<key>ipod</key>
+			<string>You’re already subscribed to %@.</string>
+		</dict>
+	</dict>
+	<key>FRURLAlreadySubscribedTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Already Following</string>
+			<key>mac</key>
+			<string>You are already following %@.</string>
+			<key>ipad</key>
+			<string>Already Following</string>
+			<key>ipod</key>
+			<string>Already Following</string>
+		</dict>
+	</dict>
+	<key>FRWebSubscriptionExpiredAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>There’s a problem with your subscription to %@, or it has expired. Log in to %@ to correct the problem.</string>
+			<key>mac</key>
+			<string>Log in to %@ to correct the problem.</string>
+			<key>ipad</key>
+			<string>There’s a problem with your subscription to %@, or it has expired. Log in to %@ to correct the problem.</string>
+			<key>ipod</key>
+			<string>There’s a problem with your subscription to %@, or it has expired. Log in to %@ to correct the problem.</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionVerifiedAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Verified</string>
+			<key>mac</key>
+			<string>Your subscription was verified.</string>
+			<key>ipad</key>
+			<string>Subscription Verified</string>
+			<key>ipod</key>
+			<string>Subscription Verified</string>
+		</dict>
+	</dict>
+	<key>FRSiriSuggestionsPlacardDescription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Siri suggests stories, channels and topics based on Safari and app usage. You can change this in Settings.</string>
+			<key>mac</key>
+			<string>Siri suggests stories, channels and topics based on Safari and app usage. You can change this in System Preferences.</string>
+			<key>ipad</key>
+			<string>Siri suggests stories, channels and topics based on Safari and app usage. You can change this in Settings.</string>
+			<key>ipod</key>
+			<string>Siri suggests stories, channels and topics based on Safari and app usage. You can change this in Settings.</string>
+		</dict>
+	</dict>
+	<key>FRRequirePermissionForSubscriptionAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Permission Denied</string>
+			<key>mac</key>
+			<string>You don’t have permission to purchase subscriptions on this Mac.</string>
+			<key>ipad</key>
+			<string>Permission Denied</string>
+			<key>ipod</key>
+			<string>Permission Denied</string>
+		</dict>
+	</dict>
+	<key>FRCannotOpenLinkAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Can’t Open</string>
+			<key>mac</key>
+			<string>Apple News can’t open this channel or story because the link is invalid.</string>
+			<key>ipad</key>
+			<string>Can’t Open</string>
+			<key>ipod</key>
+			<string>Can’t Open</string>
+		</dict>
+	</dict>
+	<key>FRAlreadySubscribedNoPublisherNameAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Already Subscribed</string>
+			<key>mac</key>
+			<string>You’re already subscribed</string>
+			<key>ipad</key>
+			<string>Already Subscribed</string>
+			<key>ipod</key>
+			<string>Already Subscribed</string>
+		</dict>
+	</dict>
+	<key>FRChannelNoLongerAvailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Channel Unavailable</string>
+			<key>mac</key>
+			<string>This channel is no longer available in Apple News.</string>
+			<key>ipad</key>
+			<string>Channel Unavailable</string>
+			<key>ipod</key>
+			<string>Channel Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRTrialMonths</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@trialmonths@</string>
+		<key>trialmonths</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d month</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d months</string>
+		</dict>
+	</dict>
+	<key>FRTopicNotAvailableInStoreFrontAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Topic Unavailable</string>
+			<key>mac</key>
+			<string>This topic isn’t currently available in your region.</string>
+			<key>ipad</key>
+			<string>Topic Unavailable</string>
+			<key>ipod</key>
+			<string>Topic Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRURLSubscribeToChannelTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Follow Channel?</string>
+			<key>mac</key>
+			<string>Would you like to follow %@?</string>
+			<key>ipad</key>
+			<string>Follow Channel?</string>
+			<key>ipod</key>
+			<string>Follow Channel?</string>
+		</dict>
+	</dict>
+	<key>FRAppStorePurchaseReceiptVerificationFailureAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Sorry, there was a problem completing your purchase. Please try again.</string>
+			<key>mac</key>
+			<string>Please try again.</string>
+			<key>ipad</key>
+			<string>Sorry, there was a problem completing your purchase. Please try again.</string>
+			<key>ipod</key>
+			<string>Sorry, there was a problem completing your purchase. Please try again.</string>
+		</dict>
+	</dict>
+	<key>FRGetAccessOnWebAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Get access on the web</string>
+			<key>mac</key>
+			<string>Get access on the web.</string>
+			<key>ipad</key>
+			<string>Get access on the web</string>
+			<key>ipod</key>
+			<string>Get access on the web</string>
+		</dict>
+	</dict>
+	<key>FRTopicNoLongerAvailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Topic Unavailable</string>
+			<key>mac</key>
+			<string>This topic is no longer available in Apple News.</string>
+			<key>ipad</key>
+			<string>Topic Unavailable</string>
+			<key>ipod</key>
+			<string>Topic Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRWebSubscriptionNotSubscribedAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Couldn’t Verify</string>
+			<key>mac</key>
+			<string>Sorry, there was a problem verifying your subscription in Apple News.</string>
+			<key>ipad</key>
+			<string>Couldn’t Verify</string>
+			<key>ipod</key>
+			<string>Couldn’t Verify</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionUnavailableInRegionAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Unavailable</string>
+			<key>mac</key>
+			<string>The subscription you’ve requested isn’t currently available in your region.</string>
+			<key>ipad</key>
+			<string>Subscription Unavailable</string>
+			<key>ipod</key>
+			<string>Subscription Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRChannelNotAvailableInStoreFrontAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This channel isn’t currently available in your region.</string>
+			<key>mac</key>
+			<string>If you recently signed in to iCloud, try signing back in to the App Store.</string>
+			<key>ipad</key>
+			<string>This channel isn’t currently available in your region.</string>
+			<key>ipod</key>
+			<string>This channel isn’t currently available in your region.</string>
+		</dict>
+	</dict>
+	<key>FRCannotFollowMoreAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Can’t Follow More</string>
+			<key>mac</key>
+			<string>You can’t follow more channels and topics right now.</string>
+			<key>ipad</key>
+			<string>Can’t Follow More</string>
+			<key>ipod</key>
+			<string>Can’t Follow More</string>
+		</dict>
+	</dict>
+	<key>FRWebSubscriptionExpiredAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Your Subscription</string>
+			<key>mac</key>
+			<string>There’s a problem with your subscription to %@, or it has expired.</string>
+			<key>ipad</key>
+			<string>Your Subscription</string>
+			<key>ipod</key>
+			<string>Your Subscription</string>
+		</dict>
+	</dict>
+	<key>FRGetNotificationsAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Get Notifications</string>
+			<key>mac</key>
+			<string>Would you like to get notifications?</string>
+			<key>ipad</key>
+			<string>Get Notifications</string>
+			<key>ipod</key>
+			<string>Get Notifications</string>
+		</dict>
+	</dict>
+	<key>FRManageSubscription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Your subscription to %@ won’t be cancelled if you unfollow this channel.</string>
+			<key>mac</key>
+			<string>Your subscription to %@ won’t be cancelled if you unfollow this channel.</string>
+			<key>ipad</key>
+			<string>Your subscription to %@ won’t be cancelled if you unfollow this channel.</string>
+			<key>ipod</key>
+			<string>Your subscription to %@ won’t be cancelled if you unfollow this channel.</string>
+		</dict>
+	</dict>
+	<key>FRTimeToUpdateAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Time to Update!</string>
+			<key>mac</key>
+			<string>It’s time to update!</string>
+			<key>ipad</key>
+			<string>Time to Update!</string>
+			<key>ipod</key>
+			<string>Time to Update!</string>
+		</dict>
+	</dict>
+	<key>FRAppStoreSubscriptionExpiredAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Expired</string>
+			<key>mac</key>
+			<string>Your subscription to %@ has expired.</string>
+			<key>ipad</key>
+			<string>Subscription Expired</string>
+			<key>ipod</key>
+			<string>Subscription Expired</string>
+		</dict>
+	</dict>
+	<key>FRInstallLatestVersionOS</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>For the best Apple News experience, go to Settings and install the latest version of iOS.</string>
+			<key>mac</key>
+			<string>For the best Apple News experience, go to System Preferences and install the latest version of macOS.</string>
+			<key>ipad</key>
+			<string>For the best Apple News experience, go to Settings and install the latest version of iPadOS.</string>
+			<key>ipod</key>
+			<string>For the best Apple News experience, go to Settings and install the latest version of iOS.</string>
+		</dict>
+	</dict>
+	<key>FRAppStorePurchaseReceiptVerificationFailureAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Couldn’t Verify</string>
+			<key>mac</key>
+			<string>Sorry, there was a problem completing your purchase.</string>
+			<key>ipad</key>
+			<string>Couldn’t Verify</string>
+			<key>ipod</key>
+			<string>Couldn’t Verify</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionUnavailableNoInternetAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Apple News isn’t connected to the internet. Go online to subscribe.</string>
+			<key>mac</key>
+			<string>Go online to subscribe.</string>
+			<key>ipad</key>
+			<string>Apple News isn’t connected to the internet. Go online to subscribe.</string>
+			<key>ipod</key>
+			<string>Apple News isn’t connected to the internet. Go online to subscribe.</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionPlacardDescription</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription automatically renews, but you can cancel renewal at any time in your iTunes Store account settings.</string>
+			<key>mac</key>
+			<string>Subscription automatically renews, but you can cancel renewal at any time in your account in the App Store.</string>
+			<key>ipad</key>
+			<string>Subscription automatically renews, but you can cancel renewal at any time in your iTunes Store account settings.</string>
+			<key>ipod</key>
+			<string>Subscription automatically renews, but you can cancel renewal at any time in your iTunes Store account settings.</string>
+		</dict>
+	</dict>
+	<key>FRAlreadySubscribedWithPublisherNameAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Already Subscribed</string>
+			<key>mac</key>
+			<string>You’re already subscribed to %@.</string>
+			<key>ipad</key>
+			<string>Already Subscribed</string>
+			<key>ipod</key>
+			<string>Already Subscribed</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionNotSupportedInNewsAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscriptions to %@ are no longer available in Apple News.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>Subscriptions to %@ are no longer available in Apple News.</string>
+			<key>ipod</key>
+			<string>Subscriptions to %@ are no longer available in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FRRequirePermissionForSubscriptionAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>You don’t have permission to purchase subscriptions on this iPhone.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>You don’t have permission to purchase subscriptions on this iPad.</string>
+			<key>ipod</key>
+			<string>You don’t have permission to purchase subscriptions on this iPad.</string>
+		</dict>
+	</dict>
+	<key>FRChannelNoLongerAvailableAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This channel is no longer available in Apple News.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>This channel is no longer available in Apple News.</string>
+			<key>ipod</key>
+			<string>This channel is no longer available in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FRSectionNoLongerAvailableAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Section Unavailable</string>
+			<key>mac</key>
+			<string>This section is no longer available in Apple News.</string>
+			<key>ipad</key>
+			<string>Section Unavailable</string>
+			<key>ipod</key>
+			<string>Section Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRTopicNoLongerAvailableAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>This topic is no longer available in Apple News.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>This topic is no longer available in Apple News.</string>
+			<key>ipod</key>
+			<string>This topic is no longer available in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FRTrialDays</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@trialdays@</string>
+		<key>trialdays</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d day</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d days</string>
+		</dict>
+	</dict>
+	<key>FRWebSubscriptionErrorAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Your subscription couldn’t be verified because there’s a problem with the server or network. Please try again later.</string>
+			<key>mac</key>
+			<string>Please try again later.</string>
+			<key>ipad</key>
+			<string>Your subscription couldn’t be verified because there’s a problem with the server or network. Please try again later.</string>
+			<key>ipod</key>
+			<string>Your subscription couldn’t be verified because there’s a problem with the server or network. Please try again later.</string>
+		</dict>
+	</dict>
+	<key>FRWebSubscriptionNotSubscribedAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Sorry, there was a problem verifying your subscription in Apple News.</string>
+			<key>mac</key>
+			<string></string>
+			<key>ipad</key>
+			<string>Sorry, there was a problem verifying your subscription in Apple News.</string>
+			<key>ipod</key>
+			<string>Sorry, there was a problem verifying your subscription in Apple News.</string>
+		</dict>
+	</dict>
+	<key>FRiTunesSignedOutAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>iTunes Store Account</string>
+			<key>mac</key>
+			<string>You’ve signed out of your iTunes Store account (%@).</string>
+			<key>ipad</key>
+			<string>iTunes Store Account</string>
+			<key>ipod</key>
+			<string>iTunes Store Account</string>
+		</dict>
+	</dict>
+	<key>FRSubscriptionUnavailableAtThisTimeAlertTitle</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Subscription Unavailable</string>
+			<key>mac</key>
+			<string>This subscription is unavailable at this time.</string>
+			<key>ipad</key>
+			<string>Subscription Unavailable</string>
+			<key>ipod</key>
+			<string>Subscription Unavailable</string>
+		</dict>
+	</dict>
+	<key>FRiTunesSignInErrorAlertMessage</key>
+	<dict>
+		<key>NSStringDeviceSpecificRuleType</key>
+		<dict>
+			<key>iphone</key>
+			<string>Sorry, there was a problem signing in to the iTunes Store. Please try again.</string>
+			<key>mac</key>
+			<string>Please try again.</string>
+			<key>ipad</key>
+			<string>Sorry, there was a problem signing in to the iTunes Store. Please try again.</string>
+			<key>ipod</key>
+			<string>Sorry, there was a problem signing in to the iTunes Store. Please try again.</string>
+		</dict>
+	</dict>
+	<key>FRTrialYears</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@trialyears@</string>
+		<key>trialyears</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d year</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d years</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы заработать час в движении, достаточно толкать кресло-коляску всего по минуте каждый час. Постарайтесь сделать это привычкой, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка указывает вверх, но Вы толкаете кресло-коляску все меньше и меньше, {{username}}. Сосредоточьтесь на зарабатывании часов в движении, чтобы стрелка не изменила направление!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «В движении» все хорошо, {{username}}! Толкайте кресло-коляску в течение дня, чтобы стрелка продолжала указывать вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>В течение %#@num_days@ проводите несколько часов в движении — хотя бы по {{goal_value:hours}} в день, и стрелка снова поднимется. Оно того стоит!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «В движении» все хорошо, но в последнее время Вы зарабатываете меньше часов. Толкайте кресло-коляску каждый час, чтобы все оставалось под контролем!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>В течение %#@num_days@ проводите несколько часов в движении — хотя бы по {{goal_value:hours}} в день, и стрелка снова поднимется. Оно того стоит, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку, в течение %#@num_days@ зарабатывая часы в движении — по {{goal_value:hours}} в день. У Вас получится!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «В движении» все хорошо! Толкайте кресло-коляску в течение дня, чтобы стрелка продолжала указывать вверх!</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка опустилась по сравнению с Вашими результатами за год, но Вы по-прежнему зарабатываете больше 12 часов в день. Это превосходно, {{username}}. Продолжайте в том же духе, и стрелка снова поднимется.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднять стрелку «В движении» — достойная цель. Для начала в течение следующей недели ежедневно проводите в движении несколько часов — хотя бы {{goal_value:hours}}. Стремитесь к своей цели, и стрелка должна снова подняться через %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы заработать час в движении, достаточно толкать кресло-коляску всего по минуте каждый час. Постарайтесь сделать это привычкой.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «В движении» все хорошо, {{username}}! Толкайте кресло-коляску в течение дня, чтобы стрелка продолжала указывать вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если Вы хотите, чтобы завтра эта стрелка указывала вверх, заработайте {{goal_value:hours}} ч в движении сегодня. Вы сможете, {{username}}!</string>
+	</dict>
+	<key>TRENDS_NON_COACHING_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка опустилась по сравнению с Вашими результатами за год, но Вы по-прежнему зарабатываете больше 12 часов в день. Это превосходно. Продолжайте в том же духе, и стрелка снова поднимется.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Еще немного, и Вы сумеете повернуть стрелку «В движении». Чтобы добиться этого, в течение %#@num_days@ подряд проводите несколько часов в движении — по {{goal_value:hours}} каждый день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «В движении» все хорошо, но в последнее время Вы зарабатываете меньше часов, {{username}}. Толкайте кресло-коляску каждый час, чтобы все оставалось под контролем!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Стрелка указывает вверх, но Вы толкаете кресло-коляску все меньше и меньше. Сосредоточьтесь на зарабатывании часов в движении, чтобы стрелка не изменила направление!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «В движении», {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «В движении», {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «В движении»!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Со стрелкой «В движении» все хорошо! Толкайте кресло-коляску в течение дня, чтобы стрелка продолжала указывать вверх!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, еще немного, и Вы сумеете повернуть стрелку «В движении». Чтобы добиться этого, в течение %#@num_days@ подряд проводите несколько часов в движении — по {{goal_value:hours}} каждый день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d дня</string>
+			<key>many</key>
+			<string>%d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы можете снова поднять эту стрелку! Просто зарабатывайте часы в движении в течение %#@num_days@ — по {{goal_value:hours}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Поднимите эту стрелку, в течение %#@num_days@ зарабатывая часы в движении — по {{goal_value:hours}} в день. У Вас получится, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы отлично поработали над стрелкой «В движении»!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Если Вы хотите, чтобы завтра эта стрелка указывала вверх, заработайте {{goal_value:hours}} ч в движении сегодня. Вы сможете!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_WHEELCHAIR_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Вы можете снова поднять эту стрелку, {{username}}! Просто зарабатывайте часы в движении в течение %#@num_days@ — по {{goal_value:hours}} в день.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>следующих %d дней</string>
+			<key>one</key>
+			<string>следующего %d дня</string>
+			<key>many</key>
+			<string>следующих %d дней</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>следующих %d дня</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_WHEELCHAIR_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Чтобы взять эту стрелку под контроль, начните зарабатывать часы в движении — по {{goal_value:hours}} в день, а на следующей неделе Вы получите новую цель. Примерно через %#@num_weeks@ стрелка снова будет указывать вверх.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%d недели</string>
+			<key>one</key>
+			<string>%d неделю</string>
+			<key>many</key>
+			<string>%d недель</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d недели</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

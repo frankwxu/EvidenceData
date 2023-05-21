@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>Unavailable</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>Continue Draft</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>Updated at %@</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>No longer available on Mail Drop as of %@</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>Archive Messages</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>Delete Selected Messages</string>
+	<key>MAILBOXES</key>
+	<string>Mailboxes</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>Previous Year</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string>, </string>
+	<key>AND_N_MORE</key>
+	<string> &amp; %@ more…</string>
+	<key>NO_INCLUDE</key>
+	<string>Don’t Include</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>Archive</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>New Message</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>The sender encrypted this message.</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>Minimise Draft</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>Previous Drafts</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>No Messages Matching Selected Filters</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>Mailbox Location</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>Select All</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>The mailbox couldn’t be created on the server.</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>This message cannot be displayed because a problem occurred.</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>Yesterday</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>Download full message</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>These attachments are too large.</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>Unable to Create Mailbox</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>The messages could not be moved to the mailbox %@.</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>Yesterday</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>Delete</string>
+	<key>FORWARD</key>
+	<string>Forward</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>Report Problem</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>Markup and Reply</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>Unblock this Contact</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>, %@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>Only from VIP</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>This message has not been downloaded from the server.</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>This iPod is restricted from creating mail accounts.</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>The Siri Prediction is no longer valid.</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Mark (%@)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>Password</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>You did not specify any recipients.</string>
+	<key>BLOCK_CONTACT</key>
+	<string>Block this Contact</string>
+	<key>REVERTING_CHANGE</key>
+	<string>Undoing last change…</string>
+	<key>MOVE_OTHER</key>
+	<string> Other Mailbox…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>Unread</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>All Inboxes</string>
+	<key>MARK_BUTTON</key>
+	<string>Mark</string>
+	<key>BYTES_REMAINING</key>
+	<string>Download remaining %@</string>
+	<key>DELETE_MAILBOX</key>
+	<string>Delete Mailbox</string>
+	<key>TO_LABEL</key>
+	<string>TO</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>Storage Almost Full</string>
+	<key>SAVE</key>
+	<string>Save</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>Today</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>Create event</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>Search %@</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>Sender contains: %@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>The sender address was invalid.</string>
+	<key>UNREAD_FORMAT</key>
+	<string>%lu Unread</string>
+	<key>UNMUTE</key>
+	<string>Unmute</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>Install Certificate</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>Unsubscribe</string>
+	<key>ALL_DRAFTS</key>
+	<string>All Drafts</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>The account %@ is in use on another device.</string>
+	<key>INSTALL</key>
+	<string>Install</string>
+	<key>DATE_HEADER</key>
+	<string>Date:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>%1$@ (%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>%@ of %@ results</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>Updated Yesterday</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>No Unread Mail</string>
+	<key>NO_TO</key>
+	<string>No Recipient</string>
+	<key>SETTINGS</key>
+	<string>Settings</string>
+	<key>CC</key>
+	<string>Cc:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>Grey</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>Mailboxes</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>Account Restriction</string>
+	<key>INBOXES</key>
+	<string>Inboxes</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>No Message Selected</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>Downloading Attachments</string>
+	<key>ADD_VIP</key>
+	<string>Add to VIP</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>Include Mail From:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>Messages with Attachments</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>Other</string>
+	<key>SWIPE_MORE</key>
+	<string>More</string>
+	<key>BCC</key>
+	<string>Bcc:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>Manage the signing certificate for this sender.</string>
+	<key>HIDE_DETAILS</key>
+	<string>Hide</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>Past Week</string>
+	<key>CC/BCC/FROM</key>
+	<string>Cc/Bcc, From:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>Found in %@ Mailbox</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>Last Week</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>Failed to hand off activity</string>
+	<key>SIGNED</key>
+	<string>Signed</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>Updated Just Now</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>Unread Messages</string>
+	<key>TRASH_EMAIL</key>
+	<string>Delete Message</string>
+	<key>YES_INCLUDE</key>
+	<string>Include</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>No internet connection available.</string>
+	<key>VIP_ALERTS</key>
+	<string>VIP Alerts</string>
+	<key>NO</key>
+	<string>No</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>All Inboxes</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>​</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>Flag</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>This iPhone is restricted from creating mail accounts.</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>VIP</string>
+	<key>DETAILS</key>
+	<string>Details</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>Re-Authentication Required</string>
+	<key>DONE</key>
+	<string>Done</string>
+	<key>DOWNLOAD</key>
+	<string>Download</string>
+	<key>MOVE_MESSAGE</key>
+	<string>Move Message…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>Unread</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>View Signing Certificate</string>
+	<key>DELETE_EMAIL</key>
+	<string>Delete Message</string>
+	<key>HEAL_MESSAGE</key>
+	<string>Mail can try to repair these settings.</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>%@ of %@ result</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>View Encryption Certificate</string>
+	<key>REMOVE_VIP</key>
+	<string>Remove from VIP</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>Previous Month</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>Downloading Attachment</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>Move to Junk</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>Tap on a mailbox to move this message.</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>Cannot Connect to the Outgoing Mail Server for “%@” </string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>Mail can’t open the page because the address is invalid</string>
+	<key>SEARCHING</key>
+	<string>Searching</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>Last Month</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>Unable to Move Messages</string>
+	<key>MUTE</key>
+	<string>Mute</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>Cannot Download Attachment</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>Archive Selected Messages</string>
+	<key>SEARCH_RESULTS</key>
+	<string>Search</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>Attachments</string>
+	<key>SUBJECT</key>
+	<string>Subject:</string>
+	<key>SAVE_VIDEO</key>
+	<string>Save Video</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>Attachment</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>The message could not be moved to the mailbox %@.</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>Unable to load full message</string>
+	<key>TO</key>
+	<string>To:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>Add Account</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>Unable to Delete Mailbox</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>Opening mailbox…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>Mark…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>Details…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Delete (%@)</string>
+	<key>FROM</key>
+	<string>From:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>This attachment is too large.</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>Unflag</string>
+	<key>ENABLE_FILTER</key>
+	<string>Enable Message Filter</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>This message is only partially downloaded.</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>Recipient contains: %@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>Load All Images</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>Tap on a mailbox to move these messages.</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>Cannot Connect to the Server for “%@” </string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>No Thread Notifications</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>Attachment Downloaded</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>Reply to: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>No Mail with Attachments</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>To:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>Checking for Mail…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>Mail cannot open this attachment.</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>mailbox</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>Move to Junk</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>No longer available as of %@</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>%@ of %@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>Add VIP</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>You already have an encryption certificate for “%@”.  Do you want to use this certificate instead?</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>Please connect to Wi-Fi to download these attachments.</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>Found in %@ %@ Mailbox</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>The sender signed this message with a trusted certificate.</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>Messages from VIPs</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>SEE_MORE</key>
+	<string>See More</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>An error occurred while delivering this message.</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>Mail cannot open the calendar event because it is no longer available</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>Unable to Rename Mailbox</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>Toggle Filtering</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>Unable to Move Message</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>Untrusted Signature</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>Mark as Unread</string>
+	<key>REMOVE</key>
+	<string>Remove</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>%@ &amp; %@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>Please connect to Wi-Fi to download this attachment.</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>Filter Badge Type</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>Unflag</string>
+	<key>BCC_TITLE</key>
+	<string>Bcc</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>Delete All</string>
+	<key>DELETE_BUTTON</key>
+	<string>Delete</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>Add VIP…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>To use Mail, free up storage space by deleting unused apps or files and then try again.</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>The connection to the server failed.</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>Updated %@</string>
+	<key>ALL_MAILBOXES</key>
+	<string>All Mailboxes</string>
+	<key>ALL_SENT</key>
+	<string>All Sent</string>
+	<key>REPLY</key>
+	<string>Reply</string>
+	<key>YES</key>
+	<string>Yes</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>Mailboxes</string>
+	<key>THREAD</key>
+	<string>Thread</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>Mark as Not Junk</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>Current Mailbox</string>
+	<key>NOTIFY_ME</key>
+	<string>Notify Me</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>This Week</string>
+	<key>LOADING</key>
+	<string>Loading…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>New Message</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>Password Missing</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>Stop Notifying</string>
+	<key>CC_TITLE</key>
+	<string>Cc</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>Unread</string>
+	<key>FROM_TITLE</key>
+	<string>Sender</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>Past Year</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Please connect to WLAN to download these attachments.</string>
+	<key>QUICK_LOOK</key>
+	<string>Quick Look</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>Last Year</string>
+	<key>ENCRYPTED</key>
+	<string>Encrypted</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>From</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>This message is from a mailing list.</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>LOADING</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>Search for “%@”</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>Search</string>
+	<key>DISABLE_FILTER</key>
+	<string>Disable Message Filter</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>The sender encrypted this message and signed it with a trusted certificate.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>People</string>
+	<key>TRASH_BUTTON</key>
+	<string>Bin</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>The mailbox could not be moved on the server.</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>Include:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>Forward to: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>Preferences</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>Search</string>
+	<key>PRINT</key>
+	<string>Print</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>Top Hits</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>Orange</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>To or CC</string>
+	<key>VIP_MAILBOX</key>
+	<string>VIP</string>
+	<key>FROM_LABEL</key>
+	<string>FROM</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>Archive Message</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>Move</string>
+	<key>SWIPE_FLAG</key>
+	<string>Flag</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>This message contains unloaded images.</string>
+	<key>MOVE_TO</key>
+	<string>Move to “%@”</string>
+	<key>ARCHIVE</key>
+	<string>Archive</string>
+	<key>VIP_EDIT</key>
+	<string>VIP List</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>The mailbox could not be deleted on the server.</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>%@ – %@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>The mailbox “%@” already exists.</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>The following accounts have errors: %@.
+Please select the individual accounts to see more information.</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>Delete</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>Today</string>
+	<key>SWIPE_MOVE</key>
+	<string>Move…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>All Archive</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>To</string>
+	<key>NO_FROM</key>
+	<string>No Sender</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>Addressed:</string>
+	<key>NEW_MAILBOX</key>
+	<string>New Mailbox</string>
+	<key>REPAIR</key>
+	<string>Repair</string>
+	<key>SEND_AGAIN</key>
+	<string>Send Again</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>%lu Flagged</string>
+	<key>MOVE_BUTTON</key>
+	<string>Move</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>Subjects</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>Thread Notifications</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>You can manage your storage in Settings.</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>Mailbox</string>
+	<key>BACK</key>
+	<string>Back</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>Drafts</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>Updated on %@</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>Deselect All</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>Account Error: %@.</string>
+	<key>CERTIFICATE</key>
+	<string>Certificate</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>New Content Count</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>To or Cc</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>Draft to: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>Previous Week</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>Multiple Account Errors</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>Get All New Mail</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>VIP</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>Search in %@ - %@</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>A data connection cannot be established because a call is currently active.</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>Archive All</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>Flagged</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>Cc: Me</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>Save Attachments</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>Full-Resolution Images Saved to Photos</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>Decryption Error</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>Last Week</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>Subscriptions</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>Collapse Thread</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>Available until %@</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>%@ Unsent Messages</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Move (%@)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>No Results Found</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>Mark as Read</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>The connection to your other device may have been interrupted. Please try again.</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>All Messages Count</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>%@ - %@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>Quickly access mail from important people in your VIP Mailbox.</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>Move</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>Select messages to archive or move.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>Attachments and Full-Resolution Images Downloaded</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>This message cannot be displayed because a problem repeatedly occurred.</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>Read</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>Delete Selected Messages</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>Move these messages to a new mailbox.</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>No Mail Addressed to Me</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>Download Attachment</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>Failed to perform Siri Prediction</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>This message is from a sender in your blocked list.</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>The mailbox couldn’t be renamed on the server.</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>Flagged</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>Are you sure you want to block this contact?</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>Thread Notifications</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>Download Attachments</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>To: Me</string>
+	<key>BCC_HEADER</key>
+	<string>Bcc:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>The server rejected one of the recipient’s addresses.  The message has been placed in your Outbox.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>Suggested Searches</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>Flagged</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Archive (%@)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>Move this message to a new mailbox.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>Downloading Attachment and Full-Resolution Images</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>Available in Mail Drop until %@</string>
+	<key>CANCEL</key>
+	<string>Cancel</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>Attachments</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>To Me</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>Downloading remaining %@</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>New Message</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>This Year</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>Archive</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>Deleting the mailbox “%@” will remove its messages from your account.</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>Purple</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>Muted Threads</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>Downloading full message</string>
+	<key>MESSAGE</key>
+	<string>Message</string>
+	<key>TRUST</key>
+	<string>Trust</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>%@ Flag Colour</string>
+	<key>EXPAND_THREAD</key>
+	<string>Expand Thread</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>Move to Junk</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>Yellow</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>Filtered by:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>Unable to verify message content.</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>Other:</string>
+	<key>CC/BCC</key>
+	<string>Cc/Bcc:</string>
+	<key>SAVE_IMAGE</key>
+	<string>Save Image</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>Filters</string>
+	<key>TO_TITLE</key>
+	<string>Recipient</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>Found in %@ %@</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>Go to Next Message</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>folder</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>This attachment is too large to be viewed.</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>Some of your mail accounts need to be re-authenticated for the Apple Watch</string>
+	<key>MUTED_MAILBOX</key>
+	<string>Muted Threads</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>View Certificate</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>Connecting…</string>
+	<key>NO_MAIL</key>
+	<string>No Mail</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>Set custom alerts for new VIP mail in Notifications Settings.</string>
+	<key>EDIT</key>
+	<string>Edit</string>
+	<key>SAVING</key>
+	<string>Saving</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>Mark as Not Junk</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>Blue</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>Unsubscribe</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>Go to Previous Message</string>
+	<key>FROM_HEADER</key>
+	<string>From:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>Red</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>Bin</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>Last Day</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>CC</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>Show Quoted Content</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>Attachments</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>Downloading Full-Resolution Images to Photos</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>This iPad is restricted from creating mail accounts.</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>Mailboxes</string>
+	<key>NO_VIP_MAIL</key>
+	<string>No VIP Mail</string>
+	<key>CC_LABEL</key>
+	<string>CC</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>TO</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>This Month</string>
+	<key>N_MESSAGES</key>
+	<string>%@ messages</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>Server error.
+Contact your server administrator.</string>
+	<key>LOAD_MESSAGE</key>
+	<string>Load Message (Not Recommended)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>This message was downloaded as plain text.</string>
+	<key>FAVORITES</key>
+	<string>Favourites</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>Account Errors</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>Mailbox Search</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>Search %@ in %@ - %@</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>Select messages to delete or move.</string>
+	<key>ALL_TRASH</key>
+	<string>All Bins</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>No Drafts</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>Signature Error</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>Mark</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>Attachments Downloaded</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>Invalid Mail Drop Attachment</string>
+	<key>DATE</key>
+	<string>Date:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>This Simulator is restricted from creating mail accounts.</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>Attachments</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>Archive</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>Full-Resolution Images</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>No Flagged Mail</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>Only Mail Sent Today</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>Unable to verify message content.</string>
+	<key>NO_BODY</key>
+	<string>This message has no content.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>Dates</string>
+	<key>EDIT_MAILBOX</key>
+	<string>Edit Mailbox</string>
+	<key>REPLY_ALL</key>
+	<string>Reply All</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>%lu Drafts</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>Search %@ in %@</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>Unread</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>Load All Images (Not Recommended)</string>
+	<key>DELETE</key>
+	<string>Delete</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>Delete (%@)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>Subject</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>Manage the encryption certificate for this sender.</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>New Message</string>
+	<key>NO_SUBJECT</key>
+	<string>No Subject</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>Previous Day</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>To Me</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>Name</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>Save Full-Resolution Images to Photos</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>Flagged Messages</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>Unflag</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>Your mailbox is full</string>
+	<key>UNTRUST</key>
+	<string>Don’t Trust</string>
+	<key>TODAY_MAILBOX</key>
+	<string>Today</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>Delete All</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>Unread Count</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>Flag</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>Unread</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>Unable to Move Mailbox</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>Only Mail with Attachments</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>Past Day</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ERROR</key>
+	<string>Error</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>Please connect to WLAN to download this attachment.</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>Load Remote Content</string>
+	<key>SWIPE_JUNK</key>
+	<string>Junk</string>
+	<key>CONTINUE</key>
+	<string>Continue</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>No Messages for Today</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>Other</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>%@ Unsent Message</string>
+	<key>SENDING</key>
+	<string>Sending…</string>
+	<key>BOX_SUFFIX</key>
+	<string>box</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>No Muted Threads</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>Delete Messages</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>Go to Apple Watch app</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>Send as .eml</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>Include attachments from original message?</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>Subject contains: %@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>Message</string>
+	<key>ACCOUNTS</key>
+	<string>Accounts</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>Dismiss</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>Deleting the mailbox “%@” will remove its messages and sub-mailboxes from your account.</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>Not Junk</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>Downloading Attachments and Full-Resolution Images</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>Delete Messages</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>Read</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>Green</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>This message has been signed multiple times.</string>
+	<key>CC_HEADER</key>
+	<string>Cc:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>Found in %@</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>Add Mailbox…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>Search in %@</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>Past Month</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>Notify Me</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> &amp; %@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>Download rest of message first?</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>Unable to verify message content.</string>
+	<key>SUBJECT_HEADER</key>
+	<string>Subject:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>Select messages to delete or move.</string>
+	<key>TRASH</key>
+	<string>Bin</string>
+	<key>SHARE</key>
+	<string>Share</string>
+</dict>
+</plist>

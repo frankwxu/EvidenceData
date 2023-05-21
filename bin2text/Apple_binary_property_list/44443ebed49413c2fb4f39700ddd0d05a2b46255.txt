@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>צבירה של {{goal_value:minutes}} דקות התעמלות היום תהפוך את החץ הזה למעלה מחר. לך/י על זה!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך נראה טוב. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך מצביע לכיוון הנכון. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך למטה, אך לא חסר לו הרבה כדי להתהפך חזרה למעלה! עליך לצבור {{goal_value:minutes}} דקות התעמלות ביום למשך %#@num_days@ כדי להפוך אותו.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ שלך מצביע למטה, אך דקות ההתעמלות שלך בעליה לאחרונה. עליך לצבור לפחות {{goal_value:minutes}} ביום למשך 30 הימים הבאים כדי להפוך את החץ. שמור/י על המומנטום, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך להשיג ממוצע של {{goal_value:minutes}} דקות התעמלות ביום לפחות למשך 30 הימים הבאים. צברת יותר דקות התעמלות לאחרונה, ככה שזה בכיס שלך, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ הזה פונה כלפי מטה, אבל לא חסר לך הרבה כדי להרים אותו. עליך לנסות להשיג יותר מ-{{goal_value:minutes}} דקות של התעמלות ביום למשך %#@num_days@ כדי להרים את החץ.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>המשך/י לצבור לפחות {{goal_value:minutes}} דקות של התעמלות ביום כדי שהחץ הזה ימשיך להצביע כלפי מעלה. עבודה מצוינת {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך נראה טוב, {{username}}. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ שלך מצביע למטה, אך דקות ההתעמלות שלך בעליה לאחרונה. עליך לצבור לפחות {{goal_value:minutes}} ביום למשך 14 הימים הבאים כדי להפוך את החץ. שמור/י על המומנטום!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>יש לך אפשרות להפוך את חץ ההתעמלות שלך תוך %#@num_days@! עליך לצבור {{goal_value:minutes}} דקות אימון ביום לפחות כדי לגרום לזה לקרות.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך למעלה. עליך לצבור {{goal_value:minutes}} דקות התעמלות ביום לפחות כדי לשמור עליו ככה!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך חזרה את החץ הזה, עליך להשיג ממוצע של {{goal_value:minutes}} דקות התעמלות ביום לפחות למשך %#@num_days@. קטן עליך!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך נראה טוב, {{username}}. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ שלך מצביע למטה, אך דקות ההתעמלות שלך בעליה לאחרונה. עליך לצבור לפחות {{goal_value:minutes}} ביום למשך 14 הימים הבאים כדי להפוך את החץ. שמור/י על המומנטום, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>המשך/י לצבור לפחות {{goal_value:minutes}} דקות של התעמלות ביום כדי שהחץ הזה ימשיך להצביע כלפי מעלה. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך להשיג ממוצע של {{goal_value:minutes}} דקות התעמלות ביום לפחות למשך 14 הימים הבאים. צברת יותר דקות התעמלות לאחרונה, ככה שזה בכיס שלך, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ הזה פונה כלפי מטה, {{username}}, אבל לא חסר לך הרבה כדי להרים אותו. עליך לנסות להשיג יותר מ-{{goal_value:minutes}} דקות של התעמלות ביום למשך %#@num_days@ כדי להרים את החץ.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך מצביע לכיוון הנכון, {{username}}. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך יכול להתהפך תוך %#@num_days@, ‏{{username}}! עליך לצבור {{goal_value:minutes}} דקות אימון ביום כדי לגרום לזה לקרות.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך למטה, אך לא חסר לו הרבה כדי להתהפך חזרה למעלה, {{username}}! עליך לצבור {{goal_value:minutes}} דקות התעמלות ביום למשך %#@num_days@ כדי להפוך אותו.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך חזרה את החץ הזה, עליך להשיג ממוצע של {{goal_value:minutes}} דקות התעמלות ביום לפחות למשך %#@num_days@. קטן עליך, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>יום</string>
+			<key>many</key>
+			<string>%d ימים</string>
+			<key>two</key>
+			<string>יומיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d ימים</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>עליך לנסות לצבור {{goal_value:minutes}} דקות התעמלות ביום כדי להתחיל. בכל שבוע תקבל/י יעד חדש. אם תעמוד/י ביעדים, תהפוך/י את החץ שלך תוך %#@num_weeks@ בערך.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>שבוע</string>
+			<key>many</key>
+			<string>‏%d שבועות</string>
+			<key>two</key>
+			<string>שבועיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d שבועות</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ שלך מצביע למטה, אך דקות ההתעמלות שלך בעליה לאחרונה. עליך לצבור לפחות {{goal_value:minutes}} ביום למשך 30 הימים הבאים כדי להפוך את החץ. שמור/י על המומנטום!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>המשך/י לצבור לפחות {{goal_value:minutes}} דקות של התעמלות ביום כדי שהחץ הזה ימשיך להצביע כלפי מעלה. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך מצביע לכיוון הנכון. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך למעלה. עליך לצבור {{goal_value:minutes}} דקות התעמלות ביום לפחות כדי לשמור עליו ככה, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>הליכה איטית יומיומית תחזיר את דקות ההתעמלות שלך למסלול הנכון. יש לך את זה, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך נראה טוב. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>חץ ההתעמלות שלך מצביע לכיוון הנכון. עבודה מצוינת!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך להשיג ממוצע של {{goal_value:minutes}} דקות התעמלות ביום לפחות למשך 14 הימים הבאים. צברת יותר דקות התעמלות לאחרונה, ככה שזה בכיס שלך!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>זה חץ חשוב לעבוד עליו. בתור התחלה, נסה/י להגיע לממוצע מינימלי של {{goal_value:minutes}} דקות התעמלות השבוע. התקדם/י באופן הדרגתי כדי להפוך את החץ תוך %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>שבוע</string>
+			<key>many</key>
+			<string>‏%d שבועות</string>
+			<key>two</key>
+			<string>שבועיים</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>‏%d שבועות</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>הליכה איטית יומיומית תחזיר את דקות ההתעמלות שלך למסלול הנכון. יש לך את זה.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ שלך למעלה אך דקות ההתעמלות שלך במגמת ירידה לאחרונה. עליך ללכת הליכות קלות כל יום כדי שהחץ שלך יישאר למעלה, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>‏{{username}}, ‏{{goal_value:minutes}} דקות אימון היום ירימו את החץ הזה למעלה. זה בידיים שלך!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>החץ שלך למעלה אך דקות ההתעמלות שלך במגמת ירידה לאחרונה. עליך ללכת הליכות קלות כל יום כדי שהחץ שלך יישאר למעלה!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>המשך/י לצבור לפחות {{goal_value:minutes}} דקות של התעמלות ביום כדי שהחץ הזה ימשיך להצביע כלפי מעלה. עבודה מצוינת {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>כדי להפוך את החץ הזה, עליך להשיג ממוצע של {{goal_value:minutes}} דקות התעמלות ביום לפחות למשך 30 הימים הבאים. צברת יותר דקות התעמלות לאחרונה, ככה שזה בכיס שלך!</string>
+	</dict>
+</dict>
+</plist>

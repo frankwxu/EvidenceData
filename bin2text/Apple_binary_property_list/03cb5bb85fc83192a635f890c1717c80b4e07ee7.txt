@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pesdk_camera_accessibility_recordingTimeLabel</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@seconds@</string>
+		<key>seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d second</string>
+			<key>other</key>
+			<string>%d seconds</string>
+			<key>zero</key>
+			<string>%d seconds</string>
+		</dict>
+	</dict>
+	<key>pesdk_transform_accessibility_scalePickerValue</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@degrees@</string>
+		<key>degrees</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d degree</string>
+			<key>other</key>
+			<string>%d degrees</string>
+			<key>zero</key>
+			<string>%d degrees</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

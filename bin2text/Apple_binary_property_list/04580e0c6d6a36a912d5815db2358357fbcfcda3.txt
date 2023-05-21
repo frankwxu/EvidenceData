@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppVersions</key>
+	<array>
+		<dict>
+			<key>description</key>
+			<string>[Initial app version] No migration needed</string>
+			<key>lazy</key>
+			<false/>
+			<key>migrationStep</key>
+			<string>noMigrationStepNeeded</string>
+			<key>versionString</key>
+			<string>AppVersionInitialRelease</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>[Upgrade to v2.1 (from public beta 1)] Move all files from documents to shared app group</string>
+			<key>lazy</key>
+			<false/>
+			<key>migrationStep</key>
+			<string>moveFilesFromDocumentsDirectoryToAppGroupDirectory</string>
+			<key>versionString</key>
+			<string>AppVersionWidgetRelease</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>[Upgrade to v2.7] HomeKit home scenes release, all scenes in data store can now store multiple actionsets</string>
+			<key>lazy</key>
+			<false/>
+			<key>migrationStep</key>
+			<string>migrateCoreDataScenesToStoreMultipleActionSetIdentifiers</string>
+			<key>versionString</key>
+			<string>AppVersionHomeKitHomeScenesRelease</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>[Upgrate to v2.14] Changed the default scene identifiers prefix which we used for off and last on state.</string>
+			<key>lazy</key>
+			<false/>
+			<key>migrationStep</key>
+			<string>migratePreDefinedScenesIdentifiersToNewPrefixIdentifiers</string>
+			<key>versionString</key>
+			<string>AppVersionPreDefinedScenesIdentifiersPrefixChanged</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>[Upgrade to v2.16] Actively migrate accessories to HomeKit if the user has an already paired bridge.</string>
+			<key>lazy</key>
+			<true/>
+			<key>migrationStep</key>
+			<string>automaticallyExportHomeKitAccessoriesIfBridgeIsAlreadyPaired</string>
+			<key>versionString</key>
+			<string>AppVersionHomeKitAccessorySupport</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>[Upgrade to v2.18] Migrate 'help us improve' seen tracking from short bridgeId to full bridgeId</string>
+			<key>lazy</key>
+			<false/>
+			<key>migrationStep</key>
+			<string>migrateHelpUsImproveTrackingToFullBridgeIdentifier</string>
+			<key>versionString</key>
+			<string>AppVersionNewBridgeMacAddressRange</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string>[Upgrade to v3.0] Sets hasPicture to true in CoreData for all scenes who's defaulttype is not GradientScene</string>
+			<key>lazy</key>
+			<true/>
+			<key>migrationStep</key>
+			<string>migrateScenesHasPictureField</string>
+			<key>versionString</key>
+			<string>AppVersionScenesHasPicture</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVAILABLE</key>
+	<string>غير متوفر</string>
+	<key>CONTINUE_WINDOW</key>
+	<string>متابعة المسودة</string>
+	<key>UPDATED_AT_TIME_FORMAT</key>
+	<string>تم التحديث عند %@</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE_MAIL_DROP</key>
+	<string>لم يعد متوفرًا على Mail Drop بدءًا من %@</string>
+	<key>ARCHIVE_EMAIL_PLURAL</key>
+	<string>أرشفة الرسائل</string>
+	<key>TRASH_SELECTED_EMAILS</key>
+	<string>وضع الرسائل المحددة بسلة المهملات</string>
+	<key>MAILBOXES</key>
+	<string>صناديق البريد</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_YEAR</key>
+	<string>السنة السابقة</string>
+	<key>FILTERS_CHOOSE_SELECTED_SEPARATOR</key>
+	<string>‏، </string>
+	<key>AND_N_MORE</key>
+	<string> و %@ إضافية…</string>
+	<key>NO_INCLUDE</key>
+	<string>عدم التضمين</string>
+	<key>ARCHIVE_BUTTON_SHORT</key>
+	<string>أرشفة</string>
+	<key>TITLE_NEW_MESSAGE</key>
+	<string>رسالة جديدة</string>
+	<key>ENCRYPTED_DESCRIPTION</key>
+	<string>قام المرسل بتشفير هذه الرسالة.</string>
+	<key>MINIMIZE_WINDOW</key>
+	<string>تصغير المسودة</string>
+	<key>PREVIOUS_DRAFT_PICKER_PREVIOUS_DRAFTS</key>
+	<string>المسودات السابقة</string>
+	<key>NO_FILTERED_MAIL</key>
+	<string>لا توجد رسائل مطابقة للفلاتر المحددة</string>
+	<key>MAILBOX_LOCATION</key>
+	<string>موقع صندوق البريد</string>
+	<key>SELECT_ALL_BUTTON</key>
+	<string>تحديد الكل</string>
+	<key>ERROR_CREATING_MAILBOX_DESCRIPTION</key>
+	<string>تعذر إنشاء صندوق البريد على الخادم.</string>
+	<key>MESSAGE_CAUSED_PROBLEM</key>
+	<string>لا يمكن عرض هذه الرسالة بسبب حدوث مشكلة.</string>
+	<key>SEARCH_HUMAN_DATE_YESTERDAY</key>
+	<string>أمس</string>
+	<key>DOWNLOAD_FULL_MESSAGE</key>
+	<string>تنزيل الرسالة كاملة</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>هذه المرفقات كبيرة جدًا.</string>
+	<key>ERROR_CREATING_MAILBOX_TITLE</key>
+	<string>غير قادر على إنشاء صندوق البريد</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT_MANY</key>
+	<string>تعذر نقل الرسائل إلى صندوق البريد %@.</string>
+	<key>FILTER_DATE_YESTERDAY_TITLE</key>
+	<string>أمس</string>
+	<key>DELETE_BUTTON_SHORT</key>
+	<string>حذف</string>
+	<key>FORWARD</key>
+	<string>تحويل</string>
+	<key>SEND_EML_TRIAGE</key>
+	<string>الإعلام عن مشكلة</string>
+	<key>MARKUP_DOCUMENT</key>
+	<string>التوصيف والرد</string>
+	<key>UNBLOCK_CONTACT</key>
+	<string>إلغاء حظر جهة الاتصال هذه</string>
+	<key>LIST_NON_FINAL_ITEM</key>
+	<string>‏، ‏%@</string>
+	<key>FILTER_VIP_DESCRIPTION</key>
+	<string>من VIP فقط</string>
+	<key>MESSAGE_UNAVAILABLE</key>
+	<string>لم يتم تنزيل هذه الرسالة من الخادم.</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPOD</key>
+	<string>هذا الـ iPod مقيّد من إنشاء حسابات البريد.</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_BODY</key>
+	<string>لم تعد توقعات Siri صالحة.</string>
+	<key>MARK_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>تمييز (%@)</string>
+	<key>BROWSING_SPECIAL_FOLDER_TITLE</key>
+	<string>‏%@</string>
+	<key>PASSWORD_PLACEHOLDER</key>
+	<string>كلمة السر</string>
+	<key>NO_RECIPIENT_MESSAGE</key>
+	<string>لم يتم تحديد مستلمين.</string>
+	<key>BLOCK_CONTACT</key>
+	<string>حظر جهة الاتصال هذه</string>
+	<key>REVERTING_CHANGE</key>
+	<string>تراجع عن التغيير الأخير…</string>
+	<key>MOVE_OTHER</key>
+	<string> صندوق بريد آخر…</string>
+	<key>SWIPE_MARK_AS_UNREAD</key>
+	<string>غير مقروءة</string>
+	<key>ALL_INBOXES_LONG</key>
+	<string>كل صناديق الوارد</string>
+	<key>MARK_BUTTON</key>
+	<string>تمييز</string>
+	<key>BYTES_REMAINING</key>
+	<string>تنزيل %@ المتبقية</string>
+	<key>DELETE_MAILBOX</key>
+	<string>حذف صندوق البريد</string>
+	<key>TO_LABEL</key>
+	<string>إلى</string>
+	<key>STORAGE_ALMOST_FULL</key>
+	<string>أوشكت سعة التخزين على الامتلاء</string>
+	<key>SAVE</key>
+	<string>حفظ</string>
+	<key>SEARCH_HUMAN_DATE_TODAY</key>
+	<string>اليوم</string>
+	<key>INVITE_ALL_PARTICIPANTS_TO_EVENT</key>
+	<string>إنشاء حدث</string>
+	<key>SEARCH_PROMPT_FORMAT</key>
+	<string>بحث في %@</string>
+	<key>SEARCH_SUGGESTION_SENDER_CONTAINS_FORMAT</key>
+	<string>المرسل يتضمن: ‏%@</string>
+	<key>INVALID_SENDER_MESSAGE</key>
+	<string>عنوان المرسل غير صالح.</string>
+	<key>UNREAD_FORMAT</key>
+	<string>‏%lu غير مقروءة</string>
+	<key>UNMUTE</key>
+	<string>إلغاء الكتم</string>
+	<key>INSTALL_CERTIFICATE</key>
+	<string>تثبيت الشهادة</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_FROM_LIST</key>
+	<string>إلغاء الاشتراك</string>
+	<key>ALL_DRAFTS</key>
+	<string>كل المسودات</string>
+	<key>ACCOUNT_IN_USE</key>
+	<string>حساب %@ قيد الاستخدام على جهاز آخر.</string>
+	<key>INSTALL</key>
+	<string>تثبيت</string>
+	<key>DATE_HEADER</key>
+	<string>التاريخ:</string>
+	<key>MAILBOX_UNREAD_COUNT_FORMAT</key>
+	<string>‏%1$@ (‏%2$@)</string>
+	<key>SEARCH_RESULTS_BROWSER_INDEX</key>
+	<string>%@ من %@ نتائج</string>
+	<key>UPDATED_YESTERDAY</key>
+	<string>تم التحديث البارحة</string>
+	<key>NO_UNREAD_MAIL</key>
+	<string>لا يوجد بريد غير مقروء</string>
+	<key>NO_TO</key>
+	<string>بلا مستلم</string>
+	<key>SETTINGS</key>
+	<string>الإعدادات</string>
+	<key>CC</key>
+	<string>نسخة:</string>
+	<key>FLAG_COLOR_GRAY</key>
+	<string>رمادي</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_MAILBOX</key>
+	<string>صناديق البريد</string>
+	<key>ACCOUNT_RESTRICTION</key>
+	<string>تقييد الحساب</string>
+	<key>INBOXES</key>
+	<string>صناديق الوارد</string>
+	<key>NO_MESSAGE_SELECTED</key>
+	<string>لا توجد رسالة محددة</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL</key>
+	<string>تنزيل المرفقات</string>
+	<key>ADD_VIP</key>
+	<string>إضافة إلى VIP</string>
+	<key>FILTER_GROUP_INBOX_TITLE</key>
+	<string>تضمين البريد من:</string>
+	<key>SEARCH_SUGGESTION_TITLE_ATTACHMENTS</key>
+	<string>رسائل بها مرفقات</string>
+	<key>OTHER_SIGNERS_TITLE</key>
+	<string>أخرى</string>
+	<key>SWIPE_MORE</key>
+	<string>المزيد</string>
+	<key>BCC</key>
+	<string>نسخة مخفية:</string>
+	<key>SIGNING_CERTIFICATE_DESCRIPTION</key>
+	<string>إدارة شهادة التوقيع لهذا المرسل.</string>
+	<key>HIDE_DETAILS</key>
+	<string>إخفاء</string>
+	<key>SEARCH_HUMAN_DATE_PAST_WEEK</key>
+	<string>الأسبوع الماضي</string>
+	<key>CC/BCC/FROM</key>
+	<string>نسخة/نسخة مخفية، من:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT</key>
+	<string>من صندوق بريد %@</string>
+	<key>SEARCH_HUMAN_DATE_LAST_WEEK</key>
+	<string>الأسبوع الأخير</string>
+	<key>HANDOFF_FAILED_ERROR_TITLE</key>
+	<string>فشل تسليم النشاط</string>
+	<key>SIGNED</key>
+	<string>موقّع</string>
+	<key>UPDATED_JUST_NOW</key>
+	<string>تم التحديث الآن</string>
+	<key>SEARCH_SUGGESTION_TITLE_UNREAD</key>
+	<string>رسائل غير مقروءة</string>
+	<key>TRASH_EMAIL</key>
+	<string>وضع الرسالة في سلة المهملات</string>
+	<key>YES_INCLUDE</key>
+	<string>تضمين</string>
+	<key>NO_INTERNET_CONNECTION</key>
+	<string>الإنترنت غير متوفر.</string>
+	<key>VIP_ALERTS</key>
+	<string>تنبيهات VIP</string>
+	<key>NO</key>
+	<string>لا</string>
+	<key>ALL_INBOXES_SHORT</key>
+	<string>كل الوارد</string>
+	<key>SEARCH_HUMAN_DATE_DAY_BEFORE_YESTERDAY</key>
+	<string>​</string>
+	<key>MARK_EMAIL_FLAGGED</key>
+	<string>علم</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE</key>
+	<string>هذا الـ iPhone مقيّد من إنشاء حسابات البريد.</string>
+	<key>VIP_NAVIGATION_TITLE</key>
+	<string>VIP</string>
+	<key>DETAILS</key>
+	<string>تفاصيل</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_TITLE</key>
+	<string>مطلوب إعادة المصادقة</string>
+	<key>DONE</key>
+	<string>تم</string>
+	<key>DOWNLOAD</key>
+	<string>تنزيل</string>
+	<key>MOVE_MESSAGE</key>
+	<string>نقل الرسالة…</string>
+	<key>OPERATION_UNREAD_DESC</key>
+	<string>غير مقروءة</string>
+	<key>VIEW_SIGNING_CERTIFICATE</key>
+	<string>عرض شهادة التوقيع</string>
+	<key>DELETE_EMAIL</key>
+	<string>حذف الرسالة</string>
+	<key>HEAL_MESSAGE</key>
+	<string>بإمكان البريد محاولة إصلاح هذه الإعدادات.</string>
+	<key>LIST_INITIAL_ITEM</key>
+	<string>‏%@</string>
+	<key>SEARCH_RESULT_BROWSER_INDEX</key>
+	<string>النتيجة %@ من %@</string>
+	<key>VIEW_ENCRYPTION_CERTIFICATE</key>
+	<string>عرض شهادة التشفير</string>
+	<key>REMOVE_VIP</key>
+	<string>إزالة من VIP</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_MONTH</key>
+	<string>الشهر السابق</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE</key>
+	<string>تنزيل المرفق</string>
+	<key>OPERATION_JUNK_DESC</key>
+	<string>نقل إلى البريد المزعج</string>
+	<key>SINGLE_MESSAGE_MOVE_TITLE</key>
+	<string>اضغط على صندوق البريد لنقل هذه الرسالة.</string>
+	<key>HEAL_OUTGOING_TITLE</key>
+	<string>لا يمكن الاتصال بخادم البريد الصادر لـ "%@" </string>
+	<key>ATTACHMENT_INVALID_URL</key>
+	<string>لا يمكن لتطبيق البريد فتح الصفحة لأن العنوان غير صالح</string>
+	<key>SEARCHING</key>
+	<string>بحث</string>
+	<key>SEARCH_HUMAN_DATE_LAST_MONTH</key>
+	<string>الشهر الأخير</string>
+	<key>ERROR_TRANSFERRING_TITLE_MULTIPLE</key>
+	<string>تعذر نقل الرسائل</string>
+	<key>MUTE</key>
+	<string>كتم</string>
+	<key>ERROR_DOWNLOAD_ATTACHMENTS_TITLE</key>
+	<string>لا يمكن تنزيل المرفق</string>
+	<key>ARCHIVE_SELECTED_EMAILS</key>
+	<string>أرشفة الرسائل المحددة</string>
+	<key>SEARCH_RESULTS</key>
+	<string>بحث</string>
+	<key>SEARCH_ATOM_TITLE_ATTACHMENTS</key>
+	<string>المرفقات</string>
+	<key>SUBJECT</key>
+	<string>الموضوع:</string>
+	<key>SAVE_VIDEO</key>
+	<string>حفظ الفيديو</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT</key>
+	<string>المرفق</string>
+	<key>ERROR_TRANSFERRING_LONG_FORMAT</key>
+	<string>تعذر نقل الرسالة إلى صندوق البريد %@.</string>
+	<key>DOWNLOAD_FULL_MESSAGE_FAILED</key>
+	<string>تعذر تحميل الرسالة بالكامل</string>
+	<key>TO</key>
+	<string>إلى:</string>
+	<key>ADD_ACCOUNT_APP_SHORTCUT</key>
+	<string>إضافة حساب</string>
+	<key>ERROR_DELETING_MAILBOX_TITLE</key>
+	<string>تعذر حذف صندوق البريد</string>
+	<key>MINI_MALL_FETCH</key>
+	<string>جاري فتح صندوق البريد…</string>
+	<key>MARK_ELIPSIS</key>
+	<string>تمييز…</string>
+	<key>ACCOUNT_ERROR_DETAILS</key>
+	<string>التفاصيل…</string>
+	<key>TRASH_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>سلة المهملات ‏(%@)</string>
+	<key>FROM</key>
+	<string>من:</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_TITLE</key>
+	<string>هذا المرفق كبير جدًا.</string>
+	<key>SWIPE_UNFLAG</key>
+	<string>إزالة العلم</string>
+	<key>ENABLE_FILTER</key>
+	<string>تمكين تصفية الرسائل</string>
+	<key>MESSAGE_PARTIALLY_DOWNLOADED</key>
+	<string>تم تنزيل الرسالة جزئيًا فقط.</string>
+	<key>SEARCH_SUGGESTION_RECIPIENT_CONTAINS_FORMAT</key>
+	<string>المستلم يتضمن: ‏%@</string>
+	<key>LOAD_REMOTE_IMAGES_OTHER</key>
+	<string>تحميل كافة الصور</string>
+	<key>MULTIPE_MESSAGES_MOVE_TITLE</key>
+	<string>اضغط على صندوق البريد لنقل هذه الرسائل.</string>
+	<key>HEAL_INCOMING_TITLE</key>
+	<string>لا يمكن الاتصال بخادم "%@" </string>
+	<key>NO_IMPORTANT_MAIL</key>
+	<string>لا توجد إشعارات السلسلة</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED</key>
+	<string>تم تنزيل المرفق</string>
+	<key>REPLY_ANNOTATION_FORMAT</key>
+	<string>الرد على: %@</string>
+	<key>NO_MESSAGES_WITH_ATTACHMENTS</key>
+	<string>لا يوجد بريد مع مرفقات</string>
+	<key>SEARCH_MAILBOX_SEPARATOR</key>
+	<string> › </string>
+	<key>TO_HEADER</key>
+	<string>إلى:</string>
+	<key>CHECKING_FOR_MAIL</key>
+	<string>جاري التحقق من البريد…</string>
+	<key>ATTACHMENT_UNKNOWN_TYPE_TITLE</key>
+	<string>لا يستطيع البريد فتح هذا المرفق.</string>
+	<key>MAILBOX_SUFFIX</key>
+	<string>صندوق بريد</string>
+	<key>MARK_EMAIL_JUNK</key>
+	<string>نقل إلى البريد المزعج</string>
+	<key>MAIL_DROP_BANNER_NOT_AVAILABLE</key>
+	<string>لم يعد متوفرًا منذ %@</string>
+	<key>BROWSER_INDEX %@ %@</key>
+	<string>‏%@ من %@</string>
+	<key>VIP_ADD_PERSON_NO_ELLIPSIS</key>
+	<string>إضافة VIP</string>
+	<key>OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT</key>
+	<string>لديك شهادة تشفير لـ "%@" مسبقًا.  هل ترغب باستخدام هذه الشهادة بدلًا عن تلك؟</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>يرجى الاتصال بـ Wi-Fi لتنزيل هذه المرفقات.</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT</key>
+	<string>من صندوق بريد %@ %@</string>
+	<key>SIGNED_DESCRIPTION</key>
+	<string>قام المرسل بتوقيع هذه الرسالة باستخدام شهادة موثوق بها.</string>
+	<key>SWIPE_TRASH_COUNT</key>
+	<string>(%ld)</string>
+	<key>SEARCH_SUGGESTION_TITLE_VIP</key>
+	<string>رسائل من جهات VIP</string>
+	<key>OK</key>
+	<string>موافق</string>
+	<key>SEE_MORE</key>
+	<string>قراءة المزيد</string>
+	<key>GENERIC_DELIVERY_ERROR_MESSAGE</key>
+	<string>حدث خطأ أثناء تسليم هذه الرسالة.</string>
+	<key>ATTACHMENT_INVALID_CALENDAR_EVENT</key>
+	<string>لا يمكن لتطبيق البريد فتح حدث التقويم لأنه لم يعد متوفرًا</string>
+	<key>ERROR_RENAMING_MAILBOX_TITLE</key>
+	<string>تعذر إعادة تسمية صندوق البريد</string>
+	<key>TOGGLE_FILTERING</key>
+	<string>تبديل التصفية</string>
+	<key>ERROR_TRANSFERRING_TITLE</key>
+	<string>تعذر نقل الرسالة</string>
+	<key>UNTRUSTED_SIGNATURE</key>
+	<string>توقيع غير موثوق به</string>
+	<key>MARK_EMAIL_UNREAD</key>
+	<string>تمييز كغير مقروءة</string>
+	<key>REMOVE</key>
+	<string>إزالة</string>
+	<key>LIST_EXACTLY_TWO_ITEMS</key>
+	<string>‏%@ و ‏%@</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE</key>
+	<string>يرجى الاتصال بـ Wi-Fi لتنزيل هذا المرفق.</string>
+	<key>FILTERS_BADGE_TYPE_PICKER_TITLE</key>
+	<string>نوع شارة الفلتر</string>
+	<key>OPERATION_UNFLAG_DESC</key>
+	<string>إزالة العلم</string>
+	<key>BCC_TITLE</key>
+	<string>نسخة مخفية</string>
+	<key>DELETE_ALL_CONFIRMATION</key>
+	<string>حذف الكل</string>
+	<key>DELETE_BUTTON</key>
+	<string>حذف</string>
+	<key>VIP_ADD_PERSON</key>
+	<string>إضافة VIP…</string>
+	<key>LOW_DISK_SPACE_INFORMATIONAL_MESSAGE</key>
+	<string>لاستخدام البريد، قم بتحرير مساحة التخزين من خلال حذف التطبيقات أو الملفات غير المستخدمة، ثم حاول مرة أخرى.</string>
+	<key>GENERIC_INCOMING_ERROR_MESSAGE</key>
+	<string>فشل الاتصال بالخادم.</string>
+	<key>UPDATED_WEEKDAY_FORMAT</key>
+	<string>تم التحديث يوم %@</string>
+	<key>ALL_MAILBOXES</key>
+	<string>كل صناديق البريد</string>
+	<key>ALL_SENT</key>
+	<string>كل المرسلة</string>
+	<key>REPLY</key>
+	<string>رد</string>
+	<key>YES</key>
+	<string>نعم</string>
+	<key>MAILBOXES_BACK_BUTTON</key>
+	<string>صناديق البريد</string>
+	<key>THREAD</key>
+	<string>السلسلة</string>
+	<key>MARK_EMAIL_NOT_JUNK</key>
+	<string>تمييز كبريد غير مزعج</string>
+	<key>CURRENT_MAILBOX</key>
+	<string>صندوق البريد الحالي</string>
+	<key>NOTIFY_ME</key>
+	<string>إعلامي</string>
+	<key>SEARCH_HUMAN_DATE_THIS_WEEK</key>
+	<string>هذا الأسبوع</string>
+	<key>LOADING</key>
+	<string>جاري التحميل…</string>
+	<key>COMPOSE_NEW_MESSAGE</key>
+	<string>رسالة جديدة</string>
+	<key>PASSWORD_MISSING_TITLE</key>
+	<string>كلمة السر مفقودة</string>
+	<key>NOTIFY_ME_STOP</key>
+	<string>إيقاف الإعلام</string>
+	<key>CC_TITLE</key>
+	<string>نسخة</string>
+	<key>SEARCH_ATOM_TITLE_UNREAD</key>
+	<string>غير مقروءة</string>
+	<key>FROM_TITLE</key>
+	<string>المرسل</string>
+	<key>SEARCH_HUMAN_DATE_PAST_YEAR</key>
+	<string>السنة الماضية</string>
+	<key>MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>الرجاء الاتصال بشبكة WLAN لتنزيل هذه المرفقات.</string>
+	<key>QUICK_LOOK</key>
+	<string>معاينة سريعة</string>
+	<key>SEARCH_HUMAN_DATE_LAST_YEAR</key>
+	<string>السنة الأخيرة</string>
+	<key>ENCRYPTED</key>
+	<string>مشفر</string>
+	<key>SEARCH_SCOPE_PEOPLE_FROM</key>
+	<string>من</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_EXPLAINATION_SUBTITLE</key>
+	<string>هذه الرسالة من قائمة بريدية.</string>
+	<key>LOADING_ALL_CAPS</key>
+	<string>جاري التحميل</string>
+	<key>SEARCH_SUGGESTION_RAW_FORMAT %@</key>
+	<string>البحث عن "%@"</string>
+	<key>SEARCH_APP_SHORTCUT</key>
+	<string>بحث</string>
+	<key>DISABLE_FILTER</key>
+	<string>تعطيل تصفية الرسائل</string>
+	<key>SIGNED_AND_ENCRYPTED_DESCRIPTION</key>
+	<string>قام المرسل بتشفير هذه الرسالة وتوقيعها باستخدام شهادة موثوق بها.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_PEOPLE</key>
+	<string>الأشخاص</string>
+	<key>TRASH_BUTTON</key>
+	<string>سلة المهملات</string>
+	<key>ERROR_MOVING_MAILBOX_DESCRIPTION</key>
+	<string>تعذر نقل صندوق البريد على الخادم.</string>
+	<key>FILTER_GROUP_FLAGS_TITLE</key>
+	<string>تضمين:</string>
+	<key>FORWARD_ANNOTATION_FORMAT</key>
+	<string>تحويل إلى: %@</string>
+	<key>BLOCKED_SENDER_PREFERENCES</key>
+	<string>التفضيلات</string>
+	<key>SEARCH_ALL_MAILBOXES</key>
+	<string>بحث</string>
+	<key>PRINT</key>
+	<string>طباعة</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_TOP_HITS</key>
+	<string>أفضل النتائج</string>
+	<key>FLAG_COLOR_ORANGE</key>
+	<string>برتقالي</string>
+	<key>INCLUDES_ME_NAVIGATION_TITLE</key>
+	<string>إلى أو نسخة إلى</string>
+	<key>VIP_MAILBOX</key>
+	<string>VIP</string>
+	<key>FROM_LABEL</key>
+	<string>من</string>
+	<key>ARCHIVE_EMAIL</key>
+	<string>أرشفة الرسالة</string>
+	<key>OPERATION_TRANSFER_DESC</key>
+	<string>نقل</string>
+	<key>SWIPE_FLAG</key>
+	<string>علم</string>
+	<key>REMOTE_IMAGES_BLOCKED_OTHER</key>
+	<string>تحتوي هذه الرسالة على صور لم يتم تحميلها.</string>
+	<key>MOVE_TO</key>
+	<string>نقل إلى "%@"</string>
+	<key>ARCHIVE</key>
+	<string>أرشفة</string>
+	<key>VIP_EDIT</key>
+	<string>قائمة VIP</string>
+	<key>ERROR_DELETING_MAILBOX_DESCRIPTION</key>
+	<string>تعذر حذف صندوق البريد على الخادم.</string>
+	<key>MAILBOX_WITH_ACCOUNT</key>
+	<string>‏%@ – ‏%@</string>
+	<key>MAILBOX_ALREADY_EXISTS</key>
+	<string>صندوق البريد "%@" موجود مسبقًا.</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS_DESCRIPTION %@</key>
+	<string>توجد أخطاء في الحسابات التالية: %@.
+الرجاء تحديد الحسابات كل على حدة لعرض المزيد من المعلومات.</string>
+	<key>OPERATION_DELETE_DESC</key>
+	<string>سلة المهملات</string>
+	<key>TODAY_NAVIGATION_TITLE</key>
+	<string>اليوم</string>
+	<key>SWIPE_MOVE</key>
+	<string>نقل…</string>
+	<key>ALL_ARCHIVE</key>
+	<string>أرشفة الكل</string>
+	<key>SEARCH_SCOPE_PEOPLE_TO</key>
+	<string>إلى</string>
+	<key>NO_FROM</key>
+	<string>بلا مرسل</string>
+	<key>FILTER_GROUP_ADDRESSED_TITLE</key>
+	<string>موجهة:</string>
+	<key>NEW_MAILBOX</key>
+	<string>صندوق بريد جديد</string>
+	<key>REPAIR</key>
+	<string>إصلاح</string>
+	<key>SEND_AGAIN</key>
+	<string>إرسال مرة أخرى</string>
+	<key>FLAGGED_FORMAT</key>
+	<string>%lu موضوع لها علم</string>
+	<key>MOVE_BUTTON</key>
+	<string>نقل</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_SUBJECT</key>
+	<string>المواضيع</string>
+	<key>NOTIFY_ME_MAILBOX</key>
+	<string>إشعارات السلسلة</string>
+	<key>YOU_CAN_MANAGE_YOUR_STORAGE_IN_SETTINGS</key>
+	<string>يمكنك إدارة سعة التخزين في الإعدادات.</string>
+	<key>SEARCH_SCOPE_MAILBOX</key>
+	<string>صندوق البريد</string>
+	<key>BACK</key>
+	<string>رجوع</string>
+	<key>PREVIOUS_DRAFT_PICKER_TITLE</key>
+	<string>المسودات</string>
+	<key>UPDATED_ON_DATE_FORMAT</key>
+	<string>تم التحديث %@</string>
+	<key>DESELECT_ALL_BUTTON</key>
+	<string>إلغاء تحديد الكل</string>
+	<key>ACCOUNT_ERROR</key>
+	<string>خطأ في الحساب: %@.</string>
+	<key>CERTIFICATE</key>
+	<string>الشهادة</string>
+	<key>FILTERS_BADGE_TYPE_NEW</key>
+	<string>عدد المحتوى الجديد</string>
+	<key>INCLUDES_ME_MAILBOX</key>
+	<string>إلى أو نسخة</string>
+	<key>DRAFT_ANNOTATION_FORMAT</key>
+	<string>مسودة إلى: %@</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_WEEK</key>
+	<string>الأسبوع السابق</string>
+	<key>MULTIPLE_ACCOUNT_ERRORS</key>
+	<string>أخطاء في حسابات متعددة</string>
+	<key>GET_ALL_NEW_MAIL</key>
+	<string>إحضار كل رسائل البريد الجديدة</string>
+	<key>SEARCH_ATOM_TITLE_VIP</key>
+	<string>VIP</string>
+	<key>SEARCH_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>البحث في %@ - %@</string>
+	<key>ERROR_DATA_BLOCKED_BY_CALL</key>
+	<string>لا يمكن إنشاء اتصال البيانات لأن المكالمة حاليًا فعّالة.</string>
+	<key>ARCHIVE_ALL_CONFIRMATION</key>
+	<string>أرشفة الكل</string>
+	<key>FLAGGED_NAVIGATION_TITLE</key>
+	<string>عليها علم</string>
+	<key>FILTER_CC_ME_NAME</key>
+	<string>نسخة: أنا</string>
+	<key>MAIL_DROP_BANNER_SAVE_MIXED</key>
+	<string>حفظ المرفقات</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_IMAGE</key>
+	<string>تم حفظ الصور ذات الدقة الكاملة في تطبيق الصور</string>
+	<key>DECRYPTION_ERROR</key>
+	<string>خطأ في فك التشفير</string>
+	<key>FILTER_DATE_LASTWEEK_TITLE</key>
+	<string>الأسبوع الأخير</string>
+	<key>CALL_TO_ACTION_CATEGORY_UNSUBSCRIBE</key>
+	<string>الاشتراكات</string>
+	<key>COLLAPSE_THREAD</key>
+	<string>طي السلسلة</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE</key>
+	<string>متوفر حتى %@</string>
+	<key>UNSENT_MESSAGES_FORMAT</key>
+	<string>%@ من الرسائل غير مرسلة</string>
+	<key>MOVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>نقل (%@)</string>
+	<key>NO_SEARCH_RESULTS</key>
+	<string>لا توجد نتائج</string>
+	<key>MARK_EMAIL_READ</key>
+	<string>تمييز كمقروءة</string>
+	<key>HANDOFF_FAILED_ERROR_BODY</key>
+	<string>ربما تعطل الاتصال بالجهاز الآخر. الرجاء المحاولة لاحقًا.</string>
+	<key>FILTERS_BADGE_TYPE_MESSAGE</key>
+	<string>عدد كل الرسائل</string>
+	<key>BROWSING_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>‏%@ - ‏%@</string>
+	<key>VIP_FIRST_PART_EXPLANATION</key>
+	<string>الوصول بسرعة للبريد من الأشخاص المهمين في صندوق بريد VIP الخاص بك.</string>
+	<key>MOVE_BUTTON_SHORT</key>
+	<string>نقل</string>
+	<key>MESSAGE_SELECTION_ARCHIVE_TITLE</key>
+	<string>قم بتحديد الرسائل للأرشفة أو النقل.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_MIXED</key>
+	<string>تم تنزيل المرفقات والصور ذات الدقة الكاملة</string>
+	<key>MESSAGE_CAUSED_PROBLEM_REPEATEDLY</key>
+	<string>لا يمكن عرض هذه الرسالة بسبب مشكلة حدثت بصورة متكررة.</string>
+	<key>OPERATION_READ_DESC</key>
+	<string>مقروءة</string>
+	<key>DELETE_SELECTED_EMAILS</key>
+	<string>حذف الرسائل المحددة</string>
+	<key>MOVE_MESSAGES_PROMPT</key>
+	<string>نقل هذة الرسائل إلى صندوق بريد جديد.</string>
+	<key>NO_MESSAGES_TO_ME</key>
+	<string>لا يوجد بريد موجه لي</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE</key>
+	<string>تنزيل المرفق</string>
+	<key>SIRI_PREDICTION_FAILED_ERROR_TITLE</key>
+	<string>تعذر تنفيذ توقعات Siri</string>
+	<key>MESSAGE_FROM_BLOCKED_SENDER</key>
+	<string>هذه الرسالة من مرسل ضمن قائمة المحظورين لديك.</string>
+	<key>ERROR_RENAMING_MAILBOX_DESCRIPTION</key>
+	<string>تعذر إعادة تسمية صندوق البريد على الخادم.</string>
+	<key>FLAGGED_MAILBOX</key>
+	<string>عليها علم</string>
+	<key>BLOCK_CONTACT_CONFIRMATION</key>
+	<string>هل أنت متأكد من رغبتك في حظر جهة الاتصال هذه؟</string>
+	<key>NOTIFY_ME_NAVIGATION_TITLE</key>
+	<string>إشعارات السلسلة</string>
+	<key>SEARCHING_ANIMATED_CHARACTER</key>
+	<string>.</string>
+	<key>MAIL_DROP_BANNER_SAVE_NONIMAGE_PLURAL</key>
+	<string>تنزيل المرفقات</string>
+	<key>FILTER_TO_ME_NAME</key>
+	<string>إلى: أنا</string>
+	<key>BCC_HEADER</key>
+	<string>نسخة مخفية:</string>
+	<key>INVALID_RECIPIENT_MESSAGE</key>
+	<string>رفض الخادم واحد من  عناوين المستلم. تم وضع الرسالة في صندوق الصادر الخاص بك.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_CANNED</key>
+	<string>عمليات البحث المقترحة</string>
+	<key>SEARCH_ATOM_TITLE_FLAGGED</key>
+	<string>عليها علم</string>
+	<key>ARCHIVE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>أرشفة (%@)</string>
+	<key>MOVE_MESSAGE_PROMPT</key>
+	<string>نقل هذه الرسالة إلى صندوق بريد جديد.</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED</key>
+	<string>جاري تنزيل المرفق والصور ذات الدقة الكاملة</string>
+	<key>MAIL_DROP_BANNER_AVAILABLE_MAIL_DROP</key>
+	<string>متوفر في Mail Drop حتى %@</string>
+	<key>CANCEL</key>
+	<string>إلغاء</string>
+	<key>HAS_ATTACHMENTS_NAVIGATION_TITLE</key>
+	<string>المرفقات</string>
+	<key>TO_ME_MAILBOX</key>
+	<string>إليّ</string>
+	<key>BYTES_DOWNLOADING</key>
+	<string>جاري تنزيل %@ المتبقية</string>
+	<key>PREVIOUS_DRAFT_PICKER_NEW_MESSAGE</key>
+	<string>رسالة جديدة</string>
+	<key>SEARCH_HUMAN_DATE_THIS_YEAR</key>
+	<string>هذه السنة</string>
+	<key>OPERATION_ARCHIVE_DESC</key>
+	<string>أرشفة</string>
+	<key>MAILBOX_DELETE_DESCRIPTION_FORMAT</key>
+	<string>سيؤدي حذف صندوق البريد "%@" إلى إزالة جميع رسائله من حسابك.</string>
+	<key>FLAG_COLOR_PURPLE</key>
+	<string>أرجواني</string>
+	<key>MUTED_NAVIGATION_TITLE</key>
+	<string>سلاسل مكتومة</string>
+	<key>DOWNLOADING_FULL_MESSAGE</key>
+	<string>تنزيل الرسالة كاملة</string>
+	<key>MESSAGE</key>
+	<string>الرسالة</string>
+	<key>TRUST</key>
+	<string>الوثوق</string>
+	<key>OPERATION_FLAG_COLOR_DESC</key>
+	<string>%@ لون العلم</string>
+	<key>EXPAND_THREAD</key>
+	<string>توسيع السلسلة</string>
+	<key>SWIPE_MOVE_TO_JUNK</key>
+	<string>نقل إلى البريد المزعج</string>
+	<key>FLAG_COLOR_YELLOW</key>
+	<string>أصفر</string>
+	<key>FILTERS_CHOOSE</key>
+	<string>تمت التصفية حسب:</string>
+	<key>REMOTE_CONTENT_BLOCKED_TRUST_EVALUATION</key>
+	<string>تعذر التحقق من محتوى الرسالة.</string>
+	<key>OTHER_SIGNERS_HEADER</key>
+	<string>أخرى:</string>
+	<key>CC/BCC</key>
+	<string>نسخة/نسخة مخفية:</string>
+	<key>SAVE_IMAGE</key>
+	<string>حفظ الصورة</string>
+	<key>FILTERS_PICKER_TITLE</key>
+	<string>الفلاتر</string>
+	<key>TO_TITLE</key>
+	<string>المستلم</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT_SHORT</key>
+	<string>من %@ %@</string>
+	<key>GO_TO_NEXT_MESSAGE</key>
+	<string>الانتقال إلى الرسالة التالية</string>
+	<key>FOLDER_SUFFIX</key>
+	<string>مجلد</string>
+	<key>ATTACHMENT_LARGE_TITLE</key>
+	<string>لا يمكن عرض المرفق لأن حجمه كبير جدًا.</string>
+	<key>WATCH_ACCOUNT_REQUIRES_AUTHENTICATION_ALERT_DETAILS</key>
+	<string>يتعين إعادة مصادقة بعض حسابات البريد الخاصة بك لـ Apple Watch</string>
+	<key>MUTED_MAILBOX</key>
+	<string>سلاسل مكتومة</string>
+	<key>VIEW_CERTIFICATE</key>
+	<string>عرض الشهادة</string>
+	<key>ESTABLISHING_CONNECTION</key>
+	<string>جاري الاتصال…</string>
+	<key>NO_MAIL</key>
+	<string>لا يوجد بريد</string>
+	<key>VIP_CUSTOM_ALERT_EXPLANATION</key>
+	<string>تعيين تنبيهات مخصصة لبريد VIP الجديد في إعدادات الإشعارات.</string>
+	<key>EDIT</key>
+	<string>تحرير</string>
+	<key>SAVING</key>
+	<string>جاري الحفظ</string>
+	<key>OPERATION_NOT_JUNK_DESC</key>
+	<string>تمييز كبريد غير مزعج</string>
+	<key>FLAG_COLOR_BLUE</key>
+	<string>أزرق</string>
+	<key>ALERT_UNSUBSCRIBE_CONFIRM</key>
+	<string>إلغاء الاشتراك</string>
+	<key>GO_TO_PREVIOUS_MESSAGE</key>
+	<string>الانتقال إلى الرسالة السابقة</string>
+	<key>FROM_HEADER</key>
+	<string>من:</string>
+	<key>FLAG_COLOR_RED</key>
+	<string>أحمر</string>
+	<key>TRASH_BUTTON_SHORT</key>
+	<string>سلة المهملات</string>
+	<key>SEARCH_HUMAN_DATE_LAST_DAY</key>
+	<string>اليوم الأخير</string>
+	<key>CC_LABEL_SHORT</key>
+	<string>نسخة</string>
+	<key>SHOW_QUOTED_CONTENT</key>
+	<string>إظهار المحتوى المقتبس</string>
+	<key>MAIL_DROP_BANNER_ATTACHMENT_PLURAL</key>
+	<string>المرفقات</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_IMAGES</key>
+	<string>جاري تنزيل الصور ذات الدقة الكاملة إلى تطبيق الصور</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPAD</key>
+	<string>هذا الـ iPad مقيّد من إنشاء حسابات البريد.</string>
+	<key>SINGLE_ACCOUNT_MAILBOXES</key>
+	<string>صناديق البريد</string>
+	<key>NO_VIP_MAIL</key>
+	<string>لا يوجد بريد VIP</string>
+	<key>CC_LABEL</key>
+	<string>نسخة</string>
+	<key>TO_LABEL_SHORT</key>
+	<string>إلى</string>
+	<key>SEARCH_HUMAN_DATE_THIS_MONTH</key>
+	<string>هذا الشهر</string>
+	<key>N_MESSAGES</key>
+	<string>%@ رسائل</string>
+	<key>UNRECOVERABLE_SERVER_ERROR</key>
+	<string>خطأ في الخادم.
+الرجاء الاتصال بمسؤول الخادم.</string>
+	<key>LOAD_MESSAGE</key>
+	<string>تحميل الرسالة (لا يوصى بذلك)</string>
+	<key>WAS_DOWNLOADED_AS_PLAIN</key>
+	<string>تم تنزيل الرسالة كنص عادي.</string>
+	<key>FAVORITES</key>
+	<string>المفضلة</string>
+	<key>ACCOUNT_ERRORS</key>
+	<string>أخطاء في حسابات</string>
+	<key>MAILBOX_SEARCH</key>
+	<string>بحث في صندوق البريد</string>
+	<key>SEARCH_FOR_TERM_IN_FOLDER_FROM_ACCOUNT_TITLE</key>
+	<string>بحث عن %@ في %@ - %@</string>
+	<key>MESSAGE_SELECTION_TRASH_TITLE</key>
+	<string>قم بتحديد الرسائل إلى سلة المهملات أو النقل.</string>
+	<key>ALL_TRASH</key>
+	<string>كل عناصر سلة المهملات</string>
+	<key>PREVIOUS_DRAFT_PICKER_NO_DRAFTS</key>
+	<string>لا توجد مسودات</string>
+	<key>SIGNATURE_ERROR</key>
+	<string>خطأ في التوقيع</string>
+	<key>MARK_BUTTON_SHORT</key>
+	<string>تمييز</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADED_PLURAL</key>
+	<string>تم تنزيل المرفقات</string>
+	<key>MAIL_DROP_BANNER_ERROR</key>
+	<string>مرفق Mail Drop غير صالح</string>
+	<key>DATE</key>
+	<string>التاريخ:</string>
+	<key>ACCOUNT_RESTRICTION_DESCRIPTION_IPHONE_SIMULATOR</key>
+	<string>هذا الـ Simulator مقيّد من إنشاء حسابات البريد.</string>
+	<key>HAS_ATTACHMENTS_MAILBOX</key>
+	<string>المرفقات</string>
+	<key>ARCHIVE_BUTTON</key>
+	<string>أرشفة</string>
+	<key>MAIL_DROP_BANNER_FULL_RES</key>
+	<string>الصور بدقة كاملة</string>
+	<key>NO_FLAGGED_MAIL</key>
+	<string>لا يوجد بريد عليه علم</string>
+	<key>FILTER_DATE_TODAY_TITLE</key>
+	<string>البريد المُرسَل اليوم فقط</string>
+	<key>REMOTE_IMAGES_BLOCKED_ENCRYPTION</key>
+	<string>تعذر التحقق من محتوى الرسالة.</string>
+	<key>NO_BODY</key>
+	<string>الرسالة بلا محتوى.</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_DATE</key>
+	<string>التواريخ</string>
+	<key>EDIT_MAILBOX</key>
+	<string>تحرير صندوق البريد</string>
+	<key>REPLY_ALL</key>
+	<string>رد للكل</string>
+	<key>DRAFTS_FORMAT</key>
+	<string>%lu من المسودات</string>
+	<key>SEARCH_FOR_TERM_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>البحث عن %@ في %@</string>
+	<key>UNREAD_NAVIGATION_TITLE</key>
+	<string>غير مقروءة</string>
+	<key>LOAD_REMOTE_IMAGES_ENCRYPTION</key>
+	<string>تحميل جميع الصور (لا يوصى بذلك)</string>
+	<key>DELETE</key>
+	<string>حذف</string>
+	<key>DELETE_BUTTON_COUNT_FORMAT_SHORT</key>
+	<string>حذف (%@)</string>
+	<key>SEARCH_SCOPE_SUBJECT</key>
+	<string>الموضوع</string>
+	<key>ENCRYPTION_CERTIFICATE_DESCRIPTION</key>
+	<string>إدارة شهادة التشفير لهذا المرسل.</string>
+	<key>COMPOSE_APP_SHORTCUT</key>
+	<string>رسالة جديدة</string>
+	<key>NO_SUBJECT</key>
+	<string>بلا موضوع</string>
+	<key>SEARCH_HUMAN_DATE_PREVIOUS_DAY</key>
+	<string>اليوم السابق</string>
+	<key>TO_ME_NAVIGATION_TITLE</key>
+	<string>إليّ</string>
+	<key>MAILBOX_NAME_PLACEHOLDER</key>
+	<string>الاسم</string>
+	<key>MAIL_DROP_BANNER_SAVE_IMAGE</key>
+	<string>حفظ الصور ذات الدقة الكاملة في تطبيق الصور</string>
+	<key>SEARCH_SUGGESTION_TITLE_FLAGGED</key>
+	<string>رسائل موضوع لها علم</string>
+	<key>MARK_EMAIL_UNFLAGGED</key>
+	<string>إزالة العلم</string>
+	<key>SENDER_MAILBOX_FULL_MESSAGE</key>
+	<string>صندوق البريد ممتلئ</string>
+	<key>UNTRUST</key>
+	<string>عدم الوثوق</string>
+	<key>TODAY_MAILBOX</key>
+	<string>اليوم</string>
+	<key>TRASH_ALL_CONFIRMATION</key>
+	<string>الكل لسلة المهملات</string>
+	<key>FILTERS_BADGE_TYPE_UNREAD</key>
+	<string>عدد الرسائل غير المقروءة</string>
+	<key>OPERATION_FLAG_DESC</key>
+	<string>علم</string>
+	<key>UNREAD_MAILBOX</key>
+	<string>غير مقروءة</string>
+	<key>ERROR_MOVING_MAILBOX_TITLE</key>
+	<string>تعذر نقل صندوق البريد</string>
+	<key>FILTER_ATTACHMENT_DESCRIPTION</key>
+	<string>البريد الذي يتضمن مرفقات فقط</string>
+	<key>SEARCH_HUMAN_DATE_PAST_DAY</key>
+	<string>اليوم الماضي</string>
+	<key>SWIPE_ARCHIVE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ERROR</key>
+	<string>خطأ</string>
+	<key>SINGLE_MAILDROP_ATTACHMENT_LARGE_MESSAGE_CH</key>
+	<string>الرجاء الاتصال بشبكة WLAN لتنزيل هذا المرفق.</string>
+	<key>LOAD_REMOTE_CONTENT_TRUST_EVALUATION</key>
+	<string>تحميل المحتوى البعيد</string>
+	<key>SWIPE_JUNK</key>
+	<string>البريد المزعج</string>
+	<key>CONTINUE</key>
+	<string>متابعة</string>
+	<key>NO_MESSAGES_TODAY</key>
+	<string>لا توجد رسائل لهذا اليوم</string>
+	<key>SEARCH_SUGGESTION_CATEGORY_OTHER</key>
+	<string>أخرى</string>
+	<key>UNSENT_MESSAGE_FORMAT</key>
+	<string>%@ رسالة غير مرسلة</string>
+	<key>SENDING</key>
+	<string>جاري الإرسال…</string>
+	<key>BOX_SUFFIX</key>
+	<string>صندوق</string>
+	<key>NO_MUTED_MAIL</key>
+	<string>لا توجد سلاسل مكتومة</string>
+	<key>DELETE_EMAIL_PLURAL</key>
+	<string>حذف الرسائل</string>
+	<key>GO_TO_BRIDGE_APP</key>
+	<string>انتقال إلى تطبيق Apple Watch</string>
+	<key>STATUS_TEXT_SEPARATOR</key>
+	<string> - </string>
+	<key>SEND_EML</key>
+	<string>‫إرسال كـ ‎.eml‬</string>
+	<key>INCLUDE_ATTACHMENTS</key>
+	<string>تضمين المرفقات من الرسالة الأصلية؟</string>
+	<key>SEARCH_SUGGESTION_SUBJECT_CONTAINS_FORMAT %@</key>
+	<string>الموضوع يتضمن: ‏%@</string>
+	<key>SEARCH_SCOPE_CONTENT</key>
+	<string>الرسالة</string>
+	<key>ACCOUNTS</key>
+	<string>الحسابات</string>
+	<key>CALL_TO_ACTION_UNSUBSCRIBE_DISMISS</key>
+	<string>استبعاد</string>
+	<key>MAILBOX_WITH_SUBMAILBOXES_DELETE_DESCRIPTION_FORMAT</key>
+	<string>سيؤدي حذف صندوق البريد "%@" إلى إزالة جميع رسائله وصناديق البريد المتفرعة عنه من حسابك.</string>
+	<key>SWIPE_NOT_JUNK</key>
+	<string>ليس بريدًا مزعجًا</string>
+	<key>MAIL_DROP_BANNER_DOWNLOADING_MIXED_PLURAL</key>
+	<string>جاري تنزيل المرفقات والصور ذات الدقة الكاملة</string>
+	<key>TRASH_EMAIL_PLURAL</key>
+	<string>وضع الرسائل في سلة المهملات</string>
+	<key>SWIPE_MARK_AS_READ</key>
+	<string>مقروءة</string>
+	<key>FLAG_COLOR_GREEN</key>
+	<string>أخضر</string>
+	<key>MESSAGE_HAS_MULTIPLE_SIGNERS</key>
+	<string>تم توقيع هذه الرسالة عدة مرات.</string>
+	<key>CC_HEADER</key>
+	<string>نسخة:</string>
+	<key>FOUND_IN_MAILBOX_FORMAT_SHORT</key>
+	<string>من %@</string>
+	<key>SWIPE_DELETE_COUNT</key>
+	<string>(%ld)</string>
+	<key>ADD_MAILBOX_BUTTON</key>
+	<string>إضافة صندوق بريد…</string>
+	<key>SEARCH_IN_SPECIAL_FOLDER_TITLE</key>
+	<string>البحث في %@</string>
+	<key>SEARCH_HUMAN_DATE_PAST_MONTH</key>
+	<string>الشهر الماضي</string>
+	<key>SWIPE_NOTIFY_ME</key>
+	<string>إعلامي</string>
+	<key>LIST_FINAL_ITEM</key>
+	<string> و ‏%@</string>
+	<key>DOWNLOAD_REST_OF_MESSAGE</key>
+	<string>تنزيل المتبقي من الرسالة أولًا؟</string>
+	<key>UNABLE_TO_VERIFY_MESSAGE_CONTENT</key>
+	<string>تعذر التحقق من محتوى الرسالة.</string>
+	<key>SUBJECT_HEADER</key>
+	<string>الموضوع:</string>
+	<key>MESSAGE_SELECTION_TITLE</key>
+	<string>قم بتحديد الرسائل للحذف أو النقل.</string>
+	<key>TRASH</key>
+	<string>حذف</string>
+	<key>SHARE</key>
+	<string>مشاركة</string>
+</dict>
+</plist>

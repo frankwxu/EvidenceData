@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>HEADPHONE_AUDIO_MEASUREMENTS_FOOTER</string>
+			<key>id</key>
+			<string>HEADPHONE_AUDIO_ENABLED_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.apple.coreaudio</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>EnableHAEHKWrite</string>
+			<key>label</key>
+			<string>HEADPHONE_AUDIO_MEASUREMENTS_LABEL</string>
+			<key>notifyNano</key>
+			<true/>
+			<key>set</key>
+			<string>setHeadphoneMeasurementsEnabled:forSpecifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>HEADPHONE_AUDIO_UNKNOWN_DEVICES_FOOTER</string>
+			<key>id</key>
+			<string>HEADPHONE_AUDIO_UNKNOWN_DEVICES_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.coreaudio</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>EnableHAEOtherDevices</string>
+			<key>label</key>
+			<string>HEADPHONE_AUDIO_UNKNOWN_DEVICES_LABEL</string>
+			<key>notifyNano</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>HEADPHONE_PRIVACY_TITLE</string>
+</dict>
+</plist>

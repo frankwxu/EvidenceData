@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AB_PERMISSION_MISSING_ACTION_NOT_NOW</key>
+	<string>稍後</string>
+	<key>ACCEPT_NEW_IDENTITY_ACTION</key>
+	<string>接受新的安全碼</string>
+	<key>ACCESSIBILITY_LABEL_ATTACHMENT</key>
+	<string>附件</string>
+	<key>ACCESSIBILITY_LABEL_AUDIO</key>
+	<string>音訊</string>
+	<key>ACCESSIBILITY_LABEL_CONTACT</key>
+	<string>聯絡人</string>
+	<key>ACCESSIBILITY_LABEL_MEDIA</key>
+	<string>媒體</string>
+	<key>ACCESSIBILITY_LABEL_MESSAGE</key>
+	<string>訊息</string>
+	<key>ACCESSIBILITY_LABEL_SENDER_SELF</key>
+	<string>您</string>
+	<key>ACCESSIBILITY_LABEL_STICKER</key>
+	<string>貼圖</string>
+	<key>ACTION_AUDIO_CALL</key>
+	<string>Signal 電話</string>
+	<key>ACTION_INVITE</key>
+	<string>邀請來使用 Signal</string>
+	<key>ACTION_SEND_MESSAGE</key>
+	<string>傳送訊息</string>
+	<key>ACTION_SHARE_CONTACT</key>
+	<string>分享連絡人資訊</string>
+	<key>ACTION_VIDEO_CALL</key>
+	<string>影像電話</string>
+	<key>ADD_GROUP_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>要讓此群組看見你的個人資訊？</string>
+	<key>ADD_TO_CONTACTS_OFFER</key>
+	<string>你要將此使用者加入聯絡資訊嗎？</string>
+	<key>ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>你是否願意將個人資訊讓此使用者看見？</string>
+	<key>ALERT_ACTION_ACKNOWLEDGE</key>
+	<string>收到</string>
+	<key>ALERT_DISCARD_BUTTON</key>
+	<string>放棄</string>
+	<key>ALERT_DONT_SAVE</key>
+	<string>不要儲存</string>
+	<key>ALERT_ERROR_TITLE</key>
+	<string>錯誤</string>
+	<key>ALERT_SAVE</key>
+	<string>儲存</string>
+	<key>ANSWER_CALL_BUTTON_TITLE</key>
+	<string>接聽</string>
+	<key>APN_Message</key>
+	<string>新訊息！</string>
+	<key>APPEARANCE_SETTINGS_DARK_THEME_NAME</key>
+	<string>暗色系</string>
+	<key>APPEARANCE_SETTINGS_LIGHT_THEME_NAME</key>
+	<string>亮色系</string>
+	<key>APPEARANCE_SETTINGS_SYSTEM_THEME_NAME</key>
+	<string>系統</string>
+	<key>APPLICATION_NAME</key>
+	<string>Signal</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_MESSAGE</key>
+	<string>Signal 無法啟動。請將除錯日誌傳送到 support@signal.org ，以便我們解決這個問題。</string>
+	<key>APP_LAUNCH_FAILURE_ALERT_TITLE</key>
+	<string>錯誤</string>
+	<key>APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE</key>
+	<string>無法讀取資料庫</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_MESSAGE</key>
+	<string>請升級到最新版的 Signal。</string>
+	<key>APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE</key>
+	<string>未知的資料庫版本。</string>
+	<key>APP_SETTINGS_EDIT_PROFILE_NAME_PROMPT</key>
+	<string>輸入你的名稱</string>
+	<key>APP_UPDATE_NAG_ALERT_DISMISS_BUTTON</key>
+	<string>稍後</string>
+	<key>APP_UPDATE_NAG_ALERT_MESSAGE_FORMAT</key>
+	<string>第%@版已經在App Store 上架</string>
+	<key>APP_UPDATE_NAG_ALERT_TITLE</key>
+	<string>有新版本的 Signal 提供下載</string>
+	<key>APP_UPDATE_NAG_ALERT_UPDATE_BUTTON</key>
+	<string>更新</string>
+	<key>ARCHIVE_ACTION</key>
+	<string>封存</string>
+	<key>ATTACHMENT</key>
+	<string>附件</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_LENGTH_LIMIT_REACHED</key>
+	<string>標題字數已達限制。</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_PLACEHOLDER</key>
+	<string>新增標題...</string>
+	<key>ATTACHMENT_APPROVAL_CAPTION_TITLE</key>
+	<string>字幕</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_EXPORT</key>
+	<string>附件匯出失敗。</string>
+	<key>ATTACHMENT_APPROVAL_FAILED_TO_SAVE</key>
+	<string>儲存失敗</string>
+	<key>ATTACHMENT_APPROVAL_FILE_EXTENSION_FORMAT</key>
+	<string>檔案類型：%@</string>
+	<key>ATTACHMENT_APPROVAL_FILE_SIZE_FORMAT</key>
+	<string>檔案大小：%@</string>
+	<key>ATTACHMENT_APPROVAL_MEDIA_DID_SAVE</key>
+	<string>已儲存</string>
+	<key>ATTACHMENT_APPROVAL_MESSAGE_TO_FORMAT</key>
+	<string>給%@的訊息</string>
+	<key>ATTACHMENT_APPROVAL_SEND_BUTTON</key>
+	<string>傳送</string>
+	<key>ATTACHMENT_DEFAULT_FILENAME</key>
+	<string>附件</string>
+	<key>ATTACHMENT_DOWNLOADING_STATUS_FAILED</key>
+	<string>下載失敗。請點擊再試一次。</string>
+	<key>ATTACHMENT_ERROR_ALERT_TITLE</key>
+	<string>附件傳送錯誤</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_JPEG</key>
+	<string>無法轉換照片。</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_CONVERT_TO_MP4</key>
+	<string>無法處理此影片。</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_PARSE_IMAGE</key>
+	<string>無法解析照片。</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA</key>
+	<string>無法從影像檔中移除數據資料。</string>
+	<key>ATTACHMENT_ERROR_COULD_NOT_RESIZE_IMAGE</key>
+	<string>無法調整照片尺寸。</string>
+	<key>ATTACHMENT_ERROR_FILE_SIZE_TOO_LARGE</key>
+	<string>附件太大。</string>
+	<key>ATTACHMENT_ERROR_INVALID_DATA</key>
+	<string>附檔包含了無效的內容。</string>
+	<key>ATTACHMENT_ERROR_INVALID_FILE_FORMAT</key>
+	<string>附檔含有一個無效的檔案格式。</string>
+	<key>ATTACHMENT_ERROR_MISSING_DATA</key>
+	<string>附件是空白的。</string>
+	<key>ATTACHMENT_HINT</key>
+	<string>選擇媒體來傳送</string>
+	<key>ATTACHMENT_KEYBOARD_CAMERA</key>
+	<string>相機</string>
+	<key>ATTACHMENT_KEYBOARD_CONTACT</key>
+	<string>聯絡人</string>
+	<key>ATTACHMENT_KEYBOARD_FILE</key>
+	<string>檔案</string>
+	<key>ATTACHMENT_KEYBOARD_GIF</key>
+	<string>動態圖檔</string>
+	<key>ATTACHMENT_KEYBOARD_LOCATION</key>
+	<string>位置</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTOS</key>
+	<string>拍完照片後，你可以在這裡傳送你的最近的照片。</string>
+	<key>ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS</key>
+	<string>授權設定中照片的存取權限，以便將其在此處傳送。</string>
+	<key>ATTACHMENT_LABEL</key>
+	<string>附件</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_FAILED_ALERT_TITLE</key>
+	<string>選取文件失敗。</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_BODY</key>
+	<string>請將檔案或資料夾創建為壓縮檔，並再嘗試發送該檔案。</string>
+	<key>ATTACHMENT_PICKER_DOCUMENTS_PICKED_DIRECTORY_FAILED_ALERT_TITLE</key>
+	<string>不支援的檔案類型。</string>
+	<key>ATTACHMENT_TYPE_VOICE_MESSAGE</key>
+	<string>語音訊息</string>
+	<key>AUDIO_ACTIVITY_PLAYBACK_NAME_AUDIO_MESSAGE</key>
+	<string>語音訊息</string>
+	<key>AUDIO_ROUTE_BUILT_IN_SPEAKER</key>
+	<string>揚聲器</string>
+	<key>BACKUP_EXPORT_ERROR_COULD_NOT_EXPORT</key>
+	<string>備份資料無法被匯出。</string>
+	<key>BACKUP_EXPORT_ERROR_INVALID_CLOUDKIT_RESPONSE</key>
+	<string>無效的服務回應</string>
+	<key>BACKUP_EXPORT_PHASE_CLEAN_UP</key>
+	<string>清除備份</string>
+	<key>BACKUP_EXPORT_PHASE_CONFIGURATION</key>
+	<string>初始化備份</string>
+	<key>BACKUP_EXPORT_PHASE_DATABASE_EXPORT</key>
+	<string>匯出資料</string>
+	<key>BACKUP_EXPORT_PHASE_EXPORT</key>
+	<string>匯出備份</string>
+	<key>BACKUP_EXPORT_PHASE_UPLOAD</key>
+	<string>上傳備份</string>
+	<key>BACKUP_IMPORT_ERROR_COULD_NOT_IMPORT</key>
+	<string>備份檔無法被匯入。</string>
+	<key>BACKUP_IMPORT_PHASE_CONFIGURATION</key>
+	<string>設置備份檔</string>
+	<key>BACKUP_IMPORT_PHASE_DOWNLOAD</key>
+	<string>下載備份資料</string>
+	<key>BACKUP_IMPORT_PHASE_FINALIZING</key>
+	<string>完成備份中</string>
+	<key>BACKUP_IMPORT_PHASE_IMPORT</key>
+	<string>匯入備份中。</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_DATABASE</key>
+	<string>回復資料庫</string>
+	<key>BACKUP_IMPORT_PHASE_RESTORING_FILES</key>
+	<string>回復檔案</string>
+	<key>BACKUP_RESTORE_DECISION_TITLE</key>
+	<string>提供備份</string>
+	<key>BACKUP_RESTORE_DESCRIPTION</key>
+	<string>回復備份</string>
+	<key>BACKUP_RESTORE_PROGRESS</key>
+	<string>過程</string>
+	<key>BACKUP_RESTORE_STATUS</key>
+	<string>狀態</string>
+	<key>BACKUP_UNEXPECTED_ERROR</key>
+	<string>未預期的備份錯誤</string>
+	<key>BACK_BUTTON</key>
+	<string>返回</string>
+	<key>BLOCK_GROUP_BEHAVIOR_EXPLANATION</key>
+	<string>你將無法從此群組收到訊息或更新。</string>
+	<key>BLOCK_LIST_BLOCKED_GROUPS_SECTION</key>
+	<string>已封鎖群組</string>
+	<key>BLOCK_LIST_BLOCKED_USERS_SECTION</key>
+	<string>已封鎖聯絡人</string>
+	<key>BLOCK_LIST_BLOCK_BUTTON</key>
+	<string>封鎖</string>
+	<key>BLOCK_LIST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>封鎖及離開"%@"群組?</string>
+	<key>BLOCK_LIST_BLOCK_USER_TITLE_FORMAT</key>
+	<string>封鎖 %@?</string>
+	<key>BLOCK_LIST_UNBLOCK_BUTTON</key>
+	<string>解除封鎖</string>
+	<key>BLOCK_LIST_UNBLOCK_CONTACT_MESSAGE</key>
+	<string>你將能夠發訊息並互相打電話。</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_BODY</key>
+	<string>現存的組員將可以再次將你加入群組。</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_MESSAGE</key>
+	<string>群組組員將能夠再次將你新增到該群組。</string>
+	<key>BLOCK_LIST_UNBLOCK_GROUP_TITLE</key>
+	<string>解除封鎖此群組？</string>
+	<key>BLOCK_LIST_UNBLOCK_TITLE_FORMAT</key>
+	<string>要解除封鎖 %@嗎？</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_MESSAGE_FORMAT</key>
+	<string>%@ 已被封鎖。</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_ALERT_TITLE</key>
+	<string>使用者已被封鎖</string>
+	<key>BLOCK_LIST_VIEW_BLOCKED_GROUP_ALERT_TITLE</key>
+	<string>群組已被封鎖</string>
+	<key>BLOCK_LIST_VIEW_BLOCK_BUTTON</key>
+	<string>封鎖</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_MESSAGE</key>
+	<string>你不能封鎖自己。</string>
+	<key>BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_TITLE</key>
+	<string>錯誤</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_ALERT_TITLE_FORMAT</key>
+	<string>%@ 已被解除封鎖。</string>
+	<key>BLOCK_LIST_VIEW_UNBLOCKED_GROUP_ALERT_BODY</key>
+	<string>現存的組員可以立刻再次將你加入群組。</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_BLOCK_ACTION</key>
+	<string>封鎖</string>
+	<key>BLOCK_OFFER_ACTIONSHEET_TITLE_FORMAT</key>
+	<string>封鎖 %@?</string>
+	<key>BLOCK_USER_BEHAVIOR_EXPLANATION</key>
+	<string>已封鎖的聯絡人將無法撥電話或傳訊息給你。</string>
+	<key>BROWSE_FILES_BUTTON</key>
+	<string>瀏覽</string>
+	<key>BUTTON_CONTINUE</key>
+	<string>繼續</string>
+	<key>BUTTON_DONE</key>
+	<string>完成</string>
+	<key>BUTTON_NEXT</key>
+	<string>下一步</string>
+	<key>BUTTON_OKAY</key>
+	<string>Okay</string>
+	<key>BUTTON_SELECT</key>
+	<string>選擇</string>
+	<key>BUTTON_SUBMIT</key>
+	<string>上傳</string>
+	<key>CALLBACK_BUTTON_TITLE</key>
+	<string>電話回撥</string>
+	<key>CALLKIT_ANONYMOUS_CONTACT_NAME</key>
+	<string>Signal 使用者</string>
+	<key>CALL_AGAIN_BUTTON_TITLE</key>
+	<string>重撥電話</string>
+	<key>CALL_AUDIO_PERMISSION_MESSAGE</key>
+	<string>你可以在iOS 設定中允許取用麥克風，以便在 Signal 中撥打電話及錄製語音訊息。</string>
+	<key>CALL_AUDIO_PERMISSION_TITLE</key>
+	<string>須要使用麥克風</string>
+	<key>CALL_INCOMING_NOTIFICATION_BODY</key>
+	<string>來電</string>
+	<key>CALL_LABEL</key>
+	<string>撥出</string>
+	<key>CALL_MISSED_BECAUSE_OF_IDENTITY_CHANGE_NOTIFICATION_BODY</key>
+	<string>未接來電，因為來電者的安全碼改變。</string>
+	<key>CALL_MISSED_NOTIFICATION_BODY</key>
+	<string>未接來電</string>
+	<key>CALL_SCREEN_STATUS_NO_ANSWER</key>
+	<string>沒有回應</string>
+	<key>CALL_STATUS_FORMAT</key>
+	<string>Signal %@</string>
+	<key>CALL_USER_ALERT_CALL_BUTTON</key>
+	<string>撥出</string>
+	<key>CALL_USER_ALERT_MESSAGE_FORMAT</key>
+	<string>你要撥給 %@嗎？</string>
+	<key>CALL_USER_ALERT_TITLE</key>
+	<string>撥出？</string>
+	<key>CALL_VIEW_ACCEPT_INCOMING_CALL_LABEL</key>
+	<string>接聽來電</string>
+	<key>CALL_VIEW_AUDIO_SOURCE_LABEL</key>
+	<string>聲音</string>
+	<key>CALL_VIEW_DECLINE_INCOMING_CALL_LABEL</key>
+	<string>拒絕來電</string>
+	<key>CALL_VIEW_ENABLE_VIDEO_HINT</key>
+	<string>點擊此處以開啟你的影片</string>
+	<key>CALL_VIEW_HANGUP_LABEL</key>
+	<string>結束通話</string>
+	<key>CALL_VIEW_MUTE_LABEL</key>
+	<string>靜音通知</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_ALL</key>
+	<string>你可以在 Signal 隱私權設定中啟動 iOS 通話整合，以便從鎖定螢幕中回覆來電。</string>
+	<key>CALL_VIEW_SETTINGS_NAG_DESCRIPTION_PRIVACY</key>
+	<string>你可以在 Signal 隱私權設定中啟動 iOS 電話整合，以顯示來電者的名字與電話號碼。</string>
+	<key>CALL_VIEW_SETTINGS_NAG_NOT_NOW_BUTTON</key>
+	<string>稍後</string>
+	<key>CALL_VIEW_SETTINGS_NAG_SHOW_CALL_SETTINGS</key>
+	<string>顯示隱私權設定</string>
+	<key>CALL_VIEW_SWITCH_CAMERA_DIRECTION</key>
+	<string>變換相機方向</string>
+	<key>CALL_VIEW_SWITCH_TO_AUDIO_LABEL</key>
+	<string>切換至語音通話</string>
+	<key>CALL_VIEW_SWITCH_TO_VIDEO_LABEL</key>
+	<string>切換至影像通話</string>
+	<key>CALL_WINDOW_RETURN_TO_CALL</key>
+	<string>點取以回到撥號</string>
+	<key>CAMERA_BUTTON_HINT</key>
+	<string>拍一張照片然後傳送出去</string>
+	<key>CAMERA_BUTTON_LABEL</key>
+	<string>相機</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_MESSAGE</key>
+	<string>此使用者無法驗證直到你與他們交換訊息。</string>
+	<key>CANT_VERIFY_IDENTITY_ALERT_TITLE</key>
+	<string>錯誤</string>
+	<key>CENSORSHIP_CIRCUMVENTION_COUNTRY_VIEW_TITLE</key>
+	<string>選擇國家</string>
+	<key>CHECK_FOR_BACKUP_DO_NOT_RESTORE</key>
+	<string>不復原？</string>
+	<key>CHECK_FOR_BACKUP_FAILED_MESSAGE</key>
+	<string>無法判定是否有備份可供復原。</string>
+	<key>CHECK_FOR_BACKUP_FAILED_TITLE</key>
+	<string>錯誤</string>
+	<key>CHECK_FOR_BACKUP_RESTORE</key>
+	<string>復原</string>
+	<key>CLOUDKIT_STATUS_COULD_NOT_DETERMINE</key>
+	<string>Signal 無法確定你 iCloud 帳號狀況。請在iOS 設定中登入你的 iCloud 帳號並備份你的 Signal 資料。</string>
+	<key>CLOUDKIT_STATUS_NO_ACCOUNT</key>
+	<string>沒有 iCloud 帳號。請從 iOS 設定中登入 iCloud 帳號並備份你 Signal 的資料。</string>
+	<key>CLOUDKIT_STATUS_RESTRICTED</key>
+	<string>Signal 被 iCloud 帳號拒絕連結備份。請在 iOS設定中授權Signal 連結你的 iCloud 帳號以備份 Signal 資料。</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_1</key>
+	<string>選擇在此對話中要發出訊息的顏色。</string>
+	<key>COLOR_PICKER_DEMO_MESSAGE_2</key>
+	<string>只有你可看到你所選的顏色。</string>
+	<key>COLOR_PICKER_SHEET_TITLE</key>
+	<string>對話的顏色</string>
+	<key>COMPARE_SAFETY_NUMBER_ACTION</key>
+	<string>和剪貼簿比對</string>
+	<key>COMPOSE_BUTTON_HINT</key>
+	<string>選擇或搜尋一個 Signal 聯絡人來開始對話。</string>
+	<key>COMPOSE_BUTTON_LABEL</key>
+	<string>撰寫</string>
+	<key>COMPOSE_MESSAGE_CONTACT_SECTION_TITLE</key>
+	<string>聯絡資訊</string>
+	<key>COMPOSE_MESSAGE_GROUP_SECTION_TITLE</key>
+	<string>群組</string>
+	<key>COMPOSE_MESSAGE_PHONE_NUMBER_SEARCH_SECTION_TITLE</key>
+	<string>搜尋電話號碼</string>
+	<key>COMPOSE_MESSAGE_USERNAME_SEARCH_SECTION_TITLE</key>
+	<string>搜尋使用者名稱</string>
+	<key>COMPOSE_SCREEN_MISSING_CONTACTS_PERMISSION</key>
+	<string>你可以在 iOS 設定中允許取用聯絡資訊，以確認哪位聯絡人是 Signal 的使用者。</string>
+	<key>CONFIRMATION_TITLE</key>
+	<string>確認</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TEXT</key>
+	<string>這將會透過刪除你的訊息及自伺服器取消註冊來重置應用程式。在這個過程完成後，本應用程式將關閉。</string>
+	<key>CONFIRM_ACCOUNT_DESTRUCTION_TITLE</key>
+	<string>你確定要刪除你的帳號嗎？</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TEXT</key>
+	<string>這將透過刪除此裝置上的所有訊息來重置應用軟體。 你可以再次與手機連結，但這不會還原已刪除的訊息。 該過程完成後，該應用程式將關閉。</string>
+	<key>CONFIRM_DELETE_LINKED_DATA_TITLE</key>
+	<string>你確定將所有的資料刪除？</string>
+	<key>CONFIRM_LEAVE_GROUP_DESCRIPTION</key>
+	<string>你將無法在此群組中寄出或收到訊息。</string>
+	<key>CONFIRM_LEAVE_GROUP_TITLE</key>
+	<string>你確定要離開嗎？</string>
+	<key>CONFIRM_LINK_NEW_DEVICE_ACTION</key>
+	<string>連結新的裝置</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_BODY_FORMAT</key>
+	<string>%@可能重新安裝程式或更換裝置了。為了隱私上的安全，請與他們重新驗證安全碼。</string>
+	<key>CONFIRM_SENDING_TO_CHANGED_IDENTITY_TITLE_FORMAT</key>
+	<string>與%@的安全碼已變更。</string>
+	<key>CONTACT_ADDRESS</key>
+	<string>地址</string>
+	<key>CONTACT_CELL_IS_BLOCKED</key>
+	<string>已封鎖</string>
+	<key>CONTACT_CELL_IS_NO_LONGER_VERIFIED</key>
+	<string>尚未驗證</string>
+	<key>CONTACT_DETAIL_COMM_TYPE_INSECURE</key>
+	<string>未註冊的號碼</string>
+	<key>CONTACT_EDIT_NAME_BUTTON</key>
+	<string>編輯</string>
+	<key>CONTACT_EMAIL</key>
+	<string>Email</string>
+	<key>CONTACT_FIELD_ADDRESS_CITY</key>
+	<string>城市</string>
+	<key>CONTACT_FIELD_ADDRESS_COUNTRY</key>
+	<string>國家</string>
+	<key>CONTACT_FIELD_ADDRESS_NEIGHBORHOOD</key>
+	<string>鄰里</string>
+	<key>CONTACT_FIELD_ADDRESS_POBOX</key>
+	<string>郵政信箱</string>
+	<key>CONTACT_FIELD_ADDRESS_POSTCODE</key>
+	<string>郵遞區號</string>
+	<key>CONTACT_FIELD_ADDRESS_REGION</key>
+	<string>地區</string>
+	<key>CONTACT_FIELD_ADDRESS_STREET</key>
+	<string>街道</string>
+	<key>CONTACT_FIELD_FAMILY_NAME</key>
+	<string>姓</string>
+	<key>CONTACT_FIELD_GIVEN_NAME</key>
+	<string>名字</string>
+	<key>CONTACT_FIELD_MIDDLE_NAME</key>
+	<string>中間名</string>
+	<key>CONTACT_FIELD_NAME_PREFIX</key>
+	<string>前綴名</string>
+	<key>CONTACT_FIELD_NAME_SUFFIX</key>
+	<string>後綴名</string>
+	<key>CONTACT_FIELD_ORGANIZATION</key>
+	<string>組織</string>
+	<key>CONTACT_PHONE</key>
+	<string>電話號碼</string>
+	<key>CONTACT_PICKER_NO_EMAILS_AVAILABLE</key>
+	<string>無可使用的email地址</string>
+	<key>CONTACT_PICKER_NO_PHONE_NUMBERS_AVAILABLE</key>
+	<string>無可使用的電話號碼</string>
+	<key>CONTACT_PICKER_TITLE</key>
+	<string>選擇連絡人</string>
+	<key>CONTACT_SHARE_APPROVAL_VIEW_TITLE</key>
+	<string>分享連絡人</string>
+	<key>CONTACT_SHARE_EDIT_NAME_VIEW_TITLE</key>
+	<string>編輯姓名</string>
+	<key>CONTACT_SHARE_INVALID_CONTACT</key>
+	<string>無效的連絡人。</string>
+	<key>CONTACT_SHARE_NO_FIELDS_SELECTED</key>
+	<string>未選擇連絡人欄位。</string>
+	<key>CONTACT_SUPPORT</key>
+	<string>聯絡支援</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_ALERT_BODY</key>
+	<string>Signal 無法完成你的支援請求。</string>
+	<key>CONTACT_SUPPORT_PROMPT_ERROR_TRY_AGAIN</key>
+	<string>再試一次</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_MESSAGE</key>
+	<string>你的錯誤偵測紀錄將幫助我們盡快的解決你的問題。上傳你的紀錄是選擇性的。</string>
+	<key>CONTACT_SUPPORT_PROMPT_TO_INCLUDE_DEBUG_LOG_TITLE</key>
+	<string>要上傳錯誤偵測紀錄？</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITHOUT_LOG</key>
+	<string>上傳不含錯誤偵測紀錄</string>
+	<key>CONTACT_SUPPORT_SUBMIT_WITH_LOG</key>
+	<string>上傳錯誤偵測紀錄</string>
+	<key>CONTACT_VIEW_OPEN_ADDRESS_IN_MAPS_APP</key>
+	<string>用地圖開啟</string>
+	<key>CONTACT_VIEW_OPEN_EMAIL_IN_EMAIL_APP</key>
+	<string>傳送 Email</string>
+	<key>CONTACT_WITHOUT_NAME</key>
+	<string>取消命名聯絡人</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_MESSAGE</key>
+	<string>此無法被撤銷。</string>
+	<key>CONVERSATION_DELETE_CONFIRMATION_ALERT_TITLE</key>
+	<string>刪除對話？</string>
+	<key>CONVERSATION_MEDIA_VIEW_DOWNLOAD_IMAGE</key>
+	<string>下載</string>
+	<key>CONVERSATION_PICKER_CAN_SELECT_NO_MORE_CONVERSATIONS</key>
+	<string>你不能選擇超過%@的對話。</string>
+	<key>CONVERSATION_PICKER_SECTION_GROUPS</key>
+	<string>群組</string>
+	<key>CONVERSATION_PICKER_SECTION_RECENTS</key>
+	<string>最近的對話</string>
+	<key>CONVERSATION_PICKER_SECTION_SIGNAL_CONTACTS</key>
+	<string>人們</string>
+	<key>CONVERSATION_PICKER_TITLE</key>
+	<string>選擇收件者</string>
+	<key>CONVERSATION_SEARCH_NO_RESULTS</key>
+	<string>不相符</string>
+	<key>CONVERSATION_SEARCH_ONE_RESULT</key>
+	<string>1 項相符</string>
+	<key>CONVERSATION_SEARCH_RESULTS_FORMAT</key>
+	<string>%d 之 %d 個相符</string>
+	<key>CONVERSATION_SETTINGS</key>
+	<string>對話設定</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_EXISTING_CONTACT</key>
+	<string>加入現有的聯絡人</string>
+	<key>CONVERSATION_SETTINGS_ADD_TO_SYSTEM_CONTACTS</key>
+	<string>新增系統聯絡人</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_GROUP</key>
+	<string>封鎖這個群組</string>
+	<key>CONVERSATION_SETTINGS_BLOCK_THIS_USER</key>
+	<string>封鎖這個聯絡人</string>
+	<key>CONVERSATION_SETTINGS_CONTACT_INFO_TITLE</key>
+	<string>使用者資訊</string>
+	<key>CONVERSATION_SETTINGS_CONVERSATION_COLOR</key>
+	<string>對話顏色</string>
+	<key>CONVERSATION_SETTINGS_GROUP_INFO_TITLE</key>
+	<string>群組資訊</string>
+	<key>CONVERSATION_SETTINGS_MUTED_UNTIL_FORMAT</key>
+	<string>直到%@</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ACTION_SHEET_TITLE</key>
+	<string>靜音通知</string>
+	<key>CONVERSATION_SETTINGS_MUTE_LABEL</key>
+	<string>靜音對話</string>
+	<key>CONVERSATION_SETTINGS_MUTE_NOT_MUTED</key>
+	<string>停止靜音通知</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_DAY_ACTION</key>
+	<string>靜音一天</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_HOUR_ACTION</key>
+	<string>靜音一小時</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_MINUTE_ACTION</key>
+	<string>靜音一分鐘</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_WEEK_ACTION</key>
+	<string>靜音一週</string>
+	<key>CONVERSATION_SETTINGS_MUTE_ONE_YEAR_ACTION</key>
+	<string>靜音一年</string>
+	<key>CONVERSATION_SETTINGS_NEW_CONTACT</key>
+	<string>建立新聯絡人</string>
+	<key>CONVERSATION_SETTINGS_SEARCH</key>
+	<string>搜尋對話</string>
+	<key>CONVERSATION_SETTINGS_TAP_TO_CHANGE</key>
+	<string>點擊以變更</string>
+	<key>CONVERSATION_SETTINGS_UNMUTE_ACTION</key>
+	<string>解除靜音</string>
+	<key>CONVERSATION_SETTINGS_VIEW_IS_SYSTEM_CONTACT</key>
+	<string>此使用者在你的聯絡人中</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_GROUP</key>
+	<string>此群組可看見你的資訊</string>
+	<key>CONVERSATION_SETTINGS_VIEW_PROFILE_IS_SHARED_WITH_USER</key>
+	<string>這個使用者可以看見你的資訊</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE</key>
+	<string>分享資訊</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_GROUP</key>
+	<string>分享你的個人資訊</string>
+	<key>CONVERSATION_SETTINGS_VIEW_SHARE_PROFILE_WITH_USER</key>
+	<string>分享你的個人資訊</string>
+	<key>CONVERSATION_VIEW_ADD_TO_CONTACTS_OFFER</key>
+	<string>新增到聯絡資訊</string>
+	<key>CONVERSATION_VIEW_ADD_USER_TO_PROFILE_WHITELIST_OFFER</key>
+	<string>與這個使用者分享你的個人資訊</string>
+	<key>CONVERSATION_VIEW_CONTACTS_OFFER_TITLE</key>
+	<string>此使用者不在聯絡資訊中</string>
+	<key>CONVERSATION_VIEW_LOADING_MORE_MESSAGES</key>
+	<string>讀取更多的訊息中...</string>
+	<key>CONVERSATION_VIEW_OVERSIZE_TEXT_TAP_FOR_MORE</key>
+	<string>點擊已獲得更多資訊</string>
+	<key>CONVERSATION_VIEW_UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>封鎖這個聯絡人</string>
+	<key>CORRUPTED_SESSION_DESCRIPTION</key>
+	<string>重設會話將讓你接收來自%@的訊息，但已毀損的訊息將不會被復原。</string>
+	<key>COUNTRYCODE_SELECT_TITLE</key>
+	<string>選擇國碼</string>
+	<key>CROP_SCALE_IMAGE_VIEW_TITLE</key>
+	<string>移動與更改大小</string>
+	<key>DATABASE_VIEW_OVERLAY_SUBTITLE</key>
+	<string>這會花點時間。</string>
+	<key>DATABASE_VIEW_OVERLAY_TITLE</key>
+	<string>最佳化資料庫</string>
+	<key>DATE_HOURS_AGO_FORMAT</key>
+	<string>%@小時前</string>
+	<key>DATE_MINUTES_AGO_FORMAT</key>
+	<string>%@分鐘前</string>
+	<key>DATE_NOW</key>
+	<string>當前</string>
+	<key>DATE_TODAY</key>
+	<string>今天</string>
+	<key>DATE_YESTERDAY</key>
+	<string>昨天</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_COPY_LOGS</key>
+	<string>無法複製日誌。</string>
+	<key>DEBUG_LOG_ALERT_COULD_NOT_PACKAGE_LOGS</key>
+	<string>無法打包日誌。</string>
+	<key>DEBUG_LOG_ALERT_ERROR_UPLOADING_LOG</key>
+	<string>無法上傳日誌。</string>
+	<key>DEBUG_LOG_ALERT_MESSAGE</key>
+	<string>你要怎麼把這連結傳送到這偵錯日誌？</string>
+	<key>DEBUG_LOG_ALERT_NO_LOGS</key>
+	<string>無法發現任何日誌。</string>
+	<key>DEBUG_LOG_ALERT_OPTION_BUG_REPORT</key>
+	<string>開啟一個錯誤報告</string>
+	<key>DEBUG_LOG_ALERT_OPTION_COPY_LINK</key>
+	<string>複製連結</string>
+	<key>DEBUG_LOG_ALERT_OPTION_EMAIL</key>
+	<string>電子郵件支援</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SEND_TO_SELF</key>
+	<string>傳送給自己</string>
+	<key>DEBUG_LOG_ALERT_OPTION_SHARE</key>
+	<string>分享</string>
+	<key>DEBUG_LOG_ALERT_TITLE</key>
+	<string>再一個步驟</string>
+	<key>DEBUG_LOG_COULD_NOT_EMAIL</key>
+	<string>無法開啟電子郵件軟體。</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_MESSAGE</key>
+	<string>本連結已複製至剪貼簿。你現在將導至 GitHub 錯誤回報列表。</string>
+	<key>DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE</key>
+	<string>重定向至 GitHub</string>
+	<key>DEREGISTRATION_REREGISTER_WITH_SAME_PHONE_NUMBER</key>
+	<string>重新註冊此電話號碼</string>
+	<key>DEREGISTRATION_WARNING</key>
+	<string>本裝置不再被註冊。你的電話號碼可能被註冊於不同的裝置。點取來重新註冊。</string>
+	<key>DEVICE_LAST_ACTIVE_AT_LABEL</key>
+	<string>最近一次上線時間：%@</string>
+	<key>DEVICE_LINKED_AT_LABEL</key>
+	<string>從%@已連結</string>
+	<key>DEVICE_LIST_UPDATE_FAILED_TITLE</key>
+	<string>更新裝置列表失敗</string>
+	<key>DISAPPEARING_MESSAGES</key>
+	<string>自動銷毀訊息</string>
+	<key>DISAPPEARING_MESSAGES_CONFIGURATION_GROUP_EXISTING_FORMAT</key>
+	<string>在本對話的訊息將於%@之後消失。</string>
+	<key>DISAPPEARING_MESSAGES_DESCRIPTION</key>
+	<string>開啟此功能後，在對話視窗中寄出或接收的訊息在讀取後銷毀。</string>
+	<key>DISAPPEARING_MESSAGES_HINT</key>
+	<string>此訊息在%@後銷毀</string>
+	<key>DISAPPEARING_MESSAGES_LABEL</key>
+	<string>自動銷毀訊息設定</string>
+	<key>DISMISS_BUTTON_TEXT</key>
+	<string>取消</string>
+	<key>DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER</key>
+	<string>審查規避</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY</key>
+	<string>你可以在 iOS 設定中允許取用。</string>
+	<key>EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE</key>
+	<string>Signal 須要存取聯絡資訊以編輯聯絡人資訊</string>
+	<key>EDIT_GROUP_ACTION</key>
+	<string>編輯群組</string>
+	<key>EDIT_GROUP_CONTACTS_SECTION_TITLE</key>
+	<string>聯絡資訊</string>
+	<key>EDIT_GROUP_DEFAULT_TITLE</key>
+	<string>編輯群組</string>
+	<key>EDIT_GROUP_NEW_MEMBER_LABEL</key>
+	<string>已新增</string>
+	<key>EDIT_GROUP_UPDATE_BUTTON</key>
+	<string>更新</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>你要儲存對這個群組的變更嗎？</string>
+	<key>EDIT_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>未儲存的變更</string>
+	<key>EDIT_ITEM_COPY_ACTION</key>
+	<string>複製</string>
+	<key>EMAIL_INVITE_BODY</key>
+	<string>嗨，
+
+我最近開始使用 Signal 來維護在iPhone 上聊天時的隱私安全。我希望你也可以安裝這個軟體，這樣我們就可以放心的傳訊息或講電話。
+
+Signal 在iPhone 及Android 上都可以使用，從這裡下載：%@
+
+Signal 就與現有的通訊軟體一樣，你可以傳圖片或影片、打電話，及群組聊天。最棒的是沒有其他人看得見內容，就算是Signal 的開發者。
+
+你可以連結到 Open Whisper Systems的網頁去了解更多的細節：%@</string>
+	<key>EMAIL_INVITE_SUBJECT</key>
+	<string>讓我們改用 Signal</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE1</key>
+	<string>你的聯絡資訊中沒有人使用 Signal。</string>
+	<key>EMPTY_CONTACTS_LABEL_LINE2</key>
+	<string>為什麼不邀請朋友呢？</string>
+	<key>ENABLE_2FA_VIEW_CONFIRM_PIN_INSTRUCTIONS</key>
+	<string>確認你的 PIN 碼。</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_DISABLE_2FA</key>
+	<string>無法關閉註冊鎖定。</string>
+	<key>ENABLE_2FA_VIEW_COULD_NOT_ENABLE_2FA</key>
+	<string>無法啟動註冊鎖定。</string>
+	<key>ENABLE_2FA_VIEW_DISABLE_2FA</key>
+	<string>關閉</string>
+	<key>ENABLE_2FA_VIEW_ENABLE_2FA</key>
+	<string>啟動</string>
+	<key>ENABLE_2FA_VIEW_NEXT_BUTTON</key>
+	<string>下一步</string>
+	<key>ENABLE_2FA_VIEW_PIN_DOES_NOT_MATCH</key>
+	<string>PIN 碼不匹配。</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_LONG</key>
+	<string>PIN 碼不再能超過20個數字。</string>
+	<key>ENABLE_2FA_VIEW_PIN_TOO_SHORT</key>
+	<string>PIN 碼必需至少 4 個數字。</string>
+	<key>ENABLE_2FA_VIEW_SELECT_PIN_INSTRUCTIONS</key>
+	<string>輸入一個註冊鎖定 PIN 碼。未來若你用此電話號碼註冊於 Signal ，你將被要求輸入這個 PIN 碼。</string>
+	<key>ENABLE_2FA_VIEW_STATUS_DISABLED_INSTRUCTIONS</key>
+	<string>為了增加安全性，未來若要以此電話號碼再次註冊於 Signal ，你就必須啟動註冊鎖定 PIN 碼。</string>
+	<key>ENABLE_2FA_VIEW_STATUS_ENABLED_INSTRUCTIONS</key>
+	<string>註冊鎖定功能已啟動。未來你若要使用此電話號碼再次註冊於 Signal，你必須輸入你的 PIN 碼。</string>
+	<key>ENABLE_2FA_VIEW_TITLE</key>
+	<string>註冊鎖定</string>
+	<key>END_CALL_RESPONDER_IS_BUSY</key>
+	<string>忙線中</string>
+	<key>END_CALL_UNCATEGORIZED_FAILURE</key>
+	<string>撥號失敗。</string>
+	<key>END_OF_LIFE_OS_WARNING</key>
+	<string>最新版的 Signal 功能在此版本的 iOS上無法運作。 請升級此裝置以接收未來的 Signal 更新。</string>
+	<key>ERROR_COULD_NOT_FETCH_CONTACTS</key>
+	<string>無法讀取聯絡人。</string>
+	<key>ERROR_COULD_NOT_SAVE_VIDEO</key>
+	<string>無法儲存影片。</string>
+	<key>ERROR_DESCRIPTION_CLIENT_SENDING_FAILURE</key>
+	<string>訊息傳送失敗。</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_DISABLED_PREKEY_UPDATE_FAILURES</key>
+	<string>因過舊的密鑰資料而無法傳送。</string>
+	<key>ERROR_DESCRIPTION_MESSAGE_SEND_FAILED_DUE_TO_BLOCK_LIST</key>
+	<string>無法傳送訊息給此人，因為被你封鎖了。</string>
+	<key>ERROR_DESCRIPTION_NO_INTERNET</key>
+	<string>Signal 無法連接網際網路，請再重試一遍。</string>
+	<key>ERROR_DESCRIPTION_NO_VALID_RECIPIENTS</key>
+	<string>訊息無法傳送，因為沒有有效的傳送對象。</string>
+	<key>ERROR_DESCRIPTION_REQUEST_FAILED</key>
+	<string>連線要求失敗。</string>
+	<key>ERROR_DESCRIPTION_REQUEST_TIMED_OUT</key>
+	<string>網路要求超時。</string>
+	<key>ERROR_DESCRIPTION_RESPONSE_FAILED</key>
+	<string>服務的無效回應。</string>
+	<key>ERROR_DESCRIPTION_SENDING_UNAUTHORIZED</key>
+	<string>你的電話號碼不再註冊於本裝置。請重新安裝 Signal。</string>
+	<key>ERROR_DESCRIPTION_SERVER_FAILURE</key>
+	<string>伺服器錯誤。請稍候再試。</string>
+	<key>ERROR_DESCRIPTION_UNKNOWN_ERROR</key>
+	<string>未知錯誤發生。</string>
+	<key>ERROR_DESCRIPTION_UNREGISTERED_RECIPIENT</key>
+	<string>此聯絡人不是 Signal 使用者。</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_DOWNLOAD_FAILED</key>
+	<string>附件下載失敗。</string>
+	<key>ERROR_MESSAGE_ATTACHMENT_FROM_OLD_CLIENT</key>
+	<string>附檔失敗：請要求此聯絡人更新到Signal最新版本，並再重傳一次。</string>
+	<key>ERROR_MESSAGE_DUPLICATE_MESSAGE</key>
+	<string>接收到重複的訊息。</string>
+	<key>ERROR_MESSAGE_INVALID_KEY_EXCEPTION</key>
+	<string>接收者的金鑰無效。</string>
+	<key>ERROR_MESSAGE_INVALID_MESSAGE</key>
+	<string>收到的訊息沒有被同步。</string>
+	<key>ERROR_MESSAGE_INVALID_VERSION</key>
+	<string>接收到的訊息並不相容於此版本。</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE</key>
+	<string>安全碼已經改變。</string>
+	<key>ERROR_MESSAGE_NON_BLOCKING_IDENTITY_CHANGE_FORMAT</key>
+	<string>你與 %@ 的安全碼已經改變。</string>
+	<key>ERROR_MESSAGE_NO_SESSION</key>
+	<string>沒有對象的會話。</string>
+	<key>ERROR_MESSAGE_UNKNOWN_ERROR</key>
+	<string>未知的錯誤發生。</string>
+	<key>ERROR_MESSAGE_WRONG_TRUSTED_IDENTITY_KEY</key>
+	<string>安全碼已變更。</string>
+	<key>ERROR_SENDING_DELINKED</key>
+	<string>你的裝置已不再與其他裝置連結。請重新連結以發送更多訊息。</string>
+	<key>ERROR_SENDING_DEREGISTERED</key>
+	<string>你的裝置不再被註冊。請重新註冊以傳送更堆訊息。</string>
+	<key>ERROR_SENDING_EXPIRED</key>
+	<string>你的 Signal 版本已過期。請更新以傳送訊息。</string>
+	<key>ERROR_UNREGISTERED_USER_FORMAT</key>
+	<string>未註冊的使用者: %@</string>
+	<key>EXPIRATION_ERROR</key>
+	<string>你的 Signal 版本已過期！訊息將無法成功傳送。點擊以更新到最新版本。</string>
+	<key>EXPIRATION_WARNING_SOON</key>
+	<string>您的 Signal 版本將於 %d 日內到期，請更新至最新版本。</string>
+	<key>EXPIRATION_WARNING_TODAY</key>
+	<string>您的 Signal 版本今日到期，請更新至最新版本。</string>
+	<key>FAILED_SENDING_BECAUSE_RATE_LIMIT</key>
+	<string>此聯繫人失敗太多次，請稍後再試。</string>
+	<key>FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_KEY</key>
+	<string>你與%@的安全碼最近已改變。請與對方驗證後再重傳一次訊息。</string>
+	<key>FAILED_VERIFICATION_TITLE</key>
+	<string>驗證安全碼失敗！</string>
+	<key>FINGERPRINT_SCAN_VERIFY_BUTTON</key>
+	<string>標記為已驗證</string>
+	<key>FINGERPRINT_SHRED_KEYMATERIAL_BUTTON</key>
+	<string>重設會話</string>
+	<key>FINISH_GROUP_CREATION_LABEL</key>
+	<string>完成創建群組</string>
+	<key>FORWARD_CONTACT</key>
+	<string>轉寄聯絡人</string>
+	<key>FORWARD_MESSAGE</key>
+	<string>轉寄訊息</string>
+	<key>GALLERY_TILES_EMPTY_GALLERY</key>
+	<string>你在此對話中沒有任何多媒體檔案。</string>
+	<key>GALLERY_TILES_LOADING_MORE_RECENT_LABEL</key>
+	<string>讀取較新的媒體檔中...</string>
+	<key>GALLERY_TILES_LOADING_OLDER_LABEL</key>
+	<string>讀取較舊的媒體檔中...</string>
+	<key>GENERIC_ATTACHMENT_LABEL</key>
+	<string>附件</string>
+	<key>GIF_PICKER_ERROR_FETCH_FAILURE</key>
+	<string>無法讀取所要求的 GIF。請確認你是否在線上。</string>
+	<key>GIF_PICKER_ERROR_GENERIC</key>
+	<string>一個未知的錯誤發生。</string>
+	<key>GIF_PICKER_FAILURE_ALERT_TITLE</key>
+	<string>無法選擇 GIF</string>
+	<key>GIF_PICKER_VIEW_MISSING_QUERY</key>
+	<string>請輸入你的搜尋。</string>
+	<key>GIF_PICKER_VIEW_TITLE</key>
+	<string>GIF 搜尋</string>
+	<key>GIF_VIEW_SEARCH_ERROR</key>
+	<string>錯誤。點擊重試。</string>
+	<key>GIF_VIEW_SEARCH_NO_RESULTS</key>
+	<string>沒有結果。</string>
+	<key>GIF_VIEW_SEARCH_PLACEHOLDER_TEXT</key>
+	<string>輸入你的搜尋</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_BODY</key>
+	<string>此版本的 Signal 包括資料庫的最佳化及效能的改善。你可能須要開啟應用程式才能完成該過程。</string>
+	<key>GRDB_MIGRATION_NOTIFICATION_TITLE</key>
+	<string>最佳化資料庫</string>
+	<key>GROUP_CREATED</key>
+	<string>群組已建立。</string>
+	<key>GROUP_CREATED_BY_LOCAL_USER</key>
+	<string>你建立了一個群組。</string>
+	<key>GROUP_CREATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@新增你到此群組。</string>
+	<key>GROUP_CREATION_FAILED</key>
+	<string>不是所有的組員都可以加入此群組。請點擊重試。</string>
+	<key>GROUP_MANAGEMENT_SECTION</key>
+	<string>群組管理</string>
+	<key>GROUP_MEMBERS_CALL</key>
+	<string>撥打</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED</key>
+	<string>清除所有人的驗證</string>
+	<key>GROUP_MEMBERS_RESET_NO_LONGER_VERIFIED_ALERT_MESSAGE</key>
+	<string>這會清除群組中所有自最後一次驗證以來安全碼改變的組員的驗證。</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_MEMBERS</key>
+	<string>組員</string>
+	<key>GROUP_MEMBERS_SECTION_TITLE_NO_LONGER_VERIFIED</key>
+	<string>不再標示為已驗證</string>
+	<key>GROUP_MEMBERS_SEND_MESSAGE</key>
+	<string>訊息</string>
+	<key>GROUP_MEMBER_LEFT</key>
+	<string>%@離開了群組。</string>
+	<key>GROUP_UPDATED</key>
+	<string>群組已更新。</string>
+	<key>GROUP_UPDATED_ADDED_MULTIPLE_MEMBERS_FORMAT</key>
+	<string>%@及%@加入了此群組。</string>
+	<key>GROUP_UPDATED_ADDED_ONE_MEMBER_FORMAT</key>
+	<string>%@已加入了此群組。</string>
+	<key>GROUP_UPDATED_AVATAR_REMOVED</key>
+	<string>已移除了此群組的頭像。</string>
+	<key>GROUP_UPDATED_AVATAR_UPDATED</key>
+	<string>已更新了此群組的頭像。</string>
+	<key>GROUP_UPDATED_BY_LOCAL_USER</key>
+	<string>你已更新群組。</string>
+	<key>GROUP_UPDATED_BY_REMOTE_USER_FORMAT</key>
+	<string>%@更新了此群組。</string>
+	<key>GROUP_UPDATED_NAME_REMOVED</key>
+	<string>已移除了此名字。</string>
+	<key>GROUP_UPDATED_NAME_UPDATED_FORMAT</key>
+	<string>群組名稱現在是"%@"。</string>
+	<key>GROUP_UPDATED_READDED_YOU</key>
+	<string>將你重新新增到該群組。</string>
+	<key>GROUP_YOU_LEFT</key>
+	<string>你已退出了群組。</string>
+	<key>HOME_VIEW_ARCHIVED_CONVERSATIONS</key>
+	<string>封存對話</string>
+	<key>HOME_VIEW_BLOCKED_CONVERSATION</key>
+	<string>已封鎖</string>
+	<key>HOME_VIEW_CONVERSATION_SEARCHBAR_PLACEHOLDER</key>
+	<string>搜尋</string>
+	<key>HOME_VIEW_DRAFT_PREFIX</key>
+	<string>草稿:</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT</key>
+	<string>有些你的聯絡人已經在使用 Signal了，包括%@。</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT</key>
+	<string>有些你的聯絡人已經在使用Signal 了，包括 %@ 及%@。</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT</key>
+	<string>有些你的聯絡人已經在使用 Signal 了，包括 %@、%@及%@。</string>
+	<key>HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS</key>
+	<string>從這裡開始使用你的第一個對話。</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_ADDED_TO_GROUP_FORMAT</key>
+	<string>%@新增你到群組</string>
+	<key>HOME_VIEW_MESSAGE_REQUEST_CONVERSATION</key>
+	<string>訊息要求</string>
+	<key>HOME_VIEW_SEARCH_NO_RESULTS_FORMAT</key>
+	<string>找不到有關 '%@' 的結果</string>
+	<key>HOME_VIEW_TITLE_ARCHIVE</key>
+	<string>封存</string>
+	<key>HOME_VIEW_TITLE_INBOX</key>
+	<string>Signal</string>
+	<key>IMAGE_PICKER_CAN_SELECT_NO_MORE_TOAST_FORMAT</key>
+	<string>你無法分享超過%@個項目。</string>
+	<key>IMAGE_PICKER_FAILED_TO_PROCESS_ATTACHMENTS</key>
+	<string>無法選擇附檔。</string>
+	<key>INBOX_VIEW_ARCHIVE_MODE_REMINDER</key>
+	<string>這些對話已經封存，並只有在收到新訊息時才會顯示在收件箱中。</string>
+	<key>INBOX_VIEW_EMPTY_INBOX</key>
+	<string>何不給你的收件夾寫些東西呢？從發個訊息給好友開始吧！</string>
+	<key>INBOX_VIEW_MISSING_CONTACTS_PERMISSION</key>
+	<string>你可以在 iOS設定中允許取用聯絡資訊，以在你的 Signal 對話清單中見到聯絡人名稱。</string>
+	<key>INCOMING_CALL</key>
+	<string>來電...</string>
+	<key>INCOMING_DECLINED_CALL</key>
+	<string>你拒絕了來電</string>
+	<key>INCOMING_INCOMPLETE_CALL</key>
+	<string>來電</string>
+	<key>INFO_MESSAGE_MISSED_CALL_DUE_TO_CHANGED_IDENITY</key>
+	<string>未接來電，因聯絡人的安全碼改變。</string>
+	<key>INFO_MESSAGE_SYNCED_THREAD</key>
+	<string>你可以從手機或iPad傳送或接收同步的訊息。↵為了安全起見，對話紀錄不會轉移到新的連結裝置上。</string>
+	<key>INFO_MESSAGE_USER_JOINED_SIGNAL_BODY_FORMAT</key>
+	<string>%@在 Signal 上!</string>
+	<key>INPUT_TOOLBAR_STICKER_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>貼圖</string>
+	<key>INPUT_TOOLBAR_VOICE_MEMO_BUTTON_ACCESSIBILITY_LABEL</key>
+	<string>語音訊息</string>
+	<key>INVALID_AUDIO_FILE_ALERT_ERROR_MESSAGE</key>
+	<string>無效的音訊檔。</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_BODY</key>
+	<string>你可以在 iOS設定中允許取用聯絡資訊來邀請你的朋友加入 Signal。</string>
+	<key>INVITE_FLOW_REQUIRES_CONTACT_ACCESS_TITLE</key>
+	<string>允許聯絡資訊存取</string>
+	<key>INVITE_FRIENDS_CONTACT_TABLE_BUTTON</key>
+	<string>邀請朋友使用 Signal</string>
+	<key>INVITE_FRIENDS_PICKER_SEARCHBAR_PLACEHOLDER</key>
+	<string>搜尋</string>
+	<key>INVITE_FRIENDS_PICKER_TITLE</key>
+	<string>邀請朋友</string>
+	<key>INVITE_WARNING_MULTIPLE_INVITES_BY_TEXT</key>
+	<string>同時邀請多個使用者降啟動群組訊息功能，接收者將因此可以見到對方。</string>
+	<key>IN_CALL_CONNECTING</key>
+	<string>連接中...</string>
+	<key>IN_CALL_RECONNECTING</key>
+	<string>重新連接中...</string>
+	<key>IN_CALL_RINGING</key>
+	<string>響鈴中...</string>
+	<key>IN_CALL_SECURING</key>
+	<string>已接通。加密中...</string>
+	<key>IN_CALL_TERMINATED</key>
+	<string>結束通話。</string>
+	<key>KEEP_MESSAGES_DURATION</key>
+	<string>訊息在%@後消毀。</string>
+	<key>KEEP_MESSAGES_FOREVER</key>
+	<string> 訊息不會銷毀。</string>
+	<key>KEY_COMMAND_ALL_MEDIA</key>
+	<string>前往所有的媒體</string>
+	<key>KEY_COMMAND_ARCHIVE</key>
+	<string>封存對話</string>
+	<key>KEY_COMMAND_ATTACHMENTS</key>
+	<string>顯示附件</string>
+	<key>KEY_COMMAND_CONVERSATION_INFO</key>
+	<string>前往對話資訊</string>
+	<key>KEY_COMMAND_FOCUS_COMPOSER</key>
+	<string>焦點輸入列</string>
+	<key>KEY_COMMAND_GIF_SEARCH</key>
+	<string>前往 GIF 搜尋</string>
+	<key>KEY_COMMAND_NEW_GROUP</key>
+	<string>新群組</string>
+	<key>KEY_COMMAND_NEW_MESSAGE</key>
+	<string>新訊息</string>
+	<key>KEY_COMMAND_NEXT_CONVERSATION</key>
+	<string>前往下一個對話</string>
+	<key>KEY_COMMAND_PREVIOUS_CONVERSATION</key>
+	<string>前往前一個對話</string>
+	<key>KEY_COMMAND_SEARCH</key>
+	<string>搜尋</string>
+	<key>KEY_COMMAND_SETTINGS</key>
+	<string>設定</string>
+	<key>KEY_COMMAND_STICKERS</key>
+	<string>顯示貼圖</string>
+	<key>KEY_COMMAND_UNARCHIVE</key>
+	<string>不封存對話</string>
+	<key>LEAVE_BUTTON_TITLE</key>
+	<string>離開</string>
+	<key>LEAVE_GROUP_ACTION</key>
+	<string>離開群組</string>
+	<key>LEAVE_GROUP_FAILED</key>
+	<string>離開群組時發生錯誤。</string>
+	<key>LINKED_DEVICES_TITLE</key>
+	<string>已連結的裝置</string>
+	<key>LINKING_DEVICE_FAILED_TITLE</key>
+	<string>裝置連結失敗</string>
+	<key>LINK_DEVICE_INVALID_CODE_BODY</key>
+	<string>這個 QR 碼無效。請確定您正在掃描要連接的裝置上顯示的QR碼。</string>
+	<key>LINK_DEVICE_INVALID_CODE_TITLE</key>
+	<string>裝置連結失敗</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_BODY</key>
+	<string>本裝置將可見到你的群組、聯絡人、連接你的對話及以你的名字傳送訊息。</string>
+	<key>LINK_DEVICE_PERMISSION_ALERT_TITLE</key>
+	<string>連結裝置？</string>
+	<key>LINK_DEVICE_RESTART</key>
+	<string>重試</string>
+	<key>LINK_DEVICE_SCANNING_INSTRUCTIONS</key>
+	<string>請掃描要連接的裝置上顯示的 QR 碼。</string>
+	<key>LINK_NEW_DEVICE_SUBTITLE</key>
+	<string>掃描 QR code</string>
+	<key>LINK_NEW_DEVICE_TITLE</key>
+	<string>連結新的裝置</string>
+	<key>LINK_PREVIEW_UNKNOWN_DOMAIN</key>
+	<string>連結預覽</string>
+	<key>LIST_GROUP_MEMBERS_ACTION</key>
+	<string>群組組員</string>
+	<key>LOCATION_PICKER_SEARCH_PLACEHOLDER</key>
+	<string>以名字或地址來搜尋</string>
+	<key>LOCATION_PICKER_TITLE</key>
+	<string>選擇位置</string>
+	<key>LOGGING_SECTION</key>
+	<string>紀錄中</string>
+	<key>LONG_TEXT_VIEW_TITLE</key>
+	<string>訊息</string>
+	<key>MEDIA_DETAIL_VIEW_ALL_MEDIA_BUTTON</key>
+	<string>所有的多媒體檔案</string>
+	<key>MEDIA_FROM_CAMERA_BUTTON</key>
+	<string>相機</string>
+	<key>MEDIA_FROM_LIBRARY_BUTTON</key>
+	<string>照片庫</string>
+	<key>MEDIA_GALLERY_DELETE_MULTIPLE_MESSAGES_FORMAT</key>
+	<string>刪除 %d 訊息</string>
+	<key>MEDIA_GALLERY_DELETE_SINGLE_MESSAGE</key>
+	<string>刪除訊息</string>
+	<key>MEDIA_GALLERY_MORE_ITEMS_FORMAT</key>
+	<string>+%@</string>
+	<key>MEDIA_GALLERY_SENDER_NAME_YOU</key>
+	<string>你</string>
+	<key>MEDIA_GALLERY_THIS_MONTH_HEADER</key>
+	<string>本月</string>
+	<key>MEGAPHONE_REMIND_LATER</key>
+	<string>稍後提醒我</string>
+	<key>MEGAPHONE_WILL_REMIND_LATER</key>
+	<string>我們將稍後提醒你。</string>
+	<key>MESSAGES_VIEW_1_MEMBER_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>%@已不再標記為已驗證。點擊開啟選項。</string>
+	<key>MESSAGES_VIEW_CONTACT_BLOCKED</key>
+	<string>你封鎖了此使用者</string>
+	<key>MESSAGES_VIEW_CONTACT_NO_LONGER_VERIFIED_FORMAT</key>
+	<string>%@已不再標記為已驗證。點擊開啟選項。</string>
+	<key>MESSAGES_VIEW_GROUP_1_MEMBER_BLOCKED</key>
+	<string>你封鎖了此群組的一個組員</string>
+	<key>MESSAGES_VIEW_GROUP_BLOCKED</key>
+	<string>你已封鎖了這個群組</string>
+	<key>MESSAGES_VIEW_GROUP_N_MEMBERS_BLOCKED_FORMAT</key>
+	<string>你封鎖了此群組中的 %@個組員</string>
+	<key>MESSAGES_VIEW_N_MEMBERS_NO_LONGER_VERIFIED</key>
+	<string>此群組中多個組員不再標記為已驗證。點擊開啟選項。</string>
+	<key>MESSAGES_VIEW_TITLE_SUBTITLE</key>
+	<string>點擊這裡前往設定</string>
+	<key>MESSAGES_VIEW_UNREAD_INDICATOR</key>
+	<string>新訊息</string>
+	<key>MESSAGE_ACTION_COPY_TEXT</key>
+	<string>複製訊息文字</string>
+	<key>MESSAGE_ACTION_DELETE_MESSAGE</key>
+	<string>刪除此訊息</string>
+	<key>MESSAGE_ACTION_DETAILS</key>
+	<string>更多資訊</string>
+	<key>MESSAGE_ACTION_FORWARD_MESSAGE</key>
+	<string>轉寄此訊息</string>
+	<key>MESSAGE_ACTION_REPLY</key>
+	<string>回覆這個訊息</string>
+	<key>MESSAGE_ACTION_SHARE_MEDIA</key>
+	<string>分享多媒體檔案</string>
+	<key>MESSAGE_APPROVAL_DIALOG_TITLE</key>
+	<string>訊息</string>
+	<key>MESSAGE_COMPOSEVIEW_TITLE</key>
+	<string>新訊息</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_FILE_SIZE</key>
+	<string>檔案大小</string>
+	<key>MESSAGE_METADATA_VIEW_ATTACHMENT_MIME_TYPE</key>
+	<string>MIME 類型</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_DELIVERED</key>
+	<string>已傳送</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_FAILED</key>
+	<string>失敗</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_READ</key>
+	<string>已讀</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENDING</key>
+	<string>傳送中</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SENT</key>
+	<string>已傳送</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_SKIPPED</key>
+	<string>略過</string>
+	<key>MESSAGE_METADATA_VIEW_MESSAGE_STATUS_UPLOADING</key>
+	<string>上傳中</string>
+	<key>MESSAGE_METADATA_VIEW_NO_ATTACHMENT_OR_BODY</key>
+	<string>該訊息沒有內容或附件。</string>
+	<key>MESSAGE_METADATA_VIEW_RECEIVED_DATE_TIME</key>
+	<string>已接收</string>
+	<key>MESSAGE_METADATA_VIEW_SENDER</key>
+	<string>發件人</string>
+	<key>MESSAGE_METADATA_VIEW_SENT_DATE_TIME</key>
+	<string>已送出</string>
+	<key>MESSAGE_METADATA_VIEW_SOURCE_FILENAME</key>
+	<string>檔案名稱</string>
+	<key>MESSAGE_METADATA_VIEW_TITLE</key>
+	<string>簡訊</string>
+	<key>MESSAGE_REQUESTS_NAMES_SPLASH_TITLE</key>
+	<string>介紹訊息請求</string>
+	<key>MESSAGE_REQUESTS_SPLASH_ADD_PROFILE_NAME_BUTTON</key>
+	<string>新增個人資訊名稱</string>
+	<key>MESSAGE_REQUESTS_SPLASH_BODY</key>
+	<string>你現在可以選擇“接受”或“刪除”新對話。 名稱讓人們知道誰在向他們傳送訊息。</string>
+	<key>MESSAGE_REQUESTS_SPLASH_MEGAPHONE_TOAST</key>
+	<string>你的個人資料名稱已被儲存。</string>
+	<key>MESSAGE_REQUEST_BLOCK_ACTION</key>
+	<string>封鎖</string>
+	<key>MESSAGE_REQUEST_BLOCK_AND_DELETE_ACTION</key>
+	<string>封鎖及刪除</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_MESSAGE</key>
+	<string>已被封鎖的人們將無法撥電話給你或傳訊息給你。</string>
+	<key>MESSAGE_REQUEST_BLOCK_CONVERSATION_TITLE_FORMAT</key>
+	<string>封鎖 %@?</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_MESSAGE</key>
+	<string>你將離開此群組及無法再接收訊息或升級。</string>
+	<key>MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT</key>
+	<string>封鎖及離開%@?</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION</key>
+	<string>刪除</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_MESSAGE</key>
+	<string>此對話將從你所有的裝置上被刪除。</string>
+	<key>MESSAGE_REQUEST_DELETE_CONVERSATION_TITLE</key>
+	<string>刪除對話？</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION</key>
+	<string>刪除及離開</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE</key>
+	<string>你將離開此群組，及它將從你所有的裝置上被刪除。</string>
+	<key>MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE</key>
+	<string>刪除及離開群組？</string>
+	<key>MESSAGE_REQUEST_VIEW_ACCEPT_BUTTON</key>
+	<string>接受</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_CONTACT_PROMPT_FORMAT</key>
+	<string>你要讓%@傳給你訊息嗎？你將不會收到任何訊息直到你解鎖他們。</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCKED_GROUP_PROMPT_FORMAT</key>
+	<string>你要讓%@撙傳送訊息給你嗎？你將不會收到任何訊息直到你解鎖他們。</string>
+	<key>MESSAGE_REQUEST_VIEW_BLOCK_BUTTON</key>
+	<string>封鎖</string>
+	<key>MESSAGE_REQUEST_VIEW_DELETE_BUTTON</key>
+	<string>刪除</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_CONTACT_PROMPT_FORMAT</key>
+	<string>你必須與%@分享你的個人資料以繼續你的對話。</string>
+	<key>MESSAGE_REQUEST_VIEW_EXISTING_GROUP_PROMPT_FORMAT</key>
+	<string>你必須與%@分享你的個人資料以繼續你的對話。</string>
+	<key>MESSAGE_REQUEST_VIEW_LEARN_MORE_BUTTON</key>
+	<string>了解更多</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_CONTACT_PROMPT_FORMAT</key>
+	<string>你願意讓%@傳給你訊息嗎？他們不知道你已經讀過他們的訊息直到你接受。</string>
+	<key>MESSAGE_REQUEST_VIEW_NEW_GROUP_PROMPT_FORMAT</key>
+	<string>你要加入這個%@群組嗎？他們不知道你已經讀過他們的訊息直到你接受。</string>
+	<key>MESSAGE_REQUEST_VIEW_SHARE_PROFILE_BUTTON</key>
+	<string>分享資訊</string>
+	<key>MESSAGE_REQUEST_VIEW_UNBLOCK_BUTTON</key>
+	<string>解除封鎖</string>
+	<key>MESSAGE_STATUS_DELIVERED</key>
+	<string>已傳送</string>
+	<key>MESSAGE_STATUS_DOWNLOADING</key>
+	<string>下載中...</string>
+	<key>MESSAGE_STATUS_FAILED</key>
+	<string>傳送失敗</string>
+	<key>MESSAGE_STATUS_FAILED_SHORT</key>
+	<string>失敗</string>
+	<key>MESSAGE_STATUS_READ</key>
+	<string>已讀</string>
+	<key>MESSAGE_STATUS_RECIPIENT_SKIPPED</key>
+	<string>略過</string>
+	<key>MESSAGE_STATUS_SENDING</key>
+	<string>傳送中...</string>
+	<key>MESSAGE_STATUS_SEND_FAILED</key>
+	<string>傳送失敗</string>
+	<key>MESSAGE_STATUS_SENT</key>
+	<string>已傳送</string>
+	<key>MESSAGE_STATUS_UPLOADING</key>
+	<string>上傳中...</string>
+	<key>MESSAGE_TEXT_FIELD_PLACEHOLDER</key>
+	<string>新訊息</string>
+	<key>MISSED_CALL</key>
+	<string>未接來電</string>
+	<key>MISSING_CAMERA_PERMISSION_MESSAGE</key>
+	<string>你可以在 iOS 設定中允許取用相機以在 Signal 中使用影像電話。</string>
+	<key>MISSING_CAMERA_PERMISSION_TITLE</key>
+	<string>Signal要求使用你的相機</string>
+	<key>MISSING_LOCATION_PERMISSION_MESSAGE</key>
+	<string>你可以在 iOS 設定中允許此權限。</string>
+	<key>MISSING_LOCATION_PERMISSION_TITLE</key>
+	<string>Signal 在此功能上要求存取你的位置。</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_MESSAGE</key>
+	<string>你可以在 iOS 設定中允許此權限。</string>
+	<key>MISSING_MEDIA_LIBRARY_PERMISSION_TITLE</key>
+	<string>Signal 要求取用你的照片才能使用此功能。</string>
+	<key>MULTIDEVICE_PAIRING_MAX_DESC</key>
+	<string>你無法連結更多的裝置。</string>
+	<key>MULTIDEVICE_PAIRING_MAX_RECOVERY</key>
+	<string>你已達到目前可以與本帳戶連結的裝置最大數量。 請刪除一個裝置，然後重試。</string>
+	<key>MUTE_BEHAVIOR_EXPLANATION</key>
+	<string>你將無法自禁言的對話收到通知。</string>
+	<key>NAVIGATION_ITEM_SKIP_BUTTON</key>
+	<string>跳過</string>
+	<key>NETWORK_ERROR_RECOVERY</key>
+	<string>請確認是否在線上，並再重試。</string>
+	<key>NEW_CONVERSATION_FIND_BY_PHONE_NUMBER</key>
+	<string>以電話號碼搜尋</string>
+	<key>NEW_GROUP_ADD_PHOTO_ACTION</key>
+	<string>設定群組照片</string>
+	<key>NEW_GROUP_BUTTON_LABEL</key>
+	<string>開啟一個新群組</string>
+	<key>NEW_GROUP_CREATE_BUTTON</key>
+	<string>建立</string>
+	<key>NEW_GROUP_CREATION_FAILED</key>
+	<string>新群組無法被建立。</string>
+	<key>NEW_GROUP_DEFAULT_TITLE</key>
+	<string>新群組</string>
+	<key>NEW_GROUP_MEMBER_LABEL</key>
+	<string>組員</string>
+	<key>NEW_GROUP_MESSAGE_NOTIFICATION_TITLE</key>
+	<string>%@ 傳送至 %@</string>
+	<key>NEW_GROUP_NAMEGROUP_REQUEST_DEFAULT</key>
+	<string>為此群組命名</string>
+	<key>NEW_GROUP_NON_CONTACTS_SECTION_TITLE</key>
+	<string>其他使用者</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_MESSAGE</key>
+	<string>你要放棄這些修改嗎？</string>
+	<key>NEW_GROUP_VIEW_UNSAVED_CHANGES_TITLE</key>
+	<string>未儲存的修改</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_BUTTON</key>
+	<string>搜尋</string>
+	<key>NEW_NONCONTACT_CONVERSATION_VIEW_TITLE</key>
+	<string>尋找使用者</string>
+	<key>NON_CONTACT_TABLE_CELL_NEW_MESSAGE</key>
+	<string>新訊息給:</string>
+	<key>NON_CONTACT_TABLE_CELL_SEND_SMS</key>
+	<string>找不到使用者，透過簡訊邀請嗎?</string>
+	<key>NOTE_TO_SELF</key>
+	<string>給自己的筆記</string>
+	<key>NOTIFICATIONS_FOOTER_WARNING</key>
+	<string>操作包括“標記為已讀”，“回覆”和“回電”。</string>
+	<key>NOTIFICATIONS_NONE</key>
+	<string>不顯示名字或內容</string>
+	<key>NOTIFICATIONS_SECTION_INAPP</key>
+	<string>在程式開啟時播放</string>
+	<key>NOTIFICATIONS_SECTION_SOUNDS</key>
+	<string>音效</string>
+	<key>NOTIFICATIONS_SENDER_AND_MESSAGE</key>
+	<string>姓名，內容和操作        </string>
+	<key>NOTIFICATIONS_SENDER_ONLY</key>
+	<string>只顯示名字</string>
+	<key>NOTIFICATIONS_SHOW</key>
+	<string> 顯示</string>
+	<key>NOTIFICATION_BODY_PHONE_LOCKED_FORMAT</key>
+	<string>當你的%@重新起動時，你還是可以接收訊息。</string>
+	<key>NO_CONTACTS_SEARCH_BY_PHONE_NUMBER</key>
+	<string>透過手機號碼搜尋聯絡人</string>
+	<key>NO_SELECTED_CONVERSATION_DESCRIPTION</key>
+	<string>選擇一個聯絡人或群組開始聊天。</string>
+	<key>NO_SELECTED_CONVERSATION_TITLE</key>
+	<string>歡迎來到 Signal</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>ONBOARDING_2FA_ATTEMPTS_EXHAUSTED</key>
+	<string>PIN 碼錯誤。你嘗試次數已用盡。</string>
+	<key>ONBOARDING_2FA_ENTER_ALPHANUMERIC</key>
+	<string>輸入字母數字PIN 碼</string>
+	<key>ONBOARDING_2FA_ENTER_NUMERIC</key>
+	<string>輸入數字PIN 碼</string>
+	<key>ONBOARDING_2FA_FORGOT_PIN_LINK</key>
+	<string>需要幫助嗎？</string>
+	<key>ONBOARDING_2FA_INVALID_PIN</key>
+	<string>錯誤的 PIN 碼</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_PLURAL_FORMAT</key>
+	<string>PIN 碼錯誤。剩下 %lu 次嘗試次數。</string>
+	<key>ONBOARDING_2FA_INVALID_PIN_SINGLE</key>
+	<string>PIN 碼錯誤。剩下 1 次嘗試次數。</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_EXPLANATION</key>
+	<string>為了保護你的隱私和帳戶的安全，我們將其鎖定了7天。
+
+閒置7天後，你無須輸入 PIN 碼即可重新註冊此電話號碼。 所有內容都將被刪除。</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_LEARN_MORE</key>
+	<string>了解更多有關已鎖定的帳號</string>
+	<key>ONBOARDING_ACCOUNT_LOCKED_TITLE</key>
+	<string>帳號已被鎖定</string>
+	<key>ONBOARDING_CAPTCHA_TITLE</key>
+	<string>為你的訊息增加一點人性。</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_PROVISIONING</key>
+	<string>註冊 iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_BUTTON_REGISTERING</key>
+	<string>連結 iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_PROVISIONING</key>
+	<string>點擊“註冊iPad”將使你可以建立一個全新的Signal帳號或將現有帳號移至此iPad。 這將在現有使用相同電話號碼註冊的任何其他裝置上禁用 Signal。</string>
+	<key>ONBOARDING_MODE_SWITCH_EXPLANATION_REGISTERING</key>
+	<string>點擊“連結iPhone”將使你將手機連結到現有帳號。 通常不建議連結手機，這會限制某些功能，例如通話。</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_PROVISIONING</key>
+	<string>註冊於此 iPad</string>
+	<key>ONBOARDING_MODE_SWITCH_TITLE_REGISTERING</key>
+	<string>連結此 iPhone</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_PROVISIONING</key>
+	<string>註冊此iPad將在現有使用相同電話號碼註冊的任何其他裝置上禁用Signal。</string>
+	<key>ONBOARDING_MODE_SWITCH_WARNING_REGISTERING</key>
+	<string>不建議你連結 iPhone，這會限制核心功能。</string>
+	<key>ONBOARDING_PERMISSIONS_ENABLE_PERMISSIONS_BUTTON</key>
+	<string>開啟權限</string>
+	<key>ONBOARDING_PERMISSIONS_EXPLANATION</key>
+	<string>通知可讓你查看訊息何時到達並接收有關新對話活動的更新。       </string>
+	<key>ONBOARDING_PERMISSIONS_TITLE</key>
+	<string>接收訊息    </string>
+	<key>ONBOARDING_PHONE_NUMBER_TITLE</key>
+	<string>輸入你的電話號碼即可開始使用。</string>
+	<key>ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING</key>
+	<string>無效號碼</string>
+	<key>ONBOARDING_PIN_EXPLANATION</key>
+	<string>輸入你為帳戶建立的 PIN 碼。 這與你的簡訊驗證碼不同。</string>
+	<key>ONBOARDING_PIN_TITLE</key>
+	<string>輸入你的 PIN 碼</string>
+	<key>ONBOARDING_SPLASH_TERM_AND_PRIVACY_POLICY</key>
+	<string>服務條款與隱私政策</string>
+	<key>ONBOARDING_SPLASH_TITLE</key>
+	<string>保護你的隱私。
+在每個訊息中做你自己。</string>
+	<key>ONBOARDING_VERIFICATION_BACK_LINK</key>
+	<string>錯誤的號碼？</string>
+	<key>ONBOARDING_VERIFICATION_CODE_COUNTDOWN_FORMAT</key>
+	<string>我沒有收到驗證碼(由%@提供)</string>
+	<key>ONBOARDING_VERIFICATION_EMAIL_SIGNAL_SUPPORT</key>
+	<string>聯絡 Signal 支援</string>
+	<key>ONBOARDING_VERIFICATION_INVALID_CODE</key>
+	<string>這個驗證碼是不正確的。</string>
+	<key>ONBOARDING_VERIFICATION_ORIGINAL_CODE_MISSING_LINK</key>
+	<string>我沒有收到驗證碼。</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_MESSAGE</key>
+	<string>請確認你的手機網路服務可以收到 SMS訊息。</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_ALERT_TITLE</key>
+	<string>沒有收到驗證碼？</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_SMS_BUTTON</key>
+	<string>重新傳送認證碼</string>
+	<key>ONBOARDING_VERIFICATION_RESEND_CODE_BY_VOICE_BUTTON</key>
+	<string>改用電話撥給我</string>
+	<key>ONBOARDING_VERIFICATION_RESENT_CODE_MISSING_LINK</key>
+	<string>還是沒有收到驗證碼？</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_DEFAULT_FORMAT</key>
+	<string>請輸入我們傳送給 %@ 的驗證碼。</string>
+	<key>ONBOARDING_VERIFICATION_TITLE_RESENT_FORMAT</key>
+	<string>我們剛重傳一個驗證碼給 %@</string>
+	<key>OPEN_SETTINGS_BUTTON</key>
+	<string>設定</string>
+	<key>OTHER_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>%@關閉了訊息銷毀功能。</string>
+	<key>OTHER_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>%@設定訊息銷毀時間為%@。</string>
+	<key>OUTAGE_WARNING</key>
+	<string>Signal 正面臨技術上的問題。我們正在盡力的盡快地恢復服務。</string>
+	<key>OUTGOING_CALL</key>
+	<string>撥出電話</string>
+	<key>OUTGOING_INCOMPLETE_CALL</key>
+	<string>撥出電話</string>
+	<key>OUTGOING_MISSED_CALL</key>
+	<string>未回應的撥出電話</string>
+	<key>OVERSIZE_TEXT_DISPLAY_FORMAT</key>
+	<string>%@...</string>
+	<key>PDF_VIEW_COULD_NOT_RENDER</key>
+	<string>PDF 無法顯示</string>
+	<key>PDF_VIEW_TITLE</key>
+	<string>PDF</string>
+	<key>PER_MESSAGE_EXPIRATION_INVALID_CONTENT</key>
+	<string>在處理來訊時出現錯誤</string>
+	<key>PER_MESSAGE_EXPIRATION_NOT_VIEWABLE</key>
+	<string>一次性多媒體檔案</string>
+	<key>PER_MESSAGE_EXPIRATION_OUTGOING_MESSAGE</key>
+	<string>媒體</string>
+	<key>PER_MESSAGE_EXPIRATION_PHOTO_PREVIEW</key>
+	<string>一次性照片</string>
+	<key>PER_MESSAGE_EXPIRATION_VIDEO_PREVIEW</key>
+	<string>一次性影片</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEWED</key>
+	<string>已查看</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_PHOTO</key>
+	<string>查看照片</string>
+	<key>PER_MESSAGE_EXPIRATION_VIEW_VIDEO</key>
+	<string>觀賞影片</string>
+	<key>PHONE_NUMBER_EXAMPLE_FORMAT</key>
+	<string>範例：%@</string>
+	<key>PHONE_NUMBER_TYPE_AND_INDEX_NAME_FORMAT</key>
+	<string>%@ %@</string>
+	<key>PHONE_NUMBER_TYPE_HOME</key>
+	<string>住家</string>
+	<key>PHONE_NUMBER_TYPE_HOME_FAX</key>
+	<string>住家傳真</string>
+	<key>PHONE_NUMBER_TYPE_IPHONE</key>
+	<string>iPhone</string>
+	<key>PHONE_NUMBER_TYPE_MAIN</key>
+	<string>主要</string>
+	<key>PHONE_NUMBER_TYPE_MOBILE</key>
+	<string>行動電話</string>
+	<key>PHONE_NUMBER_TYPE_OTHER</key>
+	<string>其他</string>
+	<key>PHONE_NUMBER_TYPE_OTHER_FAX</key>
+	<string>其他傳真</string>
+	<key>PHONE_NUMBER_TYPE_PAGER</key>
+	<string>傳呼器</string>
+	<key>PHONE_NUMBER_TYPE_UNKNOWN</key>
+	<string>未知</string>
+	<key>PHONE_NUMBER_TYPE_WORK</key>
+	<string>工作</string>
+	<key>PHONE_NUMBER_TYPE_WORK_FAX</key>
+	<string>工作傳真</string>
+	<key>PHOTO_CAPTURE_GENERIC_ERROR</key>
+	<string>無法擷取圖片。</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_CAPTURE_IMAGE</key>
+	<string>無法擷取圖片。</string>
+	<key>PHOTO_CAPTURE_UNABLE_TO_INITIALIZE_CAMERA</key>
+	<string>無法設定相機。</string>
+	<key>PHOTO_PICKER_UNNAMED_COLLECTION</key>
+	<string>未命名的相簿</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_ACTION</key>
+	<string>升級PIN碼</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_BODY</key>
+	<string>你的註冊鎖現在稱為PIN碼。 更新需要幾秒鐘。</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>我們稍後會提醒您。 在%ld天內，更新PIN碼將為強制性。</string>
+	<key>PINS_MEGAPHONE_HAS_PIN_TITLE</key>
+	<string>介紹 PIN 碼</string>
+	<key>PINS_MEGAPHONE_NO_PIN_ACTION</key>
+	<string>建立PIN碼</string>
+	<key>PINS_MEGAPHONE_NO_PIN_BODY</key>
+	<string>PIN碼為你的Signal帳號增加了另一層安全保護。</string>
+	<key>PINS_MEGAPHONE_NO_PIN_SNOOZE_TOAST_FORMAT</key>
+	<string>我們稍後會提醒你。 在%ld 天內，創建PIN碼將成為強制性。</string>
+	<key>PINS_MEGAPHONE_NO_PIN_TITLE</key>
+	<string>建立一個PIN碼</string>
+	<key>PINS_MEGAPHONE_TOAST</key>
+	<string>PIN碼已建立。你可以在設定中進行更改。</string>
+	<key>PIN_CREATION_ALPHANUMERIC_HINT</key>
+	<string>PIN 碼必須至少要6位字母數字</string>
+	<key>PIN_CREATION_CHANGING_TITLE</key>
+	<string>變更你的 PIN 碼</string>
+	<key>PIN_CREATION_CONFIRMATION_EXPLANATION</key>
+	<string>確認你的新 PIN 碼。</string>
+	<key>PIN_CREATION_CREATE_ALPHANUMERIC</key>
+	<string>建立字母數字PIN碼</string>
+	<key>PIN_CREATION_CREATE_NUMERIC</key>
+	<string>建立數字 PIN 碼</string>
+	<key>PIN_CREATION_ERROR_MESSAGE</key>
+	<string>你的 PIN 碼尚未被儲存。稍後，我們會提示你建立PIN碼。</string>
+	<key>PIN_CREATION_ERROR_TITLE</key>
+	<string>PIN碼建立失敗</string>
+	<key>PIN_CREATION_EXPLANATION</key>
+	<string>PIN碼可為你的帳號增加安全性，並且無法恢復。 你須要輸入PIN碼才能再次向Signal註冊。</string>
+	<key>PIN_CREATION_MISMATCH_ERROR</key>
+	<string>PIN 碼不符，請再試一次。</string>
+	<key>PIN_CREATION_NUMERIC_HINT</key>
+	<string>PIN碼至少要6位字母數字</string>
+	<key>PIN_CREATION_PIN_CONFIRMATION_HINT</key>
+	<string>重新輸入 PIN 碼</string>
+	<key>PIN_CREATION_PIN_PROGRESS</key>
+	<string>建立PIN碼中...</string>
+	<key>PIN_CREATION_RECREATION_EXPLANATION</key>
+	<string>你可以選擇一個新的PIN碼，因為此裝置已被註冊。 如果你忘記了PIN碼，則可能需要等待7天才能再次註冊。</string>
+	<key>PIN_CREATION_RECREATION_TITLE</key>
+	<string>建立一個新 PIN 碼</string>
+	<key>PIN_CREATION_TITLE</key>
+	<string>建立你的 PIN 碼</string>
+	<key>PIN_CREATION_TOO_SHORT_ERROR</key>
+	<string>PIN碼必須要至少6位字母數字。</string>
+	<key>PIN_REMINDER_EXPLANATION</key>
+	<string>要幫助你記住你的 PIN碼，我們將定期要求你輸入 PIN 碼。我們只會偶爾詢問你。</string>
+	<key>PIN_REMINDER_FORGOT_PIN</key>
+	<string>忘記你的 PIN 碼？</string>
+	<key>PIN_REMINDER_MEGAPHONE_ACTION</key>
+	<string>驗證PIN碼</string>
+	<key>PIN_REMINDER_MEGAPHONE_BODY</key>
+	<string>我們有時會要求你驗證PIN碼，以便你能記住它。</string>
+	<key>PIN_REMINDER_MEGAPHONE_FEW_DAYS_TOAST</key>
+	<string>我們會在幾天後再次提醒你。</string>
+	<key>PIN_REMINDER_MEGAPHONE_TITLE</key>
+	<string>驗證你的 Signal PIN碼</string>
+	<key>PIN_REMINDER_MEGAPHONE_TOMORROW_TOAST</key>
+	<string>我們明天會再次提醒你。</string>
+	<key>PIN_REMINDER_MEGAPHONE_TWO_WEEK_TOAST</key>
+	<string>我們會在幾週後再次提醒你。</string>
+	<key>PIN_REMINDER_MEGAPHONE_WEEK_TOAST</key>
+	<string>我們會在一周後再次提醒你。</string>
+	<key>PIN_REMINDER_MISMATCH_ERROR</key>
+	<string>無效的 PIN 碼，請再嘗試一次。</string>
+	<key>PIN_REMINDER_TITLE</key>
+	<string>輸入你的 Signal PIN 碼</string>
+	<key>PIN_REMINDER_TOO_SHORT_ERROR</key>
+	<string>PIN碼必須要至少6位字母數字。</string>
+	<key>PLAY_BUTTON_ACCESSABILITY_LABEL</key>
+	<string>播放媒體</string>
+	<key>PRIVACY_IDENTITY_IS_NOT_VERIFIED_FORMAT</key>
+	<string>你尚未將%@標記為已驗證。</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_BADGE</key>
+	<string>已驗證</string>
+	<key>PRIVACY_IDENTITY_IS_VERIFIED_FORMAT</key>
+	<string>%@已驗證。</string>
+	<key>PRIVACY_SAFETY_NUMBERS_LEARN_MORE</key>
+	<string>了解更多</string>
+	<key>PRIVACY_TAP_TO_SCAN</key>
+	<string>點擊以掃描</string>
+	<key>PRIVACY_UNVERIFY_BUTTON</key>
+	<string>清除驗證訊息</string>
+	<key>PRIVACY_VERIFICATION_FAILED_I_HAVE_WRONG_KEY_FOR_THEM</key>
+	<string>看起來與%@安全碼不匹配。你確定驗證的是正確的聯絡人？</string>
+	<key>PRIVACY_VERIFICATION_FAILED_MISMATCHED_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>剪貼簿中的號碼看起來不是此對話的正確安全碼。</string>
+	<key>PRIVACY_VERIFICATION_FAILED_NO_SAFETY_NUMBERS_IN_CLIPBOARD</key>
+	<string>Signal 無法在剪貼簿中找到任何安全碼。你確定複製對了嗎？</string>
+	<key>PRIVACY_VERIFICATION_FAILED_THEY_HAVE_WRONG_KEY_FOR_ME</key>
+	<string>每一對 Signal 使用者共享一個獨特的安全碼。再次檢查%@顯示的是"你的"安全碼。</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_LOCAL_VERSION</key>
+	<string>你使用的 Signal 版本太舊。你必須更新後再驗證。</string>
+	<key>PRIVACY_VERIFICATION_FAILED_WITH_OLD_REMOTE_VERSION</key>
+	<string>你朋友使用的Signal版本太舊，必須升級後才能驗證。</string>
+	<key>PRIVACY_VERIFICATION_FAILURE_INVALID_QRCODE</key>
+	<string>你所掃描的碼似乎不是安全碼。請確認雙方都使用最新的版本。</string>
+	<key>PRIVACY_VERIFICATION_INSTRUCTIONS</key>
+	<string>如須確認你和 %@點對點加密的安全性，請在雙方裝置上比較上述數字。
+
+或者可以透過掃描雙方的QR code進行驗證。</string>
+	<key>PRIVACY_VERIFICATION_TITLE</key>
+	<string>驗證安全碼</string>
+	<key>PRIVACY_VERIFY_BUTTON</key>
+	<string>標記為已驗證</string>
+	<key>PROCEED_BUTTON</key>
+	<string>繼續</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_ACTION</key>
+	<string>開始吧</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_BODY</key>
+	<string>你的個人資料現在可以包含可選的姓氏。</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_HAS_NAME_TITLE</key>
+	<string>確認你的個人資料名稱</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_BODY</key>
+	<string>當你開始新的對話或分享時，將顯示此內容。</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_NO_NAME_TITLE</key>
+	<string>新增一個個人資料名稱</string>
+	<key>PROFILE_NAME_REMINDER_MEGAPHONE_TOAST</key>
+	<string>你的個人資料名稱已被儲存。</string>
+	<key>PROFILE_VIEW_AVATAR_ACTIONSHEET_TITLE</key>
+	<string>設定頭像</string>
+	<key>PROFILE_VIEW_CLEAR_AVATAR</key>
+	<string>清除頭像</string>
+	<key>PROFILE_VIEW_CREATE_USERNAME</key>
+	<string>新創使用者名稱</string>
+	<key>PROFILE_VIEW_ERROR_FAMILY_NAME_TOO_LONG</key>
+	<string>你的姓太長了。</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_REQUIRED</key>
+	<string>你必須輸入名字。</string>
+	<key>PROFILE_VIEW_ERROR_GIVEN_NAME_TOO_LONG</key>
+	<string>你的名字太長了。</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_DEFAULT_TEXT</key>
+	<string>(選擇性)</string>
+	<key>PROFILE_VIEW_FAMILY_NAME_FIELD</key>
+	<string>姓</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_DEFAULT_TEXT</key>
+	<string>(必須的)</string>
+	<key>PROFILE_VIEW_GIVEN_NAME_FIELD</key>
+	<string>名字</string>
+	<key>PROFILE_VIEW_NO_CONNECTION</key>
+	<string>當連接到網際網路，你的個人資料可以上傳。</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION</key>
+	<string>你的個人資訊在以下情況可被看見，當開啟新對話時，以及你分享給其他使用者和群組時。</string>
+	<key>PROFILE_VIEW_PROFILE_DESCRIPTION_LINK</key>
+	<string>點擊這裡獲得更多資訊。</string>
+	<key>PROFILE_VIEW_SAVE_BUTTON</key>
+	<string>儲存</string>
+	<key>PROFILE_VIEW_TITLE</key>
+	<string>個人資訊</string>
+	<key>PROFILE_VIEW_USERNAME_FIELD</key>
+	<string>使用者名稱</string>
+	<key>PUSH_MANAGER_MARKREAD</key>
+	<string>標記為已讀</string>
+	<key>PUSH_MANAGER_REPLY</key>
+	<string>回覆</string>
+	<key>PUSH_REGISTER_SUCCESS</key>
+	<string>成功重新註冊了推播通知。</string>
+	<key>PUSH_REGISTER_TITLE</key>
+	<string>推播通知</string>
+	<key>QUESTIONMARK_PUNCTUATION</key>
+	<string>？</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_FORMAT</key>
+	<string>回覆給 1%@</string>
+	<key>QUOTED_REPLY_AUTHOR_INDICATOR_YOU</key>
+	<string>回覆給你</string>
+	<key>QUOTED_REPLY_CONTENT_FROM_REMOTE_SOURCE</key>
+	<string>找不到原始訊息。</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_DELETED</key>
+	<string>原始訊息已不存在。</string>
+	<key>QUOTED_REPLY_ORIGINAL_MESSAGE_REMOTELY_SOURCED</key>
+	<string>找不到原始訊息。</string>
+	<key>QUOTED_REPLY_TYPE_ATTACHMENT</key>
+	<string>附件</string>
+	<key>QUOTED_REPLY_TYPE_AUDIO</key>
+	<string>聲音</string>
+	<key>QUOTED_REPLY_TYPE_GIF</key>
+	<string>GIF</string>
+	<key>QUOTED_REPLY_TYPE_IMAGE</key>
+	<string>影像</string>
+	<key>QUOTED_REPLY_TYPE_VIDEO</key>
+	<string>影片</string>
+	<key>REACTIONS_DETAIL_YOU</key>
+	<string>您</string>
+	<key>REACTION_DETAIL_ALL_FORMAT</key>
+	<string>所有。%@</string>
+	<key>REACTION_INCOMING_NOTIFICATION_BODY_FORMAT</key>
+	<string>到%@檢視你的訊息</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_ALBUM_BODY_FORMAT</key>
+	<string>到%@檢視你的相簿</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_AUDIO_BODY_FORMAT</key>
+	<string>到%@檢視你的語音</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_CONTACT_SHARE_BODY_FORMAT</key>
+	<string>到%@檢視你的聯絡人分享</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_FILE_BODY_FORMAT</key>
+	<string>到%@檢視你的個人資訊</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_GIF_BODY_FORMAT</key>
+	<string>到%@檢視你的GIF</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_PHOTO_BODY_FORMAT</key>
+	<string>到%@檢視你的照片</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_STICKER_MESSAGE_BODY_FORMAT</key>
+	<string>到%@檢視你的貼圖</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_TEXT_MESSAGE_BODY_FORMAT</key>
+	<string>%@對檢視:"%@"</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIDEO_BODY_FORMAT</key>
+	<string>到%@檢視你的影片</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VIEW_ONCE_MESSAGE_BODY_FORMAT</key>
+	<string>到%@檢視你的一次性多媒體檔案</string>
+	<key>REACTION_INCOMING_NOTIFICATION_TO_VOICE_MESSAGE_BODY_FORMAT</key>
+	<string>到%@檢視你的語音訊息</string>
+	<key>REACTION_MEGAPHONE_BODY</key>
+	<string>點擊並按住在任何訊息上以快速地回覆你的感受。</string>
+	<key>REACTION_MEGAPHONE_TITLE</key>
+	<string>介紹"回應"</string>
+	<key>REGISTER_2FA_FORGOT_PIN</key>
+	<string>我忘了 PIN 碼。</string>
+	<key>REGISTER_2FA_FORGOT_PIN_ALERT_TITLE</key>
+	<string>需要幫助嗎？</string>
+	<key>REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE</key>
+	<string>你的PIN碼是你建立的一個6+ 位數碼，可以是數字或字母。如果你不記得你的PIN碼，你必須等待7天以重新註冊你的帳號。</string>
+	<key>REGISTER_2FA_FORGOT_V1_PIN_ALERT_MESSAGE</key>
+	<string>你的PIN碼是你建立的一個4+ 位數碼。如果你不記得你的PIN碼，你必須等待7天以重新註冊你的帳號。</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_PLURAL_FORMAT</key>
+	<string>你剩下 %lu 嘗試次數。 如果你的嘗試次數用完，你的帳戶將被鎖定。 閒置7天後，你可以在沒有PIN的情況下重新註冊。 你的帳戶將被刪除，所有內容也都將被刪除。</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE</key>
+	<string>你剩下1次嘗試。 如果你的嘗試次數用完，你的帳戶將被鎖定。 閒置7天後，你可以在沒有PIN的情況下重新註冊。 你的帳戶將被刪除，所有內容也都將被刪除。</string>
+	<key>REGISTER_2FA_INVALID_PIN_ALERT_TITLE</key>
+	<string>錯誤的 PIN 碼</string>
+	<key>REGISTER_2FA_SUBMIT_BUTTON</key>
+	<string>提交</string>
+	<key>REGISTER_CONTACTS_WELCOME</key>
+	<string>歡迎!</string>
+	<key>REGISTER_FAILED_TRY_AGAIN</key>
+	<string>再試一次</string>
+	<key>REGISTER_RATE_LIMITING_BODY</key>
+	<string>你嘗試過於頻繁，請等一分鐘後再試。</string>
+	<key>REGISTER_RATE_LIMITING_ERROR</key>
+	<string>你嘗試了太多次，請稍後再試一次。</string>
+	<key>REGISTRATION_BODY</key>
+	<string>重新註冊推播通知失敗。</string>
+	<key>REGISTRATION_DEFAULT_COUNTRY_NAME</key>
+	<string>國碼</string>
+	<key>REGISTRATION_ENTERNUMBER_DEFAULT_TEXT</key>
+	<string>輸入號碼</string>
+	<key>REGISTRATION_ERROR</key>
+	<string>註冊錯誤</string>
+	<key>REGISTRATION_ERROR_BLANK_VERIFICATION_CODE</key>
+	<string>我們無法啟用你的帳號直到驗證我們寄送給你的驗證碼。</string>
+	<key>REGISTRATION_NON_VALID_NUMBER</key>
+	<string>不支援這個電話號碼的格式，請聯繫支援部門。</string>
+	<key>REGISTRATION_PHONENUMBER_BUTTON</key>
+	<string>電話號碼</string>
+	<key>REGISTRATION_RESTRICTED_MESSAGE</key>
+	<string>你必須先註冊才能傳送訊息。</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_TITLE</key>
+	<string>驗證失敗</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_CODE_DESCRIPTION</key>
+	<string>你提供的數字與我們發給你的並不相符。要再檢查一下嗎？</string>
+	<key>REGISTRATION_VERIFICATION_FAILED_WRONG_PIN</key>
+	<string>不正確的註冊鎖定 PIN 碼。</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>請輸入有效的電話號碼來註冊。</string>
+	<key>REGISTRATION_VIEW_INVALID_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>無效的電話號碼</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_MESSAGE</key>
+	<string>請輸入一個電話號碼來註冊。</string>
+	<key>REGISTRATION_VIEW_NO_PHONE_NUMBER_ALERT_TITLE</key>
+	<string>電話號碼無效</string>
+	<key>REJECT_CALL_BUTTON_TITLE</key>
+	<string>拒絕</string>
+	<key>RELAY_REGISTERED_ERROR_RECOVERY</key>
+	<string>你要註冊的電話號碼已在另一個伺服器註冊，請註銷該號碼之後再試一次。</string>
+	<key>REMINDER_2FA_BODY</key>
+	<string>你的電話號碼已啟用於註冊鎖定功能。為了幫助你記得你的註冊鎖定 PIN 碼，Signal 將定期的要求你確認這個 PIN 碼。</string>
+	<key>REMINDER_2FA_BODY_HEADER</key>
+	<string>提醒：</string>
+	<key>REMINDER_2FA_FORGOT_PIN_ALERT_MESSAGE</key>
+	<string>註冊鎖定協助護你的電話號碼，免於未經授權註冊的企圖。此功能可以隨時在 Signal 的隱私權設定內關閉。</string>
+	<key>REMINDER_2FA_NAV_TITLE</key>
+	<string>輸入你的註冊鎖定 PIN 碼</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_BODY</key>
+	<string>你可以在隱私權設定中設定新的 PIN 碼。</string>
+	<key>REMINDER_2FA_WRONG_PIN_ALERT_TITLE</key>
+	<string>這不是正確的 PIN 碼。</string>
+	<key>REREGISTER_FOR_PUSH</key>
+	<string>重新註冊推播通知</string>
+	<key>RETRY_BUTTON_TEXT</key>
+	<string>重試</string>
+	<key>SAFETY_NUMBERS_ACTIONSHEET_TITLE</key>
+	<string>你與%@間的安全碼已經改變。你可以要求驗證。</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_ADD_TO_GROUP_ACTION</key>
+	<string>依然加入群組</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_CALL_ACTION</key>
+	<string>依然撥出</string>
+	<key>SAFETY_NUMBER_CHANGED_CONFIRM_SEND_ACTION</key>
+	<string>依然寄送</string>
+	<key>SAFETY_NUMBER_SHARE_FORMAT</key>
+	<string>我們 Signal 的安全碼。
+%@</string>
+	<key>SCAN_CODE_INSTRUCTIONS</key>
+	<string>掃描聯絡人裝置上的 QR code。</string>
+	<key>SCAN_QR_CODE_VIEW_TITLE</key>
+	<string>掃描 QR code</string>
+	<key>SCREEN_LOCK_ACTIVITY_TIMEOUT_NONE</key>
+	<string>即刻</string>
+	<key>SCREEN_LOCK_ENABLE_UNKNOWN_ERROR</key>
+	<string>身分驗證無法被連結。</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_FAILED</key>
+	<string>身分認證失敗。</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_LOCKOUT</key>
+	<string>認證嘗試失敗太多次。請稍後再試。</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_AVAILABLE</key>
+	<string>你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_NOT_ENROLLED</key>
+	<string>你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。</string>
+	<key>SCREEN_LOCK_ERROR_LOCAL_AUTHENTICATION_PASSCODE_NOT_SET</key>
+	<string>你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。</string>
+	<key>SCREEN_LOCK_REASON_UNLOCK_SCREEN_LOCK</key>
+	<string>認證以開啟 Signal。</string>
+	<key>SCREEN_LOCK_UNLOCK_FAILED</key>
+	<string>身份認證失敗</string>
+	<key>SCREEN_LOCK_UNLOCK_SIGNAL</key>
+	<string>解鎖 Signal</string>
+	<key>SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT</key>
+	<string>依名字或號碼來搜尋</string>
+	<key>SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT</key>
+	<string>姓名、使用者名稱與電話號碼</string>
+	<key>SEARCH_FIELD_PLACE_HOLDER_TEXT</key>
+	<string>搜尋</string>
+	<key>SEARCH_SECTION_CONTACTS</key>
+	<string>其他聯絡人</string>
+	<key>SEARCH_SECTION_CONVERSATIONS</key>
+	<string>對話</string>
+	<key>SEARCH_SECTION_MESSAGES</key>
+	<string>訊息</string>
+	<key>SECONDARY_DEVICE_ERROR_FETCHING_LINKING_CODE</key>
+	<string>無法取得連結碼</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_MESSAGE</key>
+	<string>你的其他裝置執行的是舊版Signal，該版本不支援掃描iPad QR CODE。 請安裝最新版本的 Signal，然後重試。你的其他裝置執行的是舊版 Signal，該版本不支援掃描iPad QR code。 請安裝最新的Signal版本，然後重試。</string>
+	<key>SECONDARY_LINKING_ERROR_OLD_VERSION_TITLE</key>
+	<string>升級掃描裝置</string>
+	<key>SECONDARY_LINKING_ERROR_WAITING_FOR_SCAN</key>
+	<string>無法連結你的裝置</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME</key>
+	<string>選擇此裝置的名稱</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_EXPLANATION</key>
+	<string>你將在"已連結的裝置"中看到此名稱</string>
+	<key>SECONDARY_ONBOARDING_CHOOSE_DEVICE_NAME_PLACEHOLDER</key>
+	<string>選擇一個名稱</string>
+	<key>SECONDARY_ONBOARDING_COMPLETE_LINKING_PROCESS</key>
+	<string>完成連結</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_BY_OPENING_PRIMARY</key>
+	<string>在手機上啟動Signal，以將此 iPad 連結到你的帳戶</string>
+	<key>SECONDARY_ONBOARDING_GET_STARTED_DO_NOT_HAVE_PRIMARY</key>
+	<string>我手機上沒有 Signal ...</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_BODY</key>
+	<string>前往手機上的 App Store，安裝Signal，完成註冊過程，然後可以將 iPad 連結到同一帳戶。</string>
+	<key>SECONDARY_ONBOARDING_INSTALL_PRIMARY_FIRST_TITLE</key>
+	<string>在你的手機上安裝 Signal</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_BODY</key>
+	<string>點擊你的個人資料圖片以在手機上開起 Signal 設定。 然後在“已連結的裝置”和“連結新的裝置”以使用你的手機掃描此代碼：</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_HELP_TEXT</key>
+	<string>在這裡取得有關將 iPad連結的協助</string>
+	<key>SECONDARY_ONBOARDING_SCAN_CODE_TITLE</key>
+	<string>用你的手機掃描 QR Code</string>
+	<key>SECURE_SESSION_RESET</key>
+	<string>安全會話已重設</string>
+	<key>SELECT_THREAD_TABLE_OTHER_CHATS_TITLE</key>
+	<string>其他聯絡人</string>
+	<key>SELECT_THREAD_TABLE_RECENT_CHATS_TITLE</key>
+	<string>最近的對話</string>
+	<key>SEND_AGAIN_BUTTON</key>
+	<string>再次傳送</string>
+	<key>SEND_BUTTON_TITLE</key>
+	<string>傳送</string>
+	<key>SEND_FAILED_NOTIFICATION_BODY</key>
+	<string>你的訊息傳送失敗。</string>
+	<key>SEND_INVITE_FAILURE</key>
+	<string>邀請寄出失敗，稍後再試一次。</string>
+	<key>SEND_INVITE_SUCCESS</key>
+	<string>你已邀請你的朋友來使用 Signal！</string>
+	<key>SEND_MEDIA_CONFIRM_ABANDON_ALBUM</key>
+	<string>放棄媒體檔案。</string>
+	<key>SEND_MEDIA_RETURN_TO_CAMERA</key>
+	<string>回到照相機功能</string>
+	<key>SEND_MEDIA_RETURN_TO_MEDIA_LIBRARY</key>
+	<string>回到我的相簿</string>
+	<key>SEND_SMS_CONFIRM_TITLE</key>
+	<string>透過未加密的簡訊邀請朋友？</string>
+	<key>SEND_SMS_INVITE_TITLE</key>
+	<string>你是否希望邀請以下號碼加入Signal：</string>
+	<key>SETTINGS_ABOUT</key>
+	<string>關於</string>
+	<key>SETTINGS_ADD_TO_BLOCK_LIST_TITLE</key>
+	<string>封鎖</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION</key>
+	<string>審查規避</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_COUNTRY_FORMAT</key>
+	<string>位置：%@</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER</key>
+	<string>如果啟用，Signal 將嘗試避開審查。除非Signal於你的所在地受到審查，否則不要開啟此功能。</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_AUTO_ENABLED</key>
+	<string>已根據你的電話號碼啟動審查規避。</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_MANUALLY_DISABLED</key>
+	<string>你已經手動關閉規避審查。</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_NO_CONNECTION</key>
+	<string>審查規避只能在連上網路時啟動。</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_FOOTER_WEBSOCKET_CONNECTED</key>
+	<string>你已經連接上 Signal服務，所以不需要啟動審查規避。</string>
+	<key>SETTINGS_ADVANCED_CENSORSHIP_CIRCUMVENTION_HEADER</key>
+	<string>審查規避</string>
+	<key>SETTINGS_ADVANCED_DEBUGLOG</key>
+	<string>啟用除錯日誌</string>
+	<key>SETTINGS_ADVANCED_SUBMIT_DEBUGLOG</key>
+	<string>提交除錯日誌</string>
+	<key>SETTINGS_ADVANCED_TITLE</key>
+	<string>進階</string>
+	<key>SETTINGS_ADVANCED_VIEW_ERROR_LOG</key>
+	<string>錯誤日誌</string>
+	<key>SETTINGS_APPEARANCE_THEME_TITLE</key>
+	<string>主題</string>
+	<key>SETTINGS_APPEARANCE_TITLE</key>
+	<string>介面設定</string>
+	<key>SETTINGS_AUDIO_DEFAULT_TONE_LABEL_FORMAT</key>
+	<string>1%@ (預設)</string>
+	<key>SETTINGS_BACKUP</key>
+	<string>備份</string>
+	<key>SETTINGS_BACKUP_BACKUP_NOW</key>
+	<string>馬上備份</string>
+	<key>SETTINGS_BACKUP_CANCEL_BACKUP</key>
+	<string>取消備份</string>
+	<key>SETTINGS_BACKUP_ENABLING_SWITCH</key>
+	<string>備份功能啟動</string>
+	<key>SETTINGS_BACKUP_ICLOUD_STATUS</key>
+	<string>iCloud 狀態。</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_FAILED</key>
+	<string>復原備份失敗</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IDLE</key>
+	<string>備份復原閒置中</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_IN_PROGRESS</key>
+	<string>正在進行復原備份</string>
+	<key>SETTINGS_BACKUP_IMPORT_STATUS_SUCCEEDED</key>
+	<string>復原備份成功</string>
+	<key>SETTINGS_BACKUP_PHASE</key>
+	<string>階段</string>
+	<key>SETTINGS_BACKUP_PROGRESS</key>
+	<string>過程</string>
+	<key>SETTINGS_BACKUP_STATUS</key>
+	<string>狀態</string>
+	<key>SETTINGS_BACKUP_STATUS_FAILED</key>
+	<string>備份失敗</string>
+	<key>SETTINGS_BACKUP_STATUS_IDLE</key>
+	<string>等待中</string>
+	<key>SETTINGS_BACKUP_STATUS_IN_PROGRESS</key>
+	<string>備份中</string>
+	<key>SETTINGS_BACKUP_STATUS_SUCCEEDED</key>
+	<string>備份成功</string>
+	<key>SETTINGS_BLOCK_LIST_ADD_BUTTON</key>
+	<string>新增封鎖的聯絡人</string>
+	<key>SETTINGS_BLOCK_LIST_NO_CONTACTS</key>
+	<string>你沒有使用Signal的連絡人。</string>
+	<key>SETTINGS_BLOCK_LIST_NO_SEARCH_RESULTS</key>
+	<string>無搜尋結果</string>
+	<key>SETTINGS_BLOCK_LIST_TITLE</key>
+	<string>已封鎖</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE</key>
+	<string>永遠轉發通話</string>
+	<key>SETTINGS_CALLING_HIDES_IP_ADDRESS_PREFERENCE_TITLE_DETAIL</key>
+	<string>透過 Signal 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。</string>
+	<key>SETTINGS_CLEAR_HISTORY</key>
+	<string>清除對話紀錄</string>
+	<key>SETTINGS_COPYRIGHT</key>
+	<string>Copyright Signal Messenger
+ Licensed under the GPLv3</string>
+	<key>SETTINGS_DELETE_ACCOUNT_BUTTON</key>
+	<string>刪除帳戶</string>
+	<key>SETTINGS_DELETE_DATA_BUTTON</key>
+	<string>刪除所有資料</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION</key>
+	<string>你確定要刪除所有的歷史紀錄(包括訊息、附檔、電話等等？)此操作將無法被還原。</string>
+	<key>SETTINGS_DELETE_HISTORYLOG_CONFIRMATION_BUTTON</key>
+	<string>刪除所有內容記錄</string>
+	<key>SETTINGS_HELP_HEADER</key>
+	<string>幫助</string>
+	<key>SETTINGS_HISTORYLOG_TITLE</key>
+	<string>清除對話紀錄</string>
+	<key>SETTINGS_INFORMATION_HEADER</key>
+	<string>資訊</string>
+	<key>SETTINGS_INVITE_TITLE</key>
+	<string>邀請你的朋友們</string>
+	<key>SETTINGS_INVITE_TWITTER_TEXT</key>
+	<string>你可以使用 @signalapp 來與我聯繫。從這裡下載：https://signal.org/download/</string>
+	<key>SETTINGS_ITEM_NOTIFICATION_SOUND</key>
+	<string>訊息音效</string>
+	<key>SETTINGS_LEGAL_TERMS_CELL</key>
+	<string>條款和隱私政策</string>
+	<key>SETTINGS_LINK_PREVIEWS</key>
+	<string>傳送連結預覽</string>
+	<key>SETTINGS_LINK_PREVIEWS_FOOTER</key>
+	<string>預覽功能支援 Imgur、 Instagram、 Pinterest、 Reddit 及 YouTube的連結。</string>
+	<key>SETTINGS_LINK_PREVIEWS_HEADER</key>
+	<string>連結預覽</string>
+	<key>SETTINGS_NAV_BAR_TITLE</key>
+	<string>設定</string>
+	<key>SETTINGS_NOTIFICATIONS</key>
+	<string>通知</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_DESCRIPTION</key>
+	<string>電話與訊息通知可以在你的手機鎖定時顯示。你可以限制那些內容可以顯示在通知欄。</string>
+	<key>SETTINGS_NOTIFICATION_CONTENT_TITLE</key>
+	<string>通知欄內容</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_CONTACT_JOINED_SIGNAL</key>
+	<string>聯絡人已加入 Signal 通知</string>
+	<key>SETTINGS_NOTIFICATION_EVENTS_SECTION_TITLE</key>
+	<string>事件</string>
+	<key>SETTINGS_PINS_FOOTER</key>
+	<string>你的PIN碼為你的帳號新增了一層額外的安全保護。 在Signal上註冊電話號碼時，系統會要求你輸入。 如果你忘記了PIN碼，則將被鎖定7天。</string>
+	<key>SETTINGS_PINS_ITEM</key>
+	<string>變更你的 PIN 碼</string>
+	<key>SETTINGS_PINS_ITEM_CREATE</key>
+	<string>建立一個PIN碼</string>
+	<key>SETTINGS_PINS_TITLE</key>
+	<string>PIN 碼</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_PRIVACY_TITLE</key>
+	<string>顯示來電者的名字與號碼</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_DESCRIPTION</key>
+	<string>顯示來電於 iOS 電話中的通話紀錄。</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_SYSTEM_CALL_LOG_PREFERENCE_TITLE</key>
+	<string>顯示來電於通話紀錄</string>
+	<key>SETTINGS_PRIVACY_CALLKIT_TITLE</key>
+	<string>iOS 電話整合</string>
+	<key>SETTINGS_PRIVACY_TITLE</key>
+	<string>隱私權</string>
+	<key>SETTINGS_READ_RECEIPT</key>
+	<string>已讀回執</string>
+	<key>SETTINGS_READ_RECEIPTS_SECTION_FOOTER</key>
+	<string>訊息可以在被讀取後查看與分享。這個設定是可選設定，且對所有對話有效。</string>
+	<key>SETTINGS_RELINK_BUTTON</key>
+	<string>重新連結</string>
+	<key>SETTINGS_REREGISTER_BUTTON</key>
+	<string>重新註冊</string>
+	<key>SETTINGS_SCREEN_LOCK_ACTIVITY_TIMEOUT</key>
+	<string>螢幕鎖定逾時</string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_FOOTER</key>
+	<string>使用Touch ID，Face ID或你的 iOS 裝置密碼解鎖 Signal的螢幕。 啟用螢幕鎖定後，你仍然可以接聽來電並接收電話和訊息通知。 Signal的通知設定讓你可以自定顯示的資訊。        </string>
+	<key>SETTINGS_SCREEN_LOCK_SECTION_TITLE</key>
+	<string>螢幕鎖定</string>
+	<key>SETTINGS_SCREEN_LOCK_SWITCH_LABEL</key>
+	<string>螢幕鎖定</string>
+	<key>SETTINGS_SCREEN_SECURITY</key>
+	<string>開啟程式切換時隱藏畫面功能</string>
+	<key>SETTINGS_SCREEN_SECURITY_DETAIL</key>
+	<string>避免Signal預覽畫面在應用軟體切換時顯示。</string>
+	<key>SETTINGS_SECTION_CALL_KIT_DESCRIPTION</key>
+	<string>iOS通話整合會在你的鎖定畫面和系統通話紀錄中顯示你的Signal通話紀錄。你可以選擇顯示你的聯絡人名字和號碼。如果你已開啟iCloud，系統會與蘋果公司共享通話紀錄。</string>
+	<key>SETTINGS_SECTION_NOTIFICATIONS</key>
+	<string>通知</string>
+	<key>SETTINGS_SECTION_SOUNDS</key>
+	<string>音效</string>
+	<key>SETTINGS_SECTION_TITLE_CALLING</key>
+	<string>撥打中</string>
+	<key>SETTINGS_SECURITY_TITLE</key>
+	<string>螢幕安全</string>
+	<key>SETTINGS_SUPPORT</key>
+	<string>支援</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_DISABLED</key>
+	<string>關閉</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ENABLED</key>
+	<string>啟動</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_ITEM</key>
+	<string>註冊鎖定</string>
+	<key>SETTINGS_TWO_FACTOR_AUTH_TITLE</key>
+	<string>註冊鎖定</string>
+	<key>SETTINGS_TYPING_INDICATORS</key>
+	<string>打字狀態</string>
+	<key>SETTINGS_TYPING_INDICATORS_FOOTER</key>
+	<string>查看並分享正在輸入的訊息。這個設定是選擇性及適用於所有對話。</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_LEARN_MORE</key>
+	<string>了解更多</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SECTION_TITLE</key>
+	<string>密封發件人</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS</key>
+	<string>顯示指標</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_SHOW_INDICATORS_FOOTER</key>
+	<string>在使用密封發件人傳遞的訊息上選擇“更多訊息”時顯示狀態圖示。</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS</key>
+	<string>允許任何人</string>
+	<key>SETTINGS_UNIDENTIFIED_DELIVERY_UNRESTRICTED_ACCESS_FOOTER</key>
+	<string>啟用密封發件人對來自非聯絡人及其他人傳來的訊息，將不會對其分享你的個人資訊。</string>
+	<key>SETTINGS_VERSION</key>
+	<string>版本</string>
+	<key>SHARE_ACTION_MAIL</key>
+	<string>電子郵件</string>
+	<key>SHARE_ACTION_MESSAGE</key>
+	<string>簡訊</string>
+	<key>SHARE_ACTION_TWEET</key>
+	<string>推特</string>
+	<key>SHARE_EXTENSION_FAILED_SENDING_BECAUSE_UNTRUSTED_IDENTITY_FORMAT</key>
+	<string>您與 %@的安全碼已改變。建議您重新寄送前，在主程式中驗證新的安全碼。</string>
+	<key>SHARE_EXTENSION_LOADING</key>
+	<string>讀取中...</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_MESSAGE</key>
+	<string>啟動 Signal 應用程式來註冊。</string>
+	<key>SHARE_EXTENSION_NOT_REGISTERED_TITLE</key>
+	<string>尚未註冊</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_MESSAGE</key>
+	<string>啟動 Signal 來更新或註冊。</string>
+	<key>SHARE_EXTENSION_NOT_YET_MIGRATED_TITLE</key>
+	<string>還沒準備好</string>
+	<key>SHARE_EXTENSION_SENDING_FAILURE_TITLE</key>
+	<string>無法寄出附件</string>
+	<key>SHARE_EXTENSION_SENDING_IN_PROGRESS_TITLE</key>
+	<string>上傳中...</string>
+	<key>SHARE_EXTENSION_UNABLE_TO_BUILD_ATTACHMENT_ALERT_TITLE</key>
+	<string>無法準備附件</string>
+	<key>SHARE_EXTENSION_VIEW_TITLE</key>
+	<string>分享至 Signal</string>
+	<key>SHOW_SAFETY_NUMBER_ACTION</key>
+	<string>顯示安全碼</string>
+	<key>SHOW_THREAD_BUTTON_TITLE</key>
+	<string>顯示對話</string>
+	<key>SMS_INVITE_BODY</key>
+	<string>邀請您安裝 Signal！這裡是連結：</string>
+	<key>SOUNDS_NONE</key>
+	<string>靜音</string>
+	<key>STICKERS_FAILED_DOWNLOAD</key>
+	<string>貼圖</string>
+	<key>STICKERS_INSTALL_BUTTON</key>
+	<string>安裝</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_BUILT_IN_PACKS_SECTION_TITLE</key>
+	<string>Signal 藝術家系列</string>
+	<key>STICKERS_MANAGE_VIEW_AVAILABLE_KNOWN_PACKS_SECTION_TITLE</key>
+	<string>你收到的貼圖</string>
+	<key>STICKERS_MANAGE_VIEW_FAILED_KNOWN_PACKS</key>
+	<string>有些圖示表情包無法被讀取</string>
+	<key>STICKERS_MANAGE_VIEW_INSTALLED_PACKS_SECTION_TITLE</key>
+	<string>已裝的貼圖</string>
+	<key>STICKERS_MANAGE_VIEW_LOADING_KNOWN_PACKS</key>
+	<string>讀取中...</string>
+	<key>STICKERS_MANAGE_VIEW_NO_INSTALLED_PACKS</key>
+	<string>沒有貼圖被安裝</string>
+	<key>STICKERS_MANAGE_VIEW_NO_KNOWN_PACKS</key>
+	<string>你收到的貼圖訊息將顯示在這裡</string>
+	<key>STICKERS_MANAGE_VIEW_TITLE</key>
+	<string>貼圖</string>
+	<key>STICKERS_PACK_DEFAULT_TITLE</key>
+	<string>貼圖包</string>
+	<key>STICKERS_PACK_SHARE_VIEW_TITLE</key>
+	<string>分享貼圖包</string>
+	<key>STICKERS_PACK_VIEW_DEFAULT_TITLE</key>
+	<string>貼圖包</string>
+	<key>STICKERS_PACK_VIEW_FAILED_TO_LOAD</key>
+	<string>貼圖包讀取失敗</string>
+	<key>STICKERS_UNINSTALL_BUTTON</key>
+	<string>移除</string>
+	<key>STICKER_MESSAGE_PREVIEW</key>
+	<string>貼圖訊息</string>
+	<key>STICKER_PACK_INSTALLED_TOOLTIP</key>
+	<string>貼圖包已安裝</string>
+	<key>SUCCESSFUL_VERIFICATION_DESCRIPTION</key>
+	<string>你與 %@的安全碼相符合。你可以將此聯絡人標記為已驗證。</string>
+	<key>SUCCESSFUL_VERIFICATION_TITLE</key>
+	<string>安全碼符合！</string>
+	<key>SYSTEM_MESSAGE_ACTION_VERIFY_SAFETY_NUMBER</key>
+	<string>驗證安全碼</string>
+	<key>THREAD_DETAILS_GROUP_MEMBER_COUNT_FORMAT</key>
+	<string>%lu 組員</string>
+	<key>THREAD_DETAILS_MORE_MUTUAL_GROUP</key>
+	<string>%@、%@的組員及 %lu 其他群組</string>
+	<key>THREAD_DETAILS_NOTE_TO_SELF_EXPLANATION</key>
+	<string>你可以在此對話中為自己增加筆記。 如果你的帳號有任何連結的裝置，則新的筆記將被同步。</string>
+	<key>THREAD_DETAILS_ONE_MUTUAL_GROUP</key>
+	<string>%@的組員</string>
+	<key>THREAD_DETAILS_THREE_MUTUAL_GROUP</key>
+	<string>%@、%@及%@的組員</string>
+	<key>THREAD_DETAILS_TWO_MUTUAL_GROUP</key>
+	<string>%@及%@的組員</string>
+	<key>TIME_AMOUNT_DAYS</key>
+	<string>%@天</string>
+	<key>TIME_AMOUNT_DAYS_SHORT_FORMAT</key>
+	<string>%@d</string>
+	<key>TIME_AMOUNT_HOURS</key>
+	<string>%@小時</string>
+	<key>TIME_AMOUNT_HOURS_SHORT_FORMAT</key>
+	<string>%@h</string>
+	<key>TIME_AMOUNT_MINUTES</key>
+	<string>%@分鐘</string>
+	<key>TIME_AMOUNT_MINUTES_SHORT_FORMAT</key>
+	<string>%@分</string>
+	<key>TIME_AMOUNT_SECONDS</key>
+	<string>%@秒</string>
+	<key>TIME_AMOUNT_SECONDS_SHORT_FORMAT</key>
+	<string>%@s</string>
+	<key>TIME_AMOUNT_SINGLE_DAY</key>
+	<string>%@天</string>
+	<key>TIME_AMOUNT_SINGLE_HOUR</key>
+	<string>%@小時</string>
+	<key>TIME_AMOUNT_SINGLE_MINUTE</key>
+	<string>%@分鐘</string>
+	<key>TIME_AMOUNT_SINGLE_WEEK</key>
+	<string>%@週</string>
+	<key>TIME_AMOUNT_WEEKS</key>
+	<string>%@週</string>
+	<key>TIME_AMOUNT_WEEKS_SHORT_FORMAT</key>
+	<string>%@w</string>
+	<key>TXT_CANCEL_TITLE</key>
+	<string>取消</string>
+	<key>TXT_DELETE_TITLE</key>
+	<string>刪除</string>
+	<key>UNARCHIVE_ACTION</key>
+	<string>解除封存</string>
+	<key>UNKNOWN_CONTACT_BLOCK_OFFER</key>
+	<string>此使用者不在你的聯絡資訊名單中，是否要封鎖該使用者？</string>
+	<key>UNKNOWN_CONTACT_NAME</key>
+	<string>未知的聯絡人</string>
+	<key>UNKNOWN_COUNTRY_NAME</key>
+	<string>未知的國家</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_FROM_LINKED_DEVICE</key>
+	<string>你的某個裝置傳送了一則無法處理或顯示的訊息，因為它使用了新的 Signal 功能。</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITHOUT_NAME</key>
+	<string>您收到一條無法處理或顯示的消息，因為它使用了新的 Signal 功能。</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_NEED_TO_UPGRADE_WITH_NAME_FORMAT</key>
+	<string>%@ 發送了一條無法處理或顯示的訊息，因為它使用了新的Signal 功能。</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_BUTTON</key>
+	<string>請立即更新 Signal </string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_FROM_LINKED_DEVICE</key>
+	<string>已更新至最新版本的Signal。你現在可以在裝置上接收此訊息類型。</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITHOUT_NAME</key>
+	<string>你現在可以要求對方重新傳送這個訊息因你已經使用最新版本的 Signal。</string>
+	<key>UNKNOWN_PROTOCOL_VERSION_UPGRADE_COMPLETE_WITH_NAME_FORMAT</key>
+	<string>你現在可以要求 %@ 重新傳送這個訊息因你已經使用最新版本的 Signal。</string>
+	<key>UNKNOWN_VALUE</key>
+	<string>未知</string>
+	<key>UNLINKED_WARNING</key>
+	<string>裝置在被連結。請將手機重新連結 Signal 以繼續傳送訊息。</string>
+	<key>UNLINKING_FAILED_ALERT_TITLE</key>
+	<string>Signal無法取消裝置連結</string>
+	<key>UNLINK_ACTION</key>
+	<string>取消連結</string>
+	<key>UNLINK_CONFIRMATION_ALERT_BODY</key>
+	<string>如果取消連結，本裝置將無法傳送或接收訊息了。</string>
+	<key>UNLINK_CONFIRMATION_ALERT_TITLE</key>
+	<string>取消和「%@」的連結？</string>
+	<key>UNNAMED_DEVICE</key>
+	<string>未命名的裝置</string>
+	<key>UNREGISTER_SIGNAL_FAIL</key>
+	<string>無法從 Signal註銷。</string>
+	<key>UNSUPPORTED_ATTACHMENT</key>
+	<string>接收到不支援的附件類型。</string>
+	<key>UNSUPPORTED_FEATURE_ERROR</key>
+	<string>你的裝置不支援這項功能。</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_MESSAGE</key>
+	<string>你無法移除群組組員。只能讓他們自行退出，或者你可以建立一個不含該組員的新群組。</string>
+	<key>UPDATE_GROUP_CANT_REMOVE_MEMBERS_ALERT_TITLE</key>
+	<string>不支援</string>
+	<key>UPDATE_GROUP_FAILED</key>
+	<string>群組無法更新。</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_CREATE_BUTTON</key>
+	<string>建立你的 PIN 碼</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_LEARN_MORE_BUTTON</key>
+	<string>了解更多有關 PIN 碼</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_DESCRIPTION</key>
+	<string>你的註冊鎖現在稱為PIN碼，並且功能更多。 請立即更新。</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_MIGRATION_TITLE</key>
+	<string>註冊鎖 = PIN 碼</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_DESCRIPTION</key>
+	<string>PIN碼為你的帳戶增加了另一層級的安全性。 立即建立你的PIN碼。</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_SETUP_TITLE</key>
+	<string>介紹 PIN 碼</string>
+	<key>UPGRADE_EXPERIENCE_INTRODUCING_PINS_WHY_BUTTON</key>
+	<string>我必須建立 PIN 碼嗎？</string>
+	<key>UPGRADE_IOS_ALERT_MESSAGE</key>
+	<string>Signal 將要求 iOS 10 以上才能使用。請在 "設定" &gt;&gt; "一般" &gt;&gt; "軟體更新" 中升級。</string>
+	<key>UPGRADE_IOS_ALERT_TITLE</key>
+	<string>更新 iOS</string>
+	<key>USERNAME_DESCRIPTION</key>
+	<string>Signal上的使用者名稱是選則性的。 如果你選擇創建使用者名稱，其他Signal 使用者將能透過使用者名稱找到你，並在不知道你的電話號碼的情況下與你聯繫。</string>
+	<key>USERNAME_FIELD</key>
+	<string>使用者名稱</string>
+	<key>USERNAME_INVALID_CHARACTERS_ERROR</key>
+	<string>使用者名稱只能包涵a-z、0-9、及_</string>
+	<key>USERNAME_LOOKUP_ERROR</key>
+	<string>搜尋使用者名稱時發生錯誤。 請稍後再試。</string>
+	<key>USERNAME_NOT_FOUND_FORMAT</key>
+	<string>%@不是 Signal 使用者。請確認你輸入完整的使用者名稱。</string>
+	<key>USERNAME_NOT_FOUND_TITLE</key>
+	<string>找不到使用者</string>
+	<key>USERNAME_PLACEHOLDER</key>
+	<string>輸入使用者名稱</string>
+	<key>USERNAME_PREFIX</key>
+	<string>@</string>
+	<key>USERNAME_STARTS_WITH_NUMBER_ERROR</key>
+	<string>使用者名稱不能以數字開頭。</string>
+	<key>USERNAME_TITLE</key>
+	<string>使用者名稱</string>
+	<key>USERNAME_TOO_SHORT_ERROR</key>
+	<string>使用者名稱必須至少有4個字母。</string>
+	<key>USERNAME_UNAVAIALBE_ERROR_FORMAT</key>
+	<string>%@已經被使用。</string>
+	<key>USERNAME_VIEW_ERROR_UPDATE_FAILED</key>
+	<string>使用者名稱更新失敗。</string>
+	<key>VALIDATION_ERROR_CANNOT_BE_BLANK</key>
+	<string>裝置名稱無法設為空白</string>
+	<key>VALIDATION_ERROR_TOO_LONG</key>
+	<string>裝置名稱 太長</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_LOCAL</key>
+	<string>你已將 %@標示為未驗證。</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE</key>
+	<string>你已在其他裝置將 %@標記為未認證。</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL</key>
+	<string>你已將 %@標示為已驗證。</string>
+	<key>VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE</key>
+	<string>你已在其他裝置將 %@標記為已驗證。</string>
+	<key>VERIFICATION_STATE_CHANGE_GENERIC</key>
+	<string>驗證狀態已改變。</string>
+	<key>VERIFY_PRIVACY</key>
+	<string>檢視安全碼</string>
+	<key>VERIFY_PRIVACY_MULTIPLE</key>
+	<string>檢查安全碼</string>
+	<key>VIEW_ONCE_ALREADY_VIEWED_TOAST</key>
+	<string>你已經看過這個訊息。</string>
+	<key>VIEW_ONCE_MESSAGES_TOOLTIP</key>
+	<string>點擊此處使該訊息在查看後消失。</string>
+	<key>VIEW_ONCE_OUTGOING_TOAST</key>
+	<string>一次性媒體檔案在傳送後會自動刪除。</string>
+	<key>VOICE_MESSAGE_CANCEL_INSTRUCTIONS</key>
+	<string>滑動以取消</string>
+	<key>VOICE_MESSAGE_FILE_NAME</key>
+	<string>語音訊息</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_MESSAGE</key>
+	<string>按住不放來錄製語音訊息。</string>
+	<key>VOICE_MESSAGE_TOO_SHORT_ALERT_TITLE</key>
+	<string>語音訊息</string>
+	<key>WAITING_TO_COMPLETE_DEVICE_LINK_TEXT</key>
+	<string>Signal 電腦版安裝成功。</string>
+	<key>YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>你關閉了自動銷毀訊息的功能。</string>
+	<key>YOU_MUST_COMPLETE_ONBOARDING_BEFORE_PROCEEDING</key>
+	<string>在繼續之前，你必須先完成設定。</string>
+	<key>YOU_UPDATED_DISAPPEARING_MESSAGES_CONFIGURATION</key>
+	<string>訊息銷毀時間設置為%@。</string>
+	<key>new_message</key>
+	<string>新訊息</string>
+</dict>
+</plist>

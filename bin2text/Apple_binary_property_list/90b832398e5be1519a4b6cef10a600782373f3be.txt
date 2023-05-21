@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRENDS_COACHING_ONE_DAY_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si avui fas {{goal_value:minutes}} minuts d’exercici, aquesta fletxa apuntarà cap amunt demà mateix. Tu pots aconseguir-ho!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici té bona pinta. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici apunta en la direcció correcta. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici està cap avall, però a punt de tornar a girar cap amunt. Fes {{goal_value:minutes}} minuts d’exercici al dia durant els següents %#@num_days@ per capgirar la situació.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa està cap avall, però últimament estàs fent més minuts d’exercici. Fes-ne almenys {{goal_value:minutes}} al dia durant els següents 30 dies per aconseguir fer girar la fletxa. Vinga, {{username}}, que portes un bon ritme!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per fer girar aquesta fletxa, fes almenys {{goal_value:minutes}} minuts d’exercici de mitjana al dia durant els següents 30 dies. Últimament estàs fent més minuts d’exercici, així que serà bufar i fer ampolles, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aquesta fletxa està cap avall, però no li queda gaire. Fes que els teus minuts d’exercici superin els {{goal_value:minutes}} al dia durant els següents %#@num_days@ i la fletxa tornarà a apuntar cap amunt.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continua fent almenys {{goal_value:minutes}} minuts d’exercici al dia per mantenir aquesta fletxa cap amunt. Ho estàs fent molt bé, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici té bona pinta, {{username}}. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa està cap avall, però últimament estàs fent més minuts d’exercici. Fes-ne almenys {{goal_value:minutes}} al dia durant els següents 14 dies per aconseguir fer girar la fletxa. Vinga, que portes un bon ritme!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pots fer girar la fletxa d’exercici en %#@num_days@! Fes almenys {{goal_value:minutes}} minuts d’exercici al dia i ho aconseguiràs.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici està cap amunt. Assegura’t de fer almenys {{goal_value:minutes}} minuts d’exercici al dia per mantenir aquest ritme!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per tornar a fer pujar aquesta fletxa, fes almenys {{goal_value:minutes}} minuts d’exercici al dia durant els següents %#@num_days@. Tu pots!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici té bona pinta, {{username}}. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa està cap avall, però últimament estàs fent més minuts d’exercici. Fes-ne almenys {{goal_value:minutes}} al dia durant els següents 14 dies per aconseguir fer girar la fletxa. Vinga, {{username}}, que portes un bon ritme!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continua fent almenys {{goal_value:minutes}} minuts d’exercici al dia per mantenir aquesta fletxa cap amunt. Ho estàs fent molt bé!</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per fer girar aquesta fletxa, fes almenys {{goal_value:minutes}} minuts d’exercici de mitjana al dia durant els següents 14 dies. Últimament estàs fent més minuts d’exercici, així que serà bufar i fer ampolles, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Aquesta fletxa està cap avall, però no li queda gaire, {{username}}. Fes que els teus minuts d’exercici superin els {{goal_value:minutes}} al dia durant els següents %#@num_days@ i la fletxa tornarà a apuntar cap amunt.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici apunta en la direcció correcta, {{username}}. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Pots fer girar la fletxa d’exercici en %#@num_days@, {{username}}! Fes almenys {{goal_value:minutes}} minuts d’exercici al dia i ho aconseguiràs.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici està cap avall, però a punt de tornar a girar cap amunt, {{username}}! Fes {{goal_value:minutes}} minuts d’exercici al dia durant els següents %#@num_days@ per capgirar la situació.</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_ONE_WEEK_NAME_4</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per tornar a fer pujar aquesta fletxa, fes almenys {{goal_value:minutes}} minuts d’exercici al dia durant els següents %#@num_days@. Tu pots, {{username}}!</string>
+		<key>num_days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d dia</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d dies</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per començar, intenta fer almenys {{goal_value:minutes}} minuts d’exercici al dia. Després, posa’t un nou objectiu cada setmana. Aconsegueix els objectius i faràs girar la fletxa en unes %#@num_weeks@.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d setmana</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d setmanes</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa està cap avall, però últimament estàs fent més minuts d’exercici. Fes-ne almenys {{goal_value:minutes}} al dia durant els següents 30 dies per aconseguir fer girar la fletxa. Vinga, que portes un bon ritme!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continua fent almenys {{goal_value:minutes}} minuts d’exercici al dia per mantenir aquesta fletxa cap amunt. Ho estàs fent molt bé!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici apunta en la direcció correcta, {{username}}. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici està cap amunt. Assegura’t de fer almenys {{goal_value:minutes}} minuts d’exercici al dia per mantenir aquest ritme, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si fas una caminada a un ritme moderat cada dia, augmentaràs els minuts d’exercici. Tu pots, {{username}}.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_UP_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici té bona pinta. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_3</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa d’exercici apunta en la direcció correcta. Ben fet.</string>
+	</dict>
+	<key>TRENDS_COACHING_TWO_WEEKS_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per fer girar aquesta fletxa, fes almenys {{goal_value:minutes}} minuts d’exercici de mitjana al dia durant els següents 14 dies. Últimament estàs fent més minuts d’exercici, així que serà bufar i fer ampolles!</string>
+	</dict>
+	<key>TRENDS_COACHING_WITHIN_THREE_MONTHS_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>És bo tenir aquesta fletxa cap amunt. Comença fent {{goal_value:minutes}} minuts d’exercici de mitjana aquesta setmana. Si vas progressant de manera constant, t’hauria de costar unes %#@num_weeks@ fer girar la fletxa.</string>
+		<key>num_weeks</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>one</key>
+			<string>%d setmana</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>other</key>
+			<string>%d setmanes</string>
+		</dict>
+	</dict>
+	<key>TRENDS_COACHING_WAY_DOWN_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Si fas una caminada a un ritme moderat cada dia, augmentaràs els minuts d’exercici. Tu pots.</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_NAME_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa està cap amunt, però últimament estan baixant els teus minuts d’exercici. Intenta fer una caminada a un ritme moderat cada dia per mantenir-la cap amunt, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_DAY_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>{{username}}, si avui fas {{goal_value:minutes}} minuts d’exercici, aquesta fletxa apuntarà cap amunt demà mateix. Tu pots aconseguir-ho!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_DOWN_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>La fletxa està cap amunt, però últimament estan baixant els teus minuts d’exercici. Intenta fer una caminada a un ritme moderat cada dia per mantenir-la cap amunt!</string>
+	</dict>
+	<key>TRENDS_COACHING_UP_FLAT_NAME_1</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Continua fent almenys {{goal_value:minutes}} minuts d’exercici al dia per mantenir aquesta fletxa cap amunt. Ho estàs fent molt bé, {{username}}!</string>
+	</dict>
+	<key>TRENDS_COACHING_ONE_MONTH_2</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Per fer girar aquesta fletxa, fes almenys {{goal_value:minutes}} minuts d’exercici de mitjana al dia durant els següents 30 dies. Últimament estàs fent més minuts d’exercici, així que serà bufar i fer ampolles!</string>
+	</dict>
+</dict>
+</plist>

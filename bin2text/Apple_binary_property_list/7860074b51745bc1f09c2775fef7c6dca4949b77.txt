@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%u new votes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_new_votes@</string>
+		<key>num_new_votes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u הצבעות חדשות</string>
+			<key>many</key>
+			<string>%u הצבעות חדשות</string>
+			<key>one</key>
+			<string>הצבעה חדשה %u</string>
+			<key>other</key>
+			<string>%u הצבעות חדשות</string>
+			<key>two</key>
+			<string>%u הצבעות חדשות</string>
+			<key>zero</key>
+			<string>%u הצבעות חדשות</string>
+		</dict>
+	</dict>
+	<key>%u votes</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_votes@</string>
+		<key>num_votes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>few</key>
+			<string>%u הצבעות</string>
+			<key>many</key>
+			<string>%u הצבעות</string>
+			<key>one</key>
+			<string>הצבעה %u</string>
+			<key>other</key>
+			<string>%u הצבעות</string>
+			<key>two</key>
+			<string>%u הצבעות</string>
+			<key>zero</key>
+			<string>%u הצבעות</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOWNLOAD_FAILED_MESSAGE_PLURAL</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%1$#@episode_count@</string>
+		<key>title</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>„%@“</string>
+			<key>one</key>
+			<string>„%@“</string>
+			<key>many</key>
+			<string>„%@“</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>„%@“</string>
+		</dict>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%2$#@title@ a %lu další položky nelze stáhnout. Zkuste to znovu později.</string>
+			<key>one</key>
+			<string>%2$#@title@ a jednu další položku nelze stáhnout. Zkuste to znovu později.</string>
+			<key>many</key>
+			<string>%2$#@title@ a %lu dalších položek nelze stáhnout. Zkuste to znovu později.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%2$#@title@ a %lu dalších položek nelze stáhnout. Zkuste to znovu později.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_RESTORED_CONTENT_ALERT_MESSAGE_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Nejnovější epizody v knihovně se stáhnou znovu automaticky. Na stažení čekají %lu starší epizody.</string>
+			<key>one</key>
+			<string>Nejnovější epizody v knihovně se stáhnou znovu automaticky. Na stažení čeká %lu starší epizoda.</string>
+			<key>many</key>
+			<string>Nejnovější epizody v knihovně se stáhnou znovu automaticky. Na stažení čeká %lu starší epizody.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Nejnovější epizody v knihovně se stáhnou znovu automaticky. Na stažení čeká %lu starších epizod.</string>
+		</dict>
+	</dict>
+	<key>DOWNLOAD_FAILED_TITLE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Podcasty nelze stáhnout</string>
+			<key>one</key>
+			<string>Podcast nelze stáhnout</string>
+			<key>many</key>
+			<string>Podcasty nelze stáhnout</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Podcasty nelze stáhnout</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODES_AVAILABLE_COALESCING_SUMMARY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u další epizody z „%@“</string>
+			<key>one</key>
+			<string>%u další epizoda z „%@“</string>
+			<key>many</key>
+			<string>%u další epizody z „%@“</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u dalších epizod z „%@“</string>
+		</dict>
+	</dict>
+	<key>CLEAR_QUEUE_PROMPT_MESSAGE</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Chcete po přehrání této položky pokračovat v poslechu %lu epizod, které jste vybrali pro přehrání jako další?</string>
+			<key>one</key>
+			<string>Chcete po přehrání této položky pokračovat v poslechu epizody, kterou jste vybrali pro přehrání jako další?</string>
+			<key>many</key>
+			<string>Chcete po přehrání této položky pokračovat v poslechu %lu epizod, které jste vybrali pro přehrání jako další?</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Chcete po přehrání této položky pokračovat v poslechu %lu epizod, které jste vybrali pro přehrání jako další?</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_EPISODE_N_AVAILABLE_HEADER_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>%u nové epizody</string>
+			<key>one</key>
+			<string>%u nová epizoda</string>
+			<key>many</key>
+			<string>%u nové epizody</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>%u nových epizod</string>
+		</dict>
+	</dict>
+	<key>NOTIFICATION_MULTIPLE_EPISODES_AVAILABLE_MESSAGE_BODY_FORMAT</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@episode_count@</string>
+		<key>episode_count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>few</key>
+			<string>Jsou k dispozici %lu nové epizody.</string>
+			<key>one</key>
+			<string>Je k dispozici %lu nová epizoda.</string>
+			<key>many</key>
+			<string>Je k dispozici %lu nové epizody.</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>other</key>
+			<string>Je k dispozici %lu nových epizod.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
